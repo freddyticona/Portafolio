@@ -33,7 +33,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const galleryRef = useRef<HTMLDivElement>(null);
 
-  // Imágenes reales de coberturas de Freddy Ticona (usando imágenes más ligeras)
+  // Imágenes reales de coberturas de Freddy Ticona (usando imágenes optimizadas)
   const behindScenesImages: BehindScenesImage[] = [
     {
       src: '/images/behind-scenes/DSC_2994.jpg',
@@ -44,44 +44,44 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'La Paz, Bolivia'
     },
     {
-      src: '/images/behind-scenes/DSC_3001.jpg',
-      alt: 'Equipo de cámaras',
-      title: lang === 'es' ? 'Equipo profesional de grabación' : 'Professional recording equipment',
-      category: 'equipment',
-      year: '2021',
-      location: 'Estudio Bolivia TV'
-    },
-    {
-      src: '/images/behind-scenes/DSC_0668.JPG',
-      alt: 'Operación de cámara',
-      title: lang === 'es' ? 'Operando cámara profesional' : 'Operating professional camera',
-      category: 'equipment',
-      year: '2019',
-      location: 'Cobertura'
-    },
-    {
-      src: '/images/behind-scenes/DSC_0715.JPG',
-      alt: 'En el set',
-      title: lang === 'es' ? 'Trabajando en el set de grabación' : 'Working on filming set',
-      category: 'set',
-      year: '2019',
+      src: '/images/behind-scenes/28082012255.jpg',
+      alt: 'Trabajo en campo',
+      title: lang === 'es' ? 'Grabación en exteriores' : 'Outdoor filming',
+      category: 'location',
+      year: '2018',
       location: 'Locación'
     },
     {
-      src: '/images/behind-scenes/DSC_0739.JPG',
-      alt: 'Preparativos',
-      title: lang === 'es' ? 'Preparativos de filmación' : 'Filming preparations',
-      category: 'equipment',
-      year: '2019',
+      src: '/images/behind-scenes/24072012043.jpg',
+      alt: 'Producción técnica',
+      title: lang === 'es' ? 'Equipo de producción técnica' : 'Technical production team',
+      category: 'team',
+      year: '2018',
       location: 'Set'
     },
     {
-      src: '/images/behind-scenes/DSC_2987.jpg',
-      alt: 'Cobertura técnica',
-      title: lang === 'es' ? 'Cobertura técnica especializada' : 'Specialized technical coverage',
+      src: '/images/behind-scenes/DSC_0044.jpg',
+      alt: 'Cámara profesional',
+      title: lang === 'es' ? 'Equipo profesional' : 'Professional equipment',
+      category: 'equipment',
+      year: '2018',
+      location: 'Estudio'
+    },
+    {
+      src: '/images/behind-scenes/08092012536.jpg',
+      alt: 'Cobertura especial',
+      title: lang === 'es' ? 'Cobertura de evento especial' : 'Special event coverage',
       category: 'set',
-      year: '2021',
+      year: '2018',
       location: 'Evento'
+    },
+    {
+      src: '/images/behind-scenes/1428941048045(1).jpg',
+      alt: 'Preproducción',
+      title: lang === 'es' ? 'Preparativos de grabación' : 'Filming preparations',
+      category: 'equipment',
+      year: '2016',
+      location: 'Set'
     }
   ];
 
