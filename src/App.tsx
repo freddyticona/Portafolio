@@ -17,6 +17,7 @@ import {
 } from './translations';
 
 import { CONTACT_INFO } from './config';
+import { updateMetaTags, generatePageSchema } from './lib/seo';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -36,6 +37,7 @@ import LocationsMap from './components/LocationsMap';
 import BookingSystem from './components/BookingSystem';
 import Chatbot from './components/Chatbot';
 import CommentSystem from './components/CommentSystem';
+import ServiceLanding from './components/ServiceLanding';
 
 import { 
   Award, 
@@ -99,7 +101,7 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '') as PageId;
-      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'blog', 'contacto', 'reservas', 'admin'];
+      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'blog', 'contacto', 'reservas', 'servicios', 'admin'];
       if (validPages.includes(hash)) {
         setActivePage(hash);
         // Clear sub-views on page change
@@ -118,6 +120,26 @@ export default function App() {
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
+
+  // Actualizar meta tags cuando cambia la página o el idioma
+  useEffect(() => {
+    updateMetaTags(activePage, lang);
+
+    // Agregar structured data específico de la página si existe
+    const schema = generatePageSchema(activePage, lang);
+    if (Object.keys(schema).length > 0) {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.textContent = JSON.stringify(schema);
+      script.id = 'page-schema';
+      const existingSchema = document.getElementById('page-schema');
+      if (existingSchema) {
+        existingSchema.replaceWith(script);
+      } else {
+        document.head.appendChild(script);
+      }
+    }
+  }, [activePage, lang]);
 
   // Helper translation getter
   const t = translations[lang];
@@ -836,7 +858,21 @@ export default function App() {
         )}
 
         {/* ==================================================================== */}
-        {/* PAGE 8: ADMIN (Hidden Panel) */}
+        {/* PAGE 8: SERVICIOS (Landing Pages) */}
+        {/* ==================================================================== */}
+        {activePage === 'servicios' && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-fadeIn">
+            <ServiceLanding
+              lang={lang}
+              t={t}
+              onContact={() => handleNavToTab('contacto')}
+              onBooking={() => handleNavToTab('reservas')}
+            />
+          </div>
+        )}
+
+        {/* ==================================================================== */}
+        {/* PAGE 9: ADMIN (Hidden Panel) */}
         {/* ==================================================================== */}
         {activePage === 'admin' && (
           <AdminPanel lang={lang} onBack={() => handleNavToTab('inicio')} />

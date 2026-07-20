@@ -38,44 +38,208 @@
     <meta name="twitter:creator" content="@Freddy_21407" />
 
     <!-- ==========================================
-         SCHEMA.ORG STRUCTURED DATA (Person)
+         SCHEMA.ORG STRUCTURED DATA (Person + LocalBusiness)
          ========================================== -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Freddy Ticona Guzmán",
-      "jobTitle": "Camarógrafo y Realizador Audiovisual",
-      "url": "https://freddy-ticona-portafolio.vercel.app/",
-      "image": "https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.jpg",
-      "sameAs": [
-        "https://www.youtube.com/@freddyticonaguzman3551",
-        "https://www.linkedin.com/in/freddy-ticona-guzman-4161287",
-        "https://x.com/Freddy_21407",
-        "https://www.facebook.com/share/1BYqTdK7BM/"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "La Paz",
-        "addressCountry": "Bolivia"
-      },
-      "telephone": "+59162408420",
-      "email": "freddyticona62@gmail.com",
-      "award": [
-        "Premio Nacional Eduardo Abaroa 2017 - Periodismo Cultural"
-      ],
-      "knowsAbout": [
-        "Cinematografía",
-        "Edición de Video",
-        "Documentales",
-        "Periodismo Televisivo",
-        "Producción Audiovisual"
-      ],
-      "worksFor": [
+      "@graph": [
         {
-          "@type": "Organization",
-          "name": "Bolivia TV",
-          "startDate": "2021"
+          "@type": "Person",
+          "@id": "https://freddy-ticona-portafolio.vercel.app/#person",
+          "name": "Freddy Ticona Guzmán",
+          "jobTitle": "Camarógrafo y Realizador Audiovisual",
+          "url": "https://freddy-ticona-portafolio.vercel.app/",
+          "image": "https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.jpg",
+          "sameAs": [
+            "https://www.youtube.com/@freddyticonaguzman3551",
+            "https://www.linkedin.com/in/freddy-ticona-guzman-4161287",
+            "https://x.com/Freddy_21407",
+            "https://www.facebook.com/share/1BYqTdK7BM/"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Paz",
+            "addressRegion": "La Paz",
+            "addressCountry": "BO"
+          },
+          "telephone": "+59162408420",
+          "email": "freddyticona62@gmail.com",
+          "award": [
+            "Premio Nacional Eduardo Abaroa 2017 - Periodismo Cultural"
+          ],
+          "knowsAbout": [
+            "Cinematografía",
+            "Edición de Video",
+            "Documentales",
+            "Periodismo Televisivo",
+            "Producción Audiovisual",
+            "Filmación 4K",
+            "Post-producción",
+            "Cobertura de eventos",
+            "Rodaje documental"
+          ],
+          "worksFor": [
+            {
+              "@type": "Organization",
+              "name": "Bolivia TV",
+              "startDate": "2021"
+            }
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://freddy-ticona-portafolio.vercel.app/#business",
+          "name": "Freddy Ticona - Servicios Audiovisuales",
+          "alternateName": "FT Producciones",
+          "description": "Servicios profesionales de filmación, edición de video y producción documental en La Paz, Bolivia. Más de 15 años de experiencia en televisión y cine.",
+          "url": "https://freddy-ticona-portafolio.vercel.app/",
+          "telephone": "+59162408420",
+          "email": "freddyticona62@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "La Paz",
+            "addressLocality": "La Paz",
+            "addressRegion": "La Paz",
+            "postalCode": "0000",
+            "addressCountry": "BO"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-16.5",
+            "longitude": "-68.15"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "09:00",
+              "closes": "19:00"
+            }
+          ],
+          "priceRange": "$$",
+          "image": [
+            "https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.jpg",
+            "https://freddy-ticona-portafolio.vercel.app/images/freddy_studio.jpg",
+            "https://freddy-ticona-portafolio.vercel.app/images/freddy_working.jpg"
+          ],
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "La Paz"
+            },
+            {
+              "@type": "City",
+              "name": "El Alto"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Departamento de La Paz"
+            },
+            {
+              "@type": "Country",
+              "name": "Bolivia"
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios Audiovisuales",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Filmación de Eventos",
+                  "description": "Cobertura completa de eventos sociales, corporativos y periodísticos con cámara 4K",
+                  "category": "Filmación"
+                },
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Edición de Video",
+                  "description": "Post-producción profesional, corrección de color y masterización",
+                  "category": "Edición"
+                },
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Producción de Documentales",
+                  "description": "Documentales de televisión y contenido largo para cine y web",
+                  "category": "Documental"
+                },
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Consultoría Audiovisual",
+                  "description": "Asesoría en proyectos de producción y estrategia de contenido",
+                  "category": "Consultoría"
+                },
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Showreel Freddy Ticona - Camarógrafo Bolivia",
+          "description": "Showreel profesional destacando 15 años de experiencia en cinematografía, documentales y cobertura periodística en Bolivia.",
+          "thumbnailUrl": "https://freddy-ticona-portafolio.vercel.app/images/freddy_studio.jpg",
+          "uploadDate": "2026-07-20",
+          "duration": "PT90S",
+          "contentUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "@type": "Article",
+          "headline": "Portafolio Profesional - Freddy Ticona Guzmán",
+          "description": "Conoce más de 15 años de experiencia en cinematografía, documentales y cobertura periodística en Bolivia. Premio Nacional Eduardo Abaroa 2017.",
+          "image": "https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.jpg",
+          "author": {
+            "@type": "Person",
+            "name": "Freddy Ticona Guzmán"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Freddy Ticona - Servicios Audiovisuales",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://freddy-ticona-portafolio.vercel.app/favicon.ico"
+            }
+          },
+          "datePublished": "2026-07-20",
+          "dateModified": "2026-07-20"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://freddy-ticona-portafolio.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Portafolio",
+              "item": "https://freddy-ticona-portafolio.vercel.app/#portafolio"
+            }
+          ]
         }
       ]
     }

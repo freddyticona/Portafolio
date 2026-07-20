@@ -24,6 +24,7 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
     { id: 'portafolio', label: t.navPortfolio },
     { id: 'cv', label: t.navCv },
     { id: 'blog', label: t.navBlog },
+    { id: 'servicios', label: lang === 'es' ? 'Servicios' : 'Services' },
     { id: 'reservas', label: lang === 'es' ? 'Reservas' : 'Booking' },
     { id: 'contacto', label: t.navContact },
   ];
