@@ -41,12 +41,23 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#050505]/90 border-b border-white/5 backdrop-blur-md">
+    <nav className="sticky top-0 z-50 bg-[#050505]/90 border-b border-white/5 backdrop-blur-md" role="navigation" aria-label={lang === 'es' ? 'Navegación principal' : 'Main navigation'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo & Brand Name */}
-          <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer" onClick={() => handleNavClick('inicio')}>
-            <div className="w-10 h-10 bg-gold rounded-sm flex items-center justify-center font-black text-[#050505] text-lg tracking-tighter">
+          <div
+            className="flex-shrink-0 flex items-center gap-3 cursor-pointer"
+            onClick={() => handleNavClick('inicio')}
+            role="button"
+            tabIndex={0}
+            aria-label={lang === 'es' ? 'Ir a inicio' : 'Go to home'}
+            onKeyPress={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                handleNavClick('inicio');
+              }
+            }}
+          >
+            <div className="w-10 h-10 bg-gold rounded-sm flex items-center justify-center font-black text-[#050505] text-lg tracking-tighter" aria-hidden="true">
               FT
             </div>
             <div className="leading-none">
@@ -60,7 +71,7 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-2">
+          <div className="hidden md:flex items-center space-x-2" role="menubar">
             {navItems.map((item) => {
               const isActive = activePage === item.id;
               return (
@@ -68,6 +79,9 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
                   key={item.id}
                   id={`nav-item-${item.id}`}
                   onClick={() => handleNavClick(item.id)}
+                  role="menuitem"
+                  aria-current={isActive ? 'page' : undefined}
+                  aria-label={item.label}
                   className={`px-3.5 py-1.5 rounded-sm text-xs font-semibold uppercase tracking-widest transition-all duration-300 relative ${
                     isActive
                       ? 'text-gold bg-white/5 font-bold'
@@ -76,7 +90,7 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
                 >
                   {item.label}
                   {isActive && (
-                    <span className="absolute bottom-[-10px] left-0 right-0 h-[1px] bg-gold" />
+                    <span className="absolute bottom-[-10px] left-0 right-0 h-[1px] bg-gold" aria-hidden="true" />
                   )}
                 </button>
               );
@@ -88,9 +102,10 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
             <button
               onClick={toggleLanguage}
               id="language-toggle-desktop"
+              aria-label={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-sm border border-white/10 text-stone-300 hover:text-gold hover:bg-white/5 transition-all duration-200 text-xs font-mono font-semibold"
             >
-              <Globe className="w-3.5 h-3.5 text-gold" />
+              <Globe className="w-3.5 h-3.5 text-gold" aria-hidden="true" />
               <span>{lang === 'es' ? 'EN' : 'ES'}</span>
             </button>
           </div>
@@ -100,14 +115,18 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
             <button
               onClick={toggleLanguage}
               id="language-toggle-mobile"
+              aria-label={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
               className="flex items-center gap-1 px-2.5 py-1.5 rounded-sm border border-white/10 text-stone-300 text-xs font-mono font-semibold"
             >
-              <Globe className="w-3.5 h-3.5 text-gold" />
+              <Globe className="w-3.5 h-3.5 text-gold" aria-hidden="true" />
               <span>{lang === 'es' ? 'EN' : 'ES'}</span>
             </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               id="mobile-menu-toggle"
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
+              aria-label={mobileMenuOpen ? (lang === 'es' ? 'Cerrar menú' : 'Close menu') : (lang === 'es' ? 'Abrir menú' : 'Open menu')}
               className="inline-flex items-center justify-center p-2 rounded-sm text-stone-400 hover:text-white hover:bg-white/5 focus:outline-none transition-colors"
             >
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -118,7 +137,12 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
 
       {/* Mobile Menu, show/hide based on menu state. */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#050505] border-b border-white/5 py-3 px-4 animate-fadeIn">
+        <div
+          id="mobile-menu"
+          className="md:hidden bg-[#050505] border-b border-white/5 py-3 px-4 animate-fadeIn"
+          role="menu"
+          aria-label={lang === 'es' ? 'Menú de navegación móvil' : 'Mobile navigation menu'}
+        >
           <div className="space-y-1.5">
             {navItems.map((item) => {
               const isActive = activePage === item.id;
@@ -127,6 +151,8 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
                   key={item.id}
                   id={`nav-item-mobile-${item.id}`}
                   onClick={() => handleNavClick(item.id)}
+                  role="menuitem"
+                  aria-current={isActive ? 'page' : undefined}
                   className={`w-full text-left px-4 py-3 rounded-sm text-sm uppercase tracking-widest font-semibold transition-colors flex items-center justify-between ${
                     isActive
                       ? 'text-gold bg-white/5 font-bold border-l-2 border-gold'
@@ -134,7 +160,7 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
                   }`}
                 >
                   <span>{item.label}</span>
-                  {isActive && <div className="w-1.5 h-1.5 bg-gold rounded-full" />}
+                  {isActive && <div className="w-1.5 h-1.5 bg-gold rounded-full" aria-hidden="true" />}
                 </button>
               );
             })}

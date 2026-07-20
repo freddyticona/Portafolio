@@ -6,6 +6,7 @@
 import React, { useState, useMemo } from 'react';
 import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase } from 'lucide-react';
+import LazyImage from './LazyImage';
 
 interface PortfolioGridProps {
   items: PortfolioItem[];
@@ -113,11 +114,9 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
             >
               {/* Card Image Thumbnail */}
               <div className="aspect-video relative overflow-hidden bg-[#050505]">
-                <img
+                <LazyImage
                   src={item.imageUrl}
                   alt={lang === 'es' ? item.title : item.titleEn}
-                  loading="lazy"
-                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 
@@ -223,10 +222,9 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                 </div>
               ) : (
                 <div className="w-full rounded-sm overflow-hidden border border-white/5 bg-[#020202]">
-                  <img
+                  <LazyImage
                     src={activeItem.imageUrl}
                     alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
-                    referrerPolicy="no-referrer"
                     className="w-full max-h-[500px] object-contain mx-auto"
                   />
                 </div>

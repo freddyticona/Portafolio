@@ -235,11 +235,139 @@ export function Spinner({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
 /**
  * Inline loading placeholder
  */
-export function InlineLoading() {
+export function InlineLoading({ lang = 'es' }: { lang?: 'es' | 'en' }) {
   return (
     <div className="flex items-center gap-2 text-stone-500 text-sm">
       <Spinner size="sm" />
-      <span>Cargando...</span>
+      <span>{lang === 'es' ? 'Cargando...' : 'Loading...'}</span>
+    </div>
+  );
+}
+
+/**
+ * Skeleton para Hero Section
+ */
+export function HeroSkeleton() {
+  return (
+    <div className="w-full min-h-[80vh] bg-[#050505] relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#050505]/50 to-[#050505]" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+        <div className="w-full space-y-6 py-20">
+          <Skeleton className="h-4 w-32 mx-auto" />
+          <Skeleton className="h-16 w-3/4 mx-auto max-w-2xl" />
+          <Skeleton className="h-6 w-full mx-auto max-w-xl" />
+          <div className="flex gap-4 justify-center pt-4">
+            <Skeleton className="h-12 w-40" />
+            <Skeleton className="h-12 w-40" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Skeleton para Estadísticas
+ */
+export function StatsSkeleton() {
+  return (
+    <div className="bg-white/[0.01] border-y border-white/5 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          {Array.from({ length: 4 }).map((_, index) => (
+            <div key={index} className="space-y-2">
+              <Skeleton className="h-12 w-20 mx-auto" />
+              <Skeleton className="h-4 w-24 mx-auto" />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Skeleton para Testimonios
+ */
+export function TestimonialSkeleton() {
+  return (
+    <div className="bg-[#020202] border border-white/5 p-6 rounded-sm space-y-4">
+      <div className="space-y-2">
+        <Skeleton className="h-4 w-full" count={3} />
+      </div>
+      <div className="pt-4 border-t border-white/5 space-y-2">
+        <Skeleton className="h-4 w-32" />
+        <Skeleton className="h-3 w-24" />
+        <Skeleton className="h-3 w-40" />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Skeleton para About Section
+ */
+export function AboutSkeleton() {
+  return (
+    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="lg:col-span-5">
+        <Skeleton className="w-full aspect-[4/5]" variant="rectangular" />
+      </div>
+      <div className="lg:col-span-7 space-y-4">
+        <Skeleton className="h-4 w-32" />
+        <Skeleton className="h-8 w-3/4" />
+        <Skeleton className="h-4 w-full" count={4} />
+        <Skeleton className="h-12 w-40" />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Skeleton para CV Section
+ */
+export function CVSkeleton() {
+  return (
+    <div className="space-y-8">
+      {/* Header */}
+      <div className="space-y-3">
+        <Skeleton className="h-4 w-48" />
+        <Skeleton className="h-10 w-64" />
+        <Skeleton className="h-4 w-full max-w-xl" />
+      </div>
+
+      {/* Two column layout */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        {/* Left column */}
+        <div className="space-y-6">
+          <Skeleton className="h-6 w-32" />
+          <div className="space-y-4">
+            {Array.from({ length: 2 }).map((_, i) => (
+              <div key={i} className="space-y-2 p-4 bg-[#020202] rounded-sm">
+                <Skeleton className="h-3 w-20" />
+                <Skeleton className="h-4 w-full" />
+                <Skeleton className="h-3 w-32" />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Right column */}
+        <div className="md:col-span-2 space-y-6">
+          <Skeleton className="h-6 w-40" />
+          <div className="space-y-3">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <div key={i} className="p-4 bg-[#020202] rounded-sm space-y-2">
+                <div className="flex justify-between">
+                  <Skeleton className="h-3 w-24" />
+                  <Skeleton className="h-3 w-16" />
+                </div>
+                <Skeleton className="h-4 w-3/4" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -6,6 +6,7 @@
 import React from 'react';
 import { BlogPost } from '../types';
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react';
+import LazyImage from './LazyImage';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -25,11 +26,9 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
       <div className="space-y-4">
         {/* Post image */}
         <div className="aspect-video w-full overflow-hidden bg-[#050505] relative">
-          <img
+          <LazyImage
             src={post.imageUrl}
             alt={lang === 'es' ? post.titleEs : post.titleEn}
-            loading="lazy"
-            referrerPolicy="no-referrer"
             className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
           />
           <div className="absolute top-3 left-3">

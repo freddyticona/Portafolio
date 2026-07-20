@@ -20,6 +20,7 @@ import { CONTACT_INFO } from './config';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import SkipLink from './components/SkipLink';
 import Timeline from './components/Timeline';
 import PortfolioGrid from './components/PortfolioGrid';
 import CaseStudyDetail from './components/CaseStudyDetail';
@@ -31,6 +32,7 @@ import CinematicHero from './components/CinematicHero';
 import GlobalSearch from './components/GlobalSearch';
 import WhatsAppButton from './components/WhatsAppButton';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
+import LocationsMap from './components/LocationsMap';
 
 import { 
   Award, 
@@ -131,7 +133,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#050505] font-sans text-stone-300 selection:bg-gold selection:text-black flex flex-col justify-between">
-      
+
+      {/* Skip Link para accesibilidad */}
+      <SkipLink lang={lang} />
+
       {/* Sticky Top Header / Navigation */}
       <Navbar 
         activePage={activePage} 
@@ -485,8 +490,8 @@ export default function App() {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                 {testimonials.map((test) => (
-                  <div 
-                    key={test.id} 
+                  <div
+                    key={test.id}
                     id={`testimonial-card-${test.id}`}
                     className="bg-[#020202] border border-white/5 p-6 rounded-sm flex flex-col justify-between hover:border-gold/20 transition-all duration-300"
                   >
@@ -507,6 +512,11 @@ export default function App() {
                   </div>
                 ))}
               </div>
+            </section>
+
+            {/* 5. FILMING LOCATIONS MAP */}
+            <section className="space-y-12 pb-8">
+              <LocationsMap lang={lang} />
             </section>
 
           </div>
