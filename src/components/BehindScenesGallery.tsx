@@ -33,7 +33,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const galleryRef = useRef<HTMLDivElement>(null);
 
-  // Imágenes reales de coberturas de Freddy Ticona
+  // Imágenes reales de coberturas de Freddy Ticona (usando imágenes más ligeras)
   const behindScenesImages: BehindScenesImage[] = [
     {
       src: '/images/behind-scenes/DSC_2994.jpg',
@@ -52,116 +52,36 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Estudio Bolivia TV'
     },
     {
-      src: '/images/behind-scenes/DSC_1971.JPG',
-      alt: 'Freddy en operación',
-      title: lang === 'es' ? 'Operando cámara en evento oficial' : 'Operating camera at official event',
-      category: 'set',
-      year: '2020',
-      location: 'Palacio Quemado'
-    },
-    {
-      src: '/images/behind-scenes/20190302_133138.jpg',
-      alt: 'Cobertura multitudinaria',
-      title: lang === 'es' ? 'Cobertura de evento masivo' : 'Massive event coverage',
-      category: 'set',
-      year: '2019',
-      location: 'La Paz'
-    },
-    {
-      src: '/images/behind-scenes/DSC_2187.JPG',
-      alt: 'Documental en campo',
-      title: lang === 'es' ? 'Grabación de documental' : 'Documentary filming',
-      category: 'location',
-      year: '2019',
-      location: 'Zona rural'
-    },
-    {
-      src: '/images/behind-scenes/DSC_2194.JPG',
-      alt: 'Entrevista en exteriores',
-      title: lang === 'es' ? 'Entrevista en locación' : 'On-location interview',
-      category: 'set',
-      year: '2020',
-      location: 'El Alto'
-    },
-    {
-      src: '/images/behind-scenes/20190228_190246.jpg',
-      alt: 'Equipo de producción',
-      title: lang === 'es' ? 'Con el equipo de producción' : 'With production team',
-      category: 'team',
-      year: '2019',
-      location: 'La Paz'
-    },
-    {
-      src: '/images/behind-scenes/20190208_221221.jpg',
-      alt: 'Configuración de estudio',
-      title: lang === 'es' ? 'Configuración de estudio móvil' : 'Mobile studio setup',
+      src: '/images/behind-scenes/DSC_0668.JPG',
+      alt: 'Operación de cámara',
+      title: lang === 'es' ? 'Operando cámara profesional' : 'Operating professional camera',
       category: 'equipment',
       year: '2019',
-      location: 'Unidad Móvil'
+      location: 'Cobertura'
     },
     {
-      src: '/images/behind-scenes/20190302_203628.jpg',
-      alt: 'Cobertura nocturna',
-      title: lang === 'es' ? 'Cobertura de evento nocturno' : 'Night event coverage',
+      src: '/images/behind-scenes/DSC_0715.JPG',
+      alt: 'En el set',
+      title: lang === 'es' ? 'Trabajando en el set de grabación' : 'Working on filming set',
       category: 'set',
-      year: '2019',
-      location: 'La Paz'
-    },
-    {
-      src: '/images/behind-scenes/DSC_07483.JPG',
-      alt: 'Grabación en la calle',
-      title: lang === 'es' ? 'Cobertura callejera' : 'Street coverage',
-      category: 'set',
-      year: '2016',
-      location: 'La Paz'
-    },
-    {
-      src: '/images/behind-scenes/DSC_07510.JPG',
-      alt: 'Locación histórica',
-      title: lang === 'es' ? 'Grabación en sitio histórico' : 'Filming at historical site',
-      category: 'location',
-      year: '2016',
-      location: 'Casco Viejo'
-    },
-    {
-      src: '/images/behind-scenes/PSX_20190811_094134 1.jpg',
-      alt: 'Producción en exteriores',
-      title: lang === 'es' ? 'Producción en locación' : 'On-location production',
-      category: 'set',
-      year: '2019',
-      location: 'Valle de la Luna'
-    },
-    {
-      src: '/images/behind-scenes/PSX_20190811_094405 1.jpg',
-      alt: 'Cámara en acción',
-      title: lang === 'es' ? 'Cámara en movimiento' : 'Camera in action',
-      category: 'equipment',
       year: '2019',
       location: 'Locación'
     },
     {
-      src: '/images/behind-scenes/PSX_20191228_093046.jpg',
-      alt: 'Equipo trabajando',
-      title: lang === 'es' ? 'El equipo en acción' : 'Team in action',
-      category: 'team',
+      src: '/images/behind-scenes/DSC_0739.JPG',
+      alt: 'Preparativos',
+      title: lang === 'es' ? 'Preparativos de filmación' : 'Filming preparations',
+      category: 'equipment',
       year: '2019',
-      location: 'Estudio'
-    },
-    {
-      src: '/images/behind-scenes/PSX_20191229_110351.jpg',
-      alt: 'Preparativos de grabación',
-      title: lang === 'es' ? 'Preparativos de rodaje' : 'Filming preparations',
-      category: 'set',
-      year: '2019',
-      location: 'Set de grabación'
+      location: 'Set'
     },
     {
       src: '/images/behind-scenes/DSC_2987.jpg',
-      alt: 'Operación técnica',
-      title: lang === 'es' ? 'Operación de cámara profesional' : 'Professional camera operation',
-      category: 'equipment',
+      alt: 'Cobertura técnica',
+      title: lang === 'es' ? 'Cobertura técnica especializada' : 'Specialized technical coverage',
+      category: 'set',
       year: '2021',
-      location: 'Cobertura'
+      location: 'Evento'
     }
   ];
 
@@ -223,14 +143,14 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
 
           <div className="flex items-center gap-6 mt-6 pt-6 border-t border-white/5">
             <div className="text-center">
-              <div className="text-2xl font-bold text-gold font-display">56+</div>
+              <div className="text-2xl font-bold text-gold font-display">6</div>
               <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
-                {lang === 'es' ? 'Fotos' : 'Photos'}
+                {lang === 'es' ? 'Fotos destacadas' : 'Featured photos'}
               </div>
             </div>
             <div className="w-px h-8 bg-white/10" />
             <div className="text-center">
-              <div className="text-2xl font-bold text-gold font-display">2016-2021</div>
+              <div className="text-2xl font-bold text-gold font-display">2019-2021</div>
               <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
                 {lang === 'es' ? 'Periodo' : 'Period'}
               </div>
