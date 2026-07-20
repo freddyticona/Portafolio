@@ -306,7 +306,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
           <h3 className="text-lg font-bold text-white mb-4 text-center">
             {lang === 'es' ? 'Métodos de Pago Aceptados' : 'Accepted Payment Methods'}
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-6">
             <div className="space-y-2">
               <CreditCard className="w-8 h-8 mx-auto text-gold" />
               <p className="text-xs text-stone-400">{lang === 'es' ? 'Tarjeta (Stripe)' : 'Card (Stripe)'}</p>
@@ -322,6 +322,28 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
             <div className="space-y-2">
               <Wallet className="w-8 h-8 mx-auto text-gold" />
               <p className="text-xs text-stone-400">{lang === 'es' ? 'Efectivo' : 'Cash'}</p>
+            </div>
+          </div>
+
+          {/* Bank Details */}
+          <div className="bg-stone-900/50 border border-stone-700 rounded-lg p-4 text-center">
+            <p className="text-stone-400 text-sm mb-2">
+              {lang === 'es' ? 'Datos Bancarios para Transferencias' : 'Bank Details for Transfers'}
+            </p>
+            <div className="font-mono text-sm space-y-1">
+              <p className="text-white">
+                <span className="text-stone-500">{lang === 'es' ? 'Banco' : 'Bank'}:</span> Banco Mercantil Santa Cruz
+              </p>
+              <p className="text-white">
+                <span className="text-stone-500">{lang === 'es' ? 'Cuenta' : 'Account'}:</span>{' '}
+                <span className="text-gold font-bold">1000555157</span> (Caja de Ahorro)
+              </p>
+              <p className="text-white">
+                <span className="text-stone-500">{lang === 'es' ? 'A nombre de' : 'To'}:</span> Freddy Ticona Guzmán
+              </p>
+              <p className="text-white">
+                <span className="text-stone-500">{lang === 'es' ? 'C.I.' : 'ID'}:</span> 4786901LP
+              </p>
             </div>
           </div>
         </div>

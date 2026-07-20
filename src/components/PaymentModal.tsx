@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from 'react';
-import { X, CreditCard, Smartphone, Wallet, Building2, CheckCircle, AlertCircle } from 'lucide-react';
+import { X, CreditCard, Smartphone, Wallet, Building2, CheckCircle, AlertCircle, Info } from 'lucide-react';
 import type { PaymentMethod, CheckoutSession, Currency } from '../types';
 import {
   formatMoney,
@@ -288,21 +288,75 @@ export function PaymentModal({ isOpen, onClose, checkoutSession, lang = 'es' }: 
               )}
 
               {selectedMethod === 'transferencia' && (
-                <div className="p-4 bg-stone-900/50 border border-stone-800 rounded-sm space-y-2">
+                <div className="p-4 bg-stone-900/50 border border-stone-800 rounded-sm space-y-3">
                   <p className="text-sm text-stone-300">{PAYMENT_CONFIG.bankTransfer.instructionsEs}</p>
-                  <div className="mt-2 p-2 bg-black/30 rounded font-mono text-sm">
-                    <p>{PAYMENT_CONFIG.bankTransfer.bankName}</p>
-                    <p>{isEs ? 'Cuenta' : 'Account'}: {PAYMENT_CONFIG.bankTransfer.accountNumber}</p>
-                    <p>{isEs ? 'A nombre de' : 'To'}: {PAYMENT_CONFIG.bankTransfer.accountName}</p>
+                  <div className="mt-3 p-4 bg-black/50 rounded-lg border border-stone-700 font-mono text-sm space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-stone-400">{isEs ? 'Banco' : 'Bank'}:</span>
+                      <span className="text-white font-bold">{PAYMENT_CONFIG.bankTransfer.bankName}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-stone-400">{isEs ? 'Tipo' : 'Type'}:</span>
+                      <span className="text-white">{PAYMENT_CONFIG.bankTransfer.accountType}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-stone-400">{isEs ? 'N° Cuenta' : 'Account'}:</span>
+                      <span className="text-gold font-bold text-lg">{PAYMENT_CONFIG.bankTransfer.accountNumber}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-stone-400">{isEs ? 'Beneficiario' : 'Beneficiary'}:</span>
+                      <span className="text-white">{PAYMENT_CONFIG.bankTransfer.accountName}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-stone-400">{isEs ? 'C.I.' : 'ID'}:</span>
+                      <span className="text-white">{PAYMENT_CONFIG.bankTransfer.idNumber}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-stone-400">{isEs ? 'Celular' : 'Phone'}:</span>
+                      <span className="text-white">{PAYMENT_CONFIG.bankTransfer.phone}</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs text-stone-500 mt-2">
+                    <Info className="w-4 h-4" />
+                    <span>{isEs ? 'Envía el comprobante por WhatsApp para confirmar' : 'Send receipt via WhatsApp to confirm'}</span>
                   </div>
                 </div>
               )}
 
               {selectedMethod === 'qr' && (
-                <div className="p-4 bg-stone-900/50 border border-stone-800 rounded-sm space-y-2">
-                  <p className="text-sm text-stone-300">{PAYMENT_CONFIG.qrPayment.instructionsEs}</p>
-                  <div className="mt-2 p-2 bg-black/30 rounded font-mono text-sm">
-                    <p>{isEs ? 'Teléfono' : 'Phone'}: {PAYMENT_CONFIG.qrPayment.phoneNumber}</p>
+                <div className="p-4 bg-stone-900/50 border border-stone-800 rounded-sm space-y-4">
+                  <p className="text-sm text-stone-300 text-center">{PAYMENT_CONFIG.qrPayment.instructionsEs}</p>
+
+                  {/* QR Code Image */}
+                  <div className="flex justify-center">
+                    <div className="bg-white p-4 rounded-lg">
+                      <img
+                        src={PAYMENT_CONFIG.qrPayment.qrImage}
+                        alt={isEs ? 'Código QR para pago' : 'Payment QR Code'}
+                        className="w-48 h-48 object-contain"
+                        onError={(e) => {
+                          // Fallback si no hay imagen
+                          e.currentTarget.src = 'data:image/svg+xml,' + encodeURIComponent(`
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                              <rect fill="#000" width="200" height="200"/>
+                              <text x="100" y="90" text-anchor="middle" fill="#fff" font-size="12" font-family="monospace">QR CODE</text>
+                              <text x="100" y="110" text-anchor="middle" fill="#D4AF37" font-size="10" font-family="monospace">FREDDY TICONA</text>
+                              <text x="100" y="130" text-anchor="middle" fill="#fff" font-size="14" font-family="monospace">${PAYMENT_CONFIG.qrPayment.phoneNumber}</text>
+                            </svg>
+                          `);
+                        }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="text-center space-y-2">
+                    <div className="p-3 bg-black/50 rounded font-mono text-sm">
+                      <p className="text-stone-400">{isEs ? 'Banco' : 'Bank'}: {PAYMENT_CONFIG.qrPayment.provider}</p>
+                      <p className="text-gold font-bold text-lg">{PAYMENT_CONFIG.qrPayment.phoneNumber}</p>
+                    </div>
+                    <p className="text-xs text-stone-500">
+                      {isEs ? 'Escanea desde la app de Banco Mercantil' : 'Scan from Banco Mercantil app'}
+                    </p>
                   </div>
                 </div>
               )}

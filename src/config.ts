@@ -435,20 +435,24 @@ export const PAYMENT_CONFIG = {
 
   // Configuración de transferencia bancaria (Bolivia)
   bankTransfer: {
-    bankName: 'Banco Nacional de Bolivia',
+    bankName: 'Banco Mercantil Santa Cruz',
     accountName: 'Freddy Ticona Guzmán',
-    accountNumber: 'XXXXXXXXXXXX',
+    accountNumber: '1000555157',
+    accountType: 'Caja de Ahorro',
+    idNumber: '4786901LP',
     currency: 'BOB',
-    instructionsEs: 'Realiza la transferencia al número de cuenta indicado y envía el comprobante por WhatsApp.',
-    instructionsEn: 'Make the transfer to the indicated account number and send the receipt via WhatsApp.'
+    phone: '+591 62408420',
+    instructionsEs: 'Realiza la transferencia a la cuenta de ahorros y envía el comprobante por WhatsApp.',
+    instructionsEn: 'Make the transfer to the savings account and send the receipt via WhatsApp.'
   },
 
   // Configuración de QR (Bolivia)
   qrPayment: {
-    provider: 'Tigo Money | Qi | BCP',
+    provider: 'Banco Mercantil Santa Cruz',
     phoneNumber: '+591 62408420',
-    instructionsEs: 'Escanea el código QR desde tu app de billetera móvil o envía el monto al número indicado.',
-    instructionsEn: 'Scan the QR code from your mobile wallet app or send the amount to the indicated number.'
+    qrImage: '/images/qr-freddy-ticona.jpg', // Imagen del QR code
+    instructionsEs: 'Escanea el código QR desde la app de Banco Mercantil o envía el monto al número de celular.',
+    instructionsEn: 'Scan the QR code from Banco Mercantil app or send the amount to the cell phone number.'
   },
 
   // Impuestos (Bolivia: IVA 13%)
