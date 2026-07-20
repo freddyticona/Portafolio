@@ -16,7 +16,7 @@ import {
   translations
 } from './translations';
 
-import { CONTACT_INFO } from './config';
+import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags, generatePageSchema } from './lib/seo';
 
 import Navbar from './components/Navbar';
@@ -236,7 +236,7 @@ export default function App() {
                     {reelPlaying ? (
                       <div className="w-full h-full relative">
                         <iframe
-                          src={`https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=${reelMuted ? '1' : '0'}`}
+                          src={`https://www.youtube.com/embed/${YOUTUBE_VIDEOS.showreel}?autoplay=1&mute=${reelMuted ? '1' : '0'}`}
                           title="Freddy Ticona Showreel"
                           className="w-full h-full"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -253,7 +253,7 @@ export default function App() {
                     ) : (
                       <div className="w-full h-full relative cursor-pointer" onClick={() => setReelPlaying(true)}>
                         <img
-                          src="/images/freddy_studio.jpg"
+                          src="/images/freddy_studio.webp"
                           alt="Showreel Thumbnail - Freddy Ticona en estudio"
                           className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500 brightness-50"
                         />
@@ -393,7 +393,7 @@ export default function App() {
               <div className="lg:col-span-5 space-y-4">
                 <div className="aspect-[4/5] rounded-sm overflow-hidden border border-white/5 bg-[#020202] relative shadow-2xl group">
                   <img
-                    src="/images/freddy_profile.jpg"
+                    src="/images/freddy_profile.webp"
                     alt="Freddy Ticona Guzmán"
                     className="w-full h-full object-cover brightness-[0.9] group-hover:scale-102 transition-transform duration-500"
                   />

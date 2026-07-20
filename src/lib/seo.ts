@@ -24,7 +24,7 @@ const SITE_CONFIG = {
   name: 'Freddy Ticona Guzmán',
   url: 'https://freddy-ticona-portafolio.vercel.app',
   locale: 'es_BO',
-  ogImageDefault: 'https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.jpg',
+  ogImageDefault: 'https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.webp',
 };
 
 /**

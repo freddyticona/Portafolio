@@ -41,6 +41,7 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con pasarela de pagos integra
 
 | Hash | Hora | Descripción | Archivos |
 |------|------|-------------|----------|
+| `pendiente` | 18:45 | **Videos reales de YouTube integrados** | 3 archivos |
 | `743b12a` | 18:00 | Sistema robusto de imágenes + diagnóstico | 3 archivos |
 | `10b3415` | 17:50 | Configuración dominio freddydev.net | 4 archivos |
 | `140dec8` | 17:30 | Flujo de pago realista métodos offline | 1 archivo |
@@ -89,6 +90,13 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con pasarela de pagos integra
 - Creado `RobustImage.tsx` con fallbacks múltiples
 - Script `check-images.cjs` para diagnóstico
 - Verificación de imágenes faltantes/sobredimensionadas
+
+**18:45 - Videos Reales de YouTube**
+- Usuario proporcionó 3 videos reales: 6CL4rVpVOYU, UmimDWaK61I, INagReojtOM
+- Actualizado `config.ts` con YOUTUBE_VIDEOS completo
+- Modificado `App.tsx` para usar showreel real
+- Actualizados 3 proyectos en `translations.ts` con videos reales
+- Documentación actualizada en `CLAUDE_CONTEXT.md`
 
 ---
 
@@ -273,7 +281,7 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con pasarela de pagos integra
 
 ## ⚠️ PENDIENTES / FUTURO
 
-- Videos de YouTube son placeholders (necesita IDs reales)
+- ✅ **Videos de YouTube** - Actualizados con IDs reales (showreel + 2 proyectos)
 - **Fase 1:** ✅ COMPLETADA (Sitemap, Robots, GA4, WebP)
 - **Fase 2:** ✅ COMPLETADA (PWA, CV PDF, Newsletter, Sharing)
 - **Fase 3:** ✅ COMPLETADA (Sistema de citas, Chatbot, Comentarios)
@@ -477,19 +485,26 @@ Convierte JPG/PNG a WebP con calidad 85%, reduciendo tamaño ~60-80%.
 
 ---
 
-## 📺 VIDEOS PENDIENTES
+## 📺 VIDEOS DE YOUTUBE
 
-Los videos de YouTube son placeholders. Necesita:
-1. Subir videos reales a YouTube
-2. Obtener los IDs (de `https://youtube.com/watch?v=abc123` → `abc123`)
-3. Actualizar en `src/config.ts`:
+**✅ ACTUALIZADO (20 julio 2026)** - Videos reales integrados:
 
-```typescript
-export const YOUTUBE_VIDEOS = {
-  showreel: 'TU_REAL_ID',
-  placeholder: 'TU_REAL_ID'
-};
-```
+1. **Showreel Principal** - `6CL4rVpVOYU`
+   - https://youtu.be/6CL4rVpVOYU
+   - Usado en la página principal (Hero)
+
+2. **Urkupiña: Fé, Folclore y Devoción** - `UmimDWaK61I`
+   - https://youtu.be/UmimDWaK61I
+   - Asignado al proyecto cultural
+
+3. **Elecciones Generales en Bolivia** - `INagReojtOM`
+   - https://youtu.be/INagReojtOM
+   - Asignado al proyecto político
+
+**Configuración en:**
+- `src/config.ts` - YOUTUBE_VIDEOS
+- `src/App.tsx` - Hero showreel
+- `src/translations.ts` - Proyectos del portafolio
 
 ---
 

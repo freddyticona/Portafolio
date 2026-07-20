@@ -103,7 +103,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         }}
       >
         <img
-          src="/images/freddy_working.jpg"
+          src="/images/freddy_working.webp"
           alt="Freddy Ticona trabajando en el set"
           className="w-full h-full object-cover"
           style={{

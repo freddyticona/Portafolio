@@ -69,11 +69,26 @@ export const CONTACT_FORM = {
  */
 export const YOUTUBE_VIDEOS = {
   // Showreel principal (video de demostración)
-  showreel: 'dQw4w9WgXcQ',
+  showreel: '6CL4rVpVOYU',
 
-  // IDs de videos para proyectos específicos del portafolio
-  // Estos se usarán como placeholders hasta que subas tus videos reales
-  placeholder: 'dQw4w9WgXcQ'
+  // Videos reales del portafolio
+  videos: [
+    {
+      id: '6CL4rVpVOYU',
+      title: 'Showreel Principal',
+      description: 'Video principal del portafolio'
+    },
+    {
+      id: 'UmimDWaK61I',
+      title: 'Proyecto 2',
+      description: 'Segundo video del portafolio'
+    },
+    {
+      id: 'INagReojtOM',
+      title: 'Proyecto 3',
+      description: 'Tercer video del portafolio'
+    }
+  ]
 } as const;
 
 // ==========================================
@@ -412,64 +427,27 @@ export const SERVICES_PRICING = [
 ] as const;
 
 // ==========================================
-// CONFIGURACIÓN DE PAGOS
+// CONTACTO PARA SERVICIOS
 // ==========================================
 
 /**
- * Configuración de Stripe y métodos de pago
- *
- * IMPORTANTE: Para usar Stripe en producción necesitas:
- * 1. Crear cuenta en https://dashboard.stripe.com/
- * 2. Obtener las claves de tu cuenta
- * 3. Configurar webhooks para notificaciones de pago
- *
- * En modo test/prueba usa las claves de test.
- * Para Bolivia, también aceptamos transferencias y QR.
+ * Canales de contacto para solicitar servicios y cotizaciones
  */
-export const PAYMENT_CONFIG = {
-  // Stripe (actualizar con tus claves reales)
-  stripe: {
-    publishableKey: 'pk_test_YOUR_KEY_HERE', // Clave pública (frontend)
-    secretKey: 'sk_test_YOUR_KEY_HERE', // Clave secreta (backend - NO usar en frontend)
-    webhookSecret: 'whsec_YOUR_WEBHOOK_SECRET', // Secreto del webhook
-    enabled: true, // Habilitar/deshabilitar Stripe
-    testMode: true // true = modo prueba, false = producción
-  },
+export const SERVICE_CONTACT = {
+  // WhatsApp con mensaje predefinido
+  whatsappUrl: 'https://wa.me/59162408420',
+  whatsappMessageEs: 'Hola Freddy, me interesa cotizar un servicio audiovisual.',
+  whatsappMessageEn: 'Hi Freddy, I\'m interested in getting a quote for an audiovisual service.',
 
-  // Métodos de pago disponibles
-  availableMethods: ['stripe', 'transferencia', 'qr', 'efectivo'] as const,
+  // Email para cotizaciones
+  emailSubjectEs: 'Cotización de Servicio Audiovisual',
+  emailSubjectEn: 'Audiovisual Service Quote',
 
-  // Configuración de transferencia bancaria (Bolivia)
-  bankTransfer: {
-    bankName: 'Banco Mercantil Santa Cruz',
-    accountName: 'Freddy Ticona Guzmán',
-    accountNumber: '1000555157',
-    accountType: 'Caja de Ahorro',
-    idNumber: '4786901LP',
-    currency: 'BOB',
-    phone: '+591 62408420',
-    instructionsEs: 'Realiza la transferencia a la cuenta de ahorros y envía el comprobante por WhatsApp.',
-    instructionsEn: 'Make the transfer to the savings account and send the receipt via WhatsApp.'
-  },
+  // Horario de atención
+  hoursEs: 'Lun - Sáb: 8:00 AM - 7:00 PM (GMT-4)',
+  hoursEn: 'Mon - Sat: 8:00 AM - 7:00 PM (GMT-4)',
 
-  // Configuración de QR (Bolivia)
-  qrPayment: {
-    provider: 'Banco Mercantil Santa Cruz',
-    phoneNumber: '+591 62408420',
-    qrImage: '/images/qr-mercantil.jpg', // Imagen del QR code real
-    instructionsEs: 'Escanea el código QR desde la app de Banco Mercantil o envía el monto al número de celular.',
-    instructionsEn: 'Scan the QR code from Banco Mercantil app or send the amount to the cell phone number.'
-  },
-
-  // Impuestos (Bolivia: IVA 13%)
-  taxRate: 0.13,
-
-  // Moneda predeterminada
-  defaultCurrency: 'BOB' as const,
-
-  // Tasa de cambio (actualizable)
-  exchangeRate: {
-    BOB_TO_USD: 0.14, // 1 BOB ≈ 0.14 USD
-    USD_TO_BOB: 6.97  // 1 USD ≈ 6.97 BOB
-  }
+  // Tiempo de respuesta
+  responseTimeEs: 'Respuesta en menos de 24 horas',
+  responseTimeEn: 'Response within 24 hours'
 } as const;

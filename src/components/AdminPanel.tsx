@@ -4,18 +4,9 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { BlogPost, Comment, User, Payment } from '../types';
+import { BlogPost, Comment, User } from '../types';
 import CMSPanel from './CMSPanel';
 import AnalyticsDashboard from './AnalyticsDashboard';
-import {
-  getStoredPayments,
-  getPaymentStats,
-  formatMoney,
-  formatPaymentMethod,
-  formatPaymentStatus,
-  getPaymentStatusColor,
-  downloadPaymentReceipt
-} from '../lib/payments';
 import {
   Lock,
   Save,
@@ -56,15 +47,11 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [activeTab, setActiveTab] = useState<'posts' | 'comments' | 'users' | 'cms' | 'analytics' | 'payments'>('posts');
-  const [payments, setPayments] = useState<Payment[]>([]);
-  const [paymentStats, setPaymentStats] = useState(getPaymentStats());
-
   // Cargar posts del localStorage
   useEffect(() => {
     loadPosts();
     loadComments();
     loadUsers();
-    loadPayments();
   }, []);
 
   const loadPosts = () => {
@@ -91,12 +78,6 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
     }
   };
 
-  const loadPayments = () => {
-    const storedPayments = getStoredPayments();
-    setPayments(storedPayments);
-    setPaymentStats(getPaymentStats());
-  };
-
   // Login simple
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -121,7 +102,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
       date: new Date().toISOString().split('T')[0],
       readTimeEs: '5 min de lectura',
       readTimeEn: '5 min read',
-      imageUrl: '/images/freddy_working.jpg',
+      imageUrl: '/images/freddy_working.webp',
       images: [],
       categoryEs: 'General',
       categoryEn: 'General',
@@ -973,7 +954,7 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
               value={editedPost.imageUrl}
               onChange={(e) => handleChange('imageUrl', e.target.value)}
               className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-              placeholder="/images/freddy_working.jpg"
+              placeholder="/images/freddy_working.webp"
             />
           </div>
 

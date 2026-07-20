@@ -289,8 +289,8 @@ export const portfolioItems: PortfolioItem[] = [
     clientEn: 'Abya Yala Television / Eduardo Abaroa Award Winner',
     descriptionEs: 'Documental de periodismo cultural e investigación sobre una pequeña escuela rural a más de 4,000 metros de altura que subsiste gracias al espíritu comunitario y astronómico de su gente.',
     descriptionEn: 'Cultural journalism and investigative documentary about a small rural school at 4,000 meters above sea level that survives through the community and stellar connection of its residents.',
-    imageUrl: '/images/freddy_working.jpg',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder video for embedding
+    imageUrl: '/images/freddy_working.webp',
+    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU', // Showreel principal
     isCaseStudy: true,
     caseStudyId: 'la-estrella-case',
     techDetailsEs: ['Cámara Sony FS7', 'Lentes Sigma Cine Prime', 'Corrección de Color en DaVinci Resolve', 'Edición en Adobe Premiere Pro'],
@@ -311,7 +311,7 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Cobertura televisiva y documental de 30 minutos capturando los rostros, la vestimenta, los bailes y la mística de la festividad de la Virgen de Urkupiña en Quillacollo, Cochabamba.',
     descriptionEn: 'Television coverage and a 30-minute documentary capturing the faces, outfits, dances, and mysticism of the Urkupiña Virgin festival in Quillacollo, Cochabamba.',
     imageUrl: 'https://picsum.photos/seed/urkupina/800/600',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    videoUrl: 'https://www.youtube.com/embed/UmimDWaK61I', // Video 2
     techDetailsEs: ['Sony FX9', 'Gimbal DJI Ronin 2', 'Micrófonos Inalámbricos Sennheiser', 'Transmisión vía LiveU'],
     techDetailsEn: ['Sony FX9', 'DJI Ronin 2 Gimbal', 'Sennheiser Wireless Mics', 'Broadcast via LiveU']
   },
@@ -330,7 +330,7 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Transmisión multipantalla en vivo e ininterrumpida durante más de 18 horas de jornada electoral desde los recintos de votación en la sede de gobierno, La Paz.',
     descriptionEn: 'Multi-screen live and uninterrupted transmission for more than 18 hours of election day from polling stations in La Paz government headquarters.',
     imageUrl: 'https://picsum.photos/seed/elections/800/600',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    videoUrl: 'https://www.youtube.com/embed/INagReojtOM', // Video 3
     techDetailsEs: ['Cámaras de Estudio Panasonic P2 HD', 'Sistema de Mochila de Transmisión LiveU 600', 'Intercom Harris'],
     techDetailsEn: ['Panasonic P2 HD Broadcast Cameras', 'LiveU 600 Transmission Backpacks', 'Harris Intercom System']
   },
@@ -388,7 +388,7 @@ export const portfolioItems: PortfolioItem[] = [
     clientEn: 'Independent Production',
     descriptionEs: 'Inmersión visual a más de 300 metros bajo tierra en los socavones del Cerro Rico de Potosí. Registro en condiciones extremas de humedad, calor y suspensión de polvillo mineral.',
     descriptionEn: 'A visual immersion over 300 meters underground in the mineshafts of Potosi\'s Cerro Rico. Recorded in extreme conditions of humidity, heat, and suspended mineral dust.',
-    imageUrl: '/images/freddy_studio.jpg',
+    imageUrl: '/images/freddy_studio.webp',
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     techDetailsEs: ['Sony A7S II (Gran desempeño en luz baja)', 'Lentes Prime f/1.4', 'Protección Neumática contra Polvo Silíceo', 'Antorchas LED de Alta Fidelidad de Color'],
     techDetailsEn: ['Sony A7S II (Extreme low light performance)', 'Prime f/1.4 Lenses', 'Pneumatic Dust Protection for Silica', 'High CRI Color LED Panels']
@@ -458,16 +458,16 @@ export const caseStudies: Record<string, CaseStudy> = {
     softwareEn: ['Adobe Premiere Pro (Offline/Online Edit)', 'DaVinci Resolve Studio (Color Grading)', 'Adobe Audition (Wind Audio Noise Restoration)'],
     awardEs: 'Premio Nacional Eduardo Abaroa 2017 (Categoría: Periodismo Cultural - Reportaje de Investigación)',
     awardEn: 'Eduardo Abaroa National Award 2017 (Category: Cultural Journalism - Investigative Report)',
-    imageUrl: '/images/freddy_working.jpg',
+    imageUrl: '/images/freddy_working.webp',
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     btsImages: [
       {
-        url: '/images/freddy_profile.jpg',
+        url: '/images/freddy_profile.webp',
         captionEs: 'Freddy configurando el trípode Sachtler a más de 4,000 metros de altura para el amanecer.',
         captionEn: 'Freddy setting up the Sachtler tripod system at 4,000+ meters above sea level for sunrise.'
       },
       {
-        url: '/images/freddy_studio.jpg',
+        url: '/images/freddy_studio.webp',
         captionEs: 'Post-producción, corrección de color y mezcla final de audio en estudio.',
         captionEn: 'Post-production, advanced color grading, and audio mixing in the studio.'
       }
@@ -562,7 +562,7 @@ This project proved that technical skill must serve narrative and human emotion.
     date: '2026-05-12',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: '/images/freddy_profile.jpg',
+    imageUrl: '/images/freddy_profile.webp',
     categoryEs: 'Detrás de Cámaras',
     categoryEn: 'Behind The Scenes'
   },
@@ -630,7 +630,7 @@ We carry on, forever learning, modifying both our lens and technical skills to s
     date: '2026-06-24',
     readTimeEs: '6 min de lectura',
     readTimeEn: '6 min read',
-    imageUrl: '/images/freddy_studio.jpg',
+    imageUrl: '/images/freddy_studio.webp',
     categoryEs: 'Reflexiones',
     categoryEn: 'Reflections'
   }
