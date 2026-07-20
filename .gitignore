@@ -8,3 +8,4 @@ coverage/
 !.env.example
 
 .vercel
+CLAUDE_CONTEXT.md
