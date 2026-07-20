@@ -103,9 +103,9 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         }}
       >
         <img
-          src="/images/freddy_working.webp"
+          src="/images/behind-scenes/DSC_2994.webp"
           alt="Freddy Ticona trabajando en el set"
-          className="absolute inset-0 w-full h-full object-cover object-top"
+          className="absolute inset-0 w-full h-full object-cover object-center"
           style={{
             filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001})`
           }}
