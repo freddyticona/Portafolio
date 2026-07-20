@@ -1,0 +1,131 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'contacto' | 'admin';
+
+export interface PortfolioItem {
+  id: string;
+  title: string;
+  titleEn: string;
+  category: 'cultural' | 'politica' | 'documental' | 'cobertura-int';
+  categoryLabelEs: string;
+  categoryLabelEn: string;
+  roleEs: string;
+  roleEn: string;
+  year: string;
+  clientEs?: string;
+  clientEn?: string;
+  descriptionEs: string;
+  descriptionEn: string;
+  imageUrl: string;
+  videoUrl?: string; // YouTube or Vimeo embed url
+  isCaseStudy?: boolean;
+  caseStudyId?: string;
+  techDetailsEs: string[];
+  techDetailsEn: string[];
+}
+
+export interface CaseStudy {
+  id: string;
+  title: string;
+  titleEn: string;
+  subtitleEs: string;
+  subtitleEn: string;
+  contextEs: string;
+  contextEn: string;
+  challengesEs: string;
+  challengesEn: string;
+  solutionsEs: string;
+  solutionsEn: string;
+  resultEs: string;
+  resultEn: string;
+  roleEs: string;
+  roleEn: string;
+  teamEs: string;
+  teamEn: string;
+  hardwareEs: string[];
+  hardwareEn: string[];
+  softwareEs: string[];
+  softwareEn: string[];
+  awardEs?: string;
+  awardEn?: string;
+  imageUrl: string;
+  videoUrl?: string;
+  btsImages: { url: string; captionEs: string; captionEn: string }[];
+}
+
+export interface TimelineEvent {
+  id: string;
+  period: string;
+  company: string;
+  roleEs: string;
+  roleEn: string;
+  descriptionEs: string;
+  descriptionEn: string;
+  achievementsEs: string[];
+  achievementsEn: string[];
+  logoPlaceholder: string;
+}
+
+export interface BlogPost {
+  id: string;
+  slug: string;
+  titleEs: string;
+  titleEn: string;
+  excerptEs: string;
+  excerptEn: string;
+  contentEs: string; // Markdown or HTML representation
+  contentEn: string;
+  date: string;
+  readTimeEs: string;
+  readTimeEn: string;
+  imageUrl: string;
+  images?: string[]; // Galería de imágenes adicional
+  categoryEs: string;
+  categoryEn: string;
+  videoUrl?: string; // Video de YouTube
+  enableComments: boolean; // Habilitar/deshabilitar comentarios
+  font?: string; // Fuente personalizada para este post
+}
+
+export interface Testimonial {
+  id: string;
+  name: string;
+  roleEs: string;
+  roleEn: string;
+  companyEs: string;
+  companyEn: string;
+  textEs: string;
+  textEn: string;
+  avatarUrl?: string;
+}
+
+export interface Certificate {
+  id: string;
+  titleEs: string;
+  titleEn: string;
+  issuer: string;
+  year: string;
+  isPrimary: boolean;
+  credentialUrl?: string;
+}
+
+export interface Comment {
+  id: string;
+  postId: string;
+  author: string;
+  email: string;
+  content: string;
+  date: string;
+  status: 'pending' | 'approved';
+}
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  password: string; // En producción esto debe estar hasheado
+  registeredAt: string;
+}

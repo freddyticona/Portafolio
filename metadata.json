@@ -1,0 +1,6 @@
+{
+  "name": "Freddy Ticona Guzmán - Portafolio Profesional",
+  "description": "Sitio web de portafolio profesional para Freddy Ticona Guzmán, Camarógrafo, Editor y Realizador Audiovisual boliviano con más de 15 años de experiencia en medios de comunicación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
