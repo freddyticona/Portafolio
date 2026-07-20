@@ -48,8 +48,8 @@ export const timelineEvents: TimelineEvent[] = [
     id: '3',
     period: '2016 - 2020',
     company: 'Abya Yala Televisión (Canal 41)',
-    roleEs: 'Realizador de Documentales y Editor Senior',
-    roleEn: 'Documentary Producer and Senior Editor',
+    roleEs: 'Post Productor y Camarógrafo Editor',
+    roleEn: 'Post Producer and Camera Editor',
     descriptionEs: 'Liderazgo en la producción de reportajes de largo aliento con un fuerte enfoque cultural y de derechos humanos. Ganador del Premio Nacional de Periodismo Eduardo Abaroa 2017 durante esta etapa.',
     descriptionEn: 'Led the production of long-form reports with a deep focus on cultural heritage and human rights. Won the national Eduardo Abaroa Journalism Award 2017 during this tenure.',
     achievementsEs: [
