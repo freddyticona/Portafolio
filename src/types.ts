@@ -129,3 +129,84 @@ export interface User {
   password: string; // En producción esto debe estar hasheado
   registeredAt: string;
 }
+
+// ==========================================
+// TIPOS DE PAGO
+// ==========================================
+
+export type ServiceType = 'filmacion' | 'edicion' | 'documental' | 'consultoria' | 'cobertura' | 'paquete-completo';
+
+export type PaymentStatus = 'pending' | 'completed' | 'failed' | 'refunded' | 'partial';
+
+export type PaymentMethod = 'stripe' | 'transferencia' | 'qr' | 'efectivo' | 'card-present';
+
+export type Currency = 'BOB' | 'USD';
+
+export interface ServicePricing {
+  id: string;
+  type: ServiceType;
+  nameEs: string;
+  nameEn: string;
+  descriptionEs: string;
+  descriptionEn: string;
+  basePrice: number;
+  currency: Currency;
+  duration: string; // "2 horas", "1 día", "por proyecto"
+  popular?: boolean;
+  featuresEs: string[];
+  featuresEn: string[];
+  icon: string;
+}
+
+export interface PaymentItem {
+  id: string;
+  serviceId: string;
+  serviceName: string;
+  quantity: number;
+  unitPrice: number;
+  currency: Currency;
+  subtotal: number;
+}
+
+export interface Payment {
+  id: string;
+  customerName: string;
+  customerEmail: string;
+  customerPhone: string;
+  items: PaymentItem[];
+  subtotal: number;
+  tax: number;
+  total: number;
+  currency: Currency;
+  method: PaymentMethod;
+  status: PaymentStatus;
+  createdAt: string;
+  completedAt?: string;
+  transactionId?: string; // ID de Stripe o referencia de transferencia
+  bookingId?: string; // Referencia a reserva si aplica
+  notes?: string;
+  refundAmount?: number;
+  refundReason?: string;
+}
+
+export interface CheckoutSession {
+  paymentId: string;
+  serviceId: string;
+  serviceName: string;
+  amount: number;
+  currency: Currency;
+  customerEmail: string;
+  customerName: string;
+  customerPhone: string;
+  bookingDate?: string;
+  bookingTime?: string;
+  notes?: string;
+}
+
+export interface StripeConfig {
+  publishableKey: string;
+  secretKey: string;
+  webhookSecret: string;
+  enabled: boolean;
+  testMode: boolean;
+}

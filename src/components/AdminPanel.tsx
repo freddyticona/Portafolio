@@ -4,9 +4,18 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { BlogPost, Comment, User } from '../types';
+import { BlogPost, Comment, User, Payment } from '../types';
 import CMSPanel from './CMSPanel';
 import AnalyticsDashboard from './AnalyticsDashboard';
+import {
+  getStoredPayments,
+  getPaymentStats,
+  formatMoney,
+  formatPaymentMethod,
+  formatPaymentStatus,
+  getPaymentStatusColor,
+  downloadPaymentReceipt
+} from '../lib/payments';
 import {
   Lock,
   Save,
@@ -27,7 +36,12 @@ import {
   ChevronDown,
   ChevronUp,
   LayoutGrid,
-  BarChart3
+  BarChart3,
+  CreditCard,
+  Download,
+  TrendingUp,
+  CheckCircle,
+  AlertCircle
 } from 'lucide-react';
 
 interface AdminPanelProps {
@@ -41,13 +55,16 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
   const [isCreating, setIsCreating] = useState(false);
-  const [activeTab, setActiveTab] = useState<'posts' | 'comments' | 'users' | 'cms' | 'analytics'>('posts');
+  const [activeTab, setActiveTab] = useState<'posts' | 'comments' | 'users' | 'cms' | 'analytics' | 'payments'>('posts');
+  const [payments, setPayments] = useState<Payment[]>([]);
+  const [paymentStats, setPaymentStats] = useState(getPaymentStats());
 
   // Cargar posts del localStorage
   useEffect(() => {
     loadPosts();
     loadComments();
     loadUsers();
+    loadPayments();
   }, []);
 
   const loadPosts = () => {
@@ -72,6 +89,12 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
     if (savedUsers) {
       setUsers(JSON.parse(savedUsers));
     }
+  };
+
+  const loadPayments = () => {
+    const storedPayments = getStoredPayments();
+    setPayments(storedPayments);
+    setPaymentStats(getPaymentStats());
   };
 
   // Login simple
@@ -290,6 +313,17 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
               <BarChart3 className="w-4 h-4" />
               {lang === 'es' ? 'Analytics' : 'Analytics'}
             </button>
+            <button
+              onClick={() => setActiveTab('payments')}
+              className={`px-4 py-4 text-xs font-mono font-bold uppercase tracking-widest border-b-2 transition-colors flex items-center gap-2 ${
+                activeTab === 'payments'
+                  ? 'border-gold text-gold'
+                  : 'border-transparent text-stone-400 hover:text-white'
+              }`}
+            >
+              <CreditCard className="w-4 h-4" />
+              {lang === 'es' ? 'Pagos' : 'Payments'}
+            </button>
           </div>
         </div>
       </div>
@@ -498,6 +532,179 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
         {/* Analytics Tab */}
         {activeTab === 'analytics' && (
           <AnalyticsDashboard lang={lang} />
+        )}
+
+        {/* Payments Tab */}
+        {activeTab === 'payments' && (
+          <div className="space-y-6">
+            {/* Stats Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-stone-400 text-sm">{lang === 'es' ? 'Total Pagos' : 'Total Payments'}</span>
+                  <FileText className="w-5 h-5 text-gold" />
+                </div>
+                <p className="text-3xl font-bold text-white">{paymentStats.total}</p>
+              </div>
+
+              <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-stone-400 text-sm">{lang === 'es' ? 'Completados' : 'Completed'}</span>
+                  <CheckCircle className="w-5 h-5 text-green-400" />
+                </div>
+                <p className="text-3xl font-bold text-green-400">{paymentStats.completed}</p>
+              </div>
+
+              <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-stone-400 text-sm">{lang === 'es' ? 'Pendientes' : 'Pending'}</span>
+                  <AlertCircle className="w-5 h-5 text-yellow-400" />
+                </div>
+                <p className="text-3xl font-bold text-yellow-400">{paymentStats.pending}</p>
+              </div>
+
+              <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-stone-400 text-sm">{lang === 'es' ? 'Total Recaudado' : 'Total Revenue'}</span>
+                  <TrendingUp className="w-5 h-5 text-gold" />
+                </div>
+                <p className="text-3xl font-bold text-gold">{formatMoney(paymentStats.completedAmount, 'BOB')}</p>
+              </div>
+            </div>
+
+            {/* Payment Methods Breakdown */}
+            <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6">
+              <h3 className="text-lg font-bold text-white mb-4">
+                {lang === 'es' ? 'Por Método de Pago' : 'By Payment Method'}
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {Object.entries(paymentStats.byMethod).map(([method, amount]) => (
+                  <div key={method} className="text-center p-4 bg-white/[0.02] rounded-sm">
+                    <p className="text-stone-400 text-xs uppercase mb-1">{formatPaymentMethod(method as any, lang)}</p>
+                    <p className="text-xl font-bold text-white">{formatMoney(amount, 'BOB')}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Payments List */}
+            <div>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-2xl font-bold text-white">
+                  {lang === 'es' ? 'Historial de Transacciones' : 'Transaction History'}
+                </h2>
+                <button
+                  onClick={loadPayments}
+                  className="text-xs text-stone-400 hover:text-white transition-colors cursor-pointer flex items-center gap-1"
+                >
+                  {lang === 'es' ? 'Actualizar' : 'Refresh'}
+                </button>
+              </div>
+
+              {payments.length === 0 ? (
+                <div className="text-center py-16 bg-white/[0.02] border border-white/5 rounded-sm">
+                  <CreditCard className="w-12 h-12 text-stone-600 mx-auto mb-4" />
+                  <p className="text-stone-400">
+                    {lang === 'es' ? 'No hay pagos registrados aún' : 'No payments registered yet'}
+                  </p>
+                </div>
+              ) : (
+                <div className="bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden">
+                  <div className="overflow-x-auto">
+                    <table className="w-full">
+                      <thead className="bg-white/[0.02] border-b border-white/5">
+                        <tr>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'ID' : 'ID'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Cliente' : 'Customer'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Servicio' : 'Service'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Monto' : 'Amount'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Método' : 'Method'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Estado' : 'Status'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Fecha' : 'Date'}
+                          </th>
+                          <th className="px-6 py-3 text-left text-xs font-mono font-bold uppercase text-stone-400">
+                            {lang === 'es' ? 'Acciones' : 'Actions'}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-white/5">
+                        {payments.map((payment) => (
+                          <tr key={payment.id} className="hover:bg-white/[0.02]">
+                            <td className="px-6 py-4 text-sm font-mono text-gold">
+                              {payment.id.slice(0, 8).toUpperCase()}
+                            </td>
+                            <td className="px-6 py-4">
+                              <div>
+                                <p className="text-sm text-white">{payment.customerName}</p>
+                                <p className="text-xs text-stone-500">{payment.customerEmail}</p>
+                              </div>
+                            </td>
+                            <td className="px-6 py-4 text-sm text-stone-300">
+                              {payment.items[0]?.serviceName || (lang === 'es' ? 'Múltiple' : 'Multiple')}
+                            </td>
+                            <td className="px-6 py-4 text-sm font-bold text-white">
+                              {formatMoney(payment.total, payment.currency)}
+                            </td>
+                            <td className="px-6 py-4 text-sm text-stone-400">
+                              {formatPaymentMethod(payment.method, lang)}
+                            </td>
+                            <td className="px-6 py-4">
+                              <span className={`px-2 py-1 rounded text-xs font-bold ${getPaymentStatusColor(payment.status)}`}>
+                                {formatPaymentStatus(payment.status, lang)}
+                              </span>
+                            </td>
+                            <td className="px-6 py-4 text-sm text-stone-500">
+                              {new Date(payment.createdAt).toLocaleDateString()}
+                            </td>
+                            <td className="px-6 py-4">
+                              <div className="flex items-center gap-2">
+                                <button
+                                  onClick={() => downloadPaymentReceipt(payment, lang)}
+                                  className="p-2 hover:bg-white/10 rounded-sm text-stone-400 hover:text-gold transition-colors"
+                                  title={lang === 'es' ? 'Descargar recibo' : 'Download receipt'}
+                                >
+                                  <Download className="w-4 h-4" />
+                                </button>
+                                {payment.status === 'pending' && (
+                                  <button
+                                    onClick={() => {
+                                      const updatedPayments = payments.map(p =>
+                                        p.id === payment.id ? { ...p, status: 'completed' as const, completedAt: new Date().toISOString() } : p
+                                      );
+                                      setPayments(updatedPayments);
+                                      localStorage.setItem('payments', JSON.stringify(updatedPayments));
+                                      loadPayments();
+                                    }}
+                                    className="p-2 hover:bg-green-500/10 rounded-sm text-stone-400 hover:text-green-400 transition-colors"
+                                    title={lang === 'es' ? 'Marcar como completado' : 'Mark as completed'}
+                                  >
+                                    <CheckCircle className="w-4 h-4" />
+                                  </button>
+                                )}
+                              </div>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
         )}
       </main>
     </div>

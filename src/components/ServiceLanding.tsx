@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import {
   Camera,
@@ -19,8 +19,23 @@ import {
   ChevronRight,
   Star,
   Calendar,
-  TrendingUp
+  TrendingUp,
+  Scissors,
+  MessageCircle,
+  Radio,
+  Briefcase,
+  Heart,
+  Wrench,
+  Film,
+  CreditCard,
+  Smartphone,
+  Building2,
+  Wallet
 } from 'lucide-react';
+import { CheckoutButton, PriceBadge } from './CheckoutButton';
+import { PaymentModal } from './PaymentModal';
+import type { CheckoutSession } from '../types';
+import { createCheckoutSession, getFeaturedServices, getServiceById } from '../lib/payments';
 
 interface ServiceLandingProps {
   lang: 'es' | 'en';
@@ -30,132 +45,39 @@ interface ServiceLandingProps {
 }
 
 export default function ServiceLanding({ lang, t, onContact, onBooking }: ServiceLandingProps) {
-  const services = [
-    {
-      id: 'filmacion-eventos',
-      icon: Camera,
-      titleEs: 'Filmación de Eventos en La Paz',
-      titleEn: 'Event Filming in La Paz',
-      slug: 'servicios/filmacion-eventos-la-paz',
-      descriptionEs: 'Cobertura profesional de eventos sociales, corporativos y periodísticos con tecnología 4K. Más de 15 años capturando momentos únicos en Bolivia.',
-      descriptionEn: 'Professional coverage of social, corporate and journalistic events with 4K technology. Over 15 years capturing unique moments in Bolivia.',
-      keywordsEs: ['camarógrafo eventos La Paz', 'filmación bodas Bolivia', 'video corporativo La Paz', 'cobertura eventos 4K'],
-      keywordsEn: ['event cameraman La Paz', 'wedding filming Bolivia', 'corporate video La Paz', '4K event coverage'],
-      featuresEs: [
-        'Cámaras 4K profesionales (Sony FX9, FS7)',
-        'Cobertura de 2 a 8 horas continuas',
-        'Entrega en 24-48 horas (express)',
-        'Edición incluida con música licenciada',
-        'Disponible para viajes nacionales',
-        'Dron opcional para tomas aéreas'
-      ],
-      featuresEn: [
-        'Professional 4K cameras (Sony FX9, FS7)',
-        'Coverage from 2 to 8 continuous hours',
-        'Delivery in 24-48 hours (express)',
-        'Editing included with licensed music',
-        'Available for national travel',
-        'Optional drone for aerial shots'
-      ],
-      priceEs: 'Desde $50/hora',
-      priceEn: 'From $50/hour',
-      ctaEs: 'Solicitar Cotización',
-      ctaEn: 'Get Quote'
-    },
-    {
-      id: 'edicion-video',
-      icon: Video,
-      titleEs: 'Edición de Video Profesional',
-      titleEn: 'Professional Video Editing',
-      slug: 'servicios/edicion-video-bolivia',
-      descriptionEs: 'Post-producción de alta calidad para documentales, contenido corporativo y videos de redes sociales. Color grading, sonido profesional y masterización.',
-      descriptionEn: 'High-quality post-production for documentaries, corporate content and social media videos. Color grading, professional sound and mastering.',
-      keywordsEs: ['editor de video Bolivia', 'postproducción La Paz', 'color grading Bolivia', 'edición documental'],
-      keywordsEn: ['video editor Bolivia', 'post-production La Paz', 'color grading Bolivia', 'documentary editing'],
-      featuresEs: [
-        'Adobe Premiere Pro y DaVinci Resolve',
-        'Corrección de color cinematográfico',
-        'Mezcla de sonido profesional',
-        'Motion graphics y animaciones',
-        'Formatos para TV, web y redes sociales',
-        'Revisions ilimitadas hasta satisfacción'
-      ],
-      featuresEn: [
-        'Adobe Premiere Pro and DaVinci Resolve',
-        'Cinematic color grading',
-        'Professional sound mixing',
-        'Motion graphics and animations',
-        'Formats for TV, web and social media',
-        'Unlimited revisions until satisfaction'
-      ],
-      priceEs: 'Desde $30/hora',
-      priceEn: 'From $30/hour',
-      ctaEs: 'Consultar Proyecto',
-      ctaEn: 'Discuss Project'
-    },
-    {
-      id: 'documentales',
-      icon: Clapperboard,
-      titleEs: 'Producción de Documentales',
-      titleEn: 'Documentary Production',
-      slug: 'servicios/produccion-documentales-bolivia',
-      descriptionEs: 'Documentales de televisión y cine con enfoque cultural y social. Ganador del Premio Nacional Eduardo Abaroa 2017 por "La Estrella".',
-      descriptionEn: 'Television and film documentaries with cultural and social focus. Winner of the 2017 National Eduardo Abaroa Award for "La Estrella".',
-      keywordsEs: ['productor de documentales Bolivia', 'cine documental La Paz', 'documental cultural', 'premio Eduardo Abaroa'],
-      keywordsEn: ['documentary producer Bolivia', 'documentary film La Paz', 'cultural documentary', 'Eduardo Abaroa award'],
-      featuresEs: [
-        'Investigación y guionización',
-        'Rodaje en locaciones remotas',
-        'Entrevistas en profundidad',
-        'Archivos y licencias de música',
-        'Distribución en festivales',
-        'Versión para TV y versión web'
-      ],
-      featuresEn: [
-        'Research and scriptwriting',
-        'Shooting in remote locations',
-        'In-depth interviews',
-        'Footage and music licensing',
-        'Festival distribution',
-        'TV and web versions'
-      ],
-      priceEs: 'Según proyecto',
-      priceEn: 'Project-based',
-      ctaEs: 'Discutir Idea',
-      ctaEn: 'Discuss Idea'
-    },
-    {
-      id: 'consultoria',
-      icon: FileText,
-      titleEs: 'Consultoría Audiovisual',
-      titleEn: 'Audiovisual Consulting',
-      slug: 'servicios/consultoria-produccion-video',
-      descriptionEs: 'Asesoría para proyectos de producción, estrategia de contenido y capacitación técnica. Optimiza tus flujos de trabajo y mejora la calidad de tus producciones.',
-      descriptionEn: 'Consulting for production projects, content strategy and technical training. Optimize your workflows and improve your production quality.',
-      keywordsEs: ['consultoría audiovisual', 'capacitación video', 'asesoría producción Bolivia', 'talleres cinematografía'],
-      keywordsEn: ['audiovisual consulting', 'video training', 'production consulting Bolivia', 'cinematography workshops'],
-      featuresEs: [
-        'Evaluación de equipamiento',
-        'Optimización de flujos de trabajo',
-        'Capacitación personalizada',
-        'Estrategia de contenidos digitales',
-        'Soporte en producción',
-        'Conexiones con la industria'
-      ],
-      featuresEn: [
-        'Equipment evaluation',
-        'Workflow optimization',
-        'Personalized training',
-        'Digital content strategy',
-        'Production support',
-        'Industry connections'
-      ],
-      priceEs: '$40/hora',
-      priceEn: '$40/hour',
-      ctaEs: 'Agendar Sesión',
-      ctaEn: 'Book Session'
-    }
-  ];
+  // Estado para el modal de pago
+  const [checkoutSession, setCheckoutSession] = useState<CheckoutSession | null>(null);
+  const [isPaymentModalOpen, setIsPaymentModalOpen] = useState(false);
+
+  // Iconos para los tipos de servicio
+  const serviceIcons: Record<string, React.ElementType> = {
+    'Camera': Camera,
+    'Video': Video,
+    'Scissors': Scissors,
+    'Wrench': Wrench,
+    'Film': Film,
+    'Clapperboard': Clapperboard,
+    'MessageCircle': MessageCircle,
+    'Radio': Radio,
+    'Briefcase': Briefcase,
+    'Heart': Heart
+  };
+
+  // Escuchar evento de checkout
+  useEffect(() => {
+    const handleCheckout = (e: CustomEvent) => {
+      setCheckoutSession(e.detail);
+      setIsPaymentModalOpen(true);
+    };
+
+    window.addEventListener('open-checkout-modal', handleCheckout as EventListener);
+    return () => window.removeEventListener('open-checkout-modal', handleCheckout as EventListener);
+  }, []);
+
+  const handlePaymentModalClose = () => {
+    setIsPaymentModalOpen(false);
+    setCheckoutSession(null);
+  };
 
   const st = {
     title: lang === 'es' ? 'Servicios Profesionales' : 'Professional Services',
@@ -299,42 +221,58 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
 
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        <h2 className="text-2xl md:text-3xl font-extrabold text-white text-center font-display">
-          {lang === 'es' ? 'Catálogo de Servicios' : 'Service Catalog'}
-        </h2>
+        <div className="text-center space-y-4">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-white font-display">
+            {lang === 'es' ? 'Catálogo de Servicios con Precios' : 'Services Catalog with Pricing'}
+          </h2>
+          <p className="text-stone-400 max-w-2xl mx-auto">
+            {lang === 'es'
+              ? 'Selecciona un servicio y paga de forma segura online. También aceptamos transferencias y QR de Bolivia.'
+              : 'Select a service and pay securely online. We also accept transfers and QR payments from Bolivia.'}
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.map((service, idx) => {
-            const Icon = service.icon;
+          {getFeaturedServices().map((service, idx) => {
+            const Icon = serviceIcons[service.icon] || Camera;
+            const isEs = lang === 'es';
             return (
               <motion.div
                 key={service.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-[#020202] border border-white/10 rounded-lg overflow-hidden hover:border-gold/20 transition-all duration-300 group"
+                className={`bg-[#020202] border ${service.popular ? 'border-gold/50 ring-1 ring-gold/20' : 'border-white/10'} rounded-lg overflow-hidden hover:border-gold/30 transition-all duration-300 group relative`}
               >
+                {service.popular && (
+                  <div className="absolute top-4 right-4 z-10">
+                    <span className="px-3 py-1 bg-gold text-black text-xs font-bold uppercase rounded-sm">
+                      {isEs ? 'Popular' : 'Popular'}
+                    </span>
+                  </div>
+                )}
                 <div className="p-8 space-y-6">
                   <div className="flex items-start justify-between">
                     <div className="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center">
                       <Icon className="w-8 h-8 text-gold" />
                     </div>
                     <div className="text-right">
-                      <div className="text-2xl font-bold text-gold">{lang === 'es' ? service.priceEs : service.priceEn}</div>
+                      <PriceBadge service={service} lang={lang} />
+                      <p className="text-xs text-stone-500 mt-1">/ {service.duration}</p>
                     </div>
                   </div>
 
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">
-                      {lang === 'es' ? service.titleEs : service.titleEn}
+                      {isEs ? service.nameEs : service.nameEn}
                     </h3>
                     <p className="text-stone-400 text-sm leading-relaxed">
-                      {lang === 'es' ? service.descriptionEs : service.descriptionEn}
+                      {isEs ? service.descriptionEs : service.descriptionEn}
                     </p>
                   </div>
 
                   <ul className="space-y-2">
-                    {(lang === 'es' ? service.featuresEs : service.featuresEn).map((feature, fIdx) => (
+                    {(isEs ? service.featuresEs : service.featuresEn).slice(0, 4).map((feature, fIdx) => (
                       <li key={fIdx} className="flex items-start gap-3 text-sm text-stone-300">
                         <CheckCircle className="w-4 h-4 text-gold shrink-0 mt-0.5" />
                         {feature}
@@ -342,19 +280,60 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                     ))}
                   </ul>
 
-                  <button
-                    onClick={onContact}
-                    className="w-full px-6 py-3 bg-white/5 hover:bg-gold/10 border border-white/10 hover:border-gold/30 rounded text-sm font-mono font-bold uppercase tracking-widest text-gold hover:text-white transition-all duration-300 cursor-pointer"
-                  >
-                    {lang === 'es' ? service.ctaEs : service.ctaEn}
-                    <ChevronRight className="w-4 h-4 inline ml-2" />
-                  </button>
+                  <div className="pt-4 border-t border-stone-800 flex gap-3">
+                    <CheckoutButton
+                      service={service}
+                      lang={lang}
+                      variant="default"
+                      className="flex-1"
+                    />
+                    <button
+                      onClick={onContact}
+                      className="px-4 py-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded text-stone-300 hover:text-white transition-all"
+                      title={isEs ? 'Consultar' : 'Inquire'}
+                    >
+                      <Mail className="w-5 h-5" />
+                    </button>
+                  </div>
                 </div>
               </motion.div>
             );
           })}
         </div>
+
+        {/* Payment Methods Info */}
+        <div className="mt-12 bg-stone-900/30 border border-stone-800 rounded-lg p-6">
+          <h3 className="text-lg font-bold text-white mb-4 text-center">
+            {lang === 'es' ? 'Métodos de Pago Aceptados' : 'Accepted Payment Methods'}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            <div className="space-y-2">
+              <CreditCard className="w-8 h-8 mx-auto text-gold" />
+              <p className="text-xs text-stone-400">{lang === 'es' ? 'Tarjeta (Stripe)' : 'Card (Stripe)'}</p>
+            </div>
+            <div className="space-y-2">
+              <Smartphone className="w-8 h-8 mx-auto text-gold" />
+              <p className="text-xs text-stone-400">{lang === 'es' ? 'QR / Billetera' : 'QR / Wallet'}</p>
+            </div>
+            <div className="space-y-2">
+              <Building2 className="w-8 h-8 mx-auto text-gold" />
+              <p className="text-xs text-stone-400">{lang === 'es' ? 'Transferencia' : 'Transfer'}</p>
+            </div>
+            <div className="space-y-2">
+              <Wallet className="w-8 h-8 mx-auto text-gold" />
+              <p className="text-xs text-stone-400">{lang === 'es' ? 'Efectivo' : 'Cash'}</p>
+            </div>
+          </div>
+        </div>
       </section>
+
+      {/* Payment Modal */}
+      <PaymentModal
+        isOpen={isPaymentModalOpen}
+        onClose={handlePaymentModalClose}
+        checkoutSession={checkoutSession}
+        lang={lang}
+      />
 
       {/* Process */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
