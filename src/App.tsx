@@ -33,6 +33,9 @@ import GlobalSearch from './components/GlobalSearch';
 import WhatsAppButton from './components/WhatsAppButton';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
 import LocationsMap from './components/LocationsMap';
+import BookingSystem from './components/BookingSystem';
+import Chatbot from './components/Chatbot';
+import CommentSystem from './components/CommentSystem';
 
 import { 
   Award, 
@@ -96,7 +99,7 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '') as PageId;
-      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'blog', 'contacto', 'admin'];
+      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'blog', 'contacto', 'reservas', 'admin'];
       if (validPages.includes(hash)) {
         setActivePage(hash);
         // Clear sub-views on page change
@@ -816,7 +819,24 @@ export default function App() {
         )}
 
         {/* ==================================================================== */}
-        {/* PAGE 7: ADMIN (Hidden Panel) */}
+        {/* PAGE 7: RESERVAS / CITAS */}
+        {/* ==================================================================== */}
+        {activePage === 'reservas' && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 animate-fadeIn">
+            <BookingSystem
+              lang={lang}
+              t={t}
+              onSuccess={(booking) => {
+                // Track booking event
+                console.log('Booking created:', booking);
+              }}
+            />
+            <div className="pb-8" />
+          </div>
+        )}
+
+        {/* ==================================================================== */}
+        {/* PAGE 8: ADMIN (Hidden Panel) */}
         {/* ==================================================================== */}
         {activePage === 'admin' && (
           <AdminPanel lang={lang} onBack={() => handleNavToTab('inicio')} />
@@ -834,6 +854,7 @@ export default function App() {
       {/* Global Components */}
       <WhatsAppButton phoneNumber={CONTACT_INFO.phoneNumber} lang={lang} />
       <GlobalSearch lang={lang} onNavigate={handleNavToTab} />
+      <Chatbot lang={lang} t={t} />
 
     </div>
   );

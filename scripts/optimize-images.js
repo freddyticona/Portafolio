@@ -5,16 +5,15 @@
  *
  * Uso:
  * npm run optimize-images
- * node scripts/optimize-images.js
- *
- * Requisitos:
- * - ImageMagick o sharp instalado
- * - npm install sharp
  */
 
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import sharp from 'sharp';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Directorios
 const SOURCE_DIR = path.join(__dirname, '../public/images');
@@ -25,19 +24,6 @@ const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG'];
 
 // Calidad WebP (0-100)
 const WEBP_QUALITY = 85;
-
-/**
- * Verificar si sharp está instalado
- */
-function checkSharp() {
-  try {
-    require.resolve('sharp');
-    return true;
-  } catch {
-    console.log('⚠️  sharp no está instalado. Instala con: npm install sharp');
-    return false;
-  }
-}
 
 /**
  * Obtener todas las imágenes del directorio
@@ -63,11 +49,7 @@ function getImages(dir, fileList = []) {
  * Optimizar imagen usando sharp
  */
 async function optimizeImage(inputPath, outputPath) {
-  if (!checkSharp()) return;
-
   try {
-    const sharp = require('sharp');
-
     await sharp(inputPath)
       .webp({ quality: WEBP_QUALITY })
       .toFile(outputPath);
@@ -97,6 +79,12 @@ function ensureDir(dir) {
  */
 async function processImages() {
   console.log('🔍 Buscando imágenes...\n');
+
+  if (!fs.existsSync(SOURCE_DIR)) {
+    console.log(`⚠️  Directorio no encontrado: ${SOURCE_DIR}`);
+    console.log('💡 Asegúrate de que la carpeta public/images exista');
+    return;
+  }
 
   const images = getImages(SOURCE_DIR);
   console.log(`📁 Encontradas ${images.length} imágenes\n`);
@@ -138,9 +126,8 @@ async function processImages() {
   console.log(`   Ahorro: ${((1 - totalOptimizedSize / totalOriginalSize) * 100).toFixed(1)}%`);
   console.log('='.repeat(50));
   console.log(`\n✅ Imágenes optimizadas guardadas en: ${OUTPUT_DIR}`);
+  console.log(`\n💡 Para usar las imágenes optimizadas, mueve el contenido de images-optimized a images/`);
 }
 
 // Ejecutar
 processImages().catch(console.error);
-
-module.exports = { processImages, optimizeImage };

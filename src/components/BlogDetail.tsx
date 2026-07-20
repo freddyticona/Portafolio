@@ -3,27 +3,22 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
-import { BlogPost, Comment, User } from '../types';
+import React, { useState } from 'react';
+import { BlogPost } from '../types';
 import {
   ArrowLeft,
   Calendar,
   Clock,
   Share2,
   MessageSquare,
-  Image as ImageIcon,
-  Video,
   Facebook,
   Twitter,
   Linkedin,
-  Link2,
   X,
-  User as UserIcon,
-  LogOut,
   ChevronDown,
-  ChevronUp,
-  Send
+  ChevronUp
 } from 'lucide-react';
+import CommentSystem from './CommentSystem';
 
 interface BlogDetailProps {
   post: BlogPost;
@@ -34,29 +29,7 @@ interface BlogDetailProps {
 
 export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
   const [showShareMenu, setShowShareMenu] = useState(false);
-  const [showComments, setShowComments] = useState(false);
-  const [comments, setComments] = useState<Comment[]>([]);
-  const [user, setUser] = useState<User | null>(null);
-  const [showLoginForm, setShowLoginForm] = useState(false);
-  const [showRegisterForm, setShowRegisterForm] = useState(false);
-  const [newComment, setNewComment] = useState('');
-  const [loginForm, setLoginForm] = useState({ email: '', password: '' });
-  const [registerForm, setRegisterForm] = useState({ name: '', email: '', password: '' });
-
-  // Cargar comentarios
-  useEffect(() => {
-    const savedComments = localStorage.getItem('blogComments');
-    if (savedComments) {
-      const allComments = JSON.parse(savedComments);
-      setComments(allComments.filter((c: Comment) => c.postId === post.id && c.status === 'approved'));
-    }
-
-    // Cargar usuario actual
-    const currentUser = localStorage.getItem('blogCurrentUser');
-    if (currentUser) {
-      setUser(JSON.parse(currentUser));
-    }
-  }, [post.id]);
+  const [showComments, setShowComments] = useState(true);
 
   // Compartir en redes sociales
   const shareUrl = window.location.href;
@@ -77,85 +50,6 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
       window.open(urls[platform as keyof typeof urls], '_blank', 'width=600,height=400');
     }
     setShowShareMenu(false);
-  };
-
-  // Login
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
-    const users = JSON.parse(localStorage.getItem('blogUsers') || '[]');
-    const foundUser = users.find((u: User) => u.email === loginForm.email && u.password === loginForm.password);
-
-    if (foundUser) {
-      setUser(foundUser);
-      localStorage.setItem('blogCurrentUser', JSON.stringify(foundUser));
-      setShowLoginForm(false);
-      setLoginForm({ email: '', password: '' });
-    } else {
-      alert(lang === 'es' ? 'Credenciales incorrectas' : 'Invalid credentials');
-    }
-  };
-
-  // Registro
-  const handleRegister = (e: React.FormEvent) => {
-    e.preventDefault();
-    const users = JSON.parse(localStorage.getItem('blogUsers') || '[]');
-
-    if (users.find((u: User) => u.email === registerForm.email)) {
-      alert(lang === 'es' ? 'Este email ya está registrado' : 'This email is already registered');
-      return;
-    }
-
-    const newUser: User = {
-      id: Date.now().toString(),
-      name: registerForm.name,
-      email: registerForm.email,
-      password: registerForm.password,
-      registeredAt: new Date().toISOString().split('T')[0]
-    };
-
-    users.push(newUser);
-    localStorage.setItem('blogUsers', JSON.stringify(users));
-
-    setUser(newUser);
-    localStorage.setItem('blogCurrentUser', JSON.stringify(newUser));
-    setShowRegisterForm(false);
-    setRegisterForm({ name: '', email: '', password: '' });
-  };
-
-  // Logout
-  const handleLogout = () => {
-    setUser(null);
-    localStorage.removeItem('blogCurrentUser');
-  };
-
-  // Publicar comentario
-  const handleSubmitComment = () => {
-    if (!user) {
-      setShowLoginForm(true);
-      return;
-    }
-
-    if (!newComment.trim()) {
-      alert(lang === 'es' ? 'Escribe un comentario' : 'Write a comment');
-      return;
-    }
-
-    const comment: Comment = {
-      id: Date.now().toString(),
-      postId: post.id,
-      author: user.name,
-      email: user.email,
-      content: newComment,
-      date: new Date().toISOString().split('T')[0],
-      status: 'pending' // Requiere aprobación del admin
-    };
-
-    const allComments = JSON.parse(localStorage.getItem('blogComments') || '[]');
-    allComments.push(comment);
-    localStorage.setItem('blogComments', JSON.stringify(allComments));
-
-    setNewComment('');
-    alert(lang === 'es' ? 'Comentario enviado. Aparecerá tras ser aprobado.' : 'Comment submitted. It will appear after approval.');
   };
 
   // Función para renderizar contenido HTML
@@ -247,8 +141,8 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
                 <Linkedin className="w-4 h-4" />
                 LinkedIn
               </button>
-              <button onClick={() => handleShare('copy')} className="w-full px-4 py-3 text-left text-sm text-stone-300 hover:bg-white/5 hover:text-white flex items-center gap-3 transition-colors cursor-pointer border-t border-white/5">
-                <Link2 className="w-4 h-4" />
+              <button onClick={() => handleShare('copy')} className="w-full px-4 py-3 text-left text-sm text-stone-300 hover:bg-white/5 hover:text-white flex items-center gap-3 transition-colors cursor-pointer">
+                X
                 {lang === 'es' ? 'Copiar enlace' : 'Copy link'}
               </button>
             </div>
@@ -256,96 +150,73 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
         </div>
       </div>
 
-      {/* Hero Header Area */}
-      <div className="space-y-6">
-        <div className="space-y-3">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="bg-gold/10 text-gold border border-gold/20 px-3 py-1 rounded-sm text-xs font-mono font-bold tracking-wider uppercase">
-              {lang === 'es' ? post.categoryEs : post.categoryEn}
-            </span>
-            <div className="flex items-center gap-1.5 text-xs text-stone-500 font-mono font-semibold">
-              <Calendar className="w-3.5 h-3.5" />
-              <span>{post.date}</span>
-            </div>
-            <div className="flex items-center gap-1.5 text-xs text-stone-500 font-mono font-semibold">
-              <Clock className="w-3.5 h-3.5" />
-              <span>{lang === 'es' ? post.readTimeEs : post.readTimeEn}</span>
-            </div>
-            {post.font && (
-              <div className="flex items-center gap-1.5 text-xs text-stone-500 font-mono font-semibold">
-                <span className="w-2 h-2 rounded-full bg-gold"></span>
-                <span>{post.font}</span>
-              </div>
-            )}
-          </div>
-
-          <h1 className="text-2xl md:text-4xl font-extrabold text-white tracking-tight leading-tight" style={{ fontFamily: post.font || 'Inter' }}>
-            {lang === 'es' ? post.titleEs : post.titleEn}
-          </h1>
+      {/* Article Header */}
+      <header className="space-y-6">
+        <div className="flex items-center gap-4 text-xs font-mono text-gold/80">
+          <span className="px-3 py-1 bg-gold/10 border border-gold/20 rounded">
+            {lang === 'es' ? post.categoryEs : post.categoryEn}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Calendar className="w-3.5 h-3.5" />
+            {new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            })}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Clock className="w-3.5 h-3.5" />
+            {lang === 'es' ? post.readTimeEs : post.readTimeEn}
+          </span>
         </div>
 
-        {/* Big visual banner */}
-        <div className="aspect-[21/9] w-full rounded-sm overflow-hidden bg-[#050505] border border-white/5 shadow-2xl relative">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display leading-tight">
+          {lang === 'es' ? post.titleEs : post.titleEn}
+        </h1>
+
+        <p className="text-lg text-stone-400 leading-relaxed font-light max-w-3xl">
+          {lang === 'es' ? post.excerptEs : post.excerptEn}
+        </p>
+
+        {/* Featured Image */}
+        <div className="aspect-video rounded-sm overflow-hidden border border-white/5">
           <img
             src={post.imageUrl}
             alt={lang === 'es' ? post.titleEs : post.titleEn}
             className="w-full h-full object-cover"
           />
         </div>
-      </div>
-
-      {/* Video Embed */}
-      {post.videoUrl && (
-        <div className="space-y-3">
-          <h3 className="text-sm font-bold text-gold font-mono uppercase tracking-widest flex items-center gap-2">
-            <Video className="w-4 h-4" />
-            {lang === 'es' ? 'Video Relacionado' : 'Related Video'}
-          </h3>
-          <div className="aspect-video w-full rounded-sm overflow-hidden bg-[#020202] border border-white/5">
-            <iframe
-              src={post.videoUrl}
-              title={lang === 'es' ? post.titleEs : post.titleEn}
-              className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-        </div>
-      )}
-
-      {/* Gallery */}
-      {post.images && post.images.length > 0 && (
-        <div className="space-y-3">
-          <h3 className="text-sm font-bold text-gold font-mono uppercase tracking-widest flex items-center gap-2">
-            <ImageIcon className="w-4 h-4" />
-            {lang === 'es' ? 'Galería' : 'Gallery'}
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {post.images.map((img, idx) => (
-              <div key={idx} className="aspect-square rounded-sm overflow-hidden border border-white/5 hover:border-gold/30 transition-colors cursor-pointer">
-                <img src={img} alt={`Gallery ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      </header>
 
       {/* Article Content */}
-      <div className="space-y-6 text-stone-300 text-sm md:text-base" style={{ fontFamily: post.font || 'Inter' }}>
+      <div className="prose prose-invert prose-sm max-w-none">
         {renderContent(content)}
       </div>
 
+      {/* Video Embed (if available) */}
+      {post.videoUrl && (
+        <div className="aspect-video rounded-sm overflow-hidden border border-white/5">
+          <iframe
+            src={`https://www.youtube.com/embed/${post.videoUrl}`}
+            title={lang === 'es' ? post.titleEs : post.titleEn}
+            className="w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      )}
+
       {/* Comments Section */}
       {post.enableComments !== false && (
-        <div className="space-y-6 pt-8 border-t border-white/5">
-          <div className="flex items-center justify-between">
-            <h3 className="text-lg font-bold text-white font-display flex items-center gap-2">
+        <div className="border-t border-white/10 pt-8">
+          <div className="flex items-center justify-between mb-6">
+            <h3 className="text-lg font-bold text-white flex items-center gap-2">
               <MessageSquare className="w-5 h-5 text-gold" />
-              {lang === 'es' ? 'Comentarios' : 'Comments'} ({comments.length})
+              {lang === 'es' ? 'Comentarios' : 'Comments'}
             </h3>
             <button
               onClick={() => setShowComments(!showComments)}
-              className="text-xs text-stone-400 hover:text-white transition-colors cursor-pointer flex items-center gap-1"
+              className="flex items-center gap-2 text-xs text-stone-400 hover:text-white transition-colors cursor-pointer"
             >
               {showComments ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
               {showComments ? (lang === 'es' ? 'Ocultar' : 'Hide') : (lang === 'es' ? 'Mostrar' : 'Show')}
@@ -353,171 +224,7 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
           </div>
 
           {showComments && (
-            <div className="space-y-6">
-              {/* User area */}
-              {user ? (
-                <div className="bg-white/[0.02] border border-white/5 rounded-sm p-4 space-y-4">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
-                        <UserIcon className="w-5 h-5 text-gold" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-white text-sm">{user.name}</div>
-                        <div className="text-xs text-stone-500">{user.email}</div>
-                      </div>
-                    </div>
-                    <button onClick={handleLogout} className="text-xs text-stone-400 hover:text-white flex items-center gap-1 transition-colors cursor-pointer">
-                      <LogOut className="w-3 h-3" />
-                      {lang === 'es' ? 'Salir' : 'Logout'}
-                    </button>
-                  </div>
-
-                  <textarea
-                    value={newComment}
-                    onChange={(e) => setNewComment(e.target.value)}
-                    placeholder={lang === 'es' ? 'Escribe tu comentario...' : 'Write your comment...'}
-                    rows={3}
-                    className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors resize-none"
-                  />
-
-                  <button
-                    onClick={handleSubmitComment}
-                    className="flex items-center gap-2 px-4 py-2 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer"
-                  >
-                    <Send className="w-4 h-4" />
-                    {lang === 'es' ? 'Publicar' : 'Post'}
-                  </button>
-                </div>
-              ) : (
-                <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 text-center space-y-4">
-                  <UserIcon className="w-12 h-12 text-stone-600 mx-auto" />
-                  <div>
-                    <p className="text-stone-400 text-sm mb-4">
-                      {lang === 'es' ? 'Debes estar registrado para comentar' : 'You must be registered to comment'}
-                    </p>
-                    <div className="flex items-center justify-center gap-4">
-                      <button
-                        onClick={() => { setShowLoginForm(true); setShowRegisterForm(false); }}
-                        className="px-4 py-2 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer"
-                      >
-                        {lang === 'es' ? 'Iniciar Sesión' : 'Login'}
-                      </button>
-                      <button
-                        onClick={() => { setShowRegisterForm(true); setShowLoginForm(false); }}
-                        className="px-4 py-2 bg-white/5 hover:bg-white/10 text-white rounded-sm text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer"
-                      >
-                        {lang === 'es' ? 'Registrarse' : 'Register'}
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {/* Login Form */}
-              {showLoginForm && (
-                <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 space-y-4">
-                  <div className="flex items-center justify-between">
-                    <h4 className="text-sm font-bold text-white">{lang === 'es' ? 'Iniciar Sesión' : 'Login'}</h4>
-                    <button onClick={() => setShowLoginForm(false)} className="text-stone-400 hover:text-white cursor-pointer">
-                      <X className="w-4 h-4" />
-                    </button>
-                  </div>
-                  <form onSubmit={handleLogin} className="space-y-4">
-                    <input
-                      type="email"
-                      value={loginForm.email}
-                      onChange={(e) => setLoginForm({ ...loginForm, email: e.target.value })}
-                      placeholder={lang === 'es' ? 'Email' : 'Email'}
-                      className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-                      required
-                    />
-                    <input
-                      type="password"
-                      value={loginForm.password}
-                      onChange={(e) => setLoginForm({ ...loginForm, password: e.target.value })}
-                      placeholder={lang === 'es' ? 'Contraseña' : 'Password'}
-                      className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-                      required
-                    />
-                    <button
-                      type="submit"
-                      className="w-full px-4 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer"
-                    >
-                      {lang === 'es' ? 'Entrar' : 'Login'}
-                    </button>
-                  </form>
-                </div>
-              )}
-
-              {/* Register Form */}
-              {showRegisterForm && (
-                <div className="bg-white/[0.02] border border-white/5 rounded-sm p-6 space-y-4">
-                  <div className="flex items-center justify-between">
-                    <h4 className="text-sm font-bold text-white">{lang === 'es' ? 'Registrarse' : 'Register'}</h4>
-                    <button onClick={() => setShowRegisterForm(false)} className="text-stone-400 hover:text-white cursor-pointer">
-                      <X className="w-4 h-4" />
-                    </button>
-                  </div>
-                  <form onSubmit={handleRegister} className="space-y-4">
-                    <input
-                      type="text"
-                      value={registerForm.name}
-                      onChange={(e) => setRegisterForm({ ...registerForm, name: e.target.value })}
-                      placeholder={lang === 'es' ? 'Nombre' : 'Name'}
-                      className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-                      required
-                    />
-                    <input
-                      type="email"
-                      value={registerForm.email}
-                      onChange={(e) => setRegisterForm({ ...registerForm, email: e.target.value })}
-                      placeholder={lang === 'es' ? 'Email' : 'Email'}
-                      className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-                      required
-                    />
-                    <input
-                      type="password"
-                      value={registerForm.password}
-                      onChange={(e) => setRegisterForm({ ...registerForm, password: e.target.value })}
-                      placeholder={lang === 'es' ? 'Contraseña' : 'Password'}
-                      className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-                      required
-                    />
-                    <button
-                      type="submit"
-                      className="w-full px-4 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer"
-                    >
-                      {lang === 'es' ? 'Registrarse' : 'Register'}
-                    </button>
-                  </form>
-                </div>
-              )}
-
-              {/* Comments List */}
-              {comments.length > 0 ? (
-                <div className="space-y-4">
-                  {comments.map((comment) => (
-                    <div key={comment.id} className="bg-white/[0.02] border border-white/5 rounded-sm p-4 space-y-2">
-                      <div className="flex items-center gap-3">
-                        <div className="w-8 h-8 bg-gold/20 rounded-full flex items-center justify-center">
-                          <UserIcon className="w-4 h-4 text-gold" />
-                        </div>
-                        <div>
-                          <div className="font-bold text-white text-sm">{comment.author}</div>
-                          <div className="text-xs text-stone-500">{comment.date}</div>
-                        </div>
-                      </div>
-                      <p className="text-stone-300 text-sm leading-relaxed">{comment.content}</p>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <p className="text-center text-stone-500 text-sm py-8">
-                  {lang === 'es' ? 'Aún no hay comentarios. ¡Sé el primero!' : 'No comments yet. Be the first!'}
-                </p>
-              )}
-            </div>
+            <CommentSystem postId={post.id} lang={lang} t={t} />
           )}
         </div>
       )}
