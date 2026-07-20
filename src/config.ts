@@ -450,7 +450,7 @@ export const PAYMENT_CONFIG = {
   qrPayment: {
     provider: 'Banco Mercantil Santa Cruz',
     phoneNumber: '+591 62408420',
-    qrImage: '/images/qr-freddy-ticona.jpg', // Imagen del QR code
+    qrImage: '/images/qr-mercantil.jpg', // Imagen del QR code real
     instructionsEs: 'Escanea el código QR desde la app de Banco Mercantil o envía el monto al número de celular.',
     instructionsEn: 'Scan the QR code from Banco Mercantil app or send the amount to the cell phone number.'
   },
