@@ -111,55 +111,55 @@ export function PaymentModal({ isOpen, onClose, checkoutSession, lang = 'es' }: 
       return;
     }
 
-    setStep('processing');
-    setIsProcessing(true);
+    // Para métodos offline, crear orden pendiente
+    if (selectedMethod === 'transferencia' || selectedMethod === 'qr' || selectedMethod === 'efectivo') {
+      const payment = createPayment(
+        [{
+          id: crypto.randomUUID(),
+          serviceId: checkoutSession.serviceId,
+          serviceName: checkoutSession.serviceName,
+          quantity: 1,
+          unitPrice: checkoutSession.amount,
+          currency: checkoutSession.currency,
+          subtotal: checkoutSession.amount
+        }],
+        customerDetails.name,
+        customerDetails.email,
+        customerDetails.phone,
+        selectedMethod,
+        checkoutSession.currency,
+        undefined,
+        checkoutSession.notes
+      );
 
-    try {
-      if (selectedMethod === 'stripe') {
-        // Procesar pago con Stripe (simulado)
-        const result = await processStripePayment({
-          ...checkoutSession,
-          customerName: customerDetails.name,
-          customerEmail: customerDetails.email,
-          customerPhone: customerDetails.phone
-        });
+      // Guardar como pendiente
+      savePayment(payment);
+      setCompletedPaymentId(payment.id);
 
-        if (result.success) {
-          setCompletedPaymentId(result.paymentId || null);
-          setStep('success');
-        } else {
-          setError(result.error || (isEs ? 'Error al procesar el pago' : 'Payment processing error'));
-          setStep('details');
-        }
-      } else {
-        // Para otros métodos, crear registro pendiente
-        const payment = createPayment(
-          [{
-            id: crypto.randomUUID(),
-            serviceId: checkoutSession.serviceId,
-            serviceName: checkoutSession.serviceName,
-            quantity: 1,
-            unitPrice: checkoutSession.amount,
-            currency: checkoutSession.currency,
-            subtotal: checkoutSession.amount
-          }],
-          customerDetails.name,
-          customerDetails.email,
-          customerDetails.phone,
-          selectedMethod,
-          checkoutSession.currency,
-          undefined,
-          checkoutSession.notes
-        );
+      // Mostrar pantalla de instrucciones de pago
+      setStep('payment-instructions');
+      return;
+    }
 
-        savePayment(payment);
-        setCompletedPaymentId(payment.id);
+    // Para Stripe (requiere configuración real)
+    if (selectedMethod === 'stripe') {
+      setStep('processing');
+      setIsProcessing(true);
+
+      const result = await processStripePayment({
+        ...checkoutSession,
+        customerName: customerDetails.name,
+        customerEmail: customerDetails.email,
+        customerPhone: customerDetails.phone
+      });
+
+      if (result.success) {
+        setCompletedPaymentId(result.paymentId || null);
         setStep('success');
+      } else {
+        setError(result.error || (isEs ? 'Stripe no está configurado' : 'Stripe not configured'));
+        setStep('details');
       }
-    } catch (err) {
-      setError(isEs ? 'Error al procesar el pago' : 'Payment processing error');
-      setStep('details');
-    } finally {
       setIsProcessing(false);
     }
   };
@@ -459,6 +459,102 @@ export function PaymentModal({ isOpen, onClose, checkoutSession, lang = 'es' }: 
               <p className="text-stone-400">
                 {isEs ? 'Por favor espera un momento' : 'Please wait a moment'}
               </p>
+            </div>
+          )}
+
+          {step === 'payment-instructions' && completedPaymentId && (
+            <div className="text-center py-6">
+              <div className="w-16 h-16 mx-auto mb-4 bg-yellow-500/20 rounded-full flex items-center justify-center">
+                <AlertCircle className="w-8 h-8 text-yellow-400" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">
+                {isEs ? 'Orden Creada' : 'Order Created'}
+              </h3>
+              <p className="text-stone-400 mb-6">
+                {isEs
+                  ? 'Tu orden ha sido creada. Completa el pago usando los datos a continuación.'
+                  : 'Your order has been created. Complete payment using the details below.'}
+              </p>
+
+              {/* Order ID */}
+              <div className="mb-6 p-4 bg-stone-900/50 border border-stone-800 rounded-lg">
+                <p className="text-sm text-stone-400 mb-1">{isEs ? 'Número de Orden' : 'Order Number'}</p>
+                <p className="font-mono text-gold text-xl">{completedPaymentId.slice(0, 8).toUpperCase()}</p>
+              </div>
+
+              {/* Payment Details */}
+              <div className="mb-6 p-4 bg-stone-900/50 border border-stone-800 rounded-lg text-left">
+                <p className="text-sm text-stone-400 mb-3">{isEs ? 'Detalles del Pago' : 'Payment Details'}</p>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between">
+                    <span className="text-stone-400">{isEs ? 'Servicio' : 'Service'}:</span>
+                    <span className="text-white">{checkoutSession.serviceName}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-stone-400">{isEs ? 'Monto' : 'Amount'}:</span>
+                    <span className="text-gold font-bold">{formatMoney(totals.total, checkoutSession.currency)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-stone-400">{isEs ? 'Método' : 'Method'}:</span>
+                    <span className="text-white">{formatPaymentMethod(selectedMethod, lang)}</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Instructions based on method */}
+              {selectedMethod === 'transferencia' && (
+                <div className="mb-6 p-4 bg-blue-500/10 border border-blue-500/30 rounded-lg text-left">
+                  <h4 className="font-bold text-white mb-3">{isEs ? 'Pasos para pagar:' : 'Steps to pay:'}</h4>
+                  <ol className="space-y-2 text-sm text-stone-300">
+                    <li>1. {isEs ? 'Ve a tu app de banco o sucursal' : 'Go to your bank app or branch'}</li>
+                    <li>2. {isEs ? 'Realiza transferencia a la cuenta indicada' : 'Make transfer to the account'}</li>
+                    <li>3. {isEs ? 'Envía el comprobante por WhatsApp' : 'Send receipt via WhatsApp'}</li>
+                  </ol>
+                  <a
+                    href="https://wa.me/59162408420"
+                    target="_blank"
+                    rel="noopener"
+                    className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-sm text-sm font-bold transition-colors"
+                  >
+                    {isEs ? 'Enviar comprobante por WhatsApp' : 'Send receipt via WhatsApp'}
+                  </a>
+                </div>
+              )}
+
+              {selectedMethod === 'qr' && (
+                <div className="mb-6 p-4 bg-green-500/10 border border-green-500/30 rounded-lg text-left">
+                  <h4 className="font-bold text-white mb-3">{isEs ? 'Pasos para pagar:' : 'Steps to pay:'}</h4>
+                  <ol className="space-y-2 text-sm text-stone-300">
+                    <li>1. {isEs ? 'Abre la app de Banco Mercantil' : 'Open Banco Mercantil app'}</li>
+                    <li>2. {isEs ? 'Escanea el código QR' : 'Scan the QR code'}</li>
+                    <li>3. {isEs ? 'Envía el monto +591 62408420' : 'Send amount to +591 62408420'}</li>
+                    <li>4. {isEs ? 'Confirma y envía captura por WhatsApp' : 'Confirm and send screenshot via WhatsApp'}</li>
+                  </ol>
+                  <a
+                    href="https://wa.me/59162408420"
+                    target="_blank"
+                    rel="noopener"
+                    className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-sm text-sm font-bold transition-colors"
+                  >
+                    {isEs ? 'Confirmar pago por WhatsApp' : 'Confirm payment via WhatsApp'}
+                  </a>
+                </div>
+              )}
+
+              <div className="p-4 bg-stone-900/50 border border-stone-800 rounded-lg">
+                <p className="text-xs text-stone-500">
+                  {isEs
+                    ? 'Tu orden quedará confirmada una vez verifiquemos el pago. Recibirás confirmación por correo.'
+                    : 'Your order will be confirmed once we verify the payment. You will receive confirmation by email.'}
+                </p>
+              </div>
+
+              <button
+                onClick={onClose}
+                className="mt-6 w-full px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm transition-colors"
+              >
+                {isEs ? 'Entendido' : 'Got it'}
+              </button>
             </div>
           )}
 
