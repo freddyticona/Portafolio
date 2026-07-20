@@ -80,6 +80,12 @@ export const YOUTUBE_VIDEOS = {
 // SEO Y METADATOS
 // ==========================================
 
+export const SITE_CONFIG = {
+  domain: 'https://freddydev.net',
+  name: 'Freddy Dev',
+  title: 'Freddy Ticona Guzmán | Camarógrafo y Realizador Audiovisual'
+} as const;
+
 export const SEO = {
   title: 'Freddy Ticona Guzmán | Camarógrafo y Realizador Audiovisual - La Paz, Bolivia',
   description: 'Portafolio profesional de Freddy Ticona Guzmán, camarógrafo y realizador audiovisual con más de 15 años de experiencia en televisión, documentales y cobertura periodística en Bolivia.',

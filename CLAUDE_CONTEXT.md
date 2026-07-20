@@ -23,7 +23,8 @@
 **Contacto:** freddyticona62@gmail.com | +591 62408420
 
 **Repositorio GitHub:** https://github.com/freddyticona/Portafolio
-**Sitio web:** https://freddy-ticona-portafolio.vercel.app
+**Sitio web:** https://freddydev.net
+**Vercel (temporal):** https://freddy-ticona-portafolio.vercel.app
 **Carpeta local:** `C:\Users\Asus\Downloads\portafolio cv studio`
 
 **Google Analytics ID:** G-401629974
