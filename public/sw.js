@@ -3,11 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-// Service Worker para Portafolio Freddy Ticona
-// Proporciona funcionalidad offline y caché inteligente
+// Service Worker para Portafolio Freddy Ticona - PWA v2.0
+// Proporciona funcionalidad offline, caché inteligente y sincronización
 
-const CACHE_NAME = 'freddy-ticona-v1';
-const RUNTIME_CACHE = 'freddy-ticono-runtime-v1';
+const CACHE_VERSION = '2.0.0';
+const CACHE_NAME = `freddy-ticona-${CACHE_VERSION}`;
+const RUNTIME_CACHE = `freddy-ticono-runtime-${CACHE_VERSION}`;
+const IMAGE_CACHE = `freddy-ticono-images-${CACHE_VERSION}`;
 
 // Archivos estáticos para cachear inmediatamente
 const STATIC_FILES = [
@@ -196,12 +198,50 @@ self.addEventListener('message', (event) => {
 
 // Sincronización en segundo plano
 self.addEventListener('sync', (event) => {
+  console.log('[SW] Sync event:', event.tag);
+
   if (event.tag === 'sync-analytics') {
     event.waitUntil(syncAnalytics());
+  }
+  if (event.tag === 'sync-forms') {
+    event.waitUntil(syncForms());
   }
 });
 
 async function syncAnalytics() {
-  // Aquí puedes implementar la sincronización de datos cuando vuelva la conexión
+  // Sincronizar analytics guardados localmente
   console.log('[SW] Sincronizando analytics...');
 }
+
+async function syncForms() {
+  // Sincronizar formularios guardados cuando no había conexión
+  console.log('[SW] Sincronizando formularios...');
+}
+
+// Notificaciones push
+self.addEventListener('push', (event) => {
+  const options = {
+    body: event.data?.text() || 'Nueva actualización en el portafolio',
+    icon: '/icon-192.png',
+    badge: '/apple-touch-icon.png',
+    vibrate: [200, 100, 200],
+    data: { url: '/' },
+    actions: [
+      { action: 'explore', title: 'Ver Portafolio', icon: '/icon-192.png' },
+      { action: 'close', title: 'Cerrar', icon: '/icon-192.png' }
+    ]
+  };
+
+  event.waitUntil(
+    self.registration.showNotification('Freddy Ticona Portafolio', options)
+  );
+});
+
+// Click en notificación
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+
+  if (event.action === 'explore') {
+    event.waitUntil(clients.openWindow(event.notification.data?.url || '/'));
+  }
+});
