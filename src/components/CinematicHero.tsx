@@ -102,25 +102,14 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
           transform: `translateY(${scrollY * 0.5}px) scale3d(${1 + scrollY * 0.0001}, ${1 + scrollY * 0.0001}, 1, ${mousePosition.x * -10}px, ${mousePosition.y * -10}px, 0)`
         }}
       >
-        {/* Imagen de fondo — la foto está rotada 90° entonces la corregimos con CSS */}
-        <div className="absolute inset-0 overflow-hidden">
-          <img
-            src="/images/freddy_working.webp"
-            alt="Freddy Ticona trabajando en el set"
-            style={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%) rotate(-90deg)',
-              width: '177.8vh',
-              height: '100vw',
-              maxWidth: 'none',
-              objectFit: 'cover',
-              filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001})`
-            }}
-          />
-        </div>
-
+        <img
+          src="/images/freddy_working.webp"
+          alt="Freddy Ticona trabajando en el set"
+          className="absolute inset-0 w-full h-full object-cover object-top"
+          style={{
+            filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001})`
+          }}
+        />
 
 
         {/* Gradientes superpuestos */}
