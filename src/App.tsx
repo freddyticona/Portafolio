@@ -28,7 +28,6 @@ import BlogCard from './components/BlogCard';
 import BlogDetail from './components/BlogDetail';
 import AdminPanel from './components/AdminPanel';
 import CinematicHero from './components/CinematicHero';
-import BehindScenesGallery from './components/BehindScenesGallery';
 import GlobalSearch from './components/GlobalSearch';
 import WhatsAppButton from './components/WhatsAppButton';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
@@ -304,12 +303,7 @@ export default function App() {
               </div>
             </section>
 
-            {/* 4. BEHIND THE SCenes GALLERY */}
-            <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-              <BehindScenesGallery lang={lang} t={t} />
-            </section>
-
-            {/* 5. PREVIEW OF LATEST BLOG POSTS */}
+            {/* 4. PREVIEW OF LATEST BLOG POSTS */}
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
               <div className="text-center space-y-3">
                 <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
