@@ -663,11 +663,11 @@ export default function App() {
                     </div>
 
                     <div className="space-y-1 text-left pt-3 border-t border-white/5">
-                      <div className="text-xs font-mono text-stone-500">2011 - 2012</div>
+                      <div className="text-xs font-mono text-stone-500">2017</div>
                       <h4 className="text-sm font-bold text-white leading-snug">
-                        {lang === 'es' ? 'Técnico Superior en Realización Audiovisual, Cinematografía y TV' : 'Advanced Degree in Film & TV Production'}
+                        {lang === 'es' ? 'Técnico en Cinematografía' : 'Cinematography Technician'}
                       </h4>
-                      <p className="text-xs text-gold/90 font-mono font-bold tracking-wider">Instituto Nacional de Formación Audiovisual</p>
+                      <p className="text-xs text-gold/90 font-mono font-bold tracking-wider">Escuela Andina de Cinematografía - Fundación Ukamau</p>
                     </div>
                   </div>
                 </div>

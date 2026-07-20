@@ -49,9 +49,9 @@ const FREDDY_CV_DATA: CVData = {
       year: '2010 - 2014'
     },
     {
-      degree: 'Técnico Superior en Realización Audiovisual, Cinematografía y TV',
-      institution: 'Instituto Nacional de Formación Audiovisual',
-      year: '2011 - 2012'
+      degree: 'Técnico en Cinematografía',
+      institution: 'Escuela Andina de Cinematografía - Fundación Ukamau',
+      year: '2017'
     }
   ],
   experience: [

@@ -300,9 +300,11 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para ser
 - Tipos de pago de `types.ts` (Payment, PaymentMethod, PaymentStatus, etc.)
 
 **CORREGIDO:**
-- `CinematicHero.tsx` - `/images/freddy_working.jpg` → `.webp`
-- `App.tsx` - `/images/freddy_studio.jpg` y `freddy_profile.jpg` → `.webp`
+- `CinematicHero.tsx` - Cambiado a imagen `DSC_2994.webp` (panorámica nativa) para evitar fallos de rotación vertical en la portada.
 - `translations.ts` - 7 referencias de `.jpg` → `.webp`
+- `translations.ts` - Corrección de cargo en Bolivia TV ("Responsable de los archivos del área de prensa").
+- `translations.ts` - Corrección de cargo en Abya Yala ("Post Productor y Camarógrafo Editor").
+- `App.tsx` y `lib/pdfGenerator.ts` - Se eliminó información académica falsa ("Instituto Nacional de Formación Audiovisual") y se reemplazó con el dato real extraído de su currículum PDF ("Técnico en Cinematografía - Escuela Andina de Cinematografía Fundación Ukamau").
 - `AdminPanel.tsx` - referencias de `.jpg` → `.webp`
 - `lib/seo.ts` - og:image de `.jpg` → `.webp`
 
