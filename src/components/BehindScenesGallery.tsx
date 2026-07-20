@@ -33,71 +33,135 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const galleryRef = useRef<HTMLDivElement>(null);
 
-  // Imágenes de ejemplo - después reemplazar con las reales
+  // Imágenes reales de coberturas de Freddy Ticona
   const behindScenesImages: BehindScenesImage[] = [
     {
-      src: '/images/behind-scenes/1.jpg',
-      alt: 'Grabación en el Altiplano',
-      title: lang === 'es' ? 'Grabación en el Altiplano boliviano' : 'Filming in the Bolivian Highlands',
-      category: 'location',
-      year: '2024',
-      location: 'Salar de Uyuni'
+      src: '/images/behind-scenes/DSC_2994.jpg',
+      alt: 'Cobertura en terreno',
+      title: lang === 'es' ? 'Cobertura periodística en La Paz' : 'Journalistic coverage in La Paz',
+      category: 'set',
+      year: '2021',
+      location: 'La Paz, Bolivia'
     },
     {
-      src: '/images/behind-scenes/2.jpg',
-      alt: 'Configuración de cámaras',
-      title: lang === 'es' ? 'Configuración de cámaras 4K' : '4K Camera Setup',
+      src: '/images/behind-scenes/DSC_3001.jpg',
+      alt: 'Equipo de cámaras',
+      title: lang === 'es' ? 'Equipo profesional de grabación' : 'Professional recording equipment',
       category: 'equipment',
-      year: '2024',
+      year: '2021',
       location: 'Estudio Bolivia TV'
     },
     {
-      src: '/images/behind-scenes/3.jpg',
-      alt: 'Equipo de producción',
-      title: lang === 'es' ? 'Con el equipo de producción' : 'With the production team',
-      category: 'team',
-      year: '2023',
+      src: '/images/behind-scenes/DSC_1971.JPG',
+      alt: 'Freddy en operación',
+      title: lang === 'es' ? 'Operando cámara en evento oficial' : 'Operating camera at official event',
+      category: 'set',
+      year: '2020',
+      location: 'Palacio Quemado'
+    },
+    {
+      src: '/images/behind-scenes/20190302_133138.jpg',
+      alt: 'Cobertura multitudinaria',
+      title: lang === 'es' ? 'Cobertura de evento masivo' : 'Massive event coverage',
+      category: 'set',
+      year: '2019',
       location: 'La Paz'
     },
     {
-      src: '/images/behind-scenes/4.jpg',
-      alt: 'Toma aérea con dron',
-      title: lang === 'es' ? 'Toma aérea con dron' : 'Aerial shot with drone',
+      src: '/images/behind-scenes/DSC_2187.JPG',
+      alt: 'Documental en campo',
+      title: lang === 'es' ? 'Grabación de documental' : 'Documentary filming',
+      category: 'location',
+      year: '2019',
+      location: 'Zona rural'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2194.JPG',
+      alt: 'Entrevista en exteriores',
+      title: lang === 'es' ? 'Entrevista en locación' : 'On-location interview',
       category: 'set',
-      year: '2024',
+      year: '2020',
+      location: 'El Alto'
+    },
+    {
+      src: '/images/behind-scenes/20190228_190246.jpg',
+      alt: 'Equipo de producción',
+      title: lang === 'es' ? 'Con el equipo de producción' : 'With production team',
+      category: 'team',
+      year: '2019',
+      location: 'La Paz'
+    },
+    {
+      src: '/images/behind-scenes/20190208_221221.jpg',
+      alt: 'Configuración de estudio',
+      title: lang === 'es' ? 'Configuración de estudio móvil' : 'Mobile studio setup',
+      category: 'equipment',
+      year: '2019',
+      location: 'Unidad Móvil'
+    },
+    {
+      src: '/images/behind-scenes/20190302_203628.jpg',
+      alt: 'Cobertura nocturna',
+      title: lang === 'es' ? 'Cobertura de evento nocturno' : 'Night event coverage',
+      category: 'set',
+      year: '2019',
+      location: 'La Paz'
+    },
+    {
+      src: '/images/behind-scenes/DSC_07483.JPG',
+      alt: 'Grabación en la calle',
+      title: lang === 'es' ? 'Cobertura callejera' : 'Street coverage',
+      category: 'set',
+      year: '2016',
+      location: 'La Paz'
+    },
+    {
+      src: '/images/behind-scenes/DSC_07510.JPG',
+      alt: 'Locación histórica',
+      title: lang === 'es' ? 'Grabación en sitio histórico' : 'Filming at historical site',
+      category: 'location',
+      year: '2016',
+      location: 'Casco Viejo'
+    },
+    {
+      src: '/images/behind-scenes/PSX_20190811_094134 1.jpg',
+      alt: 'Producción en exteriores',
+      title: lang === 'es' ? 'Producción en locación' : 'On-location production',
+      category: 'set',
+      year: '2019',
       location: 'Valle de la Luna'
     },
     {
-      src: '/images/behind-scenes/5.jpg',
-      alt: 'Iluminación de estudio',
-      title: lang === 'es' ? 'Configuración de iluminación' : 'Lighting setup',
+      src: '/images/behind-scenes/PSX_20190811_094405 1.jpg',
+      alt: 'Cámara en acción',
+      title: lang === 'es' ? 'Cámara en movimiento' : 'Camera in action',
       category: 'equipment',
-      year: '2023',
+      year: '2019',
+      location: 'Locación'
+    },
+    {
+      src: '/images/behind-scenes/PSX_20191228_093046.jpg',
+      alt: 'Equipo trabajando',
+      title: lang === 'es' ? 'El equipo en acción' : 'Team in action',
+      category: 'team',
+      year: '2019',
       location: 'Estudio'
     },
     {
-      src: '/images/behind-scenes/6.jpg',
-      alt: 'Edición en tiempo real',
-      title: lang === 'es' ? 'Edición en tiempo real' : 'Real-time editing',
+      src: '/images/behind-scenes/PSX_20191229_110351.jpg',
+      alt: 'Preparativos de grabación',
+      title: lang === 'es' ? 'Preparativos de rodaje' : 'Filming preparations',
       category: 'set',
-      year: '2024',
-      location: 'Mobile Unit'
+      year: '2019',
+      location: 'Set de grabación'
     },
     {
-      src: '/images/behind-scenes/7.jpg',
-      alt: 'Locación selva',
-      title: lang === 'es' ? 'Documental en la Amazonia' : 'Documentary in the Amazon',
-      category: 'location',
-      year: '2023',
-      location: 'Rurrenabaque'
-    },
-    {
-      src: '/images/behind-scenes/8.jpg',
-      alt: 'Entrevista exclusiva',
-      title: lang === 'es' ? 'Entrevista exclusiva' : 'Exclusive interview',
-      category: 'set',
-      year: '2024',
-      location: 'Palacio Quemado'
+      src: '/images/behind-scenes/DSC_2987.jpg',
+      alt: 'Operación técnica',
+      title: lang === 'es' ? 'Operación de cámara profesional' : 'Professional camera operation',
+      category: 'equipment',
+      year: '2021',
+      location: 'Cobertura'
     }
   ];
 
@@ -159,16 +223,16 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
 
           <div className="flex items-center gap-6 mt-6 pt-6 border-t border-white/5">
             <div className="text-center">
-              <div className="text-2xl font-bold text-gold font-display">50+</div>
+              <div className="text-2xl font-bold text-gold font-display">56+</div>
               <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
                 {lang === 'es' ? 'Fotos' : 'Photos'}
               </div>
             </div>
             <div className="w-px h-8 bg-white/10" />
             <div className="text-center">
-              <div className="text-2xl font-bold text-gold font-display">8</div>
+              <div className="text-2xl font-bold text-gold font-display">2016-2021</div>
               <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
-                {lang === 'es' ? 'Años' : 'Years'}
+                {lang === 'es' ? 'Periodo' : 'Period'}
               </div>
             </div>
             <div className="w-px h-8 bg-white/10" />
