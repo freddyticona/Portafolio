@@ -26,13 +26,24 @@
 **Sitio web:** https://freddy-ticona-portafolio.vercel.app
 **Carpeta local:** `C:\Users\Asus\Downloads\portafolio cv studio`
 
+**Google Analytics ID:** G-401629974
+
 ---
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 20 julio 2026 - Commit: 102e379)
+### ✅ COMPLETADO (Última actualización: 20 julio 2026 - Commit: 66589e7)
 
-El proyecto fue transformado de un portafolio simple a una **PLATAFORMA PREMIUM** con:
+El proyecto fue transformado de un portafolio simple a una **PLATAFORMA PREMIUM** con múltiples commits:
+
+#### HISTORIAL DE COMMITS RECIENTES:
+
+| Commit | Fecha | Descripción |
+|--------|-------|-------------|
+| 66589e7 | 20 jul 2026 | Google Analytics ID actualizado (G-401629974) |
+| 828b08d | 20 jul 2026 | Fase 1 - SEO y rendimiento (Sitemap, Robots, GA4, WebP) |
+| 102e379 | 20 jul 2026 | Mejoras completas de UX y accesibilidad |
+| d3a7182 | - | Commit base anterior |
 
 #### 1. Experiencia Visual Premium
 - **CinematicHero.tsx** - Hero con efectos parallax, partículas, animaciones escalonadas
@@ -55,45 +66,53 @@ El proyecto fue transformado de un portafolio simple a una **PLATAFORMA PREMIUM*
 - **AnalyticsDashboard.tsx** - Dashboard con estadísticas en Admin
 - **LazyImage.tsx** - Lazy loading con Intersection Observer
 
-#### 5. Accesibilidad (NUEVO - Commit 102e379)
+#### 5. Accesibilidad (Commit 102e379)
 - **SkipLink.tsx** - Permite a lectores de pantalla saltar al contenido
 - **Navbar.tsx** - ARIA labels, roles, aria-current completos
 - **index.css** - Clases .sr-only, .skip-link para accesibilidad
 
-#### 6. Skeleton Loaders (NUEVO - Commit 102e379)
+#### 6. Skeleton Loaders (Commit 102e379)
 - **Skeleton.tsx** - Hero, Stats, Testimonial, About, CV skeletons
 - **LoadingScreen** - Pantalla de carga animada
 - **InlineLoading** - Carga en línea con soporte bilingüe
 
-#### 7. Mapa de Ubicaciones (NUEVO - Commit 102e379)
+#### 7. Mapa de Ubicaciones (Commit 102e379)
 - **LocationsMap.tsx** - Mapa SVG interactivo de Bolivia
 - 8 ubicaciones con coordenadas y proyectos filmados
 - Controles de zoom, leyenda, enlaces a Google Maps
 - Versión compacta: `LocationsMapCompact`
+
+#### 8. SEO - Fase 1 (Commit 828b08d)
+- **Sitemap.xml** - Actualizado con rutas correctas, hreflang, fechas
+- **Robots.txt** - Control de crawlers, bloques de admin/api
+- **Google Analytics 4** - Sistema completo de tracking (lib/analytics.ts)
+- **Optimización WebP** - Script y componente para imágenes optimizadas
 
 ---
 
 ## ⚠️ PENDIENTES / FUTURO
 
 - Videos de YouTube son placeholders (necesita IDs reales)
-- Imágenes grandes (9-17MB) podrían optimizarse más
+- Imágenes grandes (9-17MB) podrían optimizarse más (ejecutar `npm run optimize-images`)
 - PWA no está completamente implementado
-- Fase 1 de escalado: Sitemap.xml, Robots.txt, GA4, WebP
-- Fase 2: PWA completo, CV PDF, Newsletter
-- Fase 3: Sistema de citas, Chatbot, Quechua/Aymara
+- **Fase 1:** ✅ COMPLETADA (Sitemap, Robots, GA4, WebP)
+- **Fase 2:** 🔄 EN PROGRESO (PWA, CV PDF, Newsletter)
+- **Fase 3:** Pendiente (Sistema de citas, Chatbot, Quechua/Aymara)
 
 ---
 
-## 📁 ESTRUCTURA CLAVE
+## 📁 ESTRUCTURA CLAVE COMPLETA
 
 ```
 src/
 ├── App.tsx                      # ⭐ COMPONENTE PRINCIPAL
-├── main.tsx                     # Entry point
+├── main.tsx                     # Entry point + GA4 init
 ├── config.ts                    # ⭐ CONFIGURACIÓN CENTRAL (contacto, redes, videos)
 ├── translations.ts              # Contenido bilingüe
 ├── types.ts                     # TypeScript types
 ├── index.css                    # Estilos globales + accesibilidad
+├── lib/
+│   └── analytics.ts            # ⭐ NUEVO: Google Analytics 4 tracking
 ├── components/
 │   ├── CinematicHero.tsx        # Hero mejorado
 │   ├── GlobalSearch.tsx         # Búsqueda Ctrl+K
@@ -103,6 +122,7 @@ src/
 │   ├── AnalyticsDashboard.tsx  # Dashboard de estadísticas
 │   ├── AdminPanel.tsx           # Panel de administración
 │   ├── LazyImage.tsx            # ⭐ NUEVO: Lazy loading imágenes
+│   ├── OptimizedImage.tsx      # ⭐ NUEVO: WebP/AVIF support
 │   ├── SkipLink.tsx             # ⭐ NUEVO: Accesibilidad
 │   ├── LocationsMap.tsx         # ⭐ NUEVO: Mapa de ubicaciones
 │   ├── Skeleton.tsx             # ⭐ NUEVO: Skeleton loaders
@@ -113,21 +133,31 @@ src/
 │   ├── Footer.tsx               # Footer del sitio
 │   ├── Lightbox.tsx             # Lightbox para imágenes
 │   ├── MicroInteractions.tsx   # Micro-interacciones
-│   ├── Navbar.tsx               # Navegación principal
+│   ├── Navbar.tsx               # Navegación principal + ARIA
 │   ├── PDFExport.tsx            # Exportar a PDF
 │   ├── PortfolioGrid.tsx       # Grid de portafolio
 │   ├── SearchBar.tsx            # Barra de búsqueda
 │   ├── SocialShare.tsx          # Compartir en redes
-│   ├── Timeline.tsx              # Timeline de experiencia
+│   ├── Timeline.tsx             # Timeline de experiencia
 │   └── BehindScenesGallery.tsx  # Galería detrás de cámaras (INACTIVO)
 ├── hooks/
 │   ├── useDarkMode.ts           # Hook para tema oscuro/claro
-│   └── useServiceWorker.ts      # Hook para service worker
+│   ├── useServiceWorker.ts      # Hook para service worker
+│   └── useAnalytics.ts         # ⭐ NUEVO: GA4 events tracking
 └── analytics/
     └── index.ts                 # Sistema de analytics local
 
-public/images/
-└── behind-scenes/              # 56 fotos de coberturas
+scripts/
+├── generate-icons.js            # Generación de iconos
+├── generate-rss.js              # Generación de RSS
+└── optimize-images.js          # ⭐ NUEVO: Optimización a WebP
+
+public/
+├── sitemap.xml                  # ⭐ NUEVO: Sitemap dinámico
+├── robots.txt                   # ⭐ NUEVO: Control crawlers
+├── manifest.json               # PWA manifest
+└── images/
+    └── behind-scenes/           # 56 fotos de coberturas
 ```
 
 ---
@@ -139,7 +169,7 @@ public/images/
 - **Email GitHub:** freddyticona62@gmail.com
 - **Proyecto Vercel:** freddy-ticona-portafolio
 - **Estado:** ✅ Conectado a GitHub (deploy automático)
-- **Último Commit:** 102e379 - "feat: implementar mejoras completas de UX y accesibilidad"
+- **Último Commit:** 66589e7 - "fix: actualizar Google Analytics Measurement ID (G-401629974)"
 
 ### Comandos Git útiles:
 ```bash
@@ -150,11 +180,19 @@ git commit -m "mensaje"
 git push origin main
 ```
 
+### Comandos NPM:
+```bash
+npm run dev          # Inicia servidor en puerto 3000
+npm run build        # Compila para producción
+npm run preview      # Previsualiza producción
+npm run optimize-images  # Optimiza imágenes a WebP
+```
+
 ---
 
 ## 🎯 PÁGINAS DEL SITIO
 
-1. **inicio** - Hero, estadísticas, preview blog, mapa NO (en sobre-mí)
+1. **inicio** - Hero, estadísticas, preview blog
 2. **sobre-mi** - Biografía, especialidades, timeline, testimonios, **mapa de ubicaciones**
 3. **portafolio** - Grid de proyectos con filtros
 4. **cv** - Currículum, educación, certificaciones
@@ -173,6 +211,7 @@ git push origin main
 - Lucide React (iconos)
 - Web3Forms (formularios)
 - Intersection Observer API (lazy loading)
+- Google Analytics 4 (tracking)
 
 ---
 
@@ -195,11 +234,47 @@ facebook: 'https://www.facebook.com/share/1BYqTdK7BM/'
 
 ---
 
+## 📺 GOOGLE ANALYTICS 4 CONFIGURADO
+
+**Measurement ID:** G-401629974
+**Archivo:** `src/lib/analytics.ts`
+
+**Eventos Implementados:**
+- `page_view` - Vistas de página automáticas
+- `contact` - Clicks en WhatsApp y formulario
+- `view_item` - Vistas de proyectos y blog
+- `filter_portfolio` - Filtros aplicados
+- `share` - Compartir en redes
+- `file_download` - Descarga de CV
+- `navigation` - Cambios de página
+- `language_change` - Cambio de idioma
+- `search` - Búsquedas realizadas
+- `map_interaction` - Clicks en ubicaciones del mapa
+
+**Hook Personalizado:** `useAnalytics.ts`
+
+```typescript
+import { usePortfolioEvents } from '@/hooks/useAnalytics';
+
+const analytics = usePortfolioEvents();
+analytics.onContactSubmit();
+analytics.onWhatsAppClick();
+analytics.onProjectView('Nombre del Proyecto');
+```
+
+---
+
 ## 🖼️ FOTOS DE COBERTURAS
 
 **Ubicación:** `public/images/behind-scenes/`
 **Total:** 56 fotos
 **Estado:** INACTIVO - SecciónBehindScenesGallery no está en uso
+
+**Optimización Pendiente:**
+```bash
+npm run optimize-images
+```
+Esto convertirá las imágenes a WebP con calidad 85%, reduciendo tamaño ~60-80%.
 
 ---
 
@@ -219,81 +294,47 @@ export const YOUTUBE_VIDEOS = {
 
 ---
 
-## 🚀 COMANDOS IMPORTANTES
+## 🌐 UBICACIONES DE FILMACIÓN (Mapa)
 
-```bash
-# Entrar al proyecto
-cd "C:\Users\Asus\Downloads\portafolio cv studio"
+8 ubicaciones mapeadas en `LocationsMap.tsx`:
 
-# Desarrollo
-npm run dev          # Inicia servidor en puerto 3000
-npm run build        # Compila para producción
-npm run preview      # Previsualiza producción
-
-# Git
-git status
-git add .
-git commit -m "mensaje"
-git push origin main
-```
+| # | Ubicación | Proyectos | Tipo |
+|---|-----------|-----------|------|
+| 1 | La Paz | 15 | urban |
+| 2 | El Alto | 8 | urban |
+| 3 | Copacabana | 6 | ceremonial |
+| 4 | Sorata | 4 | rural |
+| 5 | Yungas | 5 | natural |
+| 6 | Oruro | 7 | ceremonial |
+| 7 | Potosí | 6 | rural |
+| 8 | Sucre | 4 | urban |
 
 ---
 
-## ⚠️ PROBLEMAS CONOCIDOS
+## 📋 ROADMAP - MEJORAS
 
-**RESUELTOS en Commit 102e379:**
-- ✅ useDarkMode.ts y useServiceWorker.ts - NO tenían errores reales
-
-**PENDIENTES:**
-1. Imágenes grandes (9-17MB) pueden optimizarse a WebP
-2. Videos de YouTube son placeholders
-3. PWA incompleto
-
----
-
-## 💡 MEJORAS IMPLEMENTADAS (Commit 102e379)
-
-### Accesibilidad
-- SkipLink para saltar al contenido principal
-- Navbar con ARIA labels, roles, aria-current
-- Clases .sr-only y .skip-link en CSS
-
-### Rendimiento
-- LazyImage con Intersection Observer
-- Skeleton loaders para mejor UX
-- Lazy loading en PortfolioGrid y BlogCard
-
-### Funcionalidades
-- LocationsMap con 8 ubicaciones en Bolivia
-- Controles de zoom interactivos
-- Enlaces a Google Maps
-
----
-
-## 📋 ROADMAP - MEJORAS PENDIENTES
-
-### Fase 1 - Inmediata (1-2 horas)
+### ✅ Fase 1 - COMPLETADA (20 julio 2026)
 ```
-1. Sitemap.xml dinámico
-2. Robots.txt
-3. Google Analytics 4
-4. Optimización de imágenes (WebP)
+✅ 1. Sitemap.xml dinámico
+✅ 2. Robots.txt
+✅ 3. Google Analytics 4 (G-401629974)
+✅ 4. Optimización WebP (script + componente)
 ```
 
-### Fase 2 - Corto Plazo (1-2 días)
+### 🔄 Fase 2 - EN PROGRESO
 ```
-5. PWA completo (Service Worker)
-6. Descarga de CV PDF automática
-7. Botones de compartir mejorados
-8. Newsletter signup
+⏳ 5. PWA completo (Service Worker)
+⏳ 6. Descarga de CV PDF automática
+⏳ 7. Botones de compartir mejorados
+⏳ 8. Newsletter signup
 ```
 
-### Fase 3 - Medio Plazo (1 semana)
+### ⏸️ Fase 3 - PENDIENTE
 ```
-9. Sistema de citas/agendamiento
-10. Chatbot básico
-11. Quechua/Aymara
-12. Sistema de comentarios
+⏸️ 9. Sistema de citas/agendamiento
+⏸️ 10. Chatbot básico
+⏸️ 11. Quechua/Aymara
+⏸️ 12. Sistema de comentarios
 ```
 
 ---
@@ -303,17 +344,6 @@ git push origin main
 **URL:** Ir a `/admin` en el sitio
 **Contraseña:** `admin123`
 **Pestañas disponibles:** Posts, Comments, Users, CMS, Analytics
-
----
-
-## 📝 PARA EMPEZAR A TRABAJAR
-
-Cuando el usuario diga "continuemos con este proyecto":
-
-1. NO revises todo el código innecesariamente
-2. Pregunta: "¿Qué quieres mejorar o agregar?"
-3. Usa este documento como referencia
-4. Enfócate en la tarea específica
 
 ---
 
@@ -328,20 +358,17 @@ Cuando el usuario diga "continuemos con este proyecto":
 
 ---
 
-## 🌐 UBICACIONES DE FILMACIÓN (Mapa)
+## 📝 PARA EMPEZAR A TRABAJAR
 
-8 ubicaciones mapeadas en `LocationsMap.tsx`:
+Cuando el usuario diga "continuemos con este proyecto":
 
-1. La Paz - 15 proyectos (urban)
-2. El Alto - 8 proyectos (urban)
-3. Copacabana - 6 proyectos (ceremonial)
-4. Sorata - 4 proyectos (rural)
-5. Yungas - 5 proyectos (natural)
-6. Oruro - 7 proyectos (ceremonial)
-7. Potosí - 6 proyectos (rural)
-8. Sucre - 4 proyectos (urban)
+1. NO revises todo el código innecesariamente
+2. Pregunta: "¿Qué quieres mejorar o agregar?"
+3. Usa este documento como referencia
+4. Enfócate en la tarea específica
+5. Revisa el roadmap para ver qué está pendiente
 
 ---
 
-*Documento actualizado - 20 julio 2026 - Commit 102e379*
-*Última actualización: Mejoras de UX y accesibilidad implementadas*
+*Documento actualizado - 20 julio 2026 - Commit 66589e7*
+*Última actualización: Fase 1 completada, lista para Fase 2*
