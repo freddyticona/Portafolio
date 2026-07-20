@@ -32,25 +32,27 @@
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 20 julio 2026 - Commit: 66589e7)
+### ✅ COMPLETADO (Última actualización: 20 julio 2026 - Commit: 3ff05b0)
 
 El proyecto fue transformado de un portafolio simple a una **PLATAFORMA PREMIUM** con múltiples commits:
 
 #### HISTORIAL DE COMMITS RECIENTES:
 
-| Commit | Fecha | Descripción |
-|--------|-------|-------------|
-| 66589e7 | 20 jul 2026 | Google Analytics ID actualizado (G-401629974) |
-| 828b08d | 20 jul 2026 | Fase 1 - SEO y rendimiento (Sitemap, Robots, GA4, WebP) |
-| 102e379 | 20 jul 2026 | Mejoras completas de UX y accesibilidad |
-| d3a7182 | - | Commit base anterior |
+| Commit | Fecha | Descripción | Archivos |
+|--------|-------|-------------|----------|
+| 3ff05b0 | 20 jul 2026 | Fase 2 - Funcionalidades profesionales | 7 archivos |
+| bfcc1de | 20 jul 2026 | Documentación CLAUDE_CONTEXT actualizada | 1 archivo |
+| 66589e7 | 20 jul 2026 | Google Analytics ID (G-401629974) | 1 archivo |
+| 828b08d | 20 jul 2026 | Fase 1 - SEO y rendimiento | 9 archivos |
+| 102e379 | 20 jul 2026 | Mejoras UX y accesibilidad | 9 archivos |
+| d3a7182 | - | Commit base anterior | - |
 
-#### 1. Experiencia Visual Premium
+#### 1. Experiencia Visual Premium (Commit 102e379)
 - **CinematicHero.tsx** - Hero con efectos parallax, partículas, animaciones escalonadas
 - **MicroInteractions.tsx** - Componentes reutilizables con efectos (ripple, hover, shine)
 - **LocationsMap.tsx** - Mapa interactivo de 8 ubicaciones de filmación en Bolivia
 
-#### 2. Funcionalidades Avanzadas
+#### 2. Funcionalidades Avanzadas (Commit 102e379)
 - **GlobalSearch.tsx** - Búsqueda global (Ctrl/Cmd+K) con navegación por teclado
 - **WhatsAppButton.tsx** - Botón flotante con chat preview
 - **PortfolioFilters.tsx** - Filtros avanzados (categoría, año, estado, búsqueda)
@@ -88,16 +90,38 @@ El proyecto fue transformado de un portafolio simple a una **PLATAFORMA PREMIUM*
 - **Google Analytics 4** - Sistema completo de tracking (lib/analytics.ts)
 - **Optimización WebP** - Script y componente para imágenes optimizadas
 
+#### 9. PWA - Fase 2 (Commit 3ff05b0)
+- **Service Worker v2.0** - Caché inteligente, offline-first
+- **PWAInstallPrompt** - Instalación nativa, estado offline
+- **Notificaciones push** - Soporte completo
+- **Sincronización background** - Para cuando vuelve la conexión
+
+#### 10. CV PDF - Fase 2 (Commit 3ff05b0)
+- **pdfGenerator.ts** - Generación completa de CV en PDF
+- **CVDownloadButton** - 2 variantes (default, compact)
+- **Datos pre-cargados** - Experiencia, educación, habilidades, premios
+
+#### 11. Social Sharing - Fase 2 (Commit 3ff05b0)
+- **ShareButtons** - 4 variantes (default, compact, floating, dropdown)
+- **Web Share API** - Nativo en móviles
+- **GA4 Tracking** - Eventos de compartir
+- **ShareProject** - Para proyectos específicos
+
+#### 12. Newsletter - Fase 2 (Commit 3ff05b0)
+- **NewsletterSignup** - 4 variantes (default, compact, footer, modal)
+- **Validación de email** - Formato correcto
+- **Almacenamiento local** - Demo de suscriptores
+- **Estados de carga** - UX completa
+
 ---
 
 ## ⚠️ PENDIENTES / FUTURO
 
 - Videos de YouTube son placeholders (necesita IDs reales)
-- Imágenes grandes (9-17MB) podrían optimizarse más (ejecutar `npm run optimize-images`)
-- PWA no está completamente implementado
+- Imágenes grandes (9-17MB) necesitan optimización: `npm run optimize-images`
 - **Fase 1:** ✅ COMPLETADA (Sitemap, Robots, GA4, WebP)
-- **Fase 2:** 🔄 EN PROGRESO (PWA, CV PDF, Newsletter)
-- **Fase 3:** Pendiente (Sistema de citas, Chatbot, Quechua/Aymara)
+- **Fase 2:** ✅ COMPLETADA (PWA, CV PDF, Newsletter, Sharing)
+- **Fase 3:** 🔄 EN PROGRESO (Sistema de citas, Chatbot, Comentarios)
 
 ---
 
@@ -107,12 +131,13 @@ El proyecto fue transformado de un portafolio simple a una **PLATAFORMA PREMIUM*
 src/
 ├── App.tsx                      # ⭐ COMPONENTE PRINCIPAL
 ├── main.tsx                     # Entry point + GA4 init
-├── config.ts                    # ⭐ CONFIGURACIÓN CENTRAL (contacto, redes, videos)
+├── config.ts                    # ⭐ CONFIGURACIÓN CENTRAL
 ├── translations.ts              # Contenido bilingüe
 ├── types.ts                     # TypeScript types
 ├── index.css                    # Estilos globales + accesibilidad
 ├── lib/
-│   └── analytics.ts            # ⭐ NUEVO: Google Analytics 4 tracking
+│   ├── analytics.ts            # ⭐ NUEVO: Google Analytics 4
+│   └── pdfGenerator.ts         # ⭐ NUEVO: Generador de CV PDF
 ├── components/
 │   ├── CinematicHero.tsx        # Hero mejorado
 │   ├── GlobalSearch.tsx         # Búsqueda Ctrl+K
@@ -121,11 +146,15 @@ src/
 │   ├── CMSPanel.tsx             # Gestión de contenido
 │   ├── AnalyticsDashboard.tsx  # Dashboard de estadísticas
 │   ├── AdminPanel.tsx           # Panel de administración
-│   ├── LazyImage.tsx            # ⭐ NUEVO: Lazy loading imágenes
+│   ├── LazyImage.tsx            # ⭐ NUEVO: Lazy loading
 │   ├── OptimizedImage.tsx      # ⭐ NUEVO: WebP/AVIF support
 │   ├── SkipLink.tsx             # ⭐ NUEVO: Accesibilidad
 │   ├── LocationsMap.tsx         # ⭐ NUEVO: Mapa de ubicaciones
 │   ├── Skeleton.tsx             # ⭐ NUEVO: Skeleton loaders
+│   ├── PWAInstallPrompt.tsx    # ⭐ NUEVO: PWA install
+│   ├── CVDownloadButton.tsx    # ⭐ NUEVO: CV PDF download
+│   ├── ShareButtons.tsx        # ⭐ NUEVO: Social sharing
+│   ├── NewsletterSignup.tsx   # ⭐ NUEVO: Newsletter
 │   ├── BlogCard.tsx             # Tarjetas de blog
 │   ├── BlogDetail.tsx           # Detalle de post
 │   ├── CaseStudyDetail.tsx     # Detalle de caso de estudio
@@ -133,31 +162,33 @@ src/
 │   ├── Footer.tsx               # Footer del sitio
 │   ├── Lightbox.tsx             # Lightbox para imágenes
 │   ├── MicroInteractions.tsx   # Micro-interacciones
-│   ├── Navbar.tsx               # Navegación principal + ARIA
+│   ├── Navbar.tsx               # Navegación + ARIA
 │   ├── PDFExport.tsx            # Exportar a PDF
 │   ├── PortfolioGrid.tsx       # Grid de portafolio
 │   ├── SearchBar.tsx            # Barra de búsqueda
 │   ├── SocialShare.tsx          # Compartir en redes
 │   ├── Timeline.tsx             # Timeline de experiencia
-│   └── BehindScenesGallery.tsx  # Galería detrás de cámaras (INACTIVO)
+│   └── BehindScenesGallery.tsx  # Galería (INACTIVO)
 ├── hooks/
-│   ├── useDarkMode.ts           # Hook para tema oscuro/claro
-│   ├── useServiceWorker.ts      # Hook para service worker
-│   └── useAnalytics.ts         # ⭐ NUEVO: GA4 events tracking
+│   ├── useDarkMode.ts           # Tema oscuro/claro
+│   ├── useServiceWorker.ts      # Service Worker
+│   └── useAnalytics.ts         # ⭐ NUEVO: GA4 events
 └── analytics/
-    └── index.ts                 # Sistema de analytics local
+    └── index.ts                 # Analytics local
 
 scripts/
 ├── generate-icons.js            # Generación de iconos
 ├── generate-rss.js              # Generación de RSS
-└── optimize-images.js          # ⭐ NUEVO: Optimización a WebP
+└── optimize-images.js          # ⭐ NUEVO: Optimización WebP
 
 public/
 ├── sitemap.xml                  # ⭐ NUEVO: Sitemap dinámico
 ├── robots.txt                   # ⭐ NUEVO: Control crawlers
 ├── manifest.json               # PWA manifest
+├── sw.js                        # ⭐ NUEVO: Service Worker v2.0
 └── images/
-    └── behind-scenes/           # 56 fotos de coberturas
+    ├── behind-scenes/           # 56 fotos de coberturas
+    └── freddy_profile.jpg       # Foto principal
 ```
 
 ---
@@ -169,7 +200,7 @@ public/
 - **Email GitHub:** freddyticona62@gmail.com
 - **Proyecto Vercel:** freddy-ticona-portafolio
 - **Estado:** ✅ Conectado a GitHub (deploy automático)
-- **Último Commit:** 66589e7 - "fix: actualizar Google Analytics Measurement ID (G-401629974)"
+- **Último Commit:** 3ff05b0 - "feat: Fase 2 - Implementar funcionalidades profesionales"
 
 ### Comandos Git útiles:
 ```bash
@@ -182,10 +213,10 @@ git push origin main
 
 ### Comandos NPM:
 ```bash
-npm run dev          # Inicia servidor en puerto 3000
-npm run build        # Compila para producción
-npm run preview      # Previsualiza producción
-npm run optimize-images  # Optimiza imágenes a WebP
+npm run dev              # Inicia servidor en puerto 3000
+npm run build            # Compila para producción
+npm run preview          # Previsualiza producción
+npm run optimize-images  # Optimiza imágenes a WebP ⭐
 ```
 
 ---
@@ -193,9 +224,9 @@ npm run optimize-images  # Optimiza imágenes a WebP
 ## 🎯 PÁGINAS DEL SITIO
 
 1. **inicio** - Hero, estadísticas, preview blog
-2. **sobre-mi** - Biografía, especialidades, timeline, testimonios, **mapa de ubicaciones**
+2. **sobre-mi** - Biografía, especialidades, timeline, testimonios, mapa de ubicaciones
 3. **portafolio** - Grid de proyectos con filtros
-4. **cv** - Currículum, educación, certificaciones
+4. **cv** - Currículum, educación, certificaciones, descarga PDF
 5. **blog** - Artículos con CMS
 6. **contacto** - Formulario Web3Forms
 7. **admin** - Panel de administración (contraseña: `admin123`)
@@ -210,8 +241,10 @@ npm run optimize-images  # Optimiza imágenes a WebP
 - Motion/Framer Motion (animaciones)
 - Lucide React (iconos)
 - Web3Forms (formularios)
+- jsPDF (generación PDF)
 - Intersection Observer API (lazy loading)
 - Google Analytics 4 (tracking)
+- Service Worker API (PWA)
 
 ---
 
@@ -241,26 +274,18 @@ facebook: 'https://www.facebook.com/share/1BYqTdK7BM/'
 
 **Eventos Implementados:**
 - `page_view` - Vistas de página automáticas
-- `contact` - Clicks en WhatsApp y formulario
-- `view_item` - Vistas de proyectos y blog
+- `generate_lead` - Formularios de contacto
+- `contact` - Clicks en WhatsApp
+- `view_item` - Vistas de proyectos/blog
 - `filter_portfolio` - Filtros aplicados
 - `share` - Compartir en redes
 - `file_download` - Descarga de CV
 - `navigation` - Cambios de página
 - `language_change` - Cambio de idioma
 - `search` - Búsquedas realizadas
-- `map_interaction` - Clicks en ubicaciones del mapa
+- `map_interaction` - Clicks en ubicaciones
 
 **Hook Personalizado:** `useAnalytics.ts`
-
-```typescript
-import { usePortfolioEvents } from '@/hooks/useAnalytics';
-
-const analytics = usePortfolioEvents();
-analytics.onContactSubmit();
-analytics.onWhatsAppClick();
-analytics.onProjectView('Nombre del Proyecto');
-```
 
 ---
 
@@ -268,13 +293,13 @@ analytics.onProjectView('Nombre del Proyecto');
 
 **Ubicación:** `public/images/behind-scenes/`
 **Total:** 56 fotos
-**Estado:** INACTIVO - SecciónBehindScenesGallery no está en uso
+**Estado:** INACTIVO - Sección no está en uso
 
 **Optimización Pendiente:**
 ```bash
 npm run optimize-images
 ```
-Esto convertirá las imágenes a WebP con calidad 85%, reduciendo tamaño ~60-80%.
+Convierte JPG/PNG a WebP con calidad 85%, reduciendo tamaño ~60-80%.
 
 ---
 
@@ -282,7 +307,7 @@ Esto convertirá las imágenes a WebP con calidad 85%, reduciendo tamaño ~60-80
 
 Los videos de YouTube son placeholders. Necesita:
 1. Subir videos reales a YouTube
-2. Obtener los IDs (ejemplo: de `https://youtube.com/watch?v=abc123` el ID es `abc123`)
+2. Obtener los IDs (de `https://youtube.com/watch?v=abc123` → `abc123`)
 3. Actualizar en `src/config.ts`:
 
 ```typescript
@@ -321,29 +346,29 @@ export const YOUTUBE_VIDEOS = {
 ✅ 4. Optimización WebP (script + componente)
 ```
 
-### 🔄 Fase 2 - EN PROGRESO
+### ✅ Fase 2 - COMPLETADA (20 julio 2026)
 ```
-⏳ 5. PWA completo (Service Worker)
-⏳ 6. Descarga de CV PDF automática
-⏳ 7. Botones de compartir mejorados
-⏳ 8. Newsletter signup
+✅ 5. PWA completo (Service Worker v2.0)
+✅ 6. Descarga de CV PDF automática
+✅ 7. Botones de compartir mejorados
+✅ 8. Newsletter signup
 ```
 
-### ⏸️ Fase 3 - PENDIENTE
+### 🔄 Fase 3 - EN PROGRESO
 ```
-⏸️ 9. Sistema de citas/agendamiento
-⏸️ 10. Chatbot básico
-⏸️ 11. Quechua/Aymara
-⏸️ 12. Sistema de comentarios
+⏳ 9. Sistema de citas/agendamiento
+⏳ 10. Chatbot básico
+⏳ 11. Sistema de comentarios
+❌ 12. Quechua/Aymara (NO REQUERIDO)
 ```
 
 ---
 
 ## 🔑 ACCESO ADMIN
 
-**URL:** Ir a `/admin` en el sitio
+**URL:** `/admin` en el sitio
 **Contraseña:** `admin123`
-**Pestañas disponibles:** Posts, Comments, Users, CMS, Analytics
+**Pestañas:** Posts, Comments, Users, CMS, Analytics
 
 ---
 
@@ -365,10 +390,10 @@ Cuando el usuario diga "continuemos con este proyecto":
 1. NO revises todo el código innecesariamente
 2. Pregunta: "¿Qué quieres mejorar o agregar?"
 3. Usa este documento como referencia
-4. Enfócate en la tarea específica
-5. Revisa el roadmap para ver qué está pendiente
+4. Revisa el roadmap para ver qué está pendiente
+5. Prioriza: Optimización → Chatbot → Fase 3
 
 ---
 
-*Documento actualizado - 20 julio 2026 - Commit 66589e7*
-*Última actualización: Fase 1 completada, lista para Fase 2*
+*Documento actualizado - 20 julio 2026 - Commit 3ff05b0*
+*Fases 1 y 2 completadas, Fase 3 en progreso*
