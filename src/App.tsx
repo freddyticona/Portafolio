@@ -15,6 +15,8 @@ import {
   blogPosts as defaultBlogPosts,
   translations
 } from './translations';
+import { db } from './lib/firebase';
+import { collection, getDocs } from 'firebase/firestore';
 
 import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags, generatePageSchema } from './lib/seo';
@@ -85,16 +87,26 @@ export default function App() {
     searchTerm: ''
   });
 
-  // Load blog posts from localStorage on mount
+  // Load blog posts from Firebase on mount
   useEffect(() => {
-    const savedPosts = localStorage.getItem('blogPosts');
-    if (savedPosts) {
+    const fetchPosts = async () => {
       try {
-        setBlogPosts(JSON.parse(savedPosts));
+        const querySnapshot = await getDocs(collection(db, 'posts'));
+        const loadedPosts: BlogPost[] = [];
+        querySnapshot.forEach((doc) => {
+          loadedPosts.push({ id: doc.id, ...doc.data() } as BlogPost);
+        });
+        
+        if (loadedPosts.length > 0) {
+          loadedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+          setBlogPosts(loadedPosts);
+        }
       } catch (e) {
-        console.error('Error loading blog posts:', e);
+        console.error('Error loading blog posts from Firebase:', e);
       }
-    }
+    };
+    
+    fetchPosts();
   }, []);
 
   // Sync state with URL hash on mount and hashchange

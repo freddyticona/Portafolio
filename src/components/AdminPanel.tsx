@@ -5,6 +5,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { BlogPost, Comment, User } from '../types';
+import { auth, db, storage } from '../lib/firebase';
+import { signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
+import { collection, getDocs, addDoc, updateDoc, deleteDoc, doc, setDoc } from 'firebase/firestore';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import CMSPanel from './CMSPanel';
 import AnalyticsDashboard from './AnalyticsDashboard';
 import {
@@ -42,22 +46,38 @@ interface AdminPanelProps {
 
 export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [activeTab, setActiveTab] = useState<'posts' | 'comments' | 'users' | 'cms' | 'analytics' | 'payments'>('posts');
-  // Cargar posts del localStorage
+  
+  // Auth listener
   useEffect(() => {
-    loadPosts();
-    loadComments();
-    loadUsers();
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setIsAuthenticated(!!user);
+      if (user) {
+        loadPosts();
+        loadComments();
+        loadUsers();
+      }
+    });
+    return () => unsubscribe();
   }, []);
 
-  const loadPosts = () => {
-    const savedPosts = localStorage.getItem('blogPosts');
-    if (savedPosts) {
-      setPosts(JSON.parse(savedPosts));
+  const loadPosts = async () => {
+    try {
+      const querySnapshot = await getDocs(collection(db, 'posts'));
+      const loadedPosts: BlogPost[] = [];
+      querySnapshot.forEach((doc) => {
+        loadedPosts.push({ id: doc.id, ...doc.data() } as BlogPost);
+      });
+      // Sort by date descending
+      loadedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+      setPosts(loadedPosts);
+    } catch (error) {
+      console.error("Error loading posts:", error);
     }
   };
 
@@ -78,13 +98,13 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
     }
   };
 
-  // Login simple
-  const handleLogin = (e: React.FormEvent) => {
+  // Login con Firebase
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'chkdskF40494200+-') {
-      setIsAuthenticated(true);
-    } else {
-      alert(lang === 'es' ? 'Contraseña incorrecta' : 'Incorrect password');
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+    } catch (error) {
+      alert(lang === 'es' ? 'Credenciales incorrectas' : 'Invalid credentials');
     }
   };
 
@@ -115,27 +135,32 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   };
 
   // Guardar post
-  const savePost = (updatedPost: BlogPost) => {
-    let updatedPosts: BlogPost[];
-    if (isCreating) {
-      updatedPosts = [...posts, updatedPost];
-    } else {
-      updatedPosts = posts.map(p => p.id === updatedPost.id ? updatedPost : p);
+  const savePost = async (updatedPost: BlogPost) => {
+    try {
+      if (isCreating) {
+        await setDoc(doc(db, 'posts', updatedPost.id), updatedPost);
+      } else {
+        await updateDoc(doc(db, 'posts', updatedPost.id), updatedPost as any);
+      }
+      setEditingPost(null);
+      setIsCreating(false);
+      loadPosts();
+    } catch (error) {
+      console.error("Error saving post:", error);
+      alert("Error saving post");
     }
-    setPosts(updatedPosts);
-    localStorage.setItem('blogPosts', JSON.stringify(updatedPosts));
-    setEditingPost(null);
-    setIsCreating(false);
-    loadPosts();
   };
 
   // Eliminar post
-  const deletePost = (postId: string) => {
+  const deletePost = async (postId: string) => {
     if (confirm(lang === 'es' ? '¿Estás seguro de eliminar este post?' : 'Are you sure you want to delete this post?')) {
-      const updatedPosts = posts.filter(p => p.id !== postId);
-      setPosts(updatedPosts);
-      localStorage.setItem('blogPosts', JSON.stringify(updatedPosts));
-      loadPosts();
+      try {
+        await deleteDoc(doc(db, 'posts', postId));
+        loadPosts();
+      } catch (error) {
+        console.error("Error deleting post:", error);
+        alert("Error deleting post");
+      }
     }
   };
 
@@ -156,8 +181,9 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   };
 
   // Logout
-  const handleLogout = () => {
-    setIsAuthenticated(false);
+  const handleLogout = async () => {
+    await signOut(auth);
+    setEmail('');
     setPassword('');
     setEditingPost(null);
     setIsCreating(false);
@@ -181,6 +207,18 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
+            <div>
+              <label className="block text-xs font-mono text-gold uppercase tracking-widest mb-2">
+                Email
+              </label>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
+                placeholder="admin@portafolio.com"
+              />
+            </div>
             <div>
               <label className="block text-xs font-mono text-gold uppercase tracking-widest mb-2">
                 {lang === 'es' ? 'Contraseña' : 'Password'}
