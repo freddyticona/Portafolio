@@ -33,14 +33,15 @@
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 20 julio 2026)
+### ✅ COMPLETADO (Última actualización: 20 julio 2026 - Sesión 2)
 
-El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con pasarela de pagos integrada:
+El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios:
 
-#### HISTORIAL DE COMMITS - SESIÓN COMPLETA (20 julio 2026):
+#### HISTORIAL DE COMMITS - SESIÓN 2 (20 julio 2026 - tarde):
 
 | Hash | Hora | Descripción | Archivos |
 |------|------|-------------|----------|
+| `9d3fdcf` | 19:05 | Quitar pasarela pagos + contacto servicios + fix imágenes | 15 archivos |
 | `pendiente` | 18:45 | **Videos reales de YouTube integrados** | 3 archivos |
 | `743b12a` | 18:00 | Sistema robusto de imágenes + diagnóstico | 3 archivos |
 | `10b3415` | 17:50 | Configuración dominio freddydev.net | 4 archivos |
@@ -48,7 +49,7 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con pasarela de pagos integra
 | `a9828fa` | 17:15 | Documentación + sugerencias de mejora | 1 archivo |
 | `237fce3` | 17:05 | QR real de Banco Mercantil | 2 archivos |
 | `6dd75d9` | 16:55 | Datos bancarios reales actualizados | 5 archivos |
-| `0864a5e` | 16:30 | **Fase 4 completa** - Pasarena de pagos | 9 archivos |
+| `0864a5e` | 16:30 | **Fase 4 completa** - Pasarela de pagos (ELIMINADA) | 9 archivos |
 | `83d03a1` | 14:00 | Documentación actualizada | 1 archivo |
 
 ---
@@ -285,8 +286,32 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con pasarela de pagos integra
 - **Fase 1:** ✅ COMPLETADA (Sitemap, Robots, GA4, WebP)
 - **Fase 2:** ✅ COMPLETADA (PWA, CV PDF, Newsletter, Sharing)
 - **Fase 3:** ✅ COMPLETADA (Sistema de citas, Chatbot, Comentarios)
-- **Fase 4:** ✅ COMPLETADA (Pasarena de pagos completa)
-- ✅ **Imágenes optimizadas** - Reducidas de 208MB a 30MB (85.7% ahorro)
+- **Fase 4:** ✅ ELIMINADA (Pasarela de pagos → reemplazada con contacto de servicios)
+- ✅ **Imágenes corregidas** - Rutas actualizadas de .jpg → .webp en TODOS los archivos
+
+### ⚠️ CAMBIOS IMPORTANTES (Sesión 2 - 20 julio 2026):
+
+**ELIMINADO:**
+- `src/components/CheckoutButton.tsx` - Eliminado
+- `src/components/PaymentModal.tsx` - Eliminado  
+- `src/components/PaymentSuccess.tsx` - Eliminado
+- `src/lib/payments.ts` - Eliminado
+- `PAYMENT_CONFIG` de `config.ts` → reemplazado con `SERVICE_CONTACT`
+- Tipos de pago de `types.ts` (Payment, PaymentMethod, PaymentStatus, etc.)
+
+**CORREGIDO:**
+- `CinematicHero.tsx` - `/images/freddy_working.jpg` → `.webp`
+- `App.tsx` - `/images/freddy_studio.jpg` y `freddy_profile.jpg` → `.webp`
+- `translations.ts` - 7 referencias de `.jpg` → `.webp`
+- `AdminPanel.tsx` - referencias de `.jpg` → `.webp`
+- `lib/seo.ts` - og:image de `.jpg` → `.webp`
+
+**NUEVO:**
+- `ServiceLanding.tsx` - Sección premium "Solicita tu Cotización" con:
+  - Botón WhatsApp (abre chat directo con mensaje predefinido)
+  - Botón Email (abre cliente de correo con asunto prefijado)
+  - Botón Llamada (marcado directo)
+- `SERVICE_CONTACT` en `config.ts` - Configuración de canales de contacto para servicios
 
 ### Notas sobre Pagos:
 - Stripe está en modo placeholder - requiere:
@@ -381,7 +406,7 @@ public/
 - **Email GitHub:** freddyticona62@gmail.com
 - **Proyecto Vercel:** freddy-ticona-portafolio
 - **Estado:** ✅ Conectado a GitHub (deploy automático)
-- **Último Commit:** 331fa40 - "feat: SEO avanzado y landing pages para posicionamiento orgánico"
+- **Último Commit:** 9d3fdcf - "fix: quitar pasarela de pagos, agregar contacto de servicios, corregir imagenes webp"
 
 ### Comandos Git útiles:
 ```bash
