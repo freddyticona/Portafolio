@@ -81,7 +81,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   // Login simple
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'admin2024') {
+    if (password === 'chkdskF40494200+-') {
       setIsAuthenticated(true);
     } else {
       alert(lang === 'es' ? 'Contraseña incorrecta' : 'Incorrect password');
