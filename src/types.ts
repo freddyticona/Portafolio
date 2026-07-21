@@ -82,6 +82,7 @@ export interface BlogPost {
   readTimeEs: string;
   readTimeEn: string;
   imageUrl: string;
+  imageCaption?: string; // Fuente o pie de la fotografía
   images?: string[]; // Galería de imágenes adicional
   categoryEs: string;
   categoryEn: string;

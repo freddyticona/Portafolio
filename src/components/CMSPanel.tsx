@@ -303,7 +303,7 @@ export default function CMSPanel({ lang = 'es', onSave }: CMSPanelProps) {
             />
           </div>
 
-          {/* Thumbnail URL */}
+          {/* Imagen Principal */}
           <div>
             <label className="block text-sm font-medium text-stone-400 mb-2">
               {lang === 'es' ? 'URL de imagen' : 'Image URL'}

@@ -122,7 +122,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
       date: new Date().toISOString().split('T')[0],
       readTimeEs: '5 min de lectura',
       readTimeEn: '5 min read',
-      imageUrl: '/images/freddy_working.webp',
+      imageUrl: '', // Quitado el placeholder por defecto
       images: [],
       categoryEs: 'General',
       categoryEn: 'General',
@@ -742,18 +742,28 @@ interface PostEditorProps {
 function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProps) {
   const [editedPost, setEditedPost] = useState<BlogPost>(post);
   const [showAdvanced, setShowAdvanced] = useState(false);
+  const [isUploading, setIsUploading] = useState(false);
 
   const handleChange = (field: keyof BlogPost, value: any) => {
     setEditedPost({ ...editedPost, [field]: value });
   };
 
-  const handleAddImage = () => {
-    const imageUrl = prompt(lang === 'es' ? 'URL de la imagen:' : 'Image URL:');
-    if (imageUrl) {
-      setEditedPost({
-        ...editedPost,
-        images: [...(editedPost.images || []), imageUrl]
-      });
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setIsUploading(true);
+    try {
+      const fileRef = ref(storage, `blog/${Date.now()}_${file.name}`);
+      await uploadBytes(fileRef, file);
+      const url = await getDownloadURL(fileRef);
+      handleChange('imageUrl', url);
+    } catch (error) {
+      console.error('Error al subir imagen:', error);
+      alert(lang === 'es' ? 'Error al subir imagen. Verifica las reglas de Firestore/Storage.' : 'Error uploading image.');
+    } finally {
+      setIsUploading(false);
+      e.target.value = '';
     }
   };
 
@@ -809,6 +819,33 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="space-y-6">
+          {/* Imagen Principal */}
+          <div className="space-y-2">
+            <label className="block text-xs font-mono text-gold uppercase tracking-widest flex items-center gap-2">
+              <ImageIcon className="w-4 h-4" />
+              Imagen Principal *
+            </label>
+            <div className="flex gap-4 items-center">
+              <input
+                type="text"
+                value={editedPost.imageUrl}
+                onChange={(e) => handleChange('imageUrl', e.target.value)}
+                className="flex-1 px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
+                placeholder="URL de la imagen o súbela ->"
+              />
+              <span className="text-stone-500 text-xs text-center">{lang === 'es' ? 'o' : 'or'}</span>
+              <label className={`px-4 py-3 bg-white/5 hover:bg-white/10 text-white rounded-sm text-xs font-bold uppercase tracking-widest transition-colors ${isUploading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'} text-center whitespace-nowrap`}>
+                {isUploading ? (lang === 'es' ? 'Subiendo...' : 'Uploading...') : (lang === 'es' ? 'Subir Imagen' : 'Upload Image')}
+                <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" disabled={isUploading} />
+              </label>
+            </div>
+            {editedPost.imageUrl && (
+              <div className="mt-2 w-full h-32 relative rounded-sm overflow-hidden border border-white/10">
+                <img src={editedPost.imageUrl} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
+              </div>
+            )}
+          </div>
+
           {/* Título Español */}
           <div className="space-y-2">
             <label className="block text-xs font-mono text-gold uppercase tracking-widest">
@@ -981,19 +1018,31 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
             </div>
           )}
 
-          {/* URL de imagen principal */}
+          {/* Imagen principal */}
           <div className="space-y-2">
             <label className="block text-xs font-mono text-gold uppercase tracking-widest flex items-center gap-2">
               <ImageIcon className="w-4 h-4" />
-              URL de Imagen Principal *
+              Imagen Principal *
             </label>
-            <input
-              type="text"
-              value={editedPost.imageUrl}
-              onChange={(e) => handleChange('imageUrl', e.target.value)}
-              className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
-              placeholder="/images/freddy_working.webp"
-            />
+            <div className="flex gap-4 items-center">
+              <input
+                type="text"
+                value={editedPost.imageUrl}
+                onChange={(e) => handleChange('imageUrl', e.target.value)}
+                className="flex-1 px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"
+                placeholder="URL de la imagen o súbela ->"
+              />
+              <span className="text-stone-500 text-xs text-center">{lang === 'es' ? 'o' : 'or'}</span>
+              <label className={`px-4 py-3 bg-white/5 hover:bg-white/10 text-white rounded-sm text-xs font-bold uppercase tracking-widest transition-colors ${isUploading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'} text-center whitespace-nowrap`}>
+                {isUploading ? (lang === 'es' ? 'Subiendo...' : 'Uploading...') : (lang === 'es' ? 'Subir Imagen' : 'Upload Image')}
+                <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" disabled={isUploading} />
+              </label>
+            </div>
+            {editedPost.imageUrl && (
+              <div className="mt-2 w-full h-32 relative rounded-sm overflow-hidden border border-white/10">
+                <img src={editedPost.imageUrl} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
+              </div>
+            )}
           </div>
 
           {/* Categoría */}

@@ -52,56 +52,14 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
     setShowShareMenu(false);
   };
 
-  // Función para renderizar contenido HTML
+  // Renderizamos HTML directamente usando la tipografía de Tailwind (prose)
   const renderContent = (html: string) => {
-    const paragraphs = html.split('\n\n');
-
-    return paragraphs.map((p, index) => {
-      const trimmed = p.trim();
-
-      if (trimmed.startsWith('<h3>')) {
-        return (
-          <h3 key={index} className="text-xl md:text-2xl font-bold text-white tracking-tight mt-8 mb-4 font-display">
-            {trimmed.replace(/<\/?h3>/g, '')}
-          </h3>
-        );
-      }
-      if (trimmed.startsWith('<h4>')) {
-        return (
-          <h4 key={index} className="text-lg font-bold text-gold mt-6 mb-3 font-display">
-            {trimmed.replace(/<\/?h4>/g, '')}
-          </h4>
-        );
-      }
-      if (trimmed.startsWith('<h5>')) {
-        return (
-          <h5 key={index} className="text-base font-bold text-stone-300 mt-4 mb-2 font-display">
-            {trimmed.replace(/<\/?h5>/g, '')}
-          </h5>
-        );
-      }
-      if (trimmed.startsWith('<strong>')) {
-        return (
-          <p key={index} className="text-stone-300 leading-relaxed">
-            <strong className="text-white">{trimmed.replace(/<\/?strong>/g, '')}</strong>
-          </p>
-        );
-      }
-      if (trimmed.startsWith('<ul>')) {
-        const items = trimmed.match(/<li>(.*?)<\/li>/g) || [];
-        return (
-          <ul key={index} className="list-disc list-inside space-y-2 my-4 text-stone-300">
-            {items.map((item, i) => (
-              <li key={i}>{item.replace(/<\/?li>/g, '')}</li>
-            ))}
-          </ul>
-        );
-      }
-
-      return (
-        <p key={index} className="whitespace-pre-line text-stone-300 leading-relaxed" dangerouslySetInnerHTML={{ __html: trimmed }} />
-      );
-    });
+    return (
+      <div 
+        className="prose prose-invert prose-sm md:prose-base max-w-none prose-headings:font-display prose-headings:text-white prose-h3:text-xl md:prose-h3:text-2xl prose-h4:text-gold prose-p:text-stone-300 prose-strong:text-white prose-a:text-gold leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    );
   };
 
   const content = lang === 'es' ? post.contentEs : post.contentEn;
@@ -179,17 +137,24 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
         </p>
 
         {/* Featured Image */}
-        <div className="aspect-video rounded-sm overflow-hidden border border-white/5">
-          <img
-            src={post.imageUrl}
-            alt={lang === 'es' ? post.titleEs : post.titleEn}
-            className="w-full h-full object-cover"
-          />
-        </div>
+        <figure className="space-y-3">
+          <div className="aspect-video rounded-sm overflow-hidden border border-white/5 relative bg-[#111]">
+            <img
+              src={post.imageUrl}
+              alt={lang === 'es' ? post.titleEs : post.titleEn}
+              className="absolute inset-0 w-full h-full object-cover object-center"
+            />
+          </div>
+          {post.imageCaption && (
+            <figcaption className="text-xs font-mono text-stone-500 text-right">
+              {lang === 'es' ? 'Fuente: ' : 'Source: '} {post.imageCaption}
+            </figcaption>
+          )}
+        </figure>
       </header>
 
       {/* Article Content */}
-      <div className="prose prose-invert prose-sm max-w-none">
+      <div className="mt-8">
         {renderContent(content)}
       </div>
 
