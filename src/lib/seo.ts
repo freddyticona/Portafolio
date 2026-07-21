@@ -8,7 +8,11 @@
  *
  * Genera meta tags y Open Graph dinámicos para cada página
  * para mejorar el posicionamiento en buscadores.
+ *
+ * Integrado con structured data para Schema.org
  */
+
+import { updatePageStructuredData } from './structuredData';
 
 export interface SEOMetadata {
   title: string;
@@ -22,9 +26,9 @@ export interface SEOMetadata {
 
 const SITE_CONFIG = {
   name: 'Freddy Ticona Guzmán',
-  url: 'https://freddy-ticona-portafolio.vercel.app',
+  url: 'https://freddydev.net',
   locale: 'es_BO',
-  ogImageDefault: 'https://freddy-ticona-portafolio.vercel.app/images/freddy_profile.webp',
+  ogImageDefault: 'https://freddydev.net/images/freddy_profile.webp',
 };
 
 /**
@@ -33,9 +37,9 @@ const SITE_CONFIG = {
 export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }> = {
   inicio: {
     es: {
-      title: 'Freddy Ticona Guzmán | Camarógrafo y Realizador Audiovisual - La Paz, Bolivia',
-      description: 'Portafolio profesional de Freddy Ticona Guzmán, camarógrafo y realizador audiovisual con más de 15 años de experiencia en televisión, documentales y cobertura periodística en Bolivia. Ganador del Premio Nacional Eduardo Abaroa 2017.',
-      keywords: ['camarógrafo La Paz', 'realizador audiovisual Bolivia', 'filmación de eventos', 'edición de video', 'documentales Bolivia', 'cobertura periodística'],
+      title: 'Freddy Ticona Guzmán | Camarógrafo Profesional La Paz Bolivia | Filmación 4K y Documentales',
+      description: 'Portafolio profesional de Freddy Ticona Guzmán, camarógrafo experto en La Paz, Bolivia con más de 15 años de experiencia en televisión, documentales y cobertura periodística. Servicios de filmación 4K, edición de video y producción audiovisual. Ganador del Premio Nacional Eduardo Abaroa 2017.',
+      keywords: ['camarógrafo La Paz', 'camarógrafo Bolivia', 'filmación 4K La Paz', 'realizador audiovisual Bolivia', 'edición de video profesional', 'documentales Bolivia', 'cobertura periodística', 'productor de video'],
     },
     en: {
       title: 'Freddy Ticona Guzmán | Cameraman and Video Producer - La Paz, Bolivia',
@@ -57,9 +61,9 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   portafolio: {
     es: {
-      title: 'Portafolio - Proyectos de Filmación y Edición | Freddy Ticona',
-      description: 'Galería completa de proyectos: documentales, cobertura periodística, eventos corporativos y producciones televisivas. Trabajos en Bolivia TV, Red Uno y más.',
-      keywords: ['portafolio camarógrafo', 'proyectos filmación', 'documentales Bolivia', 'trabajos edición video', 'producciones televisivas'],
+      title: 'Portafolio de Proyectos Audiovisuales | Documentales y Cobertura Televisiva | Freddy Ticona',
+      description: 'Galería completa de proyectos audiovisuales: documentales culturales, cobertura periodística en vivo, eventos corporativos 4K y producciones televisivas. Trabajos para Bolivia TV, Red Uno, RTP y más. Experiencia en todo el territorio boliviano.',
+      keywords: ['portafolio camarógrafo', 'proyectos documentales Bolivia', 'cobertura televisiva', 'trabajos edición video', 'producciones televisivas Bolivia', 'filmación eventos La Paz'],
     },
     en: {
       title: 'Portfolio - Filming and Editing Projects | Freddy Ticona',
@@ -69,9 +73,9 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   cv: {
     es: {
-      title: 'Currículum - Freddy Ticona Guzmán | Formación y Certificaciones',
-      description: 'CV completo: formación en comunicación social, técnica audiovisual, certificaciones técnicas y premios obtenidos. Camarógrafo profesional disponible para proyectos.',
-      keywords: ['CV camarógrafo', 'currículum realizador audiovisual', 'formación técnica video', 'certificaciones Adobe', 'experiencia televisión'],
+      title: 'Currículum Camarógrafo Bolivia | Freddy Ticona Guzmán - Experiencia y Formación',
+      description: 'CV profesional completo: formación en comunicación social, técnica audiovisual en Escuela Andina de Cinematografía, certificaciones técnicas y premios. 15+ años de experiencia en Bolivia TV, Red Uno y RTP. Disponible para proyectos.',
+      keywords: ['CV camarógrafo Bolivia', 'currículum realizador audiovisual', 'formación técnica video', 'certificaciones Adobe', 'experiencia televisión', 'camarógrafo profesional La Paz'],
     },
     en: {
       title: 'CV - Freddy Ticona Guzmán | Education and Certifications',
@@ -81,9 +85,9 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   blog: {
     es: {
-      title: 'Blog - Apuntes de Producción Audiovisual y Cinematografía',
-      description: 'Artículos sobre técnicas de filmación, edición de video, producción de documentales y reflexiones sobre el medio audiovisual en Bolivia.',
-      keywords: ['blog cinematografía', 'producción video Bolivia', 'técnicas de filmación', 'edición documental', 'periodismo televisivo'],
+      title: 'Blog de Producción Audiovisual y Cinematografía Bolivia | Tips de Filmación',
+      description: 'Artículos especializados sobre técnicas de filmación 4K, edición de video profesional, producción de documentales y reflexiones sobre el medio audiovisual en Bolivia. Guías para camarógrafos y realizadores.',
+      keywords: ['blog cinematografía', 'producción video Bolivia', 'técnicas de filmación', 'edición documental', 'periodismo televisivo', 'tips camarógrafo', 'blog video profesional'],
     },
     en: {
       title: 'Blog - Audiovisual Production and Cinematography Notes',
@@ -93,9 +97,9 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   contacto: {
     es: {
-      title: 'Contacto - Servicios de Filmación y Edición | Freddy Ticona',
-      description: 'Contrata servicios de camarógrafo, edición de video y producción documental en La Paz, Bolivia. Disponible para eventos, proyectos de TV y consultorías.',
-      keywords: ['contactar camarógrafo', 'servicios filmación La Paz', 'cotización video', 'producción audiovisual', 'contratar editor'],
+      title: 'Contacto - Contrata Camarógrafo en La Paz Bolivia | Filmación y Edición de Video',
+      description: 'Contrata servicios profesionales de camarógrafo, edición de video y producción documental en La Paz, Bolivia. Disponible para eventos sociales, bodas, corporativos, proyectos de TV y consultorías audiovisuales. Presupuestos personalizados.',
+      keywords: ['contactar camarógrafo', 'servicios filmación La Paz', 'camarógrafo Bolivia', 'cotización video', 'producción audiovisual La Paz', 'contratar editor video', 'filmación eventos', 'camarógrafo bodas'],
     },
     en: {
       title: 'Contact - Filming and Editing Services | Freddy Ticona',
@@ -105,9 +109,9 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   reservas: {
     es: {
-      title: 'Reservar Cita - Sistema de Agendamiento | Freddy Ticona',
-      description: 'Agenda tu sesión de filmación, edición o consultoría. Sistema de reservas online para servicios audiovisuales en La Paz, Bolivia.',
-      keywords: ['reservar camarógrafo', 'agendar filmación', 'cita edición video', 'sistema de reservas', 'agendar producción'],
+      title: 'Reservar Camarógrafo La Paz Bolivia | Agendar Filmación y Edición Online',
+      description: 'Sistema de reservas online para agendar sesiones de filmación 4K, edición de video y consultoría audiovisual en La Paz, Bolivia. Reserva tu fecha para eventos, bodas, documentales y proyectos televisivos.',
+      keywords: ['reservar camarógrafo La Paz', 'agendar filmación Bolivia', 'cita edición video', 'sistema de reservas', 'agendar producción', 'reservar camarógrafo online'],
     },
     en: {
       title: 'Book Appointment - Booking System | Freddy Ticona',
@@ -117,9 +121,9 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   servicios: {
     es: {
-      title: 'Servicios - Filmación de Eventos, Edición y Documentales | Freddy Ticona',
-      description: 'Servicios profesionales: filmación de eventos 4K, edición de video, producción de documentales y consultoría audiovisual en La Paz, Bolivia.',
-      keywords: ['servicios camarógrafo', 'filmación eventos Bolivia', 'edición video profesional', 'producción documental', 'consultoría audiovisual'],
+      title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
+      description: 'Servicios profesionales de filmación 4K, edición de video con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cobertura de eventos, bodas, corporativos y proyectos televisivos. Más de 15 años de experiencia.',
+      keywords: ['servicios camarógrafo La Paz', 'filmación eventos Bolivia', 'edición video profesional', 'producción documental', 'consultoría audiovisual', 'camarógrafo 4K', 'filmación bodas La Paz', 'servicios video Bolivia'],
     },
     en: {
       title: 'Services - Event Filming, Editing and Documentaries | Freddy Ticona',
@@ -132,7 +136,7 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
 /**
  * Actualiza los meta tags del documento dinámicamente
  */
-export function updateMetaTags(pageId: string, lang: 'es' | 'en'): void {
+export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData?: any): void {
   const metadata = PAGE_METADATA[pageId]?.[lang] || PAGE_METADATA.inicio[lang];
 
   // Actualizar título
@@ -172,6 +176,9 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en'): void {
   if (metadata.noIndex) {
     updateOrCreateMetaTag('name', 'robots', 'noindex, nofollow');
   }
+
+  // Actualizar structured data (JSON-LD)
+  updatePageStructuredData(pageId, additionalData);
 }
 
 /**
@@ -189,76 +196,3 @@ function updateOrCreateMetaTag(attrName: string, attrValue: string, content: str
   meta.content = content;
 }
 
-/**
- * Genera structured data para una página específica
- */
-export function generatePageSchema(pageId: string, lang: 'es' | 'en'): object {
-  const baseUrl = SITE_CONFIG.url;
-
-  const schemas: Record<string, object> = {
-    servicios: {
-      '@context': 'https://schema.org',
-      '@type': 'ItemList',
-      name: lang === 'es' ? 'Servicios Audiovisuales' : 'Audiovisual Services',
-      description: lang === 'es'
-        ? 'Lista de servicios audiovisuales profesionales ofrecidos por Freddy Ticona'
-        : 'List of professional audiovisual services offered by Freddy Ticona',
-      itemListElement: [
-        {
-          '@type': 'Service',
-          position: 1,
-          name: lang === 'es' ? 'Filmación de Eventos' : 'Event Filming',
-          description: lang === 'es'
-            ? 'Cobertura profesional de eventos con tecnología 4K'
-            : 'Professional event coverage with 4K technology',
-          provider: {
-            '@type': 'Person',
-            name: 'Freddy Ticona Guzmán'
-          },
-          areaServed: {
-            '@type': 'City',
-            name: 'La Paz'
-          }
-        },
-        {
-          '@type': 'Service',
-          position: 2,
-          name: lang === 'es' ? 'Edición de Video' : 'Video Editing',
-          description: lang === 'es'
-            ? 'Post-producción profesional con color grading'
-            : 'Professional post-production with color grading',
-          provider: {
-            '@type': 'Person',
-            name: 'Freddy Ticona Guzmán'
-          }
-        },
-        {
-          '@type': 'Service',
-          position: 3,
-          name: lang === 'es' ? 'Producción de Documentales' : 'Documentary Production',
-          description: lang === 'es'
-            ? 'Documentales de televisión y cine con enfoque cultural'
-            : 'Television and film documentaries with cultural focus',
-          provider: {
-            '@type': 'Person',
-            name: 'Freddy Ticona Guzmán'
-          }
-        },
-        {
-          '@type': 'Service',
-          position: 4,
-          name: lang === 'es' ? 'Consultoría Audiovisual' : 'Audiovisual Consulting',
-          description: lang === 'es'
-            ? 'Asesoría para proyectos de producción y estrategia'
-            : 'Consulting for production projects and strategy',
-          provider: {
-            '@type': 'Person',
-            name: 'Freddy Ticona Guzmán'
-          }
-        }
-      ]
-    }
-  };
-
-  return schemas[pageId] || {};
-}

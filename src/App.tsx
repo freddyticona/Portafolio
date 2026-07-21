@@ -19,7 +19,7 @@ import { db } from './lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
 import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
-import { updateMetaTags, generatePageSchema } from './lib/seo';
+import { updateMetaTags } from './lib/seo';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -137,21 +137,6 @@ export default function App() {
   // Actualizar meta tags cuando cambia la página o el idioma
   useEffect(() => {
     updateMetaTags(activePage, lang);
-
-    // Agregar structured data específico de la página si existe
-    const schema = generatePageSchema(activePage, lang);
-    if (Object.keys(schema).length > 0) {
-      const script = document.createElement('script');
-      script.type = 'application/ld+json';
-      script.textContent = JSON.stringify(schema);
-      script.id = 'page-schema';
-      const existingSchema = document.getElementById('page-schema');
-      if (existingSchema) {
-        existingSchema.replaceWith(script);
-      } else {
-        document.head.appendChild(script);
-      }
-    }
   }, [activePage, lang]);
 
   // Helper translation getter

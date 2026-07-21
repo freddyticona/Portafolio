@@ -33,9 +33,19 @@
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 20 julio 2026 - Sesión 2)
+### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión SEO)
 
-El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios:
+El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios y SEO optimizado:
+
+#### HISTORIAL DE COMMITS - SESIÓN 3 (21 julio 2026 - SEO):
+
+| Hash | Hora | Descripción | Archivos |
+|------|------|-------------|----------|
+| `pendiente` | -- | **SEO v2.0 completo** - Dominio freddydev.net | 8 archivos |
+| `582fa63` | -- | Fix: Resolver todos los errores de TypeScript | Varios |
+| `9ecd04a` | 20 jul | Vercel Blob Storage para imágenes | 3 archivos |
+| `79d72cd` | 20 jul | Activar BehindScenesGallery con 16 fotos | 2 archivos |
+| `307c01b` | 20 jul | Agregar 51 fotos a public/images/blog | 1 archivo |
 
 #### HISTORIAL DE COMMITS - SESIÓN 2 (20 julio 2026 - tarde):
 
@@ -162,6 +172,158 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para ser
 5. Preview instantáneo
 6. Guardar artículo → URL pública generada
 7. Artículo publicado con foto REAL
+
+---
+
+## 🎯 MEJORAS DE SEO IMPLEMENTADAS (21 julio 2026 - Sesión SEO)
+
+### **Objetivo:** Optimizar el sitio para posicionamiento en buscadores locales (La Paz, Bolivia) y palabras clave de la industria audiovisual.
+
+### **Cambios realizados:**
+
+#### 1. Actualización de Dominio en SEO
+**Problema:** Todos los archivos de SEO referenciaban el dominio anterior `freddy-ticona-portafolio.vercel.app`
+
+**Solución:** Actualizado a `freddydev.net` en:
+- `src/lib/seo.ts` - SITE_CONFIG (base URL)
+- `public/sitemap.xml` - Todas las URLs de páginas
+- `public/robots.txt` - Sitemap URL
+- `index.html` - Metadatos, canonical, structured data
+
+#### 2. Sitemap XML Mejorado
+**Nuevas características:**
+- URLs actualizadas a freddydev.net
+- Páginas faltantes agregadas (servicios, reservas)
+- Namespace de imágenes para image sitemap
+- Fecha actualizada: 21 julio 2026
+- Hreflang para contenido bilingüe (es-BO, en-US)
+
+#### 3. Robots.txt Optimizado
+**Mejoras:**
+- URLs actualizadas a freddydev.net
+- Directivas específicas por crawler (Googlebot, Bingbot, Social)
+- Permisos para recursos estáticos (imágenes, CSS, JS)
+- Crawl-delay optimizado
+- Bloqueo de rutas sensibles (/admin, /api/)
+
+#### 4. Meta Tags Adicionales
+**Nuevos meta tags agregados a index.html:**
+```html
+<!-- Geolocalización para Local SEO -->
+<meta name="geo.region" content="BO-LP" />
+<meta name="geo.placename" content="La Paz" />
+<meta name="geo.position" content="-16.5;-68.15" />
+<meta name="ICBM" content="-16.5, -68.15" />
+
+<!-- SEO general mejorado -->
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta name="revisit-after" content="7 days" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+<!-- Open Graph mejorado -->
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Freddy Ticona Guzmán - Camarógrafo Profesional" />
+```
+
+#### 5. Structured Data Dinámico (Schema.org)
+**Nuevo archivo:** `/src/lib/structuredData.ts`
+
+**Funcionalidades:**
+- Generación dinámica de JSON-LD por página
+- Tipos de schema implementados:
+  - `Person` - Perfil profesional de Freddy
+  - `LocalBusiness` - Negocio local con horarios, ubicación
+  - `Article` - Artículos de blog
+  - `VideoObject` - Videos de YouTube (showreel + proyectos)
+  - `BreadcrumbList` - Navegación
+  - `Service` - Servicios ofrecidos
+  - `Offer` - Ofertas de servicios con precios
+
+**Integración:**
+- `updateMetaTags()` ahora incluye `updatePageStructuredData()`
+- Inyección automática en `<head>` por cada página
+- Eliminado `generatePageSchema()` obsoleto
+
+#### 6. Títulos y Meta Descriptions Optimizados
+**Mejoras en src/lib/seo.ts:**
+
+| Página | Antes | Después |
+|--------|-------|---------|
+| Inicio | "Camarógrafo y Realizador Audiovisual - La Paz, Bolivia" | "Camarógrafo Profesional La Paz Bolivia \| Filmación 4K y Documentales" |
+| Portafolio | "Proyectos de Filmación y Edición" | "Portafolio de Proyectos Audiovisuales \| Documentales y Cobertura Televisiva" |
+| Contacto | "Servicios de Filmación y Edición" | "Contrata Camarógrafo en La Paz Bolivia \| Filmación y Edición de Video" |
+| Servicios | "Filmación de Eventos, Edición y Documentales" | "Servicios Audiovisuales La Paz Bolivia \| Filmación 4K, Edición y Documentales" |
+| Blog | "Apuntes de Producción Audiovisual y Cinematografía" | "Blog de Producción Audiovisual y Cinematografía Bolivia \| Tips de Filmación" |
+| Reservas | "Sistema de Agendamiento" | "Reservar Camarógrafo La Paz Bolivia \| Agendar Filmación y Edición Online" |
+| CV | "Formación y Certificaciones" | "Currículum Camarógrafo Bolivia \| Experiencia y Formación" |
+
+**Palabras clave agregadas:**
+- `camarógrafo La Paz`, `camarógrafo Bolivia`
+- `filmación 4K La Paz`, `filmación eventos Bolivia`
+- `edición video profesional`, `producción documental`
+- `servicios filmación La Paz`, `camarógrafo bodas`
+- `reservar camarógrafo online`
+
+#### 7. Schema.org para Videos de YouTube
+**Vídeos con structured data:**
+
+1. **Showreel Principal** (`6CL4rVpVOYU`)
+   - VideoObject completo con thumbnail, duration, embedUrl
+   - InteractionCounter para views
+   - BroadcastEvent para metadata
+
+2. **Urkupiña: Fé, Folclore y Devoción** (`UmimDWaK61I`)
+   - Documental cultural
+   - Keywords: folclore boliviano, cultura, Cochabamba
+
+3. **Elecciones Generales en Bolivia** (`INagReojtOM`)
+   - Cobertura periodística
+   - Keywords: elecciones, Bolivia, periodismo, televisión
+
+#### 8. Documentación de SEO Creada
+**Archivos nuevos:**
+- `/SEO_GUIDE.md` - Guía completa de SEO para el proyecto
+- `/BLOG_SEO_TEMPLATE.md` - Plantilla de artículos SEO-friendly
+
+---
+
+### **Archivos Modificados (SEO v2.0):**
+
+```
+src/lib/seo.ts                      # Títulos, descriptions optimizados
+src/lib/structuredData.ts           # NUEVO: JSON-LD dinámico
+src/App.tsx                         # Integración structured data
+public/sitemap.xml                  # URLs actualizadas + páginas nuevas
+public/robots.txt                   # Optimizado para nuevo dominio
+index.html                          # Meta tags adicionales
+SEO_GUIDE.md                        # NUEVO: Guía de SEO
+BLOG_SEO_TEMPLATE.md                # NUEVO: Plantilla de artículos
+```
+
+---
+
+### **Próximos Pasos SEO:**
+
+1. **Google Search Console**
+   - Verificar propiedad freddydev.net
+   - Enviar sitemap para indexación
+
+2. **Google My Business**
+   - Crear perfil local
+   - Agregar fotos y servicios
+   - Obtener reseñas de clientes
+
+3. **Contenido**
+   - Escribir 2-3 artículos de blog usando BLOG_SEO_TEMPLATE.md
+   - Agregar más proyectos al portafolio
+
+4. **Backlinks**
+   - Enlaces desde redes sociales
+   - Directorios de profesionales
+
+---
 
 ---
 
@@ -392,9 +554,11 @@ El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para ser
 ## ⚠️ PENDIENTES / FUTURO
 
 - ✅ **Videos de YouTube** - Actualizados con IDs reales (showreel + 2 proyectos)
+- ✅ **SEO v2.0** - Dominio freddydev.net optimizado (21 julio 2026)
 - **Fase 1:** ✅ COMPLETADA (Sitemap, Robots, GA4, WebP)
 - **Fase 2:** ✅ COMPLETADA (PWA, CV PDF, Newsletter, Sharing)
 - **Fase 3:** ✅ COMPLETADA (Sistema de citas, Chatbot, Comentarios)
+- **Fase SEO:** ✅ COMPLETADA (Dominio, Meta tags, Structured data, Guías)
 - **Fase 4:** ✅ ELIMINADA (Pasarela de pagos → reemplazada con contacto de servicios)
 - ✅ **Imágenes corregidas** - Rutas actualizadas de .jpg → .webp en TODOS los archivos
 
@@ -892,5 +1056,5 @@ Cuando el usuario diga "continuemos con este proyecto":
 
 ---
 
-*Documento actualizado - 20 julio 2026*
-*✅ Fases 1, 2 y 3 COMPLETADAS - Proyecto listo para producción*
+*Documento actualizado - 21 julio 2026*
+*✅ Fases 1, 2, 3 y SEO COMPLETADAS - Proyecto listo para producción*

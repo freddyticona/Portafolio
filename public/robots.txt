@@ -1,17 +1,43 @@
-# robots.txt para freddy-ticona-portafolio.vercel.app
-# Permitir todos los crawlers
+# robots.txt para freddydev.net
+# Configuración optimizada para SEO
 
 User-agent: *
 Allow: /
 
-# Bloquear acceso a archivos sensibles
+# Bloquear acceso a archivos sensibles y del sistema
 Disallow: /admin
 Disallow: /api/
-Disallow: /_next/
 Disallow: /node_modules/
+Disallow: /_next/
+Disallow: /.git/
+Disallow: /scripts/
+
+# Permitir recursos estáticos
+Allow: /images/
+Allow: /public/
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.webp
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
 
 # Sitemap
-Sitemap: https://freddy-ticona-portafolio.vercel.app/sitemap.xml
+Sitemap: https://freddydev.net/sitemap.xml
 
-# Crawl-delay para respetar el servidor
-Crawl-delay: 1
+# Configuración específica para crawlers importantes
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Crawl-delay optimizado
+Crawl-delay: 0
