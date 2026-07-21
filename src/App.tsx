@@ -89,19 +89,27 @@ export default function App() {
     searchTerm: ''
   });
 
-  // Load blog posts from Firebase on mount
+  // Load blog posts from Firebase on mount (merge with defaults)
   useEffect(() => {
     const fetchPosts = async () => {
       try {
         const querySnapshot = await getDocs(collection(db, 'posts'));
-        const loadedPosts: BlogPost[] = [];
+        const firebasePosts: BlogPost[] = [];
         querySnapshot.forEach((doc) => {
-          loadedPosts.push({ id: doc.id, ...doc.data() } as BlogPost);
+          firebasePosts.push({ id: doc.id, ...doc.data() } as BlogPost);
         });
         
-        if (loadedPosts.length > 0) {
-          loadedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-          setBlogPosts(loadedPosts);
+        if (firebasePosts.length > 0) {
+          // Merge: keep all default posts, add Firebase posts that don't conflict by slug
+          const defaultSlugs = new Set(defaultBlogPosts.map(p => p.slug));
+          const merged = [...defaultBlogPosts];
+          for (const fp of firebasePosts) {
+            if (!defaultSlugs.has(fp.slug)) {
+              merged.push(fp);
+            }
+          }
+          merged.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+          setBlogPosts(merged);
         }
       } catch (e) {
         console.error('Error loading blog posts from Firebase:', e);
