@@ -125,7 +125,12 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
           {post.source && (
             <span className="flex items-center gap-1.5 text-gold/60">
               <span className="w-1 h-1 rounded-full bg-gold/40" />
-              {lang === 'es' ? 'Fuente: ' : 'Source: '}{post.source}
+              {lang === 'es' ? 'Fuente: ' : 'Source: '}
+              {post.sourceUrl ? (
+                <a href={post.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold/80 underline underline-offset-2 transition-colors">
+                  {post.source}
+                </a>
+              ) : post.source}
             </span>
           )}
         </div>
