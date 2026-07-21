@@ -1506,6 +1506,36 @@ npm run lighthouse    # Auditoría Lighthouse local
 - `git commit 78e3f3a` — `feat: portal de noticias...`
 - `vercel --prod` → https://freddydev.net
 
+## 🎯 Sesión 2026-07-21 (noche) — SEO: Hash → Path Routing + Meta Fixes
+
+### Cambio crítico: hash routing → path routing
+Antes: `https://freddydev.net/#portafolio` (Google lo veía todo como `/`)
+Ahora: `https://freddydev.net/portafolio` (cada sección es una URL única)
+
+### Archivos modificados:
+| Archivo | Cambio |
+|---------|--------|
+| `src/App.tsx` | `hashchange` → `popstate`; `window.location.hash` → `history.pushState` |
+| `src/components/Navbar.tsx` | `hash` → `pushState` con path |
+| `src/components/Footer.tsx` | `hash` → `pushState` con path |
+| `src/components/Chatbot.tsx` | Nuevo prop `onNavigate`, eliminado `window.location.hash` |
+| `src/analytics/index.ts` | `hash` → `pathname` para page tracking |
+| `src/lib/analytics.ts` | `hash` → `pathname` para GA4 |
+| `public/sitemap.xml` | URLs con hash → rutas limpias (`/portafolio`) + agregado `/noticias` |
+| `public/rss.xml` | Dominio `freddy-ticona-portafolio.vercel.app` → `freddydev.net` |
+| `scripts/generate-rss.js` | Dominio corregido |
+| `index.html` | Meta description mejorada con "camarógrafo en La Paz"; imágenes `.jpg` → `.webp`; VideoObject URL corregida (ya no es Rick Roll); Breadcrumb hash corregido |
+
+### Deploy:
+- `git commit 30edbf2` — `fix: hash routing → path routing + SEO fixes`
+- `vercel --prod` → https://freddydev.net
+
+### Pendiente (próxima sesión):
+1. **Enviar nuevo sitemap** a Google Search Console (ya está verify)
+2. **Configurar pre-rendering** en Vercel para que Google vea HTML completo de cada ruta (opción: middleware de pre-render o prerender.io)
+3. **Agregar Google My Business** para aparecer en búsqueda local "camarógrafo La Paz"
+4. **Blog con URLs individuales** — cada artículo necesita su propia URL tipo `/blog/detras-de-camaras-la-estrella`
+
 ### Próximos pasos sugeridos:
 1. Agregar más noticias reales desde Admin Panel (cuando se editen, usar `breaking: true` para destacar)
 2. Conectar a fuente RSS externa si se desea sindicación
@@ -1513,6 +1543,6 @@ npm run lighthouse    # Auditoría Lighthouse local
 
 ---
 
-*Documento actualizado - 21 julio 2026 (tarde)*
-*✅ Fases 1, 2, 3, SEO, Vercel Blob, Mejoras, Seguridad, Portal de Noticias COMPLETADAS*
+*Documento actualizado - 21 julio 2026 (noche)*
+*✅ Fases 1, 2, 3, SEO, Vercel Blob, Mejoras, Seguridad, Portal de Noticias, Path Routing COMPLETADAS*
 *✅ 10 tests unitarios · 3 tests E2E · CI/CD · Sentry · Dependabot · Lighthouse*
