@@ -1534,7 +1534,41 @@ Ahora: `https://freddydev.net/portafolio` (cada sección es una URL única)
 - Eliminado `aggregateRating` del Schema (Google lo marcaba como inválido por tener `reviewCount: "1"`)
 - `git commit a58614f` → `vercel --prod`
 
-### Pendiente (próxima sesión):
+## 🚀 Sesión 2026-07-21 (noche) — Pre-renderizado Estático (10 páginas)
+
+### Implementado:
+- **`scripts/generate-pages.js`** — Script post-build que genera `index.html` con meta tags únicos para cada ruta
+- **`package.json`** — `"build"` ahora ejecuta `generate-pages` después de `vite build`
+- **10 páginas pre-renderizadas** en `dist/`:
+  | Ruta | Title tag |
+  |------|-----------|
+  | `/` | Camarógrafo Profesional en La Paz, Bolivia |
+  | `/inicio` | Camarógrafo Profesional La Paz Bolivia — Filmación 4K |
+  | `/sobre-mi` | Sobre Mí — Camarógrafo Profesional en Bolivia |
+  | `/portafolio` | Proyectos Audiovisuales — Documentales y Cobertura |
+  | `/cv` | Currículum Camarógrafo Bolivia |
+  | `/blog` | Blog de Producción Audiovisual y Cinematografía Bolivia |
+  | `/noticias` | Noticias Audiovisuales Bolivia — Cobertura Periodística |
+  | `/servicios` | Servicios Audiovisuales La Paz Bolivia |
+  | `/reservas` | Reservar Camarógrafo La Paz Bolivia |
+  | `/contacto` | Contrata Camarógrafo en La Paz Bolivia |
+
+### Cómo funciona:
+1. `vite build` genera el bundle SPA normal
+2. `generate-pages.js` copia `dist/index.html` para cada ruta, reemplazando title, description, OG y canonical
+3. Vercel sirve el HTML correcto según la ruta — Google ve el título y descripción exactos de cada página SIN ejecutar JS
+4. El React app hidrata encima y el comportamiento del usuario sigue siendo SPA
+
+### Deploy:
+- `git commit 2990863` — `feat: pre-renderizado estático - 10 páginas con meta tags individuales para SEO`
+- `vercel --prod` → https://freddydev.net
+
+### Pasos que debes hacer tú:
+1. **Google Search Console** → URL Inspection → `https://freddydev.net/` → "Solicitar indexación" (repetir para `/portafolio`, `/sobre-mi`, `/noticias`, `/blog`, `/cv`, `/servicios`, `/contacto`)
+2. **Google My Business** — crea perfil "Freddy Ticona - Servicios Audiovisuales" en La Paz
+3. Esperar 1-2 semanas para ver resultados en rankings
+
+### Fix posterior:
 1. **Enviar nuevo sitemap** a Google Search Console (ya está verify)
 2. **Configurar pre-rendering** en Vercel para que Google vea HTML completo de cada ruta (opción: middleware de pre-render o prerender.io)
 3. **Agregar Google My Business** para aparecer en búsqueda local "camarógrafo La Paz"
