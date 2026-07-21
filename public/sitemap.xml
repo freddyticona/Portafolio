@@ -9,8 +9,8 @@
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://freddydev.net/#inicio" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://freddydev.net/#inicio" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://freddydev.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://freddydev.net/en" />
     <image:image>
       <image:loc>https://freddydev.net/images/freddy_profile.webp</image:loc>
       <image:title>Freddy Ticona Guzmán - Camarógrafo</image:title>
@@ -20,7 +20,7 @@
 
   <!-- Sobre Mí -->
   <url>
-    <loc>https://freddydev.net/#sobre-mi</loc>
+    <loc>https://freddydev.net/sobre-mi</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -28,7 +28,7 @@
 
   <!-- Portafolio -->
   <url>
-    <loc>https://freddydev.net/#portafolio</loc>
+    <loc>https://freddydev.net/portafolio</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -36,7 +36,7 @@
 
   <!-- CV -->
   <url>
-    <loc>https://freddydev.net/#cv</loc>
+    <loc>https://freddydev.net/cv</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -44,15 +44,23 @@
 
   <!-- Blog -->
   <url>
-    <loc>https://freddydev.net/#blog</loc>
+    <loc>https://freddydev.net/blog</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Noticias -->
+  <url>
+    <loc>https://freddydev.net/noticias</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Servicios -->
   <url>
-    <loc>https://freddydev.net/#servicios</loc>
+    <loc>https://freddydev.net/servicios</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -60,7 +68,7 @@
 
   <!-- Reservas -->
   <url>
-    <loc>https://freddydev.net/#reservas</loc>
+    <loc>https://freddydev.net/reservas</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -68,7 +76,7 @@
 
   <!-- Contacto -->
   <url>
-    <loc>https://freddydev.net/#contacto</loc>
+    <loc>https://freddydev.net/contacto</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

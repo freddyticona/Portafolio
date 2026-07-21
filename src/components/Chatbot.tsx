@@ -38,6 +38,7 @@ interface ChatMessage {
 
 interface ChatbotProps {
   lang: 'es' | 'en';
+  onNavigate?: (page: PageId) => void;
   t: any;
 }
 
@@ -214,7 +215,7 @@ const findResponse = (message: string, lang: 'es' | 'en'): { text: string; actio
 // COMPONENT
 // ==========================================
 
-export default function Chatbot({ lang, t }: ChatbotProps) {
+export default function Chatbot({ lang, t, onNavigate }: ChatbotProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -278,23 +279,16 @@ export default function Chatbot({ lang, t }: ChatbotProps) {
   };
 
   const handleActionClick = (action: string) => {
-    // Handle action button clicks
-    switch (action) {
-      case 'booking':
-        window.location.hash = 'contacto';
-        break;
-      case 'contact':
-        window.location.hash = 'contacto';
-        break;
-      case 'portfolio':
-        window.location.hash = 'portafolio';
-        break;
-      case 'cv':
-        window.location.hash = 'cv';
-        break;
-      case 'locations':
-        window.location.hash = 'sobre-mi';
-        break;
+    const pageMap: Record<string, PageId> = {
+      booking: 'contacto',
+      contact: 'contacto',
+      portfolio: 'portafolio',
+      cv: 'cv',
+      locations: 'sobre-mi',
+    };
+    const page = pageMap[action];
+    if (page && onNavigate) {
+      onNavigate(page);
     }
 
     // Add user message about the action

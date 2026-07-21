@@ -34,8 +34,8 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
     setActivePage(pageId);
     setMobileMenuOpen(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // Update hash
-    window.location.hash = pageId;
+    const path = pageId === 'inicio' ? '/' : '/' + pageId;
+    window.history.pushState(null, '', path);
   };
 
   const toggleLanguage = () => {
