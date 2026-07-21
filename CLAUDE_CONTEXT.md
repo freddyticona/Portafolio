@@ -37,9 +37,17 @@
 
 El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios, SEO optimizado y deploy automático en Vercel:
 
-**Último commit:** `8d94b17` - "feat: SEO v2.0 completo - Dominio freddydev.net optimizado"
-**Deploy automático:** ✅ COMPLETADO (dpl_Ft6ZWRZL2aVWdmtTXUpmUTF9i1G7)
+**Último commit:** `258691a` - "fix: usar @vercel/blob SDK en lugar de raw fetch (nombres correctos de env vars)"
+**Deploy producción:** ✅ COMPLETADO (dpl_4bsajFNrH5exAniKxjtGpEwXoFUe)
 **URL Producción:** https://freddydev.net ✓
+
+#### HISTORIAL DE COMMITS - SESIÓN 4 (21 julio 2026 - Fix Vercel Blob):
+
+| Hash | Hora | Descripción | Archivos |
+|------|------|-------------|----------|
+| `258691a` | 09:54 | **Fix: usar @vercel/blob SDK** | api/upload-image.ts, package.json, .env, .env.example, UPLOAD_SETUP.md, CLAUDE_CONTEXT.md |
+| `3a27d82` | 09:36 | fix: corregir runtime config en upload-image.ts | api/upload-image.ts |
+| `8ea2c95` | 09:00 | feat: implementar Vercel Blob Storage | api/upload-image.ts, AdminPanel.tsx, vercel.json |
 
 #### HISTORIAL DE COMMITS - SESIÓN 3 (21 julio 2026 - SEO):
 
@@ -619,6 +627,7 @@ BLOG_SEO_TEMPLATE.md                # NUEVO: Plantilla de artículos
 
 - ✅ **Videos de YouTube** - Actualizados con IDs reales (showreel + 2 proyectos)
 - ✅ **SEO v2.0** - Dominio freddydev.net optimizado (21 julio 2026)
+- ✅ **Vercel Blob Storage** - SDK oficial funcionando, subida de imágenes operativa
 - **Fase 1:** ✅ COMPLETADA (Sitemap, Robots, GA4, WebP)
 - **Fase 2:** ✅ COMPLETADA (PWA, CV PDF, Newsletter, Sharing)
 - **Fase 3:** ✅ COMPLETADA (Sistema de citas, Chatbot, Comentarios)
@@ -1283,18 +1292,59 @@ Cuando el usuario diga "continuemos con este proyecto":
 
 ---
 
-## ⚠️ PENDIENTE - Subida de Imágenes
+## 📝 REGISTRO DETALLADO DE SESIÓN (21 julio 2026 - mediodía - Fix Vercel Blob Storage)
 
-**Estado actual:** Endpoint API creado pero usando ImgBB (necesita API key real)
+### ⏰ Timeline de Trabajo:
 
-**Próximo paso:** Migrar a Vercel Blob Storage
-- Variable de entorno: `VERCEL_BLOB_TOKEN`
-- Capacidad: 10GB gratis/mes
-- Ventaja: CDN global integrado, sin costo adicional
+**09:40 - Diagnóstico de subida de imágenes**
+- Usuario reportó que no se pueden subir imágenes usando Vercel Blob Storage
+- Revisión del código: `api/upload-image.ts` usaba raw fetch con variables `VERCEL_BLOB_READ_WRITE_KEY` y `VERCEL_BLOB_STORE_NAME`
+- Verificación en Vercel Dashboard: las variables reales se llaman `BLOB_READ_WRITE_TOKEN` y `BLOB_STORE_ID`
+- Store ID: `store_AoYATrKWPRuJWG1F` (correctamente configurado)
+- **Problema raíz:** El código referenciaba las variables con nombres incorrectos
+
+**09:50 - Instalación de SDK @vercel/blob**
+- Instalado `@vercel/blob@2.6.1` (lee `BLOB_READ_WRITE_TOKEN` automáticamente)
+- No estaba en package.json anteriormente
+
+**09:55 - Reescritura de api/upload-image.ts**
+- Antes: raw fetch con URL hardcodeada y x-api-key manual
+- Después: `put()` del SDK oficial con `{ access: 'public', contentType, addRandomSuffix: false }`
+- La URL devuelta ahora es la real del blob, no `freddydev.net/...` inventada
+
+**10:00 - Commit y Deploy**
+- Commit: `258691a` - "fix: usar @vercel/blob SDK en lugar de raw fetch"
+- Deploy: `dpl_4bsajFNrH5exAniKxjtGpEwXoFUe`
+- Build exitoso, deploy a producción
+
+**10:05 - Verificación del endpoint**
+- Test con `curl`/`Invoke-RestMethod` a `POST https://freddydev.net/api/upload-image`
+- Respuesta: `{ url, filename, size, contentType, readyToServe }`
+- URL real verificada: `https://aoyatrkwprujwg1f.public.blob.vercel-storage.com/test/verify.txt`
+- ✅ Subida de imágenes funcionando correctamente
+
+### Archivos Modificados/Creados:
+
+**Modificados:**
+| Archivo | Cambio |
+|---------|--------|
+| `api/upload-image.ts` | Reescrito con `@vercel/blob` SDK (`put()`) |
+| `package.json` | Agregada dependencia `@vercel/blob@2.6.1` |
+| `.env` | Agregado `BLOB_READ_WRITE_TOKEN` como placeholder |
+| `.env.example` | Agregado `BLOB_READ_WRITE_TOKEN` documentado |
+| `UPLOAD_SETUP.md` | Actualizado con nuevo flujo SDK + `BLOB_READ_WRITE_TOKEN` |
+| `CLAUDE_CONTEXT.md` | Registro de sesión |
+
+### Lecciones aprendidas:
+- Las variables de entorno de Vercel Blob Storage generadas automáticamente son `BLOB_READ_WRITE_TOKEN` y `BLOB_STORE_ID`
+- El SDK `@vercel/blob` es la forma correcta de interactuar con Blob Storage, no raw fetch
+- La URL pública del blob NO es el dominio del proyecto, sino `https://<store-id>.public.blob.vercel-storage.com/<path>`
 
 ---
 
-*Documento actualizado - 21 julio 2026 (tarde)*
+---
+
+*Documento actualizado - 21 julio 2026 (mediodía)*
 *✅ Fases 1, 2, 3 y SEO COMPLETADAS - Proyecto en producción (freddydev.net)*
 *📝 Sesión SEO v2.0 registrada - 30/30 tests PASSED*
-*🔧 Sesión Fixes & Upload - Página en blanco corregida, upload pendiente de migrar a Vercel Blob*
+*✅ Fix Vercel Blob Storage - SDK oficial funcionando, subida de imágenes operativa*

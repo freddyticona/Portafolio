@@ -14,7 +14,9 @@
     "prebuild": "npm run generate-icons",
     "optimize-images": "node scripts/optimize-images.js",
     "optimize-images:watch": "nodemon --watch public/images --exec 'npm run optimize-images'",
-    "check-images": "node scripts/check-images.cjs"
+    "check-images": "node scripts/check-images.cjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
@@ -41,6 +43,7 @@
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
-    "vite": "^8.1.5"
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10"
   }
 }
