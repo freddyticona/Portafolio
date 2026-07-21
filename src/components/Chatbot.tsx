@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useRef, useEffect } from 'react';
+import { PageId } from '../types';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   MessageCircle,
