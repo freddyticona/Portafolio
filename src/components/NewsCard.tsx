@@ -3,6 +3,7 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import LazyImage from './LazyImage';
 
 interface NewsCardProps {
+  key?: string | number;
   post: BlogPost;
   lang: 'es' | 'en';
   onClick: () => void;
