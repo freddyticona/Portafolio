@@ -1,21 +1,19 @@
 import { useState } from 'react';
 import { BlogPost } from '../types';
 import NewsCard from './NewsCard';
-import BlogDetail from './BlogDetail';
 import { TrendingUp, Flame } from 'lucide-react';
 
 interface NewsPortalProps {
   posts: BlogPost[];
   lang: 'es' | 'en';
   t: any;
-  onBack?: () => void;
+  onArticleClick: (post: BlogPost) => void;
 }
 
 const CATEGORIES = ['all', 'pais', 'santa-cruz', 'mundo', 'economia', 'deportes', 'cultura', 'tecnologia'] as const;
 
-export default function NewsPortal({ posts, lang, t, onBack }: NewsPortalProps) {
+export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
   const [activeCategory, setActiveCategory] = useState<string>('all');
-  const [activePostId, setActivePostId] = useState<string | null>(null);
 
   const breakingPosts = posts.filter(p => p.breaking);
   const featuredPosts = posts.filter(p => p.featured && !p.breaking);
@@ -35,17 +33,10 @@ export default function NewsPortal({ posts, lang, t, onBack }: NewsPortalProps) 
     return (t as any)[key] || cat;
   };
 
-  if (activePostId) {
-    const post = newsPosts.find(p => p.id === activePostId);
-    if (!post) return null;
+  if (!posts.length) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-fadeIn">
-        <BlogDetail
-          post={post}
-          lang={lang}
-          t={t}
-          onBack={() => setActivePostId(null)}
-        />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-fadeIn text-center">
+        <p className="text-stone-500 text-sm font-mono">{t.newsEmpty}</p>
       </div>
     );
   }
@@ -71,7 +62,7 @@ export default function NewsPortal({ posts, lang, t, onBack }: NewsPortalProps) 
           <NewsCard
             post={heroPost}
             lang={lang}
-            onClick={() => setActivePostId(heroPost.id)}
+            onClick={() => onArticleClick(heroPost)}
             variant="hero"
           />
         </div>
@@ -105,7 +96,7 @@ export default function NewsPortal({ posts, lang, t, onBack }: NewsPortalProps) 
                   key={post.id}
                   post={post}
                   lang={lang}
-                  onClick={() => setActivePostId(post.id)}
+                  onClick={() => onArticleClick(post)}
                   variant="default"
                 />
               ))}
@@ -129,7 +120,7 @@ export default function NewsPortal({ posts, lang, t, onBack }: NewsPortalProps) 
               {trendingPosts.map((post, i) => (
                 <div
                   key={post.id}
-                  onClick={() => setActivePostId(post.id)}
+                  onClick={() => onArticleClick(post)}
                   className="group cursor-pointer flex items-start gap-3 p-2 hover:bg-white/[0.03] rounded-sm transition-colors"
                 >
                   <span className="text-lg font-black text-stone-600 font-display tabular-nums leading-none mt-0.5">

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { PageId } from './types';
 import { BlogPost } from './types';
 import {
@@ -111,13 +111,32 @@ export default function App() {
     fetchPosts();
   }, []);
 
+  // Ref to always have latest blogPosts in popstate handler
+  const blogPostsRef = useRef(blogPosts);
+  blogPostsRef.current = blogPosts;
+
   // Sync state with URL pathname on mount and popstate
   useEffect(() => {
     const handlePopState = () => {
-      const path = window.location.pathname.replace('/', '') || 'inicio';
+      const pathname = window.location.pathname;
+      const parts = pathname.split('/').filter(Boolean);
+
+      // Check for /blog/:slug or /noticias/:slug
+      if (parts.length === 2 && (parts[0] === 'blog' || parts[0] === 'noticias')) {
+        const slug = parts[1];
+        const post = blogPostsRef.current.find(p => p.slug === slug);
+        if (post) {
+          setActivePage(parts[0] as PageId);
+          setActiveBlogPostId(post.id);
+          setActiveCaseStudyId(null);
+          return;
+        }
+      }
+
+      const pageStr = parts[0] || 'inicio';
       const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias', 'blog', 'contacto', 'reservas', 'servicios', 'admin'];
-      if (validPages.includes(path as PageId)) {
-        setActivePage(path as PageId);
+      if (validPages.includes(pageStr as PageId)) {
+        setActivePage(pageStr as PageId);
         setActiveCaseStudyId(null);
         setActiveBlogPostId(null);
       }
@@ -149,6 +168,14 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveCaseStudyId(null);
     setActiveBlogPostId(null);
+  };
+
+  const handleArticleClick = (post: BlogPost, page: PageId) => {
+    setActivePage(page);
+    setActiveBlogPostId(post.id);
+    window.history.pushState(null, '', `/${page}/${post.slug}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setActiveCaseStudyId(null);
   };
 
   return (
@@ -351,10 +378,7 @@ export default function App() {
                     lang={lang}
                     t={t}
                     onClick={() => {
-                      setActivePage('blog');
-                      setActiveBlogPostId(post.id);
-                      window.history.pushState(null, '', '/blog');
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                      handleArticleClick(post, 'blog');
                     }}
                   />
                 ))}
@@ -838,6 +862,7 @@ export default function App() {
                 t={t} 
                 onBack={() => {
                   setActiveBlogPostId(null);
+                  window.history.pushState(null, '', '/blog');
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }} 
               />
@@ -863,10 +888,7 @@ export default function App() {
                       post={post}
                       lang={lang}
                       t={t}
-                      onClick={() => {
-                        setActiveBlogPostId(post.id);
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                      }}
+                      onClick={() => handleArticleClick(post, 'blog')}
                     />
                   ))}
                 </div>
@@ -881,7 +903,22 @@ export default function App() {
         {/* PAGE 5.5: NOTICIAS */}
         {/* ==================================================================== */}
         {activePage === 'noticias' && (
-          <NewsPortal posts={blogPosts} lang={lang} t={t} />
+          activeBlogPostId ? (
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-fadeIn">
+              <BlogDetail
+                post={blogPosts.find(p => p.id === activeBlogPostId)!}
+                lang={lang}
+                t={t}
+                onBack={() => {
+                  setActiveBlogPostId(null);
+                  window.history.pushState(null, '', '/noticias');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+              />
+            </div>
+          ) : (
+            <NewsPortal posts={blogPosts} lang={lang} t={t} onArticleClick={(post) => handleArticleClick(post, 'noticias')} />
+          )
         )}
 
         {/* ==================================================================== */}
