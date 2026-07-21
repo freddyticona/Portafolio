@@ -30,6 +30,7 @@ import CaseStudyDetail from './components/CaseStudyDetail';
 import ContactForm from './components/ContactForm';
 import BlogCard from './components/BlogCard';
 import BlogDetail from './components/BlogDetail';
+import NewsPortal from './components/NewsPortal';
 import AdminPanel from './components/AdminPanel';
 import CinematicHero from './components/CinematicHero';
 import GlobalSearch from './components/GlobalSearch';
@@ -114,7 +115,7 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '') as PageId;
-      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'blog', 'contacto', 'reservas', 'servicios', 'admin'];
+      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias', 'blog', 'contacto', 'reservas', 'servicios', 'admin'];
       if (validPages.includes(hash)) {
         setActivePage(hash);
         // Clear sub-views on page change
@@ -373,6 +374,54 @@ export default function App() {
                 </button>
               </div>
             </section>
+
+            {/* 4.5. NEWS PREVIEW */}
+            {blogPosts.some(p => p.breaking || p.featured) && (
+              <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+                <div className="text-center space-y-3">
+                  <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
+                    {lang === 'es' ? 'Cobertura Periodística' : 'Press Coverage'}
+                  </span>
+                  <h2 className="text-2xl md:text-4xl font-extrabold text-white tracking-tight font-display">
+                    {t.newsHomeTitle}
+                  </h2>
+                  <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
+                    {t.newsHomeSubtitle}
+                  </p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {blogPosts.filter(p => p.breaking || p.featured).slice(0, 4).map((post) => (
+                    <div
+                      key={post.id}
+                      onClick={() => { setActivePage('noticias'); window.location.hash = 'noticias'; }}
+                      className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300"
+                    >
+                      <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
+                        <img src={post.imageUrl} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        {post.breaking && <span className="absolute top-2 left-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">{t.newsBreaking}</span>}
+                      </div>
+                      <div className="p-4 space-y-2">
+                        <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
+                          <span className="flex items-center gap-1"><Calendar className="w-3 h-3" />{post.date}</span>
+                          <span>{lang === 'es' ? post.categoryEs : post.categoryEn}</span>
+                        </div>
+                        <h3 className="text-sm font-bold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors">
+                          {lang === 'es' ? post.titleEs : post.titleEn}
+                        </h3>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <div className="text-center pt-2">
+                  <button
+                    onClick={() => handleNavToTab('noticias')}
+                    className="px-6 py-3.5 border border-white/5 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
+                  >
+                    {lang === 'es' ? 'Ver todas las noticias' : 'View All News'}
+                  </button>
+                </div>
+              </section>
+            )}
 
             {/* Spacer */}
             <div className="pb-16" />
@@ -830,6 +879,13 @@ export default function App() {
 
             <div className="pb-8" />
           </div>
+        )}
+
+        {/* ==================================================================== */}
+        {/* PAGE 5.5: NOTICIAS */}
+        {/* ==================================================================== */}
+        {activePage === 'noticias' && (
+          <NewsPortal posts={blogPosts} lang={lang} t={t} />
         )}
 
         {/* ==================================================================== */}

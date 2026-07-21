@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'contacto' | 'reservas' | 'servicios' | 'admin';
+export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'noticias' | 'contacto' | 'reservas' | 'servicios' | 'admin';
 
 export interface PortfolioItem {
   id: string;
@@ -89,6 +89,10 @@ export interface BlogPost {
   videoUrl?: string; // Video de YouTube
   enableComments: boolean; // Habilitar/deshabilitar comentarios
   font?: string; // Fuente personalizada para este post
+  breaking?: boolean; // Noticia de última hora
+  featured?: boolean; // Noticia destacada en portada
+  views?: number; // Número de lecturas
+  location?: string; // Ubicación de la noticia
 }
 
 export interface Testimonial {

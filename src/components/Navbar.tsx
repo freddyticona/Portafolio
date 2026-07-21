@@ -23,6 +23,7 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
     { id: 'sobre-mi', label: t.navAbout },
     { id: 'portafolio', label: t.navPortfolio },
     { id: 'cv', label: t.navCv },
+    { id: 'noticias', label: t.navNews },
     { id: 'blog', label: t.navBlog },
     { id: 'servicios', label: lang === 'es' ? 'Servicios' : 'Services' },
     { id: 'reservas', label: lang === 'es' ? 'Reservas' : 'Booking' },
