@@ -1,8 +1,39 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { put } from '@vercel/blob';
 import sharp from 'sharp';
+import * as Sentry from '@sentry/node';
+
+Sentry.init({
+  dsn: process.env.VITE_SENTRY_DSN || '',
+  tracesSampleRate: 0.5,
+  environment: process.env.VERCEL_ENV || 'development',
+});
 
 const OPTIMIZABLE_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
+const MAX_UPLOADS_PER_MINUTE = 10;
+const RATE_WINDOW_MS = 60_000;
+
+const ipCounters = new Map<string, { count: number; resetAt: number }>();
+
+function checkRateLimit(ip: string): boolean {
+  const now = Date.now();
+  const entry = ipCounters.get(ip);
+  if (!entry || now > entry.resetAt) {
+    ipCounters.set(ip, { count: 1, resetAt: now + RATE_WINDOW_MS });
+    return true;
+  }
+  if (entry.count >= MAX_UPLOADS_PER_MINUTE) return false;
+  entry.count++;
+  return true;
+}
+
+function isPathSafe(filename: string): boolean {
+  const normalized = filename.replace(/\\/g, '/');
+  if (normalized.includes('..')) return false;
+  if (normalized.startsWith('/')) return false;
+  const blocked = /[<>:"|?*]|\.(exe|dll|bat|sh|cmd|ps1|vbs)$/i;
+  return !blocked.test(normalized);
+}
 
 export default async function handler(
   req: VercelRequest,
@@ -12,12 +43,23 @@ export default async function handler(
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  const ip = req.headers['x-forwarded-for'] as string || req.socket.remoteAddress || 'unknown';
+  if (!checkRateLimit(ip)) {
+    return res.status(429).json({ error: 'Too many uploads. Try again in a minute.' });
+  }
+
   try {
     const { filename, contentType, content } = req.body;
 
     if (!filename || !contentType || !content) {
       return res.status(400).json({
         error: 'Missing required fields: filename, contentType, content'
+      });
+    }
+
+    if (!isPathSafe(filename)) {
+      return res.status(400).json({
+        error: 'Invalid filename. Path traversal or unsafe characters detected.'
       });
     }
 

@@ -9,6 +9,11 @@ vi.mock('@vercel/blob', () => ({
   }),
 }));
 
+vi.mock('@sentry/node', () => ({
+  init: vi.fn(),
+  default: { init: vi.fn() },
+}));
+
 type MockResponse = {
   _status: number;
   _body: any;
@@ -16,8 +21,13 @@ type MockResponse = {
   json: (data: any) => void;
 };
 
-function createMockReq(body: any) {
-  return { method: 'POST', body };
+function createMockReq(body: any, ip?: string) {
+  return {
+    method: 'POST',
+    body,
+    headers: { 'x-forwarded-for': ip || '127.0.0.1' },
+    socket: { remoteAddress: '127.0.0.1' },
+  };
 }
 
 function createMockRes(): MockResponse {
@@ -59,6 +69,24 @@ describe('POST /api/upload-image validation', () => {
     await handler(req as any, res as any);
     expect(res._status).toBe(400);
     expect(res._body.error).toContain('too large');
+  });
+
+  it('rejects path traversal with 400', async () => {
+    const { default: handler } = await import('../upload-image');
+    const req = createMockReq({ filename: '../../../etc/passwd', contentType: 'image/jpeg', content: 'dGVzdA==' });
+    const res = createMockRes();
+    await handler(req as any, res as any);
+    expect(res._status).toBe(400);
+    expect(res._body.error).toContain('unsafe');
+  });
+
+  it('rejects absolute path with 400', async () => {
+    const { default: handler } = await import('../upload-image');
+    const req = createMockReq({ filename: '/etc/passwd', contentType: 'image/jpeg', content: 'dGVzdA==' });
+    const res = createMockRes();
+    await handler(req as any, res as any);
+    expect(res._status).toBe(400);
+    expect(res._body.error).toContain('unsafe');
   });
 
   it('accepts valid image upload and returns URL', async () => {

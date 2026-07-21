@@ -2,10 +2,20 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
+import {sentryVitePlugin} from '@sentry/vite-plugin';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react(),
+      tailwindcss(),
+      sentryVitePlugin({
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+        org: process.env.SENTRY_ORG,
+        project: process.env.SENTRY_PROJECT,
+        telemetry: false,
+      }),
+    ],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
@@ -60,8 +70,13 @@ export default defineConfig(() => {
       cssCodeSplit: true,
       // Minificación habilitada por defecto
       minify: true,
+      // Source maps para errores en producción (Sentry)
+      sourcemap: true,
     },
     // Compresión con Brotli (Vercel lo hace automáticamente)
     reportCompressedSize: true,
+    test: {
+      exclude: ['e2e/**', 'node_modules/**'],
+    },
   };
 });
