@@ -73,6 +73,9 @@ const articles = [
   { slug: 'fallece-tito-de-la-vina', title: 'Fallece Tito de la Viña, leyenda del periodismo deportivo boliviano, a los 87 años', desc: 'El reconocido periodista deportivo, con más de seis décadas de trayectoria en radio y televisión, falleció dejando un legado imborrable.' },
   { slug: 'nolan-odisea-reparto', title: 'Christopher Nolan lleva "La Odisea" al cine: el reparto incluye a Matt Damon y Tom Holland', desc: 'El aclamado director británico confirmó el reparto de su próxima epopeya basada en el clásico de Homero.' },
   { slug: 'reflexion-comparativa-cultura-audiovisual-bolivia-mundo', title: 'Bolivia en el espejo del mundo: reflexión comparativa sobre cultura audiovisual y periodismo', desc: 'Un análisis que contrasta las noticias bolivianas con sus equivalentes internacionales en acceso cultural, libertad de prensa y preservación audiovisual.' },
+  { slug: 'cinemateca-50-anos-todo-lo-que-era-posible', title: 'Cinemateca Boliviana: 50 Años Preservando la Memoria Audiovisual', desc: 'El expresidente y fundador de la Cinemateca Boliviana escribe un emotivo relato sobre el nacimiento de la institución que ha preservado la memoria audiovisual de Bolivia durante medio siglo.' },
+  { slug: 'pianista-daniel-alvarez-gana-premio-sur-musica-nueva', title: 'Pianista Daniel Álvarez gana Premio Sur de Música Nueva Latinoamericana', desc: 'El compositor orureño Daniel Álvarez Veizaga conquistó el máximo galardón en la primera edición del certamen internacional con su sonata para piano "Periférica".' },
+  { slug: 'nova-vuelve-sinfonia-de-historias-inolvidables', title: 'NOVA Filarmónica vuelve con la "Sinfonía de historias inolvidables"', desc: 'La NOVA Filarmónica presenta el segundo programa de su temporada 2026 con un concierto que fusiona las bandas sonoras más emblemáticas del cine con obras maestras del repertorio sinfónico.' },
 ];
 
 const distDir = path.join(__dirname, '..', 'dist');
