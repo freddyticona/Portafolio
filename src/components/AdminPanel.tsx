@@ -5,10 +5,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { BlogPost, Comment, User } from '../types';
-import { auth, db, storage } from '../lib/firebase';
+import { auth, db } from '../lib/firebase';
 import { signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
 import { collection, getDocs, addDoc, updateDoc, deleteDoc, doc, setDoc } from 'firebase/firestore';
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import CMSPanel from './CMSPanel';
 import AnalyticsDashboard from './AnalyticsDashboard';
 import {
@@ -752,15 +751,57 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
     const file = e.target.files?.[0];
     if (!file) return;
 
+    // Validar tamaño - Máximo 5MB
+    const MAX_SIZE_MB = 5;
+    if (file.size > MAX_SIZE_MB * 1024 * 1024) {
+      alert(lang === 'es' 
+        ? `Máximo ${MAX_SIZE_MB}MB por archivo` 
+        : `Max ${MAX_SIZE_MB}MB per file`
+      );
+      return;
+    }
+
+    // Validar tipo - Solo imágenes webp, jpeg, png
+    const validTypes = ['image/jpeg', 'image/png', 'image/webp'];
+    if (!validTypes.includes(file.type)) {
+      alert(lang === 'es'
+        ? 'Solo imágenes .webp, .jpg, .png permitidas.'
+        : 'Only .webp, .jpg, .png images allowed.'
+      );
+      return;
+    }
+
     setIsUploading(true);
+    
     try {
-      const fileRef = ref(storage, `blog/${Date.now()}_${file.name}`);
-      await uploadBytes(fileRef, file);
-      const url = await getDownloadURL(fileRef);
-      handleChange('imageUrl', url);
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('folder', 'blog');
+      
+      const response = await fetch('/api/upload-image', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to upload to Vercel Blob');
+      }
+
+      const data = await response.json();
+      handleChange('imageUrl', data.url);
+      
+      alert(lang === 'es' 
+        ? '✅ Imagen subida con éxito a Vercel Blob!'
+        : '✅ Image uploaded successfully to Vercel Blob!'
+      );
+      
     } catch (error) {
-      console.error('Error al subir imagen:', error);
-      alert(lang === 'es' ? 'Error al subir imagen. Verifica las reglas de Firestore/Storage.' : 'Error uploading image.');
+      console.error('❌ Vercel Blob upload failed:', error);
+      alert(lang === 'es' 
+        ? `Error al subir imagen: ${error.message}`
+        : `Upload failed: ${error.message}`
+      );
     } finally {
       setIsUploading(false);
       e.target.value = '';
