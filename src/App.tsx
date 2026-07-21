@@ -643,11 +643,11 @@ export default function App() {
         {/* ==================================================================== */}
         {/* PAGE 3: PORTAFOLIO / GALERÍA */}
         {/* ==================================================================== */}
-        {activePage === 'portafolio' && (
+        {/* PORTFOLIO TEMPORALMENTE OCULTO — sección con contenido generado, pendiente reemplazar con trabajos reales */}
+        {false && activePage === 'portafolio' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 md:space-y-16 animate-fadeIn">
             
             {activeCaseStudyId ? (
-              // Case Study Detail Sub-route view
               <CaseStudyDetail 
                 caseStudy={caseStudies[activeCaseStudyId]} 
                 lang={lang} 
@@ -658,7 +658,6 @@ export default function App() {
                 }} 
               />
             ) : (
-              // Standard Portfolio Grid & Filters
               <div className="space-y-12">
                 <div className="text-center space-y-3">
                   <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
@@ -672,7 +671,6 @@ export default function App() {
                   </p>
                 </div>
 
-                {/* Advanced Filters */}
                 <PortfolioFilters
                   lang={lang}
                   onFilterChange={(filters) => setPortfolioFilters(filters)}
