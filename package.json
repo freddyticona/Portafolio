@@ -16,10 +16,15 @@
     "optimize-images:watch": "nodemon --watch public/images --exec 'npm run optimize-images'",
     "check-images": "node scripts/check-images.cjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lighthouse": "lhci autorun"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
+    "@sentry/node": "^10.67.0",
+    "@sentry/react": "^10.67.0",
+    "@sentry/vite-plugin": "^5.4.0",
     "@tailwindcss/vite": "^4.1.14",
     "@vercel/blob": "^2.6.1",
     "@vitejs/plugin-react": "^6.0.3",
@@ -34,6 +39,7 @@
     "react-dom": "^19.0.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
     "@vercel/node": "^5.8.26",

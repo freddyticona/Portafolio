@@ -33,21 +33,22 @@
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión SEO + Push)
+### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión 5 - Mejoras)
 
 El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios, SEO optimizado y deploy automático en Vercel:
 
-**Último commit:** `258691a` - "fix: usar @vercel/blob SDK en lugar de raw fetch (nombres correctos de env vars)"
-**Deploy producción:** ✅ COMPLETADO (dpl_4bsajFNrH5exAniKxjtGpEwXoFUe)
+**Último commit:** `c577263` - "feat: mejoras generales - proxy dev, sharp, vitest, CI/CD, limpieza firebase"
+**Deploy producción:** ✅ COMPLETADO (dpl_9fHSADuTszfZu197AVCDaFrFLt7t)
 **URL Producción:** https://freddydev.net ✓
 
-#### HISTORIAL DE COMMITS - SESIÓN 4 (21 julio 2026 - Fix Vercel Blob):
+#### HISTORIAL DE COMMITS - SESIÓN 5 (21 julio 2026 - Mejoras generales):
 
-| Hash | Hora | Descripción | Archivos |
-|------|------|-------------|----------|
-| `258691a` | 09:54 | **Fix: usar @vercel/blob SDK** | api/upload-image.ts, package.json, .env, .env.example, UPLOAD_SETUP.md, CLAUDE_CONTEXT.md |
-| `3a27d82` | 09:36 | fix: corregir runtime config en upload-image.ts | api/upload-image.ts |
-| `8ea2c95` | 09:00 | feat: implementar Vercel Blob Storage | api/upload-image.ts, AdminPanel.tsx, vercel.json |
+| Hash | Hora | Descripción |
+|------|------|-------------|
+| `c577263` | 10:00 | **Mejoras: proxy dev, sharp, vitest, CI/CD, limpieza** |
+| `258691a` | 09:54 | Fix: usar @vercel/blob SDK |
+| `3a27d82` | 09:36 | fix: corregir runtime config en upload-image.ts |
+| `8ea2c95` | 09:00 | feat: implementar Vercel Blob Storage |
 
 #### HISTORIAL DE COMMITS - SESIÓN 3 (21 julio 2026 - SEO):
 
@@ -791,15 +792,17 @@ npm run optimize-images  # Optimiza imágenes a WebP ⭐
 ## 🔧 TECNOLOGÍAS
 
 - React 19 + TypeScript
-- Vite 6.2
+- Vite 8 + Vitest 4 (tests)
 - Tailwind CSS 4.1
 - Motion/Framer Motion (animaciones)
 - Lucide React (iconos)
 - Web3Forms (formularios)
 - jsPDF (generación PDF)
+- Sharp (optimización imágenes)
 - Intersection Observer API (lazy loading)
 - Google Analytics 4 (tracking)
 - Service Worker API (PWA)
+- GitHub Actions (CI/CD)
 
 ---
 
@@ -1342,9 +1345,69 @@ Cuando el usuario diga "continuemos con este proyecto":
 
 ---
 
+## 📝 REGISTRO DETALLADO DE SESIÓN 5 (21 julio 2026 - mañana - Mejoras generales)
+
+### ⏰ Timeline de Trabajo:
+
+**10:00 - Proxy API para desarrollo local**
+- Agregado `server.proxy` en `vite.config.ts` para redirigir `/api` a `localhost:3001`
+- Ahora `npm run dev` puede probar subida de imágenes si hay un servidor local escuchando
+
+**10:05 - Limpieza de Firebase Storage**
+- Removido `getStorage` de `src/lib/firebase.ts` (no se usaba, Vercel Blob es el storage activo)
+- Código más limpio, bundle ligeramente reducido
+
+**10:10 - Optimización de imágenes con Sharp al subir**
+- Agregado `sharp` a `api/upload-image.ts`
+- Las imágenes se redimensionan a max 1920px (manteniendo aspect ratio)
+- Compresión JPEG quality 85% con mozjpeg
+- Solo aplica a JPEG, PNG, WebP (GIF se sube sin cambios)
+- Se agregó `originalSize` al response para comparar tamaño pre/post optimización
+
+**10:20 - Tests automatizados con Vitest**
+- Instalado `vitest@4.1.10`
+- Creados 2 archivos de test (8 tests total):
+  - `api/__tests__/upload-image.test.ts` (4 tests): Validación de campos, content type, tamaño, upload exitoso
+  - `src/lib/structuredData.test.ts` (4 tests): Schema Person, LocalBusiness, VideoObject, @graph structure
+- Agregado script `npm test` y `npm run test:watch`
+
+**10:25 - CI/CD con GitHub Actions**
+- Creado `.github/workflows/ci.yml`
+- Se ejecuta en cada push/PR a main
+- Pasos: checkout → setup Node 22 → npm ci → npm run lint → npm test
+
+**10:30 - Limpieza de archivo legacy**
+- Eliminado `pages/api/upload-image.ts` (usaba endpoint obsoleto `blob.vercel.fun`)
+
+**10:35 - Commit y Deploy**
+- Commit: `c577263` - "feat: mejoras generales - proxy dev, sharp, vitest, CI/CD, limpieza firebase"
+- Deploy: `dpl_9fHSADuTszfZu197AVCDaFrFLt7t`
+- Build exitoso, deploy a producción
+- URL: https://freddydev.net ✓
+
+### Archivos modificados/creados:
+
+| Archivo | Cambio |
+|---------|--------|
+| `vite.config.ts` | Agregado proxy `/api` para desarrollo local |
+| `src/lib/firebase.ts` | Removido `getStorage` (no usado) |
+| `api/upload-image.ts` | Agregada optimización con sharp (resize + compresión) |
+| `api/__tests__/upload-image.test.ts` | **NUEVO** - Tests de validación del endpoint upload |
+| `src/lib/structuredData.test.ts` | **NUEVO** - Tests de schemas JSON-LD |
+| `.github/workflows/ci.yml` | **NUEVO** - CI: lint + tests en cada push |
+| `package.json` | Agregados scripts `test` y `test:watch`, dep `vitest` |
+| `.gitignore` | Agregado `.vitest/` |
+| `pages/api/upload-image.ts` | **ELIMINADO** - Legacy endpoint obsoleto |
+
+### Comandos nuevos:
+
+```bash
+npm test          # Ejecuta tests una vez
+npm run test:watch # Ejecuta tests en modo watch
+```
+
 ---
 
-*Documento actualizado - 21 julio 2026 (mediodía)*
-*✅ Fases 1, 2, 3 y SEO COMPLETADAS - Proyecto en producción (freddydev.net)*
-*📝 Sesión SEO v2.0 registrada - 30/30 tests PASSED*
-*✅ Fix Vercel Blob Storage - SDK oficial funcionando, subida de imágenes operativa*
+*Documento actualizado - 21 julio 2026 (mañana)*
+*✅ Fases 1, 2, 3, SEO, Vercel Blob y Mejoras COMPLETADAS*
+*✅ 8 tests automatizados · CI/CD con GitHub Actions · Sharp optimization · Proxy dev*
