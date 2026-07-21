@@ -889,28 +889,37 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
       reader.onloadend = async () => {
         const base64String = reader.result as string;
 
+        // Extraer solo el contenido base64 (sin el prefijo data:image/...;base64,)
+        const base64Content = base64String.split(',')[1];
+
+        // Generar nombre único con timestamp
+        const timestamp = Date.now();
+        const ext = file.name.split('.').pop() || 'jpg';
+        const uniqueFilename = `blog/${timestamp}-${file.name.replace(/\.[^/.]+$/, '')}.${ext}`;
+
         const response = await fetch('/api/upload-image', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            imageBase64: base64String,
-            filename: file.name,
+            filename: uniqueFilename,
+            contentType: file.type,
+            content: base64Content,
           }),
         });
 
         if (!response.ok) {
           const errorData = await response.json();
-          throw new Error(errorData.error || 'Failed to upload image');
+          throw new Error(errorData.error || 'Failed to upload to Vercel Blob Storage');
         }
 
         const data = await response.json();
         handleChange('imageUrl', data.url);
 
         alert(lang === 'es'
-          ? '✅ Imagen subida con éxito!'
-          : '✅ Image uploaded successfully!'
+          ? '✅ Imagen subida con éxito a Vercel Blob Storage!'
+          : '✅ Image uploaded successfully to Vercel Blob Storage!'
         );
 
         setIsUploading(false);

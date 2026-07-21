@@ -1214,6 +1214,87 @@ Cuando el usuario diga "continuemos con este proyecto":
 
 ---
 
-*Documento actualizado - 21 julio 2026*
+---
+
+## 📝 REGISTRO DETALLADO DE SESIÓN (21 julio 2026 - tarde - Fixes & Upload)
+
+### ⏰ Timeline de Trabajo:
+
+**13:00 - Diagnóstico de Página en Blanco**
+- Usuario reportó página en blanco en https://freddydev.net
+- Investigación mostró: HTML cargando, pero JS devolviendo 404
+- Causa: Build local generó nuevos chunks, pero no estaban deployados
+
+**13:15 - Deploy Inicial**
+- Build local completado exitosamente (1.30s)
+- Deploy a Vercel production: `dpl_5LLDDUs7NAs96riVHLJJvgwYhMj1`
+- URL: https://freddydev.net
+
+**13:20 - Error ERR_CONTENT_DECODING_FAILED**
+- Usuario reportó errores de decodificación Brotli
+- Causa: Headers `Content-Encoding: br` manuales en `vercel.json`
+- Vercel comprime automáticamente, los headers manuales causaban conflicto
+
+**13:30 - Fix de Headers**
+- Removidos headers `Content-Encoding: br` de archivos .js y .css
+- Commit: `28e716d` - "fix: remover Content-Encoding manual de Brotli"
+- Deploy: `dpl_3tZ8x6vAZ3bDXbFmvdBYBV1smHz6`
+- ✅ Sitio funcionando correctamente
+
+**13:40 - Problema de Subida de Imágenes**
+- Usuario intentó subir imagen en Admin Panel
+- Error: `"The page c"... is not valid JSON`
+- Causa: El proyecto es Vite + React, pero la API estaba en `pages/api/` (sintaxis Next.js)
+- Vercel no reconocía el endpoint `/api/upload-image`
+
+**14:00 - Implementación de ImgBB (Intento)**
+- Creado `api/upload-image.ts` con estructura correcta para Vite
+- Actualizado `AdminPanel.tsx` para enviar imagen como base64
+- Agregado `@vercel/node` a devDependencies
+- Configurado `vercel.json` con functions
+- Deploy: `dpl_CoZrzkE72j4nQGqaCQVFzFen7R9W`
+- Estado: Endpoint API funcionando (405 en GET es correcto)
+
+**14:30 - Decisión: Usar Vercel Blob Storage**
+- Usuario sugirió usar Vercel Blob Storage (10GB gratis/mes)
+- Pendiente: Implementar correctamente con VERCEL_BLOB_TOKEN
+
+---
+
+## 🔧 CAMBIOS TÉCNICOS - SESIÓN TARDE (21 julio 2026)
+
+### Commits Realizados:
+
+| Hash | Descripción | Archivos |
+|------|-------------|----------|
+| `28e716d` | fix: remover Content-Encoding manual | vercel.json |
+| `e833610` | feat: sistema de subida de imágenes ImgBB | api/upload-image.ts, AdminPanel.tsx, vercel.json, package.json |
+| `4c81fab` | fix: corregir configuración de funciones | vercel.json |
+
+### Archivos Modificados/Creados:
+
+**Modificados:**
+- `vercel.json` - Removidos Content-Encoding headers, agregado functions config
+- `src/components/AdminPanel.tsx` - Upload con base64
+- `package.json` - Agregado @vercel/node
+
+**Creados:**
+- `api/upload-image.ts` - Endpoint API (por migrar a Vercel Blob)
+
+---
+
+## ⚠️ PENDIENTE - Subida de Imágenes
+
+**Estado actual:** Endpoint API creado pero usando ImgBB (necesita API key real)
+
+**Próximo paso:** Migrar a Vercel Blob Storage
+- Variable de entorno: `VERCEL_BLOB_TOKEN`
+- Capacidad: 10GB gratis/mes
+- Ventaja: CDN global integrado, sin costo adicional
+
+---
+
+*Documento actualizado - 21 julio 2026 (tarde)*
 *✅ Fases 1, 2, 3 y SEO COMPLETADAS - Proyecto en producción (freddydev.net)*
 *📝 Sesión SEO v2.0 registrada - 30/30 tests PASSED*
+*🔧 Sesión Fixes & Upload - Página en blanco corregida, upload pendiente de migrar a Vercel Blob*

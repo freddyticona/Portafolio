@@ -1,5 +1,9 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
+export const config = {
+  runtime: 'nodejs20.x',
+};
+
 export default async function handler(
   req: VercelRequest,
   res: VercelResponse
@@ -9,44 +13,62 @@ export default async function handler(
   }
 
   try {
-    const { imageBase64, filename } = req.body;
+    const { filename, contentType, content } = req.body;
 
-    if (!imageBase64) {
-      return res.status(400).json({ error: 'No image data provided' });
+    if (!filename || !contentType || !content) {
+      return res.status(400).json({
+        error: 'Missing required fields: filename, contentType, content'
+      });
     }
 
-    // Usar ImgBB (gratis, sin API key necesaria)
-    const formData = new FormData();
-    formData.append('key', process.env.IMGBB_API_KEY || '45e199c9e0e3e4e9e9e9e9e9e9e9e9e9');
+    // Validar tipo de imagen
+    const validTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
+    if (!validTypes.includes(contentType)) {
+      return res.status(400).json({
+        error: 'Invalid content type. Only JPEG, PNG, WebP, and GIF are allowed.'
+      });
+    }
 
-    // Extra solo el base64 sin el prefijo data:image/...;base64,
-    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '');
-    formData.append('image', base64Data);
-    formData.append('name', filename || 'image.jpg');
+    // Validar tamaño (máximo 5MB)
+    const maxSize = 5 * 1024 * 1024; // 5MB in bytes
+    const bufferSize = Buffer.from(content, 'base64').length;
+    if (bufferSize > maxSize) {
+      return res.status(400).json({
+        error: 'Image too large. Maximum size is 5MB.'
+      });
+    }
 
-    const response = await fetch('https://api.imgbb.com/1/upload', {
-      method: 'POST',
-      body: formData,
+    // VERCEL BLOB STORAGE
+    const blobUrl = `https://${process.env.VERCEL_BLOB_STORE_NAME || 'freddydev'}.public.blob.vercel-storage.com/${filename}`;
+
+    const response = await fetch(blobUrl, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': contentType,
+        'x-api-key': process.env.VERCEL_BLOB_READ_WRITE_KEY || '',
+      },
+      body: Buffer.from(content, 'base64'),
     });
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error('ImgBB error:', errorText);
-      throw new Error('Failed to upload to ImgBB');
+      console.error('Vercel Blob error:', errorText);
+      throw new Error('Failed to upload to Vercel Blob Storage');
     }
 
-    const data = await response.json();
+    // Devolver URL pública
+    const publicUrl = `https://freddydev.net/${filename}`;
 
     return res.status(200).json({
-      url: data.data.url,
-      display_url: data.data.display_url,
-      delete_url: data.data.delete_url,
-      size: data.data.size,
+      url: publicUrl,
+      filename: filename,
+      size: bufferSize,
+      contentType: contentType,
       readyToServe: true,
     });
 
   } catch (error) {
-    console.error('❌ Upload failed:', error);
+    console.error('❌ Vercel Blob upload failed:', error);
     return res.status(500).json({
       error: 'Upload failed',
       details: error instanceof Error ? error.message : 'Unknown error'
