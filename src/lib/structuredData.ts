@@ -98,13 +98,6 @@ const BUSINESS_DATA = {
     { '@type': 'AdministrativeArea', name: 'Departamento de La Paz' },
     { '@type': 'Country', name: 'Bolivia' }
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '5',
-    reviewCount: '1',
-    bestRating: '5',
-    worstRating: '1'
-  }
 };
 
 /**
