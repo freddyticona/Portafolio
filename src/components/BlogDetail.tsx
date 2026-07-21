@@ -3,7 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
+import { marked } from 'marked';
 import { BlogPost } from '../types';
 import {
   ArrowLeft,
@@ -52,17 +53,12 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
     setShowShareMenu(false);
   };
 
-  // Renderizamos HTML directamente usando la tipografía de Tailwind (prose)
-  const renderContent = (html: string) => {
-    return (
-      <div 
-        className="prose prose-invert prose-sm md:prose-base max-w-none prose-headings:font-display prose-headings:text-white prose-h3:text-xl md:prose-h3:text-2xl prose-h4:text-gold prose-p:text-stone-300 prose-strong:text-white prose-a:text-gold leading-relaxed"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    );
-  };
+  // Renderizamos Markdown usando la tipografía de Tailwind (prose)
+  const rawContent = lang === 'es' ? post.contentEs : post.contentEn;
 
-  const content = lang === 'es' ? post.contentEs : post.contentEn;
+  const htmlContent = useMemo(() => {
+    return marked.parse(rawContent, { breaks: true });
+  }, [rawContent]);
 
   return (
     <article className="max-w-4xl mx-auto space-y-8 md:space-y-12 animate-fadeIn text-left">
@@ -160,9 +156,10 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
       </header>
 
       {/* Article Content */}
-      <div className="mt-8">
-        {renderContent(content)}
-      </div>
+      <div 
+        className="prose prose-invert prose-sm md:prose-base max-w-none prose-headings:font-display prose-headings:text-white prose-h3:text-xl md:prose-h3:text-2xl prose-h4:text-gold prose-p:text-stone-300 prose-strong:text-white prose-a:text-gold prose-a:underline prose-a:underline-offset-2 prose-hr:border-white/10 prose-li:text-stone-300 leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: htmlContent }}
+      />
 
       {/* Video Embed (if available) */}
       {post.videoUrl && (
