@@ -37,18 +37,18 @@
 
 El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios, SEO optimizado y deploy automático en Vercel:
 
-**Último commit:** `c577263` - "feat: mejoras generales - proxy dev, sharp, vitest, CI/CD, limpieza firebase"
-**Deploy producción:** ✅ COMPLETADO (dpl_9fHSADuTszfZu197AVCDaFrFLt7t)
+**Último commit:** `1f5526f` - "feat: seguridad, sentry, playwright, dependabot, lighthouse ci"
+**Deploy producción:** ✅ COMPLETADO (dpl_GYVtjkY1skocExNxiQ8NQo2vExc8)
 **URL Producción:** https://freddydev.net ✓
 
-#### HISTORIAL DE COMMITS - SESIÓN 5 (21 julio 2026 - Mejoras generales):
+#### HISTORIAL DE COMMITS - SESIÓN 6 (21 julio 2026 - Seguridad + Monitoreo):
 
 | Hash | Hora | Descripción |
 |------|------|-------------|
-| `c577263` | 10:00 | **Mejoras: proxy dev, sharp, vitest, CI/CD, limpieza** |
+| `1f5526f` | 10:10 | **Seguridad, Sentry, Playwright, Dependabot, Lighthouse** |
+| `c577263` | 10:00 | Mejoras: proxy dev, sharp, vitest, CI/CD, limpieza |
 | `258691a` | 09:54 | Fix: usar @vercel/blob SDK |
 | `3a27d82` | 09:36 | fix: corregir runtime config en upload-image.ts |
-| `8ea2c95` | 09:00 | feat: implementar Vercel Blob Storage |
 
 #### HISTORIAL DE COMMITS - SESIÓN 3 (21 julio 2026 - SEO):
 
@@ -1408,6 +1408,85 @@ npm run test:watch # Ejecuta tests en modo watch
 
 ---
 
+## 📝 REGISTRO DETALLADO DE SESIÓN 6 (21 julio 2026 - mañana - Seguridad + Monitoreo)
+
+### ⏰ Timeline de Trabajo:
+
+**10:10 - Seguridad en endpoint upload**
+- **Path traversal protection:** Validación que rechaza `../`, rutas absolutas `/`, y extensiones peligrosas (`.exe`, `.dll`, `.bat`, etc.)
+- **Rate limiting:** Máx 10 uploads/minuto por IP usando `Map` en memoria (con reset window de 60s)
+- **Respuesta 429** si se excede el límite
+
+**10:20 - Dependabot para actualizaciones automáticas**
+- Creado `.github/dependabot.yml` con schedule semanal (lunes)
+- PR automáticos para updates minor/patch agrupados
+- Labels `dependencies` para identificar fácilmente
+
+**10:25 - Sentry para monitoreo de errores**
+- Instalados `@sentry/react`, `@sentry/node`, `@sentry/vite-plugin`
+- Frontend: `src/lib/sentry.ts` - init con browserTracing + replay
+- Backend: `api/upload-image.ts` - init Sentry Node para capturar errores en serverless
+- Vite: plugin Sentry para subir source maps (requiere `SENTRY_AUTH_TOKEN`)
+- Env vars: `VITE_SENTRY_DSN`, `SENTRY_AUTH_TOKEN`, `SENTRY_ORG`, `SENTRY_PROJECT`
+- Activado solo cuando `VITE_SENTRY_DSN` está configurado
+
+**10:35 - Playwright E2E tests**
+- Instalado `@playwright/test`
+- Creado `playwright.config.ts` con base URL: https://freddydev.net
+- Creado `e2e/upload.spec.ts` con 3 tests E2E:
+  - Rechaza content type inválido
+  - Rechaza payload sobredimensionado
+  - Rechaza path traversal
+
+**10:40 - Lighthouse CI**
+- Agregado job `lighthouse` en GitHub Actions que corre `@lhci/cli`
+- Evalúa performance, accesibilidad, best practices y SEO
+- `continue-on-error: true` para no bloquear deploys
+
+**10:45 - CI/CD mejorado**
+- GitHub Actions ahora tiene 3 jobs paralelos:
+  1. `quality`: `npm run lint` + `npm test` (10 tests)
+  2. `e2e`: Playwright tests con Chromium headless
+  3. `lighthouse`: Auditoría de performance
+
+**10:50 - Commit y Deploy**
+- Commit: `1f5526f` - "feat: seguridad, sentry, playwright, dependabot, lighthouse ci"
+- Deploy: `dpl_GYVtjkY1skocExNxiQ8NQo2vExc8`
+- Build exitoso, deploy a producción
+
+### Archivos modificados/creados:
+
+| Archivo | Cambio |
+|---------|--------|
+| `api/upload-image.ts` | Path traversal + rate limiting + Sentry init |
+| `src/lib/sentry.ts` | **NUEVO** - Inicialización de Sentry frontend |
+| `src/main.tsx` | Integrado `initSentry()` |
+| `src/vite-env.d.ts` | Agregado `VITE_SENTRY_DSN` |
+| `vite.config.ts` | Sentry plugin + source maps + vitest exclude e2e |
+| `playwright.config.ts` | **NUEVO** - Config de E2E tests |
+| `e2e/upload.spec.ts` | **NUEVO** - 3 tests E2E de upload |
+| `.github/dependabot.yml` | **NUEVO** - Dependabot semanal |
+| `.github/workflows/ci.yml` | Agregados jobs: e2e + lighthouse |
+| `api/__tests__/upload-image.test.ts` | Agregados 2 tests: path traversal + absolute path |
+| `package.json` | Agregados scripts `test:e2e`, `lighthouse` |
+| `.env.example` | Agregadas vars de Sentry |
+
+### Comandos nuevos:
+
+```bash
+npm test              # Tests unitarios (Vitest) - 10 tests
+npm run test:e2e      # Tests E2E (Playwright)
+npm run lighthouse    # Auditoría Lighthouse local
+```
+
+### Pendientes manuales (tú):
+1. **Google Search Console:** Verificar freddydev.net, enviar sitemap
+2. **Contenido real:** Escribir 2-3 artículos de blog con la plantilla SEO
+3. **Sentry:** Crear cuenta en https://sentry.io y configurar DSN en Vercel env vars
+4. **Más proyectos:** Agregar casos reales al portafolio desde el Admin Panel
+
+---
+
 *Documento actualizado - 21 julio 2026 (mañana)*
-*✅ Fases 1, 2, 3, SEO, Vercel Blob y Mejoras COMPLETADAS*
-*✅ 8 tests automatizados · CI/CD con GitHub Actions · Sharp optimization · Proxy dev*
+*✅ Fases 1, 2, 3, SEO, Vercel Blob, Mejoras y Seguridad COMPLETADAS*
+*✅ 10 tests unitarios · 3 tests E2E · CI/CD · Sentry · Dependabot · Lighthouse*
