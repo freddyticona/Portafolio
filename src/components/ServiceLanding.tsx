@@ -208,9 +208,9 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.05 }}
-                className={`bg-[#020202] border ${service.popular ? 'border-gold/50 ring-1 ring-gold/20' : 'border-white/10'} rounded-lg overflow-hidden hover:border-gold/30 transition-all duration-300 group relative`}
+                className={`bg-[#020202] border ${(service as any).popular ? 'border-gold/50 ring-1 ring-gold/20' : 'border-white/10'} rounded-lg overflow-hidden hover:border-gold/30 transition-all duration-300 group relative`}
               >
-                {service.popular && (
+                {(service as any).popular && (
                   <div className="absolute top-4 right-4 z-10">
                     <span className="px-3 py-1 bg-gold text-black text-xs font-bold uppercase rounded-sm">
                       {isEs ? 'Popular' : 'Popular'}

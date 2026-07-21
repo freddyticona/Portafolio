@@ -8,13 +8,15 @@ import React from 'react';
 /**
  * Botón con micro-interacciones mejoradas
  */
-interface MicroButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface MicroButtonProps extends Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'className'> {
   variant?: 'primary' | 'secondary' | 'ghost' | 'outline';
   size?: 'sm' | 'md' | 'lg';
   loading?: boolean;
   icon?: React.ReactNode;
   iconPosition?: 'left' | 'right';
   ripple?: boolean;
+  children?: React.ReactNode;
+  className?: string;
 }
 
 export function MicroButton({
@@ -42,7 +44,7 @@ export function MicroButton({
     const y = event.clientY - rect.top - size / 2;
 
     const rippleId = Math.random().toString(36).substring(7);
-    const ripple = (
+    const rippleElement = (
       <span
         key={rippleId}
         className="absolute rounded-full bg-white/30 animate-ripple"
@@ -55,7 +57,7 @@ export function MicroButton({
       />
     );
 
-    setRippleElements(prev => [...prev, ripple]);
+    setRippleElements(prev => [...prev, rippleElement]);
 
     setTimeout(() => {
       setRippleElements(prev => prev.filter(r => r.key !== rippleId));
@@ -122,10 +124,11 @@ export function MicroButton({
 /**
  * Input con micro-interacciones
  */
-interface MicroInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+interface MicroInputProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'className'> {
   label?: string;
   error?: string;
   icon?: React.ReactNode;
+  className?: string;
 }
 
 export function MicroInput({ label, error, icon, className = '', ...props }: MicroInputProps) {

@@ -249,7 +249,7 @@ export default function Chatbot({ lang, t }: ChatbotProps) {
 
     // Add user message
     const userMessage: ChatMessage = {
-      id: Date.now(),
+      id: Date.now().toString(),
       type: 'user',
       text: inputValue,
       timestamp: new Date()

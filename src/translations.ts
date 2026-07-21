@@ -564,7 +564,8 @@ This project proved that technical skill must serve narrative and human emotion.
     readTimeEn: '5 min read',
     imageUrl: '/images/freddy_profile.webp',
     categoryEs: 'Detrás de Cámaras',
-    categoryEn: 'Behind The Scenes'
+    categoryEn: 'Behind The Scenes',
+    enableComments: true
   },
   {
     id: '2',
@@ -632,7 +633,8 @@ We carry on, forever learning, modifying both our lens and technical skills to s
     readTimeEn: '6 min read',
     imageUrl: '/images/freddy_studio.webp',
     categoryEs: 'Reflexiones',
-    categoryEn: 'Reflections'
+    categoryEn: 'Reflections',
+    enableComments: true
   }
 ];
 

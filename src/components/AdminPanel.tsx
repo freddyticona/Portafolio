@@ -51,6 +51,33 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
   const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [activeTab, setActiveTab] = useState<'posts' | 'comments' | 'users' | 'cms' | 'analytics' | 'payments'>('posts');
+
+  // Payments state
+  interface Payment {
+    id: string;
+    clientName: string;
+    service: string;
+    amount: number;
+    currency: string;
+    method: 'qr' | 'card' | 'transfer' | 'cash';
+    status: 'pending' | 'completed' | 'cancelled' | 'refunded';
+    date: string;
+    transactionId?: string;
+  }
+  const [payments, setPayments] = useState<Payment[]>([]);
+  const [paymentStats, setPaymentStats] = useState<{
+    total: number;
+    completed: number;
+    pending: number;
+    completedAmount: number;
+    byMethod: { qr: number; card: number; transfer: number; cash: number };
+  }>({
+    total: 0,
+    completed: 0,
+    pending: 0,
+    completedAmount: 0,
+    byMethod: { qr: 0, card: 0, transfer: 0, cash: 0 }
+  });
   
   // Auth listener
   useEffect(() => {
@@ -60,6 +87,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
         loadPosts();
         loadComments();
         loadUsers();
+        loadPayments();
       }
     });
     return () => unsubscribe();
@@ -95,6 +123,88 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
     if (savedUsers) {
       setUsers(JSON.parse(savedUsers));
     }
+  };
+
+  const loadPayments = () => {
+    const savedPayments = localStorage.getItem('payments');
+    if (savedPayments) {
+      const loadedPayments: Payment[] = JSON.parse(savedPayments);
+      setPayments(loadedPayments);
+
+      // Calculate stats
+      const stats = {
+        total: loadedPayments.length,
+        completed: loadedPayments.filter(p => p.status === 'completed').length,
+        pending: loadedPayments.filter(p => p.status === 'pending').length,
+        completedAmount: loadedPayments
+          .filter(p => p.status === 'completed')
+          .reduce((sum, p) => sum + p.amount, 0),
+        byMethod: { qr: 0, card: 0, transfer: 0, cash: 0 }
+      };
+
+      loadedPayments.forEach(p => {
+        if (p.status === 'completed') {
+          stats.byMethod[p.method] += p.amount;
+        }
+      });
+
+      setPaymentStats(stats);
+    }
+  };
+
+  // Helper functions for payments
+  const formatMoney = (amount: number, currency: string = 'BOB') => {
+    return new Intl.NumberFormat(lang === 'es' ? 'es-BO' : 'en-US', {
+      style: 'currency',
+      currency: currency
+    }).format(amount);
+  };
+
+  const formatPaymentMethod = (method: string, l: 'es' | 'en') => {
+    const methods: Record<string, { es: string; en: string }> = {
+      qr: { es: 'QR', en: 'QR' },
+      card: { es: 'Tarjeta', en: 'Card' },
+      transfer: { es: 'Transferencia', en: 'Transfer' },
+      cash: { es: 'Efectivo', en: 'Cash' }
+    };
+    return methods[method]?.[l] || method;
+  };
+
+  const formatPaymentStatus = (status: string, l: 'es' | 'en') => {
+    const statuses: Record<string, { es: string; en: string }> = {
+      pending: { es: 'Pendiente', en: 'Pending' },
+      completed: { es: 'Completado', en: 'Completed' },
+      cancelled: { es: 'Cancelado', en: 'Cancelled' },
+      refunded: { es: 'Reembolsado', en: 'Refunded' }
+    };
+    return statuses[status]?.[l] || status;
+  };
+
+  const getPaymentStatusColor = (status: string) => {
+    const colors: Record<string, string> = {
+      pending: 'text-yellow-400',
+      completed: 'text-green-400',
+      cancelled: 'text-red-400',
+      refunded: 'text-orange-400'
+    };
+    return colors[status] || 'text-stone-400';
+  };
+
+  const downloadPaymentReceipt = (payment: Payment, l: 'es' | 'en' = 'es') => {
+    // In a real app, this would generate a PDF receipt
+    const receiptData = {
+      id: payment.id,
+      client: payment.clientName,
+      service: payment.service,
+      amount: payment.amount,
+      currency: payment.currency,
+      method: formatPaymentMethod(payment.method, l),
+      status: formatPaymentStatus(payment.status, l),
+      date: new Date(payment.date).toLocaleDateString()
+    };
+
+    console.log('Downloading receipt for:', receiptData);
+    alert(l === 'es' ? 'Recibo descargado' : 'Receipt downloaded');
   };
 
   // Login con Firebase
@@ -599,7 +709,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
                 {Object.entries(paymentStats.byMethod).map(([method, amount]) => (
                   <div key={method} className="text-center p-4 bg-white/[0.02] rounded-sm">
                     <p className="text-stone-400 text-xs uppercase mb-1">{formatPaymentMethod(method as any, lang)}</p>
-                    <p className="text-xl font-bold text-white">{formatMoney(amount, 'BOB')}</p>
+                    <p className="text-xl font-bold text-white">{formatMoney(amount as number, 'BOB')}</p>
                   </div>
                 ))}
               </div>
@@ -685,7 +795,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
                               </span>
                             </td>
                             <td className="px-6 py-4 text-sm text-stone-500">
-                              {new Date(payment.createdAt).toLocaleDateString()}
+                              {new Date(payment.date).toLocaleDateString()}
                             </td>
                             <td className="px-6 py-4">
                               <div className="flex items-center gap-2">
@@ -813,6 +923,16 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
       ...editedPost,
       images: editedPost.images?.filter((_, i) => i !== index)
     });
+  };
+
+  const handleAddImage = () => {
+    const imageUrl = prompt(lang === 'es' ? 'Ingrese la URL de la imagen:' : 'Enter image URL:');
+    if (imageUrl && imageUrl.trim()) {
+      setEditedPost({
+        ...editedPost,
+        images: [...(editedPost.images || []), imageUrl.trim()]
+      });
+    }
   };
 
   const extractYoutubeId = (url: string) => {

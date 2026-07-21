@@ -143,12 +143,12 @@ class Analytics {
     window.addEventListener('scroll', this.debounce(handleScroll, 100));
   }
 
-  private debounce(func: Function, wait: number): Function {
+  private debounce<T extends (...args: any[]) => any>(func: T, wait: number): T {
     let timeout: any;
-    return (...args: any[]) => {
+    return ((...args: any[]) => {
       clearTimeout(timeout);
       timeout = setTimeout(() => func.apply(this, args), wait);
-    };
+    }) as T;
   }
 
   track(

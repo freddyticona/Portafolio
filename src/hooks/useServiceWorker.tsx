@@ -82,6 +82,7 @@ export function useServiceWorker() {
   return {
     isOnline,
     showUpdatePrompt,
+    setShowUpdatePrompt,
     updateServiceWorker,
     clearCache
   };
@@ -91,7 +92,7 @@ export function useServiceWorker() {
  * Componente para mostrar prompt de actualización
  */
 export function UpdatePrompt() {
-  const { showUpdatePrompt, updateServiceWorker } = useServiceWorker();
+  const { showUpdatePrompt, setShowUpdatePrompt, updateServiceWorker } = useServiceWorker();
 
   if (!showUpdatePrompt) return null;
 

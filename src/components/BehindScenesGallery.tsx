@@ -140,7 +140,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Bolivia'
     },
     {
-      src: '/images/behind-scenes/Cannon VIXIA HF M313934.webp',
+      src: '/images/behind-scenes/Canon VIXIA HF M313934.webp',
       alt: 'Canon VIXIA',
       title: lang === 'es' ? 'Cámara Canon VIXIA HF M31' : 'Canon VIXIA HF M31 camera',
       category: 'equipment',
@@ -171,25 +171,10 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
 
   const categories = ['all', ...Object.keys(CATEGORIES)];
 
-  // Intersection Observer para animación de entrada
+  // Mostrar todas las fotos inmediatamente (sin animación problemática)
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setVisibleItems(prev => prev + 1);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (galleryRef.current) {
-      observer.observe(galleryRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
+    setVisibleItems(behindScenesImages.length);
+  }, [behindScenesImages.length]);
 
   return (
     <div ref={galleryRef} className="space-y-12">

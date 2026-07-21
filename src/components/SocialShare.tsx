@@ -12,7 +12,7 @@ import {
   Twitter,
   Linkedin,
   Mail,
-  WhatsApp
+  MessageCircle
 } from 'lucide-react';
 
 interface SocialShareProps {
@@ -83,7 +83,7 @@ export default function SocialShare({
     window.open(shareUrl, '_blank', 'width=600,height=400');
   };
 
-  const shareOnWhatsApp = () => {
+  const shareOnMessageCircle = () => {
     const text = `${title} - ${url}`;
     const shareUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
     window.open(shareUrl, '_blank');
@@ -122,9 +122,9 @@ export default function SocialShare({
       color: 'bg-[#0A66C2] hover:bg-[#004182] text-white'
     },
     {
-      icon: <WhatsApp className="w-5 h-5" />,
-      label: 'WhatsApp',
-      onClick: shareOnWhatsApp,
+      icon: <MessageCircle className="w-5 h-5" />,
+      label: 'MessageCircle',
+      onClick: shareOnMessageCircle,
       color: 'bg-[#25D366] hover:bg-[#128C7E] text-white'
     },
     {

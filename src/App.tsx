@@ -420,6 +420,19 @@ export default function App() {
                     </div>
                   </div>
                 </div>
+
+                {/* Mini galería de fotos reales trabajando */}
+                <div className="grid grid-cols-3 gap-2">
+                  <div className="aspect-square rounded-sm overflow-hidden border border-white/5 bg-[#020202] group">
+                    <img src="/images/behind-scenes/DSC_2987.webp" alt="Cobertura" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+                  </div>
+                  <div className="aspect-square rounded-sm overflow-hidden border border-white/5 bg-[#020202] group">
+                    <img src="/images/behind-scenes/DSC_2189.webp" alt="Set" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+                  </div>
+                  <div className="aspect-square rounded-sm overflow-hidden border border-white/5 bg-[#020202] group">
+                    <img src="/images/behind-scenes/DSC07483.webp" alt="Campo" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+                  </div>
+                </div>
               </div>
 
               {/* Storytelling Text (7 cols) */}

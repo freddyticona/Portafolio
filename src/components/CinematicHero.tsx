@@ -69,7 +69,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
   const content = heroContent[lang];
 
   // Efecto de partículas sutil
-  const Particle = ({ index }: { index: number }) => {
+  const Particle = React.memo(({ index }: { index: number }) => {
     const delay = index * 0.5;
     const x = Math.sin(time + delay) * 50;
     const y = Math.cos(time + delay * 0.5) * 30;
@@ -85,7 +85,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         }}
       />
     );
-  };
+  });
 
   return (
     <div
@@ -129,9 +129,9 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
 
         {/* Partículas flotantes */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {Array.from({ length: 20 }).map((_, i) => (
-            <Particle key={i} index={i} />
-          ))}
+          {Array.from({ length: 20 }).map((_, index) => {
+            return <Particle key={index} index={index} />;
+          })}
         </div>
       </div>
 

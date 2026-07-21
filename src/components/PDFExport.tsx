@@ -55,7 +55,7 @@ export default function PDFExport({
       if (!element) return;
 
       const opt = {
-        margin: [10, 10, 10, 10],
+        margin: [10, 10, 10, 10] as [number, number, number, number],
         filename: filename,
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: {
@@ -68,7 +68,7 @@ export default function PDFExport({
           format: 'a4',
           orientation: 'portrait'
         }
-      };
+      } as any;
 
       await html2pdf().set(opt).from(element).save();
     } catch (error) {
@@ -234,12 +234,12 @@ export function usePDFExport() {
       }
 
       const opt = {
-        margin: [10, 10, 10, 10],
+        margin: [10, 10, 10, 10] as [number, number, number, number],
         filename: filename,
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2, useCORS: true },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-      };
+      } as any;
 
       await html2pdf().set(opt).from(element).save();
       return true;

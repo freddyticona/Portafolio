@@ -188,5 +188,6 @@ export function ProfileImage({ src = '/images/freddy_profile.webp', alt = 'Fredd
           isLoaded ? 'opacity-100' : 'opacity-0'
         }`}
       />
-    </div  );
+    </div>
+  );
 }
