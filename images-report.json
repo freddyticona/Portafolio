@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-07-21T13:14:08.498Z",
+  "totalExpected": 10,
+  "found": [
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_profile.webp",
+      "size": "739.55 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_studio.webp",
+      "size": "538.51 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_working.webp",
+      "size": "688.96 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_ticona_studio_1784470304205.webp",
+      "size": "143.88 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\cinematic_la_paz_filming_1784468956760.webp",
+      "size": "166.50 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\editing_suite_bolivia_1784468988125.webp",
+      "size": "98.42 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\la_estrella_documentary_1784468976770.webp",
+      "size": "249.54 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\qr-mercantil.jpg",
+      "size": "141.34 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\qr-freddy-ticona.jpg",
+      "size": "1.91 KB"
+    },
+    {
+      "path": "/images/behind-scenes/",
+      "type": "directory",
+      "count": 54
+    }
+  ],
+  "missing": [],
+  "oversized": [
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_profile.webp",
+      "size": "739.55 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_studio.webp",
+      "size": "538.51 KB"
+    },
+    {
+      "path": "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_working.webp",
+      "size": "688.96 KB"
+    }
+  ],
+  "warnings": [
+    "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_profile.webp es muy grande (739.55 KB)",
+    "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_studio.webp es muy grande (538.51 KB)",
+    "C:\\Users\\Asus\\Downloads\\portafolio cv studio\\public\\images\\freddy_working.webp es muy grande (688.96 KB)"
+  ]
+}

@@ -1,4 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { put } from '@vercel/blob';
 
 export default async function handler(
   req: VercelRequest,
@@ -17,7 +18,6 @@ export default async function handler(
       });
     }
 
-    // Validar tipo de imagen
     const validTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
     if (!validTypes.includes(contentType)) {
       return res.status(400).json({
@@ -25,46 +25,30 @@ export default async function handler(
       });
     }
 
-    // Validar tamaño (máximo 5MB)
-    const maxSize = 5 * 1024 * 1024; // 5MB in bytes
-    const bufferSize = Buffer.from(content, 'base64').length;
-    if (bufferSize > maxSize) {
+    const maxSize = 5 * 1024 * 1024;
+    const buffer = Buffer.from(content, 'base64');
+    if (buffer.length > maxSize) {
       return res.status(400).json({
         error: 'Image too large. Maximum size is 5MB.'
       });
     }
 
-    // VERCEL BLOB STORAGE
-    const blobUrl = `https://${process.env.VERCEL_BLOB_STORE_NAME || 'freddydev'}.public.blob.vercel-storage.com/${filename}`;
-
-    const response = await fetch(blobUrl, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': contentType,
-        'x-api-key': process.env.VERCEL_BLOB_READ_WRITE_KEY || '',
-      },
-      body: Buffer.from(content, 'base64'),
+    const blob = await put(filename, buffer, {
+      access: 'public',
+      contentType,
+      addRandomSuffix: false,
     });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error('Vercel Blob error:', errorText);
-      throw new Error('Failed to upload to Vercel Blob Storage');
-    }
-
-    // Devolver URL pública
-    const publicUrl = `https://freddydev.net/${filename}`;
-
     return res.status(200).json({
-      url: publicUrl,
-      filename: filename,
-      size: bufferSize,
+      url: blob.url,
+      filename: blob.pathname,
+      size: buffer.length,
       contentType: contentType,
       readyToServe: true,
     });
 
   } catch (error) {
-    console.error('❌ Vercel Blob upload failed:', error);
+    console.error('Vercel Blob upload failed:', error);
     return res.status(500).json({
       error: 'Upload failed',
       details: error instanceof Error ? error.message : 'Unknown error'

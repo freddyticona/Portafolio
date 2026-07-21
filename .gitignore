@@ -9,3 +9,5 @@ coverage/
 
 .vercel
 CLAUDE_CONTEXT.md
+
+.env*

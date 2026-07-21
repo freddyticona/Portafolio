@@ -1,82 +1,68 @@
-# 🖼️ Configuración de Subida de Imágenes - Vercel Blob Storage
+# Configuración de Subida de Imágenes - Vercel Blob Storage
 
 **Fecha:** 21 julio 2026
 **Proyecto:** Portafolio Freddy Ticona
 
 ---
 
-## 📋 Resumen
+## Resumen
 
 Vercel Blob Storage permite almacenar hasta **10GB gratis** por mes con:
 - CDN global integrado
-- Sin costo adicional
+- SDK oficial (`@vercel/blob`)
 - Almacenamiento persistente
 
 ---
 
-## 🔧 Configuración en Vercel Dashboard
+## Configuración en Vercel Dashboard
 
 ### Paso 1: Ir a Vercel Dashboard
 1. Visita: https://vercel.com/dashboard
 2. Selecciona el proyecto: `freddy-ticona-portafolio`
 
-### Paso 2: Configurar Variables de Entorno
-1. Ve a **Settings** → **Environment Variables**
-2. Agrega las siguientes variables:
-
-| Variable | Valor | Entornos |
-|----------|-------|----------|
-| `VERCEL_BLOB_READ_WRITE_KEY` | (generada automáticamente) | Production, Preview, Development |
-
-**Nota:** La variable `VERCEL_BLOB_READ_WRITE_KEY` se genera automáticamente cuando se activa Vercel Blob Storage.
-
-### Paso 3: Activar Vercel Blob Storage (si no está activo)
-
-Si no ves la variable `VERCEL_BLOB_READ_WRITE_KEY`:
-
+### Paso 2: Activar Vercel Blob Storage
 1. Ve a **Storage** → **Create Database**
 2. Selecciona **Blob**
 3. Sigue las instrucciones
+4. Una vez creado, copia el `BLOB_READ_WRITE_TOKEN`
+
+### Paso 3: Configurar Variables de Entorno
+1. Ve a **Settings** → **Environment Variables**
+2. Agrega la variable:
+
+| Variable | Valor | Entornos |
+|----------|-------|----------|
+| `BLOB_READ_WRITE_TOKEN` | (el token copiado de Storage) | Production, Preview, Development |
 
 ---
 
-## 📝 Código Implementado
+## Código Implementado
 
 ### Endpoint API: `api/upload-image.ts`
-
-```typescript
-// Características:
+- Usa `@vercel/blob` SDK (`put()`)
 - Acepta imagen en base64
-- Valida tipo (JPEG, PNG, WebP, GIF)
-- Valida tamaño (máximo 5MB)
-- Sube a Vercel Blob Storage
-- Devuelve URL pública
-```
+- Valida tipo (JPEG, PNG, WebP, GIF) y tamaño (máximo 5MB)
+- Sube a Vercel Blob Storage y devuelve URL pública real
 
 ### Frontend: `AdminPanel.tsx`
-
-```typescript
-// Características:
 - Convierte archivo a base64 (FileReader)
-- Envía al endpoint /api/upload-image
+- Envía al endpoint `/api/upload-image`
 - Muestra progreso de subida
 - Actualiza URL de imagen en el post
-```
 
 ---
 
-## 🚀 Uso en Admin Panel
+## Uso en Admin Panel
 
 1. Ve a **https://freddydev.net/admin**
-2. Contraseña: `admin123`
-3. Crea o edita un post
-4. Haz clic en **"Choose File"** para seleccionar imagen
-5. La imagen se sube automáticamente a Vercel Blob Storage
-6. La URL se actualiza en el campo de imagen
+2. Crea o edita un post
+3. Haz clic en **"Choose File"** para seleccionar imagen
+4. La imagen se sube automáticamente a Vercel Blob Storage
+5. La URL se actualiza en el campo de imagen
 
 ---
 
-## ⚠️ Limitaciones
+## Limitaciones
 
 | Límite | Valor |
 |--------|-------|
@@ -86,14 +72,14 @@ Si no ves la variable `VERCEL_BLOB_READ_WRITE_KEY`:
 
 ---
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
-### Error: "Missing VERCEL_BLOB_READ_WRITE_KEY"
-**Solución:** Configura la variable en Vercel Dashboard
+### Error: "BLOB_READ_WRITE_TOKEN is missing"
+**Solución:** Configura `BLOB_READ_WRITE_TOKEN` en Vercel Dashboard → Settings → Environment Variables
 
 ### Error: "Failed to upload to Vercel Blob Storage"
 **Solución:**
-- Verifica que la variable esté configurada
+- Verifica que el token esté configurado
 - Verifica que el proyecto tenga Blob Storage activado
 - Re-deploy después de configurar las variables
 
@@ -102,23 +88,33 @@ Si no ves la variable `VERCEL_BLOB_READ_WRITE_KEY`:
 
 ---
 
-## 📊 Estado
+## Desarrollo Local
 
-| Componente | Estado |
-|------------|--------|
-| Endpoint API | ✅ Implementado |
-| Frontend Upload | ✅ Implementado |
-| Vercel Blob Storage | ⚠️ Requiere configuración manual |
-| Deploy | ⏳ Pendiente después de configurar variables |
+El endpoint `/api/upload-image` es una **función serverless de Vercel** y no funciona con `npm run dev` (Vite).
+
+Para probar localmente:
+- Usa `npx vercel dev` (inicia Vite + Serverless Functions)
+- O configura un proxy en `vite.config.ts` para desarrollo
 
 ---
 
-## 🔄 Próximos Pasos
+## Estado
 
-1. **Configurar variables en Vercel Dashboard** (manual)
-2. **Re-deploy** para aplicar cambios
-3. **Probar subida de imagen** en /admin
-4. **Verificar que la imagen se cargue** en el blog
+| Componente | Estado |
+|------------|--------|
+| Endpoint API | ✅ Usando `@vercel/blob` SDK |
+| Frontend Upload | ✅ Implementado |
+| Vercel Blob Storage | Activarlo en Vercel Dashboard |
+| Env var `BLOB_READ_WRITE_TOKEN` | Configurar en Vercel Dashboard |
+
+---
+
+## Próximos Pasos
+
+1. **Activar Vercel Blob** en Vercel Dashboard → Storage
+2. **Copiar `BLOB_READ_WRITE_TOKEN`** y configurarlo en Environment Variables
+3. **Hacer re-deploy** del proyecto
+4. **Probar subida de imagen** en /admin
 
 ---
 
