@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "npm run generate-icons && npm run generate-rss && vite build && npm run generate-pages",
+    "build": "npm run generate-icons && npm run generate-rss && npm run generate-sitemap && vite build && npm run generate-pages",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-pages": "node scripts/generate-pages.js",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
