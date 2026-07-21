@@ -1563,9 +1563,28 @@ Ahora: `https://freddydev.net/portafolio` (cada sección es una URL única)
 - `git commit 2990863` — `feat: pre-renderizado estático - 10 páginas con meta tags individuales para SEO`
 - `vercel --prod` → https://freddydev.net
 
-### Pasos que debes hacer tú:
-1. **Google Search Console** → URL Inspection → `https://freddydev.net/` → "Solicitar indexación" (repetir para `/portafolio`, `/sobre-mi`, `/noticias`, `/blog`, `/cv`, `/servicios`, `/contacto`)
-2. **Google My Business** — crea perfil "Freddy Ticona - Servicios Audiovisuales" en La Paz
+## 🏁 Sesión 2026-07-21 (madrugada) — URLs Individuales para Artículos
+
+### Implementado:
+- **Rutas `/blog/:slug` y `/noticias/:slug`** — cada artículo tiene su propia URL indexable por Google
+- **App.tsx** — popstate handler parsea slugs; `handleArticleClick()` navega con `pushState`
+- **NewsPortal.tsx** — refactorizado: elimina estado interno `activePostId`, usa prop `onArticleClick`
+- **generate-pages.js** — ahora genera 28 páginas: 10 secciones + 9 blog articles + 9 news articles
+- **Navegación** — clic en tarjeta → URL cambia a `/blog/:slug` o `/noticias/:slug`; botón Volver restaura URL
+
+### Ejemplos de URLs funcionales:
+- `https://freddydev.net/blog/detras-de-camaras-la-estrella`
+- `https://freddydev.net/noticias/congreso-aprueba-ley-audiovisual`
+- `https://freddydev.net/noticias/inundaciones-beni-cobertura`
+
+### Deploy:
+- `b2ddbc9` — URLs individuales + refactor NewsPortal
+- `469d9b2` — pre-render artículos (28 páginas total)
+- `vercel --prod` → https://freddydev.net
+
+### Pendiente:
+1. **GSC** → Solicitar indexación de las nuevas URLs: `/blog/detras-de-camaras-la-estrella`, `/noticias/congreso-aprueba-ley-audiovisual`, etc.
+2. **Google My Business** → ya lo hiciste ✅
 3. Esperar 1-2 semanas para ver resultados en rankings
 
 ### Fix posterior:
