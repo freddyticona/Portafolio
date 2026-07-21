@@ -93,6 +93,8 @@ export interface BlogPost {
   featured?: boolean; // Noticia destacada en portada
   views?: number; // Número de lecturas
   location?: string; // Ubicación de la noticia
+  source?: string; // Fuente de la noticia (medio)
+  sourceUrl?: string; // URL de la fuente original
 }
 
 export interface Testimonial {

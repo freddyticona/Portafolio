@@ -33,22 +33,35 @@
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión 5 - Mejoras)
+### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión 7 - Noticias reales + Reflexión)
 
-El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con contacto directo para servicios, SEO optimizado y deploy automático en Vercel:
+El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con noticias reales bolivianas citando fuente, SEO optimizado, 30 páginas pre-renderizadas y deploy automático en Vercel:
 
-**Último commit:** `1f5526f` - "feat: seguridad, sentry, playwright, dependabot, lighthouse ci"
-**Deploy producción:** ✅ COMPLETADO (dpl_GYVtjkY1skocExNxiQ8NQo2vExc8)
+**Último commit:** pendiente (sesión activa)
+**Deploy producción:** ✅ COMPLETADO (dpl_CkU7nfJakbLVWaqm4mmRWAhUpY2a)
 **URL Producción:** https://freddydev.net ✓
 
-#### HISTORIAL DE COMMITS - SESIÓN 6 (21 julio 2026 - Seguridad + Monitoreo):
+#### HISTORIAL DE COMMITS - SESIÓN 7 (21 julio 2026 - Noticias reales + Reflexión):
 
 | Hash | Hora | Descripción |
 |------|------|-------------|
-| `1f5526f` | 10:10 | **Seguridad, Sentry, Playwright, Dependabot, Lighthouse** |
-| `c577263` | 10:00 | Mejoras: proxy dev, sharp, vitest, CI/CD, limpieza |
-| `258691a` | 09:54 | Fix: usar @vercel/blob SDK |
-| `3a27d82` | 09:36 | fix: corregir runtime config en upload-image.ts |
+| `pendiente` | 18:00 | **Noticias reales bolivianas con fuente citada + artículo reflexión comparativa** |
+| `pendiente` | 17:30 | Fix: types.ts - agregar source/sourceUrl a BlogPost |
+| `pendiente` | 17:00 | **Reemplazar noticias ficticias con 7 noticias reales** (La Razón, Los Tiempos, Opinión) |
+
+#### ARCHIVOS MODIFICADOS (Sesión 7):
+- `src/types.ts` - Agregados `source?: string` y `sourceUrl?: string` a BlogPost
+- `src/translations.ts` - 7 noticias reemplazadas con contenido real + artículo reflexión (id:10)
+- `src/components/NewsCard.tsx` - Badge de fuente visible en 3 variantes
+- `src/components/BlogDetail.tsx` - Crédito de fuente en header del artículo
+- `scripts/generate-pages.js` - 10 artículos (30 páginas pre-renderizadas)
+- `scripts/generate-rss.js` - 10 artículos en RSS feed
+
+#### NOTICIAS REALES AGREGADAS:
+Premio Eduardo Abaroa 2026 (La Razón), Larga Noche de Museos (La Razón), RSF Bolivia puesto 91 (Los Tiempos), Cinemateca 217 años (Opinión), Fallece Tito de la Viña (Los Tiempos), Nolan La Odisea (Los Tiempos), FENAVID 2026 (Cobertura Propia)
+
+#### ARTÍCULO REFLEXIÓN: "Bolivia en el espejo del mundo"
+Compara: Noche de Museos La Paz vs Berlín/París/Viena, Cinemateca vs FIAF internacional, Libertad prensa Bolivia #91 vs ranking global, Premio Abaroa vs reconocimientos internacionales
 
 #### HISTORIAL DE COMMITS - SESIÓN 3 (21 julio 2026 - SEO):
 

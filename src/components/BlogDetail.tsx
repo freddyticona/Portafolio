@@ -126,6 +126,12 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
             <Clock className="w-3.5 h-3.5" />
             {lang === 'es' ? post.readTimeEs : post.readTimeEn}
           </span>
+          {post.source && (
+            <span className="flex items-center gap-1.5 text-gold/60">
+              <span className="w-1 h-1 rounded-full bg-gold/40" />
+              {lang === 'es' ? 'Fuente: ' : 'Source: '}{post.source}
+            </span>
+          )}
         </div>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display leading-tight">

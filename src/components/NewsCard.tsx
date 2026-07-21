@@ -35,6 +35,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           <div className="flex items-center gap-4 text-[10px] font-mono text-stone-400">
             <span className="flex items-center gap-1"><Calendar className="w-3 h-3" />{post.date}</span>
             <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{lang === 'es' ? post.readTimeEs : post.readTimeEn}</span>
+            {post.source && <span className="text-[9px] text-stone-500 bg-white/5 px-1.5 py-0.5 rounded-sm">{post.source}</span>}
           </div>
         </div>
       </article>
@@ -50,7 +51,10 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
         <div className="flex-1 min-w-0 space-y-1">
           <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-gold">{lang === 'es' ? post.categoryEs : post.categoryEn}</span>
           <h4 className="text-xs font-semibold text-white leading-tight line-clamp-2 group-hover:text-gold transition-colors">{lang === 'es' ? post.titleEs : post.titleEn}</h4>
-          <span className="text-[9px] font-mono text-stone-500">{post.date}</span>
+          <div className="flex items-center gap-2">
+            <span className="text-[9px] font-mono text-stone-500">{post.date}</span>
+            {post.source && <span className="text-[8px] text-stone-500 bg-white/5 px-1 py-0.5 rounded-sm">{post.source}</span>}
+          </div>
         </div>
       </article>
     );
@@ -70,6 +74,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
             <span className="flex items-center gap-1"><Calendar className="w-3 h-3" />{post.date}</span>
             <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{lang === 'es' ? post.readTimeEs : post.readTimeEn}</span>
+            {post.source && <span className="text-[8px] text-stone-500 bg-white/5 px-1.5 py-0.5 rounded-sm">{post.source}</span>}
           </div>
           <h3 className="text-sm font-bold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors">{lang === 'es' ? post.titleEs : post.titleEn}</h3>
           <p className="text-[11px] text-stone-400 line-clamp-2 font-light">{lang === 'es' ? post.excerptEs : post.excerptEn}</p>
