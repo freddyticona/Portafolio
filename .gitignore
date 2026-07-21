@@ -11,3 +11,6 @@ coverage/
 CLAUDE_CONTEXT.md
 
 .env*
+
+# Vitest
+.vitest/

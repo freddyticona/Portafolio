@@ -1,5 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { put } from '@vercel/blob';
+import sharp from 'sharp';
+
+const OPTIMIZABLE_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
 
 export default async function handler(
   req: VercelRequest,
@@ -18,7 +21,7 @@ export default async function handler(
       });
     }
 
-    const validTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
+    const validTypes = [...OPTIMIZABLE_TYPES, 'image/gif'];
     if (!validTypes.includes(contentType)) {
       return res.status(400).json({
         error: 'Invalid content type. Only JPEG, PNG, WebP, and GIF are allowed.'
@@ -26,11 +29,24 @@ export default async function handler(
     }
 
     const maxSize = 5 * 1024 * 1024;
-    const buffer = Buffer.from(content, 'base64');
+    let buffer = Buffer.from(content, 'base64');
     if (buffer.length > maxSize) {
       return res.status(400).json({
         error: 'Image too large. Maximum size is 5MB.'
       });
+    }
+
+    const originalSize = buffer.length;
+
+    if (OPTIMIZABLE_TYPES.includes(contentType)) {
+      try {
+        buffer = await sharp(buffer)
+          .resize(1920, 1920, { fit: 'inside', withoutEnlargement: true })
+          .jpeg({ quality: 85, mozjpeg: true })
+          .toBuffer();
+      } catch {
+        // Si sharp falla, usar el buffer original
+      }
     }
 
     const blob = await put(filename, buffer, {
@@ -43,6 +59,7 @@ export default async function handler(
       url: blob.url,
       filename: blob.pathname,
       size: buffer.length,
+      originalSize,
       contentType: contentType,
       readyToServe: true,
     });
