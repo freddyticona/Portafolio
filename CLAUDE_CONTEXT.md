@@ -1530,6 +1530,10 @@ Ahora: `https://freddydev.net/portafolio` (cada sección es una URL única)
 - `git commit 30edbf2` — `fix: hash routing → path routing + SEO fixes`
 - `vercel --prod` → https://freddydev.net
 
+### Fix posterior:
+- Eliminado `aggregateRating` del Schema (Google lo marcaba como inválido por tener `reviewCount: "1"`)
+- `git commit a58614f` → `vercel --prod`
+
 ### Pendiente (próxima sesión):
 1. **Enviar nuevo sitemap** a Google Search Console (ya está verify)
 2. **Configurar pre-rendering** en Vercel para que Google vea HTML completo de cada ruta (opción: middleware de pre-render o prerender.io)
