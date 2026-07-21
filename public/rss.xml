@@ -5,25 +5,25 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title><![CDATA[Portafolio Freddy Ticona Guzmán]]></title>
-    <link>https://freddy-ticona-portafolio.vercel.app/</link>
-    <atom:link href="https://freddy-ticona-portafolio.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://freddydev.net/</link>
+    <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Tue, 21 Jul 2026 14:55:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 15:10:32 GMT</lastBuildDate>
     <managingEditor>freddyticona62@gmail.com (Freddy Ticona Guzmán)</managingEditor>
     <webMaster>freddyticona62@gmail.com (Freddy Ticona Guzmán)</webMaster>
     <item>
       <title><![CDATA[Detrás de cámaras de "La Estrella": Cómo grabamos bajo cero en el Altiplano]]></title>
-      <link>https://freddy-ticona-portafolio.vercel.app/blog/detras-de-camaras-la-estrella</link>
-      <guid isPermaLink="true">https://freddy-ticona-portafolio.vercel.app/blog/detras-de-camaras-la-estrella</guid>
+      <link>https://freddydev.net/blog/detras-de-camaras-la-estrella</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/detras-de-camaras-la-estrella</guid>
       <description><![CDATA[Reflexiones y trucos técnicos sobre cómo proteger el equipamiento cinematográfico del frío extremo...]]></description>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
     </item>
     <item>
       <title><![CDATA[15 Años en la TV Boliviana: Mi viaje del formato análogo al flujo digital e IP]]></title>
-      <link>https://freddy-ticona-portafolio.vercel.app/blog/evolucion-televisiva-bolivia-analogo-digital</link>
-      <guid isPermaLink="true">https://freddy-ticona-portafolio.vercel.app/blog/evolucion-televisiva-bolivia-analogo-digital</guid>
+      <link>https://freddydev.net/blog/evolucion-televisiva-bolivia-analogo-digital</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/evolucion-televisiva-bolivia-analogo-digital</guid>
       <description><![CDATA[Una mirada reflexiva sobre la transformación de las salas de prensa en La Paz...]]></description>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
