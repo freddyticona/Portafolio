@@ -882,37 +882,57 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
     }
 
     setIsUploading(true);
-    
+
     try {
-      const formData = new FormData();
-      formData.append('file', file);
-      formData.append('folder', 'blog');
-      
-      const response = await fetch('/api/upload-image', {
-        method: 'POST',
-        body: formData,
-      });
+      // Convertir imagen a base64
+      const reader = new FileReader();
+      reader.onloadend = async () => {
+        const base64String = reader.result as string;
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to upload to Vercel Blob');
-      }
+        const response = await fetch('/api/upload-image', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            imageBase64: base64String,
+            filename: file.name,
+          }),
+        });
 
-      const data = await response.json();
-      handleChange('imageUrl', data.url);
-      
-      alert(lang === 'es' 
-        ? '✅ Imagen subida con éxito a Vercel Blob!'
-        : '✅ Image uploaded successfully to Vercel Blob!'
-      );
-      
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.error || 'Failed to upload image');
+        }
+
+        const data = await response.json();
+        handleChange('imageUrl', data.url);
+
+        alert(lang === 'es'
+          ? '✅ Imagen subida con éxito!'
+          : '✅ Image uploaded successfully!'
+        );
+
+        setIsUploading(false);
+        e.target.value = '';
+      };
+
+      reader.onerror = () => {
+        alert(lang === 'es'
+          ? 'Error al leer la imagen'
+          : 'Failed to read image'
+        );
+        setIsUploading(false);
+      };
+
+      reader.readAsDataURL(file);
+
     } catch (error) {
-      console.error('❌ Vercel Blob upload failed:', error);
-      alert(lang === 'es' 
-        ? `Error al subir imagen: ${error.message}`
-        : `Upload failed: ${error.message}`
+      console.error('❌ Upload failed:', error);
+      alert(lang === 'es'
+        ? `Error al subir imagen: ${error instanceof Error ? error.message : 'Unknown error'}`
+        : `Upload failed: ${error instanceof Error ? error.message : 'Unknown error'}`
       );
-    } finally {
       setIsUploading(false);
       e.target.value = '';
     }
