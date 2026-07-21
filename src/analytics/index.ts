@@ -102,7 +102,7 @@ class Analytics {
     }
 
     // Track page view inicial
-    this.track('pageview', window.location.hash.replace('#', '') || 'inicio');
+    this.track('pageview', window.location.pathname.replace('/', '') || 'inicio');
 
     // Track scroll depth
     this.setupScrollTracking();
@@ -160,7 +160,7 @@ class Analytics {
 
     const event: AnalyticsEvent = {
       type,
-      page: page || window.location.hash.replace('#', '') || 'inicio',
+      page: page || window.location.pathname.replace('/', '') || 'inicio',
       timestamp: Date.now(),
       sessionId: this.sessionId,
       ...metadata

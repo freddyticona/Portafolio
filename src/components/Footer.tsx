@@ -18,7 +18,8 @@ export default function Footer({ setActivePage, lang, t }: FooterProps) {
   const handleNavClick = (pageId: PageId) => {
     setActivePage(pageId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    window.location.hash = pageId;
+    const path = pageId === 'inicio' ? '/' : '/' + pageId;
+    window.history.pushState(null, '', path);
   };
 
   const scrollToTop = () => {
@@ -191,7 +192,7 @@ export default function Footer({ setActivePage, lang, t }: FooterProps) {
           <button
             onClick={() => {
               setActivePage('admin');
-              window.location.hash = 'admin';
+              window.history.pushState(null, '', '/admin');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className="text-stone-700 hover:text-stone-500 text-[10px] font-mono transition-colors cursor-pointer"

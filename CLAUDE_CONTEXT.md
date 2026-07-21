@@ -1487,6 +1487,32 @@ npm run lighthouse    # Auditoría Lighthouse local
 
 ---
 
-*Documento actualizado - 21 julio 2026 (mañana)*
-*✅ Fases 1, 2, 3, SEO, Vercel Blob, Mejoras y Seguridad COMPLETADAS*
+## 📰 Sesión 2026-07-21 (tarde) - Portal de Noticias
+
+### Implementado:
+- **`src/components/NewsPortal.tsx`** — Portal completo de noticias:
+  - Hero breaking (full-width con gradiente, badge rojo "ÚLTIMA HORA" animado)
+  - Tabs de categorías (País, Santa Cruz, Mundo, Economía, Deportes, Cultura, Tecnología)
+  - Grid 3 columnas de noticias con imagen, categoría, fecha, extracto
+  - Sidebar con tendencias (top 5 más leídas)
+  - Vista individual de artículo usando `BlogDetail`
+- **`src/components/NewsCard.tsx`** — 3 variantes: `hero` (breaking), `default` (grid), `compact` (sidebar)
+- **`src/types.ts`** — `PageId` agregó `'noticias'`; `BlogPost` agregó `breaking`, `featured`, `views`, `location`
+- **`src/translations.ts`** — 7 noticias de ejemplo con datos realistas bolivianos + traducciones ES/EN
+- **`src/components/Navbar.tsx`** — Item "Noticias"/"News" en navegación
+- **`src/App.tsx`** — Ruta `noticias`, preview en homepage con breaking/featured
+
+### Deploy:
+- `git commit 78e3f3a` — `feat: portal de noticias...`
+- `vercel --prod` → https://freddydev.net
+
+### Próximos pasos sugeridos:
+1. Agregar más noticias reales desde Admin Panel (cuando se editen, usar `breaking: true` para destacar)
+2. Conectar a fuente RSS externa si se desea sindicación
+3. Agregar filtro por fecha o búsqueda dentro del portal
+
+---
+
+*Documento actualizado - 21 julio 2026 (tarde)*
+*✅ Fases 1, 2, 3, SEO, Vercel Blob, Mejoras, Seguridad, Portal de Noticias COMPLETADAS*
 *✅ 10 tests unitarios · 3 tests E2E · CI/CD · Sentry · Dependabot · Lighthouse*

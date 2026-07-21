@@ -39,7 +39,7 @@ export const initGA = () => {
     (window as any).gtag('js', new Date());
     (window as any).gtag('config', GA_MEASUREMENT_ID, {
       page_location: window.location.href,
-      page_path: window.location.hash || '/',
+      page_path: window.location.pathname || '/',
       page_title: document.title
     });
 

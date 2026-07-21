@@ -111,28 +111,23 @@ export default function App() {
     fetchPosts();
   }, []);
 
-  // Sync state with URL hash on mount and hashchange
+  // Sync state with URL pathname on mount and popstate
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash.replace('#', '') as PageId;
+    const handlePopState = () => {
+      const path = window.location.pathname.replace('/', '') || 'inicio';
       const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias', 'blog', 'contacto', 'reservas', 'servicios', 'admin'];
-      if (validPages.includes(hash)) {
-        setActivePage(hash);
-        // Clear sub-views on page change
+      if (validPages.includes(path as PageId)) {
+        setActivePage(path as PageId);
         setActiveCaseStudyId(null);
         setActiveBlogPostId(null);
       }
     };
 
     // Run on mount
-    if (window.location.hash) {
-      handleHashChange();
-    } else {
-      window.location.hash = 'inicio';
-    }
+    handlePopState();
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
   // Actualizar meta tags cuando cambia la página o el idioma
@@ -149,7 +144,8 @@ export default function App() {
 
   const handleNavToTab = (pageId: PageId) => {
     setActivePage(pageId);
-    window.location.hash = pageId;
+    const path = pageId === 'inicio' ? '/' : '/' + pageId;
+    window.history.pushState(null, '', path);
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveCaseStudyId(null);
     setActiveBlogPostId(null);
@@ -357,7 +353,7 @@ export default function App() {
                     onClick={() => {
                       setActivePage('blog');
                       setActiveBlogPostId(post.id);
-                      window.location.hash = 'blog';
+                      window.history.pushState(null, '', '/blog');
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}
                   />
@@ -393,7 +389,7 @@ export default function App() {
                   {blogPosts.filter(p => p.breaking || p.featured).slice(0, 4).map((post) => (
                     <div
                       key={post.id}
-                      onClick={() => { setActivePage('noticias'); window.location.hash = 'noticias'; }}
+                      onClick={() => { setActivePage('noticias'); window.history.pushState(null, '', '/noticias'); }}
                       className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300"
                     >
                       <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
@@ -962,7 +958,7 @@ export default function App() {
       {/* Global Components */}
       <WhatsAppButton phoneNumber={CONTACT_INFO.phoneNumber} lang={lang} />
       <GlobalSearch lang={lang} onNavigate={handleNavToTab} />
-      <Chatbot lang={lang} t={t} />
+      <Chatbot lang={lang} t={t} onNavigate={handleNavToTab} />
 
     </div>
   );

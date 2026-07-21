@@ -31,7 +31,7 @@ const blogPosts = [
 const siteConfig = {
   title: 'Portafolio Freddy Ticona Guzmán',
   description: 'Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales',
-  url: 'https://freddy-ticona-portafolio.vercel.app',
+  url: 'https://freddydev.net',
   language: 'es',
   author: {
     name: 'Freddy Ticona Guzmán',
