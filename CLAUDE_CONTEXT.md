@@ -1089,6 +1089,100 @@ Convierte JPG/PNG a WebP con calidad 85%, reduciendo tamaño ~60-80%.
 
 ---
 
+## 📝 RESUMEN COMPLETO - SESIÓN SEO v2.0 (21 julio 2026)
+
+### 🎯 Objetivo de la Sesión
+Optimizar el portafolio para posicionamiento en buscadores locales (La Paz, Bolivia) y palabras clave de la industria audiovisual, actualizando todos los archivos SEO al dominio freddydev.net.
+
+### 📊 Trabajos Realizados
+
+#### Fase 1: Actualización de Dominio
+- `src/lib/seo.ts` - SITE_CONFIG.baseURL actualizado a freddydev.net
+- `public/sitemap.xml` - Todas las URLs actualizadas
+- `public/robots.txt` - Sitemap URL actualizado
+- `index.html` - Canonical, OG, structured data actualizados
+
+#### Fase 2: Mejoras de Sitemap y Robots
+- Agregadas páginas faltantes: servicios, reservas
+- Image namespace agregado para image sitemap
+- Directivas específicas por crawler (Googlebot, Bingbot, Social)
+- Crawl-delay optimizado
+
+#### Fase 3: Meta Tags Adicionales
+- Geo meta tags (BO-LP, La Paz, coordenadas)
+- Open Graph mejorado (image width/height, alt)
+- Meta tags de SEO general (rating, distribution, revisit-after)
+- Robots tag mejorado (max-image-preview, max-snippet, max-video-preview)
+
+#### Fase 4: Structured Data Dinámico
+- Creado `src/lib/structuredData.ts` - JSON-LD generator
+- Schemas implementados: Person, LocalBusiness, Article, VideoObject, BreadcrumbList, Service
+- Integrado con `updateMetaTags()` en App.tsx
+- Inyección automática en `<head>` por cada página
+
+#### Fase 5: Optimización de Contenido
+- Títulos optimizados con palabras clave locales
+- Meta descriptions mejoradas para cada página
+- Keywords agregadas: "camarógrafo La Paz", "filmación 4K", "Bolivia", "La Paz"
+
+#### Fase 6: Videos Schema.org
+- Showreel principal (6CL4rVpVOYU) - VideoObject completo
+- Urkupiña documentary (UmimDWaK61I)
+- Elecciones coverage (INagReojtOM)
+
+#### Fase 7: Documentación y Herramientas
+- Creado `SEO_GUIDE.md` - Guía completa de SEO
+- Creado `BLOG_SEO_TEMPLATE.md` - Plantilla de artículos
+- Creado `scripts/verify-seo.cjs` - Script de verificación
+
+### ✅ Resultados de Verificación
+```
+✓ Pasados: 30/30
+⚠ Advertencias: 0
+✗ Errores: 0
+🎉 SEO verification PASSED!
+```
+
+### 🚀 Deploy y Git
+- Commit `8d94b17` - "feat: SEO v2.0 completo"
+- Push a GitHub completado
+- Deploy a Vercel production: `dpl_Ft6ZWRZL2aVWdmtTXUpmUTF9i1G7`
+- URL Producción: https://freddydev.net ✓
+
+### 📁 Archivos Creados/Modificados
+| Archivo | Estado | Cambio |
+|---------|--------|--------|
+| src/lib/seo.ts | Modificado | Títulos optimizados |
+| src/lib/structuredData.ts | NUEVO | JSON-LD dinámico |
+| src/App.tsx | Modificado | Integración structured data |
+| public/sitemap.xml | Modificado | URLs + páginas nuevas |
+| public/robots.txt | Modificado | Optimizado |
+| index.html | Modificado | Meta tags adicionales |
+| CLAUDE_CONTEXT.md | Modificado | Documentación |
+| SEO_GUIDE.md | NUEVO | Guía de SEO |
+| BLOG_SEO_TEMPLATE.md | NUEVO | Plantilla blog |
+| scripts/verify-seo.cjs | NUEVO | Verificación |
+
+### 📈 Métricas de Build
+- Build time: 7.63s
+- Bundle size: 1.37 MB (gzipped: 365.55 KB)
+- CSS size: 89.16 KB (gzipped: 13.94 KB)
+- HTML size: 12.29 KB (gzipped: 2.92 KB)
+
+### 🔗 Commits de la Sesión
+1. `8d94b17` - "feat: SEO v2.0 completo - Dominio freddydev.net optimizado"
+2. `8fc7fce` - "docs: actualizar CLAUDE_CONTEXT con registro de deploy SEO v2.0"
+
+### 📝 Notas Importantes
+- El proyecto está ahora completamente optimizado para SEO local
+- Todos los meta tags y structured data están funcionando
+- El sitio está listo para Google Search Console verification
+- Las guías de SEO y plantilla de blog están disponibles para contenido futuro
+
+---
+
+---
+
 ## 🔑 ACCESO ADMIN
 
 **URL:** `/admin` en el sitio
@@ -1121,4 +1215,5 @@ Cuando el usuario diga "continuemos con este proyecto":
 ---
 
 *Documento actualizado - 21 julio 2026*
-*✅ Fases 1, 2, 3 y SEO COMPLETADAS - Proyecto listo para producción*
+*✅ Fases 1, 2, 3 y SEO COMPLETADAS - Proyecto en producción (freddydev.net)*
+*📝 Sesión SEO v2.0 registrada - 30/30 tests PASSED*
