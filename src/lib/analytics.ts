@@ -11,7 +11,7 @@
  * 2. Ve a https://analytics.google.com para obtener tu ID
  */
 
-export const GA_MEASUREMENT_ID = 'G-401629974'; // Freddy Ticona Portafolio GA4
+export const GA_MEASUREMENT_ID = 'G-XRW2HZHB69'; // Freddy Ticona Portafolio GA4
 
 /**
  * Inicializar Google Analytics 4
