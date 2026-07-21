@@ -36,6 +36,7 @@ import GlobalSearch from './components/GlobalSearch';
 import WhatsAppButton from './components/WhatsAppButton';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
 import LocationsMap from './components/LocationsMap';
+import BehindScenesGallery from './components/BehindScenesGallery';
 import BookingSystem from './components/BookingSystem';
 import Chatbot from './components/Chatbot';
 import CommentSystem from './components/CommentSystem';
@@ -509,6 +510,11 @@ export default function App() {
               </div>
 
               <Timeline events={timelineEvents} lang={lang} t={t} />
+            </section>
+
+            {/* 3.5. BEHIND THE SCENES GALLERY */}
+            <section className="space-y-12">
+              <BehindScenesGallery lang={lang} t={t} />
             </section>
 
             {/* 4. TESTIMONIALS & RECOMMENDATIONS */}

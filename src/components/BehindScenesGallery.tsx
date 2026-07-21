@@ -33,10 +33,10 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const galleryRef = useRef<HTMLDivElement>(null);
 
-  // Imágenes reales de coberturas de Freddy Ticona (usando imágenes optimizadas)
+  // Imágenes reales de coberturas de Freddy Ticona (usando imágenes optimizadas WebP)
   const behindScenesImages: BehindScenesImage[] = [
     {
-      src: '/images/behind-scenes/DSC_2994.jpg',
+      src: '/images/behind-scenes/DSC_2994.webp',
       alt: 'Cobertura en terreno',
       title: lang === 'es' ? 'Cobertura periodística en La Paz' : 'Journalistic coverage in La Paz',
       category: 'set',
@@ -44,7 +44,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'La Paz, Bolivia'
     },
     {
-      src: '/images/behind-scenes/28082012255.jpg',
+      src: '/images/behind-scenes/28082012255.webp',
       alt: 'Trabajo en campo',
       title: lang === 'es' ? 'Grabación en exteriores' : 'Outdoor filming',
       category: 'location',
@@ -52,7 +52,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Locación'
     },
     {
-      src: '/images/behind-scenes/24072012043.jpg',
+      src: '/images/behind-scenes/24072012043.webp',
       alt: 'Producción técnica',
       title: lang === 'es' ? 'Equipo de producción técnica' : 'Technical production team',
       category: 'team',
@@ -60,7 +60,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Set'
     },
     {
-      src: '/images/behind-scenes/DSC_0044.jpg',
+      src: '/images/behind-scenes/DSC_0044.webp',
       alt: 'Cámara profesional',
       title: lang === 'es' ? 'Equipo profesional' : 'Professional equipment',
       category: 'equipment',
@@ -68,7 +68,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Estudio'
     },
     {
-      src: '/images/behind-scenes/08092012536.jpg',
+      src: '/images/behind-scenes/08092012536.webp',
       alt: 'Cobertura especial',
       title: lang === 'es' ? 'Cobertura de evento especial' : 'Special event coverage',
       category: 'set',
@@ -76,12 +76,92 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Evento'
     },
     {
-      src: '/images/behind-scenes/1428941048045(1).jpg',
+      src: '/images/behind-scenes/1428941048045(1).webp',
       alt: 'Preproducción',
       title: lang === 'es' ? 'Preparativos de grabación' : 'Filming preparations',
       category: 'equipment',
       year: '2016',
       location: 'Set'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2991.webp',
+      alt: 'Cobertura política',
+      title: lang === 'es' ? 'Cobertura de eventos políticos' : 'Political event coverage',
+      category: 'set',
+      year: '2020',
+      location: 'La Paz, Bolivia'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2990.webp',
+      alt: 'Unidad móvil',
+      title: lang === 'es' ? 'Operación unidad móvil SNG' : 'SNG mobile unit operation',
+      category: 'equipment',
+      year: '2020',
+      location: 'Exteriores'
+    },
+    {
+      src: '/images/behind-scenes/DSC07483.webp',
+      alt: 'Cobertura social',
+      title: lang === 'es' ? 'Cobertura social comunitaria' : 'Community social coverage',
+      category: 'location',
+      year: '2019',
+      location: 'Bolivia'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2187.webp',
+      alt: 'Documental',
+      title: lang === 'es' ? 'Producción documental' : 'Documentary production',
+      category: 'set',
+      year: '2019',
+      location: 'Bolivia'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2455.webp',
+      alt: 'Post-producción',
+      title: lang === 'es' ? 'Edición y post-producción' : 'Editing and post-production',
+      category: 'team',
+      year: '2021',
+      location: 'Estudio'
+    },
+    {
+      src: '/images/behind-scenes/DSC07353.webp',
+      alt: 'Set de filmación',
+      title: lang === 'es' ? 'Set de filmación profesional' : 'Professional filming set',
+      category: 'set',
+      year: '2019',
+      location: 'La Paz'
+    },
+    {
+      src: '/images/behind-scenes/IMG_20181115_103516.webp',
+      alt: 'Equipo de cámara',
+      title: lang === 'es' ? 'Cámara en acción' : 'Camera in action',
+      category: 'team',
+      year: '2018',
+      location: 'Bolivia'
+    },
+    {
+      src: '/images/behind-scenes/Cannon VIXIA HF M313934.webp',
+      alt: 'Canon VIXIA',
+      title: lang === 'es' ? 'Cámara Canon VIXIA HF M31' : 'Canon VIXIA HF M31 camera',
+      category: 'equipment',
+      year: '2019',
+      location: 'Estudio'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2201.webp',
+      alt: 'Cobertura institucional',
+      title: lang === 'es' ? 'Cobertura institucional' : 'Institutional coverage',
+      category: 'location',
+      year: '2020',
+      location: 'La Paz'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2060.webp',
+      alt: 'Cobertura cultural',
+      title: lang === 'es' ? 'Documental cultural' : 'Cultural documentary',
+      category: 'set',
+      year: '2019',
+      location: 'Bolivia'
     }
   ];
 
@@ -142,19 +222,19 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
           </p>
 
           <div className="flex items-center gap-6 mt-6 pt-6 border-t border-white/5">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-gold font-display">6</div>
-              <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
-                {lang === 'es' ? 'Fotos destacadas' : 'Featured photos'}
+              <div className="text-center">
+                <div className="text-2xl font-bold text-gold font-display">16</div>
+                <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
+                  {lang === 'es' ? 'Fotos destacadas' : 'Featured photos'}
+                </div>
               </div>
-            </div>
-            <div className="w-px h-8 bg-white/10" />
-            <div className="text-center">
-              <div className="text-2xl font-bold text-gold font-display">2019-2021</div>
-              <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
-                {lang === 'es' ? 'Periodo' : 'Period'}
+              <div className="w-px h-8 bg-white/10" />
+              <div className="text-center">
+                <div className="text-2xl font-bold text-gold font-display">2016-2021</div>
+                <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
+                  {lang === 'es' ? 'Periodo' : 'Period'}
+                </div>
               </div>
-            </div>
             <div className="w-px h-8 bg-white/10" />
             <div className="text-center">
               <div className="text-2xl font-bold text-gold font-display">Bolivia</div>
