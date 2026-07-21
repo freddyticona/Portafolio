@@ -61,6 +61,19 @@ const pages = {
   }
 };
 
+// Artículos del blog y noticias (mismos que en translations.ts)
+const articles = [
+  { slug: 'detras-de-camaras-la-estrella', title: 'Detrás de cámaras de "La Estrella": Cómo grabamos bajo cero en el Altiplano', desc: 'Reflexiones y trucos técnicos sobre cómo proteger el equipamiento cinematográfico del frío extremo en el Altiplano boliviano.' },
+  { slug: 'evolucion-televisiva-bolivia-analogo-digital', title: '15 Años en la TV Boliviana: Mi viaje del formato análogo al flujo digital e IP', desc: 'Una mirada reflexiva sobre la transformación de las salas de prensa en La Paz, de Betacam a transmisión IP 4G/5G.' },
+  { slug: 'congreso-aprueba-ley-audiovisual', title: 'Congreso aprueba nueva Ley Audiovisual: impacto en productores independientes', desc: 'La Cámara de Diputados sancionó la normativa que regula la producción audiovisual independiente en Bolivia.' },
+  { slug: 'inundaciones-beni-cobertura', title: 'Cobertura en vivo: inundaciones en el Beni afectan a más de 10,000 familias', desc: 'Reporte especial desde Trinidad sobre las consecuencias de las lluvias torrenciales en el Beni.' },
+  { slug: 'festival-cine-santa-cruz-2026', title: 'Festival de Cine de Santa Cruz 2026: lo mejor del audiovisual boliviano en cartelera', desc: 'La décima edición del FENAVID trajo 48 producciones nacionales y una delegación internacional récord.' },
+  { slug: 'economia-creativa-bolivia-2026', title: 'La economía creativa en Bolivia: cifras y oportunidades para realizadores', desc: 'El sector audiovisual boliviano movió más de $us 120 millones en 2025. Análisis de los nichos de mayor crecimiento.' },
+  { slug: 'tecnologia-8k-bolivia', title: 'Producción en 8K llega a Bolivia: primeros estudios y equipos disponibles', desc: 'Tres estudios de post-producción en La Paz y Santa Cruz ya ofrecen servicios de edición y etalonaje en 8K.' },
+  { slug: 'bolivia-clasifica-mundial-futsal', title: 'Bolivia clasifica al Mundial de Futsal: la cobertura deportiva desde adentro', desc: 'Crónica de la transmisión televisiva y los desafíos técnicos de cubrir un evento histórico deportivo.' },
+  { slug: 'onu-reconoce-documental-boliviano', title: 'Documental boliviano sobre el Salar de Uyuni recibe reconocimiento de la ONU', desc: 'El cortometraje "Espejo de Sal" fue seleccionado en el festival de cine ambiental de Naciones Unidas.' },
+];
+
 const distDir = path.join(__dirname, '..', 'dist');
 
 if (!fs.existsSync(distDir)) {
@@ -134,4 +147,31 @@ for (const [key, meta] of Object.entries(pages)) {
   }
 }
 
-console.log(`\n🎉 ${Object.keys(pages).length} páginas pre-renderizadas en dist/`);
+// Generate individual article pages
+for (const article of articles) {
+  // Blog article
+  const blogDir = path.join(distDir, 'blog', article.slug);
+  fs.mkdirSync(blogDir, { recursive: true });
+  let html = indexHtml;
+  html = html.replace(/<title>.*?<\/title>/, `<title>${article.title} | Freddy Ticona</title>`);
+  html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${article.desc}"`);
+  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${article.title}"`);
+  html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${article.desc}"`);
+  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/blog/${article.slug}"`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${article.title}"`);
+  html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${article.desc}"`);
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/blog/${article.slug}"`);
+  fs.writeFileSync(path.join(blogDir, 'index.html'), html, 'utf-8');
+  console.log(`✅ /blog/${article.slug}`);
+
+  // News article (same content, different URL path)
+  const newsDir = path.join(distDir, 'noticias', article.slug);
+  fs.mkdirSync(newsDir, { recursive: true });
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/noticias/${article.slug}"`);
+  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/noticias/${article.slug}"`);
+  fs.writeFileSync(path.join(newsDir, 'index.html'), html, 'utf-8');
+  console.log(`✅ /noticias/${article.slug}`);
+}
+
+const total = Object.keys(pages).length + articles.length * 2;
+console.log(`\n🎉 ${total} páginas pre-renderizadas en dist/`);
