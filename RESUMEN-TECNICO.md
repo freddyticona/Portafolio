@@ -85,4 +85,23 @@ Showreel actualizado al video `MK4au-qQcsw` en YouTube (mismo contenido que `VID
 - `public/videos/` — eliminado del repo (video local no necesario)
 
 ### Commit
-`pendiente` — feat: actualizar showreel a nuevo video YouTube (MK4au-qQcsw)
+`de5e8db` — feat: actualizar showreel a nuevo video YouTube (MK4au-qQcsw)
+
+---
+
+## Sesión: Service Worker reparado (julio 2026)
+
+### Problema
+Pantalla negra al navegar entre páginas. Error en consola: `ServiceWorker script evaluation failed` por `const IMAGE_CACHE` declarado 2 veces en `sw.js`. Además, chunks JS del build anterior daban 404 porque el SW los servía de caché con Cache First.
+
+### Solución
+1. **Duplicate const eliminado** — línea 30 `const IMAGE_CACHE = 'freddy-ticona-images-v1'` eliminada (ya declarado en línea 12)
+2. **JS/CSS: Cache First → Network First** — evita que el SW sirva chunks obsoletos tras un deploy
+3. **offline.html creado** — fallback offline para cuando no hay conexión
+
+### Archivos modificados
+- `public/sw.js` — fix duplicate const + Network First para assets
+- `public/offline.html` — nuevo (fallback offline)
+
+### Commit
+`5a27f20` — fix: reparar Service Worker (duplicado IMAGE_CACHE + Network First para assets)
