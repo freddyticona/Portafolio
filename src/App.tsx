@@ -17,7 +17,7 @@ import {
 } from './translations';
 // Firebase importado dinámicamente para reducir bundle inicial (552KB)
 
-import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
+import { CONTACT_INFO } from './config';
 import { updateMetaTags } from './lib/seo';
 
 import Navbar from './components/Navbar';
@@ -96,6 +96,7 @@ export default function App() {
   // Showreel mockup video playing state
   const [reelPlaying, setReelPlaying] = useState<boolean>(false);
   const [reelMuted, setReelMuted] = useState<boolean>(true);
+  const reelRef = useRef<HTMLVideoElement>(null);
 
   // Blog posts state (from localStorage or defaults)
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>(defaultBlogPosts);
@@ -294,16 +295,21 @@ export default function App() {
                   <div className="aspect-video w-full rounded-sm overflow-hidden bg-[#020202] border border-white/5 shadow-2xl relative group">
                     {reelPlaying ? (
                       <div className="w-full h-full relative">
-                        <iframe
-                          src={`https://www.youtube.com/embed/${YOUTUBE_VIDEOS.showreel}?autoplay=1&mute=${reelMuted ? '1' : '0'}`}
-                          title="Freddy Ticona Showreel"
-                          className="w-full h-full"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          allowFullScreen
+                        <video
+                          ref={reelRef}
+                          src="/videos/showreel.mp4"
+                          className="w-full h-full object-cover"
+                          autoPlay
+                          playsInline
+                          loop
+                          muted={reelMuted}
+                          controls
                         />
-                        {/* Audio toggler floating overlay */}
                         <button
-                          onClick={() => setReelMuted(!reelMuted)}
+                          onClick={() => {
+                            setReelMuted(!reelMuted);
+                            if (reelRef.current) reelRef.current.muted = !reelMuted;
+                          }}
                           className="absolute bottom-4 right-4 z-20 p-2 rounded-sm bg-[#050505]/90 border border-white/10 text-gold hover:text-white transition-colors cursor-pointer"
                         >
                           {reelMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
