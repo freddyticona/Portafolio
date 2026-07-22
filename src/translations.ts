@@ -317,7 +317,7 @@ export const portfolioItems: PortfolioItem[] = [
     clientEn: 'Abya Yala Television',
     descriptionEs: 'Cobertura de un evento de derechos humanos y diversidad organizado por "La Poderosa" en Brasil. Reportaje sobre la lucha por los derechos sociales y la diversidad en comunidades vulnerables.',
     descriptionEn: 'Coverage of a human rights and diversity event organized by "La Poderosa" in Brazil. Report on the fight for social rights and diversity in vulnerable communities.',
-    imageUrl: '/images/portfolio/brasil-la-poderosa/IMG_20100101_113340.webp',
+    imageUrl: '/images/portfolio/brasil-la-poderosa/IMG_20100101_121356.webp',
     images: [
       '/images/portfolio/brasil-la-poderosa/IMG_20100101_113340.webp',
       '/images/portfolio/brasil-la-poderosa/IMG_20100101_121356.webp',
@@ -360,36 +360,6 @@ export const portfolioItems: PortfolioItem[] = [
     caseStudyId: 'la-estrella-case',
     techDetailsEs: ['Cámara Sony FS7', 'Lentes Sigma Cine Prime', 'Iluminación de arte y taller', 'Edición en Adobe Premiere Pro'],
     techDetailsEn: ['Sony FS7 Camera', 'Sigma Cine Prime Lenses', 'Art and workshop lighting', 'Edited on Adobe Premiere Pro']
-  },
-  {
-    id: 'carnaval-oruro',
-    title: 'Carnaval de Oruro: 4 Años de Cobertura Especial',
-    titleEn: 'Oruro Carnival: 4 Years of Special Coverage',
-    category: 'cultural',
-    categoryLabelEs: 'Cobertura Cultural',
-    categoryLabelEn: 'Cultural Coverage',
-    roleEs: 'Enviado Especial - Camarógrafo y Reportero',
-    roleEn: 'Special Envoy - Cameraman and Reporter',
-    year: '2014-2017',
-    clientEs: 'Gigavisión / RTP',
-    clientEn: 'Gigavisión / RTP',
-    descriptionEs: 'Durante 4 años consecutivos fui enviado especial de Gigavisión para documentar la Entrada de Carnaval de Oruro y el Festival de Bandas. Realicé reportajes y grabaciones de la peregrinación, las fraternidades, la música y la devoción a la Virgen del Socavón. En RTP continué cubriendo el mismo evento con transmisión en vivo.',
-    descriptionEn: 'For 4 consecutive years I was a special envoy for Gigavisión to document the Oruro Carnival Entrance and the Band Festival. I produced reports and recordings of the pilgrimage, fraternities, music, and devotion to the Virgen del Socavón. At RTP I continued covering the same event with live broadcast.',
-    imageUrl: '/images/portfolio/carnaval-oruro/freddy_working.webp',
-    images: [
-      '/images/portfolio/carnaval-oruro/freddy_working.webp',
-      '/images/portfolio/carnaval-oruro/DSC_1971.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2060.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2187.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2189.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2194.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2201.webp',
-      '/images/portfolio/carnaval-oruro/20190228_190246.webp',
-      '/images/portfolio/carnaval-oruro/20190302_133138.webp',
-      '/images/portfolio/carnaval-oruro/20190302_203628.webp'
-    ],
-    techDetailsEs: ['Cámara ENG Panasonic PX270', 'Micrófonos de Ambiente y Entrevistas', 'Sistema de Transmisión LiveU', 'Equipo de grabación para exteriores'],
-    techDetailsEn: ['Panasonic PX270 ENG Camera', 'Ambient and Interview Microphones', 'LiveU Transmission System', 'Field recording equipment']
   },
   {
     id: 'gran-poder',
