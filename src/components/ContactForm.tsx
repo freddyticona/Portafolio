@@ -14,11 +14,13 @@ interface ContactFormProps {
 
 export default function ContactForm({ lang, t }: ContactFormProps) {
   const [formState, setFormState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [errorMsg, setErrorMsg] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
-    subject: CONTACT_FORM.subject
+    subject: CONTACT_FORM.subject,
+    botcheck: ''
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -30,7 +32,10 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setErrorMsg('');
+
     if (!formData.name || !formData.email || !formData.message) {
+      setErrorMsg(lang === 'es' ? 'Por favor completa todos los campos del formulario.' : 'Please fill in all form fields.');
       setFormState('error');
       return;
     }
@@ -38,9 +43,6 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
     setFormState('sending');
 
     try {
-      // Web3Forms: Servicio gratuito para enviar formularios a tu email
-      // TODO: Regístrate gratis en https://web3forms.com/ y crea un formulario nuevo
-      // Luego actualiza la access_key en src/config.ts
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
@@ -53,24 +55,22 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
           email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          from_name: CONTACT_FORM.fromName
+          from_name: CONTACT_FORM.fromName,
+          botcheck: formData.botcheck
         })
       });
 
       const result = await response.json();
-      if (response.status === 200 || result.success) {
+      if (result.success) {
         setFormState('success');
-        setFormData({ name: '', email: '', message: '', subject: 'Contacto Portafolio Profesional' });
+        setFormData({ name: '', email: '', message: '', subject: 'Contacto Portafolio Profesional', botcheck: '' });
       } else {
-        // Fallback or handle API error
-        setFormState('success'); // Soft success for demonstration/offline preview so the user isn't stuck
+        setErrorMsg(result.message || (lang === 'es' ? 'Error al enviar. Intenta de nuevo.' : 'Failed to send. Please try again.'));
+        setFormState('error');
       }
-    } catch (error) {
-      console.error('Submission error:', error);
-      // Fallback: simulate success to let the user see how it responds beautifully
-      setTimeout(() => {
-        setFormState('success');
-      }, 1000);
+    } catch {
+      setErrorMsg(lang === 'es' ? 'Error de conexión. Verifica tu internet e intenta de nuevo.' : 'Connection error. Check your internet and try again.');
+      setFormState('error');
     }
   };
 
@@ -107,10 +107,13 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
             </div>
           ) : (
             <form onSubmit={handleSubmit} id="contact-form" className="space-y-4.5 text-left">
+              {/* Honeypot field for anti-spam */}
+              <input type="text" name="botcheck" value={formData.botcheck} onChange={handleChange} className="absolute -left-[9999px]" tabIndex={-1} autoComplete="off" />
+
               {formState === 'error' && (
                 <div className="bg-rose-500/10 border border-rose-500/20 text-rose-400 p-4 rounded-sm flex items-center gap-2 text-xs font-mono">
                   <AlertCircle className="w-4 h-4 shrink-0" />
-                  <span>{lang === 'es' ? 'Por favor completa todos los campos del formulario.' : 'Please fill in all form fields.'}</span>
+                  <span>{errorMsg}</span>
                 </div>
               )}
 

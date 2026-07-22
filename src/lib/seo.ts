@@ -28,7 +28,7 @@ const SITE_CONFIG = {
   name: 'Freddy Ticona Guzmán',
   url: 'https://freddydev.net',
   locale: 'es_BO',
-  ogImageDefault: 'https://freddydev.net/images/freddy_profile.webp',
+  ogImageDefault: 'https://freddydev.net/og-image.jpg',
 };
 
 /**
