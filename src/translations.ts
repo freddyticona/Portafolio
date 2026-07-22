@@ -908,6 +908,230 @@ We carry on, forever learning, modifying both our lens and technical skills to s
     sourceUrl: 'https://www.lostiempos.com/doble-click/musica/20260717/pianista-daniel-alvarez-gana-premio-sur-musica-nueva'
   },
   {
+    id: '14',
+    slug: 'bolivia-lab-18-edicion-industria-cine',
+    titleEs: 'Bolivia Lab 2026: Dos filmes son la previa del encuentro de la industria del cine iberoamericano',
+    titleEn: 'Bolivia Lab 2026: Two films preview the Ibero-American film industry gathering',
+    excerptEs: 'La décimo octava edición de Bolivia Lab se desarrollará en La Paz, Cochabamba, Santa Cruz y Sucre con actividades de formación, laboratorios y exhibiciones para profesionales del audiovisual.',
+    excerptEn: 'The 18th edition of Bolivia Lab will take place in La Paz, Cochabamba, Santa Cruz and Sucre with training activities, labs, and exhibitions for audiovisual professionals.',
+    contentEs: `### Dos filmes son la previa del Bolivia Lab 2026
+
+Como antesala a la **décimo octava edición de Bolivia Lab**, el Centro de la Cultura Plurinacional (CCP) en Santa Cruz de la Sierra tendrá dos funciones de cine, el 29 y 30 de julio, con la proyección de producciones iberoamericanas que forman parte de la muestra oficial del evento.
+
+La **productora general de Bolivia Lab, Cecilia Salazar**, adelantó a **EL DEBER** que las películas que serán proyectadas son: **"Hijos de la Tierra"**, una coproducción entre Venezuela y Bolivia dirigida por Jacobo Penzo; y **"Un Nuevo Amanecer"**, un documental colombiano de Priscila Padilla.
+
+La primera aterriza en la Venezuela de los años 20 y narra el éxodo campesino hacia el estado Zulia, cuando se creía que estaba empezando a salir "oro negro" de la tierra. En tanto que el documental, a través de testimonios íntimos, muestra cómo un grupo de mujeres transitaron la guerra en sus propios cuerpos y aborda temas como la maternidad.
+
+#### Bolivia Lab: Actividades en Cuatro Ciudades
+
+Bolivia Lab se desarrollará entre el **17 de agosto y el 9 de septiembre** en las ciudades de **La Paz, Cochabamba, Santa Cruz y Sucre**, con actividades de formación, laboratorios, exhibiciones y encuentros para profesionales del audiovisual en los cuatro departamentos.
+
+"Bolivia Lab es una plataforma de formación que fortalece el encuentro y el desarrollo de la industria del cine de Iberoamérica con espacios que nos brindan ese acompañamiento especializado", indicó Salazar.
+
+Algunos espacios destacados son el **"Laboratorio de Desarrollo"**, el **"Taller Internacional de Guión"** y el **"FinalizaLab"**, destinado a películas en etapa de postproducción, distribución y exhibición. Otro evento importante es el **Festival Internacional de Cortos Bolivia Lab** que se desarrollará en Sucre del 17 al 19 de septiembre.
+
+En Santa Cruz, Bolivia Lab se realizará del 24 al 28 de agosto con una muestra internacional de cine. En la capital cruceña, la proyección de filmes incluirá una función especial en Cine Center, donde se estrenará la película ganadora del incentivo **"10.000 dólares en servicios de Dolby Atmos"**, galardón otorgado en 2024 durante el FinalizaLab.
+
+Todas las proyecciones serán gratuitas en la capital cruceña. "Todos están cordialmente invitados a ver cine independiente, de calidad y de esfuerzo", concluyó Salazar.
+
+[Fuente: El Deber](https://eldeber.com.bo/cultura-y-entretenimiento/dos-filmes-previa-bolivia-lab_1784421642)`,
+    contentEn: `### Two Films Preview Bolivia Lab 2026
+
+As a prelude to the **18th edition of Bolivia Lab**, the Centro de la Cultura Plurinacional (CCP) in Santa Cruz will hold two film screenings on July 29 and 30, featuring Ibero-American productions that are part of the event's official selection.
+
+**Bolivia Lab General Producer Cecilia Salazar** told **EL DEBER** that the films to be screened are: **"Hijos de la Tierra"** (Children of the Earth), a Venezuela-Bolivia co-production directed by Jacobo Penzo; and **"Un Nuevo Amanecer"** (A New Dawn), a Colombian documentary by Priscila Padilla.
+
+#### Bolivia Lab: Activities in Four Cities
+
+Bolivia Lab will take place between **August 17 and September 9** in **La Paz, Cochabamba, Santa Cruz, and Sucre**, with training activities, labs, exhibitions, and meetings for audiovisual professionals.
+
+Key spaces include the **Development Laboratory**, the **International Screenwriting Workshop**, and **FinalizaLab**, aimed at films in post-production, distribution, and exhibition stages. Another important event is the **Bolivia Lab International Short Film Festival** in Sucre from September 17 to 19.
+
+All screenings will be free in Santa Cruz. Source: El Deber.`,
+    date: '2026-07-19',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://static2.eldeber.com.bo/img/estructura/header/logo.png',
+    imageCaption: 'Bolivia Lab 2026 - Encuentro de la industria del cine iberoamericano. Foto: El Deber',
+    categoryEs: 'Cultura y Entretenimiento',
+    categoryEn: 'Culture & Entertainment',
+    enableComments: true,
+    featured: true,
+    views: 345,
+    source: 'El Deber',
+    sourceUrl: 'https://eldeber.com.bo/cultura-y-entretenimiento/dos-filmes-previa-bolivia-lab_1784421642'
+  },
+  {
+    id: '15',
+    slug: 'cortometraje-yatichana-galardones-internacionales',
+    titleEs: 'Cortometraje boliviano "Yatichana" conquista dos galardones internacionales',
+    titleEn: 'Bolivian short film "Yatichana" wins two international awards',
+    excerptEs: 'El documental del cineasta cochabambino Mauricio Panozo alcanzó el primer lugar en My Hero International Film Festival y fue reconocido en los Telly Awards por su impacto social.',
+    excerptEn: 'The documentary by Cochabamba filmmaker Mauricio Panozo reached first place at My Hero International Film Festival and was recognized at the Telly Awards for its social impact.',
+    contentEs: `### Cortometraje boliviano "Yatichana" conquista dos galardones internacionales
+
+El cortometraje documental boliviano **"Yatichana"** (enseñar), del director **Mauricio Panozo Montero**, conquistó dos galardones en el contexto internacional, posicionando al cine boliviano en el mapa global.
+
+#### Primer Lugar en My Hero International Film Festival
+
+El filme del cineasta cochabambino alcanzó el **primer lugar en la categoría Mejor Documental** en el **My Hero International Film Festival 2025**, evento que destaca historias globales que inspiran a través del heroísmo cotidiano.
+
+#### Reconocimiento en los Telly Awards
+
+La segunda conquista fue en los **47th Annual Telly Awards**, Categoría Online Series-Social Impact, en el marco del **Solutions Storytelling Project Latinoamérica**. Este galardón reconoce el valor de la narrativa audiovisual para visibilizar soluciones reales frente a desafíos sociales.
+
+#### Detrás del Documental
+
+"Yatichana" refleja la historia de una **mujer de origen indígena que viste con traje típico del altiplano**, es profesora de computación en **Huaricana, La Paz**. Ella lucha por equilibrar su pasión por la enseñanza, sorteando largas distancias desde su casa hasta su trabajo, usando su creatividad para vencer obstáculos como el acceso a la tecnología, además de enfrentar las responsabilidades de ser madre y compensar las dificultades de un divorcio.
+
+Panozo dijo que el cortometraje nace de su experiencia de trabajo con comunidades y de su compromiso por visibilizar historias que suelen permanecer fuera de los relatos dominantes. "A través de una propuesta visual y sonora cercana, la obra acompaña a sus protagonistas desde la dignidad, la resistencia y la esperanza", comentó el director.
+
+"Yatichana" se plantea como una herramienta de encuentro y reflexión, capaz de abrir conversaciones sobre **educación, identidad, inclusión y transformación social** desde la empatía y el reconocimiento de las voces locales.
+
+[Fuente: Los Tiempos](https://www.lostiempos.com/doble-click/cine/20260703/cortometraje-boliviano-yatichana-conquista-dos-galardones)`,
+    contentEn: `### Bolivian short film "Yatichana" wins two international awards
+
+The Bolivian documentary short film **"Yatichana"** (to teach), directed by **Mauricio Panozo Montero**, won two international awards, placing Bolivian cinema on the global map.
+
+#### First Place at My Hero International Film Festival
+
+The film by the Cochabamba filmmaker reached **first place in the Best Documentary category** at the **My Hero International Film Festival 2025**, an event highlighting global stories that inspire through everyday heroism.
+
+#### Recognition at the Telly Awards
+
+The second achievement was at the **47th Annual Telly Awards**, Online Series-Social Impact category, within the **Solutions Storytelling Project Latin America**. This award recognizes the value of audiovisual narrative in making real solutions to social challenges visible.
+
+#### Behind the Documentary
+
+"Yatichana" reflects the story of an **indigenous woman dressed in traditional highland attire**, who works as a computer teacher in **Huaricana, La Paz**. She struggles to balance her passion for teaching, traveling long distances from home to work, using her creativity to overcome obstacles like limited technology access, while facing the responsibilities of being a mother.
+
+Panozo said the short film stems from his experience working with communities and his commitment to making visible stories that often remain outside dominant narratives. Source: Los Tiempos.`,
+    date: '2026-07-03',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://www.lostiempos.com/sites/default/files/media_imagen/2026/7/3/12_dc_cartelera_1.jpg',
+    imageCaption: 'Afiche promocional del cortometraje "Yatichana". Foto: Cortesía / Los Tiempos',
+    categoryEs: 'Cine',
+    categoryEn: 'Film',
+    enableComments: true,
+    featured: true,
+    views: 234,
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/doble-click/cine/20260703/cortometraje-boliviano-yatichana-conquista-dos-galardones'
+  },
+  {
+    id: '16',
+    slug: 'detras-epica-aventura-nolan-la-odisea',
+    titleEs: 'Detrás de la épica aventura de Christopher Nolan para llevar "La Odisea" al cine',
+    titleEn: 'Behind Christopher Nolan\'s epic adventure bringing "The Odyssey" to the big screen',
+    excerptEs: 'Nolan viajó a seis países, usó barcos reales en mares reales y rodó íntegramente en película IMAX para su adaptación del poema homérico, la más ambiciosa de su carrera.',
+    excerptEn: 'Nolan traveled to six countries, used real ships on real seas, and shot entirely in IMAX film for his adaptation of Homer\'s poem, the most ambitious of his career.',
+    contentEs: `### Detrás de la épica aventura de Christopher Nolan para llevar "La Odisea" al cine
+
+**Christopher Nolan** nunca ha tenido miedo de soñar en grande. Es casi una vocación. Con cada película, se ha exigido a sí mismo y al medio, explorando la forma, la narrativa, los aspectos visuales y las expectativas del público para crear espectáculos cinematográficos duraderos.
+
+Todas las películas de Nolan son épicas a su manera. Pero para **"La Odisea"**, sabía que debía hacer algo acorde con el poema homérico y su lugar fundamental en la cultura occidental. El objetivo era lograr una película accesible y realista, lo que implicó viajar a **locaciones remotas, usar barcos reales en mares reales** y llevar al público a la cueva del cíclope, al interior del caballo de Troya y a la desolada extensión del Hades.
+
+#### Una Producción Titánica
+
+El viaje requirió una profunda investigación en la mitología griega, estudios de la Edad de Bronce y numerosas traducciones, una expedición de exploración de varios meses y un rodaje de **91 días que se extendió por seis meses y seis países**, durante el cual el elenco y el equipo enfrentaron todo tipo de climas, paisajes y los peligros del mar abierto.
+
+Matt Damon, quien interpreta a Ulises, contó que Nolan se lo advirtió antes de empezar: "Me dijo que iba a ser difícil, y al principio no le di importancia. Pensé: 'Sí, sí, va a ser difícil'. Pero él insistió: 'No, no, esto va a ser realmente difícil'". A diferencia del largo viaje de Ulises de regreso a casa, la producción fue eficiente: terminaron nueve días antes de lo previsto.
+
+#### Primer Largometraje Rodado Íntegramente en IMAX
+
+"La Odisea" es el **primer largometraje de la historia rodado íntegramente en película IMAX**. Su estreno mundial está previsto para el **17 de julio**. "Todos conocemos el título, sabemos lo que significa, sabemos lo que promete y espero que el público que vea la película sienta que hemos cumplido esa promesa, porque esa es la gracia de 'La Odisea'. Es la historia de aventuras por excelencia", dijo Nolan.
+
+[Fuente: Los Tiempos](https://www.lostiempos.com/doble-click/cine/20260714/detras-epica-aventura-christopher-nolan-llevar-odisea-al-cine)`,
+    contentEn: `### Behind Christopher Nolan's epic adventure bringing "The Odyssey" to the big screen
+
+**Christopher Nolan** has never been afraid to dream big. It is almost a calling. With each film, he has pushed himself and the medium, exploring form, narrative, visual aspects, and audience expectations to create lasting cinematic spectacles.
+
+All of Nolan's films are epic in their own way. But for **"The Odyssey"**, he knew he had to do something worthy of Homer's poem and its foundational place in Western culture. The goal was to achieve an accessible and realistic film, which meant traveling to **remote locations, using real ships on real seas**, and taking audiences to the Cyclops' cave, inside the Trojan horse, and the desolate expanse of Hades.
+
+#### A Titanic Production
+
+The journey required deep research into Greek mythology, Bronze Age studies, and numerous translations, a months-long reconnaissance expedition, and **91 days of shooting spanning six months and six countries**. Matt Damon, who plays Odysseus, said Nolan warned him before starting: "He told me it was going to be difficult, and at first I didn't think much of it. But he insisted: 'No, this is going to be really difficult.'"
+
+#### First Feature Film Shot Entirely in IMAX
+
+"The Odyssey" is the **first feature film in history shot entirely in IMAX**. Its worldwide release is scheduled for **July 17**. Source: Los Tiempos.`,
+    date: '2026-07-14',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://www.lostiempos.com/sites/default/files/media_imagen/2026/7/14/11_dc_1_11zon.jpg',
+    imageCaption: 'Christopher Nolan en el set de "La Odisea". Foto: Universal Pictures / Los Tiempos',
+    categoryEs: 'Cine',
+    categoryEn: 'Film',
+    enableComments: true,
+    featured: true,
+    views: 567,
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/doble-click/cine/20260714/detras-epica-aventura-christopher-nolan-llevar-odisea-al-cine'
+  },
+  {
+    id: '17',
+    slug: 'incentivo-produccion-audiovisual-cultural-2026',
+    titleEs: 'Abren convocatoria para incentivar la producción audiovisual y cultural en Bolivia',
+    titleEn: 'Call opens to incentivize audiovisual and cultural production in Bolivia',
+    excerptEs: 'El Viceministerio de Culturas lanzó seis líneas de incentivo económico para trabajadores de las culturas, incluyendo una específica para creación y producción audiovisual y contenidos digitales.',
+    excerptEn: 'The Vice Ministry of Cultures launched six lines of economic incentives for cultural workers, including one specifically for audiovisual creation, production, and digital content.',
+    contentEs: `### Abren convocatoria para incentivar la producción audiovisual y cultural en Bolivia
+
+El **Viceministerio de Culturas y Folklore** presentó las **Líneas de Incentivo para Actividades Culturales**, una convocatoria enmarcada en su **Plan de Acción de Emergencia** financiado con recursos del IDH, para mitigar el impacto de la crisis actual en el sector cultural.
+
+El Viceministro de Culturas y Folklore, **Andrés Zaratti**, explicó que el sector cultural enfrenta profundos conflictos sociales que han puesto en evidencia la invisibilización de sus trabajadores, así como deficiencias estructurales en sus condiciones laborales. "Vimos pertinente lanzar un Plan de Acción de Emergencia que busque atenuar la situación crítica coyuntural, pero también generar acciones para reactivar el sector", afirmó.
+
+#### Seis Líneas de Incentivo
+
+El plan contempla **seis áreas de acción estratégica**:
+
+1. **Impulso a Iniciativas Artísticas y Producción Cultural**: Apoyo a la creación y difusión del arte.
+2. **Fortalecimiento de Culturas Vivas Comunitarias**: Respaldo a expresiones culturales de base social.
+3. **Fortalecimiento de Espacios Culturales Autogestionados**: Sustento para centros independientes y archivos.
+4. **Fomento a la Formación, Investigación y Gestión Cultural**: Desarrollo de capacidades.
+5. **Incentivo a la Creación y Producción Audiovisual y de Contenidos Digitales**: Estímulo a formatos modernos y multimedia.
+6. **Fortalecimiento de Festivales y Encuentros Culturales**: Sostén para eventos de gran alcance.
+
+La **línea 5** es de particular interés para profesionales del audiovisual, ya que está específicamente diseñada para estimular la **creación y producción de contenido audiovisual y digital**, abriendo oportunidades para realizadores, camarógrafos y productores bolivianos.
+
+#### Cómo Postular
+
+Los interesados podrán postular hasta a **dos líneas de incentivo**. La convocatoria está abierta a nivel nacional para creadores, gestores, investigadores, colectivos y comunidades. Los resultados se publicarán el **24 de julio**, con ejecución de proyectos del **3 de agosto al 19 de noviembre**.
+
+[Fuente: Red Uno](https://www.reduno.com.bo/noticias/abren-postulaciones-trabajadores-de-las-culturas-podran-recibir-apoyo-economico-202661919617)`,
+    contentEn: `### Call opens to incentivize audiovisual and cultural production in Bolivia
+
+The **Vice Ministry of Cultures and Folklore** presented the **Incentive Lines for Cultural Activities**, a call framed within its **Emergency Action Plan** financed with IDH resources, to mitigate the impact of the current crisis on the cultural sector.
+
+#### Six Incentive Lines
+
+The plan contemplates **six strategic action areas**:
+
+1. **Promotion of Artistic Initiatives and Cultural Production**
+2. **Strengthening of Living Community Cultures**
+3. **Strengthening of Self-Managed Cultural Spaces**
+4. **Promotion of Training, Research, and Cultural Management**
+5. **Incentive for Audiovisual Creation, Production, and Digital Content**
+6. **Strengthening of National and International Cultural Festivals**
+
+**Line 5** is particularly relevant for audiovisual professionals, as it is specifically designed to stimulate the creation and production of audiovisual and digital content, opening opportunities for Bolivian filmmakers, cameramen, and producers.
+
+Results will be published on **July 24**, with project execution from **August 3 to November 19**. Source: Red Uno.`,
+    date: '2026-06-19',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://static.reduno.com.bo/img/estructura/header/logo.png',
+    imageCaption: 'Líneas de Incentivo para Actividades Culturales 2026. Foto: Viceministerio de Culturas y Folklore / Red Uno',
+    categoryEs: 'Cultura y Entretenimiento',
+    categoryEn: 'Culture & Entertainment',
+    enableComments: true,
+    featured: false,
+    views: 189,
+    source: 'Red Uno',
+    sourceUrl: 'https://www.reduno.com.bo/noticias/abren-postulaciones-trabajadores-de-las-culturas-podran-recibir-apoyo-economico-202661919617'
+  },
+  {
     id: '13',
     slug: 'nova-vuelve-sinfonia-de-historias-inolvidables',
     titleEs: 'NOVA Filarmónica vuelve con la "Sinfonía de historias inolvidables"',
