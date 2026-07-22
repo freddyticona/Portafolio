@@ -343,18 +343,12 @@ export const portfolioItems: PortfolioItem[] = [
     clientEn: 'Abya Yala Television / Eduardo Abaroa Award Winner',
     descriptionEs: 'Reportaje ganador del Premio Nacional Eduardo Abaroa 2017. Un perfil íntimo sobre un destacado escultor y pintor alteño, documentando su proceso creativo, su taller y el impacto de su obra en la comunidad de El Alto.',
     descriptionEn: 'Award-winning report, National Eduardo Abaroa Prize 2017. An intimate profile of a renowned sculptor and painter from El Alto, documenting his creative process, workshop, and the impact of his work on the El Alto community.',
-    imageUrl: '/images/portfolio/la-estrella/20170422_101655.webp',
+    imageUrl: '/images/portfolio/la-estrella/DSC_2990.webp',
     images: [
-      '/images/portfolio/la-estrella/20170419_085818.webp',
-      '/images/portfolio/la-estrella/20170422_101455.webp',
-      '/images/portfolio/la-estrella/20170422_101505.webp',
-      '/images/portfolio/la-estrella/20170422_101655.webp',
-      '/images/portfolio/la-estrella/DSC_2989.webp',
       '/images/portfolio/la-estrella/DSC_2990.webp',
       '/images/portfolio/la-estrella/DSC_2994.webp',
-      '/images/portfolio/la-estrella/DSC_3001.webp',
-      '/images/portfolio/la-estrella/IMG_20100101_084106.webp',
-      '/images/portfolio/la-estrella/IMG_20100101_084118.webp'
+      '/images/portfolio/la-estrella/20170422_101455.webp',
+      '/images/portfolio/la-estrella/20170422_101505.webp'
     ],
     isCaseStudy: true,
     caseStudyId: 'la-estrella-case',
@@ -560,7 +554,7 @@ export const caseStudies: Record<string, CaseStudy> = {
         captionEn: 'Freddy at the artist\'s workshop during the filming of "La Estrella".'
       },
       {
-        url: '/images/portfolio/la-estrella/DSC_3001.webp',
+        url: '/images/portfolio/la-estrella/DSC_2994.webp',
         captionEs: 'Post-producción y corrección de color en estudio.',
         captionEn: 'Post-production and color grading in the studio.'
       }
