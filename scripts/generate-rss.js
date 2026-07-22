@@ -130,6 +130,41 @@ const blogPosts = [
     title: 'Abren convocatoria para incentivar la producción audiovisual y cultural en Bolivia',
     date: '2026-06-19',
     excerpt: 'El Viceministerio de Culturas lanzó seis líneas de incentivo económico, incluyendo una específica para creación y producción audiovisual.'
+  },
+  {
+    id: '18',
+    slug: 'festival-cine-salar-uyuni-2026',
+    title: 'Festival de Cine de Uyuni: seis filmes y concurso de cortos en pleno salar',
+    date: '2026-07-09',
+    excerpt: 'El Salar de Uyuni será sede del primer Salar International Film Festival con seis filmes, concurso de cortos con premio de $us 5.000 y talleres.'
+  },
+  {
+    id: '19',
+    slug: 'red-uno-xona-streaming',
+    title: 'Red Uno lanza Xona Streaming: nuevo canal digital con estudio propio',
+    date: '2026-05-11',
+    excerpt: 'Red Uno de Bolivia lanzó Xona Streaming, nueva señal digital con programación original, estudio independiente y control central propio.'
+  },
+  {
+    id: '20',
+    slug: 'documental-travesia-tierra-cinemateca',
+    title: '"A través de la tierra": documental sobre migración boliviana se estrena en la Cinemateca',
+    date: '2026-02-26',
+    excerpt: 'Coproducción Argentina-Bolivia filmada durante 6 años sobre dos mujeres bolivianas migrantes, se estrenó en la Cinemateca Boliviana.'
+  },
+  {
+    id: '21',
+    slug: 'documental-mi-cuerpo-mi-territorio-youtube',
+    title: '"Mi cuerpo, mi territorio": documental premiado se libera gratis en YouTube',
+    date: '2026-02-04',
+    excerpt: 'Cortometraje ganador del FENAVID 2025 sobre la resistencia de mujeres chiquitanas frente a incendios forestales, ahora disponible gratuitamente.'
+  },
+  {
+    id: '22',
+    slug: 'serie-boliviana-inteligencia-artificial',
+    title: 'Estrenan "En el nombre de Pío": primera serie boliviana creada íntegramente con IA',
+    date: '2026-07-07',
+    excerpt: 'El publicista Fernando Revollo lanzó la primera serie boliviana desarrollada completamente con Inteligencia Artificial generativa.'
   }
 ];
 
