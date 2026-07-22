@@ -644,7 +644,7 @@ export default function App() {
         {/* PAGE 3: PORTAFOLIO / GALERÍA */}
         {/* ==================================================================== */}
         {/* PORTFOLIO TEMPORALMENTE OCULTO — sección con contenido generado, pendiente reemplazar con trabajos reales */}
-        {false && activePage === 'portafolio' && (
+        {activePage === 'portafolio' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 md:space-y-16 animate-fadeIn">
             
             {activeCaseStudyId ? (
