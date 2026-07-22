@@ -141,6 +141,20 @@ scripts/
 - src/App.tsx, src/index.css, src/lib/seo.ts, src/lib/structuredData.ts
 - IMPROVEMENTS.md (nuevo documento de seguimiento)
 
+### Sesión render-blocking + showreel (julio 2026):
+#### Render-Blocking eliminado (~490ms):
+- **Google Fonts**: eliminado `@import` de `index.css` → `<link media="print" onload>` en `index.html` con inline `@font-face` (latin subset)
+- **Main CSS**: plugin Vite `makeCssNonBlocking` convierte `<link rel="stylesheet">` → `rel="preload" as="style"` con `onload`
+- **Critical CSS**: `body { background, color, margin }` inline en `<head>`
+- **Archivos**: `index.html`, `src/index.css`, `vite.config.ts`
+- **Commit**: `681c36f`
+
+#### Showreel actualizado:
+- Video ID cambiado de `6CL4rVpVOYU` a `MK4au-qQcsw` en `src/config.ts`
+- Se intentó video local `VIDEO FREDDY.mp4` (56 MB) pero se revirtió a YouTube por tamaño
+- `.gitignore` actualizado con `public/videos/` y `VIDEO FREDDY.mp4`
+- **Commit**: `de5e8db`
+
 ## Git
 - Branch: main
 - Remote: origin/main (GitHub)

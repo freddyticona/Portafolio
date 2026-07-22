@@ -26,9 +26,6 @@ const STATIC_FILES = [
   '/sitemap.xml'
 ];
 
-// Archivos de imágenes para cachear
-const IMAGE_CACHE = 'freddy-ticona-images-v1';
-
 // Instalación del Service Worker
 self.addEventListener('install', (event) => {
   console.log('[SW] Instalando Service Worker');
@@ -134,26 +131,21 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Para CSS/JS - Cache First (para builds)
+  // Para CSS/JS - Network First (evita servir chunks obsoletos tras deploy)
   if (request.url.includes('/assets/') || request.url.includes('.')) {
     event.respondWith(
-      caches.match(request).then((response) => {
-        if (response) {
-          return response;
-        }
-
-        return fetch(request).then((response) => {
-          if (!response.ok) throw new Error('Network response was not ok');
-
-          const responseClone = response.clone();
-          caches.open(RUNTIME_CACHE).then((cache) => {
-            cache.put(request, responseClone);
-          });
-
-          return response;
-        }).catch(() => {
-          // Para archivos JS/CSS, buscar en cache antiguo como fallback
-          return caches.open(CACHE_NAME).then((cache) => cache.match(request));
+      fetch(request).then((response) => {
+        if (!response.ok) throw new Error('Network response was not ok');
+        const responseClone = response.clone();
+        caches.open(RUNTIME_CACHE).then((cache) => {
+          cache.put(request, responseClone);
+        });
+        return response;
+      }).catch(() => {
+        return caches.match(request).then((response) => {
+          if (response) return response;
+          // Si no hay nada en cache, devolver offline page
+          return caches.match('/offline.html');
         });
       })
     );
@@ -169,10 +161,7 @@ self.addEventListener('fetch', (event) => {
       })
       .catch(() => {
         return caches.match(request).then((response) => {
-          if (response) {
-            return response;
-          }
-          // Si no hay nada, retornar offline page
+          if (response) return response;
           return caches.match('/offline.html');
         });
       })
