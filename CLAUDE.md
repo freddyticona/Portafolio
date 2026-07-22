@@ -155,6 +155,12 @@ scripts/
 - `.gitignore` actualizado con `public/videos/` y `VIDEO FREDDY.mp4`
 - **Commit**: `de5e8db`
 
+#### Service Worker reparado:
+- `public/sw.js` tenía `const IMAGE_CACHE` declarado 2 veces → crash al registrarse (pantalla negra al navegar)
+- Cambiada estrategia de assets JS/CSS de Cache First → Network First (evita servir chunks obsoletos tras deploy)
+- Creado `public/offline.html` para fallback offline
+- **Commit**: `5a27f20`
+
 ## Git
 - Branch: main
 - Remote: origin/main (GitHub)
