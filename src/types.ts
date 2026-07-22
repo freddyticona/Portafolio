@@ -20,6 +20,7 @@ export interface PortfolioItem {
   descriptionEs: string;
   descriptionEn: string;
   imageUrl: string;
+  images?: string[]; // All photos for the project gallery
   videoUrl?: string; // YouTube or Vimeo embed url
   isCaseStudy?: boolean;
   caseStudyId?: string;
