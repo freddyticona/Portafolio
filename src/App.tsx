@@ -24,6 +24,7 @@ import { updateMetaTags } from './lib/seo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SkipLink from './components/SkipLink';
+import { UpdatePrompt, OnlineStatus } from './hooks/useServiceWorker';
 import Timeline from './components/Timeline';
 import PortfolioGrid from './components/PortfolioGrid';
 import CaseStudyDetail from './components/CaseStudyDetail';
@@ -1030,6 +1031,10 @@ export default function App() {
       <Suspense fallback={null}>
         <Chatbot lang={lang} t={t} onNavigate={handleNavToTab} />
       </Suspense>
+
+      {/* PWA Components */}
+      <OnlineStatus lang={lang} />
+      <UpdatePrompt />
 
     </div>
   );
