@@ -375,18 +375,18 @@ export const portfolioItems: PortfolioItem[] = [
     clientEn: 'Gigavisión / RTP',
     descriptionEs: 'Durante 4 años consecutivos fui enviado especial de Gigavisión para documentar la Entrada de Carnaval de Oruro y el Festival de Bandas. Realicé reportajes y grabaciones de la peregrinación, las fraternidades, la música y la devoción a la Virgen del Socavón. En RTP continué cubriendo el mismo evento con transmisión en vivo.',
     descriptionEn: 'For 4 consecutive years I was a special envoy for Gigavisión to document the Oruro Carnival Entrance and the Band Festival. I produced reports and recordings of the pilgrimage, fraternities, music, and devotion to the Virgen del Socavón. At RTP I continued covering the same event with live broadcast.',
-    imageUrl: '/images/portfolio/carnaval-oruro/20170422_101505.webp',
+    imageUrl: '/images/portfolio/carnaval-oruro/freddy_working.webp',
     images: [
-      '/images/portfolio/carnaval-oruro/20170419_085818.webp',
-      '/images/portfolio/carnaval-oruro/20170422_101455.webp',
-      '/images/portfolio/carnaval-oruro/20170422_101505.webp',
-      '/images/portfolio/carnaval-oruro/20170422_101655.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2989.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2990.webp',
-      '/images/portfolio/carnaval-oruro/DSC_2994.webp',
-      '/images/portfolio/carnaval-oruro/DSC_3001.webp',
-      '/images/portfolio/carnaval-oruro/IMG_20100101_084106.webp',
-      '/images/portfolio/carnaval-oruro/IMG_20100101_084118.webp'
+      '/images/portfolio/carnaval-oruro/freddy_working.webp',
+      '/images/portfolio/carnaval-oruro/DSC_1971.webp',
+      '/images/portfolio/carnaval-oruro/DSC_2060.webp',
+      '/images/portfolio/carnaval-oruro/DSC_2187.webp',
+      '/images/portfolio/carnaval-oruro/DSC_2189.webp',
+      '/images/portfolio/carnaval-oruro/DSC_2194.webp',
+      '/images/portfolio/carnaval-oruro/DSC_2201.webp',
+      '/images/portfolio/carnaval-oruro/20190228_190246.webp',
+      '/images/portfolio/carnaval-oruro/20190302_133138.webp',
+      '/images/portfolio/carnaval-oruro/20190302_203628.webp'
     ],
     techDetailsEs: ['Cámara ENG Panasonic PX270', 'Micrófonos de Ambiente y Entrevistas', 'Sistema de Transmisión LiveU', 'Equipo de grabación para exteriores'],
     techDetailsEn: ['Panasonic PX270 ENG Camera', 'Ambient and Interview Microphones', 'LiveU Transmission System', 'Field recording equipment']
@@ -422,28 +422,6 @@ export const portfolioItems: PortfolioItem[] = [
     techDetailsEn: ['Panasonic PX270 ENG Camera', 'Live Broadcast System', 'Wireless Microphones', 'Outdoor Lighting Equipment']
   },
   {
-    id: 'cobertura-elecciones',
-    title: 'Cobertura Electoral 2009–2025',
-    titleEn: 'Electoral Coverage 2009–2025',
-    category: 'politica',
-    categoryLabelEs: 'Política',
-    categoryLabelEn: 'Politics',
-    roleEs: 'Camarógrafo, Editor y Movilero',
-    roleEn: 'Cameraman, Editor and Field Reporter',
-    year: '2009–2025',
-    clientEs: 'Gigavisión / RTP / Red Uno / Bolivia TV',
-    clientEn: 'Gigavisión / RTP / Red Uno / Bolivia TV',
-    descriptionEs: 'He cubierto todas las elecciones desde 2009 a la fecha: generales, departamentales, municipales y censos. Trabajé como camarógrafo, editor y movilero en los distintos canales donde estuve, registrando jornadas electorales completas en recintos de votación, centros de cómputo y transmisiones en vivo.',
-    descriptionEn: 'I have covered all elections from 2009 to present: general, departmental, municipal and census elections. I worked as cameraman, editor and field reporter across the different channels I was at, recording full election days at polling stations, counting centers and live broadcasts.',
-    imageUrl: '/images/portfolio/cobertura-elecciones/PSX_20250829_211859.webp',
-    images: [
-      '/images/portfolio/cobertura-elecciones/PSX_20250829_211859.webp',
-      '/images/portfolio/cobertura-elecciones/PSX_20250829_212120.webp'
-    ],
-    techDetailsEs: ['Cámara ENG Panasonic PX270', 'Cámaras de Estudio', 'Sistema de Transmisión LiveU', 'Equipo de Edición Móvil'],
-    techDetailsEn: ['Panasonic PX270 ENG Camera', 'Studio Cameras', 'LiveU Transmission System', 'Mobile Editing Equipment']
-  },
-  {
     id: 'world-atomic-week',
     title: 'World Atomic Week: Moscú, Rusia',
     titleEn: 'World Atomic Week: Moscow, Russia',
@@ -469,28 +447,6 @@ export const portfolioItems: PortfolioItem[] = [
     ],
     techDetailsEs: ['Cámara ENG', 'Micrófonos Inalámbricos', 'Equipo de Iluminación Portátil', 'Sistema de Transmisión'],
     techDetailsEn: ['ENG Camera', 'Wireless Microphones', 'Portable Lighting Kit', 'Transmission System']
-  },
-  {
-    id: 'cobertura-conflictos',
-    title: 'Conflictos Sociales: Cobertura Especializada',
-    titleEn: 'Social Conflicts: Specialized Coverage',
-    category: 'politica',
-    categoryLabelEs: 'Política',
-    categoryLabelEn: 'Politics',
-    roleEs: 'Camarógrafo y Editor Especializado en Cobertura de Riesgo',
-    roleEn: 'Specialized Risk Coverage Cameraman and Editor',
-    year: '2009–2019',
-    clientEs: 'Gigavisión / RTP / Red Uno / Bolivia TV',
-    clientEn: 'Gigavisión / RTP / Red Uno / Bolivia TV',
-    descriptionEs: 'Cubrí todos los conflictos sociales hasta 2019, incluyendo movilizaciones, bloqueos, protestas y enfrentamientos en las calles de La Paz y El Alto. Me especialicé como camarógrafo y editor en cobertura de este tipo sin título formal, solo con la experiencia de años en primera línea, priorizando la seguridad y la verdad informativa.',
-    descriptionEn: 'I covered all social conflicts until 2019, including mobilizations, blockades, protests and street confrontations in La Paz and El Alto. I specialized as a cameraman and editor in risk coverage without formal training, only with years of frontline experience, prioritizing safety and informational truth.',
-    imageUrl: '/images/portfolio/cobertura-conflictos/PSX_20250829_212120.webp',
-    images: [
-      '/images/portfolio/cobertura-conflictos/PSX_20250829_211859.webp',
-      '/images/portfolio/cobertura-conflictos/PSX_20250829_212120.webp'
-    ],
-    techDetailsEs: ['Cámara ENG Panasonic PX270', 'Lente Zoom 22x', 'Casco y Chaleco de Prensa', 'Sistema de Transmisión 4G'],
-    techDetailsEn: ['Panasonic PX270 ENG Camera', '22x Zoom Lens', 'Press Helmet and Vest', '4G Transmission System']
   },
   {
     id: 'aniversario-potosi',
