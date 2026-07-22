@@ -14,3 +14,7 @@ CLAUDE_CONTEXT.md
 
 # Vitest
 .vitest/
+
+# Videos locales
+public/videos/
+VIDEO FREDDY.mp4

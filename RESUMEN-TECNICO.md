@@ -72,3 +72,17 @@ Lighthouse detectó 490ms de render-blocking: CSS principal (120ms) + Google Fon
 
 ### Commit
 `681c36f` — fix: eliminar render-blocking de CSS y Google Fonts
+
+---
+
+## Sesión: Showreel YouTube con nuevo video (julio 2026)
+
+### Cambio
+Showreel actualizado al video `MK4au-qQcsw` en YouTube (mismo contenido que `VIDEO FREDDY.mp4`). Se descartó el video local por el tamaño (56 MB).
+
+### Archivos modificados
+- `src/config.ts` — `YOUTUBE_VIDEOS.showreel` actualizado de `6CL4rVpVOYU` a `MK4au-qQcsw`
+- `public/videos/` — eliminado del repo (video local no necesario)
+
+### Commit
+`pendiente` — feat: actualizar showreel a nuevo video YouTube (MK4au-qQcsw)
