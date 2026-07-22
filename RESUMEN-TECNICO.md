@@ -105,3 +105,25 @@ Pantalla negra al navegar entre páginas. Error en consola: `ServiceWorker scrip
 
 ### Commit
 `5a27f20` — fix: reparar Service Worker (duplicado IMAGE_CACHE + Network First para assets)
+
+---
+
+## Sesión: 5 nuevas noticias (julio 2026)
+
+### Nuevos artículos (ids 18-22)
+
+| ID | Slug | Fuente | Categoría |
+|----|------|--------|-----------|
+| 18 | festival-cine-salar-uyuni-2026 | El Deber | Festivales |
+| 19 | red-uno-xona-streaming | PRODU | Televisión |
+| 20 | documental-travesia-tierra-cinemateca | EntreCruzar | Documental |
+| 21 | documental-mi-cuerpo-mi-territorio-youtube | Revista Nómadas | Documental |
+| 22 | serie-boliviana-inteligencia-artificial | VivePotosí | Tecnología |
+
+### Archivos modificados
+- `src/translations.ts` — +5 artículos (21 post total)
+- `scripts/generate-pages.js` — +5 artículos (23 slugs, 54 páginas)
+- `scripts/generate-rss.js` — +5 artículos (22 en RSS)
+
+### Commit
+`35e0fe8` — feat: agregar 5 nuevas noticias al portal (ids 18-22)

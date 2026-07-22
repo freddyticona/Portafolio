@@ -92,6 +92,12 @@ scripts/
 7. **Firebase merge por slug** — No sobreescribe artículos locales definidos en translations.ts
 
 ## Work Log (Resumen)
+### Sesión 5 nuevas noticias (julio 2026):
+- Agregados 5 artículos nuevos (ids 18-22): Festival Cine Uyuni (El Deber), Xona Streaming Red Uno (PRODU), "A través de la tierra" documental (EntreCruzar), "Mi cuerpo, mi territorio" en YouTube (Nómadas), Serie boliviana con IA (VivePotosí)
+- 54 páginas pre-renderizadas (44→54), RSS 22 artículos (17→22)
+- Archivos: `src/translations.ts`, `scripts/generate-pages.js`, `scripts/generate-rss.js`
+- **Commit**: `35e0fe8`
+
 ### Sesiones iniciales: Fundación, Blog, SEO, Firebase, UI
 - React+Vite+Tailwind setup, 6 páginas base, i18n es/en
 - Blog/Noticias con 13 artículos (10 reales + 3 propios)
