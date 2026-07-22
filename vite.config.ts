@@ -45,33 +45,41 @@ export default defineConfig(() => {
             if (id.includes('node_modules/react') || id.includes('node_modules/react-dom')) {
               return 'react-vendor';
             }
-            // Animation library
+            // Animation library (motion es pesado, separarlo)
             if (id.includes('node_modules/motion')) {
               return 'motion';
             }
-            // Icons
+            // Icons (lucide-react es ligero pero útil separar)
             if (id.includes('node_modules/lucide-react')) {
               return 'icons';
             }
-            // PDF generation
+            // PDF generation - solo cargar cuando se necesite
             if (id.includes('node_modules/jspdf') || id.includes('node_modules/html2pdf')) {
               return 'pdf';
             }
-            // Firebase
+            // Firebase - separar para mejor caching
             if (id.includes('node_modules/firebase')) {
               return 'firebase';
             }
+            // Sentry - vendor separado
+            if (id.includes('node_modules/@sentry')) {
+              return 'sentry';
+            }
           },
+          // Optimizar nombres de chunks para mejor caching
+          chunkFileNames: 'assets/[name]-[hash].js',
+          entryFileNames: 'assets/[name]-[hash].js',
+          assetFileNames: 'assets/[name]-[hash].[ext]',
         },
       },
-      // Límite de advertencia de chunk size (aumentado temporalmente)
-      chunkSizeWarningLimit: 600,
+      // Límite de advertencia de chunk size (reducido para mantener bundles pequeños)
+      chunkSizeWarningLimit: 300,
       // Optimización de CSS
       cssCodeSplit: true,
       // Minificación habilitada por defecto
-      minify: true,
-      // Source maps para errores en producción (Sentry)
-      sourcemap: true,
+      minify: 'esbuild',
+      // Source maps: usar 'hidden' para producción (Sentry puede usar upload)
+      sourcemap: process.env.NODE_ENV === 'development' ? true : 'hidden',
     },
     // Compresión con Brotli (Vercel lo hace automáticamente)
     reportCompressedSize: true,

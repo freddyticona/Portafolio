@@ -390,6 +390,58 @@ export function generateBreadcrumbList(items: Array<{name: string, url: string}>
 }
 
 /**
+ * Genera structured data para FAQ (Preguntas Frecuentes)
+ */
+export function generateFAQStructuredData(): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: '¿Qué servicios ofrece Freddy Ticona?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Ofrezco servicios de filmación 4K de eventos, edición de video profesional con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: '¿En qué zonas de Bolivia trabaja?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Trabajo principalmente en La Paz y El Alto, pero también estoy disponible para viajar a cualquier departamento de Bolivia para proyectos especiales.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: '¿Cómo puedo contratar sus servicios?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Puede contactarme por WhatsApp al +59162408420, por email a freddyticona62@gmail.com, o usar el formulario de contacto en este sitio web.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: '¿Tiene experiencia en televisión?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Sí, tengo más de 15 años de experiencia en televisión boliviana, incluyendo trabajos en Bolivia TV, Red Uno y RTP. Ganador del Premio Nacional Eduardo Abaroa 2017.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: '¿Qué equipos utiliza para filmación?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Utilizo cámaras 4K profesionales, equipos de iluminación LED, sistemas de audio inalámbricos y drones para tomas aéreas, dependiendo de las necesidades del proyecto.'
+        }
+      }
+    ]
+  };
+}
+
+/**
  * Inyecta el JSON-LD en el head del documento
  */
 export function injectStructuredData(data: object): void {
@@ -439,10 +491,16 @@ export function updatePageStructuredData(pageId: string, additionalData?: any): 
       }
       break;
     case 'servicios':
-      structuredData = generateServicesStructuredData();
+      structuredData = [
+        generateServicesStructuredData(),
+        generateFAQStructuredData()
+      ];
       break;
     case 'contacto':
-      structuredData = generateContactStructuredData();
+      structuredData = [
+        generateContactStructuredData(),
+        generateFAQStructuredData()
+      ];
       break;
     default:
       structuredData = generateHomeStructuredData();
