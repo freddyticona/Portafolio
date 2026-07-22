@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Wed, 22 Jul 2026 13:37:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 13:42:27 GMT</lastBuildDate>
     <managingEditor>freddyticona62@gmail.com (Freddy Ticona Guzmán)</managingEditor>
     <webMaster>freddyticona62@gmail.com (Freddy Ticona Guzmán)</webMaster>
     <item>
@@ -146,6 +146,46 @@
       <guid isPermaLink="true">https://freddydev.net/blog/incentivo-produccion-audiovisual-cultural-2026</guid>
       <description><![CDATA[El Viceministerio de Culturas lanzó seis líneas de incentivo económico, incluyendo una específica para creación y producción audiovisual.]]></description>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Festival de Cine de Uyuni: seis filmes y concurso de cortos en pleno salar]]></title>
+      <link>https://freddydev.net/blog/festival-cine-salar-uyuni-2026</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/festival-cine-salar-uyuni-2026</guid>
+      <description><![CDATA[El Salar de Uyuni será sede del primer Salar International Film Festival con seis filmes, concurso de cortos con premio de $us 5.000 y talleres.]]></description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Red Uno lanza Xona Streaming: nuevo canal digital con estudio propio]]></title>
+      <link>https://freddydev.net/blog/red-uno-xona-streaming</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/red-uno-xona-streaming</guid>
+      <description><![CDATA[Red Uno de Bolivia lanzó Xona Streaming, nueva señal digital con programación original, estudio independiente y control central propio.]]></description>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA["A través de la tierra": documental sobre migración boliviana se estrena en la Cinemateca]]></title>
+      <link>https://freddydev.net/blog/documental-travesia-tierra-cinemateca</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/documental-travesia-tierra-cinemateca</guid>
+      <description><![CDATA[Coproducción Argentina-Bolivia filmada durante 6 años sobre dos mujeres bolivianas migrantes, se estrenó en la Cinemateca Boliviana.]]></description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA["Mi cuerpo, mi territorio": documental premiado se libera gratis en YouTube]]></title>
+      <link>https://freddydev.net/blog/documental-mi-cuerpo-mi-territorio-youtube</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/documental-mi-cuerpo-mi-territorio-youtube</guid>
+      <description><![CDATA[Cortometraje ganador del FENAVID 2025 sobre la resistencia de mujeres chiquitanas frente a incendios forestales, ahora disponible gratuitamente.]]></description>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Estrenan "En el nombre de Pío": primera serie boliviana creada íntegramente con IA]]></title>
+      <link>https://freddydev.net/blog/serie-boliviana-inteligencia-artificial</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/serie-boliviana-inteligencia-artificial</guid>
+      <description><![CDATA[El publicista Fernando Revollo lanzó la primera serie boliviana desarrollada completamente con Inteligencia Artificial generativa.]]></description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
     </item>
   </channel>

@@ -1132,6 +1132,248 @@ Results will be published on **July 24**, with project execution from **August 3
     sourceUrl: 'https://www.reduno.com.bo/noticias/abren-postulaciones-trabajadores-de-las-culturas-podran-recibir-apoyo-economico-202661919617'
   },
   {
+    id: '18',
+    slug: 'festival-cine-salar-uyuni-2026',
+    titleEs: 'Festival de Cine de Uyuni: seis filmes y concurso de cortos en pleno salar',
+    titleEn: 'Uyuni Film Festival: six films and short film contest on the salt flat',
+    excerptEs: 'El Salar de Uyuni será sede del primer Salar International Film Festival (SalarFF), del 30 de julio al 2 de agosto, con seis filmes internacionales, concurso de cortometrajes con premio de $us 5.000 y talleres con cineastas internacionales.',
+    excerptEn: 'The Salar de Uyuni will host the first Salar International Film Festival (SalarFF), from July 30 to August 2, featuring six international films, a short film contest with a $5,000 prize, and workshops with international filmmakers.',
+    contentEs: `### Salar International Film Festival: Cine a cielo abierto en el salar más grande del mundo
+
+Por primera vez, el **Salar de Uyuni** se convertirá en una sala de cine a cielo abierto con la realización del **Salar International Film Festival (SalarFF)**, un evento impulsado por el cineasta boliviano **Rodrigo Bellott** que se llevará a cabo del **30 de julio al 2 de agosto**.
+
+#### Programación
+
+El festival presentará **seis largometrajes**, de los cuales **cuatro son internacionales** (Paraguay, España, Venezuela e India) y **dos bolivianos**, incluyendo uno filmado íntegramente en el propio Salar de Uyuni. Las películas seleccionadas no están disponibles en salas comerciales ni plataformas streaming, lo que convierte al festival en una oportunidad única para verlas en pantalla grande.
+
+Se instalarán **dos pantallas de cine en pleno salar**, una propuesta que Bellott calificó como un desafío *"quijotesco"*.
+
+#### Concurso de Cortometrajes
+
+El festival incluye un **concurso abierto** para que cualquier persona, con o sin experiencia audiovisual, realice un cortometraje durante el festival utilizando incluso un teléfono celular. Los trabajos deben filmarse en el Salar de Uyuni y los ganadores serán proyectados durante la clausura y posteriormente en **'El Festivalito'** (Festival Internacional de Cine Chico de Canarias, España). Más de **50 personas** ya se han inscrito para competir por premios de **$us 5.000**.
+
+#### Talleres y Formación
+
+La programación contempla espacios de formación con especialistas internacionales, incluyendo un director de fotografía de Estados Unidos, un productor radicado en Los Ángeles, un productor paraguayo premiado, el director de un festival de cine español y un actor y productor ruso.
+
+#### Organización
+
+El festival es una iniciativa de **Una Gran Nación (UGN)**, en alianza con Hidalgo Corporation y Rodrigo Bellott, con el respaldo del Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía.
+
+**Información:** www.salarfilmfestival.com
+
+[Fuente: El Deber](https://eldeber.com.bo/cultura-y-entretenimiento/festival-cine-uyuni-ofrece-programa-seis-filmes-concurso-cortos_1783634712)`,
+    contentEn: `### Salar International Film Festival: Open-air cinema on the world's largest salt flat
+
+For the first time, the **Salar de Uyuni** will become an open-air cinema with the **Salar International Film Festival (SalarFF)**, driven by Bolivian filmmaker **Rodrigo Bellott**, taking place from **July 30 to August 2**.
+
+The festival will feature **six feature films** — four international (Paraguay, Spain, Venezuela, India) and two Bolivian, including one filmed entirely on the salt flat. Two cinema screens will be installed on the salt flat itself.
+
+An **open short film contest** invites anyone — with or without experience — to make a short film using even a cell phone. Winners will be screened at the closing ceremony and later at Spain's 'El Festivalito'. Over **50 people** have already registered, competing for **$5,000 USD** in prizes.
+
+The program also includes **master classes** with international specialists in cinematography, production, and film festival strategy.
+
+[Source: El Deber](https://eldeber.com.bo/cultura-y-entretenimiento/festival-cine-uyuni-ofrece-programa-seis-filmes-concurso-cortos_1783634712)`,
+    date: '2026-07-09',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: '/images/blog/salar-uyuni-festival.jpg',
+    imageCaption: 'Vista del Salar de Uyuni. Foto: El Deber',
+    categoryEs: 'Festivales',
+    categoryEn: 'Festivals',
+    enableComments: true,
+    featured: true,
+    views: 234,
+    source: 'El Deber',
+    sourceUrl: 'https://eldeber.com.bo/cultura-y-entretenimiento/festival-cine-uyuni-ofrece-programa-seis-filmes-concurso-cortos_1783634712'
+  },
+  {
+    id: '19',
+    slug: 'red-uno-xona-streaming',
+    titleEs: 'Red Uno lanza Xona Streaming: nuevo canal digital con estudio propio',
+    titleEn: 'Red Uno launches Xona Streaming: new digital channel with its own studio',
+    excerptEs: 'Red Uno de Bolivia lanzó Xona Streaming, una nueva señal digital con programación original, estudio independiente y control central propio, buscando captar audiencia joven con contenidos exclusivos.',
+    excerptEn: 'Red Uno de Bolivia launched Xona Streaming, a new digital channel with original programming, its own independent studio, and control center, targeting young audiences with exclusive content.',
+    contentEs: `### Red Uno lanza Xona Streaming con programación original
+
+**Red Uno de Bolivia** lanzó **Xona Streaming**, una nueva señal digital con programación original, estudio propio y una estrategia orientada a captar al público joven que ya no consume televisión abierta de forma tradicional. La iniciativa se suma a la expansión de infraestructura del canal y refuerza su posicionamiento como uno de los grupos con mayor capacidad de producción local en Bolivia.
+
+#### Programación exclusiva
+
+Desde el **11 de mayo** iniciaron las emisiones de los primeros **cuatro programas exclusivos**: **Pulso**, **Minuto a minuto**, **Desprogramados** y **Pura data sin filtro**. Red Uno combinó figuras reconocidas de la televisión con nuevos talentos e influencers con presencia en redes sociales.
+
+Liliana Castillo, jefa de Programación y Emisión de Red Uno, explicó que no se trata de una simple retransmisión de la pantalla abierta, sino de una operación paralela con identidad propia. *"Tiene su propio ADN, su propio lenguaje, su propia programación"*, afirmó.
+
+#### Disponibilidad
+
+La nueva señal está disponible en **YouTube**, **TikTok** y en el sitio web de Red Uno. La oferta incluye una revista matinal diaria como programa ancla, además de espacios de farándula, deportes, contenidos para madres e hijos y formatos juveniles.
+
+#### Infraestructura
+
+Xona Streaming cuenta con **estudio independiente**, control central propio, oficinas exclusivas y equipamiento específico para producción digital. Red Uno también renovó sus unidades móviles para streaming, ampliando servicios comerciales y coberturas especiales.
+
+En Santa Cruz, el canal opera **tres locaciones con estudios**. Su **Estudio 5**, de **mil metros cuadrados**, es presentado como el más grande de Bolivia y alberga diariamente hasta tres shows en vivo con escenografías de gran formato.
+
+[Fuente: PRODU](https://www.produ.com/television/noticias/red-uno-lanza-su-canal-xona-streaming-y-expande-su-capacidad-de-produccion-en-bolivia/)`,
+    contentEn: `### Red Uno launches Xona Streaming with original programming
+
+**Red Uno de Bolivia** launched **Xona Streaming**, a new digital channel with original programming, its own studio, and a strategy aimed at capturing young audiences who no longer consume traditional broadcast television.
+
+Since **May 11**, the first **four exclusive programs** began airing: **Pulso**, **Minuto a minuto**, **Desprogramados**, and **Pura data sin filtro**. The channel combines established TV figures with new talents and social media influencers.
+
+Xona Streaming features its own **independent studio**, control center, and dedicated equipment for digital production. Red Uno also upgraded its mobile streaming units. The signal is available on **YouTube**, **TikTok**, and Red Uno's website.
+
+In Santa Cruz, the network operates **three studio locations**. Its **Studio 5**, spanning **1,000 square meters**, is presented as the largest in Bolivia and hosts up to three live shows daily.
+
+[Source: PRODU](https://www.produ.com/television/noticias/red-uno-lanza-su-canal-xona-streaming-y-expande-su-capacidad-de-produccion-en-bolivia/)`,
+    date: '2026-05-11',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://picsum.photos/seed/red-uno-xona/1200/630',
+    imageCaption: 'Xona Streaming, la nueva señal digital de Red Uno. Foto: PRODU',
+    categoryEs: 'Televisión',
+    categoryEn: 'Television',
+    enableComments: true,
+    featured: false,
+    views: 198,
+    source: 'PRODU',
+    sourceUrl: 'https://www.produ.com/television/noticias/red-uno-lanza-su-canal-xona-streaming-y-expande-su-capacidad-de-produccion-en-bolivia/'
+  },
+  {
+    id: '20',
+    slug: 'documental-travesia-tierra-cinemateca',
+    titleEs: '"A través de la tierra": documental sobre migración boliviana se estrena en la Cinemateca',
+    titleEn: '"Through the Earth": documentary about Bolivian migration premieres at Cinemateca',
+    excerptEs: 'El documental de Malena Bystrowicz y Loreley Unamuno, filmado durante 6 años, sigue la vida de dos mujeres bolivianas migrantes en Argentina. Se estrenó en la Cinemateca Boliviana cerrando el círculo del viaje que narra.',
+    excerptEn: 'The documentary by Malena Bystrowicz and Loreley Unamuno, filmed over 6 years, follows the lives of two Bolivian women migrants in Argentina. It premiered at the Cinemateca Boliviana, closing the circle of the journey it portrays.',
+    contentEs: `### "A través de la tierra": migración, memoria y saberes aymaras
+
+El documental **"A través de la tierra"**, de las realizadoras **Malena Bystrowicz** y **Loreley Unamuno**, se estrenó en Bolivia el **26 de febrero de 2026** en la **Cinemateca Boliviana**, cerrando simbólicamente el círculo del viaje que narra.
+
+#### La historia
+
+Filmado durante **seis años** entre Bolivia y Argentina, el documental sigue la vida de **Blanca y Patzi**, dos mujeres bolivianas que migraron a Argentina llevando consigo saberes y tradiciones aymaras. La película aborda temas como el racismo, la discriminación y las redes de cuidado en la diáspora boliviana.
+
+#### Una coproducción binacional
+
+Se trata de una **coproducción Argentina-Bolivia** que retrata con sensibilidad las realidades de la migración contemporánea, mostrando cómo las protagonistas mantienen vivas sus raíces culturales mientras construyen nuevas vidas en un país extranjero.
+
+El documental fue bien recibido por la crítica y el público boliviano, destacando su mirada íntima y respetuosa sobre las experiencias de la comunidad boliviana en el exterior.
+
+[Fuente: EntreCruzar](https://entrecruzar.com/nota-de-prensa-a-traves-de-la-tierra-el-nuevo-documental-de-bystrowicz-y-unamuno-se-estrena-en-bolivia/)`,
+    contentEn: `### "Through the Earth": migration, memory, and Aymara knowledge
+
+The documentary **"Through the Earth"** (**A través de la tierra**), by filmmakers **Malena Bystrowicz** and **Loreley Unamuno**, premiered in Bolivia on **February 26, 2026** at the **Cinemateca Boliviana**, symbolically closing the circle of the journey it portrays.
+
+Filmed over **six years** between Bolivia and Argentina, the documentary follows **Blanca and Patzi**, two Bolivian women who migrated to Argentina carrying Aymara knowledge and traditions. The film addresses racism, discrimination, and care networks within the Bolivian diaspora.
+
+This **Argentina-Bolivia co-production** portrays contemporary migration realities with sensitivity, showing how the protagonists keep their cultural roots alive while building new lives abroad.
+
+[Source: EntreCruzar](https://entrecruzar.com/nota-de-prensa-a-traves-de-la-tierra-el-nuevo-documental-de-bystrowicz-y-unamuno-se-estrena-en-bolivia/)`,
+    date: '2026-02-26',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://picsum.photos/seed/documental-travesia/1200/630',
+    imageCaption: 'Afiche promocional de "A través de la tierra". Foto: EntreCruzar',
+    categoryEs: 'Documental',
+    categoryEn: 'Documentary',
+    enableComments: true,
+    featured: false,
+    views: 156,
+    source: 'EntreCruzar',
+    sourceUrl: 'https://entrecruzar.com/nota-de-prensa-a-traves-de-la-tierra-el-nuevo-documental-de-bystrowicz-y-unamuno-se-estrena-en-bolivia/'
+  },
+  {
+    id: '21',
+    slug: 'documental-mi-cuerpo-mi-territorio-youtube',
+    titleEs: '"Mi cuerpo, mi territorio": documental premiado se libera gratis en YouTube',
+    titleEn: '"My Body, My Territory": award-winning documentary released free on YouTube',
+    excerptEs: 'El cortometraje documental que retrata la resistencia de seis mujeres chiquitanas frente a los incendios forestales y el extractivismo, ganador del FENAVID 2025, ya está disponible gratuitamente en YouTube.',
+    excerptEn: 'The short documentary portraying the resistance of six Chiquitano women against forest fires and extractivism, winner at FENAVID 2025, is now available for free on YouTube.',
+    contentEs: `### "Mi cuerpo, mi territorio" se libera en YouTube tras éxito nacional e internacional
+
+El cortometraje documental **"Mi cuerpo, mi territorio"**, de **18 minutos** de duración, ya está disponible gratuitamente en **YouTube** tras su exitoso paso por festivales nacionales e internacionales.
+
+#### La historia
+
+El documental retrata la **resistencia de seis mujeres chiquitanas** frente a los **incendios forestales** y el **extractivismo** en la región de la Chiquitania boliviana. A través de sus testimonios, las protagonistas muestran cómo la destrucción del territorio afecta directamente sus cuerpos, sus medios de vida y su cultura.
+
+#### Reconocimientos
+
+La producción fue galardonada como **Mejor Cortometraje Documental Boliviano** en el **Festival Internacional de Cine de Santa Cruz (FENAVID) 2025**, y fue seleccionada para importantes eventos internacionales como **SUNCINE** (Festival Internacional de Cine del Medio Ambiente, España) y la **COP30** en Brasil.
+
+#### Disponibilidad
+
+Ahora el documental está disponible de forma **libre y gratuita** en YouTube, permitiendo que un público más amplio pueda acceder a esta poderosa historia de resistencia y lucha ambiental.
+
+[Fuente: Revista Nómadas](https://revistanomadas.com/mi-cuerpo-mi-territorio-se-libera-en-youtube-tras-su-exito-nacional-e-internacional/)`,
+    contentEn: `### "My Body, My Territory" released on YouTube after national and international success
+
+The short documentary **"My Body, My Territory"** (**Mi cuerpo, mi territorio**), **18 minutes** long, is now available for free on **YouTube** after a successful run at national and international festivals.
+
+The film portrays the **resistance of six Chiquitano women** against **forest fires** and **extractivism** in Bolivia's Chiquitania region. It won **Best Bolivian Short Documentary** at **FENAVID 2025** and was selected for **SUNCINE** (Spain) and **COP30** in Brazil.
+
+The documentary is now freely available on YouTube, allowing wider access to this powerful story of environmental resistance.
+
+[Source: Revista Nómadas](https://revistanomadas.com/mi-cuerpo-mi-territorio-se-libera-en-youtube-tras-su-exito-nacional-e-internacional/)`,
+    date: '2026-02-04',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://picsum.photos/seed/mi-cuerpo-territorio/1200/630',
+    imageCaption: 'Fotograma del documental "Mi cuerpo, mi territorio". Foto: Revista Nómadas',
+    categoryEs: 'Documental',
+    categoryEn: 'Documentary',
+    enableComments: true,
+    featured: false,
+    views: 312,
+    source: 'Revista Nómadas',
+    sourceUrl: 'https://revistanomadas.com/mi-cuerpo-mi-territorio-se-libera-en-youtube-tras-su-exito-nacional-e-internacional/'
+  },
+  {
+    id: '22',
+    slug: 'serie-boliviana-inteligencia-artificial',
+    titleEs: 'Estrenan "En el nombre de Pío": primera serie boliviana creada íntegramente con IA',
+    titleEn: '"In the Name of Pío": first Bolivian series created entirely with AI premieres',
+    excerptEs: 'El publicista Fernando Revollo ("El FEO") lanzó la primera serie boliviana desarrollada completamente con Inteligencia Artificial generativa, explorando una estética de misterio y personajes surrealistas.',
+    excerptEn: 'Advertising creative Fernando Revollo ("El FEO") launched the first Bolivian series developed entirely with generative Artificial Intelligence, exploring a mystery aesthetic with surrealist characters.',
+    contentEs: `### "En el nombre de Pío": un hito en la producción digital boliviana
+
+El publicista boliviano **Fernando Revollo**, conocido como **"El FEO"**, lanzó **"En el nombre de Pío"**, la **primera serie boliviana desarrollada completamente con Inteligencia Artificial generativa**, marcando un hito en la producción de contenido digital en Bolivia.
+
+#### Una apuesta por la innovación
+
+La serie explora una **estética de misterio** con personajes surrealistas, creados enteramente mediante herramientas de **IA generativa** que incluyen desde la generación de imágenes y animación hasta la composición de bandas sonoras. El proyecto demuestra cómo las nuevas tecnologías están democratizando la producción audiovisual, permitiendo a creadores individuales producir contenido de alta calidad sin necesidad de grandes equipos técnicos.
+
+#### Implicaciones para la industria
+
+El lanzamiento de esta serie abre un debate sobre el futuro de la producción audiovisual en Bolivia. Mientras algunos ven en la IA una herramienta para reducir costos y acelerar procesos, otros advierten sobre los desafíos éticos y laborales que plantea para los profesionales del sector.
+
+La serie está disponible en plataformas digitales y representa un experimento pionero que podría marcar el rumbo de futuras producciones en el país.
+
+[Fuente: VivePotosí](https://vivepotosi.com/2026/07/estrenan-serie-boliviana-creada-con-ia-por-el-publicista-el-feo/)`,
+    contentEn: `### "In the Name of Pío": a milestone in Bolivian digital production
+
+Bolivian advertising creative **Fernando Revollo** ("El FEO") launched **"En el nombre de Pío"**, the **first Bolivian series developed entirely with generative Artificial Intelligence**, marking a milestone in digital content production in Bolivia.
+
+The series explores a **mystery aesthetic** with surrealist characters, created entirely through **generative AI** tools — from image generation and animation to soundtrack composition. The project demonstrates how new technologies are democratizing audiovisual production, allowing individual creators to produce high-quality content without large technical teams.
+
+The launch opens debate about the future of audiovisual production in Bolivia, with implications for costs, creative possibilities, and professional challenges for the industry.
+
+[Source: VivePotosí](https://vivepotosi.com/2026/07/estrenan-serie-boliviana-creada-con-ia-por-el-publicista-el-feo/)`,
+    date: '2026-07-07',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://picsum.photos/seed/serie-ia-bolivia/1200/630',
+    imageCaption: 'Escena de "En el nombre de Pío", creada con IA. Foto: VivePotosí',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 445,
+    source: 'VivePotosí',
+    sourceUrl: 'https://vivepotosi.com/2026/07/estrenan-serie-boliviana-creada-con-ia-por-el-publicista-el-feo/'
+  },
+  {
     id: '13',
     slug: 'nova-vuelve-sinfonia-de-historias-inolvidables',
     titleEs: 'NOVA Filarmónica vuelve con la "Sinfonía de historias inolvidables"',
