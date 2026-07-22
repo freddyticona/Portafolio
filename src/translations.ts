@@ -290,7 +290,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Documental de una semana en el Territorio Indígena y Parque Nacional Isiboro Sécure (TIPNIS), siguiendo el trabajo sacrificado de un médico del programa "Mi Salud". Caminatas de 5 a 7 horas diarias con equipo cinematográfico para trasladarme de poblado en poblado, registrando la fauna, la selva y la atención médica en comunidades indígenas.',
     descriptionEn: 'One-week documentary in the Isiboro Sécure Indigenous Territory and National Park (TIPNIS), following the sacrificial work of a "Mi Salud" doctor. Daily 5 to 7-hour hikes with full cinema equipment moving from village to village, recording wildlife, jungle, and healthcare in indigenous communities.',
     imageUrl: '/images/portfolio/documental-tipnis/20170419_085818.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     isCaseStudy: false,
     techDetailsEs: ['Cámara Sony FS7', 'Lentes Sigma Cine Prime', 'Equipo de campamento y protección para equipo en selva', 'Grabadora de Audio y Micrófonos de Ambiente'],
     techDetailsEn: ['Sony FS7 Camera', 'Sigma Cine Prime Lenses', 'Camping gear and jungle equipment protection', 'Audio Recorder and Ambient Microphones']
@@ -310,7 +309,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Cobertura de un evento de derechos humanos y diversidad organizado por "La Poderosa" en Brasil. Reportaje sobre la lucha por los derechos sociales y la diversidad en comunidades vulnerables.',
     descriptionEn: 'Coverage of a human rights and diversity event organized by "La Poderosa" in Brazil. Report on the fight for social rights and diversity in vulnerable communities.',
     imageUrl: '/images/portfolio/brasil-la-poderosa/IMG_20100101_113340.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Sony FS7', 'Lentes Zoom', 'Micrófonos Inalámbricos', 'Equipo de iluminación portátil'],
     techDetailsEn: ['Sony FS7', 'Zoom Lenses', 'Wireless Microphones', 'Portable Lighting Kit']
   },
@@ -329,7 +327,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Reportaje ganador del Premio Nacional Eduardo Abaroa 2017. Un perfil íntimo sobre un destacado escultor y pintor alteño, documentando su proceso creativo, su taller y el impacto de su obra en la comunidad de El Alto.',
     descriptionEn: 'Award-winning report, National Eduardo Abaroa Prize 2017. An intimate profile of a renowned sculptor and painter from El Alto, documenting his creative process, workshop, and the impact of his work on the El Alto community.',
     imageUrl: '/images/portfolio/la-estrella/20170422_101655.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     isCaseStudy: true,
     caseStudyId: 'la-estrella-case',
     techDetailsEs: ['Cámara Sony FS7', 'Lentes Sigma Cine Prime', 'Iluminación de arte y taller', 'Edición en Adobe Premiere Pro'],
@@ -350,7 +347,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Durante 4 años consecutivos fui enviado especial de Gigavisión para documentar la Entrada de Carnaval de Oruro y el Festival de Bandas. Realicé reportajes y grabaciones de la peregrinación, las fraternidades, la música y la devoción a la Virgen del Socavón. En RTP continué cubriendo el mismo evento con transmisión en vivo.',
     descriptionEn: 'For 4 consecutive years I was a special envoy for Gigavisión to document the Oruro Carnival Entrance and the Band Festival. I produced reports and recordings of the pilgrimage, fraternities, music, and devotion to the Virgen del Socavón. At RTP I continued covering the same event with live broadcast.',
     imageUrl: '/images/portfolio/carnaval-oruro/20170422_101505.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Cámara ENG Panasonic PX270', 'Micrófonos de Ambiente y Entrevistas', 'Sistema de Transmisión LiveU', 'Equipo de grabación para exteriores'],
     techDetailsEn: ['Panasonic PX270 ENG Camera', 'Ambient and Interview Microphones', 'LiveU Transmission System', 'Field recording equipment']
   },
@@ -369,7 +365,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Cobertura especial de las entradas de la Festividad del Señor Jesús del Gran Poder en la ciudad de La Paz. Participé en la transmisión en vivo como camarógrafo, capturando la danza, los trajes y la devoción de una de las festividades más importantes de Bolivia.',
     descriptionEn: 'Special coverage of the entrances of the Lord Jesus of Gran Poder festival in La Paz city. I participated in live broadcast as a cameraman, capturing the dance, costumes, and devotion of one of Bolivia\'s most important festivities.',
     imageUrl: '/images/portfolio/gran-poder/DSC_1848.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Cámara ENG Panasonic PX270', 'Sistema de Transmisión en Vivo', 'Micrófonos Inalámbricos', 'Equipo de Iluminación para exteriores'],
     techDetailsEn: ['Panasonic PX270 ENG Camera', 'Live Broadcast System', 'Wireless Microphones', 'Outdoor Lighting Equipment']
   },
@@ -388,7 +383,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'He cubierto todas las elecciones desde 2009 a la fecha: generales, departamentales, municipales y censos. Trabajé como camarógrafo, editor y movilero en los distintos canales donde estuve, registrando jornadas electorales completas en recintos de votación, centros de cómputo y transmisiones en vivo.',
     descriptionEn: 'I have covered all elections from 2009 to present: general, departmental, municipal and census elections. I worked as cameraman, editor and field reporter across the different channels I was at, recording full election days at polling stations, counting centers and live broadcasts.',
     imageUrl: '/images/portfolio/cobertura-elecciones/PSX_20250829_211859.webp',
-    videoUrl: 'https://www.youtube.com/embed/INagReojtOM',
     techDetailsEs: ['Cámara ENG Panasonic PX270', 'Cámaras de Estudio', 'Sistema de Transmisión LiveU', 'Equipo de Edición Móvil'],
     techDetailsEn: ['Panasonic PX270 ENG Camera', 'Studio Cameras', 'LiveU Transmission System', 'Mobile Editing Equipment']
   },
@@ -407,7 +401,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Fui enviado especial de Bolivia TV para cubrir el World Atomic Week en Moscú, Rusia. Durante la cobertura visitamos la primera planta de energía nuclear del mundo, universidades de prestigio y asistimos a este reconocido evento internacional sobre energía nuclear.',
     descriptionEn: 'I was sent as a special envoy for Bolivia TV to cover World Atomic Week in Moscow, Russia. During the coverage we visited the world\'s first nuclear power plant, prestigious universities, and attended this internationally recognized nuclear energy event.',
     imageUrl: '/images/portfolio/world-atomic-week/_DSC0014.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Cámara ENG', 'Micrófonos Inalámbricos', 'Equipo de Iluminación Portátil', 'Sistema de Transmisión'],
     techDetailsEn: ['ENG Camera', 'Wireless Microphones', 'Portable Lighting Kit', 'Transmission System']
   },
@@ -426,7 +419,7 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Cubrí todos los conflictos sociales hasta 2019, incluyendo movilizaciones, bloqueos, protestas y enfrentamientos en las calles de La Paz y El Alto. Me especialicé como camarógrafo y editor en cobertura de este tipo sin título formal, solo con la experiencia de años en primera línea, priorizando la seguridad y la verdad informativa.',
     descriptionEn: 'I covered all social conflicts until 2019, including mobilizations, blockades, protests and street confrontations in La Paz and El Alto. I specialized as a cameraman and editor in risk coverage without formal training, only with years of frontline experience, prioritizing safety and informational truth.',
     imageUrl: '/images/portfolio/cobertura-conflictos/PSX_20250829_212120.webp',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+
     techDetailsEs: ['Cámara ENG Panasonic PX270', 'Lente Zoom 22x', 'Casco y Chaleco de Prensa', 'Sistema de Transmisión 4G'],
     techDetailsEn: ['Panasonic PX270 ENG Camera', '22x Zoom Lens', 'Press Helmet and Vest', '4G Transmission System']
   },
@@ -445,7 +438,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Documental realizado por el aniversario de Potosí, registrando la historia, la cultura y la vida en una de las ciudades más emblemáticas de Bolivia.',
     descriptionEn: 'Documentary made for the Potosí anniversary, recording the history, culture and life in one of Bolivia\'s most emblematic cities.',
     imageUrl: '/images/portfolio/aniversario-potosi/Canon PowerShot SX40 HS1598.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Cámara Canon PowerShot SX40 HS', 'Micrófonos de Ambiente', 'Iluminación Portátil', 'Equipo de Grabación'],
     techDetailsEn: ['Canon PowerShot SX40 HS Camera', 'Ambient Microphones', 'Portable Lighting', 'Recording Equipment']
   },
@@ -464,7 +456,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Reportaje sobre el 50 aniversario de la muerte del Che Guevara en La Higuera, Bolivia. Cobertura de los actos conmemorativos, entrevistas y registro del lugar histórico.',
     descriptionEn: 'Report on the 50th anniversary of Che Guevara\'s death in La Higuera, Bolivia. Coverage of the commemorative events, interviews and documentation of the historical site.',
     imageUrl: '/images/portfolio/che-la-higuera/20171007_112016.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Cámara Sony', 'Micrófonos Inalámbricos', 'Equipo de Iluminación', 'Grabadora de Audio'],
     techDetailsEn: ['Sony Camera', 'Wireless Microphones', 'Lighting Equipment', 'Audio Recorder']
   },
@@ -483,7 +474,6 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Reportaje realizado en Trinidad, Beni, por el aniversario de Bolivia. Cobertura de las festividades, la cultura beniana y las tradiciones de la región.',
     descriptionEn: 'Report made in Trinidad, Beni, for Bolivia\'s anniversary. Coverage of festivities, Beni culture and traditions of the region.',
     imageUrl: '/images/portfolio/trinidad-bolivia/IMG-20190805-WA0024.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     techDetailsEs: ['Cámara Sony', 'Micrófonos', 'Equipo de Grabación Portátil', 'Sistema de Transmisión'],
     techDetailsEn: ['Sony Camera', 'Microphones', 'Portable Recording Equipment', 'Transmission System']
   },
@@ -502,7 +492,7 @@ export const portfolioItems: PortfolioItem[] = [
     descriptionEs: 'Cobertura de la inauguración y entrega de plantas de energía y gas en distintas regiones de Bolivia. Registro de los actos oficiales, entrevistas y documentación de la infraestructura energética del país.',
     descriptionEn: 'Coverage of the inauguration and delivery of energy and gas plants in different regions of Bolivia. Recording of official events, interviews and documentation of the country\'s energy infrastructure.',
     imageUrl: '/images/portfolio/plantas-energia/GT-I91902764.webp',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+
     techDetailsEs: ['Cámara Sony NX70', 'Micrófonos Inalámbricos', 'Sistema de Transmisión', 'Equipo de Iluminación'],
     techDetailsEn: ['Sony NX70 Camera', 'Wireless Microphones', 'Transmission System', 'Lighting Equipment']
   }
@@ -534,7 +524,6 @@ export const caseStudies: Record<string, CaseStudy> = {
     awardEs: 'Premio Nacional Eduardo Abaroa 2017 (Categoría: Periodismo Cultural)',
     awardEn: 'Eduardo Abaroa National Award 2017 (Category: Cultural Journalism)',
     imageUrl: '/images/portfolio/la-estrella/DSC_2989.webp',
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
     btsImages: [
       {
         url: '/images/portfolio/la-estrella/20170422_101505.webp',
