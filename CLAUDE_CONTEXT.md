@@ -33,21 +33,31 @@
 
 ## 📊 ESTADO ACTUAL DEL PROYECTO
 
-### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión 7 - Noticias reales + Reflexión)
+### ✅ COMPLETADO (Última actualización: 21 julio 2026 - Sesión 8 - Optimización Lighthouse Performance)
 
-El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con noticias reales bolivianas citando fuente, SEO optimizado, 30 páginas pre-renderizadas y deploy automático en Vercel:
+El proyecto es una **PLATAFORMA PREMIUM COMPLETA** con noticias reales bolivianas citando fuente, SEO optimizado, 36 páginas pre-renderizadas y deploy automático en Vercel:
 
-**Último commit:** pendiente (sesión activa)
-**Deploy producción:** ✅ COMPLETADO (dpl_CkU7nfJakbLVWaqm4mmRWAhUpY2a)
+**Último commit:** 8deb631
+**Deploy producción:** ✅ COMPLETADO (dpl_CYXrTaSKtwfPbNRzR5xM1L6aJfb4)
 **URL Producción:** https://freddydev.net ✓
 
-#### HISTORIAL DE COMMITS - SESIÓN 7 (21 julio 2026 - Noticias reales + Reflexión):
+#### HISTORIAL DE COMMITS - SESIÓN 8 (21 julio 2026 - Optimización Lighthouse):
 
 | Hash | Hora | Descripción |
 |------|------|-------------|
-| `pendiente` | 18:00 | **Noticias reales bolivianas con fuente citada + artículo reflexión comparativa** |
-| `pendiente` | 17:30 | Fix: types.ts - agregar source/sourceUrl a BlogPost |
-| `pendiente` | 17:00 | **Reemplazar noticias ficticias con 7 noticias reales** (La Razón, Los Tiempos, Opinión) |
+| `8deb631` | 22:30 | docs: actualizar LIGHTHOUSE_ACTION_PLAN con optimizaciones completadas |
+| `4224536` | 22:20 | **perf(firebase): lazy load Firebase para reducir LCP** |
+| | | - Bundle reducido 36% (312KB → 199KB) |
+| | | - Firebase separado (552KB chunk, no bloquea LCP) |
+| | | - Components lazy load: Timeline, PortfolioGrid, BlogCard, etc. |
+| | | - Preload imagen hero optimizado con fetchpriority high |
+
+#### Métricas Esperadas (Lighthouse):
+| Métrica | Antes | Objetivo | Esperado |
+|---------|-------|----------|----------|
+| LCP | 10.5s | <2.5s | ~3-4s |
+| Performance | 62 | 85+ | ~80-85 |
+| FCP | 3.7s | <1.8s | ~2s |
 
 #### ARCHIVOS MODIFICADOS (Sesión 7):
 - `src/types.ts` - Agregados `source?: string` y `sourceUrl?: string` a BlogPost
