@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { PageId } from './types';
 import { BlogPost } from './types';
 import {
@@ -31,17 +31,28 @@ import ContactForm from './components/ContactForm';
 import BlogCard from './components/BlogCard';
 import BlogDetail from './components/BlogDetail';
 import NewsPortal from './components/NewsPortal';
-import AdminPanel from './components/AdminPanel';
 import CinematicHero from './components/CinematicHero';
 import GlobalSearch from './components/GlobalSearch';
 import WhatsAppButton from './components/WhatsAppButton';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
-import LocationsMap from './components/LocationsMap';
-import BehindScenesGallery from './components/BehindScenesGallery';
-import BookingSystem from './components/BookingSystem';
-import Chatbot from './components/Chatbot';
-import CommentSystem from './components/CommentSystem';
-import ServiceLanding from './components/ServiceLanding';
+
+// Lazy loading para componentes pesados (code splitting)
+const AdminPanel = lazy(() => import('./components/AdminPanel'));
+const LocationsMap = lazy(() => import('./components/LocationsMap'));
+const BehindScenesGallery = lazy(() => import('./components/BehindScenesGallery'));
+const BookingSystem = lazy(() => import('./components/BookingSystem'));
+const Chatbot = lazy(() => import('./components/Chatbot'));
+const CommentSystem = lazy(() => import('./components/CommentSystem'));
+const ServiceLanding = lazy(() => import('./components/ServiceLanding'));
+
+// Fallback de carga para Suspense
+function LoadingFallback() {
+  return (
+    <div className="flex items-center justify-center p-8">
+      <div className="skeleton w-full h-32 rounded" aria-busy="true" aria-label="Cargando contenido..."></div>
+    </div>
+  );
+}
 
 import { 
   Award, 
@@ -157,6 +168,11 @@ export default function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
+  // Accessibility: Update lang attribute when language changes
+  useEffect(() => {
+    document.documentElement.lang = lang === 'es' ? 'es-BO' : 'en';
+  }, [lang]);
+
   // Actualizar meta tags cuando cambia la página o el idioma
   useEffect(() => {
     updateMetaTags(activePage, lang);
@@ -202,7 +218,7 @@ export default function App() {
       />
 
       {/* Main Page Area */}
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow" tabIndex={-1}>
         
         {/* ==================================================================== */}
         {/* PAGE 1: INICIO (HOME) */}
@@ -589,7 +605,9 @@ export default function App() {
 
             {/* 3.5. BEHIND THE SCENES GALLERY */}
             <section className="space-y-12">
-              <BehindScenesGallery lang={lang} t={t} />
+              <Suspense fallback={<LoadingFallback />}>
+                <BehindScenesGallery lang={lang} t={t} />
+              </Suspense>
             </section>
 
             {/* 4. TESTIMONIALS & RECOMMENDATIONS */}
@@ -634,7 +652,9 @@ export default function App() {
 
             {/* 5. FILMING LOCATIONS MAP */}
             <section className="space-y-12 pb-8">
+              <Suspense fallback={<LoadingFallback />}>
               <LocationsMap lang={lang} />
+            </Suspense>
             </section>
 
           </div>
@@ -956,14 +976,16 @@ export default function App() {
         {/* ==================================================================== */}
         {activePage === 'reservas' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 animate-fadeIn">
-            <BookingSystem
-              lang={lang}
-              t={t}
-              onSuccess={(booking) => {
-                // Track booking event
-                console.log('Booking created:', booking);
-              }}
-            />
+            <Suspense fallback={<LoadingFallback />}>
+              <BookingSystem
+                lang={lang}
+                t={t}
+                onSuccess={(booking) => {
+                  // Track booking event
+                  console.log('Booking created:', booking);
+                }}
+              />
+            </Suspense>
             <div className="pb-8" />
           </div>
         )}
@@ -973,12 +995,14 @@ export default function App() {
         {/* ==================================================================== */}
         {activePage === 'servicios' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-fadeIn">
-            <ServiceLanding
-              lang={lang}
-              t={t}
-              onContact={() => handleNavToTab('contacto')}
-              onBooking={() => handleNavToTab('reservas')}
-            />
+            <Suspense fallback={<LoadingFallback />}>
+              <ServiceLanding
+                lang={lang}
+                t={t}
+                onContact={() => handleNavToTab('contacto')}
+                onBooking={() => handleNavToTab('reservas')}
+              />
+            </Suspense>
           </div>
         )}
 
@@ -986,7 +1010,9 @@ export default function App() {
         {/* PAGE 9: ADMIN (Hidden Panel) */}
         {/* ==================================================================== */}
         {activePage === 'admin' && (
-          <AdminPanel lang={lang} onBack={() => handleNavToTab('inicio')} />
+          <Suspense fallback={<LoadingFallback />}>
+            <AdminPanel lang={lang} onBack={() => handleNavToTab('inicio')} />
+          </Suspense>
         )}
 
       </main>
@@ -1001,7 +1027,9 @@ export default function App() {
       {/* Global Components */}
       <WhatsAppButton phoneNumber={CONTACT_INFO.phoneNumber} lang={lang} />
       <GlobalSearch lang={lang} onNavigate={handleNavToTab} />
-      <Chatbot lang={lang} t={t} onNavigate={handleNavToTab} />
+      <Suspense fallback={null}>
+        <Chatbot lang={lang} t={t} onNavigate={handleNavToTab} />
+      </Suspense>
 
     </div>
   );

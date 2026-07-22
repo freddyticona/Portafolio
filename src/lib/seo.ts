@@ -172,6 +172,11 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
   }
   canonicalLink.href = canonicalUrl;
 
+  // hreflang para i18n (SEO multilanguage)
+  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'es', `${SITE_CONFIG.url}/#${pageId}`);
+  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'en', `${SITE_CONFIG.url}/en/#${pageId}`);
+  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'x-default', `${SITE_CONFIG.url}/#${pageId}`);
+
   // robots tag
   if (metadata.noIndex) {
     updateOrCreateMetaTag('name', 'robots', 'noindex, nofollow');
@@ -194,5 +199,28 @@ function updateOrCreateMetaTag(attrName: string, attrValue: string, content: str
   }
 
   meta.content = content;
+}
+
+/**
+ * Helper para actualizar o crear un link tag (para hreflang, canonical, etc.)
+ */
+function updateOrCreateLinkTag(
+  tagName: string,
+  rel: string,
+  attrName: string,
+  attrValue: string,
+  href: string
+): void {
+  const selector = `${tagName}[rel="${rel}"][${attrName}="${attrValue}"]`;
+  let link = document.querySelector(selector) as HTMLLinkElement;
+
+  if (!link) {
+    link = document.createElement(tagName) as HTMLLinkElement;
+    link.rel = rel;
+    link.setAttribute(attrName, attrValue);
+    document.head.appendChild(link);
+  }
+
+  link.href = href;
 }
 

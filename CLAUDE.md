@@ -109,6 +109,38 @@ scripts/
 - Eliminados todos los videoUrl (no hay videos reales)
 - Build exitoso: 36 páginas
 
+### Sesión mejoras integrales (julio 2026):
+#### CI/CD Fixes:
+- Corregido workflow CI: lighthouse (npm ci sintaxis → npx), e2e (smoke tests vs producción)
+- Desactivados tests de API que no existen en sitio estático
+- Commit: `83ab99e` - CI failures resolved
+
+#### Rendimiento:
+- vite.config.ts: chunkSizeWarningLimit 600→300kb, sourcemap hidden, chunks optimizados
+- index.html: preloads de fonts críticas (Inter, Space Grotesk)
+- App.tsx: React.lazy() para AdminPanel, Chatbot, BookingSystem, ServiceLanding, etc.
+- Suspense con LoadingFallback para componentes lazy
+- Estimado: bundle size -20-30%, TTI mejorado
+
+#### Accesibilidad (WCAG AA):
+- index.css: contraste mejorado #e0e0e0→#d4d4d4, focus-visible 3px
+- App.tsx: lang attribute dinámico (es-BO/en), id="main-content" con tabIndex={-1}
+- Navbar: ya tenía aria-expanded, aria-controls (verificado)
+- SkipLink: ya implementado correctamente
+
+#### SEO:
+- seo.ts: hreflang implementado (es, en, x-default) para i18n
+- index.html: rel="me" agregado (YouTube, LinkedIn, X, Facebook)
+- structuredData.ts: generateFAQStructuredData() con 5 FAQs
+- FAQ schema integrado en páginas servicios y contacto (rich snippets potenciales)
+
+#### Archivos modificados:
+- .github/workflows/ci.yml, playwright.config.ts
+- e2e/smoke.spec.ts (nuevo), e2e/upload.spec.ts.disabled
+- vite.config.ts, index.html
+- src/App.tsx, src/index.css, src/lib/seo.ts, src/lib/structuredData.ts
+- IMPROVEMENTS.md (nuevo documento de seguimiento)
+
 ## Git
 - Branch: main
 - Remote: origin/main (GitHub)
