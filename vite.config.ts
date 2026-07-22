@@ -45,14 +45,6 @@ export default defineConfig(() => {
             if (id.includes('node_modules/react') || id.includes('node_modules/react-dom')) {
               return 'react-vendor';
             }
-            // Animation library (motion es pesado, separarlo)
-            if (id.includes('node_modules/motion')) {
-              return 'motion';
-            }
-            // Icons (lucide-react es ligero pero útil separar)
-            if (id.includes('node_modules/lucide-react')) {
-              return 'icons';
-            }
             // PDF generation - solo cargar cuando se necesite
             if (id.includes('node_modules/jspdf') || id.includes('node_modules/html2pdf')) {
               return 'pdf';
@@ -72,6 +64,8 @@ export default defineConfig(() => {
           assetFileNames: 'assets/[name]-[hash].[ext]',
         },
       },
+      // No precargar chunks lazy (reduces TBT)
+      modulePreload: false,
       // Límite de advertencia de chunk size (reducido para mantener bundles pequeños)
       chunkSizeWarningLimit: 300,
       // Optimización de CSS

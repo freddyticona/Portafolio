@@ -315,6 +315,8 @@ export default function App() {
                           src="/images/freddy_studio.webp"
                           alt="Showreel Thumbnail - Freddy Ticona en estudio"
                           className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500 brightness-50"
+                          loading="lazy"
+                          decoding="async"
                         />
                         <div className="absolute inset-0 bg-[#050505]/40 group-hover:bg-[#050505]/60 transition-colors" />
                         
@@ -454,7 +456,7 @@ export default function App() {
                       className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300"
                     >
                       <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
-                        <img src={post.imageUrl} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <img src={post.imageUrl} alt="" loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                         {post.breaking && <span className="absolute top-2 left-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">{t.newsBreaking}</span>}
                       </div>
                       <div className="p-4 space-y-2">
