@@ -117,7 +117,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                 <LazyImage
                   src={item.imageUrl}
                   alt={lang === 'es' ? item.title : item.titleEn}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                 />
                 
                 {/* Category Badge overlay */}
@@ -206,29 +206,17 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               </button>
             </div>
 
-            {/* Modal Body */}
+              {/* Modal Body */}
             <div className="p-6 md:p-8 space-y-6 md:space-y-8">
               
-              {/* Media Container (Video Player or Large Image) */}
-              {activeItem.videoUrl ? (
-                <div className="aspect-video w-full rounded-sm overflow-hidden bg-[#020202] border border-white/5 shadow-inner">
-                  <iframe
-                    src={activeItem.videoUrl}
-                    title={lang === 'es' ? activeItem.title : activeItem.titleEn}
-                    className="w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                  />
-                </div>
-              ) : (
-                <div className="w-full rounded-sm overflow-hidden border border-white/5 bg-[#020202]">
-                  <LazyImage
-                    src={activeItem.imageUrl}
-                    alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
-                    className="w-full max-h-[500px] object-contain mx-auto"
-                  />
-                </div>
-              )}
+              {/* Media Container - Show first image from gallery */}
+              <div className="w-full rounded-sm overflow-hidden border border-white/5 bg-[#020202]">
+                <LazyImage
+                  src={activeItem.images?.[0] || activeItem.imageUrl}
+                  alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
+                  className="w-full max-h-[500px] object-contain mx-auto"
+                />
+              </div>
 
               {/* Details Content */}
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-left">
@@ -307,6 +295,26 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                   </div>
                 </div>
               </div>
+
+              {/* Photo Gallery */}
+              {activeItem.images && activeItem.images.length > 1 && (
+                <div>
+                  <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-gold mb-4 flex items-center gap-2">
+                    <span>{lang === 'es' ? `Galería (${activeItem.images.length} fotos)` : `Gallery (${activeItem.images.length} photos)`}</span>
+                  </h4>
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                    {activeItem.images.map((img, idx) => (
+                      <div key={idx} className="aspect-video rounded-sm overflow-hidden bg-[#020202] border border-white/5 hover:border-gold/30 transition-all duration-300">
+                        <LazyImage
+                          src={img}
+                          alt={`${lang === 'es' ? activeItem.title : activeItem.titleEn} - ${idx + 1}`}
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
             </div>
           </div>
