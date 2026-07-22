@@ -81,6 +81,55 @@ const blogPosts = [
     title: 'Bolivia en el espejo del mundo: reflexión comparativa sobre cultura audiovisual y periodismo',
     date: '2026-07-21',
     excerpt: 'Un análisis que contrasta las noticias bolivianas con sus equivalentes internacionales en acceso cultural, libertad de prensa y preservación audiovisual.'
+  },
+  {
+    id: '11',
+    slug: 'cinemateca-50-anos-todo-lo-que-era-posible',
+    title: 'Cinemateca Boliviana: 50 Años Preservando la Memoria Audiovisual',
+    date: '2026-07-19',
+    excerpt: 'El expresidente y fundador de la Cinemateca Boliviana, Carlos D. Mesa, escribe un emotivo relato sobre el nacimiento de la institución.'
+  },
+  {
+    id: '12',
+    slug: 'pianista-daniel-alvarez-gana-premio-sur-musica-nueva',
+    title: 'Pianista Daniel Álvarez gana Premio Sur de Música Nueva Latinoamericana',
+    date: '2026-07-17',
+    excerpt: 'El compositor orureño Daniel Álvarez Veizaga conquistó el máximo galardón en la primera edición del certamen internacional.'
+  },
+  {
+    id: '13',
+    slug: 'nova-vuelve-sinfonia-de-historias-inolvidables',
+    title: 'NOVA Filarmónica vuelve con la "Sinfonía de historias inolvidables"',
+    date: '2026-07-19',
+    excerpt: 'La NOVA Filarmónica presenta el segundo programa de su temporada 2026 fusionando bandas sonoras del cine con obras maestras sinfónicas.'
+  },
+  {
+    id: '14',
+    slug: 'bolivia-lab-18-edicion-industria-cine',
+    title: 'Bolivia Lab 2026: Dos filmes son la previa del encuentro de la industria del cine iberoamericano',
+    date: '2026-07-19',
+    excerpt: 'La décimo octava edición de Bolivia Lab se desarrollará en La Paz, Cochabamba, Santa Cruz y Sucre con actividades para profesionales del audiovisual.'
+  },
+  {
+    id: '15',
+    slug: 'cortometraje-yatichana-galardones-internacionales',
+    title: 'Cortometraje boliviano "Yatichana" conquista dos galardones internacionales',
+    date: '2026-07-03',
+    excerpt: 'El documental del cineasta cochabambino Mauricio Panozo alcanzó el primer lugar en My Hero International Film Festival.'
+  },
+  {
+    id: '16',
+    slug: 'detras-epica-aventura-nolan-la-odisea',
+    title: 'Detrás de la épica aventura de Christopher Nolan para llevar "La Odisea" al cine',
+    date: '2026-07-14',
+    excerpt: 'Nolan viajó a seis países, usó barcos reales en mares reales y rodó íntegramente en película IMAX.'
+  },
+  {
+    id: '17',
+    slug: 'incentivo-produccion-audiovisual-cultural-2026',
+    title: 'Abren convocatoria para incentivar la producción audiovisual y cultural en Bolivia',
+    date: '2026-06-19',
+    excerpt: 'El Viceministerio de Culturas lanzó seis líneas de incentivo económico, incluyendo una específica para creación y producción audiovisual.'
   }
 ];
 
