@@ -15,8 +15,7 @@ import {
   blogPosts as defaultBlogPosts,
   translations
 } from './translations';
-import { db } from './lib/firebase';
-import { collection, getDocs } from 'firebase/firestore';
+// Firebase importado dinámicamente para reducir bundle inicial (552KB)
 
 import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags } from './lib/seo';
@@ -25,17 +24,20 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SkipLink from './components/SkipLink';
 import { UpdatePrompt, OnlineStatus } from './hooks/useServiceWorker';
-import Timeline from './components/Timeline';
-import PortfolioGrid from './components/PortfolioGrid';
-import CaseStudyDetail from './components/CaseStudyDetail';
-import ContactForm from './components/ContactForm';
-import BlogCard from './components/BlogCard';
-import BlogDetail from './components/BlogDetail';
-import NewsPortal from './components/NewsPortal';
 import CinematicHero from './components/CinematicHero';
-import GlobalSearch from './components/GlobalSearch';
-import WhatsAppButton from './components/WhatsAppButton';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
+
+// Componentes críticos se cargan inmediatamente, el resto es lazy load
+// Esto reduce el bundle inicial para mejorar LCP
+const Timeline = lazy(() => import('./components/Timeline'));
+const PortfolioGrid = lazy(() => import('./components/PortfolioGrid'));
+const CaseStudyDetail = lazy(() => import('./components/CaseStudyDetail'));
+const ContactForm = lazy(() => import('./components/ContactForm'));
+const BlogCard = lazy(() => import('./components/BlogCard'));
+const BlogDetail = lazy(() => import('./components/BlogDetail'));
+const NewsPortal = lazy(() => import('./components/NewsPortal'));
+const GlobalSearch = lazy(() => import('./components/GlobalSearch'));
+const WhatsAppButton = lazy(() => import('./components/WhatsAppButton'));
 
 // Lazy loading para componentes pesados (code splitting)
 const AdminPanel = lazy(() => import('./components/AdminPanel'));
@@ -45,6 +47,11 @@ const BookingSystem = lazy(() => import('./components/BookingSystem'));
 const Chatbot = lazy(() => import('./components/Chatbot'));
 const CommentSystem = lazy(() => import('./components/CommentSystem'));
 const ServiceLanding = lazy(() => import('./components/ServiceLanding'));
+
+// Wrapper para Suspense con fallback consistente
+function LazyWrapper({ children }: { children: React.ReactNode }) {
+  return <Suspense fallback={<LoadingFallback />}>{children}</Suspense>;
+}
 
 // Fallback de carga para Suspense
 function LoadingFallback() {
@@ -102,15 +109,20 @@ export default function App() {
   });
 
   // Load blog posts from Firebase on mount (merge with defaults)
+  // Firebase se carga dinámicamente para reducir el bundle inicial (552KB → 0KB)
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const querySnapshot = await getDocs(collection(db, 'posts'));
+        // Dynamic import de Firebase solo cuando se necesita
+        const { db: firestoreDb } = await import('./lib/firebase');
+        const { collection, getDocs } = await import('firebase/firestore');
+
+        const querySnapshot = await getDocs(collection(firestoreDb, 'posts'));
         const firebasePosts: BlogPost[] = [];
         querySnapshot.forEach((doc) => {
           firebasePosts.push({ id: doc.id, ...doc.data() } as BlogPost);
         });
-        
+
         if (firebasePosts.length > 0) {
           // Merge: keep all default posts, add Firebase posts that don't conflict by slug
           const defaultSlugs = new Set(defaultBlogPosts.map(p => p.slug));
@@ -127,7 +139,7 @@ export default function App() {
         console.error('Error loading blog posts from Firebase:', e);
       }
     };
-    
+
     fetchPosts();
   }, []);
 
