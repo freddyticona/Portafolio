@@ -274,7 +274,7 @@
          ========================================== -->
     <link rel="preconnect" href="https://www.youtube.com" />
     <link rel="preconnect" href="https://i.ytimg.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!-- ==========================================
@@ -287,9 +287,7 @@
          PRELOAD DE IMÁGENES HERO (Critical LCP improvement)
          Prioridad máxima para LCP - usar la imagen small más ligera
          ========================================== -->
-    <link rel="preload" fetchpriority="high" as="image" href="/images/behind-scenes/DSC_2994-small.webp" />
-    <link rel="prefetch" as="image" href="/images/behind-scenes/DSC_2994-medium.webp" />
-    <link rel="prefetch" as="image" href="/images/behind-scenes/DSC_2994-large.webp" />
+    <link rel="preload" fetchpriority="high" as="image" href="/images/behind-scenes/DSC_2994-small.webp" imagesrcset="/images/behind-scenes/DSC_2994-small.webp 480w, /images/behind-scenes/DSC_2994-medium.webp 960w, /images/behind-scenes/DSC_2994-large.webp 1920w" imagesizes="100vw" />
 
 
     <!-- ==========================================
