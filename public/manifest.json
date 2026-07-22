@@ -1,12 +1,12 @@
 {
   "name": "Freddy Ticona Guzmán - Portafolio Audiovisual",
   "short_name": "Freddy Ticona",
-  "description": "Camarógrafo y Realizador Audiovisual con más de 15 años de experiencia en televisión, documentales y cobertura periodística en Bolivia.",
+  "description": "Camarógrafo y Realizador Audiovisual con más de 15 años de experiencia en televisión, documentales y cobertura periodística en Bolivia. Ganador del Premio Eduardo Abaroa 2017.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1a1a2e",
-  "theme_color": "#1a1a2e",
-  "orientation": "portrait-primary",
+  "background_color": "#050505",
+  "theme_color": "#D4AF37",
+  "orientation": "any",
   "lang": "es",
   "dir": "ltr",
   "scope": "/",
@@ -28,23 +28,16 @@
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
-    }
-  ],
-  "categories": ["portfolio", "media", "video", "photography"],
-  "screenshots": [
-    {
-      "src": "/screenshot1.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "label": "Página de inicio del portafolio"
     },
     {
-      "src": "/screenshot2.png",
-      "sizes": "1280x720",
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png",
-      "label": "Galería de proyectos"
+      "purpose": "any"
     }
   ],
+  "categories": ["portfolio", "media", "video", "photography", "professional"],
+  "screenshots": [],
   "related_applications": [],
   "prefer_related_applications": false,
   "shortcuts": [
@@ -52,7 +45,7 @@
       "name": "Ver Portafolio",
       "short_name": "Portafolio",
       "description": "Ver mis trabajos realizados",
-      "url": "/#portfolio",
+      "url": "/#portafolio",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
@@ -60,6 +53,13 @@
       "short_name": "Contacto",
       "description": "Contactarme para proyectos",
       "url": "/#contacto",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Servicios",
+      "short_name": "Servicios",
+      "description": "Ver servicios ofrecidos",
+      "url": "/#servicios",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     }
   ]
