@@ -1,161 +1,103 @@
-# Plan de Optimización - freddydev.net
+# ✅ Lighthouse Optimizations Applied
 
 **Fecha:** 2026-07-21
-**Objetivo:** Mejorar Core Web Vitals (LCP, FID, CLS)
+**Commit:** 4224536
 
 ---
 
-## 🔍 Análisis Actual
+## 🎉 Optimizaciones Completadas
 
-### Imágenes principales (problema LCP detectado):
+### 1. Firebase Lazy Load - **AHORRO: 552KB** ✅
+- **Antes:** Firebase se importaba estáticamente, cargando inmediatamente 552KB
+- **Ahora:** Dynamic import dentro de useEffect, solo cuando se necesita
+- **Impacto:** Firebase ya no bloquea el LCP
 
-| Archivo | Tamaño | Problema |
-|---------|--------|----------|
-| `freddy_profile.webp` | 740KB | ⚠️ Muy grande para LCP |
-| `freddy_working.webp` | 689KB | ⚠️ Muy grande para LCP |
-| `freddy_studio.webp` | 551KB | ⚠️ Grande |
+### 2. Bundle Principal Reducido - **AHORRO: 113KB (-36%)** ✅
+| Métrica | Antes | Después | Mejora |
+|---------|-------|---------|--------|
+| index.js | 312KB | 199KB | -36% |
+| index.js (gzip) | 88KB | 60KB | -32% |
 
-**Recomendación:** Imágenes hero deberían ser <200KB idealmente.
+### 3. Preload de Imagen Hero Optimizado ✅
+- **Antes:** Preload con `imagesrcset` complejo
+- **Ahora:** Preload simple con `fetchpriority="high"`
+- **Impacto:** Imagen crítica carga más rápido
 
-### Estructura de portfolio:
-- ✅ 9 proyectos reales con imágenes WebP
-- ⚠️ Algunas imágenes mezcladas (JPG/WebP)
-- ⚠️ Carpetas de "fotos comprimidas" no están en public/
-
----
-
-## 🎯 Plan de Optimización
-
-### Fase 1: Optimización de imágenes hero (Alto impacto)
-
-**Archivos objetivo:**
-```
-public/images/freddy_profile.webp   (740KB → target ~150KB)
-public/images/freddy_working.webp   (689KB → target ~150KB)
-public/images/freddy_studio.webp    (551KB → target ~150KB)
-```
-
-**Acciones:**
-1. Comprimir imágenes más agresivamente (quality 75-80%)
-2. Redimensionar a dimensiones máximas necesarias (1200px width suficiente para web)
-3. Considerar usar `fetchpriority="high"` en imagen hero
-
-**Código a implementar:**
-```tsx
-// En CinematicHero o donde se carga la imagen principal
-<img
-  src="/images/freddy_profile.webp"
-  fetchPriority="high"  // Priorizar carga
-  width={1200}           // Prevenir CLS
-  height={800}
-  decoding="async"       // Decodificación asíncrona
-/>
-```
+### 4. Components No Críticos Lazy Loaded ✅
+Componentes que ahora se cargan bajo demanda:
+- Timeline
+- PortfolioGrid
+- CaseStudyDetail
+- ContactForm
+- BlogCard
+- BlogDetail
+- NewsPortal
+- GlobalSearch
+- WhatsAppButton
 
 ---
 
-### Fase 2: Agregar dimensiones a todas las imágenes (Prevenir CLS)
+## 📊 Resultados de Build
 
-**Problema:** CLS ocurre cuando las imágenes no tienen reservado su espacio.
+**Assets más grandes después de optimización:**
 
-**Solución:** Agregar `width` y `height` a todas las imágenes del portfolio.
-
-```tsx
-// Antes:
-<img src="/images/portfolio/...webp" alt="..." />
-
-// Después:
-<img
-  src="/images/portfolio/...webp"
-  alt="..."
-  width={800}
-  height={600}
-/>
-```
+| Archivo | Tamaño | Gzip |
+|---------|--------|------|
+| index.js | **199KB** | 60KB |
+| motion.js | 125KB | 42KB |
+| react-vendor.js | 183KB | 58KB |
+| firebase.js | 565KB | 171KB *(separado, no bloquea)* |
+| index.css | 92KB | 14KB |
 
 ---
 
-### Fase 3: Optimización de carga (Lazy loading mejorado)
+## 🎯 Métricas Esperadas
 
-**Mejoras:**
-1. `loading="eager"` solo para imagen hero
-2. `loading="lazy"` para todas las demás
-3. `decoding="async"` para imágenes fuera del viewport
+| Métrica | Antes | Objetivo | Esperado |
+|---------|-------|----------|----------|
+| **LCP** | 10.5s | <2.5s | ~3-4s |
+| **Performance** | 62 | 85+ | ~80-85 |
+| **FCP** | 3.7s | <1.8s | ~2s |
 
 ---
 
-### Fase 4: Source sets responsive
+## 🔄 Próximos Pasos
 
-Para mejorar en móviles:
+1. ✅ **Deploy automático en Vercel** (desde GitHub)
+2. ⏳ **Ejecutar Lighthouse** en producción: https://freddydev.net
+3. ⏳ **Verificar mejoras** en las métricas
 
-```tsx
-<img
-  src="/images/freddy_profile.webp"
-  srcSet="
-    /images/freddy_profile_small.webp 480w,
-    /images/freddy_profile.webp 800w,
-    /images/freddy_profile_large.webp 1200w
-  "
-  sizes="(max-width: 600px) 480px, 800px"
-/>
+### Si el LCP sigue siendo >3s, considerar:
+- Inline CSS crítico (reduce render-blocking)
+- Optimizar formato de imagen hero (JPEG progresivo)
+- Reducir aún más el JavaScript del bundle principal
+
+---
+
+## 🚀 Comandos Útiles
+
+```bash
+# Build local
+npm run build
+
+# Deploy manual a producción
+vercel --prod
+
+# Ejecutar Lighthouse CLI
+lighthouse https://freddydev.net --output html --output-path lighthouse-report.html --view
 ```
 
 ---
 
-## 📊 Métricas objetivo
+## 📋 Checklist Original - Estado Actual
 
-| Métrica | Actual (estimado) | Objetivo |
-|---------|-------------------|----------|
-| **LCP** | ~3.5s | <2.5s ✅ |
-| **FID** | ~150ms | <100ms ✅ |
-| **CLS** | ~0.15 | <0.1 ✅ |
-| **TBT** | ~600ms | <300ms |
-
----
-
-## 🛠️ Script de optimización
-
-Podemos crear un script para optimizar imágenes automáticamente:
-
-```javascript
-// scripts/optimize-images-pro.js
-const sharp = require('sharp');
-const fs = require('fs');
-const path = require('path');
-
-const TARGET_WIDTH = 1200;
-const QUALITY = 75;
-
-const imagesToOptimize = [
-  'public/images/freddy_profile.webp',
-  'public/images/freddy_working.webp',
-  'public/images/freddy_studio.webp'
-];
-
-imagesToOptimize.forEach(async (imagePath) => {
-  const input = path.join(__dirname, '..', imagePath);
-  const output = input.replace('.webp', '_opt.webp');
-
-  await sharp(input)
-    .resize(TARGET_WIDTH, null, { withoutEnlargement: true })
-    .webp({ quality: QUALITY })
-    .toFile(output);
-
-  console.log(`Optimized: ${imagePath}`);
-});
-```
+- [x] **Firebase lazy load** - 552KB separados del bundle principal
+- [x] **Components lazy load** - Timeline, PortfolioGrid, etc.
+- [x] **Preload optimizado** - fetchpriority="high" para imagen hero
+- [x] **Bundle reducido** - 36% menos JavaScript inicial
+- [ ] Optimizar imágenes hero (<200KB objetivo) - Pendiente
+- [ ] Inline CSS crítico - Pendiente si necesario
 
 ---
 
-## ✅ Checklist de implementación
-
-- [ ] Optimizar imágenes hero (740KB → <200KB)
-- [ ] Agregar width/height a todas las imágenes
-- [ ] Implementar fetchpriority="high" en hero
-- [ ] Crear versiones responsive de imágenes principales
-- [ ] Verificar Lighthouse score post-optimización
-- [ ] Configurar source sets para móvil
-- [ ] Comprimir imágenes del portfolio
-
----
-
+*Última actualización: 2026-07-21 - Commit 4224536*
