@@ -36,6 +36,9 @@ export function BlogPage({
   setActiveBlogPostId,
   handleArticleClick,
 }: BlogPageProps) {
+  // Solo posts personales (sin fuente externa)
+  const personalPosts = blogPosts.filter(p => !p.source);
+
   const activePost = activeBlogPostId
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
     : null;
@@ -74,7 +77,7 @@ export function BlogPage({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {blogPosts.map((post) => (
+            {personalPosts.map((post) => (
               <Suspense key={post.id} fallback={<LoadingFallback />}>
                 <BlogCard
                   post={post}
