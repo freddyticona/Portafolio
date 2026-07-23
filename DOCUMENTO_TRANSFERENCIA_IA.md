@@ -268,3 +268,52 @@ Si necesitas ejecutar pruebas o builds en este proyecto, usa los siguientes coma
 ---
 
 *Documento actualizado el 23 de Julio, 2026 — sesión de mejora de sección de noticias.*
+
+---
+
+## 8. ✨ Última Sesión — Mejoras UX en Artículos (Julio 2026)
+
+### 🟢 Cambios Realizados:
+
+1. **🖼️ OG:Image Personalizada por Artículo:**
+   - `scripts/generate-pages.js` ahora extrae `imageUrl` de cada post en `translations.ts` y la inyecta en las meta tags `og:image` y `twitter:image` de cada página pre-renderizada.
+   - Al compartir en redes sociales, cada artículo muestra su imagen correcta.
+
+2. **📊 Barra de Progreso de Lectura:**
+   - Barra dorada delgada (`0.5px`) fija en el top del viewport.
+   - Avanza proporcionalmente al scroll del usuario.
+   - Atributos ARIA (`role="progressbar"`, `aria-valuenow`) para accesibilidad.
+
+3. **📑 Tabla de Contenidos (TOC):**
+   - Se activa automáticamente cuando el artículo tiene 2 o más `<h2>`.
+   - Extrae los encabezados del HTML renderizado y genera enlaces de navegación rápida.
+   - Colapsable para no ocupar espacio innecesario.
+   - IDs auto-generados en cada `<h2>` para scroll suave.
+
+4. **🔗 Artículos Relacionados:**
+   - Al final de cada artículo, muestra 3 posts de la misma categoría.
+   - Cada card tiene thumbnail, título y extracto.
+   - Navegación directa al hacer clic.
+   - Recibe `allPosts` como prop desde `BlogPages.tsx` y `NoticiasPage`.
+
+5. **⏱️ Tiempo de Lectura Dinámico:**
+   - Calcula automáticamente basado en la longitud real del contenido (200 palabras/min).
+   - Strip de HTML antes de contar palabras.
+   - Reemplaza el `readTimeEs`/`readTimeEn` hardcodeado en el detalle del artículo.
+
+6. **⬆️ Botón Volver Arriba:**
+   - Aparece al hacer scroll más de 400px.
+   - Posición fija inferior derecha (`bottom-8 right-8`).
+   - Scroll suave al top.
+
+7. **👁️ Contador de Visitas Visible:**
+   - Ya existía en `NewsCard.tsx` (hero y default variants).
+   - Ahora también se muestra en el header del `BlogDetail.tsx` junto a fecha, tiempo y categoría.
+
+### Archivos modificados:
+- `scripts/generate-pages.js` — +16 líneas (extracción imageUrl + og:image/twitter:image)
+- `src/components/BlogDetail.tsx` — +191 líneas (barra progreso, TOC, tiempo dinámico, related posts, back to top, views)
+- `src/pages/BlogPages.tsx` — +2 líneas (pasar `allPosts` prop a BlogDetail)
+
+### Commits:
+- `1500d59` — feat(news): OG:image por artículo, barra progreso, TOC, artículos relacionados, tiempo dinámico, volver arriba, vistas visibles
