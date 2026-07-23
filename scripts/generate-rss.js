@@ -350,38 +350,73 @@ const blogPosts = [
   },
   {
     id: '49',
-    slug: 'espana-campeon-mundial-2026',
-    title: 'España se corona campeón del Mundial 2026: venció 1-0 a Argentina con gol de Ferran Torres en tiempo extra',
-    date: '2026-07-19',
-    excerpt: 'España derrotó 1-0 a Argentina en la final del Mundial 2026. Ferran Torres anotó al 106\' para dar a La Roja su segunda Copa del Mundo.'
+    slug: 'mlb-trade-deadline-2026',
+    title: 'MLB Trade Deadline 2026: los movimientos más impactantes antes del cierre',
+    date: '2026-07-23',
+    excerpt: 'La fecha límite de cambios de la MLB 2026 dejó intercambios sorprendentes.'
   },
   {
     id: '50',
-    slug: 'mbappe-bota-de-oro-mundial-2026-record',
-    title: 'Kylian Mbappé gana la Bota de Oro del Mundial 2026 y se convierte en el máximo goleador histórico',
-    date: '2026-07-20',
-    excerpt: 'Con 10 goles, Mbappé superó a Messi (8) y alcanzó 22 tantos mundialistas, destronando al argentino como máximo artillero histórico.'
+    slug: 'nfl-training-camps-2026',
+    title: 'NFL Training Camps 2026: las historias que dominan la pretemporada',
+    date: '2026-07-22',
+    excerpt: 'Los campos de entrenamiento de la NFL 2026 están en pleno apogeo con batallas de quarterbacks.'
   },
   {
     id: '51',
-    slug: 'bolivia-pierde-repechaje-mundial-irak',
-    title: 'Bolivia se queda sin Mundial 2026: cayó 2-1 ante Irak en la final del repechaje intercontinental',
-    date: '2026-03-31',
-    excerpt: 'Bolivia perdió 2-1 frente a Irak en Monterrey, frustrando su regreso a una Copa del Mundo después de 32 años de ausencia.'
+    slug: 'nba-offseason-grades-2026',
+    title: 'NBA Offseason Grades 2026: evaluamos cada movimiento de la agencia libre',
+    date: '2026-07-21',
+    excerpt: 'La agencia libre de la NBA 2026 movió miles de millones en contratos.'
   },
   {
     id: '52',
-    slug: 'tour-francia-2026-pogacar-vingegaard-carapaz',
-    title: 'Tour de Francia 2026: Pogacar y Vingegaard libran un duelo épico, Carapaz brilla con victoria de etapa',
-    date: '2026-07-23',
-    excerpt: 'La 113ª edición del Tour arrancó en Barcelona con Pogacar vs Vingegaard. Carapaz ganó la etapa 18 y Del Toro brilló.'
+    slug: 'fifa-world-cup-2026-changes',
+    title: 'Mundial 2026: los cambios de formato que transformarán el fútbol global',
+    date: '2026-07-20',
+    excerpt: 'La FIFA confirma cambios radicales para el Mundial 2026 con un formato expandido a 48 equipos.'
   },
   {
     id: '53',
-    slug: 'commonwealth-games-glasgow-2026',
-    title: 'Juegos de la Commonwealth Glasgow 2026: 74 naciones compiten en la cita multideportiva del año',
-    date: '2026-07-23',
-    excerpt: 'Glasgow recibe a 3.000 atletas de 74 naciones desde el 23 de julio hasta el 2 de agosto en 10 deportes.'
+    slug: 'spain-dominance-football-2026',
+    title: 'España domina el fútbol mundial: el legado de una generación dorada',
+    date: '2026-07-19',
+    excerpt: 'España continúa su reinado en el fútbol internacional con títulos consecutivos.'
+  },
+  {
+    id: '54',
+    slug: 'mlb-labor-battle-2026',
+    title: 'MLB 2026: la batalla laboral que amenaza con paralizar el béisbol',
+    date: '2026-07-18',
+    excerpt: 'Las negociaciones entre la MLB y el sindicato de jugadores entran en terreno peligroso.'
+  },
+  {
+    id: '55',
+    slug: 'barcelona-adeyemi-fichaje-2026',
+    title: 'Barcelona ficha a Karim Adeyemi: el delantero que promete goles en el Camp Nou',
+    date: '2026-07-17',
+    excerpt: 'El FC Barcelona cierra el fichaje del delantero alemán Karim Adeyemi.'
+  },
+  {
+    id: '56',
+    slug: 'inter-miami-autogol-hilarante',
+    title: 'Inter Miami protagoniza el autogol más insólito de la temporada en la MLS',
+    date: '2026-07-16',
+    excerpt: 'Un error garrafal en defensa del Inter Miami terminó en autogol viral.'
+  },
+  {
+    id: '57',
+    slug: 'wnba-midseason-2026-caitlin-clark',
+    title: 'WNBA 2026: revisión de mitad de temporada con Caitlin Clark como protagonista',
+    date: '2026-07-15',
+    excerpt: 'La temporada 2026 de la WNBA llega a su ecuador con Caitlin Clark rompiendo récords.'
+  },
+  {
+    id: '58',
+    slug: 'lebron-james-free-agency-2026',
+    title: 'LeBron James: el futuro de la estrella que mantiene en vilo a la NBA',
+    date: '2026-07-14',
+    excerpt: 'LeBron James enfrenta la decisión más importante de su carrera al entrar en la agencia libre.'
   }
 ];
 

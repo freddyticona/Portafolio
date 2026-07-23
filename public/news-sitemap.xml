@@ -479,7 +479,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/tour-francia-2026-pogacar-vingegaard-carapaz</loc>
+    <loc>https://freddydev.net/blog/mlb-trade-deadline-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -488,12 +488,12 @@
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>2026-07-23</news:publication_date>
-      <news:title>Tour de Francia 2026: Pogacar y Vingegaard libran un duelo épico, Carapaz brilla con victoria de etapa</news:title>
+      <news:title>MLB Trade Deadline 2026: los movimientos más impactantes antes del cierre</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/tour-francia-2026-pogacar-vingegaard-carapaz</loc>
+    <loc>https://freddydev.net/noticias/mlb-trade-deadline-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -502,7 +502,35 @@
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>2026-07-23</news:publication_date>
-      <news:title>Tour de Francia 2026: Pogacar y Vingegaard libran un duelo épico, Carapaz brilla con victoria de etapa</news:title>
+      <news:title>MLB Trade Deadline 2026: los movimientos más impactantes antes del cierre</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/nfl-training-camps-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22</news:publication_date>
+      <news:title>NFL Training Camps 2026: las historias que dominan la pretemporada</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nfl-training-camps-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22</news:publication_date>
+      <news:title>NFL Training Camps 2026: las historias que dominan la pretemporada</news:title>
       
     </news:news>
   </url>

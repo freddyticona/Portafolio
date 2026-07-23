@@ -70,11 +70,16 @@ const articles = [
   'amd-epyc-venice-tsmc-2nm',
   'amd-instinct-mi400-gpus-ia',
   'amd-kria-ryzen-ai-embedded-robotica',
-  'espana-campeon-mundial-2026',
-  'mbappe-bota-de-oro-mundial-2026-record',
-  'bolivia-pierde-repechaje-mundial-irak',
-  'tour-francia-2026-pogacar-vingegaard-carapaz',
-  'commonwealth-games-glasgow-2026',
+  'mlb-trade-deadline-2026',
+  'nfl-training-camps-2026',
+  'nba-offseason-grades-2026',
+  'fifa-world-cup-2026-changes',
+  'spain-dominance-football-2026',
+  'mlb-labor-battle-2026',
+  'barcelona-adeyemi-fichaje-2026',
+  'inter-miami-autogol-hilarante',
+  'wnba-midseason-2026-caitlin-clark',
+  'lebron-james-free-agency-2026',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

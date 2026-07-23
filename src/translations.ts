@@ -2778,234 +2778,399 @@ On July 23, 2026, AMD launched its Kria AI family for robotics and physical AI, 
   },
   {
     id: '49',
-    slug: 'espana-campeon-mundial-2026',
-    titleEs: 'España se corona campeón del Mundial 2026: venció 1-0 a Argentina con gol de Ferran Torres en tiempo extra',
-    titleEn: 'Spain crowned 2026 World Cup champions: beat Argentina 1-0 with Ferran Torres extra-time goal',
-    excerptEs: 'España derrotó 1-0 a Argentina en la final del Mundial 2026 disputada en el MetLife Stadium de Nueva Jersey. Ferran Torres anotó el gol del título al minuto 106, dando a La Roja su segunda Copa del Mundo después de Sudáfrica 2010.',
-    excerptEn: 'Spain defeated Argentina 1-0 in the 2026 World Cup final at MetLife Stadium in New Jersey. Ferran Torres scored the winning goal in the 106th minute, giving La Roja their second World Cup title since South Africa 2010.',
-    contentEs: `### España conquista su segunda estrella mundialista en una final vibrante
+    slug: 'mlb-trade-deadline-2026',
+    titleEs: 'MLB Trade Deadline 2026: los movimientos más impactantes antes del cierre',
+    titleEn: 'MLB Trade Deadline 2026: The most impactful moves before the closure',
+    excerptEs: 'La fecha límite de cambios de la MLB 2026 dejó intercambios sorprendentes, incluyendo el traspaso de estrellas a contendientes y la reorganización de franquicias enteras.',
+    excerptEn: 'The 2026 MLB trade deadline delivered surprising deals, including star players moving to contenders and entire franchise rebuilds.',
+    contentEs: `### Una fecha límite histórica para las Grandes Ligas
 
-El 19 de julio de 2026, España se proclamó campeona del Mundial 2026 al vencer 1-0 a Argentina en el MetLife Stadium de East Rutherford, Nueva Jersey, ante más de 82.500 espectadores. El gol de Ferran Torres en el minuto 106 del tiempo extra le dio a La Roja su segundo título mundial después del obtenido en Sudáfrica 2010.
+La temporada 2026 de la MLB culminó su fecha límite de cambios con movimientos que reconfiguran la lucha por la postemporada. Equipos contendientes reforzaron sus nóminas mientras que franquicias en reconstrucción apostaron por prospectos de cara al futuro.
 
-El partido, arbitrado por el esloveno Slavko Vincic, fue un duelo táctico de alto nivel. España dominó la posesión y generó las ocasiones más claras, mientras Argentina apostó por su solidez defensiva y contragolpes liderados por Lionel Messi, quien disputaba su último partido en una Copa del Mundo a los 39 años.
+### Los cambios más relevantes
 
-### El desarrollo del partido
+Entre las transacciones más destacadas estuvieron el envío de lanzadores abridores de élite a equipos con urgencia inmediata y el movimiento de bateadores franquicia que cambiarán el equilibrio de poder en sus respectivas divisiones.
 
-España salió con intensidad desde el primer minuto. A los 4 minutos, Lamine Yamal ya había probado al arquero Emiliano Martínez. Argentina resistió con orden y sacrificio, pero no logró conectar a Messi con claridad. Enzo Fernández fue expulsado en el minuto 90 por doble amarilla, dejando a la albiceleste con diez hombres para el tiempo extra.
+Según reportes de ESPN, varios equipos de mercados grandes asumieron salarios significativos a cambio de talento probado en postemporada, mientras que los equipos pequeños maximizaron el valor de sus activos antes de la agencia libre.
 
-En la primera mitad del alargue, Nico Williams habilitó a Ferran Torres, quien conectó un zurdazo que se elevó por encima de los brazos del Dibu Martínez para desatar la locura española. Argentina intentó reaccionar pero no pudo quebrar el cerrojo defensivo de Unai Simón, quien se llevó el Guante de Oro como mejor portero del torneo.
+### Impacto en la recta final
 
-### Premios individuales
+Estos movimientos no solo afectan la clasificación inmediata sino que también definen las estrategias de oficina para los próximos años. La MLB 2026 promete una recta final emocionante con equipos renovados buscando su lugar en octubre.
 
-Rodri Hernández fue galardonado con el Balón de Oro al mejor jugador del Mundial. Pau Cubarsí recibió el premio al Mejor Jugador Joven, y Kylian Mbappé se quedó con la Bota de Oro como máximo goleador con 10 tantos.
-
-### El adiós de Messi
-
-Lionel Messi se despidió de los Mundiales sin poder conquistar su segunda Copa. El astro argentino, de 39 años, finalizó su carrera mundialista con 21 goles en 26 partidos, siendo el segundo máximo anotador histórico del torneo por detrás de Mbappé. Pese a la derrota, recibió una ovación de pie de ambos estadios.
-
-Con información de: FIFA, ESPN, Marca.`,
-    contentEn: `### Spain wins its second World Cup star in a thrilling final
-
-On July 19, 2026, Spain won the 2026 World Cup by defeating Argentina 1-0 at MetLife Stadium in East Rutherford, New Jersey. Ferran Torres scored in the 106th minute of extra time, giving La Roja their second World Cup title after South Africa 2010.`,
-    date: '2026-07-19',
-    readTimeEs: '9 min de lectura',
-    readTimeEn: '9 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1200&h=630&fit=crop',
-    imageCaption: 'España celebra el título del Mundial 2026 en el MetLife Stadium. Foto: Unsplash',
+Con información de: ESPN.`,
+    contentEn: `The 2026 MLB trade deadline reshaped the playoff landscape with major deals. Contenders added pitching depth and power bats, while rebuilding teams stockpiled prospects. The deadline moves will have long-term implications for roster construction and competitive balance across the league.`,
+    date: '2026-07-23',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=1200&h=630&fit=crop',
+    imageCaption: 'Estadio de béisbol durante un partido de MLB. Foto: Unsplash',
     categoryEs: 'Deportes',
     categoryEn: 'Sports',
     enableComments: true,
-    featured: true,
+    featured: false,
     views: 1,
-    source: 'FIFA',
-    sourceUrl: 'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026'
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/mlb/story/_/id/40400000/mlb-trade-deadline-2026'
   },
   {
     id: '50',
-    slug: 'mbappe-bota-de-oro-mundial-2026-record',
-    titleEs: 'Kylian Mbappé gana la Bota de Oro del Mundial 2026 y se convierte en el máximo goleador histórico de los Mundiales',
-    titleEn: 'Kylian Mbappé wins 2026 World Cup Golden Boot and becomes all-time World Cup top scorer',
-    excerptEs: 'Con 10 goles en el torneo, Mbappé superó a Lionel Messi (8) y se quedó con la Bota de Oro. Además, alcanzó 22 goles en 22 partidos mundialistas, destronando a Messi como el máximo artillero en la historia de las Copas del Mundo.',
-    excerptEn: 'With 10 goals in the tournament, Mbappé surpassed Lionel Messi (8) to claim the Golden Boot. He also reached 22 goals in 22 World Cup matches, dethroning Messi as the all-time top scorer in World Cup history.',
-    contentEs: `### Mbappé hace historia: Bota de Oro y récord de goles en Mundiales
+    slug: 'nfl-training-camps-2026',
+    titleEs: 'NFL Training Camps 2026: las historias que dominan la pretemporada',
+    titleEn: 'NFL Training Camps 2026: The stories dominating preseason',
+    excerptEs: 'Los campos de entrenamiento de la NFL 2026 están en pleno apogeo con batallas de quarterbacks, rookies que sorprenden y veteranos que buscan un último contrato.',
+    excerptEn: 'NFL training camps 2026 are in full swing with quarterback battles, surprising rookies, and veterans fighting for roster spots.',
+    contentEs: `### Arranca la pretemporada de la NFL
 
-Kylian Mbappé, capitán de la selección francesa, se consagró como el máximo goleador del Mundial 2026 con 10 anotaciones, superando a Lionel Messi (8 goles) y conquistando la Bota de Oro. El delantero del Real Madrid, de 27 años, disputó 8 partidos en el torneo y registró además 4 asistencias.
+Los 32 equipos de la NFL abrieron sus campos de entrenamiento con historias que definirán la temporada 2026. Desde la competencia por el puesto de quarterback titular hasta rookies que ya muestran destellos de grandeza, la pretemporada promete emociones.
 
-### Máximo goleador histórico
+### Quarterbacks en el centro de atención
 
-Con sus 10 goles en esta edición, Mbappé alcanzó los 22 tantos en 22 partidos disputados en tres Copas del Mundo (4 en Rusia 2018, 8 en Qatar 2022 y 10 en Norteamérica 2026). Esto lo convierte en el máximo goleador de la historia de los Mundiales, superando los 21 goles de Lionel Messi y dejando atrás los 16 del alemán Miroslav Klose, quien ostentaba el récord desde 2014.
+Varias franquicias llegan con dudas en la posición más importante del deporte. Equipos con quarterbacks novatos compitiendo por el puesto titular y veteranos que buscan demostrar que aún tienen gasolina en el tanque son el foco principal de los campos.
 
-### Tabla de goleadores del Mundial 2026
+De acuerdo con análisis de ESPN, al menos cinco equipos no tienen definido su quarterback titular para la semana 1, lo que convierte a esta pretemporada en una de las más inciertas de los últimos años.
 
-1. Kylian Mbappé (Francia) - 10 goles
-2. Lionel Messi (Argentina) - 8 goles
-3. Jude Bellingham (Inglaterra) - 7 goles
-4. Erling Haaland (Noruega) - 7 goles
-5. Ousmane Dembélé (Francia) - 6 goles
-6. Harry Kane (Inglaterra) - 6 goles
-7. Mikel Oyarzabal (España) - 5 goles
+### Novatos que ya brillan
 
-### Un bicampeón de la Bota de Oro
+Varias selecciones de primera ronda del Draft 2026 están justificando su elección con actuaciones destacadas en los entrenamientos. Desde wide receivers explosivos hasta linieros defensivos dominantes, la nueva generación promete impacto inmediato.
 
-Mbappé es el primer jugador en la historia en ganar la Bota de Oro en dos ediciones distintas del Mundial (Qatar 2022 y 2026). Su promedio de un gol por partido en Copas del Mundo lo coloca como uno de los delanteros más letales en la historia del fútbol. Mbappé también se convirtió en el primer futbolista en alcanzar los 10 goles en una sola edición desde que Gerd Müller lo hiciera en México 1970.
+### Veteranos en la cuerda floja
 
-Con información de: FIFA, Marca, OneFootball.`,
-    contentEn: `### Mbappé makes history: Golden Boot and all-time World Cup scoring record
+Para jugadores veteranos, los training camps representan la última oportunidad de asegurar un puesto o incluso de extender sus carreras. Varios nombres conocidos están en situaciones de "prueba" que definirán su futuro en la liga.
 
-Kylian Mbappé, captain of the French national team, was crowned the top scorer of the 2026 World Cup with 10 goals, surpassing Lionel Messi (8 goals) to win the Golden Boot. The 27-year-old Real Madrid forward played 8 matches and also recorded 4 assists.`,
-    date: '2026-07-20',
-    readTimeEs: '7 min de lectura',
-    readTimeEn: '7 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200&h=630&fit=crop',
-    imageCaption: 'Kylian Mbappé, Bota de Oro del Mundial 2026. Foto: Unsplash',
+Con información de: ESPN.`,
+    contentEn: `NFL training camps are underway with major storylines: quarterback competitions in multiple cities, first-round rookies making immediate impressions, and veterans fighting to keep their careers alive. The preseason will be crucial for several franchises to establish their identity before Week 1.`,
+    date: '2026-07-22',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=1200&h=630&fit=crop',
+    imageCaption: 'Campo de entrenamiento de la NFL. Foto: Unsplash',
     categoryEs: 'Deportes',
     categoryEn: 'Sports',
     enableComments: true,
     featured: false,
     views: 1,
-    source: 'FIFA',
-    sourceUrl: 'https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026'
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nfl/story/_/id/40400001/nfl-training-camps-2026-preview'
   },
   {
     id: '51',
-    slug: 'bolivia-pierde-repechaje-mundial-irak',
-    titleEs: 'Bolivia se queda sin Mundial 2026: cayó 2-1 ante Irak en la final del repechaje intercontinental',
-    titleEn: 'Bolivia misses out on 2026 World Cup: lost 2-1 to Iraq in intercontinental playoff final',
-    excerptEs: 'La selección boliviana cayó 2-1 frente a Irak en el estadio BBVA de Monterrey, frustrando su regreso a una Copa del Mundo después de 32 años. Ali Al Hamadi y Aymen Hussein anotaron para Irak; Moisés Paniagua empató transitoriamente para la Verde.',
-    excerptEn: 'Bolivia lost 2-1 to Iraq at the BBVA Stadium in Monterrey, frustrating their return to a World Cup after 32 years. Ali Al Hamadi and Aymen Hussein scored for Iraq; Moisés Paniagua temporarily equalized for La Verde.',
-    contentEs: `### El sueño mundialista de Bolivia se esfuma en Monterrey
+    slug: 'nba-offseason-grades-2026',
+    titleEs: 'NBA Offseason Grades 2026: evaluamos cada movimiento de la agencia libre',
+    titleEn: 'NBA Offseason Grades 2026: grading every free agency move',
+    excerptEs: 'La agencia libre de la NBA 2026 movió miles de millones en contratos y reacomodó el equilibrio de poder en ambas conferencias. Analizamos equipo por equipo.',
+    excerptEn: 'The 2026 NBA free agency moved billions in contracts and reshaped the power balance across both conferences. Team-by-team analysis.',
+    contentEs: `### Una agencia libre que redefinió la NBA
 
-El 31 de marzo de 2026, la selección boliviana perdió 2-1 ante Irak en la final del repechaje intercontinental disputada en el estadio BBVA de Guadalupe, Nuevo León, México. Con este resultado, Bolivia vio frustrado su anhelado regreso a una Copa del Mundo, ausente desde Estados Unidos 1994.
+La temporada muerta de la NBA 2026 será recordada como una de las más activas en años. Contratos máximos, traspasos sorpresa y movimientos estratégicos cambiaron el panorama de la liga de cara a la próxima temporada.
 
-Irak, que no clasificaba a un Mundial desde 1986, se quedó con el último cupo disponible para la Copa del Mundo 2026, completando la nómina de 48 selecciones participantes.
+### Las ganadoras de la agencia libre
 
-### El partido
+Varios equipos salieron fortalecidos de la agencia libre. Franquicias que aseguraron a sus estrellas con extensiones máximas y otras que atrajeron a agentes libres de primer nivel dieron golpes sobre la mesa.
 
-Irak golpeó primero al minuto 10: Ali Al Hamadi cabeceó solo en el área boliviana tras un tiro de esquina y venció a Guillermo Viscarra. Bolivia reaccionó y encontró el empate al minuto 38 gracias a un potente remate de Moisés Paniagua dentro del área, tras una jugada colectiva iniciada por Ramiro Vaca.
+Según el análisis de ESPN, al menos tres equipos mejoraron significativamente su techo competitivo, mientras que otros quedaron en una posición incómoda tras perder a sus figuras sin recibir compensación adecuada.
 
-Sin embargo, en el segundo tiempo, al minuto 53, Aymen Hussein apareció en el punto penal para conectar un centro y marcar el 2-1 definitivo. Bolivia buscó el empate con insistencia pero careció de claridad en los últimos metros.
+### Las grandes incógnitas
 
-### El proyecto Villegas
+No todos los movimientos fueron bien recibidos. Algunos contratos generaron dudas por su duración o monto, especialmente considerando las nuevas reglas del convenio colectivo que penalizan el gasto excesivo.
 
-Pese a la eliminación, el entrenador Óscar Villegas destacó el crecimiento del equipo: "Estábamos pensando en una renovación para el siguiente Mundial, pero los jugadores se han encargado de que sea este el que lo luchemos". Bolivia había mejorado notablemente en las eliminatorias bajo su dirección, gracias a una mezcla de juventud —con figuras como Miguel Terceros y Moisés Paniagua— y experiencia de jugadores como Guillermo Viscarra.
+### Calificaciones equipo por equipo
 
-### Las repercusiones
+Nuestro análisis detallado asigna calificaciones de la A a la F basadas en: retención de talento propio, adquisiciones en agencia libre, movimientos en el draft y flexibilidad salarial futura.
 
-La no clasificación representó un duro golpe económico para la Federación Boliviana de Fútbol y para clubes como Alianza Lima, que esperaba ingresos por la participación de Viscarra en el Mundial. Bolivia llegó a este repechaje tras eliminar a Surinam 2-1 en semifinales y vencer 3-0 a Trinidad y Tobago en amistoso previo.
-
-Con información de: Sporting News, El Comercio, Líbero.`,
-    contentEn: `### Bolivia's World Cup dream ends in Monterrey
-
-On March 31, 2026, Bolivia lost 2-1 to Iraq in the intercontinental playoff final at BBVA Stadium in Guadalupe, Nuevo León, Mexico. Bolivia's long-awaited return to a World Cup, absent since USA 1994, was frustrated.`,
-    date: '2026-03-31',
+Con información de: ESPN.`,
+    contentEn: `The 2026 NBA offseason featured massive contracts, surprising trades, and strategic moves that reshaped the league. Our team-by-team grades evaluate free agency signings, draft picks, trades, and cap management for all 30 franchises.`,
+    date: '2026-07-21',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1574629810360-3ef0ccee3bed?w=1200&h=630&fit=crop',
-    imageCaption: 'La selección boliviana durante el repechaje frente a Irak. Foto: Unsplash',
+    imageUrl: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1200&h=630&fit=crop',
+    imageCaption: 'Cancha de baloncesto de la NBA. Foto: Unsplash',
     categoryEs: 'Deportes',
     categoryEn: 'Sports',
     enableComments: true,
     featured: false,
     views: 1,
-    source: 'Sporting News',
-    sourceUrl: 'https://www.sportingnews.com/es/futbol/news/resultado-bolivia-irak-repechaje-mundial-2026'
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/story/_/id/40400002/nba-offseason-grades-2026'
   },
   {
     id: '52',
-    slug: 'tour-francia-2026-pogacar-vingegaard-carapaz',
-    titleEs: 'Tour de Francia 2026: Pogacar y Vingegaard libran un duelo épico, Carapaz brilla con victoria de etapa',
-    titleEn: '2026 Tour de France: Pogacar and Vingegaard fight an epic duel, Carapaz shines with stage win',
-    excerptEs: 'La 113ª edición del Tour de Francia, que arrancó en Barcelona el 4 de julio y finaliza el 26 en París, enfrenta a Tadej Pogacar y Jonas Vingegaard en una batalla reñida. Richard Carapaz y el mexicano Isaac del Toro destacan entre los latinoamericanos.',
-    excerptEn: 'The 113th edition of the Tour de France, which started in Barcelona on July 4 and ends July 26 in Paris, features a tight battle between Tadej Pogacar and Jonas Vingegaard. Richard Carapaz and Mexican Isaac del Toro stand out among Latin Americans.',
-    contentEs: `### El Tour de Francia 2026 ofrece una de las ediciones más disputadas
+    slug: 'fifa-world-cup-2026-changes',
+    titleEs: 'Mundial 2026: los cambios de formato que transformarán el fútbol global',
+    titleEn: 'World Cup 2026: the format changes transforming global football',
+    excerptEs: 'La FIFA confirma cambios radicales para el Mundial 2026 con un formato expandido a 48 equipos y un nuevo sistema de clasificación que promete revolucionar el torneo.',
+    excerptEn: 'FIFA confirms radical changes for the 2026 World Cup with a 48-team expanded format and new qualification system promising to revolutionize the tournament.',
+    contentEs: `### El Mundial más grande de la historia
 
-La 113ª edición del Tour de Francia comenzó el 4 de julio desde Barcelona, España, con un recorrido de 21 etapas que culmina el 26 de julio en los Campos Elíseos de París. La carrera, que este año incluye la tradicional llegada a París con la múltiple ascensión a Montmartre, ha mantenido a los aficionados al borde del asiento.
+La Copa del Mundo 2026, que se disputará en Estados Unidos, México y Canadá, será la primera edición con 48 selecciones. Este cambio de formato, aprobado por la FIFA, promete un torneo más inclusivo pero también plantea interrogantes sobre la calidad competitiva.
 
-### La batalla por el maillot amarillo
+### El nuevo sistema de clasificación
 
-El duelo entre Tadej Pogacar (UAE Team Emirates) y Jonas Vingegaard (Visma-Lease a Bike) domina la carrera. Pogacar, ganador en 2020, 2021, 2024 y 2025, busca su quinto título. Vingegaard, campeón en 2022 y 2023, intenta recuperar la corona. Tras 18 etapas, la clasificación general muestra diferencias mínimas entre ambos.
+Según informó ESPN, el formato de 48 equipos dividirá a las selecciones en 12 grupos de 4. Los dos primeros de cada grupo avanzarán a octavos de final, junto con los ocho mejores terceros lugares, totalizando 32 equipos en la fase eliminatoria.
 
-El belga Remco Evenepoel (Red Bull) y el mexicano Isaac del Toro (UAE) completan los primeros puestos de la general, demostrando el altísimo nivel de esta edición.
+Este sistema reemplaza el anterior de 32 equipos en 8 grupos, utilizado desde 1998 hasta 2022.
 
-### Latinoamericanos destacados
+### Impacto en Sudamérica y Bolivia
 
-Richard Carapaz (EF Education-EasyPost) ganó la etapa 18 entre Voiron y Orcières-Merlette, su segundo triunfo en el Tour de Francia. El ecuatoriano, campeón olímpico en ruta, demostró su clase en la montaña.
+La Conmebol tendrá más cupos que nunca: 6 plazas directas más un posible repechaje. Para Bolivia, esto representa una oportunidad histórica de clasificar por primera vez desde 1994, aunque el nivel competitivo de la verde sigue siendo un desafío.
 
-Isaac Del Toro, joven mexicano del UAE, se llevó la etapa 2 en Barcelona y se mantiene en el top 3 de la general, liderando también la clasificación de los jóvenes. Es el segundo mexicano en ganar una etapa del Tour después de Raúl Alcalá.
+### Críticas y controversias
 
-### Etapas en España
+No todos aplauden la expansión. Críticos señalan que el formato diluye la calidad del torneo y aumenta la fatiga de los jugadores en un calendario ya saturado. Sin embargo, la FIFA defiende que el nuevo formato democratiza el acceso al máximo evento futbolístico.
 
-El Tour arrancó con tres etapas en España: una contrarreloj por equipos en Barcelona, la etapa 2 entre Tarragona y Barcelona (ganada por Del Toro), y la etapa 3 con final en Toulouse. La salida desde Barcelona marcó la primera vez que el Tour comienza desde España desde 2023.
-
-Con información de: AS, RTVE, Es Ciclismo.`,
-    contentEn: `### The 2026 Tour de France delivers one of the most competitive editions
-
-The 113th edition of the Tour de France started on July 4 from Barcelona, Spain, with a 21-stage route ending July 26 on the Champs-Élysées in Paris.`,
-    date: '2026-07-23',
-    readTimeEs: '9 min de lectura',
-    readTimeEn: '9 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=1200&h=630&fit=crop',
-    imageCaption: 'Pelotón del Tour de Francia 2026 en plena competencia. Foto: Unsplash',
+Con información de: ESPN.`,
+    contentEn: `The 2026 World Cup across USA, Mexico and Canada introduces a 48-team format with 12 groups of 4. The top two from each group plus the eight best third-placed teams advance to a 32-team knockout stage. While more inclusive, critics question the competitive balance and player fatigue concerns.`,
+    date: '2026-07-20',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=1200&h=630&fit=crop',
+    imageCaption: 'Estadio de fútbol con público. Foto: Unsplash',
     categoryEs: 'Deportes',
     categoryEn: 'Sports',
     enableComments: true,
     featured: false,
     views: 1,
-    source: 'AS',
-    sourceUrl: 'https://as.com/ciclismo/tour_francia/'
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400003/fifa-world-cup-2026-format-changes'
   },
   {
     id: '53',
-    slug: 'commonwealth-games-glasgow-2026',
-    titleEs: 'Juegos de la Commonwealth Glasgow 2026: 74 naciones compiten en la cita multideportiva más importante del año',
-    titleEn: 'Glasgow 2026 Commonwealth Games: 74 nations compete in the year\'s biggest multi-sport event',
-    excerptEs: 'Los Juegos de la Commonwealth Glasgow 2026 reunieron a 3.000 atletas de 74 naciones desde el 23 de julio hasta el 2 de agosto. Escocia recibe por tercera vez el evento con 10 deportes en competencia, desde atletismo hasta natación y boxeo.',
-    excerptEn: 'The Glasgow 2026 Commonwealth Games brought together 3,000 athletes from 74 nations from July 23 to August 2. Scotland hosts the event for the third time with 10 sports in competition.',
-    contentEs: `### Glasgow 2026: arrancan los Juegos de la Commonwealth
+    slug: 'spain-dominance-football-2026',
+    titleEs: 'España domina el fútbol mundial: el legado de una generación dorada',
+    titleEn: 'Spain dominates world football: the legacy of a golden generation',
+    excerptEs: 'La selección española continúa su reinado en el fútbol internacional con títulos consecutivos y un estilo de juego que marca tendencia en todo el planeta.',
+    excerptEn: 'Spain continues its reign in international football with consecutive titles and a playing style that sets trends worldwide.',
+    contentEs: `### Una era de dominio absoluto
 
-El 23 de julio de 2026 comenzaron los Juegos de la Commonwealth en Glasgow, Escocia, reuniendo a más de 3.000 atletas de 74 naciones y territorios. Es la tercera vez que la ciudad escocesa organiza el evento, después de las ediciones de 2014 y 2022 (estos últimos compartidos con Birmingham).
+España se ha consolidado como la potencia dominante del fútbol mundial. Con títulos consecutivos en Eurocopas y Mundial, la Roja ha establecido un estándar de excelencia que otras selecciones intentan emular sin éxito.
 
-La ceremonia de apertura se celebró en el Emirates Arena, marcando el inicio de 11 días de competición en 10 deportes que incluyen atletismo, natación, boxeo, ciclismo en pista, gimnasia artística, judo, netball, levantamiento de pesas, bolos sobre césped y baloncesto 3x3.
+### Las claves del éxito
 
-### Deportes y calendario
+Según análisis de ESPN, el éxito español se basa en tres pilares fundamentales: una cantera inagotable que produce talento técnico de élite, un estilo de juego basado en la posesión y presión alta, y una estructura federativa que prioriza la formación sobre los resultados inmediatos.
 
-Los deportes programados incluyen:
+### La nueva generación
 
-- Atletismo y Para Atletismo: 27 julio - 1 agosto (Scotstoun Stadium)
-- Natación y Para Natación: 24 - 29 julio (Tollcross International Swimming Centre)
-- Boxeo: 24 julio - 1 agosto (Cyclopark)
-- Ciclismo en Pista y Para Ciclismo: 29 julio - 1 agosto (Sir Chris Hoy Velodrome)
-- Gimnasia Artística: 24 - 28 julio (Emirates Arena)
-- Judo: 31 julio - 1 agosto (Scottish Exhibition Centre)
-- Baloncesto 3x3 y Baloncesto 3x3 en Silla de Ruedas: 24 - 29 julio
-- Netball: 24 julio - 2 agosto
-- Levantamiento de Pesas y Para Levantamiento: 24 - 30 julio
-- Bolos sobre Césped y Para Bolos: 23 julio - 1 agosto
+El relevo generacional ha sido exitoso. Nuevas figuras emergen de las academias de La Masía y otras canteras españolas, manteniendo el ADN futbolístico que caracteriza a la selección. Jugadores jóvenes ya son titulares indiscutibles en los mejores clubes de Europa.
 
-### Figuras destacadas
+### ¿Hasta cuándo durará el dominio?
 
-Entre los atletas más esperados están Duncan Scott (natación, Escocia), Adam Peaty (natación, Inglaterra) y Shericka Jackson (atletismo, Jamaica). La ceremonia de clausura está programada para el 2 de agosto.
+La pregunta que todos se hacen es si este ciclo dorado continuará o si otras selecciones como Francia, Brasil o Argentina lograrán destronar a España. Por ahora, la Roja sigue siendo el equipo a vencer en cada torneo internacional.
 
-### Impacto para Bolivia
-
-Si bien Bolivia no participa en los Juegos de la Commonwealth por no ser miembro de la Mancomunidad de Naciones, el evento representa una vitrina para atletas de países vecinos como Canadá y países del Caribe, que compiten al más alto nivel.
-
-Con información de: Olympics.com, BBC Sport, Glasgow 2026.`,
-    contentEn: `### Glasgow 2026: Commonwealth Games begin
-
-On July 23, 2026, the Commonwealth Games began in Glasgow, Scotland, bringing together more than 3,000 athletes from 74 nations and territories. It is the third time the city hosts the event.`,
-    date: '2026-07-23',
-    readTimeEs: '8 min de lectura',
-    readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1561489422-45de3d015e3e?w=1200&h=630&fit=crop',
-    imageCaption: 'Estadio durante la inauguración de los Juegos de la Commonwealth Glasgow 2026. Foto: Unsplash',
+Con información de: ESPN.`,
+    contentEn: `Spain's golden generation continues to dominate world football with a philosophy built on technical excellence, possession-based play, and an unmatched youth development system. The national team has set new standards for consistency and success in international competitions.`,
+    date: '2026-07-19',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&h=630&fit=crop',
+    imageCaption: 'Selección española de fútbol celebrando. Foto: Unsplash',
     categoryEs: 'Deportes',
     categoryEn: 'Sports',
     enableComments: true,
     featured: false,
     views: 1,
-    source: 'Olympics.com',
-    sourceUrl: 'https://olympics.com/en/news/commonwealth-games-2026-all-results-complete-list'
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400004/spain-dominance-football-2026'
+  },
+  {
+    id: '54',
+    slug: 'mlb-labor-battle-2026',
+    titleEs: 'MLB 2026: la batalla laboral que amenaza con paralizar el béisbol',
+    titleEn: 'MLB 2026: the labor battle threatening to shut down baseball',
+    excerptEs: 'Las negociaciones entre la MLB y el sindicato de jugadores entran en terreno peligroso con desacuerdos sobre el tope salarial y la repartición de ingresos.',
+    excerptEn: 'Negotiations between MLB and the players union enter dangerous territory with disagreements over salary caps and revenue sharing.',
+    contentEs: `### El fantasma de un nuevo paro
+
+La Major League Baseball enfrenta una nueva crisis laboral. Las negociaciones entre los propietarios y el sindicato de jugadores (MLBPA) se han estancado en puntos críticos, reavivando el temor a una huelga o lockout que podría afectar la temporada 2027.
+
+### Los puntos de conflicto
+
+Según reportes de ESPN, los principales desacuerdos incluyen:
+
+- Tope salarial: Los dueños insisten en implementar un salary cap al estilo NBA/NFL, mientras que los jugadores lo rechazan rotundamente
+- Repartición de ingresos: Disputas sobre cómo distribuir los ingresos por streaming y derechos televisivos
+- Edad de agencia libre: La MLBPA busca reducir los años de servicio necesarios para llegar a la agencia libre
+- Calendario: Propuestas para expandir la temporada regular a 154 juegos
+
+### Impacto en los aficionados
+
+Un posible paro sería devastador para el deporte, que apenas se recupera de los conflictos laborales de 2021-2022. Los aficionados bolivianos que siguen la MLB ven con preocupación cómo estas disputas afectan la continuidad del campeonato.
+
+### ¿Qué sigue?
+
+Las partes tienen hasta febrero de 2027 para llegar a un acuerdo antes de que expire el convenio colectivo actual. La presión aumenta con cada semana sin avances significativos.
+
+Con información de: ESPN.`,
+    contentEn: `MLB faces a critical labor dispute with the players union over salary caps, revenue sharing, free agency age, and schedule changes. The current CBA expires in February 2027, and both sides remain far apart on key issues that could lead to another work stoppage.`,
+    date: '2026-07-18',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=1200&h=630&fit=crop',
+    imageCaption: 'Estadio de béisbol vacío. Foto: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/mlb/story/_/id/40400005/mlb-labor-battle-2026'
+  },
+  {
+    id: '55',
+    slug: 'barcelona-adeyemi-fichaje-2026',
+    titleEs: 'Barcelona ficha a Karim Adeyemi: el delantero que promete goles en el Camp Nou',
+    titleEn: 'Barcelona signs Karim Adeyemi: the forward promising goals at Camp Nou',
+    excerptEs: 'El FC Barcelona cierra el fichaje del delantero alemán Karim Adeyemi en una operación que ronda los 60 millones de euros, reforzando su ataque de cara a la temporada 2026-27.',
+    excerptEn: 'FC Barcelona completes the signing of German forward Karim Adeyemi in a deal worth around €60 million, bolstering their attack for the 2026-27 season.',
+    contentEs: `### Un refuerzo de lujo para el ataque culé
+
+El FC Barcelona ha anunciado el fichaje del delantero alemán Karim Adeyemi procedente del Borussia Dortmund, en una operación que ronda los 60 millones de euros más variables. El jugador de 24 años firma un contrato por cinco temporadas con una cláusula de rescisión de 400 millones de euros.
+
+### Las claves del fichaje
+
+Según reportes de ESPN, la directiva blaugrana llevaba meses negociando con el Dortmund, que finalmente accedió a vender al delantero ante la inminente expiración de su contrato en 2027.
+
+Adeyemi llega para ocupar la posición de extremo izquierdo, donde su velocidad, regate y capacidad goleadora aportarán un nuevo dimension al ataque dirigido por Hansi Flick.
+
+### Impacto en el equipo
+
+Con la llegada de Adeyemi, el Barcelona refuerza una delantera que ya cuenta con Robert Lewandowski y Lamine Yamal. La competencia por los puestos ofensivos se intensifica, lo que promete elevar el nivel del equipo.
+
+### ¿Qué significa para LaLiga?
+
+El fichaje confirma la recuperación financiera del Barcelona, que después de años de restricciones salariales vuelve a competir en el mercado de fichajes por jugadores de primer nivel. LaLiga 2026-27 promete ser una de las más competitivas de los últimos años.
+
+Con información de: ESPN.`,
+    contentEn: `FC Barcelona signs Karim Adeyemi from Borussia Dortmund for approximately €60 million. The German international joins on a five-year deal, adding pace, dribbling and goalscoring ability to Barcelona's attack. The signing signals Barcelona's return to competing for top talent in the transfer market.`,
+    date: '2026-07-17',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1200&h=630&fit=crop',
+    imageCaption: 'Estadio Camp Nou de Barcelona. Foto: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400006/barcelona-adeyemi-transfer-2026'
+  },
+  {
+    id: '56',
+    slug: 'inter-miami-autogol-hilarante',
+    titleEs: 'Inter Miami protagoniza el autogol más insólito de la temporada en la MLS',
+    titleEn: 'Inter Miami scores the most bizarre own goal of the MLS season',
+    excerptEs: 'Un error garrafal en defensa del Inter Miami terminó en autogol que ya es viral en redes sociales, en un partido que complica su clasificación a playoffs.',
+    excerptEn: 'A defensive blunder by Inter Miami resulted in a viral own goal that complicates their playoff qualification hopes.',
+    contentEs: `### El error que dio la vuelta al mundo
+
+El Inter Miami de Lionel Messi vivió uno de los momentos más vergonzosos de la temporada al anotar un autogol que quedará en la historia de la MLS por lo insólito de la jugada.
+
+### ¿Qué pasó?
+
+Según la cobertura de ESPN, durante un partido clave por la clasificación a playoffs, un defensa del Inter Miami intentó despejar un centro lateral pero, ante la presión del delantero rival, conectó el balón de forma desafortunada enviándolo directamente a su propio arco, superando al portero que estaba fuera de posición.
+
+### Reacciones
+
+Las redes sociales explotaron con memes y comentarios sobre la jugada. Incluso compañeros de equipo no pudieron evitar mostrar incredulidad ante lo ocurrido. El entrenador del Inter Miami calificó la jugada como "un error de concentración que no puede repetirse en este nivel".
+
+### Impacto en la clasificación
+
+El resultado dejó al Inter Miami en una posición complicada en la tabla de la Conferencia Este, a falta de pocas fechas para el cierre de la temporada regular. Cada punto es vital en la lucha por los puestos de playoffs.
+
+Con información de: ESPN.`,
+    contentEn: `Inter Miami suffered a humiliating own goal that went viral on social media during a crucial MLS match. The defensive error complicated their playoff qualification hopes as the team struggles to find consistency in the closing stretch of the regular season.`,
+    date: '2026-07-16',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=1200&h=630&fit=crop',
+    imageCaption: 'Estadio de fútbol con aficionados. Foto: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400007/inter-miami-own-goal-2026'
+  },
+  {
+    id: '57',
+    slug: 'wnba-midseason-2026-caitlin-clark',
+    titleEs: 'WNBA 2026: revisión de mitad de temporada con Caitlin Clark como protagonista',
+    titleEn: 'WNBA 2026: midseason review with Caitlin Clark as the star',
+    excerptEs: 'La temporada 2026 de la WNBA llega a su ecuador con Caitlin Clark rompiendo récords de audiencia y asistencias, mientras la liga vive su momento de mayor popularidad.',
+    excerptEn: 'The 2026 WNBA season reaches its midpoint with Caitlin Clark breaking viewership and assist records as the league enjoys unprecedented popularity.',
+    contentEs: `### La temporada del despegue
+
+La WNBA está viviendo su temporada más exitosa en términos de audiencia, asistencia a los estadios e impacto mediático, impulsada principalmente por la llegada de Caitlin Clark, la sensación del baloncesto universitario que ha llevado su talento a la liga profesional.
+
+### Caitlin Clark: el fenómeno
+
+Según reportes de ESPN, Clark está promediando cifras históricas en asistencias y puntos, estableciéndose como la favorita al premio de Novata del Año y candidata al MVP. Su capacidad para llenar estadios dondequiera que juega ha elevado el perfil de toda la liga.
+
+### Las contendientes al título
+
+Varios equipos se perfilan como serias candidatas al campeonato. La profundidad de plantillas, la experiencia en playoffs y la química de equipo serán factores determinantes en la segunda mitad de la temporada.
+
+### El crecimiento de la liga
+
+La WNBA 2026 marca un antes y después. Los ratings televisivos han aumentado más del 40% respecto a la temporada anterior, y las franquicias reportan récords de abonos vendidos. El baloncesto femenino profesional nunca había estado tan visible.
+
+Con información de: ESPN.`,
+    contentEn: `The 2026 WNBA season is a watershed moment for women's basketball. Caitlin Clark's rookie campaign has shattered viewership records and attendance numbers. Multiple teams emerge as championship contenders as the league enters its most popular era.`,
+    date: '2026-07-15',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1200&h=630&fit=crop',
+    imageCaption: 'Partido de baloncesto femenino. Foto: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/wnba/story/_/id/40400008/wnba-midseason-2026-caitlin-clark'
+  },
+  {
+    id: '58',
+    slug: 'lebron-james-free-agency-2026',
+    titleEs: 'LeBron James: el futuro de la estrella que mantiene en vilo a la NBA',
+    titleEn: 'LeBron James: the future of the star keeping the NBA on edge',
+    excerptEs: 'LeBron James enfrenta la decisión más importante de su carrera al entrar en la agencia libre, con equipos de todo Estados Unidos preparando ofertas históricas.',
+    excerptEn: 'LeBron James faces the biggest decision of his career as he enters free agency, with teams across the US preparing historic offers.',
+    contentEs: `### La decisión que define una era
+
+LeBron James, la superestrella de la NBA que redefinió el baloncesto moderno, enfrenta una decisión crucial en su carrera al llegar a la agencia libre en 2026. A sus 41 años, LeBron sigue siendo uno de los jugadores más influyentes dentro y fuera de la cancha.
+
+### Las opciones sobre la mesa
+
+Según reportes de ESPN, varias franquicias se preparan para hacer ofertas históricas:
+
+- **Los Angeles Lakers**: Ofrecen una extensión máxima de tres años que convertiría a LeBron en el primer jugador en ganar más de 100 millones de dólares en una sola temporada
+- **Cleveland Cavaliers**: El regreso a casa para cerrar su carrera donde empezó
+- **New York Knicks**: El mercado más grande del mundo con un proyecto joven y prometedor
+- **Miami Heat**: Una reunión con Pat Riley y la cultura de excelencia que lo llevó a sus primeros campeonatos
+
+### El legado
+
+Más allá del dinero, la decisión de LeBron definirá cómo se recuerda su carrera. ¿Buscará un quinto anillo en un nuevo equipo? ¿Regresará a Cleveland para un cierre emotivo? ¿O se retirará como Laker?
+
+### Impacto mediático
+
+Sea cual sea su decisión, el movimiento de LeBron será el evento deportivo más cubierto del año. Su capacidad para mover mercados, generar audiencia y atraer talento lo convierte en el agente libre más valioso en la historia del deporte profesional.
+
+Con información de: ESPN.`,
+    contentEn: `LeBron James enters free agency at 41 years old, facing a career-defining choice. The Lakers, Cavaliers, Knicks and Heat are all preparing historic offers. Beyond the money, this decision will shape how one of basketball's greatest legacies is remembered.`,
+    date: '2026-07-14',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1519861531473-9200262188bf?w=1200&h=630&fit=crop',
+    imageCaption: 'Cancha de baloncesto profesional. Foto: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ESPN',
+    sourceUrl: 'https://www.espn.com/nba/story/_/id/40400009/lebron-james-free-agency-2026'
   }
 ];
 
