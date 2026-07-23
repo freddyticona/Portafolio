@@ -257,10 +257,14 @@ export function generateArticleStructuredData(article: {
   modifiedDate?: string;
   author?: string;
   image?: string;
+  url?: string;
+  type?: 'Article' | 'NewsArticle';
+  category?: string;
+  keywords?: string[];
 }): object {
-  return {
+  const base = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': article.type || 'Article',
     headline: article.title,
     description: article.description,
     image: article.image || `${BASE_URL}/images/freddy_profile.webp`,
@@ -280,9 +284,19 @@ export function generateArticleStructuredData(article: {
     dateModified: article.modifiedDate || article.publishDate,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${BASE_URL}/#blog`
+      '@id': article.url || `${BASE_URL}/#blog`
     }
   };
+  // Add NewsArticle-specific fields
+  if (article.type === 'NewsArticle') {
+    return {
+      ...base,
+      articleSection: article.category,
+      keywords: article.keywords?.join(', ') || article.category,
+      dateline: 'La Paz, Bolivia',
+    };
+  }
+  return base;
 }
 
 /**
@@ -477,8 +491,12 @@ export function updatePageStructuredData(pageId: string, additionalData?: any): 
       structuredData = generatePortfolioStructuredData(additionalData?.projects);
       break;
     case 'blog':
+    case 'noticias':
       if (additionalData?.article) {
-        structuredData = generateArticleStructuredData(additionalData.article);
+        structuredData = generateArticleStructuredData({
+          ...additionalData.article,
+          type: additionalData.articleType || 'Article',
+        });
       } else {
         structuredData = {
           '@context': 'https://schema.org',

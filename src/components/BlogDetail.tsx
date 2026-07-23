@@ -32,6 +32,7 @@ import {
   Mail
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
+import { injectStructuredData } from '../lib/structuredData';
 
 interface BlogDetailProps {
   post: BlogPost;
@@ -103,6 +104,56 @@ export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDeta
     html = html.replace(/<h2>/gi, () => `<h2 id="section-${idx++}">`);
     return html;
   }, [rawContent]);
+
+  // ─── Structured Data + OG Tags para el artículo ────────────────────
+  useEffect(() => {
+    const title = lang === 'es' ? post.titleEs : post.titleEn;
+    const category = lang === 'es' ? post.categoryEs : post.categoryEn;
+    const shareUrl = window.location.href;
+
+    // Inyectar NewsArticle JSON-LD
+    injectStructuredData({
+      '@context': 'https://schema.org',
+      '@type': 'NewsArticle',
+      headline: title,
+      description: lang === 'es' ? post.excerptEs : post.excerptEn,
+      image: post.imageUrl,
+      author: { '@type': 'Person', name: 'Freddy Ticona Guzmán' },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Freddy Ticona - Servicios Audiovisuales',
+        logo: { '@type': 'ImageObject', url: 'https://freddydev.net/favicon.ico' }
+      },
+      datePublished: post.date,
+      dateModified: post.date,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': shareUrl },
+      articleSection: category,
+      keywords: [category, post.source].filter(Boolean).join(', '),
+      dateline: post.location || 'La Paz, Bolivia',
+    });
+
+    // Meta tags OG para artículo
+    const setMeta = (prop: string, val: string) => {
+      let el = document.querySelector(`meta[property="${prop}"]`) as HTMLMetaElement;
+      if (!el) { el = document.createElement('meta'); el.setAttribute('property', prop); document.head.appendChild(el); }
+      el.content = val;
+    };
+    setMeta('article:published_time', post.date);
+    setMeta('article:modified_time', post.date);
+    setMeta('article:section', category);
+    setMeta('article:tag', category);
+    if (post.source) setMeta('article:tag', post.source);
+
+    // Restaurar al desmontar
+    return () => {
+      const newsScript = document.querySelector('script[type="application/ld+json"]');
+      if (newsScript) newsScript.remove();
+      ['article:published_time', 'article:modified_time', 'article:section', 'article:tag'].forEach(p => {
+        const el = document.querySelector(`meta[property="${p}"]`);
+        if (el) el.remove();
+      });
+    };
+  }, [post, lang]);
 
   // ─── Tiempo de lectura dinámico ─────────────────────────────────────
   const dynamicReadTime = useMemo(() => calculateReadTime(rawContent), [rawContent]);
