@@ -576,3 +576,27 @@ button:focus-visible,
   height: 300px;
 }
 
+/* Cinema dimming — oscurece todo excepto navbar y footer */
+.cinema-dim main,
+.cinema-dim > section {
+  filter: brightness(0.7) saturate(0.8);
+  transition: filter 0.5s ease;
+}
+
+/* Skeleton shimmer */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(212, 175, 55, 0.08) 50%,
+    rgba(255, 255, 255, 0.03) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+

@@ -13,9 +13,11 @@ interface NavbarProps {
   lang: 'es' | 'en';
   setLang: (lang: 'es' | 'en') => void;
   t: Record<string, string>;
+  dimmed?: boolean;
+  setDimmed?: (v: boolean) => void;
 }
 
-export default function Navbar({ activePage, setActivePage, lang, setLang, t }: NavbarProps) {
+export default function Navbar({ activePage, setActivePage, lang, setLang, t, dimmed, setDimmed }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -108,7 +110,19 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
           </div>
 
           {/* Language Switcher and Actions */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-2">
+            <button
+              onClick={() => setDimmed?.(!dimmed)}
+              id="dimming-toggle-desktop"
+              aria-label={dimmed ? (lang === 'es' ? 'Desactivar modo cine' : 'Disable cinema mode') : (lang === 'es' ? 'Activar modo cine' : 'Enable cinema mode')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-sm border transition-all duration-200 text-xs font-mono font-semibold ${
+                dimmed ? 'bg-gold/10 border-gold/30 text-gold' : 'border-white/10 text-stone-300 hover:text-gold hover:bg-white/5'
+              }`}
+            >
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d={dimmed ? 'M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z' : 'M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z'} />
+              </svg>
+            </button>
             <button
               onClick={toggleLanguage}
               id="language-toggle-desktop"
@@ -121,12 +135,24 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex md:hidden items-center gap-3">
+          <div className="flex md:hidden items-center gap-2">
+            <button
+              onClick={() => setDimmed?.(!dimmed)}
+              id="dimming-toggle-mobile"
+              aria-label={dimmed ? (lang === 'es' ? 'Desactivar modo cine' : 'Disable cinema mode') : (lang === 'es' ? 'Activar modo cine' : 'Enable cinema mode')}
+              className={`p-2 rounded-sm border transition-colors text-xs ${
+                dimmed ? 'bg-gold/10 border-gold/30 text-gold' : 'border-white/10 text-stone-400 hover:text-gold'
+              }`}
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d={dimmed ? 'M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z' : 'M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z'} />
+              </svg>
+            </button>
             <button
               onClick={toggleLanguage}
               id="language-toggle-mobile"
               aria-label={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-sm border border-white/10 text-stone-300 text-xs font-mono font-semibold"
+              className="flex items-center gap-1 px-2 py-1.5 rounded-sm border border-white/10 text-stone-300 text-xs font-mono font-semibold"
             >
               <Globe className="w-3.5 h-3.5 text-gold" aria-hidden="true" />
               <span>{lang === 'es' ? 'EN' : 'ES'}</span>

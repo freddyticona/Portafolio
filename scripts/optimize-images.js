@@ -1,133 +1,84 @@
-#!/usr/bin/env node
-
 /**
- * Script para optimizar imágenes y convertirlas a WebP
+ * optimize-images.js
  *
- * Uso:
- * npm run optimize-images
+ * Escanea public/images/portfolio/ y public/images/blog/
+ * Comprime JPEG/PNG/WebP y genera versiones .webp si no existen.
+ *
+ * Uso: node scripts/optimize-images.js
  */
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import sharp from 'sharp';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const DIRS = ['public/images/portfolio', 'public/images/blog', 'public/images/behind-scenes'];
+const QUALITY_JPEG = 82;
+const QUALITY_WEBP = 80;
+const MAX_WIDTH = 1920;
 
-// Directorios
-const SOURCE_DIR = path.join(__dirname, '../public/images');
-const OUTPUT_DIR = path.join(__dirname, '../public/images-optimized');
+async function optimizeFile(filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  if (!['.jpg', '.jpeg', '.png'].includes(ext)) return;
 
-// Extensiones a procesar
-const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG'];
+  const fileSizeBefore = fs.statSync(filePath).size;
 
-// Calidad WebP (0-100)
-const WEBP_QUALITY = 85;
-
-/**
- * Obtener todas las imágenes del directorio
- */
-function getImages(dir, fileList = []) {
-  const files = fs.readdirSync(dir);
-
-  files.forEach(file => {
-    const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
-
-    if (stat.isDirectory()) {
-      getImages(filePath, fileList);
-    } else if (IMAGE_EXTENSIONS.includes(path.extname(file))) {
-      fileList.push(filePath);
-    }
-  });
-
-  return fileList;
-}
-
-/**
- * Optimizar imagen usando sharp
- */
-async function optimizeImage(inputPath, outputPath) {
   try {
-    await sharp(inputPath)
-      .webp({ quality: WEBP_QUALITY })
-      .toFile(outputPath);
+    const image = sharp(filePath);
+    const metadata = await image.metadata();
 
-    // Obtener tamaños
-    const inputSize = fs.statSync(inputPath).size / 1024; // KB
-    const outputSize = fs.statSync(outputPath).size / 1024; // KB
-    const savings = ((1 - outputSize / inputSize) * 100).toFixed(1);
+    let pipeline = image;
+    if (metadata.width > MAX_WIDTH) {
+      pipeline = pipeline.resize({ width: MAX_WIDTH, withoutEnlargement: true });
+    }
 
-    console.log(`✅ ${path.basename(inputPath)}: ${inputSize.toFixed(1)}KB → ${outputSize.toFixed(1)}KB (${savings}% reduction)`);
-  } catch (error) {
-    console.error(`❌ Error procesando ${inputPath}:`, error.message);
+    // Optimizar original (sobreescribir)
+    if (ext === '.jpg' || ext === '.jpeg') {
+      await pipeline.jpeg({ quality: QUALITY_JPEG, mozjpeg: true }).toFile(filePath + '.tmp');
+      fs.renameSync(filePath + '.tmp', filePath);
+    } else if (ext === '.png') {
+      await pipeline.png({ compressionLevel: 9, palette: true }).toFile(filePath + '.tmp');
+      fs.renameSync(filePath + '.tmp', filePath);
+    }
+
+    const fileSizeAfter = fs.statSync(filePath).size;
+    const saved = ((fileSizeBefore - fileSizeAfter) / fileSizeBefore * 100).toFixed(1);
+
+    // Generar .webp si no existe
+    const webpPath = filePath.replace(/\.[^.]+$/, '.webp');
+    if (!fs.existsSync(webpPath)) {
+      await pipeline
+        .webp({ quality: QUALITY_WEBP })
+        .toFile(webpPath);
+      const webpSize = fs.statSync(webpPath).size;
+      console.log(`  ✅ ${path.basename(filePath)} → ${path.basename(webpPath)} (${(webpSize / 1024).toFixed(0)} KB)`);
+    }
+
+    console.log(`  ✓ ${path.basename(filePath)} — ${(fileSizeBefore / 1024).toFixed(0)} KB → ${(fileSizeAfter / 1024).toFixed(0)} KB (${saved}%)`);
+  } catch (err) {
+    console.error(`  ✗ Error en ${filePath}:`, err.message);
   }
 }
 
-/**
- * Crear directorio si no existe
- */
-function ensureDir(dir) {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+async function walkDir(dir) {
+  if (!fs.existsSync(dir)) return;
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      await walkDir(fullPath);
+    } else {
+      await optimizeFile(fullPath);
+    }
   }
 }
 
-/**
- * Procesar todas las imágenes
- */
-async function processImages() {
-  console.log('🔍 Buscando imágenes...\n');
+console.log('🖼️  Optimizando imágenes...\n');
 
-  if (!fs.existsSync(SOURCE_DIR)) {
-    console.log(`⚠️  Directorio no encontrado: ${SOURCE_DIR}`);
-    console.log('💡 Asegúrate de que la carpeta public/images exista');
-    return;
+for (const dir of DIRS) {
+  if (fs.existsSync(dir)) {
+    console.log(`📁 ${dir}`);
+    await walkDir(dir);
   }
-
-  const images = getImages(SOURCE_DIR);
-  console.log(`📁 Encontradas ${images.length} imágenes\n`);
-
-  if (images.length === 0) {
-    console.log('No se encontraron imágenes para procesar.');
-    return;
-  }
-
-  // Crear directorio de salida
-  ensureDir(OUTPUT_DIR);
-
-  let processed = 0;
-  let totalOriginalSize = 0;
-  let totalOptimizedSize = 0;
-
-  for (const imagePath of images) {
-    const relativePath = path.relative(SOURCE_DIR, imagePath);
-    const outputPath = path.join(OUTPUT_DIR, relativePath.replace(/\.(jpg|jpeg|png)$/i, '.webp'));
-
-    // Crear subdirectorios si es necesario
-    ensureDir(path.dirname(outputPath));
-
-    await optimizeImage(imagePath, outputPath);
-
-    // Acumular estadísticas
-    try {
-      totalOriginalSize += fs.statSync(imagePath).size;
-      totalOptimizedSize += fs.statSync(outputPath).size;
-      processed++;
-    } catch {}
-  }
-
-  console.log('\n' + '='.repeat(50));
-  console.log(`📊 RESUMEN:`);
-  console.log(`   Procesadas: ${processed}/${images.length} imágenes`);
-  console.log(`   Tamaño original: ${(totalOriginalSize / 1024 / 1024).toFixed(2)} MB`);
-  console.log(`   Tamaño optimizado: ${(totalOptimizedSize / 1024 / 1024).toFixed(2)} MB`);
-  console.log(`   Ahorro: ${((1 - totalOptimizedSize / totalOriginalSize) * 100).toFixed(1)}%`);
-  console.log('='.repeat(50));
-  console.log(`\n✅ Imágenes optimizadas guardadas en: ${OUTPUT_DIR}`);
-  console.log(`\n💡 Para usar las imágenes optimizadas, mueve el contenido de images-optimized a images/`);
 }
 
-// Ejecutar
-processImages().catch(console.error);
+console.log('\n✅ Optimización completa.');

@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import { motion } from 'framer-motion';
 import { Award, Play, ChevronDown, Sparkles } from 'lucide-react';
 
 interface CinematicHeroProps {
@@ -16,7 +17,6 @@ interface CinematicHeroProps {
 export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es', t }: CinematicHeroProps) {
   const [scrollY, setScrollY] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [time, setTime] = useState(0);
   const [heroLoaded, setHeroLoaded] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
@@ -36,12 +36,9 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('mousemove', handleMouseMove);
 
-    const interval = setInterval(() => setTime(prev => prev + 0.01), 16);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('mousemove', handleMouseMove);
-      clearInterval(interval);
     };
   }, []);
 
@@ -82,24 +79,17 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
 
   const content = heroContent[lang];
 
-  // Efecto de partículas sutil
-  const Particle = React.memo(({ index }: { index: number }) => {
-    const delay = index * 0.5;
-    const x = Math.sin(time + delay) * 50;
-    const y = Math.cos(time + delay * 0.5) * 30;
-
-    return (
-      <div
-        className="absolute w-1 h-1 bg-gold/30 rounded-full"
-        style={{
-          left: `${50 + Math.sin(index * 567) * 40 + x * 0.1}%`,
-          top: `${50 + Math.cos(index * 321) * 40 + y * 0.1}%`,
-          animation: `float ${3 + delay}s ease-in-out infinite`,
-          animationDelay: `${delay}s`
-        }}
-      />
-    );
-  });
+  // Partículas doradas con framer-motion
+  const particles = Array.from({ length: 30 }).map((_, i) => ({
+    id: i,
+    x: Math.random() * 100,
+    y: Math.random() * 100,
+    size: Math.random() * 3 + 1,
+    delay: Math.random() * 5,
+    duration: Math.random() * 4 + 3,
+    xDrift: (Math.random() - 0.5) * 60,
+    yDrift: (Math.random() - 0.5) * 40,
+  }));
 
   return (
     <div
@@ -113,7 +103,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
       <div
         className="absolute inset-0 z-0"
         style={{
-          transform: `translateY(${scrollY * 0.5}px) scale3d(${1 + scrollY * 0.0001}, ${1 + scrollY * 0.0001}, 1, ${mousePosition.x * -10}px, ${mousePosition.y * -10}px, 0)`
+          transform: `translateY(${scrollY * 0.5}px) scale3d(${1 + scrollY * 0.0001}, ${1 + scrollY * 0.0001}, 1) translate(${mousePosition.x * -10}px, ${mousePosition.y * -10}px)`
         }}
       >
         <img
@@ -150,11 +140,34 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         {/* Grid overlay cinematográfico */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(212,175,55,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(212,175,55,0.03)_1px,transparent_1px)] bg-[size:100px_100px]" />
 
-        {/* Partículas flotantes */}
+        {/* Partículas flotantes con framer-motion */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {Array.from({ length: 20 }).map((_, index) => {
-            return <Particle key={index} index={index} />;
-          })}
+          {particles.map(p => (
+            <motion.div
+              key={p.id}
+              className="absolute rounded-full"
+              style={{
+                left: `${p.x}%`,
+                top: `${p.y}%`,
+                width: p.size,
+                height: p.size,
+                background: p.size > 2 ? 'rgba(212, 175, 55, 0.5)' : 'rgba(212, 175, 55, 0.3)',
+                boxShadow: p.size > 2 ? '0 0 6px rgba(212, 175, 55, 0.3)' : 'none',
+              }}
+              animate={{
+                x: [0, p.xDrift * 0.3, 0, -p.xDrift * 0.3, 0],
+                y: [0, -p.yDrift * 0.5, p.yDrift * 0.3, p.yDrift * 0.2, 0],
+                opacity: [0.3, 0.8, 0.4, 0.7, 0.3],
+                scale: [1, 1.3, 0.8, 1.1, 1],
+              }}
+              transition={{
+                duration: p.duration,
+                delay: p.delay,
+                repeat: Infinity,
+                ease: 'easeInOut',
+              }}
+            />
+          ))}
         </div>
       </div>
 
@@ -282,21 +295,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
           to {
             opacity: 1;
             transform: translateY(0);
-          }
-        }
-
-        @keyframes float {
-          0%, 100% {
-            transform: translate(0, 0);
-          }
-          25% {
-            transform: translate(10px, -10px);
-          }
-          50% {
-            transform: translate(0, -20px);
-          }
-          75% {
-            transform: translate(-10px, -10px);
           }
         }
 

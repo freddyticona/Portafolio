@@ -18,6 +18,7 @@
  */
 
 import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { PageId, BlogPost } from './types';
 import { blogPosts as defaultBlogPosts, translations } from './translations';
 import type { FilterState } from './components/PortfolioFilters';
@@ -31,6 +32,8 @@ import { updateMetaTags } from './lib/seo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SkipLink from './components/SkipLink';
+import CookieBanner from './components/CookieBanner';
+import NotFoundPage from './pages/NotFoundPage';
 import { UpdatePrompt, OnlineStatus } from './hooks/useServiceWorker';
 
 // Páginas — lazy loaded para code splitting por ruta
@@ -47,20 +50,57 @@ const AdminPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: 
 
 // Componentes flotantes globales — lazy loaded
 const WhatsAppButton = lazy(() => import('./components/WhatsAppButton'));
-const GlobalSearch = lazy(() => import('./components/GlobalSearch'));
 const Chatbot = lazy(() => import('./components/Chatbot'));
 
-/**
- * Fallback de carga universal — se muestra mientras Suspense espera
- */
-function LoadingFallback() {
+// ─── Skeleton loaders por tipo de página ─────────────────────────────────
+function PageSkeleton({ variant = 'default' }: { variant?: 'default' | 'blog' | 'portfolio' }) {
+  if (variant === 'portfolio') {
+    return (
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8 animate-pulse" role="status" aria-label="Cargando portafolio...">
+        <div className="flex gap-3"><div className="skeleton h-9 w-28 rounded" /><div className="skeleton h-9 w-28 rounded" /><div className="skeleton h-9 w-28 rounded" /></div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[1,2,3,4,5,6].map(i => (
+            <div key={i} className="bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden">
+              <div className="skeleton aspect-video w-full" />
+              <div className="p-5 space-y-3">
+                <div className="skeleton h-3 w-24 rounded" />
+                <div className="skeleton h-5 w-3/4 rounded" />
+                <div className="skeleton h-3 w-full rounded" />
+                <div className="flex gap-2"><div className="skeleton h-5 w-14 rounded" /><div className="skeleton h-5 w-14 rounded" /></div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+  if (variant === 'blog') {
+    return (
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8 animate-pulse" role="status" aria-label="Cargando artículos...">
+        <div className="flex gap-3"><div className="skeleton h-9 w-28 rounded" /><div className="skeleton h-9 w-28 rounded" /></div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[1,2,3].map(i => (
+            <div key={i} className="bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden">
+              <div className="skeleton aspect-video w-full" />
+              <div className="p-5 space-y-3">
+                <div className="skeleton h-3 w-32 rounded" />
+                <div className="skeleton h-5 w-full rounded" />
+                <div className="skeleton h-3 w-5/6 rounded" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
   return (
-    <div className="flex items-center justify-center p-8" role="status">
-      <div
-        className="skeleton w-full h-32 rounded"
-        aria-busy="true"
-        aria-label="Cargando contenido..."
-      />
+    <div className="flex items-center justify-center min-h-[50vh] animate-pulse" role="status" aria-label="Cargando...">
+      <div className="space-y-4 w-full max-w-md px-8">
+        <div className="skeleton h-6 w-3/4 rounded mx-auto" />
+        <div className="skeleton h-4 w-full rounded" />
+        <div className="skeleton h-4 w-5/6 rounded" />
+        <div className="skeleton h-4 w-2/3 rounded" />
+      </div>
     </div>
   );
 }
@@ -68,7 +108,11 @@ function LoadingFallback() {
 export default function App() {
   // ─── Estado global de la aplicación ─────────────────────────────────────
   const [activePage, setActivePage] = useState<PageId>('inicio');
-  const [lang, setLang] = useState<'es' | 'en'>('es');
+  const [lang, setLang] = useState<'es' | 'en'>(() => {
+    const saved = typeof window !== 'undefined' ? localStorage.getItem('lang') : null;
+    return (saved === 'es' || saved === 'en') ? saved : 'es';
+  });
+  const [dimmed, setDimmed] = useState(false);
 
   // Sub-navegación dentro de páginas
   const [activeCaseStudyId, setActiveCaseStudyId] = useState<string | null>(null);
@@ -122,6 +166,12 @@ export default function App() {
   // Ref para el handler de popstate (evita stale closure)
   const blogPostsRef = useRef(blogPosts);
   blogPostsRef.current = blogPosts;
+
+  // ─── Persistir idioma en localStorage ─────────────────────────────────────
+  const handleSetLang = (next: 'es' | 'en') => {
+    setLang(next);
+    localStorage.setItem('lang', next);
+  };
 
   // ─── Sincronizar URL con estado en mount y popstate ───────────────────────
   useEffect(() => {
@@ -184,82 +234,100 @@ export default function App() {
     setActiveCaseStudyId(null);
   };
 
-  // ─── Renderizar página activa ─────────────────────────────────────────────
+  // ─── Renderizar página activa con transiciones ────────────────────────────
   const renderPage = () => {
-    switch (activePage) {
-      case 'inicio':
-        return (
-          <HomePage
-            lang={lang}
-            t={t}
-            blogPosts={blogPosts}
-            handleNavToTab={handleNavToTab}
-            handleArticleClick={handleArticleClick}
-            reelPlaying={reelPlaying}
-            setReelPlaying={setReelPlaying}
-            reelMuted={reelMuted}
-            setReelMuted={setReelMuted}
-          />
-        );
-      case 'sobre-mi':
-        return <AboutPage lang={lang} t={t} />;
-      case 'portafolio':
-        return (
-          <PortfolioPage
-            lang={lang}
-            t={t}
-            activeCaseStudyId={activeCaseStudyId}
-            setActiveCaseStudyId={setActiveCaseStudyId}
-            portfolioFilters={portfolioFilters}
-            setPortfolioFilters={setPortfolioFilters}
-          />
-        );
-      case 'cv':
-        return <CVPage lang={lang} t={t} />;
-      case 'blog':
-        return (
-          <BlogPage
-            lang={lang}
-            t={t}
-            blogPosts={blogPosts}
-            activeBlogPostId={activeBlogPostId}
-            setActiveBlogPostId={setActiveBlogPostId}
-            handleArticleClick={handleArticleClick}
-          />
-        );
-      case 'noticias':
-        return (
-          <NoticiasPage
-            lang={lang}
-            t={t}
-            blogPosts={blogPosts}
-            activeBlogPostId={activeBlogPostId}
-            setActiveBlogPostId={setActiveBlogPostId}
-            handleArticleClick={handleArticleClick}
-          />
-        );
-      case 'contacto':
-        return <ContactPage lang={lang} t={t} />;
-      case 'reservas':
-        return <BookingPage lang={lang} t={t} />;
-      case 'servicios':
-        return (
-          <ServicesPage
-            lang={lang}
-            t={t}
-            onContact={() => handleNavToTab('contacto')}
-            onBooking={() => handleNavToTab('reservas')}
-          />
-        );
-      case 'admin':
-        return <AdminPage lang={lang} onBack={() => handleNavToTab('inicio')} />;
-      default:
-        return null;
-    }
+    const pageContent = (() => {
+      switch (activePage) {
+        case 'inicio':
+          return (
+            <HomePage
+              lang={lang}
+              t={t}
+              blogPosts={blogPosts}
+              handleNavToTab={handleNavToTab}
+              handleArticleClick={handleArticleClick}
+              reelPlaying={reelPlaying}
+              setReelPlaying={setReelPlaying}
+              reelMuted={reelMuted}
+              setReelMuted={setReelMuted}
+            />
+          );
+        case 'sobre-mi':
+          return <AboutPage lang={lang} t={t} />;
+        case 'portafolio':
+          return (
+            <PortfolioPage
+              lang={lang}
+              t={t}
+              activeCaseStudyId={activeCaseStudyId}
+              setActiveCaseStudyId={setActiveCaseStudyId}
+              portfolioFilters={portfolioFilters}
+              setPortfolioFilters={setPortfolioFilters}
+            />
+          );
+        case 'cv':
+          return <CVPage lang={lang} t={t} />;
+        case 'blog':
+          return (
+            <BlogPage
+              lang={lang}
+              t={t}
+              blogPosts={blogPosts}
+              activeBlogPostId={activeBlogPostId}
+              setActiveBlogPostId={setActiveBlogPostId}
+              handleArticleClick={handleArticleClick}
+            />
+          );
+        case 'noticias':
+          return (
+            <NoticiasPage
+              lang={lang}
+              t={t}
+              blogPosts={blogPosts}
+              activeBlogPostId={activeBlogPostId}
+              setActiveBlogPostId={setActiveBlogPostId}
+              handleArticleClick={handleArticleClick}
+            />
+          );
+        case 'contacto':
+          return <ContactPage lang={lang} t={t} />;
+        case 'reservas':
+          return <BookingPage lang={lang} t={t} />;
+        case 'servicios':
+          return (
+            <ServicesPage
+              lang={lang}
+              t={t}
+              onContact={() => handleNavToTab('contacto')}
+              onBooking={() => handleNavToTab('reservas')}
+            />
+          );
+        case 'admin':
+          return <AdminPage lang={lang} onBack={() => handleNavToTab('inicio')} />;
+        default:
+          return <NotFoundPage lang={lang} onHome={() => handleNavToTab('inicio')} />;
+      }
+    })();
+
+    return (
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activePage}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -12 }}
+          transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+        >
+          {pageContent}
+        </motion.div>
+      </AnimatePresence>
+    );
   };
 
+  const pageSkeleton = activePage === 'portafolio' ? 'portfolio' : (activePage === 'blog' || activePage === 'noticias' ? 'blog' : 'default');
+
   return (
-    <div className="min-h-screen bg-[#050505] font-sans text-stone-300 selection:bg-gold selection:text-black flex flex-col justify-between">
+    <div className={`min-h-screen bg-[#050505] font-sans text-stone-300 selection:bg-gold selection:text-black flex flex-col justify-between transition-all duration-500 ${dimmed ? 'cinema-dim' : ''}`}>
 
       {/* Skip Link para accesibilidad */}
       <SkipLink lang={lang} />
@@ -269,13 +337,15 @@ export default function App() {
         activePage={activePage}
         setActivePage={setActivePage}
         lang={lang}
-        setLang={setLang}
+        setLang={handleSetLang}
         t={t}
+        dimmed={dimmed}
+        setDimmed={setDimmed}
       />
 
       {/* Main Page Area */}
       <main id="main-content" className="flex-grow" tabIndex={-1}>
-        <Suspense fallback={<LoadingFallback />}>
+        <Suspense fallback={<PageSkeleton variant={pageSkeleton} />}>
           {renderPage()}
         </Suspense>
       </main>
@@ -288,9 +358,6 @@ export default function App() {
         <WhatsAppButton phoneNumber={CONTACT_INFO.phoneNumber} lang={lang} />
       </Suspense>
       <Suspense fallback={null}>
-        <GlobalSearch lang={lang} onNavigate={handleNavToTab} />
-      </Suspense>
-      <Suspense fallback={null}>
         <Chatbot lang={lang} t={t} onNavigate={handleNavToTab} />
       </Suspense>
 
@@ -301,6 +368,9 @@ export default function App() {
       {/* Vercel Analytics & Speed Insights */}
       <Analytics />
       <SpeedInsights />
+
+      {/* Cookie Consent Banner */}
+      <CookieBanner lang={lang} />
 
     </div>
   );

@@ -184,19 +184,14 @@ export default function GlobalSearch({ lang = 'es', onNavigate }: GlobalSearchPr
   };
 
   return (
-    <div ref={searchRef} className="relative">
-      {/* Botón de búsqueda */}
+    <div ref={searchRef}>
+      {/* Botón de búsqueda flotante */}
       <button
         onClick={() => setIsOpen(true)}
-        className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-gold/30 rounded-sm text-stone-400 hover:text-gold transition-all duration-300 text-sm font-mono"
+        className="fixed bottom-24 left-6 z-50 w-12 h-12 bg-[#0a0a0a] border border-white/10 hover:border-gold/30 rounded-full shadow-lg flex items-center justify-center text-stone-400 hover:text-gold transition-all duration-300 cursor-pointer"
+        aria-label={lang === 'es' ? 'Buscar (⌘K)' : 'Search (⌘K)'}
       >
-        <Search className="w-4 h-4" />
-        <span className="hidden md:inline">
-          {lang === 'es' ? 'Buscar...' : 'Search...'}
-        </span>
-        <kbd className="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 bg-white/5 rounded text-xs text-stone-500 font-mono">
-          <span>⌘</span><span>K</span>
-        </kbd>
+        <Search className="w-5 h-5" />
       </button>
 
       {/* Modal de búsqueda */}
