@@ -29,7 +29,9 @@ import {
   ChevronRight,
   ExternalLink,
   Heart,
-  Mail
+  Mail,
+  TrendingUp,
+  Flame
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
 import { injectStructuredData } from '../lib/structuredData';
@@ -40,6 +42,7 @@ interface BlogDetailProps {
   lang: 'es' | 'en';
   t: any;
   onBack: () => void;
+  onNavigate?: (post: BlogPost) => void;
   allPosts?: BlogPost[];
 }
 
@@ -55,7 +58,7 @@ function calculateReadTime(content: string): string {
   return `${minutes} min`;
 }
 
-export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDetailProps) {
+export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts }: BlogDetailProps) {
   const [showComments, setShowComments] = useState(true);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [showBackTop, setShowBackTop] = useState(false);
@@ -181,6 +184,12 @@ export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDeta
       .filter(p => p.id !== post.id && (p.categoryEs === cat || p.categoryEn === cat))
       .slice(0, 3);
   }, [allPosts, post]);
+
+  // ─── Trending Posts ─────────────────────────────────────────────────
+  const trendingPosts = useMemo(() => {
+    if (!allPosts) return [];
+    return [...allPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 5);
+  }, [allPosts]);
 
   return (
     <>
@@ -459,6 +468,43 @@ export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDeta
         </div>
       )}
 
+      {/* Trending Section */}
+      {trendingPosts.length > 0 && (
+        <div className="border-t border-white/5 pt-8 space-y-6">
+          <h3 className="text-lg font-bold text-white flex items-center gap-2">
+            <TrendingUp className="w-5 h-5 text-gold" />
+            {lang === 'es' ? 'Lo Más Leído' : 'Trending'}
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
+            {trendingPosts.map((tp, i) => {
+              const tpTitle = lang === 'es' ? tp.titleEs : tp.titleEn;
+              return (
+                <button
+                  key={tp.id}
+                  onClick={() => onNavigate?.(tp)}
+                  className="group text-left bg-white/[0.02] border border-white/5 hover:border-gold/30 rounded-sm p-3 transition-all duration-200 cursor-pointer"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-lg font-black text-stone-600 group-hover:text-gold font-display tabular-nums leading-none transition-colors">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <div className="min-w-0 flex-1 space-y-1">
+                      <h4 className="text-xs font-semibold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
+                        {tpTitle}
+                      </h4>
+                      <span className="flex items-center gap-1 text-[9px] font-mono text-stone-500">
+                        <Flame className="w-3 h-3 text-red-500/80" />
+                        {tp.views || 0} {lang === 'es' ? 'lecturas' : 'reads'}
+                      </span>
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Artículos Relacionados */}
       {relatedPosts.length > 0 && (
         <div className="border-t border-white/5 pt-8 space-y-6">
@@ -473,10 +519,7 @@ export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDeta
               return (
                 <button
                   key={rp.id}
-                  onClick={() => {
-                    window.history.pushState(null, '', `/${window.location.pathname.split('/')[1]}/${rp.slug}`);
-                    window.location.reload();
-                  }}
+                  onClick={() => onNavigate?.(rp)}
                   className="group text-left bg-white/[0.02] border border-white/5 hover:border-gold/30 rounded-sm overflow-hidden transition-all duration-200 cursor-pointer"
                 >
                   <div className="aspect-video bg-[#111] relative overflow-hidden">

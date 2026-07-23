@@ -30,6 +30,8 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
   const category = lang === 'es' ? post.categoryEs : post.categoryEn;
   const readTime = lang === 'es' ? post.readTimeEs : post.readTimeEn;
 
+  const isNew = (Date.now() - new Date(post.date).getTime()) / (1000 * 60 * 60) < 48;
+
   const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
     news: { es: 'NOTICIA', en: 'NEWS' },
     analysis: { es: 'ANÁLISIS', en: 'ANALYSIS' },
@@ -76,6 +78,11 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
         {post.breaking && (
           <span className="absolute top-4 left-4 bg-red-600 text-white text-[10px] font-mono font-bold uppercase tracking-widest px-3 py-1 rounded-sm z-10 animate-pulse shadow-lg">
             {lang === 'es' ? '🚨 ÚLTIMA HORA' : '🚨 BREAKING'}
+          </span>
+        )}
+        {!post.breaking && isNew && (
+          <span className="absolute top-4 right-4 bg-emerald-500 text-white text-[9px] font-mono font-bold uppercase tracking-widest px-2.5 py-1 rounded-sm z-10 shadow-lg">
+            {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
 
@@ -202,6 +209,11 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
         {post.breaking && (
           <span className="absolute top-2 right-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md animate-pulse">
             {lang === 'es' ? 'ÚLTIMA HORA' : 'BREAKING'}
+          </span>
+        )}
+        {!post.breaking && isNew && (
+          <span className="absolute top-2 right-2 bg-emerald-500 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
+            {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
       </div>

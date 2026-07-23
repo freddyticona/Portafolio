@@ -18,6 +18,8 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
+  const isNew = (Date.now() - new Date(post.date).getTime()) / (1000 * 60 * 60) < 48;
+
   const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
     news: { es: 'NOTICIA', en: 'NEWS' },
     analysis: { es: 'ANÁLISIS', en: 'ANALYSIS' },
@@ -61,6 +63,11 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
               </span>
             )}
           </div>
+          {isNew && (
+            <span className="absolute top-3 right-3 bg-emerald-500 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md">
+              {lang === 'es' ? 'NUEVO' : 'NEW'}
+            </span>
+          )}
         </div>
 
         {/* Post content */}

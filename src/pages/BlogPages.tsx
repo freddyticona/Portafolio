@@ -59,6 +59,7 @@ export function BlogPage({
               window.history.pushState(null, '', '/blog');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
+            onNavigate={(p) => handleArticleClick(p, 'blog')}
           />
         </Suspense>
       ) : (
@@ -131,6 +132,7 @@ export function NoticiasPage({
               window.history.pushState(null, '', '/noticias');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
+            onNavigate={(p) => handleArticleClick(p, 'noticias')}
           />
         </Suspense>
       </div>

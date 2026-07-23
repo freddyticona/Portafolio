@@ -4,9 +4,9 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { BlogPost } from '../types';
+import { BlogPost, ContentType } from '../types';
 import NewsCard from './NewsCard';
-import { TrendingUp, Flame, Search, SlidersHorizontal, ChevronDown } from 'lucide-react';
+import { TrendingUp, Flame, Search, SlidersHorizontal, ChevronDown, List } from 'lucide-react';
 import { TranslationT } from '../types.translation';
 
 interface NewsPortalProps {
@@ -18,6 +18,7 @@ interface NewsPortalProps {
 
 export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
   const [activeCategory, setActiveCategory] = useState<string>('all');
+  const [activeContentType, setActiveContentType] = useState<string>('all');
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [sortBy, setSortBy] = useState<'recent' | 'popular' | 'oldest'>('recent');
   const [visibleCount, setVisibleCount] = useState<number>(6);
@@ -34,6 +35,20 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       if (p.categoryEs) catSet.add(p.categoryEs);
     });
     return ['all', ...Array.from(catSet).sort()];
+  }, [posts]);
+
+  // Opciones de tipo de contenido
+  const contentTypeOptions = useMemo(() => {
+    const types: { value: string; labelEs: string; labelEn: string }[] = [
+      { value: 'all', labelEs: 'Todos', labelEn: 'All' },
+      { value: 'news', labelEs: 'Noticia', labelEn: 'News' },
+      { value: 'analysis', labelEs: 'Análisis', labelEn: 'Analysis' },
+      { value: 'opinion', labelEs: 'Opinión', labelEn: 'Opinion' },
+      { value: 'reportage', labelEs: 'Reportaje', labelEn: 'Reportage' },
+      { value: 'behind-scenes', labelEs: 'Detrás de Cámaras', labelEn: 'Behind the Scenes' }
+    ];
+    const used = new Set(posts.map(p => p.contentType));
+    return types.filter(t => t.value === 'all' || used.has(t.value as ContentType));
   }, [posts]);
 
   // Mapa de traducciones ES -> EN para categorías
@@ -60,7 +75,12 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       });
     }
 
-    // 2. Búsqueda por término de texto libre
+    // 2. Filtrado por tipo de contenido
+    if (activeContentType !== 'all') {
+      result = result.filter(p => p.contentType === activeContentType);
+    }
+
+    // 3. Búsqueda por término de texto libre
     if (searchTerm.trim()) {
       const query = searchTerm.toLowerCase();
       result = result.filter(p => {
@@ -72,7 +92,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       });
     }
 
-    // 3. Ordenamiento
+    // 4. Ordenamiento
     return result.sort((a, b) => {
       if (sortBy === 'popular') {
         return (b.views || 0) - (a.views || 0);
@@ -83,7 +103,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       // Por defecto: 'recent'
       return new Date(b.date).getTime() - new Date(a.date).getTime();
     });
-  }, [posts, heroPost, activeCategory, searchTerm, sortBy, lang]);
+  }, [posts, heroPost, activeCategory, activeContentType, searchTerm, sortBy, lang]);
 
   // Trending posts para la barra lateral (Top 5 en lecturas)
   const trendingPosts = useMemo(() => {
@@ -92,6 +112,21 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
 
   // Posts visibles según paginación
   const visiblePosts = processedPosts.slice(0, visibleCount);
+
+  // Agrupación por fecha memoizada
+  const dateGroups = useMemo(() => {
+    const groups: { date: string; posts: BlogPost[] }[] = [];
+    for (const post of visiblePosts) {
+      const dateKey = post.date.split('T')[0];
+      const last = groups[groups.length - 1];
+      if (last && last.date === dateKey) {
+        last.posts.push(post);
+      } else {
+        groups.push({ date: dateKey, posts: [post] });
+      }
+    }
+    return groups;
+  }, [visiblePosts]);
 
   if (!posts.length) {
     return (
@@ -132,8 +167,30 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
         </div>
       )}
 
+      {/* Content Type Filter Pills */}
+      <div className="mb-6">
+        <div className="flex flex-wrap gap-2">
+          {contentTypeOptions.map((ct) => (
+            <button
+              key={ct.value}
+              onClick={() => {
+                setActiveContentType(ct.value);
+                setVisibleCount(6);
+              }}
+              className={`px-3 py-1.5 rounded-sm text-[9px] font-mono font-bold uppercase tracking-widest transition-all duration-200 cursor-pointer ${
+                activeContentType === ct.value
+                  ? 'bg-gold text-black shadow-md'
+                  : 'bg-white/[0.02] text-stone-500 hover:text-gold hover:border-gold/30 border border-white/5'
+              }`}
+            >
+              {lang === 'es' ? ct.labelEs : ct.labelEn}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* Search & Sort Controls Bar */}
-      <div className="bg-white/[0.02] border border-white/5 p-4 rounded-sm mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="bg-white/[0.02] border border-white/5 p-4 rounded-sm mb-8 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-30 backdrop-blur-md">
         {/* Search input */}
         <div className="relative flex-1 w-full">
           <Search className="w-4 h-4 text-stone-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -218,18 +275,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
           {/* News Grid agrupado por fecha */}
           {visiblePosts.length > 0 ? (
             <div className="space-y-8">
-              {(() => {
-                const groups: { date: string; posts: BlogPost[] }[] = [];
-                for (const post of visiblePosts) {
-                  const dateKey = post.date.split('T')[0];
-                  const last = groups[groups.length - 1];
-                  if (last && last.date === dateKey) {
-                    last.posts.push(post);
-                  } else {
-                    groups.push({ date: dateKey, posts: [post] });
-                  }
-                }
-                return groups.map((group) => (
+              {dateGroups.map((group) => (
                   <div key={group.date}>
                     <div className="flex items-center gap-3 mb-4">
                       <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold bg-gold/10 border border-gold/20 px-3 py-1 rounded-sm">
@@ -253,8 +299,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
                       ))}
                     </div>
                   </div>
-                ));
-              })()}
+                ))}
             </div>
           ) : (
             <div className="text-center py-16 bg-white/[0.01] border border-white/5 rounded-sm space-y-3">
@@ -274,15 +319,22 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
             </div>
           )}
 
-          {/* Load More Button */}
+          {/* Load More + Load All Buttons */}
           {visibleCount < processedPosts.length && (
-            <div className="text-center pt-6">
+            <div className="text-center pt-6 flex items-center justify-center gap-3">
               <button
                 onClick={() => setVisibleCount((prev) => prev + 6)}
                 className="inline-flex items-center gap-2 px-6 py-3.5 border border-white/10 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-lg"
               >
                 <span>{lang === 'es' ? 'Cargar más noticias' : 'Load more news'}</span>
                 <ChevronDown className="w-4 h-4" />
+              </button>
+              <button
+                onClick={() => setVisibleCount(processedPosts.length)}
+                className="px-5 py-3.5 border border-white/5 hover:border-gold/50 bg-white/[0.01] hover:bg-white/[0.04] text-stone-500 hover:text-gold rounded-sm text-[10px] font-mono font-bold tracking-widest uppercase transition-all duration-200 cursor-pointer"
+              >
+                <List className="w-3.5 h-3.5 inline mr-1.5" />
+                {lang === 'es' ? `Ver todas (${processedPosts.length})` : `View all (${processedPosts.length})`}
               </button>
             </div>
           )}
