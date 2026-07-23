@@ -91,7 +91,6 @@ export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDeta
     } else {
       window.open(urls[platform], '_blank', 'width=600,height=400');
     }
-    setShowShareMenu(false);
   };
 
   // ─── Contenido HTML ─────────────────────────────────────────────────
