@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle, Youtube, Linkedin, MessageSquare, Compass } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle, Youtube, Linkedin, MessageSquare, Compass, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO, CONTACT_FORM } from '../config';
 
 interface ContactFormProps {
@@ -179,6 +179,12 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
                   <Send className="w-4 h-4 shrink-0" />
                   <span>{formState === 'sending' ? t.contactFormSending : t.contactFormSubmit}</span>
                 </button>
+                <p className="mt-2.5 flex items-center justify-center gap-1.5 text-[10px] text-stone-500 font-mono">
+                  <ShieldCheck className="w-3 h-3 text-emerald-500/70" />
+                  {lang === 'es'
+                    ? 'Tus datos están seguros con cifrado SSL. No compartimos información personal.'
+                    : 'Your data is secure with SSL encryption. We do not share personal information.'}
+                </p>
               </div>
             </form>
           )}

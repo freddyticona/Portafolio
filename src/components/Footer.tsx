@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { PageId } from '../types';
-import { Youtube, Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X } from 'lucide-react';
+import { Youtube, Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO, SOCIAL_LINKS } from '../config';
 
 interface FooterProps {
@@ -185,6 +185,24 @@ export default function Footer({ setActivePage, lang, t }: FooterProps) {
               <ArrowUp className="w-3.5 h-3.5 text-gold animate-pulse" />
             </button>
           </div>
+        </div>
+
+        {/* Security seal */}
+        <div className="pt-6 flex items-center justify-center gap-4 text-[10px] text-stone-500 font-mono">
+          <span className="flex items-center gap-1.5">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
+            {lang === 'es' ? 'Cifrado SSL 256-bit' : 'SSL 256-bit Encryption'}
+          </span>
+          <span className="text-stone-700">|</span>
+          <span className="flex items-center gap-1.5">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
+            {lang === 'es' ? 'Datos protegidos' : 'Data protected'}
+          </span>
+          <span className="text-stone-700">|</span>
+          <span className="flex items-center gap-1.5">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
+            {lang === 'es' ? 'Sitio 100% seguro' : '100% Secure Site'}
+          </span>
         </div>
 
         {/* Admin link (discreto) */}
