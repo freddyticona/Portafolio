@@ -1397,6 +1397,85 @@ The launch opens debate about the future of audiovisual production in Bolivia, w
   },
 ];
 
+export interface DigitalProduct {
+  id: string;
+  titleEs: string;
+  titleEn: string;
+  descriptionEs: string;
+  descriptionEn: string;
+  price: number;
+  currency: 'USD' | 'BOB';
+  imageUrl: string;
+  categoryEs: string;
+  categoryEn: string;
+  featuresEs: string[];
+  featuresEn: string[];
+  buyUrl: string;
+}
+
+export const digitalProducts: DigitalProduct[] = [
+  {
+    id: 'lut-pack-cine',
+    titleEs: 'LUTs Cine Boliviano - Pack Esencial',
+    titleEn: 'Bolivian Cinema LUTs - Essential Pack',
+    descriptionEs: '20 LUTs profesionales diseñados para el color grading de documentales y reportajes en condiciones de luz latinoamericanas. Optimizados para Sony S-Log, Canon C-Log y Rec.709.',
+    descriptionEn: '20 professional LUTs designed for color grading documentaries and news reports in Latin American lighting conditions. Optimized for Sony S-Log, Canon C-Log, and Rec.709.',
+    price: 19.99,
+    currency: 'USD',
+    imageUrl: 'https://picsum.photos/seed/luts-pack/600/400',
+    categoryEs: 'LUTs',
+    categoryEn: 'LUTs',
+    featuresEs: ['20 LUTs profesionales', 'Compatibilidad S-Log / C-Log / Rec.709', 'Guía de uso incluida', 'Actualizaciones gratuitas'],
+    featuresEn: ['20 professional LUTs', 'S-Log / C-Log / Rec.709 compatible', 'Usage guide included', 'Free updates'],
+    buyUrl: 'https://buy.stripe.com/test_000'
+  },
+  {
+    id: 'presets-lightroom',
+    titleEs: 'Presets Lightroom - Fotografía Documental',
+    titleEn: 'Lightroom Presets - Documentary Photography',
+    descriptionEs: '15 presets exclusivos para Adobe Lightroom que replican la estética del fotoperiodismo boliviano. Perfectos para fotografía documental, retrato y paisaje cultural.',
+    descriptionEn: '15 exclusive Adobe Lightroom presets replicating the Bolivian photojournalism aesthetic. Perfect for documentary photography, portraits, and cultural landscapes.',
+    price: 14.99,
+    currency: 'USD',
+    imageUrl: 'https://picsum.photos/seed/presets-lr/600/400',
+    categoryEs: 'Presets',
+    categoryEn: 'Presets',
+    featuresEs: ['15 presets Lightroom', 'RAW y JPEG compatibles', 'Video tutorial incluido', 'Soporte por email'],
+    featuresEn: ['15 Lightroom presets', 'RAW & JPEG compatible', 'Video tutorial included', 'Email support'],
+    buyUrl: 'https://buy.stripe.com/test_111'
+  },
+  {
+    id: 'ebook-produccion',
+    titleEs: 'E-book: Producción Audiovisual en Bolivia',
+    titleEn: 'E-book: Audiovisual Production in Bolivia',
+    descriptionEs: 'Guía completa de 120 páginas sobre producción audiovisual en Bolivia. Incluye directorio de contactos, permisos de filmación, equipos de alquiler y consejos para filmar en altura.',
+    descriptionEn: 'Complete 120-page guide on audiovisual production in Bolivia. Includes contact directory, filming permits, rental equipment, and tips for high-altitude shooting.',
+    price: 24.99,
+    currency: 'USD',
+    imageUrl: 'https://picsum.photos/seed/ebook-produccion/600/400',
+    categoryEs: 'E-books',
+    categoryEn: 'E-books',
+    featuresEs: ['120 páginas ilustradas', 'Directorios de contactos', 'Guía de permisos', 'Formato PDF/EPUB'],
+    featuresEn: ['120 illustrated pages', 'Contact directories', 'Permits guide', 'PDF/EPUB format'],
+    buyUrl: 'https://buy.stripe.com/test_222'
+  },
+  {
+    id: 'curso-edicion',
+    titleEs: 'Curso: Edición de Documentales con Premiere Pro',
+    titleEn: 'Course: Documentary Editing with Premiere Pro',
+    descriptionEs: 'Curso completo de 8 módulos sobre edición documental. Desde la organización del material hasta la corrección de color y mezcla de audio. Incluye proyectos prácticos.',
+    descriptionEn: 'Complete 8-module course on documentary editing. From media organization to color correction and audio mixing. Includes hands-on projects.',
+    price: 49.99,
+    currency: 'USD',
+    imageUrl: 'https://picsum.photos/seed/curso-premiere/600/400',
+    categoryEs: 'Cursos',
+    categoryEn: 'Courses',
+    featuresEs: ['8 módulos en video HD', 'Proyectos descargables', 'Certificado de finalización', 'Acceso de por vida'],
+    featuresEn: ['8 HD video modules', 'Downloadable projects', 'Completion certificate', 'Lifetime access'],
+    buyUrl: 'https://buy.stripe.com/test_333'
+  },
+];
+
 export const translations = {
   es: {
     navHome: 'Inicio',
@@ -1532,6 +1611,14 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
     contactNetworkTitle: 'Mis Redes Profesionales',
     contactMapMockTitle: 'Ubicación de Operaciones - La Paz',
 
+    navPrivacidad: 'Privacidad',
+    navTerminos: 'Términos',
+    navProductos: 'Productos Digitales',
+    navEquipo: 'Equipo Recomendado',
+    privacyTitle: 'Política de Privacidad',
+    termsTitle: 'Términos de Servicio',
+    productsTitle: 'Productos Digitales para Cineastas',
+    gearTitle: 'Equipo Recomendado',
     footerCopyright: '© 2026 Freddy Ticona Guzmán. Todos los derechos reservados.',
     footerTagline: 'Camerógrafo, Editor y Realizador Audiovisual • La Paz, Bolivia • WhatsApp: +591 62408420'
   },
@@ -1669,6 +1756,14 @@ My professional growth led me to specialize in documentary cinematography and fr
     contactNetworkTitle: 'My Professional Networks',
     contactMapMockTitle: 'La Paz Operating Center Location',
 
+    navPrivacidad: 'Privacy',
+    navTerminos: 'Terms',
+    navProductos: 'Digital Products',
+    navEquipo: 'Recommended Gear',
+    privacyTitle: 'Privacy Policy',
+    termsTitle: 'Terms of Service',
+    productsTitle: 'Digital Products for Filmmakers',
+    gearTitle: 'Recommended Gear',
     footerCopyright: '© 2026 Freddy Ticona Guzmán. All rights reserved.',
     footerTagline: 'Cameraman, Video Editor & Audiovisual Producer • La Paz, Bolivia • WhatsApp: +591 62408420'
   }

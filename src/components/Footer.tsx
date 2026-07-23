@@ -139,7 +139,36 @@ export default function Footer({ setActivePage, lang, t }: FooterProps) {
             </ul>
           </div>
 
-          {/* Column 3: Contact details & Location */}
+          {/* Column 3: Legal */}
+          <div className="space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-gold">
+              Legal
+            </h4>
+            <ul className="space-y-2.5 text-sm font-medium">
+              <li>
+                <button onClick={() => handleNavClick('privacidad')} className="hover:text-gold transition-colors duration-200 text-left cursor-pointer">
+                  {t.navPrivacidad}
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleNavClick('terminos')} className="hover:text-gold transition-colors duration-200 text-left cursor-pointer">
+                  {t.navTerminos}
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleNavClick('productos')} className="hover:text-gold transition-colors duration-200 text-left cursor-pointer">
+                  {t.navProductos}
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleNavClick('equipo')} className="hover:text-gold transition-colors duration-200 text-left cursor-pointer">
+                  {t.navEquipo}
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 4: Contact details & Location */}
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-widest text-gold">
               {lang === 'es' ? 'Contacto' : 'Contact'}

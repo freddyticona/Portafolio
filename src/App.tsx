@@ -13,7 +13,8 @@ import {
   portfolioItems,
   caseStudies,
   blogPosts as defaultBlogPosts,
-  translations
+  translations,
+  digitalProducts
 } from './translations';
 // Firebase importado dinámicamente para reducir bundle inicial (552KB)
 
@@ -25,6 +26,7 @@ import { updateMetaTags } from './lib/seo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SkipLink from './components/SkipLink';
+import CookieConsent from './components/CookieConsent';
 import { UpdatePrompt, OnlineStatus } from './hooks/useServiceWorker';
 import CinematicHero from './components/CinematicHero';
 import PortfolioFilters, { FilterState } from './components/PortfolioFilters';
@@ -168,7 +170,7 @@ export default function App() {
       }
 
       const pageStr = parts[0] || 'inicio';
-      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias', 'blog', 'contacto', 'reservas', 'servicios', 'admin'];
+      const validPages: PageId[] = ['inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias', 'blog', 'contacto', 'reservas', 'servicios', 'admin', 'privacidad', 'terminos', 'productos', 'equipo'];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
         setActiveCaseStudyId(null);
@@ -1031,6 +1033,127 @@ export default function App() {
           </Suspense>
         )}
 
+        {/* PRIVACIDAD */}
+        {activePage === 'privacidad' && (
+          <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="space-y-8">
+              <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">Legal</span>
+              <h1 className="text-3xl md:text-4xl font-black text-white tracking-tight font-display">{t.privacyTitle || 'Política de Privacidad'}</h1>
+              <div className="prose prose-invert prose-stone max-w-none text-stone-400 text-sm leading-relaxed space-y-4">
+                <p>Última actualización: julio 2026</p>
+                <h2 className="text-white text-lg font-bold">1. Información que Recopilamos</h2>
+                <p>Recopilamos información personal que nos proporcionas voluntariamente al utilizar el formulario de contacto, sistema de reservas o comentarios del blog: nombre, correo electrónico y mensaje. También recopilamos datos de navegación anónimos mediante Google Analytics y Vercel Analytics para mejorar la experiencia del sitio.</p>
+                <h2 className="text-white text-lg font-bold">2. Uso de Cookies</h2>
+                <p>Utilizamos cookies propias y de terceros (Google AdSense, Google Analytics, Vercel) para mostrar anuncios personalizados, analizar el tráfico y recordar preferencias. Puedes gestionar las cookies desde la configuración de tu navegador.</p>
+                <h2 className="text-white text-lg font-bold">3. Google AdSense</h2>
+                <p>Este sitio utiliza Google AdSense para mostrar anuncios. Google utiliza cookies para personalizar los anuncios según tu historial de navegación. Puedes desactivar la personalización de anuncios en <a href="https://adssettings.google.com" className="text-gold underline" target="_blank" rel="noopener noreferrer">Configuración de Anuncios de Google</a>.</p>
+                <h2 className="text-white text-lg font-bold">4. Derechos del Usuario</h2>
+                <p>Tienes derecho a acceder, rectificar y eliminar tus datos personales. Para ejercer estos derechos, contáctame en freddyticona62@gmail.com.</p>
+                <h2 className="text-white text-lg font-bold">5. Contacto</h2>
+                <p>Freddy Ticona Guzmán - La Paz, Bolivia - freddyticona62@gmail.com</p>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* TERMINOS */}
+        {activePage === 'terminos' && (
+          <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="space-y-8">
+              <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">Legal</span>
+              <h1 className="text-3xl md:text-4xl font-black text-white tracking-tight font-display">{t.termsTitle || 'Términos de Servicio'}</h1>
+              <div className="prose prose-invert prose-stone max-w-none text-stone-400 text-sm leading-relaxed space-y-4">
+                <p>Última actualización: julio 2026</p>
+                <h2 className="text-white text-lg font-bold">1. Aceptación de los Términos</h2>
+                <p>Al acceder y utilizar este sitio web, aceptas cumplir con estos términos de servicio. Si no estás de acuerdo, no utilices este sitio.</p>
+                <h2 className="text-white text-lg font-bold">2. Servicios Ofrecidos</h2>
+                <p>Freddy Ticona ofrece servicios de filmación profesional, edición de video, producción documental y consultoría audiovisual. Los precios y disponibilidad están sujetos a cotización.</p>
+                <h2 className="text-white text-lg font-bold">3. Productos Digitales</h2>
+                <p>Los productos digitales (LUTs, presets, e-books, cursos) se entregan mediante descarga digital. No se aceptan devoluciones una vez descargados. Para problemas técnicos, contacta a freddyticona62@gmail.com.</p>
+                <h2 className="text-white text-lg font-bold">4. Propiedad Intelectual</h2>
+                <p>Todo el contenido de este sitio, incluyendo textos, imágenes, videos y productos digitales, es propiedad de Freddy Ticona Guzmán. No está permitida su reproducción sin autorización.</p>
+                <h2 className="text-white text-lg font-bold">5. Limitación de Responsabilidad</h2>
+                <p>No nos hacemos responsables por daños directos o indirectos derivados del uso de este sitio o de los productos adquiridos.</p>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* PRODUCTOS DIGITALES */}
+        {activePage === 'productos' && (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="space-y-12">
+              <div className="text-center max-w-2xl mx-auto space-y-4">
+                <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">Store</span>
+                <h1 className="text-3xl md:text-5xl font-black text-white tracking-tight font-display">{t.productsTitle || 'Productos Digitales para Cineastas'}</h1>
+                <p className="text-stone-400 text-sm md:text-base">Herramientas profesionales diseñadas para potenciar tu flujo de trabajo audiovisual en Bolivia y Latinoamérica.</p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {digitalProducts.map((product) => (
+                  <div key={product.id} className="bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden group hover:border-gold/30 transition-all duration-300">
+                    <div className="aspect-video overflow-hidden">
+                      <img src={product.imageUrl} alt={product.titleEs} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    </div>
+                    <div className="p-5 space-y-3">
+                      <span className="text-[10px] font-mono font-bold text-gold uppercase tracking-widest">{product.categoryEs}</span>
+                      <h3 className="text-white font-bold text-sm font-display">{lang === 'es' ? product.titleEs : product.titleEn}</h3>
+                      <p className="text-stone-500 text-xs leading-relaxed">{lang === 'es' ? product.descriptionEs : product.descriptionEn}</p>
+                      <ul className="space-y-1">
+                        {(lang === 'es' ? product.featuresEs : product.featuresEn).map((f, i) => (
+                          <li key={i} className="text-stone-400 text-xs flex items-center gap-1.5">
+                            <span className="text-gold">▸</span> {f}
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="pt-2 flex items-center justify-between">
+                        <span className="text-gold font-black text-lg">{product.currency === 'USD' ? '$' : 'Bs'} {product.price}</span>
+                        <a href={product.buyUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gold text-black text-xs font-bold hover:brightness-110 transition-all rounded-sm">
+                          Comprar
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* EQUIPO RECOMENDADO */}
+        {activePage === 'equipo' && (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="space-y-12">
+              <div className="text-center max-w-2xl mx-auto space-y-4">
+                <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">Gear</span>
+                <h1 className="text-3xl md:text-5xl font-black text-white tracking-tight font-display">{t.gearTitle || 'Equipo Recomendado'}</h1>
+                <p className="text-stone-400 text-sm md:text-base">Equipos que uso y recomiendo para producción audiovisual profesional en Bolivia. Los enlaces son de afiliado de Amazon — no pagas extra, pero ayudas a mantener este sitio.</p>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {[
+                  { name: 'Sony FX9', desc: 'Cámara cine digital full-frame', price: '$12,999', url: '#' },
+                  { name: 'Sony PX270', desc: 'Cámara ENG para noticieros', price: '$8,500', url: '#' },
+                  { name: 'DJI RS 4 Pro', desc: 'Estabilizador de 3 ejes', price: '$869', url: '#' },
+                  { name: 'Rode NTG5', desc: 'Micrófono shotgun profesional', price: '$449', url: '#' },
+                  { name: 'Atomos Ninja V', desc: 'Monitor/grabador 4K HDR', price: '$699', url: '#' },
+                  { name: 'DJI Mavic 3 Pro', desc: 'Dron cine con cámara Hasselblad', price: '$2,199', url: '#' },
+                  { name: 'SanDisk Extreme Pro', desc: 'Tarjeta SD 256GB V30', price: '$49', url: '#' },
+                  { name: 'Aputure 600d', desc: 'Luz LED 600W daylight', price: '$1,290', url: '#' },
+                ].map((item) => (
+                  <a key={item.name} href={item.url} target="_blank" rel="sponsored noopener noreferrer" className="block bg-white/[0.02] border border-white/5 rounded-sm p-4 hover:border-gold/30 transition-all group">
+                    <div className="aspect-square bg-white/5 rounded-sm mb-3 flex items-center justify-center">
+                      <span className="text-stone-600 text-3xl">📷</span>
+                    </div>
+                    <h3 className="text-white text-sm font-bold font-display group-hover:text-gold transition-colors">{item.name}</h3>
+                    <p className="text-stone-500 text-xs mt-1">{item.desc}</p>
+                    <span className="text-gold text-xs font-bold mt-2 block">{item.price}</span>
+                  </a>
+                ))}
+              </div>
+              <p className="text-center text-stone-600 text-xs">Los enlaces son de afiliado de Amazon Associates. Gano una comisión sin costo adicional para ti.</p>
+            </div>
+          </section>
+        )}
+
       </main>
 
       {/* Persistent Footer */}
@@ -1050,6 +1173,8 @@ export default function App() {
       {/* PWA Components */}
       <OnlineStatus lang={lang} />
       <UpdatePrompt />
+
+      <CookieConsent />
 
       {/* Vercel Analytics & Speed Insights */}
       <Analytics />
