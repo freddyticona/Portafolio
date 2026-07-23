@@ -5,16 +5,17 @@
 
 import React from 'react';
 import { PageId } from '../types';
-import { Youtube, Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck } from 'lucide-react';
+import { Youtube, Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck, FileText } from 'lucide-react';
 import { CONTACT_INFO, SOCIAL_LINKS } from '../config';
 
 interface FooterProps {
   setActivePage: (page: PageId) => void;
   lang: 'es' | 'en';
   t: Record<string, string>;
+  onOpenPrivacy?: () => void;
 }
 
-export default function Footer({ setActivePage, lang, t }: FooterProps) {
+export default function Footer({ setActivePage, lang, t, onOpenPrivacy }: FooterProps) {
   const handleNavClick = (pageId: PageId) => {
     setActivePage(pageId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -187,8 +188,8 @@ export default function Footer({ setActivePage, lang, t }: FooterProps) {
           </div>
         </div>
 
-        {/* Security seal */}
-        <div className="pt-6 flex items-center justify-center gap-4 text-[10px] text-stone-500 font-mono">
+        {/* Compliance badges */}
+        <div className="pt-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[10px] text-stone-500 font-mono">
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
             {lang === 'es' ? 'Cifrado SSL 256-bit' : 'SSL 256-bit Encryption'}
@@ -196,13 +197,29 @@ export default function Footer({ setActivePage, lang, t }: FooterProps) {
           <span className="text-stone-700">|</span>
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
-            {lang === 'es' ? 'Datos protegidos' : 'Data protected'}
+            {lang === 'es' ? 'GDPR Compliant' : 'GDPR Compliant'}
           </span>
           <span className="text-stone-700">|</span>
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
-            {lang === 'es' ? 'Sitio 100% seguro' : '100% Secure Site'}
+            {lang === 'es' ? 'Ley N° 164 Bolivia' : 'Law N° 164 Bolivia'}
           </span>
+          <span className="text-stone-700">|</span>
+          <span className="flex items-center gap-1.5">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
+            {lang === 'es' ? 'Datos protegidos' : 'Data protected'}
+          </span>
+        </div>
+
+        {/* Privacy policy link */}
+        <div className="pt-4 text-center">
+          <button
+            onClick={() => onOpenPrivacy?.()}
+            className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-500 hover:text-gold transition-colors cursor-pointer"
+          >
+            <FileText className="w-3 h-3" />
+            {lang === 'es' ? 'Política de Privacidad y Cookies' : 'Privacy & Cookies Policy'}
+          </button>
         </div>
 
         {/* Admin link (discreto) */}

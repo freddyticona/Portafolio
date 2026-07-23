@@ -32,7 +32,8 @@ import { updateMetaTags } from './lib/seo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SkipLink from './components/SkipLink';
-import CookieBanner from './components/CookieBanner';
+import CookieConsent from './components/CookieConsent';
+import PrivacyModal from './components/PrivacyModal';
 import NotFoundPage from './pages/NotFoundPage';
 import { UpdatePrompt, OnlineStatus } from './hooks/useServiceWorker';
 
@@ -113,6 +114,7 @@ export default function App() {
     return (saved === 'es' || saved === 'en') ? saved : 'es';
   });
   const [dimmed, setDimmed] = useState(false);
+  const [showPrivacy, setShowPrivacy] = useState(false);
 
   // Sub-navegación dentro de páginas
   const [activeCaseStudyId, setActiveCaseStudyId] = useState<string | null>(null);
@@ -352,7 +354,7 @@ export default function App() {
       </main>
 
       {/* Persistent Footer */}
-      <Footer setActivePage={setActivePage} lang={lang} t={t} />
+      <Footer setActivePage={setActivePage} lang={lang} t={t} onOpenPrivacy={() => setShowPrivacy(true)} />
 
       {/* Componentes flotantes globales */}
       <Suspense fallback={null}>
@@ -370,8 +372,13 @@ export default function App() {
       <Analytics />
       <SpeedInsights />
 
-      {/* Cookie Consent Banner */}
-      <CookieBanner lang={lang} />
+      {/* Cookie Consent Banner (GDPR + Ley 164) */}
+      <CookieConsent lang={lang} onOpenPrivacy={() => setShowPrivacy(true)} />
+
+      {/* Privacy & Cookies Policy Modal */}
+      {showPrivacy && (
+        <PrivacyModal lang={lang} onClose={() => setShowPrivacy(false)} />
+      )}
 
     </div>
   );
