@@ -97,6 +97,13 @@ const articles = [
   { slug: 'nvidia-deepstream-9-1-tracking', title: 'DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica', desc: 'DeepStream 9.1 introduce AutoMagicCalib y seguimiento 3D multivista para rastrear objetos consistentemente entre cámaras.' },
   { slug: 'nvidia-ising-decoding-quantum', title: 'NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos', desc: 'El decoder Ising ColorCode 1 Fast logra 347.7x mejor tasa de error lógico y 7.3x más velocidad.' },
   { slug: 'nvidia-omniverse-rtx-sensor', title: 'Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes', desc: 'La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX a aplicaciones existentes usando OpenUSD.' },
+  { slug: 'comision-europea-multa-google-890-millones', title: 'Bruselas multa a Google con 890 millones de euros por incumplir la Ley de Mercados Digitales', desc: 'La Comisión Europea impone a Google una multa histórica de 890 millones por incumplir la DSA.' },
+  { slug: 'via-lactea-proyectiles-gas-32-millones-kmh', title: 'Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h', desc: 'La NASA estudia V445 Puppis, la única nova de helio confirmada, que expulsa balas de gas a velocidad extrema.' },
+  { slug: 'agencias-representantes-influencers-250-millones', title: 'Ellos mueven los hilos de los influencers (y manejan un mercado de 250 millones de euros)', desc: 'Entrevistamos a las agencias que mueven a El Rubius, Xuso Jones y Cristinini en un mercado de 245 millones de euros.' },
+  { slug: 'rapamicina-autismo-nueva-via-tratamiento', title: 'Un fármaco contra el envejecimiento abre una nueva vía para tratar el autismo', desc: 'Una dosis de rapamicina revirtió en dos horas alteraciones asociadas al TEA en ratones según estudio de UCLA.' },
+  { slug: 'c212-aviocar-transporte-militar-espanol', title: 'Lecciones del C212 Aviocar: el exitoso "600" español del transporte militar', desc: 'El CASA C212 Aviocar es uno de los mayores éxitos de la industria aeronáutica española con 480 unidades vendidas.' },
+  { slug: 'japon-rompe-leyes-fisica-calor-programable', title: 'Japón rompe las reglas de la física: crea calor programable', desc: 'Japón sortea la ley de Kirchhoff y crea calor programable con precisión milimétrica usando metamateriales.' },
+  { slug: 'tormentas-solares-subestimadas-estudio-nature', title: 'Estamos subestimando el poder destructivo de las tormentas solares', desc: 'Un estudio de Nature revela que el poder destructivo de las tormentas solares podría ser el doble de lo previsto.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts

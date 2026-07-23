@@ -2119,6 +2119,278 @@ ovrtx is ideal for synthetic data generation, perception testing, robotics, digi
     views: 62,
     source: 'NVIDIA Technical Blog',
     sourceUrl: 'https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/'
+  },
+  {
+    id: '35',
+    slug: 'comision-europea-multa-google-890-millones',
+    titleEs: 'Bruselas multa a Google con 890 millones de euros por incumplir la Ley de Mercados Digitales',
+    titleEn: 'Brussels fines Google 890 million euros for breaching the Digital Markets Act',
+    excerptEs: 'La Comisión Europea ha impuesto a Google una multa histórica de 890 millones de euros por incumplir la Ley de Servicios Digitales (DSA) en la gestión de sus sistemas de recomendación algorítmica.',
+    excerptEn: 'The European Commission has imposed a record fine of 890 million euros on Google for breaching the Digital Services Act (DSA) in its algorithmic recommendation systems.',
+    contentEs: `### Bruselas multa a Google con 890 millones por incumplir la DSA
+
+La Comisión Europea ha impuesto a Google una multa histórica de 890 millones de euros por incumplir la Ley de Servicios Digitales (DSA) de la Unión Europea. Esta sanción, una de las más elevadas bajo el nuevo marco regulatorio digital europeo, marca un punto de inflexión en la relación entre los gigantes tecnológicos y los reguladores.
+
+![Sede de Google en Bruselas](https://images.ecestaticos.com/r-GHPKabwfOObGZJyHLnTeKWIGY=/0x0:2272x1704/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc6d%2Fcae%2Fd65%2Fc6dcaed6547923bb7d33148beebe106f.jpg)
+
+### Los detalles de la sanción
+
+Según informa Nacho Alarcón desde Bruselas, la Comisión determinó que Google violó la DSA al no proporcionar suficiente transparencia en sus sistemas de recomendación algorítmica. La investigación europea descubrió que la empresa no cumplía con los requisitos de evaluación de riesgos sistémicos exigidos por la normativa.
+
+### Implicaciones para el sector
+
+La multa envía una señal clara al ecosistema tecnológico: la UE está dispuesta a utilizar todo el peso de su marco regulatorio para hacer cumplir las nuevas normas digitales. Google, por su parte, ha anunciado que recurrirá la sanción ante los tribunales europeos.
+
+### Reacciones
+
+La vicepresidenta ejecutiva de la Comisión Europea, Margrethe Vestager, declaró que "la transparencia algorítmica no es opcional, es una obligación legal". Organizaciones de defensa de derechos digitales han aplaudido la decisión, mientras que analistas del sector advierten que esta multa podría sentar precedente para futuras sanciones contra otras grandes tecnológicas.`,
+    contentEn: `### Brussels fines Google 890M for breaching DMA
+
+The European Commission has imposed a record fine of 890 million euros on Google for violating the Digital Services Act (DSA). This is one of the highest penalties under the new European digital regulatory framework.`,
+    date: '2026-07-23',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.ecestaticos.com/r-GHPKabwfOObGZJyHLnTeKWIGY=/0x0:2272x1704/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc6d%2Fcae%2Fd65%2Fc6dcaed6547923bb7d33148beebe106f.jpg',
+    imageCaption: 'Sede de Google en Bruselas. Foto: El Confidencial',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/tecnologia/2026-07-23/comision-europea-multa-google-dsa-1hms_4394763/'
+  },
+  {
+    id: '36',
+    slug: 'via-lactea-proyectiles-gas-32-millones-kmh',
+    titleEs: 'Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h',
+    titleEn: 'A strange structure in the Milky Way shoots gas projectiles at 32 million km/h',
+    excerptEs: 'La NASA trata de averiguar qué es V445 Puppis, la única nova de helio confirmada en la Vía Láctea, que lleva 20 años expulsando misteriosas balas de gas a velocidades extremas.',
+    excerptEn: 'NASA is trying to figure out V445 Puppis, the only confirmed helium nova in the Milky Way, which has been ejecting mysterious gas bullets at extreme speeds for 20 years.',
+    contentEs: `### La única nova de helio de la Vía Láctea
+
+Una estructura asociada a V445 Puppis, la única nova de helio confirmada en la Vía Láctea, está expulsando misteriosos proyectiles de gas a velocidades extremas. La investigación, presentada en la Reunión Nacional de Astronomía de la Royal Astronomical Society, revela un fenómeno nunca observado en otras novas.
+
+![Proyectil de gas de V445 Puppis](https://images.ecestaticos.com/OwXXJXvPdO8etUrgV_Vh6COLTus=/36x0:980x708/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3f2%2Fcef%2F596%2F3f2cef5963a031235bea3f96b6329846.jpg)
+
+### Balas de gas a velocidad extrema
+
+Los astrónomos han identificado varios grumos, posiblemente ricos en oxígeno, que se desplazan a una velocidad máxima de 32 millones de km/h. Estas balas o proyectiles aparecen incrustados en el gigantesco flujo bipolar liberado por la explosión estelar, aunque su mecanismo de formación continúa desconcertando a los especialistas.
+
+### Una explosión estelar excepcional
+
+Las novas se producen cuando una enana blanca captura materia de una estrella compañera. La acumulación de gas eleva la presión y la temperatura hasta provocar una reacción termonuclear descontrolada. Sin embargo, casi todas las novas conocidas utilizan material rico en hidrógeno, mientras que V445 Puppis carece completamente de este elemento.
+
+### El misterio sin resolver
+
+"El origen de estas balas es un misterio. Sospechamos que se originaron después de la explosión, pero nunca se han observado proyectiles de este tipo en ninguna otra nova", señaló John Mills, investigador de la Universidad de Warwick. El sistema ha comenzado de nuevo a transferir materia, un proceso que podría desembocar en futuras erupciones.`,
+    contentEn: `### The only helium nova in the Milky Way
+
+A structure associated with V445 Puppis, the only confirmed helium nova in the Milky Way, is ejecting mysterious gas projectiles at extreme speeds of 32 million km/h.`,
+    date: '2026-07-22',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.ecestaticos.com/OwXXJXvPdO8etUrgV_Vh6COLTus=/36x0:980x708/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3f2%2Fcef%2F596%2F3f2cef5963a031235bea3f96b6329846.jpg',
+    imageCaption: 'Proyectil de gas detectado en V445 Puppis. Imagen: Universidad de Warwick/John Mills',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/tecnologia/ciencia/2026-07-22/estructura-via-lactea-dispara-balas-gas-32-1qrt_4394171/'
+  },
+  {
+    id: '37',
+    slug: 'agencias-representantes-influencers-250-millones',
+    titleEs: 'Ellos mueven los hilos de los influencers (y manejan un mercado de 250 millones de euros)',
+    titleEn: 'They pull the strings of influencers (and manage a 250 million euro market)',
+    excerptEs: 'El negocio de los creadores de contenido vive su mejor momento. Las marcas gastan cada día más en ellos y sus representantes se están forrando. Entrevistamos a las agencias que mueven a El Rubius, Xuso Jones y Cristinini.',
+    excerptEn: 'The content creator business is booming. Brands spend more every day and their agents are getting rich. We interview the agencies behind El Rubius, Xuso Jones, and Cristinini.',
+    contentEs: `### El negocio detrás de los creadores de contenido
+
+En la oficina de Webedia, en pleno centro de Madrid, Irene Cívico lleva 11 años dirigiendo la carrera de algunos de los influencers más importantes de España. "No me gusta mucho aparecer porque los protagonistas son ellos. Los representantes debemos conseguir que los creadores luzcan y evitarles que tropiecen", explica.
+
+![Irene Cívico, directora de Vizz Agency](https://images.ecestaticos.com/10SUAWG1Sn3NTJqxztg88sj0Tls=/0x0:2272x1515/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F498%2F50d%2Fb99%2F49850db99396a12f0c36a161c1a4f235.jpg)
+
+### Un mercado de 250 millones
+
+Según los estudios de IAB Spain y Primetag, el marketing de influencers en España mueve 245 millones de euros en inversión publicitaria anual. Una cifra que multiplica por tres lo generado en 2023. Solo de 2024 a 2025 la inversión en este sector subió un 50%.
+
+### La profesionalización del sector
+
+"Hemos pasado de que esto fuese la jungla a tener que profesionalizar a toda prisa. De ser cuatro gatos, a tener equipos de varias decenas de personas", cuenta Cívico. Su agencia Vizz representa a 35 grandes creadores, incluyendo a El Rubius, Illojuan, Nil Ojeda y Cristinini, sumando más de 200 millones de seguidores en YouTube.
+
+Sergio Barreda, CEO de Keepers, coincide: "A día de hoy no hay un techo marcado, no vemos la opción de que haya techo". Su agencia gestiona 70 talentos como Xuso Jones y Henar Álvarez.`,
+    contentEn: `### The business behind content creators
+
+The influencer marketing industry in Spain moves 245 million euros in annual advertising investment, with agencies like Vizz and Keepers managing top creators.`,
+    date: '2026-07-23',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.ecestaticos.com/10SUAWG1Sn3NTJqxztg88sj0Tls=/0x0:2272x1515/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F498%2F50d%2Fb99%2F49850db99396a12f0c36a161c1a4f235.jpg',
+    imageCaption: 'Irene Cívico, directora de creadores de Vizz Agency. Foto: Guillermo Gutiérrez Carrascal',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/tecnologia/2026-07-23/agencias-representantes-influencers-espana-creadores-cbtrntrv_4392823/'
+  },
+  {
+    id: '38',
+    slug: 'rapamicina-autismo-nueva-via-tratamiento',
+    titleEs: 'Un vídeo inesperado en el móvil y un fármaco contra el envejecimiento abren una nueva vía para tratar el autismo',
+    titleEn: 'An unexpected mobile video and an anti-aging drug open a new path to treat autism',
+    excerptEs: 'Una única dosis de rapamicina revirtió en dos horas alteraciones asociadas al TEA en ratones adultos, según un estudio de UCLA publicado en Nature Communications.',
+    excerptEn: 'A single dose of rapamycin reversed autism-associated alterations in adult mice within two hours, according to a UCLA study published in Nature Communications.',
+    contentEs: `### Un descubrimiento accidental
+
+Harley Kornblum no esperaba ver ningún cambio tan pronto. El equipo de la UCLA había diseñado un tratamiento de varios días, pero los primeros vídeos de los ratones, grabados con un móvil apenas unas horas después de recibir el fármaco, alteraron el rumbo de la investigación.
+
+![Harley Kornblum, investigador de UCLA](https://images.ecestaticos.com/DxQoTpQ7O8PVXfoRmJQOkxaXMCc=/27x0:907x660/1200x900/filters:fill(white):format(png)/f.elconfidencial.com%2Foriginal%2F4b5%2Fc3e%2F1dd%2F4b5c3e1dd2abeae6b21caadf3cebb611.png)
+
+### Resultados en dos horas
+
+En solo dos horas, una única dosis de rapamicina redujo la hiperexcitabilidad neuronal, la susceptibilidad a sufrir convulsiones, la hipersensibilidad sensorial y las conductas repetitivas de ratones adultos. También modificó la organización funcional de sus redes cerebrales.
+
+### La rapamicina y el envejecimiento
+
+La rapamicina es un potente inmunosupresor utilizado para prevenir el rechazo en trasplantes y en tratamientos contra el cáncer. También se ha convertido en uno de los compuestos más conocidos en la investigación sobre longevidad, al frenar la actividad de la vía mTOR.
+
+"Lo que más me sorprendió fue la rapidez y la contundencia de la respuesta. Cuando la doctora Le Belle me enseñó los primeros vídeos de los ratones grabados con un iPhone, me quedé impactado", explica Kornblum.`,
+    contentEn: `### An unexpected discovery
+
+A single dose of rapamycin reversed autism-like behavioral alterations in adult mice within just two hours, according to a UCLA study published in Nature Communications.`,
+    date: '2026-07-23',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.ecestaticos.com/DxQoTpQ7O8PVXfoRmJQOkxaXMCc=/27x0:907x660/1200x900/filters:fill(white):format(png)/f.elconfidencial.com%2Foriginal%2F4b5%2Fc3e%2F1dd%2F4b5c3e1dd2abeae6b21caadf3cebb611.png',
+    imageCaption: 'Harley Kornblum, investigador de UCLA. Foto: El Confidencial',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/salud/2026-07-23/una-nueva-via-para-tratar-sintomas-del-autismo_4394636/'
+  },
+  {
+    id: '39',
+    slug: 'c212-aviocar-transporte-militar-espanol',
+    titleEs: 'Lecciones del C212 Aviocar: el exitoso "600" español del transporte militar',
+    titleEn: 'Lessons from the C212 Aviocar: the successful Spanish "600" of military transport',
+    excerptEs: 'El CASA C212 Aviocar, fabricado por EADS CASA, es uno de los mayores éxitos de la industria aeronáutica española con más de 480 unidades vendidas a 40 países.',
+    excerptEn: 'The CASA C212 Aviocar, manufactured by EADS CASA, is one of the greatest successes of the Spanish aeronautical industry with over 480 units sold to 40 countries.',
+    contentEs: `### El "Seiscientos" del aire
+
+El CASA C212 Aviocar es uno de los mayores éxitos de la industria aeronáutica española. Con más de 480 unidades vendidas a 40 países, este avión de transporte táctico ligero se ha ganado la reputación de ser el "Seiscientos" del aire: robusto, fiable y capaz de operar en las condiciones más adversas.
+
+![CASA C212 Aviocar en vuelo](https://images.ecestaticos.com/AthMWZoT3Rk8AHTF9Tbtgvp-Qow=/71x0:2192x1415/1200x800/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3a2%2F245%2Fe4c%2F3a2245e4cf93cac0ddc96d6e17589292.jpg)
+
+### Diseñado para todo terreno
+
+Diseñado originalmente en los años 70 para cubrir las necesidades del Ejército del Aire español, el C212 destacó por su capacidad para despegar y aterrizar en pistas cortas y sin pavimentar. Su diseño de ala alta y motores turbohélice le permiten operar donde otros aviones no pueden.
+
+### Un éxito de exportación
+
+El Aviocar no solo sirvió en las Fuerzas Armadas españolas, sino que se exportó a países como Indonesia, que incluso fabricó bajo licencia más de 100 unidades. También opera en misiones de Naciones Unidas y en fuerzas aéreas de toda América Latina.`,
+    contentEn: `### The "Fiat 600" of the air
+
+The CASA C212 Aviocar is one of the greatest successes of the Spanish aeronautical industry, with over 480 units sold to 40 countries.`,
+    date: '2026-07-23',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.ecestaticos.com/AthMWZoT3Rk8AHTF9Tbtgvp-Qow=/71x0:2192x1415/1200x800/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3a2%2F245%2Fe4c%2F3a2245e4cf93cac0ddc96d6e17589292.jpg',
+    imageCaption: 'CASA C212 Aviocar. Foto: El Confidencial',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/tecnologia/2026-07-23/lecciones-c212-aviocar-transporte-militar_4394539/'
+  },
+  {
+    id: '40',
+    slug: 'japon-rompe-leyes-fisica-calor-programable',
+    titleEs: 'Japón rompe las reglas de la física: sortea una ley de hace 160 años y consigue crear calor programable',
+    titleEn: 'Japan breaks the rules of physics: bypasses a 160-year-old law and creates programmable heat',
+    excerptEs: 'Investigadores japoneses han logrado un avance que desafía las leyes de la termodinámica: crear calor programable que puede dirigirse con precisión milimétrica.',
+    excerptEn: 'Japanese researchers have achieved a breakthrough that challenges the laws of thermodynamics: creating programmable heat that can be directed with millimeter precision.',
+    contentEs: `### Desafiando las leyes de la termodinámica
+
+Investigadores japoneses han logrado un avance que desafía las leyes de la termodinámica establecidas hace más de 160 años. Han conseguido crear "calor programable", una tecnología que permite dirigir el flujo de energía térmica con una precisión milimétrica, algo que se consideraba imposible según los principios clásicos de la física.
+
+![Recreación 3D del experimento japonés](https://images.ecestaticos.com/0ugPtbgIRNiR-QhagZGTIRyP_vM=/97x1:1170x806/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ffcf%2Fc50%2Fefb%2Ffcfc50efba77f2a3599e64226645c6f0.jpg)
+
+### La ley de Kirchhoff
+
+La ley de Kirchhoff de la radiación térmica establece que un material capaz de absorber energía en un determinado ángulo y longitud de onda debe emitirla en condiciones equivalentes. Esta correspondencia ha limitado durante décadas el desarrollo de dispositivos que gestionen el calor de forma selectiva.
+
+### Metamateriales y memoria térmica
+
+El dispositivo ideado por los investigadores de la Universidad Metropolitana de Osaka recibe el nombre de metagrating. Su diseño incorpora un material magnetoóptico y una aleación de germanio, antimonio y telurio (Ge2Sb2Te5) que funciona como memoria, permitiendo que el sistema recuerde su estado incluso después de apagar la alimentación.
+
+### Aplicaciones potenciales
+
+"El siguiente paso será fabricar un prototipo", afirmó Shunsuke Murai. La capacidad de activar, desactivar y memorizar el comportamiento térmico abre la puerta a emisores infrarrojos más eficientes, sensores avanzados, sistemas energéticos y memorias fotónicas.`,
+    contentEn: `### Defying the laws of thermodynamics
+
+Japanese researchers from Osaka Metropolitan University have achieved a breakthrough that challenges 160-year-old laws of thermodynamics, creating programmable heat that can be directed with millimeter precision using metamaterials.`,
+    date: '2026-07-23',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.ecestaticos.com/0ugPtbgIRNiR-QhagZGTIRyP_vM=/97x1:1170x806/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ffcf%2Fc50%2Fefb%2Ffcfc50efba77f2a3599e64226645c6f0.jpg',
+    imageCaption: 'Recreación 3D del experimento japonés (Osaka Metropolitan University). Foto: El Confidencial',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/tecnologia/ciencia/2026-07-23/japon-rompe-leyes-fisica-calor-programable-1qrt_4393584/'
+  },
+  {
+    id: '41',
+    slug: 'tormentas-solares-subestimadas-estudio-nature',
+    titleEs: 'Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature',
+    titleEn: 'We are underestimating the destructive power of solar storms, says a Nature study',
+    excerptEs: 'Un nuevo estudio publicado en Nature revela que hemos subestimado sistemáticamente el poder de la actividad solar extrema. El límite superior de la respuesta de la Tierra es una ilusión estadística.',
+    excerptEn: 'A new study published in Nature reveals we have been systematically underestimating the power of extreme solar activity. The upper limit of Earth\'s response is a statistical illusion.',
+    contentEs: `### Subestimando el poder del Sol
+
+Ya sabíamos que una tormenta solar monstruosa podía borrar del mapa la red eléctrica mundial, pero resulta que nuestros peores modelos se quedaban cortos. Un nuevo estudio publicado en la revista Nature revela que hemos estado subestimando sistemáticamente el poder de la actividad solar extrema por un simple error matemático.
+
+![Visualización del efecto de un evento solar extremo](https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg)
+
+### La mentira de la saturación geomagnética
+
+Durante décadas, los físicos pensaron que la Tierra tenía un tope natural que amortiguaba los impactos de los peores temporales espaciales. Investigadores de la NASA y la Universidad de Lancaster han demostrado que esa saturación era una simple ilusión estadística conocida como regresión a la media.
+
+### De Carrington a Miyake
+
+Un evento nivel Carrington, como el de 1859, destruiría la red eléctrica global. Pero los Eventos Miyake superan esa escala hasta 10 veces. Según el estudio, la capacidad destructiva de un evento de este calibre carece de límites geomagnéticos y su impacto podría ser el doble de grande de lo que se pensaba.
+
+### Un desastre sin techo
+
+El equipo analizó más de un millón de puntos de datos de satélites en órbita terrestre baja. La relación entre las fuerzas del Sol y las corrientes inducidas en la Tierra resultó ser una línea ascendente sin saturación. "Normalmente asumimos que la verdad puede estar alrededor de su medición. Pero la teoría de la probabilidad dice que se inclina hacia un lado", señaló Nithin Sivadas, investigador de la NASA y autor principal del estudio.`,
+    contentEn: `### Underestimating the power of the Sun
+
+A new study published in Nature reveals we have been systematically underestimating extreme solar activity. The apparent saturation of Earth's geomagnetic response is a statistical illusion, meaning a Carrington or Miyake event could be far more destructive than previously thought.`,
+    date: '2026-07-22',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'Visualización del efecto de un evento solar extremo (NASA). Foto: El Confidencial',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Confidencial',
+    sourceUrl: 'https://www.elconfidencial.com/tecnologia/novaceno/2026-07-22/efecto-carrington-efecto-miyake-destruccion_4393751/'
   }
 ];
 

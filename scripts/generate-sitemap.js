@@ -56,6 +56,13 @@ const articles = [
   'nvidia-deepstream-9-1-tracking',
   'nvidia-ising-decoding-quantum',
   'nvidia-omniverse-rtx-sensor',
+  'comision-europea-multa-google-890-millones',
+  'via-lactea-proyectiles-gas-32-millones-kmh',
+  'agencias-representantes-influencers-250-millones',
+  'rapamicina-autismo-nueva-via-tratamiento',
+  'c212-aviocar-transporte-militar-espanol',
+  'japon-rompe-leyes-fisica-calor-programable',
+  'tormentas-solares-subestimadas-estudio-nature',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

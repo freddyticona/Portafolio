@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Thu, 23 Jul 2026 21:21:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 21:29:46 GMT</lastBuildDate>
     <managingEditor>freddyticona62@gmail.com (Freddy Ticona Guzmán)</managingEditor>
     <webMaster>freddyticona62@gmail.com (Freddy Ticona Guzmán)</webMaster>
     <item>
@@ -282,6 +282,62 @@
       <guid isPermaLink="true">https://freddydev.net/blog/nvidia-omniverse-rtx-sensor</guid>
       <description><![CDATA[La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX a aplicaciones existentes usando OpenUSD.]]></description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Bruselas multa a Google con 890 millones de euros por incumplir la Ley de Mercados Digitales]]></title>
+      <link>https://freddydev.net/blog/comision-europea-multa-google-890-millones</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/comision-europea-multa-google-890-millones</guid>
+      <description><![CDATA[La Comisión Europea ha impuesto a Google una multa histórica de 890 millones de euros por incumplir la DSA.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h]]></title>
+      <link>https://freddydev.net/blog/via-lactea-proyectiles-gas-32-millones-kmh</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/via-lactea-proyectiles-gas-32-millones-kmh</guid>
+      <description><![CDATA[La NASA estudia V445 Puppis, la única nova de helio confirmada en la Vía Láctea, que lleva 20 años expulsando misteriosas balas de gas.]]></description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Ellos mueven los hilos de los influencers (y manejan un mercado de 250 millones de euros)]]></title>
+      <link>https://freddydev.net/blog/agencias-representantes-influencers-250-millones</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/agencias-representantes-influencers-250-millones</guid>
+      <description><![CDATA[El negocio de los creadores de contenido mueve 245 millones de euros en inversión publicitaria anual en España.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Un fármaco contra el envejecimiento abre una nueva vía para tratar el autismo]]></title>
+      <link>https://freddydev.net/blog/rapamicina-autismo-nueva-via-tratamiento</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/rapamicina-autismo-nueva-via-tratamiento</guid>
+      <description><![CDATA[Una única dosis de rapamicina revirtió alteraciones asociadas al TEA en ratones adultos en dos horas, según un estudio de UCLA.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Lecciones del C212 Aviocar: el exitoso "600" español del transporte militar]]></title>
+      <link>https://freddydev.net/blog/c212-aviocar-transporte-militar-espanol</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/c212-aviocar-transporte-militar-espanol</guid>
+      <description><![CDATA[El CASA C212 Aviocar es uno de los mayores éxitos de la industria aeronáutica española con más de 480 unidades vendidas.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Japón rompe las reglas de la física: sortea una ley de hace 160 años y consigue crear calor programable]]></title>
+      <link>https://freddydev.net/blog/japon-rompe-leyes-fisica-calor-programable</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/japon-rompe-leyes-fisica-calor-programable</guid>
+      <description><![CDATA[Investigadores japoneses han creado calor programable que desafía las leyes de la termodinámica con precisión milimétrica.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature]]></title>
+      <link>https://freddydev.net/blog/tormentas-solares-subestimadas-estudio-nature</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tormentas-solares-subestimadas-estudio-nature</guid>
+      <description><![CDATA[Un estudio de Nature revela que hemos subestimado el poder de la actividad solar extrema por un error matemático.]]></description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
     </item>
   </channel>

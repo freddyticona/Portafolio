@@ -249,6 +249,55 @@ const blogPosts = [
     title: 'Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes',
     date: '2026-07-24',
     excerpt: 'La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX a aplicaciones existentes usando OpenUSD.'
+  },
+  {
+    id: '35',
+    slug: 'comision-europea-multa-google-890-millones',
+    title: 'Bruselas multa a Google con 890 millones de euros por incumplir la Ley de Mercados Digitales',
+    date: '2026-07-23',
+    excerpt: 'La Comisión Europea ha impuesto a Google una multa histórica de 890 millones de euros por incumplir la DSA.'
+  },
+  {
+    id: '36',
+    slug: 'via-lactea-proyectiles-gas-32-millones-kmh',
+    title: 'Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h',
+    date: '2026-07-22',
+    excerpt: 'La NASA estudia V445 Puppis, la única nova de helio confirmada en la Vía Láctea, que lleva 20 años expulsando misteriosas balas de gas.'
+  },
+  {
+    id: '37',
+    slug: 'agencias-representantes-influencers-250-millones',
+    title: 'Ellos mueven los hilos de los influencers (y manejan un mercado de 250 millones de euros)',
+    date: '2026-07-23',
+    excerpt: 'El negocio de los creadores de contenido mueve 245 millones de euros en inversión publicitaria anual en España.'
+  },
+  {
+    id: '38',
+    slug: 'rapamicina-autismo-nueva-via-tratamiento',
+    title: 'Un fármaco contra el envejecimiento abre una nueva vía para tratar el autismo',
+    date: '2026-07-23',
+    excerpt: 'Una única dosis de rapamicina revirtió alteraciones asociadas al TEA en ratones adultos en dos horas, según un estudio de UCLA.'
+  },
+  {
+    id: '39',
+    slug: 'c212-aviocar-transporte-militar-espanol',
+    title: 'Lecciones del C212 Aviocar: el exitoso "600" español del transporte militar',
+    date: '2026-07-23',
+    excerpt: 'El CASA C212 Aviocar es uno de los mayores éxitos de la industria aeronáutica española con más de 480 unidades vendidas.'
+  },
+  {
+    id: '40',
+    slug: 'japon-rompe-leyes-fisica-calor-programable',
+    title: 'Japón rompe las reglas de la física: sortea una ley de hace 160 años y consigue crear calor programable',
+    date: '2026-07-23',
+    excerpt: 'Investigadores japoneses han creado calor programable que desafía las leyes de la termodinámica con precisión milimétrica.'
+  },
+  {
+    id: '41',
+    slug: 'tormentas-solares-subestimadas-estudio-nature',
+    title: 'Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature',
+    date: '2026-07-22',
+    excerpt: 'Un estudio de Nature revela que hemos subestimado el poder de la actividad solar extrema por un error matemático.'
   }
 ];
 
