@@ -56,6 +56,13 @@ Este proyecto es el portafolio profesional, plataforma de servicios y portal de 
 7. **⌨️ Accesibilidad (`Navbar.tsx`):**
    - Se cambió el evento deprecado `onKeyPress` por `onKeyDown`.
 
+8. **📰 Portal de Noticias (`NewsPortal.tsx` & `NewsCard.tsx`):**
+   - **Corrección de Bug de Filtros:** Se implementó normalización Unicode insensible a diacríticos (tildes) para que categorías como 'País', 'Economía' y 'Cultura & Entretenimiento' se filtren correctamente.
+   - **Búsqueda Dinámica:** Agregada barra de búsqueda por texto libre (título, contenido, fuente, ubicación).
+   - **Selector de Ordenamiento:** Filtro por 'Más Recientes', 'Más Leídas' (vistas) y 'Más Antiguas'.
+   - **Paginación:** Carga progresiva con botón 'Cargar más noticias'.
+   - **Accesibilidad:** Soporte completo de teclado (`role="button"`, `tabIndex={0}`, `onKeyDown`).
+
 ---
 
 ## 3. ⚠️ Acción Manual Requerida por el Usuario (Seguridad)
