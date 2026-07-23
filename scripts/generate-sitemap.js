@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
-const TODAY = '2026-07-21';
+const TODAY = '2026-07-23';
 
 const sections = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
@@ -44,6 +44,11 @@ const articles = [
   'documental-travesia-tierra-cinemateca',
   'documental-mi-cuerpo-mi-territorio-youtube',
   'serie-boliviana-inteligencia-artificial',
+  'messi-bombon-asesino-himno-argentino',
+  'morsa-abdominales-viral',
+  'chucky-micro-el-torno',
+  'abuelita-invento-casero-bicicleta',
+  'gatito-maullidos-michael-jackson',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

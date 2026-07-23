@@ -165,6 +165,41 @@ const blogPosts = [
     title: 'Estrenan "En el nombre de Pío": primera serie boliviana creada íntegramente con IA',
     date: '2026-07-07',
     excerpt: 'El publicista Fernando Revollo lanzó la primera serie boliviana desarrollada completamente con Inteligencia Artificial generativa.'
+  },
+  {
+    id: '23',
+    slug: 'messi-bombon-asesino-himno-argentino',
+    title: '¡Messi quedó en shock! Pusieron "Bombón Asesino" en vez del himno argentino',
+    date: '2026-06-17',
+    excerpt: 'Un insólito error técnico reemplazó el himno argentino por la popular cumbia santafesina, desatando risas y memes en todo el mundo.'
+  },
+  {
+    id: '24',
+    slug: 'morsa-abdominales-viral',
+    title: 'Morsa sorprende al hacer abdominales como toda una atleta',
+    date: '2026-06-17',
+    excerpt: 'Una morsa se volvió viral realizando abdominales con una técnica "mejor que la de varios humanos".'
+  },
+  {
+    id: '25',
+    slug: 'chucky-micro-el-torno',
+    title: '¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros',
+    date: '2026-07-21',
+    excerpt: 'Un pasajero viajaba en micro con un muñeco de Chucky moviéndole los brazos como si fuera un pasajero más.'
+  },
+  {
+    id: '26',
+    slug: 'abuelita-invento-casero-bicicleta',
+    title: 'Abuelita conquista las redes con ingenioso invento casero',
+    date: '2026-06-17',
+    excerpt: 'Un invento que combina bicicleta y caminadora creado por un "genio inventor" para su esposa se volvió viral.'
+  },
+  {
+    id: '27',
+    slug: 'gatito-maullidos-michael-jackson',
+    title: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson',
+    date: '2026-06-17',
+    excerpt: 'Un pequeño felino emite maullidos comparados con los sonidos del Rey del Pop, convirtiéndose en sensación viral.'
   }
 ];
 

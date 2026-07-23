@@ -85,6 +85,11 @@ const articles = [
   { slug: 'documental-travesia-tierra-cinemateca', title: '"A través de la tierra": documental sobre migración boliviana se estrena en la Cinemateca', desc: 'Coproducción Argentina-Bolivia filmada durante 6 años sobre dos mujeres bolivianas migrantes, se estrenó en la Cinemateca Boliviana.' },
   { slug: 'documental-mi-cuerpo-mi-territorio-youtube', title: '"Mi cuerpo, mi territorio": documental premiado se libera gratis en YouTube', desc: 'El cortometraje ganador del FENAVID 2025 sobre la resistencia de mujeres chiquitanas frente a los incendios ya está disponible gratuitamente.' },
   { slug: 'serie-boliviana-inteligencia-artificial', title: 'Estrenan "En el nombre de Pío": primera serie boliviana creada íntegramente con IA', desc: 'El publicista Fernando Revollo lanzó la primera serie boliviana desarrollada completamente con Inteligencia Artificial generativa.' },
+  { slug: 'messi-bombon-asesino-himno-argentino', title: '¡Messi quedó en shock! Pusieron "Bombón Asesino" en vez del himno argentino', desc: 'Un insólito error técnico reemplazó el himno argentino por la popular cumbia santafesina, desatando risas y memes.' },
+  { slug: 'morsa-abdominales-viral', title: 'Morsa sorprende al hacer abdominales como toda una atleta', desc: 'Una morsa se volvió viral realizando abdominales con una técnica "mejor que la de varios humanos".' },
+  { slug: 'chucky-micro-el-torno', title: '¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros', desc: 'Un pasajero viajaba en micro con un muñeco de Chucky, moviéndole los brazos como si fuera un pasajero más.' },
+  { slug: 'abuelita-invento-casero-bicicleta', title: 'Abuelita conquista las redes con ingenioso invento casero', desc: 'Un invento que combina bicicleta y caminadora creado por un "genio inventor" para su esposa se volvió viral.' },
+  { slug: 'gatito-maullidos-michael-jackson', title: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson', desc: 'Un pequeño felino emite maullidos comparados con los sonidos del Rey del Pop, convirtiéndose en sensación viral.' },
 ];
 
 const distDir = path.join(__dirname, '..', 'dist');

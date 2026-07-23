@@ -1374,6 +1374,236 @@ The launch opens debate about the future of audiovisual production in Bolivia, w
     sourceUrl: 'https://vivepotosi.com/2026/07/estrenan-serie-boliviana-creada-con-ia-por-el-publicista-el-feo/'
   },
   {
+    id: '23',
+    slug: 'messi-bombon-asesino-himno-argentino',
+    titleEs: '¡Messi quedó en shock! Pusieron "Bombón Asesino" en vez del himno argentino',
+    titleEn: 'Messi in shock! They played "Bombón Asesino" instead of the Argentine national anthem',
+    excerptEs: 'Un insólito error técnico en la antesala de un partido amistoso reemplazó el himno argentino por la popular cumbia santafesina, desatando risas y memes en todo el mundo.',
+    excerptEn: 'A bizarre technical error before a friendly match replaced the Argentine anthem with the popular Santa Fe cumbia hit, sparking laughter and memes worldwide.',
+    contentEs: `### El blooper que dio la vuelta al mundo
+
+Una ceremonia que prometía estar marcada por la formalidad terminó generando uno de los momentos más comentados en redes sociales. Durante la antesala del partido amistoso entre **Argentina y Honduras** en el **Kyle Field de Texas**, cuando llegó el instante de interpretar el himno nacional argentino, los parlantes del estadio sorprendieron a todos al reproducir los primeros acordes de **"Bombón Asesino"**, el emblemático éxito de **Los Palmeras**.
+
+#### La reacción de Messi
+
+Las cámaras captaron la **incredulidad y las risas de Lionel Messi** desde el banco de suplentes, quien intercambió miradas de complicidad con Enzo Fernández y Rodrigo de Paul. El video se volvió viral en cuestión de minutos, acumulando millones de reproducciones en TikTok, X e Instagram.
+
+#### Los Palmeras reaccionan
+
+El cantante de Los Palmeras, Marcos Camino Jr., contó que se enteraron del incidente a través de mensajes: *"Teníamos todos los chicos el teléfono explotado. Se hizo viral, la reacción de los jugadores, de Messi, para nosotros es algo increíble"*. Semanas después, la banda lanzó **"Bombón argentino"**, una canción que nació precisamente de este blooper.
+
+[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/messi-quedo-en-shock-pusieron-bombon-asesino-en-vez-del-himno-argentino/)`,
+    contentEn: `### The blooper that went around the world
+
+A ceremony meant to be formal turned into one of the most talked-about moments on social media. Before the friendly match between **Argentina and Honduras** at **Kyle Field in Texas**, when it was time to play the Argentine national anthem, the stadium speakers surprised everyone by playing **"Bombón Asesino"**, the iconic hit by **Los Palmeras**.
+
+#### Messi's reaction
+
+Cameras captured **Lionel Messi's disbelief and laughter** from the bench, exchanging knowing glances with Enzo Fernández and Rodrigo de Paul. The video went viral within minutes, amassing millions of views on TikTok, X, and Instagram.
+
+#### Los Palmeras react
+
+The lead singer of Los Palmeras, Marcos Camino Jr., said they found out through messages: *"All the guys had their phones exploding with messages. It went viral—the players' reactions, Messi's—for us it's incredible"*. Weeks later, the band released **"Bombón argentino"**, a song born precisely from this blooper.
+
+[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/messi-quedo-en-shock-pusieron-bombon-asesino-en-vez-del-himno-argentino/)`,
+    date: '2026-06-17',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://picsum.photos/seed/messi-bombon-asesino/1200/630',
+    imageCaption: 'Messi reacciona con sorpresa al escuchar "Bombón Asesino" en lugar del himno argentino. Foto: Captura de video ATB',
+    categoryEs: 'Virales',
+    categoryEn: 'Viral',
+    enableComments: true,
+    featured: true,
+    views: 3520,
+    source: 'ATB Digital',
+    sourceUrl: 'https://www.atb.com.bo/2026/06/17/messi-quedo-en-shock-pusieron-bombon-asesino-en-vez-del-himno-argentino/'
+  },
+  {
+    id: '24',
+    slug: 'morsa-abdominales-viral',
+    titleEs: 'Morsa sorprende al hacer abdominales como toda una atleta',
+    titleEn: 'Walrus surprises by doing sit-ups like a true athlete',
+    excerptEs: 'Un video de una morsa realizando abdominales con una técnica "mejor que la de varios humanos" se volvió viral, acumulando millones de reproducciones en redes sociales.',
+    excerptEn: 'A video of a walrus doing sit-ups with a technique "better than many humans" went viral, amassing millions of views across social media.',
+    contentEs: `### La morsa fitness que conquistó Internet
+
+Lo que parecía una simple broma terminó convirtiéndose en uno de los videos más comentados del momento. Una **morsa** sorprendió a miles de personas al aparecer realizando **abdominales** con movimientos firmes y repetitivos que muchos calificaron como **"mejor que la de varios humanos"**.
+
+#### ¿Real o IA?
+
+Aunque muchos pensaron que se trataba de una edición digital o creada con inteligencia artificial, el video es **completamente real** y fue grabado en un zoológico marino. Las imágenes muestran al enorme animal ejecutando una rutina de ejercicio que dejó boquiabiertos a los visitantes.
+
+#### Millones de reproducciones
+
+El video, compartido por **ATB Media** en TikTok, acumula millones de reproducciones y ha generado todo tipo de reacciones, desde memes hasta debates sobre la inteligencia de estos mamíferos marinos.
+
+[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/morsa-sorprende-al-hacer-abdominales-como-toda-una-atleta/)`,
+    contentEn: `### The fitness walrus that conquered the Internet
+
+What seemed like a simple joke became one of the most commented videos of the moment. A **walrus** surprised thousands of people by doing **sit-ups** with firm, repetitive movements that many called **"better than many humans"**.
+
+#### Real or AI?
+
+Although many thought it was digital editing or AI-generated, the video is **completely real** and was recorded at a marine zoo. The images show the huge animal performing an exercise routine that left visitors amazed.
+
+#### Millions of views
+
+The video, shared by **ATB Media** on TikTok, has amassed millions of views and generated all kinds of reactions, from memes to debates about the intelligence of these marine mammals.
+
+[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/morsa-sorprende-al-hacer-abdominales-como-toda-una-atleta/)`,
+    date: '2026-06-17',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://picsum.photos/seed/morsa-abdominales/1200/630',
+    imageCaption: 'Morsa realizando abdominales en un zoológico marino. Foto: Captura de video ATB',
+    categoryEs: 'Virales',
+    categoryEn: 'Viral',
+    enableComments: true,
+    featured: false,
+    views: 2840,
+    source: 'ATB Digital',
+    sourceUrl: 'https://www.atb.com.bo/2026/06/17/morsa-sorprende-al-hacer-abdominales-como-toda-una-atleta/'
+  },
+  {
+    id: '25',
+    slug: 'chucky-micro-el-torno',
+    titleEs: '¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros',
+    titleEn: 'Chucky heading to El Torno! The famous doll surprised passengers',
+    excerptEs: 'Un pasajero viajaba en un micro con un muñeco de Chucky, moviéndole los brazos como si el personaje de terror fuera un pasajero más. El video se volvió viral.',
+    excerptEn: 'A passenger rode a bus with a Chucky doll, moving its arms as if the horror character were just another passenger. The video went viral.',
+    contentEs: `### Chucky apareció donde nadie lo esperaba
+
+En las últimas horas se viralizó en redes sociales un video que muestra una escena insólita en Santa Cruz. Un pasajero viajaba en un **micro de la ruta hacia El Torno** llevando consigo un **muñeco de Chucky**, el famoso personaje de terror de la saga "Child's Play".
+
+#### Un pasajero de terror
+
+En el video se observa al pasajero sentado en el último asiento del transporte público mientras sostiene al muñeco y le mueve los brazos, dando la impresión de que el famoso **"muñeco diabólico"** viaja como un pasajero más. La escena sorprendió a quienes iban en el micro y rápidamente comenzaron a grabar.
+
+#### "Vayas donde vayas, Chucky te encontrará"
+
+Los usuarios acompañaron el video con la frase *"Vayas donde vayas, Chucky te encontrarás"*, haciendo referencia al popular personaje. En esta ocasión, Chucky "apareció donde nadie lo esperaba", viajando tranquilamente rumbo al municipio cruceño de El Torno.
+
+[Fuente: Unitel](https://unitel.bo/noticias/virales/chucky-rumbo-a-el-torno-el-famoso-muneco-sorprendio-a-pasajeros-CC22314170)`,
+    contentEn: `### Chucky appeared where nobody expected
+
+In the last few hours, a video showing a bizarre scene in Santa Cruz went viral. A passenger was traveling on a **bus heading to El Torno** carrying a **Chucky doll**, the famous horror character from the "Child's Play" saga.
+
+#### A terrifying passenger
+
+The video shows the passenger sitting in the last seat of the public transport while holding the doll and moving its arms, giving the impression that the famous **"demonic doll"** is just another passenger. The scene surprised fellow riders who quickly started recording.
+
+#### "Wherever you go, Chucky will find you"
+
+Users accompanied the video with the phrase *"Wherever you go, Chucky will find you"*, referencing the popular character. This time, Chucky "appeared where nobody expected him," calmly traveling to the town of El Torno in Santa Cruz.
+
+[Source: Unitel](https://unitel.bo/noticias/virales/chucky-rumbo-a-el-torno-el-famoso-muneco-sorprendio-a-pasajeros-CC22314170)`,
+    date: '2026-07-21',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://picsum.photos/seed/chucky-el-torno/1200/630',
+    imageCaption: 'Pasajero viaja con muñeco de Chucky en micro rumbo a El Torno, Santa Cruz. Foto: Captura de video Unitel',
+    categoryEs: 'Virales',
+    categoryEn: 'Viral',
+    enableComments: true,
+    featured: false,
+    views: 1890,
+    source: 'Unitel',
+    sourceUrl: 'https://unitel.bo/noticias/virales/chucky-rumbo-a-el-torno-el-famoso-muneco-sorprendio-a-pasajeros-CC22314170'
+  },
+  {
+    id: '26',
+    slug: 'abuelita-invento-casero-bicicleta',
+    titleEs: 'Abuelita conquista las redes con ingenioso invento casero que combina bicicleta y caminadora',
+    titleEn: 'Grandma conquers the internet with ingenious homemade invention combining bike and treadmill',
+    excerptEs: 'Un invento casero creado por un "genio inventor" para su esposa permite caminar y pedalear al mismo tiempo, demostrando que las ideas simples pueden transformar la calidad de vida.',
+    excerptEn: 'A homemade invention created by a "genius inventor" for his wife allows walking and pedaling at the same time, proving that simple ideas can transform quality of life.',
+    contentEs: `### Creatividad que inspira: el invento de la abuelita rusa
+
+En medio del avance de la tecnología, una historia sencilla y llena de creatividad logró captar la atención de miles de personas en redes sociales. Una **abuelita rusa** sorprendió al mostrar un ingenioso **invento casero** diseñado por su esposo, a quien describe con cariño como un **"genio inventor"**.
+
+#### Bicicleta y caminadora en uno
+
+El curioso dispositivo **combina una bicicleta con un aparato para caminar**, permitiéndole desplazarse cómodamente mientras realiza ejercicio y actividades diarias como ir de compras. En las imágenes se la observa disfrutando tranquilamente del recorrido, demostrando que las ideas simples también pueden transformar la calidad de vida.
+
+#### Viral en TikTok
+
+El video, compartido por ATB Media, se volvió rápidamente viral, acumulando miles de reacciones y comentarios de usuarios que elogiaron la creatividad y el cariño del esposo inventor.
+
+[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/abuelita-conquista-las-redes-con-ingenioso-invento-casero/)`,
+    contentEn: `### Creativity that inspires: Grandma's invention
+
+Amid technological advancement, a simple and creative story captured the attention of thousands on social media. A **Russian grandmother** surprised everyone by showing an ingenious **homemade invention** designed by her husband, whom she affectionately calls a **"genius inventor"**.
+
+#### Bike and treadmill in one
+
+The curious device **combines a bicycle with a walking machine**, allowing her to move comfortably while exercising and doing daily activities like grocery shopping. The footage shows her calmly enjoying the ride, proving that simple ideas can transform quality of life.
+
+#### Viral on TikTok
+
+The video, shared by ATB Media, quickly went viral, accumulating thousands of reactions and comments from users praising the creativity and love of the inventor husband.
+
+[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/abuelita-conquista-las-redes-con-ingenioso-invento-casero/)`,
+    date: '2026-06-17',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://picsum.photos/seed/abuelita-invento/1200/630',
+    imageCaption: 'Abuelita rusa usando su invento casero que combina bicicleta y caminadora. Foto: Captura de video ATB',
+    categoryEs: 'Virales',
+    categoryEn: 'Viral',
+    enableComments: true,
+    featured: false,
+    views: 1560,
+    source: 'ATB Digital',
+    sourceUrl: 'https://www.atb.com.bo/2026/06/17/abuelita-conquista-las-redes-con-ingenioso-invento-casero/'
+  },
+  {
+    id: '27',
+    slug: 'gatito-maullidos-michael-jackson',
+    titleEs: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson',
+    titleEn: 'Kitten conquers social media with Michael Jackson-style meows',
+    excerptEs: 'Un pequeño felino emite maullidos que los usuarios compararon con los característicos sonidos vocales del Rey del Pop, convirtiéndose en la nueva sensación viral.',
+    excerptEn: 'A tiny feline emits meows that users compared to the King of Pop\'s signature vocal sounds, becoming the latest viral sensation.',
+    contentEs: `### El gatito que maúlla como Michael Jackson
+
+Un pequeño **gatito** ha logrado conquistar a miles de usuarios en redes sociales gracias a un video que rápidamente se volvió viral. En las imágenes, el felino emite una serie de **maullidos** que muchos internautas compararon con los famosos sonidos vocales de **Michael Jackson**, el legendario Rey del Pop.
+
+#### Ternura y nostalgia
+
+La curiosa coincidencia provocó una ola de comentarios, reacciones y compartidos en distintas plataformas digitales. Numerosos usuarios destacaron la **ternura del animal**, mientras que otros aprovecharon para realizar divertidos montajes y comparaciones con las presentaciones del icónico artista.
+
+#### Un fenómeno global
+
+El video, difundido por ATB Media en TikTok, no tardó en cruzar fronteras, con usuarios de distintos países compartiendo el peculiar talento del felino y creando remixes con las canciones más famosas de Michael Jackson.
+
+[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/gatito-conquista-las-redes-con-maullidos-al-estilo-de-michael-jackson/)`,
+    contentEn: `### The kitten that meows like Michael Jackson
+
+A tiny **kitten** has won over thousands of social media users thanks to a video that quickly went viral. In the footage, the feline emits a series of **meows** that many users compared to the famous vocal sounds of **Michael Jackson**, the legendary King of Pop.
+
+#### Cuteness and nostalgia
+
+The curious coincidence sparked a wave of comments, reactions, and shares across different digital platforms. Many users highlighted the **animal's cuteness**, while others created funny mashups and comparisons with the iconic artist's performances.
+
+#### A global phenomenon
+
+The video, shared by ATB Media on TikTok, quickly crossed borders, with users from different countries sharing the feline's peculiar talent and creating remixes with Michael Jackson's most famous songs.
+
+[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/gatito-conquista-las-redes-con-maullidos-al-estilo-de-michael-jackson/)`,
+    date: '2026-06-17',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://picsum.photos/seed/gatito-michael-jackson/1200/630',
+    imageCaption: 'Gatito cuyos maullidos recuerdan a los sonidos de Michael Jackson. Foto: Captura de video ATB',
+    categoryEs: 'Virales',
+    categoryEn: 'Viral',
+    enableComments: true,
+    featured: false,
+    views: 2210,
+    source: 'ATB Digital',
+    sourceUrl: 'https://www.atb.com.bo/2026/06/17/gatito-conquista-las-redes-con-maullidos-al-estilo-de-michael-jackson/'
+  },
+  {
     id: '13',
     slug: 'nova-vuelve-sinfonia-de-historias-inolvidables',
     titleEs: 'NOVA Filarmónica vuelve con la "Sinfonía de historias inolvidables"',
