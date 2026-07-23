@@ -2810,7 +2810,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/mlb/story/_/id/40400000/mlb-trade-deadline-2026'
+    sourceUrl: 'https://www.espn.com/mlb/story/_/id/49411047/mlb-trade-deadline-2026-early-intel-rumors-updates-buster-olney-jeff-passan-mets-red-sox-dodgers-yankees-tigers'
   },
   {
     id: '50',
@@ -2850,7 +2850,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/nfl/story/_/id/40400001/nfl-training-camps-2026-preview'
+    sourceUrl: 'https://www.espn.com/nfl/story/_/id/49109711/nfl-training-camp-2026-schedules-dates-locations-every-team'
   },
   {
     id: '51',
@@ -2890,7 +2890,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/nba/story/_/id/40400002/nba-offseason-grades-2026'
+    sourceUrl: 'https://www.espn.com/nba/story/_/id/49410979/nba-2026-offseason-grades-30-teams-free-agency-trades'
   },
   {
     id: '52',
@@ -2930,7 +2930,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400003/fifa-world-cup-2026-format-changes'
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/47108758/2026-fifa-world-cup-format-tiebreakers-fixtures-schedule'
   },
   {
     id: '53',
@@ -2968,7 +2968,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400004/spain-dominance-football-2026'
+    sourceUrl: 'https://africa.espn.com/football/story/_/id/49416781/why-spain-top-world-mens-womens-soccer-world-cup'
   },
   {
     id: '54',
@@ -3011,7 +3011,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/mlb/story/_/id/40400005/mlb-labor-battle-2026'
+    sourceUrl: 'https://www.espn.co.uk/mlb/story/_/id/49425027/mlb-labor-cba-owners-players-union-salary-cap-draft-proposals-mlbpa-negotiations-latest-updates'
   },
   {
     id: '55',
@@ -3051,7 +3051,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400006/barcelona-adeyemi-transfer-2026'
+    sourceUrl: 'https://www.espn.com/soccer/story/_/id/49348762/barcelona-sign-karim-adeyemi-borussia-dortmund'
   },
   {
     id: '56',
@@ -3089,7 +3089,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/soccer/story/_/id/40400007/inter-miami-own-goal-2026'
+    sourceUrl: 'https://www.espn.com/soccer/report/_/gameId/761667'
   },
   {
     id: '57',
@@ -3127,7 +3127,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/wnba/story/_/id/40400008/wnba-midseason-2026-caitlin-clark'
+    sourceUrl: 'https://www.espn.com/wnba/story/_/id/49414433/wnba-2026-midseason-grades-mvps-15-teams-all-star-break'
   },
   {
     id: '58',
@@ -3170,7 +3170,7 @@ Con información de: ESPN.`,
     featured: false,
     views: 1,
     source: 'ESPN',
-    sourceUrl: 'https://www.espn.com/nba/story/_/id/40400009/lebron-james-free-agency-2026'
+    sourceUrl: 'https://www.espn.co.uk/nba/story/_/id/49239600/lebron-james-free-agency-pros-cons-potential-destinations-cavaliers-warriors-heat'
   }
 ];
 
