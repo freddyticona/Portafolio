@@ -405,3 +405,18 @@ button:focus-visible,
   margin: 2.25rem 0;
 }
 
+.article-content small {
+  font-size: 0.75rem;
+  color: #a3a3a3;
+  display: block;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.article-content small a {
+  color: var(--color-gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+

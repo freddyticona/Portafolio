@@ -162,7 +162,7 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
 
       {/* Article Content */}
       <div 
-        className="prose prose-invert prose-sm md:prose-base max-w-none prose-headings:font-display prose-headings:text-white prose-h3:text-xl md:prose-h3:text-2xl prose-h4:text-gold prose-p:text-stone-300 prose-strong:text-white prose-a:text-gold prose-a:underline prose-a:underline-offset-2 prose-hr:border-white/10 prose-li:text-stone-300 leading-relaxed"
+        className="article-content leading-relaxed"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
 
