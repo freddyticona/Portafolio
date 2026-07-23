@@ -18,6 +18,7 @@ import {
 // Firebase importado dinámicamente para reducir bundle inicial (552KB)
 
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags } from './lib/seo';
 
@@ -1050,8 +1051,9 @@ export default function App() {
       <OnlineStatus lang={lang} />
       <UpdatePrompt />
 
-      {/* Vercel Analytics */}
+      {/* Vercel Analytics & Speed Insights */}
       <Analytics />
+      <SpeedInsights />
 
     </div>
   );

@@ -127,3 +127,23 @@ Pantalla negra al navegar entre páginas. Error en consola: `ServiceWorker scrip
 
 ### Commit
 `35e0fe8` — feat: agregar 5 nuevas noticias al portal (ids 18-22)
+
+---
+
+## Sesión: Sitemap + Vercel Analytics (julio 2026)
+
+### Problema
+- Sitemap tenía solo 13 artículos (54 URLs), faltaban 9 artículos nuevos
+- Google Search Console mostraba 0 clics/impresiones
+- No había Vercel Analytics configurado
+
+### Cambios
+1. **Sitemap actualizado** — `scripts/generate-sitemap.js` ahora incluye los 22 artículos (54 URLs: 10 secciones + 22×2 = 54)
+2. **Vercel Analytics** — instalado `@vercel/analytics` y agregado `<Analytics />` en `App.tsx`. Datos visibles en Vercel Dashboard > Analytics
+
+### Para Google Search Console
+- Asegúrate de que el sitemap `https://freddydev.net/sitemap.xml` esté **enviado manualmente** en GSC
+- Puede tardar semanas en mostrar datos (sitio nuevo)
+
+### Commit
+`94015cc` — fix: actualizar sitemap con 21 artículos + instalar @vercel/analytics
