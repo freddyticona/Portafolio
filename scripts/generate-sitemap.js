@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
-const TODAY = '2026-07-23';
+const TODAY = '2026-07-24';
 
 const sections = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
@@ -49,6 +49,13 @@ const articles = [
   'chucky-micro-el-torno',
   'abuelita-invento-casero-bicicleta',
   'gatito-maullidos-michael-jackson',
+  'nvidia-gb300-moe-world-record',
+  'nvidia-rubin-gpu-architecture',
+  'nvidia-vera-cpu-olympus',
+  'nvidia-nvlink-scale-up-network',
+  'nvidia-deepstream-9-1-tracking',
+  'nvidia-ising-decoding-quantum',
+  'nvidia-omniverse-rtx-sensor',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

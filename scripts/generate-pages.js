@@ -90,6 +90,13 @@ const articles = [
   { slug: 'chucky-micro-el-torno', title: '¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros', desc: 'Un pasajero viajaba en micro con un muñeco de Chucky, moviéndole los brazos como si fuera un pasajero más.' },
   { slug: 'abuelita-invento-casero-bicicleta', title: 'Abuelita conquista las redes con ingenioso invento casero', desc: 'Un invento que combina bicicleta y caminadora creado por un "genio inventor" para su esposa se volvió viral.' },
   { slug: 'gatito-maullidos-michael-jackson', title: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson', desc: 'Un pequeño felino emite maullidos comparados con los sonidos del Rey del Pop, convirtiéndose en sensación viral.' },
+  { slug: 'nvidia-gb300-moe-world-record', title: 'NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72', desc: 'NVIDIA logra 1,648 TFLOPs por GPU en pre-entrenamiento de DeepSeek-V3 671B con el sistema rack-scale GB300 NVL72.' },
+  { slug: 'nvidia-rubin-gpu-architecture', title: 'Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica', desc: 'La GPU NVIDIA Rubin, con 336 mil millones de transistores y memoria HBM4, ofrece hasta 10x más rendimiento agéntico.' },
+  { slug: 'nvidia-vera-cpu-olympus', title: 'NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica', desc: 'La CPU NVIDIA Vera, con núcleos Olympus diseñados desde cero, ofrece hasta 1.8x más rendimiento que CPUs x86.' },
+  { slug: 'nvidia-nvlink-scale-up-network', title: 'NVIDIA NVLink: la red de escalado vertical para fábricas de IA', desc: 'NVLink 6 proporciona 3.6 TB/s por GPU y 260 TB/s de ancho de banda a nivel de rack.' },
+  { slug: 'nvidia-deepstream-9-1-tracking', title: 'DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica', desc: 'DeepStream 9.1 introduce AutoMagicCalib y seguimiento 3D multivista para rastrear objetos consistentemente entre cámaras.' },
+  { slug: 'nvidia-ising-decoding-quantum', title: 'NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos', desc: 'El decoder Ising ColorCode 1 Fast logra 347.7x mejor tasa de error lógico y 7.3x más velocidad.' },
+  { slug: 'nvidia-omniverse-rtx-sensor', title: 'Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes', desc: 'La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX a aplicaciones existentes usando OpenUSD.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts

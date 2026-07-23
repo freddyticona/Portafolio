@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/blog/reflexion-comparativa-cultura-audiovisual-bolivia-mundo</loc>
+    <loc>https://freddydev.net/blog/nvidia-gb300-moe-world-record</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,13 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-21</news:publication_date>
-      <news:title>Bolivia en el espejo del mundo: reflexión comparativa sobre cultura audiovisual y periodismo</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/reflexion-comparativa-cultura-audiovisual-bolivia-mundo</loc>
+    <loc>https://freddydev.net/noticias/nvidia-gb300-moe-world-record</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-21</news:publication_date>
-      <news:title>Bolivia en el espejo del mundo: reflexión comparativa sobre cultura audiovisual y periodismo</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/chucky-micro-el-torno</loc>
+    <loc>https://freddydev.net/blog/nvidia-rubin-gpu-architecture</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -39,13 +39,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-21</news:publication_date>
-      <news:title>¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/chucky-micro-el-torno</loc>
+    <loc>https://freddydev.net/noticias/nvidia-rubin-gpu-architecture</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -53,13 +53,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-21</news:publication_date>
-      <news:title>¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/cinemateca-50-anos-todo-lo-que-era-posible</loc>
+    <loc>https://freddydev.net/blog/nvidia-vera-cpu-olympus</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -67,13 +67,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-19</news:publication_date>
-      <news:title>Cinemateca Boliviana: 50 Años Preservando la Memoria Audiovisual</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/cinemateca-50-anos-todo-lo-que-era-posible</loc>
+    <loc>https://freddydev.net/noticias/nvidia-vera-cpu-olympus</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -81,13 +81,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-19</news:publication_date>
-      <news:title>Cinemateca Boliviana: 50 Años Preservando la Memoria Audiovisual</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/nova-vuelve-sinfonia-de-historias-inolvidables</loc>
+    <loc>https://freddydev.net/blog/nvidia-nvlink-scale-up-network</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -95,13 +95,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-19</news:publication_date>
-      <news:title>NOVA Filarmónica vuelve con la &quot;Sinfonía de historias inolvidables&quot;</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>NVIDIA NVLink: la red de escalado vertical para fábricas de IA</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/nova-vuelve-sinfonia-de-historias-inolvidables</loc>
+    <loc>https://freddydev.net/noticias/nvidia-nvlink-scale-up-network</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -109,13 +109,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-19</news:publication_date>
-      <news:title>NOVA Filarmónica vuelve con la &quot;Sinfonía de historias inolvidables&quot;</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>NVIDIA NVLink: la red de escalado vertical para fábricas de IA</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/bolivia-lab-18-edicion-industria-cine</loc>
+    <loc>https://freddydev.net/blog/nvidia-deepstream-9-1-tracking</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -123,13 +123,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-19</news:publication_date>
-      <news:title>Bolivia Lab 2026: Dos filmes son la previa del encuentro de la industria del cine iberoamericano</news:title>
+      <news:publication_date>2026-07-24</news:publication_date>
+      <news:title>DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/bolivia-lab-18-edicion-industria-cine</loc>
+    <loc>https://freddydev.net/noticias/nvidia-deepstream-9-1-tracking</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -137,13 +137,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-19</news:publication_date>
-      <news:title>Bolivia Lab 2026: Dos filmes son la previa del encuentro de la industria del cine iberoamericano</news:title>
+      <news:publication_date>2026-07-24</news:publication_date>
+      <news:title>DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/fallece-tito-de-la-vina</loc>
+    <loc>https://freddydev.net/blog/nvidia-ising-decoding-quantum</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -151,13 +151,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-18</news:publication_date>
-      <news:title>Fallece Tito de la Viña, leyenda del periodismo deportivo boliviano, a los 87 años</news:title>
+      <news:publication_date>2026-07-24</news:publication_date>
+      <news:title>NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/fallece-tito-de-la-vina</loc>
+    <loc>https://freddydev.net/noticias/nvidia-ising-decoding-quantum</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -165,120 +165,8 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-18</news:publication_date>
-      <news:title>Fallece Tito de la Viña, leyenda del periodismo deportivo boliviano, a los 87 años</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/pianista-daniel-alvarez-gana-premio-sur-musica-nueva</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17</news:publication_date>
-      <news:title>Pianista Daniel Álvarez gana Premio Sur de Música Nueva Latinoamericana</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/pianista-daniel-alvarez-gana-premio-sur-musica-nueva</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17</news:publication_date>
-      <news:title>Pianista Daniel Álvarez gana Premio Sur de Música Nueva Latinoamericana</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/cinemateca-217-anos-la-paz</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15</news:publication_date>
-      <news:title>Cinemateca Boliviana celebra 217 años de La Paz con ciclo de cine nacional gratuito</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/cinemateca-217-anos-la-paz</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15</news:publication_date>
-      <news:title>Cinemateca Boliviana celebra 217 años de La Paz con ciclo de cine nacional gratuito</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/nolan-odisea-reparto</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-14</news:publication_date>
-      <news:title>Christopher Nolan lleva &quot;La Odisea&quot; al cine: el reparto incluye a Matt Damon y Tom Holland</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/nolan-odisea-reparto</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-14</news:publication_date>
-      <news:title>Christopher Nolan lleva &quot;La Odisea&quot; al cine: el reparto incluye a Matt Damon y Tom Holland</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/detras-epica-aventura-nolan-la-odisea</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-14</news:publication_date>
-      <news:title>Detrás de la épica aventura de Christopher Nolan para llevar &quot;La Odisea&quot; al cine</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/detras-epica-aventura-nolan-la-odisea</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-14</news:publication_date>
-      <news:title>Detrás de la épica aventura de Christopher Nolan para llevar &quot;La Odisea&quot; al cine</news:title>
+      <news:publication_date>2026-07-24</news:publication_date>
+      <news:title>NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos</news:title>
       
     </news:news>
   </url>

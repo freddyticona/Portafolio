@@ -1642,6 +1642,483 @@ The documentary is now freely available on YouTube, allowing wider access to thi
     views: 312,
     source: 'Revista Nómadas',
     sourceUrl: 'https://revistanomadas.com/mi-cuerpo-mi-territorio-se-libera-en-youtube-tras-su-exito-nacional-e-internacional/'
+  },
+  {
+    id: '28',
+    slug: 'nvidia-gb300-moe-world-record',
+    titleEs: 'NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72',
+    titleEn: 'NVIDIA Sets World Record for MoE Pre-Training on GB300 NVL72',
+    excerptEs: 'NVIDIA logra 1,648 TFLOPs por GPU en pre-entrenamiento de DeepSeek-V3 671B con el sistema rack-scale GB300 NVL72, triplicando el rendimiento de la generación anterior.',
+    excerptEn: 'NVIDIA achieves 1,648 TFLOPs per GPU pre-training DeepSeek-V3 671B on the GB300 NVL72 rack-scale system, delivering 3x the performance of the previous generation.',
+    contentEs: `### NVIDIA establece récord mundial en pre-entrenamiento MoE
+
+El pre-entrenamiento de modelos frontera ha convergido en arquitecturas Mixture of Experts (MoE), cambiando fundamentalmente los límites del entrenamiento de IA a gran escala. A medida que el cómputo por token disminuye, la comunicación determina cada vez más la eficiencia con la que los modelos escalan a través de miles de GPUs.
+
+![NVIDIA GB300 NVL72 - Récord Mundial](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/World-Record-1024x576.jpg)
+
+NVIDIA GB300 NVL72 estableció un récord mundial para pre-entrenamiento de DeepSeek-V3 671B alcanzando **1,648 TFLOPs por GPU**, demostrando cómo los avances en toda la plataforma de IA —desde silicio hasta redes y software— continúan impulsando el rendimiento del entrenamiento.
+
+### La arquitectura GB300 NVL72
+
+A diferencia de los modelos densos, donde cada token activa todos los parámetros, los modelos MoE activan un subconjunto de parámetros por token. DeepSeek-V3 tiene 671B parámetros pero activa solo ~37B por token. El tradeoff es la comunicación: los expertos viven en otras GPUs, por lo que cada capa MoE debe enviar cada token a sus expertos y recoger los resultados mediante comunicación all-to-all.
+
+![Diagrama del paso de entrenamiento MoE](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-59.webp)
+
+El GB300 NVL72 aborda este desafío con NVLink de quinta generación, dando a cada GPU 1.8 TB/s de ancho de banda y 130 TB/s de ancho de banda all-to-all no bloqueante a través del rack. NVLink es semántico de memoria: una GPU lee y escribe la HBM de otra directamente como operaciones nativas de carga y almacenamiento.
+
+![Comparación de NVLink vs fibra tradicional](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-55.webp)
+
+### Rendimiento excepcional
+
+En el modelo DeepSeek-V3 671B, usando 256 GPUs, Megatron Core alcanza 1,648 TFLOPs por GPU en GB300 NVL72, comparado con 606 TFLOPs en GB200 NVL72 — aproximadamente **3x más rendimiento** en una sola generación.
+
+![Gráfico de rendimiento 3x](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-61.webp)
+
+El rendimiento aumentó 1.5x en seis meses solo con mejoras de software en el mismo hardware GB300 NVL72, demostrando que el rendimiento sigue mejorando mucho después de que el silicio se envía.
+
+![Gráfico de mejora por software](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-53.webp)
+
+### Frameworks de entrenamiento acelerados
+
+Las optimizaciones de NVIDIA en TorchTitan ofrecen aproximadamente **6x más rendimiento** en la misma infraestructura, mientras que las optimizaciones en JAX han logrado mejoras de casi **10x** en seis meses.
+
+![Rendimiento TorchTitan](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-63.webp)
+
+![Rendimiento JAX](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-73.webp)
+
+Escalando de 256 a 1,024 GPUs, Megatron Core mantiene el 98.5% de su rendimiento por GPU, mientras TorchTitan y JAX mantienen el 97%, lo que significa que casi toda la infraestructura adicional se convierte en mayor rendimiento del sistema.
+
+![Eficiencia de escalado](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-57.webp)
+
+Este récord no es el techo — proviene de una plataforma cuyo hardware, interconexión y software están diseñados juntos y optimizados continuamente.`,
+    contentEn: `### Setting a World Record for MoE Pre-Training
+
+Frontier model pre-training has converged on mixture of experts (MoE), fundamentally changing what limits large-scale AI training. As compute per token falls, communication increasingly determines how efficiently models scale across thousands of GPUs.
+
+![NVIDIA GB300 NVL72 World Record](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/World-Record-1024x576.jpg)
+
+NVIDIA GB300 NVL72 set a world record for pre-training DeepSeek-V3 671B at 1,648 TFLOPs per GPU, showing how advances across the entire AI platform continue to push training performance forward.
+
+### GB300 NVL72 Architecture
+
+Unlike dense models where every token activates every parameter, MoE models activate a subset. DeepSeek-V3 holds 671B parameters but activates only ~37B per token. The tradeoff is communication — experts live on other GPUs.
+
+![MoE training step diagram](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-59.webp)
+
+GB300 NVL72 addresses this with fifth-generation NVLink, giving each GPU 1.8 TB/s bandwidth and 130 TB/s non-blocking all-to-all bandwidth across the rack.
+
+![NVLink vs traditional fabric](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-55.webp)
+
+### Exceptional Performance
+
+On DeepSeek-V3 671B using 256 GPUs, Megatron Core reaches 1,648 TFLOPs per GPU on GB300 NVL72, ~3x higher throughput per GPU in a single generation.`,
+    date: '2026-07-23',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/World-Record-1024x576.jpg',
+    imageCaption: 'NVIDIA GB300 NVL72 establece récord mundial en pre-entrenamiento MoE. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: true,
+    views: 89,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72/'
+  },
+  {
+    id: '29',
+    slug: 'nvidia-rubin-gpu-architecture',
+    titleEs: 'Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica',
+    titleEn: 'Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI',
+    excerptEs: 'La GPU NVIDIA Rubin, con 336 mil millones de transistores y memoria HBM4, ofrece hasta 10x más rendimiento agéntico por unidad de energía que Blackwell.',
+    excerptEn: 'The NVIDIA Rubin GPU, with 336 billion transistors and HBM4 memory, delivers up to 10x more agentic throughput per unit of energy than Blackwell.',
+    contentEs: `### Arquitectura NVIDIA Rubin GPU
+
+Lo que comenzó como entrenamiento de modelos de IA discretos y chats con humanos ha evolucionado hacia fábricas de IA siempre activas, dedicadas a producir inteligencia a escala. Estas fábricas ahora impulsan flujos de trabajo agénticos que razonan, planifican, usan herramientas y ejecutan tareas complejas de múltiples pasos.
+
+![GPU NVIDIA Rubin](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-gpu-1024x576.png)
+
+En el corazón de la plataforma NVIDIA Vera Rubin está la GPU Rubin, diseñada para ofrecer hasta **10x más rendimiento agéntico por unidad de energía** que Blackwell.
+
+### Innovaciones arquitectónicas
+
+La GPU Rubin está construida con 336 mil millones de transistores, 224 SMs y 896 Tensor Cores. Incorpora un Transformer Engine de tercera generación que ofrece hasta 50 petaflops de rendimiento NVFP4.
+
+![Gráfico comparativo de rendimiento](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/hopper-blackwell-rubin-throughput-interactivity-comparison.webp)
+
+La arquitectura organiza los recursos en Clústeres de Procesadores Gráficos (GPCs) con una gran caché L2 centralizada. Rubin integra hasta 288 GB de memoria **HBM4** con hasta 22 TB/s de ancho de banda.
+
+![Diagrama de chip Rubin](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-gpu-chip-architecture-1.webp)
+
+### Aceleración de rutas críticas de inferencia
+
+Rubin mejora el Tensor Memory Accelerator (TMA) con soporte de actualización de descriptores en línea, permitiendo compartir un descriptor entre todos los expertos en modelos MoE.
+
+![Comparación descriptores MoE](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/rubin-gpu-moe-descriptor-sharing-1.webp)
+
+Rubin duplica el rendimiento de Tensor Core por clock al procesar el doble de datos en la dimensión K, reduciendo iteraciones y mejorando la utilización.
+
+![Dimensión K duplicada](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/rubin-k-dimension-instruction-throughput-1.webp)
+
+### Procesamiento de contexto largo
+
+Rubin acelera la atención combinando **activación sparse** con compresión adaptativa y mayor rendimiento de softmax. La expomarcial FP32 tiene 2x más rendimiento y BF16/FP16 tiene 4x versus Blackwell.
+
+![Compresión adaptativa](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-adaptive-compression-sparsity-1.webp)
+
+### Eficiencia de kernel
+
+Rubin permite una coordinación más fina entre kernels dependientes, reduciendo burbujas en la línea de tiempo de la GPU. Los kernels consumidores pueden comenzar antes a medida que los datos de entrada están disponibles.
+
+![Timeline productor-consumidor](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/blackwell-rubin-timelines-producer-consumer-thread-blocks-1.webp)
+
+### Comunicación NVLink acelerada
+
+Rubin introduce **counted writes** para comunicación NVLink iniciada por dispositivo, simplificando la sincronización para transferencias GPU a GPU.
+
+![Comunicación NVLink](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/rubin-nvlink-communication-acceleration.webp)
+
+El ancho de banda de memoria aumenta de 8 TB/s en Blackwell a **22 TB/s en Rubin** con HBM4.
+
+![Ancho de banda memoria](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/memory-bandwidth-nvidia-rubin-gpu.webp)
+
+### Eficiencia energética
+
+El NVIDIA Vera Rubin NVL72 integra refrigeración líquida, DSX MaxLPS para suavizado de energía y gestión dinámica de potencia, permitiendo hasta **40% más GPUs** dentro del mismo presupuesto energético.
+
+![Suavizado de potencia](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/gpu-power-chart.webp)
+
+![Comparación presupuesto energía](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/power-budget-comparison-dsx-maxlps-1.webp)
+
+La GPU Rubin está diseñada para los patrones de ejecución de la IA agéntica, maximizando el rendimiento por vatio y produciendo más tokens útiles dentro de un presupuesto energético fijo.`,
+    contentEn: `### Inside NVIDIA Rubin GPU Architecture
+
+What began as discrete AI model training has evolved into always-on AI factories powering agentic workflows. At the heart of the NVIDIA Vera Rubin platform is the Rubin GPU, delivering up to 10x more agentic throughput per unit of energy than Blackwell.
+
+![NVIDIA Rubin GPU](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-gpu-1024x576.png)
+
+Built with 336 billion transistors, 224 SMs, and 896 Tensor Cores, Rubin features a third-generation Transformer Engine delivering up to 50 petaflops of NVFP4 performance.`,
+    date: '2026-07-23',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-rubin-gpu-1024x576.png',
+    imageCaption: 'Diagrama de la GPU NVIDIA Rubin. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: true,
+    views: 143,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/'
+  },
+  {
+    id: '30',
+    slug: 'nvidia-vera-cpu-olympus',
+    titleEs: 'NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica',
+    titleEn: 'NVIDIA Vera CPU: Olympus Cores for Maximum Single-Thread Performance in Agentic AI',
+    excerptEs: 'La CPU NVIDIA Vera, con núcleos Olympus diseñados desde cero, ofrece hasta 1.8x más rendimiento que CPUs x86 en cargas de trabajo de IA agéntica.',
+    excerptEn: 'The NVIDIA Vera CPU, with ground-up Olympus cores, delivers up to 1.8x higher performance on agentic workloads compared to x86 CPUs.',
+    contentEs: `### NVIDIA Vera CPU: diseñada para IA agéntica
+
+La IA agéntica desplaza más del camino crítico de ejecución hacia la CPU. Los agentes operan en entornos aislados para ejecutar código, invocar herramientas, recuperar contexto y analizar resultados. A medida que estos bucles se ejecutan concurrentemente, el rendimiento de la CPU determina tanto la capacidad de respuesta por agente como el rendimiento total de la fábrica.
+
+![CPU NVIDIA Vera](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Vera-CPU-e1783372749296-1024x576.webp)
+
+### Arquitectura del núcleo Olympus
+
+Olympus se desarrolló mediante co-diseño extremo en toda la plataforma Vera Rubin. Está optimizado para maximizar instrucciones por ciclo (IPC) en cargas de trabajo de infraestructura de IA altamente concurrentes.
+
+![Arquitectura Olympus](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-64.webp)
+
+El **front-end** incluye un predictor de ramas neuronales para alta precisión en patrones de rama difíciles. El **mid-core** tiene un amplio motor de renombramiento y asignación con una gran ventana de reorden para ejecución fuera de orden profunda.
+
+### Multithreading espacial
+
+La Vera CPU utiliza **NVIDIA Spatial Multithreading (SMT)** que particiona recursos más efectivamente entre dos hilos de hardware. Con 88 núcleos Olympus y 176 hilos SMT, la Vera CPU soporta grandes cantidades de tareas de agente concurrentes.
+
+![Spatial Multithreading](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-47.webp)
+
+### Subsistema de memoria y fibra coherente
+
+El NVIDIA Scalable Coherency Fabric (SCF) proporciona hasta **3.4 TB/s** de ancho de banda bisectivo e integra una caché L3 unificada de 164 MB.
+
+![Fabric y subsistema de memoria](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-45.webp)
+
+La memoria **SOCAMM2 LPDDR5X** ofrece hasta 1.2 TB/s de ancho de banda agregado, o 14 GB/s por núcleo.
+
+### Conectividad dual-socket
+
+Vera CPU escala de una a dos sockets usando NVLink-C2C de segunda generación. Cada socket se presenta como un dominio NUMA único.
+
+![Configuración dual-socket](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-50.webp)
+
+![NUMA único](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-46.webp)
+
+### Rendimiento líder
+
+La Vera CPU ofrece hasta **1.8x más rendimiento** en cargas de trabajo agénticas en comparación con CPUs x86.
+
+![Rendimiento comparativo](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-52.webp)
+
+Esta CPU representa un nuevo estándar para cargas de trabajo de IA en fábricas de inteligencia, donde el rendimiento sostenido por hilo es crítico para la capacidad de respuesta y eficiencia del sistema.`,
+    contentEn: `### NVIDIA Vera CPU: Built for Agentic AI
+
+Agentic AI shifts more of the critical execution path onto the CPU. The Vera CPU, with ground-up Olympus cores, delivers up to 1.8x higher performance on agentic workloads compared to x86 CPUs.
+
+![NVIDIA Vera CPU](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Vera-CPU-e1783372749296-1024x576.webp)
+
+With 88 Olympus cores and 176 SMT threads, the Vera CPU supports large numbers of concurrent agent tasks while reducing thread-to-thread interference.`,
+    date: '2026-07-23',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Vera-CPU-e1783372749296-1024x576.webp',
+    imageCaption: 'CPU NVIDIA Vera con núcleos Olympus. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 67,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/'
+  },
+  {
+    id: '31',
+    slug: 'nvidia-nvlink-scale-up-network',
+    titleEs: 'NVIDIA NVLink: la red de escalado vertical para fábricas de IA',
+    titleEn: 'NVIDIA NVLink: The Scale-Up Network for AI Factories',
+    excerptEs: 'NVLink 6 proporciona 3.6 TB/s por GPU y 260 TB/s de ancho de banda a nivel de rack, con 3x menor latencia que Ethernet tradicional.',
+    excerptEn: 'Sixth-gen NVLink provides 3.6 TB/s per GPU and 260 TB/s rack-level bandwidth, with 3x lower latency than traditional Ethernet.',
+    contentEs: `### NVIDIA NVLink: la red de escalado para IA
+
+La demanda de IA continúa acelerándose. Las fábricas de IA —sistemas a escala de centro de datos que convierten datos y energía en inteligencia— requieren redes de escalado vertical (scale-up) que permitan a los aceleradores trabajar como una sola unidad de cómputo.
+
+![NVLink](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvlinkimage1_16x9-1024x576.jpeg)
+
+### El desafío de la comunicación MoE
+
+En la inferencia con modelos MoE, los tokens deben enviarse a los expertos seleccionados, procesarse, recolectarse y reordenarse. Toda esta comunicación GPU a GPU debe ocurrir en paralelo. Si los expertos están detrás de una fibra de baja latencia o alto ancho de banda, las ganancias del paralelismo de expertos se pierden.
+
+NVLink ofrece hasta **2.3x más rendimiento de decodificación** en comparación con Ethernet tradicional para modelos como DeepSeek-R1 y Qwen 235B.
+
+![Rendimiento comparativo NVLink vs Ethernet](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image2-10.webp)
+
+### Sexta generación NVLink
+
+Con Vera Rubin NVL72, NVLink de sexta generación proporciona **3.6 TB/s por GPU** de ancho de banda bidireccional y 260 TB/s de ancho de banda a nivel de rack en un dominio de 72 GPUs. La latencia extremo a extremo es **3x menor** que soluciones basadas en Ethernet.
+
+![Rack NVLink](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image3-9-625x543.png)
+
+### Rendimiento y eficiencia
+
+En la transición de Hopper a Blackwell, NVIDIA logró una mejora de **50x en rendimiento de inferencia MoE por vatio**. La plataforma Vera Rubin duplica tanto el ancho de banda NVLink como el cómputo en red.
+
+![Gráfico 50x mejora](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image5-8.webp)
+
+### NVLink-C2C y NVLink Fusion
+
+NVLink-C2C proporciona 1.8 TB/s de ancho de banda coherente entre CPUs y GPUs, simplificando los modelos de programación. NVLink Fusion permite que silicio personalizado se integre al ecosistema NVLink probado, reduciendo la complejidad de despliegue.
+
+NVLink representa la diferencia entre simplemente agregar aceleradores y escalar a rendimiento útil entregado en fábricas de IA de producción.`,
+    contentEn: `### NVIDIA NVLink: Scale-Up Network for AI
+
+AI factories need scale-up networking that enables accelerators to work as a single compute unit. Sixth-generation NVLink provides 3.6 TB/s per GPU and 260 TB/s rack-level bandwidth, with 3x lower latency than traditional Ethernet.
+
+![NVLink](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvlinkimage1_16x9-1024x576.jpeg)
+
+NVLink delivers up to 2.3x higher decode throughput compared to off-the-shelf Ethernet for MoE models like DeepSeek-R1 and Qwen 235B.`,
+    date: '2026-07-23',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvlinkimage1_16x9-1024x576.jpeg',
+    imageCaption: 'Diagrama de interconexión NVLink 6. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 54,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories/'
+  },
+  {
+    id: '32',
+    slug: 'nvidia-deepstream-9-1-tracking',
+    titleEs: 'DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica',
+    titleEn: 'NVIDIA DeepStream 9.1: Multi-Camera 3D Tracking with Agentic AI Skills',
+    excerptEs: 'DeepStream 9.1 introduce AutoMagicCalib y seguimiento 3D multivista, permitiendo rastrear objetos consistentemente a través de múltiples cámaras.',
+    excerptEn: 'DeepStream 9.1 introduces AutoMagicCalib and Multi-View 3D Tracking, enabling consistent object tracking across multiple camera views.',
+    contentEs: `### DeepStream 9.1: seguimiento 3D multicámara
+
+Los desarrolladores que construyen aplicaciones de análisis de video en espacios grandes necesitan rastrear el mismo objeto a medida que se mueve entre vistas de cámara. El seguimiento 2D monocámara carece de información de profundidad confiable y típicamente pierde el objeto cuando sale del cuadro.
+
+![DeepStream 9.1 - Seguimiento 3D](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/deepstream-featured.gif)
+
+### AutoMagicCalib y MV3DT
+
+NVIDIA DeepStream 9.1 aborda este desafío con **AutoMagicCalib (AMC)** y **Multi-View 3D Tracking (MV3DT)**. MV3DT proyecta detecciones de múltiples cámaras calibradas en un sistema de coordenadas 3D compartido y mantiene un ID de objeto consistente a través de las vistas.
+
+![Arquitectura MV3DT](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image5-7.webp)
+
+### Cómo funciona
+
+Cada cámara utiliza una matriz de proyección 3×4 para retroproyectar detecciones 2D a coordenadas 3D. El tracker usa MQTT para compartir tracklets entre cámaras. Cuando dos cámaras observan la misma persona, el algoritmo de asociación multivista empareja sus tracklets usando proximidad en espacio 3D.
+
+### AutoMagicCalib
+
+AMC automatiza la calibración de redes de cámaras analizando objetos rastreados en videos existentes. Estima parámetros intrínsecos y extrínsecos de cada cámara automáticamente, eliminando la necesidad de patrones de calibración manuales.
+
+![Interfaz de AutoMagicCalib](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image4-7.webp)
+
+### Skills de DeepStream 9.1
+
+DeepStream 9.1 introduce 13 skills diseñados para agentes de codificación como Claude Code y Codex. Puedes describir lo que necesitas en lenguaje natural y el agente maneja la configuración, calibración y ejecución.
+
+![DeepStream MV3DT en acción](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image2-9.webp)
+
+### Calibración paso a paso
+
+El proceso comienza clonando el repositorio, instalando los skills y lanzando el agente de codificación. El agente guía al usuario a través de la calibración automática y el despliegue del pipeline de seguimiento.
+
+![Calibración manual](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-6.webp)
+
+Esta tecnología es particularmente relevante para seguridad en almacenes, análisis minorista y monitoreo de edificios inteligentes, donde el seguimiento consistente a través de múltiples cámaras es esencial.`,
+    contentEn: `### DeepStream 9.1: Multi-Camera 3D Tracking
+
+DeepStream 9.1 addresses multi-camera tracking with AutoMagicCalib and Multi-View 3D Tracking (MV3DT), projecting detections from multiple calibrated cameras into a shared 3D coordinate system.
+
+![DeepStream 9.1](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/deepstream-featured.gif)
+
+The system uses MQTT to share tracklets across cameras, maintaining consistent object IDs across all views.`,
+    date: '2026-07-24',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/deepstream-featured.gif',
+    imageCaption: 'DeepStream 9.1 seguimiento 3D multicámara. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 78,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/build-a-multi-camera-3d-tracking-application-with-nvidia-deepstream-9-1-skills/'
+  },
+  {
+    id: '33',
+    slug: 'nvidia-ising-decoding-quantum',
+    titleEs: 'NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos',
+    titleEn: 'NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300x',
+    excerptEs: 'El decoder Ising ColorCode 1 Fast de NVIDIA logra 347.7x mejor tasa de error lógico y 7.3x más velocidad que Chromobius en corrección de errores cuánticos.',
+    excerptEn: 'NVIDIA Ising Decoder ColorCode 1 Fast achieves 347.7x better logical error rate and 7.3x faster runtime than Chromobius for quantum error correction.',
+    contentEs: `### NVIDIA Ising Decoding: avance en corrección de errores cuánticos
+
+Las computadoras cuánticas útiles requerirán operaciones lógicas tolerantes a fallos. Los códigos de color (color codes) son particularmente eficientes para operaciones lógicas —pueden realizar todas las compuertas Clifford transversalmente— pero históricamente han sido difíciles de decodificar rápidamente.
+
+![NVIDIA Ising Decoding](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-5-1024x576.jpg)
+
+### El desafío de los códigos de color
+
+Aunque los códigos de color requieren más qubits físicos que los códigos de superficie para lograr la misma tasa de fallo lógico, pueden ejecutar compuertas lógicas más eficientemente. Sin embargo, decodificarlos era mucho más difícil que decodificar códigos de superficie, por lo que habían sido archivados por falta de decodificadores rápidos y precisos.
+
+### NVIDIA Ising Decoder ColorCode 1 Fast
+
+El decoder NVIDIA Ising ColorCode 1 Fast está diseñado para acelerar y mejorar la tasa de error lógico (LER) de los decodificadores de código de color, logrando:
+
+- **347.7x mejor LER** que Chromobius (el decoder estado del arte anterior)
+- **7.3x tiempo de ejecución más rápido** para d=31 con tasa de error físico de 0.3%
+
+### Cómo funciona
+
+Usando el pipeline de entrenamiento Ising Decoding, los operadores de QPU pueden entrenar pequeños decodificadores pre-entrenados basados en CNN 3D diseñados para códigos de color triangulares. Estos pre-decodificadores aceleran y mejoran la precisión del decoder manejando una gran cantidad de síndromes de error localizados.
+
+![Gráfico de rendimiento](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image2-6.webp)
+
+### Recursos abiertos
+
+La familia de modelos NVIDIA Ising es completamente abierta. Los pesos, arquitecturas de entrenamiento, datos y recetas están disponibles en Hugging Face y GitHub bajo licencia Apache 2.0. Los desarrolladores pueden modificar, desplegar y afinar sus propios modelos para QPUs específicos.
+
+Este avance trae los códigos de color de vuelta al foco para construir y operar computadoras cuánticas verdaderamente útiles, demostrando que la IA puede revolucionar incluso la corrección de errores cuánticos.`,
+    contentEn: `### NVIDIA Ising Decoding: Quantum Error Correction Breakthrough
+
+The NVIDIA Ising Decoder ColorCode 1 Fast achieves 347.7x better logical error rate and 7.3x faster runtime than the state-of-the-art Chromobius decoder, bringing color codes back into focus for fault-tolerant quantum computation.
+
+![NVIDIA Ising Decoding](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-5-1024x576.jpg)
+
+The Ising model family is fully open, with weights, training architectures, and recipes available on Hugging Face and GitHub under Apache 2.0 license.`,
+    date: '2026-07-24',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-5-1024x576.jpg',
+    imageCaption: 'Visualización de corrección de errores cuánticos con Ising Decoding. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 43,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x/'
+  },
+  {
+    id: '34',
+    slug: 'nvidia-omniverse-rtx-sensor',
+    titleEs: 'Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes',
+    titleEn: 'Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps',
+    excerptEs: 'La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX (cámara, lidar, radar) a aplicaciones existentes usando OpenUSD.',
+    excerptEn: 'NVIDIA ovrtx library enables adding RTX sensor simulation (camera, lidar, radar) to existing applications using OpenUSD scenes.',
+    contentEs: `### Simulación de sensores RTX en aplicaciones existentes
+
+Los desarrolladores que construyen aplicaciones 3D, simulación, robótica y gemelos digitales industriales necesitan formas de incorporar capacidades de IA física en las herramientas que ya usan. La librería **ovrtx** de NVIDIA proporciona un SDK ligero en C y Python para generar outputs de sensores (cámara, lidar, radar) desde escenas OpenUSD.
+
+![Omniverse RTX Sensor](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-omniverse-rtx-sensor-ximulation.webp)
+
+### Cómo funciona ovrtx
+
+El principio central es simple: como desarrollador, puedes traer la simulación de sensores RTX de NVIDIA Omniverse a tus propias aplicaciones mientras mantienes el control de la arquitectura, UI, modelo de datos y flujo de trabajo.
+
+### Integración en 5 pasos
+
+1. Crear y configurar un renderizador ovrtx
+2. Cargar contenido OpenUSD desde el pipeline existente
+3. Definir RenderProducts y RenderVars para cámara, lidar, radar
+4. Ejecutar renderizado desde el bucle de la aplicación
+5. Mapear resultados a memoria CPU o GPU
+
+![Flujo de trabajo ovrtx](https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/app-workflow-openusd-scene-data-nvidia-ovrtx.webp)
+
+### Componentes principales
+
+El **Omniverse RTX Renderer** es la tecnología central expuesta por ovrtx. Aprovecha NVIDIA RTX combinando RT Cores con aceleración AI de Tensor Cores para renderizado fotorrealista en tiempo real.
+
+**ovstage** proporciona un runtime compartido para datos de escena OpenUSD, permitiendo que ovphysx (física) y ovrtx (sensores) intercambien estado de simulación.
+
+### Casos de uso
+
+**PTC Onshape Render Studio** está explorando cómo ovrtx puede integrarse en flujos de trabajo CAD nativos de la nube, validando que la renderización RTX puede ser parte del flujo de trabajo existente sin requerir un entorno separado.
+
+![PTC Onshape + ovrtx](https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ptc-typescript-rtx-workbench-render-onshape-nvidia-omniverse-rtx-ovrtx.webp)
+
+### Aplicaciones prácticas
+
+ovrtx es ideal para generación de datos sintéticos (SDG), pruebas de percepción, robótica, gemelos digitales y revisión de diseño. Se puede usar solo o con otras librerías Omniverse como ovphysx (física), ovstream (streaming) y ovstorage (gestión de datos).
+
+Las librerías Omniverse ahora son parte de **NVIDIA Agent Toolkit**, permitiendo que agentes de IA inspeccionen escenas, generen outputs de sensores y devuelvan evidencia verificable a los desarrolladores.`,
+    contentEn: `### RTX Sensor Simulation in Existing Apps
+
+The ovrtx library enables adding NVIDIA Omniverse RTX sensor simulation (camera, lidar, radar) to existing applications while keeping control of the app architecture. It provides a lightweight C and Python SDK for generating sensor outputs from OpenUSD scenes.
+
+![Omniverse RTX Sensor](https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-omniverse-rtx-sensor-ximulation.webp)
+
+ovrtx is ideal for synthetic data generation, perception testing, robotics, digital twins, and design review workflows.`,
+    date: '2026-07-24',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-omniverse-rtx-sensor-ximulation.webp',
+    imageCaption: 'Simulación de sensores RTX con NVIDIA Omniverse. Imagen: NVIDIA',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 62,
+    source: 'NVIDIA Technical Blog',
+    sourceUrl: 'https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/'
   }
 ];
 

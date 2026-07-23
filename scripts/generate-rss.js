@@ -200,6 +200,55 @@ const blogPosts = [
     title: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson',
     date: '2026-06-17',
     excerpt: 'Un pequeño felino emite maullidos comparados con los sonidos del Rey del Pop, convirtiéndose en sensación viral.'
+  },
+  {
+    id: '28',
+    slug: 'nvidia-gb300-moe-world-record',
+    title: 'NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72',
+    date: '2026-07-23',
+    excerpt: 'NVIDIA logra 1,648 TFLOPs por GPU en pre-entrenamiento de DeepSeek-V3 671B con el sistema rack-scale GB300 NVL72.'
+  },
+  {
+    id: '29',
+    slug: 'nvidia-rubin-gpu-architecture',
+    title: 'Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica',
+    date: '2026-07-23',
+    excerpt: 'La GPU NVIDIA Rubin, con 336 mil millones de transistores y memoria HBM4, ofrece hasta 10x más rendimiento agéntico.'
+  },
+  {
+    id: '30',
+    slug: 'nvidia-vera-cpu-olympus',
+    title: 'NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica',
+    date: '2026-07-23',
+    excerpt: 'La CPU NVIDIA Vera, con núcleos Olympus diseñados desde cero, ofrece hasta 1.8x más rendimiento que CPUs x86.'
+  },
+  {
+    id: '31',
+    slug: 'nvidia-nvlink-scale-up-network',
+    title: 'NVIDIA NVLink: la red de escalado vertical para fábricas de IA',
+    date: '2026-07-23',
+    excerpt: 'NVLink 6 proporciona 3.6 TB/s por GPU y 260 TB/s de ancho de banda a nivel de rack.'
+  },
+  {
+    id: '32',
+    slug: 'nvidia-deepstream-9-1-tracking',
+    title: 'DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica',
+    date: '2026-07-24',
+    excerpt: 'DeepStream 9.1 introduce AutoMagicCalib y seguimiento 3D multivista para rastrear objetos consistentemente entre cámaras.'
+  },
+  {
+    id: '33',
+    slug: 'nvidia-ising-decoding-quantum',
+    title: 'NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos',
+    date: '2026-07-24',
+    excerpt: 'El decoder Ising ColorCode 1 Fast logra 347.7x mejor tasa de error lógico y 7.3x más velocidad.'
+  },
+  {
+    id: '34',
+    slug: 'nvidia-omniverse-rtx-sensor',
+    title: 'Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes',
+    date: '2026-07-24',
+    excerpt: 'La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX a aplicaciones existentes usando OpenUSD.'
   }
 ];
 

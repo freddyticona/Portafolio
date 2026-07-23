@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Thu, 23 Jul 2026 20:55:54 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 21:21:43 GMT</lastBuildDate>
     <managingEditor>freddyticona62@gmail.com (Freddy Ticona Guzmán)</managingEditor>
     <webMaster>freddyticona62@gmail.com (Freddy Ticona Guzmán)</webMaster>
     <item>
@@ -226,6 +226,62 @@
       <guid isPermaLink="true">https://freddydev.net/blog/gatito-maullidos-michael-jackson</guid>
       <description><![CDATA[Un pequeño felino emite maullidos comparados con los sonidos del Rey del Pop, convirtiéndose en sensación viral.]]></description>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72]]></title>
+      <link>https://freddydev.net/blog/nvidia-gb300-moe-world-record</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-gb300-moe-world-record</guid>
+      <description><![CDATA[NVIDIA logra 1,648 TFLOPs por GPU en pre-entrenamiento de DeepSeek-V3 671B con el sistema rack-scale GB300 NVL72.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica]]></title>
+      <link>https://freddydev.net/blog/nvidia-rubin-gpu-architecture</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-rubin-gpu-architecture</guid>
+      <description><![CDATA[La GPU NVIDIA Rubin, con 336 mil millones de transistores y memoria HBM4, ofrece hasta 10x más rendimiento agéntico.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica]]></title>
+      <link>https://freddydev.net/blog/nvidia-vera-cpu-olympus</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-vera-cpu-olympus</guid>
+      <description><![CDATA[La CPU NVIDIA Vera, con núcleos Olympus diseñados desde cero, ofrece hasta 1.8x más rendimiento que CPUs x86.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA NVLink: la red de escalado vertical para fábricas de IA]]></title>
+      <link>https://freddydev.net/blog/nvidia-nvlink-scale-up-network</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-nvlink-scale-up-network</guid>
+      <description><![CDATA[NVLink 6 proporciona 3.6 TB/s por GPU y 260 TB/s de ancho de banda a nivel de rack.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica]]></title>
+      <link>https://freddydev.net/blog/nvidia-deepstream-9-1-tracking</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-deepstream-9-1-tracking</guid>
+      <description><![CDATA[DeepStream 9.1 introduce AutoMagicCalib y seguimiento 3D multivista para rastrear objetos consistentemente entre cámaras.]]></description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos]]></title>
+      <link>https://freddydev.net/blog/nvidia-ising-decoding-quantum</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-ising-decoding-quantum</guid>
+      <description><![CDATA[El decoder Ising ColorCode 1 Fast logra 347.7x mejor tasa de error lógico y 7.3x más velocidad.]]></description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes]]></title>
+      <link>https://freddydev.net/blog/nvidia-omniverse-rtx-sensor</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/nvidia-omniverse-rtx-sensor</guid>
+      <description><![CDATA[La librería ovrtx de NVIDIA permite agregar simulación de sensores RTX a aplicaciones existentes usando OpenUSD.]]></description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
     </item>
   </channel>
