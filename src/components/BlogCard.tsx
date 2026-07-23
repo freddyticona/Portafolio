@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BlogPost } from '../types';
+import { BlogPost, ContentType } from '../types';
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react';
 import LazyImage from './LazyImage';
 
@@ -18,6 +18,21 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
+  const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
+    news: { es: 'NOTICIA', en: 'NEWS' },
+    analysis: { es: 'ANÁLISIS', en: 'ANALYSIS' },
+    opinion: { es: 'OPINIÓN', en: 'OPINION' },
+    reportage: { es: 'REPORTAJE', en: 'REPORTAGE' },
+    'behind-scenes': { es: 'DETRÁS DE CÁMARAS', en: 'BEHIND THE SCENES' }
+  };
+  const contentTypeColors: Record<ContentType, string> = {
+    news: 'text-blue-400 border-blue-500/30 bg-blue-500/10',
+    analysis: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
+    opinion: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
+    reportage: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
+    'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10'
+  };
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 30 }}
@@ -36,10 +51,15 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
             alt={lang === 'es' ? post.titleEs : post.titleEn}
             className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
           />
-          <div className="absolute top-3 left-3">
+          <div className="absolute top-3 left-3 flex gap-1.5">
             <span className="bg-[#050505]/90 backdrop-blur-sm border border-white/10 text-[9px] font-mono tracking-wider font-bold uppercase text-gold px-2.5 py-1 rounded-sm">
               {lang === 'es' ? post.categoryEs : post.categoryEn}
             </span>
+            {post.contentType && (
+              <span className={`bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm border ${contentTypeColors[post.contentType]}`}>
+                {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
+              </span>
+            )}
           </div>
         </div>
 

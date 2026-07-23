@@ -33,6 +33,7 @@ import {
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
 import { injectStructuredData } from '../lib/structuredData';
+import TrustIndicators from './TrustIndicators';
 
 interface BlogDetailProps {
   post: BlogPost;
@@ -361,6 +362,9 @@ export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDeta
           )}
         </div>
       )}
+
+      {/* Trust Project Indicators */}
+      <TrustIndicators post={post} lang={lang} t={t} />
 
       {/* Article Content */}
       <div

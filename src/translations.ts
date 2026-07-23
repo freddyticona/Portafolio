@@ -565,6 +565,7 @@ export const caseStudies: Record<string, CaseStudy> = {
 export const blogPosts: BlogPost[] = [
 {
     id: '10',
+    contentType: 'analysis',
     slug: 'reflexion-comparativa-cultura-audiovisual-bolivia-mundo',
     titleEs: 'Bolivia en el espejo del mundo: reflexión comparativa sobre cultura audiovisual y periodismo',
     titleEn: 'Bolivia in the world\'s mirror: a comparative reflection on audiovisual culture and journalism',
@@ -585,6 +586,7 @@ export const blogPosts: BlogPost[] = [
   },
 {
     id: '25',
+    contentType: 'news',
     slug: 'chucky-micro-el-torno',
     titleEs: '¡Chucky rumbo a El Torno! El famoso muñeco sorprendió a pasajeros',
     titleEn: 'Chucky heading to El Torno! The famous doll surprised passengers',
@@ -635,6 +637,7 @@ export const blogPosts: BlogPost[] = [
   },
 {
     id: '11',
+    contentType: 'news',
     slug: 'cinemateca-50-anos-todo-lo-que-era-posible',
     titleEs: 'Cinemateca Boliviana: 50 Años Preservando la Memoria Audiovisual',
     titleEn: 'Bolivian Cinematheque: 50 Years Preserving Audiovisual Memory',
@@ -657,6 +660,7 @@ export const blogPosts: BlogPost[] = [
   },
 {
     id: '13',
+    contentType: 'news',
     slug: 'nova-vuelve-sinfonia-de-historias-inolvidables',
     titleEs: 'NOVA Filarmónica vuelve con la "Sinfonía de historias inolvidables"',
     titleEn: 'NOVA Filarmónica returns with "Symphony of Unforgettable Stories"',
@@ -679,6 +683,7 @@ export const blogPosts: BlogPost[] = [
   },
 {
     id: '14',
+    contentType: 'news',
     slug: 'bolivia-lab-18-edicion-industria-cine',
     titleEs: 'Bolivia Lab 2026: Dos filmes son la previa del encuentro de la industria del cine iberoamericano',
     titleEn: 'Bolivia Lab 2026: Two films preview the Ibero-American film industry gathering',
@@ -733,6 +738,7 @@ All screenings will be free in Santa Cruz. Source: El Deber.`,
   },
 {
     id: '8',
+    contentType: 'news',
     slug: 'fallece-tito-de-la-vina',
     titleEs: 'Fallece Tito de la Viña, leyenda del periodismo deportivo boliviano, a los 87 años',
     titleEn: 'Tito de la Viña, legend of Bolivian sports journalism, dies at 87',
@@ -754,6 +760,7 @@ All screenings will be free in Santa Cruz. Source: El Deber.`,
   },
 {
     id: '12',
+    contentType: 'news',
     slug: 'pianista-daniel-alvarez-gana-premio-sur-musica-nueva',
     titleEs: 'Pianista Daniel Álvarez gana Premio Sur de Música Nueva Latinoamericana',
     titleEn: 'Pianist Daniel Álvarez wins Sur New Music Latin American Award',
@@ -776,6 +783,7 @@ All screenings will be free in Santa Cruz. Source: El Deber.`,
   },
 {
     id: '7',
+    contentType: 'news',
     slug: 'cinemateca-217-anos-la-paz',
     titleEs: 'Cinemateca Boliviana celebra 217 años de La Paz con ciclo de cine nacional gratuito',
     titleEn: 'Bolivian Cinematheque celebrates 217 years of La Paz with free national film cycle',
@@ -797,6 +805,7 @@ All screenings will be free in Santa Cruz. Source: El Deber.`,
   },
 {
     id: '9',
+    contentType: 'news',
     slug: 'nolan-odisea-reparto',
     titleEs: 'Christopher Nolan lleva "La Odisea" al cine: el reparto incluye a Matt Damon y Tom Holland',
     titleEn: 'Christopher Nolan brings "The Odyssey" to the screen: cast includes Matt Damon and Tom Holland',
@@ -819,6 +828,7 @@ All screenings will be free in Santa Cruz. Source: El Deber.`,
   },
 {
     id: '16',
+    contentType: 'news',
     slug: 'detras-epica-aventura-nolan-la-odisea',
     titleEs: 'Detrás de la épica aventura de Christopher Nolan para llevar "La Odisea" al cine',
     titleEn: 'Behind Christopher Nolan\'s epic adventure bringing "The Odyssey" to the big screen',
@@ -869,6 +879,7 @@ The journey required deep research into Greek mythology, Bronze Age studies, and
   },
 {
     id: '3',
+    contentType: 'news',
     slug: 'premio-eduardo-abaroa-2026',
     titleEs: 'Premio Eduardo Abaroa 2026: entregaron más de Bs 1,3 millones a 79 ganadores',
     titleEn: 'Eduardo Abaroa Award 2026: over Bs 1.3 million awarded to 79 winners',
@@ -892,6 +903,7 @@ The journey required deep research into Greek mythology, Bronze Age studies, and
   },
 {
     id: '4',
+    contentType: 'news',
     slug: 'larga-noche-museos-2026',
     titleEs: 'XX Larga Noche de Museos: miles de personas colmaron espacios culturales en La Paz y El Alto',
     titleEn: 'XX Long Night of Museums: thousands filled cultural spaces in La Paz and El Alto',
@@ -914,6 +926,7 @@ The journey required deep research into Greek mythology, Bronze Age studies, and
   },
 {
     id: '5',
+    contentType: 'news',
     slug: 'festival-cine-santa-cruz-2026',
     titleEs: 'Festival de Cine de Santa Cruz 2026: lo mejor del audiovisual boliviano en cartelera',
     titleEn: 'Santa Cruz Film Festival 2026: the best of Bolivian audiovisual on screen',
@@ -936,6 +949,7 @@ The journey required deep research into Greek mythology, Bronze Age studies, and
   },
 {
     id: '18',
+    contentType: 'news',
     slug: 'festival-cine-salar-uyuni-2026',
     titleEs: 'Festival de Cine de Uyuni: seis filmes y concurso de cortos en pleno salar',
     titleEn: 'Uyuni Film Festival: six films and short film contest on the salt flat',
@@ -992,6 +1006,7 @@ The program also includes **master classes** with international specialists in c
   },
 {
     id: '22',
+    contentType: 'news',
     slug: 'serie-boliviana-inteligencia-artificial',
     titleEs: 'Estrenan "En el nombre de Pío": primera serie boliviana creada íntegramente con IA',
     titleEn: '"In the Name of Pío": first Bolivian series created entirely with AI premieres',
@@ -1036,6 +1051,7 @@ The launch opens debate about the future of audiovisual production in Bolivia, w
   },
 {
     id: '15',
+    contentType: 'news',
     slug: 'cortometraje-yatichana-galardones-internacionales',
     titleEs: 'Cortometraje boliviano "Yatichana" conquista dos galardones internacionales',
     titleEn: 'Bolivian short film "Yatichana" wins two international awards',
@@ -1094,6 +1110,7 @@ Panozo said the short film stems from his experience working with communities an
   },
 {
     id: '2',
+    contentType: 'behind-scenes',
     slug: 'evolucion-televisiva-bolivia-analogo-digital',
     titleEs: '15 Años en la TV Boliviana: Mi viaje del formato análogo al flujo digital e IP',
     titleEn: '15 Years in Bolivian TV: My journey from analog tapes to digital and IP workflows',
@@ -1163,6 +1180,7 @@ We carry on, forever learning, modifying both our lens and technical skills to s
   },
 {
     id: '17',
+    contentType: 'news',
     slug: 'incentivo-produccion-audiovisual-cultural-2026',
     titleEs: 'Abren convocatoria para incentivar la producción audiovisual y cultural en Bolivia',
     titleEn: 'Call opens to incentivize audiovisual and cultural production in Bolivia',
@@ -1225,6 +1243,7 @@ Results will be published on **July 24**, with project execution from **August 3
   },
 {
     id: '23',
+    contentType: 'news',
     slug: 'messi-bombon-asesino-himno-argentino',
     titleEs: '¡Messi quedó en shock! Pusieron "Bombón Asesino" en vez del himno argentino',
     titleEn: 'Messi in shock! They played "Bombón Asesino" instead of the Argentine national anthem',
@@ -1275,6 +1294,7 @@ Results will be published on **July 24**, with project execution from **August 3
   },
 {
     id: '24',
+    contentType: 'news',
     slug: 'morsa-abdominales-viral',
     titleEs: 'Morsa sorprende al hacer abdominales como toda una atleta',
     titleEn: 'Walrus surprises by doing sit-ups like a true athlete',
@@ -1323,6 +1343,7 @@ Results will be published on **July 24**, with project execution from **August 3
   },
 {
     id: '26',
+    contentType: 'news',
     slug: 'abuelita-invento-casero-bicicleta',
     titleEs: 'Abuelita conquista las redes con ingenioso invento casero que combina bicicleta y caminadora',
     titleEn: 'Grandma conquers the internet with ingenious homemade invention combining bike and treadmill',
@@ -1373,6 +1394,7 @@ Results will be published on **July 24**, with project execution from **August 3
   },
 {
     id: '27',
+    contentType: 'news',
     slug: 'gatito-maullidos-michael-jackson',
     titleEs: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson',
     titleEn: 'Kitten conquers social media with Michael Jackson-style meows',
@@ -1423,6 +1445,7 @@ Results will be published on **July 24**, with project execution from **August 3
   },
 {
     id: '6',
+    contentType: 'news',
     slug: 'bolivia-puesto-91-rsf',
     titleEs: 'RSF: Bolivia se ubica en el puesto 91 de alto riesgo para periodistas en el mundo',
     titleEn: 'RSF: Bolivia ranks 91st worldwide in high risk for journalists',
@@ -1444,6 +1467,7 @@ Results will be published on **July 24**, with project execution from **August 3
   },
 {
     id: '1',
+    contentType: 'behind-scenes',
     slug: 'detras-de-camaras-la-estrella',
     titleEs: 'Detrás de cámaras de "La Estrella": Cómo grabamos bajo cero en el Altiplano',
     titleEn: 'Behind the scenes of "La Estrella": Filming sub-zero on the Altiplano',
@@ -1503,6 +1527,7 @@ This project proved that technical skill must serve narrative and human emotion.
   },
 {
     id: '19',
+    contentType: 'news',
     slug: 'red-uno-xona-streaming',
     titleEs: 'Red Uno lanza Xona Streaming: nuevo canal digital con estudio propio',
     titleEn: 'Red Uno launches Xona Streaming: new digital channel with its own studio',
@@ -1555,6 +1580,7 @@ In Santa Cruz, the network operates **three studio locations**. Its **Studio 5**
   },
 {
     id: '20',
+    contentType: 'news',
     slug: 'documental-travesia-tierra-cinemateca',
     titleEs: '"A través de la tierra": documental sobre migración boliviana se estrena en la Cinemateca',
     titleEn: '"Through the Earth": documentary about Bolivian migration premieres at Cinemateca',
@@ -1599,6 +1625,7 @@ This **Argentina-Bolivia co-production** portrays contemporary migration realiti
   },
 {
     id: '21',
+    contentType: 'news',
     slug: 'documental-mi-cuerpo-mi-territorio-youtube',
     titleEs: '"Mi cuerpo, mi territorio": documental premiado se libera gratis en YouTube',
     titleEn: '"My Body, My Territory": award-winning documentary released free on YouTube',
@@ -1645,6 +1672,7 @@ The documentary is now freely available on YouTube, allowing wider access to thi
   },
   {
     id: '28',
+    contentType: 'news',
     slug: 'nvidia-gb300-moe-world-record',
     titleEs: 'NVIDIA establece récord mundial en pre-entrenamiento MoE con GB300 NVL72',
     titleEn: 'NVIDIA Sets World Record for MoE Pre-Training on GB300 NVL72',
@@ -1727,6 +1755,7 @@ On DeepSeek-V3 671B using 256 GPUs, Megatron Core reaches 1,648 TFLOPs per GPU o
   },
   {
     id: '29',
+    contentType: 'news',
     slug: 'nvidia-rubin-gpu-architecture',
     titleEs: 'Arquitectura NVIDIA Rubin GPU: impulsando la era de la IA agéntica',
     titleEn: 'Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI',
@@ -1813,6 +1842,7 @@ Built with 336 billion transistors, 224 SMs, and 896 Tensor Cores, Rubin feature
   },
   {
     id: '30',
+    contentType: 'news',
     slug: 'nvidia-vera-cpu-olympus',
     titleEs: 'NVIDIA Vera CPU: núcleos Olympus para máximo rendimiento en IA agéntica',
     titleEn: 'NVIDIA Vera CPU: Olympus Cores for Maximum Single-Thread Performance in Agentic AI',
@@ -1883,6 +1913,7 @@ With 88 Olympus cores and 176 SMT threads, the Vera CPU supports large numbers o
   },
   {
     id: '31',
+    contentType: 'news',
     slug: 'nvidia-nvlink-scale-up-network',
     titleEs: 'NVIDIA NVLink: la red de escalado vertical para fábricas de IA',
     titleEn: 'NVIDIA NVLink: The Scale-Up Network for AI Factories',
@@ -1941,6 +1972,7 @@ NVLink delivers up to 2.3x higher decode throughput compared to off-the-shelf Et
   },
   {
     id: '32',
+    contentType: 'news',
     slug: 'nvidia-deepstream-9-1-tracking',
     titleEs: 'DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica',
     titleEn: 'NVIDIA DeepStream 9.1: Multi-Camera 3D Tracking with Agentic AI Skills',
@@ -2003,6 +2035,7 @@ The system uses MQTT to share tracklets across cameras, maintaining consistent o
   },
   {
     id: '33',
+    contentType: 'news',
     slug: 'nvidia-ising-decoding-quantum',
     titleEs: 'NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos',
     titleEn: 'NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300x',
@@ -2058,6 +2091,7 @@ The Ising model family is fully open, with weights, training architectures, and 
   },
   {
     id: '34',
+    contentType: 'news',
     slug: 'nvidia-omniverse-rtx-sensor',
     titleEs: 'Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes',
     titleEn: 'Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps',
@@ -2122,6 +2156,7 @@ ovrtx is ideal for synthetic data generation, perception testing, robotics, digi
   },
   {
     id: '35',
+    contentType: 'news',
     slug: 'comision-europea-multa-google-890-millones',
     titleEs: 'Bruselas multa a Google con 890 millones de euros por incumplir la Ley de Mercados Digitales',
     titleEn: 'Brussels fines Google 890 million euros for breaching the Digital Markets Act',
@@ -2162,6 +2197,7 @@ The European Commission has imposed a record fine of 890 million euros on Google
   },
   {
     id: '36',
+    contentType: 'news',
     slug: 'via-lactea-proyectiles-gas-32-millones-kmh',
     titleEs: 'Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h',
     titleEn: 'A strange structure in the Milky Way shoots gas projectiles at 32 million km/h',
@@ -2202,6 +2238,7 @@ A structure associated with V445 Puppis, the only confirmed helium nova in the M
   },
   {
     id: '37',
+    contentType: 'news',
     slug: 'agencias-representantes-influencers-250-millones',
     titleEs: 'Ellos mueven los hilos de los influencers (y manejan un mercado de 250 millones de euros)',
     titleEn: 'They pull the strings of influencers (and manage a 250 million euro market)',
@@ -2240,6 +2277,7 @@ The influencer marketing industry in Spain moves 245 million euros in annual adv
   },
   {
     id: '38',
+    contentType: 'news',
     slug: 'rapamicina-autismo-nueva-via-tratamiento',
     titleEs: 'Un vídeo inesperado en el móvil y un fármaco contra el envejecimiento abren una nueva vía para tratar el autismo',
     titleEn: 'An unexpected mobile video and an anti-aging drug open a new path to treat autism',
@@ -2278,6 +2316,7 @@ A single dose of rapamycin reversed autism-like behavioral alterations in adult 
   },
   {
     id: '39',
+    contentType: 'news',
     slug: 'c212-aviocar-transporte-militar-espanol',
     titleEs: 'Lecciones del C212 Aviocar: el exitoso "600" español del transporte militar',
     titleEn: 'Lessons from the C212 Aviocar: the successful Spanish "600" of military transport',
@@ -2314,6 +2353,7 @@ The CASA C212 Aviocar is one of the greatest successes of the Spanish aeronautic
   },
   {
     id: '40',
+    contentType: 'news',
     slug: 'japon-rompe-leyes-fisica-calor-programable',
     titleEs: 'Japón rompe las reglas de la física: sortea una ley de hace 160 años y consigue crear calor programable',
     titleEn: 'Japan breaks the rules of physics: bypasses a 160-year-old law and creates programmable heat',
@@ -2354,6 +2394,7 @@ Japanese researchers from Osaka Metropolitan University have achieved a breakthr
   },
   {
     id: '41',
+    contentType: 'news',
     slug: 'tormentas-solares-subestimadas-estudio-nature',
     titleEs: 'Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature',
     titleEn: 'We are underestimating the destructive power of solar storms, says a Nature study',
@@ -2394,6 +2435,7 @@ A new study published in Nature reveals we have been systematically underestimat
   },
   {
     id: '42',
+    contentType: 'news',
     slug: 'amd-advancing-ai-2026-helios-epyc-instinct',
     titleEs: 'AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026',
     titleEn: 'AMD unveils Helios, EPYC Venice and Instinct MI400 at Advancing AI 2026',
@@ -2455,6 +2497,7 @@ OpenAI, Anthropic, Meta, Microsoft and Oracle have all confirmed they will deplo
   },
   {
     id: '43',
+    contentType: 'news',
     slug: 'amd-rackspace-30mw-ia-empresarial',
     titleEs: 'AMD y Rackspace firman acuerdo para desplegar 30 MW de computación IA para empresas reguladas',
     titleEn: 'AMD and Rackspace sign agreement to deploy 30 MW of AI compute for regulated enterprises',
@@ -2507,6 +2550,7 @@ On June 16, 2026, AMD and Rackspace Technology signed a definitive agreement to 
   },
   {
     id: '44',
+    contentType: 'news',
     slug: 'amd-computacion-cuantica-hibrida',
     titleEs: 'AMD impulsa el futuro híbrido de la computación cuántica con CPUs, GPUs y FPGAs',
     titleEn: 'AMD advances the hybrid future of quantum computing with CPUs, GPUs and FPGAs',
@@ -2562,6 +2606,7 @@ On June 19, 2026, AMD published a strategic analysis on the future of quantum co
   },
   {
     id: '45',
+    contentType: 'news',
     slug: 'amd-gartner-lider-cpus-ia-empresarial',
     titleEs: 'Gartner nombra a AMD como la empresa a vencer en CPUs para servidores de IA empresarial',
     titleEn: 'Gartner names AMD the company to beat for enterprise AI server CPUs',
@@ -2612,6 +2657,7 @@ In July 2026, Gartner positioned AMD as the current leader in enterprise AI serv
   },
   {
     id: '46',
+    contentType: 'news',
     slug: 'amd-epyc-venice-tsmc-2nm',
     titleEs: 'AMD inicia producción del EPYC Venice en tecnología de 2 nanómetros de TSMC',
     titleEn: 'AMD begins production of EPYC Venice on TSMC 2nm process technology',
@@ -2667,6 +2713,7 @@ On May 21, 2026, AMD announced mass production of its 6th Gen EPYC "Venice" proc
   },
   {
     id: '47',
+    contentType: 'news',
     slug: 'amd-instinct-mi400-gpus-ia',
     titleEs: 'AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa',
     titleEn: 'AMD launches Instinct MI400 GPUs with 34x higher performance for generative AI',
@@ -2722,6 +2769,7 @@ At Advancing AI 2026, AMD unveiled its new Instinct MI400 family of accelerators
   },
   {
     id: '48',
+    contentType: 'news',
     slug: 'amd-kria-ryzen-ai-embedded-robotica',
     titleEs: 'AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded',
     titleEn: 'AMD launches open Kria AI robotics platform with Ryzen AI Embedded processors',
@@ -2778,6 +2826,7 @@ On July 23, 2026, AMD launched its Kria AI family for robotics and physical AI, 
   },
   {
     id: '49',
+    contentType: 'news',
     slug: 'mlb-trade-deadline-2026',
     titleEs: 'MLB Trade Deadline 2026: los movimientos más impactantes antes del cierre',
     titleEn: 'MLB Trade Deadline 2026: The most impactful moves before the closure',
@@ -2814,6 +2863,7 @@ Con información de: ESPN.`,
   },
   {
     id: '50',
+    contentType: 'news',
     slug: 'nfl-training-camps-2026',
     titleEs: 'NFL Training Camps 2026: las historias que dominan la pretemporada',
     titleEn: 'NFL Training Camps 2026: The stories dominating preseason',
@@ -2854,6 +2904,7 @@ Con información de: ESPN.`,
   },
   {
     id: '51',
+    contentType: 'news',
     slug: 'nba-offseason-grades-2026',
     titleEs: 'NBA Offseason Grades 2026: evaluamos cada movimiento de la agencia libre',
     titleEn: 'NBA Offseason Grades 2026: grading every free agency move',
@@ -2894,6 +2945,7 @@ Con información de: ESPN.`,
   },
   {
     id: '52',
+    contentType: 'news',
     slug: 'fifa-world-cup-2026-changes',
     titleEs: 'Mundial 2026: los cambios de formato que transformarán el fútbol global',
     titleEn: 'World Cup 2026: the format changes transforming global football',
@@ -2934,6 +2986,7 @@ Con información de: ESPN.`,
   },
   {
     id: '53',
+    contentType: 'news',
     slug: 'spain-dominance-football-2026',
     titleEs: 'España domina el fútbol mundial: el legado de una generación dorada',
     titleEn: 'Spain dominates world football: the legacy of a golden generation',
@@ -2972,6 +3025,7 @@ Con información de: ESPN.`,
   },
   {
     id: '54',
+    contentType: 'news',
     slug: 'mlb-labor-battle-2026',
     titleEs: 'MLB 2026: la batalla laboral que amenaza con paralizar el béisbol',
     titleEn: 'MLB 2026: the labor battle threatening to shut down baseball',
@@ -3015,6 +3069,7 @@ Con información de: ESPN.`,
   },
   {
     id: '55',
+    contentType: 'news',
     slug: 'barcelona-adeyemi-fichaje-2026',
     titleEs: 'Barcelona ficha a Karim Adeyemi: el delantero que promete goles en el Camp Nou',
     titleEn: 'Barcelona signs Karim Adeyemi: the forward promising goals at Camp Nou',
@@ -3055,6 +3110,7 @@ Con información de: ESPN.`,
   },
   {
     id: '56',
+    contentType: 'news',
     slug: 'inter-miami-autogol-hilarante',
     titleEs: 'Inter Miami protagoniza el autogol más insólito de la temporada en la MLS',
     titleEn: 'Inter Miami scores the most bizarre own goal of the MLS season',
@@ -3093,6 +3149,7 @@ Con información de: ESPN.`,
   },
   {
     id: '57',
+    contentType: 'news',
     slug: 'wnba-midseason-2026-caitlin-clark',
     titleEs: 'WNBA 2026: revisión de mitad de temporada con Caitlin Clark como protagonista',
     titleEn: 'WNBA 2026: midseason review with Caitlin Clark as the star',
@@ -3131,6 +3188,7 @@ Con información de: ESPN.`,
   },
   {
     id: '58',
+    contentType: 'news',
     slug: 'lebron-james-free-agency-2026',
     titleEs: 'LeBron James: el futuro de la estrella que mantiene en vilo a la NBA',
     titleEn: 'LeBron James: the future of the star keeping the NBA on edge',

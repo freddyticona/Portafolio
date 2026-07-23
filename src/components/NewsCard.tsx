@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BlogPost } from '../types';
+import { BlogPost, ContentType } from '../types';
 import { Calendar, Clock, ArrowRight, MapPin, Eye } from 'lucide-react';
 import LazyImage from './LazyImage';
 
@@ -29,6 +29,21 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
   const excerpt = lang === 'es' ? post.excerptEs : post.excerptEn;
   const category = lang === 'es' ? post.categoryEs : post.categoryEn;
   const readTime = lang === 'es' ? post.readTimeEs : post.readTimeEn;
+
+  const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
+    news: { es: 'NOTICIA', en: 'NEWS' },
+    analysis: { es: 'ANÁLISIS', en: 'ANALYSIS' },
+    opinion: { es: 'OPINIÓN', en: 'OPINION' },
+    reportage: { es: 'REPORTAJE', en: 'REPORTAGE' },
+    'behind-scenes': { es: 'DETRÁS DE CÁMARAS', en: 'BEHIND THE SCENES' }
+  };
+  const contentTypeColors: Record<ContentType, string> = {
+    news: 'text-blue-400 border-blue-500/30 bg-blue-500/10',
+    analysis: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
+    opinion: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
+    reportage: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
+    'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10'
+  };
   const formattedDate = new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
     year: 'numeric',
     month: 'long',
@@ -69,6 +84,11 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/30 px-2.5 py-1 rounded-sm backdrop-blur-sm">
               {category}
             </span>
+            {post.contentType && (
+              <span className={`text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm border backdrop-blur-sm ${contentTypeColors[post.contentType]}`}>
+                {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
+              </span>
+            )}
             {post.location && (
               <span className="text-[10px] font-mono text-stone-300 bg-black/60 border border-white/10 px-2 py-0.5 rounded-sm flex items-center gap-1 backdrop-blur-sm">
                 <MapPin className="w-3 h-3 text-gold" />
@@ -174,6 +194,11 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
         <span className="absolute top-2 left-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider text-gold px-2 py-0.5 rounded-sm border border-gold/20">
           {category}
         </span>
+        {post.contentType && (
+          <span className={`absolute top-2 right-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm border ${contentTypeColors[post.contentType]}`}>
+            {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
+          </span>
+        )}
         {post.breaking && (
           <span className="absolute top-2 right-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md animate-pulse">
             {lang === 'es' ? 'ÚLTIMA HORA' : 'BREAKING'}
