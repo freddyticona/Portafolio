@@ -28,6 +28,7 @@
     "dist",
     "public",
     "build",
-    "pages"
+    "pages",
+    "scripts"
   ]
 }

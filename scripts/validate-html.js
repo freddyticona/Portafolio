@@ -19,28 +19,21 @@ const pages = [
   '/noticias/evolucion-televisiva-bolivia-analogo-digital',
 ];
 
-interface ValidationError {
-  type: string;
-  message: string;
-  extract?: string;
-  firstLine?: number;
-}
-
-async function validatePage(url: string): Promise<ValidationError[]> {
+async function validatePage(url) {
   try {
     const response = await fetch(`${VALIDATOR_URL}?doc=${encodeURIComponent(url)}&out=json`, {
       headers: { 'User-Agent': 'FreddyDev-HTMLValidator/1.0' },
     });
     const data = await response.json();
     return (data.messages || [])
-      .filter((m: any) => m.type === 'error' || m.type === 'warning')
-      .map((m: any) => ({
+      .filter((m) => m.type === 'error' || m.type === 'warning')
+      .map((m) => ({
         type: m.type,
         message: m.message,
         extract: m.extract,
         firstLine: m.firstLine,
       }));
-  } catch (err: any) {
+  } catch (err) {
     return [{ type: 'error', message: `Failed to validate: ${err.message}` }];
   }
 }

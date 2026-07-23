@@ -43,5 +43,6 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npx -y @lhci/cli@latest autorun --collect.url=https://freddydev.net --collect.numberOfRuns=1 --upload.target=filesystem
+      - run: npm run build
+      - run: npx -y @lhci/cli@latest autorun --collect.staticDistDir=./dist --collect.numberOfRuns=1 --upload.target=filesystem
         continue-on-error: true
