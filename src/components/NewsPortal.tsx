@@ -215,18 +215,46 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
             )}
           </div>
 
-          {/* News Grid */}
+          {/* News Grid agrupado por fecha */}
           {visiblePosts.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              {visiblePosts.map((post) => (
-                <NewsCard
-                  key={post.id}
-                  post={post}
-                  lang={lang}
-                  onClick={() => onArticleClick(post)}
-                  variant="default"
-                />
-              ))}
+            <div className="space-y-8">
+              {(() => {
+                const groups: { date: string; posts: BlogPost[] }[] = [];
+                for (const post of visiblePosts) {
+                  const dateKey = post.date.split('T')[0];
+                  const last = groups[groups.length - 1];
+                  if (last && last.date === dateKey) {
+                    last.posts.push(post);
+                  } else {
+                    groups.push({ date: dateKey, posts: [post] });
+                  }
+                }
+                return groups.map((group) => (
+                  <div key={group.date}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold bg-gold/10 border border-gold/20 px-3 py-1 rounded-sm">
+                        {new Date(group.date + 'T12:00:00').toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </span>
+                      <span className="h-px flex-1 bg-gradient-to-r from-gold/30 to-transparent" />
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                      {group.posts.map((post) => (
+                        <NewsCard
+                          key={post.id}
+                          post={post}
+                          lang={lang}
+                          onClick={() => onArticleClick(post)}
+                          variant="default"
+                        />
+                      ))}
+                    </div>
+                  </div>
+                ));
+              })()}
             </div>
           ) : (
             <div className="text-center py-16 bg-white/[0.01] border border-white/5 rounded-sm space-y-3">

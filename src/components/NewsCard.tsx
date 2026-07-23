@@ -29,6 +29,11 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
   const excerpt = lang === 'es' ? post.excerptEs : post.excerptEn;
   const category = lang === 'es' ? post.categoryEs : post.categoryEn;
   const readTime = lang === 'es' ? post.readTimeEs : post.readTimeEn;
+  const formattedDate = new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
 
   if (variant === 'hero') {
     return (
@@ -83,7 +88,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           <div className="flex items-center gap-4 text-[10px] font-mono text-stone-400 pt-1 flex-wrap">
             <span className="flex items-center gap-1">
               <Calendar className="w-3 h-3 text-gold" />
-              {post.date}
+              {formattedDate}
             </span>
             <span className="flex items-center gap-1">
               <Clock className="w-3 h-3 text-gold" />
@@ -135,7 +140,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             {title}
           </h4>
           <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
-            <span>{post.date}</span>
+            <span>{formattedDate}</span>
             {post.source && (
               <span className="text-[8px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm">
                 {post.source}
@@ -181,7 +186,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500 flex-wrap">
             <span className="flex items-center gap-1">
               <Calendar className="w-3 h-3 text-gold/80" />
-              {post.date}
+              {formattedDate}
             </span>
             <span className="flex items-center gap-1">
               <Clock className="w-3 h-3 text-gold/80" />
