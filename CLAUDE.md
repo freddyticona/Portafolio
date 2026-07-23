@@ -186,6 +186,37 @@ scripts/
 - Creado `public/offline.html` para fallback offline
 - **Commit**: `5a27f20`
 
+## Editorial Workflow — Artículos de Noticias
+
+Al crear o reescribir un artículo para el sector de noticias, seguir este flujo editorial + SEO:
+
+### 1. Reescritura Total
+- No copiar y pegar. Sintetizar, parafrasear y reestructurar con tono periodístico, claro, imparcial y profesional.
+- Aplicar pirámide invertida: el primer párrafo (lead) debe responder a ¿Qué?, ¿Quién?, ¿Cuándo?, ¿Dónde? y ¿Por qué es importante?
+
+### 2. Estructura del Artículo
+- **H1**: Título llamativo, directo, veraz y optimizado para SEO (evitar clickbait).
+- **H2 / H3**: Subtítulos que dividan bloques temáticos.
+- **Viñetas o listas**: Para resaltar datos, cifras clave o conclusiones.
+
+### 3. Atribución Transparente (JTI)
+- Identificar la fuente explícitamente en el cuerpo: *"Según el comunicado emitido por..."* o *"De acuerdo con reportes oficiales de..."*
+- Sección final: `Con información de: [Fuente Original]` con enlace.
+
+### 4. Valor Agregado
+- Un párrafo breve contextualizando: por qué afecta al ciudadano común o antecedentes del tema.
+
+### 5. SEO
+- **Meta Título**: Máximo 60 caracteres.
+- **Meta Descripción**: 140–160 caracteres con llamada a la acción implícita.
+- **Keywords**: 3–5 palabras clave.
+- **Prompt para imagen de portada**: Descriptivo para generador de imágenes IA.
+
+### 6. Formato en translations.ts
+- Los artículos se agregan al array `blogPosts` en `src/translations.ts`.
+- Si el contenido lleva HTML (no Markdown), usar `contentHtml` en vez de `content`.
+- Incrementar el contador en `generate-rss.js`, `generate-sitemap.js`, `generate-pages.js`.
+
 ## Git
 - Branch: main
 - Remote: origin/main (GitHub)

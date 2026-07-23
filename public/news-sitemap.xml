@@ -366,4 +366,88 @@
       
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/blog/tormentas-solares-subestimadas-estudio-nature</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22</news:publication_date>
+      <news:title>Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tormentas-solares-subestimadas-estudio-nature</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22</news:publication_date>
+      <news:title>Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/amd-advancing-ai-2026-helios-epyc-instinct</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/amd-advancing-ai-2026-helios-epyc-instinct</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/amd-instinct-mi400-gpus-ia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/amd-instinct-mi400-gpus-ia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa</news:title>
+      
+    </news:news>
+  </url>
 </urlset>

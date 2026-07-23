@@ -63,6 +63,13 @@ const articles = [
   'c212-aviocar-transporte-militar-espanol',
   'japon-rompe-leyes-fisica-calor-programable',
   'tormentas-solares-subestimadas-estudio-nature',
+  'amd-advancing-ai-2026-helios-epyc-instinct',
+  'amd-rackspace-30mw-ia-empresarial',
+  'amd-computacion-cuantica-hibrida',
+  'amd-gartner-lider-cpus-ia-empresarial',
+  'amd-epyc-venice-tsmc-2nm',
+  'amd-instinct-mi400-gpus-ia',
+  'amd-kria-ryzen-ai-embedded-robotica',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

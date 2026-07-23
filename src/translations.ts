@@ -2391,6 +2391,390 @@ A new study published in Nature reveals we have been systematically underestimat
     views: 1,
     source: 'El Confidencial',
     sourceUrl: 'https://www.elconfidencial.com/tecnologia/novaceno/2026-07-22/efecto-carrington-efecto-miyake-destruccion_4393751/'
+  },
+  {
+    id: '42',
+    slug: 'amd-advancing-ai-2026-helios-epyc-instinct',
+    titleEs: 'AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026',
+    titleEn: 'AMD unveils Helios, EPYC Venice and Instinct MI400 at Advancing AI 2026',
+    excerptEs: 'AMD lanzó su cartera de próxima generación para IA agéntica, incluyendo Helios (su primera solución rack-scale), los procesadores EPYC 9006 "Venice" de 6ª gen y las GPUs Instinct MI400. OpenAI, Anthropic y Meta ya adoptan la plataforma.',
+    excerptEn: 'AMD launched its next-generation portfolio for agentic AI, including Helios (its first rack-scale solution), 6th Gen EPYC 9006 "Venice" processors and Instinct MI400 GPUs. OpenAI, Anthropic and Meta are already adopting the platform.',
+    contentEs: `### AMD redefine la infraestructura de IA con su cartera más ambiciosa
+
+El 23 de julio de 2026, AMD celebró su evento Advancing AI 2026 en San Francisco, California, donde la CEO Lisa Su presentó la hoja de ruta más completa en la historia de la compañía. Con un mercado direccionable estimado en 2 billones de dólares para 2030, AMD apuesta por una plataforma abierta de IA que abarca desde el centro de datos hasta el borde.
+
+Según el comunicado oficial de AMD, la nueva generación de productos incluye:
+
+### AMD Helios: la solución rack-scale más potente del mundo
+
+Helios integra 72 GPUs Instinct MI455X y 18 CPUs EPYC "Venice" de 6ª generación por rack, conectados mediante redes Pensando de front-end, scale-up y scale-out. AMD afirma que Helios ofrece hasta un 30% más de tokens por dólar en inferencia que la competencia.
+
+OpenAI, Anthropic, Meta, Microsoft y Oracle ya confirmaron que desplegarán Helios en sus centros de datos. Anthropic planea una implementación de hasta 2 gigavatios con GPUs MI455X.
+
+### EPYC Venice: la CPU para la era de la IA agéntica
+
+Los procesadores EPYC 9006 de 6ª generación, con arquitectura Zen 6, ofrecen el portafolio más amplio de CPUs para servidores de IA. Están diseñados para mantener las GPUs completamente alimentadas en nodos host de IA, además de ejecutar aplicaciones críticas de negocio.
+
+### Instinct MI400: rendimiento 34x superior
+
+La GPU MI455X ofrece un rendimiento 34 veces mayor en throughput de tokens comparado con la generación MI355X. Para cargas de trabajo de alta precisión, la MI430X alcanza hasta 288 TFLOPS FP64.
+
+### ¿Qué significa esto para Bolivia?
+
+Mientras gigantes como OpenAI y Meta despliegan infraestructura de IA a escala de gigavatios, Bolivia aún carece de centros de datos especializados en IA. El costo de una GPU Instinct MI455X supera los 30.000 dólares, una cifra inalcanzable para la mayoría de instituciones bolivianas. Sin embargo, la llegada de soluciones como Helios podría abaratar la inferencia de IA a largo plazo, beneficiando a sectores como la salud y la educación en el país.
+
+### Precios de referencia en Bolivia (Julio 2026)
+
+| Producto | Precio Bs. | Uso sugerido |
+|----------|:----------:|--------------|
+| AMD Ryzen 5 5600 | 1.750 | PC oficina/edición básica |
+| AMD Ryzen 5 7600 | ~2.100 | Workstation edición de video |
+| AMD Ryzen 7 7800X3D | 5.300 | Gaming y render 3D |
+| AMD Radeon RX 7600 | 4.158 - 4.680 | Tarjeta gráfica para edición |
+
+Fuentes: bgamer.pro, Cyrex Store, CompuCenter Bolivia.`,
+    contentEn: `### AMD redefines AI infrastructure with its most ambitious portfolio
+
+On July 23, 2026, AMD held its Advancing AI 2026 event in San Francisco, where CEO Lisa Su unveiled the company's most comprehensive roadmap yet. With a total addressable market estimated at $2 trillion by 2030, AMD is betting on an open AI platform spanning from data center to edge.
+
+Key launches include the AMD Helios rackscale solution (72 Instinct MI455X GPUs + 18 EPYC Venice CPUs per rack), 6th Gen EPYC 9006 "Venice" processors based on Zen 6 architecture, and the Instinct MI400 series GPUs delivering 34x higher token throughput.
+
+OpenAI, Anthropic, Meta, Microsoft and Oracle have all confirmed they will deploy Helios infrastructure.`,
+    date: '2026-07-23',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'AMD Helios rackscale solution presentada en Advancing AI 2026. Foto: AMD Newsroom',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Newsroom',
+    sourceUrl: 'https://newsroom.amd.com/news/aai-2026-full-stack-compute-agentic-ai/'
+  },
+  {
+    id: '43',
+    slug: 'amd-rackspace-30mw-ia-empresarial',
+    titleEs: 'AMD y Rackspace firman acuerdo para desplegar 30 MW de computación IA para empresas reguladas',
+    titleEn: 'AMD and Rackspace sign agreement to deploy 30 MW of AI compute for regulated enterprises',
+    excerptEs: 'El acuerdo definitivo establece un despliegue escalonado de GPUs AMD Instinct y CPUs EPYC en centros de datos globales de Rackspace, creando una nueva categoría de infraestructura IA gobernada para industrias reguladas como salud y finanzas.',
+    excerptEn: 'The definitive agreement establishes a phased deployment of AMD Instinct GPUs and EPYC CPUs across Rackspace global data centers, creating a new category of governed AI infrastructure for regulated industries like healthcare and finance.',
+    contentEs: `### Una alianza estratégica para la IA empresarial gobernada
+
+El 16 de junio de 2026, AMD y Rackspace Technology firmaron un acuerdo definitivo para desplegar 30 megavatios de capacidad de computación basada en AMD en centros de datos de Rackspace a nivel global, con inicio previsto para finales de 2026 y completado hacia 2028.
+
+Según el comunicado oficial de AMD, el acuerdo operacionaliza el memorando de entendimiento anunciado el 7 de mayo de 2026 y establece a AMD como socio tecnológico estratégico en la capa de silicio de la pila de IA gobernada de Rackspace.
+
+### ¿Qué incluye el despliegue?
+
+- GPUs AMD Instinct (MI355X, MI350P y sucesoras futuras)
+- CPUs AMD EPYC para cargas de trabajo generales
+- Cuatro capacidades integradas: Enterprise AI Cloud, Enterprise Inference Engine, Inference as a Service y Bare Metal AMD Instinct
+
+### Un mercado sin precedentes en Bolivia
+
+Mientras Rackspace y AMD construyen infraestructura IA para empresas reguladas en Estados Unidos y Europa, en Bolivia el ecosistema de IA empresarial es aún incipiente. No existen centros de datos especializados en IA con certificaciones para salud o finanzas.
+
+Sin embargo, el mercado boliviano de tecnología crece. Una laptop con Ryzen 5 5600G (Bs. 1.536 en sumerlabs.com) sigue siendo la herramienta más accesible para jóvenes desarrolladores bolivianos que quieran incursionar en IA. La brecha es enorme, pero también lo es la oportunidad.
+
+### Precios de referencia AMD en Bolivia
+
+| Producto | Precio (Bs.) | Tienda |
+|----------|:-----------:|--------|
+| AMD Ryzen 5 5600G | 1.536 | sumerlabs.com |
+| AMD Ryzen 5 5600 | 1.750 | bgamer.pro |
+| AMD Ryzen 5 7600X | 2.300 | Cyrex Store |
+| AMD Ryzen 7 7800X3D | 5.300 | Cyrex Store |
+| AMD Radeon RX 7600 | 4.158 - 4.680 | bgamer.pro / CompuCenter |
+
+Con información de: AMD Newsroom y Rackspace Technology.`,
+    contentEn: `### A strategic alliance for governed enterprise AI
+
+On June 16, 2026, AMD and Rackspace Technology signed a definitive agreement to deploy 30 MW of AMD-based AI compute across Rackspace's global data centers beginning in late 2026 through 2028. The deployment combines AMD Instinct GPUs and EPYC CPUs within Rackspace's Enterprise AI Cloud, targeting regulated enterprise workloads. Healthcare providers have already expressed early interest in accelerated compute for clinical AI and inference at scale.`,
+    date: '2026-06-16',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'Infraestructura de centro de datos. AMD y Rackspace colaboran en IA empresarial. Foto: AMD Newsroom',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Newsroom',
+    sourceUrl: 'https://newsroom.amd.com/news/amd-and-rackspace-technology-sign-definitive/'
+  },
+  {
+    id: '44',
+    slug: 'amd-computacion-cuantica-hibrida',
+    titleEs: 'AMD impulsa el futuro híbrido de la computación cuántica con CPUs, GPUs y FPGAs',
+    titleEn: 'AMD advances the hybrid future of quantum computing with CPUs, GPUs and FPGAs',
+    excerptEs: 'AMD detalla su estrategia para la computación cuántica: no reemplazará a la computación clásica, sino que la acelerará mediante arquitecturas híbridas. Colabora con IBM, JPMorganChase y Oak Ridge National Laboratory.',
+    excerptEn: 'AMD details its quantum computing strategy: it will not replace classical computing but accelerate it through hybrid architectures. Collaborations include IBM, JPMorganChase and Oak Ridge National Laboratory.',
+    contentEs: `### El futuro cuántico no será solo cuántico
+
+El 19 de junio de 2026, AMD publicó un análisis estratégico sobre el futuro de la computación cuántica, dejando claro que los procesadores cuánticos no reemplazarán a los clásicos, sino que trabajarán juntos en arquitecturas híbridas.
+
+Según el blog oficial de AMD firmado por Sanjay Chaurasia, Yasuko Eckert y Mario Morales, el gobierno de Estados Unidos anunció en mayo una inversión de más de 2.000 millones de dólares en iniciativas de computación cuántica, reflejando la confianza en que la tecnología cuántica se acerca a un impacto práctico.
+
+### ¿Por qué es importante la infraestructura clásica?
+
+Los ordenadores cuánticos actuales dependen en gran medida de la computación clásica para funciones como:
+
+- Control y calibración de qubits
+- Orquestación de flujos de trabajo
+- Simulación y preparación de datos
+- Corrección de errores en tiempo real
+- Post-procesamiento de resultados
+
+### El portafolio de AMD para la era cuántica
+
+AMD aporta toda su cartera a la infraestructura cuántica:
+
+- **EPYC**: orquestación y cargas de trabajo HPC
+- **Instinct**: simulación e investigación asistida por IA
+- **FPGAs y SoCs adaptables**: control de baja latencia y corrección de errores en tiempo real
+- **Redes Pensando**: conectividad escalable
+
+### ¿Y Bolivia?
+
+Mientras AMD, IBM y JPMorganChase exploran la integración cuántico-clásica, Bolivia no cuenta con programas de investigación en computación cuántica. Las universidades bolivianas carecen de laboratorios especializados y acceso a hardware cuántico, aunque iniciativas como el Laboratorio de Innovación Tecnológica de la UMSA podrían ser un punto de partida.
+
+Mientras tanto, un AMD Ryzen 5 5600 a Bs. 1.750 sigue siendo la herramienta más potente al alcance del estudiante boliviano de ciencias de la computación.
+
+Con información de: AMD Blogs.`,
+    contentEn: `### The quantum future will not be quantum alone
+
+On June 19, 2026, AMD published a strategic analysis on the future of quantum computing. Quantum computers will not replace classical ones but work together in hybrid architectures. AMD's CPUs, GPUs, FPGAs, adaptive SoCs and networking provide critical classical infrastructure for quantum systems. The U.S. Department of Commerce announced over $2 billion in quantum investment. AMD collaborates with IBM, JPMorganChase and Oak Ridge National Laboratory.`,
+    date: '2026-06-19',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '9 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'Diagrama de computación cuántica híbrida. AMD proporciona la infraestructura clásica fundamental. Foto: AMD',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Blogs',
+    sourceUrl: 'https://www.amd.com/en/blogs/2026/amd-advances-the-hybrid-future-of-quantum-computing.html'
+  },
+  {
+    id: '45',
+    slug: 'amd-gartner-lider-cpus-ia-empresarial',
+    titleEs: 'Gartner nombra a AMD como la empresa a vencer en CPUs para servidores de IA empresarial',
+    titleEn: 'Gartner names AMD the company to beat for enterprise AI server CPUs',
+    excerptEs: 'El informe "AI Vendor Race" de Gartner posiciona a AMD como el líder actual en CPUs para servidores de IA empresarial, destacando el rendimiento y eficiencia de los procesadores EPYC frente a la competencia.',
+    excerptEn: 'Gartner\'s "AI Vendor Race" report positions AMD as the current leader in enterprise AI server CPUs, highlighting EPYC processor performance and efficiency against the competition.',
+    contentEs: `### AMD es la empresa a vencer en CPUs para IA empresarial
+
+Según un informe publicado en julio de 2026, Gartner posicionó a AMD como el líder actual en CPUs para servidores de IA empresarial en su reporte "AI Vendor Race: AMD Is the Company to Beat for Enterprise AI Server CPUs".
+
+El análisis de Gartner evaluó a los principales fabricantes de CPUs para cargas de trabajo de inteligencia artificial en entornos empresariales, destacando el rendimiento, la eficiencia energética y el costo total de propiedad (TCO) de los procesadores AMD EPYC.
+
+### ¿Qué significa esta clasificación?
+
+La designación de Gartner implica que AMD ofrece la combinación más equilibrada de:
+
+- Rendimiento por núcleo para cargas de IA
+- Densidad de hilos por servidor
+- Eficiencia energética por carga de trabajo
+- Ecosistema de software abierto (ROCm)
+- Facilidad de integración en centros de datos existentes
+
+### Impacto en el mercado boliviano
+
+Aunque los servidores EPYC no son accesibles para el mercado local —un servidor con EPYC cuesta entre 5.000 y 20.000 dólares—, la adopción de AMD en centros de datos globales presiona los precios a la baja. Esto beneficia indirectamente a empresas bolivianas que tercerizan servicios en la nube.
+
+Para el consumidor boliviano, los procesadores AMD Ryzen para PC ofrecen la mejor relación calidad-precio del mercado:
+
+- Ryzen 5 5600 (6 núcleos): Bs. 1.750 en bgamer.pro
+- Ryzen 5 7600X (6 núcleos, AM5): Bs. 2.300 en Cyrex Store
+- Ryzen 7 7800X3D (8 núcleos, 3D V-Cache): Bs. 5.300 en Cyrex Store
+
+Con información de: AMD Newsroom y Gartner.`,
+    contentEn: `### AMD is the company to beat in enterprise AI CPUs
+
+In July 2026, Gartner positioned AMD as the current leader in enterprise AI server CPUs in its "AI Vendor Race" report. Gartner evaluated major CPU manufacturers for AI workloads, highlighting AMD EPYC processors' performance, energy efficiency and total cost of ownership. The analysis noted AMD's balanced combination of per-core performance, thread density, energy efficiency, open software ecosystem (ROCm) and data center integration.`,
+    date: '2026-07-15',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'Procesador AMD EPYC. Gartner posiciona a AMD como líder en CPUs para servidores IA. Foto: AMD',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Newsroom',
+    sourceUrl: 'https://www.amd.com/en/blogs/2026/amd-named-current-company-to-beat-in-gartner-ai-vendor.html'
+  },
+  {
+    id: '46',
+    slug: 'amd-epyc-venice-tsmc-2nm',
+    titleEs: 'AMD inicia producción del EPYC Venice en tecnología de 2 nanómetros de TSMC',
+    titleEn: 'AMD begins production of EPYC Venice on TSMC 2nm process technology',
+    excerptEs: 'El procesador EPYC "Venice" de 6ª generación con arquitectura Zen 6 es el primer producto de computación de alto rendimiento en entrar en producción en el avanzado nodo de 2nm de TSMC, marcando un hito en la industria de semiconductores.',
+    excerptEn: 'The 6th Gen EPYC "Venice" processor with Zen 6 architecture is the first high-performance computing product to enter production on TSMC\'s advanced 2nm process node, marking a milestone in the semiconductor industry.',
+    contentEs: `### Un hito en la industria de semiconductores
+
+El 21 de mayo de 2026, AMD anunció el inicio de la producción en masa de sus procesadores EPYC de 6ª generación, nombre clave "Venice", fabricados en el nodo de 2 nanómetros (N2) de TSMC. Es el primer producto de computación de alto rendimiento en la industria en alcanzar este hito de fabricación.
+
+Según el comunicado de AMD, la arquitectura Zen 6 representa un salto generacional en rendimiento por vatio, densidad de transistores y eficiencia energética respecto a la generación anterior.
+
+### Especificaciones clave del EPYC Venice
+
+- Arquitectura: Zen 6 (6ª generación)
+- Nodo: TSMC N2 (2nm)
+- Hasta 192 núcleos por socket
+- Soporte para memoria DDR5 y PCIe 6.0
+- Compatible con plataforma SP5 existente
+- Mayor ancho de banda de memoria para cargas de IA
+
+### ¿Qué significa 2nm?
+
+Para ponerlo en perspectiva: el nodo de 2nm de TSMC ofrece aproximadamente un 15% más de velocidad o un 30% menos de consumo energético comparado con el nodo de 3nm. Esto se traduce en servidores más potentes que consumen menos electricidad y generan menos calor.
+
+### El mercado de procesadores en Bolivia
+
+Mientras AMD produce el EPYC Venice en 2nm, el mercado boliviano sigue demandando procesadores de generaciones anteriores por su accesibilidad. Los procesadores AMD Ryzen disponibles en tiendas bolivianas reflejan esta realidad:
+
+| Procesador | Núcleos | Precio Bs. | Tienda |
+|-----------|:------:|:---------:|--------|
+| Ryzen 5 5600G | 6/12 | 1.536 | sumerlabs.com |
+| Ryzen 5 5600 | 6/12 | 1.750 | bgamer.pro |
+| Ryzen 7 7800X3D | 8/16 | 5.300 | Cyrex Store |
+
+La brecha entre la frontera tecnológica (2nm) y la realidad local (procesadores de 7nm) es enorme, pero permite a los bolivianos acceder a tecnología sólida a precios reducidos.
+
+Con información de: AMD Newsroom.`,
+    contentEn: `### A milestone in the semiconductor industry
+
+On May 21, 2026, AMD announced mass production of its 6th Gen EPYC "Venice" processors on TSMC's 2nm (N2) process node. It is the first high-performance computing product in the industry to reach this manufacturing milestone. The Zen 6 architecture delivers generational leaps in performance-per-watt, transistor density and energy efficiency. Key specs include up to 192 cores per socket, DDR5 memory support and PCIe 6.0.`,
+    date: '2026-05-21',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'Procesador AMD EPYC 9006 Series. Primer chip HPC en 2nm. Foto: AMD Newsroom',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Newsroom',
+    sourceUrl: 'https://newsroom.amd.com/news/amd-announces-production-ramp-of-next-generation-a/'
+  },
+  {
+    id: '47',
+    slug: 'amd-instinct-mi400-gpus-ia',
+    titleEs: 'AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa',
+    titleEn: 'AMD launches Instinct MI400 GPUs with 34x higher performance for generative AI',
+    excerptEs: 'La nueva generación de GPUs para centros de datos incluye la MI455X con 34x más throughput de tokens, la MI430X con 288 TFLOPS FP64 para supercomputación y la MI350P como opción de entrada con liderazgo en economía de tokens.',
+    excerptEn: 'The new data center GPU generation includes the MI455X with 34x higher token throughput, the MI430X with 288 TFLOPS FP64 for supercomputing and the MI350P as an entry option with leadership token economics.',
+    contentEs: `### AMD duplica la apuesta por GPUs para centros de datos
+
+Durante el evento Advancing AI 2026, AMD presentó su nueva familia de aceleradores Instinct MI400, diseñados para entrenamiento de modelos frontera, inferencia a gran escala y supercomputación.
+
+Según la información oficial de AMD, la familia MI400 se compone de tres modelos:
+
+### Instinct MI455X: la GPU para inferencia masiva
+
+- 34x más throughput de tokens que la MI355X
+- Optimizada para inferencia de modelos de lenguaje y agentes de IA
+- Integrada en la solución rack-scale Helios (72 GPUs por rack)
+- OpenAI espera tener Helios en producción desde Q4 2026
+
+### Instinct MI430X: supercomputación y soberanía IA
+
+- Hasta 288 TFLOPS de precisión FP64 en hardware
+- Diseñada para cargas de trabajo HPC y simulación científica
+- Potencia la próxima generación de supercomputadores exaescala en EE.UU. y Europa
+
+### Instinct MI350P: IA accesible para centros de datos existentes
+
+- Hasta 4.2x más tokens por segundo por dólar que la competencia
+- Se integra en infraestructura existente sin modificaciones
+- Ideal para empresas que inician su adopción de IA
+
+### ¿Qué significa esto para Bolivia?
+
+Las GPUs Instinct MI400 no están al alcance del mercado boliviano —su precio oscila entre 15.000 y 50.000 dólares—. Sin embargo, la computación en la nube basada en estas GPUs está disponible a través de proveedores como Microsoft Azure y Oracle Cloud, permitiendo a desarrolladores y empresas bolivianas acceder a capacidad de IA sin invertir en hardware.
+
+Para el usuario boliviano, la GPU más potente disponible en tiendas locales es la Radeon RX 7600, con precios entre Bs. 4.158 y Bs. 4.680, suficiente para edición de video, diseño 3D y gaming.
+
+Con información de: AMD Newsroom.`,
+    contentEn: `### AMD doubles down on data center GPUs
+
+At Advancing AI 2026, AMD unveiled its new Instinct MI400 family of accelerators for frontier model training, large-scale inference and supercomputing. The MI455X delivers 34x higher token throughput than the MI355X. The MI430X reaches 288 TFLOPS FP64 for scientific computing. The MI350P offers 4.2x more tokens per second per dollar than competition, integrating into existing infrastructure.`,
+    date: '2026-07-23',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'GPU AMD Instinct MI400 Series para centros de datos IA. Foto: AMD Newsroom',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Newsroom',
+    sourceUrl: 'https://newsroom.amd.com/news/aai-2026-full-stack-compute-agentic-ai/'
+  },
+  {
+    id: '48',
+    slug: 'amd-kria-ryzen-ai-embedded-robotica',
+    titleEs: 'AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded',
+    titleEn: 'AMD launches open Kria AI robotics platform with Ryzen AI Embedded processors',
+    excerptEs: 'AMD presentó los procesadores Ryzen AI Embedded X100 y la plataforma de robótica Kria AI, combinando CPU, GPU, NPU y FPGA en un solo ecosistema abierto para robótica autónoma e IA física.',
+    excerptEn: 'AMD unveiled the Ryzen AI Embedded X100 processors and the Kria AI robotics platform, combining CPU, GPU, NPU and FPGA in a single open ecosystem for autonomous robotics and physical AI.',
+    contentEs: `### AMD lleva la IA al mundo físico con su plataforma robótica más ambiciosa
+
+El 23 de julio de 2026, AMD presentó su nueva familia de soluciones Kria AI para robótica e IA física, incluyendo los procesadores Ryzen AI Embedded X100, los módulos Kria AI SOM y la plataforma de desarrollo robótico Kria AI.
+
+Según el comunicado oficial de AMD, la compañía busca eliminar el vendor lock-in en robótica, ofreciendo una plataforma abierta que combina CPU, GPU, NPU y FPGA en un solo ecosistema.
+
+### Ryzen AI Embedded X100: el cerebro de la robótica
+
+Los nuevos procesadores Ryzen AI Embedded X100 integran:
+
+- CPU Zen 5 para control y orquestación
+- GPU RDNA 3.5 para percepción visual
+- NPU XDNA 2 para inferencia de IA en tiempo real
+- Arquitectura preparada para entornos industriales
+
+Estos procesadores están diseñados para aplicaciones de robótica, automatización industrial y sistemas embebidos inteligentes.
+
+### Kria AI Robotics Developer Platform
+
+La primera plataforma integrada turnkey para robótica autónoma que combina:
+
+- Módulo SOM Kria AI con Ryzen AI Embedded
+- Software ROCm abierto
+- Ecosistema de socios robóticos
+- Soporte para ROS 2 y marcos de IA estándar
+
+### Automatización en Bolivia: una oportunidad latente
+
+Mientras AMD impulsa la robótica industrial con plataformas que cuestan entre 500 y 2.000 dólares, Bolivia recién comienza su camino hacia la automatización. La industria manufacturera boliviana, concentrada en textiles, alimentos y bebidas, utiliza mayoritariamente procesos manuales o semiautomatizados.
+
+Sin embargo, el creciente ecosistema de startups tecnológicas en La Paz y Santa Cruz está adoptando herramientas de IA y robótica a pequeña escala. Para estos emprendedores, un Ryzen 5 5600G con gráficos integrados Radeon (Bs. 1.536 en sumerlabs.com) puede ser el punto de partida para desarrollar soluciones de automatización accesibles.
+
+Con información de: AMD Newsroom.`,
+    contentEn: `### AMD brings AI to the physical world
+
+On July 23, 2026, AMD launched its Kria AI family for robotics and physical AI, including Ryzen AI Embedded X100 processors, Kria AI SOMs and the Kria AI Robotics Developer Platform. The platform combines CPU (Zen 5), GPU (RDNA 3.5) and NPU (XDNA 2) in a single open ecosystem. It targets autonomous robotics, industrial automation and intelligent embedded systems.`,
+    date: '2026-07-23',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.ecestaticos.com/agcXG5TFoCF40eNPAGDSoQJdvNk=/0x0:1655x1251/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fae5%2F394%2F8de%2Fae53948debcb1b8daebb92a64f2def6e.jpg',
+    imageCaption: 'AMD Kria AI Robotics Developer Platform. Plataforma abierta para robótica autónoma. Foto: AMD',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AMD Newsroom',
+    sourceUrl: 'https://newsroom.amd.com/news/aai-2026-ryzen-ai-embedded-x100/'
   }
 ];
 

@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Thu, 23 Jul 2026 21:29:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 22:16:18 GMT</lastBuildDate>
     <managingEditor>freddyticona62@gmail.com (Freddy Ticona Guzmán)</managingEditor>
     <webMaster>freddyticona62@gmail.com (Freddy Ticona Guzmán)</webMaster>
     <item>
@@ -338,6 +338,62 @@
       <guid isPermaLink="true">https://freddydev.net/blog/tormentas-solares-subestimadas-estudio-nature</guid>
       <description><![CDATA[Un estudio de Nature revela que hemos subestimado el poder de la actividad solar extrema por un error matemático.]]></description>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026]]></title>
+      <link>https://freddydev.net/blog/amd-advancing-ai-2026-helios-epyc-instinct</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-advancing-ai-2026-helios-epyc-instinct</guid>
+      <description><![CDATA[AMD lanzó su cartera de próxima generación para IA agéntica, incluyendo Helios, EPYC 9006 e Instinct MI400. OpenAI y Anthropic ya adoptan la plataforma.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[AMD y Rackspace firman acuerdo para desplegar 30 MW de computación IA para empresas reguladas]]></title>
+      <link>https://freddydev.net/blog/amd-rackspace-30mw-ia-empresarial</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-rackspace-30mw-ia-empresarial</guid>
+      <description><![CDATA[AMD y Rackspace desplegarán 30 MW de GPUs Instinct y CPUs EPYC para crear infraestructura IA gobernada para industrias reguladas.]]></description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[AMD impulsa el futuro híbrido de la computación cuántica con CPUs, GPUs y FPGAs]]></title>
+      <link>https://freddydev.net/blog/amd-computacion-cuantica-hibrida</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-computacion-cuantica-hibrida</guid>
+      <description><![CDATA[AMD detalla su estrategia cuántica: no reemplazará a la computación clásica sino que la acelerará mediante arquitecturas híbridas.]]></description>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Gartner nombra a AMD como la empresa a vencer en CPUs para servidores de IA empresarial]]></title>
+      <link>https://freddydev.net/blog/amd-gartner-lider-cpus-ia-empresarial</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-gartner-lider-cpus-ia-empresarial</guid>
+      <description><![CDATA[Gartner posiciona a AMD como el líder actual en CPUs para servidores de IA empresarial, destacando el rendimiento de EPYC.]]></description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[AMD inicia producción del EPYC Venice en tecnología de 2 nanómetros de TSMC]]></title>
+      <link>https://freddydev.net/blog/amd-epyc-venice-tsmc-2nm</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-epyc-venice-tsmc-2nm</guid>
+      <description><![CDATA[El EPYC Venice con Zen 6 es el primer producto HPC en producción en el nodo de 2nm de TSMC.]]></description>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa]]></title>
+      <link>https://freddydev.net/blog/amd-instinct-mi400-gpus-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-instinct-mi400-gpus-ia</guid>
+      <description><![CDATA[AMD presentó la familia Instinct MI400 con la MI455X, MI430X y MI350P para entrenamiento de modelos frontera e inferencia.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded]]></title>
+      <link>https://freddydev.net/blog/amd-kria-ryzen-ai-embedded-robotica</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/amd-kria-ryzen-ai-embedded-robotica</guid>
+      <description><![CDATA[AMD presentó los Ryzen AI Embedded X100 y la plataforma Kria AI para robótica autónoma combinando CPU, GPU, NPU y FPGA.]]></description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
     </item>
   </channel>

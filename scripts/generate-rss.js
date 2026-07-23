@@ -298,6 +298,55 @@ const blogPosts = [
     title: 'Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature',
     date: '2026-07-22',
     excerpt: 'Un estudio de Nature revela que hemos subestimado el poder de la actividad solar extrema por un error matemático.'
+  },
+  {
+    id: '42',
+    slug: 'amd-advancing-ai-2026-helios-epyc-instinct',
+    title: 'AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026',
+    date: '2026-07-23',
+    excerpt: 'AMD lanzó su cartera de próxima generación para IA agéntica, incluyendo Helios, EPYC 9006 e Instinct MI400. OpenAI y Anthropic ya adoptan la plataforma.'
+  },
+  {
+    id: '43',
+    slug: 'amd-rackspace-30mw-ia-empresarial',
+    title: 'AMD y Rackspace firman acuerdo para desplegar 30 MW de computación IA para empresas reguladas',
+    date: '2026-06-16',
+    excerpt: 'AMD y Rackspace desplegarán 30 MW de GPUs Instinct y CPUs EPYC para crear infraestructura IA gobernada para industrias reguladas.'
+  },
+  {
+    id: '44',
+    slug: 'amd-computacion-cuantica-hibrida',
+    title: 'AMD impulsa el futuro híbrido de la computación cuántica con CPUs, GPUs y FPGAs',
+    date: '2026-06-19',
+    excerpt: 'AMD detalla su estrategia cuántica: no reemplazará a la computación clásica sino que la acelerará mediante arquitecturas híbridas.'
+  },
+  {
+    id: '45',
+    slug: 'amd-gartner-lider-cpus-ia-empresarial',
+    title: 'Gartner nombra a AMD como la empresa a vencer en CPUs para servidores de IA empresarial',
+    date: '2026-07-15',
+    excerpt: 'Gartner posiciona a AMD como el líder actual en CPUs para servidores de IA empresarial, destacando el rendimiento de EPYC.'
+  },
+  {
+    id: '46',
+    slug: 'amd-epyc-venice-tsmc-2nm',
+    title: 'AMD inicia producción del EPYC Venice en tecnología de 2 nanómetros de TSMC',
+    date: '2026-05-21',
+    excerpt: 'El EPYC Venice con Zen 6 es el primer producto HPC en producción en el nodo de 2nm de TSMC.'
+  },
+  {
+    id: '47',
+    slug: 'amd-instinct-mi400-gpus-ia',
+    title: 'AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa',
+    date: '2026-07-23',
+    excerpt: 'AMD presentó la familia Instinct MI400 con la MI455X, MI430X y MI350P para entrenamiento de modelos frontera e inferencia.'
+  },
+  {
+    id: '48',
+    slug: 'amd-kria-ryzen-ai-embedded-robotica',
+    title: 'AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded',
+    date: '2026-07-23',
+    excerpt: 'AMD presentó los Ryzen AI Embedded X100 y la plataforma Kria AI para robótica autónoma combinando CPU, GPU, NPU y FPGA.'
   }
 ];
 

@@ -104,6 +104,13 @@ const articles = [
   { slug: 'c212-aviocar-transporte-militar-espanol', title: 'Lecciones del C212 Aviocar: el exitoso "600" español del transporte militar', desc: 'El CASA C212 Aviocar es uno de los mayores éxitos de la industria aeronáutica española con 480 unidades vendidas.' },
   { slug: 'japon-rompe-leyes-fisica-calor-programable', title: 'Japón rompe las reglas de la física: crea calor programable', desc: 'Japón sortea la ley de Kirchhoff y crea calor programable con precisión milimétrica usando metamateriales.' },
   { slug: 'tormentas-solares-subestimadas-estudio-nature', title: 'Estamos subestimando el poder destructivo de las tormentas solares', desc: 'Un estudio de Nature revela que el poder destructivo de las tormentas solares podría ser el doble de lo previsto.' },
+  { slug: 'amd-advancing-ai-2026-helios-epyc-instinct', title: 'AMD presenta Helios, EPYC Venice e Instinct MI400 en su evento Advancing AI 2026', desc: 'AMD lanzó su cartera de próxima generación para IA agéntica, incluyendo Helios, EPYC 9006 e Instinct MI400.' },
+  { slug: 'amd-rackspace-30mw-ia-empresarial', title: 'AMD y Rackspace firman acuerdo para desplegar 30 MW de computación IA para empresas reguladas', desc: 'AMD y Rackspace desplegarán 30 MW de GPUs Instinct y CPUs EPYC para infraestructura IA gobernada.' },
+  { slug: 'amd-computacion-cuantica-hibrida', title: 'AMD impulsa el futuro híbrido de la computación cuántica con CPUs, GPUs y FPGAs', desc: 'AMD detalla su estrategia cuántica: arquitecturas híbridas que aceleran el rendimiento general.' },
+  { slug: 'amd-gartner-lider-cpus-ia-empresarial', title: 'Gartner nombra a AMD como la empresa a vencer en CPUs para servidores de IA empresarial', desc: 'Gartner posiciona a AMD como líder en CPUs para servidores de IA empresarial.' },
+  { slug: 'amd-epyc-venice-tsmc-2nm', title: 'AMD inicia producción del EPYC Venice en tecnología de 2 nanómetros de TSMC', desc: 'El EPYC Venice con Zen 6 es el primer producto HPC en producción en 2nm de TSMC.' },
+  { slug: 'amd-instinct-mi400-gpus-ia', title: 'AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa', desc: 'AMD presentó la familia Instinct MI400 para entrenamiento de modelos frontera e inferencia.' },
+  { slug: 'amd-kria-ryzen-ai-embedded-robotica', title: 'AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded', desc: 'AMD presentó los Ryzen AI Embedded X100 y la plataforma Kria AI para robótica autónoma.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts
