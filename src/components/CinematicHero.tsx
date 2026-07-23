@@ -4,7 +4,6 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
 import { Award, Play, ChevronDown, Sparkles } from 'lucide-react';
 
 interface CinematicHeroProps {
@@ -79,18 +78,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
 
   const content = heroContent[lang];
 
-  // Partículas doradas con framer-motion
-  const particles = Array.from({ length: 30 }).map((_, i) => ({
-    id: i,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    size: Math.random() * 3 + 1,
-    delay: Math.random() * 5,
-    duration: Math.random() * 4 + 3,
-    xDrift: (Math.random() - 0.5) * 60,
-    yDrift: (Math.random() - 0.5) * 40,
-  }));
-
   return (
     <div
       ref={heroRef}
@@ -140,35 +127,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         {/* Grid overlay cinematográfico */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(212,175,55,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(212,175,55,0.03)_1px,transparent_1px)] bg-[size:100px_100px]" />
 
-        {/* Partículas flotantes con framer-motion */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {particles.map(p => (
-            <motion.div
-              key={p.id}
-              className="absolute rounded-full"
-              style={{
-                left: `${p.x}%`,
-                top: `${p.y}%`,
-                width: p.size,
-                height: p.size,
-                background: p.size > 2 ? 'rgba(212, 175, 55, 0.5)' : 'rgba(212, 175, 55, 0.3)',
-                boxShadow: p.size > 2 ? '0 0 6px rgba(212, 175, 55, 0.3)' : 'none',
-              }}
-              animate={{
-                x: [0, p.xDrift * 0.3, 0, -p.xDrift * 0.3, 0],
-                y: [0, -p.yDrift * 0.5, p.yDrift * 0.3, p.yDrift * 0.2, 0],
-                opacity: [0.3, 0.8, 0.4, 0.7, 0.3],
-                scale: [1, 1.3, 0.8, 1.1, 1],
-              }}
-              transition={{
-                duration: p.duration,
-                delay: p.delay,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              }}
-            />
-          ))}
-        </div>
       </div>
 
       {/* Hero Content */}
