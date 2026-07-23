@@ -70,6 +70,11 @@ const articles = [
   'amd-epyc-venice-tsmc-2nm',
   'amd-instinct-mi400-gpus-ia',
   'amd-kria-ryzen-ai-embedded-robotica',
+  'espana-campeon-mundial-2026',
+  'mbappe-bota-de-oro-mundial-2026-record',
+  'bolivia-pierde-repechaje-mundial-irak',
+  'tour-francia-2026-pogacar-vingegaard-carapaz',
+  'commonwealth-games-glasgow-2026',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

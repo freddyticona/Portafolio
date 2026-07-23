@@ -111,6 +111,11 @@ const articles = [
   { slug: 'amd-epyc-venice-tsmc-2nm', title: 'AMD inicia producción del EPYC Venice en tecnología de 2 nanómetros de TSMC', desc: 'El EPYC Venice con Zen 6 es el primer producto HPC en producción en 2nm de TSMC.' },
   { slug: 'amd-instinct-mi400-gpus-ia', title: 'AMD lanza las GPUs Instinct MI400 con rendimiento 34x superior para IA generativa', desc: 'AMD presentó la familia Instinct MI400 para entrenamiento de modelos frontera e inferencia.' },
   { slug: 'amd-kria-ryzen-ai-embedded-robotica', title: 'AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded', desc: 'AMD presentó los Ryzen AI Embedded X100 y la plataforma Kria AI para robótica autónoma.' },
+  { slug: 'espana-campeon-mundial-2026', title: 'España se corona campeón del Mundial 2026: venció 1-0 a Argentina con gol de Ferran Torres en tiempo extra', desc: 'España derrotó 1-0 a Argentina en la final del Mundial 2026 con gol de Ferran Torres al minuto 106.' },
+  { slug: 'mbappe-bota-de-oro-mundial-2026-record', title: 'Kylian Mbappé gana la Bota de Oro del Mundial 2026 y se convierte en el máximo goleador histórico', desc: 'Con 10 goles, Mbappé superó a Messi y alcanzó 22 tantos mundialistas como máximo artillero histórico.' },
+  { slug: 'bolivia-pierde-repechaje-mundial-irak', title: 'Bolivia se queda sin Mundial 2026: cayó 2-1 ante Irak en la final del repechaje intercontinental', desc: 'Bolivia perdió 2-1 frente a Irak en Monterrey, frustrando su regreso a un Mundial tras 32 años.' },
+  { slug: 'tour-francia-2026-pogacar-vingegaard-carapaz', title: 'Tour de Francia 2026: Pogacar y Vingegaard libran un duelo épico, Carapaz brilla con victoria de etapa', desc: 'La 113ª edición del Tour enfrenta a Pogacar vs Vingegaard. Carapaz ganó la etapa 18 y Del Toro brilló.' },
+  { slug: 'commonwealth-games-glasgow-2026', title: 'Juegos de la Commonwealth Glasgow 2026: 74 naciones compiten en la cita multideportiva del año', desc: 'Glasgow recibe a 3.000 atletas de 74 naciones desde el 23 de julio hasta el 2 de agosto en 10 deportes.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts

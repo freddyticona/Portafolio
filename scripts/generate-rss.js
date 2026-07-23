@@ -347,6 +347,41 @@ const blogPosts = [
     title: 'AMD lanza plataforma robótica abierta Kria AI con procesadores Ryzen AI Embedded',
     date: '2026-07-23',
     excerpt: 'AMD presentó los Ryzen AI Embedded X100 y la plataforma Kria AI para robótica autónoma combinando CPU, GPU, NPU y FPGA.'
+  },
+  {
+    id: '49',
+    slug: 'espana-campeon-mundial-2026',
+    title: 'España se corona campeón del Mundial 2026: venció 1-0 a Argentina con gol de Ferran Torres en tiempo extra',
+    date: '2026-07-19',
+    excerpt: 'España derrotó 1-0 a Argentina en la final del Mundial 2026. Ferran Torres anotó al 106\' para dar a La Roja su segunda Copa del Mundo.'
+  },
+  {
+    id: '50',
+    slug: 'mbappe-bota-de-oro-mundial-2026-record',
+    title: 'Kylian Mbappé gana la Bota de Oro del Mundial 2026 y se convierte en el máximo goleador histórico',
+    date: '2026-07-20',
+    excerpt: 'Con 10 goles, Mbappé superó a Messi (8) y alcanzó 22 tantos mundialistas, destronando al argentino como máximo artillero histórico.'
+  },
+  {
+    id: '51',
+    slug: 'bolivia-pierde-repechaje-mundial-irak',
+    title: 'Bolivia se queda sin Mundial 2026: cayó 2-1 ante Irak en la final del repechaje intercontinental',
+    date: '2026-03-31',
+    excerpt: 'Bolivia perdió 2-1 frente a Irak en Monterrey, frustrando su regreso a una Copa del Mundo después de 32 años de ausencia.'
+  },
+  {
+    id: '52',
+    slug: 'tour-francia-2026-pogacar-vingegaard-carapaz',
+    title: 'Tour de Francia 2026: Pogacar y Vingegaard libran un duelo épico, Carapaz brilla con victoria de etapa',
+    date: '2026-07-23',
+    excerpt: 'La 113ª edición del Tour arrancó en Barcelona con Pogacar vs Vingegaard. Carapaz ganó la etapa 18 y Del Toro brilló.'
+  },
+  {
+    id: '53',
+    slug: 'commonwealth-games-glasgow-2026',
+    title: 'Juegos de la Commonwealth Glasgow 2026: 74 naciones compiten en la cita multideportiva del año',
+    date: '2026-07-23',
+    excerpt: 'Glasgow recibe a 3.000 atletas de 74 naciones desde el 23 de julio hasta el 2 de agosto en 10 deportes.'
   }
 ];
 
