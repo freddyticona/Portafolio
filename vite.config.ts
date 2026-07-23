@@ -90,6 +90,10 @@ export default defineConfig(() => {
       cssCodeSplit: true,
       // Minificación habilitada por defecto
       minify: 'esbuild',
+      // Eliminar console.log en producción
+      esbuildOptions: {
+        drop: process.env.NODE_ENV !== 'development' ? ['console', 'debugger'] : [],
+      },
       // Source maps: usar 'hidden' para producción (Sentry puede usar upload)
       sourcemap: process.env.NODE_ENV === 'development' ? true : 'hidden',
     },

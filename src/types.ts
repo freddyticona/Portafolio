@@ -134,7 +134,8 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  password: string; // En producción esto debe estar hasheado
+  // NOTA DE SEGURIDAD: Las contraseñas NUNCA se almacenan aquí.
+  // La autenticación se gestiona exclusivamente por Firebase Auth.
   registeredAt: string;
 }
 

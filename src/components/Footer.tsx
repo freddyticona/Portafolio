@@ -11,7 +11,7 @@ import { CONTACT_INFO, SOCIAL_LINKS } from '../config';
 interface FooterProps {
   setActivePage: (page: PageId) => void;
   lang: 'es' | 'en';
-  t: any;
+  t: Record<string, string>;
 }
 
 export default function Footer({ setActivePage, lang, t }: FooterProps) {

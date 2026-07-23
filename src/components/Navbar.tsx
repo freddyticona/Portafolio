@@ -12,7 +12,7 @@ interface NavbarProps {
   setActivePage: (page: PageId) => void;
   lang: 'es' | 'en';
   setLang: (lang: 'es' | 'en') => void;
-  t: any;
+  t: Record<string, string>;
 }
 
 export default function Navbar({ activePage, setActivePage, lang, setLang, t }: NavbarProps) {
@@ -54,7 +54,7 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
             role="button"
             tabIndex={0}
             aria-label={lang === 'es' ? 'Ir a inicio' : 'Go to home'}
-            onKeyPress={(e) => {
+            onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 handleNavClick('inicio');
               }

@@ -162,8 +162,9 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
   updateOrCreateMetaTag('name', 'twitter:description', metadata.description);
   updateOrCreateMetaTag('name', 'twitter:image', metadata.ogImage || SITE_CONFIG.ogImageDefault);
 
-  // Actualizar canonical
-  const canonicalUrl = metadata.canonical || `${SITE_CONFIG.url}/#${pageId}`;
+  // Actualizar canonical y Open Graph URL
+  const pagePath = pageId === 'inicio' ? '/' : `/${pageId}`;
+  const canonicalUrl = metadata.canonical || `${SITE_CONFIG.url}${pagePath}`;
   let canonicalLink = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
   if (!canonicalLink) {
     canonicalLink = document.createElement('link');
@@ -171,11 +172,12 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
     document.head.appendChild(canonicalLink);
   }
   canonicalLink.href = canonicalUrl;
+  updateOrCreateMetaTag('property', 'og:url', canonicalUrl);
 
   // hreflang para i18n (SEO multilanguage)
-  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'es', `${SITE_CONFIG.url}/#${pageId}`);
-  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'en', `${SITE_CONFIG.url}/en/#${pageId}`);
-  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'x-default', `${SITE_CONFIG.url}/#${pageId}`);
+  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'es', `${SITE_CONFIG.url}${pagePath}`);
+  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'en', `${SITE_CONFIG.url}/en${pagePath}`);
+  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'x-default', `${SITE_CONFIG.url}${pagePath}`);
 
   // robots tag
   if (metadata.noIndex) {
