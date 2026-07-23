@@ -130,20 +130,141 @@ Si necesitas ejecutar pruebas o builds en este proyecto, usa los siguientes coma
 
 ---
 
-## 6. 🗺️ Roadmap de Siguiente Fase (Tareas Pendientes)
+## 6. 🗺️ Sesión Actual — Mejoras en Sección de Noticias (Julio 2026)
 
-Para la siguiente IA que tome este proyecto, se recomiendan los siguientes pasos:
+### 🟢 Cambios Realizados:
 
-1. **Traducciones Modularizadas:**
-   - Actualmente `translations.ts` pesa 181KB porque contiene artículos completos del blog.
-   - *Sugerencia:* Extraer los posts a archivos JSON/TS independientes (`src/data/posts/`) o delegar su carga completa a Firestore para reducir el bundle inicial.
+1. **🖼️ Imágenes Reales (Fin de Placeholders):**
+   - Reemplazadas las últimas 10 imágenes `picsum.photos` por fotos reales de Unsplash.
+   - Cada artículo tiene ahora una imagen única y relevante visualmente.
 
-2. **Reemplazo de `t: any` restante:**
-   - Quedan algunos componentes secundarios con `t: any` (ej. `BlogDetail`, `BookingSystem`, `CaseStudyDetail`). Reemplazar por `t: TranslationT` importado de `@/types.translation`.
+2. **🏷️ Categorías Dinámicas en NewsPortal:**
+   - **Antes:** 7 categorías hardcodeadas (`pais`, `santa-cruz`, `mundo`, `economia`, `deportes`, `cultura`, `tecnologia`) que NO coincidían con los datos reales.
+   - **Ahora:** Las categorías se extraen automáticamente de los 27 posts reales (12 categorías: Cine, Cultura y Entretenimiento, Deportes, Detrás de Cámaras, Documental, Festivales, Mundo, Música, Reflexiones, Tecnología, Televisión, Virales).
+   - Filtro por coincidencia exacta en lugar de normalización Unicode propensa a errores.
+   - Las etiquetas de los tabs se traducen automáticamente según el idioma (ES/EN).
 
-3. **Optimización de Bundle de Firebase:**
-   - Firebase actualmente pesa ~565KB en el vendor bundle. Ya está aislado en su propio chunk, pero se puede evaluar tree-shaking adicional si no se usan todas las utilidades de Firestore.
+3. **📝 Estilos de Contenido en Artículos (Fix Crítico):**
+   - **Problema:** `@tailwindcss/typography` no estaba instalado → las clases `prose` eran inertes → el contenido se veía como un muro de texto sin márgenes ni diferenciación entre títulos, subtítulos y párrafos.
+   - **Solución:** Reemplazado `prose prose-invert prose-sm md:prose-base max-w-none prose-headings:...` por la clase `article-content` que ya existía en `index.css` con estilos CSS reales para h1-h4, p, strong, a, blockquote, ul/ol, hr y small.
+
+4. **📚 Documentación Actualizada:**
+   - `CLAUDE.md`: 27 artículos, 64 URLs, 64 páginas, estructura modular con `src/pages/`, NewsPortal con categorías dinámicas, contenido HTML en artículos virales.
+   - `RESUMEN-TECNICO.md`: Mismas correcciones, más sección de decisiones clave actualizada.
+   - `DOCUMENTO_TRANSFERENCIA_IA.md`: Este documento mantiene el estado actual.
+
+### Archivos modificados:
+- `src/translations.ts` — 10 URLs de imágenes reemplazadas
+- `src/components/NewsPortal.tsx` — Categorías dinámicas, filtro exacto
+- `src/components/BlogDetail.tsx` — `prose` → `article-content`
+- `src/index.css` — Estilos para etiqueta `small`
+- `CLAUDE.md` — Actualizado
+- `RESUMEN-TECNICO.md` — Actualizado
+
+### Commits:
+- `2e50622` — docs: update transfer document with news portal improvements
+- `ee4e497` — fix(news): categorías dinámicas, reemplazar picsum, docs
+- `7b635f3` — fix(blog): prose inertes → article-content con CSS real
 
 ---
 
-*Documento generado automáticamente durante la sesión de auditoría y optimización del Portafolio.*
+## 7. 🚀 Recomendaciones para Mejorar la Sección de Noticias
+
+### 🟢 PRIORIDAD ALTA (Implementación rápida, alto impacto)
+
+1. **Artículos Relacionados al Final:**
+   ```jsx
+   // En BlogDetail.tsx, después del contenido
+   const relatedPosts = posts.filter(
+     p => p.id !== post.id && 
+     (p.categoryEs === post.categoryEs || p.categoryEn === post.categoryEn)
+   ).slice(0, 3);
+   ```
+   - Muestra 3 artículos de la misma categoría al final de cada lectura.
+   - Aumenta páginas vistas y tiempo en el sitio.
+
+2. **Barra de Progreso de Lectura:**
+   ```jsx
+   const [scrollProgress, setScrollProgress] = useState(0);
+   useEffect(() => {
+     const handleScroll = () => {
+       const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+       const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+       setScrollProgress((winScroll / height) * 100);
+     };
+     window.addEventListener('scroll', handleScroll);
+     return () => window.removeEventListener('scroll', handleScroll);
+   }, []);
+   ```
+   - Barra delgada dorada en la parte superior que indica el progreso.
+   - Mejora UX y percepción de profesionalismo.
+
+3. **Imagen OG Personalizada por Artículo:**
+   - Actualmente `generate-pages.js` no reemplaza `og:image`. Agregar:
+   ```js
+   html = html.replace(
+     /<meta property="og:image" content=".*?"/,
+     `<meta property="og:image" content="${article.imageUrl}"`
+   );
+   ```
+   - Cada artículo compartido en redes mostrará su imagen correcta.
+
+### 🟡 PRIORIDAD MEDIA (Buen impacto, esfuerzo moderado)
+
+4. **Tiempo de Lectura Dinámico:**
+   - Calcular automáticamente basado en la longitud del contenido:
+   ```js
+   const calculateReadTime = (content: string): string => {
+     const wordsPerMinute = 200;
+     const words = content.replace(/<[^>]*>/g, '').split(/\s+/).length;
+     const minutes = Math.ceil(words / wordsPerMinute);
+     return `${minutes} min de lectura`;
+   };
+   ```
+   - Elimina la necesidad de `readTimeEs`/`readTimeEn` hardcodeados en cada artículo.
+
+5. **Botón "Volver Arriba":**
+   - Aparece al hacer scroll hacia abajo en artículos largos.
+   - Scroll suave al top con `window.scrollTo({ top: 0, behavior: 'smooth' })`.
+
+6. **Tabla de Contenidos (TOC) para Artículos Largos:**
+   - Extraer `h2` del contenido y generar enlaces de navegación rápida.
+   - Útil para los artículos de >5 min como "Bolivia en el espejo del mundo".
+
+7. **Contador de Visitas Visible:**
+   - Mostrar el campo `views` existente en las cards y detalle del artículo.
+   - Factor social: "1,234 lecturas" incentiva a leer.
+
+### 🔴 PRIORIDAD BAJA (Mejora progresiva, esfuerzo alto)
+
+8. **Suscripción por Email / Newsletter:**
+   - Formulario simple al final de cada artículo: "Recibe noticias en tu correo".
+   - Integración con servicio gratuito como Mailchimp o Buttondown.
+
+9. **Comentarios con Notificaciones:**
+   - Actualmente `CommentSystem` existe pero sin notificaciones de respuestas.
+   - Agregar email de notificación cuando alguien responde a un comentario.
+
+10. **Resaltado de Términos de Búsqueda:**
+    - Cuando se llega a un artículo desde el buscador, resaltar las palabras buscadas en el contenido.
+    - Usar `window.location.search` para detectar el término.
+
+11. **Imagen en Galería Dentro del Artículo:**
+    - Soporte para múltiples imágenes inline usando el campo `images[]` del BlogPost.
+    - Lightbox inline para fotos adicionales.
+
+12. **Feed RSS por Categoría:**
+    - Generar RSS filters: `/rss/cine.xml`, `/rss/viral.xml`
+    - Google News valora feeds especializados.
+
+13. **Modo Impresión:**
+    ```css
+    @media print {
+      .navbar, .footer, .comments-section, .share-buttons { display: none; }
+      .article-content { color: #000; }
+    }
+    ```
+
+---
+
+*Documento actualizado el 23 de Julio, 2026 — sesión de mejora de sección de noticias.*
