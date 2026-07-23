@@ -13,6 +13,7 @@ interface ImportMetaEnv {
   readonly VITE_FIREBASE_MEASUREMENT_ID: string
   readonly VITE_GA_TRACKING_ID?: string
   readonly VITE_SENTRY_DSN?: string
+  readonly VITE_WEB3FORMS_ACCESS_KEY: string
   readonly DEV: boolean
   readonly MODE: string
   readonly BASE_URL: string

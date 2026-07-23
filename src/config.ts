@@ -45,10 +45,8 @@ export const SOCIAL_LINKS = {
 // ==========================================
 
 export const CONTACT_FORM = {
-  // Access key de Web3Forms
-  // TODO: Regístrate gratis en https://web3forms.com/ y crea un formulario nuevo
-  // Access key configurada de Web3Forms
-  accessKey: '615518f4-395e-4f3f-b535-37cd9e054590',
+  // Access key de Web3Forms (desde variable de entorno)
+  accessKey: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || '',
 
   // Asunto del correo
   subject: 'Contacto Portafolio Profesional',

@@ -94,8 +94,8 @@ export default defineConfig(() => {
       esbuildOptions: {
         drop: process.env.NODE_ENV !== 'development' ? ['console', 'debugger'] : [],
       },
-      // Source maps: usar 'hidden' para producción (Sentry puede usar upload)
-      sourcemap: process.env.NODE_ENV === 'development' ? true : 'hidden',
+      // Source maps: desactivado en producción (seguridad, no exponer source code)
+      sourcemap: process.env.NODE_ENV === 'development' ? true : false,
     },
     // Compresión con Brotli (Vercel lo hace automáticamente)
     reportCompressedSize: true,

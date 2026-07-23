@@ -10,8 +10,6 @@ coverage/
 .vercel
 CLAUDE_CONTEXT.md
 
-.env*
-
 # Vitest
 .vitest/
 
