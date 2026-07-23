@@ -58,26 +58,6 @@ const pages = {
     title: 'Contacto - Contrata Camarógrafo en La Paz Bolivia | Filmación y Edición de Video',
     desc: 'Contacta a Freddy Ticona, camarógrafo profesional en La Paz, Bolivia. Solicita cotizaciones para filmación 4K, edición de video, documentales y cobertura periodística.',
     path: '/contacto'
-  },
-  'privacidad': {
-    title: 'Política de Privacidad | Freddy Ticona',
-    desc: 'Política de privacidad del sitio web de Freddy Ticona, camarógrafo profesional en La Paz, Bolivia.',
-    path: '/privacidad'
-  },
-  'terminos': {
-    title: 'Términos de Servicio | Freddy Ticona',
-    desc: 'Términos y condiciones de uso del sitio web y servicios de Freddy Ticona, camarógrafo profesional.',
-    path: '/terminos'
-  },
-  'productos': {
-    title: 'Productos Digitales para Cineastas | Freddy Ticona',
-    desc: 'LUTs, presets, e-books y cursos para producción audiovisual. Productos digitales profesionales para cineastas y creadores de contenido.',
-    path: '/productos'
-  },
-  'equipo': {
-    title: 'Equipo Recomendado | Freddy Ticona',
-    desc: 'Equipo de filmación y producción audiovisual recomendado por Freddy Ticona. Cámaras, lentes, iluminación y accesorios profesionales.',
-    path: '/equipo'
   }
 };
 

@@ -19,10 +19,6 @@ const sections = [
   { path: 'servicios', priority: '0.9', changefreq: 'monthly' },
   { path: 'reservas', priority: '0.7', changefreq: 'monthly' },
   { path: 'contacto', priority: '0.7', changefreq: 'monthly' },
-  { path: 'privacidad', priority: '0.5', changefreq: 'monthly' },
-  { path: 'terminos', priority: '0.5', changefreq: 'monthly' },
-  { path: 'productos', priority: '0.8', changefreq: 'weekly' },
-  { path: 'equipo', priority: '0.7', changefreq: 'monthly' },
 ];
 
 const articles = [
