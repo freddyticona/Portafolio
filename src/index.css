@@ -420,3 +420,159 @@ button:focus-visible,
   text-underline-offset: 3px;
 }
 
+/* ==========================================
+   MEJORAS VISUALES — CINEMATOGRÁFICAS
+   ========================================== */
+
+/* Grid cinematográfico de fondo */
+.cinema-grid {
+  background-image:
+    linear-gradient(rgba(212, 175, 55, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 175, 55, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Card 3D tilt con borde glow */
+.card-3d {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.card-3d:hover {
+  transform: perspective(800px) rotateY(-2deg) rotateX(2deg) translateY(-6px);
+  box-shadow:
+    0 30px 60px rgba(212, 175, 55, 0.08),
+    0 0 0 1px rgba(212, 175, 55, 0.2);
+}
+
+.card-3d-light {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-3d-light:hover {
+  transform: perspective(800px) rotateY(-1deg) translateY(-3px);
+  box-shadow: 0 15px 30px rgba(212, 175, 55, 0.06);
+}
+
+/* Borde con gradiente animado */
+.border-glow {
+  position: relative;
+}
+
+.border-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.3) 50%,
+    transparent 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.border-glow:hover::before {
+  opacity: 1;
+}
+
+/* Letra capital (drop cap) en artículos */
+.article-content > p:first-of-type::first-letter {
+  font-family: var(--font-serif);
+  font-size: 3.5em;
+  float: left;
+  line-height: 0.8;
+  margin-right: 0.5rem;
+  margin-top: 0.15em;
+  color: var(--color-gold);
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(212, 175, 55, 0.2);
+}
+
+/* Scroll indicator suave */
+.scroll-indicator {
+  position: relative;
+}
+
+.scroll-indicator::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, var(--color-gold), transparent);
+  opacity: 0.5;
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.3; transform: translateX(-50%) scaleY(1); }
+  50% { opacity: 0.8; transform: translateX(-50%) scaleY(1.2); }
+}
+
+/* Contador animado estilo cinema */
+.cinema-counter {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: var(--color-gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.cinema-counter::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background: var(--color-gold);
+  opacity: 0.5;
+}
+
+/* Overlay con info deslizable */
+.overlay-slide {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.95) 0%, rgba(5, 5, 5, 0.2) 50%, transparent 100%);
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.overlay-slide-parent:hover .overlay-slide {
+  transform: translateY(0);
+}
+
+/* Brillo dorado suave en hover de botones */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-glow::before {
+  content: '';
+  position: absolute;
+  top: var(--mouse-y, 50%);
+  left: var(--mouse-x, 50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn-glow:hover::before {
+  width: 300px;
+  height: 300px;
+}
+

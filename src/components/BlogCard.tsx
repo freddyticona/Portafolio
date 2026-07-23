@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import { motion } from 'framer-motion';
 import { BlogPost } from '../types';
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react';
 import LazyImage from './LazyImage';
@@ -18,10 +19,14 @@ interface BlogCardProps {
 
 export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
   return (
-    <article 
+    <motion.article
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-30px' }}
+      transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
       onClick={onClick}
       id={`blog-post-card-${post.id}`}
-      className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/2 flex flex-col justify-between"
+      className="card-3d-light group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/2 flex flex-col justify-between"
     >
       <div className="space-y-4">
         {/* Post image */}
@@ -69,6 +74,6 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
           <ArrowRight className="w-3.5 h-3.5" />
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 }

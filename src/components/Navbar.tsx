@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PageId } from '../types';
 import { Video, Menu, X, Globe, Film } from 'lucide-react';
 
@@ -17,6 +17,13 @@ interface NavbarProps {
 
 export default function Navbar({ activePage, setActivePage, lang, setLang, t }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const navItems: { id: PageId; label: string }[] = [
     { id: 'inicio', label: t.navHome },
@@ -44,9 +51,9 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#050505]/90 border-b border-white/5 backdrop-blur-md" role="navigation" aria-label={lang === 'es' ? 'Navegación principal' : 'Main navigation'}>
+    <nav className={`sticky top-0 z-50 bg-[#050505]/90 border-b border-white/5 backdrop-blur-md transition-all duration-300 ${scrolled ? 'shadow-lg shadow-black/20' : ''}`} role="navigation" aria-label={lang === 'es' ? 'Navegación principal' : 'Main navigation'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? 'h-14' : 'h-20'}`}>
           {/* Logo & Brand Name */}
           <div
             className="flex-shrink-0 flex items-center gap-3 cursor-pointer"
@@ -60,14 +67,14 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t }: 
               }
             }}
           >
-            <div className="w-10 h-10 bg-gold rounded-sm flex items-center justify-center font-black text-[#050505] text-lg tracking-tighter" aria-hidden="true">
+            <div className={`bg-gold rounded-sm flex items-center justify-center font-black text-[#050505] tracking-tighter transition-all duration-300 ${scrolled ? 'w-7 h-7 text-sm' : 'w-10 h-10 text-lg'}`} aria-hidden="true">
               FT
             </div>
             <div className="leading-none">
-              <span className="font-display text-sm sm:text-base font-bold tracking-widest text-white uppercase block">
+              <span className={`font-display font-bold tracking-widest text-white uppercase block transition-all duration-300 ${scrolled ? 'text-xs' : 'text-sm sm:text-base'}`}>
                 Guzmán
               </span>
-              <span className="font-mono text-[9px] text-gold/80 tracking-[0.15em] block uppercase font-bold">
+              <span className={`font-mono text-gold/80 tracking-[0.15em] block uppercase font-bold transition-all duration-300 ${scrolled ? 'text-[7px]' : 'text-[9px]'}`}>
                 {lang === 'es' ? 'Realizador Audiovisual' : 'Audiovisual Realizer'}
               </span>
             </div>

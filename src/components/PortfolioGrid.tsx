@@ -3,7 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
+import { motion } from 'framer-motion';
 import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase } from 'lucide-react';
 import LazyImage from './LazyImage';
@@ -105,13 +106,45 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
       {/* Portfolio Grid */}
       {filteredItems.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredItems.map((item) => (
-            <div
-              key={item.id}
-              id={`portfolio-item-${item.id}`}
-              onClick={() => handleOpenLightbox(item)}
-              className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/2"
-            >
+          {filteredItems.map((item, index) => {
+            const cardRef = React.useRef<HTMLDivElement>(null);
+            const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+              const el = cardRef.current;
+              if (!el) return;
+              const rect = el.getBoundingClientRect();
+              const x = (e.clientX - rect.left) / rect.width - 0.5;
+              const y = (e.clientY - rect.top) / rect.height - 0.5;
+              el.style.setProperty('--rotate-x', `${-y * 8}deg`);
+              el.style.setProperty('--rotate-y', `${x * 8}deg`);
+              el.style.setProperty('--glow-x', `${(x + 0.5) * 100}%`);
+              el.style.setProperty('--glow-y', `${(y + 0.5) * 100}%`);
+            }, []);
+            const handleMouseLeave = useCallback(() => {
+              const el = cardRef.current;
+              if (!el) return;
+              el.style.setProperty('--rotate-x', '0deg');
+              el.style.setProperty('--rotate-y', '0deg');
+            }, []);
+            return (
+              <motion.div
+                key={item.id}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ duration: 0.5, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
+              >
+                <div
+                  id={`portfolio-item-${item.id}`}
+                  ref={cardRef}
+                  onClick={() => handleOpenLightbox(item)}
+                  onMouseMove={handleMouseMove}
+                  onMouseLeave={handleMouseLeave}
+                  className="card-3d group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2"
+                  style={{
+                    transform: 'perspective(800px) rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg))',
+                    transition: 'transform 0.1s ease-out',
+                  }}
+                >
               {/* Card Image Thumbnail */}
               <div className="aspect-video relative overflow-hidden bg-[#050505]">
                 <LazyImage
@@ -170,8 +203,10 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                   )}
                 </div>
               </div>
-            </div>
-          ))}
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       ) : (
         <div className="text-center py-16 bg-white/[0.01] rounded-sm border border-white/5">

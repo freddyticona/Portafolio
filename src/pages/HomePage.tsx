@@ -7,6 +7,7 @@ import React, { Suspense, lazy } from 'react';
 import { BlogPost, PageId } from '../types';
 import { TranslationT } from '../types.translation';
 import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { YOUTUBE_VIDEOS } from '../config';
 import CinematicHero from '../components/CinematicHero';
 
@@ -62,14 +63,20 @@ export default function HomePage({
 
           {/* Text summary (2 cols) */}
           <div className="lg:col-span-2 space-y-5">
-            <div className="space-y-2">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+              className="space-y-2"
+            >
               <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">
                 {lang === 'es' ? 'Presentación' : 'Introduction'}
               </span>
               <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight font-display">
                 {lang === 'es' ? 'Fidelidad Visual e Impacto Humano' : 'Visual Fidelity & Human Connection'}
               </h2>
-            </div>
+            </motion.div>
             <p className="text-stone-400 text-sm md:text-base leading-relaxed font-light">
               {lang === 'es'
                 ? 'Freddy Ticona Guzmán cuenta con más de una década y media recorriendo las laderas, valles, selvas y el Altiplano boliviano. Su lente no solo filma; documenta la riqueza social y las realidades políticas de Bolivia con la precisión técnica requerida por las principales televisoras nacionales y la sensibilidad estética propia de un documentalista galardonado.'
@@ -184,7 +191,13 @@ export default function HomePage({
 
       {/* 4. PREVIEW OF LATEST BLOG POSTS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <div className="text-center space-y-3">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center space-y-3"
+        >
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Nuestras Reflexiones' : 'Our Thoughts'}
           </span>
@@ -194,7 +207,7 @@ export default function HomePage({
           <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
             {t.latestBlogSubtitle}
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {blogPosts.slice(0, 2).map((post) => (
@@ -223,7 +236,13 @@ export default function HomePage({
       {/* 5. NEWS PREVIEW */}
       {blogPosts.some(p => p.breaking || p.featured) && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          <div className="text-center space-y-3">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="text-center space-y-3"
+          >
             <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
               {lang === 'es' ? 'Cobertura Periodística' : 'Press Coverage'}
             </span>
@@ -233,7 +252,7 @@ export default function HomePage({
             <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
               {t.newsHomeSubtitle}
             </p>
-          </div>
+          </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {blogPosts.filter(p => p.breaking || p.featured).slice(0, 4).map((post) => (
               <div

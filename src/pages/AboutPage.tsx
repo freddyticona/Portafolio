@@ -7,6 +7,7 @@ import React, { Suspense, lazy } from 'react';
 import { TranslationT } from '../types.translation';
 import { timelineEvents, testimonials } from '../translations';
 import { Film, Monitor, ShieldCheck } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const Timeline = lazy(() => import('../components/Timeline'));
 const BehindScenesGallery = lazy(() => import('../components/BehindScenesGallery'));
@@ -86,14 +87,20 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
 
       {/* 2. SPECIALTIES AREA */}
       <section className="space-y-12">
-        <div className="text-center space-y-3">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center space-y-3"
+        >
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Destrezas Clave' : 'Key Skills'}
           </span>
           <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight font-display">
             {t.specialtiesTitle}
           </h2>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           <div className="bg-white/[0.02] border border-white/5 p-6 rounded-sm space-y-4 hover:border-gold/20 transition-all duration-300">
@@ -124,7 +131,13 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
 
       {/* 3. INTERACTIVE TIMELINE OF EXPERIENCE */}
       <section className="space-y-12">
-        <div className="text-center space-y-3">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center space-y-3"
+        >
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Recorrido Profesional' : 'Professional Timeline'}
           </span>
@@ -134,7 +147,7 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
           <p className="max-w-2xl mx-auto text-xs text-stone-500 leading-relaxed font-light">
             {t.timelineSubtitle}
           </p>
-        </div>
+        </motion.div>
         <Suspense fallback={<LoadingFallback />}>
           <Timeline events={timelineEvents} lang={lang} t={t} />
         </Suspense>
@@ -149,7 +162,13 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
 
       {/* 4. TESTIMONIALS & RECOMMENDATIONS */}
       <section className="space-y-12 pb-8">
-        <div className="text-center space-y-3">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center space-y-3"
+        >
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Referencias' : 'References'}
           </span>
@@ -159,7 +178,7 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
           <p className="max-w-2xl mx-auto text-xs text-stone-500 leading-relaxed font-light">
             {t.testimonialsSubtitle}
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {testimonials.map((test) => (
