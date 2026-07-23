@@ -201,18 +201,18 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
         <span className="absolute top-2 left-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider text-gold px-2 py-0.5 rounded-sm border border-gold/20">
           {category}
         </span>
-        {post.contentType && (
-          <span className={`absolute top-2 right-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm border ${contentTypeColors[post.contentType]}`}>
-            {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
-          </span>
-        )}
         {post.breaking && (
           <span className="absolute top-2 right-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md animate-pulse">
             {lang === 'es' ? 'ÚLTIMA HORA' : 'BREAKING'}
           </span>
         )}
+        {!post.breaking && post.contentType && (
+          <span className={`absolute top-2 right-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm border ${contentTypeColors[post.contentType]}`}>
+            {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
+          </span>
+        )}
         {!post.breaking && isNew && (
-          <span className="absolute top-2 right-2 bg-emerald-500 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
+          <span className={`absolute top-2 left-2 mt-7 bg-emerald-500 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md ${post.contentType ? '' : ''}`}>
             {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
