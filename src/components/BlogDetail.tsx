@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { marked } from 'marked';
 import { BlogPost } from '../types';
 import {
@@ -17,7 +17,11 @@ import {
   Linkedin,
   X,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Eye,
+  ArrowUp,
+  List,
+  BookOpen
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
 
@@ -26,41 +30,112 @@ interface BlogDetailProps {
   lang: 'es' | 'en';
   t: any;
   onBack: () => void;
+  allPosts?: BlogPost[];
 }
 
-export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function calculateReadTime(content: string): string {
+  const text = stripHtml(content);
+  const wordsPerMinute = 200;
+  const words = text.split(/\s+/).length;
+  const minutes = Math.max(1, Math.ceil(words / wordsPerMinute));
+  return `${minutes} min`;
+}
+
+export default function BlogDetail({ post, lang, t, onBack, allPosts }: BlogDetailProps) {
   const [showShareMenu, setShowShareMenu] = useState(false);
   const [showComments, setShowComments] = useState(true);
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const [showBackTop, setShowBackTop] = useState(false);
+  const [showToc, setShowToc] = useState(false);
 
-  // Compartir en redes sociales
+  // ─── Scroll Progress + Back to Top ──────────────────────────────────
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      setScrollProgress(scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0);
+      setShowBackTop(scrollTop > 400);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // ─── Compartir en redes sociales ────────────────────────────────────
   const shareUrl = window.location.href;
   const shareTitle = lang === 'es' ? post.titleEs : post.titleEn;
 
   const handleShare = (platform: string) => {
-    const urls = {
+    const urls: Record<string, string> = {
       facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
       twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareTitle)}`,
       linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`,
       copy: shareUrl
     };
-
     if (platform === 'copy') {
       navigator.clipboard.writeText(shareUrl);
       alert(lang === 'es' ? '¡Enlace copiado!' : 'Link copied!');
     } else {
-      window.open(urls[platform as keyof typeof urls], '_blank', 'width=600,height=400');
+      window.open(urls[platform], '_blank', 'width=600,height=400');
     }
     setShowShareMenu(false);
   };
 
-  // Renderizamos Markdown usando la tipografía de Tailwind (prose)
+  // ─── Contenido HTML ─────────────────────────────────────────────────
   const rawContent = lang === 'es' ? post.contentEs : post.contentEn;
 
   const htmlContent = useMemo(() => {
-    return marked.parse(rawContent, { breaks: true });
+    const parsed = marked.parse(rawContent, { breaks: true });
+    let html = typeof parsed === 'string' ? parsed : '';
+    let idx = 0;
+    html = html.replace(/<h2>/gi, () => `<h2 id="section-${idx++}">`);
+    return html;
   }, [rawContent]);
 
+  // ─── Tiempo de lectura dinámico ─────────────────────────────────────
+  const dynamicReadTime = useMemo(() => calculateReadTime(rawContent), [rawContent]);
+
+  // ─── Tabla de Contenidos ────────────────────────────────────────────
+  const tocItems = useMemo(() => {
+    const items: { id: string; text: string }[] = [];
+    const h2Regex = /<h2[^>]*>(.*?)<\/h2>/gi;
+    let match;
+    let index = 0;
+    while ((match = h2Regex.exec(htmlContent)) !== null) {
+      const text = stripHtml(match[1]);
+      const id = `section-${index++}`;
+      items.push({ id, text });
+    }
+    return items;
+  }, [htmlContent]);
+
+  // ─── Artículos Relacionados ─────────────────────────────────────────
+  const relatedPosts = useMemo(() => {
+    if (!allPosts) return [];
+    const cat = post.categoryEs || post.categoryEn || '';
+    return allPosts
+      .filter(p => p.id !== post.id && (p.categoryEs === cat || p.categoryEn === cat))
+      .slice(0, 3);
+  }, [allPosts, post]);
+
   return (
+    <>
+      {/* Barra de progreso de lectura */}
+      <div
+        className="fixed top-0 left-0 h-0.5 bg-gold z-50 transition-all duration-100"
+        style={{ width: `${scrollProgress}%` }}
+        role="progressbar"
+        aria-valuenow={Math.round(scrollProgress)}
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-label={lang === 'es' ? 'Progreso de lectura' : 'Reading progress'}
+      />
+
     <article className="max-w-4xl mx-auto space-y-8 md:space-y-12 animate-fadeIn text-left">
       {/* Top action header */}
       <div className="flex items-center justify-between gap-4">
@@ -120,8 +195,14 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
           </span>
           <span className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5" />
-            {lang === 'es' ? post.readTimeEs : post.readTimeEn}
+            {dynamicReadTime}
           </span>
+          {(post.views || 0) > 0 && (
+            <span className="flex items-center gap-1.5">
+              <Eye className="w-3.5 h-3.5" />
+              {post.views} {lang === 'es' ? 'lecturas' : 'reads'}
+            </span>
+          )}
           {post.source && (
             <span className="flex items-center gap-1.5 text-gold/60">
               <span className="w-1 h-1 rounded-full bg-gold/40" />
@@ -160,8 +241,42 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
         </figure>
       </header>
 
+      {/* Tabla de Contenidos (solo si hay suficientes secciones) */}
+      {tocItems.length >= 2 && (
+        <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5">
+          <button
+            onClick={() => setShowToc(!showToc)}
+            className="flex items-center gap-2 w-full text-left"
+          >
+            <List className="w-4 h-4 text-gold" />
+            <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold">
+              {lang === 'es' ? 'Contenido del Artículo' : 'Article Contents'}
+            </span>
+            <ChevronDown className={`w-3.5 h-3.5 text-stone-500 ml-auto transition-transform ${showToc ? 'rotate-180' : ''}`} />
+          </button>
+          {showToc && (
+            <nav className="mt-3 space-y-1">
+              {tocItems.map((item) => (
+                <a
+                  key={item.id}
+                  href={`#${item.id}`}
+                  className="block text-xs font-mono text-stone-400 hover:text-gold py-1.5 px-2 rounded hover:bg-white/[0.03] transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const el = document.getElementById(item.id);
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  {item.text}
+                </a>
+              ))}
+            </nav>
+          )}
+        </div>
+      )}
+
       {/* Article Content */}
-      <div 
+      <div
         className="article-content leading-relaxed"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
@@ -202,6 +317,48 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
         </div>
       )}
 
+      {/* Artículos Relacionados */}
+      {relatedPosts.length > 0 && (
+        <div className="border-t border-white/5 pt-8 space-y-6">
+          <h3 className="text-lg font-bold text-white flex items-center gap-2">
+            <BookOpen className="w-5 h-5 text-gold" />
+            {lang === 'es' ? 'Artículos Relacionados' : 'Related Articles'}
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {relatedPosts.map((rp) => {
+              const rpTitle = lang === 'es' ? rp.titleEs : rp.titleEn;
+              const rpExcerpt = lang === 'es' ? rp.excerptEs : rp.excerptEn;
+              return (
+                <button
+                  key={rp.id}
+                  onClick={() => {
+                    window.history.pushState(null, '', `/${window.location.pathname.split('/')[1]}/${rp.slug}`);
+                    window.location.reload();
+                  }}
+                  className="group text-left bg-white/[0.02] border border-white/5 hover:border-gold/30 rounded-sm overflow-hidden transition-all duration-200 cursor-pointer"
+                >
+                  <div className="aspect-video bg-[#111] relative overflow-hidden">
+                    <img
+                      src={rp.imageUrl}
+                      alt={rpTitle}
+                      className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <div className="p-3 space-y-1.5">
+                    <h4 className="text-sm font-semibold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
+                      {rpTitle}
+                    </h4>
+                    <p className="text-[11px] text-stone-400 line-clamp-2 leading-relaxed">
+                      {rpExcerpt}
+                    </p>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Bottom Back Button */}
       <div className="pt-8 text-center border-t border-white/5">
         <button
@@ -213,5 +370,17 @@ export default function BlogDetail({ post, lang, t, onBack }: BlogDetailProps) {
         </button>
       </div>
     </article>
+
+      {/* Botón Volver Arriba */}
+      {showBackTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-40 w-10 h-10 bg-gold/90 hover:bg-gold text-black rounded-sm flex items-center justify-center shadow-lg transition-all duration-300 cursor-pointer"
+          aria-label={lang === 'es' ? 'Volver arriba' : 'Back to top'}
+        >
+          <ArrowUp className="w-5 h-5" />
+        </button>
+      )}
+    </>
   );
 }

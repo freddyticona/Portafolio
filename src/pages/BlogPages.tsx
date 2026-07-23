@@ -50,6 +50,7 @@ export function BlogPage({
             post={activePost}
             lang={lang}
             t={t}
+            allPosts={blogPosts}
             onBack={() => {
               setActiveBlogPostId(null);
               window.history.pushState(null, '', '/blog');
@@ -121,6 +122,7 @@ export function NoticiasPage({
             post={activePost}
             lang={lang}
             t={t}
+            allPosts={blogPosts}
             onBack={() => {
               setActiveBlogPostId(null);
               window.history.pushState(null, '', '/noticias');

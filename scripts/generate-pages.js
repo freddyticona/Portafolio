@@ -92,6 +92,20 @@ const articles = [
   { slug: 'gatito-maullidos-michael-jackson', title: 'Gatito conquista las redes con maullidos al estilo de Michael Jackson', desc: 'Un pequeño felino emite maullidos comparados con los sonidos del Rey del Pop, convirtiéndose en sensación viral.' },
 ];
 
+// Extraer imageUrl de cada artículo desde translations.ts
+const translationSrc = fs.readFileSync(path.join(__dirname, '..', 'src', 'translations.ts'), 'utf-8');
+const blogMatch = translationSrc.match(/export const blogPosts: BlogPost\[\] = \[([\s\S]*?)\];/);
+const imageMap = {};
+if (blogMatch) {
+  let currentSlug = '';
+  for (const line of blogMatch[1].split('\n')) {
+    const slugM = line.match(/^\s+slug:\s*'([^']+)'/);
+    if (slugM) currentSlug = slugM[1];
+    const imgM = line.match(/^\s+imageUrl:\s*'([^']+)'/);
+    if (imgM && currentSlug) imageMap[currentSlug] = imgM[1];
+  }
+}
+
 const distDir = path.join(__dirname, '..', 'dist');
 
 if (!fs.existsSync(distDir)) {
@@ -179,6 +193,8 @@ for (const article of articles) {
   html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${article.title}"`);
   html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${article.desc}"`);
   html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/blog/${article.slug}"`);
+  html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${imageMap[article.slug] || 'https://freddydev.net/og-image.jpg'}"`);
+  html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imageMap[article.slug] || 'https://freddydev.net/og-image.jpg'}"`);
   fs.writeFileSync(path.join(blogDir, 'index.html'), html, 'utf-8');
   console.log(`✅ /blog/${article.slug}`);
 
