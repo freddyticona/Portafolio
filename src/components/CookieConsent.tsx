@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Shield, Cookie, FileText, ChevronDown, ChevronUp, Check } from 'lucide-react';
+import { X, Shield, Cookie, FileText, Check } from 'lucide-react';
 
 interface CookieConsentProps {
   lang: 'es' | 'en';
@@ -70,7 +70,7 @@ export default function CookieConsent({ lang, onOpenPrivacy }: CookieConsentProp
     setVisible(false);
   };
 
-  const acceptAll = () => saveConsent({ necessary: true, analytics: true, marketing: true });
+  const acceptAll = () => saveConsent({ necessary: true, analytics: true, marketing: true, timestamp: '' });
   const rejectAll = () => saveConsent({ ...defaultConsent });
   const saveCustom = () => saveConsent(customConsent);
 
