@@ -423,6 +423,36 @@ export const SERVICES_PRICING = [
       'Licensed music'
     ],
     icon: 'Heart'
+  },
+  {
+    id: 'corresponsal-prensa',
+    type: 'prensa',
+    nameEs: 'Corresponsal de Prensa Independiente',
+    nameEn: 'Independent Press Correspondent',
+    descriptionEs: 'Cobertura periodística y reportería freelance para agencias, medios internacionales y plataformas digitales. Disponible para asignaciones urgentes, corresponsalía en La Paz y desplazamientos a todo Bolivia.',
+    descriptionEn: 'Press coverage and freelance reporting for agencies, international media and digital platforms. Available for urgent assignments, La Paz correspondent coverage and travel throughout Bolivia.',
+    basePrice: 800,
+    currency: 'BOB',
+    duration: 'por jornada (8 horas)',
+    featuresEs: [
+      'Cobertura de prensa en terreno',
+      'Crónica y nota periodística escrita',
+      'Foto y video para agencias',
+      'Transmisión en vivo (mochila 4G/5G)',
+      'Edición express para nota informativa',
+      'Disponibilidad inmediata para urgencias',
+      'Desplazamiento a todo Bolivia'
+    ],
+    featuresEn: [
+      'On-the-ground press coverage',
+      'Written articles and press notes',
+      'Photo and video for agencies',
+      'Live transmission (4G/5G backpack)',
+      'Express editing for news pieces',
+      'Immediate availability for urgent assignments',
+      'Travel throughout Bolivia'
+    ],
+    icon: 'Newspaper'
   }
 ] as const;
 

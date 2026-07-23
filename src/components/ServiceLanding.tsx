@@ -26,7 +26,8 @@ import {
   Heart,
   Wrench,
   Film,
-  Send
+  Send,
+  Newspaper
 } from 'lucide-react';
 import { SERVICES_PRICING, CONTACT_INFO } from '../config';
 
@@ -49,7 +50,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
     'MessageCircle': MessageCircle,
     'Radio': Radio,
     'Briefcase': Briefcase,
-    'Heart': Heart
+    'Heart': Heart,
+    'Newspaper': Newspaper
   };
 
   const st = {

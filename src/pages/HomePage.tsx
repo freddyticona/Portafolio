@@ -6,7 +6,7 @@
 import React, { Suspense, lazy } from 'react';
 import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
-import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon } from 'lucide-react';
+import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { YOUTUBE_VIDEOS } from '../config';
 import CinematicHero from '../components/CinematicHero';
@@ -307,7 +307,70 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* 6. NEWS PREVIEW */}
+      {/* 6. PRESS AGENCY / CORRESPONSAL */}
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.06)_0%,transparent_70%)] pointer-events-none" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="bg-gradient-to-br from-gold/[0.04] via-[#020202] to-gold/[0.02] border border-gold/20 rounded-xl p-8 md:p-12 relative overflow-hidden"
+          >
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl pointer-events-none" />
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold/10 border border-gold/20 rounded-sm text-gold text-[10px] font-mono font-bold uppercase tracking-widest">
+                  <Newspaper className="w-3.5 h-3.5" />
+                  {lang === 'es' ? 'Corresponsal de Prensa Independiente' : 'Independent Press Correspondent'}
+                </div>
+                <h2 className="text-2xl md:text-4xl font-extrabold text-white tracking-tight font-display leading-tight">
+                  {lang === 'es'
+                    ? 'Cobertura periodística freelance para medios y agencias internacionales'
+                    : 'Freelance press coverage for international media and agencies'}
+                </h2>
+                <p className="text-stone-400 text-sm leading-relaxed max-w-lg">
+                  {lang === 'es'
+                    ? 'Disponible como corresponsal en La Paz para asignaciones de prensa escrita, fotográfica y televisiva. Experiencia en coberturas políticas, sociales, culturales y de conflictos. Transmisión en vivo, crónica inmediata y desplazamiento a todo el territorio boliviano.'
+                    : 'Available as a La Paz correspondent for print, photo, and TV press assignments. Experience in political, social, cultural, and conflict coverage. Live transmission, immediate reporting, and travel throughout Bolivia.'}
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2 text-xs text-stone-400">
+                    <CameraIcon className="w-4 h-4 text-gold" />
+                    <span>{lang === 'es' ? 'Foto y video para agencias' : 'Photo & video for agencies'}</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs text-stone-400">
+                    <MapPin className="w-4 h-4 text-gold" />
+                    <span>{lang === 'es' ? 'Cobertura en todo Bolivia' : 'Coverage throughout Bolivia'}</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 pt-2">
+                  <button
+                    onClick={() => handleNavToTab('servicios')}
+                    className="px-6 py-3 bg-gold hover:bg-gold-hover text-black text-xs font-mono font-bold tracking-widest uppercase rounded-sm transition-all duration-300 cursor-pointer"
+                  >
+                    {lang === 'es' ? 'Contratar Cobertura' : 'Hire for Coverage'}
+                  </button>
+                  <button
+                    onClick={() => handleNavToTab('contacto')}
+                    className="px-6 py-3 border border-white/10 hover:border-gold/50 bg-white/[0.02] hover:bg-gold/10 text-stone-300 hover:text-white text-xs font-mono font-bold tracking-widest uppercase rounded-sm transition-all duration-300 cursor-pointer"
+                  >
+                    {lang === 'es' ? 'Solicitar Cotización' : 'Request Quote'}
+                  </button>
+                </div>
+              </div>
+              <div className="hidden lg:flex items-center justify-center">
+                <div className="w-48 h-48 rounded-full border border-gold/20 bg-gold/[0.03] flex items-center justify-center">
+                  <Newspaper className="w-24 h-24 text-gold/30" />
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* 7. NEWS PREVIEW */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
