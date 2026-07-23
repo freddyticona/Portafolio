@@ -212,6 +212,21 @@ export default function App() {
     document.documentElement.lang = lang === 'es' ? 'es-BO' : 'en';
   }, [lang]);
 
+  // ─── Fix Edge black screen al volver de otra pestaña ─────────────────────
+  useEffect(() => {
+    const handleVisibility = () => {
+      if (!document.hidden) {
+        // Forzar reflow para restaurar contexto GPU perdido
+        document.body.style.transform = 'translateZ(0)';
+        requestAnimationFrame(() => {
+          document.body.style.transform = '';
+        });
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, []);
+
   // ─── SEO: actualizar meta tags en cada cambio de página/idioma ───────────
   useEffect(() => {
     updateMetaTags(activePage, lang);
