@@ -332,8 +332,8 @@ export default function HomePage({
                 </h2>
                 <p className="text-stone-400 text-sm leading-relaxed max-w-lg">
                   {lang === 'es'
-                    ? 'Disponible como corresponsal en La Paz para asignaciones de prensa escrita, fotográfica y televisiva. Experiencia en coberturas políticas, sociales, culturales y de conflictos. Transmisión en vivo, crónica inmediata y desplazamiento a todo el territorio boliviano.'
-                    : 'Available as a La Paz correspondent for print, photo, and TV press assignments. Experience in political, social, cultural, and conflict coverage. Live transmission, immediate reporting, and travel throughout Bolivia.'}
+                    ? 'Disponible como corresponsal en La Paz para asignaciones de prensa escrita, fotográfica y televisiva. Experiencia en coberturas políticas, sociales, culturales y de conflictos. Crónica inmediata y desplazamiento a todo el territorio boliviano.'
+                    : 'Available as a La Paz correspondent for print, photo, and TV press assignments. Experience in political, social, cultural, and conflict coverage. Immediate reporting and travel throughout Bolivia.'}
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <div className="flex items-center gap-2 text-xs text-stone-400">

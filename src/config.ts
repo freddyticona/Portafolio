@@ -438,7 +438,6 @@ export const SERVICES_PRICING = [
       'Cobertura de prensa en terreno',
       'Crónica y nota periodística escrita',
       'Foto y video para agencias',
-      'Transmisión en vivo (mochila 4G/5G)',
       'Edición express para nota informativa',
       'Disponibilidad inmediata para urgencias',
       'Desplazamiento a todo Bolivia'
@@ -447,7 +446,6 @@ export const SERVICES_PRICING = [
       'On-the-ground press coverage',
       'Written articles and press notes',
       'Photo and video for agencies',
-      'Live transmission (4G/5G backpack)',
       'Express editing for news pieces',
       'Immediate availability for urgent assignments',
       'Travel throughout Bolivia'
