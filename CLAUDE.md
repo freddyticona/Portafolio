@@ -18,30 +18,32 @@
 ## Build Pipeline
 `npm run build` ejecuta en orden:
 1. `generate-icons` — genera favicons y PWA icons
-2. `generate-rss` — genera public/rss.xml (13 artículos)
-3. `generate-sitemap` — genera public/sitemap.xml (36 URLs)
+2. `generate-rss` — genera public/rss.xml (27 artículos)
+3. `generate-sitemap` — genera public/sitemap.xml (64 URLs)
 4. `vite build` — compila el bundle
-5. `generate-pages` — pre-renderiza 36 páginas HTML estáticas en dist/
+5. `generate-pages` — pre-renderiza 64 páginas HTML estáticas en dist/
 
 ## Project Structure
 ```
 src/
-  components/     — UI components (PortfolioGrid, BlogDetail, Chatbot, etc.)
-  lib/            — Firebase, analytics, structuredData
+  components/     — UI components (PortfolioGrid, BlogDetail, Chatbot, NewsPortal, etc.)
+  lib/            — Firebase, analytics, seo, structuredData
+  pages/          — Páginas modulares (HomePage, AboutPage, PortfolioPage, CVPage, BlogPages, OtherPages)
   translations.ts — TODOS los datos: portfolioItems, caseStudies, blogPosts, servicios, etc.
   types.ts        — TypeScript interfaces
-  App.tsx         — Router principal + todas las páginas
-  index.css       — Tailwind + animaciones CSS custom
+  types.translation.ts — Tipo inferido para traducciones
+  App.tsx         — Router/shell modular (~307 líneas, lazy loading por ruta)
+  index.css       — Tailwind v4 + animaciones CSS custom
 public/
   images/
     portfolio/    — Fotos reales organizadas por proyecto
     blog/         — Imágenes de artículos
     behind-scenes/
-  sitemap.xml     — 36 URLs
-  rss.xml         — 13 artículos
+  sitemap.xml     — 64 URLs
+  rss.xml         — 27 artículos
 fotos comprimidas/ — Fotos originales (no commiteadas a git)
 scripts/
-  generate-pages.js   — Pre-renderizado estático
+  generate-pages.js   — Pre-renderizado estático (64 páginas)
   generate-sitemap.js — Generación de sitemap
   generate-rss.js     — Generación de RSS
 ```
@@ -68,14 +70,18 @@ scripts/
 - Sin videos (todos los videoUrl eliminados)
 - Filtros por categoría + búsqueda
 
-## Blog & Noticias — 13 Artículos
+## Blog & Noticias — 27 Artículos (ids 1-27)
 - ids 1-2: Blog posts (detrás de cámaras, evolución TV)
-- ids 3-13: Noticias reales de medios bolivianos
+- ids 3-22: Noticias reales de medios bolivianos (La Razón, Los Tiempos, Opinión, El Deber, Unitel, ATB)
+- ids 23-27: Noticias virales (ATB Digital, Unitel)
 - Cada artículo tiene `source` + `sourceUrl` → link clickeable
-- `marked.parse()` renderiza Markdown como HTML
+- 5 artículos (ids 23-27) usan HTML puro en vez de Markdown según formato SEO
+- BlogPosts ordenados por fecha descendente
+- Categorías dinámicas extraídas de los posts (12 categorías: Cine, Cultura, Deportes, Documental, etc.)
 
 ### Fuentes de noticias:
-- La Razón, Los Tiempos, Opinión, La Octava, Abya Yala TV (cobertura propia FENAVID), reflexión personal
+- La Razón, Los Tiempos, Opinión, La Octava, El Deber, Unitel, ATB Digital, PRODU, VivePotosí, EntreCruzar, Revista Nómadas
+- Abya Yala TV (cobertura propia FENAVID), reflexión personal
 
 ## TypeScript Key Types
 - `PortfolioItem`: id, title, titleEn, category, role, year, client, description, imageUrl, images[], videoUrl?, isCaseStudy?, caseStudyId?, techDetails[]
@@ -85,11 +91,13 @@ scripts/
 ## Key Decisions & Pitfalls
 1. **lucide-react@0.546.0** — v1.25.0+ elimina iconos de marca (Linkedin, Facebook, Twitter, Youtube)
 2. **typescript@5.8.3** — TS 7.0.2 rompe build de Vite/Rolldown (`Cannot read properties of undefined (reading 'readFile')`)
-3. **Sin SSR** — El pre-renderizado en build genera HTML estático por ruta (36 páginas)
+3. **Sin SSR** — El pre-renderizado en build genera HTML estático por ruta (64 páginas)
 4. **Portfolio con datos reales** — Todos los items y fotos son reales del trabajo de Freddy
 5. **No hay videos** — Ningún portfolio item tiene videoUrl; se muestran fotos en su lugar
 6. **aggregateRating eliminado** del schema LocalBusiness (Google lo marcaba error crítico)
 7. **Firebase merge por slug** — No sobreescribe artículos locales definidos en translations.ts
+8. **NewsPortal sin categorías hardcodeadas** — Las categorías se extraen dinámicamente de los posts reales (12 categorías)
+9. **Contenido HTML en artículos virales** — ids 23-27 usan HTML puro (h1, p em, h2, blockquote, ul) en vez de Markdown
 
 ## Work Log (Resumen)
 ### Sesión 5 nuevas noticias (julio 2026):
@@ -97,6 +105,17 @@ scripts/
 - 54 páginas pre-renderizadas (44→54), RSS 22 artículos (17→22)
 - Archivos: `src/translations.ts`, `scripts/generate-pages.js`, `scripts/generate-rss.js`
 - **Commit**: `35e0fe8`
+
+### Sesión 5 noticias virales + refactor (julio 2026):
+- Agregados 5 artículos virales (ids 23-27): Messi bombón asesino, morsa abdominales, Chucky El Torno, abuelita invento casero, gatito Michael Jackson
+- Reescritos en formato HTML según prompt SEO
+- Refactor App.tsx monolito (~1061 líneas) → arquitectura modular en src/pages/ (~307 líneas)
+- Creado src/types.translation.ts con tipo inferido TranslationT
+- Optimizado build: drop console/debugger en producción
+- SEO: corregidos hreflang, URLs canónicas, meta tags PWA iOS
+- Accesibilidad: onKeyPress → onKeyDown en Navbar
+- 64 páginas pre-renderizadas, RSS 27 artículos, sitemap 64 URLs
+- **Commits**: `cc9757e`, `a77e85f`, `756a70b`, `1bef0a3`, `9c35135`
 
 ### Sesiones iniciales: Fundación, Blog, SEO, Firebase, UI
 - React+Vite+Tailwind setup, 6 páginas base, i18n es/en

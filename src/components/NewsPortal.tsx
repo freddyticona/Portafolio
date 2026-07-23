@@ -16,59 +16,47 @@ interface NewsPortalProps {
   onArticleClick: (post: BlogPost) => void;
 }
 
-const CATEGORIES = ['all', 'pais', 'santa-cruz', 'mundo', 'economia', 'deportes', 'cultura', 'tecnologia'] as const;
-
-/**
- * Normaliza cadenas eliminando tildes y caracteres especiales para comparaciones insensibles a diacríticos
- */
-function normalizeString(str: string): string {
-  return str
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/\s+/g, '-');
-}
-
 export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [sortBy, setSortBy] = useState<'recent' | 'popular' | 'oldest'>('recent');
   const [visibleCount, setVisibleCount] = useState<number>(6);
 
-  // Post destacado (Breaking news o primer post)
+  // Post destacado
   const breakingPosts = posts.filter(p => p.breaking);
   const featuredPosts = posts.filter(p => p.featured && !p.breaking);
   const heroPost = breakingPosts[0] || featuredPosts[0] || posts[0];
 
-  // Mapeo de traducciones para categorías
+  // Categorías dinámicas extraídas de los posts reales
+  const categories = useMemo(() => {
+    const catSet = new Set<string>();
+    posts.forEach(p => {
+      if (p.categoryEs) catSet.add(p.categoryEs);
+    });
+    return ['all', ...Array.from(catSet).sort()];
+  }, [posts]);
+
+  // Mapa de traducciones ES -> EN para categorías
   const categoryLabel = (cat: string) => {
-    switch (cat) {
-      case 'all': return lang === 'es' ? 'Todas' : 'All';
-      case 'pais': return lang === 'es' ? 'País' : 'Nation';
-      case 'santa-cruz': return 'Santa Cruz';
-      case 'mundo': return lang === 'es' ? 'Mundo' : 'World';
-      case 'economia': return lang === 'es' ? 'Economía' : 'Economy';
-      case 'deportes': return lang === 'es' ? 'Deportes' : 'Sports';
-      case 'cultura': return lang === 'es' ? 'Cultura & Entretenimiento' : 'Culture & Entertainment';
-      case 'tecnologia': return lang === 'es' ? 'Tecnología' : 'Technology';
-      default: return cat;
+    if (cat === 'all') return lang === 'es' ? 'Todas' : 'All';
+    // Buscar la traducción EN del primer post con esta categoría ES
+    const post = posts.find(p => p.categoryEs === cat || p.categoryEn === cat);
+    if (post) {
+      return lang === 'es' ? (post.categoryEs || cat) : (post.categoryEn || cat);
     }
+    return cat;
   };
 
-  // Filtrado y ordenamiento con uso de memoización
+  // Filtrado y ordenamiento con memoización
   const processedPosts = useMemo(() => {
     let result = posts.filter(p => p.id !== heroPost?.id);
 
-    // 1. Filtrado por categoría con normalización Unicode
+    // 1. Filtrado por categoría exacta
     if (activeCategory !== 'all') {
       result = result.filter(p => {
-        const catEs = normalizeString(p.categoryEs || '');
-        const catEn = normalizeString(p.categoryEn || '');
-        const target = normalizeString(activeCategory);
-
-        return catEs.includes(target) || catEn.includes(target) ||
-               (target === 'cultura' && (catEs.includes('cultura') || catEn.includes('culture'))) ||
-               (target === 'pais' && (catEs.includes('pais') || catEn.includes('nation')));
+        const catEs = p.categoryEs || '';
+        const catEn = p.categoryEn || '';
+        return catEs === activeCategory || catEn === activeCategory;
       });
     }
 
@@ -190,9 +178,9 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         {/* Main Content Area */}
         <div className="lg:col-span-3 space-y-8">
-          {/* Category Tabs */}
+          {/* Category Tabs - Dinámicas desde datos reales */}
           <div className="flex flex-wrap gap-2 pb-4 border-b border-white/5" role="tablist" aria-label="Categorías de noticias">
-            {CATEGORIES.map((cat) => (
+            {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => {

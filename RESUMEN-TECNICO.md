@@ -5,7 +5,7 @@
 - **Language:** TypeScript 5.8.3
 - **Styling:** Tailwind CSS v4 (@tailwindcss/vite)
 - **Routing:** react-router-dom v7 (BrowserRouter)
-- **SEO:** react-helmet-async, sitemap 36 URLs, RSS, JSON-LD
+- **SEO:** react-helmet-async, sitemap 64 URLs, RSS, JSON-LD
 - **Icons:** lucide-react@0.546.0 (NO actualizar a v1+)
 - **Animation:** framer-motion
 - **Markdown:** marked (npm) — `marked.parse(content, { breaks: true })`
@@ -17,10 +17,10 @@
 ## Build Pipeline
 `npm run build` ejecuta en orden:
 1. `generate-icons` — favicons + PWA icons
-2. `generate-rss` — public/rss.xml (17 artículos)
-3. `generate-sitemap` — public/sitemap.xml (36 URLs)
+2. `generate-rss` — public/rss.xml (27 artículos)
+3. `generate-sitemap` — public/sitemap.xml (64 URLs)
 4. `vite build` — bundle de producción
-5. `generate-pages` — pre-renderiza 44 páginas HTML estáticas en dist/
+5. `generate-pages` — pre-renderiza 64 páginas HTML estáticas en dist/
 
 ## Estructura
 ```
@@ -43,16 +43,22 @@ scripts/
 ## Portfolio — 9 Items Reales
 TIPNIS, Brasil La Poderosa, La Estrella, Gran Poder, Moscú, Potosí, Che Higuera, Trinidad, Plantas Energía
 
-## Blog & Noticias — 17 Artículos
+## Blog & Noticias — 27 Artículos (ids 1-27)
 - ids 1-2: Blog posts (detrás de cámaras, evolución TV)
-- ids 3-17: Noticias reales de medios bolivianos
+- ids 3-22: Noticias reales de medios bolivianos (La Razón, Los Tiempos, Opinión, El Deber, Unitel, ATB)
+- ids 23-27: Noticias virales (ATB Digital, Unitel)
+- 5 artículos (ids 23-27) usan HTML puro en vez de Markdown según formato SEO
+- BlogPosts ordenados por fecha descendente
+- Categorías dinámicas extraídas de los posts (12 categorías)
 
 ## Decisiones Clave & Pitfalls
 1. **lucide-react@0.546.0** — v1.25.0+ elimina iconos de marca
 2. **typescript@5.8.3** — TS 7.0.2 rompe build de Vite/Rolldown
-3. **Sin SSR** — Pre-renderizado en build genera HTML estático por ruta
+3. **Sin SSR** — Pre-renderizado en build genera HTML estático por ruta (64 páginas)
 4. **Google Fonts** — NO usar `@import` en CSS (render-blocking). Cargar con `media="print" onload="this.media='all'"`
 5. **Firebase merge por slug** — No sobreescribe artículos locales de translations.ts
+6. **NewsPortal con categorías dinámicas** — Extraídas automáticamente de los posts reales (12 categorías)
+7. **Contenido HTML en noticias virales** — ids 23-27 usan HTML puro en vez de Markdown
 
 ## Última Sesión: Eliminar Render-Blocking (julio 2026)
 
