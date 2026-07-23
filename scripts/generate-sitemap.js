@@ -35,6 +35,15 @@ const articles = [
   'cinemateca-50-anos-todo-lo-que-era-posible',
   'pianista-daniel-alvarez-gana-premio-sur-musica-nueva',
   'nova-vuelve-sinfonia-de-historias-inolvidables',
+  'bolivia-lab-18-edicion-industria-cine',
+  'cortometraje-yatichana-galardones-internacionales',
+  'detras-epica-aventura-nolan-la-odisea',
+  'incentivo-produccion-audiovisual-cultural-2026',
+  'festival-cine-salar-uyuni-2026',
+  'red-uno-xona-streaming',
+  'documental-travesia-tierra-cinemateca',
+  'documental-mi-cuerpo-mi-territorio-youtube',
+  'serie-boliviana-inteligencia-artificial',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -17,6 +17,7 @@ import {
 } from './translations';
 // Firebase importado dinámicamente para reducir bundle inicial (552KB)
 
+import { Analytics } from '@vercel/analytics/react';
 import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags } from './lib/seo';
 
@@ -1048,6 +1049,9 @@ export default function App() {
       {/* PWA Components */}
       <OnlineStatus lang={lang} />
       <UpdatePrompt />
+
+      {/* Vercel Analytics */}
+      <Analytics />
 
     </div>
   );
