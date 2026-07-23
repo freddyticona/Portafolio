@@ -4,9 +4,9 @@
  */
 
 import React, { Suspense, lazy } from 'react';
-import { BlogPost, PageId } from '../types';
+import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
-import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX } from 'lucide-react';
+import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { YOUTUBE_VIDEOS } from '../config';
 import CinematicHero from '../components/CinematicHero';
@@ -25,6 +25,7 @@ interface HomePageProps {
   lang: 'es' | 'en';
   t: TranslationT;
   blogPosts: BlogPost[];
+  portfolioItems: PortfolioItem[];
   handleNavToTab: (pageId: PageId) => void;
   handleArticleClick: (post: BlogPost, page: PageId) => void;
   reelPlaying: boolean;
@@ -37,6 +38,7 @@ export default function HomePage({
   lang,
   t,
   blogPosts,
+  portfolioItems,
   handleNavToTab,
   handleArticleClick,
   reelPlaying,
@@ -44,6 +46,10 @@ export default function HomePage({
   reelMuted,
   setReelMuted,
 }: HomePageProps) {
+  // Solo posts personales (sin fuente externa)
+  const personalPosts = blogPosts.filter(p => !p.source);
+  // Noticias (con fuente externa)
+  const newsPosts = blogPosts.filter(p => p.source);
   return (
     <div className="space-y-16 md:space-y-24 animate-fadeIn">
 
@@ -210,7 +216,7 @@ export default function HomePage({
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {blogPosts.slice(0, 2).map((post) => (
+          {personalPosts.slice(0, 2).map((post) => (
             <Suspense key={post.id} fallback={<LoadingFallback />}>
               <BlogCard
                 post={post}
@@ -233,8 +239,75 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* 5. NEWS PREVIEW */}
-      {blogPosts.some(p => p.breaking || p.featured) && (
+      {/* 5. PORTFOLIO PREVIEW */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center space-y-3"
+        >
+          <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
+            {lang === 'es' ? 'Trabajos Destacados' : 'Featured Work'}
+          </span>
+          <h2 className="text-2xl md:text-4xl font-extrabold text-white tracking-tight font-display">
+            {lang === 'es' ? 'Proyectos Audiovisuales' : 'Audiovisual Projects'}
+          </h2>
+          <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
+            {lang === 'es'
+              ? 'Documentales, coberturas internacionales y producciones galardonadas.'
+              : 'Documentaries, international coverage, and award-winning productions.'}
+          </p>
+        </motion.div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {portfolioItems.slice(0, 3).map((item) => (
+            <div
+              key={item.id}
+              onClick={() => handleNavToTab('portafolio')}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => { if (e.key === 'Enter') handleNavToTab('portafolio'); }}
+              className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300"
+            >
+              <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
+                <img
+                  src={item.imageUrl}
+                  alt={lang === 'es' ? item.title : item.titleEn}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                />
+                {item.isCaseStudy && (
+                  <span className="absolute top-2 left-2 bg-gold text-black text-[8px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">
+                    {lang === 'es' ? 'CASO DE ESTUDIO' : 'CASE STUDY'}
+                  </span>
+                )}
+              </div>
+              <div className="p-4 space-y-2">
+                <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
+                  <span>{item.year}</span>
+                  <span>•</span>
+                  <span>{lang === 'es' ? item.categoryLabelEs : item.categoryLabelEn}</span>
+                </div>
+                <h3 className="text-sm font-bold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
+                  {lang === 'es' ? item.title : item.titleEn}
+                </h3>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="text-center pt-2">
+          <button
+            onClick={() => handleNavToTab('portafolio')}
+            className="px-6 py-3.5 border border-white/5 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
+          >
+            {lang === 'es' ? 'Ver Portafolio Completo' : 'View Full Portfolio'}
+          </button>
+        </div>
+      </section>
+
+      {/* 6. NEWS PREVIEW */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -254,7 +327,7 @@ export default function HomePage({
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {blogPosts.filter(p => p.breaking || p.featured).slice(0, 4).map((post) => (
+            {newsPosts.slice(0, 4).map((post) => (
               <div
                 key={post.id}
                 onClick={() => handleNavToTab('noticias')}
@@ -301,7 +374,6 @@ export default function HomePage({
             </button>
           </div>
         </section>
-      )}
 
       <div className="pb-16" />
     </div>

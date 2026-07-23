@@ -19,8 +19,8 @@
 
 import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { PageId, BlogPost } from './types';
-import { blogPosts as defaultBlogPosts, translations } from './translations';
+import { PageId, BlogPost, PortfolioItem } from './types';
+import { blogPosts as defaultBlogPosts, portfolioItems, translations } from './translations';
 import type { FilterState } from './components/PortfolioFilters';
 
 import { Analytics } from '@vercel/analytics/react';
@@ -244,6 +244,7 @@ export default function App() {
               lang={lang}
               t={t}
               blogPosts={blogPosts}
+              portfolioItems={portfolioItems}
               handleNavToTab={handleNavToTab}
               handleArticleClick={handleArticleClick}
               reelPlaying={reelPlaying}
