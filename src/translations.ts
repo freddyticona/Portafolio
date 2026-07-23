@@ -1380,32 +1380,36 @@ The launch opens debate about the future of audiovisual production in Bolivia, w
     titleEn: 'Messi in shock! They played "Bombón Asesino" instead of the Argentine national anthem',
     excerptEs: 'Un insólito error técnico en la antesala de un partido amistoso reemplazó el himno argentino por la popular cumbia santafesina, desatando risas y memes en todo el mundo.',
     excerptEn: 'A bizarre technical error before a friendly match replaced the Argentine anthem with the popular Santa Fe cumbia hit, sparking laughter and memes worldwide.',
-    contentEs: `### El blooper que dio la vuelta al mundo
-
-Una ceremonia que prometía estar marcada por la formalidad terminó generando uno de los momentos más comentados en redes sociales. Durante la antesala del partido amistoso entre **Argentina y Honduras** en el **Kyle Field de Texas**, cuando llegó el instante de interpretar el himno nacional argentino, los parlantes del estadio sorprendieron a todos al reproducir los primeros acordes de **"Bombón Asesino"**, el emblemático éxito de **Los Palmeras**.
-
-#### La reacción de Messi
-
-Las cámaras captaron la **incredulidad y las risas de Lionel Messi** desde el banco de suplentes, quien intercambió miradas de complicidad con Enzo Fernández y Rodrigo de Paul. El video se volvió viral en cuestión de minutos, acumulando millones de reproducciones en TikTok, X e Instagram.
-
-#### Los Palmeras reaccionan
-
-El cantante de Los Palmeras, Marcos Camino Jr., contó que se enteraron del incidente a través de mensajes: *"Teníamos todos los chicos el teléfono explotado. Se hizo viral, la reacción de los jugadores, de Messi, para nosotros es algo increíble"*. Semanas después, la banda lanzó **"Bombón argentino"**, una canción que nació precisamente de este blooper.
-
-[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/messi-quedo-en-shock-pusieron-bombon-asesino-en-vez-del-himno-argentino/)`,
-    contentEn: `### The blooper that went around the world
-
-A ceremony meant to be formal turned into one of the most talked-about moments on social media. Before the friendly match between **Argentina and Honduras** at **Kyle Field in Texas**, when it was time to play the Argentine national anthem, the stadium speakers surprised everyone by playing **"Bombón Asesino"**, the iconic hit by **Los Palmeras**.
-
-#### Messi's reaction
-
-Cameras captured **Lionel Messi's disbelief and laughter** from the bench, exchanging knowing glances with Enzo Fernández and Rodrigo de Paul. The video went viral within minutes, amassing millions of views on TikTok, X, and Instagram.
-
-#### Los Palmeras react
-
-The lead singer of Los Palmeras, Marcos Camino Jr., said they found out through messages: *"All the guys had their phones exploding with messages. It went viral—the players' reactions, Messi's—for us it's incredible"*. Weeks later, the band released **"Bombón argentino"**, a song born precisely from this blooper.
-
-[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/messi-quedo-en-shock-pusieron-bombon-asesino-en-vez-del-himno-argentino/)`,
+    contentEs: `<h1>¡Messi quedó en shock! Pusieron "Bombón Asesino" en vez del himno argentino</h1>
+<p><em>Un fallo de audio en Texas descolocó a la selección argentina cuando los parlantes del estadio soltaron cumbia santafesina en lugar del himno nacional. El video se disparó en redes en cuestión de segundos.</em></p>
+<h2>Seis segundos de caos protocolar</h2>
+<p>Era el momento más solemne del prepartido. Los jugadores de <strong>Argentina y Honduras</strong> estaban formados en el campo del <strong>Kyle Field en Texas</strong>, brazos sobre los hombros, cuando algo salió mal. En vez de las estrofas patrias, desde las bocinas comenzaron a sonar los acordes de <strong>"Bombón Asesino"</strong>, el éxito de Los Palmeras.</p>
+<p><strong>Lionel Messi</strong>, en el banco de suplentes, soltó una carcajada inmediata. A su lado, Enzo Fernández y Rodrigo de Paul intercambiaron miradas que los memes convirtieron en oro digital.</p>
+<h2>Los Palmeras se enteraron antes de que terminara el partido</h2>
+<p><strong>Marcos Camino Jr.</strong>, vocalista de la banda santafesina, contó que los mensajes empezaron a llegarles antes del pitido final. "Teníamos todos los chicos el teléfono explotado", relató. A las semanas, el grupo lanzó <strong>"Bombón argentino"</strong>, una canción que nació directamente del error de sonido.</p>
+<blockquote>"La reacción de los jugadores, de Messi, para nosotros es algo increíble". — Marcos Camino Jr., vocalista de Los Palmeras</blockquote>
+<ul>
+<li><strong>Lugar:</strong> Kyle Field, College Station, Texas</li>
+<li><strong>Partido:</strong> Argentina vs. Honduras (amistoso pre-Mundial 2026)</li>
+<li><strong>Tema que sonó:</strong> "Bombón Asesino" — Los Palmeras</li>
+<li><strong>Impacto:</strong> Millones de vistas en TikTok, X e Instagram en horas</li>
+</ul>
+<p><small>Fuente: ATB Digital</small></p>`,
+    contentEn: `<h1>Messi in shock! They played "Bombón Asesino" instead of the Argentine anthem</h1>
+<p><em>A sound system failure in Texas threw Argentina's national team off when stadium speakers blasted cumbia instead of the national anthem. The video exploded across social media in seconds.</em></p>
+<h2>Six seconds of protocol chaos</h2>
+<p>It was the most solemn moment before kickoff. The players of <strong>Argentina and Honduras</strong> stood lined up at <strong>Kyle Field in Texas</strong>, arms over each other's shoulders, when something went wrong. Instead of the national anthem, the speakers began playing <strong>"Bombón Asesino"</strong>, the hit by Los Palmeras.</p>
+<p><strong>Lionel Messi</strong>, watching from the bench, burst into laughter. Next to him, Enzo Fernández and Rodrigo de Paul exchanged glances that memes turned into digital gold.</p>
+<h2>Los Palmeras found out before the game ended</h2>
+<p><strong>Marcos Camino Jr.</strong>, lead singer of the Santa Fe band, said messages started pouring in before the final whistle. Weeks later, the group released <strong>"Bombón argentino"</strong>, a song born directly from the audio glitch.</p>
+<blockquote>"The players' reaction, Messi's — for us, it's incredible." — Marcos Camino Jr., lead singer of Los Palmeras</blockquote>
+<ul>
+<li><strong>Location:</strong> Kyle Field, College Station, Texas</li>
+<li><strong>Match:</strong> Argentina vs. Honduras (pre-World Cup 2026 friendly)</li>
+<li><strong>Song played:</strong> "Bombón Asesino" — Los Palmeras</li>
+<li><strong>Impact:</strong> Millions of views on TikTok, X, and Instagram within hours</li>
+</ul>
+<p><small>Source: ATB Digital</small></p>`,
     date: '2026-06-17',
     readTimeEs: '4 min de lectura',
     readTimeEn: '4 min read',
@@ -1426,32 +1430,34 @@ The lead singer of Los Palmeras, Marcos Camino Jr., said they found out through 
     titleEn: 'Walrus surprises by doing sit-ups like a true athlete',
     excerptEs: 'Un video de una morsa realizando abdominales con una técnica "mejor que la de varios humanos" se volvió viral, acumulando millones de reproducciones en redes sociales.',
     excerptEn: 'A video of a walrus doing sit-ups with a technique "better than many humans" went viral, amassing millions of views across social media.',
-    contentEs: `### La morsa fitness que conquistó Internet
-
-Lo que parecía una simple broma terminó convirtiéndose en uno de los videos más comentados del momento. Una **morsa** sorprendió a miles de personas al aparecer realizando **abdominales** con movimientos firmes y repetitivos que muchos calificaron como **"mejor que la de varios humanos"**.
-
-#### ¿Real o IA?
-
-Aunque muchos pensaron que se trataba de una edición digital o creada con inteligencia artificial, el video es **completamente real** y fue grabado en un zoológico marino. Las imágenes muestran al enorme animal ejecutando una rutina de ejercicio que dejó boquiabiertos a los visitantes.
-
-#### Millones de reproducciones
-
-El video, compartido por **ATB Media** en TikTok, acumula millones de reproducciones y ha generado todo tipo de reacciones, desde memes hasta debates sobre la inteligencia de estos mamíferos marinos.
-
-[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/morsa-sorprende-al-hacer-abdominales-como-toda-una-atleta/)`,
-    contentEn: `### The fitness walrus that conquered the Internet
-
-What seemed like a simple joke became one of the most commented videos of the moment. A **walrus** surprised thousands of people by doing **sit-ups** with firm, repetitive movements that many called **"better than many humans"**.
-
-#### Real or AI?
-
-Although many thought it was digital editing or AI-generated, the video is **completely real** and was recorded at a marine zoo. The images show the huge animal performing an exercise routine that left visitors amazed.
-
-#### Millions of views
-
-The video, shared by **ATB Media** on TikTok, has amassed millions of views and generated all kinds of reactions, from memes to debates about the intelligence of these marine mammals.
-
-[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/morsa-sorprende-al-hacer-abdominales-como-toda-una-atleta/)`,
+    contentEs: `<h1>Morsa sorprende al hacer abdominales como toda una atleta</h1>
+<p><em>Un video grabado en un zoológico marino muestra a una morsa ejecutando una rutina de abdominales con una técnica que muchos usuarios calificaron como "mejor que la de varios humanos".</em></p>
+<h2>La rutina que desconcertó a Internet</h2>
+<p>Lo que comenzó como una escena curiosa dentro de un zoológico marino terminó convertido en uno de los clips más replicados del mes. Una <strong>morsa</strong> aparece realizando <strong>abdominales</strong> con movimientos firmes, repetitivos y perfectamente coordinados. Los visitantes que grabaron la escena no podían creer lo que veían.</p>
+<h2>Dudas sobre su autenticidad</h2>
+<p>La primera reacción de muchos usuarios fue asumir que se trataba de un montaje con inteligencia artificial o edición digital. Sin embargo, el video es <strong>100% real</strong>, grabado sin trucos ni efectos. El animal ejecuta cada repetición con una constancia que dejó a los espectadores preguntándose si realmente estaban viendo a una morsa "entrenando".</p>
+<ul>
+<li><strong>Especie:</strong> Odobenus rosmarus (morsa atlántica)</li>
+<li><strong>Ubicación:</strong> Zoológico marino no especificado</li>
+<li><strong>Duración del video:</strong> Menos de 60 segundos</li>
+<li><strong>Alcance:</strong> Millones de reproducciones en TikTok</li>
+</ul>
+<blockquote>"¿Alguna vez te imaginaste ver una morsa haciendo abdominales? La naturaleza siempre puede superar cualquier expectativa humana". — Comentario viral en redes</blockquote>
+<p><small>Fuente: ATB Digital</small></p>`,
+    contentEn: `<h1>Walrus surprises by doing sit-ups like a true athlete</h1>
+<p><em>A video shot at a marine zoo shows a walrus performing a sit-up routine with a technique that many users called "better than many humans."</em></p>
+<h2>The workout that baffled the Internet</h2>
+<p>What started as a curious scene inside a marine zoo turned into one of the most shared clips of the month. A <strong>walrus</strong> appears doing <strong>sit-ups</strong> with firm, repetitive, perfectly coordinated movements. Visitors who recorded the scene could not believe what they were seeing.</p>
+<h2>Doubts about authenticity</h2>
+<p>Many users' first reaction was to assume it was an AI or digital editing trick. However, the video is <strong>100% real</strong>, recorded without tricks or effects. The animal executes each repetition with a consistency that left viewers wondering if they were really watching a walrus "working out."</p>
+<ul>
+<li><strong>Species:</strong> Odobenus rosmarus (Atlantic walrus)</li>
+<li><strong>Location:</strong> Unspecified marine zoo</li>
+<li><strong>Video length:</strong> Under 60 seconds</li>
+<li><strong>Reach:</strong> Millions of views on TikTok</li>
+</ul>
+<blockquote>"Did you ever imagine seeing a walrus doing sit-ups? Nature always exceeds human expectations." — Viral comment on social media</blockquote>
+<p><small>Source: ATB Digital</small></p>`,
     date: '2026-06-17',
     readTimeEs: '3 min de lectura',
     readTimeEn: '3 min read',
@@ -1472,32 +1478,36 @@ The video, shared by **ATB Media** on TikTok, has amassed millions of views and 
     titleEn: 'Chucky heading to El Torno! The famous doll surprised passengers',
     excerptEs: 'Un pasajero viajaba en un micro con un muñeco de Chucky, moviéndole los brazos como si el personaje de terror fuera un pasajero más. El video se volvió viral.',
     excerptEn: 'A passenger rode a bus with a Chucky doll, moving its arms as if the horror character were just another passenger. The video went viral.',
-    contentEs: `### Chucky apareció donde nadie lo esperaba
-
-En las últimas horas se viralizó en redes sociales un video que muestra una escena insólita en Santa Cruz. Un pasajero viajaba en un **micro de la ruta hacia El Torno** llevando consigo un **muñeco de Chucky**, el famoso personaje de terror de la saga "Child's Play".
-
-#### Un pasajero de terror
-
-En el video se observa al pasajero sentado en el último asiento del transporte público mientras sostiene al muñeco y le mueve los brazos, dando la impresión de que el famoso **"muñeco diabólico"** viaja como un pasajero más. La escena sorprendió a quienes iban en el micro y rápidamente comenzaron a grabar.
-
-#### "Vayas donde vayas, Chucky te encontrará"
-
-Los usuarios acompañaron el video con la frase *"Vayas donde vayas, Chucky te encontrarás"*, haciendo referencia al popular personaje. En esta ocasión, Chucky "apareció donde nadie lo esperaba", viajando tranquilamente rumbo al municipio cruceño de El Torno.
-
-[Fuente: Unitel](https://unitel.bo/noticias/virales/chucky-rumbo-a-el-torno-el-famoso-muneco-sorprendio-a-pasajeros-CC22314170)`,
-    contentEn: `### Chucky appeared where nobody expected
-
-In the last few hours, a video showing a bizarre scene in Santa Cruz went viral. A passenger was traveling on a **bus heading to El Torno** carrying a **Chucky doll**, the famous horror character from the "Child's Play" saga.
-
-#### A terrifying passenger
-
-The video shows the passenger sitting in the last seat of the public transport while holding the doll and moving its arms, giving the impression that the famous **"demonic doll"** is just another passenger. The scene surprised fellow riders who quickly started recording.
-
-#### "Wherever you go, Chucky will find you"
-
-Users accompanied the video with the phrase *"Wherever you go, Chucky will find you"*, referencing the popular character. This time, Chucky "appeared where nobody expected him," calmly traveling to the town of El Torno in Santa Cruz.
-
-[Source: Unitel](https://unitel.bo/noticias/virales/chucky-rumbo-a-el-torno-el-famoso-muneco-sorprendio-a-pasajeros-CC22314170)`,
+    contentEs: `<h1>¡Chucky viajó en micro a El Torno! El muñeco diabólico se volvió viral en Santa Cruz</h1>
+<p><em>Un pasajero abordó el transporte público con un muñeco de Chucky y le movía los brazos como si fuera un pasajero más. El video incendió las redes en cuestión de minutos.</em></p>
+<h2>Escena de terror cómico sobre ruedas</h2>
+<p>Los pasajeros de un <strong>micro de la ruta hacia El Torno</strong>, en Santa Cruz, vivieron un momento que no esperaban. En el asiento trasero, un hombre viajaba con un <strong>muñeco de Chucky</strong> —el famoso personaje de la saga "Child's Play"— sentado a su lado. El pasajero le movía los brazos al muñeco mientras este "miraba" por la ventanilla, como si fuera un viajero más.</p>
+<p>La escena, registrada por otros pasajeros, muestra al "muñeco diabólico" completamente inmóvil, pero con los brazos en movimiento gracias a su acompañante. El contraste entre el terror del personaje y la cotidianidad del micro generó cientos de miles de reacciones.</p>
+<h2>"Vayas donde vayas, Chucky te encontrará"</h2>
+<p>La frase acompañó al video en cada republicación. Usuarios de <strong>TikTok, X y Facebook</strong> hicieron montajes, edits y memes. Algunos incluso sugirieron que Chucky "estaba de paseo" por la capital cruceña antes de continuar su "gira" por el municipio de El Torno.</p>
+<ul>
+<li><strong>Ruta:</strong> Micro hacia El Torno, Santa Cruz</li>
+<li><strong>Protagonista:</strong> Muñeco de Chucky (Child's Play)</li>
+<li><strong>Reacción de pasajeros:</strong> Asombro y risas, seguido de grabación inmediata</li>
+<li><strong>Alcance:</strong> Viral nacional en menos de 2 horas</li>
+</ul>
+<blockquote>"Vayas donde vayas, Chucky te encontrarás". — Comentario viral en redes sociales</blockquote>
+<p><small>Fuente: Unitel</small></p>`,
+    contentEn: `<h1>Chucky rode the bus to El Torno! The demonic doll went viral in Santa Cruz</h1>
+<p><em>A passenger boarded public transit with a Chucky doll, moving its arms as if it were just another rider. The video set social media on fire within minutes.</em></p>
+<h2>A scene of comedic horror on wheels</h2>
+<p>Passengers on a <strong>bus heading to El Torno</strong>, in Santa Cruz, experienced an unexpected moment. In the back seat, a man traveled with a <strong>Chucky doll</strong> —the famous character from the "Child's Play" saga— sitting beside him. The passenger moved the doll's arms while it "looked" out the window, as if it were just another traveler.</p>
+<p>The scene, recorded by other passengers, shows the "demonic doll" completely still but with its arms moving thanks to its companion. The contrast between the character's horror and the everyday bus ride generated hundreds of thousands of reactions.</p>
+<h2>"Wherever you go, Chucky will find you"</h2>
+<p>The phrase accompanied the video in every repost. Users on <strong>TikTok, X, and Facebook</strong> created edits, montages, and memes. Some even suggested Chucky was "sightseeing" in Santa Cruz before continuing his "tour" to El Torno.</p>
+<ul>
+<li><strong>Route:</strong> Bus to El Torno, Santa Cruz</li>
+<li><strong>Star:</strong> Chucky doll (Child's Play)</li>
+<li><strong>Passenger reaction:</strong> Astonishment and laughter, followed by immediate recording</li>
+<li><strong>Reach:</strong> Nationally viral in under 2 hours</li>
+</ul>
+<blockquote>"Wherever you go, Chucky will find you." — Viral comment on social media</blockquote>
+<p><small>Source: Unitel</small></p>`,
     date: '2026-07-21',
     readTimeEs: '3 min de lectura',
     readTimeEn: '3 min read',
@@ -1518,32 +1528,36 @@ Users accompanied the video with the phrase *"Wherever you go, Chucky will find 
     titleEn: 'Grandma conquers the internet with ingenious homemade invention combining bike and treadmill',
     excerptEs: 'Un invento casero creado por un "genio inventor" para su esposa permite caminar y pedalear al mismo tiempo, demostrando que las ideas simples pueden transformar la calidad de vida.',
     excerptEn: 'A homemade invention created by a "genius inventor" for his wife allows walking and pedaling at the same time, proving that simple ideas can transform quality of life.',
-    contentEs: `### Creatividad que inspira: el invento de la abuelita rusa
-
-En medio del avance de la tecnología, una historia sencilla y llena de creatividad logró captar la atención de miles de personas en redes sociales. Una **abuelita rusa** sorprendió al mostrar un ingenioso **invento casero** diseñado por su esposo, a quien describe con cariño como un **"genio inventor"**.
-
-#### Bicicleta y caminadora en uno
-
-El curioso dispositivo **combina una bicicleta con un aparato para caminar**, permitiéndole desplazarse cómodamente mientras realiza ejercicio y actividades diarias como ir de compras. En las imágenes se la observa disfrutando tranquilamente del recorrido, demostrando que las ideas simples también pueden transformar la calidad de vida.
-
-#### Viral en TikTok
-
-El video, compartido por ATB Media, se volvió rápidamente viral, acumulando miles de reacciones y comentarios de usuarios que elogiaron la creatividad y el cariño del esposo inventor.
-
-[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/abuelita-conquista-las-redes-con-ingenioso-invento-casero/)`,
-    contentEn: `### Creativity that inspires: Grandma's invention
-
-Amid technological advancement, a simple and creative story captured the attention of thousands on social media. A **Russian grandmother** surprised everyone by showing an ingenious **homemade invention** designed by her husband, whom she affectionately calls a **"genius inventor"**.
-
-#### Bike and treadmill in one
-
-The curious device **combines a bicycle with a walking machine**, allowing her to move comfortably while exercising and doing daily activities like grocery shopping. The footage shows her calmly enjoying the ride, proving that simple ideas can transform quality of life.
-
-#### Viral on TikTok
-
-The video, shared by ATB Media, quickly went viral, accumulating thousands of reactions and comments from users praising the creativity and love of the inventor husband.
-
-[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/abuelita-conquista-las-redes-con-ingenioso-invento-casero/)`,
+    contentEs: `<h1>Abuelita rusa conquista TikTok con el invento casero de su esposo: bicicleta y caminadora en una</h1>
+<p><em>Un "genio inventor" le construyó a su esposa un vehículo que combina bicicleta y caminadora. Ella lo usa para ir de compras. El video acumula millones de reproducciones.</em></p>
+<h2>La máquina que nació del cariño</h2>
+<p>Mientras las grandes empresas compiten por lanzar el dispositivo más sofisticado, un <strong>matrimonio ruso</strong> demostró que la mejor innovación nace de las necesidades cotidianas. El esposo, a quien su mujer describe como un <strong>"genio inventor"</strong>, diseñó y construyó un aparato que <strong>fusiona una bicicleta con un caminador</strong>.</p>
+<p>En el video se ve a la abuelita pedaleando tranquilamente mientras, al mismo tiempo, sus pies caminan sobre una base móvil. El invento le permite <strong>hacer ejercicio mientras hace compras</strong> o simplemente pasea por su vecindario.</p>
+<h2>Ingeniería low-cost con resultados virales</h2>
+<p>El clip, difundido por <strong>ATB Media</strong> en TikTok, no requiere edición ni efectos especiales: muestra la realidad de un hogar donde la creatividad resolvió un problema con materiales accesibles. Los comentarios destacan "el amor del esposo" y "la sencillez de la solución" por encima de cualquier tecnología cara.</p>
+<ul>
+<li><strong>Inventor:</strong> Esposo anónimo, llamado "genio inventor" por su esposa</li>
+<li><strong>Dispositivo:</strong> Bicicleta estática adaptada con caminadora incorporada</li>
+<li><strong>Uso principal:</strong> Desplazamiento y ejercicio simultáneo</li>
+<li><strong>Origen:</strong> Rusia</li>
+</ul>
+<blockquote>"No necesita gimnasio ni membresía. Con amor y creatividad, cualquier cosa es posible". — Comentario destacado en TikTok</blockquote>
+<p><small>Fuente: ATB Digital</small></p>`,
+    contentEn: `<h1>Russian grandma conquers TikTok with her husband's homemade invention: bike and treadmill in one</h1>
+<p><em>A "genius inventor" built his wife a vehicle that combines a bicycle with a treadmill. She uses it to go grocery shopping. The video has millions of views.</em></p>
+<h2>The machine born from love</h2>
+<p>While big companies compete to launch the most sophisticated device, a <strong>Russian couple</strong> proved that the best innovation comes from everyday needs. The husband, whom his wife affectionately calls a <strong>"genius inventor"</strong>, designed and built a device that <strong>fuses a bicycle with a walker</strong>.</p>
+<p>The video shows the grandmother pedaling calmly while, at the same time, her feet walk on a moving base. The invention lets her <strong>exercise while shopping</strong> or simply strolling through her neighborhood.</p>
+<h2>Low-cost engineering with viral results</h2>
+<p>The clip, shared by <strong>ATB Media</strong> on TikTok, needs no editing or special effects: it shows a household where creativity solved a problem with accessible materials. Comments highlight "the husband's love" and "the simplicity of the solution" over any expensive technology.</p>
+<ul>
+<li><strong>Inventor:</strong> Anonymous husband, called "genius inventor" by his wife</li>
+<li><strong>Device:</strong> Adapted stationary bike with built-in treadmill</li>
+<li><strong>Main use:</strong> Simultaneous transportation and exercise</li>
+<li><strong>Origin:</strong> Russia</li>
+</ul>
+<blockquote>"No gym or membership needed. With love and creativity, anything is possible." — Top comment on TikTok</blockquote>
+<p><small>Source: ATB Digital</small></p>`,
     date: '2026-06-17',
     readTimeEs: '3 min de lectura',
     readTimeEn: '3 min read',
@@ -1564,32 +1578,36 @@ The video, shared by ATB Media, quickly went viral, accumulating thousands of re
     titleEn: 'Kitten conquers social media with Michael Jackson-style meows',
     excerptEs: 'Un pequeño felino emite maullidos que los usuarios compararon con los característicos sonidos vocales del Rey del Pop, convirtiéndose en la nueva sensación viral.',
     excerptEn: 'A tiny feline emits meows that users compared to the King of Pop\'s signature vocal sounds, becoming the latest viral sensation.',
-    contentEs: `### El gatito que maúlla como Michael Jackson
-
-Un pequeño **gatito** ha logrado conquistar a miles de usuarios en redes sociales gracias a un video que rápidamente se volvió viral. En las imágenes, el felino emite una serie de **maullidos** que muchos internautas compararon con los famosos sonidos vocales de **Michael Jackson**, el legendario Rey del Pop.
-
-#### Ternura y nostalgia
-
-La curiosa coincidencia provocó una ola de comentarios, reacciones y compartidos en distintas plataformas digitales. Numerosos usuarios destacaron la **ternura del animal**, mientras que otros aprovecharon para realizar divertidos montajes y comparaciones con las presentaciones del icónico artista.
-
-#### Un fenómeno global
-
-El video, difundido por ATB Media en TikTok, no tardó en cruzar fronteras, con usuarios de distintos países compartiendo el peculiar talento del felino y creando remixes con las canciones más famosas de Michael Jackson.
-
-[Fuente: ATB Digital](https://www.atb.com.bo/2026/06/17/gatito-conquista-las-redes-con-maullidos-al-estilo-de-michael-jackson/)`,
-    contentEn: `### The kitten that meows like Michael Jackson
-
-A tiny **kitten** has won over thousands of social media users thanks to a video that quickly went viral. In the footage, the feline emits a series of **meows** that many users compared to the famous vocal sounds of **Michael Jackson**, the legendary King of Pop.
-
-#### Cuteness and nostalgia
-
-The curious coincidence sparked a wave of comments, reactions, and shares across different digital platforms. Many users highlighted the **animal's cuteness**, while others created funny mashups and comparisons with the iconic artist's performances.
-
-#### A global phenomenon
-
-The video, shared by ATB Media on TikTok, quickly crossed borders, with users from different countries sharing the feline's peculiar talent and creating remixes with Michael Jackson's most famous songs.
-
-[Source: ATB Digital](https://www.atb.com.bo/2026/06/17/gatito-conquista-las-redes-con-maullidos-al-estilo-de-michael-jackson/)`,
+    contentEs: `<h1>Gatito conquista las redes: sus maullidos suenan como Michael Jackson</h1>
+<p><em>Un pequeño felino emite una serie de maullidos que los usuarios compararon instantáneamente con los vocalizos del Rey del Pop. El video cruzó fronteras en cuestión de horas.</em></p>
+<h2>Un minuto de fama que empezó con un maullido</h2>
+<p>Todo comenzó con un video casero. Un <strong>gatito</strong> aparecía frente a la cámara emitiendo maullidos con un ritmo y una entonación que, para sorpresa de todos, recordaban a los característicos sonidos vocales de <strong>Michael Jackson</strong>. Lo que pudo haber pasado desapercibido se convirtió en el clip más compartido del día.</p>
+<p>Los usuarios no tardaron en etiquetar a sus amigos, comentar y republicar. Algunos hicieron <strong>remixes con "Billie Jean" y "Thriller"</strong> sincronizando los maullidos con la música. Otros crearon comparaciones frame a frame entre el felino y las presentaciones del artista.</p>
+<h2>Ternura que cruza fronteras</h2>
+<p>El video, difundido por <strong>ATB Media en TikTok</strong>, no se quedó en Bolivia. Usuarios de <strong>España, México, Argentina y Estados Unidos</strong> compartieron el clip, cada uno agregando su propio toque creativo. La combinación de ternura animal y nostalgia musical resultó una fórmula imbatible.</p>
+<ul>
+<li><strong>Protagonista:</strong> Gatito doméstico de raza no especificada</li>
+<li><strong>Comparación:</strong> Maullidos similares a vocalizos de Michael Jackson</li>
+<li><strong>Remixes populares:</strong> Billie Jean, Thriller, Beat It</li>
+<li><strong>Alcance:</strong> Viral internacional en menos de 24 horas</li>
+</ul>
+<blockquote>"No sabía que necesitaba escuchar a un gato cantar Michael Jackson hasta hoy". — Usuario viral en TikTok</blockquote>
+<p><small>Fuente: ATB Digital</small></p>`,
+    contentEn: `<h1>Kitten conquers the internet: its meows sound like Michael Jackson</h1>
+<p><em>A tiny feline emits a series of meows that users instantly compared to the King of Pop's vocalizations. The video crossed borders within hours.</em></p>
+<h2>One minute of fame that started with a meow</h2>
+<p>It all began with a homemade video. A <strong>kitten</strong> appeared in front of the camera, meowing with a rhythm and tone that, to everyone's surprise, resembled the distinctive vocal sounds of <strong>Michael Jackson</strong>. What could have gone unnoticed became the most shared clip of the day.</p>
+<p>Users wasted no time tagging friends, commenting, and reposting. Some created <strong>remixes with "Billie Jean" and "Thriller"</strong>, syncing the meows with the music. Others made frame-by-frame comparisons between the feline and the artist's performances.</p>
+<h2>Cuteness that crosses borders</h2>
+<p>The video, shared by <strong>ATB Media on TikTok</strong>, did not stay in Bolivia. Users from <strong>Spain, Mexico, Argentina, and the United States</strong> shared the clip, each adding their own creative touch. The combination of animal cuteness and musical nostalgia proved unbeatable.</p>
+<ul>
+<li><strong>Star:</strong> Domestic kitten, unspecified breed</li>
+<li><strong>Comparison:</strong> Meows similar to Michael Jackson's vocalizations</li>
+<li><strong>Popular remixes:</strong> Billie Jean, Thriller, Beat It</li>
+<li><strong>Reach:</strong> Internationally viral in under 24 hours</li>
+</ul>
+<blockquote>"I didn't know I needed to hear a cat sing Michael Jackson until today." — Viral TikTok user</blockquote>
+<p><small>Source: ATB Digital</small></p>`,
     date: '2026-06-17',
     readTimeEs: '3 min de lectura',
     readTimeEn: '3 min read',
