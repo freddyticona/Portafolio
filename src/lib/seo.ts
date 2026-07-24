@@ -130,6 +130,18 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
       description: 'Professional services: 4K event filming, video editing, documentary production and audiovisual consulting in La Paz, Bolivia.',
       keywords: ['cameraman services', 'event filming Bolivia', 'professional video editing', 'documentary production', 'audiovisual consulting'],
     }
+  },
+  guias: {
+    es: {
+      title: 'Guías de Trámites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y más',
+      description: 'Guías actualizadas para realizar trámites en Bolivia: cédula de identidad SEGIP, SOAT, licencia de conducir, pasaporte, NIT, RUAT, certificados de nacimiento, antecedentes policiales y penales, y visa para extranjeros.',
+      keywords: ['guías trámites Bolivia', 'SEGIP cédula identidad', 'SOAT Bolivia 2026', 'licencia conducir Bolivia', 'pasaporte boliviano', 'NIT Bolivia', 'RUAT transferencia vehicular', 'certificado nacimiento Bolivia', 'antecedentes policiales REAP', 'visa Bolivia'],
+    },
+    en: {
+      title: 'Bolivia Procedures Guide | SEGIP, SOAT, Licenses, Passports and more',
+      description: 'Updated step-by-step guides for government procedures in Bolivia: SEGIP ID card, SOAT insurance, driver license, passport, NIT tax ID, RUAT vehicle registry, birth certificate, police records and visa for foreigners.',
+      keywords: ['Bolivia procedures guide', 'SEGIP ID card', 'SOAT Bolivia 2026', 'Bolivia driver license', 'Bolivia passport', 'NIT Bolivia', 'Bolivia visa', 'police records Bolivia', 'birth certificate Bolivia'],
+    }
   }
 };
 

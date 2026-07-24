@@ -44,6 +44,11 @@ const pages = {
     desc: 'Cobertura periodística del acontecer nacional e historias del mundo audiovisual en Bolivia. Crónicas, reportajes y análisis desde la mirada de un camarógrafo con 15 años de experiencia.',
     path: '/noticias'
   },
+  'guias': {
+    title: 'Guías de Trámites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y más',
+    desc: 'Guías actualizadas para realizar trámites en Bolivia: cédula de identidad SEGIP, SOAT, licencia de conducir, pasaporte, NIT, RUAT, certificados y visas. Paso a paso, costos y requisitos oficiales.',
+    path: '/guias'
+  },
   'servicios': {
     title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
     desc: 'Contrata servicios profesionales de filmación 4K, edición de video, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cotiza tu proyecto.',
@@ -266,7 +271,18 @@ for (const article of articles) {
   html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/noticias/${article.slug}"`);
   fs.writeFileSync(path.join(newsDir, 'index.html'), html, 'utf-8');
   console.log(`✅ /noticias/${article.slug}`);
+
+  // Guía article (only for slugs starting with "guia-")
+  if (article.slug.startsWith('guia-')) {
+    const guiaDir = path.join(distDir, 'guias', article.slug);
+    fs.mkdirSync(guiaDir, { recursive: true });
+    html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/guias/${article.slug}"`);
+    html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/guias/${article.slug}"`);
+    fs.writeFileSync(path.join(guiaDir, 'index.html'), html, 'utf-8');
+    console.log(`✅ /guias/${article.slug}`);
+  }
 }
 
-const total = Object.keys(pages).length + articles.length * 2;
+const guiaCount = articles.filter(a => a.slug.startsWith('guia-')).length;
+const total = Object.keys(pages).length + articles.length * 2 + guiaCount;
 console.log(`\n🎉 ${total} páginas pre-renderizadas en dist/`);

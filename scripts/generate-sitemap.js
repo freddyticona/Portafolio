@@ -16,6 +16,7 @@ const sections = [
   { path: 'cv', priority: '0.8', changefreq: 'monthly' },
   { path: 'blog', priority: '0.8', changefreq: 'weekly' },
   { path: 'noticias', priority: '0.9', changefreq: 'daily' },
+  { path: 'guias', priority: '0.8', changefreq: 'weekly' },
   { path: 'servicios', priority: '0.9', changefreq: 'monthly' },
   { path: 'reservas', priority: '0.7', changefreq: 'monthly' },
   { path: 'contacto', priority: '0.7', changefreq: 'monthly' },
@@ -149,11 +150,23 @@ for (const slug of articles) {
   </url>\n`;
 }
 
+xml += `\n  <!-- Guías de Trámites (ruta independiente) -->\n`;
+
+const guiaSlugs = articles.filter(s => s.startsWith('guia-'));
+for (const slug of guiaSlugs) {
+  xml += `  <url>
+    <loc>${SITE}/guias/${slug}</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>\n`;
+}
+
 xml += `</urlset>\n`;
 
 const outputPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
 fs.writeFileSync(outputPath, xml, 'utf-8');
 
-const total = sections.length + articles.length * 2;
+const total = sections.length + articles.length * 2 + guiaSlugs.length;
 console.log(`✅ Sitemap generado: ${outputPath}`);
 console.log(`📡 ${total} URLs incluidas`);

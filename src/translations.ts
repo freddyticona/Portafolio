@@ -4259,33 +4259,49 @@ Desde 2026, el SEGIP habilitó la **Cédula de Identidad Digital** a través de 
 
 ---
 
-#### Principales oficinas SEGIP
+#### Oficinas SEGIP en La Paz (fuente oficial)
 
-| Ciudad | Dirección | Teléfono |
-|--------|-----------|----------|
-| **La Paz** (San Pedro — Segelic) | Av. 20 de Octubre N°1628, Edif. Mollinedo *(a una cuadra de la FELCC)* | (2) 2127201 |
-| **La Paz** (Centro — Teleférico Celeste) | Pasaje Núñez del Prado, instalaciones del Teleférico Celeste | (2) 2127201 |
-| **La Paz** (Zona Sur — Megacenter) | Av. Rafael Pabón N°656, Megacenter, Planta Baja | (2) 2127201 |
-| **La Paz** (Sopocachi — Adm. Nacional) | Calle Pedro Salazar N°607, Sopocachi | (2) 2117405 |
-| **La Paz** (El Alto — Segelic) | Av. Juan Pablo II N°200 | (2) 2127201 |
-| **Santa Cruz** | Av. Irala esq. Av. Santos Dumont | 2680800 |
-| **Cochabamba** | Av. Ayacucho esq. 25 de Mayo | 2680800 |
-| **Sucre** | Calle Ravelo s/n | 2680800 |
-| **Oruro** | Av. 6 de Octubre esq. Cochabamba | 2680800 |
-| **Potosí** | Calle Bustillos esq. Sucre | 2680800 |
-| **Tarija** | Calle La Madrid esq. Suipacha | 2680800 |
-| **Beni** (Trinidad) | Av. 6 de Agosto esq. Avaroa | 2680800 |
-| **Pando** (Cobija) | Av. 9 de Febrero | 2680800 |
+Según el sitio oficial del SEGIP ([segip.gob.bo/oficina](https://www.segip.gob.bo/oficina/)), estas son todas las oficinas en el departamento de La Paz:
 
-> Para ubicar la oficina más cercana, visita [https://www.segip.gob.bo/oficina/](https://www.segip.gob.bo/oficina/) y selecciona tu departamento.
+| Oficina | Dirección | Servicios |
+|---------|-----------|-----------|
+| **Administrativo Nacional** (Sopocachi) | Calle Pedro Salazar N° 607, entre Andrés Muñoz y Presbítero Medina | Cédulas |
+| **Segelic La Paz** (San Pedro) | Av. 20 de Octubre, Edif. Mollinedo N°1628, Zona San Pedro | Cédulas, Licencias, CIE |
+| **La Paz Centro** | Teleférico Celeste, Pasaje Núñez del Prado | Cédulas |
+| **Plaza Villarroel** (Miraflores) | Estación Plaza Villarroel, Línea Blanca, Mi Teleférico | Cédulas |
+| **Zona Sur (Megacenter)** | Av. Rafael Pabón N°656, Megacenter, Planta Baja | Cédulas, Licencias |
+| **Segelic El Alto** | Av. Juan Pablo II N°200 (entre YPFB y Tránsito) | Cédulas, Licencias |
+| **Principal Teleférico Rojo** (El Alto) | Zona 16 de Julio, instalaciones del Teleférico Rojo | Cédulas |
+| **Metropolitana** (El Alto) | Terminal Metropolitana, Carretera a Viacha, Zona Bolívar | Cédulas |
+| **Interprovincial** (El Alto) | Terminal Interprovincial Of. 10, Villa Esperanza, Calle José Arzabe y Calle 7 | Cédulas |
+| **Senkata** (El Alto) | Distrito 8, Calle Tocorpuri, Sub Alcaldía D8 | Cédulas |
+| **Santa Rosa** (El Alto) | Distrito 1, Av. Cívica Piso 3, Mercado Campesino | Cédulas |
+| **Pacajes Caluyo** (El Alto) | Distrito 3, Zona Pacajes Caluyo, Sub Alcaldía | Cédulas |
+| **Viacha** | Zona Central, Av. Ingavi, entre Calle Murillo y Av. Pando | Cédulas, Licencias |
+| **Laja** | Av. La Paz s/n, Plaza Principal, Complejo Deportivo | Cédulas |
+| **Achacachi** | Zona Villa Lealtad, Av. Manco Kapac, frente a Plaza del Estudiante | Cédulas, Licencias |
+| **Caranavi** | Zona Central, Av. Batallón de Ingenieros esq. Cobija, Plaza Libertador | Cédulas, Licencias |
+| **Palos Blancos** | Av. 6 de Agosto entre Santa Cruz y Chuquisaca, Mercado Municipal | Cédulas |
+| **La Asunta** | Calle Zacarías Portugal esq. Elsa Carrasco, Piso 1 Of. 107, Mercado Municipal | Cédulas |
+| **Ixiamas** | Av. Sucre, PB del GAM Ixiamas, frente a la Plaza Central | Cédulas |
+| **Apolo** | Av. 6 de Agosto, Casa de la Cultura, Plaza Principal Bolívar | Cédulas |
+| **Sorata** | Calle Samuel Tijerina, PB del GAM Sorata, Plaza Principal Gral. Enrique Peñaranda | Cédulas |
+| **Patacamaya** | Av. Panorámica, Calle Colchani N°105, Zona Nueva Esperanza | Cédulas |
+| **Copacabana** | Plaza Sucre, Av. 16 de Julio y Av. 6 de Agosto, Centro de Información Turística | Cédulas |
 
-<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-68.140%2C-16.508%2C-68.125%2C-16.497&amp;layer=mapnik&amp;marker=-16.5041%2C-68.1342" style="border: 1px solid #ccc; border-radius: 8px; width: 100%; height: 350px;" loading="lazy"></iframe>
+> La lista completa y actualizada está disponible en [https://www.segip.gob.bo/oficina/](https://www.segip.gob.bo/oficina/)
 
-📍 **Oficina Segelic La Paz (la más céntrica, junto a la FELCC)** — Av. 20 de Octubre N°1628, Edif. Mollinedo, Zona San Pedro. Esta oficina atiende cédulas de identidad, licencias de conducir y cédulas de extranjero. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5041051,-68.1341678)
+<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-68.140%2C-16.520%2C-68.120%2C-16.495&amp;layer=mapnik&amp;marker=-16.5123%2C-68.1276" style="border: 1px solid #ccc; border-radius: 8px; width: 100%; height: 350px;" loading="lazy"></iframe>
 
-📍 **Oficina La Paz Centro** — Pasaje Núñez del Prado (Teleférico Celeste). [Abrir en Google Maps](https://www.google.com/maps?q=-16.5004318,-68.1327011)
+📍 **Oficina Administrativo Nacional** — Calle Pedro Salazar N° 607 (Sopocachi). Oficina principal del SEGIP a nivel nacional, cerca de la FELCC. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5122864,-68.1276457)
 
-📍 **Oficina Zona Sur (Megacenter)** — Av. Rafael Pabón N°656. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5320166,-68.0871546)
+📍 **Segelic La Paz** — Av. 20 de Octubre N°1628, Edif. Mollinedo (San Pedro). Atiende cédulas, licencias y Cédula de Extranjero. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5041051,-68.1341678)
+
+📍 **La Paz Centro** — Pasaje Núñez del Prado (Teleférico Celeste). [Abrir en Google Maps](https://www.google.com/maps?q=-16.5004318,-68.1327011)
+
+📍 **Zona Sur (Megacenter)** — Av. Rafael Pabón N°656, Irpavi. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5320166,-68.0871546)
+
+📍 **Plaza Villarroel** — Estación Plaza Villarroel, Línea Blanca (Miraflores). [Abrir en Google Maps](https://www.google.com/maps?q=-16.4846978,-68.1218244)
 
 ---
 
@@ -4366,6 +4382,22 @@ The **Cédula de Identidad** is the official identification document for Bolivia
 **Digital ID:** Download "Mi Identidad" app from Google Play/App Store, request activation at any SEGIP office (same cost: Bs 17), then scan your physical ID's QR code and take a selfie.
 
 **Costs:** Bs 17 for most procedures (first time, renewal, duplicate). Seniors 60+ and people with disabilities are exempt from payment.
+
+**SEGIP Offices in La Paz (official source):** The SEGIP has 23 offices in the La Paz department. Main locations include:
+- **Administrativo Nacional** (Sopocachi) — Calle Pedro Salazar N° 607
+- **Segelic La Paz** (San Pedro) — Av. 20 de Octubre N°1628, Edif. Mollinedo
+- **La Paz Centro** — Teleférico Celeste, Pasaje Núñez del Prado
+- **Zona Sur (Megacenter)** — Av. Rafael Pabón N°656
+- **Plaza Villarroel** (Miraflores) — Estación Plaza Villarroel, Línea Blanca
+- **Segelic El Alto** — Av. Juan Pablo II N°200
+- **Viacha, Achacachi, Caranavi** and 16 more locations across the department
+
+Full directory: https://www.segip.gob.bo/oficina/
+
+**Official SEGIP social media:**
+- Facebook: /segipoficial | X: @OficialSegip | Instagram: @segip_oficial
+- YouTube: /segipcomunicacion | TikTok: @segip_oficial
+- Helpline: 800 101 102
 
 For more details visit: https://www.segip.gob.bo`,
     date: '2026-07-24',
@@ -5743,6 +5775,7 @@ export const translations = {
     navCv: 'CV / Trayectoria',
     navBlog: 'Blog',
     navNews: 'Noticias',
+    navGuides: 'Guías',
     navContact: 'Contacto',
 
     heroTitle: 'Freddy Ticona Guzmán',
@@ -5880,6 +5913,7 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
     navCv: 'CV / Career',
     navBlog: 'Blog',
     navNews: 'News',
+    navGuides: 'Guides',
     navContact: 'Contact',
 
     heroTitle: 'Freddy Ticona Guzmán',

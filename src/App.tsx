@@ -44,6 +44,7 @@ const PortfolioPage = lazy(() => import('./pages/PortfolioPage'));
 const CVPage = lazy(() => import('./pages/CVPage'));
 const BlogPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.BlogPage })));
 const NoticiasPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.NoticiasPage })));
+const GuiasPage = lazy(() => import('./pages/GuiasPage'));
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
 const ServicesPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ServicesPage })));
@@ -180,7 +181,7 @@ export default function App() {
     const handlePopState = () => {
       const parts = window.location.pathname.split('/').filter(Boolean);
 
-      if (parts.length === 2 && (parts[0] === 'blog' || parts[0] === 'noticias')) {
+      if (parts.length === 2 && (parts[0] === 'blog' || parts[0] === 'noticias' || parts[0] === 'guias')) {
         const post = blogPostsRef.current.find(p => p.slug === parts[1]);
         if (post) {
           setActivePage(parts[0] as PageId);
@@ -193,7 +194,7 @@ export default function App() {
       const pageStr = parts[0] || 'inicio';
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
-        'blog', 'contacto', 'reservas', 'servicios', 'admin',
+        'blog', 'guias', 'contacto', 'reservas', 'servicios', 'admin',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
@@ -307,6 +308,17 @@ export default function App() {
               handleArticleClick={handleArticleClick}
             />
           );
+        case 'guias':
+          return (
+            <GuiasPage
+              lang={lang}
+              t={t}
+              blogPosts={blogPosts}
+              activeBlogPostId={activeBlogPostId}
+              setActiveBlogPostId={setActiveBlogPostId}
+              handleArticleClick={handleArticleClick}
+            />
+          );
         case 'contacto':
           return <ContactPage lang={lang} t={t} />;
         case 'reservas':
@@ -342,7 +354,7 @@ export default function App() {
     );
   };
 
-  const pageSkeleton = activePage === 'portafolio' ? 'portfolio' : (activePage === 'blog' || activePage === 'noticias' ? 'blog' : 'default');
+  const pageSkeleton = activePage === 'portafolio' ? 'portfolio' : (activePage === 'blog' || activePage === 'noticias' || activePage === 'guias' ? 'blog' : 'default');
 
   return (
     <div className={`min-h-screen bg-[#050505] font-sans text-stone-300 selection:bg-gold selection:text-black flex flex-col justify-between transition-all duration-500 ${dimmed ? 'cinema-dim' : ''}`}>

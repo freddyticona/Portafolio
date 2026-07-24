@@ -36,8 +36,8 @@ export function BlogPage({
   setActiveBlogPostId,
   handleArticleClick,
 }: BlogPageProps) {
-  // Solo posts personales (sin fuente externa)
-  const personalPosts = blogPosts.filter(p => !p.source);
+  // Solo posts personales (sin fuente externa, sin guías de trámites)
+  const personalPosts = blogPosts.filter(p => !p.source && p.categoryEs !== 'Guías y Trámites');
 
   const activePost = activeBlogPostId
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
@@ -118,6 +118,9 @@ export function NoticiasPage({
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
     : null;
 
+  // Excluir guías de trámites (tienen su propia sección)
+  const newsPosts = blogPosts.filter(p => p.categoryEs !== 'Guías y Trámites');
+
   if (activePost) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 animate-fadeIn">
@@ -142,7 +145,7 @@ export function NoticiasPage({
   return (
     <Suspense fallback={<LoadingFallback />}>
       <NewsPortal
-        posts={blogPosts}
+        posts={newsPosts}
         lang={lang}
         t={t}
         onArticleClick={(post) => handleArticleClick(post, 'noticias')}
