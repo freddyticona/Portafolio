@@ -111,6 +111,18 @@ const articles = [
   'guia-antecedentes-policiales-reap-bolivia-2026',
   'guia-antecedentes-penales-bolivia-2026',
   'guia-visa-bolivia-extranjeros-2026',
+
+  // Artículos de guerras y conflictos globales (ids 89-98)
+  'guerra-eeuu-iran-escalada-julio-2026',
+  'analisis-estrategia-trump-iran-escalada',
+  'guerra-iran-arsenal-militar-eeuu-riesgo',
+  'claves-guerra-estados-unidos-iran',
+  'rusia-ataque-masivo-misiles-ucrania-julio',
+  'ucrania-ataca-refineria-petroleo-moscu',
+  'resumen-guerra-israel-hamas-gaza-julio',
+  'netanyahu-control-setenta-gaza',
+  'hospitales-sudan-crisis-guerra',
+  'tres-anos-guerra-sudan-crisis-desplazamiento',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

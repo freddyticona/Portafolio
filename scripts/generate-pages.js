@@ -156,6 +156,18 @@ const articles = [
   { slug: 'guia-antecedentes-policiales-reap-bolivia-2026', title: 'Cómo sacar el Certificado de Antecedentes Policiales (REAP) en Bolivia 2026', desc: 'Guía completa del REAP en Bolivia. Requisitos, costo, paso a paso presencial, vigencia del certificado y para qué trámites se requiere.' },
   { slug: 'guia-antecedentes-penales-bolivia-2026', title: 'Cómo sacar el Certificado de Antecedentes Penales en Bolivia 2026', desc: 'Guía completa de Antecedentes Penales en Bolivia. Emitido por el Tribunal de Justicia, requisitos, costo, paso a paso, vigencia y diferencias con el REAP.' },
   { slug: 'guia-visa-bolivia-extranjeros-2026', title: 'Visa para Bolivia 2026 — Requisitos, tipos y cómo tramitarla para extranjeros', desc: 'Guía completa de visas para extranjeros en Bolivia. Tipos de visa, requisitos por país, costos, paso a paso consular, prórroga de estadía y regularización migratoria.' },
+
+  // Artículos de guerras y conflictos globales (ids 89-98)
+  { slug: 'guerra-eeuu-iran-escalada-julio-2026', title: 'Guerra EE.UU.-Irán: escalada de bombardeos y ataques en el estrecho de Ormuz', desc: 'Estados Unidos reanudó ataques masivos contra Irán tras romperse la tregua. El tráfico en el estrecho de Ormuz cayó a solo 8 buques diarios.' },
+  { slug: 'analisis-estrategia-trump-iran-escalada', title: 'El vacío estratégico de Trump en Irán: más bombardeos sin un objetivo claro', desc: 'Análisis: la nueva escalada de bombardeos en Irán revela la ausencia de una estrategia definida por parte de la Casa Blanca.' },
+  { slug: 'guerra-iran-arsenal-militar-eeuu-riesgo', title: 'La guerra con Irán agota el arsenal militar de EE.UU.', desc: 'El Pentágono ha utilizado la mitad de sus interceptores THAAD y Patriot. Reponer las reservas tomará entre dos y cinco años.' },
+  { slug: 'claves-guerra-estados-unidos-iran', title: '¿Qué está pasando en la guerra de EE.UU. con Irán? Las claves del conflicto', desc: 'El conflicto del 28 de febrero de 2026 ha transformado Medio Oriente. Más de 555 muertos en Irán y una crisis energética global.' },
+  { slug: 'rusia-ataque-masivo-misiles-ucrania-julio', title: 'Rusia lanza uno de los mayores ataques con misiles balísticos de la guerra en Ucrania', desc: 'Rusia disparó más de 40 misiles balísticos y 120 drones contra Ucrania. Kyiv fue el principal objetivo.' },
+  { slug: 'ucrania-ataca-refineria-petroleo-moscu', title: 'Ucrania ataca refinería de petróleo clave en la región de Moscú e interrumpe vuelos', desc: 'Ucrania lanzó un ataque con drones contra una refinería de petróleo en Moscú, provocando un incendio de gran magnitud.' },
+  { slug: 'resumen-guerra-israel-hamas-gaza-julio', title: 'Guerra en Gaza: resumen del conflicto entre Israel y Hamas y las negociaciones de paz', desc: 'Más de dos años de guerra en Gaza continúan mientras las negociaciones de paz permanecen estancadas.' },
+  { slug: 'netanyahu-control-setenta-gaza', title: 'Netanyahu ordena al ejército de Israel tomar el control del 70% de Gaza', desc: 'El primer ministro israelí anunció la expansión militar más significativa desde el alto el fuego, ordenando ocupar el 70% del territorio gazatí.' },
+  { slug: 'hospitales-sudan-crisis-guerra', title: 'Los hospitales en Sudán luchan por atender pacientes mientras la guerra se intensifica', desc: 'El 37% de los centros de salud en Sudán están inoperativos tras tres años de guerra civil.' },
+  { slug: 'tres-anos-guerra-sudan-crisis-desplazamiento', title: 'Tres años de guerra en Sudán: la mayor crisis de desplazamiento del mundo', desc: 'Más de 11,6 millones de personas han sido desplazadas por la guerra civil en Sudán.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts

@@ -5764,6 +5764,541 @@ For more info: https://www.migracion.gob.bo`,
     enableComments: true,
     featured: false,
     views: 1
+  },
+  // ============================================================
+  // ARTÍCULOS DE GUERRAS Y CONFLICTOS GLOBALES (ids 89-98)
+  // Fuente: CNN Español, BBC, Infobae — Julio 2026
+  // ============================================================
+  {
+    id: '89',
+    contentType: 'news',
+    slug: 'guerra-eeuu-iran-escalada-julio-2026',
+    titleEs: 'Guerra EE.UU.-Irán: escalada de bombardeos y ataques en el estrecho de Ormuz',
+    titleEn: 'US-Iran War: Escalation of bombing and attacks in the Strait of Hormuz',
+    excerptEs: 'Estados Unidos reanudó ataques masivos contra Irán tras romperse la tregua. El tráfico en el estrecho de Ormuz cayó a solo 8 buques diarios y crece el temor a una guerra regional generalizada.',
+    excerptEn: 'The US resumed massive strikes against Iran after the ceasefire collapsed. Traffic in the Strait of Hormuz dropped to just 8 ships daily as fears of a full regional war grow.',
+    contentEs: `### Guerra EE.UU.-Irán: la escalada que nadie pudo contener
+
+El presidente de Estados Unidos, Donald Trump, declaró el fin del alto el fuego con Irán a principios de julio de 2026, dando inicio a una nueva fase del conflicto que ha llevado los combates a niveles no vistos desde marzo del mismo año.
+
+Según reportes de CNN, las fuerzas estadounidenses lanzaron oleadas de bombardeos contra posiciones iraníes en el sur del país y a lo largo del estrecho de Ormuz, con el objetivo declarado de "degradar la capacidad de Irán para amenazar la libertad de navegación".
+
+### Colapso del tráfico en Ormuz
+
+El impacto más inmediato ha sido sobre el comercio global. Datos de la agencia de rastreo marítimo MarineTraffic revelaron que el tráfico por el estrecho cayó a solo 8 buques el 16 de julio, frente a un promedio prebélico de 116 barcos diarios.
+
+Irán mantiene el control efectivo sobre esta vía estratégica por donde pasa una quinta parte del comercio mundial de gas natural licuado (GNL). Las fuerzas iraníes han atacado buques petroleros y mercantes, y han amenazado con "incendiar" cualquier embarcación que intente cruzar.
+
+### Bajas estadounidenses en aumento
+
+El número de militares estadounidenses muertos en acción ascendió a 17 hasta mediados de julio, según informó CENTCOM. Dos miembros del servicio murieron en un ataque iraní a una base en Jordania, y otro falleció en el norte de Irak durante una detonación controlada de municiones.
+
+El senador Mark Warner calificó la situación como "lo que sucede cuando se inicia una guerra por elección", afirmando que "no había una amenaza inminente de Irán" antes de los ataques iniciales.
+
+### Guerra multifrente
+
+El conflicto se ha expandido más allá de las fronteras de Irán. Hezbollah lanzó proyectiles contra el norte de Israel en "venganza por la muerte de Jamenei", desatando una furiosa respuesta israelí sobre Beirut y el sur de Líbano.
+
+Jordania, Arabia Saudita, Qatar y los Emiratos Árabes Unidos han sido alcanzados por misiles y drones iraníes, mientras que las defensas aéreas de estos países han interceptado múltiples proyectiles. Qatar derribó dos bombarderos iraníes Su-24, marcando la primera vez que un país árabe derriba aviones iraníes desde el inicio del conflicto.
+
+### Impacto económico global
+
+El precio del petróleo Brent se disparó por encima de los US$ 80 por barril, mientras que el gas natural holandés subió casi un 48% después de que Catar detuviera la producción de GNL tras un ataque iraní a su instalación en Ras Laffan.
+
+La administración Trump ha solicitado fondos adicionales al Congreso para cubrir los costos de la guerra, pero la medida enfrenta un camino complicado en el Capitolio, especialmente de cara a las elecciones de medio término de noviembre.
+
+Con información de: CNN Español.`,
+    contentEn: `### US-Iran War: The Escalation No One Could Contain
+
+President Donald Trump declared the end of the ceasefire with Iran in early July 2026, beginning a new phase of conflict. US forces launched waves of bombing against Iranian positions along the Strait of Hormuz.
+
+Traffic through the strait dropped to just 8 ships daily from a pre-war average of 116. US military deaths reached 17 as of mid-July. The conflict has expanded to Lebanon, Jordan, Saudi Arabia, Qatar, and the UAE. Oil prices surged above $80/barrel.
+
+With information from: CNN Español.`,
+    date: '2026-07-22',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=1200&h=630&fit=crop',
+    imageCaption: 'Buque militar navegando en el Golfo Pérsico. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: true,
+    breaking: true,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/2026/07/22/mundo/live-news/guerra-ee-uu-israel-iran-en-vivo-ataques-noticias-4-trax'
+  },
+  {
+    id: '90',
+    contentType: 'analysis',
+    slug: 'analisis-estrategia-trump-iran-escalada',
+    titleEs: 'El vacío estratégico de Trump en Irán: más bombardeos sin un objetivo claro',
+    titleEn: "Trump's strategic vacuum in Iran: more bombing without a clear objective",
+    excerptEs: 'Análisis de Stephen Collinson: la nueva escalada de bombardeos en Irán revela la ausencia de una estrategia definida por parte de la Casa Blanca, mientras aumentan las bajas y el costo económico del conflicto.',
+    excerptEn: "Analysis by Stephen Collinson: the new wave of bombing in Iran reveals the absence of a defined strategy from the White House, as casualties and economic costs mount.",
+    contentEs: `### El vacío estratégico de Trump en Irán
+
+Por Stephen Collinson, CNN
+
+Más muertes de combate estadounidenses y una nueva escalada de la guerra con Irán están dando un giro diferente a una pregunta que lleva mucho tiempo sin respuesta: ¿Cuál es el objetivo final del presidente Donald Trump y cómo planea lograrlo?
+
+Desde sus primeros disparos en marzo de 2026, esta guerra ha sido poco explicada por la administración. El regreso a una guerra aérea a gran escala tras nueve noches consecutivas de bombardeos no es la excepción.
+
+### Bombardeos sin estrategia
+
+Trump parece estar bombardeando porque los costos políticos y económicos de la victoria iraní sobre el estrecho de Ormuz son imposibles de aceptar. Pero no ha explicado a los estadounidenses por qué esta táctica sería más exitosa que antes.
+
+El senador demócrata John Fetterman, quien se ha distanciado de su partido en temas de guerra, dijo que Trump "debería seguir adelante". Pero el senador Mark Warner afirmó: "Esto es lo que sucede cuando se inicia una guerra por elección".
+
+### Una guerra que se expande
+
+El aumento de bombardeos y la represalia iraní —incluyendo el ataque que mató a dos militares en Jordania— corre el riesgo de arrastrar a toda la región al conflicto. Jordania, aliado de EE.UU., está más lejos de Irán que los objetivos en el Golfo, demostrando que Teherán mantiene capacidades letales.
+
+El almirante retirado James Stavridis dijo que todas las opciones de Trump son malas: "Irán no tiene una gran mano de cartas, pero la está jugando bastante bien, algo que recuerda a los norvietnamitas en Vietnam o a los talibanes en Afganistán".
+
+### Costo humano
+
+Diecisiete militares estadounidenses han muerto. Las bajas civiles iraníes son imposibles de verificar para medios extranjeros. El tráfico en Ormuz sigue prácticamente paralizado. La economía global paga el precio de un conflicto sin una estrategia de salida clara.
+
+Con información de: CNN Español / Stephen Collinson.`,
+    contentEn: `### Trump's Strategic Vacuum in Iran
+
+Analysis by Stephen Collinson, CNN. More US combat deaths and a new escalation in the war with Iran raise a long-unanswered question: What is President Trump's ultimate goal and how does he plan to achieve it? The return to large-scale aerial warfare after nine consecutive nights of bombing does not come with a clear explanation.
+
+With information from: CNN Español / Stephen Collinson.`,
+    date: '2026-07-20',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1541873676-a18131494184?w=1200&h=630&fit=crop',
+    imageCaption: 'Sala de situación de la Casa Blanca durante una operación militar. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://kesq.com/kunamundo/noticias-cnn/cnn-spanish/2026/07/19/nueva-escalada-de-ee-uu-en-iran-hace-que-el-vacio-de-la-estrategia-de-trump-sea-mas-apremiante/'
+  },
+  {
+    id: '91',
+    contentType: 'news',
+    slug: 'guerra-iran-arsenal-militar-eeuu-riesgo',
+    titleEs: 'La guerra con Irán agota el arsenal militar de EE.UU. y pone en riesgo futuros conflictos',
+    titleEn: 'War with Iran drains US military arsenal and risks future conflicts',
+    excerptEs: 'El Pentágono ha utilizado al menos la mitad de sus interceptores THAAD y Patriot, y el 30% de sus misiles Tomahawk. Reponer las reservas tomará entre dos y cinco años, según expertos.',
+    excerptEn: 'The Pentagon has used at least half of its THAAD and Patriot interceptors and 30% of its Tomahawk missiles. Replenishing reserves will take two to five years, according to experts.',
+    contentEs: `### Guerra con Irán agota el arsenal de EE.UU.
+
+Las reservas de armas clave de Estados Unidos están considerablemente reducidas y enfrentarán una presión aún mayor si los ataques contra Irán continúan al ritmo actual, según un análisis de CNN basado en informes del CSIS y expertos en defensa.
+
+### Misiles críticos bajo mínimos
+
+Para cuando cesaron los combates a gran escala en abril, el Pentágono había utilizado:
+- **Al menos la mitad** de sus interceptores de misiles balísticos THAAD
+- **Casi la mitad** de sus interceptores Patriot
+- **Alrededor del 30%** de sus misiles de ataque terrestre Tomahawk
+
+Mark Cancian, coronel retirado del Cuerpo de Marines y analista del CSIS, advirtió: "Si la guerra continúa al ritmo de los últimos cinco días, las reservas se reducirán lo suficiente como para generar un nivel de riesgo más alto en el Indo-Pacífico".
+
+### Reposición lenta
+
+El ritmo de reposición es crítico. Según el calendario actual, el Pentágono recibe aproximadamente:
+- **15 nuevos misiles Tomahawk** al mes
+- **20 Patriot** al mes
+- **Cero misiles THAAD** previstos para 2026
+
+El CSIS calcula que se necesitarán **tres años o más** para recuperar las existencias a los niveles previos a la guerra.
+
+### Implicaciones geopolíticas
+
+Michael O'Hanlon, de la Brookings Institution, señaló que la capacidad de disuasión frente a China o Corea del Norte "no se ha visto afectada todavía", pero advirtió que "en algún momento podría debilitarse".
+
+El Congreso no ha aprobado "ni un solo dólar para reemplazar un solo misil" desde que comenzó la guerra, según John Ferrari, general retirado del Ejército.
+
+La Casa Blanca solicitó formalmente fondos adicionales al Congreso, pero la medida enfrenta resistencia en el Capitolio.
+
+Con información de: CNN Español / Davis Winkie.`,
+    contentEn: `### War with Iran Drains US Arsenal
+
+Key US weapons reserves are considerably depleted. The Pentagon has used at least half of its THAAD ballistic missile interceptors, nearly half of its Patriot interceptors, and about 30% of its Tomahawk missiles. Replenishment will take three years or more. The situation could affect US deterrence capability against China or North Korea.
+
+With information from: CNN Español / Davis Winkie.`,
+    date: '2026-07-13',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1541085382223-5fde5c5ae040?w=1200&h=630&fit=crop',
+    imageCaption: 'Sistema de defensa aérea Patriot. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: true,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/2026/07/12/eeuu/trump-iran-guerra-pocas-armas-trax'
+  },
+  {
+    id: '92',
+    contentType: 'analysis',
+    slug: 'claves-guerra-estados-unidos-iran',
+    titleEs: '¿Qué está pasando en la guerra de EE.UU. con Irán? Las claves del conflicto',
+    titleEn: 'What is happening in the US war with Iran? Key facts about the conflict',
+    excerptEs: 'El conflicto que comenzó el 28 de febrero de 2026 ha transformado Medio Oriente. Más de 555 muertos en Irán, 17 soldados estadounidenses caídos, y una crisis energética global. Las claves para entenderlo.',
+    excerptEn: 'The conflict that began on February 28, 2026 has transformed the Middle East. Over 555 dead in Iran, 17 US soldiers fallen, and a global energy crisis. Key facts to understand it.',
+    contentEs: `### Claves de la guerra EE.UU.-Irán
+
+Días después de que Estados Unidos e Israel lanzaran los primeros ataques contra Irán el 28 de febrero de 2026, el conflicto se amplió hora a hora, involucrando a otros países de la región y generando temores para la economía global.
+
+### ¿Cómo comenzó?
+
+Trump y Netanyahu justificaron los ataques como una medida para impedir que Irán adquiriera un arma nuclear. El secretario de Estado Marco Rubio argumentó que existía una "amenaza inminente" de represalia iraní por la acción militar israelí planificada.
+
+Sin embargo, informantes del Pentágono reconocieron que Teherán no planeaba atacar a fuerzas estadounidenses a menos que Israel atacara primero.
+
+### La muerte de Jamenei
+
+Los ataques iniciales mataron al líder supremo de Irán, el ayatolá Alí Jamenei, marcando un punto de inflexión. Un consejo de liderazgo de tres personas —el presidente Masoud Pezeshkian, el jefe judicial Gholamhossein Mohseni Ejei, y el clérigo Alireza Arafi— asumió el poder interinamente.
+
+### Guerra regional
+
+El conflicto se extendió a Líbano cuando Israel respondió a provocaciones de Hezbollah. Qatar derribó bombarderos iraníes. Misiles impactaron en Israel, Bahrein, EAU, Kuwait y Arabia Saudita.
+
+El tráfico en el estrecho de Ormuz prácticamente se detuvo. El precio del petróleo Brent subió casi un 9%, y el gas natural holandés se disparó un 48%.
+
+Con información de: CNN Español.`,
+    contentEn: `### Key Facts About the US-Iran War
+
+The conflict began on February 28, 2026, when the US and Israel launched joint strikes against Iran. Supreme Leader Ali Khamenei was killed. The war expanded to Lebanon, Qatar, and other Gulf states. Traffic through the Strait of Hormuz came to a virtual halt, sending oil prices surging.
+
+With information from: CNN Español.`,
+    date: '2026-03-03',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1200&h=630&fit=crop',
+    imageCaption: 'Vista aérea del estrecho de Ormuz. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: true,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/2026/03/02/mundo/que-esta-pasando-guerra-estados-unidos-iran-trax'
+  },
+  {
+    id: '93',
+    contentType: 'news',
+    slug: 'rusia-ataque-masivo-misiles-ucrania-julio',
+    titleEs: 'Rusia lanza uno de los mayores ataques con misiles balísticos de la guerra en Ucrania',
+    titleEn: 'Russia launches one of the largest ballistic missile attacks of the war in Ukraine',
+    excerptEs: 'Rusia disparó más de 40 misiles balísticos y 120 drones contra Ucrania en un solo ataque. Kyiv fue el principal objetivo. Se reportó al menos un muerto y 16 heridos en la capital.',
+    excerptEn: 'Russia launched over 40 ballistic missiles and 120 drones against Ukraine in a single attack. Kyiv was the main target. At least one person was killed and 16 wounded in the capital.',
+    contentEs: `### Rusia ataca Kyiv con misiles balísticos
+
+Rusia lanzó uno de los mayores ataques con misiles balísticos de su guerra de más de cuatro años contra Ucrania durante la noche del sábado 18 al domingo 19 de julio de 2026, según confirmaron las autoridades ucranianas.
+
+La fuerza aérea de Ucrania informó que Moscú lanzó "un ataque combinado masivo" utilizando vehículos aéreos no tripulados y múltiples tipos de misiles lanzados desde el aire y desde tierra.
+
+### Cifras del ataque
+
+El presidente Volodymyr Zelensky reportó:
+- **Más de 40 misiles** de varios tipos, la mayoría contra Kyiv
+- **120 drones de ataque**
+- **23 misiles y 10 drones** impactaron 20 lugares diferentes
+
+Andriy Sybiha, ministro interino de Asuntos Exteriores, calificó el ataque como "el mayor número de misiles balísticos desde el inicio de la guerra".
+
+### Defensa aérea insuficiente
+
+Las defensas aéreas ucranianas derribaron 126 objetivos, incluyendo 18 misiles y 108 drones. Pero Ucrania enfrenta una escasez crítica de interceptores Patriot, que también tienen alta demanda entre los aliados de EE.UU. en medio del conflicto en el Golfo.
+
+"La protección contra misiles balísticos es nuestra prioridad constante", dijo Zelensky, pidiendo más interceptores a sus aliados.
+
+### Contexto de contraofensiva
+
+El ataque ruso se produjo tras devastadores ataques ucranianos con drones contra centros logísticos rusos, en los que murieron ocho personas. Ucrania también atacó el centro de exportación de petróleo del Caspian Pipeline Consortium en el mar Negro.
+
+Analistas señalan que Rusia está aumentando la frecuencia de ataques combinados con misiles y drones para destruir la infraestructura ucraniana.
+
+Con información de: CNN Español.`,
+    contentEn: `### Russia Launches Massive Ballistic Missile Attack on Ukraine
+
+Russia launched one of the largest ballistic missile attacks of its four-year war against Ukraine. Over 40 missiles and 120 drones were fired. Kyiv was the main target. Ukraine's air defenses shot down 126 targets but 23 missiles and 10 drones hit 20 locations. At least one person died and 16 were wounded in Kyiv.
+
+With information from: CNN Español.`,
+    date: '2026-07-19',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1580745294628-0e8a5232a5b4?w=1200&h=630&fit=crop',
+    imageCaption: 'Cielo de Kyiv tras un ataque con misiles. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: true,
+    breaking: true,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/2026/07/19/mundo/rusia-ataque-misiles-ucrania-julio-2026-trax'
+  },
+  {
+    id: '94',
+    contentType: 'news',
+    slug: 'ucrania-ataca-refineria-petroleo-moscu',
+    titleEs: 'Ucrania ataca refinería de petróleo clave en la región de Moscú e interrumpe vuelos',
+    titleEn: 'Ukraine attacks key oil refinery in Moscow region, disrupting flights',
+    excerptEs: 'Ucrania lanzó un ataque con drones contra una refinería de petróleo en la región de Moscú, provocando un incendio de gran magnitud e interrumpiendo vuelos comerciales en la capital rusa.',
+    excerptEn: 'Ukraine launched a drone attack against an oil refinery in the Moscow region, causing a large fire and disrupting commercial flights in the Russian capital.',
+    contentEs: `### Ucrania golpea infraestructura energética rusa
+
+Las fuerzas de Ucrania atacaron una refinería de petróleo clave en la región de Moscú en junio de 2026, en uno de los ataques más significativos contra la infraestructura energética rusa desde el inicio de la guerra a gran escala.
+
+### Detalles del ataque
+
+El ataque, ejecutado con drones de largo alcance, alcanzó la refinería de Moscú provocando un incendio de gran magnitud y una densa columna de humo visible desde varios kilómetros a la redonda.
+
+Funcionarios rusos confirmaron que el ataque interrumpió temporalmente los vuelos comerciales en los aeropuertos de Moscú como medida de precaución. Las autoridades rusas desplegaron sistemas de defensa aérea para proteger la capital.
+
+### Respuesta de Zelensky
+
+El presidente Volodymyr Zelensky calificó la acción como "una respuesta justa a los ataques rusos", en el marco de la campaña de Ucrania para golpear objetivos estratégicos dentro del territorio ruso.
+
+Este ataque se enmarca en la estrategia ucraniana de atacar refinerías y depósitos de combustible rusos para afectar la logística militar y la capacidad económica de Moscú para sostener la guerra.
+
+### Escalada de ataques cruzados
+
+El ataque a la refinería de Moscú se produjo días después de que Ucrania golpeara otras instalaciones energéticas rusas, incluyendo la refinería Lukoil-Nizhegorodnefteorgsintez en Kstovo, una de las mayores del país.
+
+Rusia respondió intensificando sus ataques con misiles contra infraestructura crítica ucraniana, en un ciclo de escalada que no muestra señales de disminuir.
+
+Con información de: CNN Español.`,
+    contentEn: `### Ukraine Strikes Russian Oil Refinery Near Moscow
+
+Ukraine launched a drone attack against a key oil refinery in the Moscow region in June 2026, causing a large fire and disrupting commercial flights. President Zelensky called it "a fair response to Russian attacks." The strike is part of Ukraine's strategy to target Russian energy infrastructure to affect Moscow's war logistics.
+
+With information from: CNN Español.`,
+    date: '2026-06-18',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&h=630&fit=crop',
+    imageCaption: 'Refinería de petróleo. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/2026/06/18/mundo/ucrania-ataca-refineria-petroleo-moscu-trax'
+  },
+  {
+    id: '95',
+    contentType: 'news',
+    slug: 'resumen-guerra-israel-hamas-gaza-julio',
+    titleEs: 'Guerra en Gaza: resumen del conflicto entre Israel y Hamas y las negociaciones de paz',
+    titleEn: 'Gaza War: summary of the Israel-Hamas conflict and peace negotiations',
+    excerptEs: 'Más de dos años de guerra en Gaza continúan cobrando víctimas, mientras las negociaciones de paz mediadas por Estados Unidos permanecen estancadas y la ofensiva israelí se expande.',
+    excerptEn: 'Over two years of war in Gaza continue to take a toll as US-mediated peace negotiations remain stalled and the Israeli offensive expands.',
+    contentEs: `### Guerra en Gaza: un conflicto sin fin a la vista
+
+La guerra entre Israel y Hamas en la Franja de Gaza, que comenzó tras el ataque del 7 de octubre de 2023, ha superado los dos años y medio de duración, convirtiéndose en uno de los conflictos más prolongados y devastadores de la historia reciente de Medio Oriente.
+
+### Situación actual
+
+A julio de 2026, la Franja de Gaza sigue siendo escenario de combates activos. El ejército israelí mantiene operaciones terrestres en varias zonas del enclave, mientras que los ataques aéreos continúan de forma regular.
+
+El alto el fuego que entró en vigor en octubre de 2025 se ha deteriorado progresivamente. Israel ha expandido su control territorial más allá de lo estipulado en el acuerdo original, pasando de controlar aproximadamente el 52% al 60% del territorio gazatí.
+
+### Crisis humanitaria
+
+La población de Gaza, estimada en más de 2 millones de personas, enfrenta una situación humanitaria calificada como "catastrófica" por organizaciones internacionales. El acceso a agua potable, alimentos y atención médica sigue siendo severamente restringido.
+
+Según datos de Naciones Unidas, más del 70% de las viviendas han sido dañadas o destruidas, y la infraestructura básica —hospitales, escuelas y sistemas de agua— está gravemente afectada.
+
+### Negociaciones estancadas
+
+Las negociaciones para una segunda fase del alto el fuego, que preveía el desarme de Hamas y una retirada progresiva del ejército israelí, no han logrado avances sustanciales. La comunidad internacional sigue sin encontrar una solución diplomática viable.
+
+Con información de: CNN Español.`,
+    contentEn: `### Gaza War: A Conflict Without End in Sight
+
+The war between Israel and Hamas in Gaza, which began after the October 7, 2023 attack, has surpassed two and a half years. The ceasefire from October 2025 has deteriorated. Israel has expanded territorial control beyond the original agreement. Over 2 million people face a catastrophic humanitarian situation.
+
+With information from: CNN Español.`,
+    date: '2026-07-22',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=1200&h=630&fit=crop',
+    imageCaption: 'Vista de la Franja de Gaza. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'CNN Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/mundo/live-news/guerra-israel-hamas-gaza-en-vivo-trax'
+  },
+  {
+    id: '96',
+    contentType: 'news',
+    slug: 'netanyahu-control-setenta-gaza',
+    titleEs: 'Netanyahu ordena al ejército de Israel tomar el control del 70% de Gaza',
+    titleEn: 'Netanyahu orders Israeli army to seize control of 70% of Gaza',
+    excerptEs: 'El primer ministro israelí anunció la expansión militar más significativa desde el alto el fuego, ordenando ocupar el 70% del territorio gazatí, en medio de una crisis humanitaria que empeora.',
+    excerptEn: "Israel's Prime Minister announced the most significant military expansion since the ceasefire, ordering the occupation of 70% of Gaza territory amid a worsening humanitarian crisis.",
+    contentEs: `### Netanyahu ordena ocupar el 70% de Gaza
+
+El primer ministro de Israel, Benjamin Netanyahu, declaró en mayo de 2026 que había ordenado al ejército ocupar el 70% del territorio de la Franja de Gaza, una expansión militar significativa que ignora los términos del alto el fuego vigente desde octubre de 2025.
+
+### Declaraciones de Netanyahu
+
+Durante una conferencia en Cisjordania ocupada, Netanyahu dijo: "Ahora estamos en el 60% de la Franja de Gaza. Estábamos en el 50%, ahora hemos avanzado al 60%". Cuando la audiencia le pidió ocupar la totalidad del territorio, respondió: "Vayamos por orden. Primero, el 70%".
+
+El mandatario aseguró que la misión es "asegurar que Gaza ya no represente una amenaza para Israel".
+
+### Expansión territorial progresiva
+
+Desde el alto el fuego de octubre de 2025, Israel ha expandido su control de forma progresiva:
+- **Octubre 2025**: ~52% del territorio controlado
+- **Mayo 2026**: ~60% del territorio controlado
+- **Nueva orden**: 70% del territorio
+
+El ejército israelí trazó una "línea amarilla" que hacinaba a los 2,1 millones de habitantes en menos de la mitad del territorio, y posteriormente una "línea naranja" que restringió aún más el movimiento.
+
+### Reacciones internacionales
+
+La ONG Gisha denunció que la nueva delimitación restringe el acceso humanitario en casi el 48% de Gaza, donde el movimiento de organizaciones internacionales queda prohibido sin coordinación previa con Israel.
+
+Organizaciones de derechos humanos calificaron la medida como una violación del derecho internacional humanitario y un obstáculo adicional para la ya crítica situación humanitaria en el enclave.
+
+Con información de: BBC Mundo, AFP y EFE.`,
+    contentEn: `### Netanyahu Orders Occupation of 70% of Gaza
+
+Israeli PM Benjamin Netanyahu declared in May 2026 that he ordered the army to occupy 70% of the Gaza Strip. "We're at 60% now. First, 70%," he said. The expansion violates the October 2025 ceasefire terms. Humanitarian organizations condemned the move as a violation of international law.
+
+With information from: BBC Mundo, AFP and EFE.`,
+    date: '2026-05-29',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1580651315530-69c8e0026377?w=1200&h=630&fit=crop',
+    imageCaption: 'Tanques militares en una zona de conflicto. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    source: 'BBC Mundo',
+    sourceUrl: 'https://www.bbc.com/mundo/articles/clyp511y95po'
+  },
+  {
+    id: '97',
+    contentType: 'news',
+    slug: 'hospitales-sudan-crisis-guerra',
+    titleEs: 'Los hospitales en Sudán luchan por atender pacientes mientras la guerra se intensifica',
+    titleEn: "Hospitals in Sudan struggle to treat patients as war intensifies",
+    excerptEs: 'El 37% de los centros de salud en Sudán están inoperativos tras tres años de guerra civil. Brotes de cólera, sarampión y malaria azotan a una población de 34 millones que necesita ayuda humanitaria.',
+    excerptEn: '37% of health facilities in Sudan are inoperative after three years of civil war. Cholera, measles, and malaria outbreaks plague a population of 34 million in need of humanitarian aid.',
+    contentEs: `### Sudán: hospitales al borde del colapso
+
+Tres años después del estallido de la guerra civil en Sudán en abril de 2023, el sistema de salud del país está al borde del colapso total. Según la Organización Mundial de la Salud (OMS), el 37% de los establecimientos de salud en los 18 estados del país permanecen inoperativos.
+
+### Ataques contra la salud
+
+Los establecimientos de salud, ambulancias, pacientes y trabajadores sanitarios han sido repetidamente blanco de ataques por parte de ambos bandos del conflicto. En Kordofán, los ataques han destruido hospitales enteros y se han cobrado víctimas mortales entre pacientes y personal médico, incluidos niños.
+
+Muchos hospitales solo funcionan parcialmente o han cerrado debido a la destrucción de instalaciones y equipos. Los pacientes que necesitan atención urgente se ven obligados a emprender trayectos largos y peligrosos para llegar a los centros de salud más cercanos que aún operan.
+
+### Brotes epidémicos generalizados
+
+La OMS reporta brotes de múltiples enfermedades en varios estados del país:
+- **Paludismo** (malaria)
+- **Dengue**
+- **Sarampión**
+- **Poliomielitis** (cVDPV2)
+- **Hepatitis E**
+- **Meningitis**
+- **Difteria**
+
+### Crisis de desnutrición
+
+Más de 21 millones de personas padecen inseguridad alimentaria aguda en Sudán. Se estima que 3,7 millones de niños, mujeres embarazadas y lactantes sufren desnutrición, con situaciones críticas en el norte de Darfur, donde más de la mitad de los menores presentan malnutrición.
+
+### Acción humanitaria
+
+La OMS ha entregado más de 3.300 toneladas métricas de medicamentos y suministros desde abril de 2023, pero la provisión de ayuda está severamente limitada por la inseguridad, los bloqueos y los obstáculos administrativos.
+
+Con información de: OMS y CNN Español.`,
+    contentEn: `### Sudan: Hospitals on the Brink of Collapse
+
+After three years of civil war, 37% of Sudan's health facilities remain inoperative. Health workers and facilities have been repeatedly attacked. Cholera, measles, malaria, and other disease outbreaks are widespread. Over 21 million people face acute food insecurity. The WHO has delivered over 3,300 metric tons of medical supplies.
+
+With information from: WHO and CNN Español.`,
+    date: '2026-07-18',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&h=630&fit=crop',
+    imageCaption: 'Hospital en una zona de conflicto. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: true,
+    views: 1,
+    source: 'Organización Mundial de la Salud / CNN Español',
+    sourceUrl: 'https://www.who.int/es/news/item/14-04-2026-after-three-years-of-conflict--sudan-faces-a-deeper-health-crisis'
+  },
+  {
+    id: '98',
+    contentType: 'news',
+    slug: 'tres-anos-guerra-sudan-crisis-desplazamiento',
+    titleEs: 'Tres años de guerra en Sudán: la mayor crisis de desplazamiento del mundo',
+    titleEn: 'Three years of war in Sudan: the world\'s largest displacement crisis',
+    excerptEs: 'Más de 11,6 millones de personas han sido desplazadas por la guerra civil en Sudán, convirtiéndola en la mayor crisis de desplazamiento del mundo. 6,8 millones están desplazados internos y 4,4 millones han huido a países vecinos.',
+    excerptEn: 'Over 11.6 million people have been displaced by the civil war in Sudan, making it the world\'s largest displacement crisis. 6.8 million are internally displaced and 4.4 million have fled to neighboring countries.',
+    contentEs: `### Sudán: tres años de guerra, tres años de horror
+
+El 15 de abril de 2026 se cumplieron tres años del estallido de la guerra civil en Sudán, un conflicto que ha generado la mayor crisis de desplazamiento del mundo y una de las peores catástrofes humanitarias del siglo XXI.
+
+### Cifras de la catástrofe
+
+Según la Agencia de la ONU para los Refugiados (ACNUR):
+- **11,6 millones** de personas desplazadas forzosamente
+- **6,8 millones** de desplazados internos dentro de Sudán
+- **4,4 millones** que han cruzado a siete países vecinos
+- **1 de cada 4** habitantes es una persona desplazada
+- **1 de cada 6** desplazados internos del mundo es sudanés
+
+### Destinos de los refugiados
+
+Los principales países de acogida son la República Centroafricana, Chad, Egipto, Etiopía, Libia, Sudán del Sur y Uganda. El 75% de quienes huyen se encuentra en Sudán del Sur y Egipto.
+
+Los países vecinos, que enfrentan sus propias crisis económicas, han visto sus sistemas de acogida completamente saturados.
+
+### Violencia de género y crímenes de guerra
+
+La violencia afecta desproporcionadamente a mujeres y niñas, con numerosos casos de violencia sexual, explotación y secuestros. En zonas como El Fasher, la violación se utiliza como arma de guerra.
+
+La Corte Penal Internacional ha abierto una nueva investigación sobre crímenes de guerra en Sudán, pero su jurisdicción se limita a la región de Darfur.
+
+### Hambruna y desnutrición
+
+Más de 21 millones de personas padecen inseguridad alimentaria aguda. La hambruna ha sido confirmada en varias regiones. ACNUR advierte que la falta de financiación global —la mayor en décadas— agrava aún más la crisis.
+
+Con información de: ACNUR e Infobae.`,
+    contentEn: `### Sudan: Three Years of War, the World's Largest Displacement Crisis
+
+On April 15, 2026, Sudan marked three years of civil war. 11.6 million people have been forcibly displaced, making it the world's largest displacement crisis. 6.8 million are internally displaced and 4.4 million have fled to neighboring countries. Over 21 million face acute food insecurity.
+
+With information from: UNHCR and Infobae.`,
+    date: '2026-04-15',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=1200&h=630&fit=crop',
+    imageCaption: 'Campamento de desplazados. Foto: Unsplash',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: true,
+    views: 1,
+    source: 'ACNUR / Infobae',
+    sourceUrl: 'https://www.infobae.com/america/mundo/2026/04/15/tres-anos-de-guerra-en-sudan-la-mayor-crisis-de-desplazamiento-del-mundo/'
   }
 ];
 
