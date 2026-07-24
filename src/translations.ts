@@ -4355,6 +4355,1360 @@ For more details visit: https://www.segip.gob.bo`,
     enableComments: true,
     featured: true,
     views: 1
+  },
+{
+    id: '80',
+    contentType: 'analysis',
+    slug: 'guia-soat-bolivia-2026',
+    titleEs: 'SOAT 2026 en Bolivia — Precios, cómo comprarlo, requisitos y multas',
+    titleEn: 'SOAT 2026 in Bolivia — Prices, how to buy it, requirements and fines',
+    excerptEs: 'Guía completa del Seguro Obligatorio de Accidentes de Tránsito (SOAT) en Bolivia para 2026. Precios actualizados por tipo de vehículo, dónde comprarlo, documentos necesarios, multas por no tenerlo y cómo verificar tu póliza en línea.',
+    excerptEn: 'Complete guide to the Mandatory Transit Accident Insurance (SOAT) in Bolivia for 2026. Updated prices by vehicle type, where to buy it, required documents, fines, and how to verify your policy online.',
+    contentEs: `### Guía Completa: SOAT Bolivia 2026
+
+El **SOAT (Seguro Obligatorio de Accidentes de Tránsito)** es un seguro que todo propietario de vehículo en Bolivia debe contratar anualmente. Cubre gastos médicos y muerte por accidentes de tránsito para ocupantes del vehículo, peatones y terceros afectados.
+
+Circular sin SOAT es una infracción grave que puede resultar en multas económicas, retención del vehículo y suspensión de la licencia de conducir.
+
+---
+
+#### Precios SOAT 2026 por tipo de vehículo
+
+| Tipo de vehículo | Costo aproximado (Bs) |
+|------------------|----------------------|
+| Automóvil particular | 750 — 900 |
+| Taxi / Servicio público | 1,000 — 1,300 |
+| Microbús / Minibús | 1,200 — 1,600 |
+| Bus / Flota | 2,000 — 3,000 |
+| Motocicleta (hasta 200cc) | 250 — 400 |
+| Motocicleta (más de 200cc) | 400 — 600 |
+| Vagoneta / Camioneta | 800 — 1,100 |
+| Camión (carga liviana) | 1,200 — 1,800 |
+| Camión (carga pesada) | 2,500 — 4,000 |
+
+> Los precios varían según la aseguradora y el modelo del vehículo. Los montos mostrados son referenciales para 2026.
+
+---
+
+#### Cobertura del SOAT
+
+El SOAT cubre:
+
+- **Gastos médicos:** Hasta Bs 20,000 por persona
+- **Muerte accidental:** Hasta Bs 20,000 por persona
+- **Incapacidad permanente:** Hasta Bs 20,000 por persona
+- **Gastos funerarios:** Hasta Bs 4,000 por persona
+
+La cobertura aplica para ocupantes del vehículo asegurado, peatones y terceros involucrados en el accidente, sin importar quién tuvo la culpa.
+
+---
+
+#### Requisitos para comprar el SOAT
+
+1. **RUAT** (Registro Único de Automotores) del vehículo
+2. **SOAT anterior** (si es renovación)
+3. **Cédula de Identidad** del propietario
+4. **Inspección técnica** del vehículo (en algunas aseguradoras)
+5. **Número de placa** del vehículo
+
+---
+
+#### Dónde comprar el SOAT
+
+El SOAT se puede adquirir en cualquiera de las aseguradoras autorizadas por la **APS (Autoridad de Fiscalización y Control de Pensiones y Seguros)**:
+
+| Aseguradora | Modalidades |
+|-------------|-------------|
+| **Unión** | Presencial, online |
+| **Alianza** | Presencial, online |
+| **BISA** | Presencial, online |
+| **La Boliviana Ciacruz** | Presencial, online |
+| **Fortaleza** | Presencial, online |
+| **Consorcio** | Presencial, online |
+| **CREDISEGUROS** | Presencial, online |
+
+También puedes comprarlo en línea desde las páginas web de cada aseguradora o mediante la plataforma **Mi SOAT** del gobierno.
+
+---
+
+#### Paso a paso para comprar el SOAT online
+
+1. Ingresa al sitio web de la aseguradora de tu preferencia
+2. Selecciona "SOAT" y el tipo de vehículo
+3. Ingresa la placa y el número de RUAT
+4. Verifica los datos del vehículo
+5. Realiza el pago con tarjeta de débito/crédito o transferencia
+6. Descarga tu certificado SOAT en PDF
+7. Imprime el certificado y llévalo siempre en tu vehículo
+
+---
+
+#### Multas por no tener SOAT
+
+- **Multa económica:** 200 UFV (aproximadamente Bs 450 — 500)
+- **Retención del vehículo:** Hasta que presentes el SOAT vigente
+- **Suspensión de licencia:** Hasta 30 días en caso de reincidencia
+- **Inmovilización:** El vehículo será derivado al depósito municipal
+
+Además, si sufres un accidente sin SOAT, deberás cubrir todos los gastos médicos y daños de tu propio bolsillo.
+
+---
+
+#### Cómo verificar tu SOAT en línea
+
+1. Ingresa a [https://www.aps.gob.bo](https://www.aps.gob.bo)
+2. Selecciona "Consulta SOAT"
+3. Ingresa el número de placa del vehículo
+4. El sistema mostrará la vigencia de tu póliza
+
+También puedes verificar desde la página web de la aseguradora donde compraste el SOAT.
+
+---
+
+#### Preguntas Frecuentes
+
+**¿El SOAT cubre daños al vehículo?**
+No. El SOAT solo cubre gastos médicos y muerte de personas. Los daños materiales al vehículo requieren un seguro contra todo riesgo (cobertura amplia).
+
+**¿Puedo comprar el SOAT en cuotas?**
+Algunas aseguradoras ofrecen financiamiento. Consulta directamente con la aseguradora de tu preferencia.
+
+**¿Qué hago si pierdo mi certificado SOAT?**
+Puedes descargar una copia desde el portal web de la aseguradora donde lo compraste o solicitar un duplicado.
+
+**¿El SOAT es el mismo para todo el año?**
+Sí, el SOAT tiene vigencia de un año desde la fecha de emisión. Debes renovarlo antes del vencimiento.
+
+**¿Puedo comprar SOAT si mi vehículo no tiene RUAT?**
+No. El RUAT es obligatorio para adquirir el SOAT. Si no tienes RUAT, debes tramitarlo primero en SEGIP.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los precios y montos pueden variar. Verifica siempre en el sitio oficial de la APS o tu aseguradora.`,
+    contentEn: `### Complete Guide: SOAT Bolivia 2026
+
+The **SOAT (Mandatory Transit Accident Insurance)** is an annual insurance that every vehicle owner in Bolivia must purchase. It covers medical expenses and death from traffic accidents.
+
+**2026 Prices (approximate):**
+- Private car: Bs 750-900
+- Motorcycle: Bs 250-600
+- Taxi/public service: Bs 1,000-1,300
+- Truck (heavy): Bs 2,500-4,000
+
+**Requirements:** RUAT, previous SOAT (for renewal), vehicle owner's ID, license plate number
+
+**Where to buy:** Authorized insurers (Unión, Alianza, BISA, La Boliviana Ciacruz, Fortaleza, Consorcio, CREDISEGUROS) — in person or online.
+
+**Fines for driving without SOAT:** 200 UFV (~Bs 450-500), vehicle retention, license suspension.
+
+**Coverage:** Up to Bs 20,000 per person for medical expenses, accidental death, and permanent disability.
+
+For more info: https://www.aps.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1200&h=630&fit=crop',
+    imageCaption: 'Automóvil en carretera. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '81',
+    contentType: 'analysis',
+    slug: 'guia-licencia-conducir-bolivia-2026',
+    titleEs: 'Cómo sacar la Licencia de Conducir en Bolivia 2026 — Requisitos, costos y categorías',
+    titleEn: 'How to get a Driver\'s License in Bolivia 2026 — Requirements, costs and categories',
+    excerptEs: 'Guía completa para obtener o renovar tu licencia de conducir en Bolivia. Categorías (A, B, C, D, E, F), requisitos actualizados, costos por categoría, paso a paso de los exámenes médicos, psicológicos, escrito y práctico, y todo sobre el nuevo sistema SEGIP.',
+    excerptEn: 'Complete guide to get or renew your driver\'s license in Bolivia. Categories (A, B, C, D, E, F), updated requirements, costs by category, step-by-step of medical, psychological, written and driving tests, and the new SEGIP system.',
+    contentEs: `### Guía Completa: Licencia de Conducir Bolivia 2026
+
+La **Licencia de Conducir** es el documento oficial que autoriza a una persona a conducir vehículos motorizados en territorio boliviano. Es emitida por el **SEGIP (Servicio General de Identificación Personal)** desde la transferencia de competencias de las antiguas alcaldías.
+
+---
+
+#### Categorías de licencia
+
+| Categoría | Vehículos autorizados | Edad mínima |
+|-----------|----------------------|-------------|
+| **Categoría A** | Motocicletas hasta 200cc | 16 años |
+| **Categoría B** | Automóviles, vagonetas, camionetas (hasta 4.5 ton) | 18 años |
+| **Categoría C** | Transporte de pasajeros (microbuses, buses) | 21 años |
+| **Categoría D** | Vehículos de emergencia y escolta | 23 años |
+| **Categoría E** | Maquinaria pesada y agrícola | 21 años |
+| **Categoría F** | Vehículos del Estado y Fuerzas Armadas | 18 años |
+
+---
+
+#### Requisitos por categoría
+
+**Categoría A (motos hasta 200cc):**
+- Cédula de Identidad original y copia
+- Certificado de domicilio (original con no más de 90 días)
+- Certificado médico (visión, audición, reflejos)
+- Certificado psicológico
+- Aprobar examen escrito de normas de tránsito
+- Aprobar examen práctico de conducción
+- Dos fotografías 4x4 fondo blanco
+
+**Categoría B (automóviles):**
+- Cédula de Identidad original y copia
+- Certificado de domicilio (con no más de 90 días)
+- Certificado médico integral
+- Certificado psicológico
+- Aprobar examen escrito de normas de tránsito y señalización
+- Aprobar examen práctico de conducción en circuito cerrado
+- Dos fotografías 4x4 fondo blanco
+- Pago en el Banco Unión
+
+**Categorías C, D, E (transporte pesado y pasajeros):**
+- Todos los requisitos de la categoría B
+- Edad mínima según categoría
+- Experiencia previa de 2 años con categoría B (mínimo)
+- Curso de capacitación especializada (transporte de pasajeros o carga)
+- Examen psicológico más riguroso
+
+---
+
+#### Costos actualizados (2026)
+
+| Categoría | Primera emisión | Renovación |
+|-----------|----------------|------------|
+| A (motos) | Bs 150 — 200 | Bs 100 — 150 |
+| B (automóviles) | Bs 300 — 400 | Bs 150 — 250 |
+| C (transporte pasajeros) | Bs 450 — 550 | Bs 250 — 350 |
+| D (emergencia) | Bs 500 — 600 | Bs 300 — 400 |
+| E (maquinaria pesada) | Bs 400 — 500 | Bs 250 — 350 |
+
+> Los costos incluyen derechos de examen, certificados médico y psicológico, y emisión del documento. Montos referenciales.
+
+---
+
+#### Paso a paso del trámite
+
+1. **Reúne los documentos** según la categoría que deseas tramitar
+2. **Paga en el Banco Unión** el monto correspondiente a tu categoría
+3. **Saca tu turno** en [turnos.segip.gob.bo](https://turnos.segip.gob.bo) seleccionando "Licencia de Conducir"
+4. **Acude a la oficina SEGIP** el día del turno con todos tus documentos
+5. **Examen médico:** Te realizarán pruebas de visión, audición y reflejos
+6. **Examen psicológico:** Evaluación de aptitudes psicomotrices
+7. **Examen escrito:** Normas de tránsito y señalización (preguntas de opción múltiple)
+8. **Examen práctico:** Conducción en circuito cerrado (categorías A y B)
+9. **Toma de fotografía y firma** para la licencia
+10. **Entrega:** 10 a 30 días hábiles en la misma oficina SEGIP
+
+---
+
+#### Licencia por primera vez vs. renovación
+
+**Primera vez:**
+- Todos los exámenes (médico, psicológico, escrito, práctico)
+- Vigencia: 5 años
+
+**Renovación:**
+- Solo exámenes médico y psicológico (sin escrito ni práctico)
+- Vigencia: 5 años adicionales
+- Puedes renovar hasta 90 días antes del vencimiento
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Puedo sacar mi licencia en cualquier departamento?**
+Sí, el SEGIP tiene cobertura nacional. Puedes tramitar tu licencia en cualquier oficina del país.
+
+**¿Qué pasa si repruebo el examen escrito?**
+Puedes volver a tomarlo después de 7 días hábiles. Algunas oficinas permiten reprogramar el examen sin costo adicional.
+
+**¿La licencia boliviana es válida en el extranjero?**
+Depende del país. En países de la Comunidad Andina y Mercosur se acepta la licencia boliviana. Para otros destinos se recomienda obtener un Permiso Internacional de Conducir.
+
+**¿Qué hago si pierdo mi licencia?**
+Debes solicitar un duplicado en SEGIP presentando denuncia policial, certificado de domicilio y pago en Banco Unión.
+
+**¿Los adultos mayores necesitan renovar?**
+Sí. No hay exención para adultos mayores en licencias de conducir. Deben renovar cada 5 años con exámenes médicos.
+
+**¿Puedo manejar con licencia vencida?**
+No. Conducir con licencia vencida es una infracción que puede resultar en multa y retención del vehículo.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en el sitio oficial del SEGIP.`,
+    contentEn: `### Complete Guide: Driver's License Bolivia 2026
+
+The **Driver's License** is issued by **SEGIP** since the transfer of competencies from municipalities.
+
+**Categories:**
+- **A:** Motorcycles up to 200cc (min. age 16)
+- **B:** Cars, SUVs, pickup trucks up to 4.5 tons (min. age 18)
+- **C:** Passenger transport (buses, minibuses, min. age 21)
+- **D:** Emergency vehicles (min. age 23)
+- **E:** Heavy machinery (min. age 21)
+
+**Requirements:** ID card, proof of residence, medical certificate, psychological evaluation, written exam (traffic rules), practical driving exam.
+
+**Costs (approximate):**
+- Category A: Bs 150-200 (first time), Bs 100-150 (renewal)
+- Category B: Bs 300-400 (first time), Bs 150-250 (renewal)
+- Category C: Bs 450-550 (first time)
+
+**Validity:** 5 years. For more info: https://www.segip.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '9 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&h=630&fit=crop',
+    imageCaption: 'Conduciendo en carretera. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '82',
+    contentType: 'analysis',
+    slug: 'guia-pasaporte-boliviano-2026',
+    titleEs: 'Cómo sacar el Pasaporte Boliviano 2026 — Requisitos, costos y tiempos de entrega',
+    titleEn: 'How to get the Bolivian Passport 2026 — Requirements, costs and delivery times',
+    excerptEs: 'Guía completa para obtener o renovar tu pasaporte boliviano. Tipos de pasaporte (ordinario, emergencia), requisitos actualizados, costos oficiales, paso a paso del trámite en SEGIP, tiempos de entrega y cómo consultar el estado de tu solicitud.',
+    excerptEn: 'Complete guide to get or renew your Bolivian passport. Types (ordinary, emergency), updated requirements, official costs, step-by-step SEGIP process, delivery times, and how to check your application status.',
+    contentEs: `### Guía Completa: Pasaporte Boliviano 2026
+
+El **Pasaporte Boliviano** es el documento de viaje que permite a los ciudadanos bolivianos salir del país y viajar al extranjero. Es emitido por el **SEGIP** y tiene una vigencia de **10 años** para mayores de edad.
+
+---
+
+#### Tipos de pasaporte
+
+| Tipo | Uso | Vigencia | Costo |
+|------|-----|----------|-------|
+| **Ordinario** | Viajes personales, turismo, trabajo | 10 años | Bs 450 — 600 |
+| **Emergencia** | Viajes urgentes por salud, fallecimiento | 1 año | Bs 750 — 900 |
+| **Menores de edad** | Viajes de niños y adolescentes | 5 años | Bs 300 — 450 |
+| **Oficial/Diplomático** | Funcionarios del Estado | Según cargo | Gratuito |
+
+---
+
+#### Requisitos para pasaporte ordinario
+
+- **Cédula de Identidad** original y vigente
+- **Certificado de domicilio** (original con no más de 90 días de antigüedad)
+- **Dos fotografías** 4x4 cm, fondo blanco, sin retoques
+- **Pago en el Banco Unión** (Bs 450 — 600 según la oficina)
+- **Partida de nacimiento** (solo para primera vez, original)
+- **Pasaporte anterior** (solo para renovación, original)
+
+**Para menores de edad:**
+- Partida de nacimiento original
+- Cédula de Identidad del menor (si tiene)
+- Cédula de Identidad de ambos padres (originales)
+- Autorización de ambos padres (presencial)
+- Si uno de los padres no asiste: autorización notariada
+
+---
+
+#### Costos actualizados (2026)
+
+| Tipo | Costo (Bs) |
+|------|-----------|
+| Pasaporte ordinario (mayores) | 450 — 600 |
+| Pasaporte ordinario (menores) | 300 — 450 |
+| Pasaporte de emergencia | 750 — 900 |
+| Duplicado (robo/extravío) | 450 — 600 |
+| Renovación | 450 — 600 |
+
+> Los pagos se realizan exclusivamente en el **Banco Unión**. No se acepta efectivo en las oficinas SEGIP.
+
+---
+
+#### Paso a paso
+
+1. **Reúne los documentos** según tu tipo de trámite
+2. **Paga en el Banco Unión** el monto correspondiente a pasaporte
+3. **Saca tu turno** en [turnos.segip.gob.bo](https://turnos.segip.gob.bo) — selecciona "Pasaporte"
+4. **Acude a la oficina SEGIP** el día del turno con todos los documentos originales
+5. **Toma de datos biométricos:** fotografía digital, huellas dactilares (10 dedos), firma digital
+6. **Verificación de documentos** por el oficial SEGIP
+7. **Espera la entrega:**
+
+| Tipo | Tiempo de entrega |
+|------|-------------------|
+| Ordinario | 10 — 20 días hábiles |
+| Emergencia | 48 — 72 horas |
+| Menores | 15 — 25 días hábiles |
+
+8. **Retira tu pasaporte** en la misma oficina SEGIP presentando el comprobante
+
+---
+
+#### Cómo consultar el estado de tu pasaporte
+
+1. Ingresa a [https://www.segip.gob.bo](https://www.segip.gob.bo)
+2. Selecciona "Consulta de Pasaporte"
+3. Ingresa tu número de cédula de identidad
+4. El sistema mostrará el estado actual de tu trámite
+
+---
+
+#### Países sin visa para bolivianos (2026)
+
+Bolivia tiene acuerdos de exención de visa con:
+
+- **Comunidad Andina:** Perú, Colombia, Ecuador (solo con CI)
+- **Mercosur:** Argentina, Brasil, Paraguay, Uruguay (solo con CI)
+- **Chile** (solo con CI)
+- **México** (90 días)
+- **Rusia** (90 días)
+- **China** (30 días)
+- **Emiratos Árabes Unidos** (90 días)
+- **Sudáfrica** (30 días)
+- **Turquía** (90 días)
+- **Japón** (90 días, pasaporte electrónico)
+- **Corea del Sur** (90 días)
+- **Reino Unido** (6 meses)
+- **Espacio Schengen** (90 días en 180 días)
+
+> La lista puede variar. Verifica siempre los requisitos de visa antes de viajar.
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Puedo renovar el pasaporte antes de que venza?**
+Sí. Puedes renovarlo incluso si está vigente. El tiempo restante se perderá.
+
+**¿Qué hago si pierdo mi pasaporte en el extranjero?**
+Debes acudir al Consulado o Embajada de Bolivia más cercana para solicitar un pasaporte de emergencia o salvoconducto.
+
+**¿El pasaporte boliviano es biométrico?**
+Sí. Desde 2019, Bolivia emite pasaportes electrónicos biométricos con chip.
+
+**¿Puedo viajar solo con la Cédula de Identidad?**
+Sí, a países de la Comunidad Andina y Mercosur. Para el resto del mundo necesitas pasaporte.
+
+**¿Los niños necesitan pasaporte?**
+Sí. Todo ciudadano boliviano, sin importar la edad, necesita pasaporte para viajar fuera de los países del Mercosur y Comunidad Andina.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en el sitio oficial del SEGIP antes de realizar tu trámite.`,
+    contentEn: `### Complete Guide: Bolivian Passport 2026
+
+The **Bolivian Passport** is issued by **SEGIP** and is valid for **10 years** for adults, **5 years** for minors.
+
+**Types and costs:**
+- Ordinary: Bs 450-600 (10 years)
+- Emergency: Bs 750-900 (1 year)
+- Minors: Bs 300-450 (5 years)
+
+**Requirements:** ID card, proof of residence, two 4x4cm photos, Banco Unión payment, birth certificate (first time only), previous passport (renewal only).
+
+**Process:**
+1. Pay at Banco Unión
+2. Book an appointment at turnos.segip.gob.bo
+3. Visit SEGIP office with documents
+4. Biometric data capture (photo, fingerprints, signature)
+5. Delivery: 10-20 business days (ordinary), 48-72 hours (emergency)
+
+**Visa-free travel:** Comunidad Andina, Mercosur, Chile (with ID card only), Mexico, Russia, China, UAE, South Africa, Turkey, Japan, South Korea, UK, Schengen Area.
+
+For more info: https://www.segip.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=630&fit=crop',
+    imageCaption: 'Pasaporte y billetes de avión. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '83',
+    contentType: 'analysis',
+    slug: 'guia-nit-sin-bolivia-2026',
+    titleEs: 'Cómo sacar el NIT en Bolivia 2026 — Requisitos, costos y pasos en Impuestos Nacionales',
+    titleEn: 'How to get the NIT in Bolivia 2026 — Requirements, costs and steps at SIN',
+    excerptEs: 'Guía completa para obtener tu Número de Identificación Tributaria (NIT) en Bolivia. Requisitos para personas naturales y jurídicas, costo gratuito, paso a paso del trámite en el SIN, cómo obtener tu certificado electrónico y cómo inscribirte en el régimen simplificado.',
+    excerptEn: 'Complete guide to get your Tax Identification Number (NIT) in Bolivia. Requirements for individuals and legal entities, free cost, step-by-step process at SIN, how to get your electronic certificate, and how to register for the simplified regime.',
+    contentEs: `### Guía Completa: NIT Bolivia 2026
+
+El **NIT (Número de Identificación Tributaria)** es el registro que toda persona natural o jurídica debe tener para realizar actividades económicas en Bolivia. Es emitido por el **Servicio de Impuestos Nacionales (SIN)** y es obligatorio para emitir facturas, declarar impuestos y operar legalmente.
+
+---
+
+#### Tipos de contribuyentes
+
+| Tipo | Descripción |
+|------|-------------|
+| **Persona Natural** | Independiente, profesional, comerciante individual |
+| **Persona Jurídica** | Empresas, sociedades, ONGs, fundaciones |
+| **Régimen Simplificado** | Pequeños contribuyentes con ingresos anuales menores a Bs 215,000 |
+| **Régimen General** | Contribuyentes que superan el límite del simplificado |
+
+---
+
+#### Requisitos
+
+**Persona Natural (Régimen General):**
+- Cédula de Identidad original y copia
+- Certificado de domicilio (original, con no más de 90 días)
+- Factura de luz, agua o teléfono (para verificar domicilio fiscal)
+- Croquis de ubicación del domicilio fiscal
+- Correo electrónico y número de celular
+
+**Persona Natural (Régimen Simplificado):**
+- Cédula de Identidad original y copia
+- Certificado de domicilio
+- Croquis de ubicación
+- Correo electrónico
+
+**Persona Jurídica (Empresa):**
+- Testimonio de constitución (original)
+- Poder del representante legal
+- Cédula de Identidad del representante legal
+- Certificado de domicilio de la empresa
+- Factura de servicios básicos de la empresa
+- Croquis de ubicación
+- Registro en FUNDEMPRESA (Matrícula de Comercio)
+- Correo electrónico y número de celular
+
+---
+
+#### Costo
+
+| Trámite | Costo |
+|---------|-------|
+| Inscripción al NIT | **Gratuito** |
+| Certificado electrónico (firma digital) | Bs 100 — 150 |
+| Actualización de datos | **Gratuito** |
+| Cancelación de NIT | **Gratuito** |
+
+> La inscripción al NIT no tiene costo. El único gasto asociado es la **firma digital** (certificado electrónico) si la necesitas para declaraciones virtuales.
+
+---
+
+#### Paso a paso
+
+1. **Reúne los documentos** según tu tipo de contribuyente
+2. **Agenda una cita** en la página del SIN: [https://citas.impuestos.gob.bo](https://citas.impuestos.gob.bo)
+3. **Acude a la oficina del SIN** más cercana el día de tu cita
+4. **Presenta tus documentos** en la ventanilla de "Registro de Contribuyentes"
+5. **El funcionario SIN** verificará tus datos y registrará tu NIT
+6. **Recibe tu NIT** de forma inmediata (papel sellado y firmado)
+7. **Solicita tu Certificado Electrónico** (firma digital) en la misma oficina si planeas declarar en línea
+
+---
+
+#### Obligaciones después de obtener el NIT
+
+| Obligación | Frecuencia |
+|------------|-----------|
+| Presentar declaraciones juradas | Mensual / Anual según el régimen |
+| Emitir facturas autorizadas | Por cada venta o servicio |
+| Pagar impuestos (IVA, IUE, IT) | Según calendario tributario |
+| Actualizar datos en el SIN | Cuando cambies de domicilio o actividad |
+| Presentar DDJJ de información | Anual |
+
+---
+
+#### Multas por incumplimiento
+
+| Infracción | Multa (UFV) |
+|------------|-------------|
+| No presentar declaración jurada | 50 — 500 UFV |
+| No emitir factura | 500 — 2,000 UFV |
+| No tener NIT (ejerciendo comercio) | 1,000 — 3,000 UFV |
+| No actualizar datos | 100 — 300 UFV |
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Necesito NIT si soy independiente?**
+Sí. Si realizas alguna actividad económica por cuenta propia (profesional, comerciante, artista, etc.) debes registrarte en el SIN y obtener tu NIT.
+
+**¿Puedo tener NIT sin facturar?**
+No. El NIT te obliga a emitir factura por cada transacción. Si facturas poco, puedes acogerte al Régimen Simplificado.
+
+**¿El NIT vence?**
+El NIT no tiene fecha de vencimiento. Solo se cancela cuando cesas definitivamente tu actividad económica.
+
+**¿Puedo hacer el trámite en línea?**
+Actualmente, la inscripción inicial requiere presencia física. Las actualizaciones y declaraciones pueden hacerse en línea.
+
+**¿Qué es el certificado electrónico?**
+Es la firma digital que te permite presentar declaraciones juradas y realizar trámites virtuales en el SIN. Se adquiere en las oficinas del SIN o en entidades autorizadas (Agencia de Gobierno Electrónico).
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SIN.`,
+    contentEn: `### Complete Guide: NIT Bolivia 2026
+
+The **NIT (Tax Identification Number)** is required for anyone conducting economic activities in Bolivia, issued by the **National Tax Service (SIN)**.
+
+**Requirements:**
+- **Individuals:** ID card, proof of residence, utility bill, location sketch, email
+- **Companies:** Incorporation deed, legal representative's ID and power of attorney, business registration (FUNDEMPRESA), utility bills, location sketch
+
+**Cost:** Free for registration. Electronic certificate (digital signature): Bs 100-150.
+
+**Process:** Book appointment at citas.impuestos.gob.bo → Visit SIN office with documents → Receive NIT immediately.
+
+**Obligations:** File monthly/annual tax returns, issue authorized invoices, pay taxes (VAT, income tax).
+
+For more info: https://www.impuestos.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
+    imageCaption: 'Documentos de oficina. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '84',
+    contentType: 'analysis',
+    slug: 'guia-ruat-transferencia-vehicular-bolivia-2026',
+    titleEs: 'Cómo hacer la Transferencia Vehicular y sacar el RUAT en Bolivia 2026',
+    titleEn: 'How to do Vehicle Transfer and get RUAT in Bolivia 2026',
+    excerptEs: 'Guía completa del Registro Único de Automotores (RUAT) en Bolivia. Cómo transferir un vehículo, requisitos para compra-venta, costos actualizados, paso a paso en SEGIP, cómo obtener el RUAT por primera vez y cómo consultar la deuda vehicular.',
+    excerptEn: 'Complete guide to the Single Vehicle Registry (RUAT) in Bolivia. How to transfer a vehicle, requirements for sale-purchase, updated costs, step-by-step at SEGIP, how to get RUAT for the first time, and how to check vehicle debt.',
+    contentEs: `### Guía Completa: RUAT y Transferencia Vehicular Bolivia 2026
+
+El **RUAT (Registro Único de Automotores)** es el documento que acredita la propiedad de un vehículo en Bolivia. Es emitido por el **SEGIP** y es obligatorio para circular, transferir el vehículo, contratar el SOAT y realizar cualquier trámite vehicular.
+
+---
+
+#### Tipos de trámite RUAT
+
+| Trámite | Descripción |
+|---------|-------------|
+| **Primera inscripción** | Vehículos nuevos (0 km) o importados |
+| **Transferencia** | Cambio de propietario por compra-venta |
+| **Duplicado** | Por robo, extravío o deterioro |
+| **Cancelación** | Por desguace, destrucción o robo sin recuperación |
+| **Modificación de datos** | Cambio de motor, chasis, color, etc. |
+
+---
+
+#### Requisitos para transferencia vehicular
+
+**Vendedor necesita:**
+- Cédula de Identidad original y copia
+- RUAT original del vehículo
+- SOAT vigente (para verificar que no haya deudas)
+- Pago de deudas vehiculares (si las hay)
+
+**Comprador necesita:**
+- Cédula de Identidad original y copia
+- Certificado de domicilio (original con no más de 90 días)
+
+**Documentos del vehículo:**
+- RUAT original firmado por el vendedor (reverso)
+- Factura de compra-venta original (con firmas del vendedor y comprador)
+- Certificado de inspección técnica vehicular (en algunos casos)
+- Pago en el Banco Unión
+
+---
+
+#### Costos actualizados (2026)
+
+| Trámite | Costo (Bs) |
+|---------|-----------|
+| Primera inscripción (nacional) | 200 — 400 |
+| Primera inscripción (importado) | 400 — 800 |
+| Transferencia vehicular | 150 — 300 |
+| Duplicado | 50 — 100 |
+| Modificación de datos | 50 — 100 |
+
+> Los costos varían según el tipo de vehículo y departamento. Montos referenciales.
+
+---
+
+#### Paso a paso para transferencia vehicular
+
+1. **Acuerda la compra-venta** con el vendedor y firma la factura o minuta de transferencia
+2. **Verifica que el vehículo no tenga deudas** (multas, SOAT, impuestos) en [https://www.segip.gob.bo](https://www.segip.gob.bo)
+3. **Paga en el Banco Unión** el monto correspondiente a transferencia
+4. **Saca tu turno** en [turnos.segip.gob.bo](https://turnos.segip.gob.bo) seleccionando "RUAT — Transferencia"
+5. **Acude a la oficina SEGIP** ambos (vendedor y comprador) con todos los documentos
+6. **Verificación de documentos** por el oficial SEGIP
+7. **Firma del vendedor y comprador** en el nuevo RUAT
+8. **Entrega del nuevo RUAT** a nombre del comprador
+
+**Plazo de entrega:** 15 a 30 días hábiles (algunas oficinas lo entregan al instante)
+
+---
+
+#### Cómo consultar la deuda vehicular
+
+Antes de comprar un vehículo, verifica que no tenga deudas:
+
+1. Ingresa a [https://www.segip.gob.bo](https://www.segip.gob.bo)
+2. Selecciona "Consulta de Deuda Vehicular"
+3. Ingresa el número de placa o RUAT
+4. El sistema mostrará:
+   - Multas de tránsito impagas
+   - SOAT vencido
+   - Impuestos municipales pendientes
+   - Alertas de robo
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Puedo transferir un vehículo sin RUAT original?**
+No. El RUAT original es obligatorio. Si está perdido, el vendedor debe sacar un duplicado antes de la transferencia.
+
+**¿Ambos (vendedor y comprador) deben ir al SEGIP?**
+Sí. Ambos deben presentarse con sus cédulas de identidad para firmar la transferencia.
+
+**¿Qué hago si compré un vehículo y no lo transfiero?**
+El vehículo seguirá registrado a nombre del vendedor. Esto puede generar problemas legales si el vehículo comete infracciones o sufre un accidente.
+
+**¿La transferencia se puede hacer en cualquier departamento?**
+Sí, el RUAT tiene cobertura nacional. Puedes realizar la transferencia en cualquier oficina SEGIP del país.
+
+**¿Qué es la minuta de transferencia?**
+Es un documento legal firmado por ambas partes ante notario de fe pública. No siempre es obligatoria: la factura de compra-venta puede ser suficiente para vehículos usados.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en el sitio oficial del SEGIP.`,
+    contentEn: `### Complete Guide: RUAT Vehicle Transfer Bolivia 2026
+
+The **RUAT (Single Vehicle Registry)** is the document proving vehicle ownership in Bolivia, issued by SEGIP.
+
+**Transfer requirements:**
+- **Seller:** ID card, original RUAT, current SOAT, debt clearance
+- **Buyer:** ID card, proof of residence
+- **Vehicle:** Original RUAT (signed by seller on back), purchase invoice, Banco Unión payment
+
+**Costs:** Bs 150-300 for transfer, Bs 50-100 for duplicate.
+
+**Process:**
+1. Agree on sale and sign the invoice
+2. Check vehicle debt at segip.gob.bo
+3. Pay at Banco Unión
+4. Book appointment at turnos.segip.gob.bo
+5. Both parties visit SEGIP with documents
+6. Sign the new RUAT
+7. Delivery: 15-30 business days
+
+**Check before buying:** Always verify there's no outstanding debt, expired SOAT, traffic fines, or theft alerts at segip.gob.bo.
+
+For more info: https://www.segip.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1200&h=630&fit=crop',
+    imageCaption: 'Vehículo en carretera. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '85',
+    contentType: 'analysis',
+    slug: 'guia-certificado-nacimiento-online-bolivia-2026',
+    titleEs: 'Cómo sacar el Certificado de Nacimiento en línea Bolivia 2026 — SEGIP Digital',
+    titleEn: 'How to get the Birth Certificate online in Bolivia 2026 — SEGIP Digital',
+    excerptEs: 'Guía completa para obtener tu certificado de nacimiento en línea desde la página del SEGIP. Costo, requisitos, paso a paso para descargar el PDF, cómo pagar con Tigo Money o Banco Unión, y qué hacer si tu registro no aparece en el sistema.',
+    excerptEn: 'Complete guide to get your birth certificate online from the SEGIP website. Cost, requirements, step-by-step to download the PDF, how to pay with Tigo Money or Banco Unión, and what to do if your record does not appear in the system.',
+    contentEs: `### Guía Completa: Certificado de Nacimiento en Línea Bolivia 2026
+
+El **Certificado de Nacimiento** es un documento indispensable para realizar prácticamente cualquier trámite en Bolivia: inscripción escolar, matrimonio, obtención de cédula de identidad, pasaporte, etc.
+
+Desde 2020, el **SEGIP** habilitó el sistema en línea para obtener tu certificado de nacimiento sin necesidad de acudir a una oficina.
+
+---
+
+#### Costo
+
+| Tipo | Costo (Bs) |
+|------|-----------|
+| Certificado de nacimiento en línea | **Bs 17** |
+| Certificado de nacimiento presencial | **Bs 17** |
+| Certificado de matrimonio en línea | **Bs 17** |
+| Certificado de defunción en línea | **Bs 17** |
+
+---
+
+#### Requisitos
+
+- Conexión a internet
+- Número de cédula de identidad de la persona (si es mayor de edad)
+- Nombres completos de la persona y de los padres
+- Correo electrónico
+- Tarjeta de débito/crédito, Tigo Money o cuenta en Banco Unión para el pago
+
+---
+
+#### Paso a paso para obtenerlo en línea
+
+1. **Ingresa al portal SEGIP:** [https://www.segip.gob.bo](https://www.segip.gob.bo)
+2. **Selecciona "Certificados en Línea"** en el menú principal
+3. **Elige el tipo de certificado:** Nacimiento, Matrimonio o Defunción
+4. **Ingresa los datos requeridos:**
+   - Número de CI (o nombres completos si no tienes CI)
+   - Nombres y apellidos
+   - Nombres del padre y la madre
+5. **Verifica los datos** que aparecen en pantalla
+6. **Realiza el pago de Bs 17** mediante:
+   - **Tarjeta de crédito/débito** (Visa, Mastercard)
+   - **Tigo Money**
+   - **Banco Unión** (pago con código de referencia)
+7. **Descarga el PDF** del certificado de nacimiento
+8. **Imprime** el certificado (es válido con el código QR y firma digital)
+
+---
+
+#### Cómo verificar la validez del certificado
+
+Todo certificado emitido por el portal SEGIP incluye un **código QR** y un **código de verificación**. Para confirmar su autenticidad:
+
+1. Escanea el código QR con tu celular
+2. O ingresa a [https://www.segip.gob.bo](https://www.segip.gob.bo)
+3. Selecciona "Verificar Certificado"
+4. Ingresa el código de verificación que aparece en el documento
+
+El certificado descargado tiene la **misma validez legal** que uno emitido presencialmente.
+
+---
+
+#### Problemas comunes y soluciones
+
+| Problema | Solución |
+|----------|----------|
+| **"No se encontraron registros"** | Verifica que los nombres estén escritos exactamente como en el Registro Civil. Prueba con variaciones ortográficas. |
+| **El pago no se procesa** | Intenta con otro método de pago o espera 15 minutos y reintenta. |
+| **El PDF no descarga** | Desactiva bloqueadores de ventanas emergentes o intenta con otro navegador. |
+| **Datos incorrectos** | Acude al Registro Civil más cercano para solicitar la rectificación. |
+
+Si el sistema no encuentra tu registro, es posible que tus datos no hayan sido digitalizados. En ese caso, debes acudir al **Registro Civil** de tu localidad para solicitar la inscripción o actualización.
+
+---
+
+#### Oficinas del Registro Civil
+
+| Ciudad | Dirección |
+|--------|-----------|
+| **La Paz** | Calle Bolívar esq. Yanacocha |
+| **El Alto** | Av. Juan Pablo II N° 100 |
+| **Santa Cruz** | Calle Sucre esq. 21 de Mayo |
+| **Cochabamba** | Calle 25 de Mayo esq. Heroínas |
+| **Sucre** | Calle San Alberto N° 15 |
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Puedo sacar el certificado de nacimiento de otra persona?**
+Sí, siempre que tengas los datos correctos: nombres completos y nombres de los padres.
+
+**¿El certificado en línea es válido para tramitar mi cédula?**
+Sí. El certificado de nacimiento emitido en línea tiene la misma validez que el presencial para todo trámite.
+
+**¿Cuántas veces puedo descargar el certificado?**
+Las veces que quieras. Una vez pagado, el PDF queda disponible en tu cuenta por tiempo indefinido.
+
+**¿Qué hago si mi certificado tiene errores ortográficos?**
+Debes acudir al Registro Civil para solicitar la rectificación del error. No se puede corregir en línea.
+
+**¿El certificado en línea sirve para trámites en el exterior?**
+Depende de la institución. Algunos trámites en el exterior pueden requerir el certificado apostillado, que debe tramitarse presencialmente.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos pueden variar. Verifica siempre en el sitio oficial del SEGIP.`,
+    contentEn: `### Complete Guide: Birth Certificate Online Bolivia 2026
+
+The **Birth Certificate** can be obtained online through the **SEGIP** portal without visiting an office. Cost: **Bs 17**.
+
+**Requirements:** Internet connection, ID number or full names, parents' names, email, payment method.
+
+**Step-by-step:**
+1. Go to segip.gob.bo → "Certificados en Línea"
+2. Select "Nacimiento" (Birth)
+3. Enter your details (CI number or full names)
+4. Verify the information on screen
+5. Pay Bs 17 (credit/debit card, Tigo Money, Banco Unión)
+6. Download the PDF certificate
+
+**Validity:** The certificate includes a QR code and verification code. It has the same legal validity as an in-person certificate.
+
+**Troubleshooting:** If the system doesn't find your records, visit the nearest Civil Registry office.
+
+For more info: https://www.segip.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1516575334481-f85287c2c82d?w=1200&h=630&fit=crop',
+    imageCaption: 'Bebé recién nacido. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '86',
+    contentType: 'analysis',
+    slug: 'guia-antecedentes-policiales-reap-bolivia-2026',
+    titleEs: 'Cómo sacar el Certificado de Antecedentes Policiales (REAP) en Bolivia 2026',
+    titleEn: 'How to get the Police Background Certificate (REAP) in Bolivia 2026',
+    excerptEs: 'Guía completa para obtener el Registro de Antecedentes Policiales (REAP) en Bolivia. Requisitos, costo aproximado, paso a paso presencial y en línea, vigencia del certificado y para qué trámites se requiere.',
+    excerptEn: 'Complete guide to get the Police Background Record (REAP) in Bolivia. Requirements, approximate cost, in-person and online step-by-step, certificate validity, and which procedures require it.',
+    contentEs: `### Guía Completa: Antecedentes Policiales (REAP) Bolivia 2026
+
+El **Registro de Antecedentes Policiales (REAP)**, también conocido como **Certificado de Antecedentes Policiales**, es un documento que certifica si una persona tiene o no registros de infracciones o delitos en la base de datos de la Policía Boliviana.
+
+Este certificado es requerido para:
+- Postular a un empleo (especialmente en el sector público)
+- Ingresar a instituciones educativas militares o policiales
+- Trámites migratorios en algunos países
+- Adopción y tenencia de menores
+- Obtención de licencias especiales
+
+---
+
+#### Costo y vigencia
+
+| Concepto | Detalle |
+|----------|---------|
+| **Costo** | Bs 30 — 50 (según la unidad policial) |
+| **Vigencia** | 6 meses desde la fecha de emisión |
+| **Validez** | Nacional |
+
+---
+
+#### Requisitos
+
+- Cédula de Identidad original y copia
+- Certificado de domicilio (opcional, según la unidad)
+- Dos fotografías 4x4 fondo blanco (en algunas unidades)
+- Pago en efectivo (directamente en la unidad policial)
+
+---
+
+#### Paso a paso presencial
+
+1. **Acude a la FELCC (Fuerza Especial de Lucha Contra el Crimen)** de tu departamento o a cualquier unidad policial habilitada
+2. **Solicita el "Certificado de Antecedentes Policiales"**
+3. **Presenta tu Cédula de Identidad** original y copia
+4. **Paga el arancel** (Bs 30 — 50 según la unidad)
+5. **Toma de huellas dactilares** (en algunos casos)
+6. **Espera la verificación** en la base de datos
+7. **Recibe tu certificado** de forma inmediata
+
+**Tiempo de entrega:** El certificado se entrega **el mismo día**, generalmente en 15 a 30 minutos.
+
+---
+
+#### ¿Se puede solicitar en línea?
+
+Actualmente, el REAP **no tiene un sistema en línea** completamente implementado a nivel nacional. Debes acudir personalmente a la unidad policial.
+
+Sin embargo, la **Policía Boliviana** está trabajando en un sistema digital para consultas en línea. Verifica el estado actual en la página oficial de la Policía Boliviana.
+
+---
+
+#### Principales unidades donde tramitarlo
+
+| Ciudad | Unidad |
+|--------|--------|
+| **La Paz** | FELCC — Av. Arce esq. Goitia |
+| **El Alto** | FELCC — Av. Juan Pablo II |
+| **Santa Cruz** | FELCC — Av. Santos Dumont |
+| **Cochabamba** | FELCC — Av. Heroínas |
+| **Sucre** | FELCC — Calle Bolívar |
+| **Oruro** | FELCC — Av. 6 de Octubre |
+| **Potosí** | FELCC — Calle Bustillos |
+
+---
+
+#### Preguntas Frecuentes
+
+**¿El REAP es lo mismo que los antecedentes penales?**
+No. El REAP registra faltas e infracciones policiales, mientras que los antecedentes penales registran sentencias judiciales firmes.
+
+**¿Si tengo antecedentes policiales, puedo trabajar?**
+Depende del empleador. Algunas empresas solicitan el certificado solo para verificar tu historial, pero no todas descartan automáticamente a personas con antecedentes.
+
+**¿Por cuánto tiempo es válido?**
+El certificado tiene una vigencia de **6 meses**. Después de ese período, debes solicitar uno nuevo.
+
+**¿Puede solicitarlo un extranjero?**
+Sí. Los extranjeros residentes en Bolivia también pueden solicitar su certificado de antecedentes policiales presentando su Cédula de Identidad de Extranjero.
+
+**¿El certificado tiene algún costo adicional?**
+El arancel es el único costo. No hay cargos ocultos.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos pueden variar según la unidad policial. Verifica siempre en la unidad más cercana.`,
+    contentEn: `### Complete Guide: Police Background Certificate (REAP) Bolivia 2026
+
+The **REAP (Police Background Record)** certifies whether a person has police records in Bolivia. Required for job applications, educational institutions, and migration procedures.
+
+**Cost:** Bs 30-50
+**Validity:** 6 months
+
+**Requirements:** ID card (original and copy), two 4x4 photos (in some units).
+
+**Process (in-person only):**
+1. Visit the nearest FELCC office
+2. Request the certificate
+3. Present your ID and pay the fee
+4. Wait 15-30 minutes
+5. Receive the certificate same day
+
+**Note:** The REAP is different from criminal background records (antecedentes penales). Police record = minor offenses; criminal record = court sentences.
+
+For more info: Visit your nearest FELCC office.`,
+    date: '2026-07-24',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop',
+    imageCaption: 'Policía Boliviana. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '87',
+    contentType: 'analysis',
+    slug: 'guia-antecedentes-penales-bolivia-2026',
+    titleEs: 'Cómo sacar el Certificado de Antecedentes Penales en Bolivia 2026',
+    titleEn: 'How to get the Criminal Background Certificate in Bolivia 2026',
+    excerptEs: 'Guía completa para obtener el Certificado de Antecedentes Penales en Bolivia. Emitido por el Tribunal Departamental de Justicia, requisitos, costo, paso a paso presencial, vigencia del documento y para qué trámites se requiere.',
+    excerptEn: 'Complete guide to get the Criminal Background Certificate in Bolivia. Issued by the Departmental Court of Justice, requirements, cost, in-person step-by-step, validity, and which procedures require it.',
+    contentEs: `### Guía Completa: Antecedentes Penales Bolivia 2026
+
+El **Certificado de Antecedentes Penales** es un documento oficial emitido por el **Tribunal Departamental de Justicia** que certifica si una persona tiene o no sentencias condenatorias ejecutoriadas registradas en su contra.
+
+Este certificado NO incluye:
+- Infracciones de tránsito
+- Faltas policiales
+- Denuncias sin sentencia
+- Procesos en curso
+
+---
+
+#### Costo y vigencia
+
+| Concepto | Detalle |
+|----------|---------|
+| **Costo** | Bs 30 — 50 (según el departamento) |
+| **Vigencia** | 6 meses desde la fecha de emisión |
+| **Validez** | Nacional |
+| **Tiempo de entrega** | Inmediato (mismo día) |
+
+---
+
+#### Requisitos
+
+- Cédula de Identidad original y copia
+- Formulario de solicitud (se llena en la ventanilla)
+- Pago en efectivo (Bs 30 — 50)
+
+---
+
+#### Paso a paso
+
+1. **Acude al Tribunal Departamental de Justicia** de tu ciudad
+2. **Dirígete a la ventanilla de "Antecedentes Penales"** o "Certificados"
+3. **Solicita el formulario** de solicitud de antecedentes penales
+4. **Llena el formulario** con tus datos personales
+5. **Presenta tu Cédula de Identidad** (original para verificación, copia para el archivo)
+6. **Paga el arancel** en la caja del tribunal o en el Banco Unión (según el departamento)
+7. **Espera la verificación** en el sistema
+8. **Recibe tu certificado** impreso y firmado
+
+---
+
+#### Dónde tramitarlo por departamento
+
+| Ciudad | Dirección del Tribunal de Justicia |
+|--------|-----------------------------------|
+| **La Paz** | Calle Colón esq. Indaburo |
+| **El Alto** | Av. Juan Pablo II N° 200 |
+| **Santa Cruz** | Av. Irala esq. Av. Santos Dumont |
+| **Cochabamba** | Calle 25 de Mayo esq. Heroínas |
+| **Sucre** | Calle Ravelo N° 1 |
+| **Oruro** | Calle Bolívar esq. Adolfo Mier |
+| **Potosí** | Calle Bustillos esq. Sucre |
+| **Tarija** | Calle La Madrid esq. Suipacha |
+| **Trinidad** | Av. 6 de Agosto esq. Avaroa |
+| **Cobija** | Av. 9 de Febrero |
+
+---
+
+#### ¿Hay sistema en línea?
+
+Actualmente, la mayoría de los Tribunales Departamentales de Justicia **no ofrecen este trámite completamente en línea**. Debes acudir presencialmente.
+
+Sin embargo, algunos tribunales están implementando sistemas de consulta en línea. Verifica en la página web del Tribunal Departamental de Justicia de tu departamento.
+
+---
+
+#### Diferencias clave: Antecedentes Penales vs. Policiales
+
+| Característica | Antecedentes Penales | Antecedentes Policiales (REAP) |
+|----------------|---------------------|-------------------------------|
+| **Emitido por** | Tribunal de Justicia | Policía Boliviana (FELCC) |
+| **Registra** | Sentencias judiciales firmes | Faltas e infracciones policiales |
+| **Costo** | Bs 30 — 50 | Bs 30 — 50 |
+| **Vigencia** | 6 meses | 6 meses |
+| **Se necesita para** | Trabajo en sector público, adopción | Empleo general, ingreso a instituciones |
+
+En muchos trámites (como postulaciones a cargos públicos o adopciones) te pedirán **ambos** certificados.
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Los antecedentes penales incluyen delitos de tránsito?**
+Solo si hubo una sentencia condenatoria firme por un delito de tránsito (homicidio culposo, por ejemplo). Las multas de tránsito no aparecen.
+
+**¿Si tengo una denuncia pero no fui condenado, aparece?**
+No. El certificado solo registra sentencias condenatorias ejecutoriadas. Las denuncias sin sentencia no aparecen.
+
+**¿Cuánto tiempo quedan los antecedentes en el registro?**
+Depende del delito. Una vez cumplida la condena y extinguida la responsabilidad penal, los antecedentes pueden ser cancelados mediante un trámite judicial específico.
+
+**¿Un extranjero puede solicitar antecedentes penales en Bolivia?**
+Sí, presentando su Cédula de Identidad de Extranjero o pasaporte con visa vigente.
+
+**¿Sirve para apostilla?**
+Sí. Si necesitas el certificado para trámites en el exterior, puedes apostillarlo en el Ministerio de Relaciones Exteriores.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los costos pueden variar según el departamento. Verifica siempre en tu Tribunal Departamental de Justicia.`,
+    contentEn: `### Complete Guide: Criminal Background Certificate Bolivia 2026
+
+The **Criminal Background Certificate** is issued by the **Departmental Court of Justice**. It certifies whether a person has final criminal convictions.
+
+**Cost:** Bs 30-50
+**Validity:** 6 months
+
+**Requirements:** ID card (original and copy), application form, payment.
+
+**Process:**
+1. Visit the Departmental Court of Justice in your city
+2. Request the application form at the "Criminal Records" window
+3. Fill in your personal information
+4. Pay the fee and submit your ID
+5. Receive the certificate same day
+
+**Key difference from REAP:** Criminal records = court sentences; Police records (REAP) = police infractions. Many official procedures require BOTH certificates.
+
+For more info: Visit your nearest Departmental Court of Justice.`,
+    date: '2026-07-24',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop',
+    imageCaption: 'Tribunal de Justicia. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+{
+    id: '88',
+    contentType: 'analysis',
+    slug: 'guia-visa-bolivia-extranjeros-2026',
+    titleEs: 'Visa para Bolivia 2026 — Requisitos, tipos y cómo tramitarla para extranjeros',
+    titleEn: 'Visa for Bolivia 2026 — Requirements, types and how to apply for foreigners',
+    excerptEs: 'Guía completa de visas para extranjeros que desean viajar o residir en Bolivia. Tipos de visa (turista, negocios, residencia), requisitos por país de origen, costos actualizados, paso a paso del trámite consular, prórroga de estadía y cómo regularizar tu situación migratoria.',
+    excerptEn: 'Complete visa guide for foreigners wanting to travel or reside in Bolivia. Visa types (tourist, business, residency), requirements by country of origin, updated costs, step-by-step consular process, stay extension, and how to regularize your immigration status.',
+    contentEs: `### Guía Completa: Visa para Bolivia 2026
+
+La **visa para Bolivia** es el documento que autoriza a un extranjero a ingresar y permanecer en el país por un período determinado. Los requisitos varían según el país de origen del solicitante y el tipo de visa.
+
+---
+
+#### ¿Quiénes NO necesitan visa para Bolivia?
+
+Los ciudadanos de los siguientes países pueden ingresar a Bolivia **sin visa** por hasta **90 días** por motivos turísticos:
+
+**América:** Argentina, Brasil, Colombia, Chile, Ecuador, Paraguay, Perú, Uruguay, Costa Rica, Panamá, México
+**Europa:** Todos los países del Espacio Schengen, Reino Unido, Irlanda
+**Asia:** Japón, Corea del Sur, Israel, Emiratos Árabes Unidos
+**Oceanía:** Australia, Nueva Zelanda
+
+---
+
+#### Tipos de visa
+
+| Tipo | Descripción | Vigencia | Costo (USD) |
+|------|-------------|----------|-------------|
+| **Turista** | Viajes de placer, visitas familiares | Hasta 90 días | Gratuita — $30 |
+| **Negocios** | Actividades comerciales, reuniones | Hasta 90 días | $30 — $60 |
+| **Estudiante** | Cursos, intercambios académicos | 1 año | $30 — $50 |
+| **Trabajo** | Contrato laboral en Bolivia | 1 año (renovable) | $50 — $100 |
+| **Residencia Temporal** | Radicación en Bolivia | 2 años | $100 — $200 |
+| **Residencia Permanente** | Radicación definitiva | Indefinida | $200 — $400 |
+| **Transbordo** | Escala técnica en aeropuerto | 72 horas | Gratuita |
+
+---
+
+#### Ciudadanos que SÍ necesitan visa
+
+Los ciudadanos de los siguientes países **deben solicitar visa** antes de viajar a Bolivia:
+
+- **Asia:** China, India, Indonesia, Filipinas, Vietnam, Tailandia (excepto Japón, Corea del Sur, Israel, EAU)
+- **África:** Todos los países africanos
+- **América:** Cuba, Haití, República Dominicana (excepto los listados como exentos)
+- **Oceanía:** Fiyi, Papúa Nueva Guinea (excepto Australia, Nueva Zelanda)
+
+> Para verificar si tu país requiere visa, consulta la página oficial del **Ministerio de Relaciones Exteriores de Bolivia**.
+
+---
+
+#### Requisitos para visa de turista (países que SÍ requieren visa)
+
+- Pasaporte original con vigencia mínima de 6 meses
+- Formulario de solicitud de visa (completado y firmado)
+- Dos fotografías 4x4 fondo blanco
+- Itinerario de viaje (reservas de vuelo y hotel)
+- Certificado de vacunación contra la fiebre amarilla
+- Comprobante de solvencia económica (extracto bancario de los últimos 3 meses)
+- Carta de invitación (si aplica)
+- Pago de la tarifa consular
+- Entrevista consular (en algunos casos)
+
+---
+
+#### Paso a paso para solicitar visa
+
+**Opción 1: En el consulado boliviano en tu país**
+
+1. **Agenda una cita** en el Consulado o Embajada de Bolivia más cercana
+2. **Reúne todos los documentos** requeridos según tu tipo de visa
+3. **Presenta tu solicitud** en la fecha de la cita
+4. **Paga la tarifa consular** según el tipo de visa
+5. **Espera la resolución** (3 a 15 días hábiles según el tipo)
+6. **Retira tu visa** en el consulado o recíbela por correo
+
+**Opción 2: Visa a la llegada (solo para países específicos)**
+
+Algunos ciudadanos (verificar en Migración Bolivia) pueden obtener visa a la llegada en aeropuertos internacionales de Bolivia:
+
+1. **Llega al aeropuerto** (El Alto, Viru Viru, Cochabamba)
+2. **Dirígete a la ventanilla de "Visa on Arrival"** antes de pasar migraciones
+3. **Presenta los documentos** y paga la tarifa en efectivo (USD)
+4. **Recibe tu visa** en el momento
+
+---
+
+#### Costos de visa (USD)
+
+| Tipo de visa | Costo (USD) |
+|-------------|------------|
+| Turista (países con visa) | $30 |
+| Negocios | $60 |
+| Estudiante | $50 |
+| Trabajo | $100 |
+| Residencia Temporal | $200 |
+| Residencia Permanente | $400 |
+| Prórroga de estadía (por mes) | $20 |
+
+> Los pagos se realizan en efectivo (USD) en el consulado o en el punto de entrada.
+
+---
+
+#### Prórroga de estadía
+
+Si estás en Bolivia con visa de turista y deseas quedarte más tiempo:
+
+1. Acude a la **Dirección General de Migración** antes del vencimiento de tu estadía
+2. Solicita la prórroga presentando tu pasaporte
+3. Paga $20 por cada mes adicional (máximo 90 días adicionales)
+4. Recibe la autorización de estadía extendida
+
+**Importante:** No excedas tu tiempo de estadía. La multa por permanencia ilegal es de aproximadamente $5 por día de exceso.
+
+---
+
+#### Regularización migratoria
+
+Si ingresaste a Bolivia sin los documentos correctos o tu visa venció:
+
+1. Acude a la **Dirección General de Migración** (La Paz, Av. Copacabana)
+2. Solicita la **regularización migratoria**
+3. Presenta tu pasaporte y documentos de respaldo
+4. Paga las multas correspondientes
+5. Solicita el tipo de visa que corresponda a tu situación
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Puedo trabajar en Bolivia con visa de turista?**
+No. La visa de turista no autoriza a trabajar. Necesitas una visa de trabajo o residencia con permiso laboral.
+
+**¿Cuánto tiempo puedo quedarme sin visa?**
+Hasta 90 días si eres ciudadano de un país exento. Al ingresar, el oficial de migración te sellará el pasaporte con el tiempo autorizado.
+
+**¿Puedo extender mi visa de turista?**
+Sí, por períodos adicionales de hasta 90 días, pagando $20 por mes en Migración.
+
+**¿Necesito visa para hacer turismo si soy de Argentina?**
+No. Los ciudadanos argentinos pueden ingresar solo con su Documento Nacional de Identidad (DNI).
+
+**¿Qué pasa si mi visa es rechazada?**
+Puedes apelar la decisión o volver a aplicar con documentos adicionales que respalden tu solicitud.
+
+**¿Los niños necesitan visa?**
+Sí. Todo extranjero, sin importar la edad, debe cumplir con los requisitos migratorios. Los niños deben presentar su propio pasaporte.
+
+---
+
+> Esta guía fue actualizada en julio de 2026. Los requisitos y costos pueden variar. Verifica siempre en la página oficial del Ministerio de Relaciones Exteriores de Bolivia o en el consulado boliviano más cercano.`,
+    contentEn: `### Complete Guide: Visa for Bolivia 2026
+
+**Visa-exempt countries (up to 90 days):** Argentina, Brazil, Colombia, Chile, Ecuador, Paraguay, Peru, Uruguay, Costa Rica, Panama, Mexico, Schengen countries, UK, Ireland, Japan, South Korea, Israel, UAE, Australia, New Zealand.
+
+**Visa types and costs (USD):**
+- Tourist: Free — $30
+- Business: $60
+- Student: $50
+- Work: $100
+- Temporary residency: $200
+- Permanent residency: $400
+
+**Requirements (for countries that need a visa):** Valid passport (6+ months), application form, two 4x4 photos, travel itinerary, yellow fever vaccine certificate, bank statements, consular fee.
+
+**Process:** Apply at the nearest Bolivian consulate. Approval takes 3-15 business days. Some nationalities can get a visa on arrival at Bolivian airports.
+
+**Stay extension:** $20 per additional month (up to 90 extra days) at the Immigration Office.
+
+For more info: https://www.migracion.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1454923634634-bd1614829e1b?w=1200&h=630&fit=crop',
+    imageCaption: 'Sellos de pasaporte. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
   }
 ];
 

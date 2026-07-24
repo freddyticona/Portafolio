@@ -564,6 +564,69 @@ const blogPosts = [
     title: 'Cómo sacar la Cédula de Identidad en Bolivia 2026 — Requisitos, costos y pasos en SEGIP',
     date: '2026-07-24',
     excerpt: 'Guía completa y actualizada para obtener o renovar tu cédula de identidad boliviana en 2026. Requisitos, costos oficiales, paso a paso del trámite presencial, horarios, oficinas SEGIP y cómo activar la cédula digital desde tu celular.'
+  },
+  {
+    id: '80',
+    slug: 'guia-soat-bolivia-2026',
+    title: 'SOAT 2026 en Bolivia — Precios, cómo comprarlo, requisitos y multas',
+    date: '2026-07-24',
+    excerpt: 'Guía completa del Seguro Obligatorio de Accidentes de Tránsito (SOAT) en Bolivia para 2026. Precios actualizados por tipo de vehículo, dónde comprarlo, documentos necesarios, multas por no tenerlo y cómo verificar tu póliza en línea.'
+  },
+  {
+    id: '81',
+    slug: 'guia-licencia-conducir-bolivia-2026',
+    title: 'Cómo sacar la Licencia de Conducir en Bolivia 2026 — Requisitos, costos y categorías',
+    date: '2026-07-24',
+    excerpt: 'Guía completa para obtener o renovar tu licencia de conducir en Bolivia. Categorías (A, B, C, D, E, F), requisitos actualizados, costos por categoría, paso a paso de los exámenes médicos, psicológicos, escrito y práctico, y todo sobre el nuevo sistema SEGIP.'
+  },
+  {
+    id: '82',
+    slug: 'guia-pasaporte-boliviano-2026',
+    title: 'Cómo sacar el Pasaporte Boliviano 2026 — Requisitos, costos y tiempos de entrega',
+    date: '2026-07-24',
+    excerpt: 'Guía completa para obtener o renovar tu pasaporte boliviano. Tipos de pasaporte (ordinario, emergencia), requisitos actualizados, costos oficiales, paso a paso del trámite en SEGIP, tiempos de entrega y cómo consultar el estado de tu solicitud.'
+  },
+  {
+    id: '83',
+    slug: 'guia-nit-sin-bolivia-2026',
+    title: 'Cómo sacar el NIT en Bolivia 2026 — Requisitos, costos y pasos en Impuestos Nacionales',
+    date: '2026-07-24',
+    excerpt: 'Guía completa para obtener tu Número de Identificación Tributaria (NIT) en Bolivia. Requisitos para personas naturales y jurídicas, costo gratuito, paso a paso del trámite en el SIN, cómo obtener tu certificado electrónico y cómo inscribirte en el régimen simplificado.'
+  },
+  {
+    id: '84',
+    slug: 'guia-ruat-transferencia-vehicular-bolivia-2026',
+    title: 'Cómo hacer la Transferencia Vehicular y sacar el RUAT en Bolivia 2026',
+    date: '2026-07-24',
+    excerpt: 'Guía completa del Registro Único de Automotores (RUAT) en Bolivia. Cómo transferir un vehículo, requisitos para compra-venta, costos actualizados, paso a paso en SEGIP, cómo obtener el RUAT por primera vez y cómo consultar la deuda vehicular.'
+  },
+  {
+    id: '85',
+    slug: 'guia-certificado-nacimiento-online-bolivia-2026',
+    title: 'Cómo sacar el Certificado de Nacimiento en línea Bolivia 2026 — SEGIP Digital',
+    date: '2026-07-24',
+    excerpt: 'Guía completa para obtener tu certificado de nacimiento en línea desde la página del SEGIP. Costo, requisitos, paso a paso para descargar el PDF, cómo pagar con Tigo Money o Banco Unión, y qué hacer si tu registro no aparece en el sistema.'
+  },
+  {
+    id: '86',
+    slug: 'guia-antecedentes-policiales-reap-bolivia-2026',
+    title: 'Cómo sacar el Certificado de Antecedentes Policiales (REAP) en Bolivia 2026',
+    date: '2026-07-24',
+    excerpt: 'Guía completa para obtener el Registro de Antecedentes Policiales (REAP) en Bolivia. Requisitos, costo aproximado, paso a paso presencial y en línea, vigencia del certificado y para qué trámites se requiere.'
+  },
+  {
+    id: '87',
+    slug: 'guia-antecedentes-penales-bolivia-2026',
+    title: 'Cómo sacar el Certificado de Antecedentes Penales en Bolivia 2026',
+    date: '2026-07-24',
+    excerpt: 'Guía completa para obtener el Certificado de Antecedentes Penales en Bolivia. Emitido por el Tribunal Departamental de Justicia, requisitos, costo, paso a paso presencial, vigencia del documento y para qué trámites se requiere.'
+  },
+  {
+    id: '88',
+    slug: 'guia-visa-bolivia-extranjeros-2026',
+    title: 'Visa para Bolivia 2026 — Requisitos, tipos y cómo tramitarla para extranjeros',
+    date: '2026-07-24',
+    excerpt: 'Guía completa de visas para extranjeros que desean viajar o residir en Bolivia. Tipos de visa (turista, negocios, residencia), requisitos por país de origen, costos actualizados, paso a paso del trámite consular, prórroga de estadía y cómo regularizar tu situación migratoria.'
   }
 ];
 

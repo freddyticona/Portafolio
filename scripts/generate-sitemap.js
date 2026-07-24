@@ -101,6 +101,15 @@ const articles = [
   'estudiantes-reparan-autos-madres-solteras',
   'mujer-arregla-sale-sin-pareja-explicacion',
   'guia-cedula-identidad-segip-bolivia-2026',
+  'guia-soat-bolivia-2026',
+  'guia-licencia-conducir-bolivia-2026',
+  'guia-pasaporte-boliviano-2026',
+  'guia-nit-sin-bolivia-2026',
+  'guia-ruat-transferencia-vehicular-bolivia-2026',
+  'guia-certificado-nacimiento-online-bolivia-2026',
+  'guia-antecedentes-policiales-reap-bolivia-2026',
+  'guia-antecedentes-penales-bolivia-2026',
+  'guia-visa-bolivia-extranjeros-2026',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
