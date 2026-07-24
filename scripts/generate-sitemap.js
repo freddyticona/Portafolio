@@ -112,6 +112,7 @@ const articles = [
   'guia-antecedentes-policiales-reap-bolivia-2026',
   'guia-antecedentes-penales-bolivia-2026',
   'guia-visa-bolivia-extranjeros-2026',
+  'sistema-gestion-prensa-react-electron-ia',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

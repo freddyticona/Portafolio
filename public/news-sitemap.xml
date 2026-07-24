@@ -898,4 +898,32 @@
       
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/blog/sistema-gestion-prensa-react-electron-ia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24</news:publication_date>
+      <news:title>Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial</news:title>
+      
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/sistema-gestion-prensa-react-electron-ia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24</news:publication_date>
+      <news:title>Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial</news:title>
+      
+    </news:news>
+  </url>
 </urlset>

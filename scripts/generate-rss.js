@@ -628,6 +628,13 @@ const blogPosts = [
     date: '2026-07-24',
     excerpt: 'Guía completa de visas para extranjeros que desean viajar o residir en Bolivia. Tipos de visa (turista, negocios, residencia), requisitos por país de origen, costos actualizados, paso a paso del trámite consular, prórroga de estadía y cómo regularizar tu situación migratoria.'
   },
+  {
+    id: '89',
+    slug: 'sistema-gestion-prensa-react-electron-ia',
+    title: 'Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial',
+    date: '2026-07-24',
+    excerpt: 'Diseñé y desarrollé un Sistema de Gestión de Prensa híbrido (Web/Desktop) para centralizar, catalogar, resumir mediante IA y exportar información periodística en tiempo récord.'
+  },
 ];
 
 const siteConfig = {

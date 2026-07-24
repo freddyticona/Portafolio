@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Fri, 24 Jul 2026 14:13:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 14:44:18 GMT</lastBuildDate>
     <managingEditor>freddyticona62@gmail.com (Freddy Ticona Guzmán)</managingEditor>
     <webMaster>freddyticona62@gmail.com (Freddy Ticona Guzmán)</webMaster>
     <item>
@@ -713,6 +713,14 @@
       <link>https://freddydev.net/blog/guia-visa-bolivia-extranjeros-2026</link>
       <guid isPermaLink="true">https://freddydev.net/blog/guia-visa-bolivia-extranjeros-2026</guid>
       <description><![CDATA[Guía completa de visas para extranjeros que desean viajar o residir en Bolivia. Tipos de visa (turista, negocios, residencia), requisitos por país de origen, costos actualizados, paso a paso del trámite consular, prórroga de estadía y cómo regularizar tu situación migratoria.]]></description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
+    </item>
+    <item>
+      <title><![CDATA[Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial]]></title>
+      <link>https://freddydev.net/blog/sistema-gestion-prensa-react-electron-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/sistema-gestion-prensa-react-electron-ia</guid>
+      <description><![CDATA[Diseñé y desarrollé un Sistema de Gestión de Prensa híbrido (Web/Desktop) para centralizar, catalogar, resumir mediante IA y exportar información periodística en tiempo récord.]]></description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
       <author>freddyticona62@gmail.com (Freddy Ticona Guzmán)</author>
     </item>

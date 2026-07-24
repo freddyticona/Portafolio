@@ -5701,6 +5701,182 @@ For more info: https://www.migracion.gob.bo`,
     views: 1
   },
   // ============================================================
+  // ARTÍCULO DESTACADO - SISTEMA DE GESTIÓN DE PRENSA
+  // ============================================================
+{
+    id: '89',
+    contentType: 'analysis',
+    slug: 'sistema-gestion-prensa-react-electron-ia',
+    titleEs: 'Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial',
+    titleEn: 'How to optimize newsroom workflow with React, Electron and Artificial Intelligence',
+    excerptEs: 'Diseñé y desarrollé un Sistema de Gestión de Prensa híbrido (Web/Desktop) para centralizar, catalogar, resumir mediante IA y exportar información periodística en tiempo récord. Una solución real para un problema real en medios de comunicación.',
+    excerptEn: 'I designed and built a hybrid Press Management System (Web/Desktop) to centralize, catalog, summarize with AI and export journalistic information in record time. A real solution for a real problem in news media.',
+    contentEs: `### El problema: el caos documental en las redacciones
+
+En el día a día de un medio de comunicación o una agencia de prensa, la desorganización es un enemigo silencioso. Las notas informativas, los comunicados y los archivos de cobertura suelen terminar dispersos en carpetas locales, correos o servicios en la nube sin un índice unificado.
+
+Cuando un editor necesita armar un dossier urgente o revisar qué periodista cubrió un evento en una ciudad específica, pierde minutos valiosos copiando, pegando y buscando entre docenas de archivos PDF o DOCX.
+
+Para resolver esta problemática, diseñé y desarrollé un **Sistema de Gestión de Prensa**, una solución híbrida (Web/Desktop) orientada a centralizar, catalogar, resumir mediante Inteligencia Artificial y exportar información periodística en tiempo récord.
+
+---
+
+### La arquitectura del sistema
+
+El objetivo técnico principal fue construir una herramienta con **cero latencia**, interfaz fluida para jornadas intensas y capacidad de ejecutarse tanto en navegador como de manera nativa en el escritorio.
+
+#### Stack tecnológico
+
+- **Frontend:** React 18 + TypeScript para un tipado riguroso y componentes escalables.
+- **Build Tool:** Vite (configurado con rutas relativas \`./\` para compatibilidad multiplataforma).
+- **Entorno Desktop:** Electron (con electron-builder para distribución nativa en Windows, macOS y Linux).
+- **Estilos:** Tailwind CSS con un tema oscuro contrastado (Dark Mode), diseñado para reducir la fatiga visual.
+- **Inteligencia Artificial:** Google Gemini API para síntesis y extracción de resúmenes ejecutivos.
+- **Persistencia:** Arquitectura decoupled con almacenamiento local (localStorage), diseñada para migrar fácilmente a bases de datos relacionales o cloud (PostgreSQL / Cloud SQL / Firestore).
+
+![Vista general del sistema](/images/blog/sistema-gestion-prensa/app-full.webp)
+
+---
+
+### Módulos clave y funcionalidades
+
+\`\`\`
+/
+├── App.tsx                        # Estado global y exportación a Word
+├── services/geminiService.ts       # Integración con Google Gemini API
+└── components/
+    ├── NoteForm.tsx               # Alta/edición asistida por IA
+    ├── FilterBar.tsx              # Búsqueda reactiva multi-criterio
+    ├── NoteList.tsx / NoteCard.tsx # Grid de renderizado dinámico
+    └── JournalistProfileModal.tsx # Métricas por periodista
+\`\`\`
+
+#### 1. Búsqueda y filtrado multi-criterio en tiempo real
+
+Mediante memoización con \`useMemo\`, el sistema permite filtrar reactivamente el volumen de datos sin resentir el rendimiento UI. Los editores pueden buscar por palabras clave, títulos, periodista asignado, cobertura por ciudad o rango de fechas.
+
+![Búsqueda y filtros del sistema](/images/blog/sistema-gestion-prensa/filter-search.webp)
+
+#### 2. Resumen automático con IA (Google Gemini)
+
+Integrando el SDK de Gemini, el sistema analiza el texto completo de la nota y genera un resumen ejecutivo al instante. Esto reduce drásticamente la carga cognitiva de los editores al momento de revisar grandes volúmenes de información.
+
+\`\`\`typescript
+// Modelo de datos principal (types.ts)
+export interface Note {
+  id: number;
+  titulo: string;
+  periodista: string;
+  fecha: string;            // YYYY-MM-DD
+  ciudad: string;
+  ruta_archivo: string;     // URL o ruta local (.pdf, .docx, web)
+  palabras_clave: string;   // Separadas por comas
+  contenido: string;        // Texto completo
+  resumen?: string;         // Generado por IA o manual
+}
+\`\`\`
+
+#### 3. Generador de dossieres a Word (.doc)
+
+Se implementó un motor de conversión que transforma el dataset filtrado en código HTML estructurado y genera una descarga directa en Blob formato \`application/msword\`. Con un solo clic, se genera un reporte listo para entregar a directores de medios o clientes.
+
+#### 4. Perfil estadístico por redactor
+
+El sistema agrupa automáticamente las publicaciones por periodista, generando métricas sobre cantidad total de notas, ciudades cubiertas y temas recurrentes.
+
+![Perfil de periodista con métricas](/images/blog/sistema-gestion-prensa/profile-modal.webp)
+
+---
+
+### Resultados e impacto
+
+- **Eliminación del caos documental:** Centraliza metadata y enlaces a archivos fuentes en una sola interfaz.
+- **Generación inmediata de reportes:** Lo que antes tomaba 30-45 minutos armando reportes manualmente, ahora se exporta en menos de 3 segundos.
+- **Trazabilidad completa:** Visibilidad total de la cobertura mediática por región y por redactor.
+
+---
+
+### ¿Buscas optimizar o automatizar los flujos de trabajo en tu agencia o medio?
+
+Especializado en la intersección entre desarrollo de software, Inteligencia Artificial y flujos audiovisuales/periodísticos, ayudo a equipos creativos a trabajar de forma más inteligente.
+
+👉 Escríbeme o agenda una llamada en **[freddydev.net](https://freddydev.net)** para evaluar cómo automatizar los procesos de tu equipo.`,
+    contentEn: `### The problem: Document chaos in newsrooms
+
+In the daily life of a media outlet or press agency, disorganization is a silent enemy. News notes, press releases and coverage files end up scattered across local folders, emails or cloud services without a unified index.
+
+When an editor needs to put together an urgent dossier or check which journalist covered an event in a specific city, they waste valuable minutes copying, pasting and searching through dozens of PDF or DOCX files.
+
+To solve this problem, I designed and built a **Press Management System**, a hybrid solution (Web/Desktop) aimed at centralizing, cataloging, summarizing with Artificial Intelligence and exporting journalistic information in record time.
+
+---
+
+### System architecture
+
+The main technical goal was to build a tool with **zero latency**, a fluid interface for intense workdays, and the ability to run both in a browser and natively on desktop.
+
+#### Tech stack
+
+- **Frontend:** React 18 + TypeScript for rigorous typing and scalable components.
+- **Build Tool:** Vite (configured with relative paths \`./\` for cross-platform compatibility).
+- **Desktop Environment:** Electron (with electron-builder for native distribution on Windows, macOS and Linux).
+- **Styling:** Tailwind CSS with a high-contrast dark mode, designed to reduce eye fatigue.
+- **AI:** Google Gemini API for synthesis and extraction of executive summaries.
+- **Persistence:** Decoupled architecture with localStorage, designed to easily migrate to relational or cloud databases (PostgreSQL / Cloud SQL / Firestore).
+
+---
+
+### Key modules and features
+
+#### 1. Real-time multi-criteria search and filtering
+
+Using memoization with \`useMemo\`, the system reactively filters data volume without impacting UI performance. Editors can search by keywords, titles, assigned journalist, city coverage or date range.
+
+#### 2. Automatic AI summarization (Google Gemini)
+
+Integrating the Gemini SDK, the system analyzes the full text of the note and generates an executive summary instantly, drastically reducing cognitive load when reviewing large volumes of information.
+
+#### 3. Word dossier generator (.doc)
+
+A conversion engine transforms the filtered dataset into structured HTML and generates a direct download as \`application/msword\` Blob. With a single click, a report is ready to deliver to news directors or clients.
+
+#### 4. Statistical profile per journalist
+
+The system automatically groups publications by journalist, generating metrics on total notes, cities covered and recurring topics.
+
+---
+
+### Results and impact
+
+- **Elimination of document chaos:** Centralizes metadata and links to source files in a single interface.
+- **Immediate report generation:** What used to take 30-45 minutes manually is now exported in under 3 seconds.
+- **Complete traceability:** Full visibility of media coverage by region and by journalist.
+
+---
+
+### Looking to optimize or automate workflows in your agency or media outlet?
+
+Specialized in the intersection of software development, Artificial Intelligence and audiovisual/journalistic workflows, I help creative teams work smarter.
+
+👉 Write to me or schedule a call at **[freddydev.net](https://freddydev.net)** to evaluate how to automate your team's processes.`,
+    date: '2026-07-24',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: '/images/blog/sistema-gestion-prensa/app-full.webp',
+    images: [
+      '/images/blog/sistema-gestion-prensa/app-full.webp',
+      '/images/blog/sistema-gestion-prensa/filter-search.webp',
+      '/images/blog/sistema-gestion-prensa/profile-modal.webp',
+      '/images/blog/sistema-gestion-prensa/note-form.webp'
+    ],
+    imageCaption: 'Sistema de Gestión de Prensa — interfaz principal con panel de notas y filtros.',
+    categoryEs: 'Desarrollo',
+    categoryEn: 'Development',
+    enableComments: true,
+    featured: true,
+    views: 1
+  },
+  // ============================================================
   // ARTÍCULOS DE GUERRAS Y CONFLICTOS GLOBALES (ids 89-98)
 ];
 

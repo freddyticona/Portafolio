@@ -161,6 +161,7 @@ const articles = [
   { slug: 'guia-antecedentes-policiales-reap-bolivia-2026', title: 'Cómo sacar el Certificado de Antecedentes Policiales (REAP) en Bolivia 2026', desc: 'Guía completa del REAP en Bolivia. Requisitos, costo, paso a paso presencial, vigencia del certificado y para qué trámites se requiere.' },
   { slug: 'guia-antecedentes-penales-bolivia-2026', title: 'Cómo sacar el Certificado de Antecedentes Penales en Bolivia 2026', desc: 'Guía completa de Antecedentes Penales en Bolivia. Emitido por el Tribunal de Justicia, requisitos, costo, paso a paso, vigencia y diferencias con el REAP.' },
   { slug: 'guia-visa-bolivia-extranjeros-2026', title: 'Visa para Bolivia 2026 — Requisitos, tipos y cómo tramitarla para extranjeros', desc: 'Guía completa de visas para extranjeros en Bolivia. Tipos de visa, requisitos por país, costos, paso a paso consular, prórroga de estadía y regularización migratoria.' },
+  { slug: 'sistema-gestion-prensa-react-electron-ia', title: 'Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial', desc: 'Diseñé y desarrollé un Sistema de Gestión de Prensa híbrido (Web/Desktop) para centralizar, catalogar, resumir mediante IA y exportar información periodística en tiempo récord.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts
