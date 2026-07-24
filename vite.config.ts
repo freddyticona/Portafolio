@@ -64,8 +64,8 @@ export default defineConfig(() => {
           assetFileNames: 'assets/[name]-[hash].[ext]',
         },
       },
-      // No precargar chunks lazy (reduces TBT)
-      modulePreload: false,
+      // Preload JS modules for parallel download with CSS
+      modulePreload: true,
       // Límite de advertencia de chunk size (reducido para mantener bundles pequeños)
       chunkSizeWarningLimit: 300,
       // Optimización de CSS
