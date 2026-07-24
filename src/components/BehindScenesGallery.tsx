@@ -73,8 +73,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       title: lang === 'es' ? 'Grabación de imágenes de apoyo - Tiwanaku' : 'B-roll footage shooting - Tiwanaku',
       category: 'location',
       year: '2018',
-      location: 'Tiwanaku',
-      objectPosition: '55% center'
+      location: 'Tiwanaku'
     },
     {
       src: '/images/behind-scenes/1428941048045(1).webp',
@@ -82,8 +81,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       title: lang === 'es' ? 'Inspección planta separadora de líquidos Carlos Villegas' : 'Inspection at Carlos Villegas liquid separation plant',
       category: 'location',
       year: '2016',
-      location: 'Planta Carlos Villegas',
-      objectPosition: '35% center'
+      location: 'Planta Carlos Villegas'
     },
     {
       src: '/images/behind-scenes/DSC_2990.webp',
@@ -108,7 +106,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       category: 'team',
       year: '2019',
       location: 'Estudio Abya Yala',
-      objectPosition: '60% center'
+      objectPosition: '75% center'
     },
     {
       src: '/images/behind-scenes/DSC_2455.webp',

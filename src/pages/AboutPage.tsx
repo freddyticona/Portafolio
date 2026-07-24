@@ -54,7 +54,7 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
           {/* Mini galería de fotos reales trabajando */}
           <div className="grid grid-cols-3 gap-2">
             <div className="aspect-square rounded-sm overflow-hidden border border-white/5 bg-[#020202] group">
-              <img src="/images/behind-scenes/DSC_2987.webp" alt="Cobertura periodística en campo" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+              <img src="/images/behind-scenes/DSC_2990.webp" alt="Cobertura periodística en campo" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
             </div>
             <div className="aspect-square rounded-sm overflow-hidden border border-white/5 bg-[#020202] group">
               <img src="/images/behind-scenes/DSC_2189.webp" alt="Trabajo en set de grabación" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
