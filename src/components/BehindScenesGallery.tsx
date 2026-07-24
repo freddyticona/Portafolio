@@ -13,6 +13,7 @@ interface BehindScenesImage {
   category: 'set' | 'equipment' | 'location' | 'team';
   year?: string;
   location?: string;
+  objectPosition?: string;
 }
 
 const CATEGORIES = {
@@ -33,135 +34,113 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const galleryRef = useRef<HTMLDivElement>(null);
 
-  // Imágenes reales de coberturas de Freddy Ticona (usando imágenes optimizadas WebP)
   const behindScenesImages: BehindScenesImage[] = [
     {
       src: '/images/behind-scenes/DSC_2994.webp',
-      alt: 'Cobertura en terreno',
-      title: lang === 'es' ? 'Cobertura periodística en La Paz' : 'Journalistic coverage in La Paz',
+      alt: 'Camarógrafo de estudio',
+      title: lang === 'es' ? 'Camarógrafo de estudio - Abya Yala Noticias' : 'Studio cameraman - Abya Yala Noticias',
       category: 'set',
       year: '2021',
-      location: 'La Paz, Bolivia'
+      location: 'Estudio Canal 41, La Paz'
     },
     {
       src: '/images/behind-scenes/28082012255.webp',
-      alt: 'Trabajo en campo',
-      title: lang === 'es' ? 'Grabación en exteriores' : 'Outdoor filming',
-      category: 'location',
+      alt: 'Copia de material a cassette',
+      title: lang === 'es' ? 'Copia de material audiovisual entre cámaras a cassette (RCA)' : 'Copying audiovisual material between cameras to cassette (RCA)',
+      category: 'equipment',
       year: '2018',
-      location: 'Locación'
+      location: 'Estudio'
     },
     {
       src: '/images/behind-scenes/24072012043.webp',
-      alt: 'Producción técnica',
-      title: lang === 'es' ? 'Equipo de producción técnica' : 'Technical production team',
-      category: 'team',
+      alt: 'Graduación ANAPOL',
+      title: lang === 'es' ? 'Cobertura de graduación ANAPOL - Gigavisión' : 'Graduation coverage ANAPOL - Gigavisión',
+      category: 'location',
       year: '2018',
-      location: 'Set'
-    },
-    {
-      src: '/images/behind-scenes/DSC_0044.webp',
-      alt: 'Cámara profesional',
-      title: lang === 'es' ? 'Equipo profesional' : 'Professional equipment',
-      category: 'equipment',
-      year: '2018',
-      location: 'Estudio'
-    },
-    {
-      src: '/images/behind-scenes/08092012536.webp',
-      alt: 'Cobertura especial',
-      title: lang === 'es' ? 'Cobertura de evento especial' : 'Special event coverage',
-      category: 'set',
-      year: '2018',
-      location: 'Evento'
-    },
-    {
-      src: '/images/behind-scenes/1428941048045(1).webp',
-      alt: 'Preproducción',
-      title: lang === 'es' ? 'Preparativos de grabación' : 'Filming preparations',
-      category: 'equipment',
-      year: '2016',
-      location: 'Set'
-    },
-    {
-      src: '/images/behind-scenes/DSC_2991.webp',
-      alt: 'Cobertura política',
-      title: lang === 'es' ? 'Cobertura de eventos políticos' : 'Political event coverage',
-      category: 'set',
-      year: '2020',
-      location: 'La Paz, Bolivia'
-    },
-    {
-      src: '/images/behind-scenes/DSC_2990.webp',
-      alt: 'Unidad móvil',
-      title: lang === 'es' ? 'Operación unidad móvil SNG' : 'SNG mobile unit operation',
-      category: 'equipment',
-      year: '2020',
       location: 'Exteriores'
     },
     {
-      src: '/images/behind-scenes/DSC07483.webp',
-      alt: 'Cobertura social',
-      title: lang === 'es' ? 'Cobertura social comunitaria' : 'Community social coverage',
-      category: 'location',
-      year: '2019',
-      location: 'Bolivia'
-    },
-    {
-      src: '/images/behind-scenes/DSC_2187.webp',
-      alt: 'Documental',
-      title: lang === 'es' ? 'Producción documental' : 'Documentary production',
+      src: '/images/behind-scenes/DSC_0044.webp',
+      alt: 'Entrada Gran Poder',
+      title: lang === 'es' ? 'Cobertura entrada Gran Poder - Gigavisión' : 'Gran Poder parade coverage - Gigavisión',
       category: 'set',
-      year: '2019',
-      location: 'Bolivia'
-    },
-    {
-      src: '/images/behind-scenes/DSC_2455.webp',
-      alt: 'Post-producción',
-      title: lang === 'es' ? 'Edición y post-producción' : 'Editing and post-production',
-      category: 'team',
-      year: '2021',
-      location: 'Estudio'
-    },
-    {
-      src: '/images/behind-scenes/DSC07353.webp',
-      alt: 'Set de filmación',
-      title: lang === 'es' ? 'Set de filmación profesional' : 'Professional filming set',
-      category: 'set',
-      year: '2019',
+      year: '2018',
       location: 'La Paz'
     },
     {
-      src: '/images/behind-scenes/IMG_20181115_103516.webp',
-      alt: 'Equipo de cámara',
-      title: lang === 'es' ? 'Cámara en acción' : 'Camera in action',
-      category: 'team',
+      src: '/images/behind-scenes/08092012536.webp',
+      alt: 'Tiwanaku',
+      title: lang === 'es' ? 'Grabación de imágenes de apoyo - Tiwanaku' : 'B-roll footage shooting - Tiwanaku',
+      category: 'location',
       year: '2018',
-      location: 'Bolivia'
+      location: 'Tiwanaku',
+      objectPosition: '55% center'
+    },
+    {
+      src: '/images/behind-scenes/1428941048045(1).webp',
+      alt: 'Planta Carlos Villegas',
+      title: lang === 'es' ? 'Inspección planta separadora de líquidos Carlos Villegas' : 'Inspection at Carlos Villegas liquid separation plant',
+      category: 'location',
+      year: '2016',
+      location: 'Planta Carlos Villegas',
+      objectPosition: '35% center'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2990.webp',
+      alt: 'Estudio Abya Yala Noticias',
+      title: lang === 'es' ? 'Estudio Abya Yala Noticias - cámara y prompter' : 'Abya Yala Noticias studio - camera and prompter',
+      category: 'set',
+      year: '2020',
+      location: 'Estudio Canal 41, La Paz'
+    },
+    {
+      src: '/images/behind-scenes/DSC07483.webp',
+      alt: 'Planta San Buenaventura',
+      title: lang === 'es' ? 'Planta azucarera San Buenaventura - RTP' : 'San Buenaventura sugar plant - RTP',
+      category: 'location',
+      year: '2019',
+      location: 'San Buenaventura'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2187.webp',
+      alt: 'Archivos Abya Yala',
+      title: lang === 'es' ? 'Archivos y programación - Abya Yala' : 'Archives and programming - Abya Yala',
+      category: 'team',
+      year: '2019',
+      location: 'Estudio Abya Yala',
+      objectPosition: '60% center'
+    },
+    {
+      src: '/images/behind-scenes/DSC_2455.webp',
+      alt: 'Programa folclórico RTP',
+      title: lang === 'es' ? 'Camarógrafo de piso - Programa folclórico RTP' : 'Floor cameraman - Folkloric program RTP',
+      category: 'set',
+      year: '2021',
+      location: 'Estudio RTP'
+    },
+    {
+      src: '/images/behind-scenes/DSC07353.webp',
+      alt: 'Travesía San Buenaventura-Rurrenabaque',
+      title: lang === 'es' ? 'Cruce San Buenaventura - Rurrenabaque en balsa - RTP' : 'San Buenaventura - Rurrenabaque river crossing on raft - RTP',
+      category: 'location',
+      year: '2019',
+      location: 'Río Beni'
     },
     {
       src: '/images/behind-scenes/Canon VIXIA HF M313934.webp',
-      alt: 'Canon VIXIA',
-      title: lang === 'es' ? 'Cámara Canon VIXIA HF M31' : 'Canon VIXIA HF M31 camera',
+      alt: 'Sony DVCAM',
+      title: lang === 'es' ? 'Cámara Sony DVCAM de cassette' : 'Sony DVCAM cassette camera',
       category: 'equipment',
       year: '2019',
       location: 'Estudio'
     },
     {
-      src: '/images/behind-scenes/DSC_2201.webp',
-      alt: 'Cobertura institucional',
-      title: lang === 'es' ? 'Cobertura institucional' : 'Institutional coverage',
-      category: 'location',
-      year: '2020',
-      location: 'La Paz'
-    },
-    {
       src: '/images/behind-scenes/DSC_2060.webp',
-      alt: 'Cobertura cultural',
-      title: lang === 'es' ? 'Documental cultural' : 'Cultural documentary',
-      category: 'set',
+      alt: 'Cobertura Trinidad',
+      title: lang === 'es' ? 'Cobertura en Trinidad - RTP (avión Hércules de fondo)' : 'Coverage in Trinidad - RTP (Hercules aircraft background)',
+      category: 'location',
       year: '2019',
-      location: 'Bolivia'
+      location: 'Trinidad, Beni'
     }
   ];
 
@@ -208,7 +187,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
 
           <div className="flex items-center gap-6 mt-6 pt-6 border-t border-white/5">
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold font-display">16</div>
+                <div className="text-2xl font-bold text-gold font-display">13</div>
                 <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
                   {lang === 'es' ? 'Fotos destacadas' : 'Featured photos'}
                 </div>
@@ -286,6 +265,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                style={image.objectPosition ? { objectPosition: image.objectPosition } : undefined}
                 loading="lazy"
               />
 
