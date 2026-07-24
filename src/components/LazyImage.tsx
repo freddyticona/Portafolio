@@ -11,6 +11,7 @@ interface LazyImageProps {
   className?: string;
   placeholder?: string;
   threshold?: number;
+  eager?: boolean;
 }
 
 /**
@@ -21,14 +22,18 @@ export default function LazyImage({
   alt,
   className = '',
   placeholder = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"%3E%3Crect width="400" height="300" fill="%231a1a1a"/%3E%3C/svg%3E',
-  threshold = 0.1
+  threshold = 0.1,
+  eager = false
 }: LazyImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
-  const [isInView, setIsInView] = useState(false);
+  const [isInView, setIsInView] = useState(eager);
   const imgRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
-    // Crear Intersection Observer para lazy loading
+    if (eager) {
+      setIsInView(true);
+      return;
+    }
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -38,21 +43,18 @@ export default function LazyImage({
       },
       { threshold }
     );
-
     if (imgRef.current) {
       observer.observe(imgRef.current);
     }
-
     return () => observer.disconnect();
-  }, [threshold]);
+  }, [threshold, eager]);
 
   const handleLoad = () => {
     setIsLoaded(true);
   };
 
   return (
-    <div ref={imgRef} className={`relative overflow-hidden ${className}`}>
-      {/* Placeholder */}
+    <div ref={imgRef} className={`relative overflow-hidden aspect-video ${className}`}>
       <img
         src={placeholder}
         alt=""
@@ -61,22 +63,19 @@ export default function LazyImage({
         }`}
         aria-hidden="true"
       />
-
-      {/* Imagen real */}
       {isInView && (
         <img
           src={src}
           alt={alt}
           onLoad={handleLoad}
           decoding="async"
-          className={`w-full h-full object-cover transition-opacity duration-500 ${
+          fetchpriority={eager ? 'high' : undefined}
+          loading={eager ? 'eager' : 'lazy'}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
             isLoaded ? 'opacity-100' : 'opacity-0'
           }`}
-          loading="lazy"
         />
       )}
-
-      {/* Skeleton loader mientras carga */}
       {!isLoaded && (
         <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 animate-shimmer" />
       )}

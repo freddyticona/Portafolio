@@ -3,23 +3,14 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
 import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { YOUTUBE_VIDEOS } from '../config';
 import CinematicHero from '../components/CinematicHero';
-
-const BlogCard = lazy(() => import('../components/BlogCard'));
-
-function LoadingFallback() {
-  return (
-    <div className="flex items-center justify-center p-8">
-      <div className="skeleton w-full h-32 rounded" aria-busy="true" aria-label="Cargando contenido..." />
-    </div>
-  );
-}
+import BlogCard from '../components/BlogCard';
 
 interface HomePageProps {
   lang: 'es' | 'en';
@@ -217,14 +208,13 @@ export default function HomePage({
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {personalPosts.slice(0, 2).map((post) => (
-            <Suspense key={post.id} fallback={<LoadingFallback />}>
-              <BlogCard
-                post={post}
-                lang={lang}
-                t={t}
-                onClick={() => handleArticleClick(post, 'blog')}
-              />
-            </Suspense>
+            <BlogCard
+              key={post.id}
+              post={post}
+              lang={lang}
+              t={t}
+              onClick={() => handleArticleClick(post, 'blog')}
+            />
           ))}
         </div>
 
