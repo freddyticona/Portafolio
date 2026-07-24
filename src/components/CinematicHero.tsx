@@ -161,8 +161,22 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
             }}>
               {content.experience}
             </span>
-          </div>
         </div>
+
+        {/* Trusted By Logos */}
+        <div
+          className="flex items-center justify-center gap-6 pt-4 hover:opacity-60 transition-opacity"
+          style={{
+            animation: 'fadeInLogo 1s ease-out forwards',
+            opacity: 0,
+            animationDelay: '1.2s'
+          }}
+        >
+          <span className="text-[10px] font-mono tracking-widest text-stone-500 uppercase">{lang === 'es' ? 'Certificado por' : 'Certified by'}</span>
+          <img src="/images/cisco-logo.svg" alt="Cisco" className="h-6 brightness-0 invert" />
+          <img src="/images/alura-logo.svg" alt="Alura Latam" className="h-5" />
+        </div>
+      </div>
 
         {/* Slogan narrativo */}
         <p
@@ -242,6 +256,17 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
           }
           to {
             opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @keyframes fadeInLogo {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 0.4;
             transform: translateY(0);
           }
         }
