@@ -3,9 +3,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { Suspense, lazy, useEffect } from 'react';
+import React, { Suspense, lazy } from 'react';
 import { PageId } from '../types';
 import { TranslationT } from '../types.translation';
+import LinkedInBadge from '../components/LinkedInBadge';
 
 const ContactForm = lazy(() => import('../components/ContactForm'));
 const BookingSystem = lazy(() => import('../components/BookingSystem'));
@@ -26,16 +27,6 @@ interface ContactPageProps {
 }
 
 export function ContactPage({ lang, t }: ContactPageProps) {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
-    script.async = true;
-    script.defer = true;
-    script.type = 'text/javascript';
-    document.body.appendChild(script);
-    return () => { document.body.removeChild(script); };
-  }, []);
-
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 animate-fadeIn">
       <div className="text-center space-y-3">
@@ -56,9 +47,11 @@ export function ContactPage({ lang, t }: ContactPageProps) {
         </Suspense>
 
         <div className="flex flex-col items-center gap-6 pt-4 lg:pt-0">
-          <div className="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="freddy-ticona-guzman-41612871" data-version="v1">
-            <a className="badge-base__link LI-simple-link" href="https://bo.linkedin.com/in/freddy-ticona-guzman-41612871?trk=profile-badge">Freddy Ticona Guzman</a>
-          </div>
+          <LinkedInBadge
+            href="https://bo.linkedin.com/in/freddy-ticona-guzman-41612871"
+            name={lang === 'es' ? 'Freddy Ticona Guzmán' : 'Freddy Ticona Guzman'}
+            headline={lang === 'es' ? 'Camarógrafo · La Paz' : 'Cameraman · La Paz'}
+          />
         </div>
       </div>
 
