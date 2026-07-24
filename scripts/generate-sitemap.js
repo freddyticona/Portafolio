@@ -80,6 +80,16 @@ const articles = [
   'inter-miami-autogol-hilarante',
   'wnba-midseason-2026-caitlin-clark',
   'lebron-james-free-agency-2026',
+  'ops-voluntarias-onu-gestion-informacion-salud',
+  'paro-72-horas-suspende-consultas-hospitales-santa-cruz',
+  'plan-nacional-cancer-fondo-financiamiento-sostenible',
+  'automedicacion-resistencia-antibioticos-bolivia',
+  'salud-masculina-relegada-bolivia-prevencion',
+  'atencion-materno-neonatal-equipamiento-santa-cruz',
+  'recomendaciones-salud-incendios-forestales',
+  'cancer-jovenes-habitos-vida-contaminacion',
+  'ministerio-salud-fortalece-sistema-cochabamba',
+  'plan-nacional-enfermedades-no-transmisibles-atencion-primaria',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

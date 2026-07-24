@@ -3229,6 +3229,470 @@ Con información de: ESPN.`,
     views: 1,
     source: 'ESPN',
     sourceUrl: 'https://www.espn.co.uk/nba/story/_/id/49239600/lebron-james-free-agency-pros-cons-potential-destinations-cavaliers-warriors-heat'
+  },
+  {
+    id: '59',
+    contentType: 'news',
+    slug: 'ops-voluntarias-onu-gestion-informacion-salud',
+    titleEs: 'Voluntarias de la ONU y OPS fortalecen la gestión de información de salud en Bolivia',
+    titleEn: 'UN Volunteers and PAHO strengthen health information management in Bolivia',
+    excerptEs: 'La OPS y el Programa de Voluntarios de Naciones Unidas desplegaron un equipo profesional para mitigar el impacto de la crisis sanitaria por bloqueos y conflictos sociales en Bolivia.',
+    excerptEn: 'PAHO and the UN Volunteers Program deployed a professional team to mitigate the health crisis impact from road blockades and social conflicts in Bolivia.',
+    contentEs: `### Alianza estratégica por la salud
+
+La Organización Panamericana de la Salud (OPS), en alianza estratégica con el Programa de Voluntarios de las Naciones Unidas (UNV), desplegó un equipo profesional de voluntarias para fortalecer la gestión de información de salud en Bolivia.
+
+### Mitigación de la crisis sanitaria
+
+La iniciativa busca mitigar el impacto de la crisis sanitaria desencadenada por los conflictos sociales y bloqueos de carreteras que afectaron el suministro de medicamentos y oxígeno en varios departamentos del país durante los meses pasados.
+
+Las voluntarias, especializadas en gestión de datos sanitarios y sistemas de información, trabajan junto al Ministerio de Salud y Deportes para mejorar la recopilación, análisis y reporte oportuno de indicadores críticos de salud pública.
+
+### Fortalecimiento del sistema
+
+Según informó la OPS, el equipo desplegado apoya la modernización de los sistemas de vigilancia epidemiológica y la consolidación de la Historia Clínica Electrónica Única, uno de los pilares del Plan Nacional de Salud 2026-2030.
+
+"La información oportuna y de calidad salva vidas. Este despliegue refuerza la capacidad del país para responder a emergencias sanitarias y garantizar la continuidad de los servicios esenciales", señaló la representante de la OPS en Bolivia, Elena Vuolo.
+
+### Impacto esperado
+
+Se espera que esta cooperación técnica permita reducir los tiempos de respuesta ante brotes epidémicos y mejorar la toma de decisiones basada en evidencia en los tres niveles del sistema de salud.
+
+Con información de: OPS/OMS.`,
+    contentEn: `PAHO and the UN Volunteers Program have deployed a professional team in Bolivia to strengthen health information management. The initiative aims to mitigate the impact of the health crisis caused by road blockades and social conflicts. Volunteers work with the Ministry of Health to improve data collection, analysis, and timely reporting of critical public health indicators.`,
+    date: '2026-07-23',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fit=crop',
+    imageCaption: 'OPS/OMS Bolivia',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'OPS/OMS',
+    sourceUrl: 'https://www.paho.org/es/noticias/23-7-2026-voluntarias-naciones-unidas-ops-fortalecen-gestion-informacion-salud-bolivia'
+  },
+  {
+    id: '60',
+    contentType: 'news',
+    slug: 'paro-72-horas-suspende-consultas-hospitales-santa-cruz',
+    titleEs: 'Paro de 72 horas suspende consultas externas en hospitales cruceños',
+    titleEn: '72-hour strike suspends outpatient consultations in Santa Cruz hospitals',
+    excerptEs: 'Los trabajadores de salud de Santa Cruz iniciaron un paro de 72 horas que mantiene suspendida la atención en consulta externa de los hospitales públicos del departamento.',
+    excerptEn: 'Health workers in Santa Cruz began a 72-hour strike that keeps outpatient care suspended in public hospitals across the department.',
+    contentEs: `### Medida de presión
+
+Los trabajadores de salud de Santa Cruz iniciaron un paro de 72 horas que mantiene suspendida la atención en consulta externa de los hospitales públicos del departamento. La medida afecta a miles de pacientes que dependen de los servicios ambulatorios.
+
+### Motivos de la protesta
+
+Los gremios de salud exigen el pago puntual de salarios adeudados y la provisión de insumos médicos básicos. Según denunciaron, varios hospitales cruceños carecen de medicamentos esenciales, material de curación y equipos de protección personal.
+
+"Llevamos meses esperando que se regularicen los pagos y se garantice el abastecimiento. No podemos seguir atendiendo sin condiciones mínimas", declaró el dirigente de la Federación de Sindicatos de Ramas Médicas de Salud Pública (Fesirmes) de Santa Cruz.
+
+### Servicios de emergencia garantizados
+
+Las autoridades del Servicio Departamental de Salud (SEDES) Santa Cruz informaron que los servicios de emergencia, cuidados intensivos y quirófanos continúan operando con normalidad para garantizar la atención de casos críticos.
+
+### Negociaciones en curso
+
+El Ministerio de Salud convocó a una mesa de diálogo con los representantes de los trabajadores para resolver el conflicto. Se espera que las negociaciones avancen en las próximas horas para restablecer la atención normal.
+
+Con información de: El Diario.`,
+    contentEn: `Health workers in Santa Cruz began a 72-hour strike suspending outpatient care in public hospitals. They demand timely salary payments and basic medical supplies. Emergency services remain operational. The Ministry of Health has called for dialogue to resolve the conflict.`,
+    date: '2026-07-22',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&h=630&fit=crop',
+    imageCaption: 'Hospital público en Santa Cruz. Foto: El Diario',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Diario',
+    sourceUrl: 'https://www.eldiario.net/portal/2026/07/22/paro-de-72-horas-suspende-consultas-externas-en-hospitales-crucenos-2/'
+  },
+  {
+    id: '61',
+    contentType: 'analysis',
+    slug: 'plan-nacional-cancer-fondo-financiamiento-sostenible',
+    titleEs: 'Plan nacional propone crear un fondo para fortalecer la lucha contra el cáncer',
+    titleEn: 'National plan proposes creating a fund to strengthen the fight against cancer',
+    excerptEs: 'El Plan Nacional de Respuesta contra el Cáncer 2026-2030 busca asegurar un financiamiento sostenible para diversificar los recursos y garantizar tratamientos oportunos.',
+    excerptEn: 'The National Cancer Response Plan 2026-2030 seeks to ensure sustainable financing to diversify resources and guarantee timely treatments.',
+    contentEs: `### Una deuda histórica
+
+El Ministerio de Salud y Deportes presentó la propuesta del Plan Nacional de Respuesta contra el Cáncer 2026-2030, que incluye la creación de un fondo específico para diversificar el financiamiento y fortalecer la lucha contra esta enfermedad.
+
+### Cifras alarmantes
+
+En Bolivia se diagnostican cada año entre 1.500 y 1.700 nuevos casos de cáncer de mama, mientras que alrededor de 400 mujeres fallecen anualmente por esta enfermedad, considerada la segunda causa de muerte femenina en el país. A nivel general, el cáncer representa una de las principales causas de mortalidad.
+
+### El fondo propuesto
+
+La iniciativa contempla la creación de un fondo solidario con aportes del Tesoro General de la Nación, las gobernaciones y la cooperación internacional. Los recursos estarían destinados a:
+
+- Garantizar la disponibilidad de medicamentos oncológicos en hospitales públicos
+- Ampliar la cobertura de mamografías y tamizajes preventivos
+- Capacitar al personal médico en diagnóstico temprano
+- Implementar unidades de cuidados paliativos en los nueve departamentos
+
+### Prevención como eje central
+
+Los especialistas destacaron que el tabaco, el alcohol y la contaminación ambiental son factores predisponentes para diversos tipos de cáncer. El plan propone campañas masivas de prevención y detección precoz, especialmente en poblaciones vulnerables.
+
+Con información de: ANF.`,
+    contentEn: `Bolivia's Ministry of Health presented the National Cancer Response Plan 2026-2030, which includes creating a specific fund to diversify financing. Bolivia diagnoses 1,500-1,700 new breast cancer cases annually. The plan focuses on prevention, early detection, and guaranteed access to oncology medications.`,
+    date: '2026-07-22',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1200&h=630&fit=crop',
+    imageCaption: 'Unidad oncológica en servicio público. Foto: HC',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ANF',
+    sourceUrl: 'https://www.noticiasfides.com/salud'
+  },
+  {
+    id: '62',
+    contentType: 'news',
+    slug: 'automedicacion-resistencia-antibioticos-bolivia',
+    titleEs: 'Especialistas advierten que la automedicación acelera la resistencia a los antibióticos en Bolivia',
+    titleEn: 'Specialists warn that self-medication accelerates antibiotic resistance in Bolivia',
+    excerptEs: 'Muchos bolivianos prefieren seguir recomendaciones de familiares antes que acudir al médico, agravando el problema de la resistencia bacteriana en el país.',
+    excerptEn: 'Many Bolivians prefer following family recommendations rather than seeing a doctor, worsening the bacterial resistance problem in the country.',
+    contentEs: `### Un problema creciente
+
+Especialistas en salud advirtieron que la automedicación está acelerando peligrosamente la resistencia a los antibióticos en Bolivia, un fenómeno que la OMS considera una de las mayores amenazas para la salud global.
+
+### Factores culturales y económicos
+
+Según explicaron los expertos, muchas personas prefieren seguir las recomendaciones de familiares, amigos o vecinos antes que acudir a una consulta médica, en ocasiones por razones económicas o de accesibilidad a los servicios de salud.
+
+"La gente compra antibióticos sin receta en farmacias, los usa en dosis incorrectas o los suspende antes de tiempo. Esto selecciona bacterias resistentes que luego son mucho más difíciles de tratar", señaló un infectólogo del Hospital de Clínicas de La Paz.
+
+### Datos preocupantes
+
+Un estudio reciente del Ministerio de Salud indica que más del 60% de los antibióticos en Bolivia se consumen sin prescripción médica. Las tasas de resistencia a antibióticos de primera línea han aumentado hasta un 40% en infecciones urinarias y respiratorias comunes.
+
+### Llamado a la acción
+
+Las autoridades sanitarias instaron a la población a no automedicarse y a completar los tratamientos prescritos. También anunciaron controles más estrictos a las farmacias que expenden medicamentos sin receta.
+
+Con información de: ANF.`,
+    contentEn: `Health specialists warn that self-medication is dangerously accelerating antibiotic resistance in Bolivia. Over 60% of antibiotics in Bolivia are consumed without medical prescription. Resistance rates to first-line antibiotics have increased up to 40% in common infections.`,
+    date: '2026-07-21',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1200&h=630&fit=crop',
+    imageCaption: 'Medicamentos. Foto ilustrativa: OMS',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ANF',
+    sourceUrl: 'https://www.noticiasfides.com/salud'
+  },
+  {
+    id: '63',
+    contentType: 'analysis',
+    slug: 'salud-masculina-relegada-bolivia-prevencion',
+    titleEs: 'Salud masculina sigue relegada en Bolivia por falta de prevención y programas específicos',
+    titleEn: "Men's health remains neglected in Bolivia due to lack of prevention and specific programs",
+    excerptEs: 'Especialistas advierten que los hombres bolivianos enfrentan barreras culturales y estructurales para acceder a servicios de salud mental y física.',
+    excerptEn: 'Specialists warn that Bolivian men face cultural and structural barriers to accessing mental and physical health services.',
+    contentEs: `### Una deuda pendiente
+
+La salud masculina sigue siendo un área relegada en el sistema de salud boliviano, según advirtieron especialistas reunidos en un foro sobre equidad en salud organizado por el Ministerio de Salud y la OPS.
+
+### Barreras culturales
+
+Los expertos señalaron que los hombres bolivianos acuden al médico con menor frecuencia que las mujeres, por factores culturales asociados a la masculinidad tradicional que desalienta la búsqueda de ayuda.
+
+"Los hombres llegan al consultorio cuando la enfermedad ya está avanzada. Hay una resistencia cultural a la prevención y al autocuidado", explicó un urólogo del Hospital de Clínicas.
+
+### Salud mental, la asignatura más crítica
+
+Según el especialista, las consultas más frecuentes en hombres están relacionadas con depresión, ansiedad, conflictos de pareja, consumo problemático de alcohol y otras sustancias, además de ideación suicida.
+
+El Plan Plurinacional de Salud Mental 2026-2030 reconoce esta brecha pero, según los críticos, carece de programas específicos con enfoque de género masculino.
+
+### Enfermedades prevalentes
+
+Las principales causas de morbilidad en hombres bolivianos incluyen:
+
+- Enfermedades cardiovasculares (primera causa de muerte)
+- Cáncer de próstata (más de 1.000 nuevos casos al año)
+- Diabetes tipo 2
+- Enfermedades hepáticas por consumo de alcohol
+
+### Propuestas
+
+Los especialistas propusieron crear campañas de prevención dirigidas a varones, horarios de atención extendidos y consultorios amigables que reduzcan las barreras de acceso.
+
+Con información de: ANF.`,
+    contentEn: "Men's health remains a neglected area in Bolivia's health system. Men visit doctors less frequently due to cultural barriers associated with traditional masculinity. The main causes include cardiovascular diseases, prostate cancer, diabetes, and liver diseases. Specialists propose creating prevention campaigns targeted at men.",
+    date: '2026-07-21',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=1200&h=630&fit=crop',
+    imageCaption: 'Ilustración: GQ',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ANF',
+    sourceUrl: 'https://www.noticiasfides.com/salud'
+  },
+  {
+    id: '64',
+    contentType: 'news',
+    slug: 'atencion-materno-neonatal-equipamiento-santa-cruz',
+    titleEs: 'Ministerio de Salud fortalece atención materno-neonatal con equipamiento en tres municipios cruceños',
+    titleEn: 'Ministry of Health strengthens maternal-neonatal care with equipment in three Santa Cruz municipalities',
+    excerptEs: 'El Ministerio de Salud entregó equipamiento médico especializado para reducir la mortalidad materna y perinatal en Santa Cruz, con una inversión de Bs 750.000.',
+    excerptEn: 'The Ministry of Health delivered specialized medical equipment to reduce maternal and perinatal mortality in Santa Cruz, with an investment of Bs 750,000.',
+    contentEs: `### Inversión en vida
+
+El Ministerio de Salud y Deportes concretó una importante entrega de equipamiento médico especializado para Cuidados Obstétricos Neonatales Esenciales (CONE) en tres municipios del departamento de Santa Cruz.
+
+### Municipios beneficiados
+
+Los centros de salud de los municipios de Montero, Yapacaní y Warnes recibieron equipos de última generación que permitirán:
+
+- Monitoreo fetal continuo durante el trabajo de parto
+- Atención inmediata del recién nacido con equipos de reanimación neonatal
+- Diagnóstico temprano de complicaciones obstétricas
+- Reducción del riesgo de hemorragias postparto
+
+### Inversión y financiamiento
+
+La iniciativa, impulsada bajo la cobertura del Programa BID 4612, representó una inversión global de Bs 750.000. Los fondos provienen de un convenio entre el Gobierno boliviano y el Banco Interamericano de Desarrollo.
+
+### Meta: reducir la mortalidad materna
+
+Bolivia mantiene una de las tasas más altas de mortalidad materna en América del Sur, con aproximadamente 155 muertes por cada 100.000 nacidos vivos. El plan nacional busca reducir esta cifra a 100 para 2030.
+
+"Este equipamiento significa que más madres y bebés tendrán la oportunidad de recibir atención oportuna y de calidad", declaró la ministra de Salud, Marcela Flores Zambrana.
+
+Con información de: Ministerio de Salud y Deportes.`,
+    contentEn: `Bolivia's Ministry of Health delivered specialized medical equipment for Essential Obstetric and Neonatal Care in three Santa Cruz municipalities: Montero, Yapacaní, and Warnes. The Bs 750,000 investment, funded through the BID 4612 Program, aims to reduce maternal and perinatal mortality.`,
+    date: '2026-07-21',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop',
+    imageCaption: 'Equipamiento médico. Foto: Ministerio de Salud',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Ministerio de Salud y Deportes',
+    sourceUrl: 'https://www.minsalud.gob.bo/'
+  },
+  {
+    id: '65',
+    contentType: 'news',
+    slug: 'recomendaciones-salud-incendios-forestales',
+    titleEs: 'Ministerio de Salud emite recomendaciones ante incendios forestales y despliega brigadas',
+    titleEn: 'Ministry of Health issues recommendations for forest fires and deploys brigades',
+    excerptEs: 'Ante los incendios forestales activos en Tarija y otros departamentos, el Ministerio de Salud desplegó brigadas de atención y emitió recomendaciones para la población.',
+    excerptEn: 'Facing active forest fires in Tarija and other departments, the Ministry of Health deployed medical brigades and issued recommendations for the population.',
+    contentEs: `### Emergencia ambiental
+
+Ante la contingencia generada por los incendios forestales activos en Tarija y otros departamentos del país, el Ministerio de Salud y Deportes emitió recomendaciones esenciales orientadas a resguardar la salud de las familias expuestas.
+
+### Despliegue de brigadas
+
+El Ministerio informó que el despliegue de brigadas de salud se mantiene activo para garantizar asistencia médica oportuna a los comunarios afectados por el humo y las altas temperaturas.
+
+### Recomendaciones para la población
+
+Las autoridades sanitarias recomendaron:
+
+- Usar mascarillas KN95 o N95 en zonas afectadas por el humo
+- Evitar actividades al aire libre durante los picos de contaminación
+- Mantener puertas y ventanas cerradas en horas de mayor concentración de humo
+- Hidratarse constantemente para evitar golpes de calor
+- Acudir al centro de salud más cercano ante síntomas respiratorios agudos
+
+### Grupos vulnerables
+
+Los niños menores de 5 años, adultos mayores y personas con enfermedades respiratorias crónicas (asma, EPOC) deben extremar las precauciones. El Ministerio habilitó una línea gratuita de atención para emergencias por intoxicación por humo.
+
+### Situación actual
+
+Según reportes oficiales, Bolivia registra 1.705 focos de calor, con Santa Cruz concentrando la mayor cantidad de incendios y quemas activas. Las brigadas de salud continuarán desplegadas mientras persista la emergencia.
+
+Con información de: Ministerio de Salud y Deportes.`,
+    contentEn: `Due to active forest fires in Tarija and other Bolivian departments, the Ministry of Health deployed medical brigades and issued recommendations. Key advice includes using KN95 masks, avoiding outdoor activities, staying hydrated, and seeking medical attention for acute respiratory symptoms.`,
+    date: '2026-07-21',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1585583483627-1b0dd3aec8de?w=1200&h=630&fit=crop',
+    imageCaption: 'Incendio forestal. Foto: Ministerio de Salud',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Ministerio de Salud y Deportes',
+    sourceUrl: 'https://www.minsalud.gob.bo/'
+  },
+  {
+    id: '66',
+    contentType: 'analysis',
+    slug: 'cancer-jovenes-habitos-vida-contaminacion',
+    titleEs: 'Especialistas atribuyen el aumento del cáncer en jóvenes a hábitos de vida y contaminación',
+    titleEn: 'Specialists attribute rising cancer rates in young people to lifestyle habits and pollution',
+    excerptEs: 'Los casos de cáncer en menores de 40 años han aumentado significativamente en Bolivia, según alertan especialistas del Instituto Oncológico Nacional.',
+    excerptEn: 'Cancer cases in people under 40 have increased significantly in Bolivia, according to specialists at the National Oncology Institute.',
+    contentEs: `### Una tendencia global
+
+Especialistas del Instituto Oncológico Nacional y de la Unidad Oncológica del Hospital de Clínicas advirtieron sobre el aumento preocupante de casos de cáncer en personas menores de 40 años en Bolivia, una tendencia que se observa también a nivel mundial.
+
+### Factores identificados
+
+Los médicos señalaron que la influencia del tabaco y el alcohol continúan siendo factores predisponentes para diversos tipos de cáncer, incluidos los de pulmón, vejiga, cabeza y cuello. A esto se suma la contaminación ambiental como un factor emergente.
+
+"Nunca antes habíamos visto tantos pacientes jóvenes con cáncer colorrectal, pancreático y de pulmón. El estilo de vida moderno y la exposición a contaminantes están pasando factura", explicó una oncóloga del Instituto Oncológico Nacional.
+
+### Cambio climático y salud
+
+Los especialistas también alertaron que el incremento sostenido de las temperaturas favorece cuadros de hipertermia o golpe de calor, una condición que puede resultar fatal, particularmente en personas de edad avanzada.
+
+### Prevención
+
+Los oncólogos recomendaron:
+
+- Realizar chequeos médicos anuales a partir de los 25 años
+- Evitar el consumo de tabaco y alcohol
+- Mantener una dieta rica en frutas y verduras
+- Hacer ejercicio físico regular
+- Reducir la exposición a contaminantes ambientales
+
+El Ministerio de Salud incluyó estas medidas entre las prioridades de su Plan Nacional para la Prevención y Control de las Enfermedades No Transmisibles 2026-2030.
+
+Con información de: ANF.`,
+    contentEn: `Cancer cases in people under 40 have increased significantly in Bolivia. Specialists attribute this to tobacco, alcohol, environmental pollution, and lifestyle factors. They recommend annual check-ups from age 25, avoiding tobacco and alcohol, healthy diet, regular exercise, and reducing exposure to environmental pollutants.`,
+    date: '2026-07-20',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1200&h=630&fit=crop',
+    imageCaption: 'Unidad oncológica. Foto: HC',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ANF',
+    sourceUrl: 'https://www.noticiasfides.com/salud'
+  },
+  {
+    id: '67',
+    contentType: 'news',
+    slug: 'ministerio-salud-fortalece-sistema-cochabamba',
+    titleEs: 'Ministra de Salud verifica atención sanitaria y consolida alianzas en Cochabamba',
+    titleEn: 'Health Minister verifies healthcare and consolidates alliances in Cochabamba',
+    excerptEs: 'La ministra Marcela Flores cumple agenda en Cochabamba para verificar la calidad de atención y fortalecer el sistema sanitario en el marco del plan nacional de salud.',
+    excerptEn: 'Minister Marcela Flores holds an agenda in Cochabamba to verify care quality and strengthen the health system within the national health plan framework.',
+    contentEs: `### Agenda de trabajo
+
+La ministra de Salud y Deportes, Marcela Flores Zambrana, cumplió una intensa agenda de trabajo en el departamento de Cochabamba, con el propósito de verificar la calidad de atención en establecimientos y consolidar alianzas con todo el sector salud.
+
+### Reuniones clave
+
+Durante su visita, la ministra se reunió con:
+
+- El Servicio Departamental de Salud (SEDES) Cochabamba
+- Alcaldes de municipios de la región metropolitana
+- La Brigada Parlamentaria del departamento
+- Representantes del Colegio Médico y gremios de salud
+
+"Hemos convocado a esta reunión junto al SEDES, los alcaldes y la Brigada Parlamentaria para que den testimonio de transparencia de todo lo que hacemos como Ministerio de Salud", declaró la autoridad.
+
+### Plan de fortalecimiento
+
+La visita forma parte del plan de fortalecimiento y evaluación del sistema sanitario nacional. Entre los temas abordados destacan:
+
+- La implementación del Plan Nacional de Salud 2026-2030 en el departamento
+- La creación de 2.300 nuevos ítems a nivel nacional para personal de salud
+- El avance de la Historia Clínica Electrónica Única
+- La provisión de medicamentos e insumos a hospitales públicos
+
+### Compromisos
+
+La ministra se comprometió a agilizar el desembolso de recursos para los municipios cochabambinos y a dar seguimiento a los compromisos asumidos en reuniones anteriores con el sector salud.
+
+Con información de: Ministerio de Salud y Deportes.`,
+    contentEn: `Bolivia's Health Minister Marcela Flores completed a working agenda in Cochabamba, meeting with SEDES, mayors, the parliamentary brigade, and health unions. Key topics included the 2026-2030 National Health Plan implementation, creation of 2,300 new health positions, and the Electronic Medical Record system.`,
+    date: '2026-07-21',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1576765608866-5b51046452be?w=1200&h=630&fit=crop',
+    imageCaption: 'Ministerio de Salud. Foto: MSD',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Ministerio de Salud y Deportes',
+    sourceUrl: 'https://www.minsalud.gob.bo/'
+  },
+  {
+    id: '68',
+    contentType: 'news',
+    slug: 'plan-nacional-enfermedades-no-transmisibles-atencion-primaria',
+    titleEs: 'Plan Nacional prioriza la atención primaria para enfrentar diabetes, cáncer y enfermedades cardiovasculares',
+    titleEn: 'National Plan prioritizes primary care to tackle diabetes, cancer and cardiovascular diseases',
+    excerptEs: 'Las enfermedades no transmisibles representan el 73% de las muertes en Bolivia. El nuevo Plan de Salud 2026-2030 pone énfasis en la prevención y el primer nivel de atención.',
+    excerptEn: 'Non-communicable diseases represent 73% of deaths in Bolivia. The new Health Plan 2026-2030 emphasizes prevention and primary care level.',
+    contentEs: `### Emergencia silenciosa
+
+Las enfermedades no transmisibles (ENT) representan una de las principales causas de muerte y discapacidad en Bolivia, responsables del 73% de las muertes en el territorio nacional, según datos del Ministerio de Salud.
+
+### Las más letales
+
+La diabetes, la hipertensión arterial, el cáncer y las enfermedades cardiovasculares encabezan la lista de ENT que más vidas cobran en el país. Su incidencia ha aumentado en los últimos años debido al envejecimiento poblacional y los cambios en los estilos de vida.
+
+### Estrategia de atención primaria
+
+El Plan Nacional de Salud 2026-2030 prioriza el fortalecimiento del primer nivel de atención para enfrentar estas enfermedades. La estrategia incluye:
+
+- Capacitación de médicos de cabecera en diagnóstico temprano de ENT
+- Equipamiento de centros de salud con tecnología básica de detección
+- Programas de promoción de estilos de vida saludables en comunidades
+- Sistema de referencia y contrarreferencia eficiente entre niveles
+
+### Déficit de especialistas
+
+El Ministerio identificó brechas críticas: Bolivia cuenta con solo 14 médicos por cada 10.000 habitantes, lejos de los 25 recomendados por la OMS. Los hospitales de segundo nivel tienen apenas un 46% de ocupación por falta de resolutividad.
+
+### Gasto de bolsillo
+
+Otro problema señalado es que el "gasto de bolsillo" de los ciudadanos en salud alcanza hasta un 30%, una cifra que el Gobierno busca reducir drásticamente con la implementación del Seguro Universal de Salud.
+
+Con información de: Ministerio de Salud y Deportes.`,
+    contentEn: `Non-communicable diseases cause 73% of deaths in Bolivia. The 2026-2030 National Health Plan prioritizes primary care to tackle diabetes, hypertension, cancer and cardiovascular diseases. Bolivia has only 14 doctors per 10,000 inhabitants, far from the WHO-recommended 25.`,
+    date: '2026-07-14',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&h=630&fit=crop',
+    imageCaption: 'Atención primaria. Foto: Ministerio de Salud',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Ministerio de Salud y Deportes',
+    sourceUrl: 'https://www.minsalud.gob.bo/'
   }
 ];
 

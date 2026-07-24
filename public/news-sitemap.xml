@@ -227,34 +227,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/via-lactea-proyectiles-gas-32-millones-kmh</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22</news:publication_date>
-      <news:title>Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/via-lactea-proyectiles-gas-32-millones-kmh</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22</news:publication_date>
-      <news:title>Una extraña estructura en la Vía Láctea dispara proyectiles de gas a 32 millones de km/h</news:title>
-      
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/blog/agencias-representantes-influencers-250-millones</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -363,34 +335,6 @@
       </news:publication>
       <news:publication_date>2026-07-23</news:publication_date>
       <news:title>Japón rompe las reglas de la física: sortea una ley de hace 160 años y consigue crear calor programable</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/tormentas-solares-subestimadas-estudio-nature</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22</news:publication_date>
-      <news:title>Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature</news:title>
-      
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/tormentas-solares-subestimadas-estudio-nature</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22</news:publication_date>
-      <news:title>Estamos subestimando el poder destructivo de las tormentas solares, dice un estudio de Nature</news:title>
       
     </news:news>
   </url>
@@ -507,7 +451,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/nfl-training-camps-2026</loc>
+    <loc>https://freddydev.net/blog/ops-voluntarias-onu-gestion-informacion-salud</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -515,13 +459,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-22</news:publication_date>
-      <news:title>NFL Training Camps 2026: las historias que dominan la pretemporada</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>Voluntarias de la ONU y OPS fortalecen la gestión de información de salud en Bolivia</news:title>
       
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/nfl-training-camps-2026</loc>
+    <loc>https://freddydev.net/noticias/ops-voluntarias-onu-gestion-informacion-salud</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -529,8 +473,8 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-22</news:publication_date>
-      <news:title>NFL Training Camps 2026: las historias que dominan la pretemporada</news:title>
+      <news:publication_date>2026-07-23</news:publication_date>
+      <news:title>Voluntarias de la ONU y OPS fortalecen la gestión de información de salud en Bolivia</news:title>
       
     </news:news>
   </url>

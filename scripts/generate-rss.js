@@ -417,6 +417,76 @@ const blogPosts = [
     title: 'LeBron James: el futuro de la estrella que mantiene en vilo a la NBA',
     date: '2026-07-14',
     excerpt: 'LeBron James enfrenta la decisión más importante de su carrera al entrar en la agencia libre.'
+  },
+  {
+    id: '59',
+    slug: 'ops-voluntarias-onu-gestion-informacion-salud',
+    title: 'Voluntarias de la ONU y OPS fortalecen la gestión de información de salud en Bolivia',
+    date: '2026-07-23',
+    excerpt: 'La OPS y el Programa de Voluntarios de Naciones Unidas desplegaron un equipo profesional para mitigar el impacto de la crisis sanitaria por bloqueos y conflictos sociales en Bolivia.'
+  },
+  {
+    id: '60',
+    slug: 'paro-72-horas-suspende-consultas-hospitales-santa-cruz',
+    title: 'Paro de 72 horas suspende consultas externas en hospitales cruceños',
+    date: '2026-07-22',
+    excerpt: 'Los trabajadores de salud de Santa Cruz iniciaron un paro de 72 horas que mantiene suspendida la atención en consulta externa de los hospitales públicos del departamento.'
+  },
+  {
+    id: '61',
+    slug: 'plan-nacional-cancer-fondo-financiamiento-sostenible',
+    title: 'Plan nacional propone crear un fondo para fortalecer la lucha contra el cáncer',
+    date: '2026-07-22',
+    excerpt: 'El Plan Nacional de Respuesta contra el Cáncer 2026-2030 busca asegurar un financiamiento sostenible para diversificar los recursos y garantizar tratamientos oportunos.'
+  },
+  {
+    id: '62',
+    slug: 'automedicacion-resistencia-antibioticos-bolivia',
+    title: 'Especialistas advierten que la automedicación acelera la resistencia a los antibióticos en Bolivia',
+    date: '2026-07-21',
+    excerpt: 'Muchos bolivianos prefieren seguir recomendaciones de familiares antes que acudir al médico, agravando el problema de la resistencia bacteriana en el país.'
+  },
+  {
+    id: '63',
+    slug: 'salud-masculina-relegada-bolivia-prevencion',
+    title: 'Salud masculina sigue relegada en Bolivia por falta de prevención y programas específicos',
+    date: '2026-07-21',
+    excerpt: 'Especialistas advierten que los hombres bolivianos enfrentan barreras culturales y estructurales para acceder a servicios de salud mental y física.'
+  },
+  {
+    id: '64',
+    slug: 'atencion-materno-neonatal-equipamiento-santa-cruz',
+    title: 'Ministerio de Salud fortalece atención materno-neonatal con equipamiento en tres municipios cruceños',
+    date: '2026-07-21',
+    excerpt: 'El Ministerio de Salud entregó equipamiento médico especializado para reducir la mortalidad materna y perinatal en Santa Cruz, con una inversión de Bs 750.000.'
+  },
+  {
+    id: '65',
+    slug: 'recomendaciones-salud-incendios-forestales',
+    title: 'Ministerio de Salud emite recomendaciones ante incendios forestales y despliega brigadas',
+    date: '2026-07-21',
+    excerpt: 'Ante los incendios forestales activos en Tarija y otros departamentos, el Ministerio de Salud desplegó brigadas de atención y emitió recomendaciones para la población.'
+  },
+  {
+    id: '66',
+    slug: 'cancer-jovenes-habitos-vida-contaminacion',
+    title: 'Especialistas atribuyen el aumento del cáncer en jóvenes a hábitos de vida y contaminación',
+    date: '2026-07-20',
+    excerpt: 'Los casos de cáncer en menores de 40 años han aumentado significativamente en Bolivia, según alertan especialistas del Instituto Oncológico Nacional.'
+  },
+  {
+    id: '67',
+    slug: 'ministerio-salud-fortalece-sistema-cochabamba',
+    title: 'Ministra de Salud verifica atención sanitaria y consolida alianzas en Cochabamba',
+    date: '2026-07-21',
+    excerpt: 'La ministra Marcela Flores cumple agenda en Cochabamba para verificar la calidad de atención y fortalecer el sistema sanitario en el marco del plan nacional de salud.'
+  },
+  {
+    id: '68',
+    slug: 'plan-nacional-enfermedades-no-transmisibles-atencion-primaria',
+    title: 'Plan Nacional prioriza la atención primaria para enfrentar diabetes, cáncer y enfermedades cardiovasculares',
+    date: '2026-07-14',
+    excerpt: 'Las enfermedades no transmisibles representan el 73% de las muertes en Bolivia. El nuevo Plan de Salud 2026-2030 pone énfasis en la prevención y el primer nivel de atención.'
   }
 ];
 
