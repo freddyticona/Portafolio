@@ -4208,9 +4208,9 @@ SEGIP ofrece cinco modalidades para la Cédula de Identidad:
 
 2. **Paga en el Banco Unión** — Acércate a cualquier sucursal del Banco Unión con tu número de cédula (o nombres completos para primera vez). Solicita el "pago por concepto de Cédula de Identidad" (código: 17010). El costo es de **Bs 17**.
 
-3. **Saca tu turno** — Ingresa a [turnos.segip.gob.bo](https://turnos.segip.gob.bo) y selecciona tu trámite, oficina y horario. El sistema de turnos es gratuito y obligatorio en la mayoría de las oficinas.
+3. **Acude directamente a la oficina SEGIP** — No existe un sistema de turnos en línea. La atención es por orden de llegada. Se recomienda llegar **antes de las 7:00 am** para evitar filas largas, especialmente en las oficinas centrales. Los primeros sábados de cada mes hay atención extraordinaria en todo el país.
 
-4. **Acude a la oficina SEGIP** — El día de tu turno, preséntate 15 minutos antes con:
+4. **Realiza el trámite en la oficina SEGIP** — Preséntate con:
    - Original y copia de todos tus documentos
    - Boleta de pago del Banco Unión
    - Tu fotografía (aunque muchas oficinas ya toman la foto en el momento)
@@ -4231,16 +4231,17 @@ SEGIP ofrece cinco modalidades para la Cédula de Identidad:
 
 #### Cédula Digital — Actívala desde tu celular
 
-Desde 2023, el SEGIP habilitó la **Cédula de Identidad Digital**, un documento con la misma validez legal que la cédula física para la mayoría de los trámites.
+Desde 2026, el SEGIP habilitó la **Cédula de Identidad Digital** a través de la app **"Mi Identidad"**, un documento con la misma validez legal que la cédula física para la mayoría de los trámites.
 
-**Cómo activarla:**
+**Cómo obtenerla:**
 
-1. Descarga la app **"Cédula Digital Bolivia"** desde Google Play o App Store
-2. Registra tu número de celular (debe ser el mismo que registraste en SEGIP)
-3. Ingresa tu número de cédula y fecha de nacimiento
-4. Escanea el código QR de tu cédula física
-5. Tómate una selfie para verificar tu identidad
-6. ¡Listo! Tu cédula digital quedará activada
+1. Descarga la app **"Mi Identidad"** desde Google Play o App Store
+2. Acude a una oficina SEGIP y solicita la "Cédula Digital" al operador (el costo es el mismo que la cédula física: Bs 17)
+3. El operador vinculará tu teléfono móvil con la base de datos biométrica
+4. Una vez registrado, abre la app, ingresa tu número de cédula y fecha de nacimiento
+5. Escanea el código QR de tu cédula física
+6. Tómate una selfie para verificar tu identidad
+7. ¡Listo! Tu cédula digital quedará activada
 
 **¿Dónde es válida?** La cédula digital es aceptada en bancos, aeropuertos (vuelos nacionales), trámites notariales y controles policiales. Sin embargo, para votar y viajar al exterior se recomienda llevar la cédula física.
 
@@ -4262,8 +4263,11 @@ Desde 2023, el SEGIP habilitó la **Cédula de Identidad Digital**, un documento
 
 | Ciudad | Dirección | Teléfono |
 |--------|-----------|----------|
-| **La Paz** (Central) | Av. Arce, Edificio SEGIP (ex-CNR) | 2680800 |
-| **La Paz** (El Alto) | Av. Juan Pablo II, cerca al Mercado Campesino | 2680800 |
+| **La Paz** (Centro — Teleférico Celeste) | Pasaje Núñez del Prado, instalaciones del Teleférico Celeste | 2680800 |
+| **La Paz** (San Pedro — Segelic) | Av. 20 de Octubre, Edificio Mollinedo N°1628 | 2680800 |
+| **La Paz** (Zona Sur — Megacenter) | Av. Rafael Pabón N°656, Megacenter, Planta Baja | 2680800 |
+| **La Paz** (Sopocachi — Adm. Nacional) | Calle Pedro Salazar N°607, Sopocachi | 2680800 |
+| **La Paz** (El Alto — Segelic) | Av. Juan Pablo II N°200 | 2680800 |
 | **Santa Cruz** | Av. Irala esq. Av. Santos Dumont | 2680800 |
 | **Cochabamba** | Av. Ayacucho esq. 25 de Mayo | 2680800 |
 | **Sucre** | Calle Ravelo s/n | 2680800 |
@@ -4273,7 +4277,15 @@ Desde 2023, el SEGIP habilitó la **Cédula de Identidad Digital**, un documento
 | **Beni** (Trinidad) | Av. 6 de Agosto esq. Avaroa | 2680800 |
 | **Pando** (Cobija) | Av. 9 de Febrero | 2680800 |
 
-> Para ubicar la oficina más cercana, visita [https://www.segip.gob.bo](https://www.segip.gob.bo) y selecciona "Oficinas".
+> Para ubicar la oficina más cercana, visita [https://www.segip.gob.bo/oficina/](https://www.segip.gob.bo/oficina/) y selecciona tu departamento.
+
+<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-68.145%2C-16.518%2C-68.110%2C-16.490&amp;layer=mapnik&amp;marker=-16.5004%2C-68.1327" style="border: 1px solid #ccc; border-radius: 8px; width: 100%; height: 350px;" loading="lazy"></iframe>
+
+📍 **Oficina La Paz Centro** — Pasaje Núñez del Prado (Teleférico Celeste). Esta es la oficina más céntrica y concurrida de la ciudad. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5004318,-68.1327011)
+
+📍 **Oficina Zona Sur (Megacenter)** — Av. Rafael Pabón N°656. Ideal para quienes viven en Irpavi, Calacoto o la Zona Sur. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5320166,-68.0871546)
+
+📍 **Oficina Segelic San Pedro** — Av. 20 de Octubre N°1628. Atiende cédulas y licencias de conducir. [Abrir en Google Maps](https://www.openstreetmap.org/?mlat=-16.5041051&mlon=-68.1341678#map=19/-16.5041051/-68.1341678)
 
 ---
 
@@ -4309,7 +4321,7 @@ La vigencia depende de la edad:
 
 #### Consejos útiles
 
-- **Llega temprano:** Aunque tengas turno, las oficinas suelen tener alta demanda. Llega 15-20 minutos antes.
+- **Llega muy temprano:** Las oficinas abren a las 7:00 am pero las filas empiezan desde las 5:00 am. Llega antes de las 6:30 am para evitar esperas de más de 2 horas.
 - **Viste adecuadamente:** Sin lentes oscuros, gorras, piercings faciales grandes o accesorios que cubran tu rostro.
 - **Fotografías profesionales:** Aunque muchas oficinas toman la foto digital, es recomendable llevar tus propias fotos 4x4 con fondo blanco por si acaso.
 - **Certificado de domicilio actualizado:** Debe tener no más de 90 días desde su emisión. Lo emiten la OTB, junta vecinal o cualquier autoridad local.
@@ -4320,8 +4332,8 @@ La vigencia depende de la edad:
 #### Enlaces oficiales
 
 - SEGIP — Página oficial: [https://www.segip.gob.bo](https://www.segip.gob.bo)
-- Sistema de turnos en línea: [https://turnos.segip.gob.bo](https://turnos.segip.gob.bo)
-- App Cédula Digital: [Google Play](https://play.google.com/store/apps/details?id=bo.gob.segip.ceduladigital) | [App Store](https://apps.apple.com/bo/app/c%C3%A9dula-digital-bolivia/id6446085894)
+- Directorio de oficinas SEGIP: [https://www.segip.gob.bo/oficina/](https://www.segip.gob.bo/oficina/)
+- App **Mi Identidad** (Cédula Digital): [Google Play](https://play.google.com/store/apps/details?id=bo.gob.segip.miidentidad) | [App Store](https://apps.apple.com/bo/app/mi-identidad/id6446085894)
 
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SEGIP antes de realizar tu trámite.`,
     contentEn: `### Complete Guide: Bolivian Identity Card 2026
@@ -4335,12 +4347,12 @@ The **Cédula de Identidad** is the official identification document for Bolivia
 
 **Step-by-step:**
 1. Pay Bs 17 at any Banco Unión branch
-2. Book an appointment at turnos.segip.gob.bo
-3. Visit your local SEGIP office with all documents
+2. Go directly to your nearest SEGIP office (no online booking; arrive before 7:00 AM)
+3. Submit your documents at the counter
 4. Get your biometric data taken (photo, fingerprints, signature)
 5. Wait 15-30 business days for delivery
 
-**Digital ID:** Download "Cédula Digital Bolivia" app from Google Play/App Store, scan your physical ID's QR code and take a selfie to activate.
+**Digital ID:** Download "Mi Identidad" app from Google Play/App Store, request activation at any SEGIP office (same cost: Bs 17), then scan your physical ID's QR code and take a selfie.
 
 **Costs:** Bs 17 for most procedures (first time, renewal, duplicate). Seniors 60+ and people with disabilities are exempt from payment.
 
