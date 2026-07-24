@@ -1,12 +1,21 @@
+/**
+ * generate-sitemap.js
+ *
+ * Genera public/sitemap.xml dinámicamente desde src/translations.ts.
+ * Las secciones estáticas siguen definidas aquí; los slugs de artículos
+ * se extraen automáticamente con extract-articles.js.
+ */
+
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { extractSlugs } from './extract-articles.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
-const TODAY = '2026-07-24';
+const TODAY = new Date().toISOString().slice(0, 10);
 
 const sections = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
@@ -23,97 +32,7 @@ const sections = [
   { path: 'contacto', priority: '0.7', changefreq: 'monthly' },
 ];
 
-const articles = [
-  'detras-de-camaras-la-estrella',
-  'evolucion-televisiva-bolivia-analogo-digital',
-  'premio-eduardo-abaroa-2026',
-  'larga-noche-museos-2026',
-  'festival-cine-santa-cruz-2026',
-  'bolivia-puesto-91-rsf',
-  'cinemateca-217-anos-la-paz',
-  'fallece-tito-de-la-vina',
-  'nolan-odisea-reparto',
-  'reflexion-comparativa-cultura-audiovisual-bolivia-mundo',
-  'cinemateca-50-anos-todo-lo-que-era-posible',
-  'pianista-daniel-alvarez-gana-premio-sur-musica-nueva',
-  'nova-vuelve-sinfonia-de-historias-inolvidables',
-  'bolivia-lab-18-edicion-industria-cine',
-  'cortometraje-yatichana-galardones-internacionales',
-  'detras-epica-aventura-nolan-la-odisea',
-  'incentivo-produccion-audiovisual-cultural-2026',
-  'festival-cine-salar-uyuni-2026',
-  'red-uno-xona-streaming',
-  'documental-travesia-tierra-cinemateca',
-  'documental-mi-cuerpo-mi-territorio-youtube',
-  'serie-boliviana-inteligencia-artificial',
-  'messi-bombon-asesino-himno-argentino',
-  'morsa-abdominales-viral',
-  'chucky-micro-el-torno',
-  'abuelita-invento-casero-bicicleta',
-  'gatito-maullidos-michael-jackson',
-  'nvidia-gb300-moe-world-record',
-  'nvidia-rubin-gpu-architecture',
-  'nvidia-vera-cpu-olympus',
-  'nvidia-nvlink-scale-up-network',
-  'nvidia-deepstream-9-1-tracking',
-  'nvidia-ising-decoding-quantum',
-  'nvidia-omniverse-rtx-sensor',
-  'comision-europea-multa-google-890-millones',
-  'via-lactea-proyectiles-gas-32-millones-kmh',
-  'agencias-representantes-influencers-250-millones',
-  'rapamicina-autismo-nueva-via-tratamiento',
-  'c212-aviocar-transporte-militar-espanol',
-  'japon-rompe-leyes-fisica-calor-programable',
-  'tormentas-solares-subestimadas-estudio-nature',
-  'amd-advancing-ai-2026-helios-epyc-instinct',
-  'amd-rackspace-30mw-ia-empresarial',
-  'amd-computacion-cuantica-hibrida',
-  'amd-gartner-lider-cpus-ia-empresarial',
-  'amd-epyc-venice-tsmc-2nm',
-  'amd-instinct-mi400-gpus-ia',
-  'amd-kria-ryzen-ai-embedded-robotica',
-  'mlb-trade-deadline-2026',
-  'nfl-training-camps-2026',
-  'nba-offseason-grades-2026',
-  'fifa-world-cup-2026-changes',
-  'spain-dominance-football-2026',
-  'mlb-labor-battle-2026',
-  'barcelona-adeyemi-fichaje-2026',
-  'inter-miami-autogol-hilarante',
-  'wnba-midseason-2026-caitlin-clark',
-  'lebron-james-free-agency-2026',
-  'ops-voluntarias-onu-gestion-informacion-salud',
-  'paro-72-horas-suspende-consultas-hospitales-santa-cruz',
-  'plan-nacional-cancer-fondo-financiamiento-sostenible',
-  'automedicacion-resistencia-antibioticos-bolivia',
-  'salud-masculina-relegada-bolivia-prevencion',
-  'atencion-materno-neonatal-equipamiento-santa-cruz',
-  'recomendaciones-salud-incendios-forestales',
-  'cancer-jovenes-habitos-vida-contaminacion',
-  'ministerio-salud-fortalece-sistema-cochabamba',
-  'plan-nacional-enfermedades-no-transmisibles-atencion-primaria',
-  'linea-roja-hijo-linfangitis-peligro',
-  'curso-verano-seguridad-ninos-padres',
-  'pecado-tomar-alcohol-biblia-respuesta',
-  'charro-gonzalez-mundial-embajador-mexico',
-  'afganistan-mujeres-golpes-legal-taliban',
-  'cuatro-preguntas-hijo-manejar-seguridad',
-  'nino-ciego-mundial-padre-manos',
-  'colombia-protege-animales-petroleo-renuncia',
-  'estudiantes-reparan-autos-madres-solteras',
-  'mujer-arregla-sale-sin-pareja-explicacion',
-  'guia-cedula-identidad-segip-bolivia-2026',
-  'guia-soat-bolivia-2026',
-  'guia-licencia-conducir-bolivia-2026',
-  'guia-pasaporte-boliviano-2026',
-  'guia-nit-sin-bolivia-2026',
-  'guia-ruat-transferencia-vehicular-bolivia-2026',
-  'guia-certificado-nacimiento-online-bolivia-2026',
-  'guia-antecedentes-policiales-reap-bolivia-2026',
-  'guia-antecedentes-penales-bolivia-2026',
-  'guia-visa-bolivia-extranjeros-2026',
-  'sistema-gestion-prensa-react-electron-ia',
-];
+const articles = extractSlugs();
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -171,4 +90,4 @@ fs.writeFileSync(outputPath, xml, 'utf-8');
 
 const total = sections.length + articles.length * 2 + guiaSlugs.length;
 console.log(`✅ Sitemap generado: ${outputPath}`);
-console.log(`📡 ${total} URLs incluidas`);
+console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos × 2 rutas + ${guiaSlugs.length} guías)`);

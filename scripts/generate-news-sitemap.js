@@ -9,64 +9,48 @@
  * - <news:publication_date>
  * - <news:title>
  * - <news:keywords> (opcional, mejora indexación)
+ *
+ * Los artículos se extraen dinámicamente desde src/translations.ts
+ * usando el helper compartido extract-articles.js.
  */
 
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { extractArticles } from './extract-articles.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
 
-// Leer translations.ts para obtener slugs + fechas + títulos
-const translationSrc = fs.readFileSync(path.join(__dirname, '..', 'src', 'translations.ts'), 'utf-8');
-const blogMatch = translationSrc.match(/export const blogPosts: BlogPost\[\] = \[([\s\S]*?)\];/);
+const allArticles = extractArticles();
 
-const articles = [];
-let currentDate = '';
-let currentSlug = '';
-let currentTitleEs = '';
-
-if (blogMatch) {
-  for (const line of blogMatch[1].split('\n')) {
-    const slugM = line.match(/^\s+slug:\s*'([^']+)'/);
-    if (slugM) currentSlug = slugM[1];
-
-    const dateM = line.match(/^\s+date:\s*'([^']+)'/);
-    if (dateM) currentDate = dateM[1];
-
-    const titleM = line.match(/^\s+titleEs:\s*'([^']+)'/);
-    if (titleM) currentTitleEs = titleM[1];
-
-    const catM = line.match(/^\s+categoryEs:\s*'([^']+)'/);
-
-    if (line.trim() === '},' && currentSlug && currentDate) {
-      articles.push({
-        slug: currentSlug,
-        date: currentDate,
-        title: currentTitleEs,
-        keywords: catM ? [catM[1]] : [],
-      });
-      currentSlug = '';
-      currentDate = '';
-      currentTitleEs = '';
-    }
-  }
-}
+const articles = allArticles.map(a => ({
+  slug: a.slug,
+  date: a.date,
+  title: a.titleEs,
+  keywords: a.categoryEs ? [a.categoryEs] : [],
+}));
 
 // Filtrar artículos de los últimos 2 días (Google News policy)
 const now = new Date();
 const twoDaysAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000);
 
 const recentArticles = articles.filter(a => {
+  if (!a.date) return false;
   const d = new Date(a.date);
   return d >= twoDaysAgo;
 });
 
 // Si no hay artículos recientes, igual generar con los últimos 10 (para que Google reconozca el sitemap)
 const sitemapArticles = recentArticles.length > 0 ? recentArticles : articles.slice(0, 10);
+
+const escTitle = (s) => String(s)
+  .replace(/&/g, '\u0026amp;')
+  .replace(/</g, '\u0026lt;')
+  .replace(/>/g, '\u0026gt;')
+  .replace(/"/g, '\u0026quot;');
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -75,6 +59,8 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 `;
 
 for (const article of sitemapArticles) {
+  const safeTitle = escTitle(article.title);
+  const kw = article.keywords.length ? `<news:keywords>${escTitle(article.keywords.join(','))}</news:keywords>` : '';
   // Blog route
   xml += `  <url>
     <loc>${SITE}/blog/${article.slug}</loc>
@@ -86,8 +72,8 @@ for (const article of sitemapArticles) {
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>${article.date}</news:publication_date>
-      <news:title>${article.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')}</news:title>
-      ${article.keywords.length ? `<news:keywords>${article.keywords.join(',')}</news:keywords>` : ''}
+      <news:title>${safeTitle}</news:title>
+      ${kw}
     </news:news>
   </url>\n`;
 
@@ -102,8 +88,8 @@ for (const article of sitemapArticles) {
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>${article.date}</news:publication_date>
-      <news:title>${article.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')}</news:title>
-      ${article.keywords.length ? `<news:keywords>${article.keywords.join(',')}</news:keywords>` : ''}
+      <news:title>${safeTitle}</news:title>
+      ${kw}
     </news:news>
   </url>\n`;
 }
@@ -115,3 +101,4 @@ fs.writeFileSync(outputPath, xml, 'utf-8');
 
 console.log(`✅ Google News Sitemap generado: ${outputPath}`);
 console.log(`📡 ${sitemapArticles.length * 2} URLs de noticias incluidas (recientes: ${recentArticles.length})`);
+

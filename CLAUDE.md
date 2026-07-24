@@ -18,10 +18,14 @@
 ## Build Pipeline
 `npm run build` ejecuta en orden:
 1. `generate-icons` — genera favicons y PWA icons
-2. `generate-rss` — genera public/rss.xml (27 artículos)
-3. `generate-sitemap` — genera public/sitemap.xml (64 URLs)
-4. `vite build` — compila el bundle
-5. `generate-pages` — pre-renderiza 64 páginas HTML estáticas en dist/
+2. `generate-rss` — genera public/rss.xml (89 artículos)
+3. `generate-sitemap` — genera public/sitemap.xml (197 URLs)
+4. `generate-news-sitemap` — genera public/news-sitemap.xml
+5. `vite build` — compila el bundle
+6. `generate-pages` — pre-renderiza páginas HTML estáticas en dist/
+
+> **Nota:** El número de URLs/artículos se calcula dinámicamente desde `src/translations.ts`
+> (ver scripts `generate-rss.js`, `generate-sitemap.js`, `generate-pages.js`). No hardcodear conteos.
 
 ## Project Structure
 ```
@@ -39,28 +43,31 @@ public/
     portfolio/    — Fotos reales organizadas por proyecto
     blog/         — Imágenes de artículos
     behind-scenes/
-  sitemap.xml     — 64 URLs
-  rss.xml         — 27 artículos
+  sitemap.xml     — 197 URLs
+  rss.xml         — 89 artículos
 fotos comprimidas/ — Fotos originales (no commiteadas a git)
 scripts/
-  generate-pages.js   — Pre-renderizado estático (64 páginas)
+  generate-pages.js   — Pre-renderizado estático
   generate-sitemap.js — Generación de sitemap
   generate-rss.js     — Generación de RSS
+  generate-news-sitemap.js — Sitemap de noticias
+  generate-icons.js   — Favicons/PWA icons
 ```
 
-## Portfolio — 9 Items Reales
+## Portfolio — 8 Items Reales
 
 | # | ID | Cliente | Año | Fotos |
 |---|-----|---------|-----|-------|
 | 1 | documental-tipnis | Abya Yala TV | 2016 | 7 (reales TIPNIS) |
 | 2 | brasil-la-poderosa | Abya Yala TV | 2018 | 6 |
-| 3 | la-estrella | Abya Yala TV | 2017 | 4 (Premio Eduardo Abaroa) |
-| 4 | gran-poder | RTP | 2015-2019 | 10 |
-| 5 | world-atomic-week | Bolivia TV | 2024 | 7 (Moscú) |
-| 6 | aniversario-potosi | Abya Yala TV | 2017 | 8 |
-| 7 | che-la-higuera | Abya Yala TV | 2017 | 6 |
-| 8 | trinidad-bolivia | Abya Yala TV | 2018 | 6 |
-| 9 | plantas-energia | RTP | 2014-2019 | 7 |
+| 3 | gran-poder | RTP | 2015-2019 | 10 |
+| 4 | world-atomic-week | Bolivia TV | 2024 | 7 (Moscú) |
+| 5 | aniversario-potosi | Abya Yala TV | 2017 | 8 |
+| 6 | che-la-higuera | Abya Yala TV | 2017 | 6 |
+| 7 | trinidad-bolivia | Abya Yala TV | 2018 | 6 |
+| 8 | plantas-energia | RTP | 2014-2019 | 7 |
+
+> Item "la-estrella" fue removido (commit `e543f86`). Título de sección renombrado a "Coberturas y Documentales".
 
 ### Portfolio UI:
 - Grid 3 columnas (responsive: 1→2→3)
@@ -70,18 +77,24 @@ scripts/
 - Sin videos (todos los videoUrl eliminados)
 - Filtros por categoría + búsqueda
 
-## Blog & Noticias — 27 Artículos (ids 1-27)
+## Blog & Noticias — 89 Artículos
 - ids 1-2: Blog posts (detrás de cámaras, evolución TV)
 - ids 3-22: Noticias reales de medios bolivianos (La Razón, Los Tiempos, Opinión, El Deber, Unitel, ATB)
 - ids 23-27: Noticias virales (ATB Digital, Unitel)
+- ids 28+: Artículos de tecnología (NVIDIA, El Confidencial, AMD), deportes (ESPN), salud (OPS), guías trámites bolivianos (ids 79-88) y blog post técnico (id 89: Sistema de Gestión de Prensa)
 - Cada artículo tiene `source` + `sourceUrl` → link clickeable
-- 5 artículos (ids 23-27) usan HTML puro en vez de Markdown según formato SEO
+- Algunos artículos usan HTML puro (`contentHtml`) en vez de Markdown según formato SEO
 - BlogPosts ordenados por fecha descendente
-- Categorías dinámicas extraídas de los posts (12 categorías: Cine, Cultura, Deportes, Documental, etc.)
+- Categorías dinámicas extraídas de los posts
 
 ### Fuentes de noticias:
 - La Razón, Los Tiempos, Opinión, La Octava, El Deber, Unitel, ATB Digital, PRODU, VivePotosí, EntreCruzar, Revista Nómadas
 - Abya Yala TV (cobertura propia FENAVID), reflexión personal
+
+## Certificaciones — 18 credenciales
+- 5 primarias (grado académico, competencias, cinematografía, fullstack, ciberseguridad) — siempre visibles en CV
+- 13 secundarias (Cisco, Alura Latam, Google Actívate, Coursera, Replit, etc.) — colapsables
+- Logos en hero section: Cisco, Alura Latam, Google Actívate, Coursera
 
 ## TypeScript Key Types
 - `PortfolioItem`: id, title, titleEn, category, role, year, client, description, imageUrl, images[], videoUrl?, isCaseStudy?, caseStudyId?, techDetails[]
@@ -98,6 +111,7 @@ scripts/
 7. **Firebase merge por slug** — No sobreescribe artículos locales definidos en translations.ts
 8. **NewsPortal sin categorías hardcodeadas** — Las categorías se extraen dinámicamente de los posts reales (12 categorías)
 9. **Contenido HTML en artículos virales** — ids 23-27 usan HTML puro (h1, p em, h2, blockquote, ul) en vez de Markdown
+10. **Documentación sensible local-only** — Contextos IA, handoffs y resúmenes viven en `.opencode/archive/` (gitignored). Solo `CLAUDE.md` y `README.md` están en git.
 
 ## Work Log (Resumen)
 ### Sesión 5 nuevas noticias (julio 2026):
@@ -221,4 +235,6 @@ Al crear o reescribir un artículo para el sector de noticias, seguir este flujo
 - Branch: main
 - Remote: origin/main (GitHub)
 - Auto-deploy a Vercel en cada push
-- No commitear: `fotos comprimidas/` (solo las copias en `public/images/portfolio/`)
+- No commitear: `fotos comprimidas/`, `fotos articulos/`, `fotos colacion de grado licenciatur/`, `fotos trabajo/` (solo las copias en `public/images/portfolio/`)
+- No commitear: `.opencode/` (contexto IA, handoffs, resúmenes con info sensible)
+- No commitear: documentos `.md` de contexto (ver `.gitignore`) — viven locales en `.opencode/archive/`
