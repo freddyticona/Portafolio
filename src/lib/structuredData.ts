@@ -120,8 +120,8 @@ export function generateHomeStructuredData(): object {
         ],
         uploadDate: '2026-07-20',
         duration: 'PT90S',
-        contentUrl: 'https://www.youtube.com/watch?v=6CL4rVpVOYU',
-        embedUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
+        contentUrl: 'https://www.youtube.com/watch?v=MK4au-qQcsw',
+        embedUrl: 'https://www.youtube.com/embed/MK4au-qQcsw',
         interactionStatistic: {
           '@type': 'InteractionCounter',
           interactionType: { '@type': 'WatchAction' },

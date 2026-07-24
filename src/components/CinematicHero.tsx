@@ -175,6 +175,8 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
           <span className="text-[10px] font-mono tracking-widest text-stone-500 uppercase">{lang === 'es' ? 'Certificado por' : 'Certified by'}</span>
           <img src="/images/cisco-logo.svg" alt="Cisco" className="h-6 brightness-0 invert" />
           <img src="/images/alura-logo.svg" alt="Alura Latam" className="h-5" />
+          <img src="/images/google-activate-logo.svg" alt="Google Actívate" className="h-5 brightness-0 invert" />
+          <img src="/images/coursera-logo.svg" alt="Coursera" className="h-5 brightness-0 invert" />
         </div>
       </div>
 

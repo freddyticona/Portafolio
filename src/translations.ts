@@ -5940,6 +5940,8 @@ Specialized in the intersection of software development, Artificial Intelligence
     imageCaption: 'Sistema de Gestión de Prensa — interfaz principal con panel de notas y filtros.',
     categoryEs: 'Desarrollo',
     categoryEn: 'Development',
+    source: 'Freddy Ticona Guzmán — Caso de estudio técnico',
+    sourceUrl: 'https://freddydev.net',
     enableComments: true,
     featured: true,
     views: 1
