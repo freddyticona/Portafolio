@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T13:14:08.498Z",
+  "timestamp": "2026-07-24T20:35:25.172Z",
   "totalExpected": 10,
   "found": [
     {
@@ -41,7 +41,7 @@
     {
       "path": "/images/behind-scenes/",
       "type": "directory",
-      "count": 54
+      "count": 59
     }
   ],
   "missing": [],
