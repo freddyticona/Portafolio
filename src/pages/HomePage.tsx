@@ -196,6 +196,15 @@ export default function HomePage({
         </div>
       </section>
 
+      {/* LINKEDIN BADGE */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center">
+          <div className="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="freddy-ticona-guzman-41612871" data-version="v1">
+            <a className="badge-base__link LI-simple-link" href="https://bo.linkedin.com/in/freddy-ticona-guzman-41612871?trk=profile-badge">Freddy Ticona Guzman</a>
+          </div>
+        </div>
+      </section>
+
       {/* 4. PREVIEW OF LATEST BLOG POSTS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         <motion.div

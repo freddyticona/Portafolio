@@ -78,13 +78,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         perspective: '1000px'
       }}
     >
-      {/* LinkedIn Badge - top right */}
-      <div className="absolute top-4 right-4 z-20">
-        <div className="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="freddy-ticona-guzman-41612871" data-version="v1">
-          <a className="badge-base__link LI-simple-link" href="https://bo.linkedin.com/in/freddy-ticona-guzman-41612871?trk=profile-badge">Freddy Ticona Guzman</a>
-        </div>
-      </div>
-
       {/* Background con efecto parallax */}
       <div
         className="absolute inset-0 z-0"
