@@ -487,6 +487,76 @@ const blogPosts = [
     title: 'Plan Nacional prioriza la atención primaria para enfrentar diabetes, cáncer y enfermedades cardiovasculares',
     date: '2026-07-14',
     excerpt: 'Las enfermedades no transmisibles representan el 73% de las muertes en Bolivia. El nuevo Plan de Salud 2026-2030 pone énfasis en la prevención y el primer nivel de atención.'
+  },
+  {
+    id: '69',
+    slug: 'linea-roja-hijo-linfangitis-peligro',
+    title: 'Si ves esta línea roja en tu hijo, llévalo al médico el mismo día',
+    date: '2026-07-23',
+    excerpt: 'Una línea roja que avanza desde una herida hacia el tronco del cuerpo puede ser linfangitis, una infección que requiere antibiótico urgente. Cada hora cuenta.'
+  },
+  {
+    id: '70',
+    slug: 'curso-verano-seguridad-ninos-padres',
+    title: 'Tragedia en curso de verano: las 7 reglas que todo padre debe conocer antes de inscribir a sus hijos',
+    date: '2026-07-23',
+    excerpt: 'Una niña falleció durante un curso de verano en México. Expertos en seguridad infantil comparten 7 puntos clave que los padres deben verificar antes de inscribir a sus hijos.'
+  },
+  {
+    id: '71',
+    slug: 'pecado-tomar-alcohol-biblia-respuesta',
+    title: '¿Es pecado tomar alcohol? Esto es lo que realmente dice la Biblia',
+    date: '2026-07-23',
+    excerpt: 'Un análisis de los pasajes bíblicos sobre el alcohol revela que la Escritura no condena la copa, sino el exceso. La diferencia es clave.'
+  },
+  {
+    id: '72',
+    slug: 'charro-gonzalez-mundial-embajador-mexico',
+    title: 'El mexicano que conquistó el Mundial vestido de charro sin patear un balón',
+    date: '2026-07-23',
+    excerpt: 'Llegó al Mundial 2026 vestido de charro con su guitarra y se convirtió en el embajador más querido de México, acaparando reflectores junto a las grandes estrellas del fútbol.'
+  },
+  {
+    id: '73',
+    slug: 'afganistan-mujeres-golpes-legal-taliban',
+    title: 'Afganistán: golpear a mujeres ahora es legal siempre que "no se rompan huesos"',
+    date: '2026-07-21',
+    excerpt: 'El régimen talibán aprobó un código penal que permite a los maridos castigar físicamente a sus esposas. Organizaciones de derechos humanos lo califican como un retroceso histórico.'
+  },
+  {
+    id: '74',
+    slug: 'cuatro-preguntas-hijo-manejar-seguridad',
+    title: 'Antes de que tu hijo maneje solo, hazle estas 4 preguntas que pueden salvarle la vida',
+    date: '2026-07-23',
+    excerpt: 'Saber manejar no es suficiente. Cuatro preguntas clave que todo padre debe hacer a su hijo antes de darle las llaves del auto por primera vez.'
+  },
+  {
+    id: '75',
+    slug: 'nino-ciego-mundial-padre-manos',
+    title: 'Un niño ciego "vio" el Mundial a través de las manos de su padre',
+    date: '2026-07-21',
+    excerpt: 'Alireza Babajani, de 9 años, nació ciego. Su padre le narró cada jugada del Mundial 2026 sobre la palma de sus manos con una maqueta táctil.'
+  },
+  {
+    id: '76',
+    slug: 'colombia-protege-animales-petroleo-renuncia',
+    title: 'Colombia prefiere proteger la vida de millones de animales antes que ganar más dinero con petróleo',
+    date: '2026-07-22',
+    excerpt: 'En lugar de expandir la explotación petrolera en una zona de biodiversidad única, Colombia decidió proteger los humedales y la vida silvestre que depende de ellos.'
+  },
+  {
+    id: '77',
+    slug: 'estudiantes-reparan-autos-madres-solteras',
+    title: 'Estudiantes reparan autos usados y los regalan a madres solteras: la historia que inspira a Latinoamérica',
+    date: '2026-07-22',
+    excerpt: 'Un grupo de estudiantes de mecánica comenzó un proyecto: tomar autos donados, repararlos y regalarlos a madres que necesitan transporte para trabajar y llevar a sus hijos a la escuela.'
+  },
+  {
+    id: '78',
+    slug: 'mujer-arregla-sale-sin-pareja-explicacion',
+    title: '¿Por qué tu mujer se arregla guapísima cuando sale sin ti? La ciencia responde',
+    date: '2026-07-22',
+    excerpt: 'Muchos hombres interpretan que su pareja se arregla para otros cuando sale sola. La psicología evolutiva revela una explicación muy distinta.'
   }
 ];
 

@@ -3693,6 +3693,438 @@ Con información de: Ministerio de Salud y Deportes.`,
     views: 1,
     source: 'Ministerio de Salud y Deportes',
     sourceUrl: 'https://www.minsalud.gob.bo/'
+  },
+  {
+    id: '69',
+    contentType: 'news',
+    slug: 'linea-roja-hijo-linfangitis-peligro',
+    titleEs: 'Si ves esta línea roja en tu hijo, llévalo al médico el mismo día',
+    titleEn: 'If you see this red line on your child, take them to the doctor the same day',
+    excerptEs: 'Una línea roja que avanza desde una herida hacia el tronco del cuerpo puede ser linfangitis, una infección que requiere antibiótico urgente. Cada hora cuenta.',
+    excerptEn: 'A red line advancing from a wound toward the torso may be lymphangitis, an infection requiring urgent antibiotics. Every hour counts.',
+    contentEs: `### ¿Qué es la linfangitis y por qué es una emergencia?
+
+Una línea roja, delgada y caliente que aparece en la piel de un niño y avanza desde una herida hacia el tronco del cuerpo no es un rasguño ni una irritación cualquiera. Se llama linfangitis y es la inflamación de los vasos linfáticos causada por una bacteria que ingresó por una herida: un piquete de insecto, un raspón, una cortada o incluso una ampolla infectada.
+
+Según especialistas en pediatría consultados por Badabun, esta condición requiere tratamiento antibiótico lo antes posible porque la bacteria está viajando por el sistema linfático hacia los ganglios más cercanos. Si la infección no se frena a tiempo, puede pasar al torrente sanguíneo y provocar una septicemia potencialmente mortal.
+
+### Cómo reconocerla
+
+Los padres deben estar atentos a estas señales:
+
+- Una línea roja que sube desde la herida hacia la axila (si está en el brazo) o hacia la ingle (si está en la pierna)
+- La línea crece o avanza en cuestión de horas
+- Fiebre o escalofríos
+- Ganglios inflamados y dolorosos
+- Dolor, calor o hinchazón en la zona de la herida
+- El niño se ve decaído o irritable
+
+### Qué hacer y qué evitar
+
+Los médicos recomiendan no esperar "a ver si se quita solo" ni aplicar solo remedios caseros o pomadas. Un truco útil: marcar con una pluma hasta dónde llega la línea roja y anotar la hora antes de ir al médico, para que el doctor pueda evaluar qué tan rápido está avanzando.
+
+**Lo que NO debe hacerse:**
+- Esperar al día siguiente sin consultar
+- Aplicar únicamente remedios caseros
+- Ignorar la fiebre o el decaimiento del niño
+
+La buena noticia es que, tratada a tiempo, la linfangitis responde rápida y bien a los antibióticos. La regla es simple: línea roja que avanza desde una herida hacia el cuerpo = consulta médica el mismo día.
+
+Con información de: Badabun.`,
+    contentEn: `A red line advancing from a wound toward the body's core may be lymphangitis, a bacterial infection requiring urgent antibiotics. If the infection reaches the bloodstream it can cause sepsis. Doctors recommend marking the line with a pen before going to the hospital so doctors can track how fast it's spreading.`,
+    date: '2026-07-23',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1200&h=630&fit=crop',
+    imageCaption: 'Ilustración médica. Fuente: Badabun',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/cultura/si-ves-esta-linea-roja-en-tu-hijo-ve-al-medico-el-mismo-dia/'
+  },
+  {
+    id: '70',
+    contentType: 'news',
+    slug: 'curso-verano-seguridad-ninos-padres',
+    titleEs: 'Tragedia en curso de verano: las 7 reglas que todo padre debe conocer antes de inscribir a sus hijos',
+    titleEn: 'Summer camp tragedy: 7 rules every parent must know before enrolling their children',
+    excerptEs: 'Una niña falleció durante un curso de verano en México. Expertos en seguridad infantil comparten 7 puntos clave que los padres deben verificar antes de inscribir a sus hijos.',
+    excerptEn: 'A girl died during a summer course in Mexico. Child safety experts share 7 key points parents must check before enrolling their children.',
+    contentEs: `### Una tragedia que pudo evitarse
+
+Esta semana México está de luto por el fallecimiento de una niña durante un curso de verano. El caso ha puesto en alerta a miles de padres que cada año buscan opciones de esparcimiento para sus hijos durante las vacaciones.
+
+Según reportó Badabun, la menor falleció en circunstancias que aún investigan las autoridades, pero el caso ha despertado un debate sobre los protocolos de seguridad en los cursos recreativos.
+
+### Las 7 reglas de oro para elegir un curso seguro
+
+Expertos en seguridad infantil consultados por el medio viral recomiendan seguir estos pasos antes de inscribir a un menor:
+
+**1. Verificar la trayectoria del curso.** Preguntar cuántos años lleva operando, quién lo organiza y si cuenta con permisos o registro oficial. Un curso serio responde sin problema; uno improvisado evade las preguntas.
+
+**2. Exigir comunicación directa con el menor.** Si el reglamento prohíbe llamadas o solo el personal da "reportes", es una señal de alerta. Los padres tienen derecho a hablar con sus hijos cuando lo necesiten.
+
+**3. Chequeo médico previo.** Antes de un curso con actividad física intensa, asegurarse de que el menor esté saludable. Informar por escrito sobre alergias, condiciones preexistentes y medicamentos.
+
+**4. Protocolo de emergencias.** Preguntar si hay personal capacitado en primeros auxilios, a qué hospital llevarían al menor y si avisan de inmediato ante cualquier incidente.
+
+**5. Métodos de disciplina.** Si mencionan castigos físicos, ejercicios forzados o métodos de "mano dura", buscar otra opción.
+
+**6. Visita sorpresa.** Llegar sin avisar durante el curso para verificar las condiciones reales. Si no dejan entrar, algo esconden.
+
+**7. Creer al menor.** Si el niño dice que algo no le gusta, que le da miedo o se nota diferente en llamadas, no minimizarlo. Los niños casi siempre avisan.
+
+Con información de: Badabun.`,
+    contentEn: `A girl died during a summer course in Mexico, sparking debate about safety protocols. Child safety experts recommend 7 key rules: verify the organizer's track record, demand direct communication with the child, get a medical check-up, ask about emergency protocols, check discipline methods, make surprise visits, and always believe the child if they say something is wrong.`,
+    date: '2026-07-23',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&h=630&fit=crop',
+    imageCaption: 'Niños en actividades recreativas. Foto: Badabun',
+    categoryEs: 'Cultura',
+    categoryEn: 'Culture',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/salud/es-urgente-que-todas-las-mamas-sepan-esto/'
+  },
+  {
+    id: '71',
+    contentType: 'culture',
+    slug: 'pecado-tomar-alcohol-biblia-respuesta',
+    titleEs: '¿Es pecado tomar alcohol? Esto es lo que realmente dice la Biblia',
+    titleEn: 'Is drinking alcohol a sin? This is what the Bible actually says',
+    excerptEs: 'Un análisis de los pasajes bíblicos sobre el alcohol revela que la Escritura no condena la copa, sino el exceso. La diferencia es clave.',
+    excerptEn: 'An analysis of biblical passages about alcohol reveals that Scripture does not condemn the drink, but excess. The difference is key.',
+    contentEs: `### La pregunta que divide a los creyentes
+
+La relación entre el cristianismo y el alcohol es un tema que ha generado debate durante siglos. Para responder a esta pregunta, diversos teólogos y estudiosos de la Biblia han analizado los pasajes clave de las Escrituras.
+
+Según un artículo publicado por Badabun, la respuesta puede sorprender a más de uno: la Biblia no condena tomar una copa. El mismo Jesús convirtió el agua en vino en las bodas de Caná (Juan 2:1-11), y el apóstol Pablo le recomendó a Timoteo que tomara "un poco de vino para su estómago y sus frecuentes enfermedades" (1 Timoteo 5:23).
+
+### Lo que realmente condena la Escritura
+
+Lo que la Biblia sí condena es la embriaguez. Efesios 5:18 dice claramente: "No se emborrachen con vino, que lleva al desenfreno; al contrario, sean llenos del Espíritu".
+
+El problema, según los expertos, no es la copa en sí misma, sino la pérdida del dominio propio que produce el exceso de alcohol. "Cuando te emborrachas, pierdes el control de tus decisiones", señala el análisis.
+
+### El costo social del alcoholismo
+
+Detrás de la pregunta teológica hay una realidad social ineludible: familias destruidas, accidentes de tránsito, violencia doméstica y palabras que nunca debieron decirse comienzan muchas veces con "solo una más".
+
+Los especialistas consultados coinciden en que el enfoque debe estar en la responsabilidad personal y el cuidado del prójimo, más que en la prohibición del consumo moderado.
+
+Con información de: Badabun.`,
+    contentEn: `The Bible does not condemn drinking alcohol, but rather drunkenness. Jesus turned water into wine, and Paul recommended wine to Timothy. Ephesians 5:18 warns against drunkenness, not moderate consumption. The key is self-control and responsibility rather than prohibition.`,
+    date: '2026-07-23',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&h=630&fit=crop',
+    imageCaption: 'Copa de vino y Biblia. Foto ilustrativa.',
+    categoryEs: 'Cultura',
+    categoryEn: 'Culture',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/cultura/es-pecado-tomar-alcohol-esto-dice-la-biblia/'
+  },
+  {
+    id: '72',
+    contentType: 'news',
+    slug: 'charro-gonzalez-mundial-embajador-mexico',
+    titleEs: 'El mexicano que conquistó el Mundial vestido de charro sin patear un balón',
+    titleEn: 'The Mexican who conquered the World Cup dressed as a charro without kicking a ball',
+    excerptEs: 'Llegó al Mundial 2026 vestido de charro con su guitarra y se convirtió en el embajador más querido de México, acaparando reflectores junto a las grandes estrellas del fútbol.',
+    excerptEn: 'He arrived at the 2026 World Cup dressed as a charro with his guitar and became Mexico\'s most beloved ambassador, sharing the spotlight with soccer\'s biggest stars.',
+    contentEs: `### El fenómeno viral del Mundial 2026
+
+Mientras millones de ojos estaban puestos en Mbappé, Messi y Lamine Yamal, un mexicano vestido de charro con una guitarra en mano se robó el corazón de los aficionados en el Mundial 2026.
+
+Conocido como "Charro González", este mexicano llegó a la sede mundialista sin más equipaje que su traje típico, su música y su orgullo nacional. Lo que ocurrió después nadie lo imaginó: turistas de todas las nacionalidades hacían fila para tomarse fotos con él, bailaban y cantaban canciones mexicanas.
+
+### Embajador sin título oficial
+
+Según reportó Badabun, el Charro González logró lo que pocos diplomáticos consiguen: hacer que personas de todo el mundo se llevaran un pedazo de México en el corazón. Sin polémicas, sin escándalos y sin buscar fama, su carisma natural trascendió las barreras del idioma y la cultura.
+
+Las imágenes virales lo muestran rodeado de aficionados de distintas selecciones, todos sonriendo y coreando canciones populares mexicanas.
+
+### El poder de la cultura popular
+
+El caso del Charro González demuestra que el mejor embajador de un país no siempre es quien levanta un trofeo, sino quien hace que millones de personas se enamoren de su gente, sus tradiciones y su cultura. En un mundo cada vez más polarizado, la música y la alegría de un charro mexicano lograron lo que pocos discursos políticos consiguen: unidad.
+
+Con información de: Badabun.`,
+    contentEn: `Known as "Charro González," a Mexican man dressed in traditional charro attire became the unexpected star of the 2026 World Cup. Tourists from all nations lined up for photos with him, dancing and singing Mexican songs. His story shows how culture and joy can unite people across borders.`,
+    date: '2026-07-23',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=1200&h=630&fit=crop',
+    imageCaption: 'Ambientación del Mundial. Foto: Badabun',
+    categoryEs: 'Entretenimiento',
+    categoryEn: 'Entertainment',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/entretenimiento/el-mexicano-que-hizo-que-el-mundo-entero-se-enamorara-de-nuestra-cultura/'
+  },
+  {
+    id: '73',
+    contentType: 'news',
+    slug: 'afganistan-mujeres-golpes-legal-taliban',
+    titleEs: 'Afganistán: golpear a mujeres ahora es legal siempre que "no se rompan huesos"',
+    titleEn: 'Afghanistan: beating women is now legal as long as "bones are not broken"',
+    excerptEs: 'El régimen talibán aprobó un código penal que permite a los maridos castigar físicamente a sus esposas. Organizaciones de derechos humanos lo califican como un retroceso histórico.',
+    excerptEn: 'The Taliban regime approved a penal code allowing husbands to physically punish their wives. Human rights organizations call it a historic setback.',
+    contentEs: `### Un retroceso histórico para los derechos humanos
+
+El régimen talibán en Afganistán firmó un nuevo código penal que legaliza el castigo físico de las mujeres por parte de sus maridos, siempre que no haya "fracturas o heridas abiertas", según reportó Badabun.
+
+La norma ha sido calificada por organizaciones internacionales de derechos humanos como uno de los retrocesos más graves en materia de género del siglo XXI.
+
+### Las cifras que indignan
+
+Para dimensionar la crueldad de la medida, basta comparar las penas: organizar una pelea de gallos se castiga con cinco meses de prisión, mientras que golpear a la esposa tiene una pena máxima de 15 días de cárcel si un juez determina que el hombre "se excedió".
+
+Aún más grave es el procedimiento para denunciar: una mujer debe mostrar sus heridas ante un juez hombre, completamente velada, y acompañada de un tutor varón que en la mayoría de los casos es el mismo esposo que la golpeó. Si intenta escapar a casa de sus padres sin permiso del marido, la que va a prisión es ella.
+
+### No siempre fue así
+
+En las décadas de 1960 y 1970, las mujeres afganas estudiaban en la universidad, trabajaban como doctoras, abogadas y caminaban libres por las calles de Kabul. Hoy han perdido casi todos sus derechos.
+
+Alemania, Canadá, Australia y los Países Bajos ya presentaron demandas contra el régimen talibán ante la Corte Internacional de Justicia. Los talibanes prohibieron incluso hablar de esta ley, lo que hace que difundirla sea un acto de resistencia.
+
+Con información de: Badabun.`,
+    contentEn: `The Taliban regime in Afghanistan approved a new penal code legalizing physical punishment of women by their husbands as long as there are no fractures or open wounds. Organizing a cockfight is punished with 5 months in prison, while beating a wife carries a maximum of 15 days. International pressure continues through lawsuits at the International Court of Justice.`,
+    date: '2026-07-21',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1587583770025-99651b96423c?w=1200&h=630&fit=crop',
+    imageCaption: 'Mujer afgana velada. Foto ilustrativa.',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/internacional/golpear-a-mujeres-en-afganistan-ahora-es-legal-siempre-que-no-se-rompan/'
+  },
+  {
+    id: '74',
+    contentType: 'news',
+    slug: 'cuatro-preguntas-hijo-manejar-seguridad',
+    titleEs: 'Antes de que tu hijo maneje solo, hazle estas 4 preguntas que pueden salvarle la vida',
+    titleEn: 'Before your child drives alone, ask them these 4 life-saving questions',
+    excerptEs: 'Saber manejar no es suficiente. Cuatro preguntas clave que todo padre debe hacer a su hijo antes de darle las llaves del auto por primera vez.',
+    excerptEn: 'Knowing how to drive is not enough. Four key questions every parent must ask their child before handing them the car keys for the first time.',
+    contentEs: `### Más allá de saber manejar
+
+Entregar las llaves del auto a un hijo es uno de los momentos más significativos para cualquier padre. Pero según expertos en seguridad vial consultados por Badabun, saber manejar no es suficiente: hay cuatro preguntas que pueden marcar la diferencia entre un incidente manejable y una tragedia.
+
+### Las 4 preguntas clave
+
+**Pregunta 1: ¿Qué haces si alguien te choca y te pide que no llames a nadie?**
+Esta situación es más común de lo que parece. La respuesta debe ser clara: siempre llamar a las autoridades, siempre tomar fotos del accidente y nunca hacer excepciones, por muy amable que se vea la otra persona.
+
+**Pregunta 2: ¿Qué dices si alguien te pregunta de quién fue la culpa?**
+La respuesta correcta: nada. Ni "perdón" ni "es que no te vi". Los jóvenes son educados por naturaleza, pero esa educación puede ser usada en su contra en un parte de accidentes.
+
+**Pregunta 3: ¿Sabes dónde están la tarjeta del seguro y la tarjeta de circulación ahora mismo?**
+No basta con que diga "por ahí en la guantera". El padre debe pedirle que las saque, las abra y toque cada documento. Solo así se asegura de que el hijo sabe exactamente dónde están.
+
+**Pregunta 4: ¿A quién le llamas primero y a quién segundo?**
+Primero al 911 si alguien puede estar lastimado. Segundo, a los padres. Los amigos, el group chat y las redes sociales no deberían estar en esa lista.
+
+Los especialistas recomiendan imprimir estas cuatro preguntas y dejarlas en la guantera del auto como recordatorio permanente.
+
+Con información de: Badabun.`,
+    contentEn: `Four essential questions every parent should ask their teen before handing over the car keys: What if the other driver asks you not to call anyone? What do you say about fault? Where are the insurance and registration cards right now? Who do you call first and second? Experts recommend printing these questions and keeping them in the glove compartment.`,
+    date: '2026-07-23',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1547447134-e0b1ef58f21d?w=1200&h=630&fit=crop',
+    imageCaption: 'Joven conductor. Foto: Badabun',
+    categoryEs: 'Cultura',
+    categoryEn: 'Culture',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/cultura/antes-de-que-tu-hijo-maneje-solo-hazle-estas-4-preguntas/'
+  },
+  {
+    id: '75',
+    contentType: 'news',
+    slug: 'nino-ciego-mundial-padre-manos',
+    titleEs: 'Un niño ciego "vio" el Mundial a través de las manos de su padre',
+    titleEn: 'A blind boy "saw" the World Cup through his father\'s hands',
+    excerptEs: 'Alireza Babajani, de 9 años, nació ciego. Su padre le narró cada jugada del Mundial 2026 sobre la palma de sus manos con una maqueta táctil.',
+    excerptEn: 'Alireza Babajani, 9, was born blind. His father narrated every World Cup 2026 play on the palm of his hands using a tactile model.',
+    contentEs: `### El amor de un padre como ventana al mundo
+
+Alireza Babajani tiene 9 años, nació con amaurosis congénita de Leber, una enfermedad genética que le impide ver desde su nacimiento. Jamás ha visto rodar un balón, pero cuando Argentina venció a Inglaterra en el Mundial 2026, él celebró cada gol como cualquier aficionado.
+
+Su secreto, según reportó Badabun, fue una maqueta táctil de la cancha y las manos de su padre. Mientras la televisión transmitía el partido, su papá observaba cada acción y la reproducía sobre un tablero en miniatura, marcando las posiciones de los jugadores y el recorrido de la pelota sobre la palma de las manos de su hijo.
+
+### La imagen que conmovió al mundo
+
+El video del niño celebrando los goles argentinos mientras su padre movía las piezas sobre la maqueta se volvió viral en redes sociales, acumulando millones de reproducciones en pocas horas.
+
+"Entre el tacto y el relato, Alireza imagina el juego y lo vive con la misma pasión que cualquier hincha", describió el medio.
+
+### Una lección de inclusión
+
+La historia de Alireza y su padre ha sido destacada por organizaciones de inclusión como un ejemplo de cómo la creatividad y el amor pueden derribar cualquier barrera. El fútbol, una vez más, demostró ser un lenguaje universal que trasciende incluso la falta de la vista.
+
+Con información de: Badabun.`,
+    contentEn: `Alireza Babajani, 9, was born blind with Leber congenital amaurosis. His father built a tactile soccer field model and narrated every World Cup play on the palm of his son's hands. The video of the boy celebrating Argentina's goals went viral, touching millions worldwide and becoming a symbol of inclusive love.`,
+    date: '2026-07-21',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1511882150382-421056c89033?w=1200&h=630&fit=crop',
+    imageCaption: 'Padre e hijo en el estadio. Foto: Badabun',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/internacional/un-nino-ciego-vio-el-mundial-a-traves-de-las-manos-de-su-padre/'
+  },
+  {
+    id: '76',
+    contentType: 'news',
+    slug: 'colombia-protege-animales-petroleo-renuncia',
+    titleEs: 'Colombia prefiere proteger la vida de millones de animales antes que ganar más dinero con petróleo',
+    titleEn: 'Colombia chooses to protect millions of animals rather than make more money from oil',
+    excerptEs: 'En lugar de expandir la explotación petrolera en una zona de biodiversidad única, Colombia decidió proteger los humedales y la vida silvestre que depende de ellos.',
+    excerptEn: 'Instead of expanding oil extraction in a unique biodiversity area, Colombia chose to protect wetlands and the wildlife that depends on them.',
+    contentEs: `### Una decisión que marca precedente
+
+En un mundo donde el interés económico suele imponerse sobre la conservación ambiental, Colombia tomó una decisión que está dando la vuelta al mundo: en lugar de expandir la explotación petrolera en una región de biodiversidad única, el gobierno colombiano optó por proteger los humedales y la vida silvestre.
+
+Según reportó Badabun, la medida beneficia a millones de aves migratorias, jaguares, delfines de río y tortugas que habitan estos ecosistemas.
+
+### El turismo como alternativa rentable
+
+El dato más revelador de esta historia es económico: los guías turísticos de la zona ahora generan más ingresos mostrando jaguares a turistas internacionales de lo que ganarían trabajando en pozos petroleros. El ecoturismo demostró ser financieramente más sostenible que la extracción de hidrocarburos.
+
+### Reacciones internacionales
+
+Organizaciones ambientales como WWF y Greenpeace celebraron la decisión como un modelo a seguir para otros países en desarrollo que enfrentan dilemas similares entre desarrollo económico y conservación.
+
+"Colombia demuestra que es posible elegir un futuro verde sin sacrificar el bienestar económico", señalaron los activistas.
+
+### El impacto en la región
+
+La decisión colombiana podría influir en las políticas ambientales de otros países latinoamericanos que enfrentan presiones similares de la industria extractiva. El mensaje es claro: la biodiversidad no solo tiene valor ecológico, sino también económico cuando se gestiona de manera sostenible.
+
+Con información de: Badabun.`,
+    contentEn: `Colombia chose to protect wetlands and wildlife instead of expanding oil extraction in a unique biodiversity area. Ecotourism guides now earn more showing jaguars to tourists than they would working in oil wells. Environmental organizations celebrate the decision as a model for other developing countries facing similar dilemmas between economic development and conservation.`,
+    date: '2026-07-22',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1564349683136-77e08dba1ef5?w=1200&h=630&fit=crop',
+    imageCaption: 'Humedal en Colombia. Foto: Badabun',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/internacional/colombia-prefirio-proteger-la-vida-de-millones-de-animales-antes-que/'
+  },
+  {
+    id: '77',
+    contentType: 'news',
+    slug: 'estudiantes-reparan-autos-madres-solteras',
+    titleEs: 'Estudiantes reparan autos usados y los regalan a madres solteras: la historia que inspira a Latinoamérica',
+    titleEn: 'Students repair used cars and give them to single mothers: the story inspiring Latin America',
+    excerptEs: 'Un grupo de estudiantes de mecánica comenzó un proyecto: tomar autos donados, repararlos y regalarlos a madres que necesitan transporte para trabajar y llevar a sus hijos a la escuela.',
+    excerptEn: 'A group of mechanics students started a project: take donated cars, repair them, and give them to mothers who need transportation to work and take their children to school.',
+    contentEs: `### Una idea que empezó en un taller escolar
+
+Un grupo de estudiantes de mecánica automotriz en Latinoamérica comenzó un proyecto que hoy inspira a toda la región: tomar autos donados, repararlos completamente y regalarlos a madres solteras que necesitan transporte para trabajar y llevar a sus hijos a la escuela.
+
+Según reportó Badabun, el proyecto nació cuando los estudiantes identificaron que una de las principales barreras para las madres solteras en situación de vulnerabilidad era la falta de transporte confiable.
+
+### Sin fines de lucro
+
+Los jóvenes no piden nada a cambio. "Una madre soltera con un auto propio no solo llega al trabajo. También puede recoger a sus hijos del colegio, ir al supermercado y, si es necesario, escapar de una emergencia", explicó uno de los fundadores del proyecto.
+
+### Crecimiento viral
+
+El proyecto, que comenzó en un solo taller escolar, se ha replicado en 12 ciudades de la región. Las redes sociales jugaron un papel clave, permitiendo que más talleres se sumaran a la iniciativa y que donantes de autos usados contactaran a los organizadores.
+
+### Impacto medible
+
+Hasta la fecha, decenas de madres solteras han recibido autos completamente reparados, con cambio de aceite, llantas nuevas y revisión mecánica completa. Para muchas de ellas, el vehículo representa no solo un medio de transporte, sino una herramienta de independencia y dignidad.
+
+Con información de: Badabun.`,
+    contentEn: `A group of mechanics students in Latin America started repairing donated cars and giving them to single mothers who need transportation for work and school runs. The project has grown to 12 cities across the region, with dozens of mothers receiving fully repaired vehicles as tools of independence and dignity.`,
+    date: '2026-07-22',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&h=630&fit=crop',
+    imageCaption: 'Estudiantes de mecánica. Foto: Badabun',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/internacional/estudiantes-reparan-autos-usados-y-los-regalan-a-madres-solteras/'
+  },
+  {
+    id: '78',
+    contentType: 'culture',
+    slug: 'mujer-arregla-sale-sin-pareja-explicacion',
+    titleEs: '¿Por qué tu mujer se arregla guapísima cuando sale sin ti? La ciencia responde',
+    titleEn: 'Why does your woman dress up when going out without you? Science answers',
+    excerptEs: 'Muchos hombres interpretan que su pareja se arregla para otros cuando sale sola. La psicología evolutiva revela una explicación muy distinta.',
+    excerptEn: 'Many men interpret their partner dressing up alone as seeking attention from others. Evolutionary psychology reveals a very different explanation.',
+    contentEs: `### Un malentendido común
+
+Es una escena que genera conflicto en muchas relaciones: ella se arregla, se maquilla y elige su mejor outfit para salir sin él. La mente masculina, entrenada para interpretar señales de competencia, suele saltar a la conclusión equivocada.
+
+Según un análisis publicado por Badabun basado en estudios de psicología evolutiva, la explicación es muy distinta a lo que la mayoría de los hombres cree.
+
+### Lo que dice la ciencia
+
+Los hombres y las mujeres tienen motivaciones diferentes al arreglarse:
+
+**Los hombres** se arreglan principalmente para proyectar estatus frente a otros hombres. Es una señal de competencia y jerarquía.
+
+**Las mujeres**, en cambio, se arreglan principalmente por:
+
+1. **Autoafirmación**: se arreglan para sentirse bien consigo mismas, no para los demás.
+2. **Competencia social femenina**: la mayoría de las mujeres se arreglan teniendo más en cuenta la mirada de otras mujeres que la de los hombres.
+3. **Rutina de autocuidado**: el proceso de arreglarse es una práctica de bienestar personal que no depende de si hay o no una pareja presente.
+
+### El error de interpretación
+
+Los especialistas señalan que el cerebro masculino comete un error biológico al proyectar sus propias motivaciones en la conducta femenina. "Los hombres piensan que ellas se arreglan como ellos: para llamar la atención del sexo opuesto. Pero el cableado de la mujer es diferente", explica el estudio.
+
+La próxima vez que surja la duda, la respuesta más probable es que se arregla para ella misma.
+
+Con información de: Badabun.`,
+    contentEn: `Evolutionary psychology explains why women dress up when going out without their partners: it's about self-affirmation and female social competition, not seeking male attention. Men make the biological error of projecting their own motivations onto female behavior. Most women dress up primarily for themselves and other women.`,
+    date: '2026-07-22',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=1200&h=630&fit=crop',
+    imageCaption: 'Mujer arreglándose. Foto ilustrativa.',
+    categoryEs: 'Cultura',
+    categoryEn: 'Culture',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Badabun',
+    sourceUrl: 'https://badabun.com/entretenimiento/por-que-tu-mujer-se-arregla-asi-cuando-sale-sin-ti/'
   }
 ];
 

@@ -90,6 +90,16 @@ const articles = [
   'cancer-jovenes-habitos-vida-contaminacion',
   'ministerio-salud-fortalece-sistema-cochabamba',
   'plan-nacional-enfermedades-no-transmisibles-atencion-primaria',
+  'linea-roja-hijo-linfangitis-peligro',
+  'curso-verano-seguridad-ninos-padres',
+  'pecado-tomar-alcohol-biblia-respuesta',
+  'charro-gonzalez-mundial-embajador-mexico',
+  'afganistan-mujeres-golpes-legal-taliban',
+  'cuatro-preguntas-hijo-manejar-seguridad',
+  'nino-ciego-mundial-padre-manos',
+  'colombia-protege-animales-petroleo-renuncia',
+  'estudiantes-reparan-autos-madres-solteras',
+  'mujer-arregla-sale-sin-pareja-explicacion',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
