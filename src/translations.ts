@@ -271,6 +271,15 @@ export const certificates: Certificate[] = [
     issuer: 'Google News Initiative (Data & Investigative Journalism)',
     year: '2020',
     isPrimary: false
+  },
+  {
+    id: '11',
+    titleEs: 'Replit Level 1 - Beginner Builder',
+    titleEn: 'Replit Level 1 - Beginner Builder',
+    issuer: 'Replit',
+    year: '2026',
+    isPrimary: false,
+    credentialUrl: 'https://replit-certifications.replit.app/FreddyTicona'
   }
 ];
 
