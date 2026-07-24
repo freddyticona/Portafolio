@@ -4125,6 +4125,236 @@ Con información de: Badabun.`,
     views: 1,
     source: 'Badabun',
     sourceUrl: 'https://badabun.com/entretenimiento/por-que-tu-mujer-se-arregla-asi-cuando-sale-sin-ti/'
+  },
+{
+    id: '79',
+    contentType: 'analysis',
+    slug: 'guia-cedula-identidad-segip-bolivia-2026',
+    titleEs: 'Cómo sacar la Cédula de Identidad en Bolivia 2026 — Requisitos, costos y pasos en SEGIP',
+    titleEn: 'How to get the Bolivian Identity Card in 2026 — Requirements, costs and steps at SEGIP',
+    excerptEs: 'Guía completa y actualizada para obtener o renovar tu cédula de identidad boliviana en 2026. Requisitos, costos oficiales, paso a paso del trámite presencial, horarios, oficinas SEGIP y cómo activar la cédula digital desde tu celular.',
+    excerptEn: 'Complete and updated guide to get or renew your Bolivian identity card in 2026. Official requirements, costs, step-by-step in-person process, SEGIP office locations, and how to activate your digital ID on your phone.',
+    contentEs: `### Guía Completa: Cédula de Identidad Bolivia 2026
+
+La **Cédula de Identidad** es el documento de identificación oficial más importante para los ciudadanos bolivianos. Emitida por el **Servicio General de Identificación Personal (SEGIP)**, este documento es obligatorio para realizar trámites bancarios, votar, viajar al interior y exterior del país, y cualquier gestión oficial.
+
+En esta guía encontrarás todo lo que necesitas saber para obtener o renovar tu cédula en 2026: requisitos actualizados, costos vigentes, horarios, ubicaciones y la nueva cédula digital.
+
+---
+
+#### ¿Qué tipos de trámite existen?
+
+SEGIP ofrece cinco modalidades para la Cédula de Identidad:
+
+| Trámite | Descripción |
+|---------|-------------|
+| **Primera vez** | Para ciudadanos que nunca han tenido cédula (mayores de 18 años) |
+| **Renovación** | Cuando la cédula actual está por vencer o ya venció |
+| **Duplicado** | Por robo, extravío o deterioro del documento |
+| **Cambio de datos** | Rectificación de nombre, apellido, fecha de nacimiento, etc. |
+| **Cédula de Extranjero** | Para residentes extranjeros en Bolivia |
+
+---
+
+#### Requisitos por tipo de trámite
+
+**Primera vez (mayores de 18 años):**
+- Partida de nacimiento original y copia (emitida por el SEGIP o Registro Civil)
+- Certificado de domicilio (original, con no más de 90 días de antigüedad)
+- Dos fotografías 4x4 cm, fondo blanco, sin retoques
+- Pago en el Banco Unión (Bs 17 para primera emisión)
+- Presentarse con la vestimenta adecuada (sin lentes, sin gorra, sin accesorios que cubran el rostro)
+
+**Renovación:**
+- Cédula de Identidad anterior **original**
+- Certificado de domicilio (original, con no más de 90 días de antigüedad)
+- Dos fotografías 4x4 cm, fondo blanco
+- Pago en el Banco Unión (Bs 17 para renovación)
+- En caso de deterioro, presentar la cédula dañada
+
+**Duplicado (por robo, extravío o deterioro):**
+- Denuncia policial **original** (emitida en la FELCV o en cualquier unidad policial)
+- Certificado de domicilio (original, con no más de 90 días de antigüedad)
+- Dos fotografías 4x4 cm, fondo blanco
+- Pago en el Banco Unión (Bs 17 para duplicado)
+- Si tienes la cédula deteriorada, preséntala también
+
+**Cambio de datos:**
+- Cédula de Identidad original
+- Documento legal que respalde el cambio (sentencia judicial, resolución administrativa, etc.)
+- Certificado de domicilio
+- Dos fotografías 4x4 cm
+- Pago en el Banco Unión (el costo varía según el tipo de modificación)
+
+---
+
+#### Costos oficiales actualizados (2026)
+
+| Trámite | Costo en Bs | Moneda |
+|---------|-------------|--------|
+| Primera emisión | 17 Bs | Bolivianos |
+| Renovación | 17 Bs | Bolivianos |
+| Duplicado | 17 Bs | Bolivianos |
+| Cambio de datos | 17 Bs (monto base, consultar) | Bolivianos |
+| Cédula de Extranjero | 100 Bs (aproximado, consultar) | Bolivianos |
+
+**Importante:** Todos los pagos se realizan exclusivamente en el **Banco Unión**. No se recibe efectivo en las oficinas del SEGIP.
+
+---
+
+#### Paso a paso del trámite presencial
+
+1. **Reúne tus documentos** — Asegúrate de tener todos los requisitos según tu tipo de trámite (fotos, certificado de domicilio, cédula anterior, etc.)
+
+2. **Paga en el Banco Unión** — Acércate a cualquier sucursal del Banco Unión con tu número de cédula (o nombres completos para primera vez). Solicita el "pago por concepto de Cédula de Identidad" (código: 17010). El costo es de **Bs 17**.
+
+3. **Saca tu turno** — Ingresa a [turnos.segip.gob.bo](https://turnos.segip.gob.bo) y selecciona tu trámite, oficina y horario. El sistema de turnos es gratuito y obligatorio en la mayoría de las oficinas.
+
+4. **Acude a la oficina SEGIP** — El día de tu turno, preséntate 15 minutos antes con:
+   - Original y copia de todos tus documentos
+   - Boleta de pago del Banco Unión
+   - Tu fotografía (aunque muchas oficinas ya toman la foto en el momento)
+
+5. **Toma de datos biométricos** — Te tomarán:
+   - Fotografía digital
+   - Huellas dactilares (10 dedos)
+   - Firma digital
+
+6. **Espera la entrega** — El tiempo de entrega varía:
+   - **Entrega normal:** 15 a 30 días hábiles
+   - **Entrega rápida:** No disponible en todas las oficinas (consultar en tu SEGIP más cercano)
+   - **Cédula al instante:** Algunas oficinas cuentan con impresión inmediata, especialmente en La Paz y Santa Cruz
+
+7. **Retira tu cédula** — Regresa a la misma oficina con tu comprobante de trámite para retirar el documento.
+
+---
+
+#### Cédula Digital — Actívala desde tu celular
+
+Desde 2023, el SEGIP habilitó la **Cédula de Identidad Digital**, un documento con la misma validez legal que la cédula física para la mayoría de los trámites.
+
+**Cómo activarla:**
+
+1. Descarga la app **"Cédula Digital Bolivia"** desde Google Play o App Store
+2. Registra tu número de celular (debe ser el mismo que registraste en SEGIP)
+3. Ingresa tu número de cédula y fecha de nacimiento
+4. Escanea el código QR de tu cédula física
+5. Tómate una selfie para verificar tu identidad
+6. ¡Listo! Tu cédula digital quedará activada
+
+**¿Dónde es válida?** La cédula digital es aceptada en bancos, aeropuertos (vuelos nacionales), trámites notariales y controles policiales. Sin embargo, para votar y viajar al exterior se recomienda llevar la cédula física.
+
+---
+
+#### Horarios de atención
+
+| Día | Horario |
+|-----|---------|
+| Lunes a Viernes | 08:00 — 16:00 (horario continuo) |
+| Sábados | 08:00 — 12:00 (oficinas seleccionadas) |
+| Domingos y feriados | Cerrado |
+
+**Oficinas con horario extendido:** Algunas oficinas en La Paz (Zona Central), El Alto y Santa Cruz atienden hasta las 18:00 los días hábiles.
+
+---
+
+#### Principales oficinas SEGIP
+
+| Ciudad | Dirección | Teléfono |
+|--------|-----------|----------|
+| **La Paz** (Central) | Av. Arce, Edificio SEGIP (ex-CNR) | 2680800 |
+| **La Paz** (El Alto) | Av. Juan Pablo II, cerca al Mercado Campesino | 2680800 |
+| **Santa Cruz** | Av. Irala esq. Av. Santos Dumont | 2680800 |
+| **Cochabamba** | Av. Ayacucho esq. 25 de Mayo | 2680800 |
+| **Sucre** | Calle Ravelo s/n | 2680800 |
+| **Oruro** | Av. 6 de Octubre esq. Cochabamba | 2680800 |
+| **Potosí** | Calle Bustillos esq. Sucre | 2680800 |
+| **Tarija** | Calle La Madrid esq. Suipacha | 2680800 |
+| **Beni** (Trinidad) | Av. 6 de Agosto esq. Avaroa | 2680800 |
+| **Pando** (Cobija) | Av. 9 de Febrero | 2680800 |
+
+> Para ubicar la oficina más cercana, visita [https://www.segip.gob.bo](https://www.segip.gob.bo) y selecciona "Oficinas".
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Puedo sacar mi cédula en cualquier departamento?**
+Sí, el SEGIP tiene cobertura nacional. Puedes realizar el trámite en cualquier oficina del país, independientemente de tu lugar de nacimiento o domicilio.
+
+**¿La nueva cédula tiene validez para viajar?**
+Sí. La Cédula de Identidad boliviana es aceptada como documento de viaje en todos los países de la **Comunidad Andina** (Perú, Colombia, Ecuador) y del **Mercosur** (Argentina, Brasil, Paraguay, Uruguay, Chile). Para otros destinos se requiere pasaporte.
+
+**¿Qué hago si perdí mi cédula?**
+Debes:
+1. Presentar una **denuncia policial** en la FELCV o unidad policial más cercana
+2. Pagar el duplicado en el Banco Unión (Bs 17)
+3. Acudir al SEGIP con la denuncia original y los demás requisitos
+
+**¿La cédula digital reemplaza a la física?**
+No del todo. La cédula digital es complementaria y tiene validez legal, pero para ciertos trámites (votación, viajes internacionales) se exige la versión física.
+
+**¿Puedo renovar si mi cédula está vencida?**
+Sí. Puedes renovar incluso si tu cédula está vencida hace años. Solo necesitas los requisitos de renovación estándar.
+
+**¿Hay descuentos para adultos mayores o personas con discapacidad?**
+Sí. Los adultos mayores (60+ años) y personas con discapacidad tienen **exención del pago** en la primera emisión y renovación. Deben presentar el carnet correspondiente.
+
+**¿Cuánto tiempo dura la cédula?**
+La vigencia depende de la edad:
+- **18 a 60 años:** 10 años
+- **60+ años:** Vigencia indefinida
+
+---
+
+#### Consejos útiles
+
+- **Llega temprano:** Aunque tengas turno, las oficinas suelen tener alta demanda. Llega 15-20 minutos antes.
+- **Viste adecuadamente:** Sin lentes oscuros, gorras, piercings faciales grandes o accesorios que cubran tu rostro.
+- **Fotografías profesionales:** Aunque muchas oficinas toman la foto digital, es recomendable llevar tus propias fotos 4x4 con fondo blanco por si acaso.
+- **Certificado de domicilio actualizado:** Debe tener no más de 90 días desde su emisión. Lo emiten la OTB, junta vecinal o cualquier autoridad local.
+- **Para extranjeros:** El trámite de Cédula de Extranjero requiere visa de residente vigente, pasaporte original y certificado de domicilio. El costo aproximado es de Bs 100.
+
+---
+
+#### Enlaces oficiales
+
+- SEGIP — Página oficial: [https://www.segip.gob.bo](https://www.segip.gob.bo)
+- Sistema de turnos en línea: [https://turnos.segip.gob.bo](https://turnos.segip.gob.bo)
+- App Cédula Digital: [Google Play](https://play.google.com/store/apps/details?id=bo.gob.segip.ceduladigital) | [App Store](https://apps.apple.com/bo/app/c%C3%A9dula-digital-bolivia/id6446085894)
+
+> Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SEGIP antes de realizar tu trámite.`,
+    contentEn: `### Complete Guide: Bolivian Identity Card 2026
+
+The **Cédula de Identidad** is the official identification document for Bolivian citizens, issued by **SEGIP** (Servicio General de Identificación Personal). This guide covers everything you need to know to obtain or renew your ID in 2026.
+
+**Requirements by type:**
+- **First time:** Birth certificate, proof of residence (less than 90 days old), two 4x4cm white-background photos, Banco Unión payment (Bs 17)
+- **Renewal:** Previous ID card, proof of residence, two photos, Bs 17 payment
+- **Duplicate (lost/stolen):** Police report, proof of residence, two photos, Bs 17 payment
+
+**Step-by-step:**
+1. Pay Bs 17 at any Banco Unión branch
+2. Book an appointment at turnos.segip.gob.bo
+3. Visit your local SEGIP office with all documents
+4. Get your biometric data taken (photo, fingerprints, signature)
+5. Wait 15-30 business days for delivery
+
+**Digital ID:** Download "Cédula Digital Bolivia" app from Google Play/App Store, scan your physical ID's QR code and take a selfie to activate.
+
+**Costs:** Bs 17 for most procedures (first time, renewal, duplicate). Seniors 60+ and people with disabilities are exempt from payment.
+
+For more details visit: https://www.segip.gob.bo`,
+    date: '2026-07-24',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=1200&h=630&fit=crop',
+    imageCaption: 'La Paz, Bolivia. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: true,
+    views: 1
   }
 ];
 

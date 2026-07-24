@@ -557,6 +557,13 @@ const blogPosts = [
     title: '¿Por qué tu mujer se arregla guapísima cuando sale sin ti? La ciencia responde',
     date: '2026-07-22',
     excerpt: 'Muchos hombres interpretan que su pareja se arregla para otros cuando sale sola. La psicología evolutiva revela una explicación muy distinta.'
+  },
+  {
+    id: '79',
+    slug: 'guia-cedula-identidad-segip-bolivia-2026',
+    title: 'Cómo sacar la Cédula de Identidad en Bolivia 2026 — Requisitos, costos y pasos en SEGIP',
+    date: '2026-07-24',
+    excerpt: 'Guía completa y actualizada para obtener o renovar tu cédula de identidad boliviana en 2026. Requisitos, costos oficiales, paso a paso del trámite presencial, horarios, oficinas SEGIP y cómo activar la cédula digital desde tu celular.'
   }
 ];
 

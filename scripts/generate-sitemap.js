@@ -100,6 +100,7 @@ const articles = [
   'colombia-protege-animales-petroleo-renuncia',
   'estudiantes-reparan-autos-madres-solteras',
   'mujer-arregla-sale-sin-pareja-explicacion',
+  'guia-cedula-identidad-segip-bolivia-2026',
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

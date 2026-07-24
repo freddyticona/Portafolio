@@ -141,6 +141,7 @@ const articles = [
   { slug: 'colombia-protege-animales-petroleo-renuncia', title: 'Colombia prefiere proteger la vida de millones de animales antes que ganar más dinero con petróleo', desc: 'Colombia decidió proteger humedales y vida silvestre en lugar de expandir explotación petrolera.' },
   { slug: 'estudiantes-reparan-autos-madres-solteras', title: 'Estudiantes reparan autos usados y los regalan a madres solteras: la historia que inspira a Latinoamérica', desc: 'Un grupo de estudiantes de mecánica comenzó un proyecto: reparar autos donados para madres solteras.' },
   { slug: 'mujer-arregla-sale-sin-pareja-explicacion', title: '¿Por qué tu mujer se arregla guapísima cuando sale sin ti? La ciencia responde', desc: 'La psicología evolutiva revela que las mujeres se arreglan para sí mismas, no para buscar atención masculina.' },
+  { slug: 'guia-cedula-identidad-segip-bolivia-2026', title: 'Cómo sacar la Cédula de Identidad en Bolivia 2026 — Requisitos, costos y pasos en SEGIP', desc: 'Guía completa y actualizada para obtener o renovar tu cédula de identidad boliviana en 2026: requisitos, costos oficiales, paso a paso del trámite, horarios, oficinas SEGIP y cómo activar la cédula digital.' },
 ];
 
 // Extraer imageUrl de cada artículo desde translations.ts
