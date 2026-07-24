@@ -308,6 +308,15 @@
     <meta name="google-site-verification" content="LKIpT2hOCxd1UAdbG_kbgNa6QeYZtPhmEPrYIyS4yKg" />
   </head>
   <body>
+    <!-- Hero placeholder: se pinta instantáneamente (preload cache) antes de que React hidrate -->
+    <div id="hero-placeholder" style="position:fixed;inset:0;z-index:-1;overflow:hidden;background:#000">
+      <picture>
+        <source srcset="/images/behind-scenes/DSC_2994-large.webp" media="(min-width: 961px)" />
+        <source srcset="/images/behind-scenes/DSC_2994-medium.webp" media="(max-width: 960px)" />
+        <img src="/images/behind-scenes/DSC_2994-small.webp" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center;filter:brightness(0.3) saturate(1)" fetchpriority="high" decoding="sync" />
+      </picture>
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

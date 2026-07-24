@@ -39,6 +39,12 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
     };
   }, []);
 
+  // Ocultar placeholder HTML estático (LCP instantáneo) cuando React monta
+  useEffect(() => {
+    const el = document.getElementById('hero-placeholder');
+    if (el) el.style.display = 'none';
+  }, []);
+
   const heroContent = {
     es: {
       badge: 'Premio Eduardo Abaroa 2017',
