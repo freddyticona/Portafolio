@@ -90,6 +90,8 @@ export interface BlogPost {
   categoryEs: string;
   categoryEn: string;
   videoUrl?: string; // Video de YouTube
+  topicOfDay?: string; // Tema del día (DW-inspired)
+  editorialPick?: boolean; // Selección editorial destacada
   enableComments: boolean; // Habilitar/deshabilitar comentarios
   font?: string; // Fuente personalizada para este post
   breaking?: boolean; // Noticia de última hora
