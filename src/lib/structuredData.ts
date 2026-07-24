@@ -48,7 +48,7 @@ const PERSON_DATA = {
     'Documentales',
     'Periodismo Televisivo',
     'Producción Audiovisual',
-    'Filmación 4K',
+    'Filmación profesional',
     'Post-producción',
     'Cobertura de eventos',
     'Rodaje documental'
@@ -113,7 +113,7 @@ export function generateHomeStructuredData(): object {
         '@type': 'VideoObject',
         '@id': `${BASE_URL}/#showreel`,
         name: 'Showreel Freddy Ticona - Camarógrafo Profesional Bolivia',
-        description: 'Showreel profesional destacando 15 años de experiencia en cinematografía, documentales y cobertura periodística en Bolivia. Filmación 4K, edición y producción audiovisual en La Paz.',
+        description: 'Showreel profesional destacando 15 años de experiencia en cinematografía, documentales y cobertura periodística en Bolivia. Filmación profesional, edición y producción audiovisual en La Paz.',
         thumbnailUrl: [
           `${BASE_URL}/images/freddy_studio.webp`,
           `${BASE_URL}/images/freddy_profile.webp`
@@ -316,7 +316,7 @@ export function generateServicesStructuredData(): object {
             '@type': 'Service',
             position: 1,
             name: 'Filmación de Eventos',
-            description: 'Cobertura profesional de eventos con tecnología 4K',
+            description: 'Cobertura profesional de eventos con tecnología Full HD',
             provider: PERSON_DATA,
             areaServed: { '@type': 'City', name: 'La Paz' },
             hasOfferCatalog: {
@@ -416,7 +416,7 @@ export function generateFAQStructuredData(): object {
         name: '¿Qué servicios ofrece Freddy Ticona?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Ofrezco servicios de filmación 4K de eventos, edición de video profesional con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia.'
+          text: 'Ofrezco servicios de filmación profesional de eventos, edición de video con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia.'
         }
       },
       {
@@ -448,7 +448,7 @@ export function generateFAQStructuredData(): object {
         name: '¿Qué equipos utiliza para filmación?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Utilizo cámaras 4K profesionales, equipos de iluminación LED, sistemas de audio inalámbricos y drones para tomas aéreas, dependiendo de las necesidades del proyecto.'
+          text: 'Utilizo cámaras profesionales Full HD, equipos de iluminación LED, sistemas de audio inalámbricos y drones para tomas aéreas, dependiendo de las necesidades del proyecto.'
         }
       }
     ]

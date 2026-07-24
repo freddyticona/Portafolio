@@ -57,7 +57,7 @@ const KNOWLEDGE_BASE = {
     // Services
     services: {
       keywords: ['servicio', 'servicios', 'ofreces', 'haces', 'que', 'qué', 'realizas'],
-      response: 'Ofrezco los siguientes servicios:\n\n📹 **Filmación de Eventos** - Cobertura completa con cámara 4K\n\n🎬 **Edición de Video** - Post-producción profesional\n\n🎥 **Documentales/Reportajes** - Producción de contenido largo\n\n📋 **Consultoría** - Asesoría en proyectos audiovisuales\n\n¿Te gustaría agendar una cita?',
+      response: 'Ofrezco los siguientes servicios:\n\n📹 **Filmación de Eventos** - Cobertura completa con cámara profesional\n\n🎬 **Edición de Video** - Post-producción profesional\n\n🎥 **Documentales/Reportajes** - Producción de contenido largo\n\n📋 **Consultoría** - Asesoría en proyectos audiovisuales\n\n¿Te gustaría agendar una cita?',
       action: { label: '📅 Agendar Cita', action: 'booking' }
     },
 
@@ -85,7 +85,7 @@ const KNOWLEDGE_BASE = {
     // Equipment
     equipment: {
       keywords: ['equipo', 'cámara', 'camara', 'equipo', 'tecnología', 'material'],
-      response: 'Trabajo con equipo profesional:\n\n📹 Cámaras 4K (Sony, Canon)\n💡 Iluminación profesional\n🎙️ Audio de alta calidad\n🖥️ Suite de edición completa\n\n¿Necesitas cobertura para algún evento?',
+      response: 'Trabajo con equipo profesional:\n\n📹 Cámaras Full HD (Sony, Canon)\n💡 Iluminación profesional\n🎙️ Audio de alta calidad\n🖥️ Suite de edición completa\n\n¿Necesitas cobertura para algún evento?',
       action: { label: '📹 Filmación', action: 'booking' }
     },
 
@@ -126,7 +126,7 @@ const KNOWLEDGE_BASE = {
 
     services: {
       keywords: ['service', 'services', 'offer', 'do', 'what', 'provide'],
-      response: 'I offer the following services:\n\n📹 **Event Filming** - Full coverage with 4K camera\n\n🎬 **Video Editing** - Professional post-production\n\n🎥 **Documentaries** - Long-form production\n\n📋 **Consultation** - Audiovisual project advice\n\nWould you like to book an appointment?',
+      response: 'I offer the following services:\n\n📹 **Event Filming** - Full coverage with professional camera\n\n🎬 **Video Editing** - Professional post-production\n\n🎥 **Documentaries** - Long-form production\n\n📋 **Consultation** - Audiovisual project advice\n\nWould you like to book an appointment?',
       action: { label: '📅 Book Appointment', action: 'booking' }
     },
 
@@ -150,7 +150,7 @@ const KNOWLEDGE_BASE = {
 
     equipment: {
       keywords: ['equipment', 'camera', 'gear', 'technology', 'kit'],
-      response: 'I work with professional equipment:\n\n📹 4K Cameras (Sony, Canon)\n💡 Professional lighting\n🎙️ High-quality audio\n🖥️ Full editing suite\n\nDo you need coverage for an event?',
+      response: 'I work with professional equipment:\n\n📹 Full HD Cameras (Sony, Canon)\n💡 Professional lighting\n🎙️ High-quality audio\n🖥️ Full editing suite\n\nDo you need coverage for an event?',
       action: { label: '📹 Filming', action: 'booking' }
     },
 

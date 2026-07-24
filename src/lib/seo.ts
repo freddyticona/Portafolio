@@ -37,9 +37,9 @@ const SITE_CONFIG = {
 export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }> = {
   inicio: {
     es: {
-      title: 'Freddy Ticona Guzmán | Camarógrafo Profesional La Paz Bolivia | Filmación 4K y Documentales',
-      description: 'Portafolio profesional de Freddy Ticona Guzmán, camarógrafo experto en La Paz, Bolivia con más de 15 años de experiencia en televisión, documentales y cobertura periodística. Servicios de filmación 4K, edición de video y producción audiovisual. Ganador del Premio Nacional Eduardo Abaroa 2017.',
-      keywords: ['camarógrafo La Paz', 'camarógrafo Bolivia', 'filmación 4K La Paz', 'realizador audiovisual Bolivia', 'edición de video profesional', 'documentales Bolivia', 'cobertura periodística', 'productor de video'],
+      title: 'Freddy Ticona Guzmán | Camarógrafo Profesional La Paz Bolivia | Filmación y Documentales',
+      description: 'Portafolio profesional de Freddy Ticona Guzmán, camarógrafo experto en La Paz, Bolivia con más de 15 años de experiencia en televisión, documentales y cobertura periodística. Servicios de filmación profesional, edición de video y producción audiovisual. Ganador del Premio Nacional Eduardo Abaroa 2017.',
+      keywords: ['camarógrafo La Paz', 'camarógrafo Bolivia', 'filmación profesional La Paz', 'realizador audiovisual Bolivia', 'edición de video profesional', 'documentales Bolivia', 'cobertura periodística', 'productor de video'],
     },
     en: {
       title: 'Freddy Ticona Guzmán | Cameraman and Video Producer - La Paz, Bolivia',
@@ -62,7 +62,7 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   portafolio: {
     es: {
       title: 'Portafolio de Proyectos Audiovisuales | Documentales y Cobertura Televisiva | Freddy Ticona',
-      description: 'Galería completa de proyectos audiovisuales: documentales culturales, cobertura periodística en vivo, eventos corporativos 4K y producciones televisivas. Trabajos para Bolivia TV, Red Uno, RTP y más. Experiencia en todo el territorio boliviano.',
+      description: 'Galería completa de proyectos audiovisuales: documentales culturales, cobertura periodística en vivo, eventos corporativos y producciones televisivas. Trabajos para Bolivia TV, Red Uno, RTP y más. Experiencia en todo el territorio boliviano.',
       keywords: ['portafolio camarógrafo', 'proyectos documentales Bolivia', 'cobertura televisiva', 'trabajos edición video', 'producciones televisivas Bolivia', 'filmación eventos La Paz'],
     },
     en: {
@@ -86,7 +86,7 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   blog: {
     es: {
       title: 'Blog de Producción Audiovisual y Cinematografía Bolivia | Tips de Filmación',
-      description: 'Artículos especializados sobre técnicas de filmación 4K, edición de video profesional, producción de documentales y reflexiones sobre el medio audiovisual en Bolivia. Guías para camarógrafos y realizadores.',
+      description: 'Artículos especializados sobre técnicas de filmación profesional, edición de video, producción de documentales y reflexiones sobre el medio audiovisual en Bolivia. Guías para camarógrafos y realizadores.',
       keywords: ['blog cinematografía', 'producción video Bolivia', 'técnicas de filmación', 'edición documental', 'periodismo televisivo', 'tips camarógrafo', 'blog video profesional'],
     },
     en: {
@@ -110,7 +110,7 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   reservas: {
     es: {
       title: 'Reservar Camarógrafo La Paz Bolivia | Agendar Filmación y Edición Online',
-      description: 'Sistema de reservas online para agendar sesiones de filmación 4K, edición de video y consultoría audiovisual en La Paz, Bolivia. Reserva tu fecha para eventos, bodas, documentales y proyectos televisivos.',
+      description: 'Sistema de reservas online para agendar sesiones de filmación profesional, edición de video y consultoría audiovisual en La Paz, Bolivia. Reserva tu fecha para eventos, bodas, documentales y proyectos televisivos.',
       keywords: ['reservar camarógrafo La Paz', 'agendar filmación Bolivia', 'cita edición video', 'sistema de reservas', 'agendar producción', 'reservar camarógrafo online'],
     },
     en: {
@@ -121,13 +121,13 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   },
   servicios: {
     es: {
-      title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
-      description: 'Servicios profesionales de filmación 4K, edición de video con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cobertura de eventos, bodas, corporativos y proyectos televisivos. Más de 15 años de experiencia.',
-      keywords: ['servicios camarógrafo La Paz', 'filmación eventos Bolivia', 'edición video profesional', 'producción documental', 'consultoría audiovisual', 'camarógrafo 4K', 'filmación bodas La Paz', 'servicios video Bolivia'],
+      title: 'Servicios Audiovisuales La Paz Bolivia | Filmación, Edición y Documentales',
+      description: 'Servicios profesionales de filmación, edición de video con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cobertura de eventos, bodas, corporativos y proyectos televisivos. Más de 15 años de experiencia.',
+      keywords: ['servicios camarógrafo La Paz', 'filmación eventos Bolivia', 'edición video profesional', 'producción documental', 'consultoría audiovisual', 'filmación bodas La Paz', 'servicios video Bolivia'],
     },
     en: {
       title: 'Services - Event Filming, Editing and Documentaries | Freddy Ticona',
-      description: 'Professional services: 4K event filming, video editing, documentary production and audiovisual consulting in La Paz, Bolivia.',
+      description: 'Professional services: event filming, video editing, documentary production and audiovisual consulting in La Paz, Bolivia.',
       keywords: ['cameraman services', 'event filming Bolivia', 'professional video editing', 'documentary production', 'audiovisual consulting'],
     }
   },

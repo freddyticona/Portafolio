@@ -57,8 +57,8 @@ const SERVICES = {
     icon: Camera,
     duration: '2-8 horas',
     deposit: 50,
-    es: { name: 'Filmación de Evento', desc: 'Cobertura completa con cámara 4K' },
-    en: { name: 'Event Filming', desc: 'Full coverage with 4K camera' }
+    es: { name: 'Filmación de Evento', desc: 'Cobertura completa con cámara profesional' },
+    en: { name: 'Event Filming', desc: 'Full coverage with professional camera' }
   },
   editing: {
     id: 'editing',

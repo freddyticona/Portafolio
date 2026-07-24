@@ -141,14 +141,14 @@ export const SERVICES_PRICING = [
     duration: '2 horas',
     featuresEs: [
       'Camarógrafo profesional',
-      'Equipo 4K profesional',
+      'Equipo profesional Full HD',
       'Grabación de audio inalámbrico',
       'Entrega en 48 horas',
       '1 revisión incluida'
     ],
     featuresEn: [
       'Professional cameraman',
-      '4K professional equipment',
+      'Full HD professional equipment',
       'Wireless audio recording',
       '48-hour delivery',
       '1 revision included'
@@ -168,7 +168,7 @@ export const SERVICES_PRICING = [
     popular: true,
     featuresEs: [
       'Camarógrafo + Asistente',
-      'Hasta 3 cámaras 4K',
+      'Hasta 3 cámaras Full HD',
       'Iluminación profesional completa',
       'Audio multi-canal',
       'Drone (opcional)',
@@ -177,7 +177,7 @@ export const SERVICES_PRICING = [
     ],
     featuresEn: [
       'Cameraman + Assistant',
-      'Up to 3 4K cameras',
+      'Up to 3 Full HD cameras',
       'Complete professional lighting',
       'Multi-channel audio',
       'Drone (optional)',
@@ -343,7 +343,7 @@ export const SERVICES_PRICING = [
     popular: true,
     featuresEs: [
       'Hasta 2 camarógrafos',
-      'Equipo 4K múltiple',
+      'Equipo profesional múltiple',
       'Audio del evento',
       'Streaming en vivo (opcional)',
       'Highlight reel',
@@ -351,7 +351,7 @@ export const SERVICES_PRICING = [
     ],
     featuresEn: [
       'Up to 2 cameramen',
-      'Multiple 4K equipment',
+      'Multiple professional equipment',
       'Event audio',
       'Live streaming (optional)',
       'Highlight reel',

@@ -84,8 +84,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
       },
       {
         icon: TrendingUp,
-        titleEs: 'Tecnología 4K',
-        titleEn: '4K Technology',
+        titleEs: 'Calidad Full HD',
+        titleEn: 'Full HD Quality',
         descEs: 'Equipamiento de última generación',
         descEn: 'State-of-the-art equipment'
       }
