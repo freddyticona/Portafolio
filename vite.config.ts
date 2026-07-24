@@ -1,14 +1,32 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import {defineConfig, type Plugin} from 'vite';
 import {sentryVitePlugin} from '@sentry/vite-plugin';
+
+/** Hace que la CSS no sea render-blocking: preload + onload upgrade */
+function makeCssNonBlocking(): Plugin {
+  return {
+    name: 'make-css-non-blocking',
+    enforce: 'post',
+    transformIndexHtml(html) {
+      // Solo apuntar al CSS bundle de Vite (tiene /assets/ en href)
+      return html.replace(
+        '<link rel="stylesheet" crossorigin href="/assets/',
+        '<link rel="preload" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" crossorigin href="/assets/'
+      );
+    },
+    // Los estilos inline en <head> ya cubren la sección crítica (hero),
+    // y React monta después de que la CSS async haya cargado
+  };
+}
 
 export default defineConfig(() => {
   return {
     plugins: [
       react(),
       tailwindcss(),
+      makeCssNonBlocking(),
       sentryVitePlugin({
         authToken: process.env.SENTRY_AUTH_TOKEN,
         org: process.env.SENTRY_ORG,
