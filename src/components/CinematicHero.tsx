@@ -86,9 +86,10 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         }}
       >
         <img
-          src="/images/behind-scenes/DSC_2994-small.webp"
-          srcSet="/images/behind-scenes/DSC_2994-medium.webp 960w,
-                  /images/behind-scenes/DSC_2994-large.webp 1920w"
+          src="/images/behind-scenes/DSC_2994-medium.webp"
+          srcSet={`/images/behind-scenes/DSC_2994-small.webp 640w,
+                   /images/behind-scenes/DSC_2994-medium.webp 960w,
+                   /images/behind-scenes/DSC_2994-large.webp 1920w`}
           sizes="100vw"
           alt="Freddy Ticona trabajando en el set"
           className="absolute inset-0 w-full h-full object-cover object-center"

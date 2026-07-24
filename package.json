@@ -17,6 +17,7 @@
     "prebuild": "echo 'Build starting...'",
     "optimize-images": "node scripts/optimize-images.js",
     "optimize-images:watch": "nodemon --watch public/images --exec 'npm run optimize-images'",
+    "generate-lqip": "node scripts/generate-lqip.mjs",
     "check-images": "node scripts/check-images.cjs",
     "validate-html": "node scripts/validate-html.js",
     "test": "vitest run",
