@@ -79,11 +79,11 @@ export default function CVPage({ lang, t }: CVPageProps) {
 
             <div className="space-y-4">
               <div className="space-y-1 text-left">
-                <div className="text-xs font-mono text-stone-500">2010 - 2014</div>
+                <div className="text-xs font-mono text-stone-500">2018 - 2022</div>
                 <h4 className="text-sm font-bold text-white leading-snug">
-                  {lang === 'es' ? 'Licenciatura en Ciencias de la Comunicación Social' : 'Bachelor of Science in Social Communication'}
+                  {lang === 'es' ? 'Licenciatura en Comunicación (Título en Provisión Nacional)' : 'Bachelor Degree in Communication (National Degree)'}
                 </h4>
-                <p className="text-xs text-gold/90 font-mono font-bold tracking-wider">UDABOL - La Paz</p>
+                <p className="text-xs text-gold/90 font-mono font-bold tracking-wider">Universidad de Aquino Bolivia (UDABOL) - La Paz</p>
               </div>
 
               <div className="space-y-1 text-left pt-3 border-t border-white/5">

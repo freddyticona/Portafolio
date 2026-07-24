@@ -44,9 +44,9 @@ const FREDDY_CV_DATA: CVData = {
   },
   education: [
     {
-      degree: 'Licenciatura en Ciencias de la Comunicación Social',
-      institution: 'UDABOL - La Paz',
-      year: '2010 - 2014'
+      degree: 'Licenciatura en Comunicación (Título en Provisión Nacional)',
+      institution: 'Universidad de Aquino Bolivia (UDABOL) - La Paz',
+      year: '2018 - 2022'
     },
     {
       degree: 'Técnico en Cinematografía',
