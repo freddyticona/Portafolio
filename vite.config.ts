@@ -63,10 +63,6 @@ export default defineConfig(() => {
             if (id.includes('node_modules/react') || id.includes('node_modules/react-dom')) {
               return 'react-vendor';
             }
-            // PDF generation - solo cargar cuando se necesite
-            if (id.includes('node_modules/jspdf') || id.includes('node_modules/html2pdf')) {
-              return 'pdf';
-            }
             // Firebase - separar para mejor caching
             if (id.includes('node_modules/firebase')) {
               return 'firebase';

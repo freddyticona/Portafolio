@@ -53,14 +53,6 @@ export default function CVPage({ lang, t }: CVPageProps) {
             <Printer className="w-4 h-4 text-gold" />
             <span>{t.cvPrint}</span>
           </button>
-          <a
-            href="mailto:freddyticona62@gmail.com?subject=Solicitud de CV en PDF&body=Hola Freddy, vi tu portafolio y me gustaría solicitar tu currículum completo en formato PDF."
-            id="download-cv-pdf-button"
-            className="inline-flex items-center gap-1.5 px-5 py-3.5 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs font-mono tracking-widest uppercase transition-all duration-300 hover:shadow-lg hover:shadow-gold/10 cursor-pointer"
-          >
-            <Award className="w-4 h-4 shrink-0" />
-            <span>{t.cvDownloadPdf}</span>
-          </a>
         </div>
       </div>
 

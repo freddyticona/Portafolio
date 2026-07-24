@@ -5848,7 +5848,7 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
 
     cvTitle: 'Curriculum Vitae / Trayectoria',
     cvSubtitle: 'Formación académica, distinciones nacionales y certificaciones técnicas especializadas.',
-    cvDownloadPdf: 'Descargar CV Completo (PDF)',
+
     cvPrint: 'Imprimir Currículum',
     cvAcademicTitle: 'Formación Académica',
     cvCertificationsTitle: 'Certificaciones Especializadas',
@@ -5988,7 +5988,7 @@ My professional growth led me to specialize in documentary cinematography and fr
 
     cvTitle: 'Curriculum Vitae / Timeline',
     cvSubtitle: 'Academic background, national decorations, and advanced technical certifications.',
-    cvDownloadPdf: 'Download Full CV (PDF)',
+
     cvPrint: 'Print Resume',
     cvAcademicTitle: 'Academic Education',
     cvCertificationsTitle: 'Specialized Certifications',
