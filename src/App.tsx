@@ -136,35 +136,7 @@ export default function App() {
     searchTerm: '',
   });
 
-  // ─── Cargar posts de Firebase (dynamic import para reducir bundle) ────────
-  useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const { db: firestoreDb } = await import('./lib/firebase');
-        const { collection, getDocs } = await import('firebase/firestore');
-        const querySnapshot = await getDocs(collection(firestoreDb, 'posts'));
-
-        const firebasePosts: BlogPost[] = [];
-        querySnapshot.forEach((doc) => {
-          firebasePosts.push({ id: doc.id, ...doc.data() } as BlogPost);
-        });
-
-        if (firebasePosts.length > 0) {
-          const defaultSlugs = new Set(defaultBlogPosts.map(p => p.slug));
-          const merged = [...defaultBlogPosts];
-          for (const fp of firebasePosts) {
-            if (!defaultSlugs.has(fp.slug)) merged.push(fp);
-          }
-          merged.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-          setBlogPosts(merged);
-        }
-      } catch (e) {
-        console.error('Error loading blog posts from Firebase:', e);
-      }
-    };
-
-    fetchPosts();
-  }, []);
+  // Firebase no se carga en inicio — solo en AdminPanel (lazy load)
 
   // Ref para el handler de popstate (evita stale closure)
   const blogPostsRef = useRef(blogPosts);
