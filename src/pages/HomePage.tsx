@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
 import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon } from 'lucide-react';
@@ -37,6 +37,16 @@ export default function HomePage({
   reelMuted,
   setReelMuted,
 }: HomePageProps) {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+    script.async = true;
+    script.defer = true;
+    script.type = 'text/javascript';
+    document.body.appendChild(script);
+    return () => { document.body.removeChild(script); };
+  }, []);
+
   // Solo posts personales (sin fuente externa)
   const personalPosts = blogPosts.filter(p => !p.source);
   // Noticias (con fuente externa)
@@ -182,6 +192,15 @@ export default function HomePage({
               <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight">2017</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statAwards}</div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* LINKEDIN BADGE */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center">
+          <div className="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="freddy-ticona-guzman-41612871" data-version="v1">
+            <a className="badge-base__link LI-simple-link" href="https://bo.linkedin.com/in/freddy-ticona-guzman-41612871?trk=profile-badge">Freddy Ticona Guzman</a>
           </div>
         </div>
       </section>
