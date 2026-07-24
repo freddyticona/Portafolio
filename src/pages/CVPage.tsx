@@ -128,6 +128,11 @@ export default function CVPage({ lang, t }: CVPageProps) {
                 <h4 className="text-sm font-bold text-white leading-snug">
                   {lang === 'es' ? cert.titleEs : cert.titleEn}
                 </h4>
+                {cert.credentialUrl && (
+                  <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer" className="inline-block text-[10px] font-mono text-gold hover:text-gold-hover underline mt-1">
+                    {lang === 'es' ? 'Ver credencial' : 'View credential'}
+                  </a>
+                )}
               </div>
             ))}
           </div>
@@ -144,6 +149,11 @@ export default function CVPage({ lang, t }: CVPageProps) {
                   <h4 className="text-sm font-bold text-stone-300 leading-snug">
                     {lang === 'es' ? cert.titleEs : cert.titleEn}
                   </h4>
+                  {cert.credentialUrl && (
+                    <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer" className="inline-block text-[10px] font-mono text-gold hover:text-gold-hover underline mt-1">
+                      {lang === 'es' ? 'Ver credencial' : 'View credential'}
+                    </a>
+                  )}
                 </div>
               ))}
             </div>
@@ -176,6 +186,17 @@ export default function CVPage({ lang, t }: CVPageProps) {
               <h4 className="font-bold text-white text-sm">{t.cvMemo2Title}</h4>
               <p className="leading-relaxed font-light">{t.cvMemo2Desc}</p>
             </div>
+            <a href="https://www.credly.com/users/freddy-ticona-guzman" target="_blank" rel="noopener noreferrer" className="block p-5 bg-white/[0.01] border border-white/5 hover:border-gold/40 rounded-sm transition-all duration-300 text-left text-xs text-stone-400 group">
+              <h4 className="font-bold text-white text-sm group-hover:text-gold transition-colors">
+                <span className="flex items-center gap-2">
+                  Credly
+                  <svg className="w-3 h-3 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                </span>
+              </h4>
+              <p className="mt-1 leading-relaxed">
+                {lang === 'es' ? 'Insignias y certificaciones digitales verificables' : 'Verifiable digital badges and certifications'}
+              </p>
+            </a>
           </div>
         </div>
       </div>

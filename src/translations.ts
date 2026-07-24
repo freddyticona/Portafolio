@@ -280,6 +280,65 @@ export const certificates: Certificate[] = [
     year: '2026',
     isPrimary: false,
     credentialUrl: 'https://replit-certifications.replit.app/FreddyTicona'
+  },
+  {
+    id: '12',
+    titleEs: 'Formación Python, Data Science en OCI y Oracle Analytics',
+    titleEn: 'Python, Data Science on OCI & Oracle Analytics',
+    issuer: 'Alura Latam - Oracle Next Education (ONE)',
+    year: '2023',
+    isPrimary: false,
+    credentialUrl: 'https://app.aluracursos.com/degree/certificate/746123df-9db1-4c81-80c7-8a3d661103ae'
+  },
+  {
+    id: '13',
+    titleEs: 'Introduction to Cybersecurity',
+    titleEn: 'Introduction to Cybersecurity',
+    issuer: 'Cisco',
+    year: '2021',
+    isPrimary: false
+  },
+  {
+    id: '14',
+    titleEs: 'IT Essentials',
+    titleEn: 'IT Essentials',
+    issuer: 'Cisco',
+    year: '2021',
+    isPrimary: false
+  },
+  {
+    id: '15',
+    titleEs: 'Introducción al Desarrollo Web I',
+    titleEn: 'Introduction to Web Development I',
+    issuer: 'Google Actívate',
+    year: '2020',
+    isPrimary: false,
+    credentialUrl: 'https://learndigital.withgoogle.com/activate/validate-certificate-code'
+  },
+  {
+    id: '16',
+    titleEs: 'Desarrollo de Apps Móviles',
+    titleEn: 'Mobile App Development',
+    issuer: 'Google',
+    year: '2020',
+    isPrimary: false
+  },
+  {
+    id: '17',
+    titleEs: 'Programming Foundations with JavaScript, HTML and CSS',
+    titleEn: 'Programming Foundations with JavaScript, HTML and CSS',
+    issuer: 'Coursera (Duke University)',
+    year: '2020',
+    isPrimary: false,
+    credentialUrl: 'https://coursera.org/verify'
+  },
+  {
+    id: '18',
+    titleEs: 'Diseñando páginas web con Bootstrap 4',
+    titleEn: 'Web Design with Bootstrap 4',
+    issuer: 'Coursera',
+    year: '2020',
+    isPrimary: false
   }
 ];
 
