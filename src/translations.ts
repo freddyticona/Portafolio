@@ -4263,11 +4263,11 @@ Desde 2026, el SEGIP habilitó la **Cédula de Identidad Digital** a través de 
 
 | Ciudad | Dirección | Teléfono |
 |--------|-----------|----------|
-| **La Paz** (Centro — Teleférico Celeste) | Pasaje Núñez del Prado, instalaciones del Teleférico Celeste | 2680800 |
-| **La Paz** (San Pedro — Segelic) | Av. 20 de Octubre, Edificio Mollinedo N°1628 | 2680800 |
-| **La Paz** (Zona Sur — Megacenter) | Av. Rafael Pabón N°656, Megacenter, Planta Baja | 2680800 |
-| **La Paz** (Sopocachi — Adm. Nacional) | Calle Pedro Salazar N°607, Sopocachi | 2680800 |
-| **La Paz** (El Alto — Segelic) | Av. Juan Pablo II N°200 | 2680800 |
+| **La Paz** (San Pedro — Segelic) | Av. 20 de Octubre N°1628, Edif. Mollinedo *(a una cuadra de la FELCC)* | (2) 2127201 |
+| **La Paz** (Centro — Teleférico Celeste) | Pasaje Núñez del Prado, instalaciones del Teleférico Celeste | (2) 2127201 |
+| **La Paz** (Zona Sur — Megacenter) | Av. Rafael Pabón N°656, Megacenter, Planta Baja | (2) 2127201 |
+| **La Paz** (Sopocachi — Adm. Nacional) | Calle Pedro Salazar N°607, Sopocachi | (2) 2117405 |
+| **La Paz** (El Alto — Segelic) | Av. Juan Pablo II N°200 | (2) 2127201 |
 | **Santa Cruz** | Av. Irala esq. Av. Santos Dumont | 2680800 |
 | **Cochabamba** | Av. Ayacucho esq. 25 de Mayo | 2680800 |
 | **Sucre** | Calle Ravelo s/n | 2680800 |
@@ -4279,13 +4279,13 @@ Desde 2026, el SEGIP habilitó la **Cédula de Identidad Digital** a través de 
 
 > Para ubicar la oficina más cercana, visita [https://www.segip.gob.bo/oficina/](https://www.segip.gob.bo/oficina/) y selecciona tu departamento.
 
-<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-68.145%2C-16.518%2C-68.110%2C-16.490&amp;layer=mapnik&amp;marker=-16.5004%2C-68.1327" style="border: 1px solid #ccc; border-radius: 8px; width: 100%; height: 350px;" loading="lazy"></iframe>
+<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-68.140%2C-16.508%2C-68.125%2C-16.497&amp;layer=mapnik&amp;marker=-16.5041%2C-68.1342" style="border: 1px solid #ccc; border-radius: 8px; width: 100%; height: 350px;" loading="lazy"></iframe>
 
-📍 **Oficina La Paz Centro** — Pasaje Núñez del Prado (Teleférico Celeste). Esta es la oficina más céntrica y concurrida de la ciudad. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5004318,-68.1327011)
+📍 **Oficina Segelic La Paz (la más céntrica, junto a la FELCC)** — Av. 20 de Octubre N°1628, Edif. Mollinedo, Zona San Pedro. Esta oficina atiende cédulas de identidad, licencias de conducir y cédulas de extranjero. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5041051,-68.1341678)
 
-📍 **Oficina Zona Sur (Megacenter)** — Av. Rafael Pabón N°656. Ideal para quienes viven en Irpavi, Calacoto o la Zona Sur. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5320166,-68.0871546)
+📍 **Oficina La Paz Centro** — Pasaje Núñez del Prado (Teleférico Celeste). [Abrir en Google Maps](https://www.google.com/maps?q=-16.5004318,-68.1327011)
 
-📍 **Oficina Segelic San Pedro** — Av. 20 de Octubre N°1628. Atiende cédulas y licencias de conducir. [Abrir en Google Maps](https://www.openstreetmap.org/?mlat=-16.5041051&mlon=-68.1341678#map=19/-16.5041051/-68.1341678)
+📍 **Oficina Zona Sur (Megacenter)** — Av. Rafael Pabón N°656. [Abrir en Google Maps](https://www.google.com/maps?q=-16.5320166,-68.0871546)
 
 ---
 
@@ -4333,7 +4333,18 @@ La vigencia depende de la edad:
 
 - SEGIP — Página oficial: [https://www.segip.gob.bo](https://www.segip.gob.bo)
 - Directorio de oficinas SEGIP: [https://www.segip.gob.bo/oficina/](https://www.segip.gob.bo/oficina/)
+- Línea gratuita de consulta: **800 101 102**
 - App **Mi Identidad** (Cédula Digital): [Google Play](https://play.google.com/store/apps/details?id=bo.gob.segip.miidentidad) | [App Store](https://apps.apple.com/bo/app/mi-identidad/id6446085894)
+
+#### Redes sociales oficiales del SEGIP
+
+Sigue al SEGIP en sus redes para estar al tanto de horarios extraordinarios, cambios de dirección y nuevas disposiciones:
+
+- **Facebook:** [https://facebook.com/segipoficial](https://facebook.com/segipoficial) — Noticias y comunicados oficiales
+- **X (Twitter):** [https://x.com/OficialSegip](https://x.com/OficialSegip) — Información en tiempo real
+- **Instagram:** [https://instagram.com/segip_oficial](https://instagram.com/segip_oficial) — Contenido visual y tutorials
+- **YouTube:** [https://youtube.com/@segipcomunicacion](https://youtube.com/@segipcomunicacion) — Videos informativos
+- **TikTok:** [https://tiktok.com/@segip_oficial](https://tiktok.com/@segip_oficial) — Tips rápidos
 
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SEGIP antes de realizar tu trámite.`,
     contentEn: `### Complete Guide: Bolivian Identity Card 2026
