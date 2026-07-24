@@ -330,32 +330,6 @@ export const portfolioItems: PortfolioItem[] = [
     techDetailsEn: ['Sony FS7', 'Zoom Lenses', 'Wireless Microphones', 'Portable Lighting Kit']
   },
   {
-    id: 'la-estrella',
-    title: 'La Estrella: Premio Eduardo Abaroa 2017',
-    titleEn: 'La Estrella: Eduardo Abaroa Award 2017',
-    category: 'cultural',
-    categoryLabelEs: 'Periodismo Cultural',
-    categoryLabelEn: 'Cultural Journalism',
-    roleEs: 'Camarógrafo, Editor y Realizador',
-    roleEn: 'Cameraman, Editor and Producer',
-    year: '2017',
-    clientEs: 'Abya Yala Televisión / Ganador Premio Eduardo Abaroa',
-    clientEn: 'Abya Yala Television / Eduardo Abaroa Award Winner',
-    descriptionEs: 'Reportaje ganador del Premio Nacional Eduardo Abaroa 2017. Un perfil íntimo sobre un destacado escultor y pintor alteño, documentando su proceso creativo, su taller y el impacto de su obra en la comunidad de El Alto.',
-    descriptionEn: 'Award-winning report, National Eduardo Abaroa Prize 2017. An intimate profile of a renowned sculptor and painter from El Alto, documenting his creative process, workshop, and the impact of his work on the El Alto community.',
-    imageUrl: '/images/portfolio/la-estrella/DSC_2990.webp',
-    images: [
-      '/images/portfolio/la-estrella/DSC_2990.webp',
-      '/images/portfolio/la-estrella/DSC_2994.webp',
-      '/images/portfolio/la-estrella/20170422_101455.webp',
-      '/images/portfolio/la-estrella/20170422_101505.webp'
-    ],
-    isCaseStudy: true,
-    caseStudyId: 'la-estrella-case',
-    techDetailsEs: ['Cámara Sony FS7', 'Lentes Sigma Cine Prime', 'Iluminación de arte y taller', 'Edición en Adobe Premiere Pro'],
-    techDetailsEn: ['Sony FS7 Camera', 'Sigma Cine Prime Lenses', 'Art and workshop lighting', 'Edited on Adobe Premiere Pro']
-  },
-  {
     id: 'gran-poder',
     title: 'Gran Poder: La Fiesta Mayor de La Paz',
     titleEn: 'Gran Poder: La Paz Grand Festival',
@@ -521,46 +495,7 @@ export const portfolioItems: PortfolioItem[] = [
   }
 ];
 
-export const caseStudies: Record<string, CaseStudy> = {
-  'la-estrella-case': {
-    id: 'la-estrella-case',
-    title: 'La Estrella: Premio Eduardo Abaroa 2017',
-    titleEn: 'La Estrella: Eduardo Abaroa Award 2017',
-    subtitleEs: 'Ganador del Premio Plurinacional Eduardo Abaroa 2017 en Periodismo Cultural',
-    subtitleEn: 'Winner of the 2017 Eduardo Abaroa National Award in Cultural Journalism',
-    contextEs: 'El reportaje "La Estrella" nació de la necesidad de visibilizar el talento oculto de la ciudad de El Alto. Viajé al taller de un destacado escultor y pintor alteño, un artista autodidacta que había ganado reconocimiento internacional pero era casi ignorado por los medios tradicionales. El reportaje documenta su proceso creativo, desde el boceto inicial hasta la obra terminada, y el impacto de su arte en la comunidad.',
-    contextEn: 'The report "La Estrella" was born from the need to give visibility to the hidden talent of El Alto city. I traveled to the workshop of a renowned sculptor and painter from El Alto, a self-taught artist who had gained international recognition but was almost ignored by traditional media. The report documents his creative process, from initial sketch to finished work, and the impact of his art on the community.',
-    challengesEs: 'El principal desafío fue capturar la esencia del proceso artístico en un espacio de trabajo reducido y con iluminación mixta (luz natural y artificial del taller). Además, el artista era reservado y no se sentía cómodo frente a cámara, por lo que tuve que ganarme su confianza durante varios días antes de poder registrar su trabajo de manera natural y espontánea.',
-    challengesEn: 'The main challenge was capturing the essence of the artistic process in a small workspace with mixed lighting (natural and artificial workshop light). Additionally, the artist was reserved and uncomfortable in front of the camera, so I had to earn his trust over several days before being able to record his work naturally and spontaneously.',
-    solutionsEs: 'Utilicé iluminación LED compacta con difusores para respetar el ambiente íntimo del taller sin invadir visualmente. Opté por un lente prime 50mm f/1.4 para lograr tomas con poca profundidad de campo que aislaran al artista de su entorno y centraran la atención en sus manos y su obra. Grabé en varias jornadas para que el artista se acostumbrara a la presencia de la cámara y actuara con naturalidad.',
-    solutionsEn: 'I used compact LED lighting with diffusers to respect the intimate atmosphere of the workshop without visual intrusion. I chose a 50mm f/1.4 prime lens for shallow depth-of-field shots that isolated the artist from his surroundings and focused attention on his hands and his work. I filmed over several sessions so the artist would get used to the camera\'s presence and act naturally.',
-    resultEs: 'El reportaje de 15 minutos fue galardonado con el Premio Nacional de Periodismo Eduardo Abaroa de Bolivia en 2017 en la categoría de Periodismo Cultural. El jurado destacó la sensibilidad en el retrato del artista, la calidad cinematográfica de las tomas del proceso creativo y la narrativa que lograba conectar al espectador con el valor del arte popular. Fue transmitido por Abya Yala Televisión y re-transmitido por otras cadenas culturales del país.',
-    resultEn: 'The 15-minute report was awarded the National Eduardo Abaroa Journalism Prize of Bolivia in 2017 in the Cultural Journalism category. The jury highlighted the sensitivity in portraying the artist, the cinematic quality of the creative process shots, and the narrative that connected viewers with the value of popular art. It was broadcast by Abya Yala Television and re-broadcast by other cultural networks in the country.',
-    roleEs: 'Camarógrafo, Editor y Realizador',
-    roleEn: 'Cameraman, Editor and Producer',
-    teamEs: 'Freddy Ticona (Cámara, Edición y Realización)',
-    teamEn: 'Freddy Ticona (Camera, Editing and Production)',
-    hardwareEs: ['Sony FS7', 'Lente Prime 50mm f/1.4', 'Iluminación LED Compacta con Difusores', 'Micrófono de Cañón', 'Grabadora Tascam'],
-    hardwareEn: ['Sony FS7', 'Prime 50mm f/1.4 Lens', 'Compact LED Lighting with Diffusers', 'Shotgun Microphone', 'Tascam Recorder'],
-    softwareEs: ['Adobe Premiere Pro (Edición)', 'DaVinci Resolve Studio (Corrección de color)'],
-    softwareEn: ['Adobe Premiere Pro (Editing)', 'DaVinci Resolve Studio (Color Grading)'],
-    awardEs: 'Premio Nacional Eduardo Abaroa 2017 (Categoría: Periodismo Cultural)',
-    awardEn: 'Eduardo Abaroa National Award 2017 (Category: Cultural Journalism)',
-    imageUrl: '/images/portfolio/la-estrella/DSC_2989.webp',
-    btsImages: [
-      {
-        url: '/images/portfolio/la-estrella/20170422_101505.webp',
-        captionEs: 'Freddy en el taller del artista durante la grabación de "La Estrella".',
-        captionEn: 'Freddy at the artist\'s workshop during the filming of "La Estrella".'
-      },
-      {
-        url: '/images/portfolio/la-estrella/DSC_2994.webp',
-        captionEs: 'Post-producción y corrección de color en estudio.',
-        captionEn: 'Post-production and color grading in the studio.'
-      }
-    ]
-  }
-};
+export const caseStudies: Record<string, CaseStudy> = {};
 
 export const blogPosts: BlogPost[] = [
 {
@@ -5821,8 +5756,8 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
     testimonialsTitle: 'Memorándums de Felicitación',
     testimonialsSubtitle: 'Reconocimientos oficiales emitidos por los directorios y gerencias de los canales nacionales de televisión de Bolivia.',
 
-    portfolioTitle: 'Galería de Trabajos Curados',
-    portfolioSubtitle: 'Una selección de mis mejores piezas como camarógrafo y editor. Filtre por categoría para ver mi versatilidad narrativa.',
+    portfolioTitle: 'Coberturas y Documentales',
+    portfolioSubtitle: 'Fotografías de los trabajos periodísticos, documentales y coberturas realizados a lo largo de más de 15 años de trayectoria televisiva.',
     all: 'Todos',
     catCultural: 'Periodismo Cultural',
     catPolitica: 'Política',
@@ -5961,8 +5896,8 @@ My professional growth led me to specialize in documentary cinematography and fr
     testimonialsTitle: 'Commendation Memorandums',
     testimonialsSubtitle: 'Official recognitions issued by news directors and station managers of Bolivia\'s national television networks.',
 
-    portfolioTitle: 'Curated Works Gallery',
-    portfolioSubtitle: 'A selection of my best projects as a cameraman and editor. Filter by category to explore my narrative versatility.',
+    portfolioTitle: 'Coverage & Documentaries',
+    portfolioSubtitle: 'Photographs of journalistic works, documentaries and coverage produced throughout more than 15 years of television experience.',
     all: 'All',
     catCultural: 'Cultural Journalism',
     catPolitica: 'Politics',
