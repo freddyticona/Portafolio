@@ -45,6 +45,7 @@ const CVPage = lazy(() => import('./pages/CVPage'));
 const BlogPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.BlogPage })));
 const NoticiasPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.NoticiasPage })));
 const GuiasPage = lazy(() => import('./pages/GuiasPage'));
+const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
 const ServicesPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ServicesPage })));
@@ -166,7 +167,7 @@ export default function App() {
       const pageStr = parts[0] || 'inicio';
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
-        'blog', 'guias', 'contacto', 'reservas', 'servicios', 'admin',
+        'blog', 'guias', 'galeria', 'contacto', 'reservas', 'servicios', 'admin',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
@@ -291,6 +292,8 @@ export default function App() {
               handleArticleClick={handleArticleClick}
             />
           );
+        case 'galeria':
+          return <GalleryPage lang={lang} t={t} />;
         case 'contacto':
           return <ContactPage lang={lang} t={t} />;
         case 'reservas':

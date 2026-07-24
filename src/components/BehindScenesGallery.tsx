@@ -326,10 +326,13 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
 
       {/* CTA para ver más */}
       <div className="text-center pt-8">
-        <button className="inline-flex items-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs font-mono uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-gold/15">
+        <a
+          href="/galeria"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs font-mono uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-gold/15 cursor-pointer"
+        >
           <Film className="w-4 h-4" />
           {lang === 'es' ? 'Ver Galería Completa' : 'View Full Gallery'}
-        </button>
+        </a>
       </div>
     </div>
   );
