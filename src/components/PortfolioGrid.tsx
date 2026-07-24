@@ -4,7 +4,6 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { motion } from 'framer-motion';
 import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase } from 'lucide-react';
 import LazyImage from './LazyImage';
@@ -20,7 +19,6 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [activeItem, setActiveItem] = useState<PortfolioItem | null>(null);
-  const cardRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
 
   const categories = useMemo(() => {
     return [
@@ -107,106 +105,74 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
       {/* Portfolio Grid */}
       {filteredItems.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredItems.map((item, index) => {
-            const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-              const el = cardRefs.current.get(item.id);
-              if (!el) return;
-              const rect = el.getBoundingClientRect();
-              const x = (e.clientX - rect.left) / rect.width - 0.5;
-              const y = (e.clientY - rect.top) / rect.height - 0.5;
-              el.style.setProperty('--rotate-x', `${-y * 8}deg`);
-              el.style.setProperty('--rotate-y', `${x * 8}deg`);
-              el.style.setProperty('--glow-x', `${(x + 0.5) * 100}%`);
-              el.style.setProperty('--glow-y', `${(y + 0.5) * 100}%`);
-            };
-            const handleMouseLeave = () => {
-              const el = cardRefs.current.get(item.id);
-              if (!el) return;
-              el.style.setProperty('--rotate-x', '0deg');
-              el.style.setProperty('--rotate-y', '0deg');
-            };
-            return (
-              <motion.div
+{filteredItems.map((item, index) => (
+              <div
                 key={item.id}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.5, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
+                className="card-3d group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2 animate-fade-in-up"
+                style={{
+                  animationDelay: `${index * 80}ms`,
+                }}
               >
-                <div
-                  id={`portfolio-item-${item.id}`}
-                  ref={(el) => { if (el) cardRefs.current.set(item.id, el); }}
-                  onClick={() => handleOpenLightbox(item)}
-                  onMouseMove={handleMouseMove}
-                  onMouseLeave={handleMouseLeave}
-                  className="card-3d group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2"
-                  style={{
-                    transform: 'perspective(800px) rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg))',
-                    transition: 'transform 0.1s ease-out',
-                  }}
-                >
-              {/* Card Image Thumbnail */}
-              <div className="aspect-video relative overflow-hidden bg-[#050505]">
-                <LazyImage
-                  src={item.imageUrl}
-                  alt={lang === 'es' ? item.title : item.titleEn}
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                />
-                
-                {/* Category Badge overlay */}
-                <div className="absolute top-3 left-3">
-                  <span className="bg-[#050505]/90 backdrop-blur-sm border border-white/10 text-[10px] font-mono tracking-widest font-bold uppercase text-gold px-2.5 py-1 rounded-sm">
-                    {lang === 'es' ? item.categoryLabelEs : item.categoryLabelEn}
-                  </span>
-                </div>
-
-                {/* Hover overlay with Icon */}
-                <div className="absolute inset-0 bg-[#050505]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
-                  <div className="w-10 h-10 rounded-full bg-gold text-black flex items-center justify-center shadow-lg transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                    <Eye className="w-5 h-5" />
-                  </div>
-                </div>
-
-                {/* Case Study Indicator Badge */}
-                {item.isCaseStudy && (
-                  <div className="absolute bottom-3 right-3 flex items-center gap-1 bg-gold text-black px-2.5 py-0.5 rounded-sm text-[10px] font-mono font-bold tracking-widest uppercase">
-                    <Award className="w-3 h-3" />
-                    <span>CASE STUDY</span>
-                  </div>
-                )}
-              </div>
-
-              {/* Card Body */}
-              <div className="p-5 text-left space-y-2">
-                <div className="flex items-center justify-between gap-2 text-[11px] font-mono text-stone-500 font-bold">
-                  <span>{item.year}</span>
-                  <span className="truncate max-w-[150px] uppercase">{lang === 'es' ? item.clientEs : item.clientEn}</span>
-                </div>
-                <h3 className="text-base font-bold text-white tracking-tight group-hover:text-gold transition-colors duration-200 line-clamp-1 font-display">
-                  {lang === 'es' ? item.title : item.titleEn}
-                </h3>
-                <p className="text-xs text-stone-400 line-clamp-2 leading-relaxed font-light">
-                  {lang === 'es' ? item.descriptionEs : item.descriptionEn}
-                </p>
-
-                {/* Tech Tags preview */}
-                <div className="flex flex-wrap gap-1.5 pt-2">
-                  {(lang === 'es' ? item.techDetailsEs : item.techDetailsEn).slice(0, 3).map((tech, idx) => (
-                    <span key={idx} className="bg-[#020202] text-[10px] font-mono text-stone-400 px-2 py-0.5 rounded-sm border border-white/5">
-                      {tech}
+                {/* Card Image Thumbnail */}
+                <div className="aspect-video relative overflow-hidden bg-[#050505]">
+                  <LazyImage
+                    src={item.imageUrl}
+                    alt={lang === 'es' ? item.title : item.titleEn}
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
+                  
+                  {/* Category Badge overlay */}
+                  <div className="absolute top-3 left-3">
+                    <span className="bg-[#050505]/90 backdrop-blur-sm border border-white/10 text-[10px] font-mono tracking-widest font-bold uppercase text-gold px-2.5 py-1 rounded-sm">
+                      {lang === 'es' ? item.categoryLabelEs : item.categoryLabelEn}
                     </span>
-                  ))}
-                  {(lang === 'es' ? item.techDetailsEs : item.techDetailsEn).length > 3 && (
-                    <span className="text-[10px] font-mono text-stone-600 self-center font-bold">
-                      +{(lang === 'es' ? item.techDetailsEs : item.techDetailsEn).length - 3}
-                    </span>
+                  </div>
+
+                  {/* Hover overlay with Icon */}
+                  <div className="absolute inset-0 bg-[#050505]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
+                    <div className="w-10 h-10 rounded-full bg-gold text-black flex items-center justify-center shadow-lg transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                      <Eye className="w-5 h-5" />
+                    </div>
+                  </div>
+
+                  {/* Case Study Indicator Badge */}
+                  {item.isCaseStudy && (
+                    <div className="absolute bottom-3 right-3 flex items-center gap-1 bg-gold text-black px-2.5 py-0.5 rounded-sm text-[10px] font-mono font-bold tracking-widest uppercase">
+                      <Award className="w-3 h-3" />
+                      <span>CASE STUDY</span>
+                    </div>
                   )}
                 </div>
-              </div>
+
+                {/* Card Body */}
+                <div className="p-5 text-left space-y-2">
+                  <div className="flex items-center justify-between gap-2 text-[11px] font-mono text-stone-500 font-bold">
+                    <span>{item.year}</span>
+                    <span className="truncate max-w-[150px] uppercase">{lang === 'es' ? item.clientEs : item.clientEn}</span>
+                  </div>
+                  <h3 className="text-base font-bold text-white tracking-tight group-hover:text-gold transition-colors duration-200 line-clamp-1 font-display">
+                    {lang === 'es' ? item.title : item.titleEn}
+                  </h3>
+                  <p className="text-xs text-stone-400 line-clamp-2 leading-relaxed font-light">
+                    {lang === 'es' ? item.descriptionEs : item.descriptionEn}
+                  </p>
+
+                  {/* Tech Tags preview */}
+                  <div className="flex flex-wrap gap-1.5 pt-2">
+                    {(lang === 'es' ? item.techDetailsEs : item.techDetailsEn).slice(0, 3).map((tech, idx) => (
+                      <span key={idx} className="bg-[#020202] text-[10px] font-mono text-stone-400 px-2 py-0.5 rounded-sm border border-white/5">
+                        {tech}
+                      </span>
+                    ))}
+                    {(lang === 'es' ? item.techDetailsEs : item.techDetailsEn).length > 3 && (
+                      <span className="text-[10px] font-mono text-stone-600 self-center font-bold">
+                        +{(lang === 'es' ? item.techDetailsEs : item.techDetailsEn).length - 3}
+                      </span>
+                    )}
+                  </div>
                 </div>
-              </motion.div>
-            );
-          })}
+              </div>
+            ))}
         </div>
       ) : (
         <div className="text-center py-16 bg-white/[0.01] rounded-sm border border-white/5">

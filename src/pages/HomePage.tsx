@@ -7,7 +7,6 @@ import React, { useEffect } from 'react';
 import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
 import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { YOUTUBE_VIDEOS } from '../config';
 import CinematicHero from '../components/CinematicHero';
 import BlogCard from '../components/BlogCard';
@@ -68,23 +67,19 @@ export default function HomePage({
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center text-left">
 
-          {/* Text summary (2 cols) */}
-          <div className="lg:col-span-2 space-y-5">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="space-y-2"
-            >
+{/* Text summary (2 cols) */}
+            <div className="lg:col-span-2 space-y-5">
+              <div
+                className="space-y-2 animate-fade-in-up"
+              >
               <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">
                 {lang === 'es' ? 'Presentación' : 'Introduction'}
               </span>
               <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight font-display">
                 {lang === 'es' ? 'Fidelidad Visual e Impacto Humano' : 'Visual Fidelity & Human Connection'}
               </h2>
-            </motion.div>
-            <p className="text-stone-400 text-sm md:text-base leading-relaxed font-light">
+</div>
+              <p className="text-stone-400 text-sm md:text-base leading-relaxed font-light">
               {lang === 'es'
                 ? 'Freddy Ticona Guzmán cuenta con más de una década y media recorriendo las laderas, valles, selvas y el Altiplano boliviano. Su lente no solo filma; documenta la riqueza social y las realidades políticas de Bolivia con la precisión técnica requerida por las principales televisoras nacionales y la sensibilidad estética propia de un documentalista galardonado.'
                 : 'Freddy Ticona Guzmán has spent over a decade and a half traversing Bolivia\'s steep mountain slopes, humid jungles, and high plains. His lens does not merely capture footage; it documents the rich social identity and complex political scenes of Bolivia with the technical rigor expected by major national networks.'}
@@ -207,13 +202,7 @@ export default function HomePage({
 
       {/* 4. PREVIEW OF LATEST BLOG POSTS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          className="text-center space-y-3"
-        >
+        <div className="text-center space-y-3 animate-fade-in-up">
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Nuestras Reflexiones' : 'Our Thoughts'}
           </span>
@@ -223,7 +212,7 @@ export default function HomePage({
           <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
             {t.latestBlogSubtitle}
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {personalPosts.slice(0, 2).map((post) => (
@@ -250,13 +239,7 @@ export default function HomePage({
 
       {/* 5. PORTFOLIO PREVIEW */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          className="text-center space-y-3"
-        >
+        <div className="text-center space-y-3 animate-fade-in-up">
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Trabajos Destacados' : 'Featured Work'}
           </span>
@@ -268,7 +251,7 @@ export default function HomePage({
               ? 'Documentales, coberturas internacionales y producciones galardonadas.'
               : 'Documentaries, international coverage, and award-winning productions.'}
           </p>
-        </motion.div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {portfolioItems.slice(0, 3).map((item) => (
             <div
@@ -320,13 +303,7 @@ export default function HomePage({
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.06)_0%,transparent_70%)] pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="bg-gradient-to-br from-gold/[0.04] via-[#020202] to-gold/[0.02] border border-gold/20 rounded-xl p-8 md:p-12 relative overflow-hidden"
-          >
+          <div className="bg-gradient-to-br from-gold/[0.04] via-[#020202] to-gold/[0.02] border border-gold/20 rounded-xl p-8 md:p-12 relative overflow-hidden animate-fade-in-up">
             <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl pointer-events-none" />
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="space-y-6">
@@ -374,20 +351,14 @@ export default function HomePage({
                   <Newspaper className="w-24 h-24 text-gold/30" />
                 </div>
               </div>
-            </div>
-          </motion.div>
+</div>
+          </div>
         </div>
       </section>
 
       {/* 7. NEWS PREVIEW */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="text-center space-y-3"
-          >
+          <div className="text-center space-y-3 animate-fade-in-up">
             <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
               {lang === 'es' ? 'Cobertura Periodística' : 'Press Coverage'}
             </span>
@@ -397,7 +368,7 @@ export default function HomePage({
             <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
               {t.newsHomeSubtitle}
             </p>
-          </motion.div>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {newsPosts.slice(0, 4).map((post) => (
               <div

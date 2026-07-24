@@ -4,7 +4,6 @@
  */
 
 import React from 'react';
-import { motion } from 'framer-motion';
 import { BlogPost, ContentType } from '../types';
 import { Calendar, Clock, ArrowRight, MapPin, Eye } from 'lucide-react';
 import LazyImage from './LazyImage';
@@ -56,17 +55,13 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
 
   if (variant === 'hero') {
     return (
-      <motion.article
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-60px' }}
-        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+      <article
+        className="card-3d-light group cursor-pointer relative overflow-hidden rounded-sm border border-white/10 bg-[#0a0a0a] min-h-[360px] md:min-h-[440px] focus:outline-none focus:ring-2 focus:ring-gold animate-fade-in-up"
         onClick={onClick}
         onKeyDown={handleKeyDown}
         role="button"
         tabIndex={0}
         aria-label={`Noticia principal: ${title}`}
-        className="card-3d-light group cursor-pointer relative overflow-hidden rounded-sm border border-white/10 bg-[#0a0a0a] min-h-[360px] md:min-h-[440px] focus:outline-none focus:ring-2 focus:ring-gold"
       >
         <div className="absolute inset-0">
           <LazyImage
@@ -136,24 +131,20 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
               </span>
             )}
           </div>
-      </div>
-    </motion.article>
-  );
-}
+        </div>
+      </article>
+    );
+  }
 
   if (variant === 'compact') {
     return (
-      <motion.article
-        initial={{ opacity: 0, x: -15 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+      <article
+        className="card-3d-light group cursor-pointer flex gap-3 border-b border-white/5 pb-3 mb-3 last:border-0 last:mb-0 last:pb-0 focus:outline-none focus:ring-1 focus:ring-gold rounded-sm p-1 animate-fade-in-left"
         onClick={onClick}
         onKeyDown={handleKeyDown}
         role="button"
         tabIndex={0}
         aria-label={`Noticia: ${title}`}
-        className="card-3d-light group cursor-pointer flex gap-3 border-b border-white/5 pb-3 mb-3 last:border-0 last:mb-0 last:pb-0 focus:outline-none focus:ring-1 focus:ring-gold rounded-sm p-1"
       >
         <div className="w-20 h-20 shrink-0 overflow-hidden rounded-sm bg-[#0a0a0a] relative">
           <LazyImage
@@ -178,22 +169,18 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             )}
           </div>
         </div>
-      </motion.article>
+      </article>
     );
   }
 
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-30px' }}
-      transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+    <article
+      className="card-3d-light group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/5 flex flex-col focus:outline-none focus:ring-2 focus:ring-gold animate-fade-in-up"
       onClick={onClick}
       onKeyDown={handleKeyDown}
       role="button"
       tabIndex={0}
       aria-label={`Noticia: ${title}`}
-       className="card-3d-light group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/5 flex flex-col focus:outline-none focus:ring-2 focus:ring-gold"
     >
       <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
         <LazyImage
@@ -225,11 +212,11 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
         <div className="space-y-2">
           <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500 flex-wrap">
             <span className="flex items-center gap-1">
-              <Calendar className="w-3 h-3 text-gold/80" />
+              <Calendar className="w-3 h-3 text-gold" />
               {formattedDate}
             </span>
             <span className="flex items-center gap-1">
-              <Clock className="w-3 h-3 text-gold/80" />
+              <Clock className="w-3 h-3 text-gold" />
               {readTime}
             </span>
             {post.source && (
@@ -260,7 +247,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             </span>
           )}
         </div>
-        </div>
-      </motion.article>
-    );
-  }
+      </div>
+    </article>
+  );
+}
