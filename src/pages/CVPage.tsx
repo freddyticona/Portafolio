@@ -70,12 +70,15 @@ export default function CVPage({ lang, t }: CVPageProps) {
             </h3>
 
             <div className="space-y-4">
-              <div className="space-y-1 text-left">
-                <div className="text-xs font-mono text-stone-500">2018 - 2022</div>
-                <h4 className="text-sm font-bold text-white leading-snug">
-                  {lang === 'es' ? 'Licenciatura en Comunicación (Título en Provisión Nacional)' : 'Bachelor Degree in Communication (National Degree)'}
-                </h4>
-                <p className="text-xs text-gold/90 font-mono font-bold tracking-wider">Universidad de Aquino Bolivia (UDABOL) - La Paz</p>
+              <div className="flex items-start gap-4">
+                <img src="/images/graduacion/_DSC0162.webp" alt="Colación de grado - Licenciatura en Comunicación" className="w-20 h-20 rounded-sm object-cover shrink-0 border border-white/5" loading="lazy" />
+                <div className="space-y-1 min-w-0">
+                  <div className="text-xs font-mono text-stone-500">2018 - 2022</div>
+                  <h4 className="text-sm font-bold text-white leading-snug">
+                    {lang === 'es' ? 'Licenciatura en Comunicación (Título en Provisión Nacional)' : 'Bachelor Degree in Communication (National Degree)'}
+                  </h4>
+                  <p className="text-xs text-gold/90 font-mono font-bold tracking-wider">Universidad de Aquino Bolivia (UDABOL) - La Paz</p>
+                </div>
               </div>
 
               <div className="space-y-1 text-left pt-3 border-t border-white/5">

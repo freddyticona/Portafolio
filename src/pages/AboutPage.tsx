@@ -60,7 +60,7 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
               <img src="/images/behind-scenes/DSC_2189.webp" alt="Trabajo en set de grabación" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
             </div>
             <div className="aspect-square rounded-sm overflow-hidden border border-white/5 bg-[#020202] group">
-              <img src="/images/behind-scenes/DSC07483.webp" alt="Grabación en campo" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+              <img src="/images/graduacion/_DSC0129.webp" alt="Colación de grado - Licenciatura en Comunicación" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
             </div>
           </div>
         </div>
