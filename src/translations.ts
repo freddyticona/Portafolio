@@ -30,10 +30,10 @@ export const timelineEvents: TimelineEvent[] = [
     id: '2',
     period: '2020',
     company: 'Red Uno de Bolivia (Canal 11)',
-    roleEs: 'Camarógrafo de Prensa y Unidades Móviles',
-    roleEn: 'News and Mobile Unit Cameraman',
-    descriptionEs: 'Operación de cámaras de exteriores para el noticiero central "Notivisión" y cobertura inmediata de eventos políticos y de orden social en vivo.',
-    descriptionEn: 'Camera operator for outdoor environments for "Notivisión" main news program, covering real-time political and breaking social events.',
+    roleEs: 'Camarógrafo Editor',
+    roleEn: 'Cameraman Editor',
+    descriptionEs: 'Camarógrafo editor en el programa "No me pierda" (función principal) y también en el noticiero central "Notivisión". Cobertura de exteriores y edición de notas periodísticas.',
+    descriptionEn: 'Cameraman editor for the show "No me pierda" (main role) and also for the central news program "Notivisión". Field coverage and news editing.',
     achievementsEs: [
       'Despliegue y operación exitosa en unidades móviles de transmisión satelital (SNG).',
       'Registro de acontecimientos de alto impacto social con encuadres y narrativa estables bajo condiciones extremas.'
@@ -67,7 +67,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: '4',
     period: '2014 - 2016',
-    company: 'RTP - Red de la Tres Patrias (Canal 4)',
+    company: 'RTP - Radio Difusoras Populares S.A. (Canal 4)',
     roleEs: 'Camarógrafo y Editor de Prensa',
     roleEn: 'News Cameraman and Video Editor',
     descriptionEs: 'Cobertura de calle diaria y edición de notas periodísticas en la emblemática red RTP, reconocida por su estrecho contacto con las clases populares de Bolivia.',
