@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase } from 'lucide-react';
@@ -20,6 +20,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [activeItem, setActiveItem] = useState<PortfolioItem | null>(null);
+  const cardRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
 
   const categories = useMemo(() => {
     return [
@@ -107,9 +108,8 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
       {filteredItems.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredItems.map((item, index) => {
-            const cardRef = React.useRef<HTMLDivElement>(null);
-            const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
-              const el = cardRef.current;
+            const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+              const el = cardRefs.current.get(item.id);
               if (!el) return;
               const rect = el.getBoundingClientRect();
               const x = (e.clientX - rect.left) / rect.width - 0.5;
@@ -118,13 +118,13 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               el.style.setProperty('--rotate-y', `${x * 8}deg`);
               el.style.setProperty('--glow-x', `${(x + 0.5) * 100}%`);
               el.style.setProperty('--glow-y', `${(y + 0.5) * 100}%`);
-            }, []);
-            const handleMouseLeave = useCallback(() => {
-              const el = cardRef.current;
+            };
+            const handleMouseLeave = () => {
+              const el = cardRefs.current.get(item.id);
               if (!el) return;
               el.style.setProperty('--rotate-x', '0deg');
               el.style.setProperty('--rotate-y', '0deg');
-            }, []);
+            };
             return (
               <motion.div
                 key={item.id}
@@ -135,7 +135,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               >
                 <div
                   id={`portfolio-item-${item.id}`}
-                  ref={cardRef}
+                  ref={(el) => { if (el) cardRefs.current.set(item.id, el); }}
                   onClick={() => handleOpenLightbox(item)}
                   onMouseMove={handleMouseMove}
                   onMouseLeave={handleMouseLeave}
