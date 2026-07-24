@@ -35,10 +35,10 @@ import SkipLink from './components/SkipLink';
 import CookieConsent from './components/CookieConsent';
 import PrivacyModal from './components/PrivacyModal';
 import NotFoundPage from './pages/NotFoundPage';
+import HomePage from './pages/HomePage';
 import { UpdatePrompt, OnlineStatus } from './hooks/useServiceWorker';
 
 // Páginas — lazy loaded para code splitting por ruta
-const HomePage = lazy(() => import('./pages/HomePage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const PortfolioPage = lazy(() => import('./pages/PortfolioPage'));
 const CVPage = lazy(() => import('./pages/CVPage'));
