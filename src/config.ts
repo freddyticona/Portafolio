@@ -35,7 +35,7 @@ export const CONTACT_INFO = {
 
 export const SOCIAL_LINKS = {
   youtube: 'https://www.youtube.com/@freddyticonaguzman3551',
-  linkedin: 'https://www.linkedin.com/in/freddy-ticona-guzman-4161287',
+  linkedin: 'https://www.linkedin.com/in/freddyticonaguzman',
   x: 'https://x.com/Freddy_21407',
   facebook: 'https://www.facebook.com/share/1BYqTdK7BM/'
 } as const;

@@ -29,7 +29,7 @@ const PERSON_DATA = {
   image: `${BASE_URL}/images/freddy_profile.webp`,
   sameAs: [
     'https://www.youtube.com/@freddyticonaguzman3551',
-    'https://www.linkedin.com/in/freddy-ticona-guzman-4161287',
+    'https://www.linkedin.com/in/freddyticonaguzman',
     'https://x.com/Freddy_21407',
     'https://www.facebook.com/share/1BYqTdK7BM/'
   ],
