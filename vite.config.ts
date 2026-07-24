@@ -59,17 +59,33 @@ export default defineConfig(() => {
         output: {
           // Dividir el código en chunks más pequeños
           manualChunks(id) {
-            // Vendor chunk: React y librerías principales
-            if (id.includes('node_modules/react') || id.includes('node_modules/react-dom')) {
-              return 'react-vendor';
-            }
-            // Firebase - separar para mejor caching
+            // Firebase - separar para mejor caching (pesado: 552 KB)
             if (id.includes('node_modules/firebase')) {
               return 'firebase';
             }
             // Sentry - vendor separado
             if (id.includes('node_modules/@sentry')) {
               return 'sentry';
+            }
+            // Lucide icons - separar (muchos iconos no usados)
+            if (id.includes('node_modules/lucide-react')) {
+              return 'lucide-icons';
+            }
+            // Motion (framer-motion) - separar
+            if (id.includes('node_modules/motion') || id.includes('node_modules/framer-motion')) {
+              return 'motion';
+            }
+            // Marked (markdown parser) - separar
+            if (id.includes('node_modules/marked')) {
+              return 'marked';
+            }
+            // React vendor - core
+            if (id.includes('node_modules/react') || id.includes('node_modules/react-dom') || id.includes('node_modules/react-router')) {
+              return 'react-vendor';
+            }
+            // Otros node_modules - vendor genérico
+            if (id.includes('node_modules')) {
+              return 'vendor';
             }
           },
           // Optimizar nombres de chunks para mejor caching
