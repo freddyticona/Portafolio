@@ -61,6 +61,14 @@ export function useServiceWorker() {
       navigator.serviceWorker.addEventListener('controllerchange', () => {
         window.location.reload();
       });
+
+      // Escuchar mensajes del SW (ej: stale HTML detectado)
+      navigator.serviceWorker.addEventListener('message', (event) => {
+        if (event.data?.type === 'STALE_HTML') {
+          console.warn('[SW] HTML desactualizado detectado, recargando...');
+          window.location.reload();
+        }
+      });
     }
   }, []);
 
