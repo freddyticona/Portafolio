@@ -38,109 +38,112 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
     {
       src: '/images/behind-scenes/DSC_2994.webp',
       alt: 'Camarógrafo de estudio',
-      title: lang === 'es' ? 'Camarógrafo de estudio - Abya Yala Noticias' : 'Studio cameraman - Abya Yala Noticias',
+      title: lang === 'es' ? 'Camarógrafo en estudio central - Abya Yala Noticias' : 'Studio cameraman - Abya Yala Noticias',
       category: 'set',
-      year: '2021',
-      location: 'Estudio Canal 41, La Paz'
+      year: '2017',
+      location: 'Canal 41, La Paz'
     },
     {
       src: '/images/behind-scenes/28082012255.webp',
       alt: 'Copia de material a cassette',
-      title: lang === 'es' ? 'Copia de material audiovisual entre cámaras a cassette (RCA)' : 'Copying audiovisual material between cameras to cassette (RCA)',
+      title: lang === 'es' ? 'Transferencia de material entre videocámaras a cassette RCA - Gigavisión' : 'Footage transfer between camcorders to RCA cassette - Gigavisión',
       category: 'equipment',
-      year: '2018',
-      location: 'Estudio'
+      year: '2012',
+      location: 'Estudio Gigavisión, La Paz'
     },
     {
       src: '/images/behind-scenes/24072012043.webp',
       alt: 'Graduación ANAPOL',
-      title: lang === 'es' ? 'Cobertura de graduación ANAPOL - Gigavisión' : 'Graduation coverage ANAPOL - Gigavisión',
+      title: lang === 'es' ? 'Cobertura de graduación de la Academia Nacional de Policías - Gigavisión' : 'National Police Academy graduation coverage - Gigavisión',
       category: 'location',
-      year: '2018',
-      location: 'Exteriores'
+      year: '2012',
+      location: 'ANAPOL, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC_0044.webp',
       alt: 'Entrada Gran Poder',
-      title: lang === 'es' ? 'Cobertura entrada Gran Poder - Gigavisión' : 'Gran Poder parade coverage - Gigavisión',
+      title: lang === 'es' ? 'Transmisión en vivo de la entrada Folklórica del Gran Poder - Gigavisión' : 'Live broadcast of the Gran Poder folkloric parade - Gigavisión',
       category: 'set',
-      year: '2018',
+      year: '2014',
       location: 'La Paz'
     },
     {
       src: '/images/behind-scenes/08092012536.webp',
-      alt: 'Tiwanaku',
-      title: lang === 'es' ? 'Grabación de imágenes de apoyo - Tiwanaku' : 'B-roll footage shooting - Tiwanaku',
+      alt: 'Toma de apoyo en Tiwanaku',
+      title: lang === 'es' ? 'Grabación de imágenes de apoyo para nota periodística - Tiwanaku' : 'B-roll footage shooting for news segment - Tiwanaku',
       category: 'location',
-      year: '2018',
+      year: '2012',
       location: 'Tiwanaku'
     },
     {
       src: '/images/behind-scenes/1428941048045(1).webp',
       alt: 'Planta Carlos Villegas',
-      title: lang === 'es' ? 'Inspección planta separadora de líquidos Carlos Villegas' : 'Inspection at Carlos Villegas liquid separation plant',
+      title: lang === 'es' ? 'Cobertura de inspección a la planta separadora de líquidos Carlos Villegas' : 'Coverage of inspection at Carlos Villegas liquid separation plant',
       category: 'location',
-      year: '2016',
-      location: 'Planta Carlos Villegas'
+      year: '2015',
+      location: 'El Alto, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC_2990.webp',
       alt: 'Estudio Abya Yala Noticias',
-      title: lang === 'es' ? 'Estudio Abya Yala Noticias - cámara y prompter' : 'Abya Yala Noticias studio - camera and prompter',
+      title: lang === 'es' ? 'Camarógrafo en cabina de control - Abya Yala Noticias' : 'Cameraman in control booth - Abya Yala Noticias',
       category: 'set',
-      year: '2020',
-      location: 'Estudio Canal 41, La Paz'
+      year: '2017',
+      location: 'Canal 41, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC07483.webp',
       alt: 'Planta San Buenaventura',
-      title: lang === 'es' ? 'Planta azucarera San Buenaventura - RTP' : 'San Buenaventura sugar plant - RTP',
+      title: lang === 'es' ? 'Gira informativa a la planta azucarera San Buenaventura - RTP' : 'Press tour at San Buenaventura sugar plant - RTP',
       category: 'location',
       year: '2019',
-      location: 'San Buenaventura'
+      location: 'San Buenaventura, La Paz'
     },
     {
-      src: '/images/behind-scenes/DSC_2187.webp',
-      alt: 'Archivos Abya Yala',
-      title: lang === 'es' ? 'Archivos y programación - Abya Yala' : 'Archives and programming - Abya Yala',
-      category: 'team',
-      year: '2019',
-      location: 'Estudio Abya Yala',
-      objectPosition: '75% center'
+      src: '/images/behind-scenes/vertical/IMG_20100101_084106.webp',
+      alt: 'Cobertura Plaza Murillo',
+      title: lang === 'es' ? 'Cobertura de prensa del área política en Plaza Murillo - Abya Yala' : 'Political press coverage at Plaza Murillo - Abya Yala',
+      category: 'location',
+      year: '2017',
+      location: 'Plaza Murillo, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC_2455.webp',
       alt: 'Programa folclórico RTP',
-      title: lang === 'es' ? 'Camarógrafo de piso - Programa folclórico RTP' : 'Floor cameraman - Folkloric program RTP',
+      title: lang === 'es' ? 'Camarógrafo de piso en programa folclórico en vivo - RTP' : 'Floor cameraman for live folkloric program - RTP',
       category: 'set',
-      year: '2021',
-      location: 'Estudio RTP'
+      year: '2017',
+      location: 'Estudio RTP, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC07353.webp',
       alt: 'Travesía San Buenaventura-Rurrenabaque',
-      title: lang === 'es' ? 'Cruce San Buenaventura - Rurrenabaque en balsa - RTP' : 'San Buenaventura - Rurrenabaque river crossing on raft - RTP',
+      title: lang === 'es' ? 'Cruce del río Beni en balsa artesanal hacia Rurrenabaque - RTP' : 'Beni river crossing on handmade raft to Rurrenabaque - RTP',
       category: 'location',
       year: '2019',
-      location: 'Río Beni'
+      location: 'Río Beni, La Paz'
     },
     {
       src: '/images/behind-scenes/Canon VIXIA HF M313934.webp',
       alt: 'Sony DVCAM',
-      title: lang === 'es' ? 'Cámara Sony DVCAM de cassette' : 'Sony DVCAM cassette camera',
+      title: lang === 'es' ? 'Cámara Sony DVCAM de cinta, equipo de transición al formato digital' : 'Sony DVCAM tape camera, transition equipment to digital format',
       category: 'equipment',
-      year: '2019',
-      location: 'Estudio'
+      year: '2016',
+      location: 'Archivo personal, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC_2060.webp',
       alt: 'Cobertura Trinidad',
-      title: lang === 'es' ? 'Cobertura en Trinidad - RTP (avión Hércules de fondo)' : 'Coverage in Trinidad - RTP (Hercules aircraft background)',
+      title: lang === 'es' ? 'Cobertura periodística en Trinidad con avión Hércules de la FAB de fondo - RTP' : 'Press coverage in Trinidad with FAB Hercules aircraft in background - RTP',
       category: 'location',
       year: '2019',
       location: 'Trinidad, Beni'
     }
   ];
+
+  const years = behindScenesImages.map(img => parseInt(img.year || '0')).filter(y => y > 0);
+  const minYear = Math.min(...years);
+  const maxYear = Math.max(...years);
 
   const filteredImages = filter === 'all'
     ? behindScenesImages
@@ -185,14 +188,14 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
 
           <div className="flex items-center gap-6 mt-6 pt-6 border-t border-white/5">
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold font-display">13</div>
+                 <div className="text-2xl font-bold text-gold font-display">{behindScenesImages.length}</div>
                 <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
                   {lang === 'es' ? 'Fotos destacadas' : 'Featured photos'}
                 </div>
               </div>
               <div className="w-px h-8 bg-white/10" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold font-display">2016-2021</div>
+                 <div className="text-2xl font-bold text-gold font-display">{minYear}-{maxYear}</div>
                 <div className="text-xs text-stone-500 font-mono uppercase tracking-wider">
                   {lang === 'es' ? 'Periodo' : 'Period'}
                 </div>
