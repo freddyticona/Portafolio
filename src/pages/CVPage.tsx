@@ -177,6 +177,10 @@ export default function CVPage({ lang, t }: CVPageProps) {
               <h4 className="font-bold text-white text-sm">{t.cvMemoTitle}</h4>
               <p className="leading-relaxed font-light">{t.cvMemoDesc}</p>
             </div>
+            <div className="p-5 bg-white/[0.01] border border-white/5 rounded-sm space-y-2 text-left text-xs text-stone-400">
+              <h4 className="font-bold text-white text-sm">{t.cvMemo2Title}</h4>
+              <p className="leading-relaxed font-light">{t.cvMemo2Desc}</p>
+            </div>
           </div>
         </div>
       </div>

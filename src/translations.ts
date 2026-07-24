@@ -5859,7 +5859,9 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
     cvAwardAbaroaTitle: 'Premio Plurinacional Eduardo Abaroa 2017',
     cvAwardAbaroaDesc: 'Otorgado por el Ministerio de Culturas y Turismo del Estado Plurinacional de Bolivia. Primer lugar en la categoría Reportaje de Investigación en Periodismo Cultural por el documental de televisión "La Estrella". El galardón más prestigioso del país para las artes y el periodismo cultural.',
     cvMemoTitle: 'Memorando de Felicitación Institucional - Bolivia TV (2022)',
-    cvMemoDesc: 'Reconocimiento oficial emitido por la Gerencia General de Bolivia TV por el destacado desempeño, proactividad y entrega técnica demostrada durante la cobertura ininterrumpida de los desastres por inundaciones en el departamento del Beni.',
+    cvMemoDesc: 'Reconocimiento oficial emitido por la Gerencia General de Bolivia TV por el destacado desempeño y entrega técnica en trabajos de postproducción y edición de video durante los 36 días del paro cívico en Santa Cruz (octubre - noviembre 2022).',
+    cvMemo2Title: 'Memorando de Felicitación Institucional - Bolivia TV (2024)',
+    cvMemo2Desc: 'Reconocimiento oficial emitido por la Gerencia General de Bolivia TV por la elaboración del reportaje especial de postproducción y edición de video sobre la cronología completa del intento de golpe de Estado del 26 de junio de 2024, perpetrado por el entonces comandante del Ejército Juan José Zúñiga contra el gobierno constitucional del presidente Luis Arce.',
 
     blogTitle: 'Blog Audiovisual',
     blogSubtitle: 'Apuntes de campo, análisis de tendencias de video, tutoriales de montaje y relatos de coberturas periodísticas en Bolivia.',
@@ -5997,7 +5999,9 @@ My professional growth led me to specialize in documentary cinematography and fr
     cvAwardAbaroaTitle: 'Eduardo Abaroa National Award 2017',
     cvAwardAbaroaDesc: 'Granted by the Ministry of Cultures and Tourism of the Plurinational State of Bolivia. First place in the Cultural Journalism Investigative Reporting category for the television documentary "La Estrella". The nation\'s highest recognition for arts and journalism.',
     cvMemoTitle: 'Institutional Commendation Letter - Bolivia TV (2022)',
-    cvMemoDesc: 'Official citation issued by Bolivia TV General Management for exceptional field performance, proactivity, and technical dedication demonstrated during continuous live broadcast of flood disasters in Beni department.',
+    cvMemoDesc: 'Official citation issued by Bolivia TV General Management for outstanding performance and technical dedication in post-production and video editing work during the 36-day civic strike in Santa Cruz (October - November 2022).',
+    cvMemo2Title: 'Institutional Commendation Letter - Bolivia TV (2024)',
+    cvMemo2Desc: 'Official citation issued by Bolivia TV General Management for producing the special post-production and video editing report on the complete chronology of the June 26, 2024 coup attempt perpetrated by former Army Commander Juan José Zúñiga against the constitutional government of President Luis Arce.',
 
     blogTitle: 'Audiovisual Blog',
     blogSubtitle: 'Field notes, video trend analysis, editing workflows, and journals of televised reporting in Bolivia.',
