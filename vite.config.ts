@@ -3,30 +3,12 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 import {sentryVitePlugin} from '@sentry/vite-plugin';
-import type { Plugin, HtmlTagDescriptor } from 'vite';
-
-function makeCssNonBlocking(): Plugin {
-  return {
-    name: 'make-css-non-blocking',
-    enforce: 'post',
-    transformIndexHtml: {
-      order: 'post',
-      handler(html: string): string | HtmlTagDescriptor[] {
-        return html.replace(
-          /<link rel="stylesheet" crossorigin href="(\/assets\/index-[^"]+\.css)">/g,
-          '<link rel="preload" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" crossorigin href="$1"><noscript><link rel="stylesheet" crossorigin href="$1"></noscript>'
-        );
-      },
-    },
-  };
-}
 
 export default defineConfig(() => {
   return {
     plugins: [
       react(),
       tailwindcss(),
-      makeCssNonBlocking(),
       sentryVitePlugin({
         authToken: process.env.SENTRY_AUTH_TOKEN,
         org: process.env.SENTRY_ORG,
