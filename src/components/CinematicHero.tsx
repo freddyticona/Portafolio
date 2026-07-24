@@ -16,9 +16,7 @@ interface CinematicHeroProps {
 export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es', t }: CinematicHeroProps) {
   const [scrollY, setScrollY] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [heroLoaded, setHeroLoaded] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -38,18 +36,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
-
-  // Blur-up loading: cargar versión HD después de la small
-  useEffect(() => {
-    const hdImage = new Image();
-    hdImage.src = '/images/behind-scenes/DSC_2994-large.webp';
-    hdImage.onload = () => {
-      if (imageRef.current) {
-        imageRef.current.src = hdImage.src;
-        setHeroLoaded(true);
-      }
     };
   }, []);
 
@@ -94,21 +80,19 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         }}
       >
         <img
-          ref={imageRef}
           src="/images/behind-scenes/DSC_2994-small.webp"
           srcSet="/images/behind-scenes/DSC_2994-medium.webp 960w,
                   /images/behind-scenes/DSC_2994-large.webp 1920w"
           sizes="100vw"
           alt="Freddy Ticona trabajando en el set"
-          className="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-500"
+          className="absolute inset-0 w-full h-full object-cover object-center"
           style={{
-            filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001}) ${!heroLoaded ? 'blur(8px)' : ''}`,
-            opacity: heroLoaded ? 1 : 0.85
+            filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001})`,
           }}
           fetchPriority="high"
           width={1920}
           height={1080}
-          decoding="sync"
+          decoding="async"
         />
 
 
