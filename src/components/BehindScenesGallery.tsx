@@ -76,12 +76,12 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
       location: 'Tiwanaku'
     },
     {
-      src: '/images/behind-scenes/1428941048045(1).webp',
-      alt: 'Planta Carlos Villegas',
-      title: lang === 'es' ? 'Cobertura de inspección a la planta separadora de líquidos Carlos Villegas' : 'Coverage of inspection at Carlos Villegas liquid separation plant',
-      category: 'location',
-      year: '2015',
-      location: 'El Alto, La Paz'
+      src: '/images/behind-scenes/vertical/PSX_20250829_211859.webp',
+      alt: 'Camarógrafo de piso Bolivia TV',
+      title: lang === 'es' ? 'Camarógrafo de piso con cámara ENG en los estudios de Bolivia TV' : 'Floor cameraman with ENG camera at Bolivia TV studios',
+      category: 'set',
+      year: '2025',
+      location: 'Estudio Bolivia TV, La Paz'
     },
     {
       src: '/images/behind-scenes/DSC_2990.webp',
