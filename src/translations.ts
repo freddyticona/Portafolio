@@ -8,10 +8,10 @@ import { PortfolioItem, CaseStudy, TimelineEvent, BlogPost, Testimonial, Certifi
 export const timelineEvents: TimelineEvent[] = [
   {
     id: '1',
-    period: '2021 - Present',
+    period: '2021 - Jul 2026',
     company: 'Bolivia TV (Canal Estatal)',
-    roleEs: 'Responsable de los archivos del área de prensa',
-    roleEn: 'Head of Press Area Archives',
+    roleEs: 'Camarógrafo editor archivo / Responsable de los archivos del área de prensa',
+    roleEn: 'Cameraman Video Editor Archive / Head of Press Area Archives',
     descriptionEs: 'Responsable de la organización, preservación y gestión integral de los archivos del área de prensa para la red nacional estatal.',
     descriptionEn: 'Responsible for the organization, preservation, and comprehensive management of the press area archives for the national state television network.',
     achievementsEs: [
