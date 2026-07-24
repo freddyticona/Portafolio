@@ -49,6 +49,11 @@ const pages = {
     desc: 'Guías actualizadas para realizar trámites en Bolivia: cédula de identidad SEGIP, SOAT, licencia de conducir, pasaporte, NIT, RUAT, certificados y visas. Paso a paso, costos y requisitos oficiales.',
     path: '/guias'
   },
+  'galeria': {
+    title: 'Galería de Coberturas | Freddy Ticona',
+    desc: 'Galería de fotos de coberturas periodísticas, documentales y producciones televisivas de Freddy Ticona en toda Bolivia.',
+    path: '/galeria'
+  },
   'servicios': {
     title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
     desc: 'Contrata servicios profesionales de filmación 4K, edición de video, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cotiza tu proyecto.',

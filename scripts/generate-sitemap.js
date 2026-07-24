@@ -17,6 +17,7 @@ const sections = [
   { path: 'blog', priority: '0.8', changefreq: 'weekly' },
   { path: 'noticias', priority: '0.9', changefreq: 'daily' },
   { path: 'guias', priority: '0.8', changefreq: 'weekly' },
+  { path: 'galeria', priority: '0.7', changefreq: 'monthly' },
   { path: 'servicios', priority: '0.9', changefreq: 'monthly' },
   { path: 'reservas', priority: '0.7', changefreq: 'monthly' },
   { path: 'contacto', priority: '0.7', changefreq: 'monthly' },

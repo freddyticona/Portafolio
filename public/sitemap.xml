@@ -53,6 +53,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://freddydev.net/galeria</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://freddydev.net/servicios</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>

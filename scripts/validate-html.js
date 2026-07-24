@@ -14,7 +14,7 @@ const VALIDATOR_URL = 'https://validator.w3.org/nu/';
 
 const pages = [
   '/', '/inicio', '/sobre-mi', '/portafolio', '/cv',
-  '/blog', '/noticias', '/servicios', '/reservas', '/contacto',
+  '/blog', '/noticias', '/galeria', '/servicios', '/reservas', '/contacto',
   '/blog/premio-eduardo-abaroa-2026',
   '/noticias/evolucion-televisiva-bolivia-analogo-digital',
 ];
