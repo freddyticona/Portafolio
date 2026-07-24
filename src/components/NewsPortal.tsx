@@ -45,7 +45,8 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       { value: 'analysis', labelEs: 'Análisis', labelEn: 'Analysis' },
       { value: 'opinion', labelEs: 'Opinión', labelEn: 'Opinion' },
       { value: 'reportage', labelEs: 'Reportaje', labelEn: 'Reportage' },
-      { value: 'behind-scenes', labelEs: 'Detrás de Cámaras', labelEn: 'Behind the Scenes' }
+      { value: 'behind-scenes', labelEs: 'Detrás de Cámaras', labelEn: 'Behind the Scenes' },
+      { value: 'culture', labelEs: 'Cultura', labelEn: 'Culture' }
     ];
     const used = new Set(posts.map(p => p.contentType));
     return types.filter(t => t.value === 'all' || used.has(t.value as ContentType));

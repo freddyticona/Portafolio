@@ -37,14 +37,16 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
     analysis: { es: 'ANÁLISIS', en: 'ANALYSIS' },
     opinion: { es: 'OPINIÓN', en: 'OPINION' },
     reportage: { es: 'REPORTAJE', en: 'REPORTAGE' },
-    'behind-scenes': { es: 'DETRÁS DE CÁMARAS', en: 'BEHIND THE SCENES' }
+    'behind-scenes': { es: 'DETRÁS DE CÁMARAS', en: 'BEHIND THE SCENES' },
+    culture: { es: 'CULTURA', en: 'CULTURE' }
   };
   const contentTypeColors: Record<ContentType, string> = {
     news: 'text-blue-400 border-blue-500/30 bg-blue-500/10',
     analysis: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
     opinion: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
     reportage: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
-    'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10'
+    'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10',
+    culture: 'text-teal-400 border-teal-500/30 bg-teal-500/10'
   };
   const formattedDate = new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
     year: 'numeric',

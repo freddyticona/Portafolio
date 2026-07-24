@@ -70,7 +70,7 @@ export interface TimelineEvent {
   logoPlaceholder: string;
 }
 
-export type ContentType = 'news' | 'analysis' | 'opinion' | 'reportage' | 'behind-scenes';
+export type ContentType = 'news' | 'analysis' | 'opinion' | 'reportage' | 'behind-scenes' | 'culture';
 
 export interface BlogPost {
   id: string;
