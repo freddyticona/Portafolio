@@ -6437,7 +6437,7 @@ Specialized in the intersection of software development, Artificial Intelligence
       // NOTICIAS DE LA VELADA DEL AÑO 6
       // ============================================================
       {
-        id: '37',
+        id: '100',
         contentType: 'news',
         slug: 'la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia',
         titleEs: 'La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia',
@@ -6519,7 +6519,7 @@ Specialized in the intersection of software development, Artificial Intelligence
         location: 'Sevilla, España — La Paz, Bolivia'
       },
       {
-        id: '38',
+        id: '101',
         contentType: 'news',
         slug: 'illojuan-vs-thegrefg-main-event-velada-6',
         titleEs: 'IlloJuan vs TheGrefg: el Main Event que paralizará internet en La Velada del Año 6',
@@ -6567,7 +6567,7 @@ Specialized in the intersection of software development, Artificial Intelligence
         location: 'Sevilla, España'
       },
       {
-        id: '39',
+        id: '102',
         contentType: 'news',
         slug: 'guia-completa-10-combates-velada-6-peleadores',
         titleEs: 'Guía completa de los 10 combates de La Velada del Año 6: quiénes son los peleadores',
@@ -6638,7 +6638,7 @@ Fight 10: IlloJuan (Spain) vs TheGrefg (Spain) — Main Event</p>
         location: 'Sevilla, España'
       },
       {
-        id: '40',
+        id: '103',
         contentType: 'analysis',
         slug: 'espana-vs-latinoamerica-rivalidad-velada-6',
         titleEs: 'España vs Latinoamérica: la rivalidad que domina La Velada del Año 6',
