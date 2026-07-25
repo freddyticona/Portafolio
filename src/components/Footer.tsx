@@ -9,18 +9,15 @@ import { Youtube, Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck, 
 import { CONTACT_INFO, SOCIAL_LINKS } from '../config';
 
 interface FooterProps {
-  setActivePage: (page: PageId) => void;
+  handleNavToTab: (page: PageId) => void;
   lang: 'es' | 'en';
   t: Record<string, string>;
   onOpenPrivacy?: () => void;
 }
 
-export default function Footer({ setActivePage, lang, t, onOpenPrivacy }: FooterProps) {
+export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: FooterProps) {
   const handleNavClick = (pageId: PageId) => {
-    setActivePage(pageId);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    const path = pageId === 'inicio' ? '/' : '/' + pageId;
-    window.history.pushState(null, '', path);
+    handleNavToTab(pageId);
   };
 
   const scrollToTop = () => {
@@ -246,11 +243,7 @@ export default function Footer({ setActivePage, lang, t, onOpenPrivacy }: Footer
         {/* Admin link (discreto) */}
         <div className="pt-4 text-center">
           <button
-            onClick={() => {
-              setActivePage('admin');
-              window.history.pushState(null, '', '/admin');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
+            onClick={() => handleNavToTab('admin')}
             className="text-stone-700 hover:text-stone-500 text-[10px] font-mono transition-colors cursor-pointer"
           >
             Admin

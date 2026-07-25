@@ -335,9 +335,9 @@ export default function App() {
       <SkipLink lang={lang} />
 
       {/* Sticky Top Header / Navigation */}
-      <Navbar
-        activePage={activePage}
-        setActivePage={setActivePage}
+        <Navbar
+          activePage={activePage}
+          handleNavToTab={handleNavToTab}
         lang={lang}
         setLang={handleSetLang}
         t={t}
@@ -353,7 +353,7 @@ export default function App() {
       </main>
 
       {/* Persistent Footer */}
-      <Footer setActivePage={setActivePage} lang={lang} t={t} onOpenPrivacy={() => setShowPrivacy(true)} />
+      <Footer handleNavToTab={handleNavToTab} lang={lang} t={t} onOpenPrivacy={() => setShowPrivacy(true)} />
 
       {/* Componentes flotantes globales */}
       <Suspense fallback={null}>

@@ -9,7 +9,7 @@ import { Video, Menu, X, Globe, Film } from 'lucide-react';
 
 interface NavbarProps {
   activePage: PageId;
-  setActivePage: (page: PageId) => void;
+  handleNavToTab: (page: PageId) => void;
   lang: 'es' | 'en';
   setLang: (lang: 'es' | 'en') => void;
   t: Record<string, string>;
@@ -17,7 +17,7 @@ interface NavbarProps {
   setDimmed?: (v: boolean) => void;
 }
 
-export default function Navbar({ activePage, setActivePage, lang, setLang, t, dimmed, setDimmed }: NavbarProps) {
+export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, dimmed, setDimmed }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -41,11 +41,8 @@ export default function Navbar({ activePage, setActivePage, lang, setLang, t, di
   ];
 
   const handleNavClick = (pageId: PageId) => {
-    setActivePage(pageId);
+    handleNavToTab(pageId);
     setMobileMenuOpen(false);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    const path = pageId === 'inicio' ? '/' : '/' + pageId;
-    window.history.pushState(null, '', path);
   };
 
   const toggleLanguage = () => {
