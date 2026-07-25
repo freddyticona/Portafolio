@@ -108,6 +108,7 @@ export default function WhatsAppButton({
       {/* Main button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-label={lang === 'es' ? 'Abrir chat de WhatsApp' : 'Open WhatsApp chat'}
         className={`relative w-14 h-14 bg-[#25d366] hover:bg-[#128c7e] text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110 ${
           showPulse ? 'animate-pulse-slow' : ''
         }`}

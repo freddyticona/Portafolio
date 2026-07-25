@@ -23,7 +23,7 @@ const PAGES_TO_TEST = [
 test.describe('Accesibilidad axe-core', () => {
   for (const path of PAGES_TO_TEST) {
     test(` página ${path} no tiene violaciones WCAG AA críticas`, async ({ page }) => {
-      await page.goto(path, { waitUntil: 'domcontentloaded' });
+      await page.goto(path, { waitUntil: 'networkidle' });
 
       const results = await new AxeBuilder({ page })
         .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])

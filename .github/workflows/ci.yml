@@ -41,7 +41,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - name: Subir artefacto dist/
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: dist-build
           path: dist/
@@ -59,7 +59,7 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Descargar build
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: dist-build
           path: dist/
@@ -69,7 +69,7 @@ jobs:
           CI: 'true'
       - name: Subir reporte Playwright HTML
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: playwright-report
           path: playwright-report/
