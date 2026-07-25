@@ -108,7 +108,7 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
           ) : (
             <form onSubmit={handleSubmit} id="contact-form" className="space-y-4.5 text-left">
               {/* Honeypot field for anti-spam */}
-              <input type="text" name="botcheck" value={formData.botcheck} onChange={handleChange} className="absolute -left-[9999px]" tabIndex={-1} autoComplete="off" />
+              <input type="text" name="botcheck" value={formData.botcheck} onChange={handleChange} className="absolute -left-[9999px]" tabIndex={-1} autoComplete="off" aria-label="Bot check" />
 
               {formState === 'error' && (
                 <div className="bg-rose-500/10 border border-rose-500/20 text-rose-400 p-4 rounded-sm flex items-center gap-2 text-xs font-mono">
