@@ -11,15 +11,15 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 1,
   reporter: process.env.CI ? [['github'], ['list']] : 'list',
   use: {
-    baseURL: process.env.BASE_URL || 'http://localhost:3000',
+    baseURL: process.env.BASE_URL || (process.env.CI ? 'http://localhost:4173' : 'http://localhost:3000'),
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
   },
   webServer: process.env.CI
     ? {
-        command: 'npm run preview -- --port=4173',
+        command: 'npx vite preview --port=4173',
         port: 4173,
-        timeout: 60_000,
+        timeout: 120_000,
         reuseExistingServer: false,
       }
     : {

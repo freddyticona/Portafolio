@@ -58,6 +58,11 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: Descargar build
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-build
+          path: dist/
       - run: npx playwright install --with-deps chromium
       - run: npx playwright test smoke.spec.ts accessibility.spec.ts
         env:
