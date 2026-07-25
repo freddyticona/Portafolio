@@ -1,26 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
-/**
- * LinkedInBadge — Réplica visual del widget LI-profile de LinkedIn
- * deprecado. Render nativo (sin iframe, sin script de terceros) con
- * dimensiones fijas para evitar CLS, contraste WCAG AA y soporte i18n.
- *
- * Pixel-fiel al widget oficial previamente usado en este sitio:
- *   - Caja vertical ~200 × 270 px
- *   - Chip LinkedIn azul #0A66C2 esquina inferior derecha
- *   - Logo "in" blanco en cápsula azul
- *   - Headline truncado con line-clamp
- *   - Footer "Ver perfil ›" en azul LinkedIn
- *
- * Diferencias intencionales con el widget oficial:
- *   - Sin foto de LinkedIn (evita request extra y dependencias)
- *   - Avatar con iniciales como respaldo elegante
- *   - Localizada (ES/EN) vía props
- */
-
 import React from 'react';
 
 interface LinkedInBadgeProps {
@@ -28,6 +5,7 @@ interface LinkedInBadgeProps {
   name: string;
   headline?: string;
   className?: string;
+  lang?: 'es' | 'en';
 }
 
 function initialsOf(name: string): string {
@@ -44,6 +22,7 @@ export default function LinkedInBadge({
   name,
   headline,
   className = '',
+  lang = 'es',
 }: LinkedInBadgeProps) {
   const initials = initialsOf(name);
 
