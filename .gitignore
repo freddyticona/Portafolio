@@ -33,3 +33,15 @@ test-results/
 # Local IA / context workspace
 .opencode/
 .zcode/
+
+# Reportes Lighthouse generados localmente
+report.html
+report2.html
+report*.html
+images-report.json
+
+# Cobertura / bundle reportes
+.bundle-stats/
+.bundle.html
+stats.html
+coverage/
