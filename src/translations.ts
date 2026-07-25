@@ -6434,6 +6434,258 @@ Specialized in the intersection of software development, Artificial Intelligence
         sourceUrl: 'https://badabun.com/mc-propone-que-diputados-también-trabajen-6-dias-para-que-aprendan'
       },
       // ============================================================
+      // NOTICIAS DE LA VELADA DEL AÑO 6
+      // ============================================================
+      {
+        id: '37',
+        contentType: 'news',
+        slug: 'la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia',
+        titleEs: 'La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia',
+        titleEn: 'Ibai\'s La Velada del Año VI: full card, schedules and how to watch the 10 fights from Bolivia',
+        excerptEs: 'Hoy 25 de julio, el Estadio La Cartuja de Sevilla acoge la sexta edición de La Velada del Año. 10 combates con streamers, periodistas y artistas de 6 países. IlloJuan vs TheGrefg es el main event.',
+        excerptEn: 'Today July 25, the Estadio La Cartuja in Seville hosts the sixth edition of La Velada del Año. 10 fights with streamers, journalists and artists from 6 countries. IlloJuan vs TheGrefg is the main event.',
+        contentEs: `<h1>La Velada del Año VI: Sevilla se prepara para el evento de streaming más grande del mundo</h1>
+
+<p><em>El Estadio La Cartuja de Sevilla acoge hoy, 25 de julio de 2026, la sexta edición de La Velada del Año de Ibai Llanos. Diez combates, 22 participantes de 6 países y una producción televisiva que marca un antes y un después en el entretenimiento digital.</em></p>
+
+<h2>La Cartuja: el escenario</h2>
+
+<p>Por segundo año consecutivo, el <strong>Estadio La Cartuja</strong> de Sevilla (capacidad: 70,000 espectadores) será el epicentro del boxeo amateur más mediático del planeta. El recinto, que ya albergó la Velada V con récord de asistencia, repite como sede tras el éxito de la edición anterior. Las entradas se agotaron en cuestión de horas el pasado marzo.</p>
+
+<h2>Cartelera oficial de La Velada del Año VI</h2>
+
+<p>La noche comenzará a las <strong>20:00 hora española</strong> (14:00 en Bolivia) y contará con 10 combates —5 masculinos y 5 femeninos— en el siguiente orden:</p>
+
+<ul>
+<li><strong>Combate 1:</strong> La Parce (Colombia) vs Fabiana Sevillano (España) — Femenino</li>
+<li><strong>Combate 2:</strong> Clersss (España) vs Natalia MX (México) — Femenino</li>
+<li><strong>Combate 3:</strong> Lit Killah (Argentina) vs Kidd Keo (España) — Masculino</li>
+<li><strong>Combate 4:</strong> Alondrissa (Puerto Rico) vs Angie Velasco (Argentina) — Femenino</li>
+<li><strong>Combate 5:</strong> Gero Arias (Argentina) vs ByViruZz (España) — Masculino</li>
+<li><strong>Combate 6:</strong> Samy Rivers (México) vs RoRo (España) — Femenino</li>
+<li><strong>Combate 7:</strong> Marta Díaz (España) vs Tatiana Kaer (España) — Femenino</li>
+<li><strong>Combate 8:</strong> Edu Aguirre (España) vs Gastón Edul (Argentina) — Masculino</li>
+<li><strong>Combate 9:</strong> YoSoyPlex (España) vs Fernanfloo (El Salvador) — Masculino</li>
+<li><strong>Combate 10 (Main Event):</strong> IlloJuan (España) vs TheGrefg (España) — Masculino</li>
+</ul>
+
+<h2>Cómo verlo desde Bolivia</h2>
+
+<p>La transmisión será completamente gratuita a través de los canales de <strong>Ibai Llanos en Twitch y YouTube</strong>. En Bolivia, el evento comenzará a las <strong>14:00 (hora boliviana)</strong>. También estará disponible en TikTok con clips en tiempo real.</p>
+
+<p>Se espera que la audiencia global supere los <strong>4 millones de espectadores concurrentes</strong>, rompiendo el récord establecido por la Velada V.</p>
+
+<h2>Show musical</h2>
+
+<p>Como es tradición, la velada contará con presentaciones musicales de alto nivel. Se esperan actuaciones de <strong>Yandel Sinfónico</strong>, <strong>Juanes</strong>, <strong>Bad Gyal</strong> y <strong>Anuel AA</strong>, aunque Ibai ha prometido sorpresas de último minuto.</p>
+
+<h2>Producción audiovisual</h2>
+
+<p>La producción del evento corre a cargo de <strong>Infinity Studios</strong> y <strong>ELCOLAB</strong>, con un despliegue técnico que incluye más de 40 cámaras, transmisión en 4K HDR y sistemas de repetición instantánea comparables a los de una transmisión de UFC o boxeo profesional. Para un realizador audiovisual boliviano, ver este nivel de producción es una clase magistral de lo que se puede lograr cuando confluyen talento creativo, inversión y tecnología de punta.</p>
+
+<p><small>Fuente: Cobertura propia / Medios internacionales</small></p>`,
+        contentEn: `<h1>La Velada del Año VI: Seville hosts the world's biggest streaming event</h1>
+
+<p><em>Estadio La Cartuja in Seville welcomes today, July 25, 2026, the sixth edition of Ibai Llanos' La Velada del Año. Ten fights, 22 participants from 6 countries, and a television production that marks a before and after in digital entertainment.</em></p>
+
+<h2>Full Card</h2>
+
+<ul>
+<li><strong>Fight 1:</strong> La Parce (Colombia) vs Fabiana Sevillano (Spain) — Women's</li>
+<li><strong>Fight 2:</strong> Clersss (Spain) vs Natalia MX (Mexico) — Women's</li>
+<li><strong>Fight 3:</strong> Lit Killah (Argentina) vs Kidd Keo (Spain) — Men's</li>
+<li><strong>Fight 4:</strong> Alondrissa (Puerto Rico) vs Angie Velasco (Argentina) — Women's</li>
+<li><strong>Fight 5:</strong> Gero Arias (Argentina) vs ByViruZz (Spain) — Men's</li>
+<li><strong>Fight 6:</strong> Samy Rivers (Mexico) vs RoRo (Spain) — Women's</li>
+<li><strong>Fight 7:</strong> Marta Díaz (Spain) vs Tatiana Kaer (Spain) — Women's</li>
+<li><strong>Fight 8:</strong> Edu Aguirre (Spain) vs Gastón Edul (Argentina) — Men's</li>
+<li><strong>Fight 9:</strong> YoSoyPlex (Spain) vs Fernanfloo (El Salvador) — Men's</li>
+<li><strong>Fight 10 (Main Event):</strong> IlloJuan (Spain) vs TheGrefg (Spain) — Men's</li>
+</ul>
+
+<p>Broadcast starts at 20:00 CET (14:00 Bolivia time) for free on Twitch and YouTube.</p>
+
+<p><small>Source: Own coverage / International media</small></p>`,
+        date: '2026-07-25',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://media.elcomercio.com/wp-content/uploads/2026/03/LA-VELADA-DEL-ANO-6.jpg',
+        imageCaption: 'Cartelera oficial de La Velada del Año VI de Ibai Llanos. Foto: El Comercio / Infinity Studios',
+        categoryEs: 'Deportes y Entretenimiento',
+        categoryEn: 'Sports & Entertainment',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        location: 'Sevilla, España — La Paz, Bolivia'
+      },
+      {
+        id: '38',
+        contentType: 'news',
+        slug: 'illojuan-vs-thegrefg-main-event-velada-6',
+        titleEs: 'IlloJuan vs TheGrefg: el Main Event que paralizará internet en La Velada del Año 6',
+        titleEn: 'IlloJuan vs TheGrefg: the Main Event that will break the internet at La Velada 6',
+        excerptEs: 'Dos de los streamers más grandes de España se enfrentan en el combate estelar de la Velada VI. IlloJuan peleando en casa (Sevilla) ante un TheGrefg que llega como campeón moral tras su victoria en la Velada V.',
+        excerptEn: 'Two of Spain\'s biggest streamers face off in the main event of Velada VI. IlloJuan fighting at home (Seville) against a TheGrefg who arrives as moral champion after his victory at Velada V.',
+        contentEs: `<h1>IlloJuan vs TheGrefg: el combate que define una era</h1>
+
+<p><em>El Estadio La Cartuja será testigo del enfrentamiento más esperado en la historia de La Velada del Año. Dos titanes del streaming español, IlloJuan y TheGrefg, se miden en el ring en un combate que promete romper todos los récords de audiencia.</em></p>
+
+<h2>IlloJuan: el local</h2>
+
+<p><strong>IlloJuan</strong>, nacido en Sevilla, peleará prácticamente en casa. Conocido por su humor ácido y su comunidad fiel, llega a este combate tras una preparación que ha documentado en sus streams diarios. Su estilo se basa en la resistencia y el cardio, virtudes que ha trabajado intensamente en los meses previos. Para él, esta pelea representa la culminación de años de carrera en la plataforma morada.</p>
+
+<h2>TheGrefg: el campeón moral</h2>
+
+<p><strong>TheGrefg</strong> llega tras su victoria en la Velada V contra WestCOL, un combate que lo consolidó como uno de los peleadores más respetados del evento. Con una preparación física que incluye entrenamiento en boxeo de la mano de profesionales, el streamer murciano busca su segunda victoria consecutiva. Su estrategia combina potencia de golpeo con una defensa que ha mejorado notablemente desde su debut en el ring.</p>
+
+<h2>El camino al ring</h2>
+
+<p>El entrenamiento de ambos ha sido seguido por millones de espectadores. Sus sparrings, las entrevistas cruzadas y el cara a cara de la presentación oficial han generado una narrativa que trasciende el deporte: es la historia de dos amigos que se enfrentan, dos formas de entender el streaming y, sobre todo, un espectáculo que unirá a la comunidad hispanohablante frente a la pantalla.</p>
+
+<h2>Más que un combate</h2>
+
+<p>Para un periodista audiovisual como quien escribe, el fenómeno de La Velada del Año representa un caso de estudio fascinante. Lo que comenzó como un evento entre amigos en 2021 —con 12 combates y 1.5 millones de espectadores— se ha convertido en una producción global que compite en audiencia con eventos deportivos tradicionales. La narrativa construida alrededor de este combate, con sus historias personales, trailers cinematográficos y ruedas de prensa al más puro estilo UFC, demuestra que el streaming ha encontrado su propio lenguaje para contar historias.</p>
+
+<p><small>Fuente: Cobertura propia / Medios internacionales</small></p>`,
+        contentEn: `<h1>IlloJuan vs TheGrefg: the fight that defines an era</h1>
+
+<p><em>The Estadio La Cartuja will witness the most anticipated showdown in La Velada del Año history. Two titans of Spanish streaming face off in a fight that promises to break all viewership records.</em></p>
+
+<p>IlloJuan fights at home in Seville, while TheGrefg arrives as moral champion after his victory at Velada V against WestCOL. Their training, face-offs, and personal stories have built a narrative that transcends sports.</p>
+
+<p><small>Source: Own coverage / International media</small></p>`,
+        date: '2026-07-25',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '5 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1200&h=630&fit=crop',
+        imageCaption: 'Representación del combate estelar IlloJuan vs TheGrefg en La Velada del Año VI. Foto: Infinity Studios',
+        categoryEs: 'Deportes y Entretenimiento',
+        categoryEn: 'Sports & Entertainment',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        location: 'Sevilla, España'
+      },
+      {
+        id: '39',
+        contentType: 'news',
+        slug: 'guia-completa-10-combates-velada-6-peleadores',
+        titleEs: 'Guía completa de los 10 combates de La Velada del Año 6: quiénes son los peleadores',
+        titleEn: 'Complete guide to the 10 fights of La Velada del Año 6: who the fighters are',
+        excerptEs: 'De Edu Aguirre a Fernanfloo, pasando por Lit Killah y Samy Rivers. Conoce a los 22 participantes que subirán al ring en La Cartuja, sus nacionalidades, estilos y qué esperar de cada combate.',
+        excerptEn: 'From Edu Aguirre to Fernanfloo, through Lit Killah and Samy Rivers. Meet the 22 participants stepping into the ring at La Cartuja, their nationalities, styles and what to expect from each fight.',
+        contentEs: `<h1>Guía completa de los 10 combates de La Velada del Año 6</h1>
+
+<p><em>Veinte streamers, periodistas y artistas de seis países se enfrentan esta noche en La Cartuja. Aquí tienes todo lo que necesitas saber sobre cada combate.</em></p>
+
+<h2>Combate 1: La Parce (Colombia) vs Fabiana Sevillano (España)</h2>
+<p>La colombiana <strong>La Parce</strong> y la española <strong>Fabiana Sevillano</strong> abren la velada. Ambas debutan en el evento y serán las encargadas de calentar el ambiente. Combate femenino de peso pactado.</p>
+
+<h2>Combate 2: Clersss (España) vs Natalia MX (México)</h2>
+<p>La española <strong>Clersss</strong> se enfrenta a la mexicana <strong>Natalia MX</strong> en un duelo que promete intensidad. Natalia MX, conocida por su carácter explosivo, llega con el apoyo de la comunidad mexicana, una de las más grandes del streaming.</p>
+
+<h2>Combate 3: Lit Killah (Argentina) vs Kidd Keo (España)</h2>
+<p>Choque de titanes del género urbano. El argentino <strong>Lit Killah</strong> (cantante de trap) se enfrenta al español <strong>Kidd Keo</strong>. Se espera un combate explosivo, con ambos artistas llevando su rivalidad musical al ring.</p>
+
+<h2>Combate 4: Alondrissa (Puerto Rico) vs Angie Velasco (Argentina)</h2>
+<p>La puertorriqueña <strong>Alondrissa</strong> y la argentina <strong>Angie Velasco</strong> protagonizan un duelo latinoamericano. Angie, youtuber con millones de seguidores, ha mostrado una preparación física intensa en sus redes.</p>
+
+<h2>Combate 5: Gero Arias (Argentina) vs ByViruZz (España)</h2>
+<p>El argentino <strong>Gero Arias</strong>, famoso por sus retos de calistenia extrema, se mide al español <strong>ByViruZz</strong>, un veterano del boxeo amateur que ya participó en ediciones anteriores. Promete ser el combate más técnico de la noche.</p>
+
+<h2>Combate 6: Samy Rivers (México) vs RoRo (España)</h2>
+<p>La mexicana <strong>Samy Rivers</strong> —ídola de millones— regresa al ring para enfrentar a la española <strong>RoRo</strong>, creadora de contenido que ha roto TikTok. Uno de los combates más esperados por la comunidad femenina del streaming.</p>
+
+<h2>Combate 7: Marta Díaz (España) vs Tatiana Kaer (España)</h2>
+<p>Duelo 100% español. <strong>Marta Díaz</strong>, superestrella del internet en España, se pone los guantes contra <strong>Tatiana Kaer</strong>. Ambas buscan su revancha personal tras intentos fallidos de participar en años anteriores.</p>
+
+<h2>Combate 8: Edu Aguirre (España) vs Gastón Edul (Argentina)</h2>
+<p>Único combate entre periodistas deportivos. El español <strong>Edu Aguirre</strong> (SER, Chiringuito) vs el argentino <strong>Gastón Edul</strong> (ESPN, TyC Sports). La rivalidad periodística hispano-argentina se traslada al ring.</p>
+
+<h2>Combate 9: YoSoyPlex (España) vs Fernanfloo (El Salvador)</h2>
+<p>Duelo de gigantes del YouTube. <strong>YoSoyPlex</strong>, que ya sabe lo que es ganar en La Velada, se enfrenta a la leyenda salvadoreña <strong>Fernanfloo</strong>, que regresa al ring tras años de ausencia. Promete romper récords de audiencia.</p>
+
+<h2>Combate 10: IlloJuan (España) vs TheGrefg (España)</h2>
+<p>El combate estelar. <strong>IlloJuan</strong> peleando en Sevilla, su ciudad natal, ante <strong>TheGrefg</strong>, campeón moral de la Velada V. Se espera que este combate por sí solo supere los 3 millones de espectadores concurrentes.</p>
+
+<p><small>Fuente: Cobertura propia / Medios internacionales</small></p>`,
+        contentEn: `<h1>Complete guide to the 10 fights of La Velada del Año 6</h1>
+
+<p><em>Twenty streamers, journalists and artists from six countries face off tonight at La Cartuja. Here's everything you need to know about each fight.</em></p>
+
+<p>Fight 1: La Parce (Colombia) vs Fabiana Sevillano (Spain) — Women's debut<br>
+Fight 2: Clersss (Spain) vs Natalia MX (Mexico) — Women's intensity<br>
+Fight 3: Lit Killah (Argentina) vs Kidd Keo (Spain) — Urban music clash<br>
+Fight 4: Alondrissa (Puerto Rico) vs Angie Velasco (Argentina) — Latin showdown<br>
+Fight 5: Gero Arias (Argentina) vs ByViruZz (Spain) — Technical boxing<br>
+Fight 6: Samy Rivers (Mexico) vs RoRo (Spain) — Women's main support<br>
+Fight 7: Marta Díaz (Spain) vs Tatiana Kaer (Spain) — All-Spanish duel<br>
+Fight 8: Edu Aguirre (Spain) vs Gastón Edul (Argentina) — Journalists' fight<br>
+Fight 9: YoSoyPlex (Spain) vs Fernanfloo (El Salvador) — YouTube legends<br>
+Fight 10: IlloJuan (Spain) vs TheGrefg (Spain) — Main Event</p>
+
+<p><small>Source: Own coverage / International media</small></p>`,
+        date: '2026-07-25',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=1200&h=630&fit=crop',
+        imageCaption: 'Los 22 participantes de La Velada del Año VI posan antes del evento. Foto: Infinity Studios',
+        categoryEs: 'Deportes y Entretenimiento',
+        categoryEn: 'Sports & Entertainment',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        location: 'Sevilla, España'
+      },
+      {
+        id: '40',
+        contentType: 'analysis',
+        slug: 'espana-vs-latinoamerica-rivalidad-velada-6',
+        titleEs: 'España vs Latinoamérica: la rivalidad que domina La Velada del Año 6',
+        titleEn: 'Spain vs Latin America: the rivalry that dominates La Velada del Año 6',
+        excerptEs: 'Con representantes de España, Argentina, México, Colombia, Puerto Rico y El Salvador, la Velada VI es el escenario de una rivalidad cultural que va más allá del boxeo. Análisis de cómo 6 países compiten por el orgullo nacional en el ring.',
+        excerptEn: 'With representatives from Spain, Argentina, Mexico, Colombia, Puerto Rico and El Salvador, Velada VI is the stage for a cultural rivalry that goes beyond boxing. Analysis of how 6 countries compete for national pride in the ring.',
+        contentEs: `<h1>España vs Latinoamérica: el ring como campo de batalla cultural</h1>
+
+<p><em>La Velada del Año 6 no es solo un evento de boxeo amateur entre streamers. Es el escenario donde confluyen seis países, cada uno con su propia comunidad, su orgullo nacional y su estilo de pelea. Esto es un análisis de la rivalidad que domina el evento.</em></p>
+
+<h2>España: el anfitrión con nueve representantes</h2>
+<p>España domina la cartelera con <strong>9 participantes</strong>: IlloJuan, TheGrefg, YoSoyPlex, ByViruZz, Kidd Keo, Marta Díaz, Tatiana Kaer, Clersss, Fabiana Sevillano y RoRo. La presión de ser locales y la mayoría numérica los convierte en el país a vencer. La afición sevillana en La Cartuja será un factor diferencial, especialmente para IlloJuan, que pelea en su ciudad natal.</p>
+
+<h2>Argentina: cuatro guerreros del sur</h2>
+<p><strong>Argentina</strong> llega con cuatro representantes: Lit Killah, Angie Velasco, Gero Arias y Gastón Edul. La garra argentina, el estilo de pelea callejero y la pasión de su gente los convierte en contendientes peligrosos. Lit Killah vs Kidd Keo es particularmente simbólico: Argentina vs España en el ring.</p>
+
+<h2>México: la potencia norteamericana</h2>
+<p><strong>México</strong>, cuna del boxeo profesional, está representado por <strong>Natalia MX</strong> y <strong>Samy Rivers</strong>. La tradición boxística mexicana pesa: México es el país con más campeones mundiales de boxeo en la historia. Samy Rivers, en particular, lleva la bandera de una comunidad que exige respeto en el ring.</p>
+
+<h2>Colombia, Puerto Rico y El Salvador</h2>
+<p><strong>Colombia</strong> (La Parce), <strong>Puerto Rico</strong> (Alondrissa) y <strong>El Salvador</strong> (Fernanfloo) completan la representación latinoamericana. Fernanfloo, la leyenda del YouTube salvadoreño, es quizás el nombre más reconocible de este grupo: su regreso al ring tras años de ausencia ha generado una expectativa inmensa.</p>
+
+<h2>El streaming como identidad nacional</h2>
+<p>Lo fascinante de La Velada del Año es cómo ha logrado articular identidades nacionales en torno al streaming. Cada combate se vive como una final de la Copa del Mundo: los comentarios en Twitch y YouTube se llenan de banderas, memes y cánticos que trascienden el ring. Para un periodista boliviano, ver este fenómeno es particularmente revelador: en un mundo donde las audiencias están cada vez más fragmentadas, La Velada logra lo que pocos eventos consiguen: unir a millones de personas alrededor de una pantalla, celebrando tanto el deporte como la identidad digital.</p>
+
+<p><small>Fuente: Análisis propio / Cobertura de medios internacionales</small></p>`,
+        contentEn: `<h1>Spain vs Latin America: the ring as a cultural battlefield</h1>
+
+<p><em>La Velada del Año 6 is not just an amateur boxing event between streamers. It is the stage where six countries converge, each with their own community, national pride and fighting style. This is an analysis of the rivalry that dominates the event.</em></p>
+
+<p>Spain leads with 9 participants. Argentina brings 4 warriors. Mexico, the birthplace of professional boxing, is represented by Natalia MX and Samy Rivers. Colombia, Puerto Rico and El Salvador complete the Latin American representation with one fighter each. Each fight is experienced like a World Cup final.</p>
+
+<p><small>Source: Own analysis / International media coverage</small></p>`,
+        date: '2026-07-25',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1577412647305-991150c7d163?w=1200&h=630&fit=crop',
+        imageCaption: 'Banderas de los seis países participantes en La Velada del Año VI. Foto: Infinity Studios',
+        categoryEs: 'Análisis',
+        categoryEn: 'Analysis',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'Sevilla, España — Latinoamérica'
+      },
+      // ============================================================
       // FIN DE NOTICIAS DE BADABUN.COM
     ];
 

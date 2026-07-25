@@ -38,6 +38,10 @@ const categoryColors: Record<string, string> = {
   'Soccer': 'bg-lime-500/15 text-lime-400 border-lime-500/25',
   'Virales': 'bg-pink-500/15 text-pink-400 border-pink-500/25',
   'Viral': 'bg-pink-500/15 text-pink-400 border-pink-500/25',
+  'Deportes y Entretenimiento': 'bg-orange-500/15 text-orange-400 border-orange-500/25',
+  'Sports & Entertainment': 'bg-orange-500/15 text-orange-400 border-orange-500/25',
+  'Análisis': 'bg-indigo-500/15 text-indigo-400 border-indigo-500/25',
+  'Analysis': 'bg-indigo-500/15 text-indigo-400 border-indigo-500/25',
 };
 
 export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
