@@ -208,22 +208,25 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   // Scrollspy: resaltar sección activa en TOC
   const [activeTocId, setActiveTocId] = useState<string | null>(null);
   useEffect(() => {
+    // Verificar si IntersectionObserver está disponible
+    if (typeof IntersectionObserver === 'undefined') return;
+    
+    const elements = Object.values(tocRefs.current).filter(Boolean) as HTMLElement[];
+    if (elements.length === 0) return;
+
     const observer = new IntersectionObserver(
-      Object.values(tocRefs.current).filter(Boolean).map((el) => ({
-        root: null,
-        threshold: 0.5,
-        callback: (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              const id = entry.target.id;
-              setActiveTocId(id);
-            }
-          });
-        }
-      })),
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            setActiveTocId(id);
+          }
+        });
+      },
       { rootMargin: '-20% 0px -20% 0px' }
     );
-    Object.values(tocRefs.current).filter(Boolean).forEach((el) => observer.observe(el));
+    
+    elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, [htmlContent]);
 
