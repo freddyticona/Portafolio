@@ -149,7 +149,9 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       if (sortBy === 'oldest') {
         return new Date(a.date).getTime() - new Date(b.date).getTime();
       }
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
+      const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
+      if (dateDiff !== 0) return dateDiff;
+      return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
   }, [posts, heroPost, activeCategory, activeContentType, searchTerm, sortBy, lang]);
 
