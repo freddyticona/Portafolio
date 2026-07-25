@@ -2,12 +2,13 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, staging]
   pull_request:
     branches: [main]
 
 jobs:
-  quality:
+  # HARD GATE: typecheck + unit tests. Bloquean merge si fallan.
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -17,9 +18,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
-      - run: npm test
 
-  e2e:
+  unit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -28,13 +28,9 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
-      - run: npx playwright test smoke.spec.ts
-        env:
-          BASE_URL: https://freddydev.net
-    continue-on-error: true
+      - run: npm test
 
-  lighthouse:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -44,5 +40,47 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - name: Subir artefacto dist/
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-build
+          path: dist/
+          retention-days: 3
+
+  # HARD GATE: smoke + a11y contra el build local servido por vite preview.
+  e2e:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test smoke.spec.ts accessibility.spec.ts
+        env:
+          CI: 'true'
+      - name: Subir reporte Playwright HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+  # INFORMATIVO: Lighthouse no bloquea merge (métricas, no binario).
+  lighthouse:
+    runs-on: ubuntu-latest
+    needs: build
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
       - run: npx -y @lhci/cli@latest autorun --collect.staticDistDir=./dist --collect.numberOfRuns=1 --upload.target=filesystem
-        continue-on-error: true
