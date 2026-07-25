@@ -7,7 +7,7 @@ import React, { Suspense, lazy } from 'react';
 import { BlogPost, PageId } from '../types';
 import { TranslationT } from '../types.translation';
 
-const BlogCard = lazy(() => import('../components/BlogCard'));
+const BlogLayout = lazy(() => import('../components/BlogLayout'));
 const BlogDetail = lazy(() => import('../components/BlogDetail'));
 const NewsPortal = lazy(() => import('../components/NewsPortal'));
 
@@ -63,33 +63,17 @@ export function BlogPage({
           />
         </Suspense>
       ) : (
-        // Article grid list
-        <div className="space-y-12">
-          <div className="text-center space-y-3">
-            <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
-              {lang === 'es' ? 'Apuntes de Rodaje' : 'Filming Diaries'}
-            </span>
-            <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight font-display">
-              {t.blogTitle}
-            </h1>
-            <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
-              {t.blogSubtitle}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {personalPosts.map((post) => (
-              <Suspense key={post.id} fallback={<LoadingFallback />}>
-                <BlogCard
-                  post={post}
-                  lang={lang}
-                  t={t}
-                  onClick={() => handleArticleClick(post, 'blog')}
-                />
-              </Suspense>
-            ))}
-          </div>
-        </div>
+        <Suspense fallback={<LoadingFallback />}>
+          <BlogLayout
+            posts={personalPosts}
+            lang={lang}
+            t={t}
+            onArticleClick={(post) => handleArticleClick(post, 'blog')}
+            title={t.blogTitle}
+            subtitle={t.blogSubtitle}
+            label={lang === 'es' ? 'Apuntes de Rodaje' : 'Filming Diaries'}
+          />
+        </Suspense>
       )}
 
       <div className="pb-8" />

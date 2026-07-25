@@ -757,17 +757,29 @@ button:focus-visible,
 }
 
 /* ==========================================
-   OVERLAY SLIDE (info on hover)
+   BLOG SIDEBAR STYLES (Xpovio-inspired)
    ========================================== */
-.overlay-slide {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(5, 5, 5, 0.95) 0%, rgba(5, 5, 5, 0.2) 50%, transparent 100%);
-  transform: translateY(100%);
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+.blog-tag {
+  display: inline-block;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.625rem;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  color: #a3a3a3;
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-.overlay-slide-parent:hover .overlay-slide {
-  transform: translateY(0);
+.blog-tag:hover {
+  color: #D4AF37;
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.blog-tag.active {
+  background: rgba(212, 175, 55, 0.1);
+  color: #D4AF37;
+  border-color: rgba(212, 175, 55, 0.2);
 }
 
