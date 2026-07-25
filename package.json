@@ -31,6 +31,7 @@
     "@sentry/react": "^10.67.0",
     "@sentry/vite-plugin": "^5.4.0",
     "@tailwindcss/vite": "^4.1.14",
+    "@types/vanilla-tilt": "^1.4.1",
     "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.6.1",
     "@vercel/speed-insights": "^2.0.0",
@@ -38,6 +39,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "firebase": "^12.16.0",
+    "gsap": "^3.15.0",
     "html2pdf.js": "^0.14.0",
     "jspdf": "^2.5.2",
     "lucide-react": "0.546.0",
@@ -45,9 +47,12 @@
     "motion": "^12.23.24",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "swiper": "^14.0.6",
+    "vanilla-tilt": "^1.8.1",
     "web-vitals": "^6.0.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
     "@playwright/test": "^1.61.1",
     "@types/express": "^5.0.6",
     "@types/node": "^22.14.0",

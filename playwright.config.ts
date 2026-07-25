@@ -1,16 +1,31 @@
 import { defineConfig } from '@playwright/test';
 
+/**
+ * En CI: arrancamos `vite preview` (sirve el build de dist/) en el puerto 4173.
+ * En local: reutilizamos `npm run dev` en :3000 si ya está corriendo.
+ * El baseURL se puede sobreescribir con BASE_URL (ej. staging o prod).
+ */
 export default defineConfig({
   testDir: './e2e',
   fullyParallel: false,
-  retries: 1,
+  retries: process.env.CI ? 2 : 1,
+  reporter: process.env.CI ? [['github'], ['list']] : 'list',
   use: {
-    baseURL: 'https://freddydev.net',
+    baseURL: process.env.BASE_URL || 'http://localhost:3000',
+    screenshot: 'only-on-failure',
+    trace: 'retain-on-failure',
   },
-  // Only start dev server locally, not in CI
-  webServer: process.env.CI ? undefined : {
-    command: 'npm run dev',
-    port: 3000,
-    reuseExistingServer: true,
-  },
+  webServer: process.env.CI
+    ? {
+        command: 'npm run preview -- --port=4173',
+        port: 4173,
+        timeout: 60_000,
+        reuseExistingServer: false,
+      }
+    : {
+        command: 'npm run dev',
+        port: 3000,
+        reuseExistingServer: true,
+        timeout: 30_000,
+      },
 });

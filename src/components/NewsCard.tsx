@@ -1,11 +1,13 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
+ * 
+ * NewsCard.tsx - Tarjetas de noticias mejoradas con badges de popularidad
  */
 
 import React from 'react';
 import { BlogPost, ContentType } from '../types';
-import { Calendar, Clock, ArrowRight, MapPin, Eye } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, MapPin, Eye, TrendingUp, Flame } from 'lucide-react';
 import LazyImage from './LazyImage';
 
 interface NewsCardProps {
@@ -30,6 +32,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
   const readTime = lang === 'es' ? post.readTimeEs : post.readTimeEn;
 
   const isNew = (Date.now() - new Date(post.date).getTime()) / (1000 * 60 * 60) < 48;
+  const isPopular = (post.views || 0) >= 1000;
 
   const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
     news: { es: 'NOTICIA', en: 'NEWS' },
@@ -47,9 +50,10 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
     'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10',
     culture: 'text-teal-400 border-teal-500/30 bg-teal-500/10'
   };
+
   const formattedDate = new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
     year: 'numeric',
-    month: 'long',
+    month: 'short',
     day: 'numeric'
   });
 
@@ -73,6 +77,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/70 to-transparent" />
         </div>
 
+        {/* Badges */}
         {post.breaking && (
           <span className="absolute top-4 left-4 bg-red-600 text-white text-[10px] font-mono font-bold uppercase tracking-widest px-3 py-1 rounded-sm z-10 animate-pulse shadow-lg">
             {lang === 'es' ? '🚨 ÚLTIMA HORA' : '🚨 BREAKING'}
@@ -83,10 +88,16 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
+        {isPopular && !post.breaking && (
+          <span className="absolute top-4 right-4 bg-pink-600/80 text-white text-[9px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm z-10 shadow-lg">
+            <TrendingUp className="w-3 h-3 inline mr-0.5" />
+            {lang === 'es' ? 'TRENDING' : 'TRENDING'}
+          </span>
+        )}
 
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 space-y-3 z-10">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/30 px-2.5 py-1 rounded-sm backdrop-blur-sm">
+            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-2.5 py-1 rounded-sm backdrop-blur-sm">
               {category}
             </span>
             {post.contentType && (
@@ -119,7 +130,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
               <Clock className="w-3 h-3 text-gold" />
               {readTime}
             </span>
-            {post.views !== undefined && (
+            {(post.views || 0) > 0 && (
               <span className="flex items-center gap-1 text-stone-400">
                 <Eye className="w-3 h-3 text-gold" />
                 {post.views} {lang === 'es' ? 'lecturas' : 'views'}
@@ -161,7 +172,10 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             {title}
           </h4>
           <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
-            <span>{formattedDate}</span>
+            <span className="flex items-center gap-1">
+              <Calendar className="w-3 h-3" />
+              {formattedDate}
+            </span>
             {post.source && (
               <span className="text-[8px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm">
                 {post.source}
@@ -188,7 +202,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           alt={title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <span className="absolute top-2 left-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider text-gold px-2 py-0.5 rounded-sm border border-gold/20">
+        <span className="absolute top-2 left-2 text-[8px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-1.5 py-0.5 rounded-sm">
           {category}
         </span>
         {post.breaking && (
@@ -196,14 +210,15 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             {lang === 'es' ? 'ÚLTIMA HORA' : 'BREAKING'}
           </span>
         )}
-        {!post.breaking && post.contentType && (
-          <span className={`absolute top-2 right-2 bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-sm border ${contentTypeColors[post.contentType]}`}>
-            {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
+        {!post.breaking && isNew && (
+          <span className="absolute top-2 right-2 bg-emerald-500 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
+            {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
-        {!post.breaking && isNew && (
-          <span className={`absolute top-2 left-2 mt-7 bg-emerald-500 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md ${post.contentType ? '' : ''}`}>
-            {lang === 'es' ? 'NUEVO' : 'NEW'}
+        {!post.breaking && isPopular && (
+          <span className="absolute bottom-2 right-2 bg-pink-600/80 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
+            <Flame className="w-3 h-3 inline mr-0.5" />
+            {lang === 'es' ? 'TRENDING' : 'TRENDING'}
           </span>
         )}
       </div>
@@ -219,6 +234,12 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
               <Clock className="w-3 h-3 text-gold" />
               {readTime}
             </span>
+            {(post.views || 0) > 0 && (
+              <span className="flex items-center gap-1 text-stone-400">
+                <Eye className="w-3 h-3 text-gold" />
+                {post.views}
+              </span>
+            )}
             {post.source && (
               <span className="text-[8px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm font-mono">
                 {post.source}

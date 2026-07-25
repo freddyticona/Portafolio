@@ -108,7 +108,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
 {filteredItems.map((item, index) => (
               <div
                 key={item.id}
-                className="card-3d group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2 animate-fade-in-up"
+                className="card-3d tilt-card group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2 animate-fade-in-up"
                 style={{
                   animationDelay: `${index * 80}ms`,
                 }}
