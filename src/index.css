@@ -563,3 +563,211 @@ button:focus-visible,
   100% { background-position: -200% 0; }
 }
 
+/* ==========================================
+   CUSTOM CURSOR
+   ========================================== */
+.custom-cursor {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(212, 175, 55, 0.6);
+  border-radius: 50%;
+  position: fixed;
+  top: -12px;
+  left: -12px;
+  pointer-events: none;
+  z-index: 99999;
+  transition: width 0.3s ease, height 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor-follower {
+  width: 6px;
+  height: 6px;
+  background: #D4AF37;
+  border-radius: 50%;
+  position: fixed;
+  top: -3px;
+  left: -3px;
+  pointer-events: none;
+  z-index: 99999;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor.cursor-big {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: -25px;
+  border-color: #D4AF37;
+  background: rgba(212, 175, 55, 0.08);
+}
+
+@media (max-width: 992px) {
+  .custom-cursor,
+  .custom-cursor-follower {
+    display: none;
+  }
+}
+
+/* ==========================================
+   SCROLL PROGRESS BUTTON
+   ========================================== */
+.scroll-progress-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9998;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(5, 5, 5, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.4s ease, transform 0.4s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.scroll-progress-btn:hover {
+  border-color: rgba(212, 175, 55, 0.6);
+  background: rgba(5, 5, 5, 0.95);
+}
+
+.scroll-progress-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-progress-circle {
+  transition: stroke-dashoffset 0.1s linear;
+  filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.3));
+}
+
+.scroll-progress-icon {
+  color: #D4AF37;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.scroll-progress-btn:hover .scroll-progress-icon {
+  transform: translateY(-2px);
+}
+
+/* ==========================================
+   CARD 3D TILT IMPROVED
+   ========================================== */
+.tilt-card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.tilt-card:hover {
+  transform: perspective(800px) rotateY(-2deg) rotateX(2deg) translateY(-6px);
+  box-shadow:
+    0 30px 60px rgba(212, 175, 55, 0.08),
+    0 0 0 1px rgba(212, 175, 55, 0.2);
+}
+
+/* ==========================================
+   GLOW BORDER
+   ========================================== */
+.glow-border {
+  position: relative;
+}
+
+.glow-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, transparent 0%, rgba(212, 175, 55, 0.3) 50%, transparent 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.glow-border:hover::before {
+  opacity: 1;
+}
+
+/* ==========================================
+   CINEMATIC HERO PARALLAX
+   ========================================== */
+.hero-parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-parallax-bg {
+  position: absolute;
+  inset: -20%;
+  will-change: transform;
+}
+
+/* ==========================================
+   TEXT GRADIENT ANIMATION
+   ========================================== */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #D4AF37 0%, #f0d060 50%, #D4AF37 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmerGold 4s ease-in-out infinite;
+}
+
+@keyframes shimmerGold {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 200% center; }
+}
+
+/* ==========================================
+   IMAGE REVEAL ON SCROLL
+   ========================================== */
+.img-reveal {
+  clip-path: inset(0);
+  transition: clip-path 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-reveal.revealed {
+  clip-path: inset(0 0 0 0);
+}
+
+/* ==========================================
+   GRAIN OVERLAY UTILITY
+   ========================================== */
+.grain-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ==========================================
+   OVERLAY SLIDE (info on hover)
+   ========================================== */
+.overlay-slide {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.95) 0%, rgba(5, 5, 5, 0.2) 50%, transparent 100%);
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.overlay-slide-parent:hover .overlay-slide {
+  transform: translateY(0);
+}
+

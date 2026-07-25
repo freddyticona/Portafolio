@@ -73,7 +73,7 @@ export default function HomePage({
       </section>
 
       {/* 2. BENTO GRID EXPERIENCE */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gsap-fade">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-6">
           
           {/* Main Content - Left (2 cols) */}
@@ -156,23 +156,23 @@ export default function HomePage({
       </section>
 
       {/* 3. QUICK HIGHLIGHTS / STATS COUNTERS */}
-      <section className="bg-white/[0.01] border-y border-white/5 py-12">
+      <section className="bg-white/[0.01] border-y border-white/5 py-12 gsap-fade">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-1">
-              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight">15+</div>
+              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">15+</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statYears}</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight">7+</div>
+              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">7+</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statChannels}</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight">30+</div>
+              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">30+</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statDocs}</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight">2017</div>
+              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">2017</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statAwards}</div>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function HomePage({
       </section>
 
       {/* 4. PREVIEW OF LATEST BLOG POSTS */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 gsap-fade">
         <div className="text-center space-y-3 animate-fade-in-up">
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Nuestras Reflexiones' : 'Our Thoughts'}
@@ -204,7 +204,7 @@ export default function HomePage({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 gsap-stagger">
           {personalPosts.slice(0, 2).map((post) => (
             <BlogCard
               key={post.id}
@@ -228,7 +228,7 @@ export default function HomePage({
       </section>
 
       {/* 5. PORTFOLIO PREVIEW */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 gsap-fade">
         <div className="text-center space-y-3 animate-fade-in-up">
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Trabajos Destacados' : 'Featured Work'}
@@ -242,7 +242,7 @@ export default function HomePage({
               : 'Documentaries, international coverage, and award-winning productions.'}
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 gsap-stagger">
           {portfolioItems.slice(0, 3).map((item) => (
             <div
               key={item.id}
@@ -250,7 +250,7 @@ export default function HomePage({
               role="button"
               tabIndex={0}
               onKeyDown={(e) => { if (e.key === 'Enter') handleNavToTab('portafolio'); }}
-              className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300"
+              className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 tilt-card"
             >
               <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
                 <img
@@ -290,7 +290,7 @@ export default function HomePage({
       </section>
 
       {/* 6. PRESS AGENCY / CORRESPONSAL */}
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden gsap-fade">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.06)_0%,transparent_70%)] pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
           <div className="bg-gradient-to-br from-gold/[0.04] via-[#020202] to-gold/[0.02] border border-gold/20 rounded-xl p-8 md:p-12 relative overflow-hidden animate-fade-in-up">
@@ -347,7 +347,7 @@ export default function HomePage({
       </section>
 
       {/* 7. NEWS PREVIEW */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 gsap-fade">
         <div className="text-center space-y-3 animate-fade-in-up">
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
             {lang === 'es' ? 'Cobertura Periodística' : 'Press Coverage'}
@@ -367,7 +367,7 @@ export default function HomePage({
               role="button"
               tabIndex={0}
               onKeyDown={(e) => { if (e.key === 'Enter') handleNavToTab('noticias'); }}
-              className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300"
+              className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 tilt-card"
             >
               <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
                 <img

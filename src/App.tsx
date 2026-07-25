@@ -26,6 +26,9 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { CONTACT_INFO } from './config';
 import { updateMetaTags } from './lib/seo';
+import { useGsapAnimations } from './hooks/useGsapAnimations';
+import CustomCursor from './components/CustomCursor';
+import ScrollProgressBtn from './components/ScrollProgressBtn';
 
 // Layout components — siempre cargados (críticos para el LCP)
 import Navbar from './components/Navbar';
@@ -205,6 +208,9 @@ export default function App() {
     updateMetaTags(activePage, lang);
   }, [activePage, lang]);
 
+  // ─── GSAP Animations (scroll reveal, counters, etc.) ────────────────────
+  useGsapAnimations();
+
   // ─── Helpers de navegación ────────────────────────────────────────────────
   const t = translations[lang];
 
@@ -356,6 +362,10 @@ export default function App() {
       <Suspense fallback={null}>
         <Chatbot lang={lang} t={t} onNavigate={handleNavToTab} />
       </Suspense>
+
+      {/* Efectos visuales globales */}
+      <CustomCursor />
+      <ScrollProgressBtn />
 
       {/* PWA */}
       <OnlineStatus lang={lang} />
