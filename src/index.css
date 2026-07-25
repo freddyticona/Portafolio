@@ -112,6 +112,23 @@ html {
   color: #d4d4d4; /* Mejorado de #e0e0e0 para mejor contraste WCAG AA (4.5:1) */
 }
 
+/* Reveal Animations - Industrial standard */
+.reveal {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-visible {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
+}
+.reveal-up { transform: translateY(30px); }
+.reveal-left { transform: translateX(-30px); }
+.reveal-right { transform: translateX(30px); }
+
+.bento-card {
+  @apply relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] backdrop-blur-sm transition-all duration-500 hover:border-gold/30 hover:bg-white/[0.05];
+}
+
 /* Scrollbar personalizado */
 ::-webkit-scrollbar {
   width: 8px;
