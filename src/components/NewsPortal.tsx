@@ -53,9 +53,10 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  const breakingPosts = posts.filter(p => p.breaking);
-  const featuredPosts = posts.filter(p => p.featured && !p.breaking);
-  const heroPost = breakingPosts[0] || featuredPosts[0] || posts[0];
+  const breakingPosts = [...posts.filter(p => p.breaking)].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const featuredPosts = [...posts.filter(p => p.featured && !p.breaking)].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const sortedAll = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const heroPost = breakingPosts[0] || featuredPosts[0] || sortedAll[0];
 
   const categories = useMemo(() => {
     const catSet = new Set<string>();
