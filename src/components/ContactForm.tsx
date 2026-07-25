@@ -107,8 +107,10 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
             </div>
           ) : (
             <form onSubmit={handleSubmit} id="contact-form" className="space-y-4.5 text-left">
-              {/* Honeypot field for anti-spam */}
-              <input type="text" name="botcheck" value={formData.botcheck} onChange={handleChange} className="absolute -left-[9999px]" tabIndex={-1} autoComplete="off" aria-label="Bot check" />
+              {/* Honeypot field for anti-spam — aria-hidden evita que axe-core lo marque como elemento sin label */}
+              <div aria-hidden="true" className="absolute -left-[9999px]">
+                <input type="text" name="botcheck" value={formData.botcheck} onChange={handleChange} tabIndex={-1} autoComplete="off" />
+              </div>
 
               {formState === 'error' && (
                 <div className="bg-rose-500/10 border border-rose-500/20 text-rose-400 p-4 rounded-sm flex items-center gap-2 text-xs font-mono">

@@ -343,6 +343,54 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://freddydev.net/blog/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/illojuan-vs-thegrefg-main-event-velada-6</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/illojuan-vs-thegrefg-main-event-velada-6</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/guia-completa-10-combates-velada-6-peleadores</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/guia-completa-10-combates-velada-6-peleadores</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/espana-vs-latinoamerica-rivalidad-velada-6</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/espana-vs-latinoamerica-rivalidad-velada-6</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://freddydev.net/blog/nvidia-deepstream-9-1-tracking</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -1412,6 +1460,12 @@
   </url>
 
   <!-- Guías de Trámites (ruta independiente) -->
+  <url>
+    <loc>https://freddydev.net/guias/guia-completa-10-combates-velada-6-peleadores</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://freddydev.net/guias/guia-cedula-identidad-segip-bolivia-2026</loc>
     <lastmod>2026-07-25</lastmod>

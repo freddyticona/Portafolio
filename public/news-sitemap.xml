@@ -619,6 +619,118 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/blog/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia</news:title>
+      <news:keywords>Deportes y Entretenimiento</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia</news:title>
+      <news:keywords>Deportes y Entretenimiento</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/illojuan-vs-thegrefg-main-event-velada-6</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>IlloJuan vs TheGrefg: el Main Event que paralizará internet en La Velada del Año 6</news:title>
+      <news:keywords>Deportes y Entretenimiento</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/illojuan-vs-thegrefg-main-event-velada-6</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>IlloJuan vs TheGrefg: el Main Event que paralizará internet en La Velada del Año 6</news:title>
+      <news:keywords>Deportes y Entretenimiento</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/guia-completa-10-combates-velada-6-peleadores</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>Guía completa de los 10 combates de La Velada del Año 6: quiénes son los peleadores</news:title>
+      <news:keywords>Deportes y Entretenimiento</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/guia-completa-10-combates-velada-6-peleadores</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>Guía completa de los 10 combates de La Velada del Año 6: quiénes son los peleadores</news:title>
+      <news:keywords>Deportes y Entretenimiento</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/espana-vs-latinoamerica-rivalidad-velada-6</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>España vs Latinoamérica: la rivalidad que domina La Velada del Año 6</news:title>
+      <news:keywords>Análisis</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/espana-vs-latinoamerica-rivalidad-velada-6</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25</news:publication_date>
+      <news:title>España vs Latinoamérica: la rivalidad que domina La Velada del Año 6</news:title>
+      <news:keywords>Análisis</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/blog/nvidia-deepstream-9-1-tracking</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
