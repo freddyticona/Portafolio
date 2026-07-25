@@ -23,30 +23,13 @@ fotos colacion de grado licenciatur/
 fotos articulos/
 fotos trabajo/
 
-# Documents with sensitive context / IA handoffs (kept local-only)
-ANCHORED_SUMMARY.md
-AUDIT_INSTRUCCIONES.md
-BLOG_SEO_GUIDE.md
-BLOG_SEO_TEMPLATE.md
-CONTEXTO_PROYECTO.md
-CONFIGURACION.md
-DOCUMENTO_TRANSFERENCIA_IA.md
-DOMAIN_SETUP.md
-HANDOFF.md
-IMAGE_ANALYSIS.md
-IMPROVEMENTS.md
-LIGHTHOUSE_ACTION_PLAN.md
-Lighthouse_Optimization_Plan.md
-MAINTENANCE_GUIDE.md
-RESUMEN-TECNICO.md
-SEO_GUIDE.md
-SOLUTION_COMPLETE.md
-ULTIMA_SESION_CONTEXT.md
-UPLOAD_FIX_SUMMARY.md
-UPLOAD_SETUP.md
+# Imágenes generadas por scripts de optimización (regenerables, no commitear)
+public/images/behind-scenes-webp/
+public/images-optimized/
 
 # Test results (transient)
 test-results/
 
 # Local IA / context workspace
 .opencode/
+.zcode/
