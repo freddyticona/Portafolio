@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, Suspense, lazy } from 'react';
 import { TranslationT } from '../types.translation';
-import { certificates } from '../translations';
+import { certificates, timelineEvents } from '../translations';
 import {
   Award,
   Briefcase,
@@ -13,6 +13,8 @@ import {
   Printer,
   CheckCircle,
 } from 'lucide-react';
+
+const Timeline = lazy(() => import('../components/Timeline'));
 
 interface CVPageProps {
   lang: 'es' | 'en';
@@ -55,6 +57,22 @@ export default function CVPage({ lang, t }: CVPageProps) {
           </button>
         </div>
       </div>
+
+      {/* Professional Timeline */}
+      <section className="space-y-8">
+        <div className="space-y-2">
+          <h3 className="text-sm font-bold uppercase tracking-widest text-gold font-mono flex items-center gap-2 pb-2 border-b border-white/5">
+            <Briefcase className="w-4.5 h-4.5" />
+            <span>{lang === 'es' ? 'Trayectoria Profesional' : 'Professional Experience'}</span>
+          </h3>
+          <p className="text-xs text-stone-500 font-mono">
+            {lang === 'es' ? 'Más de 15 años de experiencia en televisión boliviana' : 'Over 15 years of experience in Bolivian television'}
+          </p>
+        </div>
+        <Suspense fallback={<div className="text-stone-500 text-xs p-4">{lang === 'es' ? 'Cargando...' : 'Loading...'}</div>}>
+          <Timeline events={timelineEvents} lang={lang} t={t} />
+        </Suspense>
+      </section>
 
       {/* CV Two-Column layout */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
