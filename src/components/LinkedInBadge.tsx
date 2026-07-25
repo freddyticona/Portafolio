@@ -1,78 +1,108 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 interface LinkedInBadgeProps {
+  /** URL del perfil público de LinkedIn (se usa como fallback accesible) */
   href: string;
+  /** Vanity del perfil (parte final de la URL de LinkedIn) */
+  vanity: string;
+  /** Nombre visible en el enlace fallback */
   name: string;
-  headline?: string;
+  /** Locale tipo LinkedIn (es_ES, en_US, ...) */
+  locale?: string;
+  /** Tamaño del badge: medium | large */
+  size?: 'medium' | 'large';
+  /** Tema: light | dark */
+  theme?: 'light' | 'dark';
+  /** Orientación: VERTICAL | HORIZONTAL */
+  type?: 'VERTICAL' | 'HORIZONTAL';
+  /** Versión del widget */
+  version?: 'v1' | 'v2';
   className?: string;
-  lang?: 'es' | 'en';
 }
 
-function initialsOf(name: string): string {
-  return name
-    .split(' ')
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((p) => p[0]?.toUpperCase() ?? '')
-    .join('');
+// Tipo global del SDK de LinkedIn (cargado por platform.linkedin.com/in.js)
+declare global {
+  interface Window {
+    IN?: {
+      parse?: (node: HTMLElement) => void;
+      // otras props internas omitidas
+    };
+  }
+}
+
+const LINKEDIN_SDK_URL = 'https://platform.linkedin.com/in.js';
+
+/** Inserta el script del SDK de LinkedIn una sola vez en <head>. */
+function ensureLinkedInSDK(): void {
+  if (typeof document === 'undefined') return;
+  const existing = document.querySelector<HTMLScriptElement>(
+    `script[src^="${LINKEDIN_SDK_URL}"]`,
+  );
+  if (existing) return;
+
+  const s = document.createElement('script');
+  s.src = LINKEDIN_SDK_URL;
+  s.async = true;
+  s.defer = true;
+  document.head.appendChild(s);
 }
 
 export default function LinkedInBadge({
   href,
+  vanity,
   name,
-  headline,
+  locale = 'es_ES',
+  size = 'medium',
+  theme = 'dark',
+  type = 'VERTICAL',
+  version = 'v1',
   className = '',
-  lang = 'es',
 }: LinkedInBadgeProps) {
-  const initials = initialsOf(name);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    ensureLinkedInSDK();
+    // Tras hydratar, replantea el parse del SDK si ya está disponible
+    // para que inyecte el iframe del widget en el div recién montado.
+    let attempts = 0;
+    const timer = window.setInterval(() => {
+      attempts += 1;
+      if (window.IN && typeof window.IN.parse === 'function' && containerRef.current) {
+        try {
+          window.IN.parse(containerRef.current);
+        } catch {
+          /* noop */
+        }
+        window.clearInterval(timer);
+      } else if (attempts > 40) {
+        // ~8s max esperando al SDK
+        window.clearInterval(timer);
+      }
+    }, 200);
+    return () => window.clearInterval(timer);
+  }, []);
 
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`group relative inline-flex flex-col w-[200px] h-[270px] bg-[#f3f3f1] rounded-sm overflow-hidden text-left no-underline hover:shadow-md transition-shadow duration-200 ${className}`}
-      aria-label={`Ver perfil de LinkedIn de ${name}`}
+    <div
+      ref={containerRef}
+      className={`badge-base LI-profile-badge ${className}`}
+      data-locale={locale}
+      data-size={size}
+      data-theme={theme}
+      data-type={type}
+      data-vanity={vanity}
+      data-version={version}
+      aria-label={`Perfil de LinkedIn de ${name}`}
       data-testid="linkedin-badge"
     >
-      {/* Avatar inferior (parte inferior 70% blanco) */}
-      <div className="relative flex flex-col h-full">
-        {/* Avatar / hero top — gradiente gris neutro */}
-        <div className="relative h-[150px] bg-gradient-to-b from-stone-700 via-stone-800 to-stone-900 flex items-center justify-center overflow-hidden">
-          <div className="w-[88px] h-[88px] rounded-full bg-gradient-to-br from-stone-300 to-stone-500 flex items-center justify-center text-stone-900 font-display font-bold text-2xl tracking-tight shadow-inner ring-4 ring-stone-200/40">
-            {initials || 'FT'}
-          </div>
-
-          {/* Chip LinkedIn azul abajo-derecha */}
-          <div
-            className="absolute bottom-0 right-0 bg-[#0A66C2] text-white text-[10px] font-mono font-bold uppercase tracking-tight px-2 py-0.5 rounded-tl-sm"
-            aria-hidden="true"
-          >
-            <svg viewBox="0 0 24 24" width="14" height="14" className="inline-block mr-1 -mt-0.5">
-              <path
-                fill="currentColor"
-                d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.44C23.2 24 24 23.23 24 22.27V1.73C24 .77 23.2 0 22.22 0z"
-              />
-            </svg>
-            <span className="align-middle">LinkedIn</span>
-          </div>
-        </div>
-
-        {/* Body blanco */}
-        <div className="flex-1 px-4 pt-3 pb-4 bg-[#f3f3f1] flex flex-col gap-2">
-          <div className="text-[10px] font-mono uppercase tracking-widest text-stone-500 font-bold">
-            LinkedIn
-          </div>
-          <div className="text-[15px] leading-tight font-semibold text-stone-900 group-hover:text-[#0A66C2] transition-colors line-clamp-1">
-            {name}
-          </div>
-          {headline && (
-            <div className="text-[11px] text-stone-600 leading-tight line-clamp-2 font-sans">
-              {headline}
-            </div>
-          )}
-        </div>
-      </div>
-    </a>
+      <a
+        className="badge-base__link LI-simple-link"
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {name}
+      </a>
+    </div>
   );
 }

@@ -183,9 +183,9 @@ export default function HomePage({
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <LinkedInBadge
-            href="https://www.linkedin.com/in/freddyticonaguzman"
+            href="https://bo.linkedin.com/in/freddyticonaguzman?trk=profile-badge"
+            vanity="freddyticonaguzman"
             name={lang === 'es' ? 'Freddy Ticona Guzmán' : 'Freddy Ticona Guzman'}
-            headline={lang === 'es' ? 'Camarógrafo Profesional · Realizador Audiovisual · La Paz' : 'Cameraman · Video Producer · La Paz'}
           />
         </div>
       </section>
