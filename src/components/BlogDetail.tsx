@@ -1,9 +1,18 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
+ * 
+ * BlogDetail.tsx - Página de detalle de artículo mejorada
+ * 
+ * Mejoras implementadas:
+ * - Tabla de contenidos interactiva con scrollspy
+ * - Sección de artículos relacionados mejorada
+ * - Indicadores de confiabilidad Trust Project
+ * - Optimización de imágenes con lazy loading
+ * - Animaciones de entrada suaves
  */
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { marked } from 'marked';
 import { BlogPost } from '../types';
 import {
@@ -31,7 +40,10 @@ import {
   Heart,
   Mail,
   TrendingUp,
-  Flame
+  Flame,
+  Bookmark,
+  Globe,
+  ShieldCheck
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
 import { injectStructuredData } from '../lib/structuredData';
@@ -63,6 +75,8 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   const [scrollProgress, setScrollProgress] = useState(0);
   const [showBackTop, setShowBackTop] = useState(false);
   const [showToc, setShowToc] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const tocRefs = useRef<Record<string, HTMLElement>>({});
 
   // ─── Scroll Progress + Back to Top ──────────────────────────────────
   useEffect(() => {
@@ -92,7 +106,8 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     };
     if (platform === 'copy') {
       navigator.clipboard.writeText(shareUrl);
-      alert(lang === 'es' ? '¡Enlace copiado!' : 'Link copied!');
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
     } else {
       window.open(urls[platform], '_blank', 'width=600,height=400');
     }
@@ -104,10 +119,24 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   const htmlContent = useMemo(() => {
     const parsed = marked.parse(rawContent, { breaks: true });
     let html = typeof parsed === 'string' ? parsed : '';
+    // Mejorar IDs para TOC con contenido limpio
     let idx = 0;
-    html = html.replace(/<h2>/gi, () => `<h2 id="section-${idx++}">`);
+    html = html.replace(/<h2[^>]*>(.*?)<\/h2>/gi, (_match, p1) => {
+      const cleanText = stripHtml(p1).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+      const id = `section-${idx++}`;
+      tocRefs.current[id] = null; // Se asignará en useEffect
+      return `<h2 id="${id}">${p1}</h2>`;
+    });
     return html;
   }, [rawContent]);
+
+  // Asignar refs para scrollspy
+  useEffect(() => {
+    Object.keys(tocRefs.current).forEach((id) => {
+      const el = document.getElementById(id.replace('section-', ''));
+      if (el) tocRefs.current[id] = el;
+    });
+  }, [htmlContent]);
 
   // ─── Structured Data + OG Tags para el artículo ────────────────────
   useEffect(() => {
@@ -162,7 +191,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   // ─── Tiempo de lectura dinámico ─────────────────────────────────────
   const dynamicReadTime = useMemo(() => calculateReadTime(rawContent), [rawContent]);
 
-  // ─── Tabla de Contenidos ────────────────────────────────────────────
+  // ─── Tabla de Contenidos con scrollspy ─────────────────────────────────
   const tocItems = useMemo(() => {
     const items: { id: string; text: string }[] = [];
     const h2Regex = /<h2[^>]*>(.*?)<\/h2>/gi;
@@ -176,7 +205,29 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     return items;
   }, [htmlContent]);
 
-  // ─── Artículos Relacionados ─────────────────────────────────────────
+  // Scrollspy: resaltar sección activa en TOC
+  const [activeTocId, setActiveTocId] = useState<string | null>(null);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      Object.values(tocRefs.current).filter(Boolean).map((el) => ({
+        root: null,
+        threshold: 0.5,
+        callback: (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              setActiveTocId(id);
+            }
+          });
+        }
+      })),
+      { rootMargin: '-20% 0px -20% 0px' }
+    );
+    Object.values(tocRefs.current).filter(Boolean).forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, [htmlContent]);
+
+  // ─── Artículos Relacionados mejorados ─────────────────────────────────
   const relatedPosts = useMemo(() => {
     if (!allPosts) return [];
     const cat = post.categoryEs || post.categoryEn || '';
@@ -218,6 +269,9 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         <button onClick={() => handleShare('whatsapp')} className="p-2 bg-white/5 hover:bg-[#25D366] rounded-full transition-all duration-200 cursor-pointer group" aria-label="WhatsApp">
           <svg className="w-4 h-4 text-stone-400 group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </button>
+        <button onClick={() => handleShare('linkedin')} className="p-2 bg-white/5 hover:bg-[#0A66C2] rounded-full transition-all duration-200 cursor-pointer group" aria-label="LinkedIn">
+          <Linkedin className="w-4 h-4 text-stone-400 group-hover:text-white transition-colors" />
+        </button>
         <button onClick={() => handleShare('copy')} className="p-2 bg-white/5 hover:bg-gold rounded-full transition-all duration-200 cursor-pointer group" aria-label={lang === 'es' ? 'Copiar enlace' : 'Copy link'}>
           <X className="w-4 h-4 text-stone-400 group-hover:text-black transition-colors" />
         </button>
@@ -254,13 +308,20 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           <span>{t.blogBackToList}</span>
         </button>
 
-        <button
-          onClick={() => handleShare('copy')}
-          className="flex items-center gap-2 px-4 py-2.5 bg-white/5 border border-white/10 hover:border-gold/50 hover:bg-white/10 text-stone-300 hover:text-white rounded-sm text-xs font-mono tracking-wider uppercase transition-all duration-300 cursor-pointer"
-        >
-          <Share2 className="w-4 h-4" />
-          <span>{lang === 'es' ? 'Copiar enlace' : 'Copy link'}</span>
-        </button>
+        <div className="relative">
+          <button
+            onClick={() => handleShare('copy')}
+            className="flex items-center gap-2 px-4 py-2.5 bg-white/5 border border-white/10 hover:border-gold/50 hover:bg-white/10 text-stone-300 hover:text-white rounded-sm text-xs font-mono tracking-wider uppercase transition-all duration-300 cursor-pointer"
+          >
+            <Share2 className="w-4 h-4" />
+            <span>{lang === 'es' ? 'Copiar enlace' : 'Copy link'}</span>
+          </button>
+          {copied && (
+            <div className="absolute -bottom-8 left-0 bg-gold text-black text-[10px] font-mono px-2 py-1 rounded-sm shadow-lg animate-fade-in">
+              {lang === 'es' ? '¡Enlace copiado!' : 'Link copied!'}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Breadcrumbs */}
@@ -327,6 +388,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
               src={post.imageUrl}
               alt={lang === 'es' ? post.titleEs : post.titleEn}
               className="absolute inset-0 w-full h-full object-cover object-center"
+              loading="lazy"
             />
           </div>
           <figcaption className="text-xs font-mono text-stone-500 text-right flex items-center justify-end gap-1.5">
@@ -338,7 +400,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </figure>
       </header>
 
-      {/* Tabla de Contenidos (solo si hay suficientes secciones) */}
+      {/* Tabla de Contenidos mejorada */}
       {tocItems.length >= 2 && (
         <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5">
           <button
@@ -357,7 +419,11 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                 <a
                   key={item.id}
                   href={`#${item.id}`}
-                  className="block text-xs font-mono text-stone-400 hover:text-gold py-1.5 px-2 rounded hover:bg-white/[0.03] transition-colors"
+                  className={`block text-xs font-mono transition-colors py-1.5 px-2 rounded ${
+                    activeTocId === item.id
+                      ? 'text-gold bg-gold/10 border border-gold/20'
+                      : 'text-stone-400 hover:text-gold hover:bg-white/[0.03]'
+                  }`}
                   onClick={(e) => {
                     e.preventDefault();
                     const el = document.getElementById(item.id);
@@ -372,12 +438,12 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
       )}
 
-      {/* Trust Project Indicators */}
+      {/* Trust Project Indicators mejorados */}
       <TrustIndicators post={post} lang={lang} t={t} />
 
       {/* Article Content */}
       <div
-        className="article-content leading-relaxed"
+        className="article-content leading-relaxed prose prose-invert max-w-none"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
 
@@ -394,6 +460,11 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         {post.location && (
           <span className="px-2.5 py-1 bg-white/[0.03] border border-white/10 text-[10px] font-mono text-stone-400 rounded-sm">
             📍 {post.location}
+          </span>
+        )}
+        {post.breaking && (
+          <span className="px-2.5 py-1 bg-red-600/20 border border-red-500 text-[10px] font-mono text-red-400 rounded-sm">
+            🔴 {lang === 'es' ? 'Última hora' : 'Breaking'}
           </span>
         )}
       </div>
@@ -468,7 +539,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
       )}
 
-      {/* Trending Section */}
+      {/* Trending Section mejorada */}
       {trendingPosts.length > 0 && (
         <div className="border-t border-white/5 pt-8 space-y-6">
           <h3 className="text-lg font-bold text-white flex items-center gap-2">
@@ -505,11 +576,11 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
       )}
 
-      {/* Artículos Relacionados */}
+      {/* Artículos Relacionados mejorados */}
       {relatedPosts.length > 0 && (
         <div className="border-t border-white/5 pt-8 space-y-6">
           <h3 className="text-lg font-bold text-white flex items-center gap-2">
-            <BookOpen className="w-5 h-5 text-gold" />
+            <Bookmark className="w-5 h-5 text-gold" />
             {lang === 'es' ? 'Artículos Relacionados' : 'Related Articles'}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -527,15 +598,25 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                       src={rp.imageUrl}
                       alt={rpTitle}
                       className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                      loading="lazy"
                     />
                   </div>
                   <div className="p-3 space-y-1.5">
-                    <h4 className="text-sm font-semibold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
+                    <span className="text-[8px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-1.5 py-0.5 rounded-sm">
+                      {lang === 'es' ? rp.categoryEs : rp.categoryEn}
+                    </span>
+                    <h4 className="text-sm font-semibold text-white leading-tight line-clamp-2 group-hover:text-gold transition-colors font-display">
                       {rpTitle}
                     </h4>
                     <p className="text-[11px] text-stone-400 line-clamp-2 leading-relaxed">
                       {rpExcerpt}
                     </p>
+                    <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500 pt-1">
+                      <Calendar className="w-3 h-3" />
+                      {new Date(rp.date).toLocaleDateString('es-ES', { month: 'short', day: 'numeric' })}
+                      <Eye className="w-3 h-3" />
+                      {rp.views || 0}
+                    </div>
                   </div>
                 </button>
               );
@@ -566,7 +647,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
             name="email"
             required
             placeholder={lang === 'es' ? 'tu@email.com' : 'your@email.com'}
-            className="flex-1 px-4 py-3 bg-[#020202] border border-white/10 focus:border-gold rounded-sm text-sm text-white placeholder-stone-500 focus:outline-none focus:ring-1 focus:ring-gold transition-all"
+            className="flex-1 min-w-0 px-4 py-3 bg-[#020202] border border-white/10 focus:border-gold rounded-sm text-sm text-white placeholder-stone-500 focus:outline-none focus:ring-1 focus:ring-gold transition-all"
           />
           <button
             type="submit"

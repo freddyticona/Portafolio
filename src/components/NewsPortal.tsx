@@ -1,8 +1,9 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { BlogPost, ContentType } from '../types';
 import NewsCard from './NewsCard';
 import { TrendingUp, Flame, Search, SlidersHorizontal, ChevronDown, List, Sparkles, Newspaper, Eye, Mail } from 'lucide-react';
 import { TranslationT } from '../types.translation';
+import NewsPortalFilters from './NewsPortalFilters';
 
 interface NewsPortalProps {
   posts: BlogPost[];
@@ -35,6 +36,8 @@ const categoryColors: Record<string, string> = {
   'Curiosities': 'bg-teal-500/15 text-teal-400 border-teal-500/25',
   'Fútbol': 'bg-lime-500/15 text-lime-400 border-lime-500/25',
   'Soccer': 'bg-lime-500/15 text-lime-400 border-lime-500/25',
+  'Virales': 'bg-pink-500/15 text-pink-400 border-pink-500/25',
+  'Viral': 'bg-pink-500/15 text-pink-400 border-pink-500/25',
 };
 
 export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
@@ -61,18 +64,17 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
   const contentTypeOptions = useMemo(() => {
     const types: { value: string; labelEs: string; labelEn: string }[] = [
       { value: 'all', labelEs: 'Todos', labelEn: 'All' },
-      { value: 'news', labelEs: 'Noticia', labelEn: 'News' },
-      { value: 'analysis', labelEs: 'Análisis', labelEn: 'Analysis' },
-      { value: 'opinion', labelEs: 'Opinión', labelEn: 'Opinion' },
-      { value: 'reportage', labelEs: 'Reportaje', labelEn: 'Reportage' },
-      { value: 'behind-scenes', labelEs: 'Detrás de Cámaras', labelEn: 'Behind the Scenes' },
-      { value: 'culture', labelEs: 'Cultura', labelEn: 'Culture' }
+      { value: 'news', labelEs: 'NOTICIA', labelEn: 'NEWS' },
+      { value: 'analysis', labelEs: 'ANÁLISIS', labelEn: 'ANALYSIS' },
+      { value: 'opinion', labelEs: 'OPINIÓN', labelEn: 'OPINION' },
+      { value: 'reportage', labelEs: 'REPORTAJE', labelEn: 'REPORTAGE' },
+      { value: 'behind-scenes', labelEs: 'DETRÁS DE CÁMARAS', labelEn: 'BEHIND THE SCENES' },
+      { value: 'culture', labelEs: 'CULTURA', labelEn: 'CULTURE' }
     ];
     const used = new Set(posts.map(p => p.contentType));
     return types.filter(t => t.value === 'all' || used.has(t.value as ContentType));
   }, [posts]);
 
-  // Tema del día: agrupar posts con topicOfDay
   const topicOfDayPosts = useMemo(() => {
     const topicMap = new Map<string, BlogPost[]>();
     posts.forEach(p => {
@@ -85,12 +87,10 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
     return topicMap;
   }, [posts, heroPost]);
 
-  // Editorial picks
   const editorialPicks = useMemo(() => {
     return posts.filter(p => p.editorialPick && p.id !== heroPost?.id).slice(0, 5);
   }, [posts, heroPost]);
 
-  // De un vistazo: posts con galería de imágenes
   const atAGlance = useMemo(() => {
     const withGallery = posts.filter(p => p.images && p.images.length > 1 && p.id !== heroPost?.id);
     const withImage = posts.filter(p => p.imageUrl && p.id !== heroPost?.id);
@@ -204,6 +204,25 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
         </p>
       </div>
 
+      {/* Filters */}
+      <NewsPortalFilters
+        categories={categories}
+        contentTypeOptions={contentTypeOptions}
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+        activeContentType={activeContentType}
+        setActiveContentType={setActiveContentType}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        sortBy={sortBy}
+        setSortBy={setSortBy}
+        lang={lang}
+        totalResults={posts.length}
+        visibleCount={visibleCount}
+        setVisibleCount={setVisibleCount}
+        processedPostsCount={processedPosts.length}
+      />
+
       {/* Hero Breaking / Featured */}
       {heroPost && !searchTerm && activeCategory === 'all' && (
         <div className="mb-10">
@@ -249,7 +268,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
             <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold">
               {lang === 'es' ? 'De un vistazo' : 'At a glance'}
             </span>
-            <span className="h-px flex-1 bg-gradient-to-r from-gold/20 to-transparent" />
+            <span className="h-px flex-1 bg-gradient-to-r from-gold/30 to-transparent" />
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {atAGlance.map((post) => (
@@ -272,7 +291,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
                   <span className={`text-[8px] font-mono font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-sm border ${getCategoryBadgeClass(post.categoryEs, post.categoryEn)}`}>
                     {lang === 'es' ? post.categoryEs : post.categoryEn}
                   </span>
-                  <h4 className="text-[11px] font-semibold text-white leading-tight mt-1 line-clamp-2 group-hover:text-gold transition-colors">
+                  <h4 className="text-[11px] font-semibold text-white leading-tight line-clamp-2 group-hover:text-gold transition-colors">
                     {lang === 'es' ? post.titleEs : post.titleEn}
                   </h4>
                 </div>
@@ -282,288 +301,181 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
         </div>
       )}
 
-      {/* Content Type Filter Pills */}
-      <div className="mb-6">
-        <div className="flex flex-wrap gap-2">
-          {contentTypeOptions.map((ct) => (
-            <button
-              key={ct.value}
-              onClick={() => {
-                setActiveContentType(ct.value);
-                setVisibleCount(6);
-              }}
-              className={`px-3 py-1.5 rounded-sm text-[9px] font-mono font-bold uppercase tracking-widest transition-all duration-200 cursor-pointer ${
-                activeContentType === ct.value
-                  ? 'bg-gold text-black shadow-md'
-                  : 'bg-white/[0.02] text-stone-500 hover:text-gold hover:border-gold/30 border border-white/5'
-              }`}
-            >
-              {lang === 'es' ? ct.labelEs : ct.labelEn}
-            </button>
+      {/* News Grid agrupado por fecha */}
+      {visiblePosts.length > 0 ? (
+        <div className="space-y-8">
+          {dateGroups.map((group) => (
+            <div key={group.date}>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold bg-gold/10 border border-gold/20 px-3 py-1 rounded-sm">
+                  {new Date(group.date + 'T12:00:00').toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </span>
+                <span className="h-px flex-1 bg-gradient-to-r from-gold/30 to-transparent" />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {group.posts.map((post) => (
+                  <NewsCard
+                    key={post.id}
+                    post={post}
+                    lang={lang}
+                    onClick={() => onArticleClick(post)}
+                    variant="default"
+                  />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
-      </div>
-
-      {/* Search & Sort Controls Bar */}
-      <div className="bg-white/[0.02] border border-white/5 p-4 rounded-sm mb-8 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-30 backdrop-blur-md">
-        <div className="relative flex-1 w-full">
-          <Search className="w-4 h-4 text-stone-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={(e) => {
-              setSearchTerm(e.target.value);
-              setVisibleCount(6);
+      ) : (
+        <div className="text-center py-16 bg-white/[0.01] border border-white/5 rounded-sm space-y-3">
+          <Search className="w-8 h-8 text-stone-600 mx-auto" />
+          <p className="text-stone-400 text-sm font-semibold">
+            {lang === 'es' ? 'No se encontraron noticias con estos criterios.' : 'No news found matching your criteria.'}
+          </p>
+          <button
+            onClick={() => {
+              setActiveCategory('all');
+              setSearchTerm('');
             }}
-            placeholder={lang === 'es' ? 'Buscar noticias por título, tema o fuente...' : 'Search news by title, topic or source...'}
-            className="w-full pl-10 pr-4 py-2 bg-black/60 border border-white/10 rounded-sm text-xs font-sans text-stone-200 placeholder-stone-500 focus:outline-none focus:border-gold transition-colors"
-          />
-          {searchTerm && (
-            <button
-              onClick={() => setSearchTerm('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-500 hover:text-stone-300 text-xs"
-            >
-              ✕
-            </button>
-          )}
-        </div>
-
-        <div className="flex items-center gap-2 w-full md:w-auto shrink-0">
-          <SlidersHorizontal className="w-3.5 h-3.5 text-gold" />
-          <span className="text-xs font-mono text-stone-400">
-            {lang === 'es' ? 'Ordenar:' : 'Sort:'}
-          </span>
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as any)}
-            className="bg-black/60 border border-white/10 rounded-sm px-3 py-2 text-xs font-mono text-stone-200 focus:outline-none focus:border-gold transition-colors cursor-pointer"
+            className="px-4 py-2 bg-gold/10 border border-gold/30 text-gold rounded-sm text-xs font-mono font-bold uppercase tracking-wider hover:bg-gold hover:text-black transition-colors"
           >
-            <option value="recent">{lang === 'es' ? 'Más Recientes' : 'Most Recent'}</option>
-            <option value="popular">{lang === 'es' ? 'Más Leídas' : 'Most Read'}</option>
-            <option value="oldest">{lang === 'es' ? 'Más Antiguas' : 'Oldest'}</option>
-          </select>
+            {lang === 'es' ? 'Ver todas las noticias' : 'View all news'}
+          </button>
         </div>
-      </div>
+      )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
-        {/* Main Content Area */}
-        <div className="lg:col-span-3 space-y-8">
-          {/* Category Tabs con colores mejorados (DW-inspired) */}
-          <div className="flex flex-wrap gap-2 pb-4 border-b border-white/5" role="tablist" aria-label="Categorías de noticias">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => {
-                  setActiveCategory(cat);
-                  setVisibleCount(6);
-                }}
-                role="tab"
-                aria-selected={activeCategory === cat}
-                className={`px-3.5 py-2 rounded-sm text-[10px] font-mono font-bold uppercase tracking-widest transition-all duration-200 cursor-pointer ${
-                  activeCategory === cat
-                    ? 'bg-gold text-black shadow-md'
-                    : `${getCategoryBadgeClass(cat)} hover:opacity-80 border`
-                }`}
+      {/* Load More + Load All Buttons */}
+      {visibleCount < processedPosts.length && (
+        <div className="text-center pt-6 flex items-center justify-center gap-3">
+          <button
+            onClick={() => setVisibleCount((prev) => prev + 6)}
+            className="inline-flex items-center gap-2 px-6 py-3.5 border border-white/10 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-lg"
+          >
+            <span>{lang === 'es' ? 'Cargar más noticias' : 'Load more news'}</span>
+            <ChevronDown className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => setVisibleCount(processedPosts.length)}
+            className="px-5 py-3.5 border border-white/5 hover:border-gold/50 bg-white/[0.01] hover:bg-white/[0.04] text-stone-500 hover:text-gold rounded-sm text-[10px] font-mono font-bold tracking-widest uppercase transition-all duration-200 cursor-pointer"
+          >
+            <List className="w-3.5 h-3.5 inline mr-1.5" />
+            {lang === 'es' ? `Ver todas (${processedPosts.length})` : `View all (${processedPosts.length})` }
+          </button>
+        </div>
+      )}
+
+      {/* Sidebar */}
+      <div className="lg:col-span-1 space-y-8">
+        {/* Trending Box */}
+        <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5 space-y-4">
+          <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-gold pb-2 border-b border-white/5">
+            <TrendingUp className="w-4 h-4 text-gold" />
+            <span>{lang === 'es' ? 'Más Leídas' : 'Trending'}</span>
+          </div>
+          <div className="space-y-2">
+            {trendingPosts.map((post, i) => (
+              <div
+                key={post.id}
+                onClick={() => onArticleClick(post)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => { if (e.key === 'Enter') onArticleClick(post); }}
+                className="group cursor-pointer flex items-start gap-3 p-2 hover:bg-white/[0.04] rounded-sm transition-colors focus:outline-none focus:ring-1 focus:ring-gold"
               >
-                {categoryLabel(cat)}
-              </button>
+                <span className="text-lg font-black text-stone-600 group-hover:text-gold font-display tabular-nums leading-none mt-0.5 transition-colors">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <div className="min-w-0 flex-1 space-y-1">
+                  <h4 className="text-xs font-semibold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
+                    {lang === 'es' ? post.titleEs : post.titleEn}
+                  </h4>
+                  <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
+                    <Flame className="w-3 h-3 text-red-500/80" />
+                    {post.views || 0} {lang === 'es' ? 'lecturas' : 'reads'}
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
-
-          {/* Result Stats Counter */}
-          <div className="flex items-center justify-between text-xs font-mono text-stone-500">
-            <span>
-              {lang === 'es' ? `Mostrando ${visiblePosts.length} de ${processedPosts.length} noticias` : `Showing ${visiblePosts.length} of ${processedPosts.length} articles`}
-            </span>
-            {searchTerm && (
-              <button
-                onClick={() => setSearchTerm('')}
-                className="text-gold hover:underline text-xs"
-              >
-                {lang === 'es' ? 'Limpiar búsqueda' : 'Clear search'}
-              </button>
-            )}
-          </div>
-
-          {/* News Grid agrupado por fecha */}
-          {visiblePosts.length > 0 ? (
-            <div className="space-y-8">
-              {dateGroups.map((group) => (
-                  <div key={group.date}>
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold bg-gold/10 border border-gold/20 px-3 py-1 rounded-sm">
-                        {new Date(group.date + 'T12:00:00').toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
-                          year: 'numeric',
-                          month: 'long',
-                          day: 'numeric'
-                        })}
-                      </span>
-                      <span className="h-px flex-1 bg-gradient-to-r from-gold/30 to-transparent" />
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                      {group.posts.map((post) => (
-                        <NewsCard
-                          key={post.id}
-                          post={post}
-                          lang={lang}
-                          onClick={() => onArticleClick(post)}
-                          variant="default"
-                        />
-                      ))}
-                    </div>
-                  </div>
-                ))}
-            </div>
-          ) : (
-            <div className="text-center py-16 bg-white/[0.01] border border-white/5 rounded-sm space-y-3">
-              <Search className="w-8 h-8 text-stone-600 mx-auto" />
-              <p className="text-stone-400 text-sm font-semibold">
-                {lang === 'es' ? 'No se encontraron noticias con estos criterios.' : 'No news found matching your criteria.'}
-              </p>
-              <button
-                onClick={() => {
-                  setActiveCategory('all');
-                  setSearchTerm('');
-                }}
-                className="px-4 py-2 bg-gold/10 border border-gold/30 text-gold rounded-sm text-xs font-mono font-bold uppercase tracking-wider hover:bg-gold hover:text-black transition-colors"
-              >
-                {lang === 'es' ? 'Ver todas las noticias' : 'View all news'}
-              </button>
-            </div>
-          )}
-
-          {/* Load More + Load All Buttons */}
-          {visibleCount < processedPosts.length && (
-            <div className="text-center pt-6 flex items-center justify-center gap-3">
-              <button
-                onClick={() => setVisibleCount((prev) => prev + 6)}
-                className="inline-flex items-center gap-2 px-6 py-3.5 border border-white/10 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer shadow-lg"
-              >
-                <span>{lang === 'es' ? 'Cargar más noticias' : 'Load more news'}</span>
-                <ChevronDown className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => setVisibleCount(processedPosts.length)}
-                className="px-5 py-3.5 border border-white/5 hover:border-gold/50 bg-white/[0.01] hover:bg-white/[0.04] text-stone-500 hover:text-gold rounded-sm text-[10px] font-mono font-bold tracking-widest uppercase transition-all duration-200 cursor-pointer"
-              >
-                <List className="w-3.5 h-3.5 inline mr-1.5" />
-                {lang === 'es' ? `Ver todas (${processedPosts.length})` : `View all (${processedPosts.length})`}
-              </button>
-            </div>
-          )}
         </div>
 
-        {/* Sidebar */}
-        <aside className="lg:col-span-1 space-y-8">
-          {/* Trending Box */}
+        {/* Editorial Picks (DW-inspired) */}
+        {editorialPicks.length > 0 && (
           <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5 space-y-4">
-            <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-gold pb-2 border-b border-white/5">
-              <TrendingUp className="w-4 h-4 text-gold" />
-              <span>{lang === 'es' ? 'Más Leídas' : 'Trending'}</span>
+            <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-amber-400 pb-2 border-b border-white/5">
+              <Sparkles className="w-4 h-4 text-amber-400" />
+              <span>{lang === 'es' ? 'Picks Editoriales' : "Editor's Picks"}</span>
             </div>
-            <div className="space-y-2">
-              {trendingPosts.map((post, i) => (
+            <div className="space-y-3">
+              {editorialPicks.map((post) => (
                 <div
                   key={post.id}
                   onClick={() => onArticleClick(post)}
                   role="button"
                   tabIndex={0}
                   onKeyDown={(e) => { if (e.key === 'Enter') onArticleClick(post); }}
-                  className="group cursor-pointer flex items-start gap-3 p-2 hover:bg-white/[0.04] rounded-sm transition-colors focus:outline-none focus:ring-1 focus:ring-gold"
+                  className="group cursor-pointer flex gap-3 p-2 hover:bg-white/[0.04] rounded-sm transition-colors focus:outline-none focus:ring-1 focus:ring-gold"
                 >
-                  <span className="text-lg font-black text-stone-600 group-hover:text-gold font-display tabular-nums leading-none mt-0.5 transition-colors">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <div className="min-w-0 flex-1 space-y-1">
-                    <h4 className="text-xs font-semibold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
+                  <div className="w-14 h-14 shrink-0 overflow-hidden rounded-sm bg-[#0a0a0a]">
+                    <img
+                      src={post.imageUrl}
+                      alt=""
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="min-w-0 flex-1 space-y-0.5">
+                    <span className={`text-[8px] font-mono font-bold uppercase tracking-wider px-1 py-0.5 rounded-sm border ${getCategoryBadgeClass(post.categoryEs, post.categoryEn)}`}>
+                      {lang === 'es' ? post.categoryEs : post.categoryEn}
+                    </span>
+                    <h4 className="text-[11px] font-semibold text-white leading-tight line-clamp-2 group-hover:text-amber-400 transition-colors">
                       {lang === 'es' ? post.titleEs : post.titleEn}
                     </h4>
-                    <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
-                      <span className="flex items-center gap-1">
-                        <Flame className="w-3 h-3 text-red-500/80" />
-                        {post.views || 0} {lang === 'es' ? 'lecturas' : 'reads'}
-                      </span>
-                    </div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
+        )}
 
-          {/* Editorial Picks (DW-inspired) */}
-          {editorialPicks.length > 0 && (
-            <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5 space-y-4">
-              <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-amber-400 pb-2 border-b border-white/5">
-                <Sparkles className="w-4 h-4 text-amber-400" />
-                <span>{lang === 'es' ? 'Picks Editoriales' : "Editor's Picks"}</span>
-              </div>
-              <div className="space-y-3">
-                {editorialPicks.map((post) => (
-                  <div
-                    key={post.id}
-                    onClick={() => onArticleClick(post)}
-                    role="button"
-                    tabIndex={0}
-                    onKeyDown={(e) => { if (e.key === 'Enter') onArticleClick(post); }}
-                    className="group cursor-pointer flex gap-3 p-2 hover:bg-white/[0.04] rounded-sm transition-colors focus:outline-none focus:ring-1 focus:ring-gold"
-                  >
-                    <div className="w-14 h-14 shrink-0 overflow-hidden rounded-sm bg-[#0a0a0a]">
-                      <img
-                        src={post.imageUrl}
-                        alt=""
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                        loading="lazy"
-                      />
-                    </div>
-                    <div className="min-w-0 flex-1 space-y-0.5">
-                      <span className={`text-[8px] font-mono font-bold uppercase tracking-wider px-1 py-0.5 rounded-sm border ${getCategoryBadgeClass(post.categoryEs, post.categoryEn)}`}>
-                        {lang === 'es' ? post.categoryEs : post.categoryEn}
-                      </span>
-                      <h4 className="text-[11px] font-semibold text-white leading-tight line-clamp-2 group-hover:text-amber-400 transition-colors">
-                        {lang === 'es' ? post.titleEs : post.titleEn}
-                      </h4>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Newsletter CTA (DW-inspired) */}
-          <div className="bg-gradient-to-br from-gold/5 to-amber-900/10 border border-gold/20 rounded-sm p-5 space-y-4">
-            <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-gold">
-              <Mail className="w-4 h-4 text-gold" />
-              <span>{lang === 'es' ? 'Newsletter' : 'Newsletter'}</span>
-            </div>
-            <p className="text-[11px] text-stone-400 leading-relaxed">
-              {lang === 'es'
-                ? 'Recibe las noticias más importantes en tu correo.'
-                : 'Get the most important news delivered to your inbox.'}
-            </p>
-            {subscribed ? (
-              <p className="text-emerald-400 text-[11px] font-mono">
-                {lang === 'es' ? '¡Gracias por suscribirte!' : 'Thanks for subscribing!'}
-              </p>
-            ) : (
-              <form onSubmit={handleSubscribe} className="flex gap-2">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder={lang === 'es' ? 'tu@email.com' : 'your@email.com'}
-                  required
-                  className="flex-1 min-w-0 px-3 py-2 bg-black/60 border border-white/10 rounded-sm text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-gold transition-colors"
-                />
-                <button
-                  type="submit"
-                  className="px-3 py-2 bg-gold text-black rounded-sm text-[10px] font-mono font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors shrink-0"
-                >
-                  OK
-                </button>
-              </form>
-            )}
+        {/* Newsletter CTA (DW-inspired) */}
+        <div className="bg-gradient-to-br from-gold/5 to-amber-900/10 border border-gold/20 rounded-sm p-5 space-y-4">
+          <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-gold">
+            <Mail className="w-4 h-4 text-gold" />
+            <span>{lang === 'es' ? 'Newsletter' : 'Newsletter'}</span>
           </div>
-        </aside>
+          <p className="text-[11px] text-stone-400 leading-relaxed">
+            {lang === 'es'
+              ? 'Recibe las noticias más importantes en tu correo.'
+              : 'Get the most important news delivered to your inbox.'}
+          </p>
+          {subscribed ? (
+            <p className="text-emerald-400 text-[11px] font-mono">
+              {lang === 'es' ? '¡Gracias por suscribirte!' : 'Thanks for subscribing!'}
+            </p>
+          ) : (
+            <form onSubmit={handleSubscribe} className="flex gap-2">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder={lang === 'es' ? 'tu@email.com' : 'your@email.com'}
+                required
+                className="flex-1 min-w-0 px-3 py-2 bg-black/60 border border-white/10 rounded-sm text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-gold transition-colors"
+              />
+              <button
+                type="submit"
+                className="px-3 py-2 bg-gold text-black rounded-sm text-[10px] font-mono font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors shrink-0"
+              >
+                OK
+              </button>
+            </form>
+          )}
+        </div>
       </div>
     </div>
   );
