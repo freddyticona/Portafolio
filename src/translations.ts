@@ -6440,6 +6440,7 @@ Specialized in the intersection of software development, Artificial Intelligence
         id: '100',
         contentType: 'news',
         slug: 'la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia',
+        breaking: true,
         titleEs: 'La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia',
         titleEn: 'Ibai\'s La Velada del Año VI: full card, schedules and how to watch the 10 fights from Bolivia',
         excerptEs: 'Hoy 25 de julio, el Estadio La Cartuja de Sevilla acoge la sexta edición de La Velada del Año. 10 combates con streamers, periodistas y artistas de 6 países. IlloJuan vs TheGrefg es el main event.',
@@ -6516,6 +6517,8 @@ Specialized in the intersection of software development, Artificial Intelligence
         enableComments: true,
         featured: true,
         views: 1,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
         location: 'Sevilla, España — La Paz, Bolivia'
       },
       {
@@ -6564,6 +6567,8 @@ Specialized in the intersection of software development, Artificial Intelligence
         enableComments: true,
         featured: true,
         views: 1,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
         location: 'Sevilla, España'
       },
       {
@@ -6635,6 +6640,8 @@ Fight 10: IlloJuan (Spain) vs TheGrefg (Spain) — Main Event</p>
         enableComments: true,
         featured: true,
         views: 1,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
         location: 'Sevilla, España'
       },
       {
@@ -6683,6 +6690,8 @@ Fight 10: IlloJuan (Spain) vs TheGrefg (Spain) — Main Event</p>
         featured: false,
         views: 1,
         breaking: false,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
         location: 'Sevilla, España — Latinoamérica'
       },
       // ============================================================

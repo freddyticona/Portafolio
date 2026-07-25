@@ -49,7 +49,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
   const [activeContentType, setActiveContentType] = useState<string>('all');
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [sortBy, setSortBy] = useState<'recent' | 'popular' | 'oldest'>('recent');
-  const [visibleCount, setVisibleCount] = useState<number>(6);
+  const [visibleCount, setVisibleCount] = useState<number>(12);
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
