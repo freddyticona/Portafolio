@@ -48,9 +48,9 @@ export function ContactPage({ lang, t }: ContactPageProps) {
 
         <div className="flex flex-col items-center gap-6 pt-4 lg:pt-0">
           <LinkedInBadge
-            href="https://www.linkedin.com/in/freddyticonaguzman"
+            href="https://bo.linkedin.com/in/freddyticonaguzman?trk=profile-badge"
+            vanity="freddyticonaguzman"
             name={lang === 'es' ? 'Freddy Ticona Guzmán' : 'Freddy Ticona Guzman'}
-            headline={lang === 'es' ? 'Camarógrafo · Realizador Audiovisual · La Paz' : 'Cameraman · Video Producer · La Paz'}
           />
         </div>
       </div>
