@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Camera, X, ChevronLeft, ChevronRight, Film, Sparkles } from 'lucide-react';
 
 interface GalleryPhoto {
@@ -60,6 +60,20 @@ export default function GalleryPage({ lang = 'es' }: GalleryPageProps) {
   const closeLightbox = () => setLightboxIndex(null);
   const prev = () => setLightboxIndex(i => i !== null ? (i - 1 + allPhotos.length) % allPhotos.length : null);
   const next = () => setLightboxIndex(i => i !== null ? (i + 1) % allPhotos.length : null);
+
+  // Keyboard navigation for cinematic lightbox (inspired by The Wall template)
+  useEffect(() => {
+    if (lightboxIndex === null) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') prev();
+      if (e.key === 'ArrowRight') next();
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxIndex]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16 space-y-10 animate-fadeIn">
@@ -132,42 +146,109 @@ export default function GalleryPage({ lang = 'es' }: GalleryPageProps) {
         ))}
       </div>
 
-      {/* Lightbox */}
+      {/* Lightbox Cinemático (inspirado en la plantilla The Wall) */}
       {lightboxIndex !== null && (
         <div
-          className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4 md:p-8"
+          className="fixed inset-0 z-50 bg-black/95 backdrop-blur-xl flex flex-col justify-between p-4 md:p-6 animate-fadeIn"
           onClick={closeLightbox}
         >
-          <button
-            onClick={closeLightbox}
-            className="absolute top-4 right-4 p-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors cursor-pointer z-10"
-          >
-            <X className="w-6 h-6 text-white" />
-          </button>
-
-          <button
-            onClick={(e) => { e.stopPropagation(); prev(); }}
-            className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors cursor-pointer z-10"
-          >
-            <ChevronLeft className="w-6 h-6 text-white" />
-          </button>
-
-          <button
-            onClick={(e) => { e.stopPropagation(); next(); }}
-            className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors cursor-pointer z-10"
-          >
-            <ChevronRight className="w-6 h-6 text-white" />
-          </button>
-
-          <img
-            src={allPhotos[lightboxIndex].src}
-            alt=""
-            className="max-w-full max-h-full object-contain"
-            onClick={(e) => e.stopPropagation()}
+          {/* Ambient blurred background */}
+          <div
+            className="absolute inset-0 opacity-20 pointer-events-none bg-cover bg-center blur-3xl scale-125 transition-all duration-700"
+            style={{ backgroundImage: `url(${allPhotos[lightboxIndex].src})` }}
           />
 
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs font-mono text-stone-400">
-            {lightboxIndex + 1} / {allPhotos.length}
+          {/* Top Bar Header */}
+          <div
+            className="relative z-20 flex items-center justify-between gap-4 border-b border-white/10 pb-3"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center gap-3">
+              <span className="p-1.5 bg-gold/10 border border-gold/20 rounded-sm">
+                <Camera className="w-4 h-4 text-gold" />
+              </span>
+              <div>
+                <span className="text-xs font-mono font-bold text-white uppercase block">
+                  {lang === 'es' ? 'Coberturas Audiovisuales' : 'Audiovisual Coverage'}
+                </span>
+                <span className="text-[10px] font-mono text-gold/80 uppercase tracking-widest">
+                  {allPhotos[lightboxIndex].orientation === 'horizontal' ? 'Formato Horizontal 16:9' : 'Formato Vertical 9:16'}
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <span className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1 bg-white/5 border border-white/10 rounded-sm text-[10px] font-mono text-stone-400">
+                <Sparkles className="w-3 h-3 text-gold" />
+                <span>{lang === 'es' ? 'Usa ← → o Esc para navegar' : 'Use ← → or Esc to navigate'}</span>
+              </span>
+
+              <button
+                onClick={closeLightbox}
+                className="p-2 bg-white/10 hover:bg-gold hover:text-black rounded-sm transition-colors cursor-pointer text-white"
+                aria-label={lang === 'es' ? 'Cerrar visor' : 'Close viewer'}
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+          </div>
+
+          {/* Center Image Container */}
+          <div className="relative z-10 flex-1 flex items-center justify-center min-h-0 my-3">
+            <button
+              onClick={(e) => { e.stopPropagation(); prev(); }}
+              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 p-3 bg-black/60 hover:bg-gold hover:text-black border border-white/10 rounded-sm transition-all cursor-pointer z-20 text-white shadow-xl"
+              aria-label={lang === 'es' ? 'Foto anterior' : 'Previous photo'}
+            >
+              <ChevronLeft className="w-6 h-6" />
+            </button>
+
+            <button
+              onClick={(e) => { e.stopPropagation(); next(); }}
+              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 p-3 bg-black/60 hover:bg-gold hover:text-black border border-white/10 rounded-sm transition-all cursor-pointer z-20 text-white shadow-xl"
+              aria-label={lang === 'es' ? 'Foto siguiente' : 'Next photo'}
+            >
+              <ChevronRight className="w-6 h-6" />
+            </button>
+
+            <img
+              src={allPhotos[lightboxIndex].src}
+              alt=""
+              className="max-w-full max-h-full object-contain rounded-sm shadow-2xl transition-all duration-300"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+
+          {/* Bottom Thumbnail Strip (The Wall Style) */}
+          <div
+            className="relative z-20 pt-2 border-t border-white/10 flex flex-col gap-2"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between text-[11px] font-mono text-stone-400">
+              <span className="text-stone-300 font-bold">
+                {lang === 'es' ? 'Foto' : 'Photo'} {lightboxIndex + 1} {lang === 'es' ? 'de' : 'of'} {allPhotos.length}
+              </span>
+              <span className="text-gold font-bold">
+                {Math.round(((lightboxIndex + 1) / allPhotos.length) * 100)}%
+              </span>
+            </div>
+
+            {/* Thumbnail Carousel */}
+            <div className="flex items-center gap-2 overflow-x-auto py-1 scrollbar-thin scrollbar-thumb-gold/30">
+              {allPhotos.map((photo, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => openLightbox(idx)}
+                  className={`relative shrink-0 h-12 rounded-sm overflow-hidden border transition-all duration-200 cursor-pointer ${
+                    idx === lightboxIndex
+                      ? 'border-gold ring-2 ring-gold/50 scale-105 opacity-100'
+                      : 'border-white/10 opacity-40 hover:opacity-80'
+                  } ${photo.orientation === 'horizontal' ? 'w-20' : 'w-10'}`}
+                >
+                  <img src={photo.src} alt="" className="w-full h-full object-cover" />
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}

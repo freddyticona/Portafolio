@@ -12,6 +12,10 @@ import {
   GraduationCap,
   Printer,
   CheckCircle,
+  Cpu,
+  Video,
+  Layers,
+  Wrench,
 } from 'lucide-react';
 
 const Timeline = lazy(() => import('../components/Timeline'));
@@ -72,6 +76,164 @@ export default function CVPage({ lang, t }: CVPageProps) {
         <Suspense fallback={<div className="text-stone-500 text-xs p-4">{lang === 'es' ? 'Cargando...' : 'Loading...'}</div>}>
           <Timeline events={timelineEvents} lang={lang} t={t} />
         </Suspense>
+      </section>
+
+      {/* Technical Skills & Software (Inspired by Gilber / Salimov CV templates) */}
+      <section className="space-y-8 pt-4">
+        <div className="space-y-2">
+          <h3 className="text-sm font-bold uppercase tracking-widest text-gold font-mono flex items-center gap-2 pb-2 border-b border-white/5">
+            <Cpu className="w-4.5 h-4.5" />
+            <span>{lang === 'es' ? 'Habilidades Técnicas y Software' : 'Technical Skills & Software'}</span>
+          </h3>
+          <p className="text-xs text-stone-500 font-mono">
+            {lang === 'es' ? 'Dominio de herramientas de edición, postproducción y equipo técnico broadcast' : 'Proficiency in editing, post-production software & broadcast hardware'}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Software & Postproduction */}
+          <div className="p-5 bg-[#020202] border border-white/5 rounded-sm space-y-4">
+            <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-white flex items-center gap-2 pb-2 border-b border-white/5">
+              <Layers className="w-4 h-4 text-gold" />
+              <span>{lang === 'es' ? 'Edición & Postproducción' : 'Editing & Post-production'}</span>
+            </h4>
+            
+            <div className="space-y-3.5 text-xs">
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">Adobe Premiere Pro</span>
+                  <span className="text-gold font-bold">95%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '95%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">DaVinci Resolve (Color & Edición)</span>
+                  <span className="text-gold font-bold">90%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '90%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">Adobe After Effects (Motion Graphics)</span>
+                  <span className="text-gold font-bold">85%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '85%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">Adobe Photoshop & Lightroom</span>
+                  <span className="text-gold font-bold">88%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '88%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">Adobe Audition (Audio Restoration)</span>
+                  <span className="text-gold font-bold">85%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '85%' }} />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Hardware & Broadcast Equipment */}
+          <div className="p-5 bg-[#020202] border border-white/5 rounded-sm space-y-4">
+            <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-white flex items-center gap-2 pb-2 border-b border-white/5">
+              <Video className="w-4 h-4 text-gold" />
+              <span>{lang === 'es' ? 'Equipamiento & Operación' : 'Hardware & Field Operations'}</span>
+            </h4>
+
+            <div className="space-y-3.5 text-xs">
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Cámaras Broadcast & Cine (Sony FX, RED, Blackmagic)' : 'Broadcast & Cinema Cameras (Sony FX, RED, Blackmagic)'}</span>
+                  <span className="text-gold font-bold">95%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '95%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Unidades Móviles & Transmisión Satelital (SNG)' : 'Mobile Units & Satellite Transmission (SNG)'}</span>
+                  <span className="text-gold font-bold">92%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '92%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Iluminación de Estudio y Exteriores' : 'Studio & Outdoor Lighting'}</span>
+                  <span className="text-gold font-bold">90%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '90%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Pilotaje de Drones (Filmación Aérea 4K)' : 'Drone Operations (4K Aerial Shooting)'}</span>
+                  <span className="text-gold font-bold">85%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '85%' }} />
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between font-mono mb-1">
+                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Gestión y Catalogación de Archivo Digital' : 'Digital Archiving & Cataloging Management'}</span>
+                  <span className="text-gold font-bold">95%</span>
+                </div>
+                <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '95%' }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Status Badge */}
+        <div className="p-4 bg-gold/5 border border-gold/20 rounded-sm flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <div className="flex items-center gap-3">
+            <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping shrink-0" />
+            <span className="text-stone-300 font-mono">
+              {lang === 'es'
+                ? 'Disponible para contrataciones, proyectos documentales y coberturas especiales en toda Bolivia e internacionalmente.'
+                : 'Available for hire, documentary projects, and special broadcast coverage across Bolivia and internationally.'}
+            </span>
+          </div>
+          <a
+            href="/contacto"
+            onClick={(e) => {
+              e.preventDefault();
+              window.history.pushState(null, '', '/contacto');
+              window.dispatchEvent(new PopStateEvent('popstate'));
+            }}
+            className="px-4 py-2 bg-gold hover:bg-gold-hover text-black font-mono font-bold uppercase text-[10px] tracking-wider rounded-sm shrink-0 transition-colors"
+          >
+            {lang === 'es' ? 'Contactar' : 'Get in touch'}
+          </a>
+        </div>
       </section>
 
       {/* CV Two-Column layout */}
