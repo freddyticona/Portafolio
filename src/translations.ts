@@ -5780,7 +5780,7 @@ Fight 10: IlloJuan (Spain) vs TheGrefg (Spain) — Main Event</p>
       // ============================================================
       {
         id: '104',
-        contentType: 'results',
+        contentType: 'analysis',
         slug: 'resultados-completos-velada-del-ano-6-ganadores',
         titleEs: 'Resultados completos de La Velada del Año 6: todos los ganadores de los 10 combates',
         titleEn: 'Complete results of La Velada del Año 6: all 10 fight winners',
@@ -5929,7 +5929,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
       },
       {
         id: '106',
-        contentType: 'results',
+        contentType: 'news',
         slug: 'thegrefg-vence-illojuan-main-event-velada-6',
         titleEs: 'TheGrefg vence a IlloJuan en el Main Event de La Velada del Año 6: la experiencia del campeón',
         titleEn: 'TheGrefg defeats IlloJuan in the Main Event of La Velada del Año 6: the champion\'s experience',
