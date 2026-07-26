@@ -6100,6 +6100,350 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         location: 'Sevilla, España — Internet'
       },
       // ============================================================
+      // ARTÍCULO: CONSOLA DE GESTIÓN DE ACTIVOS DE VIDEO
+      // ============================================================
+      {
+        id: '109',
+        contentType: 'analysis',
+        slug: 'consola-gestion-activos-video-arquitectura-offline-first',
+        titleEs: 'Consola de Gestión de Activos de Video: arquitectura offline-first para la producción audiovisual moderna',
+        titleEn: 'Video Asset Management Console: offline-first architecture for modern media production',
+        excerptEs: 'Análisis técnico profundo de una consola de gestión de activos de video construida con Next.js, Dexie.js y Zustand. Exploramos su arquitectura offline-first, motor de auto-etiquetado, detector de escenas por histograma, flujo de trabajo de 6 estados, sistema de auditoría con event sourcing y exportación a DOCX con gráficos embebidos.',
+        excerptEn: 'In-depth technical analysis of a video asset management console built with Next.js, Dexie.js and Zustand. We explore its offline-first architecture, auto-tagging engine, histogram-based scene detector, 6-state workflow, event sourcing audit system and DOCX export with embedded charts.',
+        contentEs: `<h1>Consola de Gestión de Activos de Video: arquitectura offline-first para la producción audiovisual moderna</h1>
+
+<figure style="margin:2rem 0">
+  <img src="/images/video-console-datagrid.jpg" alt="DataGrid de la Consola de Gestión de Activos de Video mostrando thumbnails, metadatos y etiquetas" style="width:100%;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.3)" loading="lazy" />
+  <figcaption style="text-align:center;font-size:0.85rem;color:#888;margin-top:0.5rem"><em>Vista principal del DataGrid virtualizado: thumbnails, metadatos técnicos, etiquetas y filtros combinables en una interfaz oscura optimizada para producción.</em></figcaption>
+</figure>
+
+<p><em>En la producción audiovisual contemporánea, el volumen de material grabado crece exponencialmente. Una producción documental de media duración puede generar fácilmente 2-3 TB de material bruto. Una serie o un largometraje, decenas de terabytes. Sin un sistema de gestión de activos, encontrar un clip específico se convierte en una tarea que consume horas valiosas de post-producción.</em></p>
+
+<p>Este artículo analiza en profundidad una <strong>Consola de Gestión de Activos de Video</strong> (Video Asset Management Console) desarrollada como aplicación cliente-side con Next.js 16, diseñada para operar sin servidor backend y persistir datos en el propio navegador mediante IndexedDB. Exploraremos su arquitectura, fundamentos teóricos, sistemas clave y alternativas de escalabilidad.</p>
+
+<hr>
+
+<h2>1. El problema: el caos de los activos de video</h2>
+
+<p>En entornos de producción reales —canales de televisión, productoras, estudios— los activos de video suelen gestionarse mediante una combinación de carpetas en red, hojas de cálculo y la memoria del equipo. Esto genera problemas concretos:</p>
+
+<ul>
+<li><strong>Duplicidad:</strong> el mismo clip existe en múltiples ubicaciones con nombres inconsistentes</li>
+<li><strong>Metadatos huérfanos:</strong> se pierde la traza de códecs, resoluciones, duración y origen</li>
+<li><strong>Flujos de trabajo opacos:</strong> no hay forma de saber si un clip está aprobado, en revisión o archivado</li>
+<li><strong>Búsqueda ineficiente:</strong> localizar "esa toma del dron sobre el lago" requiere revisar carpetas manualmente</li>
+<li><strong>Colaboración limitada:</strong> los equipos trabajan sin visibilidad del estado de cada activo</li>
+</ul>
+
+<p>La consola analizada aborda todos estos puntos desde una perspectiva técnica sólida, empleando patrones de diseño tomados de sistemas distribuidos y motores de búsqueda, adaptados al entorno del navegador.</p>
+
+<hr>
+
+<h2>2. Arquitectura general: offline-first con IndexedDB</h2>
+
+<p>La decisión arquitectónica más importante es la <strong>ausencia total de backend</strong>. Toda la lógica de negocio, persistencia y búsqueda reside en el cliente. Esto se sustenta en tres pilares:</p>
+
+<h3>2.1. Dexie.js como capa de persistencia</h3>
+
+<p><strong>Dexie.js</strong> es un wrapper minimalista sobre IndexedDB que proporciona una API síncrona y promisificada, consultas indexadas y <strong>soporte para migraciones de esquema con versionado</strong>. La base de datos define tres tablas principales:</p>
+
+<ul>
+<li><code>videos</code> — índice primario por ID (hash basado en nombre, tamaño y fecha) con índices secundarios en name, type, serverTag, catalogDate, duration, size, favorite y workflowState</li>
+<li><code>rules</code> — reglas de auto-etiquetado con prioridad y estado enabled/disabled</li>
+<li><code>scenes</code> — marcadores de escena vinculados a videos</li>
+<li><code>auditLog</code> — registro de auditoría con índice sobre videoId</li>
+<li><code>notes</code> — notas con soporte de @menciones</li>
+</ul>
+
+<p>El esquema incluye <strong>tres versiones de migración</strong>, lo que permite evolucionar la estructura de datos sin pérdida de información. Los IDs se generan mediante una función hash simple: <code>vid_{hash36}_{size}</code>, donde hash36 es una representación en base-36 de un hash de string sobre <code>name::size::lastModified</code>.</p>
+
+<h3>2.2. Zustand como capa de estado</h3>
+
+<p><strong>Zustand</strong> gestiona el estado reactivo con tres stores: <code>video-store</code> (catálogo completo, selección, filtros activos), <code>undo-history</code> (historial de deshacer/rehacer) y <code>preferences</code> (configuración de columnas, paginación, toggles de UI persistidos en localStorage).</p>
+
+<p>La comunicación entre Dexie (persistencia) y Zustand (estado en memoria) sigue un patrón <strong>CQRS ligero</strong>: las escrituras pasan por el sistema de acciones con soporte de undo, y las lecturas se sirven desde el store en memoria con sincronización posterior.</p>
+
+<h3>2.3. Virtual Scrolling con @tanstack/react-virtual</h3>
+
+<p>El DataGrid principal maneja potencialmente miles de registros mediante <strong>virtual scrolling</strong>. Solo se renderizan los elementos visibles en el viewport, más un buffer de seguridad. Esto permite mantener una interfaz fluida incluso con catálogos extensos sin paginación tradicional.</p>
+
+<hr>
+
+<h2>3. Motor de auto-etiquetado: un sistema de reglas forward-chaining</h2>
+
+<p>Uno de los componentes más interesantes es el <strong>auto-tagger</strong>, implementado en <code>src/lib/auto-tagger.ts</code>. Se trata de un motor de inferencia simple basado en <strong>forward chaining</strong> (encadenamiento hacia adelante):</p>
+
+<h3>3.1. Condiciones disponibles (10 tipos)</h3>
+
+<table>
+<tr><td><code>path_contains</code></td><td>La ruta del archivo contiene un substring</td></tr>
+<tr><td><code>name_contains</code></td><td>El nombre contiene un substring</td></tr>
+<tr><td><code>name_matches</code></td><td>Expresión regular sobre el nombre</td></tr>
+<tr><td><code>resolution_is</code></td><td>Resolución exacta (e.g. 3840x2160)</td></tr>
+<tr><td><code>resolution_gte</code></td><td>Resolución mayor o igual (compara ancho)</td></tr>
+<tr><td><code>format_is</code></td><td>Extensión de archivo exacta</td></tr>
+<tr><td><code>duration_gte</code></td><td>Duración en segundos mayor o igual</td></tr>
+<tr><td><code>duration_lte</code></td><td>Duración en segundos menor o igual</td></tr>
+<tr><td><code>size_gte</code></td><td>Tamaño en bytes mayor o igual</td></tr>
+<tr><td><code>server_tag_is</code></td><td>Etiqueta de servidor exacta</td></tr>
+</table>
+
+<p>Todas las condiciones dentro de una regla usan <strong>lógica AND</strong>. Las reglas se evalúan en orden de prioridad (valor numérico, menor = mayor prioridad).</p>
+
+<h3>3.2. Acciones de regla</h3>
+
+<p>Cada regla puede ejecutar tres tipos de acciones: <code>addKeywords[]</code> (agrega etiquetas al video), <code>setServerTag</code> (asigna servidor lógico, solo si no tiene uno), <code>setWorkflowState</code> (transiciona el workflow, validando contra la máquina de estados).</p>
+
+<p>El sistema soporta <strong>modo preview</strong> (dry run) mediante <code>previewRuleMatches()</code>, que ejecuta las reglas sin persistir cambios y devuelve estadísticas de coincidencia por regla. Esto permite al usuario validar la configuración antes de aplicarla.</p>
+
+<hr>
+
+<h2>4. Detector de escenas por histograma</h2>
+
+<p>El detector de escenas (<code>src/lib/scene-detector.ts</code>) opera en dos modos:</p>
+
+<h3>4.1. Análisis real por histograma</h3>
+
+<p>Cuando el usuario proporciona el archivo de video, se utiliza el elemento <code>&lt;video&gt;</code> de HTML5 + Canvas API para:</p>
+
+<ol>
+<li>Muestrear fotogramas a intervalos configurables (default: 1 segundo)</li>
+<li>Extraer histogramas de color simplificados: 16 bins × 3 canales (RGB) = 48 valores por fotograma</li>
+<li>Calcular la <strong>distancia chi-cuadrado (χ²)</strong> entre histogramas consecutivos</li>
+<li>Normalizar la distancia al rango [0, 1] con un divisor empírico de 10</li>
+<li>Detectar corte cuando la distancia >= umbral (default: 0.4)</li>
+<li>Garantizar duración mínima de escena de 2 segundos (antifalsos positivos)</li>
+<li>Límite máximo de 30 escenas</li>
+<li>Capturar thumbnail JPEG (160px) en cada inicio de escena</li>
+<li>Timeout de seguridad de 30 segundos con fallback a segmentación inteligente</li>
+</ol>
+
+<h3>4.2. Segmentación inteligente (fallback)</h3>
+
+<p>Sin archivo de video, se aplican heurísticas basadas en duración:</p>
+<ul>
+<li>&lt; 30s → 1 segmento (clip completo)</li>
+<li>&lt; 120s → 3 segmentos (inicio, desarrollo, cierre)</li>
+<li>&lt; 600s → segmentos de 10 segundos</li>
+<li>≥ 600s → segmentos de 30 segundos</li>
+</ul>
+
+<p><strong>Fundamento teórico:</strong> La distancia chi-cuadrado es una métrica estadística estándar para comparar histogramas. Se usa ampliamente en visión por computadora para detección de cambios de plano. Su fórmula es: <code>χ²(H1, H2) = Σ (H1[i] - H2[i])² / H2[i]</code>. Un valor alto indica una diferencia significativa en la distribución de color entre dos fotogramas consecutivos, lo que sugiere un cambio de escena.</p>
+
+<hr>
+
+<h2>5. Flujo de trabajo de 6 estados (máquina de estados finitos)</h2>
+
+<p>El workflow de revisión se modela como una <strong>máquina de estados finitos (FSM)</strong> con transiciones estrictas:</p>
+
+<pre><code>INGESTADO ──→ EN_REVISION ──→ APROBADO ──→ EN_POST_PRODUCCION ──→ FINALIZADO ──→ ARCHIVADO
+    │              │              │
+    └──→ APROBADO  └──→ INGESTADO └──→ ARCHIVADO
+                                    └──→ EN_POST_PRODUCCION</code></pre>
+
+<p>Estados: <strong>INGESTADO, EN_REVISION, APROBADO, EN_POST_PRODUCCION, FINALIZADO, ARCHIVADO</strong> (terminal).</p>
+
+<figure style="margin:2rem 0">
+  <img src="/images/video-console-workflow.jpg" alt="Interfaz de revisión de la Consola de Gestión de Activos de Video mostrando el WorkflowBadge y controles de ReviewMode" style="width:100%;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.3)" loading="lazy" />
+  <figcaption style="text-align:center;font-size:0.85rem;color:#888;margin-top:0.5rem"><em>ReviewMode: interfaz inmersiva de revisión con decisión Aprueba/Rechaza/Marca/Salta, rating de 5 estrellas, campo de comentarios y barra de progreso de la sesión.</em></figcaption>
+</figure>
+
+<p>El componente <code>WorkflowBadge</code> muestra el estado actual con código de colores y permite transiciones mediante menú desplegable, validando siempre contra el mapa de transiciones. Las transiciones se registran en el audit log y se integran con el sistema de undo.</p>
+
+<p>El <strong>ReviewMode</strong> ofrece una experiencia inmersiva a pantalla completa con 4 decisiones (Aprobar/Rechazar/Marcar/Saltar) accesibles por teclado, sistema de rating de 5 estrellas y campo de comentarios por decisión. Cada acción queda registrada en la bitácora de auditoría.</p>
+
+<hr>
+
+<h2>6. Sistema de auditoría con Event Sourcing</h2>
+
+<p>El módulo de auditoría (<code>src/lib/audit-log.ts</code>) implementa una variante del patrón <strong>Event Sourcing</strong>. Cada modificación sobre un video genera un <code>AuditEntry</code> inmutable que contiene:</p>
+
+<ul>
+<li>Timestamp Unix, tipo de acción y descripción legible</li>
+<li><strong>Snapshot before/after</strong> (campos seleccionados, excluyendo thumbnails y datos binarios)</li>
+<li><strong>Diff computado</strong> (<code>computeDiff()</code>) que compara estado anterior vs nuevo, con manejo especial para arrays (keywords)</li>
+<li>Diferencias formateadas como <code>{ from: unknown; to: unknown }</code> por campo</li>
+</ul>
+
+<p>El panel <code>VersionHistoryPanel</code> permite:</p>
+<ul>
+<li>Ver todas las entradas de auditoría para un video</li>
+<li>Expandir cada entrada para ver el diff visual (compacto o detallado)</li>
+<li><strong>Rollback</strong> a cualquier punto anterior: restaura el <code>snapshotBefore</code> a la base de datos</li>
+<li>Indicadores de tipo de cambio: verde (añadido), rojo (eliminado), ámbar (modificado)</li>
+</ul>
+
+<p>Este diseño permite trazar la historia completa de cada activo desde su ingesta, lo que es crucial en entornos de producción donde la trazabilidad es requisito contractual.</p>
+
+<hr>
+
+<h2>7. Exportación a DOCX con gráficos embebidos</h2>
+
+<p>Uno de los features más potentes es la generación de reportes DOCX (<code>src/lib/exporters.ts</code>) desde el navegador, sin servidor intermedio. El reporte incluye:</p>
+
+<ul>
+<li><strong>Portada</strong> con título, fecha, total de clips, almacenamiento y duración</li>
+<li><strong>Tabla resumen ejecutivo</strong> con indicadores clave</li>
+<li><strong>4 gráficos incrustados</strong> generados con Canvas API y renderizados a 2x DPI para calidad de impresión:
+  <ul>
+  <li>Distribución de formatos (gráfico donut)</li>
+  <li>Distribución de estados de workflow (donut)</li>
+  <li>Línea de tiempo de ingesta (barras, últimos 12 meses)</li>
+  <li>Distribución de resoluciones (barras horizontales)</li>
+  </ul>
+</li>
+<li><strong>Evaluación de salud del catálogo</strong> con completitud por campo</li>
+<li><strong>Tabla detallada de activos</strong> con 11 columnas</li>
+<li>Paleta de colores oscura (#1e293b), tipografía Calibri, filas alternadas</li>
+</ul>
+
+<p>La generación de gráficos utiliza únicamente la API de Canvas, sin librerías externas de charting. Los gráficos se convierten a PNG en data URI y se embeben en el documento DOCX mediante la librería <code>docx</code>. Esto elimina cualquier dependencia de servidores de renderizado externos.</p>
+
+<hr>
+
+<h2>8. Búsqueda fuzzy con algoritmo Bitap adaptativo</h2>
+
+<p>El motor de búsqueda (<code>src/lib/fuzzy-search.ts</code>) implementa un algoritmo <strong>Bitap adaptativo</strong> con scoring ponderado:</p>
+
+<h3>8.1. Pipeline de búsqueda</h3>
+
+<ol>
+<li>Si el query está vacío → sin filtro</li>
+<li>Si <code>fuzzyEnabled</code> y <code>isFuzzyQuery()</code> retorna true → intenta coincidencia exacta/wildcard primero; si no hay resultados, cae a fuzzy</li>
+<li>Si no es fuzzy query → wildcard search (convierte * → .* , ? → .)</li>
+</ol>
+
+<h3>8.2. Fórmula de scoring</h3>
+
+<p>Cuatro componentes ponderados:</p>
+<ul>
+<li><strong>Compacidad (30%)</strong> — qué tan cerca están los caracteres coincidentes (span ratio)</li>
+<li><strong>Proximidad (20%)</strong> — qué tan cerca del inicio de la cadena</li>
+<li><strong>Consecutividad (35%)</strong> — los caracteres consecutivos tienen mayor peso</li>
+<li><strong>Penalización de gap (15%)</strong> — penaliza huecos entre coincidencias</li>
+</ul>
+
+<p>El umbral de relevancia es configurable (default: 0.4). Los resultados incluyen <strong>highlighting</strong> mediante nodos React con tags <code>&lt;mark&gt;</code> para las posiciones coincidentes.</p>
+
+<hr>
+
+<h2>9. Sistema de deshacer/rehacer con soporte de 50 acciones</h2>
+
+<p>Implementado en <code>src/lib/undo-history.ts</code> como store de Zustand con dos pilas (past/future). Cada acción almacena funciones <code>inverse()</code> y <code>redo()</code> que permiten navegar hacia adelante y atrás. El límite es de 50 acciones, desplazando las más antiguas cuando se excede.</p>
+
+<p>Tipos de acción soportados: UPDATE_VIDEO, DELETE_VIDEO, DELETE_VIDEOS, TOGGLE_FAVORITE, ADD_VIDEOS, BULK_UPDATE.</p>
+
+<p>Los videos eliminados no se pierden: van a un <strong>recycle bin</strong> en memoria (módulo con funciones <code>getRecycleBin()</code>, <code>restoreFromRecycleBin()</code>, <code>clearRecycleBin()</code>) desde donde pueden restaurarse mediante undo.</p>
+
+<hr>
+
+<h2>10. Dashboard de salud y métricas del catálogo</h2>
+
+<figure style="margin:2rem 0">
+  <img src="/images/video-console-dashboard.jpg" alt="HealthDashboard de la Consola de Gestión de Activos de Video con puntuación global y métricas de completitud" style="width:100%;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.3)" loading="lazy" />
+  <figcaption style="text-align:center;font-size:0.85rem;color:#888;margin-top:0.5rem"><em>Panel de salud del catálogo: puntaje global 49%, distribución de formatos (MP4, MOV, AVI), etiquetado, duplicados y tendencias de ingesta.</em></figcaption>
+</figure>
+
+<p>El HealthDashboard (<code>HealthDashboard.tsx</code>) ofrece una vista integral de la calidad del catálogo con un <strong>puntaje global</strong> (0-100%) calculado como combinación ponderada de:</p>
+
+<ul>
+<li><strong>Completitud (30%)</strong> — qué porcentaje de campos están rellenados por tipo de campo</li>
+<li><strong>Índice de etiquetado (30%)</strong> — proporción de videos con keywords asignadas</li>
+<li><strong>Tasa de no etiquetados (20%)</strong> — penalización por videos sin tags</li>
+<li><strong>Penalización por duplicados (20%)</strong> — detección de duplicados por nombre y tamaño</li>
+</ul>
+
+<p>El dashboard presenta 5 pestañas: Completitud, Etiquetado, Duplicados, Workflow y Tendencias (ingesta por mes/día, almacenamiento por formato/resolución, actividad 7/30 días).</p>
+
+<hr>
+
+<h2>11. Gestión de configuración: import/export con merge</h2>
+
+<p>El sistema de configuración (<code>src/lib/config-manager.ts</code>) permite exportar e importar la configuración completa de la aplicación en formato JSON:</p>
+
+<ul>
+<li><strong>Export:</strong> preferencias de UI, reglas de auto-tagging, filtros guardados</li>
+<li><strong>Import:</strong> validación de estructura, preview con advertencias de versión, dos modos:
+  <ul>
+  <li><strong>Merge:</strong> añade columnas nuevas, combina reglas con detección de duplicados por ID, añade filtros preservados</li>
+  <li><strong>Replace:</strong> reemplaza reglas y filtros, preservando columnas congeladas</li>
+  </ul>
+</li>
+</ul>
+
+<p>Esto permite transferir configuraciones entre equipos, versiones de la aplicación o instancias de navegador.</p>
+
+<hr>
+
+<h2>12. Fundamentos teóricos y patrones de diseño</h2>
+
+<p>La consola incorpora varios patrones y conceptos de la ingeniería de software:</p>
+
+<table>
+<tr><th>Patrón</th><th>Implementación</th></tr>
+<tr><td><strong>Offline-First</strong></td><td>Toda la lógica y datos residen en el cliente; la red es opcional</td></tr>
+<tr><td><strong>Event Sourcing</strong></td><td>Audit log almacena eventos de cambio con snapshots para time-travel debugging</td></tr>
+<tr><td><strong>CQRS</strong></td><td>Escrituras vía sistema de acciones con undo; lecturas desde store Zustand</td></tr>
+<tr><td><strong>Forward Chaining</strong></td><td>Motor de reglas de auto-etiquetado evalúa condiciones en orden de prioridad</td></tr>
+<tr><td><strong>Bitap Algorithm</strong></td><td>Búsqueda fuzzy adaptada con scoring multicomponente</td></tr>
+<tr><td><strong>Chi-Squared Distance</strong></td><td>Detección de escenas por comparación de histogramas de color</td></tr>
+<tr><td><strong>LRU Cache</strong></td><td>Caché de thumbnails con capacidad de 200 y política de desalojo por uso reciente</td></tr>
+<tr><td><strong>FSM (Máquina de Estados Finitos)</strong></td><td>Workflow de 6 estados con transiciones validades</td></tr>
+</table>
+
+<hr>
+
+<h2>13. Alternativas de escalabilidad</h2>
+
+<p>Para entornos de producción más grandes o equipos colaborativos, la arquitectura actual puede evolucionar:</p>
+
+<ol>
+<li><strong>Base de datos servidor:</strong> Reemplazar IndexedDB por PostgreSQL/SQLite usando el esquema Prisma ya definido, con una API REST o GraphQL como fachada</li>
+<li><strong>Sincronización multi-usuario:</strong> Implementar WebSockets o Server-Sent Events para colaboración en tiempo real sobre el catálogo</li>
+<li><strong>Almacenamiento en la nube:</strong> Integrar con S3 o Azure Blob Storage para hosting de videos con entrega CDN</li>
+<li><strong>Búsqueda escalable:</strong> Sustituir el motor fuzzy in-memory por Elasticsearch o MeiliSearch para catálogos de escala petabyte</li>
+<li><strong>Detección de escenas en servidor:</strong> Mover el análisis de histogramas a un Web Worker o a un pipeline de FFmpeg server-side para procesar videos largos sin timeout</li>
+<li><strong>Autenticación y permisos:</strong> Añadir sistema de roles (admin, editor, viewer) con políticas de acceso por proyecto</li>
+</ol>
+
+<hr>
+
+<h2>Conclusión</h2>
+
+<p>La Consola de Gestión de Activos de Video representa un enfoque técnicamente sólido para un problema real de la industria audiovisual. Su arquitectura offline-first, el uso de patrones como Event Sourcing y CQRS adaptados al navegador, y la implementación de algoritmos clásicos (Bitap, chi-cuadrado) demuestran que es posible construir herramientas profesionales de gestión de activos sin depender de infraestructura backend.</p>
+
+<p>Para un realizador audiovisual con perfil técnico como quien esto escribe, esta consola no solo resuelve un problema práctico —organizar y encontrar material de archivo— sino que también representa un caso de estudio fascinante de cómo los principios de la ingeniería de software se aplican al flujo de trabajo creativo.</p>
+
+<p><small>Código fuente: proyecto personal "video-console-proyecto" — Desarrollado con Next.js 16, Dexie.js, Zustand, shadcn/ui y Tailwind CSS v4</small></p>`,
+        contentEn: `<h1>Video Asset Management Console: offline-first architecture for modern media production</h1>
+
+<p><em>In modern media production, the volume of raw footage grows exponentially. A mid-length documentary can easily generate 2-3 TB of material. Without an asset management system, finding a specific clip becomes a time-consuming task that eats into post-production budgets.</em></p>
+
+<p>This article presents an in-depth technical analysis of a <strong>Video Asset Management Console</strong> built with Next.js 16, designed as a fully client-side application with IndexedDB persistence. We explore its offline-first architecture, auto-tagging rule engine, histogram-based scene detector, 6-state workflow FSM, event sourcing audit trail, and DOCX report generation with embedded Canvas charts.</p>
+
+<p>Key technical highlights include: a forward-chaining rule engine with 10 condition types, a scene detector using chi-squared distance on color histograms, an adaptive Bitap fuzzy search with 4-component scoring, a full undo/redo system with 50-action history and recycle bin, and a catalog health dashboard with weighted scoring metrics.</p>
+
+<p>The architecture follows patterns such as Event Sourcing (audit log with snapshots for time-travel debugging), CQRS (Zustand for reads, action system for writes), and Offline-First design (all data and logic in the browser, no server required).</p>
+
+<p>For scalability, the current IndexedDB layer can be replaced with PostgreSQL via the existing Prisma schema, in-memory fuzzy search can be upgraded to Elasticsearch, and real-time collaboration can be added through WebSockets.</p>
+
+<p><small>Source code: personal project "video-console-proyecto" — Built with Next.js 16, Dexie.js, Zustand, shadcn/ui and Tailwind CSS v4</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '18 min de lectura',
+        readTimeEn: '18 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=1200&h=630&fit=crop',
+        imageCaption: 'Interfaz de la Consola de Gestión de Activos de Video mostrando el DataGrid virtualizado con miniaturas, filtros y etiquetas.',
+        categoryEs: 'Análisis Técnico',
+        categoryEn: 'Technical Analysis',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        breaking: false,
+        source: 'Análisis Propio',
+        sourceUrl: 'https://freddydev.net/blog',
+        location: 'La Paz, Bolivia'
+      },
+      // ============================================================
       // FIN DE NOTICIAS
     ];
 
