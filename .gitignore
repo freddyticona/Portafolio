@@ -23,6 +23,15 @@ fotos colacion de grado licenciatur/
 fotos articulos/
 fotos trabajo/
 
+# Archivos fuente originales (no commiteadas a git)
+archivos/
+
+# Imágenes raw en src/assets (versiones .webp optimizadas están en public/)
+
+# Archivos temporales / procesamiento
+badabun-*.md
+QR MERCANTIL.jpeg
+
 # Imágenes generadas por scripts de optimización (regenerables, no commitear)
 public/images/behind-scenes-webp/
 public/images-optimized/
