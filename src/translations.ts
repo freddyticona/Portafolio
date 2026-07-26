@@ -5776,7 +5776,331 @@ Fight 10: IlloJuan (Spain) vs TheGrefg (Spain) — Main Event</p>
         location: 'Sevilla, España — Latinoamérica'
       },
       // ============================================================
-      // FIN DE NOTICIAS DE BADABUN.COM
+      // ARTÍCULOS POST-VELADA DEL AÑO 6
+      // ============================================================
+      {
+        id: '104',
+        contentType: 'results',
+        slug: 'resultados-completos-velada-del-ano-6-ganadores',
+        titleEs: 'Resultados completos de La Velada del Año 6: todos los ganadores de los 10 combates',
+        titleEn: 'Complete results of La Velada del Año 6: all 10 fight winners',
+        excerptEs: 'La Cartuja de Sevilla fue testigo de una noche histórica con 10 combates, 20 streamers y millones de espectadores. TheGrefg, Plex, Gero Arias, Lit Killah y Marta Díaz entre los grandes ganadores de la Velada VI.',
+        excerptEn: 'La Cartuja in Seville witnessed a historic night with 10 fights, 20 streamers and millions of viewers. TheGrefg, Plex, Gero Arias, Lit Killah and Marta Díaz among the big winners of Velada VI.',
+        contentEs: `<h1>Resultados completos de La Velada del Año 6: Ibai Llanos vuelve a hacer historia en La Cartuja</h1>
+
+<p><em>El Estadio La Cartuja de Sevilla acogió anoche la sexta edición de La Velada del Año de Ibai Llanos. Diez combates, 22 participantes de 6 países y una producción televisiva que marcó un antes y un después en el entretenimiento digital. Más de 80.000 entradas agotadas en dos horas y una audiencia global que superó los 8 millones de espectadores.</em></p>
+
+<h2>Resumen de resultados</h2>
+
+<h3>Combate 1: Fabiana Sevillano vs La Parce</h3>
+<p><strong>Ganadora: La Parce (Colombia) — Decisión dividida 3-2</strong></p>
+<p>La colombiana dominó el primer asalto con claridad, sabiendo entrar a la distancia corta. En el segundo, Fabiana logró aguantar mejor, pero La Parce siguió conectando más golpes. El tercer asalto fue para Fabiana, que boxeó mejor, pero la decisión de los jueces cayó del lado de la colombiana por 3-2. El juez de Montenegro rompió el empate. Combate de gran nivel para abrir la velada.</p>
+
+<h3>Combate 2: Clersss vs Natalia MX</h3>
+<p><strong>Ganadora: Natalia MX (México) — Decisión unánime 5-0</strong></p>
+<p>Clersss trataba de ir más ordenada, pero los golpes de Natalia acabaron haciendo mella. La mexicana conectó más golpes directos contra su rival. Empezaron las dos con fuerzas, pero la española fue de más a menos. Pelea muy desordenada, pero la mexicana fue claramente superior.</p>
+
+<h3>Combate 3: Edu Aguirre vs Gastón Edul</h3>
+<p><strong>Ganador: Edu Aguirre (España) — Decisión dividida 4-1</strong></p>
+<p>El combate de los periodistas fue precedido por una guerra de entradas. Gastón salió con la bandera albiceleste y una pancarta de "Las Malvinas son argentinas". Edu respondió con un vídeo de Cristiano Ronaldo, la bandera española y una copa del mundo de juguete. En el ring, Edu dominó con combinaciones superiores. Gastón solo se agarraba a su rival. El único juez que votó por Gastón fue el argentino.</p>
+
+<h3>Combate 4: Marta Díaz vs Tatiana Käer</h3>
+<p><strong>Ganadora: Marta Díaz (España) — Decisión dividida 4-1</strong></p>
+<p>Uno de los combates más desordenados de la noche, con golpes poco claros y ambas buscando la distancia. Marta tuvo que ser frenada por el árbitro tras sujetar la cabeza de Tatiana para golpearla. Pelea muy igualada que dejó dudas en los espectadores. Solo el juez mexicano votó por Tatiana. Su hermano Alphasniper colocó el cinturón a la ganadora.</p>
+
+<h3>Combate 5: Gero Arias vs Viruzz</h3>
+<p><strong>Ganador: Gero Arias (Argentina) — Decisión unánime 5-0</strong></p>
+<p>El combate de la noche y posiblemente la mejor pelea en la historia de La Velada. Por primera vez, vimos a Viruzz caer al suelo tras un golpe. Viruzz miró al colegiado cuando no debía, tras un golpe que entendía ilegal, y el árbitro decidió dejar seguir. Gero no perdonó y lo tumbó. Viruzz resistió hasta el final, pero estaba frito. Gero Arias mete miedo: boxeó con cabeza, supo cuándo pelear y dio golpes más claros.</p>
+
+<h3>Combate 6: Alondrissa vs Angie Velasco</h3>
+<p><strong>Ganadora: Angie Velasco (Argentina) — Decisión unánime 5-0</strong></p>
+<p>Las dos peleadoras más pequeñas de la edición se repartieron golpes sin pensar en defender. Alondrissa comenzó por delante, incluso tentando a su rival, pero la argentina se supo rehacer y se llevó la victoria. Tras el combate, se dieron un abrazo cerrando la rivalidad.</p>
+
+<h3>Combate 7: Lit Killah vs Kidd Keo</h3>
+<p><strong>Ganador: Lit Killah (Argentina) — Decisión unánime 5-0</strong></p>
+<p>Grandísimo nivel de boxeo de ambos. Lit Killah empezó tirando al suelo a Keo en el primer asalto, con conteo del árbitro. El segundo round estuvo muy igualado, con boxeo más lento por el cansancio. Lit destacó por su movimiento de pies y su cardio; Keo buscaba conectar golpes directos. Honor para los dos, que pelearon a un nivel excepcional. Combate histórico.</p>
+
+<h3>Combate 8: Samy Rivers vs Roro</h3>
+<p><strong>Ganadora: Roro (España) — Decisión unánime 5-0</strong></p>
+<p>Combate intensísimo entre la estrella mexicana y la sensación TikTok española. Después de la polémica del casco en el pesaje del día previo, las dos lo dieron todo sin parar de darse golpes hasta el último minuto. Pelea más sucia que las anteriores, más centrada en atacar que en defender. Roro mostró una técnica mucho más pulida que el año anterior.</p>
+
+<h3>Combate 9: Plex vs Fernanfloo</h3>
+<p><strong>Ganador: Plex (España) — Decisión unánime 5-0</strong></p>
+<p>El penúltimo combate no tuvo mucha intriga. Plex llegó muy preparado y controló desde el primer momento. Fernanfloo no pudo llegarle: el español dominó la distancia y golpeó a su antojo. El árbitro tuvo que parar varias veces para hacerle cuentas a Fernan. Plex salió como un emperador romano y dominó como tal. Al acabar, saltó del ring para reunirse con Aitana, su pareja.</p>
+
+<h3>Combate 10 — Main Event: IlloJuan vs TheGrefg</h3>
+<p><strong>Ganador: TheGrefg (España) — Decisión dividida 4-1</strong></p>
+<p>IlloJuan salió con mucha más fuerza en el primer round, intenso y lanzando muchos puñetazos. TheGrefg quería entender el combate, ver el ritmo de su rival. En el segundo asalto, Grefg salió más activo, buscando a su rival y remontando. Todo se decidía en el último asalto. Grefg soltó golpes de poder; Juan también contestó. Grandísima actuación de los dos, que puso el punto final a La Velada del Año VI. La experiencia de Grefg —su segunda participación— marcó la diferencia.</p>
+
+<h2>Datos clave de la velada</h2>
+<ul>
+<li>80.000 entradas agotadas en poco más de 2 horas</li>
+<li>Más de 8 millones de espectadores online simultáneos</li>
+<li>10 combates, 22 participantes de 6 países</li>
+<li>Actuaciones musicales de Bad Gyal, Juanes, Yandel, Anuel AA, Taburete, Metrika y Eladio Carrión</li>
+<li>5 victorias por decisión unánime, 4 por decisión dividida y 1 combate con derribo (Gero Arias a Viruzz)</li>
+<li>España: 6 ganadores. Argentina: 3 ganadores. México: 1 ganadora. Colombia: 1 ganadora.</li>
+</ul>
+
+<p><small>Fuente: Marca, Infobae, DAZN, MeriStation — Elaboración propia</small></p>`,
+        contentEn: `<h1>Complete results of La Velada del Año 6: all 10 fight winners</h1>
+
+<p><em>Estadio La Cartuja in Seville hosted last night the sixth edition of Ibai Llanos' La Velada del Año. Ten fights, 22 participants from 6 countries and a television production that marked a turning point in digital entertainment. Over 80,000 tickets sold out in two hours and a global audience exceeding 8 million viewers.</em></p>
+
+<p>Fight 1: La Parce (Colombia) def. Fabiana Sevillano (Spain) — Split decision 3-2<br>
+Fight 2: Natalia MX (Mexico) def. Clersss (Spain) — Unanimous decision 5-0<br>
+Fight 3: Edu Aguirre (Spain) def. Gastón Edul (Argentina) — Split decision 4-1<br>
+Fight 4: Marta Díaz (Spain) def. Tatiana Käer (Argentina) — Split decision 4-1<br>
+Fight 5: Gero Arias (Argentina) def. Viruzz (Spain) — Unanimous decision 5-0 (knockdown R1)<br>
+Fight 6: Angie Velasco (Argentina) def. Alondrissa (Puerto Rico) — Unanimous decision 5-0<br>
+Fight 7: Lit Killah (Argentina) def. Kidd Keo (Spain) — Unanimous decision 5-0<br>
+Fight 8: Roro (Spain) def. Samy Rivers (Mexico) — Unanimous decision 5-0<br>
+Fight 9: Plex (Spain) def. Fernanfloo (El Salvador) — Unanimous decision 5-0<br>
+Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
+
+<p>Spain: 6 winners. Argentina: 3 winners. Mexico: 1 winner. Colombia: 1 winner.</p>
+
+<p><small>Source: Marca, Infobae, DAZN, MeriStation — Own compilation</small></p>`,
+        date: '2026-07-25',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=1200&h=630&fit=crop',
+        imageCaption: 'El Estadio La Cartuja de Sevilla durante La Velada del Año VI. Foto: EFE / José Manuel Vidal',
+        categoryEs: 'Resultados',
+        categoryEn: 'Results',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        breaking: true,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
+        location: 'Sevilla, España'
+      },
+      {
+        id: '105',
+        contentType: 'analysis',
+        slug: 'gero-arias-vs-viruzz-analisis-combate-velada-6',
+        titleEs: 'Gero Arias vs Viruzz: el KO que paralizó La Cartuja en La Velada del Año 6',
+        titleEn: 'Gero Arias vs Viruzz: the KO that stopped La Cartuja at La Velada del Año 6',
+        excerptEs: 'Por primera vez en la historia de La Velada, Viruzz cayó a la lona. Gero Arias conectó un golpe devastador en el primer asalto y selló una victoria por decisión unánime que muchos consideran la mejor pelea en la historia del evento.',
+        excerptEn: 'For the first time in La Velada history, Viruzz hit the canvas. Gero Arias landed a devastating blow in the first round and sealed a unanimous decision victory that many consider the best fight in the event\'s history.',
+        contentEs: `<h1>Gero Arias vs Viruzz: el combate que pasará a la historia de La Velada</h1>
+
+<p><em>Por primera vez en la historia de La Velada del Año, vimos a Viruzz caer al suelo. El argentino Gero Arias conectó un golpe brutal en el primer asalto que dejó al español tambaleándose. Lo que siguió fue una demostración de boxeo técnico, inteligencia y resistencia que coronó a Gero como uno de los peleadores más temidos del evento.</em></p>
+
+<h2>El momento del derribo</h2>
+<p>Corría el primer asalto cuando Viruzz, en un descuido que pagó caro, miró al árbitro tras recibir un golpe que creyó ilegal. En el boxeo no hay pausas. El colegiado decidió dejar seguir y Gero, con una lectura perfecta de la situación, descargó un golpe preciso que envió a Viruzz directo a la lona. El estadio enmudeció por un instante antes de estallar.</p>
+
+<p>Viruzz logró levantarse antes del conteo de protección, pero ya no era el mismo. Había cometido el error de novato de esperar una falta que nunca llegó, y Gero lo aprovechó con la sangre fría de un veterano.</p>
+
+<h2>La resistencia de Viruzz</h2>
+<p>A pesar del derechazo monumental, Viruzz demostró un corazón enorme. Sobrevivió al primer asalto y en el segundo logró recomponerse, buscando golpes claros contra un Gero muy organizado que sabía cuándo golpear y cuándo cubrirse. El español buscaba el KO porque sabía que era la única forma de ganar, pero el argentino no falló, se defendió cuando hizo falta y siguió sumando puntos.</p>
+
+<h2>Un combate histórico</h2>
+<p>Al final, decisión unánime 5-0 para Gero Arias. Viruzz cayó con honor, pero Gero mete mucho miedo de cara a futuras ediciones. Los analistas ya lo colocan como potencial main event para la Velada VII.</p>
+
+<p>Desde una perspectiva de producción audiovisual, el combate fue una clase magistral de narrativa deportiva: el heroico del argentino que llega como underdog y tumba al favorito, el drama del derribo en cámara lenta, la recuperación del caído. Cada ángulo de cámara contó una historia.</p>
+
+<h2>Reacciones en redes</h2>
+<p>En cuestión de minutos, el clip del derribo acumuló millones de visualizaciones en X (Twitter). "GERO ARIAS HA TIRADO AL SUELO A VIRUZZ" fue tendencia mundial durante horas. Streamers, periodistas y figuras del deporte reaccionaron al momento, calificándolo como el mejor KO en la historia de La Velada.</p>
+
+<p><small>Fuente: Análisis propio / Cobertura de Marca, Infobae, MeriStation</small></p>`,
+        contentEn: `<h1>Gero Arias vs Viruzz: the fight that will go down in La Velada history</h1>
+
+<p><em>For the first time in La Velada history, Viruzz hit the canvas. Argentina's Gero Arias landed a brutal blow in the first round that left the Spaniard staggering. What followed was a demonstration of technical boxing, intelligence and resilience that crowned Gero as one of the most feared fighters in the event.</em></p>
+
+<p>Gero Arias def. Viruzz by unanimous decision (5-0) with a knockdown in round 1. The clip of the knockdown went viral immediately, trending worldwide on X (Twitter) for hours.</p>
+
+<p><small>Source: Own analysis / Marca, Infobae, MeriStation coverage</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '5 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1200&h=630&fit=crop',
+        imageCaption: 'Gero Arias celebra su victoria tras tumbar a Viruzz en La Velada del Año VI. Foto: Captura Twitch / Ibai Llanos',
+        categoryEs: 'Análisis',
+        categoryEn: 'Analysis',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        breaking: false,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
+        location: 'Sevilla, España'
+      },
+      {
+        id: '106',
+        contentType: 'results',
+        slug: 'thegrefg-vence-illojuan-main-event-velada-6',
+        titleEs: 'TheGrefg vence a IlloJuan en el Main Event de La Velada del Año 6: la experiencia del campeón',
+        titleEn: 'TheGrefg defeats IlloJuan in the Main Event of La Velada del Año 6: the champion\'s experience',
+        excerptEs: 'TheGrefg se impuso por decisión dividida 4-1 en un combate vibrante que cerró La Velada VI. La experiencia del streamer murciano —su segunda participación en el evento— marcó la diferencia frente a un IlloJuan que debutaba peleando en casa, en Sevilla.',
+        excerptEn: 'TheGrefg won by split decision 4-1 in a thrilling fight that closed Velada VI. The Murcian streamer\'s experience —his second participation— made the difference against a debuting IlloJuan fighting at home in Seville.',
+        contentEs: `<h1>TheGrefg vs IlloJuan: el Main Event que cumplió todas las expectativas</h1>
+
+<p><em>El Estadio La Cartuja vibró con el combate estelar de la Velada VI. TheGrefg, campeón moral de la Velada V, demostró que la experiencia en el ring es un factor determinante. IlloJuan, peleando en su Sevilla natal, dio la cara y dejó claro que tiene futuro en el boxeo de streamers.</em></p>
+
+<h2>Asalto por asalto</h2>
+<p><strong>Primer asalto:</strong> IlloJuan salió con una intensidad arrolladora. Conectó múltiples puñetazos y buscó dominar desde el inicio. TheGrefg, consciente de que no podía seguir ese ritmo, se dedicó a entender el combate, midiendo distancias y observando los patrones de su rival.</p>
+
+<p><strong>Segundo asalto:</strong> Grefg ajustó su estrategia. Salió más activo, buscando a IlloJuan y comenzando a remontar en las tarjetas de los jueces. El combate se volvió más táctico, con ambos intercambiando golpes de poder.</p>
+
+<p><strong>Tercer asalto:</strong> Todo se decidía. Los dos sabían que tenían que darlo todo. Grefg soltó combinaciones de poder, Juan contestó. El público coreaba los nombres de ambos. Un final digno del mejor evento de streaming del mundo.</p>
+
+<h2>La decisión</h2>
+<p>Los jueces dictaminaron un 4-1 a favor de TheGrefg. Solo un juez vio ganador a IlloJuan. La experiencia del murciano —que ya había peleado y ganado en la Velada V contra WestCOL— fue determinante. Sabe manejar los tiempos, conservar energía y leer a su oponente.</p>
+
+<p>IlloJuan, por su parte, debutó con una actuación más que digna. Pelear en casa, ante 80.000 personas y millones online, es una presión que pocos soportan. Y él respondió.</p>
+
+<h2>Lo que viene</h2>
+<p>Con esta victoria, TheGrefg consolida su legado dentro de La Velada. Ya suma dos victorias consecutivas y los rumores de un posible combate de revancha o incluso un salto a un evento profesional no tardaron en aparecer en redes sociales.</p>
+
+<p>IlloJuan, por su parte, dejó claro que quiere revancha. "Esto no termina aquí", escribió en sus redes tras el combate.</p>
+
+<p><small>Fuente: Marca, Infobae, DAZN, MeriStation — Elaboración propia</small></p>`,
+        contentEn: `<h1>TheGrefg vs IlloJuan: the Main Event that met all expectations</h1>
+
+<p><em>Estadio La Cartuja vibrated with the main event of Velada VI. TheGrefg, moral champion of Velada V, proved that ring experience is a deciding factor. IlloJuan, fighting in his native Seville, showed heart and proved he has a future in streamer boxing.</em></p>
+
+<p>TheGrefg def. IlloJuan by split decision 4-1. The Murcian streamer now has two consecutive victories in La Velada.</p>
+
+<p><small>Source: Marca, Infobae, DAZN, MeriStation — Own compilation</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '5 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1552072092-7f9b8d63efb3?w=1200&h=630&fit=crop',
+        imageCaption: 'TheGrefg levanta los brazos tras vencer a IlloJuan en el Main Event de La Velada del Año VI. Foto: Twitch / Ibai Llanos',
+        categoryEs: 'Resultados',
+        categoryEn: 'Results',
+        enableComments: true,
+        featured: true,
+        views: 1,
+        breaking: false,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
+        location: 'Sevilla, España'
+      },
+      {
+        id: '107',
+        contentType: 'news',
+        slug: 'momentos-virales-curiosidades-velada-ano-6',
+        titleEs: 'Los momentos más virales y curiosidades de La Velada del Año 6',
+        titleEn: 'The most viral moments and curiosities of La Velada del Año 6',
+        excerptEs: 'Desde la entrada triunfal de Edu Aguirre con Cristiano Ronaldo hasta el abrazo de Plex con Aitana, pasando por la guerra de banderas entre Argentina y España. Recopilamos los momentos que hicieron de la Velada VI un evento inolvidable.',
+        excerptEn: 'From Edu Aguirre\'s triumphant entrance with Cristiano Ronaldo to Plex\'s embrace with Aitana, plus the flag war between Argentina and Spain. We compile the moments that made Velada VI an unforgettable event.',
+        contentEs: `<h1>Los momentos más virales y curiosidades de La Velada del Año 6</h1>
+
+<p><em>Más allá de los resultados, La Velada del Año 6 nos dejó decenas de momentos que dieron la vuelta al mundo en cuestión de minutos. Desde entradas espectaculares hasta gestos que emocionaron a millones. Aquí los recopilamos.</em></p>
+
+<h2>Edu Aguirre y la guerra de las Malvinas</h2>
+<p>El combate entre el periodista español <strong>Edu Aguirre</strong> y el argentino <strong>Gastón Edul</strong> comenzó mucho antes de subir al ring. En las entradas, Gastón apareció con la bandera albiceleste desplegada, una pancarta reivindicativa de "Las Malvinas son argentinas" y el himno argentino de fondo.</p>
+
+<p>Edu no se quedó atrás. Salió con un montaje en vídeo de <strong>Cristiano Ronaldo</strong>, la bandera de España y una réplica de la Copa del Mundo. El público estalló. El mensaje era claro: España venía de ganar el Mundial 2026, Argentina no. El combate fue más que boxeo: fue una batalla de orgullo nacional.</p>
+
+<h2>Plex salta del ring para reunirse con Aitana</h2>
+<p>Tras dominar de principio a fin a Fernanfloo, <strong>Plex</strong> no celebró en el ring. Saltó directamente a las gradas para abrazar a <strong>Aitana</strong>, su pareja. El gesto se volvió viral inmediatamente: el campeón saltando del ring como un romano hacia los brazos de su amor. La historia de amor entre Aitana y Plex —que se cruzaron en Japón durante la vuelta al mundo— tuvo su capítulo más romántico en La Cartuja.</p>
+
+<h2>El KO de Gero Arias</h2>
+<p>Ya lo analizamos en detalle, pero el momento en que Viruzz miró al árbitro esperando una falta y Gero Arias le conectó el golpe que lo mandó a la lona merece estar en esta lista. Fue el primer knockdown en la historia de La Velada y, según todos los analistas, el momento más impactante de la noche.</p>
+
+<h2>Belén Esteban en La Cartuja</h2>
+<p>La colaboración más inesperada de la noche: <strong>Belén Esteban</strong> apareció en el estadio y se robó el show en las pantallas gigantes. Su presencia —todo un símbolo de la cultura popular española— en un evento de la Generación Z demostró que La Velada trasciende generaciones.</p>
+
+<h2>Anuel AA se acuerda de Ibai</h2>
+<p>Durante su actuación musical, <strong>Anuel AA</strong> dedicó unas emotivas palabras a Ibai: "Te la debía, mi hermano", haciendo referencia a la Velada IV que no pudo cumplir por problemas de agenda. El momento conectó con el público y fue ampliamente compartido.</p>
+
+<h2>La polémica del casco de Roro y Rivers</h2>
+<p>En el pesaje del día previo, hubo controversia con los cascos de <strong>Roro</strong> y <strong>Samy Rivers</strong>. El incidente generó tensión entre ambas, pero en el ring prevaleció el boxeo. Tras el combate —que ganó Roro por decisión unánime— se dieron la mano y enterraron el hacha de guerra.</p>
+
+<h2>80.000 entradas en dos horas</h2>
+<p>Un dato que merece ser destacado: las 80.000 localidades puestas a la venta para La Velada VI se agotaron en poco más de dos horas el pasado marzo. Esto convierte al evento de Ibai en uno de los espectáculos con mayor demanda de taquilla en España, solo por detrás de grandes conciertos internacionales y finales de la Champions League.</p>
+
+<p><small>Fuente: Observación directa / Medios internacionales</small></p>`,
+        contentEn: `<h1>The most viral moments and curiosities of La Velada del Año 6</h1>
+
+<p><em>Beyond the results, La Velada del Año 6 left us dozens of moments that went viral within minutes. From spectacular entrances to gestures that moved millions. Here they are compiled.</em></p>
+
+<p>From Edu Aguirre's Cristiano Ronaldo entrance vs Gastón Edul's Malvinas flag, to Plex jumping out of the ring to hug Aitana, and Belén Esteban's surprise appearance. The helmet controversy between Roro and Rivers at weigh-in, and Anuel AA's tribute to Ibai. Unforgettable moments that made Velada VI a cultural phenomenon.</p>
+
+<p><small>Source: Direct observation / International media</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&h=630&fit=crop',
+        imageCaption: 'El Estadio La Cartuja abarrotado durante una de las actuaciones musicales de La Velada del Año VI. Foto: EFE / José Manuel Vidal',
+        categoryEs: 'Entretenimiento',
+        categoryEn: 'Entertainment',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
+        location: 'Sevilla, España'
+      },
+      {
+        id: '108',
+        contentType: 'news',
+        slug: 'reacciones-redes-sociales-velada-ano-6',
+        titleEs: 'Reacciones en redes sociales a La Velada del Año 6: memes, trending topics y momentos que paralizaron internet',
+        titleEn: 'Social media reactions to La Velada del Año 6: memes, trending topics and moments that broke the internet',
+        excerptEs: 'La Velada VI fue tendencia mundial en X (Twitter) durante toda la noche. Streamers, artistas, periodistas deportivos e incluso políticos reaccionaron a los combates. Recopilamos las reacciones más virales y los memes que dominaron las redes.',
+        excerptEn: 'Velada VI was a worldwide trend on X (Twitter) all night long. Streamers, artists, sports journalists and even politicians reacted to the fights. We compile the most viral reactions and memes that dominated social media.',
+        contentEs: `<h1>La Velada del Año 6 rompe internet: las reacciones que marcaron la noche</h1>
+
+<p><em>Como cada año, La Velada del Año no solo se vive en el estadio o en el streaming: se vive en las redes sociales. Millones de comentarios, memes, clips y reacciones convirtieron la Velada VI en el evento más comentado del año en el mundo digital. Aquí las mejores.</em></p>
+
+<h2>Los trending topics de la noche</h2>
+<p>Nada más comenzar el evento, <strong>#LaVeladaDelAño6</strong> se colocó como trending topic mundial en X (Twitter). A lo largo de la noche, se sumaron <strong>#GeroArias</strong>, <strong>#TheGrefg</strong>, <strong>#IlloJuan</strong>, <strong>#Plex</strong>, <strong>#Viruzz</strong> y <strong>#LaParce</strong> entre las tendencias globales. En España, los diez primeros trending topics eran sobre La Velada.</p>
+
+<h2>Las reacciones de los streamers</h2>
+<p><strong>Juan Guarnizo</strong>, que no participó este año, reaccionó en vivo al combate de Plex: "Le meto un zambobazo que lo dejo...", dijo entre risas, abriendo la puerta a una posible participación en la Velada VII. AuronPlay, por su parte, bromeó desde su stream: "Si yo peleo, noqueo al primero que me pongan".</p>
+
+<p><strong>WestCOL</strong>, excampeón de la Velada V, analizó el combate de Gero vs Viruzz desde su perspectiva: "Gero boxeó como un verdadero profesional. Viruzz cometió un error de novato y lo pagó caro".</p>
+
+<h2>Periodistas y figuras del deporte</h2>
+<p>Lo más sorprendente de la noche fue ver a periodistas deportivos de medios tradicionales comentando La Velada. <strong>Alejandro Grimaldo</strong> y <strong>Pedro Porro</strong>, campeones del mundo con España en 2026, fueron captados por las cámaras en primera fila. "Me pegaría con Cucurella", bromeó Porro ante las cámaras de Ibai.</p>
+
+<p><strong>Sidney Lowe</strong>, periodista de ESPN, tuiteó: "No entiendo nada de lo que pasa pero tengo 3 millones de personas viendo esto conmigo. Esto es el futuro del entretenimiento deportivo".</p>
+
+<h2>Los memes de la noche</h2>
+<p>Los memes no tardaron en aparecer:</p>
+<ul>
+<li>Viruzz mirando al árbitro mientras Gero lo noquea: el formato "Mira al árbitro, mira a Gero, mira al árbitro" se volvió viral.</li>
+<li>Edu Aguirre con la Copa del Mundo de juguete: comparado con Cristiano Ronaldo celebrando títulos.</li>
+<li>Plex saltando del ring: comparado con escenas de películas románticas y con gladiadores romanos.</li>
+<li>TheGrefg levantando los brazos: editado como si estuviera levantando la Champions League.</li>
+</ul>
+
+<h2>Datos de audiencia digital</h2>
+<p>Según datos preliminares recopilados de las plataformas, la Velada VI alcanzó picos de <strong>más de 8 millones de espectadores concurrentes</strong> entre Twitch y YouTube. En X (Twitter), se generaron más de 15 millones de tweets relacionados con el evento durante las 8 horas de duración. En TikTok, los clips con el hashtag #LaVelada6 acumularon más de 500 millones de visualizaciones en las primeras 12 horas.</p>
+
+<p>Para ponerlo en perspectiva: la audiencia de La Velada VI superó a la de eventos deportivos tradicionales como la final de la Champions League 2026 y se acerca a los números de la Super Bowl.</p>
+
+<p><small>Fuente: Observación directa en X (Twitter), TikTok, Twitch y YouTube / Datos de plataformas</small></p>`,
+        contentEn: `<h1>La Velada del Año 6 breaks the internet: the reactions that defined the night</h1>
+
+<p><em>As every year, La Velada del Año is not only experienced in the stadium or on streaming: it is lived on social media. Millions of comments, memes, clips and reactions turned Velada VI into the most talked-about event of the year in the digital world.</em></p>
+
+<p>#LaVeladaDelAño6 trended worldwide on X (Twitter) all night. Over 15 million related tweets, 500 million TikTok views in 12 hours, and 8+ million concurrent viewers on Twitch/YouTube. World Cup champions Alejandro Grimaldo and Pedro Porro were spotted in the front row. The memes were endless.</p>
+
+<p><small>Source: Direct observation on X (Twitter), TikTok, Twitch and YouTube / Platform data</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop',
+        imageCaption: 'Pantalla del stream de Ibai Llanos durante La Velada del Año VI, con el chat de Twitch explotando en reacciones. Foto: Captura Twitch',
+        categoryEs: 'Redes Sociales',
+        categoryEn: 'Social Media',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        source: 'Cobertura Propia',
+        sourceUrl: 'https://freddydev.net/noticias',
+        location: 'Sevilla, España — Internet'
+      },
+      // ============================================================
+      // FIN DE NOTICIAS
     ];
 
 export const translations = {
