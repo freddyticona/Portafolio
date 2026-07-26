@@ -6439,8 +6439,6 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         featured: true,
         views: 1,
         breaking: false,
-        source: 'Análisis Propio',
-        sourceUrl: 'https://freddydev.net/blog',
         location: 'La Paz, Bolivia'
       },
       // ============================================================
