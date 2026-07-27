@@ -5,7 +5,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { PortfolioItem } from '../types';
-import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase } from 'lucide-react';
+import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase, Play } from 'lucide-react';
 import LazyImage from './LazyImage';
 
 interface PortfolioGridProps {
@@ -128,10 +128,19 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                     </span>
                   </div>
 
+                  {/* Play button overlay for video items */}
+                  {item.videoUrl && (
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                      <div className="w-14 h-14 rounded-full bg-gold/90 text-black flex items-center justify-center shadow-xl shadow-gold/20">
+                        <Play className="w-6 h-6 ml-0.5" />
+                      </div>
+                    </div>
+                  )}
+
                   {/* Hover overlay with Icon */}
                   <div className="absolute inset-0 bg-[#050505]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
                     <div className="w-10 h-10 rounded-full bg-gold text-black flex items-center justify-center shadow-lg transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                      <Eye className="w-5 h-5" />
+                      {item.videoUrl ? <Play className="w-5 h-5 ml-0.5" /> : <Eye className="w-5 h-5" />}
                     </div>
                   </div>
 
@@ -210,13 +219,25 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               {/* Modal Body */}
             <div className="p-6 md:p-8 space-y-6 md:space-y-8">
               
-              {/* Media Container - Show first image from gallery */}
+              {/* Media Container - Video or Image */}
               <div className="w-full rounded-sm overflow-hidden border border-white/5 bg-[#020202]">
-                <LazyImage
-                  src={activeItem.images?.[0] || activeItem.imageUrl}
-                  alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
-                  className="w-full max-h-[500px] object-contain mx-auto"
-                />
+                {activeItem.videoUrl ? (
+                  <div className="aspect-video relative">
+                    <iframe
+                      src={activeItem.videoUrl}
+                      title={lang === 'es' ? activeItem.title : activeItem.titleEn}
+                      className="absolute inset-0 w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                ) : (
+                  <LazyImage
+                    src={activeItem.images?.[0] || activeItem.imageUrl}
+                    alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
+                    className="w-full max-h-[500px] object-contain mx-auto"
+                  />
+                )}
               </div>
 
               {/* Details Content */}

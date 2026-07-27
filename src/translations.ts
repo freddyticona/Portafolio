@@ -344,6 +344,50 @@ export const certificates: Certificate[] = [
 
 export const portfolioItems: PortfolioItem[] = [
   {
+    id: 'world-atomic-week-2025',
+    title: 'World Atomic Week 2025 — Foro Internacional de la Industria Nuclear (Moscú)',
+    titleEn: 'World Atomic Week 2025 — International Nuclear Industry Forum (Moscow)',
+    category: 'cobertura-int',
+    categoryLabelEs: 'Cobertura Internacional',
+    categoryLabelEn: 'International Coverage',
+    roleEs: 'Camarógrafo y Productor de Campo',
+    roleEn: 'Field Cameraman and Producer',
+    year: '2025',
+    clientEs: 'Cobertura Internacional — Moscú, Rusia',
+    clientEn: 'International Coverage — Moscow, Russia',
+    descriptionEs: 'Cobertura del foro internacional World Atomic Week 2025, el mayor evento dedicado a la industria nuclear y afines, celebrado en Moscú en el VDNKh. El foro conmemoró el 80.º aniversario de la industria nuclear rusa y contó con la presencia de representantes de los líderes de los países que desarrollan programas nucleares, destacados expertos mundiales y directivos de grandes empresas. Del 25 al 28 de septiembre de 2025.',
+    descriptionEn: 'Coverage of the World Atomic Week 2025 international forum, the largest event dedicated to the nuclear industry and related fields, held in Moscow at VDNKh. The forum commemorated the 80th anniversary of the Russian nuclear industry and featured representatives from leading countries developing nuclear programs, top global experts, and senior executives from major corporations. September 25-28, 2025.',
+    imageUrl: 'https://img.youtube.com/vi/6CL4rVpVOYU/hqdefault.jpg',
+    images: [
+      'https://img.youtube.com/vi/6CL4rVpVOYU/hqdefault.jpg'
+    ],
+    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
+    techDetailsEs: ['Cámara Sony FX9', 'Lentes Prime', 'Micrófonos de Ambiente y Lavalier', 'Producción de Campo Internacional'],
+    techDetailsEn: ['Sony FX9 Camera', 'Prime Lenses', 'Ambient and Lavalier Microphones', 'International Field Production']
+  },
+  {
+    id: 'intento-golpe-estado-bolivia-2024',
+    title: 'Intento de Golpe de Estado en Bolivia 2024 — Toma de la Plaza Murillo',
+    titleEn: 'Coup Attempt in Bolivia 2024 — Plaza Murillo Takeover',
+    category: 'politica',
+    categoryLabelEs: 'Política',
+    categoryLabelEn: 'Politics',
+    roleEs: 'Camarógrafo de Primera Línea',
+    roleEn: 'Frontline Cameraman',
+    year: '2024',
+    clientEs: 'Cobertura Nacional — La Paz, Bolivia',
+    clientEn: 'National Coverage — La Paz, Bolivia',
+    descriptionEs: 'Cobertura del intento de golpe de Estado en Bolivia del 26 de junio de 2024, cuando un grupo de miembros de las Fuerzas Armadas de Bolivia, liderados por el entonces comandante general del Ejército, Juan José Zúñiga, tomaron la Plaza Murillo, plaza principal de la ciudad de La Paz donde se encuentra el palacio Quemado, antigua sede del gobierno boliviano. Registro en primera línea del despliegue militar, la represión y la respuesta ciudadana.',
+    descriptionEn: 'Coverage of the June 26, 2024 coup attempt in Bolivia, when a group of Armed Forces members led by then Army commander Juan José Zúñiga took over Plaza Murillo, the main square in La Paz where the Quemado Palace, former seat of the Bolivian government, is located. Frontline recording of the military deployment, repression, and citizen response.',
+    imageUrl: 'https://img.youtube.com/vi/INagReojtOM/hqdefault.jpg',
+    images: [
+      'https://img.youtube.com/vi/INagReojtOM/hqdefault.jpg'
+    ],
+    videoUrl: 'https://www.youtube.com/embed/INagReojtOM',
+    techDetailsEs: ['Cámara Sony FX9', 'Lente Zoom Gran Angular', 'Micrófono de Ambiente', 'Transmisión IP en Vivo', 'Equipo de Protección Personal'],
+    techDetailsEn: ['Sony FX9 Camera', 'Wide-Angle Zoom Lens', 'Ambient Microphone', 'Live IP Transmission', 'Personal Protective Equipment']
+  },
+  {
     id: 'documental-tipnis',
     title: 'Documental en el TIPNIS: Médico "Mi Salud"',
     titleEn: 'TIPNIS Documentary: "Mi Salud" Doctor',
