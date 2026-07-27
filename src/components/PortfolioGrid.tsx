@@ -19,6 +19,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [activeItem, setActiveItem] = useState<PortfolioItem | null>(null);
+  const [activeGalleryImage, setActiveGalleryImage] = useState<string | null>(null);
 
   const categories = useMemo(() => {
     return [
@@ -329,7 +330,11 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                   </h4>
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {activeItem.images.map((img, idx) => (
-                      <div key={idx} className="aspect-video rounded-sm overflow-hidden bg-[#020202] border border-white/5 hover:border-gold/30 transition-all duration-300">
+                      <div
+                        key={idx}
+                        onClick={() => setActiveGalleryImage(img)}
+                        className="aspect-video rounded-sm overflow-hidden bg-[#020202] border border-white/5 hover:border-gold/30 transition-all duration-300 cursor-pointer"
+                      >
                         <LazyImage
                           src={img}
                           alt={`${lang === 'es' ? activeItem.title : activeItem.titleEn} - ${idx + 1}`}
@@ -342,6 +347,27 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               )}
             </div>
           </div>
+        </div>
+      )}
+
+      {/* Full-screen image viewer */}
+      {activeGalleryImage && (
+        <div
+          className="fixed inset-0 z-[60] bg-[#050505]/95 flex items-center justify-center p-4 backdrop-blur-sm animate-fadeIn cursor-pointer"
+          onClick={() => setActiveGalleryImage(null)}
+        >
+          <button
+            onClick={() => setActiveGalleryImage(null)}
+            className="absolute top-4 right-4 p-2 rounded-sm bg-[#020202] hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
+          >
+            <X className="w-6 h-6" />
+          </button>
+          <img
+            src={activeGalleryImage}
+            alt="Gallery"
+            className="max-w-full max-h-[90vh] object-contain rounded-sm"
+            onClick={(e) => e.stopPropagation()}
+          />
         </div>
       )}
     </div>
