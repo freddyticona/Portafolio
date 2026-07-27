@@ -7080,6 +7080,343 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         source: 'Rotten Tomatoes / Metacritic / Variety / RogerEbert.com',
         sourceUrl: 'https://editorial.rottentomatoes.com/article/everything-we-know-about-the-odyssey/'
       },
+      {
+        id: '121',
+        contentType: 'news',
+        slug: 'cuanto-vale-tu-outfit-velada-6-ibai',
+        titleEs: '¿Cuánto vale tu outfit? La Velada del Año 6: derroche y lujo en la alfombra roja de La Cartuja',
+        titleEn: 'How Much Is Your Outfit? La Velada del Año 6: Luxury and Extravagance on the Red Carpet at La Cartuja',
+        excerptEs: 'Ibai Llanos revivió su clásico «¿Cuánto vale tu outfit?» en la Velada 6 con cifras récord: Westcol lidera con 261.020$ entre cadenas y relojes, mientras Luzu presume un reloj de 10.000€.',
+        excerptEn: 'Ibai Llanos revived his classic "How Much Is Your Outfit?" at Velada 6 with record-breaking numbers: Westcol leads with $261,020 in chains and watches, while Luzu shows off a €10,000 watch.',
+        contentEs: `<h1>¿Cuánto vale tu outfit? La Velada del Año 6: derroche y lujo en la alfombra roja de La Cartuja</h1>
+
+<p><em>Como ya es tradición después de cada Velada del Año, Ibai Llanos recorrió el Estadio La Cartuja de Sevilla preguntando a los invitados cuánto dinero gastaron en sus outfits. La sexta edición no defraudó: desde los 261.020 dólares de Westcol hasta los humildes 210 de Fernanfloo, pasando por el valor sentimental de Ibai y la ocurrencia de Quackity de llegar vestido por su familia.</em></p>
+
+<p>El video <strong>"¿Cuánto vale tu outfit?"</strong> se ha convertido en un clásico post-Velada tan esperado como los propios combates. En esta edición, Ibai nos dio un recorrido por los looks más impactantes de la noche, con sorpresas, risas y cifras que dejaron a más de uno con la boca abierta.</p>
+
+<img src="/images/blog/velada6/westcol.png" alt="Westcol - Total: 261.020$" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Westcol lidera el ranking con un outfit valorado en 261.020 dólares.</p>
+
+<h2>🏆 Westcol: el rey indiscutible — 261.020$</h2>
+<p>El colombiano se llevó la corona del outfit más caro de la Velada 6 con una inversión total de <strong>261.020 dólares</strong>. ¿El secreto? Una cadena de <strong>195.000$</strong> y un reloj de <strong>60.000$</strong>. El conjunto en sí costaba 2.300$, el bolso 2.400$ y los zapatos 1.300$. Hasta los calcetines eran de marca: 20€. Una verdadera declaración de poderío sobre la alfombra roja.</p>
+
+<img src="/images/blog/velada6/ibai llanos.png" alt="Ibai Llanos - Pantalones 700€ + Zapatillas 800€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Ibai Llanos, el anfitrión, con un look de aproximadamente 3.600€.</p>
+
+<h2>👔 Ibai Llanos: el anfitrión con estilo — ±3.600€</h2>
+<p>El propio Ibai también se sometió al cuestionario. Sus pantalones: 700€, zapatillas: más de 800€, calcetines: 7€, camiseta: 150€, camisa: 710€, gafas: más de 350€ y un reloj de 900€. Pero lo más valioso de su look fueron los <strong>accesorios con valor sentimental</strong>, esos que no tienen precio.</p>
+
+<img src="/images/blog/velada6/martha diaz.png" alt="Marta Díaz - Total: 1.550€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Marta Díaz con un conjunto de 1.550€ y el premio más codiciado: haber ganado su combate.</p>
+
+<h2>🥊 Marta Díaz: 1.550€ + ganar una Velada</h2>
+<p>Marta Díaz combinó estilo y victoria. Su conjunto costó <strong>1.550€</strong>, pero como ella misma dijo, el cinturón y el anillo que se llevó esa noche valían "mucho esfuerzo". La campeona demostró que el verdadero lujo es ganar en el ring.</p>
+
+<h2>📸 Galería de outfits completos</h2>
+<p>Aquí puedes ver el desglose completo de cada look presentado en el video:</p>
+
+<p style="font-weight:bold">Cada imagen incluye el nombre del creador y su presupuesto total con el desglose por prenda que apareció en pantalla durante el video de Ibai.</p>`,
+        contentEn: `<h1>How Much Is Your Outfit? La Velada del Año 6: Luxury on the Red Carpet at La Cartuja</h1>
+
+<p><em>As tradition dictates after every Velada del Año, Ibai Llanos walked through Estadio La Cartuja in Seville asking guests how much they spent on their outfits. The sixth edition did not disappoint: from Westcol's $261,020 to Fernanfloo's humble $210, including Ibai's sentimental accessories and Quackity's family-dressed look.</em></p>
+
+<p>The <strong>"How Much Is Your Outfit?"</strong> video has become a post-Velada classic as anticipated as the fights themselves. In this edition, Ibai took us through the most striking looks of the night, with surprises, laughs, and jaw-dropping numbers.</p>
+
+<h2>🏆 Westcol: The Undisputed King — $261,020</h2>
+<p>The Colombian took the crown for the most expensive outfit at Velada 6 with a total investment of <strong>$261,020</strong>. The secret? A <strong>$195,000</strong> chain and a <strong>$60,000</strong> watch. The outfit itself cost $2,300, the bag $2,400, and the shoes $1,300. Even the socks were designer: €20. A true statement of power on the red carpet.</p>
+
+<h2>👔 Ibai Llanos: The Stylish Host — ±€3,600</h2>
+<p>Ibai himself also answered the question. His pants: €700, sneakers: over €800, socks: €7, t-shirt: €150, shirt: €710, glasses: over €350, and a €900 watch. But the most valuable items were the <strong>sentimental accessories</strong>, those with no price tag.</p>
+
+<h2>🥊 Marta Díaz: €1,550 + Winning a Velada</h2>
+<p>Marta Díaz combined style and victory. Her outfit cost <strong>€1,550</strong>, but as she said, the belt and ring she took that night were worth "a lot of effort." The champion proved that true luxury is winning in the ring.</p>`,
+        date: '2026-07-28',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '5 min read',
+        imageUrl: '/images/blog/velada6/westcol.png',
+        imageCaption: 'Westcol lidera el ranking de outfits de la Velada 6 con 261.020$',
+        categoryEs: 'Streaming',
+        categoryEn: 'Streaming',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        editorialPick: true,
+        topicOfDay: 'Velada del Año 6',
+        views: 845,
+        location: 'Sevilla, España',
+        source: 'Ibai Llanos - YouTube',
+        sourceUrl: 'https://www.youtube.com/watch?v=1rcaS1J12hs'
+      },
+      {
+        id: '122',
+        contentType: 'news',
+        slug: 'outfits-velada-6-desglose-completo-influencers',
+        titleEs: 'De AuronPlay a Luzu: el desglose completo de todos los outfits de la Velada del Año 6',
+        titleEn: 'From AuronPlay to Luzu: The Complete Breakdown of Every Outfit at La Velada del Año 6',
+        excerptEs: 'Repaso completo de los 18 participantes del famoso video de Ibai: AuronPlay (2.508€), Spreen (3.530€), TheGrefg, Thiago PZK (11.900€) y muchos más con sus respectivos presupuestos.',
+        excerptEn: 'Complete review of all 18 participants in Ibai\'s famous video: AuronPlay (€2,508), Spreen (€3,530), TheGrefg, Thiago PZK (€11,900) and many more with their respective budgets.',
+        contentEs: `<h1>De AuronPlay a Luzu: el desglose completo de todos los outfits de la Velada del Año 6</h1>
+
+<p><em>Más de 18 influencers pasaron por el cuestionario de Ibai en La Cartuja. Aquí tienes el desglose completo de cada look, prenda por prenda, desde los más ostentosos hasta los más humildes. Porque en la Velada, el estilo también es parte del espectáculo.</em></p>
+
+<h2>💰 Los que más gastaron</h2>
+
+<img src="/images/blog/velada6/thiago PZK.png" alt="Thiago PZK - Total: +11.900€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Thiago PZK con un outfit valorado en más de 11.900€.</p>
+
+<h3>🔥 Thiago PZK — +11.900€</h3>
+<p>El cantante argentino no escatimó en lujo: camiseta de 300€, relojes valorados en más de 10.500€, cinturón de más de 100€, pantalones de más de 500€ y zapatos de más de 500€. Un look que bien podría ser la entrada de un departamento.</p>
+
+<img src="/images/blog/velada6/luzu.png" alt="Luzu - Total: 10.145€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Luzu con un reloj de 10.000€ que disparó su total a 10.145€.</p>
+
+<h3>💫 Luzu — 10.145€</h3>
+<p>El creador argentino sorprendió con un total de 10.145€, aunque la mayor parte estaba en su muñeca: un <strong>reloj de 10.000€</strong>. La camiseta: 15€, el pantalón: 40€, las zapatillas: 30€, las gafas: 60€. Y como toque de humor, declaró que su anillo era "de Sauron".</p>
+
+<img src="/images/blog/velada6/spreen.png" alt="Spreen - Total: 3.530€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Spreen invirtió 3.530€ en su look completo.</p>
+
+<h3>🎮 Spreen — 3.530€</h3>
+<p>El streamer argentino lució un look equilibrado: camiseta de 30€, camisa de 1.000€, pantalón de 1.000€, cinturón de 600€, zapatillas de 500€ y accesorios por 400€.</p>
+
+<img src="/images/blog/velada6/auronplay.png" alt="AuronPlay - Total: 2.508€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">AuronPlay con 2.508€ y una combinación que dio mucho de qué hablar.</p>
+
+<h3>🎭 AuronPlay — 2.508€ *Aplausos*</h3>
+<p>El español siempre da espectáculo. Sus zapatillas fueron lo más caro: <strong>1.800€</strong>. El pantalón: solo 8€ (de esos que todos tenemos), la camiseta: 500€ y las gafas: 200€. Una combinación de derroche y humildad que solo él sabe lograr.</p>
+
+<img src="/images/blog/velada6/djmario.png" alt="DjMaRiiO - Total: 600€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">DjMaRiiO con 600€ en su outfit, demostrando que se puede ir elegante sin arruinarse.</p>
+
+<h2>⚡ Los de rango medio</h2>
+
+<h3>🎧 DjMaRiiO — 600€</h3>
+<p>El creador de contenido mantuvo un perfil moderado: zapatillas de 50€, pantalones de 30€, camiseta de 20€ y un <strong>reloj de 500€</strong>. Total: 600€. Prueba de que no hace falta gastar una fortuna para llegar con estilo.</p>
+
+<h3>🌊 Marina Rivers — 852€</h3>
+<p>La influencer española brilló con un total de 852€: top de 12€, vestido de 80€, zapatillas de 160€ y accesorios por <strong>600€</strong>. El poder está en los detalles.</p>
+
+<img src="/images/blog/velada6/riverss.png" alt="Marina Rivers - Total: 852€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Marina Rivers con 852€ en su look, dominando con accesorios.</p>
+
+<h3>📹 Willyrex — 390€</h3>
+<p>El youtuber español fue de los más modestos: camiseta de 90€, pantalón de 200€, zapatillas de 100€. Y como confesión, su pulsera era "para ponerse en forma para la Velada VII".</p>
+
+<h3>🐍 La Cobra — +4.060€</h3>
+<p>El argentino se lució con accesorios de más de 500€, camiseta de 860€, shorts de 700€ y unas <strong>zapatillas de 2.000€</strong>.</p>
+
+<img src="/images/blog/velada6/la cobra.png" alt="La Cobra con zapatillas de 2.000€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">La Cobra con unas zapatillas de 2.000€ como pieza estrella de su look.</p>
+
+<h2>😄 Los más particulares</h2>
+
+<h3>🦊 Fernanfloo — 210$</h3>
+<p>El youtuber salvadoreño llegó con lo básico: chanclas de 120$, polo de 20$, short de 60$ y calzoncillos de 10$. Total: 210$. Probablemente el outfit más económico de la noche.</p>
+
+<img src="/images/blog/velada6/fernanfloo.png" alt="Fernanfloo - Total: 210$" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Fernanfloo con el outfit más económico: 210$ de pies a cabeza.</p>
+
+<h3>👟 El Xokas — datos curiosos</h3>
+<p>El streamer gallego no dio un total exacto, pero sí compartió datos curiosos: camiseta de 80€, pantalón de 120€ y unas <strong>zapatillas de 3.000€</strong>. "Tiene datos curiosos de todo", bromeó Ibai.</p>
+
+<img src="/images/blog/velada6/el xokas.png" alt="El Xokas - Zapatillas de 3.000€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">El Xokas con sus zapatillas de 3.000€, el dato curioso de la noche.</p>
+
+<h3>🏛️ TheGrefg — 27.418 rupias (un poco de todo)</h3>
+<p>El murciano bromeó dando su total en rupias: camiseta de 40€, pantalones de 20€, calzoncillos de 20€, calcetines de 10€, crocs de 60€, micrófono de vlog de 100€, reloj de 100€. Pero su mejor accesorio fue el <strong>Cinturón de la Velada V</strong>, que irradiaba "AURA".</p>
+
+<img src="/images/blog/velada6/the grefg.png" alt="TheGrefg con el cinturón de la Velada V" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">TheGrefg con su cinturón de campeón de la Velada V, el accesorio más valioso.</p>
+
+<h3>🔇 Quackity: "Su familia ya no le habla"</h3>
+<p>El mexicano llegó con un look prestado de principio a fin: camisa de su padre, pantalones de su hermano, zapatos de su tío, gorra de su primo "Naiky" y gafas de su hermana "Rey Ban". La broma de Ibai: "Su familia ya no le habla". Sin duda, el outfit más original y divertido de la noche.</p>
+
+<img src="/images/blog/velada6/quackity 19 euros dice.png" alt="Quackity - Look prestado familiar" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Quackity con el outfit más original: todo prestado de su familia.</p>
+
+<h3>🇦🇷 Davo Xeneize — camiseta de "le gusta" + 210€</h3>
+<p>El periodista deportivo argentino mostró su look: pantalones de 70€, zapatillas de 140€ y una camiseta que, según dijo, "le gusta". No todo tiene que tener precio.</p>
+
+<img src="/images/blog/velada6/davo xeneixe.png" alt="Davo Xeneize con outfit de 210€" style="width:100%;max-width:600px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">Davo Xeneize con un look sencillo pero lleno de actitud.</p>
+
+<p>La Velada del Año 6 nos dejó combates inolvidables, pero también una alfombra roja llena de estilo, humor y cifras que oscilaron entre los 210$ de Fernanfloo y los 261.020$ de Westcol. Porque en la Velada, hasta los outfits son parte del espectáculo.</p>`,
+        contentEn: `<h1>From AuronPlay to Luzu: The Complete Breakdown of Every Outfit at La Velada del Año 6</h1>
+
+<p><em>Over 18 influencers went through Ibai's questionnaire at La Cartuja. Here's the complete breakdown of each look, item by item, from the most ostentatious to the most humble. Because at the Velada, style is also part of the show.</em></p>
+
+<h2>💰 The Biggest Spenders</h2>
+
+<h3>🔥 Thiago PZK — +€11,900</h3>
+<p>The Argentine singer spared no luxury: a €300 shirt, watches worth over €10,500, a belt over €100, pants over €500, and shoes over €500.</p>
+
+<h3>💫 Luzu — €10,145</h3>
+<p>The Argentine creator surprised with a total of €10,145, though most was on his wrist: a <strong>€10,000 watch</strong>. The t-shirt: €15, pants: €40, sneakers: €30, glasses: €60. His ring? "From Sauron."</p>
+
+<h3>🎮 Spreen — €3,530</h3>
+<p>The Argentine streamer showed a balanced look: €30 t-shirt, €1,000 shirt, €1,000 pants, €600 belt, €500 sneakers, and €400 in accessories.</p>
+
+<h3>🎭 AuronPlay — €2,508 *Applause*</h3>
+<p>The Spaniard always puts on a show. His sneakers were the priciest: <strong>€1,800</strong>. The pants: only €8, the t-shirt: €500, and the glasses: €200.</p>
+
+<h2>⚡ Mid-Range</h2>
+
+<h3>🎧 DjMaRiiO — €600</h3>
+<p>€50 sneakers, €30 pants, €20 t-shirt, and a <strong>€500 watch</strong>. Total: €600.</p>
+
+<h3>🌊 Marina Rivers — €852</h3>
+<p>€12 top, €80 dress, €160 sneakers, and <strong>€600</strong> in accessories.</p>
+
+<h3>📹 Willyrex — €390</h3>
+<p>€90 t-shirt, €200 pants, €100 sneakers. His bracelet was for "getting in shape for Velada VII."</p>
+
+<h3>🐍 La Cobra — +€4,060</h3>
+<p>Accessories over €500, €860 shirt, €700 shorts, and <strong>€2,000 sneakers</strong>.</p>
+
+<h2>😄 The Most Unique</h2>
+
+<h3>🦊 Fernanfloo — $210</h3>
+<p>$120 sandals, $20 polo, $60 shorts, $10 underwear.</p>
+
+<h3>👟 El Xokas — Curious facts</h3>
+<p>€80 t-shirt, €120 pants, <strong>€3,000 sneakers</strong>.</p>
+
+<h3>🏛️ TheGrefg — 27,418 rupees</h3>
+<p>His best accessory: the <strong>Velada V Champion Belt</strong>, radiating "AURA".</p>
+
+<h3>🔇 Quackity: "His family doesn't talk to him anymore"</h3>
+<p>A look borrowed from his entire family.</p>
+
+<h3>🇦🇷 Davo Xeneize — €210</h3>
+<p>A t-shirt he "likes," €70 pants, €140 sneakers.</p>`,
+        date: '2026-07-28',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: '/images/blog/velada6/auronplay.png',
+        imageCaption: 'AuronPlay con 2.508€ en su outfit: zapatillas de 1.800€ y pantalón de 8€',
+        categoryEs: 'Streaming',
+        categoryEn: 'Streaming',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        editorialPick: true,
+        topicOfDay: 'Velada del Año 6',
+        views: 723,
+        location: 'Sevilla, España',
+        source: 'Ibai Llanos - YouTube',
+        sourceUrl: 'https://www.youtube.com/watch?v=1rcaS1J12hs'
+      },
+      {
+        id: '123',
+        contentType: 'news',
+        slug: 'ranking-historico-outfits-velada-del-ano',
+        titleEs: 'Ranking histórico: los outfits más caros de todas las Veladas del Año',
+        titleEn: 'Historical Ranking: The Most Expensive Outfits in All Veladas del Año History',
+        excerptEs: 'Arcángel mantiene el récord absoluto con 998.210€ de la Velada 5, pero Westcol irrumpe en el top 3 con 261.020$. Repaso completo del ranking histórico y el de la Velada 6.',
+        excerptEn: 'Arcángel holds the absolute record at €998,210 from Velada 5, but Westcol breaks into the top 3 with $261,020. Complete review of the historical ranking and Velada 6\'s own.',
+        contentEs: `<h1>Ranking histórico: los outfits más caros de todas las Veladas del Año</h1>
+
+<p><em>Ibai no solo nos mostró los outfits de la Velada 6, sino que también presentó el ranking histórico actualizado de todas las ediciones. Arcángel sigue imbatible desde la Velada 5 con su outfit de casi un millón de euros, pero Westcol ya se cuela en el podio histórico.</em></p>
+
+<h2>🏅 Ranking Histórico Absoluto (Todas las Veladas)</h2>
+
+<img src="/images/blog/velada6/rankin historico de todas las veladas.png" alt="Ranking histórico de todas las Veladas del Año" style="width:100%;max-width:700px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">El ranking histórico de outfits más caros en la historia de La Velada del Año.</p>
+
+<ol>
+<li><strong>🥇 Arcángel</strong> (Velada 5) — 998.210€ <em>Récord absoluto</em></li>
+<li><strong>🥈 Rdjavi</strong> (Velada 5) — 398.000€</li>
+<li><strong>🥉 Westcol</strong> (Velada 6) — 261.020$ <em>Nuevo ingreso</em></li>
+<li><strong>Gangatattoo</strong> (Velada 5) — 182.440€</li>
+<li><strong>Rdjavi</strong> — 173.649€</li>
+<li><strong>Yandel</strong> — 83.040€</li>
+<li><strong>Anas Andaloussi</strong> (Velada 5) — 65.790€</li>
+<li><strong>Paconi</strong> (Velada 5) — 53.750€</li>
+<li><strong>Bad Gyal</strong> — 49.840€</li>
+<li><strong>Paconi</strong> — 48.650€</li>
+</ol>
+
+<p>Arcángel sigue siendo el rey indiscutible con su outfit de <strong>998.210€</strong> de la Velada 5, una marca que parece difícil de superar. Westcol, con su irrupción en la Velada 6, ya se coloca en el tercer puesto histórico, demostrando que el nivel de la alfombra roja no deja de crecer.</p>
+
+<h2>📊 Ranking de la Velada del Año 6</h2>
+
+<img src="/images/blog/velada6/rankin precios.png" alt="Ranking de precios de la Velada del Año 6" style="width:100%;max-width:700px;display:block;margin:20px auto;border-radius:12px" />
+<p style="text-align:center;font-style:italic;color:#888">El ranking de outfits más caros de la Velada del Año 6.</p>
+
+<ol>
+<li><strong>🥇 Westcol</strong> — 261.020$</li>
+<li><strong>🥈 Rdjavi</strong> — 173.649€</li>
+<li><strong>🥉 Yandel</strong> — 83.040€</li>
+<li><strong>Bad Gyal</strong> — 49.840€</li>
+<li><strong>Paconi</strong> — 48.650€</li>
+<li><strong>Anas Andaloussi</strong> — 34.060€</li>
+<li><strong>Pereira</strong> — 60.110€</li>
+<li><strong>Misho</strong> — 16.550€</li>
+<li><strong>Thiago PZK</strong> — 11.900€</li>
+<li><strong>Luzu</strong> — 10.145€</li>
+</ol>
+
+<p>Este ranking de la Velada 6 muestra una mezcla de streamers, cantantes y figuras del entretenimiento. Westcol arrasó, pero nombres como Yandel (83.040€) y Bad Gyal (49.840€) demuestran que los artistas invitados también vinieron a brillar con sus looks.</p>
+
+<h2>📈 La evolución del lujo en la Velada</h2>
+
+<p>Desde los humildes comienzos en Badalona hasta los 80.000 asistentes de La Cartuja, la Velada del Año ha visto una evolución brutal también en la moda. Lo que empezó como un evento de streamers con outfits casuales se ha convertido en una alfombra roja donde se ven relojes de 60.000$, cadenas de 195.000$ y conjuntos que rozan el millón de euros.</p>
+
+<p>El video "¿Cuánto vale tu outfit?" se ha consolidado como una tradición que refleja no solo el poder económico de los creadores de contenido, sino también su creatividad, humor y personalidad. Desde el derroche de Westcol hasta la humildad de Fernanfloo, pasando por el ingenio de Quackity, cada outfit cuenta una historia.</p>
+
+<p><small>Datos extraídos del video "CUANTO VALE TU OUTFIT? en LA VELADA DEL AÑO 6" de Ibai Llanos (YouTube).</small></p>`,
+        contentEn: `<h1>Historical Ranking: The Most Expensive Outfits in All Veladas del Año History</h1>
+
+<p><em>Ibai not only showed us the outfits from Velada 6 but also presented the updated historical ranking across all editions. Arcángel remains unbeaten since Velada 5 with his nearly million-euro outfit, but Westcol has already cracked the historical podium.</em></p>
+
+<h2>🏅 All-Time Historical Ranking</h2>
+
+<ol>
+<li><strong>🥇 Arcángel</strong> (Velada 5) — €998,210 <em>Absolute record</em></li>
+<li><strong>🥈 Rdjavi</strong> (Velada 5) — €398,000</li>
+<li><strong>🥉 Westcol</strong> (Velada 6) — $261,020 <em>New entry</em></li>
+<li><strong>Gangatattoo</strong> (Velada 5) — €182,440</li>
+<li><strong>Rdjavi</strong> — €173,649</li>
+<li><strong>Yandel</strong> — €83,040</li>
+<li><strong>Anas Andaloussi</strong> (Velada 5) — €65,790</li>
+<li><strong>Paconi</strong> (Velada 5) — €53,750</li>
+<li><strong>Bad Gyal</strong> — €49,840</li>
+<li><strong>Paconi</strong> — €48,650</li>
+</ol>
+
+<h2>📊 Velada 6 Ranking</h2>
+
+<ol>
+<li><strong>🥇 Westcol</strong> — $261,020</li>
+<li><strong>🥈 Rdjavi</strong> — €173,649</li>
+<li><strong>🥉 Yandel</strong> — €83,040</li>
+<li><strong>Bad Gyal</strong> — €49,840</li>
+<li><strong>Paconi</strong> — €48,650</li>
+<li><strong>Anas Andaloussi</strong> — €34,060</li>
+<li><strong>Pereira</strong> — €60,110</li>
+<li><strong>Misho</strong> — €16,550</li>
+<li><strong>Thiago PZK</strong> — €11,900</li>
+<li><strong>Luzu</strong> — €10,145</li>
+</ol>
+
+<p><small>Data extracted from the video "CUANTO VALE TU OUTFIT? en LA VELADA DEL AÑO 6" by Ibai Llanos (YouTube).</small></p>`,
+        date: '2026-07-28',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/velada6/rankin historico de todas las veladas.png',
+        imageCaption: 'Ranking histórico de los outfits más caros de todas las Veladas del Año',
+        categoryEs: 'Streaming',
+        categoryEn: 'Streaming',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        editorialPick: true,
+        topicOfDay: 'Velada del Año 6',
+        views: 612,
+        location: 'Sevilla, España',
+        source: 'Ibai Llanos - YouTube',
+        sourceUrl: 'https://www.youtube.com/watch?v=1rcaS1J12hs'
+      },
       // ============================================================
       // FIN DE NOTICIAS
     ];
