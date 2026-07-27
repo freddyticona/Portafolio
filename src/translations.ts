@@ -6486,6 +6486,262 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         location: 'La Paz, Bolivia'
       },
       // ============================================================
+      // ARTÍCULO: INCENDIOS FORESTALES ESPAÑA Y FRANCIA (DW)
+      // ============================================================
+      {
+        id: '110',
+        contentType: 'news',
+        slug: 'incendios-forestales-dramatica-situacion-espana-francia',
+        titleEs: 'Incendios: dramática situación en España y Francia',
+        titleEn: 'Wildfires: Dramatic Situation in Spain and France',
+        excerptEs: 'Los servicios de emergencia trabajan sin descanso en ambos países. El calor, la sequía y el viento dificultan las labores de extinción, mientras que miles de hectáreas de bosque son arrasadas por las llamas.',
+        excerptEn: 'Emergency services work tirelessly in both countries. Heat, drought and wind hinder extinguishing efforts as thousands of hectares of forest are devastated by flames.',
+        contentEs: `<h1>Incendios: dramática situación en España y Francia</h1>
+<p><em>Los servicios de emergencia trabajan sin descanso en ambos países. El calor, la sequía y el viento dificultan las labores de extinción, mientras que miles de hectáreas de bosque son arrasadas por las llamas.</em></p>
+<h2>Emergencia nacional en España</h2>
+<p>Debido a la gravedad de los incendios, el gobierno español ha declarado el estado de emergencia nacional en la Comunidad de Madrid y la colindante provincia de Ávila. Más de 11.500 personas han tenido que abandonar sus hogares, 10.000 de ellas solo en el área metropolitana de Madrid.</p>
+<p>El Ministerio del Interior advirtió de "condiciones meteorológicas especialmente adversas, como fuertes vientos" para el viernes. Las personas evacuadas están alojadas en albergues de emergencia; las autoridades no descartan nuevas evacuaciones.</p>
+<h2>Francia también en crisis</h2>
+<p>Francia también está atravesando una crisis. Durante semanas, el calor y la sequía han avivado repetidamente los incendios forestales en todo el país. El fuego se ha extendido ya a unas 10.000 hectáreas. Unos 80 edificios han resultado dañados, 50 de ellos completamente destruidos. Alrededor de 1.500 bomberos luchan contra las llamas.</p>
+<p>Francia cuenta con 67 aviones y helicópteros de extinción de incendios, que actualmente operan casi continuamente. Por primera vez, los aviones de extinción recogieron agua del Sena para combatir un gran incendio en el bosque de Fontainebleau. En respuesta a los graves incendios, Francia está adaptando rápidamente un avión de transporte militar Airbus A400M para operaciones de extinción, que se espera esté operativo en un plazo de diez días.</p>
+<blockquote>"La situación en ambos países sigue siendo crítica, con incendios forestales que continúan avanzando sin control en múltiples frentes." — DW</blockquote>
+<p><small>Fuente: Deutsche Welle</small></p>`,
+        contentEn: `<h1>Wildfires: Dramatic Situation in Spain and France</h1>
+<p><em>Emergency services work tirelessly in both countries. Heat, drought and wind hinder extinguishing efforts as thousands of hectares of forest are devastated by flames.</em></p>
+<h2>National emergency in Spain</h2>
+<p>Due to the severity of the fires, the Spanish government has declared a state of national emergency in the Community of Madrid and the neighboring province of Ávila. More than 11,500 people have had to leave their homes, 10,000 of them in the Madrid metropolitan area alone.</p>
+<p>France is also going through a crisis. For weeks, heat and drought have repeatedly fueled wildfires across the country. The fire has already spread to about 10,000 hectares. Some 80 buildings have been damaged, 50 of them completely destroyed. About 1,500 firefighters are fighting the flames.</p>
+<p><small>Source: Deutsche Welle</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: 'https://static.dw.com/image/78099418_800.webp',
+        imageCaption: 'Un frente de fuego avanza por los bosques de Burgohondo, España. Imagen: Ana Beltran/REUTERS',
+        categoryEs: 'Catástrofes',
+        categoryEn: 'Catastrophes',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'España y Francia',
+        source: 'Deutsche Welle',
+        sourceUrl: 'https://www.dw.com/es/incendios-forestales-en-espa%C3%B1a-y-francia/g-78118228'
+      },
+      // ============================================================
+      // ARTÍCULO: RUSIA RECLUTA EXTRANJEROS (DW)
+      // ============================================================
+      {
+        id: '111',
+        contentType: 'news',
+        slug: 'rusia-recluta-extranjeros-luchar-contra-ucrania',
+        titleEs: 'Así atrae Rusia a extranjeros para luchar contra Ucrania',
+        titleEn: 'How Russia Recruits Foreigners to Fight Against Ukraine',
+        excerptEs: 'Rusia recluta cada vez más a hombres de países pobres para enviarlos al frente en la guerra que tiene lugar en Ucrania. Engaños, coacción y promesas de salario mueven a miles a alistarse.',
+        excerptEn: 'Russia increasingly recruits men from poor countries to send them to the front in the war in Ukraine. Deception, coercion and salary promises move thousands to enlist.',
+        contentEs: `<h1>Así atrae Rusia a extranjeros para luchar contra Ucrania</h1>
+<p><em>Rusia recluta cada vez más a hombres de países pobres para enviarlos al frente en la guerra que tiene lugar en Ucrania. ¿Por qué hay gente que acepta?</em></p>
+<h2>Historias de engaño y desesperación</h2>
+<p>A los 72 años, Charles Mutoka está de luto por su hijo, Oscar Khagola Mutoka, un exsoldado keniano que viajó a Rusia en 2025 en busca de trabajo. Una semana después de partir, mandó una fotografía donde lucía en uniforme de combate. Nunca más volvió a contactar.</p>
+<p>Oscar es uno de los cerca de 27.000 extranjeros reclutados por Rusia para su guerra en Ucrania, según la Inteligencia ucraniana. Un estudio conjunto de la FIDH, Truth Hounds y la Oficina Internacional de Derechos Humanos de Kazajistán aporta pruebas de que Rusia ha establecido una red global de reclutamiento.</p>
+<p>"Este reclutamiento se dirige a personas vulnerables de todo el mundo. Los métodos empleados van desde el soborno al engaño y la coacción", dijo a DW Ilya Nusov, uno de los autores del estudio.</p>
+<h2>"No quiero morir de hambre en Cuba"</h2>
+<p>Para muchas personas que viven en las regiones más depauperadas del planeta, el salario que ofrecen las fuerzas armadas rusas es un gran incentivo. Los rusos prometieron a Yoan Mendoza, un cubano de 23 años, un salario de 1.750 euros mensuales, una suma enorme para los estándares cubanos, donde el salario promedio es de 17,5 euros al mes. Su nombre apareció posteriormente en las listas de extranjeros muertos en combate publicadas por Ucrania.</p>
+<p>Arman Mondol, de Bangladesh, fue engañado con promesas de trabajo como empacador en un almacén. Una vez en Rusia, lo obligaron a firmar un contrato en ruso que no entendía. "Cuando estábamos en una misión, siempre nos enviaban adelante mientras ellos permanecían detrás nuestro. Nos usaban como escudos humanos", contó a DW.</p>
+<h2>¿Mercenarios o víctimas?</h2>
+<p>A los extranjeros que luchan por Rusia se les suele llamar mercenarios. Sin embargo, según el derecho internacional, muchas veces adoptan la ciudadanía rusa antes de unirse a sus fuerzas armadas. Otros, reclutados bajo falsas promesas o coacción, podrían ser considerados víctimas de tráfico de personas, lo que viola la Convención de la ONU contra el Crimen Organizado Transnacional.</p>
+<p>La participación de extranjeros en la guerra está recibiendo cada vez más atención, y sus familias protestan desde Nepal hasta Perú. Según informes, Rusia restringió el reclutamiento de ciudadanos de varios países "amigos" en febrero de 2026.</p>
+<p><small>Fuente: Deutsche Welle</small></p>`,
+        contentEn: `<h1>How Russia Recruits Foreigners to Fight Against Ukraine</h1>
+<p><em>Russia increasingly recruits men from poor countries to send them to the front in the war in Ukraine. Why do people accept?</em></p>
+<p>Oscar Khagola Mutoka, a former Kenyan soldier, traveled to Russia in 2025 looking for work. A week later he sent a photo in combat uniform. He never contacted his family again. He is one of about 27,000 foreigners recruited by Russia for its war in Ukraine, according to Ukrainian intelligence.</p>
+<p>A joint study by FIDH, Truth Hounds and the Kazakhstan International Bureau for Human Rights provides evidence that Russia has established a global recruitment network targeting vulnerable people worldwide.</p>
+<p>"This recruitment targets vulnerable people around the world. The methods used range from bribery to deception and coercion," DW was told.</p>
+<p><small>Source: Deutsche Welle</small></p>`,
+        date: '2026-07-26',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://static.dw.com/image/77613175_800.webp',
+        imageCaption: 'Tres extranjeros reclutados por Rusia para su guerra en Ucrania. Imagen: DW',
+        categoryEs: 'Conflictos',
+        categoryEn: 'Conflicts',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'Rusia / Ucrania',
+        source: 'Deutsche Welle',
+        sourceUrl: 'https://www.dw.com/es/rusia-recluta-a-extranjeros-para-la-guerra-en-ucrania/a-78116235'
+      },
+      // ============================================================
+      // ARTÍCULO: TRES AÑOS DE JUNTA MILITAR EN NÍGER (DW)
+      // ============================================================
+      {
+        id: '112',
+        contentType: 'news',
+        slug: 'tres-anos-junta-militar-niger-promesas-incumplidas',
+        titleEs: 'Tres años de Junta Militar en una Níger que sigue inestable',
+        titleEn: 'Three Years of Military Junta in an Unstable Niger',
+        excerptEs: 'El gobierno militar en Níger prometió mejoras sociales y económicas cuando tomó el poder en 2023. Tres años después, hay pocas señales de que lo haya conseguido.',
+        excerptEn: 'The military government in Niger promised social and economic improvements when it took power in 2023. Three years later, there are few signs it has succeeded.',
+        contentEs: `<h1>Tres años de Junta Militar en una Níger que sigue inestable</h1>
+<p><em>El gobierno militar en Níger prometió mejoras sociales y económicas cuando tomó el poder en 2023. También quería restaurar la seguridad. Tres años después, hay pocas señales de que lo haya conseguido.</em></p>
+<h2>La incertidumbre alimenta el miedo</h2>
+<p>Han pasado tres años desde que, el 26 de julio de 2023, una junta tomó el poder en Níger. El general Abdourahamane Tiani justificó el golpe por la precaria situación de seguridad, que continúa a pesar del apoyo internacional. En la región de Tillabéry, en el suroeste del país, aumentan los ataques yihadistas. Miles de personas se ven obligadas a abandonar sus aldeas.</p>
+<p>"Hoy en día, los ataques contra las fuerzas armadas y la población civil son mucho más frecuentes y violentos que hace tres años", dice un residente de la ciudad de Téra, que prefiere permanecer en el anonimato por seguridad.</p>
+<h2>Una promesa incumplida</h2>
+<p>Además de mejorar la seguridad, Tiani anunció que combatiría la corrupción y reactivaría la economía. Sin embargo, la Comisión para la Lucha contra el Delito Económico solo ha iniciado unos pocos procedimientos penales significativos. En el Índice de Percepción de la Corrupción, Níger ocupa el puesto 124 del mundo.</p>
+<p>"Han fracasado económica y socialmente. La gente lucha por el agua potable, no hay ni agua, ni electricidad, ni combustible", dice Tahirou Garka, portavoz del G25, movimiento que busca el retorno del orden constitucional.</p>
+<h2>Alianza del Sahel y relaciones internacionales</h2>
+<p>Níger es miembro fundador de la Alianza de Estados del Sahel (AES), junto con Mali y Burkina Faso. Los tres países se han retirado de la CEDEAO y buscan acercarse a Rusia, distanciándose de los socios occidentales. Expertos esperan un posible acercamiento entre la AES y la CEDEAO en el futuro.</p>
+<p><small>Fuente: Deutsche Welle</small></p>`,
+        contentEn: `<h1>Three Years of Military Junta in an Unstable Niger</h1>
+<p><em>The military government in Niger promised social and economic improvements when it took power in 2023. Three years later, there are few signs it has succeeded.</em></p>
+<p>Three years have passed since a junta took power in Niger on July 26, 2023. General Abdourahamane Tiani justified the coup by the precarious security situation, which continues despite international support. In the Tillabéry region, jihadist attacks are increasing. Thousands of people are forced to abandon their villages.</p>
+<p>"Today, attacks against the armed forces and the civilian population are much more frequent and violent than three years ago," says a resident of Téra.</p>
+<p><small>Source: Deutsche Welle</small></p>`,
+        date: '2026-07-25',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '5 min read',
+        imageUrl: 'https://static.dw.com/image/72247625_800.webp',
+        imageCaption: 'El líder militar de Níger, Abdourahamane Tiani, ha gobernado tres años sin lograr estabilizar el país. Imagen: AFP/Getty Images',
+        categoryEs: 'Conflictos',
+        categoryEn: 'Conflicts',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'Níger',
+        source: 'Deutsche Welle',
+        sourceUrl: 'https://www.dw.com/es/tres-a%C3%B1os-de-la-junta-militar-en-n%C3%ADger-promesas-incumplidas/a-78109836'
+      },
+      // ============================================================
+      // ARTÍCULO: KEIKO FUJIMORI ASUME EN PERÚ (DW)
+      // ============================================================
+      {
+        id: '113',
+        contentType: 'news',
+        slug: 'keiko-fujimori-asume-presidencia-peru-entre-china-eeuu',
+        titleEs: 'Keiko Fujimori asume en Perú, entre China y EE. UU.',
+        titleEn: 'Keiko Fujimori Takes Office in Peru, Between China and the US',
+        excerptEs: 'La nueva presidenta de Perú promete mano dura contra la inseguridad y atraer inversiones, mientras el país se convierte en escenario clave de la disputa entre China y EE. UU.',
+        excerptEn: 'Peru\'s new president promises a hard line on security and attracting investments, as the country becomes a key battleground in the China-US rivalry.',
+        contentEs: `<h1>Keiko Fujimori asume en Perú, entre China y EE. UU.</h1>
+<p><em>La nueva presidenta de Perú promete mano dura contra la inseguridad y atraer inversiones, mientras el país se convierte en un escenario clave de la disputa entre China y EE. UU. por la influencia en América Latina.</em></p>
+<h2>Las promesas ante los desafíos internos</h2>
+<p>Keiko Fujimori asume la presidencia marcando el regreso del fujimorismo al Ejecutivo después de 25 años. Ha prometido que la seguridad será la prioridad, con ampliación de videovigilancia, centros de comando y control, refuerzo policial y construcción de cuatro megaprisiones. También propone impulsar obras de infraestructura, atraer inversión privada y modernizar el Estado mediante tecnología e inteligencia artificial.</p>
+<p>Sin embargo, la politóloga Eliana Carlin, de la PUCP, señala a DW: "La principal propuesta fue la seguridad, pero no ha mostrado un plan más amplio. Se han aprobado leyes 'procrimen' que dificultan la tipificación de organizaciones criminales. Es inconsecuente buscar solucionar problemas causados por esas mismas normas".</p>
+<h2>Chancay, el puerto que cambió el tablero regional</h2>
+<p>La inauguración del puerto de Chancay —inversión estimada de 3.500 millones de dólares, propiedad en 60% de la estatal china Cosco— ha reforzado el peso estratégico de Perú. Reducirá el tiempo de transporte marítimo entre Perú y China de 40 a 23 días. China es el principal socio comercial de Perú, con intercambio superior a 40.000 millones de dólares anuales.</p>
+<p>Michael Shifter, profesor de Georgetown, explica a DW: "Perú es tal vez el país de la región donde más está en juego la competencia entre dos potencias mundiales. El puerto de Chancay tiene un enorme potencial para el futuro de la economía sudamericana".</p>
+<h2>Entre Washington y Pekín</h2>
+<p>Para los expertos, el principal desafío de Fujimori será mantener el equilibrio: alinearse con Washington sin romper con Pekín. "Keiko quiere alinearse con Washington, pero el papel de China ha sido fundamental para la economía peruana durante muchos años", señala Shifter.</p>
+<p><small>Fuente: Deutsche Welle</small></p>`,
+        contentEn: `<h1>Keiko Fujimori Takes Office in Peru, Between China and the US</h1>
+<p><em>Peru's new president promises a hard line on security and attracting investments, as the country becomes a key battleground in the China-US rivalry for influence in Latin America.</em></p>
+<p>Keiko Fujimori assumes the presidency marking the return of Fujimorismo to the executive after 25 years. She has promised to prioritize security with expanded video surveillance, command centers, and four megaprisons.</p>
+<p>The inauguration of the Chancay port —a $3.5 billion investment, 60% owned by Chinese state firm Cosco— has strengthened Peru's strategic weight, reducing shipping time between Peru and China from 40 to 23 days.</p>
+<p>Experts say Fujimori's main challenge will be maintaining balance: aligning with Washington without breaking with Beijing.</p>
+<p><small>Source: Deutsche Welle</small></p>`,
+        date: '2026-07-24',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '5 min read',
+        imageUrl: 'https://static.dw.com/image/77977818_800.webp',
+        imageCaption: 'Keiko Fujimori asume la presidencia de Perú, su cuarta postulación. Imagen: Angela Ponce/REUTERS',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'Perú',
+        source: 'Deutsche Welle',
+        sourceUrl: 'https://www.dw.com/es/keiko-fujimori-asume-la-presidencia-de-per%C3%BA-fuerzas-armadas-y-ejecutivo-en-tensi%C3%B3n/a-78092800'
+      },
+      // ============================================================
+      // ARTÍCULO: VENEZUELA MOMENTO MALVINAS DE DELCY (DW)
+      // ============================================================
+      {
+        id: '114',
+        contentType: 'news',
+        slug: 'venezuela-momento-malvinas-delcy-rodriguez',
+        titleEs: 'Venezuela: "Este podría ser el momento Malvinas de Delcy"',
+        titleEn: 'Venezuela: "This Could Be Delcy\'s Falklands Moment"',
+        excerptEs: 'A un mes de la catástrofe, los medios alemanes analizan el estado de ánimo de los venezolanos tras los dos grandes eventos que han sacudido sus vidas en 2026.',
+        excerptEn: 'One month after the catastrophe, German media analyze the mood of Venezuelans after the two major events that shook their lives in 2026.',
+        contentEs: `<h1>Venezuela: "Este podría ser el momento Malvinas de Delcy"</h1>
+<p><em>Revista de prensa alemana. A un mes de la catástrofe, los medios alemanes no olvidaron esta semana el triste aniversario de los dos terremotos del 24 de junio en Venezuela.</em></p>
+<h2>Balance a un mes del doble sismo</h2>
+<p>El diario <em>Die Welt</em> hace balance: "Un mes después de los graves terremotos en Venezuela, cobra cada vez más protagonismo la reconstrucción de las infraestructuras colapsadas. 'Ahora es el momento de pasar de la ayuda de emergencia a la ayuda de transición, hacia la reconstrucción', declaró Katja Dombrowski, de Welthungerhilfe, a la agencia DPA".</p>
+<p>Según el presidente de la Asamblea Nacional, Jorge Rodríguez, el número de víctimas mortales confirmadas asciende a 5.398, con más de 16.740 heridos. Naciones Unidas calcula que 1,3 millones de personas necesitan ayuda humanitaria. Los daños materiales se estiman en casi 20.000 millones de dólares, según el Banco Mundial.</p>
+<h2>Tensiones políticas</h2>
+<p><em>Zeit Online</em> incide en el estado de ánimo de los venezolanos tras la detención de Nicolás Maduro por EE. UU. y el doble sismo. "La gente ha perdido el miedo", dice el sociólogo Trino Márquez. "Este podría ser el momento Malvinas del Gobierno de Delcy Rodríguez", refiriéndose a la guerra de 1982 que aceleró el colapso de la junta militar argentina.</p>
+<p>Muchos venezolanos expresan dudas sobre cuán en serio se toma EE. UU. la democracia. "Tras la captura de Maduro en enero, teníamos esperanza. Pero siete meses después, todo se reduce a negociaciones petroleras y nada más", dice una manifestante en Caracas. "Eso se siente como si se estuvieran burlando de nosotros".</p>
+<p><small>Fuente: Deutsche Welle</small></p>`,
+        contentEn: `<h1>Venezuela: "This Could Be Delcy\'s Falklands Moment"</h1>
+<p><em>German press review. One month after the catastrophe, German media mark the sad anniversary of the two earthquakes of June 24 in Venezuela.</em></p>
+<p>According to National Assembly president Jorge Rodríguez, the confirmed death toll stands at 5,398, with more than 16,740 injured. The UN estimates 1.3 million people need humanitarian aid. Material damage is estimated at nearly $20 billion, according to the World Bank.</p>
+<p>The sociologist Trino Márquez says: "People have lost their fear. This could be Delcy Rodríguez government\'s Falklands moment," referring to the 1982 war that accelerated the collapse of Argentina\'s military junta.</p>
+<p><small>Source: Deutsche Welle</small></p>`,
+        date: '2026-07-24',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: 'https://static.dw.com/image/78087808_800.webp',
+        imageCaption: 'Maiquetía, 5 de julio de 2026: casas derrumbadas tras el doble sismo. Imagen: Leonardo Fernandez Viloria/REUTERS',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'Venezuela',
+        source: 'Deutsche Welle',
+        sourceUrl: 'https://www.dw.com/es/venezuela-el-momento-malvinas-de-delcy-rodr%C3%ADguez-en-la-uni%C3%B3n-africana/a-78103912'
+      },
+      // ============================================================
+      // ARTÍCULO: VENEZUELA Y EL DESCRÉDITO DE LA FANB (DW)
+      // ============================================================
+      {
+        id: '115',
+        contentType: 'news',
+        slug: 'venezuela-descredito-fuerza-armada-bolivariana',
+        titleEs: 'Venezuela y el descrédito de la Fuerza Armada Bolivariana',
+        titleEn: 'Venezuela and the Discredit of the Bolivarian Armed Forces',
+        excerptEs: 'La vinculación con el aparato represivo chavista, la corrupción y el deterioro operativo habían socavado el prestigio de la FANB antes de los terremotos del 24 de junio.',
+        excerptEn: 'The link with the Chavista repressive apparatus, corruption and operational deterioration had undermined the prestige of the FANB before the June 24 earthquakes.',
+        contentEs: `<h1>Venezuela y el descrédito de la Fuerza Armada Bolivariana</h1>
+<p><em>La vinculación con el aparato represivo chavista, la expansión de la corrupción y el deterioro de su capacidad operativa habían socavado ya gravemente el prestigio de la FANB antes de los terremotos del 24 de junio.</em></p>
+<h2>Respuesta tardía ante la tragedia</h2>
+<p>Cuando el Estado venezolano alcanzó su máximo despliegue para enfrentar la tragedia, la ventana crítica de rescate de 72 horas llevaba más de dos semanas cerrada. Según Transparencia Venezuela, 48 horas después del terremoto el Gobierno apenas había desplegado el 34,5% de los 31.837 efectivos que terminarían participando. Chile, ante un terremoto comparable, había movilizado el 71% en el mismo lapso.</p>
+<p>Una encuesta de AtlasIntel para Bloomberg reveló que solo el 19,3% de los consultados aprobó la respuesta del Gobierno. La desconfianza se concentró en Delcy Rodríguez (24%) y en el Ejército (23%).</p>
+<h2>De la institución más confiable a una de las menos confiables</h2>
+<p>A principios del siglo XXI, según Latinobarómetro, Venezuela era el país de América Latina con mayor confianza ciudadana en sus Fuerzas Armadas (casi 70%). Veinticuatro años después, apenas el 25,8% confiaba en la FANB, ubicándose como el segundo país con menor confianza en la región.</p>
+<p>Los informes de la Misión de la ONU documentan durante años detenciones arbitrarias, torturas y violencia sexual cometidas por agentes del Estado. La Dirección General de Contrainteligencia Militar (DGCIM) y la Guardia Nacional Bolivariana son señaladas como principales brazos ejecutores.</p>
+<h2>Corrupción sistémica y pérdida de capacidad operativa</h2>
+<p>Venezuela ocupa el último lugar del continente en el Índice de Percepción de la Corrupción desde 2013. El Government Defence Integrity Index otorgó a Venezuela la calificación más baja (F) y riesgo "crítico".</p>
+<p>El doble sismo reveló la debilidad operativa: el Estado movilizó efectivos para tareas logísticas, pero fue incapaz de activar capacidades de búsqueda y rescate urbano. Una investigación de Reuters documentó órdenes demoradas, falta de planes y mandos que preferían esperar instrucciones antes que actuar.</p>
+<p>Especialistas coinciden en que la politización de la FANB y su transformación en instrumento de la Revolución Bolivariana están en el origen de todos estos fenómenos.</p>
+<p><small>Fuente: Deutsche Welle</small></p>`,
+        contentEn: `<h1>Venezuela and the Discredit of the Bolivarian Armed Forces</h1>
+<p><em>The link with the Chavista repressive apparatus, the expansion of corruption and the deterioration of operational capacity had already seriously undermined the prestige of the FANB before the June 24 earthquakes.</em></p>
+<p>When the Venezuelan state reached its maximum deployment, the critical 72-hour rescue window had been closed for more than two weeks. Only 19.3% of those consulted approved the government's response, according to an AtlasIntel poll for Bloomberg.</p>
+<p>At the beginning of the 21st century, Venezuela was the Latin American country with the highest citizen trust in its Armed Forces (nearly 70%). Twenty-four years later, only 25.8% trusted the FANB.</p>
+<p><small>Source: Deutsche Welle</small></p>`,
+        date: '2026-07-24',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://static.dw.com/image/77740612_800.webp',
+        imageCaption: 'La Guaira: soldados custodian la zona devastada tras el terremoto del 24 de junio de 2026. Imagen: Matias Delacroix/AP Photo/picture alliance',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        views: 1,
+        breaking: false,
+        location: 'Venezuela',
+        source: 'Deutsche Welle',
+        sourceUrl: 'https://www.dw.com/es/venezuela-y-el-descr%C3%A9dito-de-la-fanb/a-78104699'
+      },
+      // ============================================================
       // FIN DE NOTICIAS
     ];
 

@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/blog/si-ves-esta-linea-roja-en-tu-hijo-ve-al-medico-el-mismo-dia</loc>
+    <loc>https://freddydev.net/blog/gero-arias-vs-viruzz-analisis-combate-velada-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,713 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Alerta médica: Señales rojas en la piel del bebé que requieren atención inmediata</news:title>
-      <news:keywords>Salud</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/si-ves-esta-linea-roja-en-tu-hijo-ve-al-medico-el-mismo-dia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Alerta médica: Señales rojas en la piel del bebé que requieren atención inmediata</news:title>
-      <news:keywords>Salud</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/es-pecado-tomar-alcohol-esto-dice-la-biblia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>¿Es pecado tomar alcohol? Esto dice la Biblia</news:title>
-      <news:keywords>Religión</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/es-pecado-tomar-alcohol-esto-dice-la-biblia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>¿Es pecado tomar alcohol? Esto dice la Biblia</news:title>
-      <news:keywords>Religión</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/es-urgente-que-todas-las-mamas-sepan-esto</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Es urgente que todas las mamás sepan esto</news:title>
-      <news:keywords>Familia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/es-urgente-que-todas-las-mamas-sepan-esto</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Es urgente que todas las mamás sepan esto</news:title>
-      <news:keywords>Familia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/antes-de-que-tu-hijo-maneje-solo-hazle-estas-4-preguntas</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Antes de que tu hijo maneje solo, hazle estas 4 preguntas</news:title>
-      <news:keywords>Conducción</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/antes-de-que-tu-hijo-maneje-solo-hazle-estas-4-preguntas</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Antes de que tu hijo maneje solo, hazle estas 4 preguntas</news:title>
-      <news:keywords>Conducción</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/mexicano-que-hizo-que-el-mundo-entero-se-enamorara-de-nuestra-cultura</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>El mexicano que hizo que el mundo entero se enamorara de nuestra cultura</news:title>
-      <news:keywords>Cultura</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/mexicano-que-hizo-que-el-mundo-entero-se-enamorara-de-nuestra-cultura</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>El mexicano que hizo que el mundo entero se enamorara de nuestra cultura</news:title>
-      <news:keywords>Cultura</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/mia-colucci-y-miguel-se-dicen-todo-22-anos-despues</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Mía Colucci y Miguel se dicen TODO 22 años después</news:title>
-      <news:keywords>Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/mia-colucci-y-miguel-se-dicen-todo-22-anos-despues</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Mía Colucci y Miguel se dicen TODO 22 años después</news:title>
-      <news:keywords>Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/3-habitos-que-pueden-ayudar-a-reducir-el-riesgo-de-cancer</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>3 hábitos que pueden ayudar a reducir el riesgo de cáncer</news:title>
-      <news:keywords>Salud</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/3-habitos-que-pueden-ayudar-a-reducir-el-riesgo-de-cancer</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>3 hábitos que pueden ayudar a reducir el riesgo de cáncer</news:title>
-      <news:keywords>Salud</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/una-esposa-con-iniciativa-tiene-un-poder-que-pocas-conocen</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Una esposa con iniciativa tiene un poder que pocas conocen</news:title>
-      <news:keywords>Familia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/una-esposa-con-iniciativa-tiene-un-poder-que-pocas-conocen</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Una esposa con iniciativa tiene un poder que pocas conocen</news:title>
-      <news:keywords>Familia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/dejo-ir-a-su-hija-a-una-fiesta-y-esto-fue-lo-que-paso</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Dejó ir a su hija a una fiesta y esto fue lo que pasó</news:title>
-      <news:keywords>Familia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/dejo-ir-a-su-hija-a-una-fiesta-y-esto-fue-lo-que-paso</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Dejó ir a su hija a una fiesta y esto fue lo que pasó</news:title>
-      <news:keywords>Familia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/haz-esto-antes-de-darle-una-tablet-o-celular-a-tus-hijos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Haz esto ANTES de darle una tablet o celular a tus hijos</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/haz-esto-antes-de-darle-una-tablet-o-celular-a-tus-hijos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Haz esto ANTES de darle una tablet o celular a tus hijos</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/7-datos-del-dictador-de-nicaragua-que-te-van-a-dar-rabia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>7 datos del dictador de Nicaragua que te van a dar rabia</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/7-datos-del-dictador-de-nicaragua-que-te-van-a-dar-rabia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>7 datos del dictador de Nicaragua que te van a dar rabia</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/colombia-prefiere-proteger-la-vida-de-millones-de-animales-antes-que-ganar-mas-dinero-con-el-petroleo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Colombia prefirió proteger la vida de millones de animales antes que ganar más dinero con el petróleo</news:title>
-      <news:keywords>Medio Ambiente</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/colombia-prefiere-proteger-la-vida-de-millones-de-animales-antes-que-ganar-mas-dinero-con-el-petroleo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Colombia prefirió proteger la vida de millones de animales antes que ganar más dinero con el petróleo</news:title>
-      <news:keywords>Medio Ambiente</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/haaland-y-vozinha-los-dos-mas-amados-del-mundial</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Haaland y Vozinha: los dos más amados del Mundial. Lograron más de 50 millones de seguidores nuevos</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/haaland-y-vozinha-los-dos-mas-amados-del-mundial</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Haaland y Vozinha: los dos más amados del Mundial. Lograron más de 50 millones de seguidores nuevos</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/7-datos-del-hijo-de-crono-sera-campeon-del-mundo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>7 datos del hijo de CR7. ¿Él será campeón del mundo?</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/7-datos-del-hijo-de-crono-sera-campeon-del-mundo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>7 datos del hijo de CR7. ¿Él será campeón del mundo?</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/por-que-el-mundo-entero-ama-a-cucurella</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>¿Por qué el mundo entero ama a Cucurella?</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/por-que-el-mundo-entero-ama-a-cucurella</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>¿Por qué el mundo entero ama a Cucurella?</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/estudiantes-reparan-autos-usados-y-les-regalan-a-madres-solteras</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Estudiantes reparan autos usados y les regalan a madres solteras</news:title>
-      <news:keywords>Solidaridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/estudiantes-reparan-autos-usados-y-les-regalan-a-madres-solteras</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Estudiantes reparan autos usados y les regalan a madres solteras</news:title>
-      <news:keywords>Solidaridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/3-datos-de-la-novia-de-yamal-que-todas-las-mujeres-deben-conocer</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>3 datos de la novia de Yamal que todas las mujeres deben conocer</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/3-datos-de-la-novia-de-yamal-que-todas-las-mujeres-deben-conocer</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>3 datos de la novia de Yamal que todas las mujeres deben conocer</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/por-que-los-defensores-le-tienen-tanto-miedo-a-yamal</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>¿Por qué los defensores le tienen tanto miedo a Yamal?</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/por-que-los-defensores-le-tienen-tanto-miedo-a-yamal</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>¿Por qué los defensores le tienen tanto miedo a Yamal?</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/así-debes-cuidar-a-tu-familia-y-a-tus-perritos-durante-los-días-más-calientes-del-año</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Así debes cuidar a tu familia y a tus perritos durante los días más calientes del año</news:title>
-      <news:keywords>Salud</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/así-debes-cuidar-a-tu-familia-y-a-tus-perritos-durante-los-días-más-calientes-del-año</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Así debes cuidar a tu familia y a tus perritos durante los días más calientes del año</news:title>
-      <news:keywords>Salud</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/es-campeon-del-mundo-y-cuando-no-esta-metiendo-goles-esta-rescatando-perritos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Es campeón del mundo y cuando no está metiendo goles, está rescatando perritos</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/es-campeon-del-mundo-y-cuando-no-esta-metiendo-goles-esta-rescatando-perritos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Es campeón del mundo y cuando no está metiendo goles, está rescatando perritos</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/sus-padres-cruzaron-el-desierto-sin-papeles-él-acaba-de-ganar-el-mundial</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Sus padres cruzaron el desierto sin papeles; él acaba de ganar el Mundial</news:title>
-      <news:keywords>Migración</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/sus-padres-cruzaron-el-desierto-sin-papeles-él-acaba-de-ganar-el-mundial</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Sus padres cruzaron el desierto sin papeles; él acaba de ganar el Mundial</news:title>
-      <news:keywords>Migración</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/mc-propone-que-diputados-también-trabajen-6-dias-para-que-aprendan</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>MC propone que diputados también trabajen 6 días para que aprendan</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/mc-propone-que-diputados-también-trabajen-6-dias-para-que-aprendan</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>MC propone que diputados también trabajen 6 días para que aprendan</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia</news:title>
-      <news:keywords>Deportes y Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>La Velada del Año VI de Ibai: cartelera completa, horarios y cómo ver los 10 combates desde Bolivia</news:title>
-      <news:keywords>Deportes y Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/illojuan-vs-thegrefg-main-event-velada-6</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>IlloJuan vs TheGrefg: el Main Event que paralizará internet en La Velada del Año 6</news:title>
-      <news:keywords>Deportes y Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/illojuan-vs-thegrefg-main-event-velada-6</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>IlloJuan vs TheGrefg: el Main Event que paralizará internet en La Velada del Año 6</news:title>
-      <news:keywords>Deportes y Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-completa-10-combates-velada-6-peleadores</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Guía completa de los 10 combates de La Velada del Año 6: quiénes son los peleadores</news:title>
-      <news:keywords>Deportes y Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-completa-10-combates-velada-6-peleadores</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>Guía completa de los 10 combates de La Velada del Año 6: quiénes son los peleadores</news:title>
-      <news:keywords>Deportes y Entretenimiento</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/espana-vs-latinoamerica-rivalidad-velada-6</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>España vs Latinoamérica: la rivalidad que domina La Velada del Año 6</news:title>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Gero Arias vs Viruzz: el KO que paralizó La Cartuja en La Velada del Año 6</news:title>
       <news:keywords>Análisis</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/espana-vs-latinoamerica-rivalidad-velada-6</loc>
+    <loc>https://freddydev.net/noticias/gero-arias-vs-viruzz-analisis-combate-velada-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -725,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-25</news:publication_date>
-      <news:title>España vs Latinoamérica: la rivalidad que domina La Velada del Año 6</news:title>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Gero Arias vs Viruzz: el KO que paralizó La Cartuja en La Velada del Año 6</news:title>
       <news:keywords>Análisis</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/nvidia-deepstream-9-1-tracking</loc>
+    <loc>https://freddydev.net/blog/thegrefg-vence-illojuan-main-event-velada-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -739,13 +39,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>TheGrefg vence a IlloJuan en el Main Event de La Velada del Año 6: la experiencia del campeón</news:title>
+      <news:keywords>Resultados</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/nvidia-deepstream-9-1-tracking</loc>
+    <loc>https://freddydev.net/noticias/thegrefg-vence-illojuan-main-event-velada-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -753,13 +53,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>DeepStream 9.1: seguimiento 3D multicámara con skills de IA agéntica</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>TheGrefg vence a IlloJuan en el Main Event de La Velada del Año 6: la experiencia del campeón</news:title>
+      <news:keywords>Resultados</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/nvidia-ising-decoding-quantum</loc>
+    <loc>https://freddydev.net/blog/momentos-virales-curiosidades-velada-ano-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -767,13 +67,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Los momentos más virales y curiosidades de La Velada del Año 6</news:title>
+      <news:keywords>Entretenimiento</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/nvidia-ising-decoding-quantum</loc>
+    <loc>https://freddydev.net/noticias/momentos-virales-curiosidades-velada-ano-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -781,13 +81,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>NVIDIA Ising Decoding reduce 300x la tasa de error lógico en códigos de color cuánticos</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Los momentos más virales y curiosidades de La Velada del Año 6</news:title>
+      <news:keywords>Entretenimiento</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/nvidia-omniverse-rtx-sensor</loc>
+    <loc>https://freddydev.net/blog/reacciones-redes-sociales-velada-ano-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -795,13 +95,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Reacciones en redes sociales a La Velada del Año 6: memes, trending topics y momentos que paralizaron internet</news:title>
+      <news:keywords>Redes Sociales</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/nvidia-omniverse-rtx-sensor</loc>
+    <loc>https://freddydev.net/noticias/reacciones-redes-sociales-velada-ano-6</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -809,13 +109,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Integra simulación de sensores RTX de Omniverse en tus aplicaciones existentes</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Reacciones en redes sociales a La Velada del Año 6: memes, trending topics y momentos que paralizaron internet</news:title>
+      <news:keywords>Redes Sociales</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/guia-cedula-identidad-segip-bolivia-2026</loc>
+    <loc>https://freddydev.net/blog/consola-gestion-activos-video-arquitectura-offline-first</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -823,13 +123,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar la Cédula de Identidad en Bolivia 2026 — Requisitos, costos y pasos en SEGIP</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Consola de Gestión de Activos de Video: arquitectura offline-first para la producción audiovisual moderna</news:title>
+      <news:keywords>Análisis Técnico</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/guia-cedula-identidad-segip-bolivia-2026</loc>
+    <loc>https://freddydev.net/noticias/consola-gestion-activos-video-arquitectura-offline-first</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -837,289 +137,9 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar la Cédula de Identidad en Bolivia 2026 — Requisitos, costos y pasos en SEGIP</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-soat-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>SOAT 2026 en Bolivia — Precios, cómo comprarlo, requisitos y multas</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-soat-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>SOAT 2026 en Bolivia — Precios, cómo comprarlo, requisitos y multas</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-licencia-conducir-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar la Licencia de Conducir en Bolivia 2026 — Requisitos, costos y categorías</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-licencia-conducir-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar la Licencia de Conducir en Bolivia 2026 — Requisitos, costos y categorías</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-pasaporte-boliviano-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Pasaporte Boliviano 2026 — Requisitos, costos y tiempos de entrega</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-pasaporte-boliviano-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Pasaporte Boliviano 2026 — Requisitos, costos y tiempos de entrega</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-nit-sin-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el NIT en Bolivia 2026 — Requisitos, costos y pasos en Impuestos Nacionales</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-nit-sin-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el NIT en Bolivia 2026 — Requisitos, costos y pasos en Impuestos Nacionales</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-ruat-transferencia-vehicular-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo hacer la Transferencia Vehicular y sacar el RUAT en Bolivia 2026</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-ruat-transferencia-vehicular-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo hacer la Transferencia Vehicular y sacar el RUAT en Bolivia 2026</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-certificado-nacimiento-online-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Nacimiento en línea Bolivia 2026 — SEGIP Digital</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-certificado-nacimiento-online-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Nacimiento en línea Bolivia 2026 — SEGIP Digital</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-antecedentes-policiales-reap-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Antecedentes Policiales (REAP) en Bolivia 2026</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-antecedentes-policiales-reap-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Antecedentes Policiales (REAP) en Bolivia 2026</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-antecedentes-penales-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Antecedentes Penales en Bolivia 2026</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-antecedentes-penales-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Antecedentes Penales en Bolivia 2026</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/guia-visa-bolivia-extranjeros-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Visa para Bolivia 2026 — Requisitos, tipos y cómo tramitarla para extranjeros</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guia-visa-bolivia-extranjeros-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Visa para Bolivia 2026 — Requisitos, tipos y cómo tramitarla para extranjeros</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/sistema-gestion-prensa-react-electron-ia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial</news:title>
-      <news:keywords>Desarrollo</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/sistema-gestion-prensa-react-electron-ia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24</news:publication_date>
-      <news:title>Cómo optimizar el flujo de trabajo en redacciones con React, Electron e Inteligencia Artificial</news:title>
-      <news:keywords>Desarrollo</news:keywords>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>Consola de Gestión de Activos de Video: arquitectura offline-first para la producción audiovisual moderna</news:title>
+      <news:keywords>Análisis Técnico</news:keywords>
     </news:news>
   </url>
 </urlset>

@@ -1,20 +1,63 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Freddy Ticona — Portafolio Profesional
 
-# Run and deploy your AI Studio app
+> **[freddydev.net](https://freddydev.net)** — Sitio web profesional de Freddy Ticona Guzman. Director de TV, realizador audiovisual y desarrollador Full Stack en Bolivia.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/ae5f0518-a605-4170-b287-3ffd1cf048be
+| Tecnología | Uso |
+|------------|-----|
+| React 19 + TypeScript 5.8 | Framework SPA |
+| Vite 8 | Build tooling |
+| Tailwind CSS v4 | Estilos |
+| Firebase Firestore | Base de datos (posts, comentarios) |
+| Vercel | Hosting + CI/CD |
+| Sentry | Monitoreo de errores |
+| Google Analytics 4 | Analíticas |
 
-## Run Locally
+## Secciones
 
-**Prerequisites:**  Node.js
+- **Inicio** — Hero cinematográfico, showreel, artículos destacados
+- **Sobre Mí** — Biografía, habilidades, experiencia
+- **Portafolio** — 8 coberturas/documentales reales (TIPNIS, Gran Poder, Moscú, etc.)
+- **CV / Trayectoria** — Timeline profesional, 18 certificaciones
+- **Blog** — Artículos de tecnología y producción audiovisual
+- **Noticias** — 83+ artículos de medios bolivianos e internacionales
+- **Guías** — Trámites y servicios en Bolivia
+- **Galería** — Detrás de cámaras
+- **Contacto / Reservas** — Formulario + WhatsApp
 
+## Scripts
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm run dev          # Servidor local (puerto 3000)
+npm run build        # Build de producción (189 páginas estáticas)
+npm run test         # Tests unitarios (Vitest)
+npm run test:e2e     # Tests E2E (Playwright)
+npm run lint         # Typecheck (tsc --noEmit)
+npm run preview      # Preview del build
+```
+
+## Estructura
+
+```
+src/
+  components/    # UI components (57 archivos)
+  pages/         # Páginas modulares (HomePage, AboutPage, CVPage, etc.)
+  translations.ts # Datos: portfolio, blog, noticias, servicios
+  lib/           # Firebase, SEO, structured data, analytics
+  hooks/         # useGsapAnimations, useDarkMode, useServiceWorker
+public/
+  images/        # Portfolio, blog, behind-scenes (webp optimizadas)
+scripts/
+  generate-pages.js      # Pre-renderizado HTML estático
+  generate-sitemap.js    # Sitemap XML
+  generate-rss.js        # Feed RSS
+```
+
+## i18n
+
+Soporte español (es-BO) e inglés. El idioma se persiste en localStorage.
+
+## Licencia
+
+SPDX-License-Identifier: Apache-2.0
