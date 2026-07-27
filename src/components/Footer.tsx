@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { PageId } from '../types';
-import { Youtube, Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck, FileText } from 'lucide-react';
+import { Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck, FileText } from 'lucide-react';
 import { CONTACT_INFO, SOCIAL_LINKS } from '../config';
 
 interface FooterProps {
@@ -46,16 +46,6 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
             </p>
             <div className="flex items-center gap-3 pt-2 flex-wrap">
               <a
-                href={SOCIAL_LINKS.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
-                id="footer-social-youtube"
-                className="w-8 h-8 bg-white/5 rounded-sm flex items-center justify-center hover:bg-gold hover:text-black text-stone-300 transition-colors duration-200"
-                aria-label="YouTube"
-              >
-                <Youtube className="w-4 h-4" />
-              </a>
-              <a
                 href={SOCIAL_LINKS.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -74,18 +64,6 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
                 aria-label="X (Twitter)"
               >
                 <X className="w-4 h-4" />
-              </a>
-              <a
-                href={SOCIAL_LINKS.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                id="footer-social-facebook"
-                className="w-8 h-8 bg-white/5 rounded-sm flex items-center justify-center hover:bg-gold hover:text-black text-stone-300 transition-colors duration-200"
-                aria-label="Facebook"
-              >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                </svg>
               </a>
               <a
                 href={`mailto:${CONTACT_INFO.email}`}

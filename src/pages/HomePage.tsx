@@ -183,7 +183,7 @@ export default function HomePage({
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <LinkedInBadge
-            href="https://bo.linkedin.com/in/freddyticonaguzman?trk=profile-badge"
+            href="https://www.linkedin.com/in/freddyticonaguzman"
             vanity="freddyticonaguzman"
             name={lang === 'es' ? 'Freddy Ticona Guzmán' : 'Freddy Ticona Guzman'}
           />

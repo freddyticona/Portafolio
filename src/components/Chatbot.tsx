@@ -99,7 +99,7 @@ const KNOWLEDGE_BASE = {
     // Contact
     contact: {
       keywords: ['contacto', 'telefono', 'teléfono', 'whatsapp', 'email', 'correo', 'llamar', 'escribir'],
-      response: 'Aquí tienes mis datos de contacto:\n\n📱 **WhatsApp:** +591 62408420\n\n📧 **Email:** freddyticona62@gmail.com\n\n💼 **LinkedIn:** linkedin.com/in/freddy-ticona-guzman\n\n¿Prefieres que te contacte yo?',
+      response: 'Aquí tienes mis datos de contacto:\n\n📱 **WhatsApp:** +591 62408420\n\n📧 **Email:** freddyticona62@gmail.com\n\n💼 **LinkedIn:** linkedin.com/in/freddyticonaguzman\n\n¿Prefieres que te contacte yo?',
       action: { label: '📱 Ir a Contacto', action: 'contact' }
     },
 
@@ -162,7 +162,7 @@ const KNOWLEDGE_BASE = {
 
     contact: {
       keywords: ['contact', 'phone', 'whatsapp', 'email', 'call', 'write'],
-      response: 'Here is my contact information:\n\n📱 **WhatsApp:** +591 62408420\n\n📧 **Email:** freddyticona62@gmail.com\n\n💼 **LinkedIn:** linkedin.com/in/freddy-ticona-guzman\n\nWould you prefer I contact you?',
+      response: 'Here is my contact information:\n\n📱 **WhatsApp:** +591 62408420\n\n📧 **Email:** freddyticona62@gmail.com\n\n💼 **LinkedIn:** linkedin.com/in/freddyticonaguzman\n\nWould you prefer I contact you?',
       action: { label: '📱 Go to Contact', action: 'contact' }
     },
 
