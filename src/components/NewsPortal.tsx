@@ -232,13 +232,37 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
 
       {/* Hero Breaking / Featured */}
       {heroPost && !searchTerm && activeCategory === 'all' && (
-        <div className="mb-10">
+        <div className="mb-8">
           <NewsCard
             post={heroPost}
             lang={lang}
             onClick={() => onArticleClick(heroPost)}
             variant="hero"
           />
+        </div>
+      )}
+
+      {/* Featured Stories Grid */}
+      {!searchTerm && activeCategory === 'all' && featuredPosts.length > 0 && (
+        <div className="mb-10">
+          <div className="flex items-center gap-3 mb-4">
+            <Sparkles className="w-4 h-4 text-gold" />
+            <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold">
+              {lang === 'es' ? 'Historias Destacadas' : 'Featured Stories'}
+            </span>
+            <span className="h-px flex-1 bg-gradient-to-r from-gold/30 to-transparent" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {(heroPost?.breaking ? featuredPosts : featuredPosts.filter(p => p.id !== heroPost?.id)).slice(0, 4).map((post) => (
+              <NewsCard
+                key={post.id}
+                post={post}
+                lang={lang}
+                onClick={() => onArticleClick(post)}
+                variant="default"
+              />
+            ))}
+          </div>
         </div>
       )}
 
