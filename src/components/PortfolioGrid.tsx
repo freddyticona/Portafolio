@@ -198,10 +198,10 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
 
       {/* Lightbox / Details Modal */}
       {activeItem && (
-        <div className="fixed inset-0 z-50 overflow-y-auto bg-[#050505]/95 flex items-center justify-center p-4 md:p-6 backdrop-blur-sm animate-fadeIn">
+        <div className="fixed inset-0 z-50 overflow-y-auto bg-[#050505]/95 flex items-start justify-center p-4 md:p-6 backdrop-blur-sm animate-fadeIn pt-[5vh]">
           <div 
             id="portfolio-lightbox"
-            className="bg-[#050505] border border-white/10 rounded-sm w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl relative"
+            className="bg-[#050505] border border-white/10 rounded-sm w-full max-w-6xl max-h-[90vh] overflow-y-auto shadow-2xl relative"
           >
             {/* Header / Sticky Close */}
             <div className="sticky top-0 right-0 left-0 bg-[#050505] border-b border-white/5 px-6 py-4 flex items-center justify-between z-10">
@@ -217,101 +217,103 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               </button>
             </div>
 
-              {/* Modal Body */}
-            <div className="p-6 md:p-8 space-y-6 md:space-y-8">
-              
-              {/* Media Container - Video or Image */}
-              <div className="w-full rounded-sm overflow-hidden border border-white/5 bg-[#020202]">
-                {activeItem.videoUrl ? (
-                  <div className="aspect-video relative">
-                    <iframe
-                      src={activeItem.videoUrl}
-                      title={lang === 'es' ? activeItem.title : activeItem.titleEn}
-                      className="absolute inset-0 w-full h-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
+            {/* Modal Body — Horizontal Layout */}
+            <div className="p-6 md:p-8">
+              <div className="flex flex-col lg:flex-row gap-8">
+                {/* Left: Media Container (takes ~60%) */}
+                <div className="lg:w-[60%] shrink-0">
+                  <div className="rounded-sm overflow-hidden border border-white/5 bg-[#020202]">
+                    {activeItem.videoUrl ? (
+                      <div className="aspect-video relative">
+                        <iframe
+                          src={activeItem.videoUrl}
+                          title={lang === 'es' ? activeItem.title : activeItem.titleEn}
+                          className="absolute inset-0 w-full h-full"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                    ) : (
+                      <LazyImage
+                        src={activeItem.images?.[0] || activeItem.imageUrl}
+                        alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
+                        className="w-full max-h-[70vh] object-contain mx-auto"
+                      />
+                    )}
                   </div>
-                ) : (
-                  <LazyImage
-                    src={activeItem.images?.[0] || activeItem.imageUrl}
-                    alt={lang === 'es' ? activeItem.title : activeItem.titleEn}
-                    className="w-full max-h-[500px] object-contain mx-auto"
-                  />
-                )}
-              </div>
-
-              {/* Details Content */}
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-left">
-                {/* Left side: Narrative & CTA */}
-                <div className="lg:col-span-2 space-y-4">
-                  <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight font-display">
-                    {lang === 'es' ? activeItem.title : activeItem.titleEn}
-                  </h2>
-                  <p className="text-stone-300 text-sm md:text-base leading-relaxed font-light">
-                    {lang === 'es' ? activeItem.descriptionEs : activeItem.descriptionEn}
-                  </p>
-
-                  {activeItem.isCaseStudy && activeItem.caseStudyId && (
-                    <div className="pt-4">
-                      <button
-                        onClick={() => {
-                          handleCloseLightbox();
-                          onViewCaseStudy(activeItem.caseStudyId!);
-                        }}
-                        id="view-case-study-from-lightbox"
-                        className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-gold/10 cursor-pointer"
-                      >
-                        <Award className="w-4 h-4" />
-                        <span>{t.viewCaseStudy}</span>
-                        <ExternalLink className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
-                  )}
                 </div>
 
-                {/* Right side: Project Attributes Metadata */}
-                <div className="bg-[#020202] border border-white/5 p-5 rounded-sm space-y-4 font-mono text-xs">
-                  <h4 className="text-xs font-bold uppercase tracking-widest text-gold flex items-center gap-1.5 pb-2 border-b border-white/5">
-                    <Cpu className="w-3.5 h-3.5" />
-                    <span>{t.technicalDetails}</span>
-                  </h4>
-                  
-                  <div className="space-y-3.5">
-                    <div className="flex items-start gap-2 text-stone-400">
-                      <Briefcase className="w-4 h-4 text-stone-500 shrink-0" />
-                      <div>
-                        <div className="font-bold text-stone-300 uppercase tracking-widest text-[9px]">{t.role}</div>
-                        <div className="text-stone-400 mt-0.5 text-xs font-medium">{lang === 'es' ? activeItem.roleEs : activeItem.roleEn}</div>
-                      </div>
-                    </div>
+                {/* Right: Details Content (takes ~40%) */}
+                <div className="lg:w-[40%] flex flex-col gap-6 text-left">
+                  <div className="space-y-4">
+                    <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight font-display">
+                      {lang === 'es' ? activeItem.title : activeItem.titleEn}
+                    </h2>
+                    <p className="text-stone-300 text-sm md:text-base leading-relaxed font-light">
+                      {lang === 'es' ? activeItem.descriptionEs : activeItem.descriptionEn}
+                    </p>
 
-                    <div className="flex items-start gap-2 text-stone-400">
-                      <User className="w-4 h-4 text-stone-500 shrink-0" />
-                      <div>
-                        <div className="font-bold text-stone-300 uppercase tracking-widest text-[9px]">{t.client}</div>
-                        <div className="text-stone-400 mt-0.5 text-xs font-medium">{lang === 'es' ? activeItem.clientEs : activeItem.clientEn}</div>
+                    {activeItem.isCaseStudy && activeItem.caseStudyId && (
+                      <div className="pt-2">
+                        <button
+                          onClick={() => {
+                            handleCloseLightbox();
+                            onViewCaseStudy(activeItem.caseStudyId!);
+                          }}
+                          id="view-case-study-from-lightbox"
+                          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-gold/10 cursor-pointer"
+                        >
+                          <Award className="w-4 h-4" />
+                          <span>{t.viewCaseStudy}</span>
+                          <ExternalLink className="w-3.5 h-3.5" />
+                        </button>
                       </div>
-                    </div>
+                    )}
+                  </div>
 
-                    <div className="flex items-start gap-2 text-stone-400">
-                      <Calendar className="w-4 h-4 text-stone-500 shrink-0" />
-                      <div>
-                        <div className="font-bold text-stone-300 uppercase tracking-widest text-[9px]">{t.year}</div>
-                        <div className="text-stone-400 mt-0.5 text-xs font-medium">{activeItem.year}</div>
+                  {/* Project Attributes Metadata */}
+                  <div className="bg-[#020202] border border-white/5 p-5 rounded-sm space-y-4 font-mono text-xs">
+                    <h4 className="text-xs font-bold uppercase tracking-widest text-gold flex items-center gap-1.5 pb-2 border-b border-white/5">
+                      <Cpu className="w-3.5 h-3.5" />
+                      <span>{t.technicalDetails}</span>
+                    </h4>
+                    
+                    <div className="space-y-3.5">
+                      <div className="flex items-start gap-2 text-stone-400">
+                        <Briefcase className="w-4 h-4 text-stone-500 shrink-0" />
+                        <div>
+                          <div className="font-bold text-stone-300 uppercase tracking-widest text-[9px]">{t.role}</div>
+                          <div className="text-stone-400 mt-0.5 text-xs font-medium">{lang === 'es' ? activeItem.roleEs : activeItem.roleEn}</div>
+                        </div>
                       </div>
-                    </div>
 
-                    <div className="flex items-start gap-2 text-stone-400 pt-2 border-t border-white/5">
-                      <Tag className="w-4 h-4 text-gold shrink-0 mt-0.5" />
-                      <div>
-                        <div className="font-bold text-gold uppercase tracking-widest text-[9px]">{lang === 'es' ? 'Equipos y Software' : 'Gear & Software'}</div>
-                        <div className="flex flex-wrap gap-1 mt-1.5">
-                          {(lang === 'es' ? activeItem.techDetailsEs : activeItem.techDetailsEn).map((tech, idx) => (
-                            <span key={idx} className="bg-[#050505] border border-white/5 text-[9px] text-stone-300 px-2 py-0.5 rounded-sm">
-                              {tech}
-                            </span>
-                          ))}
+                      <div className="flex items-start gap-2 text-stone-400">
+                        <User className="w-4 h-4 text-stone-500 shrink-0" />
+                        <div>
+                          <div className="font-bold text-stone-300 uppercase tracking-widest text-[9px]">{t.client}</div>
+                          <div className="text-stone-400 mt-0.5 text-xs font-medium">{lang === 'es' ? activeItem.clientEs : activeItem.clientEn}</div>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-2 text-stone-400">
+                        <Calendar className="w-4 h-4 text-stone-500 shrink-0" />
+                        <div>
+                          <div className="font-bold text-stone-300 uppercase tracking-widest text-[9px]">{t.year}</div>
+                          <div className="text-stone-400 mt-0.5 text-xs font-medium">{activeItem.year}</div>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-2 text-stone-400 pt-2 border-t border-white/5">
+                        <Tag className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                        <div>
+                          <div className="font-bold text-gold uppercase tracking-widest text-[9px]">{lang === 'es' ? 'Equipos y Software' : 'Gear & Software'}</div>
+                          <div className="flex flex-wrap gap-1 mt-1.5">
+                            {(lang === 'es' ? activeItem.techDetailsEs : activeItem.techDetailsEn).map((tech, idx) => (
+                              <span key={idx} className="bg-[#050505] border border-white/5 text-[9px] text-stone-300 px-2 py-0.5 rounded-sm">
+                                {tech}
+                              </span>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -319,9 +321,9 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                 </div>
               </div>
 
-              {/* Photo Gallery */}
+              {/* Photo Gallery — full width below */}
               {activeItem.images && activeItem.images.length > 1 && (
-                <div>
+                <div className="mt-8">
                   <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-gold mb-4 flex items-center gap-2">
                     <span>{lang === 'es' ? `Galería (${activeItem.images.length} fotos)` : `Gallery (${activeItem.images.length} photos)`}</span>
                   </h4>
@@ -338,7 +340,6 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                   </div>
                 </div>
               )}
-
             </div>
           </div>
         </div>
