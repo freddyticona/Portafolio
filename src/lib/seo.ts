@@ -131,6 +131,18 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
       keywords: ['cameraman services', 'event filming Bolivia', 'professional video editing', 'documentary production', 'audiovisual consulting'],
     }
   },
+  noticias: {
+    es: {
+      title: 'Noticias de Actualidad | Cine, Tecnología, Cultura y más | Freddy Ticona',
+      description: 'Portal de noticias sobre cine, tecnología, cultura, deportes y actualidad boliviana e internacional. Artículos de análisis, críticas de cine, y cobertura de eventos.',
+      keywords: ['noticias Bolivia', 'actualidad cine', 'tecnología', 'cultura Bolivia', 'críticas de cine', 'noticias tecnología', 'deportes Bolivia'],
+    },
+    en: {
+      title: 'News Portal | Film, Tech, Culture and more | Freddy Ticona',
+      description: 'News portal covering film, technology, culture, sports and current events from Bolivia and around the world. Analysis, film reviews and event coverage.',
+      keywords: ['Bolivia news', 'film news', 'technology', 'culture Bolivia', 'film reviews', 'tech news', 'sports Bolivia'],
+    }
+  },
   guias: {
     es: {
       title: 'Guías de Trámites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y más',
@@ -198,6 +210,44 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
 
   // Actualizar structured data (JSON-LD)
   updatePageStructuredData(pageId, additionalData);
+}
+
+/**
+ * Actualiza los meta tags para la vista detalle de un artículo
+ */
+export function updateArticleMetaTags(
+  post: { titleEs: string; titleEn: string; excerptEs: string; excerptEn: string; imageUrl?: string; slug: string },
+  lang: 'es' | 'en',
+  pagePath: string
+): void {
+  const title = lang === 'es' ? post.titleEs : post.titleEn;
+  const description = lang === 'es' ? post.excerptEs : post.excerptEn;
+  const ogImage = post.imageUrl || SITE_CONFIG.ogImageDefault;
+  const canonicalUrl = `${SITE_CONFIG.url}/${pagePath}/${post.slug}`;
+
+  document.title = `${title} | Freddy Ticona Guzmán`;
+
+  updateOrCreateMetaTag('name', 'description', description);
+  updateOrCreateMetaTag('name', 'keywords', '');
+  updateOrCreateMetaTag('property', 'og:title', title);
+  updateOrCreateMetaTag('property', 'og:description', description);
+  updateOrCreateMetaTag('property', 'og:type', 'article');
+  updateOrCreateMetaTag('property', 'og:image', ogImage);
+  updateOrCreateMetaTag('property', 'og:locale', lang === 'es' ? 'es_BO' : 'en_US');
+  updateOrCreateMetaTag('property', 'og:site_name', SITE_CONFIG.name);
+  updateOrCreateMetaTag('name', 'twitter:card', 'summary_large_image');
+  updateOrCreateMetaTag('name', 'twitter:title', title);
+  updateOrCreateMetaTag('name', 'twitter:description', description);
+  updateOrCreateMetaTag('name', 'twitter:image', ogImage);
+
+  const canonicalLink = document.querySelector('link[rel="canonical"]') as HTMLLinkElement || document.createElement('link');
+  if (!canonicalLink.parentNode) {
+    canonicalLink.rel = 'canonical';
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = canonicalUrl;
+
+  updateOrCreateMetaTag('property', 'og:url', canonicalUrl);
 }
 
 /**
