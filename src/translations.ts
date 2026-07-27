@@ -6742,6 +6742,336 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         sourceUrl: 'https://www.dw.com/es/venezuela-y-el-descr%C3%A9dito-de-la-fanb/a-78104699'
       },
       // ============================================================
+      // ARTÍCULOS: THE ODYSSEY DE CHRISTOPHER NOLAN (2026)
+      // ============================================================
+      {
+        id: '116',
+        contentType: 'reportage',
+        slug: 'the-odyssey-nolan-production-behind-scenes',
+        titleEs: 'The Odyssey: detrás de cámaras de la épica de $250M de Nolan — primera filmación en IMAX 70mm',
+        titleEn: 'The Odyssey: Behind the Scenes of Nolan\'s $250M IMAX Epic — First Film Shot Entirely on IMAX 70mm',
+        excerptEs: 'Christopher Nolan rodó en seis países con un equipo de 500 personas durante siete meses para convertirse en el primer largometraje filmado íntegramente con cámaras IMAX 70mm.',
+        excerptEn: 'Christopher Nolan shot across six countries with a 500-person crew over seven months to become the first feature film ever shot entirely on IMAX 70mm cameras.',
+        contentEs: `<h1>The Odyssey: detrás de cámaras de la épica de $250M de Nolan</h1>
+<p><em>Con un presupuesto estimado de $250 millones —el más alto de su carrera— Christopher Nolan ha llevado la Odisea de Homero a la pantalla grande como nunca antes. Rodada en seis países y siendo la primera película en la historia filmada completamente con cámaras IMAX 70mm, esta producción redefine el cine épico.</em></p>
+
+<h2>Una producción global sin precedentes</h2>
+<p>La fotografía principal se realizó entre febrero y agosto de 2025 en Marruecos, Grecia, Italia, Escocia, Islandia, Sáhara Occidental, Irlanda y estudios en Hollywood. Nolan desplegó un equipo de 500 personas durante siete meses de rodaje.</p>
+<p>Entre las locaciones destacan la región de Mesenia en el Peloponeso griego, la isla de Favignana en Sicilia —considerada por los estudiosos como la "isla de las cabras" de Homero—, la costa de Moray en Escocia, y la fortaleza UNESCO de Aït Benhaddou en Marruecos para representar la antigua Troya.</p>
+
+<h2>La revolución IMAX 70mm</h2>
+<p>Nolan ha soñado con filmar una película completa en IMAX desde los 16 años, cuando vio el documental <em>To Fly</em> en un parque de diversiones. "De niño, todo lo que quería era contar historias a gran escala usando esa tecnología", declaró en CinemaCon 2026. "Y pasé muchos años intentando lograrlo, empezando con <em>The Dark Knight</em>".</p>
+<p>El formato IMAX 70mm utiliza 15 perforaciones por cuadro —tres veces más que el 70mm estándar— ofreciendo una resolución de aproximadamente 18K. Solo 41 salas en el mundo pueden proyectarlo actualmente.</p>
+<p>El director calificó el proceso como "una pesadilla absoluta": las cámaras IMAX son extremadamente ruidosas, lo que obligó a regrabar todo el diálogo en postproducción, y los enormes rollos de película de 2.5 minutos requerían cambios constantes.</p>
+
+<h2>Innovación técnica y efectos prácticos</h2>
+<p>Nolan evitó el uso de pantallas verdes y agua digital. Todas las secuencias marítimas se filmaron de forma práctica en locaciones reales. Los efectos visuales están a cargo de DNEG y Wētā Workshop, con Andrew Jackson como supervisor de VFX.</p>
+<p>La partitura de Ludwig Göransson —ganador del Óscar por <em>Oppenheimer</em>— utilizó instrumentos griegos antiguos y prescindió de orquesta tradicional, incorporando al músico James Blake. El rodaje incluyó una pausa para que Nolan proyectara <em>Lawrence de Arabia</em> en 70mm para todo el elenco.</p>
+<p><small>Fuentes: Universal Pictures, Empire, Variety, Studiobinder</small></p>`,
+        contentEn: `<h1>The Odyssey: Behind the Scenes of Nolan's $250M Epic</h1>
+<p><em>With an estimated $250 million budget —the highest of his career— Christopher Nolan has brought Homer's Odyssey to the big screen like never before. Shot across six countries and the first film in history shot entirely on IMAX 70mm cameras, this production redefines epic cinema.</em></p>
+
+<h2>Unprecedented Global Production</h2>
+<p>Principal photography took place from February to August 2025 across Morocco, Greece, Italy, Scotland, Iceland, Western Sahara, Ireland, and Hollywood soundstages. Nolan deployed a 500-person crew over seven months of shooting.</p>
+<p>Key locations include the Messinia region of the Greek Peloponnese, the island of Favignana in Sicily —believed by scholars to be Homer's "goat island"— the Moray Coast in Scotland, and the UNESCO fortress of Aït Benhaddou in Morocco to depict ancient Troy.</p>
+
+<h2>The IMAX 70mm Revolution</h2>
+<p>Nolan has dreamed of shooting an entire feature on IMAX since age 16, when he watched the documentary <em>To Fly</em> at a Six Flags amusement park. "As a boy, all I wanted to do was tell large-scale stories using that technology," he said at CinemaCon 2026. "And I spent many, many years trying to bring that to fruition, starting with The Dark Knight."</p>
+<p>IMAX 70mm uses 15 perforations per frame —three times more than standard 70mm— delivering approximately 18K resolution. Only 41 theaters worldwide can currently project it.</p>
+<p>Nolan called the process "an absolute nightmare": IMAX cameras are extremely loud, requiring all dialogue to be re-recorded in post-production, and the massive 2.5-minute film rolls required constant changes.</p>
+
+<h2>Technical Innovation and Practical Effects</h2>
+<p>Nolan avoided green screens and digital water. All maritime sequences were shot practically on real locations. Visual effects are handled by DNEG and Wētā Workshop, with Andrew Jackson as VFX supervisor.</p>
+<p>Ludwig Göransson's score —Oscar-winner for <em>Oppenheimer</em>— used ancient Greek instruments and dispensed with traditional orchestra, incorporating musician James Blake. Production paused mid-shoot so Nolan could screen <em>Lawrence of Arabia</em> in 70mm for the entire cast.</p>
+<p><small>Sources: Universal Pictures, Empire, Variety, Studiobinder</small></p>`,
+        date: '2026-07-10',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=1200&h=630&fit=crop',
+        imageCaption: 'La costa griega del Peloponeso, una de las locaciones de rodaje de The Odyssey. Foto: Unsplash',
+        categoryEs: 'Cine',
+        categoryEn: 'Film',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 342,
+        location: 'Global — Marruecos, Grecia, Italia, Escocia, Islandia',
+        source: 'Universal Pictures / Variety / Empire',
+        sourceUrl: 'https://www.studiobinder.com/blog/christopher-nolan-the-odyssey-movie/'
+      },
+      {
+        id: '117',
+        contentType: 'culture',
+        slug: 'the-odyssey-adaptations-history-cinema-television',
+        titleEs: 'La Odisea en la pantalla: 3,000 años de adaptaciones — de Homero a Nolan',
+        titleEn: 'The Odyssey on Screen: 3,000 Years of Adaptations — From Homer to Nolan',
+        excerptEs: 'Desde la epopeya oral de Homero hasta el IMAX de Nolan, la Odisea ha sido reinterpretada en más de 33 películas, series animadas, novelas y hasta videojuegos.',
+        excerptEn: 'From Homer\'s oral epic to Nolan\'s IMAX, the Odyssey has been reinterpreted in over 33 films, animated series, novels, and even video games.',
+        contentEs: `<h1>La Odisea en la pantalla: 3,000 años de adaptaciones</h1>
+<p><em>El viaje de Odiseo ha cautivado la imaginación humana durante casi tres milenios. Con el estreno de la versión de Christopher Nolan, repasamos las adaptaciones más importantes que han llevado esta historia épica a la pantalla.</em></p>
+
+<h2>Las primeras adaptaciones cinematográficas</h2>
+<p>La Odisea llegó al cine mudo en 1905 con <em>Ulysse et le géant Polyphème</em> de Georges Méliès, y en 1911 con <em>L'Odissea</em> italiana. En 1954, Kirk Douglas protagonizó <em>Ulises</em>, una de las adaptaciones más recordadas del período clásico de Hollywood.</p>
+<p>La miniserie italiana <em>Odissea</em> (1968), dirigida por Franco Rossi, Mario Bava y Piero Schivazappa, consta de ocho episodios de 90 minutos y es considerada por muchos críticos como la adaptación más fiel jamás realizada.</p>
+
+<h2>La televisión y la animación</h2>
+<p>La miniserie <em>The Odyssey</em> (1997) con Armand Assante como Odiseo es probablemente la versión televisiva más conocida. La serie animada francesa <em>Ulysse 31</em> (1981) transportó la historia al siglo XXXI, mientras que <em>Mission Odyssey</em> (2002) la acercó al público infantil.</p>
+<p>HBO produjo <em>The Animated Odyssey</em> (2000) como una miniserie de cuatro partes supervisada por Gary Kurtz, productor de <em>Star Wars</em>.</p>
+
+<h2>Reimaginaciones modernas</h2>
+<p>Los hermanos Coen llevaron la Odisea al Mississippi de la Gran Depresión con <em>O Brother, Where Art Thou?</em> (2000), con George Clooney como Ulysses Everett McGill. James Joyce revolucionó la literatura con <em>Ulises</em> (1922), llevando el viaje de Odiseo a las calles de Dublín en un solo día.</p>
+<p>Otras adaptaciones notables incluyen <em>Le Mépris</em> (1963) de Jean-Luc Godard, <em>The Return</em> (2024) con Ralph Fiennes y Juliette Binoche, y la novela <em>The Penelopiad</em> (2005) de Margaret Atwood, que cuenta la historia desde la perspectiva de Penélope.</p>
+
+<h2>¿Dónde encaja Nolan?</h2>
+<p>La versión de Nolan es la primera en filmarse íntegramente en IMAX 70mm y cuenta con el presupuesto más alto de cualquier adaptación. Con un 96% en Rotten Tomatoes, los críticos la consideran la nueva referencia del cine épico basado en mitología clásica.</p>
+<p><small>Fuentes: Historia, Collider, Greek Gods Paradise, IMDb</small></p>`,
+        contentEn: `<h1>The Odyssey on Screen: 3,000 Years of Adaptations</h1>
+<p><em>Odysseus's journey has captivated human imagination for nearly three millennia. With Christopher Nolan's version now in theaters, we look back at the most important adaptations that have brought this epic story to the screen.</em></p>
+
+<h2>Early Film Adaptations</h2>
+<p>The Odyssey reached silent cinema in 1905 with Georges Méliès' <em>Ulysse et le géant Polyphème</em>, and in 1911 with the Italian <em>L'Odissea</em>. In 1954, Kirk Douglas starred in <em>Ulysses</em>, one of the most remembered adaptations of Hollywood's classical period.</p>
+<p>The Italian miniseries <em>Odissea</em> (1968), directed by Franco Rossi, Mario Bava, and Piero Schivazappa, spans eight 90-minute episodes and is considered by many critics as the most faithful adaptation ever made.</p>
+
+<h2>Television and Animation</h2>
+<p>The miniseries <em>The Odyssey</em> (1997) starring Armand Assante as Odysseus is arguably the best-known television version. The French-Japanese animated series <em>Ulysse 31</em> (1981) transported the story to the 31st century, while <em>Mission Odyssey</em> (2002) brought it to younger audiences.</p>
+<p>HBO produced <em>The Animated Odyssey</em> (2000) as a four-part miniseries supervised by <em>Star Wars</em> producer Gary Kurtz.</p>
+
+<h2>Modern Reimaginings</h2>
+<p>The Coen Brothers brought the Odyssey to Depression-era Mississippi with <em>O Brother, Where Art Thou?</em> (2000), starring George Clooney as Ulysses Everett McGill. James Joyce revolutionized literature with <em>Ulysses</em> (1922), transporting Odysseus's journey to the streets of Dublin in a single day.</p>
+<p>Other notable adaptations include Godard's <em>Le Mépris</em> (1963), <em>The Return</em> (2024) with Ralph Fiennes and Juliette Binoche, and Margaret Atwood's novel <em>The Penelopiad</em> (2005), telling the story from Penelope's perspective.</p>
+
+<h2>Where Nolan Fits In</h2>
+<p>Nolan's version is the first to be shot entirely on IMAX 70mm and carries the highest budget of any adaptation. With 96% on Rotten Tomatoes, critics hail it as the new benchmark for classical mythology epic cinema.</p>
+<p><small>Sources: History.com, Collider, Greek Gods Paradise, IMDb</small></p>`,
+        date: '2026-07-16',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1601680406053-7898f0564c3b?w=1200&h=630&fit=crop',
+        imageCaption: 'Escultura clásica griega. La Odisea de Homero ha inspirado adaptaciones por más de un siglo. Foto: Unsplash',
+        categoryEs: 'Cultura',
+        categoryEn: 'Culture',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 215,
+        location: 'Global',
+        source: 'History.com / Collider',
+        sourceUrl: 'https://www.history.com/articles/odyssey-adaptations-novels-movies'
+      },
+      {
+        id: '118',
+        contentType: 'culture',
+        slug: 'homer-odyssey-guide-ancient-epic-nolan-film',
+        titleEs: 'La Odisea de Homero: guía del poema épico antes de ver la película de Nolan',
+        titleEn: 'Homer\'s Odyssey: A Guide to the Ancient Epic Before You See Nolan\'s Film',
+        excerptEs: '¿Quién es Odiseo? ¿Qué son los cantos? ¿Qué significa "odisea"? Una guía completa del poema fundacional de la literatura occidental.',
+        excerptEn: 'Who is Odysseus? What are the books? What does "odyssey" mean? A complete guide to the foundational poem of Western literature.',
+        contentEs: `<h1>La Odisea de Homero: guía del poema épico</h1>
+<p><em>Compuesta oralmente alrededor del siglo VIII a.C., la Odisea es, junto con la Ilíada, el texto fundacional de la literatura occidental. Antes de ver la versión de Nolan, aquí tienes todo lo que necesitas saber sobre el poema original.</em></p>
+
+<h2>¿Qué es la Odisea?</h2>
+<p>La Odisea es un poema épico atribuido a Homero que narra el viaje de regreso de Odiseo (Ulises en latín), rey de Ítaca, desde Troya hasta su hogar, un viaje que debía durar semanas pero se extiende por diez años debido a la furia de Poseidón.</p>
+<p>El poema consta de 24 cantos (libros) y aproximadamente 12,000 versos escritos en hexámetro dactílico. Se divide en tres partes principales: la <em>Telemaquia</em> (cantos I-IV), el viaje de Odiseo (cantos V-XII), y la venganza en Ítaca (cantos XIII-XXIV).</p>
+
+<h2>Estructura narrativa innovadora</h2>
+<p>Homero emplea una estructura <em>in medias res</em> (en medio de la acción): la historia comienza cuando Odiseo ya lleva siete años cautivo de la ninfa Calipso. Los eventos anteriores —la Guerra de Troya, el encuentro con el Cíclope, Circe, las Sirenas— se revelan mediante analepsis (flashbacks) cuando Odiseo los narra en la corte del rey Alcínoo.</p>
+<p>Esta estructura no lineal es una de las razones por las que Nolan —conocido por sus narrativas temporales complejas en <em>Memento</em>, <em>Dunkirk</em> e <em>Inception</em>— era el director perfecto para esta adaptación.</p>
+
+<h2>Personajes principales</h2>
+<p><strong>Odiseo:</strong> Rey de Ítaca, famoso por su astucia (<em>metis</em>) y elocuencia. Inventor del Caballo de Troya. Su viaje de regreso es una prueba de resistencia física e intelectual.</p>
+<p><strong>Penélope:</strong> Esposa de Odiseo, pasa 20 años tejiendo y destejendo un sudario para mantener a raya a los pretendientes que quieren su trono. Símbolo de fidelidad e inteligencia.</p>
+<p><strong>Telémaco:</strong> Hijo de Odiseo, pasa de ser un joven inseguro a un hombre decidido que ayuda a su padre a recuperar el trono.</p>
+<p><strong>Atenea:</strong> Diosa de la sabiduría, protectora de Odiseo, lo guía disfrazada de mentor, pastora y mensajera.</p>
+<p><strong>Polifemo:</strong> El cíclope hijo de Poseidón, cegado por Odiseo, lo que desata la furia del dios del mar.</p>
+
+<h2>Temas centrales</h2>
+<p>La Odisea explora el <em>nostos</em> (el anhelo de regreso al hogar), la hospitalidad (<em>xenia</em>), la identidad, la fidelidad conyugal, y la tensión entre el ingenio humano y las fuerzas divinas. Cada criatura y obstáculo representa una tentación o prueba diferente.</p>
+<p><small>Fuentes: Encyclopaedia Britannica, The British Museum, Emily Wilson translation</small></p>`,
+        contentEn: `<h1>Homer's Odyssey: A Guide to the Ancient Epic</h1>
+<p><em>Composed orally around the 8th century BCE, the Odyssey —alongside the Iliad— is the foundational text of Western literature. Before seeing Nolan's version, here is everything you need to know about the original poem.</em></p>
+
+<h2>What Is the Odyssey?</h2>
+<p>The Odyssey is an epic poem attributed to Homer that narrates Odysseus' journey home from Troy to Ithaca —a voyage that should have taken weeks but stretches to ten years due to Poseidon's wrath.</p>
+<p>The poem consists of 24 books and approximately 12,000 lines of dactylic hexameter verse. It divides into three main parts: the <em>Telemachy</em> (Books I-IV), Odysseus' journey (Books V-XII), and the vengeance in Ithaca (Books XIII-XXIV).</p>
+
+<h2>Innovative Narrative Structure</h2>
+<p>Homer employs an <em>in medias res</em> structure: the story begins when Odysseus has already been captive of the nymph Calypso for seven years. Earlier events —the Trojan War, the Cyclops encounter, Circe, the Sirens— are revealed through analepsis (flashbacks) as Odysseus narrates them at King Alcinous' court.</p>
+<p>This non-linear structure is one reason Nolan —known for complex temporal narratives in <em>Memento</em>, <em>Dunkirk</em>, and <em>Inception</em>— was the perfect director for this adaptation.</p>
+
+<h2>Main Characters</h2>
+<p><strong>Odysseus:</strong> King of Ithaca, famed for his cunning (<em>metis</em>) and eloquence. Inventor of the Trojan Horse. His journey home is a test of physical and intellectual endurance.</p>
+<p><strong>Penelope:</strong> Odysseus' wife, spends 20 years weaving and unweaving a shroud to keep suitors at bay. Symbol of fidelity and intelligence.</p>
+<p><strong>Telemachus:</strong> Odysseus' son, who evolves from an insecure youth to a determined man who helps his father reclaim the throne.</p>
+<p><strong>Athena:</strong> Goddess of wisdom, Odysseus' protector, guiding him disguised as a mentor, shepherd, and messenger.</p>
+<p><strong>Polyphemus:</strong> The Cyclops son of Poseidon, blinded by Odysseus, unleashing the sea god's fury.</p>
+
+<h2>Central Themes</h2>
+<p>The Odyssey explores <em>nostos</em> (the longing for home), hospitality (<em>xenia</em>), identity, marital fidelity, and the tension between human ingenuity and divine forces. Every creature and obstacle represents a different temptation or trial.</p>
+<p><small>Sources: Encyclopaedia Britannica, The British Museum, Emily Wilson translation</small></p>`,
+        date: '2026-07-14',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&h=630&fit=crop',
+        imageCaption: 'La Odisea de Homero, manuscrito antiguo. El poema fue compuesto oralmente en el siglo VIII a.C. Foto: Unsplash',
+        categoryEs: 'Cultura',
+        categoryEn: 'Culture',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 189,
+        location: 'Grecia Antigua',
+        source: 'Encyclopaedia Britannica',
+        sourceUrl: 'https://www.britannica.com/topic/Odyssey-epic-by-Homer'
+      },
+      {
+        id: '119',
+        contentType: 'analysis',
+        slug: 'the-odyssey-thematic-analysis-nolan-homer',
+        titleEs: 'Los temas universales de La Odisea: qué revela la película de Nolan sobre nosotros mismos',
+        titleEn: 'The Timeless Themes of The Odyssey: What Nolan\'s Film Reveals About Us',
+        excerptEs: 'Nolan encuentra en Homero un espejo de sus obsesiones temáticas: el tiempo, la identidad, la memoria y el regreso al hogar. Un análisis de los grandes temas de la epopeya.',
+        excerptEn: 'Nolan finds in Homer a mirror of his thematic obsessions: time, identity, memory, and the return home. An analysis of the epic\'s great themes.',
+        contentEs: `<h1>Los temas universales de La Odisea</h1>
+<p><em>Críticos de todo el mundo han señalado que The Odyssey no solo es la película más ambiciosa de Nolan, sino también la más personal. ¿Qué dice esta epopeya milenaria sobre nosotros, los espectadores del siglo XXI?</em></p>
+
+<h2>El nostos: el viaje como metáfora de la vida</h2>
+<p>El concepto griego de <em>nostos</em> —el anhelo de regresar al hogar— es el motor emocional de la Odisea. Nolan, que ha explorado el tiempo y la memoria en casi todas sus películas, encuentra en Odiseo a su protagonista más complejo: un hombre que debe recordar quién es para poder llegar a casa.</p>
+<p>La crítica Amy Nicholson (Los Angeles Times) escribió que la película "es un poderoso caballo de Troya de las obsesiones temáticas de Nolan". El director ha confirmado que ve en Odiseo a un pariente de los protagonistas de <em>Memento</em>, <em>Inception</em> y <em>Interstellar</em>: hombres atormentados por el pasado que luchan por recuperar algo perdido.</p>
+
+<h2>La identidad y el disfraz</h2>
+<p>Odiseo pasa gran parte del poema ocultando su identidad: se presenta como "Nadie" ante Polifemo, como un mendigo ante los pretendientes, como un extranjero ante su propia esposa. Esta exploración de la identidad fragmentada resuena con la filmografía de Nolan, donde los protagonistas cuestionan constantemente quiénes son realmente.</p>
+<p>Matt Damon, quien interpreta a Odiseo, declaró a Empire: "Odiseo es un hombre que ha pasado veinte años siendo muchas versiones de sí mismo. Cuando finalmente regresa a Ítaca, la pregunta no es si Penélope lo reconocerá, sino si él mismo se reconoce".</p>
+
+<h2>La hospitalidad y la barbarie</h2>
+<p>El poema está estructurado en torno al concepto de <em>xenia</em> (hospitalidad sagrada). Cada encuentro de Odiseo —con el Cíclope que devora a sus hombres, con Circe que los convierte en cerdos, con los lotófagos que ofrecen el olvido— es una prueba de cómo los seres humanos tratan al extranjero. En un mundo globalizado y polarizado, esta reflexión sobre la hospitalidad y la alteridad es más relevante que nunca.</p>
+
+<h2>Penélope: el hogar como fortaleza</h2>
+<p>Nolan otorga a Penélope (Anne Hathaway) una agencia que el poema original apenas esboza. En la película, ella reconoce a Odiseo casi de inmediato pero espera, dejando que él se revele en sus propios términos. Hathaway lleva un pequeño anillo de plata que perteneció a la madre de Odiseo —un detalle nunca mencionado en el diálogo que añade peso emocional a cada escena.</p>
+
+<h2>¿Qué dice la película sobre nosotros?</h2>
+<p>En última instancia, la Odisea es una historia sobre el deseo humano de pertenencia. En una era de migraciones masivas, crisis de identidad y conexiones digitales superficiales, el viaje de Odiseo nos recuerda que el hogar no es un lugar geográfico sino emocional: un espacio donde somos conocidos y aceptados por quienes realmente somos.</p>
+<p><small>Fuentes: Los Angeles Times, Empire, RogerEbert.com, Variety</small></p>`,
+        contentEn: `<h1>The Timeless Themes of The Odyssey</h1>
+<p><em>Critics worldwide have noted that The Odyssey is not only Nolan's most ambitious film, but also his most personal. What does this millennia-old epic say about us, 21st-century viewers?</em></p>
+
+<h2>Nostos: The Journey as a Metaphor for Life</h2>
+<p>The Greek concept of <em>nostos</em> —the longing to return home— is the emotional engine of the Odyssey. Nolan, who has explored time and memory in almost all his films, finds in Odysseus his most complex protagonist: a man who must remember who he is in order to make it home.</p>
+<p>Critic Amy Nicholson (LA Times) wrote that the film "is a mighty Trojan horse of Nolan's thematic obsessions." The director has confirmed he sees in Odysseus a relative of the protagonists of <em>Memento</em>, <em>Inception</em>, and <em>Interstellar</em>: men haunted by the past struggling to recover something lost.</p>
+
+<h2>Identity and Disguise</h2>
+<p>Odysseus spends much of the poem hiding his identity: he presents himself as "Nobody" to Polyphemus, as a beggar to the suitors, as a stranger to his own wife. This exploration of fractured identity resonates with Nolan's filmography, where protagonists constantly question who they really are.</p>
+<p>Matt Damon, who plays Odysseus, told Empire: "Odysseus is a man who has spent twenty years being many versions of himself. When he finally returns to Ithaca, the question is not whether Penelope will recognize him, but whether he recognizes himself."</p>
+
+<h2>Hospitality and Barbarism</h2>
+<p>The poem is structured around the concept of <em>xenia</em> (sacred hospitality). Each encounter —with the Cyclops who devours his men, with Circe who turns them into pigs, with the Lotus-Eaters who offer oblivion— tests how humans treat the stranger. In a globalized, polarized world, this reflection on hospitality and otherness is more relevant than ever.</p>
+
+<h2>Penelope: Home as Fortress</h2>
+<p>Nolan grants Penelope (Anne Hathaway) agency that the original poem barely sketches. In the film, she recognizes Odysseus almost immediately but waits, letting him reveal himself on his own terms. Hathaway wears a small silver ring that belonged to Odysseus's mother —a detail never mentioned in dialogue that adds emotional weight to every scene.</p>
+
+<h2>What Does the Film Say About Us?</h2>
+<p>Ultimately, the Odyssey is a story about the human desire for belonging. In an era of mass migration, identity crises, and shallow digital connections, Odysseus' journey reminds us that home is not a geographic place but an emotional one: a space where we are known and accepted for who we truly are.</p>
+<p><small>Sources: Los Angeles Times, Empire, RogerEbert.com, Variety</small></p>`,
+        date: '2026-07-18',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1200&h=630&fit=crop',
+        imageCaption: 'El mar Egeo, escenario del viaje de Odiseo. La Odisea es un viaje físico y emocional. Foto: Unsplash',
+        categoryEs: 'Análisis',
+        categoryEn: 'Analysis',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 267,
+        location: 'Global',
+        source: 'Análisis propio / Los Angeles Times / Empire',
+        sourceUrl: 'https://www.latimes.com/entertainment-arts/movies/story/2026-07-15/odyssey-review-christopher-nolan-matt-damon-anne-hathaway-tom-holland'
+      },
+      {
+        id: '120',
+        contentType: 'news',
+        slug: 'the-odyssey-reviews-critics-crowning-achievement',
+        titleEs: 'The Odyssey: críticos la coronan como la obra cumbre de Nolan — 96% en Rotten Tomatoes',
+        titleEn: 'The Odyssey Reviews: Critics Crown It Nolan\'s Masterpiece — 96% on Rotten Tomatoes',
+        excerptEs: 'Con un 96% de aprobación en Rotten Tomatoes y un 88 en Metacritic, la epopeya de Nolan sobre Homero es aclamada como su mejor película. Robert Pattinson roba escenas como Antínoo.',
+        excerptEn: 'With 96% approval on Rotten Tomatoes and 88 on Metacritic, Nolan\'s Homeric epic is hailed as his best film. Robert Pattinson steals scenes as Antinous.',
+        contentEs: `<h1>The Odyssey: críticos la coronan como la obra cumbre de Nolan</h1>
+<p><em>La esperada epopeya de Christopher Nolan sobre la Odisea de Homero se estrenó el 17 de julio de 2026 con las mejores críticas de su carrera: 96% en Rotten Tomatoes y 88 en Metacritic. ¿Es realmente su mejor película?</em></p>
+
+<h2>Una recepción histórica</h2>
+<p>The Odyssey debutó con un 98% en Rotten Tomatoes —el puntaje más alto de la carrera de Nolan, superando a <em>Memento</em> (94%), <em>The Dark Knight</em> (94%) y <em>Oppenheimer</em> (93%)— aunque se ha estabilizado en 96%. En Metacritic, su puntuación de 88 iguala la de <em>Oppenheimer</em> y se acerca al 94 de <em>Dunkirk</em>.</p>
+<p>Matt Zoller Seitz de RogerEbert.com le otorgó cuatro estrellas: "La Odisea de Nolan comienza con un hombre de pie sobre una mesa en un salón de banquetes, contando una historia. Es una forma perfecta de empezar una película que trata sobre la importancia de las historias".</p>
+<p>Clarisse Loughrey de The Independent declaró: "Es el mejor trabajo de Nolan hasta la fecha. Merece ser la película que lo defina". Mike Ryan de The Hard Pass fue aún más directo: "The Odyssey es la coronación de Nolan".</p>
+
+<h2>Actuaciones destacadas</h2>
+<p>Matt Damon como Odiseo recibe elogios unánimes por una actuación que muchos consideran la mejor de su carrera. Robert Pattinson como Antínoo —el pretendiente jefe— está generando el mayor rumor: Erik Davis de Fandango lo calificó como "el que roba el show cada vez que aparece en pantalla".</p>
+<p>Anne Hathaway como Penélope y Tom Holland como Telémaco también reciben grandes elogios. John Leguizamo como Eumeo —el fiel porquerizo— es descrito como "sublime" y "profundamente conmovedor".</p>
+
+<h2>Nolan ranking: ¿dónde se ubica?</h2>
+<p>Según las calificaciones de Rotten Tomatoes, el ranking actualizado de Nolan es:</p>
+<ol>
+<li>The Odyssey (2026) — 96%</li>
+<li>Memento (2000) — 94%</li>
+<li>The Dark Knight (2008) — 94%</li>
+<li>Oppenheimer (2023) — 93%</li>
+<li>Insomnia (2002) — 92%</li>
+<li>Dunkirk (2017) — 92%</li>
+<li>Batman Begins (2005) — 85%</li>
+<li>Inception (2010) — 87%</li>
+<li>The Dark Knight Rises (2012) — 87%</li>
+<li>Following (1998) — 87%</li>
+</ol>
+
+<h2>Reacciones de celebridades</h2>
+<p>Guillermo del Toro calificó la película como "una hazaña colosal de narración visual". Steven Spielberg envió una carta personal a Nolan felicitándolo por "lograr lo que el cine debe hacer: transportarnos". Elon Musk, tras una controversia inicial, tuiteó: "Nolan ha hecho lo imposible: hacer que un poema de 3,000 años se sienta como ciencia ficción".</p>
+<p>Algunos críticos señalaron un ritmo "torpe" en ciertas secciones intermedias, pero coincidieron en que los últimos 20 minutos son "alucinantes" y recontextualizan completamente el mito clásico.</p>
+<p><small>Fuentes: Rotten Tomatoes, Metacritic, RogerEbert.com, Variety, The Hollywood Reporter</small></p>`,
+        contentEn: `<h1>The Odyssey Reviews: Critics Crown It Nolan's Masterpiece</h1>
+<p><em>Christopher Nolan's long-awaited Homeric epic opened on July 17, 2026 to the best reviews of his career: 96% on Rotten Tomatoes and 88 on Metacritic. Is it really his best film?</em></p>
+
+<h2>Historic Reception</h2>
+<p>The Odyssey debuted at 98% on Rotten Tomatoes —Nolan's highest score ever, surpassing <em>Memento</em> (94%), <em>The Dark Knight</em> (94%), and <em>Oppenheimer</em> (93%)— before settling at 96%. On Metacritic, its 88 score ties <em>Oppenheimer</em> and approaches <em>Dunkirk</em>'s 94.</p>
+<p>Matt Zoller Seitz of RogerEbert.com gave it four stars: "Nolan's The Odyssey begins with a man standing on a table in a banquet hall, telling a story. It's a perfect way to start a movie that's about the importance of stories."</p>
+<p>Clarisse Loughrey of The Independent declared: "It's Nolan's best work to date. It deserves to be the film that defines him." Mike Ryan of The Hard Pass was even more direct: "The Odyssey is Nolan's crowning achievement."</p>
+
+<h2>Standout Performances</h2>
+<p>Matt Damon as Odysseus receives unanimous praise for what many consider his career-best performance. Robert Pattinson as Antinous —the lead suitor— is generating the loudest buzz: Erik Davis of Fandango called him "the show-stealer every time he appears on screen."</p>
+<p>Anne Hathaway as Penelope and Tom Holland as Telemachus also receive high acclaim. John Leguizamo as Eumaeus —the loyal swineherd— is described as "sublime" and "deeply moving."</p>
+
+<h2>Nolan Ranking: Where Does It Stand?</h2>
+<p>According to Rotten Tomatoes scores, Nolan's updated ranking is:</p>
+<ol>
+<li>The Odyssey (2026) — 96%</li>
+<li>Memento (2000) — 94%</li>
+<li>The Dark Knight (2008) — 94%</li>
+<li>Oppenheimer (2023) — 93%</li>
+<li>Insomnia (2002) — 92%</li>
+<li>Dunkirk (2017) — 92%</li>
+<li>Batman Begins (2005) — 85%</li>
+<li>Inception (2010) — 87%</li>
+<li>The Dark Knight Rises (2012) — 87%</li>
+<li>Following (1998) — 87%</li>
+</ol>
+
+<h2>Celebrity Reactions</h2>
+<p>Guillermo del Toro called the film "a colossal feat of visual storytelling." Steven Spielberg sent Nolan a personal letter congratulating him for "achieving what cinema must do: transport us." Elon Musk, after an initial controversy, tweeted: "Nolan has done the impossible: making a 3,000-year-old poem feel like science fiction."</p>
+<p>A few critics noted "clunky" pacing in certain middle sections but agreed that the final 20 minutes are "mind-blowing," completely recontextualizing the classical myth.</p>
+<p><small>Sources: Rotten Tomatoes, Metacritic, RogerEbert.com, Variety, The Hollywood Reporter</small></p>`,
+        date: '2026-07-17',
+        readTimeEs: '6 min de lectura',
+        readTimeEn: '6 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&h=630&fit=crop',
+        imageCaption: 'Sala de cine IMAX. The Odyssey se proyecta en 41 salas IMAX 70mm en todo el mundo. Foto: Unsplash',
+        categoryEs: 'Cine',
+        categoryEn: 'Film',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 521,
+        location: 'Hollywood, EE.UU.',
+        source: 'Rotten Tomatoes / Metacritic / Variety / RogerEbert.com',
+        sourceUrl: 'https://editorial.rottentomatoes.com/article/everything-we-know-about-the-odyssey/'
+      },
+      // ============================================================
       // FIN DE NOTICIAS
     ];
 
