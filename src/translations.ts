@@ -628,7 +628,7 @@ export const blogPosts: BlogPost[] = [
     categoryEs: 'Reflexiones',
     categoryEn: 'Reflections',
     enableComments: true,
-    featured: true,
+    featured: false,
     views: 1
   },
 {
@@ -6480,7 +6480,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         categoryEs: 'Análisis Técnico',
         categoryEn: 'Technical Analysis',
         enableComments: true,
-        featured: true,
+        featured: false,
         views: 1,
         breaking: false,
         location: 'La Paz, Bolivia'
@@ -6520,7 +6520,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         categoryEs: 'Catástrofes',
         categoryEn: 'Catastrophes',
         enableComments: true,
-        featured: false,
+        featured: true,
         views: 1,
         breaking: false,
         location: 'España y Francia',
