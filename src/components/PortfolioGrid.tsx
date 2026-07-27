@@ -353,12 +353,12 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
       {/* Full-screen image viewer */}
       {activeGalleryImage && (
         <div
-          className="fixed inset-0 z-[60] bg-[#050505]/95 flex items-center justify-center p-4 backdrop-blur-sm animate-fadeIn cursor-pointer"
+          className="fixed inset-0 z-[60] bg-[#050505]/95 flex items-start justify-center pt-[5vh] pb-8 px-4 backdrop-blur-sm animate-fadeIn cursor-pointer overflow-y-auto"
           onClick={() => setActiveGalleryImage(null)}
         >
           <button
             onClick={() => setActiveGalleryImage(null)}
-            className="absolute top-4 right-4 p-2 rounded-sm bg-[#020202] hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
+            className="fixed top-4 right-4 p-2 rounded-sm bg-[#020202] hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
           >
             <X className="w-6 h-6" />
           </button>
