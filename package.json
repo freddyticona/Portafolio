@@ -32,7 +32,7 @@
     "@sentry/react": "^10.67.0",
     "@sentry/vite-plugin": "^5.4.0",
     "@tailwindcss/vite": "^4.1.14",
-    "@types/vanilla-tilt": "^1.4.1",
+    "@types/vanilla-tilt": "^1.6.2",
     "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.6.1",
     "@vercel/speed-insights": "^2.0.0",
