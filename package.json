@@ -54,11 +54,13 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",
     "@playwright/test": "^1.61.1",
+    "@prerenderer/rollup-plugin": "^0.3.12",
     "@types/express": "^5.0.6",
     "@types/node": "^22.14.0",
     "@vercel/node": "^5.8.26",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.28.1",
+    "puppeteer": "^25.4.0",
     "sharp": "^0.35.3",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",

@@ -10,14 +10,11 @@ function makeCssNonBlocking(): Plugin {
     name: 'make-css-non-blocking',
     enforce: 'post',
     transformIndexHtml(html) {
-      // Solo apuntar al CSS bundle de Vite (tiene /assets/ en href)
       return html.replace(
         '<link rel="stylesheet" crossorigin href="/assets/',
         '<link rel="preload" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" crossorigin href="/assets/'
       );
     },
-    // Los estilos inline en <head> ya cubren la sección crítica (hero),
-    // y React monta después de que la CSS async haya cargado
   };
 }
 
@@ -47,69 +44,49 @@ export default defineConfig(() => {
           changeOrigin: true,
         },
       },
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
-      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
     build: {
-      // Optimización de chunk splitting
       rollupOptions: {
         output: {
-          // Dividir el código en chunks más pequeños
           manualChunks(id) {
-            // Firebase - separar para mejor caching (pesado: 552 KB)
             if (id.includes('node_modules/firebase')) {
               return 'firebase';
             }
-            // Sentry - vendor separado
             if (id.includes('node_modules/@sentry')) {
               return 'sentry';
             }
-            // Lucide icons - separar (muchos iconos no usados)
             if (id.includes('node_modules/lucide-react')) {
               return 'lucide-icons';
             }
-            // Motion (framer-motion) - separar
             if (id.includes('node_modules/motion') || id.includes('node_modules/framer-motion')) {
               return 'motion';
             }
-            // Marked (markdown parser) - separar
             if (id.includes('node_modules/marked')) {
               return 'marked';
             }
-            // React vendor - core
             if (id.includes('node_modules/react') || id.includes('node_modules/react-dom') || id.includes('node_modules/react-router')) {
               return 'react-vendor';
             }
-            // Otros node_modules - vendor genérico
             if (id.includes('node_modules')) {
               return 'vendor';
             }
           },
-          // Optimizar nombres de chunks para mejor caching
           chunkFileNames: 'assets/[name]-[hash].js',
           entryFileNames: 'assets/[name]-[hash].js',
           assetFileNames: 'assets/[name]-[hash].[ext]',
         },
       },
-      // Preload JS modules for parallel download with CSS
       modulePreload: true,
-      // Límite de advertencia de chunk size (reducido para mantener bundles pequeños)
       chunkSizeWarningLimit: 300,
-      // Optimización de CSS
       cssCodeSplit: true,
-      // Minificación habilitada por defecto
       minify: 'esbuild',
-      // Eliminar console.log en producción
       esbuildOptions: {
         drop: process.env.NODE_ENV !== 'development' ? ['console', 'debugger'] : [],
       },
-      // Source maps: desactivado en producción (seguridad, no exponer source code)
       sourcemap: process.env.NODE_ENV === 'development' ? true : false,
     },
-    // Compresión con Brotli (Vercel lo hace automáticamente)
     reportCompressedSize: true,
     test: {
       exclude: ['e2e/**', 'node_modules/**'],
