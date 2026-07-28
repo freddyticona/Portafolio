@@ -171,7 +171,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
       if (dateDiff !== 0) return dateDiff;
       return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
-  }, [posts, heroPost, activeCategory, activeContentType, searchTerm, sortBy, lang]);
+  }, [posts, heroPost, activeRegion, activeCategory, activeContentType, searchTerm, sortBy, lang]);
 
   const trendingPosts = useMemo(() => {
     return [...posts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 5);
