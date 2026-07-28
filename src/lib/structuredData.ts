@@ -41,7 +41,12 @@ const PERSON_DATA = {
   },
   telephone: '+59162408420',
   email: 'freddyticona62@gmail.com',
-  award: ['Premio Nacional Eduardo Abaroa 2017 - Periodismo Cultural'],
+  award: [
+    'Premio Nacional Eduardo Abaroa 2017 - Periodismo Cultural',
+    'Memorándum de Felicitación - Bolivia TV 2024',
+    'Memorándum de Felicitación - Bolivia TV 2022',
+    'Memorándum de Felicitación - Bolivia TV 2021'
+  ],
   knowsAbout: [
     'Cinematografía',
     'Edición de Video',

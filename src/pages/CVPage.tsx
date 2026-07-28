@@ -359,12 +359,16 @@ export default function CVPage({ lang, t }: CVPageProps) {
             </h3>
 
             <div className="p-5 bg-white/[0.01] border border-white/5 rounded-sm space-y-2 text-left text-xs text-stone-400">
-              <h4 className="font-bold text-white text-sm">{t.cvMemoTitle}</h4>
-              <p className="leading-relaxed font-light">{t.cvMemoDesc}</p>
+              <h4 className="font-bold text-white text-sm">{t.cvMemoBtv2024Title}</h4>
+              <p className="leading-relaxed font-light">{t.cvMemoBtv2024Desc}</p>
             </div>
             <div className="p-5 bg-white/[0.01] border border-white/5 rounded-sm space-y-2 text-left text-xs text-stone-400">
-              <h4 className="font-bold text-white text-sm">{t.cvMemo2Title}</h4>
-              <p className="leading-relaxed font-light">{t.cvMemo2Desc}</p>
+              <h4 className="font-bold text-white text-sm">{t.cvMemoBtv2022Title}</h4>
+              <p className="leading-relaxed font-light">{t.cvMemoBtv2022Desc}</p>
+            </div>
+            <div className="p-5 bg-white/[0.01] border border-white/5 rounded-sm space-y-2 text-left text-xs text-stone-400">
+              <h4 className="font-bold text-white text-sm">{t.cvMemoBtv2021Title}</h4>
+              <p className="leading-relaxed font-light">{t.cvMemoBtv2021Desc}</p>
             </div>
             <a href="https://www.credly.com/users/freddy-ticona-guzman" target="_blank" rel="noopener noreferrer" className="block p-5 bg-white/[0.01] border border-white/5 hover:border-gold/40 rounded-sm transition-all duration-300 text-left text-xs text-stone-400 group">
               <h4 className="font-bold text-white text-sm group-hover:text-gold transition-colors">

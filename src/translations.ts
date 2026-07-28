@@ -141,53 +141,43 @@ export const timelineEvents: TimelineEvent[] = [
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Abya Yala Televisión (2019)',
+    name: 'Abya Yala TV (16/09/2019)',
     roleEs: 'Memorándum de Felicitación',
-    roleEn: 'Official Commendation Memorandum',
-    companyEs: 'Canal 41 - Gerencia de Informaciones',
-    companyEn: 'Channel 41 - News Management',
-    textEs: 'Otorgado por ser premiado en el XI Concurso de reportajes periodísticos, organizado por la Fundación Viva y Católicas por el derecho a decidir.',
-    textEn: 'Awarded in recognition of being prized in the XI Journalism Reporting Contest, organized by the Viva Foundation and Católicas por el derecho a decidir.'
+    roleEn: 'Commendation Memorandum',
+    companyEs: 'Claudia Espinoza I. (Gerente General)',
+    companyEn: 'Claudia Espinoza I. (General Manager)',
+    textEs: 'Felicitación por el reportaje "LA LEY DEL CUERPO", ganador del XI Concurso de reportajes periodísticos (Fundación Viva y Católicas por el Derecho a Decidir). Cargo: Camarógrafo - Editor.',
+    textEn: 'Congratulations for the report "LA LEY DEL CUERPO", winner of the XI Journalism Report Contest (Viva Foundation and Católicas por el Derecho a Decidir). Position: Cameraman - Editor.'
   },
   {
     id: '2',
-    name: 'Abya Yala Televisión (2019)',
+    name: 'Abya Yala TV (01/02/2019)',
     roleEs: 'Memorándum de Felicitación',
-    roleEn: 'Official Commendation Memorandum',
-    companyEs: 'Canal 41 - Dirección General',
-    companyEn: 'Channel 41 - General Management',
-    textEs: 'Otorgado por obtener el prestigioso Premio Plurinacional Eduardo Abaroa 2017 en la categoría de Periodismo Cultural.',
-    textEn: 'Awarded for obtaining the prestigious 2017 Eduardo Abaroa National Award in the Cultural Journalism category.'
+    roleEn: 'Commendation Memorandum',
+    companyEs: 'Claudia Espinoza I. (Gerente General)',
+    companyEn: 'Claudia Espinoza I. (General Manager)',
+    textEs: 'Felicitación por el "Premio Plurinacional Eduardo Abaroa 2017" al mejor Reportaje Televisivo por "La Estrella" y reconocimiento a la participación en la serie documental "Médicos en el Tipnis" con Prensa Latina. Cargo: Camarógrafo - Editor.',
+    textEn: 'Congratulations for the "2017 Eduardo Abaroa National Award" for Best Television Report for "La Estrella" and recognition for participation in the documentary series "Médicos en el Tipnis" with Prensa Latina. Position: Cameraman - Editor.'
   },
   {
     id: '3',
-    name: 'Abya Yala Televisión (2019)',
-    roleEs: 'Memorándum de Felicitación',
-    roleEn: 'Official Commendation Memorandum',
-    companyEs: 'Canal 41 - En colaboración con Prensa Latina',
-    companyEn: 'Channel 41 - In collaboration with Prensa Latina',
-    textEs: 'Resaltando el sobresaliente trabajo y participación en el documental "Médicos en el Tipnis", desarrollado en colaboración con la Agencia Informativa Latinoamericana Prensa Latina.',
-    textEn: 'Highlighting the outstanding work and participation in the documentary "Médicos en el Tipnis", developed in collaboration with the Latin American News Agency Prensa Latina.'
+    name: 'RTP (29/09/2015)',
+    roleEs: 'Memorándum de Agradecimiento y Felicitación',
+    roleEn: 'Thanks and Commendation Memorandum',
+    companyEs: 'Jorge Luis Palenque M. (Gerente General a.i.) y Claudia Benítez A. (Gerente Adm. Financiera)',
+    companyEn: 'Jorge Luis Palenque M. (Acting General Manager) and Claudia Benítez A. (Financial Admin Manager)',
+    textEs: 'Agradecimiento por el valioso aporte en la transmisión del REFERÉNDUM 2015. REF: JRR.HH.FEL 007/2015. Cargo: Camarógrafo Editor.',
+    textEn: 'Gratitude for the valuable contribution in the broadcast of the 2015 REFERENDUM. REF: JRR.HH.FEL 007/2015. Position: Cameraman Editor.'
   },
   {
     id: '4',
-    name: 'Canal 4 RTP (2015)',
-    roleEs: 'Memorándum de Felicitación',
-    roleEn: 'Official Commendation Memorandum',
-    companyEs: 'Radiodifusoras Populares - Jefatura de Prensa',
-    companyEn: 'Radiodifusoras Populares - News Department',
-    textEs: 'Otorgado por el impecable trabajo desempeñado durante la cobertura del Referéndum de 2015, cobertura realizada en Riberalta.',
-    textEn: 'Awarded for the impeccable work performed during the coverage of the 2015 Referendum, with field reporting done in Riberalta.'
-  },
-  {
-    id: '5',
-    name: 'Canal 4 RTP (2014)',
-    roleEs: 'Memorándum de Felicitación',
-    roleEn: 'Official Commendation Memorandum',
-    companyEs: 'Radiodifusoras Populares - Dirección de Prensa',
-    companyEn: 'Radiodifusoras Populares - News Direction',
-    textEs: 'Otorgado por el excelente trabajo desempeñado en la cobertura y realización técnica de la Fastuosa Entrada del Señor Jesús del Gran Poder.',
-    textEn: 'Awarded for the excellent work performed in the coverage and technical production of the Grand Entrance of Señor Jesús del Gran Poder.'
+    name: 'RTP (23/06/2015)',
+    roleEs: 'Memorándum de Agradecimiento y Felicitación',
+    roleEn: 'Thanks and Commendation Memorandum',
+    companyEs: 'Fernando Pérez F. de Córdova (Gerente General)',
+    companyEn: 'Fernando Pérez F. de Córdova (General Manager)',
+    textEs: 'Felicitación por el compromiso en la producción y transmisión del Año Nuevo Andino Amazónico / Cobertura de prensa del 21 de junio. REF: JRR.HH.FEL 004/2015. Cargo: Camarógrafo Editor.',
+    textEn: 'Congratulations for the commitment in the production and broadcast of the Andean Amazon New Year / Press coverage of June 21. REF: JRR.HH.FEL 004/2015. Position: Cameraman Editor.'
   }
 ];
 
@@ -7509,11 +7499,13 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
     cvShowLessCerts: 'Colapsar certificaciones adicionales',
     cvAwardsTitle: 'Premios, Distinciones y Memorandos',
     cvAwardAbaroaTitle: 'Premio Plurinacional Eduardo Abaroa 2017',
-    cvAwardAbaroaDesc: 'Otorgado por el Ministerio de Culturas y Turismo del Estado Plurinacional de Bolivia. Primer lugar en la categoría Reportaje de Investigación en Periodismo Cultural por el documental de televisión "La Estrella". El galardón más prestigioso del país para las artes y el periodismo cultural.',
-    cvMemoTitle: 'Memorando de Felicitación Institucional - Bolivia TV (2022)',
-    cvMemoDesc: 'Reconocimiento oficial emitido por la Gerencia General de Bolivia TV por el destacado desempeño y entrega técnica en trabajos de postproducción y edición de video durante los 36 días del paro cívico en Santa Cruz (octubre - noviembre 2022).',
-    cvMemo2Title: 'Memorando de Felicitación Institucional - Bolivia TV (2024)',
-    cvMemo2Desc: 'Reconocimiento oficial emitido por la Gerencia General de Bolivia TV por la elaboración del reportaje especial de postproducción y edición de video sobre la cronología completa del intento de golpe de Estado del 26 de junio de 2024, perpetrado por el entonces comandante del Ejército Juan José Zúñiga contra el gobierno constitucional del presidente Luis Arce.',
+    cvAwardAbaroaDesc: 'Mejor reportaje para televisión con la obra "La Estrella" (Televisión - Periodismo Cultural). Otorgado por el Ministerio de Culturas y Turismo del Estado Plurinacional de Bolivia. Galardonados: Odalys Sarai Amoros Ramos y Freddy Ticona Guzman. Fecha: 23/03/2018. La Paz, Bolivia.',
+    cvMemoBtv2024Title: 'Memorándum de Felicitación – Bolivia TV (05/07/2024)',
+    cvMemoBtv2024Desc: 'CITE: GCIA. GRAL. FL. N° 260/2024. Emisor: Lic. Julio Fernando Valdivia Rodríguez (Gerente General). Motivo: Felicitación por el excelente desempeño en la cobertura del golpe de Estado fallido del 26 de junio de 2024, en defensa de la democracia.',
+    cvMemoBtv2022Title: 'Memorándum de Felicitación – Bolivia TV (06/12/2022)',
+    cvMemoBtv2022Desc: 'CITE: GCIA. GRAL. FL. N° 108/2022. Emisor: Lic. Julio Fernando Valdivia Rodríguez (Gerente General a.i.). Motivo: Felicitación por el compromiso y capacidad profesional en la cobertura especial de los hechos de octubre-noviembre 2022 en Santa Cruz.',
+    cvMemoBtv2021Title: 'Memorándum de Felicitación – Bolivia TV (20/08/2021)',
+    cvMemoBtv2021Desc: 'CITE: GCIA. GRAL. FL. N° 027/2021. Emisor: Lic. Rocio Alejandra Molina Travesi (Gerente General). Motivo: Felicitación por la labor en la cobertura del Aniversario de la Independencia de Bolivia (196 Años), 5-6/08/2021 en La Paz.',
 
     blogTitle: 'Blog Audiovisual',
     blogSubtitle: 'Apuntes de campo, análisis de tendencias de video, tutoriales de montaje y relatos de coberturas periodísticas en Bolivia.',
@@ -7649,11 +7641,13 @@ My professional growth led me to specialize in documentary cinematography and fr
     cvShowLessCerts: 'Collapse additional certifications',
     cvAwardsTitle: 'Awards, Honours & Commendations',
     cvAwardAbaroaTitle: 'Eduardo Abaroa National Award 2017',
-    cvAwardAbaroaDesc: 'Granted by the Ministry of Cultures and Tourism of the Plurinational State of Bolivia. First place in the Cultural Journalism Investigative Reporting category for the television documentary "La Estrella". The nation\'s highest recognition for arts and journalism.',
-    cvMemoTitle: 'Institutional Commendation Letter - Bolivia TV (2022)',
-    cvMemoDesc: 'Official citation issued by Bolivia TV General Management for outstanding performance and technical dedication in post-production and video editing work during the 36-day civic strike in Santa Cruz (October - November 2022).',
-    cvMemo2Title: 'Institutional Commendation Letter - Bolivia TV (2024)',
-    cvMemo2Desc: 'Official citation issued by Bolivia TV General Management for producing the special post-production and video editing report on the complete chronology of the June 26, 2024 coup attempt perpetrated by former Army Commander Juan José Zúñiga against the constitutional government of President Luis Arce.',
+    cvAwardAbaroaDesc: 'Best television report for "La Estrella" (Television - Cultural Journalism). Granted by the Ministry of Cultures and Tourism of the Plurinational State of Bolivia. Awardees: Odalys Sarai Amoros Ramos and Freddy Ticona Guzman. Date: 23/03/2018. La Paz, Bolivia.',
+    cvMemoBtv2024Title: 'Commendation Memorandum – Bolivia TV (05/07/2024)',
+    cvMemoBtv2024Desc: 'CITE: GCIA. GRAL. FL. N° 260/2024. Issuer: Lic. Julio Fernando Valdivia Rodríguez (General Manager). Reason: Congratulations for excellent performance in covering the failed coup d\'état of June 26, 2024, in defense of democracy.',
+    cvMemoBtv2022Title: 'Commendation Memorandum – Bolivia TV (06/12/2022)',
+    cvMemoBtv2022Desc: 'CITE: GCIA. GRAL. FL. N° 108/2022. Issuer: Lic. Julio Fernando Valdivia Rodríguez (Acting General Manager). Reason: Congratulations for commitment and professional capacity in the special coverage of the October-November 2022 events in Santa Cruz.',
+    cvMemoBtv2021Title: 'Commendation Memorandum – Bolivia TV (20/08/2021)',
+    cvMemoBtv2021Desc: 'CITE: GCIA. GRAL. FL. N° 027/2021. Issuer: Lic. Rocio Alejandra Molina Travesi (General Manager). Reason: Congratulations for the work in covering the 196th Anniversary of Bolivia\'s Independence, 5-6/08/2021 in La Paz.',
 
     blogTitle: 'Audiovisual Blog',
     blogSubtitle: 'Field notes, video trend analysis, editing workflows, and journals of televised reporting in Bolivia.',
