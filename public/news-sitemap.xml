@@ -3,20 +3,6 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/blog/cuanto-vale-tu-outfit-velada-6-ibai</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>¿Cuánto vale tu outfit? La Velada del Año 6: derroche y lujo en la alfombra roja de La Cartuja</news:title>
-      <news:keywords>Streaming</news:keywords>
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/cuanto-vale-tu-outfit-velada-6-ibai</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -27,20 +13,6 @@
       </news:publication>
       <news:publication_date>2026-07-28</news:publication_date>
       <news:title>¿Cuánto vale tu outfit? La Velada del Año 6: derroche y lujo en la alfombra roja de La Cartuja</news:title>
-      <news:keywords>Streaming</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/outfits-velada-6-desglose-completo-influencers</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>De AuronPlay a Luzu: el desglose completo de todos los outfits de la Velada del Año 6</news:title>
       <news:keywords>Streaming</news:keywords>
     </news:news>
   </url>
@@ -59,20 +31,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/ranking-historico-outfits-velada-del-ano</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>Ranking histórico: los outfits más caros de todas las Veladas del Año</news:title>
-      <news:keywords>Streaming</news:keywords>
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/ranking-historico-outfits-velada-del-ano</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -84,20 +42,6 @@
       <news:publication_date>2026-07-28</news:publication_date>
       <news:title>Ranking histórico: los outfits más caros de todas las Veladas del Año</news:title>
       <news:keywords>Streaming</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/atraco-terminal-cochabamba-muerto-heridos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Atraco frente a la terminal de Cochabamba deja un muerto y varios heridos</news:title>
-      <news:keywords>Seguridad</news:keywords>
     </news:news>
   </url>
   <url>
@@ -115,20 +59,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/samuel-disidencias-internas-aliados-legisladores</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Samuel ya tiene disidencias internas de sus aliados y sus legisladores</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/samuel-disidencias-internas-aliados-legisladores</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -139,20 +69,6 @@
       </news:publication>
       <news:publication_date>2026-07-27</news:publication_date>
       <news:title>Samuel ya tiene disidencias internas de sus aliados y sus legisladores</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/militar-fallecido-huanuni-emboscada-jukus</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Familia de militar fallecido en Huanuni denuncia una emboscada y exige sanción a \</news:title>
       <news:keywords>País</news:keywords>
     </news:news>
   </url>
@@ -171,20 +87,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/alerta-migratoria-feminicidio-chulumani</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Activan alerta migratoria contra acusado de feminicidio en Chulumani</news:title>
-      <news:keywords>Seguridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/alerta-migratoria-feminicidio-chulumani</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -196,20 +98,6 @@
       <news:publication_date>2026-07-27</news:publication_date>
       <news:title>Activan alerta migratoria contra acusado de feminicidio en Chulumani</news:title>
       <news:keywords>Seguridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/falta-combustible-aviacion-beni-aeronaves-paralizadas</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Pilotos denuncian falta de combustible de aviación en Beni; hay más de 250 aeronaves paralizadas</news:title>
-      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
@@ -227,20 +115,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/general-willy-pozo-viceministro-defensa</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>El general Willy Pozo es posesionado como nuevo viceministro de Defensa</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/general-willy-pozo-viceministro-defensa</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -255,20 +129,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/vocero-samuel-separar-gobierno-separarse-bolivia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Vocero a Samuel: &quot;Si bien se puede separar del Gobierno, no hay forma de separarse de Bolivia&quot;</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/vocero-samuel-separar-gobierno-separarse-bolivia</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -279,20 +139,6 @@
       </news:publication>
       <news:publication_date>2026-07-27</news:publication_date>
       <news:title>Vocero a Samuel: &quot;Si bien se puede separar del Gobierno, no hay forma de separarse de Bolivia&quot;</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/rodrigo-paz-viaja-peru-reunion-keiko</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Rodrigo Paz viaja a Perú y confirman reunión bilateral con Keiko</news:title>
       <news:keywords>País</news:keywords>
     </news:news>
   </url>

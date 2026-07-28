@@ -8,6 +8,12 @@ const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
 
+function primaryPage(article) {
+  if (article.categoryEs === 'Guías y Trámites') return 'guias';
+  if (article.source) return 'noticias';
+  return 'blog';
+}
+
 const pages = {
   '': {
     title: 'Freddy Ticona Guzmán | Camarógrafo Profesional en La Paz, Bolivia',
@@ -78,6 +84,8 @@ const articles = _rawArticles.map(a => ({
   slug: a.slug,
   title: a.titleEs,
   desc: a.excerpt,
+  source: a.source,
+  categoryEs: a.categoryEs,
 }));
 const imageMap = {};
 for (const a of _rawArticles) {
@@ -157,45 +165,26 @@ for (const [key, meta] of Object.entries(pages)) {
   }
 }
 
-// Generate individual article pages
+// Generate individual article pages (cada artículo en su ruta primaria)
 for (const article of articles) {
-  // Blog article
-  const blogDir = path.join(distDir, 'blog', article.slug);
-  fs.mkdirSync(blogDir, { recursive: true });
+  const route = primaryPage(article);
+  const dir = path.join(distDir, route, article.slug);
+  fs.mkdirSync(dir, { recursive: true });
   let html = indexHtml;
   html = html.replace(/<title>.*?<\/title>/, `<title>${article.title} | Freddy Ticona</title>`);
   html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${article.desc}"`);
   html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${article.title}"`);
   html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${article.desc}"`);
-  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/blog/${article.slug}"`);
+  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/${route}/${article.slug}"`);
   html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${article.title}"`);
   html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${article.desc}"`);
-  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/blog/${article.slug}"`);
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/${route}/${article.slug}"`);
   html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${imageMap[article.slug] || 'https://freddydev.net/og-image.jpg'}"`);
   html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imageMap[article.slug] || 'https://freddydev.net/og-image.jpg'}"`);
-  fs.writeFileSync(path.join(blogDir, 'index.html'), html, 'utf-8');
-  console.log(`✅ /blog/${article.slug}`);
-
-  // News article (same content, different URL path)
-  const newsDir = path.join(distDir, 'noticias', article.slug);
-  fs.mkdirSync(newsDir, { recursive: true });
-  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/noticias/${article.slug}"`);
-  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/noticias/${article.slug}"`);
-  fs.writeFileSync(path.join(newsDir, 'index.html'), html, 'utf-8');
-  console.log(`✅ /noticias/${article.slug}`);
-
-  // Guía article (only for slugs starting with "guia-")
-  if (article.slug.startsWith('guia-')) {
-    const guiaDir = path.join(distDir, 'guias', article.slug);
-    fs.mkdirSync(guiaDir, { recursive: true });
-    html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/guias/${article.slug}"`);
-    html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/guias/${article.slug}"`);
-    fs.writeFileSync(path.join(guiaDir, 'index.html'), html, 'utf-8');
-    console.log(`✅ /guias/${article.slug}`);
-  }
+  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
+  console.log(`✅ /${route}/${article.slug}`);
 }
 
-const guiaCount = articles.filter(a => a.slug.startsWith('guia-')).length;
-const total = Object.keys(pages).length + articles.length * 2 + guiaCount;
+const total = Object.keys(pages).length + articles.length;
 console.log(`\n🎉 ${total} páginas pre-renderizadas en dist/`);
 console.log(`📄 ${articles.length} artículos extraídos dinámicamente de translations.ts`);

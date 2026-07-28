@@ -88,7 +88,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
   const regionOptions = useMemo(() => {
     const regions = new Set<string>();
     posts.forEach(p => {
-      if (p.region) regions.add(p.region);
+      regions.add(p.region || 'International');
     });
     return ['all', ...Array.from(regions).sort()];
   }, [posts]);
@@ -134,7 +134,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
     let result = posts.filter(p => p.id !== heroPost?.id);
 
     if (activeRegion !== 'all') {
-      result = result.filter(p => p.region === activeRegion);
+      result = result.filter(p => (p.region || 'International') === activeRegion);
     }
 
     if (activeCategory !== 'all') {

@@ -33,16 +33,16 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log('[SW] Caché abierto:', CACHE_NAME);
-      return cache.addAll(STATIC_FILES.map((file) => {
-        // Si falla un archivo, continuar con los demás
-        return fetch(file).then((response) => {
-          if (!response.ok) throw new Error(`Failed to fetch ${file}`);
-          return cache.put(file, response);
-        }).catch((error) => {
-          console.warn(`[SW] No se pudo cachear ${file}:`, error);
-          return null;
-        });
-      }).filter(Boolean));
+      return Promise.all(
+        STATIC_FILES.map((file) =>
+          fetch(file).then((response) => {
+            if (!response.ok) throw new Error(`Failed to fetch ${file}`);
+            return cache.put(file, response);
+          }).catch((error) => {
+            console.warn(`[SW] No se pudo cachear ${file}:`, error);
+          })
+        )
+      );
     })
   );
 

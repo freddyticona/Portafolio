@@ -9,7 +9,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { extractSlugs } from './extract-articles.js';
+import { extractArticles } from './extract-articles.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -32,7 +32,13 @@ const sections = [
   { path: 'contacto', priority: '0.7', changefreq: 'monthly' },
 ];
 
-const articles = extractSlugs();
+const articles = extractArticles();
+
+function primaryPage(article) {
+  if (article.categoryEs === 'Guías y Trámites') return 'guias';
+  if (article.source) return 'noticias';
+  return 'blog';
+}
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -51,35 +57,16 @@ for (const section of sections) {
   </url>\n`;
 }
 
-xml += `\n  <!-- Artículos (Blog + Noticias) -->\n`;
+xml += `\n  <!-- Artículos (cada uno en su ruta primaria) -->\n`;
 
-for (const slug of articles) {
-  // Blog route
+for (const article of articles) {
+  const route = primaryPage(article);
+  const priority = route === 'guias' ? '0.7' : '0.6';
   xml += `  <url>
-    <loc>${SITE}/blog/${slug}</loc>
+    <loc>${SITE}/${route}/${article.slug}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>\n`;
-
-  // Noticias route
-  xml += `  <url>
-    <loc>${SITE}/noticias/${slug}</loc>
-    <lastmod>${TODAY}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>\n`;
-}
-
-xml += `\n  <!-- Guías de Trámites (ruta independiente) -->\n`;
-
-const guiaSlugs = articles.filter(s => s.startsWith('guia-'));
-for (const slug of guiaSlugs) {
-  xml += `  <url>
-    <loc>${SITE}/guias/${slug}</loc>
-    <lastmod>${TODAY}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>${priority}</priority>
   </url>\n`;
 }
 
@@ -88,6 +75,6 @@ xml += `</urlset>\n`;
 const outputPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
 fs.writeFileSync(outputPath, xml, 'utf-8');
 
-const total = sections.length + articles.length * 2 + guiaSlugs.length;
+const total = sections.length + articles.length;
 console.log(`✅ Sitemap generado: ${outputPath}`);
-console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos × 2 rutas + ${guiaSlugs.length} guías)`);
+console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos en ruta única)`);

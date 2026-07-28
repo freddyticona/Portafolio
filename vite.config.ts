@@ -19,18 +19,22 @@ function makeCssNonBlocking(): Plugin {
 }
 
 export default defineConfig(() => {
-  return {
-    plugins: [
-      react(),
-      tailwindcss(),
-      makeCssNonBlocking(),
+  const plugins: Plugin[] = [react(), tailwindcss(), makeCssNonBlocking()];
+
+  // Sentry plugin solo se activa si hay auth token (evita warnings en builds locales)
+  if (process.env.SENTRY_AUTH_TOKEN && process.env.SENTRY_ORG && process.env.SENTRY_PROJECT) {
+    plugins.push(
       sentryVitePlugin({
         authToken: process.env.SENTRY_AUTH_TOKEN,
         org: process.env.SENTRY_ORG,
         project: process.env.SENTRY_PROJECT,
         telemetry: false,
-      }),
-    ],
+      })
+    );
+  }
+
+  return {
+    plugins,
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

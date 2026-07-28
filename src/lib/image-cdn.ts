@@ -115,6 +115,9 @@ export function getCdnUrl(src: string, opts: ResizeOptions): string {
   if (!src) return src;
   if (isExternal(src)) return src;
 
+  // URL-encode el path para evitar espacios en srcset (ej: "rankin historico...")
+  src = encodeURI(src);
+
   const cfg = readConfig();
   if (cfg.provider === 'none' || !cfg.baseUrl) {
     return `/${stripLeadingSlash(src)}`;

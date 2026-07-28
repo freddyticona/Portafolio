@@ -213,17 +213,27 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
 }
 
 /**
+ * Determina la ruta primaria de un artículo según su origen
+ */
+function primaryRoute(post: { source?: string; categoryEs?: string }): string {
+  if (post.categoryEs === 'Guías y Trámites') return 'guias';
+  if (post.source) return 'noticias';
+  return 'blog';
+}
+
+/**
  * Actualiza los meta tags para la vista detalle de un artículo
  */
 export function updateArticleMetaTags(
-  post: { titleEs: string; titleEn: string; excerptEs: string; excerptEn: string; imageUrl?: string; slug: string },
+  post: { titleEs: string; titleEn: string; excerptEs: string; excerptEn: string; imageUrl?: string; slug: string; source?: string; categoryEs?: string },
   lang: 'es' | 'en',
-  pagePath: string
+  pagePath?: string
 ): void {
   const title = lang === 'es' ? post.titleEs : post.titleEn;
   const description = lang === 'es' ? post.excerptEs : post.excerptEn;
   const ogImage = post.imageUrl || SITE_CONFIG.ogImageDefault;
-  const canonicalUrl = `${SITE_CONFIG.url}/${pagePath}/${post.slug}`;
+  const route = primaryRoute(post);
+  const canonicalUrl = `${SITE_CONFIG.url}/${route}/${post.slug}`;
 
   document.title = `${title} | Freddy Ticona Guzmán`;
 

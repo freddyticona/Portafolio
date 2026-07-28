@@ -26,11 +26,19 @@ const SITE = 'https://freddydev.net';
 
 const allArticles = extractArticles();
 
+function primaryPage(article) {
+  if (article.categoryEs === 'Guías y Trámites') return 'guias';
+  if (article.source) return 'noticias';
+  return 'blog';
+}
+
 const articles = allArticles.map(a => ({
   slug: a.slug,
   date: a.date,
   title: a.titleEs,
   keywords: a.categoryEs ? [a.categoryEs] : [],
+  source: a.source,
+  categoryEs: a.categoryEs,
 }));
 
 // Filtrar artículos de los últimos 2 días (Google News policy)
@@ -61,25 +69,9 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 for (const article of sitemapArticles) {
   const safeTitle = escTitle(article.title);
   const kw = article.keywords.length ? `<news:keywords>${escTitle(article.keywords.join(','))}</news:keywords>` : '';
-  // Blog route
+  const route = primaryPage(article);
   xml += `  <url>
-    <loc>${SITE}/blog/${article.slug}</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>${article.date}</news:publication_date>
-      <news:title>${safeTitle}</news:title>
-      ${kw}
-    </news:news>
-  </url>\n`;
-
-  // Noticias route
-  xml += `  <url>
-    <loc>${SITE}/noticias/${article.slug}</loc>
+    <loc>${SITE}/${route}/${article.slug}</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -100,5 +92,5 @@ const outputPath = path.join(__dirname, '..', 'public', 'news-sitemap.xml');
 fs.writeFileSync(outputPath, xml, 'utf-8');
 
 console.log(`✅ Google News Sitemap generado: ${outputPath}`);
-console.log(`📡 ${sitemapArticles.length * 2} URLs de noticias incluidas (recientes: ${recentArticles.length})`);
+console.log(`📡 ${sitemapArticles.length} URLs de noticias incluidas (recientes: ${recentArticles.length})`);
 

@@ -32,8 +32,14 @@ const siteConfig = {
 
 const blogPosts = extractArticles();
 
+function primaryPage(article) {
+  if (article.categoryEs === 'Guías y Trámites') return 'guias';
+  if (article.source) return 'noticias';
+  return 'blog';
+}
+
 const rssItems = blogPosts.map(post => {
-  const link = `${siteConfig.url}/blog/${post.slug}`;
+  const link = `${siteConfig.url}/${primaryPage(post)}/${post.slug}`;
   const guid = link;
   const safeTitle = escapeXml(post.titleEs);
   const safeExcerpt = escapeXml(post.excerpt);
