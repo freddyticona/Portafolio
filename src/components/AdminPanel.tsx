@@ -1174,11 +1174,12 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
 
               {/* Selector de Fuente */}
               <div className="space-y-2">
-                <label className="block text-xs font-mono text-gold uppercase tracking-widest flex items-center gap-2">
+                <label htmlFor="admin-font-select" className="block text-xs font-mono text-gold uppercase tracking-widest flex items-center gap-2">
                   <Type className="w-4 h-4" />
                   Fuente del Artículo
                 </label>
                 <select
+                  id="admin-font-select"
                   value={editedPost.font || 'Inter'}
                   onChange={(e) => handleChange('font', e.target.value)}
                   className="w-full px-4 py-3 bg-[#020202] border border-white/10 rounded-sm text-white focus:border-gold focus:outline-none transition-colors"

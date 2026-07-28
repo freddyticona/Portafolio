@@ -344,7 +344,7 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                           <Icon className="w-6 h-6" />
                         </div>
                         <div className="flex-1">
-                          <h4 className="font-bold text-white mb-1">{serviceLang.name}</h4>
+                          <h3 className="font-bold text-white mb-1">{serviceLang.name}</h3>
                           <p className="text-sm text-stone-400 mb-2">{serviceLang.desc}</p>
                           <div className="flex items-center gap-4 text-xs font-mono text-gold">
                             <span className="flex items-center gap-1">

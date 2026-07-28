@@ -105,7 +105,9 @@ export default function NewsPortalFilters({
 
         {/* Sort Dropdown */}
         <div className="relative">
+          <label htmlFor="news-sort-select" className="sr-only">{lang === 'es' ? 'Ordenar por' : 'Sort by'}</label>
           <select
+            id="news-sort-select"
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as any)}
             className="bg-black/60 border border-white/10 rounded-sm px-2.5 py-1.5 text-xs font-mono text-stone-200 focus:outline-none focus:border-gold transition-colors cursor-pointer appearance-none"

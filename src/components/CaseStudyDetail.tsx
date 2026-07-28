@@ -66,10 +66,10 @@ export default function CaseStudyDetail({ caseStudy, lang, t, onBack }: CaseStud
       {/* Showreel / Video Embed */}
       {caseStudy.videoUrl && (
         <div className="space-y-3">
-          <h3 className="text-xs font-mono font-bold text-stone-500 uppercase tracking-widest flex items-center gap-1.5">
+          <h2 className="text-xs font-mono font-bold text-stone-500 uppercase tracking-widest flex items-center gap-1.5">
             <MonitorPlay className="w-4 h-4 text-gold" />
             <span>{lang === 'es' ? 'Video Reportaje Completo' : 'Complete Video Report'}</span>
-          </h3>
+          </h2>
           <div className="aspect-video w-full rounded-sm overflow-hidden bg-[#050505] border border-white/5 shadow-2xl">
             <iframe
               src={caseStudy.videoUrl}

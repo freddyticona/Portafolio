@@ -107,7 +107,9 @@ export default function SearchBar({
         {/* Category Filter */}
         <div className="flex items-center gap-2">
           <Filter className="w-5 h-5 text-gold" />
+          <label htmlFor="search-category" className="sr-only">{lang === 'es' ? 'Categoría' : 'Category'}</label>
           <select
+            id="search-category"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
             className="px-4 py-2 bg-[#0a0a0a] border border-white/10 rounded-sm text-white focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-all cursor-pointer"
@@ -121,7 +123,9 @@ export default function SearchBar({
         </div>
 
         {/* Year Filter */}
+        <label htmlFor="search-year" className="sr-only">{lang === 'es' ? 'Año' : 'Year'}</label>
         <select
+          id="search-year"
           value={selectedYear}
           onChange={(e) => setSelectedYear(e.target.value)}
           className="px-4 py-2 bg-[#0a0a0a] border border-white/10 rounded-sm text-white focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-all cursor-pointer"

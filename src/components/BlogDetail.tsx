@@ -492,7 +492,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
         <div className="space-y-2">
           <div>
-            <h4 className="text-sm font-bold text-white font-display">Freddy Ticona Guzmán</h4>
+            <h2 className="text-sm font-bold text-white font-display">Freddy Ticona Guzmán</h2>
             <p className="text-[10px] font-mono font-bold uppercase tracking-widest text-gold">
               {lang === 'es' ? 'Realizador Audiovisual' : 'Audiovisual Producer'}
             </p>
