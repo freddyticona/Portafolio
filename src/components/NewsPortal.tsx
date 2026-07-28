@@ -49,6 +49,7 @@ const categoryColors: Record<string, string> = {
 };
 
 export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
+  const [activeRegion, setActiveRegion] = useState<string>('all');
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [activeContentType, setActiveContentType] = useState<string>('all');
   const [searchTerm, setSearchTerm] = useState<string>('');
@@ -82,6 +83,14 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
     ];
     const used = new Set(posts.map(p => p.contentType));
     return types.filter(t => t.value === 'all' || used.has(t.value as ContentType));
+  }, [posts]);
+
+  const regionOptions = useMemo(() => {
+    const regions = new Set<string>();
+    posts.forEach(p => {
+      if (p.region) regions.add(p.region);
+    });
+    return ['all', ...Array.from(regions).sort()];
   }, [posts]);
 
   const topicOfDayPosts = useMemo(() => {
@@ -123,6 +132,10 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
 
   const processedPosts = useMemo(() => {
     let result = posts.filter(p => p.id !== heroPost?.id);
+
+    if (activeRegion !== 'all') {
+      result = result.filter(p => p.region === activeRegion);
+    }
 
     if (activeCategory !== 'all') {
       result = result.filter(p => {
@@ -223,6 +236,9 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
         setActiveCategory={setActiveCategory}
         activeContentType={activeContentType}
         setActiveContentType={setActiveContentType}
+        activeRegion={activeRegion}
+        setActiveRegion={setActiveRegion}
+        regionOptions={regionOptions}
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         sortBy={sortBy}

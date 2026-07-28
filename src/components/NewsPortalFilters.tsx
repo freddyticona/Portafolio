@@ -15,6 +15,9 @@ interface NewsPortalFiltersProps {
   setActiveCategory: (cat: string) => void;
   activeContentType: string;
   setActiveContentType: (type: string) => void;
+  activeRegion: string;
+  setActiveRegion: (region: string) => void;
+  regionOptions: string[];
   searchTerm: string;
   setSearchTerm: (term: string) => void;
   sortBy: 'recent' | 'popular' | 'oldest';
@@ -33,6 +36,9 @@ export default function NewsPortalFilters({
   setActiveCategory,
   activeContentType,
   setActiveContentType,
+  activeRegion,
+  setActiveRegion,
+  regionOptions,
   searchTerm,
   setSearchTerm,
   sortBy,
@@ -80,6 +86,29 @@ export default function NewsPortalFilters({
 
       {/* Quick Filters Row */}
       <div className="flex flex-wrap gap-2 mb-3">
+        {/* Region Pills */}
+        {regionOptions.length > 1 && (
+          <div className="flex flex-wrap gap-1 w-full mb-2 pb-2 border-b border-white/5">
+            {regionOptions.map((region) => (
+              <button
+                key={region}
+                onClick={() => { setActiveRegion(region); setVisibleCount(6); }}
+                className={`px-3 py-1 rounded-sm text-[10px] font-mono font-bold uppercase tracking-widest transition-all duration-200 cursor-pointer ${
+                  activeRegion === region
+                    ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-400/40 shadow-md'
+                    : 'bg-white/[0.03] text-stone-400 hover:text-cyan-300 hover:border-cyan-400/30 border border-white/10'
+                }`}
+              >
+                {region === 'all'
+                  ? (lang === 'es' ? 'Todas las Regiones' : 'All Regions')
+                  : region === 'Bolivia'
+                    ? (lang === 'es' ? 'Bolivia' : 'Bolivia')
+                    : region}
+              </button>
+            ))}
+          </div>
+        )}
+
         {/* Category Pills */}
         <div className="flex flex-wrap gap-1">
           {categories.slice(0, 5).map((cat) => (

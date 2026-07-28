@@ -7433,6 +7433,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'Cochabamba, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/cochabamba/atraco-frente-terminal-cochabamba-deja-muerto-varios-heridos_1785198303'
       },
       {
@@ -7458,6 +7459,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'La Paz, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/pais/samuel-tiene-disidencias-internas-aliados-legisladores_1785188859'
       },
       {
@@ -7483,6 +7485,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'Huanuni, Oruro, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/oruro/familia-militar-fallecido-huanuni-denuncia-emboscada-exige-sancion-jukus_1785183122'
       },
       {
@@ -7508,6 +7511,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'Chulumani, La Paz, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/la-paz/activan-alerta-migratoria-acusado-feminicidio-chulumani_1785205672'
       },
       {
@@ -7533,6 +7537,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'Beni, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/economia/pilotos-denuncian-falta-combustible-aviacion-beni-hay-250-aeronaves-paralizadas_1785165435'
       },
       {
@@ -7558,6 +7563,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'La Paz, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/pais/general-willy-pozo-posesionado-nuevo-viceministro-defensa_1785176201'
       },
       {
@@ -7583,6 +7589,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'La Paz, Bolivia',
         source: 'EL DEBER',
+        region: 'Bolivia',
         sourceUrl: 'https://eldeber.com.bo/pais/vocero-samuel-si-bien-puede-separar-gobierno-no-hay-forma-separarse-bolivia_1785173249'
       },
       {
@@ -7608,7 +7615,8 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
         views: 1,
         location: 'La Paz, Bolivia / Lima, Perú',
         source: 'EL DEBER',
-        sourceUrl: 'https://eldeber.com.bo/pais/rodrigo-paz-viaja-peru-confirman-reunion-bilateral-keiko_1785166469'
+        region: 'Bolivia',
+        sourceUrl: 'https://eldeber.com.bo/pais/rodrigo-paz-viaja-peru-reunion-keiko_1785169697'
       },
       // ============================================================
       // FIN DE NOTICIAS
