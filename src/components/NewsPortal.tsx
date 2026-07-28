@@ -42,6 +42,10 @@ const categoryColors: Record<string, string> = {
   'Sports & Entertainment': 'bg-orange-500/15 text-orange-400 border-orange-500/25',
   'Análisis': 'bg-indigo-500/15 text-indigo-400 border-indigo-500/25',
   'Analysis': 'bg-indigo-500/15 text-indigo-400 border-indigo-500/25',
+  'País': 'bg-sky-700/15 text-sky-300 border-sky-700/25',
+  'Nation': 'bg-sky-700/15 text-sky-300 border-sky-700/25',
+  'Economía': 'bg-yellow-600/15 text-yellow-300 border-yellow-600/25',
+  'Economy': 'bg-yellow-600/15 text-yellow-300 border-yellow-600/25',
 };
 
 export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
