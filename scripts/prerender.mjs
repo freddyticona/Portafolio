@@ -40,6 +40,8 @@ function startPreview() {
 async function prerender() {
   if (!existsSync(distDir)) { console.log('⚠ dist/ no encontrado, saltando.'); return; }
 
+  if (process.env.CI) { console.log('⏭ CI detectado, saltando prerender (Puppeteer no disponible).'); return; }
+
   let puppeteer;
   try { puppeteer = (await import('puppeteer')).default; } catch { console.log('⚠ Puppeteer no instalado, saltando.'); return; }
 
