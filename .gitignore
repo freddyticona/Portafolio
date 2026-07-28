@@ -29,6 +29,7 @@ archivos/
 # Imágenes raw en src/assets (versiones .webp optimizadas están en public/)
 
 # Archivos temporales / procesamiento
+tmp_*.json
 badabun-*.md
 QR MERCANTIL.jpeg
 
