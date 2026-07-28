@@ -59,7 +59,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
 
   if (variant === 'hero') {
     return (
-      <article
+      <div
         className="card-3d-light group cursor-pointer relative overflow-hidden rounded-sm border border-white/10 bg-[#0a0a0a] min-h-[360px] md:min-h-[440px] focus:outline-none focus:ring-2 focus:ring-gold animate-fade-in-up"
         onClick={onClick}
         onKeyDown={handleKeyDown}
@@ -143,13 +143,13 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             )}
           </div>
         </div>
-      </article>
+      </div>
     );
   }
 
   if (variant === 'compact') {
     return (
-      <article
+      <div
         className="card-3d-light group cursor-pointer flex gap-3 border-b border-white/5 pb-3 mb-3 last:border-0 last:mb-0 last:pb-0 focus:outline-none focus:ring-1 focus:ring-gold rounded-sm p-1 animate-fade-in-left"
         onClick={onClick}
         onKeyDown={handleKeyDown}
@@ -183,12 +183,12 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             )}
           </div>
         </div>
-      </article>
+      </div>
     );
   }
 
   return (
-    <article
+    <div
       className="card-3d-light group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/5 flex flex-col focus:outline-none focus:ring-2 focus:ring-gold animate-fade-in-up"
       onClick={onClick}
       onKeyDown={handleKeyDown}
@@ -269,6 +269,6 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           )}
         </div>
       </div>
-    </article>
+    </div>
   );
 }

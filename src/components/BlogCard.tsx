@@ -37,7 +37,7 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
   };
 
   return (
-    <article
+    <div
       className="card-3d-light group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/2 flex flex-col justify-between animate-fade-in-up"
       onClick={onClick}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } }}
@@ -102,6 +102,6 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
           <ArrowRight className="w-3.5 h-3.5" />
         </div>
       </div>
-    </article>
+    </div>
   );
 }
