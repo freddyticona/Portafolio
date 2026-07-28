@@ -59,7 +59,9 @@ export default function NewsPortalFilters({
       {/* Search Bar */}
       <div className="relative mb-3">
         <Search className="w-4 h-4 text-stone-500 absolute left-3 top-1/2 -translate-y-1/2" />
+        <label htmlFor="news-search" className="sr-only">{lang === 'es' ? 'Buscar noticias' : 'Search news'}</label>
         <input
+          id="news-search"
           type="text"
           value={localSearch}
           onChange={(e) => setLocalSearch(e.target.value)}

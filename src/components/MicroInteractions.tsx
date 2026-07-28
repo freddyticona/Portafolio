@@ -193,6 +193,9 @@ export function HoverCard({ children, className = '', onClick }: HoverCardProps)
       onMouseDown={() => setIsPressed(true)}
       onMouseUp={() => setIsPressed(false)}
       onClick={onClick}
+      onKeyDown={onClick ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } } : undefined}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
     >
       {children}
 
@@ -260,6 +263,9 @@ export function Chip({ label, selected = false, onClick, onDelete }: ChipProps) 
           : 'bg-white/5 text-stone-400 hover:bg-white/10'
       } ${onClick ? 'cursor-pointer' : ''}`}
       onClick={onClick}
+      onKeyDown={onClick ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } } : undefined}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
     >
       <span>{label}</span>
       {onDelete && (

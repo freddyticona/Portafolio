@@ -110,6 +110,10 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               <div
                 key={item.id}
                 onClick={() => handleOpenLightbox(item)}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleOpenLightbox(item); } }}
+                role="button"
+                tabIndex={0}
+                aria-label={lang === 'es' ? item.title : item.titleEn}
                 className="card-3d tilt-card group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2 animate-fade-in-up"
                 style={{
                   animationDelay: `${index * 80}ms`,
@@ -212,6 +216,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               <button
                 onClick={handleCloseLightbox}
                 id="close-lightbox-button"
+                aria-label={lang === 'es' ? 'Cerrar' : 'Close'}
                 className="p-1.5 rounded-sm bg-[#020202] hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer"
               >
                 <X className="w-5 h-5" />
@@ -333,6 +338,10 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                       <div
                         key={idx}
                         onClick={() => setActiveGalleryImage(img)}
+                        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setActiveGalleryImage(img); } }}
+                        role="button"
+                        tabIndex={0}
+                        aria-label={`${lang === 'es' ? activeItem.title : activeItem.titleEn} - ${idx + 1}`}
                         className="aspect-video rounded-sm overflow-hidden bg-[#020202] border border-white/5 hover:border-gold/30 transition-all duration-300 cursor-pointer"
                       >
                         <LazyImage
@@ -352,19 +361,21 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
 
       {/* Full-screen image viewer */}
       {activeGalleryImage && (
+        // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
         <div
           className="fixed inset-0 z-[60] bg-[#050505]/95 flex items-start justify-center pt-[5vh] pb-8 px-4 backdrop-blur-sm animate-fadeIn cursor-pointer overflow-y-auto"
           onClick={() => setActiveGalleryImage(null)}
         >
           <button
             onClick={() => setActiveGalleryImage(null)}
+            aria-label={lang === 'es' ? 'Cerrar' : 'Close'}
             className="fixed top-4 right-4 p-2 rounded-sm bg-[#020202] hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
           >
             <X className="w-6 h-6" />
           </button>
           <img
             src={activeGalleryImage}
-            alt="Gallery"
+            alt={lang === 'es' ? 'Galería de imágenes' : 'Image gallery'}
             className="max-w-full max-h-[90vh] object-contain rounded-sm"
             onClick={(e) => e.stopPropagation()}
           />

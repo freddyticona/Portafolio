@@ -108,7 +108,9 @@ export default function BlogLayout({ posts, lang, t, onArticleClick, title, subt
               {lang === 'es' ? 'Buscar' : 'Search'}
             </h3>
             <div className="relative">
+              <label htmlFor="blog-search" className="sr-only">{lang === 'es' ? 'Buscar artículos' : 'Search articles'}</label>
               <input
+                id="blog-search"
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}

@@ -112,6 +112,7 @@ export default function ShareButtons({
           onClick={supportsNativeShare ? handleNativeShare : shareFacebook}
           className="p-2 hover:bg-white/5 rounded-sm transition-colors text-stone-400 hover:text-white"
           title={lang === 'es' ? 'Compartir' : 'Share'}
+          aria-label={lang === 'es' ? 'Compartir' : 'Share'}
         >
           <Share2 className="w-4 h-4" />
         </button>
@@ -119,6 +120,7 @@ export default function ShareButtons({
           onClick={copyLink}
           className="p-2 hover:bg-white/5 rounded-sm transition-colors text-stone-400 hover:text-white"
           title={copied ? (lang === 'es' ? '¡Copiado!' : 'Copied!') : (lang === 'es' ? 'Copiar enlace' : 'Copy link')}
+          aria-label={copied ? (lang === 'es' ? '¡Copiado!' : 'Copied!') : (lang === 'es' ? 'Copiar enlace' : 'Copy link')}
         >
           {copied ? <Check className="w-4 h-4 text-green-400" /> : <Copy className="w-4 h-4" />}
         </button>
@@ -138,6 +140,7 @@ export default function ShareButtons({
               onClick={shareFacebook}
               className="p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg transition-colors"
               title="Facebook"
+              aria-label="Facebook"
             >
               <Facebook className="w-5 h-5" />
             </button>
@@ -145,6 +148,7 @@ export default function ShareButtons({
               onClick={shareTwitter}
               className="p-3 bg-black hover:bg-gray-800 text-white rounded-full shadow-lg transition-colors"
               title="Twitter/X"
+              aria-label="Twitter/X"
             >
               <Twitter className="w-5 h-5" />
             </button>
@@ -152,6 +156,7 @@ export default function ShareButtons({
               onClick={shareLinkedIn}
               className="p-3 bg-blue-700 hover:bg-blue-800 text-white rounded-full shadow-lg transition-colors"
               title="LinkedIn"
+              aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
             </button>
@@ -159,6 +164,7 @@ export default function ShareButtons({
               onClick={copyLink}
               className="p-3 bg-gold hover:bg-gold-hover text-black rounded-full shadow-lg transition-colors"
               title={copied ? (lang === 'es' ? '¡Copiado!' : 'Copied!') : (lang === 'es' ? 'Copiar' : 'Copy')}
+              aria-label={copied ? (lang === 'es' ? '¡Copiado!' : 'Copied!') : (lang === 'es' ? 'Copiar enlace' : 'Copy link')}
             >
               {copied ? <Check className="w-5 h-5" /> : <Link className="w-5 h-5" />}
             </button>
@@ -172,6 +178,7 @@ export default function ShareButtons({
               : 'bg-gold hover:bg-gold-hover text-black'
           }`}
           title={lang === 'es' ? 'Compartir' : 'Share'}
+          aria-label={lang === 'es' ? 'Compartir' : 'Share'}
         >
           <Share2 className="w-5 h-5" />
         </button>
@@ -199,6 +206,7 @@ export default function ShareButtons({
           onClick={shareFacebook}
           className="p-2.5 bg-blue-600/10 hover:bg-blue-600/20 border border-blue-600/20 text-blue-400 rounded-sm transition-all"
           title="Facebook"
+          aria-label="Facebook"
         >
           <Facebook className="w-4 h-4" />
         </button>
@@ -206,6 +214,7 @@ export default function ShareButtons({
           onClick={shareTwitter}
           className="p-2.5 bg-black/10 hover:bg-black/20 border border-white/10 text-stone-300 rounded-sm transition-all"
           title="Twitter/X"
+          aria-label="Twitter/X"
         >
           <Twitter className="w-4 h-4" />
         </button>
@@ -213,6 +222,7 @@ export default function ShareButtons({
           onClick={shareLinkedIn}
           className="p-2.5 bg-blue-700/10 hover:bg-blue-700/20 border border-blue-700/20 text-blue-400 rounded-sm transition-all"
           title="LinkedIn"
+          aria-label="LinkedIn"
         >
           <Linkedin className="w-4 h-4" />
         </button>

@@ -312,7 +312,9 @@ export function NewsletterModal({
 
           {!isSubscribed ? (
             <form onSubmit={handleSubscribe} className="space-y-4">
+              <label htmlFor="newsletter-email" className="sr-only">{lang === 'es' ? 'Correo electrónico' : 'Email'}</label>
               <input
+                id="newsletter-email"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

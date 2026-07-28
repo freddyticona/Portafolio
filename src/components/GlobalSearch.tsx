@@ -209,7 +209,9 @@ export default function GlobalSearch({ lang = 'es', onNavigate }: GlobalSearchPr
               {/* Input */}
               <div className="flex items-center gap-3 px-4 py-4 border-b border-white/10">
                 <Search className="w-5 h-5 text-stone-500" />
+                <label htmlFor="global-search-input" className="sr-only">{lang === 'es' ? 'Buscar en el portafolio' : 'Search portfolio'}</label>
                 <input
+                  id="global-search-input"
                   ref={inputRef}
                   type="text"
                   value={query}

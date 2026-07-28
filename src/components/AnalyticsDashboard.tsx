@@ -143,6 +143,7 @@ export default function AnalyticsDashboard({ lang = 'es' }: AnalyticsDashboardPr
 
           <button
             onClick={loadStats}
+            aria-label={lang === 'es' ? 'Actualizar estadísticas' : 'Refresh statistics'}
             className={`p-2 rounded-sm transition-colors ${refreshing ? 'animate-spin' : ''}`}
           >
             <RefreshCw className="w-4 h-4 text-stone-400" />

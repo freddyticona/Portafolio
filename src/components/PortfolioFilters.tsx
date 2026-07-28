@@ -130,7 +130,9 @@ export default function PortfolioFilters({ lang = 'es', onFilterChange }: Portfo
         <div className="bg-[#0a0a0a] border border-white/10 rounded-sm p-4 space-y-4 animate-fadeIn">
           {/* Search */}
           <div>
+            <label htmlFor="portfolio-search" className="sr-only">{lang === 'es' ? 'Buscar proyectos' : 'Search projects'}</label>
             <input
+              id="portfolio-search"
               type="text"
               value={activeFilters.searchTerm}
               onChange={(e) => handleFilterChange('searchTerm', e.target.value)}

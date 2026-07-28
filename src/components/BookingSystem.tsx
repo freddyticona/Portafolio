@@ -556,11 +556,12 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
               {/* Form Fields */}
               <div className="space-y-4">
                 <div>
-                  <label className="text-sm font-bold text-white flex items-center gap-2 mb-2">
+                  <label htmlFor="booking-name" className="text-sm font-bold text-white flex items-center gap-2 mb-2">
                     <User className="w-4 h-4 text-gold" />
                     {bt.nameLabel}
                   </label>
                   <input
+                    id="booking-name"
                     type="text"
                     required
                     value={formData.name}
@@ -571,11 +572,12 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                 </div>
 
                 <div>
-                  <label className="text-sm font-bold text-white flex items-center gap-2 mb-2">
+                  <label htmlFor="booking-email" className="text-sm font-bold text-white flex items-center gap-2 mb-2">
                     <Mail className="w-4 h-4 text-gold" />
                     {bt.emailLabel}
                   </label>
                   <input
+                    id="booking-email"
                     type="email"
                     required
                     value={formData.email}
@@ -586,11 +588,12 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                 </div>
 
                 <div>
-                  <label className="text-sm font-bold text-white flex items-center gap-2 mb-2">
+                  <label htmlFor="booking-phone" className="text-sm font-bold text-white flex items-center gap-2 mb-2">
                     <Phone className="w-4 h-4 text-gold" />
                     {bt.phoneLabel}
                   </label>
                   <input
+                    id="booking-phone"
                     type="tel"
                     required
                     value={formData.phone}
@@ -601,11 +604,12 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                 </div>
 
                 <div>
-                  <label className="text-sm font-bold text-white flex items-center gap-2 mb-2">
+                  <label htmlFor="booking-notes" className="text-sm font-bold text-white flex items-center gap-2 mb-2">
                     <MapPin className="w-4 h-4 text-gold" />
                     {bt.notesLabel}
                   </label>
                   <textarea
+                    id="booking-notes"
                     value={formData.notes}
                     onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                     rows={3}

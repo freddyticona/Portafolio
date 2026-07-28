@@ -138,7 +138,7 @@ export default function CookieConsent({ lang, onOpenPrivacy }: CookieConsentProp
                 <Shield className="w-4 h-4 text-gold" />
                 {lang === 'es' ? 'Preferencias de Cookies' : 'Cookie Preferences'}
               </h2>
-              <button onClick={() => setShowCustomize(false)} className="p-1.5 hover:bg-white/5 rounded-sm transition-colors cursor-pointer">
+              <button onClick={() => setShowCustomize(false)} aria-label={lang === 'es' ? 'Cerrar' : 'Close'} className="p-1.5 hover:bg-white/5 rounded-sm transition-colors cursor-pointer">
                 <X className="w-4 h-4 text-stone-400" />
               </button>
             </div>

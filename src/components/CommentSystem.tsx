@@ -222,32 +222,44 @@ export default function CommentSystem({ postId, lang, t }: CommentSystemProps) {
           >
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  required
-                  value={formData.author}
-                  onChange={(e) => setFormData({ ...formData, author: e.target.value })}
-                  placeholder={ct.namePlaceholder}
-                  className="px-4 py-2.5 bg-white/5 border border-white/10 rounded text-white placeholder:text-stone-500 focus:border-gold focus:outline-none transition-colors text-sm"
-                />
-                <input
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder={ct.emailPlaceholder}
-                  className="px-4 py-2.5 bg-white/5 border border-white/10 rounded text-white placeholder:text-stone-500 focus:border-gold focus:outline-none transition-colors text-sm"
-                />
+                <div>
+                  <label htmlFor="comment-author" className="sr-only">{ct.namePlaceholder}</label>
+                  <input
+                    id="comment-author"
+                    type="text"
+                    required
+                    value={formData.author}
+                    onChange={(e) => setFormData({ ...formData, author: e.target.value })}
+                    placeholder={ct.namePlaceholder}
+                    className="px-4 py-2.5 bg-white/5 border border-white/10 rounded text-white placeholder:text-stone-500 focus:border-gold focus:outline-none transition-colors text-sm"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="comment-email" className="sr-only">{ct.emailPlaceholder}</label>
+                  <input
+                    id="comment-email"
+                    type="email"
+                    required
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    placeholder={ct.emailPlaceholder}
+                    className="px-4 py-2.5 bg-white/5 border border-white/10 rounded text-white placeholder:text-stone-500 focus:border-gold focus:outline-none transition-colors text-sm"
+                  />
+                </div>
               </div>
 
-              <textarea
-                required
-                value={formData.content}
-                onChange={(e) => setFormData({ ...formData, content: e.target.value })}
-                placeholder={ct.commentPlaceholder}
-                rows={4}
-                className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded text-white placeholder:text-stone-500 focus:border-gold focus:outline-none transition-colors resize-none text-sm"
-              />
+              <div>
+                <label htmlFor="comment-content" className="sr-only">{ct.commentPlaceholder}</label>
+                <textarea
+                  id="comment-content"
+                  required
+                  value={formData.content}
+                  onChange={(e) => setFormData({ ...formData, content: e.target.value })}
+                  placeholder={ct.commentPlaceholder}
+                  rows={4}
+                  className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded text-white placeholder:text-stone-500 focus:border-gold focus:outline-none transition-colors resize-none text-sm"
+                />
+              </div>
 
               <div className="flex items-center justify-between">
                 <button
