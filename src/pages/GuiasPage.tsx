@@ -19,7 +19,7 @@ interface GuiasPageProps {
   blogPosts: BlogPost[];
   activeBlogPostId: string | null;
   setActiveBlogPostId: (id: string | null) => void;
-  handleArticleClick: (post: BlogPost, page: PageId) => void;
+  handleArticleClick: (post: BlogPost, page?: PageId) => void;
 }
 
 export default function GuiasPage({

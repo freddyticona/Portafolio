@@ -26,7 +26,7 @@ interface BlogPageProps {
   blogPosts: BlogPost[];
   activeBlogPostId: string | null;
   setActiveBlogPostId: (id: string | null) => void;
-  handleArticleClick: (post: BlogPost, page: PageId) => void;
+  handleArticleClick: (post: BlogPost, page?: PageId) => void;
 }
 
 export function BlogPage({
@@ -68,7 +68,7 @@ export function BlogPage({
               window.history.pushState(null, '', '/blog');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            onNavigate={(p) => handleArticleClick(p, 'blog')}
+            onNavigate={(p) => handleArticleClick(p)}
           />
         </Suspense>
       ) : (
@@ -77,7 +77,7 @@ export function BlogPage({
             posts={personalPosts}
             lang={lang}
             t={t}
-            onArticleClick={(post) => handleArticleClick(post, 'blog')}
+            onArticleClick={(post) => handleArticleClick(post)}
             title={t.blogTitle}
             subtitle={t.blogSubtitle}
             label={lang === 'es' ? 'Apuntes de Rodaje' : 'Filming Diaries'}
@@ -96,7 +96,7 @@ interface NoticiasPageProps {
   blogPosts: BlogPost[];
   activeBlogPostId: string | null;
   setActiveBlogPostId: (id: string | null) => void;
-  handleArticleClick: (post: BlogPost, page: PageId) => void;
+  handleArticleClick: (post: BlogPost, page?: PageId) => void;
 }
 
 export function NoticiasPage({
@@ -136,7 +136,7 @@ export function NoticiasPage({
               window.history.pushState(null, '', '/noticias');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            onNavigate={(p) => handleArticleClick(p, 'noticias')}
+            onNavigate={(p) => handleArticleClick(p)}
           />
         </Suspense>
       </div>
@@ -149,7 +149,7 @@ export function NoticiasPage({
         posts={newsPosts}
         lang={lang}
         t={t}
-        onArticleClick={(post) => handleArticleClick(post, 'noticias')}
+        onArticleClick={(post) => handleArticleClick(post)}
       />
     </Suspense>
   );

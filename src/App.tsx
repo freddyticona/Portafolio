@@ -222,10 +222,17 @@ export default function App() {
     setActiveBlogPostId(null);
   };
 
-  const handleArticleClick = (post: BlogPost, page: PageId) => {
-    setActivePage(page);
+  const primaryRoute = (post: BlogPost): PageId => {
+    if (post.categoryEs === 'Guías y Trámites') return 'guias';
+    if (post.source) return 'noticias';
+    return 'blog';
+  };
+
+  const handleArticleClick = (post: BlogPost, page?: PageId) => {
+    const route = page || primaryRoute(post);
+    setActivePage(route);
     setActiveBlogPostId(post.id);
-    window.history.pushState(null, '', `/${page}/${post.slug}`);
+    window.history.pushState(null, '', `/${route}/${post.slug}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveCaseStudyId(null);
   };

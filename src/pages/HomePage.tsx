@@ -18,7 +18,7 @@ interface HomePageProps {
   blogPosts: BlogPost[];
   portfolioItems: PortfolioItem[];
   handleNavToTab: (pageId: PageId) => void;
-  handleArticleClick: (post: BlogPost, page: PageId) => void;
+  handleArticleClick: (post: BlogPost, page?: PageId) => void;
   reelPlaying: boolean;
   setReelPlaying: (v: boolean) => void;
   reelMuted: boolean;
@@ -211,7 +211,7 @@ export default function HomePage({
               post={post}
               lang={lang}
               t={t}
-              onClick={() => handleArticleClick(post, 'blog')}
+              onClick={() => handleArticleClick(post)}
             />
           ))}
         </div>
