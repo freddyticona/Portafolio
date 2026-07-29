@@ -194,10 +194,6 @@ for (const [key, meta] of Object.entries(pages)) {
 }
 
 // Generate individual article pages (cada artículo en su ruta primaria)
-const articleDate = (slug) => {
-  const found = imageMap[slug];
-  return found ? found : '2026-07-28';
-};
 for (const article of articles) {
   const route = primaryPage(article);
   const dir = path.join(distDir, route, article.slug);
