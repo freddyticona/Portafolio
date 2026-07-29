@@ -54,10 +54,10 @@ export default function HomePage({
     return () => observer.disconnect();
   }, []);
 
-  // Solo posts personales (sin fuente externa)
-  const personalPosts = blogPosts.filter(p => !p.source);
-  // Noticias (con fuente externa)
-  const newsPosts = blogPosts.filter(p => p.source);
+  // Ordenar por fecha descendente (más reciente primero) y filtrar
+  const sorted = [...blogPosts].sort((a, b) => b.date.localeCompare(a.date));
+  const personalPosts = sorted.filter(p => !p.source);
+  const newsPosts = sorted.filter(p => p.source);
 
   return (
     <div className="space-y-16 md:space-y-24 animate-fadeIn">
