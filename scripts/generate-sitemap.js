@@ -19,7 +19,6 @@ const TODAY = new Date().toISOString().slice(0, 10);
 
 const sections = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
-  { path: 'inicio', priority: '1.0', changefreq: 'weekly' },
   { path: 'sobre-mi', priority: '0.9', changefreq: 'monthly' },
   { path: 'portafolio', priority: '0.9', changefreq: 'weekly' },
   { path: 'cv', priority: '0.8', changefreq: 'monthly' },

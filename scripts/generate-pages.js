@@ -24,7 +24,9 @@ const pages = {
   'inicio': {
     title: 'Freddy Ticona Guzmán | Camarógrafo Profesional La Paz Bolivia | Filmación 4K y Documentales',
     desc: 'Portafolio de Freddy Ticona, camarógrafo experto en La Paz, Bolivia. Más de 15 años filmando documentales, cobertura periodística y televisión 4K. Premio Eduardo Abaroa 2017.',
-    path: '/inicio'
+    path: '/inicio',
+    canonical: 'https://freddydev.net/',
+    noindex: true
   },
   'sobre-mi': {
     title: 'Sobre Mí - Freddy Ticona | Camarógrafo Profesional en Bolivia',
@@ -146,10 +148,36 @@ for (const [key, meta] of Object.entries(pages)) {
     `<meta name="twitter:description" content="${meta.desc}"`
   );
 
-  // Replace canonical URL
+  // Replace Twitter URL
+  html = html.replace(
+    /<meta name="twitter:url" content=".*?"/,
+    `<meta name="twitter:url" content="${SITE}${meta.path}"`
+  );
+
+  // Replace canonical URL (con override para páginas como /inicio → /)
+  const canonicalUrl = meta.canonical || `${SITE}${meta.path}`;
   html = html.replace(
     /<link rel="canonical" href=".*?"/,
-    `<link rel="canonical" href="${SITE}${meta.path}"`
+    `<link rel="canonical" href="${canonicalUrl}"`
+  );
+
+  // noindex para páginas duplicadas
+  if (meta.noindex) {
+    html = html.replace(
+      /<meta name="robots" content=".*?"/,
+      `<meta name="robots" content="noindex, follow"`
+    );
+  }
+
+  // Add hreflang
+  const esUrl = canonicalUrl;
+  const enUrl = `${SITE}/en${meta.path === '/' ? '' : meta.path}`;
+  html = html.replace(
+    '</head>',
+    `    <link rel="alternate" hreflang="es" href="${esUrl}" />
+    <link rel="alternate" hreflang="en" href="${enUrl}" />
+    <link rel="alternate" hreflang="x-default" href="${esUrl}" />
+  </head>`
   );
 
   // Write the file
@@ -166,21 +194,54 @@ for (const [key, meta] of Object.entries(pages)) {
 }
 
 // Generate individual article pages (cada artículo en su ruta primaria)
+const articleDate = (slug) => {
+  const found = imageMap[slug];
+  return found ? found : '2026-07-28';
+};
 for (const article of articles) {
   const route = primaryPage(article);
   const dir = path.join(distDir, route, article.slug);
   fs.mkdirSync(dir, { recursive: true });
   let html = indexHtml;
+  const articleUrl = `${SITE}/${route}/${article.slug}`;
+  const imgUrl = imageMap[article.slug] ? `${SITE}${imageMap[article.slug]}` : 'https://freddydev.net/og-image.jpg';
+  const articleType = route === 'guias' ? 'TechArticle' : route === 'blog' ? 'BlogPosting' : 'NewsArticle';
   html = html.replace(/<title>.*?<\/title>/, `<title>${article.title} | Freddy Ticona</title>`);
   html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${article.desc}"`);
   html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${article.title}"`);
   html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${article.desc}"`);
-  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${SITE}/${route}/${article.slug}"`);
+  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${articleUrl}"`);
+  html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${imgUrl}"`);
   html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${article.title}"`);
   html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${article.desc}"`);
-  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/${route}/${article.slug}"`);
-  html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${imageMap[article.slug] || 'https://freddydev.net/og-image.jpg'}"`);
-  html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imageMap[article.slug] || 'https://freddydev.net/og-image.jpg'}"`);
+  html = html.replace(/<meta name="twitter:url" content=".*?"/, `<meta name="twitter:url" content="${articleUrl}"`);
+  html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imgUrl}"`);
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${articleUrl}"`);
+  // Article structured data
+  const articleSchema = `{
+      "@context": "https://schema.org",
+      "@type": "${articleType}",
+      "headline": "${article.title.replace(/"/g, '\\"')}",
+      "description": "${(article.desc || '').replace(/"/g, '\\"')}",
+      "image": "${imgUrl}",
+      "url": "${articleUrl}",
+      "author": {
+        "@type": "Person",
+        "name": "Freddy Ticona Guzmán"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Freddy Ticona - Servicios Audiovisuales"
+      }
+    }`;
+  html = html.replace('</head>', `    <script type="application/ld+json">${articleSchema}</script>\n  </head>`);
+  // hreflang
+  const esUrl = articleUrl;
+  const enUrl = `${SITE}/en/${route}/${article.slug}`;
+  html = html.replace('</head>', `    <link rel="alternate" hreflang="es" href="${esUrl}" />
+    <link rel="alternate" hreflang="en" href="${enUrl}" />
+    <link rel="alternate" hreflang="x-default" href="${esUrl}" />
+  </head>`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
   console.log(`✅ /${route}/${article.slug}`);
 }
