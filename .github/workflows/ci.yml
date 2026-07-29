@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: node --version && npm --version
       - run: npm install
       - run: npm run lint
 
@@ -28,7 +27,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: node --version && npm --version
       - run: npm install
       - run: npm test
 
@@ -40,7 +38,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: node --version && npm --version
       - run: npm install
       - run: npm run build
       - name: Subir artefacto dist/
@@ -60,7 +57,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: node --version && npm --version
       - run: npm install
       - name: Descargar build
         uses: actions/download-artifact@v8
@@ -90,7 +86,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: node --version && npm --version
       - run: npm install
       - run: npm run build
       - run: npx -y @lhci/cli@latest autorun --collect.staticDistDir=./dist --collect.numberOfRuns=1 --upload.target=filesystem
