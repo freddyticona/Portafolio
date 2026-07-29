@@ -7622,7 +7622,7 @@ Fight 10: TheGrefg (Spain) def. IlloJuan (Spain) — Split decision 4-1</p>
       // ARTÍCULOS NVIDIA — Julio 2026
       // ============================================================
       {
-        id: '101',
+        id: '124',
         contentType: 'analysis',
         slug: 'nvidia-open-secure-ai-alliance-osaia',
         titleEs: 'Open Secure AI Alliance: NVIDIA lidera la seguridad en IA con estándares abiertos',
@@ -7734,7 +7734,7 @@ OSAIA represents a paradigm shift: AI security transforms from a proprietary dif
         sourceUrl: 'https://developer.nvidia.com/blog/open-secure-ai-alliance/'
       },
       {
-        id: '102',
+        id: '125',
         contentType: 'analysis',
         slug: 'nvidia-vera-cpu-eda',
         titleEs: 'Vera CPU de NVIDIA acelera diseño de chips EDA: comparativa con AMD EPYC e Intel Xeon',
@@ -7854,7 +7854,7 @@ NVIDIA reported EDA benchmark advantages of up to 59% over Intel and 54% over AM
         sourceUrl: 'https://developer.nvidia.com/blog/accelerating-eda-workloads-on-nvidia-vera/'
       },
       {
-        id: '103',
+        id: '126',
         contentType: 'analysis',
         slug: 'nvidia-vera-rubin-nvl72',
         titleEs: 'Vera Rubin NVL72: el sistema rack que redefine la IA a escala, frente a AMD Instinct e Intel Xeon Max',
@@ -7961,7 +7961,7 @@ Each NVLink Domain of the Vera Rubin NVL72 connects 72 Rubin GPUs in a 9-switch 
         sourceUrl: 'https://developer.nvidia.com/blog/inside-nvidia-vera-rubin-nvl72/'
       },
       {
-        id: '104',
+        id: '127',
         contentType: 'analysis',
         slug: 'nvidia-spectrum-6-ethernet-switch',
         titleEs: 'Spectrum-6: el switch Ethernet 51.2Tbps de NVIDIA para IA, frente a AMD Pensando e Intel Tofino',
@@ -8074,7 +8074,7 @@ Built on TSMC 4nm process:
         sourceUrl: 'https://developer.nvidia.com/blog/introducing-nvidia-spectrum-6/'
       },
       {
-        id: '105',
+        id: '128',
         contentType: 'analysis',
         slug: 'nvidia-jetson-thor-t3000-t2000',
         titleEs: 'Jetson Thor T3000 y T2000: robótica con IA en el edge, comparativa con Intel Core Ultra y AMD Ryzen Embedded',
