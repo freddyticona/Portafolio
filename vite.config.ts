@@ -1,7 +1,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig, type Plugin} from 'vite';
+import {defineConfig, type Plugin, type PluginOption} from 'vite';
 import {sentryVitePlugin} from '@sentry/vite-plugin';
 
 /** Hace que la CSS no sea render-blocking: preload + onload upgrade */
@@ -19,7 +19,7 @@ function makeCssNonBlocking(): Plugin {
 }
 
 export default defineConfig(() => {
-  const plugins: Plugin[] = [react(), tailwindcss(), makeCssNonBlocking()];
+  const plugins: PluginOption[] = [react(), tailwindcss(), makeCssNonBlocking()];
 
   // Sentry plugin solo se activa si hay auth token (evita warnings en builds locales)
   if (process.env.SENTRY_AUTH_TOKEN && process.env.SENTRY_ORG && process.env.SENTRY_PROJECT) {
