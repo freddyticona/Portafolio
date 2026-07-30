@@ -3,6 +3,90 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/crisis-migratoria-ceuta-avalancha-migrantes-marruecos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Crisis migratoria en Ceuta: miles cruzan la frontera en una avalancha sin precedentes</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/pulso-politico-gobierno-oposicion-relato-ceuta</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>El pulso político: Gobierno, oposición y la batalla por el relato de Ceuta</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/italia-eeuu-contra-espana-crisis-ceuta-geopolitica-europea</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Italia y EE.UU. contra España: la crisis de Ceuta sacude la geopolítica europea</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ceuta-desbordada-voz-ceuties-hartazgo-solidaridad</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Ceuta desbordada: la voz de los ceutíes entre el hartazgo y la solidaridad</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/marruecos-migracion-como-arma-estrategia-presion-espana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Marruecos y la migración como arma: la estrategia de presión sobre España</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/muertos-tarajal-drama-humanitario-crisis-migratoria-ceuta</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>18 muertos en el Tarajal: el drama humanitario detrás de la crisis migratoria</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/dnu-milei-expulsar-extranjeros-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

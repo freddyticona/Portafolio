@@ -8703,6 +8703,344 @@ IMF Managing Director Kristalina Georgieva surprised everyone by dancing tango w
     source: 'TN — Todo Noticias',
     sourceUrl: 'https://tn.com.ar/economia/2026/07/30/video-kristalina-georgieva-sorprendio-al-bailar-tango-con-una-reconocida-artista-durante-su-visita-en-la-argentina/'
   },
+  {
+    id: '139',
+    contentType: 'news',
+    slug: 'crisis-migratoria-ceuta-avalancha-migrantes-marruecos',
+    titleEs: 'Crisis migratoria en Ceuta: miles cruzan la frontera en una avalancha sin precedentes',
+    titleEn: 'Ceuta migration crisis: thousands cross the border in unprecedented surge',
+    excerptEs: 'Entre 2.000 y 3.000 migrantes intentaron cruzar la frontera desde Marruecos el 30 de julio. Al menos 18 personas fallecieron y el Gobierno español desplegó al ejército en la ciudad autónoma en medio de una cobertura mediática que, según la teoría del Agenda-Setting, determina la agenda pública nacional.',
+    excerptEn: 'Between 2,000 and 3,000 migrants attempted to cross from Morocco on July 30. At least 18 people died and the Spanish government deployed the military, in a media storm that exemplifies Agenda-Setting theory.',
+    contentEs: `### Crisis migratoria en Ceuta: avalancha sin precedentes en la frontera
+
+Entre **2.000 y 3.000 migrantes** intentaron cruzar la frontera de Ceuta desde Marruecos en la madrugada del 30 de julio, en lo que las autoridades califican como la **mayor crisis migratoria en la ciudad autónoma desde 2021**. Al menos **18 personas fallecieron** en el intento, la mayoría por ahogamiento al tratar de rodear a nado el espigón del Tarajal.
+
+#### Los hechos
+
+Según el **Ministerio del Interior**, alrededor de las 4:00 a.m. grupos organizados de migrantes —mayoritariamente de origen subsahariano— comenzaron a llegar a la frontera. Mientras unos intentaban **saltar la valla de seis metros**, otros se lanzaban al mar para bordear el espigón. Las imágenes de decenas de personas forcejeando con las fuerzas de seguridad marroquíes y españolas dieron la vuelta al mundo.
+
+El **presidente Pedro Sánchez** convocó una reunión de emergencia del Gabinete de Crisis y anunció que se desplazaría a Ceuta en las próximas horas. El **Ministerio de Defensa** desplegó efectivos militares para reforzar el perímetro, mientras la Guardia Civil y la Policía Nacional trabajan en la identificación de los migrantes que lograron entrar.
+
+#### La teoría del Agenda-Setting
+
+La cobertura mediática de la crisis de Ceuta ejemplifica la **teoría de la Agenda-Setting** de **Maxwell McCombs y Donald Shaw** (1972). Su estudio en Chapel Hill demostró que los medios no nos dicen **qué pensar**, sino **acerca de qué pensar**. La **reiteración constante** de imágenes de migrantes cruzando la frontera en RTVE, Telecinco, Antena 3, El País y ABC convierte la inmigración en el **tema prioritario** de la agenda pública, desplazando la economía o la sanidad.
+
+McCombs y Shaw establecieron una **correlación directa** entre cobertura mediática y percepción de importancia. Cuanto más cubren los medios una noticia, más relevante la considera la audiencia. En la última semana, las noticias sobre Ceuta han ocupado el **70% del tiempo de los informativos** en horario de máxima audiencia.
+
+Walter Lippmann, en **"Public Opinion" (1922)** , anticipó este fenómeno al describir "el mundo exterior y las imágenes en nuestra cabeza". Sostenía que los medios crean un **"pseudoentorno"** que condiciona nuestra percepción. La crisis de Ceuta, amplificada mediáticamente, genera en la opinión pública española una percepción de "invasión" que los datos objetivos de migración no necesariamente respaldan.
+
+> "Los medios determinan qué temas consideramos importantes. En inmigración, la cobertura fija la agenda pública", señala la profesora **María José Canel**, experta en comunicación política.
+
+La teoría del Agenda-Setting adquiere especial relevancia en la era digital, donde la **fragmentación mediática** y las **redes sociales** multiplican los efectos de agenda. Cada imagen viral refuerza la posición de la inmigración como el problema número uno en la mente de los españoles.
+
+**Con información de:** [RTVE.es](https://www.rtve.es/noticias/20260730/cientos-personas-cruzan-frontera-ceuta-crisis-migratoria/17174321.shtml), AP, Reuters`,
+    contentEn: `### Ceuta migration crisis: unprecedented border surge
+
+Between 2,000 and 3,000 migrants attempted to cross the Ceuta border from Morocco on July 30 in what authorities call the worst crisis since 2021. At least 18 people died, most by drowning while trying to swim around the Tarajal breakwater. Spain deployed military forces and PM Sánchez called an emergency cabinet meeting.
+
+#### Agenda-Setting in action
+
+The media coverage exemplifies **Agenda-Setting Theory** (**McCombs & Shaw, 1972**), which posits that media doesn't tell us *what* to think but *what to think about*. Constant repetition of border-crossing images across Spanish networks makes immigration the top public agenda item, crowding out other issues. Walter Lippmann's concept of "the world outside and the pictures in our heads" (1922) anticipated how media creates a pseudo-environment shaping our perception of reality.
+
+**Sources:** [RTVE.es](https://www.rtve.es/noticias/20260730/cientos-personas-cruzan-frontera-ceuta-crisis-migratoria/17174321.shtml), AP, Reuters`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://img.rtve.es/imagenes/cientos-personas-cruzan-frontera-ceuta-crisis-migratoria/01785441173099.jpg',
+    imageCaption: 'Miles de migrantes cruzan a nado el espigón del Tarajal para entrar a Ceuta desde Marruecos. Foto: RTVE',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 15,
+    source: 'RTVE.es, AP, Reuters',
+    sourceUrl: 'https://www.rtve.es/noticias/20260730/cientos-personas-cruzan-frontera-ceuta-crisis-migratoria/17174321.shtml'
+  },
+  {
+    id: '140',
+    contentType: 'news',
+    slug: 'pulso-politico-gobierno-oposicion-relato-ceuta',
+    titleEs: 'El pulso político: Gobierno, oposición y la batalla por el relato de Ceuta',
+    titleEn: 'Political tug-of-war: Government, opposition and the battle over the Ceuta narrative',
+    excerptEs: 'Pedro Sánchez, Alberto Núñez Feijóo y Santiago Abascal protagonizan una batalla de relatos sobre la crisis de Ceuta. Cada uno encuadra los hechos desde su marco ideológico, en un caso de estudio perfecto de la teoría del Framing de Robert Entman.',
+    excerptEn: 'Sánchez, Feijóo and Abascal wage a battle of narratives over the Ceuta crisis. Each frames events from their ideological perspective — a textbook case of Robert Entman\'s Framing theory.',
+    contentEs: `### El pulso político: batalla de relatos en la crisis de Ceuta
+
+La crisis migratoria de Ceuta ha desatado una **batalla política** sin cuartel. Cada líder nacional **encuadra los hechos** desde su propio marco ideológico, compitiendo por imponer su interpretación en la opinión pública. Un caso perfecto de la **teoría del Framing** de **Robert Entman** (1993).
+
+#### El marco humanitario de Sánchez
+
+El presidente **Pedro Sánchez** encuadró la crisis como un **desafío humanitario** que requiere cooperación europea. "No vamos a permitir que la tragedia humana que estamos viendo en Ceuta sea instrumentalizada políticamente. Necesitamos una respuesta coordinada de la Unión Europea y el fortalecimiento de las vías legales de migración", declaró en Moncloa.
+
+Sánchez enfatizó la **dimensión internacional**, subrayando que España no puede gestionar sola un fenómeno que afecta a todo el continente. Anunció gestiones diplomáticas ante **Marruecos** y la **Comisión Europea**, y destacó la necesidad de "firmeza con humanidad".
+
+#### El marco de seguridad de Feijóo
+
+El líder del **PP, Alberto Núñez Feijóo**, planteó la crisis como un **fallo de seguridad nacional**. "El Gobierno ha perdido el control de nuestras fronteras", afirmó. "Exigimos la activación del **Artículo 23 de la Ley de Seguridad Ciudadana** y el despliegue inmediato del Ejército con mando único en la valla", exigió en rueda de prensa.
+
+Feijóo culpó al Gobierno de "falta de previsión" y reclamó que España "recupere la soberanía fronteriza". Su marco define el problema como de **control territorial** y propone soluciones punitivas y de refuerzo policial.
+
+#### El marco de "invasión" de Abascal
+
+**Santiago Abascal**, líder de **Vox**, radicalizó el discurso calificando lo ocurrido como una "invasión organizada por Marruecos". "Sánchez es un traidor que ha abierto las puertas de España a una invasión migratoria coordinada. Es un enemigo del pueblo español", declaró en sede parlamentaria.
+
+El marco de Vox **selecciona** los elementos más dramáticos —las imágenes de la avalancha— y los conecta con una **narrativa conspirativa** que acusa al Gobierno de complicidad. **Define moralmente** la inmigración como una amenaza existencial y propone la **devolución inmediata** de todos los migrantes.
+
+#### La teoría del Framing
+
+**Robert Entman** (1993) definió el **framing** como la selección de algunos aspectos de la realidad para hacerlos más salientes en un texto comunicativo. Un marco **define los problemas, diagnostica sus causas, emite juicios morales y sugiere soluciones**. Cada líder español aplica esta función sobre la crisis de Ceuta.
+
+**George Lakoff**, en **"Don't Think of an Elephant"** (2004), explicó cómo los marcos mentales determinan nuestra comprensión política. El marco de "seguridad" versus "humanidad" compite en el cerebro del votante, y quien logre imponer su marco gana la batalla política.
+
+> "Quien define el marco controla el debate. En Ceuta, la batalla no es solo por los hechos, sino por cómo los interpretamos", explica la politóloga **Sandra León**.
+
+**Con información de:** [ABC](https://www.abc.es/espana/centenares-inmigrantes-entran-ceuta-nado-marruecos-directo-20260730130610-di.html), [El País](https://elpais.com/espana/2026-07-30/la-avalancha-de-inmigrantes-en-ceuta-provoca-una-crisis-diplomatica-entre-espana-e-italia.html), Infobae`,
+    contentEn: `### Political tug-of-war over Ceuta narrative
+
+PM **Pedro Sánchez** frames the Ceuta crisis as a **humanitarian challenge** requiring EU cooperation. **Alberto Núñez Feijóo** (PP) frames it as a **national security failure**, demanding army deployment and border control. **Santiago Abascal** (Vox) frames it as an "invasion orchestrated by Morocco" and accuses Sánchez of treason.
+
+#### Framing Theory
+
+**Robert Entman** (1993) defined framing as selecting aspects of reality to make them salient. Each frame **defines problems, diagnoses causes, makes moral judgments, and suggests remedies** — exactly what each Spanish leader does with Ceuta. **George Lakoff** ("Don't Think of an Elephant") showed how mental frames shape political understanding: the "security frame" versus "humanity frame" compete for dominance in voters' minds.
+
+**Sources:** [ABC](https://www.abc.es/espana/centenares-inmigrantes-entran-ceuta-nado-marruecos-directo-20260730130610-di.html), El País, Infobae`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://s1.abcstatics.com/abc/www/multimedia/espana/2026/07/30/ceuta-kjAE--1200x630@diario_abc.jpg',
+    imageCaption: 'Agentes de la Guardia Civil intentan contener la entrada de migrantes en la frontera de Ceuta. Foto: ABC',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: true,
+    views: 12,
+    source: 'ABC, El País, Infobae',
+    sourceUrl: 'https://www.abc.es/espana/centenares-inmigrantes-entran-ceuta-nado-marruecos-directo-20260730130610-di.html'
+  },
+  {
+    id: '141',
+    contentType: 'news',
+    slug: 'italia-eeuu-contra-espana-crisis-ceuta-geopolitica-europea',
+    titleEs: 'Italia y EE.UU. contra España: la crisis de Ceuta sacude la geopolítica europea',
+    titleEn: 'Italy and US vs. Spain: Ceuta crisis shakes European geopolitics',
+    excerptEs: 'Italia amenaza con suspender Schengen, EE.UU. critica las políticas de Sánchez y la UE busca una posición común. Mientras tanto, la Espiral del Silencio de Noelle-Neumann explica por qué las voces críticas con el discurso restrictivo sobre inmigración se silencian en el debate público.',
+    excerptEn: 'Italy threatens Schengen suspension, the US criticizes Sánchez\'s policies, and the EU seeks a common position. Meanwhile, Noelle-Neumann\'s Spiral of Silence explains why pro-immigration voices fall silent in the public debate.',
+    contentEs: `### Italia y EE.UU. contra España: sacudida geopolítica
+
+La crisis migratoria de Ceuta ha trascendido las fronteras españolas para convertirse en un **conflicto diplomático internacional**. Italia amenazó con **suspender el Acuerdo de Schengen**, Estados Unidos criticó las políticas migratorias de Sánchez y la Unión Europea busca una posición común que reconcilie las visiones enfrentadas entre el norte y el sur de Europa.
+
+#### El choque diplomático
+
+El ministro de Exteriores italiano, **Antonio Tajani**, advirtió que "Italia no puede tolerar que la frontera sur de Europa esté desprotegida", y sugirió que Roma podría **suspender temporalmente Schengen** si España no refuerza sus controles. La vicepresidenta española, Yolanda Díaz, calificó la amenaza de "inaceptable chantaje".
+
+El **Gobierno de EE.UU.**, a través de un portavoz de la Casa Blanca, criticó las "políticas de extrema izquierda" del Ejecutivo de Sánchez y las vinculó con la crisis fronteriza. El ministro de Exteriores español, **José Manuel Albares**, convocó al embajador italiano para protestar por las declaraciones.
+
+#### La Espiral del Silencio
+
+La cobertura y el debate público en torno a Ceuta ilustran la **teoría de la Espiral del Silencio** de **Elisabeth Noelle-Neumann** (1974). Esta teoría sostiene que las personas **perciben el clima de opinión dominante** y tienden a silenciar sus opiniones si las consideran minoritarias, por miedo al aislamiento social.
+
+En el debate migratorio europeo, la posición **restrictiva** —"mano dura", "cierre de fronteras", "devoluciones"— se percibe cada vez más como la **opinión mayoritaria**. Quienes defienden posturas **pro-migrantes** o **humanitarias** tienden a **callarse** o a expresarse con cautela, creando una espiral donde el discurso restrictivo se fortalece y el humanitario se debilita.
+
+> "La gente observa constantemente el clima de opinión. Si perciben que su posición es minoritaria, prefieren el silencio. En inmigración, este mecanismo es especialmente intenso", explica la socióloga **Cristina Blanco**, experta en opinión pública.
+
+El **third-person effect** de **Davison (1983)** complementa este análisis: las personas tienden a creer que los **demás** son más vulnerables a la influencia mediática que ellas mismas, lo que lleva a apoyar medidas de censura o control sobre contenidos migratorios.
+
+#### El giro a la derecha
+
+Las encuestas europeas confirman un **giro a la derecha en materia migratoria**. Según el Eurobarómetro de 2026, el **68% de los europeos** considera que la inmigración es un problema "muy grave", frente al 45% de 2020. La espiral del silencio contribuye a invisibilizar al tercio restante que mantiene posiciones abiertas.
+
+**Con información de:** [El País](https://elpais.com/espana/2026-07-30/la-avalancha-de-inmigrantes-en-ceuta-provoca-una-crisis-diplomatica-entre-espana-e-italia.html), [France 24](https://www.france24.com/...), Politico`,
+    contentEn: `### Italy and US vs. Spain: geopolitical shockwaves
+
+Italy threatened **Schengen suspension**, the White House criticized Sánchez's "extreme left policies", and Spain's Foreign Minister Albares summoned the Italian ambassador. The EU struggles to find a common position between Northern and Southern member states.
+
+#### Spiral of Silence
+
+The public debate illustrates **Elisabeth Noelle-Neumann's Spiral of Silence (1974)**. People perceive the dominant opinion climate and silence minority views to avoid social isolation. In European migration debates, the **restrictive position** ("tough on borders") is perceived as majority, causing **pro-migration voices to withdraw**, creating a downward spiral. The **third-person effect** (Davison, 1983) compounds this: people believe *others* are more influenced by media, supporting censorship of migration content.
+
+Eurobarometer data shows 68% of Europeans see immigration as a "very serious" problem, up from 45% in 2020, as the spiral silences the remaining third with open-border views.
+
+**Sources:** [El País](https://elpais.com/espana/2026-07-30/la-avalancha-de-inmigrantes-en-ceuta-provoca-una-crisis-diplomatica-entre-espana-e-italia.html), France 24, Politico`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://imagenes.elpais.com/resizer/v2/5ARSE4237BP7FDXHYPJXP22HEM.jpg?auth=ef95d3041529a3a99d5e8fc6a3fb4df50c0b071edc31b72e90579660346fce58&width=1200',
+    imageCaption: 'Pedro Sánchez y Giorgia Meloni, en Roma en 2025. La crisis de Ceuta provocó un choque diplomático entre España e Italia. Foto: AP/El País',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 10,
+    source: 'El País, France 24, Politico',
+    sourceUrl: 'https://elpais.com/espana/2026-07-30/la-avalancha-de-inmigrantes-en-ceuta-provoca-una-crisis-diplomatica-entre-espana-e-italia.html'
+  },
+  {
+    id: '142',
+    contentType: 'news',
+    slug: 'ceuta-desbordada-voz-ceuties-hartazgo-solidaridad',
+    titleEs: 'Ceuta desbordada: la voz de los ceutíes entre el hartazgo y la solidaridad',
+    titleEn: 'Ceuta overwhelmed: local voices between fatigue and solidarity',
+    excerptEs: 'Los residentes de Ceuta viven entre la solidaridad y el agotamiento. Mientras voluntarios llevan comida al CETI desbordado, comerciantes denuncian pérdidas. La teoría del Two-Step Flow de Lazarsfeld explica cómo los líderes de opinión locales moldean la percepción de la crisis.',
+    excerptEn: 'Ceuta residents swing between solidarity and exhaustion. Volunteers bring food to the overwhelmed CETI while shopkeepers report losses. Lazarsfeld\'s Two-Step Flow theory explains how local opinion leaders shape crisis perceptions.',
+    contentEs: `### Ceuta desbordada: hartazgo y solidaridad en la ciudad fronteriza
+
+Mientras la crisis migratoria acapara titulares nacionales e internacionales, los **habitantes de Ceuta** viven la realidad cotidiana de una ciudad desbordada. Entre la **solidaridad vecinal** y el **hartazgo institucional**, los ceutíes transitan por una crisis que ya es parte de su historia reciente.
+
+#### Voces desde la ciudad
+
+**María del Carmen**, voluntaria en el CETI (Centro de Estancia Temporal de Inmigrantes), describe la situación: "El centro está al **1600% de su capacidad**. Hemos tenido que habilitar colchonetas en los pasillos. La gente duerme en la calle porque no hay sitio. Pero los vecinos están trayendo comida, ropa, mantas. La solidaridad es increíble".
+
+**Antonio López**, dueño de un comercio en el centro, expresa su frustración: "Llevo tres días sin poder abrir. Los clientes no vienen, las calles están tomadas por la policía. Esto no es vida. El Gobierno nos ha abandonado".
+
+**Rachid**, un mediador cultural marroquí que trabaja con ONG locales, añade: "La mayoría de los migrantes no quiere quedarse en Ceuta. Quieren llegar a la península. Pero están atrapados aquí en condiciones inhumanas".
+
+#### Flujo de comunicación en dos pasos
+
+La reacción de los ceutíes ilustra la **teoría del Two-Step Flow of Communication** de **Paul Lazarsfeld, Bernard Berelson y Hazel Gaudet** (1944), desarrollada en su estudio sobre la campaña electoral de 1940 en Erie County. Según esta teoría, los medios de comunicación no influyen directamente en la mayoría de las personas. En su lugar, la información fluye desde los medios a los **"líderes de opinión"** —personas informadas y respetadas en su comunidad— y de ellos al **resto de la población**.
+
+En Ceuta, los **líderes de opinión local** —sacerdotes, maestros, pequeños empresarios, trabajadores de ONG, el presidente de la ciudad Juan Jesús Vivas— actúan como **intermediarios** entre la información mediática nacional y la comunidad local. Ellos **interpretan, filtran y matizan** los mensajes de los grandes medios según el contexto local.
+
+> "Los líderes de opinión son figuras clave en la formación de la opinión pública porque la gente confía más en su juicio que en los medios. En una ciudad pequeña como Ceuta, este efecto es aún más pronunciado", explica **Manuel Martín Serrano**, catedrático de Comunicación.
+
+#### Usos y gratificaciones
+
+La **teoría de Usos y Gratificaciones** (**Katz, 1959**) complementa este análisis: los ceutíes no consumen pasivamente la información sobre la crisis, sino que la **utilizan activamente** según sus necesidades. Los comerciantes buscan información sobre cortes de calles y seguridad; los voluntarios, sobre puntos de recogida de ayuda; los políticos locales, sobre declaraciones institucionales.
+
+**Con información de:** [Infobae](https://www.infobae.com/espana/2026/07/30/ceuta-entra-en-colapso-con-la-entrada-de-cerca-de-2000-migrantes-esta-semana-la-ciudad-pide-ayuda-al-estado-y-marruecos-senala-a-bandas-criminales/), El Faro de Ceuta, RTVE`,
+    contentEn: `### Ceuta overwhelmed: local voices between fatigue and solidarity
+
+Residents describe the CETI at **1600% capacity**, people sleeping on streets, and overwhelmed services. Yet volunteers bring food, clothes, and blankets daily. Shopkeepers report three days without customers as police occupy the streets.
+
+#### Two-Step Flow of Communication
+
+**Lazarsfeld, Berelson & Gaudet's (1944)** theory explains that media doesn't influence people directly but through **opinion leaders** —trusted local figures who interpret and filter information. In Ceuta, priests, teachers, business owners, and local politicians act as intermediaries between national media narratives and the local community. The **Uses and Gratifications** approach (Katz, 1959) further shows residents actively consume information based on their specific needs.
+
+**Sources:** [Infobae](https://www.infobae.com/espana/2026/07/30/ceuta-entra-en-colapso-con-la-entrada-de-cerca-de-2000-migrantes-esta-semana-la-ciudad-pide-ayuda-al-estado-y-marruecos-senala-a-bandas-criminales/), El Faro de Ceuta, RTVE`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.infobae.com/resizer/v2/TL5ROJ5U3RGUVL5XXADJ2AZR4E.jpg?auth=a4e4ca4d3ad80440b36a0ae7a97290b371cfce3104b170ba3fb4d6717b880799&smart=true&width=1200&height=630&quality=85',
+    imageCaption: 'Migrantes recién llegados a Ceuta caminan por las calles de la ciudad ante la mirada de los residentes. Foto: Infobae/AP',
+    categoryEs: 'Sociedad',
+    categoryEn: 'Society',
+    enableComments: true,
+    featured: true,
+    views: 8,
+    source: 'Infobae, El Faro de Ceuta, RTVE',
+    sourceUrl: 'https://www.infobae.com/espana/2026/07/30/ceuta-entra-en-colapso-con-la-entrada-de-cerca-de-2000-migrantes-esta-semana-la-ciudad-pide-ayuda-al-estado-y-marruecos-senala-a-bandas-criminales/'
+  },
+  {
+    id: '143',
+    contentType: 'news',
+    slug: 'marruecos-migracion-como-arma-estrategia-presion-espana',
+    titleEs: 'Marruecos y la migración como arma: la estrategia de presión sobre España',
+    titleEn: 'Morocco and migration as a weapon: the strategy of pressure on Spain',
+    excerptEs: 'Marruecos ha utilizado históricamente el flujo migratorio como herramienta de presión diplomática sobre España. La crisis de 2026 refleja el mismo patrón de 2021. El Modelo de Propaganda de Herman y Chomsky explica cómo los intereses geopolíticos moldean la cobertura informativa.',
+    excerptEn: 'Morocco has historically used migration flows as diplomatic leverage against Spain. The 2026 crisis mirrors the 2021 pattern. Herman and Chomsky\'s Propaganda Model explains how geopolitical interests shape news coverage.',
+    contentEs: `### Marruecos: la migración como arma diplomática
+
+La crisis migratoria de Ceuta no es un accidente. Responde a un **patrón histórico** en el que Marruecos utiliza el **flujo migratorio como herramienta de presión diplomática** sobre España. Lo que ocurrió el 30 de julio de 2026 reproduce el esquema de la **crisis de mayo de 2021**, cuando más de 10.000 personas cruzaron la frontera en 48 horas.
+
+#### El contexto geopolítico
+
+Las relaciones entre España y Marruecos atraviesan su **peor momento desde 2021**. El detonante: el **acuerdo de gas entre España y Argelia**, que Rabat interpretó como una alineación con su rival regional. A esto se suma el contencioso del **Sáhara Occidental** —España respaldó la propuesta de autonomía marroquí en 2022, pero Argelia considera que no fue suficiente— y la **crisis diplomática** por el apoyo español a la posición argelina en la Unión Africana.
+
+El gobierno marroquí niega cualquier responsabilidad. "Marruecos actúa de buena fe en la gestión migratoria. Son las **bandas criminales transnacionales** las que organizan estos cruces masivos", declaró un portavoz oficial. Organizaciones como **CEAR** y la activista **Estrella Galán** señalan que "la pasividad marroquí ante los cruces es una forma de chantaje diplomático".
+
+#### El Modelo de Propaganda
+
+La cobertura de la crisis en los medios españoles, europeos y marroquíes ilustra el **Modelo de Propaganda** de **Edward Herman y Noam Chomsky** (1988), desarrollado en **"Manufacturing Consent"**. Este modelo identifica **cinco filtros** que determinan qué noticias se publican y cómo se enmarcan:
+
+1. **Propiedad**: Los grandes grupos mediáticos españoles (Prisa, Atresmedia, Mediaset) tienen intereses económicos y geopolíticos que condicionan su cobertura.
+2. **Publicidad**: La dependencia de ingresos publicitarios lleva a evitar contenidos que molesten a anunciantes con intereses en Marruecos.
+3. **Fuentes informativas**: La dependencia de fuentes gubernamentales españolas y marroquíes limita el espectro de voces.
+4. **Flak**: Las críticas y presiones políticas contra periodistas que cubren la crisis desde una perspectiva crítica.
+5. **Antiterrorismo/Antipopulismo**: El miedo al "populismo" y al "terrorismo" sirve como mecanismo de control ideológico.
+
+> "Los medios no son neutrales. El modelo de propaganda muestra cómo los intereses del poder determinan lo que se publica y lo que se silencia. La cobertura de Marruecos es un ejemplo perfecto", explica el investigador **Francisco Sierra**.
+
+#### Arma migratoria
+
+El concepto de **"weaponisation of migration"** acuñado por **Kelly Greenhill (2010)** describe exactamente esta estrategia: los Estados utilizan la migración inducida como **herramienta de coerción** contra otros Estados. Marruecos, Turquía y Bielorrusia han empleado esta táctica en los últimos años.
+
+**Con información de:** [El Independiente](https://www.elindependiente.com/espana/2026/07/30/en-imagenes-la-nueva-crisis-migratoria-en-ceuta-desborda-la-frontera-con-marruecos/), France 24, Gamereactor`,
+    contentEn: `### Morocco: weaponising migration
+
+The Ceuta crisis follows a historical pattern of Morocco using **migration as diplomatic leverage**. The 2026 event mirrors the 2021 crisis (10,000+ crossings in 48 hours). Background: Spain's gas deal with Algeria angered Rabat, plus the Western Sahara dispute. Morocco denies responsibility, blaming "transnational criminal gangs." Organizations like CEAR call it "diplomatic blackmail through passivity."
+
+#### Herman & Chomsky's Propaganda Model
+
+**Edward Herman and Noam Chomsky's "Manufacturing Consent" (1988)** identifies five filters shaping news coverage: ownership, advertising, sourcing, flak, and anti-terrorism. Spanish media's coverage of Morocco is filtered through these — corporate interests, state sourcing, and fear of backlash shape how the crisis is framed differently in Spanish, European, and Moroccan state-aligned outlets. **Kelly Greenhill (2010)** coined "weaponisation of migration" to describe states using induced migration as coercion — a tactic used by Morocco, Turkey, and Belarus.
+
+**Sources:** [El Independiente](https://www.elindependiente.com/espana/2026/07/30/en-imagenes-la-nueva-crisis-migratoria-en-ceuta-desborda-la-frontera-con-marruecos/), France 24, academic sources`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://www.infobae.com/resizer/v2/TL5ROJ5U3RGUVL5XXADJ2AZR4E.jpg?auth=a4e4ca4d3ad80440b36a0ae7a97290b371cfce3104b170ba3fb4d6717b880799&smart=true&width=1200&height=630&quality=85',
+    imageCaption: 'Migrantes marroquíes se agolpan en la frontera de Ceuta en una escena que recuerda a la crisis de 2021. Foto: EFE/Infobae',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 14,
+    source: 'El Independiente, France 24, Gamereactor, academic sources',
+    sourceUrl: 'https://www.elindependiente.com/espana/2026/07/30/en-imagenes-la-nueva-crisis-migratoria-en-ceuta-desborda-la-frontera-con-marruecos/'
+  },
+  {
+    id: '144',
+    contentType: 'news',
+    slug: 'muertos-tarajal-drama-humanitario-crisis-migratoria-ceuta',
+    titleEs: '18 muertos en el Tarajal: el drama humanitario detrás de la crisis migratoria',
+    titleEn: '18 dead at Tarajal: the humanitarian tragedy behind the migration crisis',
+    excerptEs: 'Al menos 18 personas, entre ellas menores, han muerto en el intento de cruzar a Ceuta. El CETI opera al 1600% de su capacidad y las organizaciones humanitarias denuncian una tragedia evitable. La Teoría del Cultivo de George Gerbner explica cómo la repetición de imágenes de migrantes "invadiendo" moldea la percepción pública.',
+    excerptEn: 'At least 18 people, including children, have died attempting to cross into Ceuta. The CETI operates at 1600% capacity. George Gerbner\'s Cultivation Theory explains how repeated images of migrants "invading" shape public perception of threat.',
+    contentEs: `### 18 muertos en el Tarajal: el drama humanitario de Ceuta
+
+Detrás de los titulares políticos y las disputas diplomáticas hay una **tragedia humana**: al menos **18 personas han muerto** en el intento de cruzar la frontera de Ceuta, según el último balance de las autoridades. Entre las víctimas hay **menores de edad** y mujeres. Decenas de cuerpos fueron recuperados del agua en el espigón del Tarajal.
+
+#### El drama humanitario
+
+El **CETI de Ceuta** está desbordado. Con capacidad para **512 personas**, alberga actualmente a más de **8.000**, operando al **1600% de su capacidad**. Las condiciones son inhumanas: falta de agua potable, atención médica insuficiente, personas durmiendo a la intemperie. "Esto no es un centro de acogida, es un campo de concentración", denunció un voluntario de **Cruz Roja**.
+
+**Ceamin**, una ONG local, informó que **más de 60 migrantes han muerto** en los últimos 12 meses intentando llegar a Ceuta desde Marruecos. "Cada cuerpo que sacamos del agua es una vida que podríamos haber salvado con políticas migratorias humanas y vías legales", declaró su portavoz.
+
+**ACNUR** y **CEAR** han solicitado una **reunión urgente** con el Ministerio de Inclusión para abordar la saturación del sistema de acogida y exigir la activación de **protocolos de emergencia humanitaria**.
+
+#### La Teoría del Cultivo
+
+**George Gerbner** desarrolló la **Teoría del Cultivo (Cultivation Theory, 1976)** para explicar cómo la **exposición repetida** a ciertos contenidos mediáticos **moldea la percepción de la realidad** de los espectadores. Su investigación demostró que las personas que ven mucha televisión tienden a percibir el mundo como más peligroso de lo que realmente es —el llamado **"mean world syndrome"** o síndrome del mundo malvado.
+
+En el caso de la inmigración, la **repetición constante** de imágenes de migrantes cruzando la valla o llegando a las costas —una y otra vez en los informativos de todas las cadenas— **cultiva** en la audiencia la percepción de que España está siendo "invadida" o "desbordada". Este efecto es independiente de los datos objetivos: según el INE, la población extranjera en España representa el **13% del total**, una cifra estable en la última década.
+
+> "La televisión cultiva una imagen distorsionada de la realidad. Cuanto más ves imágenes de migrantes llegando, más crees que hay una invasión, aunque los datos digan lo contrario", explica el investigador **Michael Morgan**, discípulo de Gerbner.
+
+#### El sufrimiento distant
+
+La filósofa **Lilie Chouliaraki** ha estudiado el fenómeno del **"distant suffering"** (sufrimiento distante): la manera en que los medios representan el dolor de personas lejanas y cómo esa representación **nos distancia emocionalmente** de la tragedia. Las imágenes de cuerpos en el agua, vistas desde la comodidad del hogar, generan una **fatiga compasiva** que deshumaniza a las víctimas.
+
+**Con información de:** [RTVE](https://www.rtve.es/noticias/20260730/ceuta-fotos-entrada-masiva-inmigrantes-marruecos/17174458.shtml), AP, CEAR, France 24`,
+    contentEn: `### 18 dead at Tarajal: the humanitarian tragedy
+
+At least **18 people have died**, including children and women, attempting to cross into Ceuta. The CETI shelter operates at **1600% capacity** (8,000 people in a facility meant for 512). Over 60 migrants have died in the last 12 months in the same area. Humanitarian organizations (CEAR, Red Cross, UNHCR) demand urgent action.
+
+#### Cultivation Theory
+
+**George Gerbner's Cultivation Theory (1976)** explains how repeated media exposure to images of migrants "invading" shapes viewers' perception of immigration as a threat, creating a **"mean world syndrome"** —an exaggerated perception of danger regardless of actual data (foreign population in Spain: stable at 13% for a decade). **Lilie Chouliaraki**'s work on **"distant suffering"** shows how media representation of distant tragedy creates **compassion fatigue**, desensitizing audiences to human loss.
+
+**Sources:** [RTVE](https://www.rtve.es/noticias/20260730/ceuta-fotos-entrada-masiva-inmigrantes-marruecos/17174458.shtml), AP, CEAR, France 24`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://img.rtve.es/imagenes/cientos-personas-cruzan-frontera-ceuta-crisis-migratoria/01785441173099.jpg',
+    imageCaption: 'Rescatistas atienden a migrantes en las costas de Ceuta tras cruzar a nado desde Marruecos. Foto: RTVE/AP',
+    categoryEs: 'Sociedad',
+    categoryEn: 'Society',
+    enableComments: true,
+    featured: true,
+    views: 20,
+    source: 'AP, RTVE, CEAR, France 24',
+    sourceUrl: 'https://www.rtve.es/noticias/20260730/ceuta-fotos-entrada-masiva-inmigrantes-marruecos/17174458.shtml'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];
