@@ -17,6 +17,16 @@ const __dirname = path.dirname(__filename);
 const SITE = 'https://freddydev.net';
 const TODAY = new Date().toISOString().slice(0, 10);
 
+// Encontrar la fecha más reciente de artículos por sección
+function maxDate(articles, route, fallback) {
+  const posts = articles.filter(a => primaryPage(a) === route);
+  if (posts.length === 0) return fallback;
+  const dates = posts.map(a => a.date).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d));
+  if (dates.length === 0) return fallback;
+  dates.sort().reverse();
+  return dates[0];
+}
+
 const sections = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
   { path: 'sobre-mi', priority: '0.9', changefreq: 'monthly' },
@@ -33,6 +43,10 @@ const sections = [
 
 const articles = extractArticles();
 
+// Fecha más reciente del sitio para páginas sin contenido asociado
+const SITE_MAX_DATE = articles.filter(a => /^\d{4}-\d{2}-\d{2}$/.test(a.date))
+  .map(a => a.date).sort().reverse()[0] || TODAY;
+
 function primaryPage(article) {
   if (article.categoryEs === 'Guías y Trámites') return 'guias';
   if (article.source) return 'noticias';
@@ -48,9 +62,11 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 
 for (const section of sections) {
   const loc = section.path === '' ? SITE : `${SITE}/${section.path}`;
+  const sectionSlug = section.path || 'inicio';
+  const sectionDate = (sectionSlug !== 'inicio') ? maxDate(articles, sectionSlug, SITE_MAX_DATE) : SITE_MAX_DATE;
   xml += `  <url>
     <loc>${loc}</loc>
-    <lastmod>${TODAY}</lastmod>
+    <lastmod>${sectionDate}</lastmod>
     <changefreq>${section.changefreq}</changefreq>
     <priority>${section.priority}</priority>
   </url>\n`;
@@ -61,9 +77,10 @@ xml += `\n  <!-- Artículos (cada uno en su ruta primaria) -->\n`;
 for (const article of articles) {
   const route = primaryPage(article);
   const priority = route === 'guias' ? '0.7' : '0.6';
+  const articleDate = (article.date && /^\d{4}-\d{2}-\d{2}$/.test(article.date)) ? article.date : TODAY;
   xml += `  <url>
     <loc>${SITE}/${route}/${article.slug}</loc>
-    <lastmod>${TODAY}</lastmod>
+    <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>${priority}</priority>
   </url>\n`;

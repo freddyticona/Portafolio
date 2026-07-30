@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
+const TODAY = new Date().toISOString().slice(0, 10);
 
 function primaryPage(article) {
   if (article.categoryEs === 'Guías y Trámites') return 'guias';
@@ -85,15 +86,13 @@ const _rawArticles = extractArticles();
 const articles = _rawArticles.map(a => ({
   slug: a.slug,
   title: a.titleEs,
+  titleEn: a.titleEn || '',
   desc: a.excerpt,
-  source: a.source,
-  categoryEs: a.categoryEs,
+  date: a.date || '',
+  imageUrl: a.imageUrl || '',
+  source: a.source || '',
+  categoryEs: a.categoryEs || '',
 }));
-const imageMap = {};
-for (const a of _rawArticles) {
-  if (a.imageUrl) imageMap[a.slug] = a.imageUrl;
-}
-
 const distDir = path.join(__dirname, '..', 'dist');
 
 if (!fs.existsSync(distDir)) {
@@ -102,6 +101,10 @@ if (!fs.existsSync(distDir)) {
 }
 
 const indexHtml = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');
+
+// Eliminar el schema original (Person, LocalBusiness, VideoObject, Article, BreadcrumbList)
+// para que las páginas de artículos no hereden VideoObject de contenido no visible en esas URLs.
+const cleanIndexHtml = indexHtml.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, '');
 
 for (const [key, meta] of Object.entries(pages)) {
   let html = indexHtml;
@@ -194,13 +197,15 @@ for (const [key, meta] of Object.entries(pages)) {
 }
 
 // Generate individual article pages (cada artículo en su ruta primaria)
+// Usar cleanIndexHtml sin el schema original para evitar que páginas de artículos
+// hereden VideoObject de contenido no visible (causa "Video is not on a display page")
 for (const article of articles) {
   const route = primaryPage(article);
   const dir = path.join(distDir, route, article.slug);
   fs.mkdirSync(dir, { recursive: true });
-  let html = indexHtml;
+  let html = cleanIndexHtml;
   const articleUrl = `${SITE}/${route}/${article.slug}`;
-  const imgUrl = imageMap[article.slug] ? `${SITE}${imageMap[article.slug]}` : 'https://freddydev.net/og-image.jpg';
+  const imgUrl = article.imageUrl ? (article.imageUrl.startsWith('http') ? article.imageUrl : `${SITE}${article.imageUrl}`) : 'https://freddydev.net/og-image.jpg';
   const articleType = route === 'guias' ? 'TechArticle' : route === 'blog' ? 'BlogPosting' : 'NewsArticle';
   html = html.replace(/<title>.*?<\/title>/, `<title>${article.title} | Freddy Ticona</title>`);
   html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${article.desc}"`);
@@ -208,6 +213,7 @@ for (const article of articles) {
   html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${article.desc}"`);
   html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${articleUrl}"`);
   html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${imgUrl}"`);
+  html = html.replace(/<meta property="og:type" content=".*?"/, `<meta property="og:type" content="article"`);
   html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${article.title}"`);
   html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${article.desc}"`);
   html = html.replace(/<meta name="twitter:url" content=".*?"/, `<meta name="twitter:url" content="${articleUrl}"`);
@@ -221,6 +227,7 @@ for (const article of articles) {
       "description": "${(article.desc || '').replace(/"/g, '\\"')}",
       "image": "${imgUrl}",
       "url": "${articleUrl}",
+      "datePublished": "${article.date || TODAY}",
       "author": {
         "@type": "Person",
         "name": "Freddy Ticona Guzmán"
@@ -231,13 +238,22 @@ for (const article of articles) {
       }
     }`;
   html = html.replace('</head>', `    <script type="application/ld+json">${articleSchema}</script>\n  </head>`);
-  // hreflang
+  // hreflang — solo para artículos con contenido en inglés
   const esUrl = articleUrl;
   const enUrl = `${SITE}/en/${route}/${article.slug}`;
   html = html.replace('</head>', `    <link rel="alternate" hreflang="es" href="${esUrl}" />
-    <link rel="alternate" hreflang="en" href="${enUrl}" />
     <link rel="alternate" hreflang="x-default" href="${esUrl}" />
+    ${article.titleEn && article.titleEn !== article.title ? `<link rel="alternate" hreflang="en" href="${enUrl}" />` : ''}
   </head>`);
+  // Incluir contenido visible para Googlebot pre-renderizado
+  const bodyContent = `
+  <div id="seo-content" style="display:none">
+    <h1>${article.title}</h1>
+    <p>${article.desc}</p>
+    <p>Fecha: ${article.date}</p>
+    <p>Categoría: ${article.categoryEs}</p>
+  </div>`.trim();
+  html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
   console.log(`✅ /${route}/${article.slug}`);
 }

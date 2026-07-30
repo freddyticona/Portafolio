@@ -8219,6 +8219,491 @@ On July 15, 2026, NVIDIA expanded its Jetson family with the **Jetson Thor T3000
         sourceUrl: 'https://developer.nvidia.com/blog/introducing-jetson-thor-t3000-t2000/'
       },
       // ============================================================
+      // ARTÍCULOS TN — 30 DE JULIO 2026
+      // ============================================================
+  {
+    id: '129',
+    contentType: 'news',
+    slug: 'dnu-milei-expulsar-extranjeros-2026',
+    titleEs: 'Milei firmó un DNU para expulsar extranjeros que "expresen odio" contra Argentina',
+    titleEn: 'Milei signs decree to expel foreigners who "express hate" against Argentina',
+    excerptEs: 'El Gobierno modificó la Ley de Migraciones mediante DNU e incorporó causales para impedir el ingreso o cancelar la residencia de extranjeros que promuevan mensajes de odio o ultrajen los símbolos patrios.',
+    excerptEn: 'The Government amended the Immigration Law by decree, adding grounds to deny entry or cancel residency for foreigners who promote hate messages or desecrate national symbols.',
+    contentEs: `### Milei modificó la Ley de Migraciones por DNU: las claves de la nueva norma
+
+El **Poder Ejecutivo** publicó este jueves en el Boletín Oficial el **Decreto de Necesidad y Urgencia (DNU) 681/2026** que modifica la **Ley de Migraciones 25.871**, incorporando nuevas causales para impedir el ingreso al país o cancelar la residencia de extranjeros.
+
+#### Qué cambios introduce
+
+La principal modificación incorpora un nuevo inciso al **artículo 29** de la ley, que establece las causales por las cuales una persona extranjera puede ser rechazada al intentar ingresar al territorio nacional. A partir de ahora, podrá prohibirse el ingreso a quienes hayan dirigido **mensajes de odio** contra el pueblo argentino o contra un ciudadano argentino por su nacionalidad, así como a quienes hayan incitado a la violencia por ese motivo.
+
+El decreto también incorpora como causal haber realizado **actos de ultraje a los símbolos patrios**, haber participado en esos hechos o haber incitado a cometer esas conductas.
+
+Las mismas causales fueron incorporadas al **artículo 62**, por lo que también podrán utilizarse para **cancelar la residencia** de extranjeros que ya se encuentren en el país, derivando en una intimación para abandonar el territorio nacional o directamente en la expulsión.
+
+#### Conceptos abiertos a interpretación
+
+Uno de los principales interrogantes es el **alcance de los conceptos**. El texto no enumera expresiones concretas que constituyan un agravio, sino que utiliza definiciones generales como "mensajes de odio", "actos de hostilidad" o "ultraje a los símbolos patrios". Su aplicación dependerá de la interpretación de las autoridades migratorias y, eventualmente, de la revisión judicial.
+
+El DNU incluye una cláusula que protege la **libertad de expresión**: no podrán ser consideradas causales de inadmisión o expulsión las expresiones de disenso ideológico ni las críticas políticas, académicas o ciudadanas, siempre que constituyan un ejercicio legítimo de los derechos constitucionales.
+
+#### Reacciones
+
+La **oposición** ya anticipó su rechazo y buscará frenar la medida tanto en el Congreso como en la Justicia, argumentando que la norma deja abierta la puerta a interpretaciones discrecionales.
+
+> "Frente a las recientes manifestaciones de hostilidad contra la República Argentina y los argentinos, el Gobierno Nacional reafirma que la defensa de la Nación, de sus ciudadanos y de sus símbolos no es negociable". — Comunicado de la Oficina del Presidente
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/politica/2026/07/30/las-claves-del-dnu-de-milei-para-expulsar-extranjeros-que-cambia-y-que-dudas-genera/)`,
+    contentEn: `### Milei amended the Immigration Law by decree: key points
+
+The Executive Branch published **Decree 681/2026** modifying **Immigration Law 25.871**, adding new grounds to deny entry or cancel residency for foreigners who direct hate messages against Argentine people or desecrate national symbols.
+
+The decree adds vague terms like "hate speech" and "hostility acts" without specific examples, leaving interpretation to migration authorities and courts. A clause protects freedom of expression for political dissent or academic criticism.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/politica/2026/07/30/las-claves-del-dnu-de-milei-para-expulsar-extranjeros-que-cambia-y-que-dudas-genera/)`,
+    date: '2026-07-30',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop',
+    imageCaption: 'Milei firmó el DNU 681/2026 que modifica la Ley de Migraciones. Foto: Reuters',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: true,
+    views: 5,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/politica/2026/07/30/las-claves-del-dnu-de-milei-para-expulsar-extranjeros-que-cambia-y-que-dudas-genera/'
+  },
+  {
+    id: '130',
+    contentType: 'news',
+    slug: 'tragedia-helicoptero-san-juan-siete-victimas',
+    titleEs: 'Tragedia en San Juan: rescataron los cuerpos de las siete víctimas del helicóptero',
+    titleEn: 'Tragedy in San Juan: rescuers recover bodies of all seven helicopter victims',
+    excerptEs: 'Las siete personas que viajaban en el helicóptero siniestrado en una quebrada de difícil acceso fueron halladas sin vida. La Justicia avanza con pericias para determinar las causas del accidente.',
+    excerptEn: 'All seven people aboard the crashed helicopter were found dead in a hard-to-reach ravine. Investigators are working to determine the cause of the accident.',
+    contentEs: `### Se confirma la peor noticia: las siete víctimas fatales del helicóptero en San Juan
+
+Los equipos de rescate lograron recuperar los cuerpos de las **siete personas** que viajaban en el helicóptero siniestrado mientras combatía **incendios forestales** en la provincia de **San Juan**. La nave cayó en una **quebrada de difícil acceso**, a 10 kilómetros del camino más cercano, lo que complicó las tareas de búsqueda y rescate.
+
+#### Las víctimas
+
+Entre los fallecidos se encuentra el **piloto**, un **comandante de la Policía Bonaerense** con amplia experiencia en el combate de incendios. Las otras seis víctimas eran miembros del equipo de emergencias que participaban en las tareas de extinción.
+
+#### Las pericias
+
+La **Justicia** ya avanza con las pericias para determinar las causas del accidente. Se investigan hipótesis que van desde una posible **falla mecánica** hasta **condiciones climáticas adversas** en el momento del siniestro.
+
+> "El panorama era desolador", relató el primer testigo que llegó al lugar del accidente.
+
+Un canal de televisión local había mostrado **horas antes** desde el aire el trabajo del helicóptero, imágenes que ahora son analizadas como parte de la investigación.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/policiales/2026/07/30/tragedia-en-san-juan-rescataron-los-cuerpos-de-las-siete-victimas-y-la-justicia-avanzara-con-las-pericias/)`,
+    contentEn: `### Worst fears confirmed: all seven helicopter victims found dead in San Juan
+
+Rescue teams recovered the bodies of all seven people aboard the helicopter that crashed while fighting forest fires in San Juan province. The aircraft fell in a hard-to-reach ravine, 10 km from the nearest road.
+
+Among the deceased is the pilot, a Buenos Aires Police commander experienced in firefighting. The other six were emergency team members. Investigators are exploring mechanical failure and adverse weather hypotheses.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/policiales/2026/07/30/tragedia-en-san-juan-rescataron-los-cuerpos-de-las-siete-victimas-y-la-justicia-avanzara-con-las-pericias/)`,
+    date: '2026-07-30',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&h=630&fit=crop',
+    imageCaption: 'El helicóptero se estrelló mientras combatía incendios forestales en San Juan. Foto: NA',
+    categoryEs: 'Policiales',
+    categoryEn: 'Crime & Police',
+    enableComments: true,
+    featured: true,
+    views: 6,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/policiales/2026/07/30/tragedia-en-san-juan-rescataron-los-cuerpos-de-las-siete-victimas-y-la-justicia-avanzara-con-las-pericias/'
+  },
+  {
+    id: '131',
+    contentType: 'news',
+    slug: 'uefa-boicot-fifa-privatizacion-mundial',
+    titleEs: 'Bomba en el fútbol mundial: la UEFA anunció que dejará de participar en competencias de la FIFA',
+    titleEn: 'Bomb in world football: UEFA announces it will stop participating in FIFA competitions',
+    excerptEs: 'La UEFA rompió con la FIFA por el plan de Infantino de incorporar inversores privados al Mundial. Concacaf se alineó con la postura europea y el fútbol global enfrenta una crisis sin precedentes.',
+    excerptEn: 'UEFA breaks with FIFA over Infantino\'s plan to bring private investors into the World Cup. Concacaf aligns with the European stance, facing global football with an unprecedented crisis.',
+    contentEs: `### Terremoto institucional: la UEFA se retira de los torneos de la FIFA
+
+En una decisión histórica, la **UEFA** anunció que **no participará más en las competencias organizadas por la FIFA**, en respuesta al proyecto del presidente Gianni Infantino de permitir el ingreso de **inversores privados** en los torneos internacionales, incluido el **Mundial**.
+
+#### El origen del conflicto
+
+La medida de la entidad europea se produjo después de que Infantino impulsara un plan para que **fondos de inversión privados** adquieran derechos sobre las competiciones de la FIFA, una movida que la UEFA considera una **privatización de facto** del fútbol de selecciones.
+
+La **Concacaf** (Confederación de Norteamérica, Centroamérica y el Caribe) se alineó con la UEFA y también rechazó el plan, sumando presión sobre Infantino.
+
+#### Competencias afectadas
+
+El boicot de la UEFA afectaría a torneos como:
+- La **Copa Mundial de la FIFA**
+- El **Mundial de Clubes**
+- Los **Mundiales Juveniles**
+- La **Copa Mundial Femenina**
+
+#### La postura de Infantino
+
+El presidente de la FIFA defendió su proyecto argumentando que la inversión privada es necesaria para **modernizar las competiciones** y generar mayores ingresos para el desarrollo del fútbol global. Sin embargo, la UEFA sostiene que esta medida **compromete la independencia** del fútbol y lo somete a intereses comerciales ajenos al deporte.
+
+> "Es un día negro para el fútbol mundial. La decisión de la UEFA de retirarse de las competencias de la FIFA representa una crisis institucional sin precedentes".
+
+#### Implicancias para el fútbol sudamericano
+
+La **Conmebol** aún no se ha pronunciado oficialmente, pero su posición será clave para definir el futuro del conflicto. De sumarse a la postura europea, la FIFA quedaría al borde del colapso institucional.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/deportes/futbol/2026/07/30/bomba-en-el-futbol-mundial-la-uefa-anuncio-que-no-participara-en-las-competencias-de-la-fifa/)`,
+    contentEn: `### Institutional earthquake: UEFA withdraws from FIFA tournaments
+
+In a historic decision, UEFA announced it will no longer participate in FIFA-organized competitions, responding to Gianni Infantino's plan to allow private investors into international tournaments, including the World Cup.
+
+Concacaf aligned with the European stance, pressuring Infantino. The boycott would affect the World Cup, Club World Cup, Youth World Cups, and Women's World Cup. Conmebol's position will be crucial in defining the conflict's outcome.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/deportes/futbol/2026/07/30/bomba-en-el-futbol-mundial-la-uefa-anuncio-que-no-participara-en-las-competencias-de-la-fifa/)`,
+    date: '2026-07-30',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&h=630&fit=crop',
+    imageCaption: 'La UEFA anunció su retiro de las competencias de la FIFA. Foto: AP',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: true,
+    views: 7,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/deportes/futbol/2026/07/30/bomba-en-el-futbol-mundial-la-uefa-anuncio-que-no-participara-en-las-competencias-de-la-fifa/'
+  },
+  {
+    id: '132',
+    contentType: 'news',
+    slug: 'bonistas-default-2001-cierre-causa-argentina',
+    titleEs: 'Los bonistas del default de 2001 pidieron cerrar la causa contra Argentina tras cobrar más de US$100 millones',
+    titleEn: 'Default 2001 bondholders request to close case against Argentina after collecting over US$100 million',
+    excerptEs: 'Un grupo de bonistas que demandó a Argentina por el default de 2001 solicitó el cierre de la causa tras haber cobrado más de 100 millones de dólares. El caso lleva más de dos décadas en los tribunales de EE.UU.',
+    excerptEn: 'A group of bondholders who sued Argentina over the 2001 default requested to close the case after collecting over US$100 million. The case has been in US courts for over two decades.',
+    contentEs: `### Fin de un capítulo histórico: los bonistas del default 2001 piden cerrar la causa
+
+Un grupo de **bonistas** que mantuvo un litigio contra la **Argentina** por el **default de 2001** solicitó ante la justicia de **Estados Unidos** el cierre definitivo de la causa, después de haber cobrado más de **US$100 millones** en concepto de compensación.
+
+#### Más de dos décadas de litigio
+
+La causa se inició hace más de **25 años**, cuando Argentina declaró el mayor default soberano de la historia hasta ese momento, por unos **US$100.000 millones**. Los bonistas que no ingresaron a los canjes de deuda de 2005 y 2010 continuaron el litigio en los tribunales de Nueva York.
+
+#### Un precedente para los juicios contra el país
+
+El cierre de esta causa representa un **alivio para Argentina** en el frente judicial externo. El país enfrenta aún varios procesos en tribunales estadounidenses, pero la resolución de este caso podría sentar un precedente favorable para la defensa argentina en litigios similares.
+
+> "Este acuerdo demuestra que Argentina honra sus compromisos cuando existen condiciones razonables", señalaron fuentes del Ministerio de Economía.
+
+#### Contexto económico
+
+El cierre de la causa se da en un momento en que Argentina busca **recuperar el acceso a los mercados internacionales de crédito** y mejorar su perfil ante los inversores globales. La resolución de litigios heredados del default es un paso clave en ese proceso.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/economia/2026/07/30/los-bonistas-del-default-de-2001-pidieron-cerrar-la-causa-contra-la-argentina-tras-haber-cobrado-mas-de-us100-millones/)`,
+    contentEn: `### End of a historic chapter: default bondholders request case closure
+
+A group of bondholders who sued Argentina over the 2001 default requested the definitive closure of the case in US courts after collecting over US$100 million in compensation. The litigation lasted over 25 years.
+
+The case resolution represents relief for Argentina in its external judicial front, as it seeks to regain access to international credit markets.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/economia/2026/07/30/los-bonistas-del-default-de-2001-pidieron-cerrar-la-causa-contra-la-argentina-tras-haber-cobrado-mas-de-us100-millones/)`,
+    date: '2026-07-30',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop',
+    imageCaption: 'Los bonistas cobraron más de US$100 millones tras el default de 2001. Foto: Andrew Kelly/Reuters',
+    categoryEs: 'Economía',
+    categoryEn: 'Economy',
+    enableComments: true,
+    featured: true,
+    views: 4,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/economia/2026/07/30/los-bonistas-del-default-de-2001-pidieron-cerrar-la-causa-contra-la-argentina-tras-haber-cobrado-mas-de-us100-millones/'
+  },
+  {
+    id: '133',
+    contentType: 'news',
+    slug: 'joven-argentina-encontrada-muerta-punta-este',
+    titleEs: 'Quién era la joven argentina de 18 años encontrada muerta en una playa de Punta del Este',
+    titleEn: 'Who was the 18-year-old Argentine girl found dead on a Punta del Este beach',
+    excerptEs: 'La joven cordobesa cursaba el primer año de la facultad y había viajado a Uruguay. Su familia espera los resultados de la autopsia para esclarecer las circunstancias de su muerte.',
+    excerptEn: 'The young woman from Córdoba was in her first year of college and had traveled to Uruguay. Her family awaits autopsy results to clarify the circumstances of her death.',
+    contentEs: `### Conmoción en Córdoba: hallan muerta a una joven argentina de 18 años en Punta del Este
+
+Una **joven argentina de 18 años**, oriunda de la provincia de **Córdoba**, fue encontrada **sin vida** en una **playa de Punta del Este**, Uruguay. La noticia causó conmoción tanto en su ciudad natal como en la comunidad argentina que veranea en la costa uruguaya.
+
+#### Su historia
+
+La víctima cursaba el **primer año de la facultad** y había viajado a Uruguay hacía pocos días. Descripciones de familiares y amigos la retratan como una **joven estudiosa y llena de sueños**, que había viajado para disfrutar de unas breves vacaciones.
+
+Las autoridades **uruguayas** investigan las circunstancias del fallecimiento. La **autopsia** determinará la causa de muerte, mientras la familia espera los resultados para iniciar los trámites de repatriación del cuerpo.
+
+#### Investigación en curso
+
+La **Justicia uruguaya** trabaja en conjunto con la **Policía** local para reconstruir las últimas horas de la joven. Hasta el momento no se descarta ninguna hipótesis, aunque fuentes judiciales señalaron que no hay indicios de participación de terceras personas.
+
+> "Era una chica con toda una vida por delante. Todavía no podemos creer lo que pasó", expresaron sus familiares a la prensa cordobesa.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/policiales/2026/07/30/quien-era-la-joven-argentina-de-18-anos-que-fue-encontrada-muerta-en-una-playa-de-punta-del-este/)`,
+    contentEn: `### Shock in Córdoba: Argentine teen found dead on Punta del Este beach
+
+An 18-year-old Argentine woman from Córdoba was found dead on a Punta del Este beach in Uruguay. She was in her first year of college and had traveled for a short vacation.
+
+Uruguayan authorities are investigating the circumstances. The autopsy will determine the cause of death. No third-party involvement is suspected at this time.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/policiales/2026/07/30/quien-era-la-joven-argentina-de-18-anos-que-fue-encontrada-muerta-en-una-playa-de-punta-del-este/)`,
+    date: '2026-07-30',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=630&fit=crop',
+    imageCaption: 'La joven fue encontrada sin vida en una playa de Punta del Este. Foto: gentileza Revista Gente',
+    categoryEs: 'Policiales',
+    categoryEn: 'Crime & Police',
+    enableComments: true,
+    featured: true,
+    views: 8,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/policiales/2026/07/30/quien-era-la-joven-argentina-de-18-anos-que-fue-encontrada-muerta-en-una-playa-de-punta-del-este/'
+  },
+  {
+    id: '134',
+    contentType: 'news',
+    slug: 'irrupcion-migrantes-ceuta-emergencia',
+    titleEs: 'Emergencia migratoria en Ceuta: miles de migrantes marroquíes irrumpieron y murieron 9 personas',
+    titleEn: 'Migration emergency in Ceuta: thousands of Moroccan migrants storm in, 9 dead',
+    excerptEs: 'La ciudad española de Ceuta pidió cerrar la frontera con Marruecos tras la llegada masiva de migrantes. Nueve personas murieron en el intento de ingresar al enclave europeo en el norte de África.',
+    excerptEn: 'The Spanish city of Ceuta requested closing the border with Morocco after a massive influx of migrants. Nine people died trying to enter the European enclave in North Africa.',
+    contentEs: `### Crisis en Ceuta: miles de migrantes intentan ingresar al enclave español
+
+La ciudad autónoma española de **Ceuta**, ubicada en el norte de África, vive una **emergencia migratoria** sin precedentes luego de que **miles de migrantes marroquíes** irrumpieran masivamente en el enclave. Al menos **nueve personas murieron** en el intento.
+
+#### Así fue la irrupción
+
+Cientos de personas lograron superar las **vallas fronterizas** que separan Marruecos de Ceuta en un operativo que las autoridades describieron como "coordinado y violento". Los migrantes, en su mayoría jóvenes, rompieron los sistemas de seguridad y se lanzaron hacia el interior del territorio español.
+
+#### Reacción de las autoridades
+
+El gobierno de la ciudad pidió el **cierre inmediato de la frontera** con Marruecos y solicitó refuerzos a las fuerzas de seguridad españolas.
+
+> "No se puede soportar una situación tan crítica. Necesitamos una respuesta urgente del gobierno central", advirtieron las autoridades locales.
+
+#### Contexto geopolítico
+
+Ceuta es uno de los dos **enclaves españoles en territorio marroquí** (junto con Melilla) y ha sido históricamente un punto de tensión diplomática entre **España y Marruecos**. Marruecos reclama la soberanía de ambos territorios, mientras que España sostiene que son parte integrante de su territorio nacional.
+
+La crisis migratoria se produce en un momento de **tensión diplomática** entre ambos países, lo que complica aún más la búsqueda de una solución coordinada.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/internacional/2026/07/30/irrupcion-de-migrantes-marroquies-en-ceuta-el-territorio-espanol-en-africa-no-se-puede-soportar-una-situacion-tan-critica/)`,
+    contentEn: `### Migration crisis in Ceuta: thousands storm Spanish enclave
+
+The Spanish city of Ceuta in North Africa faces an unprecedented migration emergency after thousands of Moroccan migrants stormed the border fences. At least nine people died in the attempt.
+
+Local authorities requested the immediate border closure with Morocco and reinforcements from the central government. The crisis occurs amid diplomatic tensions between Spain and Morocco.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/internacional/2026/07/30/irrupcion-de-migrantes-marroquies-en-ceuta-el-territorio-espanol-en-africa-no-se-puede-soportar-una-situacion-tan-critica/)`,
+    date: '2026-07-30',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=1200&h=630&fit=crop',
+    imageCaption: 'Migrantes marroquíes irrumpieron en el enclave español de Ceuta. Foto: AP',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 5,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/internacional/2026/07/30/irrupcion-de-migrantes-marroquies-en-ceuta-el-territorio-espanol-en-africa-no-se-puede-soportar-una-situacion-tan-critica/'
+  },
+  {
+    id: '135',
+    contentType: 'news',
+    slug: 'lula-milei-payasada-mercosur',
+    titleEs: 'Lula explotó contra Milei: "¿Ustedes vieron la payasada que hizo aquí?"',
+    titleEn: 'Lula explodes at Milei: "Did you see the clown show he put on here?"',
+    excerptEs: 'El presidente de Brasil respondió con dureza a los insultos de Javier Milei durante la cumbre del MERCOSUR. La Cancillería argentina busca bajar la tensión diplomática.',
+    excerptEn: 'Brazil\'s president responded harshly to Javier Milei\'s insults during the MERCOSUR summit. Argentina\'s Foreign Ministry seeks to de-escalate diplomatic tensions.',
+    contentEs: `### Escalada verbal entre Lula y Milei: "Ustedes vieron la payasada que hizo aquí"
+
+La tensión diplomática entre **Argentina y Brasil** escaló un nuevo escalón luego de que el presidente **Luiz Inácio Lula da Silva** respondiera con dureza a los **insultos de Javier Milei** durante la reciente cumbre del **MERCOSUR**.
+
+#### La frase que desató la polémica
+
+"¿Ustedes vieron la **payasada** que hizo aquí?", preguntó Lula a la prensa brasileña, en clara referencia a las declaraciones de Milei durante el encuentro regional. El mandatario argentino había lanzado críticas contra Lula y su gobierno, en lo que muchos analistas calificaron como una **ruptura del protocolo diplomático**.
+
+#### Gesto de distensión
+
+Paralelamente, el gobierno argentino anunció el **regreso del embajador en Brasil** como un gesto de distensión. La **Cancillería** ve el movimiento como una señal de que ambas naciones buscan contener el conflicto antes de que afecte las relaciones comerciales y políticas bilaterales.
+
+> "El regreso del embajador es un gesto de buena voluntad. Entendemos que hay diferencias ideológicas, pero la relación con Brasil es estratégica para Argentina", señalaron desde Cancillería.
+
+#### Impacto en la región
+
+El conflicto entre los dos principales socios del **MERCOSUR** genera preocupación en el resto de los países miembros, que temen que las diferencias personales entre los mandatarios terminen afectando la integración regional y los acuerdos comerciales en curso.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/internacional/2026/07/30/nueva-reaccion-de-lula-tras-los-insultos-de-milei-ustedes-vieron-la-payasada-que-hizo-aqui/)`,
+    contentEn: `### Lula vs Milei: diplomatic tension escalates after personal insults
+
+Brazil's Lula harshly responded to Javier Milei's insults during the MERCOSUR summit, calling his behavior a "clown show." Argentina's Foreign Ministry seeks to de-escalate by returning its ambassador to Brazil.
+
+The conflict between the two main MERCOSUR partners worries other member countries about the impact on regional integration.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/internacional/2026/07/30/nueva-reaccion-de-lula-tras-los-insultos-de-milei-ustedes-vieron-la-payasada-que-hizo-aqui/)`,
+    date: '2026-07-30',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop',
+    imageCaption: 'Lula respondió con dureza a los insultos de Milei en el MERCOSUR. Foto: AFP/Luis Robayo',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 9,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/internacional/2026/07/30/nueva-reaccion-de-lula-tras-los-insultos-de-milei-ustedes-vieron-la-payasada-que-hizo-aqui/'
+  },
+  {
+    id: '136',
+    contentType: 'news',
+    slug: 'caso-loan-juicio-gritos-acusaciones',
+    titleEs: 'Caso Loan: gritos, acusaciones y un cuarto intermedio en el juicio por la desaparición del niño',
+    titleEn: 'Loan case: shouts, accusations and a recess in the trial for the boy\'s disappearance',
+    excerptEs: 'La audiencia tuvo un fuerte cruce entre los defensores y el fiscal. Un testigo clave no se presentó y la Justicia postergó una definición sobre los principales acusados.',
+    excerptEn: 'The hearing featured a heated clash between defense lawyers and the prosecutor. A key witness failed to appear, postponing a decision on the main defendants.',
+    contentEs: `### Jornada tensa en el juicio por la desaparición de Loan
+
+El juicio por la **desaparición de Loan**, el niño de cinco años cuyo caso conmocionó a la Argentina, vivió una jornada marcada por la **tensión** y los **cruces** entre las partes. Gritos, acusaciones y un cuarto intermedio marcaron la audiencia de este jueves.
+
+#### Cruce entre defensores y fiscal
+
+La sesión comenzó con un **intercambio acalorado** entre los abogados defensores de los imputados y el **fiscal del caso**. Los defensores acusaron al Ministerio Público de "conducir una investigación sesgada", mientras que el fiscal respondió señalando "maniobras dilatorias" por parte de la defensa.
+
+#### Testigo clave ausente
+
+Uno de los momentos más críticos fue la **inasistencia de un testigo clave**, cuya declaración era esperada para definir la situación procesal de los principales acusados. La ausencia obligó a la Justicia a **postergar una definición** que podría haber acelerado la investigación.
+
+> "La ausencia de este testigo no hará más que retrasar el esclarecimiento de la verdad", advirtió el fiscal ante el tribunal.
+
+#### El caso que conmueve al país
+
+Loan desapareció en la provincia de **Corrientes** y su caso generó una **movilización nacional** con pedidos de aparición y justicia. La investigación involucra a múltiples imputados y ha revelado una compleja trama que incluye hipótesis de **trata de personas** y **encubrimiento**.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/policiales/2026/07/30/gritos-acusaciones-y-un-cuarto-intermedio-fuerte-cruce-entre-los-defensores-y-el-fiscal-del-juicio-por-la-desaparicion-de-loan/)`,
+    contentEn: `### Tense day in Loan disappearance trial
+
+The trial for Loan's disappearance, the five-year-old boy whose case shocked Argentina, saw a heated session with clashes between defense lawyers and the prosecutor. A key witness failed to appear, forcing a postponement.
+
+Loan disappeared in Corrientes province, sparking national mobilization. The investigation involves multiple defendants and hypotheses of human trafficking and cover-up.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/policiales/2026/07/30/gritos-acusaciones-y-un-cuarto-intermedio-fuerte-cruce-entre-los-defensores-y-el-fiscal-del-juicio-por-la-desaparicion-de-loan/)`,
+    date: '2026-07-30',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop',
+    imageCaption: 'El juicio por la desaparición de Loan tuvo una jornada de alta tensión. Foto: TN',
+    categoryEs: 'Policiales',
+    categoryEn: 'Crime & Police',
+    enableComments: true,
+    featured: true,
+    views: 10,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/policiales/2026/07/30/gritos-acusaciones-y-un-cuarto-intermedio-fuerte-cruce-entre-los-defensores-y-el-fiscal-del-juicio-por-la-desaparicion-de-loan/'
+  },
+  {
+    id: '137',
+    contentType: 'news',
+    slug: 'gobierno-cierra-coro-nacional-ninos',
+    titleEs: 'El Gobierno cerró por decreto el Coro Nacional de Niños: tenía 60 años de historia',
+    titleEn: 'Government dissolves National Children\'s Choir by decree: 60 years of history',
+    excerptEs: 'El Coro Nacional de Niños, una institución con seis décadas de trayectoria, fue disuelto y derivado a un nuevo programa formativo. La medida generó polémica en el ámbito cultural.',
+    excerptEn: 'The National Children\'s Choir, an institution with six decades of history, was dissolved and transferred to a new training program. The measure sparked controversy in cultural circles.',
+    contentEs: `### Polémica cultural: el Gobierno disolvió el Coro Nacional de Niños por decreto
+
+El **Gobierno nacional** dispuso mediante decreto el **cierre del Coro Nacional de Niños**, una institución con más de **60 años de trayectoria** ininterrumpida en la cultura argentina. El coro fue derivado a un **nuevo programa formativo**, lo que generó un fuerte rechazo en el ámbito artístico y educativo.
+
+#### Historia y legado
+
+Fundado hace seis décadas, el Coro Nacional de Niños era una de las **instituciones corales más antiguas del país**, con veinte cantantes en su formación actual. A lo largo de su historia, había participado en **presentaciones en los teatros más importantes de Argentina** y había sido semillero de numerosos músicos y directores.
+
+#### Los argumentos del Gobierno
+
+Según fuentes oficiales, la medida responde a una **reestructuración administrativa** y a la necesidad de "optimizar recursos" en el ámbito cultural. El coro pasará a formar parte de un programa formativo más amplio, aunque los detalles de la transición no fueron especificados.
+
+#### Reacciones
+
+La decisión generó **crticas de artistas, educadores y legisladores** de la oposición, que calificaron la medida como "un ataque a la cultura nacional".
+
+> "Cerrar una institución con 60 años de historia no es optimizar recursos, es destruir patrimonio cultural", sostuvo un reconocido director de orquesta.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/cultura/2026/07/30/el-gobierno-cerro-por-decreto-el-coro-nacional-de-ninos-y-lo-derivo-a-un-nuevo-programa-formativo/)`,
+    contentEn: `### Controversy: Government dissolves National Children's Choir by decree
+
+The National Government ordered the closure of the National Children's Choir, an institution with over 60 years of uninterrupted history in Argentine culture. The choir was transferred to a new training program, generating strong rejection from artists and educators.
+
+Officials cite administrative restructuring, while critics call it "an attack on national culture."
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/cultura/2026/07/30/el-gobierno-cerro-por-decreto-el-coro-nacional-de-ninos-y-lo-derivo-a-un-nuevo-programa-formativo/)`,
+    date: '2026-07-30',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?w=1200&h=630&fit=crop',
+    imageCaption: 'El Coro Nacional de Niños tenía 60 años de trayectoria. Foto: Museo Casa Rosada',
+    categoryEs: 'Cultura',
+    categoryEn: 'Culture',
+    enableComments: true,
+    featured: true,
+    views: 3,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/cultura/2026/07/30/el-gobierno-cerro-por-decreto-el-coro-nacional-de-ninos-y-lo-derivo-a-un-nuevo-programa-formativo/'
+  },
+  {
+    id: '138',
+    contentType: 'news',
+    slug: 'kristalina-georgieva-baila-tango-argentina',
+    titleEs: 'Video: Kristalina Georgieva sorprendió al bailar tango durante su visita a la Argentina',
+    titleEn: 'Video: Kristalina Georgieva surprises by dancing tango during her visit to Argentina',
+    excerptEs: 'La directora del Fondo Monetario Internacional se animó a bailar tango con una reconocida artista argentina, en un momento distendido en medio de su agenda oficial en el país.',
+    excerptEn: 'The IMF Managing Director dared to dance tango with a renowned Argentine artist in a relaxed moment during her official visit to the country.',
+    contentEs: `### Georgieva sorprende bailando tango en su visita a la Argentina
+
+La directora gerente del **Fondo Monetario Internacional (FMI)** , **Kristalina Georgieva**, protagonizó un **momento inesperado** durante su visita a la Argentina al animarse a **bailar tango** junto a una reconocida artista local.
+
+#### El momento viral
+
+El video, que rápidamente se volvió **viral en redes sociales**, muestra a Georgieva sonriente mientras intenta seguir los pasos de tango guiada por la artista. El momento distendido contrastó con la **agenda oficial** de la funcionaria, que incluyó reuniones con el presidente Javier Milei y el ministro de Economía para discutir el programa de financiamiento del organismo.
+
+#### Señal de distensión
+
+El gesto fue interpretado por analistas como una **señal positiva** en la relación entre Argentina y el FMI, en un momento en que el país negocia la **reestructuración de su deuda** con el organismo multilateral.
+
+> "Cuando la música y la cultura nos unen, hasta las negociaciones más difíciles encuentran un respiro", comentaron desde la comitiva oficial.
+
+#### Impacto en redes
+
+El video acumuló **miles de reproducciones** en cuestión de horas, con comentarios que van desde el humor hasta el análisis político. Algunos usuarios destacaron la "humanidad" de la funcionaria, mientras que otros ironizaron sobre el momento.
+
+**Con información de:** [TN — Todo Noticias](https://tn.com.ar/economia/2026/07/30/video-kristalina-georgieva-sorprendio-al-bailar-tango-con-una-reconocida-artista-durante-su-visita-en-la-argentina/)`,
+    contentEn: `### Georgieva surprises by dancing tango during Argentina visit
+
+IMF Managing Director Kristalina Georgieva surprised everyone by dancing tango with a renowned Argentine artist during her official visit. The viral moment was seen as a positive signal in Argentina's relationship with the IMF amid debt restructuring negotiations.
+
+**Source:** [TN — Todo Noticias](https://tn.com.ar/economia/2026/07/30/video-kristalina-georgieva-sorprendio-al-bailar-tango-con-una-reconocida-artista-durante-su-visita-en-la-argentina/)`,
+    date: '2026-07-30',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1200&h=630&fit=crop',
+    imageCaption: 'Kristalina Georgieva bailó tango durante su visita a la Argentina. Foto: TN',
+    categoryEs: 'Economía',
+    categoryEn: 'Economy',
+    enableComments: true,
+    featured: true,
+    views: 6,
+    source: 'TN — Todo Noticias',
+    sourceUrl: 'https://tn.com.ar/economia/2026/07/30/video-kristalina-georgieva-sorprendio-al-bailar-tango-con-una-reconocida-artista-durante-su-visita-en-la-argentina/'
+  },
+      // ============================================================
       // FIN DE NOTICIAS
     ];
 

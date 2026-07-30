@@ -3,7 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+
+let swRegistrationAttempted = false;
 
 /**
  * Hook para registrar y gestionar el Service Worker
@@ -12,9 +14,9 @@ export function useServiceWorker() {
   const [isOnline, setIsOnline] = useState(true);
   const [showUpdatePrompt, setShowUpdatePrompt] = useState(false);
   const [waitingWorker, setWaitingWorker] = useState<ServiceWorker | null>(null);
+  const registrando = useRef(false);
 
   useEffect(() => {
-    // Check online status
     const handleOnline = () => setIsOnline(true);
     const handleOffline = () => setIsOnline(false);
 
@@ -28,48 +30,47 @@ export function useServiceWorker() {
   }, []);
 
   useEffect(() => {
-    // Solo registrar en producción
     if (import.meta.env.DEV) return;
+    if (!('serviceWorker' in navigator)) return;
+    if (registrando.current || swRegistrationAttempted) return;
+    registrando.current = true;
+    swRegistrationAttempted = true;
 
-    if ('serviceWorker' in navigator) {
-      // Registrar el service worker
-      navigator.serviceWorker
-        .register('/sw.js')
-        .then((registration) => {
-          console.log('[SW] Service Worker registrado:', registration.scope);
+    (async () => {
+      try {
+        const registration = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+        console.log('[SW] Service Worker registrado:', registration.scope);
 
-          // Check for updates
-          registration.addEventListener('updatefound', () => {
-            const newWorker = registration.installing;
-
-            if (newWorker) {
-              newWorker.addEventListener('statechange', () => {
-                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // Hay una nueva versión disponible
-                  setWaitingWorker(newWorker);
-                  setShowUpdatePrompt(true);
-                }
-              });
-            }
-          });
-        })
-        .catch((error) => {
-          console.error('[SW] Falló registro:', error);
+        registration.addEventListener('updatefound', () => {
+          const newWorker = registration.installing;
+          if (newWorker) {
+            newWorker.addEventListener('statechange', () => {
+              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                setWaitingWorker(newWorker);
+                setShowUpdatePrompt(true);
+              }
+            });
+          }
         });
-
-      // Refresh cuando hay una nueva versión
-      navigator.serviceWorker.addEventListener('controllerchange', () => {
-        window.location.reload();
-      });
-
-      // Escuchar mensajes del SW (ej: stale HTML detectado)
-      navigator.serviceWorker.addEventListener('message', (event) => {
-        if (event.data?.type === 'STALE_HTML') {
-          console.warn('[SW] HTML desactualizado detectado, recargando...');
-          window.location.reload();
+      } catch (error: unknown) {
+        const errMsg = error instanceof Error ? error.message : String(error);
+        console.error('[SW] Falló registro:', errMsg);
+        if (error instanceof Error && error.name !== 'Error') {
+          console.error('[SW] Detalles:', { name: error.name, message: error.message, stack: error.stack?.slice(0, 500) });
         }
-      });
-    }
+      }
+    })();
+
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      window.location.reload();
+    });
+
+    navigator.serviceWorker.addEventListener('message', (event) => {
+      if (event.data?.type === 'STALE_HTML') {
+        console.warn('[SW] HTML desactualizado detectado, recargando...');
+        window.location.reload();
+      }
+    });
   }, []);
 
   const updateServiceWorker = () => {

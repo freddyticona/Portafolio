@@ -175,42 +175,6 @@ export function generateAboutStructuredData(): object {
 }
 
 /**
- * Videos de YouTube del portafolio
- */
-const YOUTUBE_VIDEOS = [
-  {
-    '@type': 'VideoObject',
-    '@id': `${BASE_URL}/#video-urkupina`,
-    name: 'Urkupiña: Fé, Folclore y Devoción - Documental Cultural',
-    description: 'Documental sobre la fiesta de la Virgen de Urkupiña en Quillacollo, Cochabamba. Cobertura del folclore boliviano, procesiones y devoción popular.',
-    thumbnailUrl: `${BASE_URL}/images/freddy_working.webp`,
-    uploadDate: '2026-07-20',
-    duration: 'PT300S',
-    contentUrl: 'https://www.youtube.com/watch?v=UmimDWaK61I',
-    embedUrl: 'https://www.youtube.com/embed/UmimDWaK61I',
-    inLanguage: 'es',
-    regionsAllowed: 'BO',
-    genre: 'Documental',
-    keywords: 'documental, Urkupiña, folclore boliviano, cultura, Cochabamba'
-  },
-  {
-    '@type': 'VideoObject',
-    '@id': `${BASE_URL}/#video-elecciones`,
-    name: 'Elecciones Generales en Bolivia - Cobertura Periodística',
-    description: 'Cobertura periodística de las elecciones generales en Bolivia. Transmisión en vivo, análisis y entrevistas con actores políticos.',
-    thumbnailUrl: `${BASE_URL}/images/freddy_studio.webp`,
-    uploadDate: '2026-07-20',
-    duration: 'PT240S',
-    contentUrl: 'https://www.youtube.com/watch?v=INagReojtOM',
-    embedUrl: 'https://www.youtube.com/embed/INagReojtOM',
-    inLanguage: 'es',
-    regionsAllowed: 'BO',
-    genre: 'Periodismo',
-    keywords: 'elecciones, Bolivia, periodismo, cobertura política, televisión'
-  }
-];
-
-/**
  * Genera structured data para la página de Portafolio
  */
 export function generatePortfolioStructuredData(projects: Array<{name: string, description: string, url: string}> = []): object {
@@ -240,7 +204,6 @@ export function generatePortfolioStructuredData(projects: Array<{name: string, d
         url: `${BASE_URL}/#portafolio`,
         about: portfolioItems
       },
-      ...YOUTUBE_VIDEOS,
       {
         '@type': 'BreadcrumbList',
         itemListElement: [

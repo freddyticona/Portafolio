@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/cuanto-vale-tu-outfit-velada-6-ibai</loc>
+    <loc>https://freddydev.net/noticias/dnu-milei-expulsar-extranjeros-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,13 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>¿Cuánto vale tu outfit? La Velada del Año 6: derroche y lujo en la alfombra roja de La Cartuja</news:title>
-      <news:keywords>Streaming</news:keywords>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Milei firmó un DNU para expulsar extranjeros que &quot;expresen odio&quot; contra Argentina</news:title>
+      <news:keywords>Política</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/outfits-velada-6-desglose-completo-influencers</loc>
+    <loc>https://freddydev.net/noticias/tragedia-helicoptero-san-juan-siete-victimas</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>De AuronPlay a Luzu: el desglose completo de todos los outfits de la Velada del Año 6</news:title>
-      <news:keywords>Streaming</news:keywords>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Tragedia en San Juan: rescataron los cuerpos de las siete víctimas del helicóptero</news:title>
+      <news:keywords>Policiales</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/ranking-historico-outfits-velada-del-ano</loc>
+    <loc>https://freddydev.net/noticias/uefa-boicot-fifa-privatizacion-mundial</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -39,9 +39,107 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>Ranking histórico: los outfits más caros de todas las Veladas del Año</news:title>
-      <news:keywords>Streaming</news:keywords>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Bomba en el fútbol mundial: la UEFA anunció que dejará de participar en competencias de la FIFA</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/bonistas-default-2001-cierre-causa-argentina</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Los bonistas del default de 2001 pidieron cerrar la causa contra Argentina tras cobrar más de US$100 millones</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/joven-argentina-encontrada-muerta-punta-este</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Quién era la joven argentina de 18 años encontrada muerta en una playa de Punta del Este</news:title>
+      <news:keywords>Policiales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/irrupcion-migrantes-ceuta-emergencia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Emergencia migratoria en Ceuta: miles de migrantes marroquíes irrumpieron y murieron 9 personas</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/lula-milei-payasada-mercosur</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Lula explotó contra Milei: &quot;¿Ustedes vieron la payasada que hizo aquí?&quot;</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/caso-loan-juicio-gritos-acusaciones</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Caso Loan: gritos, acusaciones y un cuarto intermedio en el juicio por la desaparición del niño</news:title>
+      <news:keywords>Policiales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/gobierno-cierra-coro-nacional-ninos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>El Gobierno cerró por decreto el Coro Nacional de Niños: tenía 60 años de historia</news:title>
+      <news:keywords>Cultura</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/kristalina-georgieva-baila-tango-argentina</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30</news:publication_date>
+      <news:title>Video: Kristalina Georgieva sorprendió al bailar tango durante su visita a la Argentina</news:title>
+      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
 </urlset>
