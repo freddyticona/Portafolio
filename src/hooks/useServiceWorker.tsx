@@ -61,7 +61,15 @@ export function useServiceWorker() {
       }
     })();
 
+    // Solo recargar cuando la página YA estaba controlada por un SW (actualización).
+    // En la primera visita (install + clients.claim) no hay que recargar: evitamos
+    // una doble carga de la página y los tests e2e que leen el DOM justo después.
+    const wasControlled = !!navigator.serviceWorker.controller;
+    let refreshing = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!wasControlled) return;
+      if (refreshing) return;
+      refreshing = true;
       window.location.reload();
     });
 

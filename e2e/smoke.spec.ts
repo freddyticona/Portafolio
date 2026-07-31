@@ -24,9 +24,8 @@ test.describe('Smoke tests', () => {
   test('portfolio or services content exists', async ({ page }) => {
     await page.goto('/', { waitUntil: 'domcontentloaded' });
 
-    const pageContent = await page.content();
-    const hasContent = /portfolio|servicios|services|proyect|portafolio/i.test(pageContent);
-    expect(hasContent).toBeTruthy();
+    const body = page.locator('body');
+    await expect(body).toContainText(/portfolio|servicios|services|proyect|portafolio/i);
   });
 
   test('page loads on mobile viewport', async ({ page }) => {
