@@ -118,7 +118,7 @@ scripts/
 - Agregado artículo técnico (id 160, contentType analysis) sobre **SmartSub** (buxuku/SmartSub, MIT, 4k+ stars): pipeline completa de subtítulos con IA (descarga de video → transcripción → traducción → corrección → doblaje con clonación de voz → quemado de subtítulos)
 - Contenido: origen del proyecto, 7 motores ASR, 20 servicios de traducción, instalación paso a paso (Windows/macOS/Homebrew/Linux), flujo 100% gratuito, privacidad, GPU y casos de uso para creadores/medios — con imágenes del repo descargadas localmente en `public/images/blog/smartsub/`
 - Build: 160 páginas pre-renderizadas (159→160), 148 artículos (147→148)
-- **Commit**: pendiente
+- **Commit**: `cb6f9d7`
 
 ### Sesión 5 artículos crisis de Ceuta (julio 2026):
 - Agregados 5 artículos nuevos (ids 145-149) en `src/translations.ts`: 60.000 migrantes en Ceuta (France 24/AP), pacto España-Marruecos de devolución (Europa Press/EFE), Sánchez visita Ceuta + sentencia del Supremo + boyas en el mar (Expansión), emergencia nacional rechazada (ABC/Vozpópuli), papel de las redes sociales en la viralidad del cruce (Expansión)
