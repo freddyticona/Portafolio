@@ -6,7 +6,6 @@
 import React, { Suspense, lazy } from 'react';
 import { PageId } from '../types';
 import { TranslationT } from '../types.translation';
-import LinkedInBadge from '../components/LinkedInBadge';
 
 const ContactForm = lazy(() => import('../components/ContactForm'));
 const BookingSystem = lazy(() => import('../components/BookingSystem'));
@@ -41,18 +40,10 @@ export function ContactPage({ lang, t }: ContactPageProps) {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      <div className="flex justify-center">
         <Suspense fallback={<LoadingFallback />}>
           <ContactForm lang={lang} t={t} />
         </Suspense>
-
-        <div className="flex flex-col items-center gap-6 pt-4 lg:pt-0">
-          <LinkedInBadge
-            href="https://www.linkedin.com/in/freddyticonaguzman"
-            vanity="freddyticonaguzman"
-            name={lang === 'es' ? 'Freddy Ticona Guzmán' : 'Freddy Ticona Guzman'}
-          />
-        </div>
       </div>
 
       <div className="pb-8" />
