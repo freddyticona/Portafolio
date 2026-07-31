@@ -297,6 +297,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/smartsub-subtitulos-traduccion-doblaje-ia-open-source</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>SmartSub: la cadena completa de subtítulos, traducción y doblaje con IA en una sola app open source</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/dnu-milei-expulsar-extranjeros-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

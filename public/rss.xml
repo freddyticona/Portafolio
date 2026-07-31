@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Fri, 31 Jul 2026 20:03:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 20:20:51 GMT</lastBuildDate>
     <item>
       <title><![CDATA[Crisis migratoria en Ceuta: miles cruzan la frontera en una avalancha sin precedentes]]></title>
       <link>https://freddydev.net/noticias/crisis-migratoria-ceuta-avalancha-migrantes-marruecos</link>
@@ -155,6 +155,13 @@
       <link>https://freddydev.net/noticias/padre-tirador-georgia-condenado-15-anos</link>
       <guid isPermaLink="true">https://freddydev.net/noticias/padre-tirador-georgia-condenado-15-anos</guid>
       <description><![CDATA[Colin Gray fue condenado a 15 años de cárcel por regalar a su hijo de 14 años un fusil tipo AR-15 con el que mató a dos estudiantes y dos profesores en una escuela de Winder, Georgia, en 2024. Fue declarado culpable de homicidio en segundo grado.]]></description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[SmartSub: la cadena completa de subtítulos, traducción y doblaje con IA en una sola app open source]]></title>
+      <link>https://freddydev.net/noticias/smartsub-subtitulos-traduccion-doblaje-ia-open-source</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/smartsub-subtitulos-traduccion-doblaje-ia-open-source</guid>
+      <description><![CDATA[SmartSub es una aplicación de escritorio gratuita y multiplataforma que integra descarga de video, transcripción con modelos locales, traducción en 20 servicios, corrección, doblaje con clonación de voz y quemado de subtítulos. Guía técnica completa de instalación, configuración y casos de uso para creadores y medios.]]></description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>

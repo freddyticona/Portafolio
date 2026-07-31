@@ -9734,6 +9734,456 @@ El caso reavivó en Estados Unidos el **debate sobre el control de armas** y la 
     source: 'BBC, Democracy Now!, AP',
     sourceUrl: 'https://www.bbc.com/news/articles/c78g4y18rxgo'
   },
+  {
+    id: '160',
+    contentType: 'analysis',
+    slug: 'smartsub-subtitulos-traduccion-doblaje-ia-open-source',
+    titleEs: 'SmartSub: la cadena completa de subtítulos, traducción y doblaje con IA en una sola app open source',
+    titleEn: 'SmartSub: the complete subtitle, translation and AI dubbing pipeline in one open source app',
+    excerptEs: 'SmartSub es una aplicación de escritorio gratuita y multiplataforma que integra descarga de video, transcripción con modelos locales, traducción en 20 servicios, corrección, doblaje con clonación de voz y quemado de subtítulos. Guía técnica completa de instalación, configuración y casos de uso para creadores y medios.',
+    excerptEn: 'SmartSub is a free, cross-platform desktop app that integrates video download, local-model transcription, 20 translation services, proofreading, dubbing with voice cloning and subtitle burn-in. Complete technical guide: installation, configuration and use cases for creators and media.',
+    contentEs: `### SmartSub: la cadena completa de subtítulos, traducción y doblaje con IA en una sola app open source
+
+Para un realizador audiovisual, periodista o creador de contenido, uno de los cuellos de botella más frustrantes es el **trabajo con subtítulos y doblaje**. La transcripción, la traducción, la sincronización, las voces sintéticas y el quemado de subtítulos suelen vivir en herramientas separadas que exigen instalaciones complejas, API Keys de pago y horas de edición manual.
+
+**SmartSub** (妙幕) resuelve ese problema de raíz: es una aplicación de escritorio **open source, gratuita y multiplataforma** que integra toda la cadena —*voz a texto → traducción de subtítulos → corrección → doblaje con IA → quema/empaguetado de subtítulos*— en una sola interfaz. Incluye además un **descargador de videos en línea**: pegas un enlace de YouTube o Bilibili y la app trae el video por ti.
+
+Su propuesta es aún más atractiva para medios con presupuesto ajustado: **toda la cadena puede funcionar a costo cero**, con modelos locales que no requieren API Keys, sin límites de uso y con los archivos nunca saliendo de tu máquina.
+
+---
+
+### ¿De dónde viene el proyecto?
+
+SmartSub es desarrollado por **buxuku (Lin Xiaodong)** y su comunidad. El repositorio se publicó en **mayo de 2024** bajo **licencia MIT** y, en poco más de dos años, superó los **4.000 stars en GitHub**, con descargas para **Windows, macOS y Linux**.
+
+- **Repositorio:** github.com/buxuku/SmartSub
+- **Documentación oficial:** smartsub.linxiaodong.com
+- **Licencia:** MIT (código 100% abierto)
+- **Versión actual:** v3.6.0
+- **Stack:** TypeScript, Electron, React y Next.js — la misma arquitectura de aplicaciones de escritorio híbridas que usan VS Code o Slack.
+
+El proyecto aparece con frecuencia en listas de tendencias (Trendshift) dentro de la categoría de herramientas de productividad para creadores.
+
+---
+
+### La pipeline de 5 etapas (y una extra)
+
+Todo el flujo se divide en módulos independientes. Puedes usarlos por separado o encadenarlos en un lote automático:
+
+1. **Descargar** el video desde una URL en línea (extra).
+2. **Transcribir**: la voz se convierte en subtítulos con línea de tiempo.
+3. **Traducir**: los subtítulos se traducen a otros idiomas.
+4. **Corregir**: revisas línea por línea contra el video.
+5. **Doblar**: una voz sintética (o tu voz clonada) lee el contenido.
+6. **Sintetizar**: se queman los subtítulos en el video o se empaqueta la pista de audio.
+
+---
+
+### 1. Descarga de videos en línea
+
+Pega un enlace de **YouTube, Bilibili** u otras plataformas y la app descarga el video internamente:
+
+- Doble motor: **yt-dlp** (YouTube y más de 1.800 sitios) y **lux** (Bilibili, Douyin, Xiaohongshu y otras plataformas chinas), instalados y actualizados con un clic.
+- Soporta **descargas por lote**: un enlace por línea, con extracción automática de enlaces desde texto mixto.
+- Puede capturar los **subtítulos oficiales** de la plataforma (incluidos los autogenerados) y emparejarlos automáticamente — si hay subtítulos oficiales, no hay nada que transcribir.
+- Permite importar **cookies del navegador** (con extracción de un clic) para desbloquear resoluciones que requieren inicio de sesión. Las cookies nunca salen de tu máquina.
+
+![Interfaz de descarga de videos en línea](/images/blog/smartsub/home-en.png)
+
+---
+
+### 2. Generación de subtítulos (transcripción)
+
+SmartSub soporta **7 familias de motores de transcripción**, seleccionables por tarea:
+
+| Motor | Notas | Cómo se ejecuta |
+|---|---|---|
+| **whisper.cpp** (integrado) | Motor por defecto; modelos ggml cuantizados y aceleración GPU | Viene incluido, funciona de fábrica |
+| **faster-whisper** | Basado en CTranslate2, más rápido; modelos desde HuggingFace | Runtime Python autocontenido |
+| **FunASR** | Excelente para contenido en chino (zh/en/ja/ko/yue) | Librería nativa sherpa-onnx integrada |
+| **Qwen3-ASR** | Reconocimiento de voz de Qwen (qwen3-asr-0.6b) | sherpa-onnx integrado |
+| **FireRedASR** | FireRedASR-AED large (zh-en) | sherpa-onnx integrado |
+| **Whisper CLI local** | Llama a un comando compatible con Whisper que tú instales | Usa tu sistema |
+| **Cloud ASR (en línea)** | 8 proveedores, sin GPU; multi-proveedor | Servicio en la nube (opcional) |
+
+**Guía práctica para elegir modelo Whisper:**
+
+- Equipos básicos o GPU integrada: \`tiny\` / \`base\` (rápidos y livianos).
+- Computadoras típicas: \`small\` / \`base\` como equilibrio entre precisión y recursos.
+- GPUs potentes: la serie \`large\` para máxima precisión.
+- Contenido solo en inglés: usa variantes con sufijo \`en\`, optimizadas para inglés.
+- Poco espacio en disco: variantes cuantizadas \`q5\` / \`q8\` (menor tamaño a costa de un poco de precisión).
+
+---
+
+### 3. Traducción de subtítulos
+
+Ofrece **20 servicios de traducción**:
+
+- **Gratis integrados**: endpoints gratuitos de Bing/Google con fallback automático y limitación de tasa.
+- **Servicios de nube**: Baidu, Aliyun, Tencent, iFlytek, Volcengine, Doubao, NiuTrans, DeepLX, Azure y Google.
+- **Modelos de lenguaje grandes (LLM)**: Ollama (modelos locales), DeepSeek, Gemini, Qwen, SiliconFlow, Azure OpenAI y DeerAPI.
+- **Compatible con cualquier API estilo OpenAI**: trae tu propio endpoint.
+
+Permite salida **solo traducción o bilingüe** (original + traducción), parámetros personalizados por servicio configurados desde la interfaz (String, Float, Boolean, Array, Object, Integer) con validación en tiempo real, e importación/exportación para compartir configuraciones. La calidad de la traducción con IA depende del modelo y el prompt: conviene experimentar para encontrar la combinación ideal para tu contenido.
+
+---
+
+### 4. Corrección de subtítulos
+
+El editor integrado permite revisar **línea por línea, junto al video**:
+
+- Clic en una línea → el video salta a ese momento.
+- Deshacer/rehacer y **eliminación con restauración** (con copia de seguridad antes de sobrescribir).
+- **AI polish con un clic**: segmentación semántica con LLM que reagrupa líneas por significado manteniendo tiempos exactos, corrige homófonos, elimina muletillas y normaliza la puntuación.
+
+![Editor de corrección de subtítulos](/images/blog/smartsub/profread-en.png)
+
+---
+
+### 5. Doblaje TTS y clonación de voz
+
+El módulo de doblaje sintetiza voz línea por línea y **alinea automáticamente con el timeline**:
+
+- **Locales (offline y gratis):** Kokoro multilingüe (103 voces) y VITS chino (174 voces).
+- **Clonación de voz:** ZipVoice (clonación zero-shot local: con un clip de referencia y su transcripción basta), Volcengine Voice Cloning 2.0 y ElevenLabs instant cloning.
+- **Nube:** Edge TTS (gratis, sin clave), endpoints compatibles con OpenAI (OpenAI / SiliconFlow), Azure Speech (más de 700 voces neurales, control de velocidad con SSML), Volcengine Doubao y ElevenLabs.
+- **Alineación precisa:** control previo de velocidad de habla, re-verificaciones medidas y préstamo de tiempo de los silencios vecinos; las líneas que exceden el límite van a una lista de revisión.
+- Exporta **solo audio** (wav/mp3), reemplaza la pista de audio, mezcla en el video o produce un **MKV con doble audio** y subtítulos alineados.
+
+---
+
+### 6. Síntesis de video (quemado de subtítulos)
+
+- **Hardcode:** quema los subtítulos en el video (visibles en cualquier reproductor).
+- **Soft-mux:** empaqueta una pista de subtítulos conmutable sin pérdida (stream copy).
+- Estilos WYSIWYG: fuente, tamaño, color, contorno, sombra, posicionamiento en cuadrícula 3x3 y **presets guardables**.
+- Vista previa en tiempo real y aceleración por hardware de codificación.
+
+![Síntesis de video con subtítulos quemados](/images/blog/smartsub/merge-en.png)
+
+---
+
+### Instalación paso a paso
+
+**Windows (x64):**
+1. Ve a GitHub Releases: github.com/buxuku/SmartSub/releases
+2. Descarga el paquete **windows-x64**.
+3. Instala e inicia. Los paquetes de aceleración GPU se descargan desde la app (no vienen en el instalador).
+
+**macOS (Apple Silicon o Intel):**
+1. La vía más sencilla es Homebrew (elige automáticamente la build para tu chip):
+
+\`\`\`bash
+brew tap buxuku/tap
+brew install --cask smartsub
+\`\`\`
+
+2. Para actualizar: \`brew upgrade --cask smartsub\`
+
+**Linux (x64):**
+1. Descarga el paquete **linux-x64** desde GitHub Releases.
+
+**Puesta en marcha en tres pasos:**
+1. Sigue el tutorial de inicio para descargar un modelo de voz (¿sin GPU o sin modelo? Configura Cloud ASR).
+2. Elige una tarea del lanzador, arrastra el archivo de media o subtítulos (o pega un enlace para descargar un video en línea) y define idioma fuente, idioma destino y opciones.
+3. Inicia el procesamiento — luego corrige, dobla o quema el resultado.
+
+> **Truco macOS:** si el sistema dice "la aplicación está dañada", ejecuta:
+> \`\`\`bash
+> sudo xattr -dr com.apple.quarantine /Applications/SmartSub.app
+> \`\`\`
+
+---
+
+### Un flujo 100% gratuito
+
+| Etapa | Opción gratuita |
+|---|---|
+| Descarga de video | Motores yt-dlp / lux (instalados en la app) |
+| Transcripción | Modelos locales whisper.cpp / faster-whisper / FunASR |
+| Traducción | Traducción gratuita integrada (Bing/Google), Ollama, DeepLX |
+| Doblaje TTS | Kokoro / VITS local y clonación ZipVoice; Edge TTS gratis |
+| Quemado | ffmpeg integrado, totalmente local |
+
+Los servicios de pago (OpenAI, ElevenLabs, Volcengine, Tencent, etc.) son **mejoras opcionales** — úsalos solo si los quieres.
+
+---
+
+### Privacidad y aceleración por hardware
+
+- **Procesamiento local:** los archivos nunca salen de tu máquina; cada servicio en la nube es opt-in con confirmación de privacidad en el primer uso.
+- **Aceleración GPU:** NVIDIA CUDA (11.8/12.2/12.4/13.0.2), AMD/Intel Vulkan y Apple Core ML/Metal.
+- Los paquetes de aceleración se descargan dentro de la app — sin instalar CUDA Toolkit manualmente — con **fallback automático a CPU** si algo falla (el panel de diagnóstico explica el motivo).
+
+---
+
+### Valor para creadores de contenido y medios (casos prácticos)
+
+**1. YouTuber o streamer que quiere crecer internacionalmente**
+Subtitula un video en español y transfórmalo a bilingüe automáticamente, luego dobla la pista con una voz natural: tu audiencia anglófona crece sin re-grabar nada.
+
+**2. Medio de TV o redacción periodística**
+Transcribe entrevistas y ruedas de prensa al instante, exporta SRT para el archivo y la búsqueda interna, y produce segmentos doblados para audiencias internacionales con salida **MKV dual audio** — ideal para documentales y coberturas en terreno.
+
+**3. Podcaster o canal educativo**
+Procesa un lote completo de episodios: transcripción masiva a SRT para las notas del programa, subtítulos quemados para plataformas y clonación de tu voz para narraciones promocionales.
+
+**4. Productora que terceriza subtítulos**
+Reemplaza horas de trabajo manual por una pipeline reproducible: menos costo, consistencia de estilo con presets guardados y entrega en múltiples formatos (SRT, MKV, video quemado).
+
+---
+
+### Compilar desde el código fuente
+
+Si eres desarrollador y quieres contribuir o personalizar:
+
+\`\`\`bash
+git clone https://github.com/buxuku/SmartSub.git
+cd SmartSub
+yarn install
+yarn dev
+\`\`\`
+
+Si las dependencias nativas no se descargan automáticamente (red restringida), ejecuta \`yarn native:fetch\` para reintentarlo. Las contribuciones (issues y pull requests) son bienvenidas.
+
+---
+
+### Conclusión
+
+SmartSub es un ejemplo perfecto de cómo el **software open source** democratiza herramientas de nivel profesional: subtítulos, traducción y doblaje con IA ya no requieren presupuesto ni conocimientos técnicos profundos. Para creadores, medios de comunicación y productoras representa un ahorro real de tiempo y dinero — con la garantía de que **tu contenido permanece en tu máquina**.
+
+👉 Explora el repositorio en **[github.com/buxuku/SmartSub](https://github.com/buxuku/SmartSub)** y descarga la app para tu sistema.`,
+    contentEn: `### SmartSub: the complete subtitle, translation and AI dubbing pipeline in one open source app
+
+For an audiovisual producer, journalist or content creator, one of the most frustrating bottlenecks is **working with subtitles and dubbing**. Transcription, translation, synchronization, synthetic voices and subtitle burn-in usually live in separate tools that require complex setups, paid API keys and hours of manual editing.
+
+**SmartSub** (妙幕) solves that problem at its root: it is a **free, open source, cross-platform** desktop app that integrates the entire pipeline —*speech-to-text → subtitle translation → proofreading → AI dubbing → subtitle burn-in/muxing*— into a single interface. It also includes an **online video downloader**: paste a YouTube or Bilibili link and the app fetches the video for you.
+
+Its offer is even more attractive for outlets with tight budgets: **the entire pipeline can run at zero cost**, with local models that require no API keys, no usage caps, and with your files never leaving your machine.
+
+---
+
+### Where does the project come from?
+
+SmartSub is developed by **buxuku (Lin Xiaodong)** and his community. The repository was published in **May 2024** under an **MIT license** and, in just over two years, surpassed **4,000 stars on GitHub**, with downloads for **Windows, macOS and Linux**.
+
+- **Repository:** github.com/buxuku/SmartSub
+- **Official docs:** smartsub.linxiaodong.com
+- **License:** MIT (100% open code)
+- **Current version:** v3.6.0
+- **Stack:** TypeScript, Electron, React and Next.js — the same hybrid desktop architecture used by VS Code or Slack.
+
+The project frequently appears on trend lists (Trendshift) in the creator productivity category.
+
+---
+
+### The 5-stage pipeline (plus one extra)
+
+The whole flow is split into independent modules. Use them separately or chain them into an automatic batch:
+
+1. **Download** the video from an online URL (extra).
+2. **Transcribe**: speech becomes subtitles with a timeline.
+3. **Translate**: subtitles are translated into other languages.
+4. **Proofread**: review line by line against the video.
+5. **Dub**: a synthetic voice (or your cloned voice) reads the content.
+6. **Synthesize**: burn subtitles into the video or mux the audio track.
+
+---
+
+### 1. Online video download
+
+Paste a **YouTube, Bilibili** or other platform link and the app downloads the video internally:
+
+- Dual engine: **yt-dlp** (YouTube and 1,800+ sites) and **lux** (Bilibili, Douyin, Xiaohongshu and other Chinese platforms), installed and updated with one click.
+- **Batch downloads**: one link per line, with automatic link extraction from mixed text.
+- Can grab the platform's **official subtitles** (auto-generated ones included) and auto-pair them — with official subs there is nothing to transcribe.
+- Import **browser cookies** (one-click extraction) to unlock login-gated resolutions and member-only content. Cookies stay on your machine.
+
+![SmartSub video download interface](/images/blog/smartsub/home-en.png)
+
+---
+
+### 2. Subtitle generation (transcription)
+
+SmartSub supports **7 engine families**, selectable per task:
+
+| Engine | Notes | How it runs |
+|---|---|---|
+| **whisper.cpp (built-in)** | Default engine; ggml quantized models and GPU acceleration | Bundled, works out of the box |
+| **faster-whisper** | CTranslate2-based, faster; models fetched from HuggingFace | Self-contained Python runtime |
+| **FunASR** | Great for Chinese content (zh/en/ja/ko/yue) | Bundled sherpa-onnx native library |
+| **Qwen3-ASR** | Qwen speech recognition (qwen3-asr-0.6b) | Bundled sherpa-onnx library |
+| **FireRedASR** | FireRedASR-AED large (zh-en) | Bundled sherpa-onnx library |
+| **Local Whisper CLI** | Calls a whisper-compatible command you installed | Uses your system command |
+| **Cloud ASR (online)** | 8 providers, no GPU needed | Online service (optional) |
+
+**Practical guide to choosing a Whisper model:**
+
+- Low-end devices or integrated GPUs: \`tiny\` / \`base\` — fast and lightweight.
+- Typical computers: start with \`small\` / \`base\` to balance accuracy and resources.
+- High-performance GPUs: the \`large\` series for top accuracy.
+- English-only content: pick variants with the \`en\` suffix, optimized for English.
+- Tight on disk: \`q5\` / \`q8\` quantized variants trade a little accuracy for a much smaller footprint.
+
+---
+
+### 3. Subtitle translation
+
+It offers **20 translation services**:
+
+- **Built-in free**: free Bing/Google endpoints with automatic fallback and rate limiting.
+- **Cloud services**: Baidu, Aliyun, Tencent, iFlytek, Volcengine, Doubao, NiuTrans, DeepLX, Azure and Google.
+- **Large language models (LLMs)**: Ollama (local models), DeepSeek, Gemini, Qwen, SiliconFlow, Azure OpenAI and DeerAPI.
+- **Compatible with any OpenAI-style API**: bring your own endpoint.
+
+It supports **translation-only or bilingual** output (original + translation), per-service custom request parameters configured right in the UI (String, Float, Boolean, Array, Object, Integer) with real-time validation, and import/export for sharing and backup. AI translation quality depends heavily on the model and the prompt: experiment to find the combination that works for your content.
+
+---
+
+### 4. Subtitle proofreading
+
+The built-in editor lets you review **line by line, side by side with the video**:
+
+- Click a line → the video jumps to that moment.
+- Undo/redo and **delete with restore** (backup before overwriting).
+- **One-click AI polish**: LLM semantic segmentation regroups lines by meaning while timing stays word-accurate, fixes homophones, removes fillers and normalizes punctuation.
+
+![SmartSub proofreading editor](/images/blog/smartsub/profread-en.png)
+
+---
+
+### 5. TTS dubbing and voice cloning
+
+The dubbing module synthesizes speech line by line and **aligns automatically to the timeline**:
+
+- **Local (offline and free):** Kokoro multilingual (103 voices) and VITS Chinese (174 voices).
+- **Voice cloning:** ZipVoice (local zero-shot cloning: one reference clip plus its transcript is enough), Volcengine Voice Cloning 2.0 and ElevenLabs instant cloning.
+- **Cloud:** Edge TTS (free, no key), OpenAI-compatible endpoints (OpenAI / SiliconFlow), Azure Speech (700+ neural voices, SSML rate control), Volcengine Doubao and ElevenLabs.
+- **Precise alignment:** pre-set speech rate, measured re-checks and borrowing from silent gaps; lines over the limit go to a review list.
+- Export **audio only** (wav/mp3), replace the audio track, mix into the video, or produce a **dual-audio MKV** with aligned subtitles.
+
+---
+
+### 6. Video synthesis (subtitle burn-in)
+
+- **Hardcode:** burn subtitles permanently into the picture — visible in any player.
+- **Soft-mux:** losslessly embed a switchable subtitle track via stream copy.
+- WYSIWYG styling: font, size, color, outline, shadow, 3x3 grid positioning and **savable presets**.
+- Real-time preview and hardware-accelerated encoding.
+
+![SmartSub video synthesis editor](/images/blog/smartsub/merge-en.png)
+
+---
+
+### Installation step by step
+
+**Windows (x64):**
+1. Go to GitHub Releases: github.com/buxuku/SmartSub/releases
+2. Download the **windows-x64** package.
+3. Install and launch. GPU acceleration packs are downloaded in-app (not part of the installer).
+
+**macOS (Apple Silicon or Intel):**
+1. Homebrew is the easiest way (it picks the right build for your chip):
+
+\`\`\`bash
+brew tap buxuku/tap
+brew install --cask smartsub
+\`\`\`
+
+2. To upgrade: \`brew upgrade --cask smartsub\`
+
+**Linux (x64):**
+1. Download the **linux-x64** package from GitHub Releases.
+
+**Up and running in three steps:**
+1. Follow the onboarding guide to download a speech model (no GPU or no model? Configure Cloud ASR instead).
+2. Pick a task from the launchpad, drop in media or subtitle files (or paste a link to download an online video), and set source language, target language and options.
+3. Start processing — then proofread, dub or burn in the results.
+
+> **macOS tip:** if the system says "the application is damaged", run:
+> \`\`\`bash
+> sudo xattr -dr com.apple.quarantine /Applications/SmartSub.app
+> \`\`\`
+
+---
+
+### A completely free workflow
+
+| Step | Free option |
+|---|---|
+| Video download | yt-dlp / lux open-source engines (installed in-app) |
+| Transcription | Local whisper.cpp / faster-whisper / FunASR models |
+| Translation | Built-in free translation (Bing/Google), Ollama, DeepLX |
+| TTS dubbing | Local Kokoro / VITS and ZipVoice cloning; free Edge TTS |
+| Burn-in | Bundled ffmpeg, fully local |
+
+Paid cloud services (OpenAI, ElevenLabs, Volcengine, Tencent, etc.) are **optional upgrades** — use them only if you want them.
+
+---
+
+### Privacy and hardware acceleration
+
+- **Local processing:** your files never leave your machine; every cloud service is opt-in with a first-run privacy confirmation.
+- **GPU acceleration:** NVIDIA CUDA (11.8/12.2/12.4/13.0.2), AMD/Intel Vulkan and Apple Core ML/Metal.
+- Acceleration packs download in-app — no manual CUDA Toolkit install — with **automatic CPU fallback** on failure (the diagnostics panel explains the reason).
+
+---
+
+### Value for content creators and media (use cases)
+
+**1. YouTuber or streamer looking to grow internationally**
+Subtitle a video in Spanish and turn it into bilingual automatically, then dub the track with a natural voice: your English-speaking audience grows without re-recording anything.
+
+**2. TV outlet or newsroom**
+Transcribe interviews and press conferences instantly, export SRTs for archiving and internal search, and produce dubbed segments for international audiences with **dual-audio MKV** output — ideal for documentaries and field coverage.
+
+**3. Podcaster or educational channel**
+Process a full batch of episodes: mass transcription to SRT for show notes, burned subtitles for platforms and cloning your own voice for promotional narration.
+
+**4. Production house that outsources subtitles**
+Replace hours of manual work with a reproducible pipeline: lower cost, style consistency with saved presets and delivery in multiple formats (SRT, MKV, burned video).
+
+---
+
+### Building from source
+
+If you are a developer and want to contribute or customize:
+
+\`\`\`bash
+git clone https://github.com/buxuku/SmartSub.git
+cd SmartSub
+yarn install
+yarn dev
+\`\`\`
+
+If native dependencies fail to download automatically (restricted network), run \`yarn native:fetch\` to retry. Issues and pull requests are welcome.
+
+---
+
+### Conclusion
+
+SmartSub is a perfect example of how **open source software** democratizes professional-grade tools: subtitles, translation and AI dubbing no longer require a budget or deep technical knowledge. For creators, media outlets and production houses it means real savings in time and money — with the guarantee that **your content stays on your machine**.
+
+👉 Explore the repository at **[github.com/buxuku/SmartSub](https://github.com/buxuku/SmartSub)** and download the app for your system.`,
+    date: '2026-07-31',
+    readTimeEs: '15 min de lectura',
+    readTimeEn: '14 min read',
+    imageUrl: '/images/blog/smartsub/home-en.png',
+    images: [
+      '/images/blog/smartsub/home-en.png',
+      '/images/blog/smartsub/merge-en.png',
+      '/images/blog/smartsub/profread-en.png'
+    ],
+    imageCaption: 'SmartSub — interfaz principal con la pipeline completa de subtítulos y doblaje con IA.',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'GitHub — buxuku/SmartSub (documentación oficial)',
+    sourceUrl: 'https://github.com/buxuku/SmartSub'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];
