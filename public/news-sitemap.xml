@@ -157,6 +157,146 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/acuerdo-desarme-hamas-gaza-trump</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Trump anuncia un acuerdo para el desarme completo de Hamás en Gaza</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/senado-eeuu-rechaza-limitar-guerra-iran</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>El Senado de EE.UU. rechaza limitar la autoridad de guerra de Trump contra Irán</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/incendios-europa-record-megafuegos-clima</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Los incendios en Europa baten récords: más de 400.000 hectáreas quemadas en 2026</news:title>
+      <news:keywords>Catástrofes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/terremotos-venezuela-5208-muertos-danos-19600-millones</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Terremotos en Venezuela: más de 5.200 muertos y daños por 19.600 millones de dólares</news:title>
+      <news:keywords>Catástrofes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/atentado-orgullo-berlin-atropello-csd</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Atentado en el Orgullo de Berlín: un muerto y 29 heridos en un atropello múltiple</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rusia-ataques-ucrania-8-muertos-zelenski-aviso</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Rusia golpea Ucrania con misiles: al menos 8 muertos y Zelenski advierte de un asalto masivo</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fifa-venta-mundial-kushner-boicot-europa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>FIFA y la venta de cuotas del Mundial a la firma de Kushner: Europa amenaza con boicot</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/guterres-siria-fin-sanciones-damasco</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Guterres pide el fin de las sanciones a Siria en su primera visita a Damasco desde 2009</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/petroleras-record-ganancias-guerra-iran</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Las petroleras baten récords de ganancias por el alza del petróleo por la guerra con Irán</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/padre-tirador-georgia-condenado-15-anos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>El padre del tirador de la escuela de Georgia, condenado a 15 años de prisión</news:title>
+      <news:keywords>Policiales</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/dnu-milei-expulsar-extranjeros-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

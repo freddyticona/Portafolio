@@ -9283,6 +9283,457 @@ For communication sociology, the crisis is a **case study** in how viral content
     source: 'Expansión, France 24, El Confidencial, AP',
     sourceUrl: 'https://www.expansion.com/economia/politica/2026/07/31/6a6c53d1e5fdea584f8b4572.html'
   },
+  {
+    id: '150',
+    contentType: 'news',
+    slug: 'acuerdo-desarme-hamas-gaza-trump',
+    titleEs: 'Trump anuncia un acuerdo para el desarme completo de Hamás en Gaza',
+    titleEn: 'Trump announces deal for the complete disarmament of Hamas in Gaza',
+    excerptEs: 'El presidente de EE.UU. afirmó que se alcanzó un acuerdo "histórico" para el desarme completo de Hamás y todos los grupos armados en Gaza, con retirada gradual israelí. Israel no lo ha confirmado públicamente y Hamás condiciona la entrega de armas a la salida total de sus tropas.',
+    excerptEn: 'President Trump claimed a "historic" agreement for the complete disarmament of Hamas and all armed groups in Gaza, with a gradual Israeli withdrawal. Israel has not publicly confirmed it, and Hamas conditions any weapon handover on a full withdrawal of troops.',
+    contentEs: `### Trump anuncia el desarme completo de Hamás en Gaza
+
+El presidente de Estados Unidos, **Donald Trump**, anunció que se alcanzó un acuerdo **"histórico"** para el **desarme completo de Hamás y de todos los grupos armados** en la Franja de Gaza. Según el mandatario, el plan contempla una **retirada gradual de Israel** del territorio y la formación de un nuevo gobierno para el enclave.
+
+#### Los términos del pacto
+
+En un mensaje publicado este jueves en su red social, Trump escribió que "hoy la Junta de la Paz alcanzó un acuerdo HISTÓRICO para el COMPLETO DESARME de Hamás y todos los demás grupos armados en Gaza". La Casa Blanca presentó la iniciativa como el **paso decisivo para el fin de la guerra**, que lleva más de un año activa.
+
+Sin embargo, persisten dudas clave:
+
+- **Israel no ha confirmado** públicamente el plan, y hasta ahora no ha emitido un comunicado oficial respaldando la retirada.
+- **Hamás condiciona** la entrega de cualquier arma a la **salida total de las fuerzas israelíes**, el cese de los ataques y la entrada sin restricciones de **ayuda humanitaria** al enclave.
+- Los **desplazados en Gaza** se muestran escépticos de que Israel retire realmente sus tropas.
+
+#### El contexto humanitario
+
+La guerra sigue cobrándose víctimas. Según cifras citadas por los medios internacionales, **más de 1.200 personas han muerto en Gaza desde el llamado alto el fuego**, vigente desde hace unos diez meses. Organizaciones como **Médicos Sin Fronteras** denuncian que "no es un cese el fuego, sino una continuación del genocidio, calibrada para mantener el sufrimiento palestino cada día".
+
+> "Le pido al presidente Trump, presidente de los Estados Unidos, que presione a Israel para que se retire completamente de la Franja de Gaza, para que podamos vivir con dignidad y volver a nuestros hogares", declaró Samir Ayad, desplazado gazatí.
+
+**Con información de:** [BBC](https://www.bbc.com/news/articles/cj03m512r4go), [Democracy Now!](https://www.democracynow.org/2026/7/31/headlines), [Livemint](https://www.livemint.com/news/world/end-to-gaza-war-trump-says-deal-reached-for-complete-disarmament-of-hamas-israel-will-not-interfere-says-group-11785456913433.html)`,
+    contentEn: `### Trump announces complete disarmament of Hamas
+
+President Trump announced a "historic" agreement for the **complete disarmament of Hamas and all armed groups in Gaza**, including a gradual Israeli withdrawal and a new government. Israel has not publicly confirmed the plan, and Hamas conditions any weapon handover on **full Israeli withdrawal, an end to attacks and unrestricted humanitarian aid**. Displaced Gazans remain skeptical. More than 1,200 people have died in Gaza since the ceasefire began roughly ten months ago, prompting groups like Doctors Without Borders to call it "a continuation of the genocide."
+
+**Sources:** [BBC](https://www.bbc.com/news/articles/cj03m512r4go), Democracy Now!, Livemint`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://ichef.bbci.co.uk/news/1024/branded_news/4ad1/live/af28c2f0-8c81-11f1-a7ab-8b30adf0800a.jpg',
+    imageCaption: 'Palestinos en la Franja de Gaza tras los bombardeos. El anuncio de Trump sobre el desarme de Hamás abre un nuevo capítulo en la guerra. Foto: BBC/AP',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 22,
+    source: 'BBC, Democracy Now!, AP',
+    sourceUrl: 'https://www.bbc.com/news/articles/cj03m512r4go'
+  },
+  {
+    id: '151',
+    contentType: 'news',
+    slug: 'senado-eeuu-rechaza-limitar-guerra-iran',
+    titleEs: 'El Senado de EE.UU. rechaza limitar la autoridad de guerra de Trump contra Irán',
+    titleEn: 'US Senate rejects limiting Trump\'s war authority against Iran',
+    excerptEs: 'Por 50 votos contra 49, el Senado de Estados Unidos rechazó una resolución para limitar la autoridad del presidente Trump de librar una guerra contra Irán. El demócrata Fetterman votó con la mayoría republicana, en plena escalada en el golfo de Ormuz.',
+    excerptEn: 'By a 50-49 vote, the US Senate rejected a war powers resolution to limit President Trump\'s authority to wage war against Iran. Democrat John Fetterman voted with the Republican majority amid an escalating crisis in the Strait of Hormuz.',
+    contentEs: `### El Senado rechaza limitar la guerra contra Irán
+
+El **Senado de Estados Unidos** votó en contra de una **resolución de poderes de guerra** destinada a restringir la autoridad del presidente **Donald Trump** para emprender acciones militares contra **Irán**. La moción fue derrotada por **50 votos contra 49**, en un escenario de máxima tensión en el golfo de Ormuz.
+
+#### Una votación cruzada
+
+El senador demócrata **John Fetterman** votó junto a la **mayoría republicana** para impedir la resolución, mientras que **tres republicanos** se unieron a los demócratas en su apoyo. La votación refleja la fractura en el Congreso sobre el alcance del poder presidencial para declarar hostilidades sin autorización legislativa.
+
+La resolución buscaba obligar al Ejecutivo a obtener el **respaldo del Congreso** antes de ampliar las operaciones militares contra Teherán, en medio de informes sobre **ataques contra petroleros** bajo escolta estadounidense en Ormuz.
+
+#### Escalada en el Golfo
+
+La tensión continúa en aumento. **Irán** asegura haber alcanzado **cazas F-35 estadounidenses** en la base aérea jordana de **Al-Azraq**, mientras el propio Trump advirtió que responderá con **"dureza"** ante los ataques. El precio del **petróleo Brent superó los 100 dólares** por barril por primera vez desde mayo, según reportes de Al Jazeera y The Guardian, por el temor a una interrupción del suministro global.
+
+> "La relación entre el Ejecutivo y el Congreso sobre la guerra está en su punto más frágil en décadas", apuntan analistas citados por los medios estadounidenses.
+
+**Con información de:** [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/7/30/iran-war-live-trump-threatens-to-hit-back-hard-over-strikes-on-jordan), [Democracy Now!](https://www.democracynow.org/2026/7/31/headlines), [The Guardian](https://www.theguardian.com/world/2026/jul/22/oil-price-increases-middle-east-conflict-escalates-us-iran)`,
+    contentEn: `### Senate rejects limiting the Iran war
+
+The US Senate voted down a **war powers resolution** to limit President Trump's authority to wage war against Iran, **50 to 49**. Democrat John Fetterman voted with the Republican majority; three Republicans joined Democrats. The vote comes amid escalating tensions in the **Strait of Hormuz**, with reports of strikes on tankers under US escort and Iran claiming it hit US F-35s at Jordan's Al-Azraq Air Base. Oil prices surpassed **$100 a barrel** on fears of supply disruption.
+
+**Sources:** Al Jazeera, Democracy Now!, The Guardian`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-30T125336Z_1212819768_RC2COMANOX7E_RTRMADP_3_IRAN-CRISIS-AHVAZ-SMOKE-1785446496.jpg?resize=1920%2C1440',
+    imageCaption: 'Humo sobre Ahvaz, Irán, durante la escalada con Estados Unidos en el golfo de Ormuz. Foto: Reuters',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 17,
+    source: 'Al Jazeera, Democracy Now!, The Guardian, Reuters',
+    sourceUrl: 'https://www.aljazeera.com/news/liveblog/2026/7/30/iran-war-live-trump-threatens-to-hit-back-hard-over-strikes-on-jordan'
+  },
+  {
+    id: '152',
+    contentType: 'news',
+    slug: 'incendios-europa-record-megafuegos-clima',
+    titleEs: 'Los incendios en Europa baten récords: más de 400.000 hectáreas quemadas en 2026',
+    titleEn: 'European wildfires hit records: more than 400,000 hectares burned in 2026',
+    excerptEs: 'Los incendios forestales arrasan Francia, España, Grecia, Reino Unido y Alemania en el peor verano de la historia reciente. Más de un millón de acres quemados, tres bomberos muertos en Grecia y un informe científico vincula el fenómeno con la intensificación del cambio climático.',
+    excerptEn: 'Wildfires ravage France, Spain, Greece, Britain and Germany in the worst summer in recent history. More than a million acres burned, three firefighters dead in Greece, and a scientific report links the phenomenon to the intensification of climate change.',
+    contentEs: `### Incendios récord arrasan el sur de Europa
+
+Europa vive uno de los **peores veranos de su historia** en materia de incendios forestales. Francia, España, Grecia, Reino Unido y Alemania combaten fuegos simultáneos mientras una **ola de calor** extiende las condiciones de riesgo extremo. Según datos citados por The Guardian, **más de un millón de acres han ardido este año**, más del triple del promedio histórico reciente.
+
+#### Un continente en llamas
+
+- **España**: el fuego de **Madrid y Ávila** quemó **77.000 hectáreas**, el mayor incendio de la historia de la Comunidad de Madrid, y obligó a evacuar a decenas de miles de personas. El Gobierno decretó la **emergencia nacional**.
+- **Francia**: las llamas avanzan en la **Gironda** (Burdeos) y el sur del país; las evacuaciones en el área de Lège-Cap-Ferret se sucedieron durante varios días.
+- **Grecia**: **tres bomberos murieron** esta semana en la isla de Evia mientras combatían el fuego.
+- **Reino Unido**: un gran incendio en **Suffolk** obligó a evacuar zonas cercanas a una central nuclear.
+- **Alemania**: también registra fuegos activos en medio de la ola de calor.
+
+Más de **350.000 personas han sido evacuadas** en el sur de Europa entre Francia y España, en una temporada que ya deja un saldo trágico.
+
+#### El factor climático
+
+Un informe publicado en la revista **Scientific Reports** concluye que el cambio climático ha provocado una **"intensificación mayor"** de los incendios en Europa. Los expertos señalan que la combinación de **sequías prolongadas, temperaturas extremas y vientos fuertes** convierte grandes extensiones del continente en un **combustible listo para arder**.
+
+> "La devastación de esta zona, que es de una belleza natural, es terrible. Y entiendo que esta zona puede tardar décadas en recuperarse. Y obviamente esto va a ser un ciclo que se repite con el cambio climático tal como está", dijo Jude Bayly, evacuado por el incendio de Suffolk.
+
+**Con información de:** [France 24](https://www.france24.com/en/europe/20260730-france-spain-eye-respite-from-wildfires-as-other-blazes-break-out-in-europe), [Democracy Now!](https://www.democracynow.org/2026/7/31/headlines), [Euronews](https://es.euronews.com/my-europe/2026/07/26/atentado-en-el-csd-de-berlin-atropello-multiple-de-un-presunto-autor-islamista)`,
+    contentEn: `### Record wildfires scorch southern Europe
+
+Europe is enduring one of its worst wildfire seasons on record, with blazes across **France, Spain, Greece, Britain and Germany** amid a heat wave. More than **a million acres** have burned this year — more than triple the recent average. Spain declared a **national emergency**; three firefighters died in Greece; and thousands were evacuated near a nuclear power station in Suffolk, UK. A study in **Scientific Reports** links the fires to a "major intensification" driven by climate change.
+
+**Sources:** France 24, Democracy Now!, Euronews`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://s.france24.com/media/display/85b60f48-8c51-11f1-b09b-005056bfb2b6/w:1280/p:16x9/2026-07-30T154504Z-1690577853-RC26OMADPJ0C-RTRMADP-3-EUROPE-WEATHER-TURKEY-WILDFIRE.jpg',
+    imageCaption: 'Bomberos intentan controlar un incendio forestal en el sur de Europa durante la peor temporada de fuegos en décadas. Foto: Reuters',
+    categoryEs: 'Catástrofes',
+    categoryEn: 'Disasters',
+    enableComments: true,
+    featured: true,
+    views: 19,
+    source: 'France 24, Democracy Now!, The Guardian, Reuters',
+    sourceUrl: 'https://www.france24.com/en/europe/20260730-france-spain-eye-respite-from-wildfires-as-other-blazes-break-out-in-europe'
+  },
+  {
+    id: '153',
+    contentType: 'news',
+    slug: 'terremotos-venezuela-5208-muertos-danos-19600-millones',
+    titleEs: 'Terremotos en Venezuela: más de 5.200 muertos y daños por 19.600 millones de dólares',
+    titleEn: 'Venezuela earthquakes: over 5,200 dead and $19.6 billion in damages',
+    excerptEs: 'El doble sismo de magnitud 7,2 y 7,5 del 24 de junio dejó más de 5.200 fallecidos y 16.740 heridos, según la ONU. El Banco Mundial estima los daños físicos directos en 19.600 millones de dólares y advierte del impacto en la recuperación económica durante una década.',
+    excerptEn: 'The twin earthquakes of magnitudes 7.2 and 7.5 on June 24 left more than 5,200 dead and 16,740 injured, according to the UN. The World Bank estimates direct physical damage at $19.6 billion, warning of a decade-long impact on economic recovery.',
+    contentEs: `### Venezuela: un balance devastador un mes después de los terremotos
+
+Un mes después de los **dos terremotos consecutivos** que sacudieron Venezuela el **24 de junio**, el balance sigue creciendo: **5.208 personas fallecidas y 16.740 heridas**, según el último reporte de la Oficina de la ONU para la Coordinación de Asuntos Humanitarios (OCHA). El sismo de magnitud **7,2 y 7,5** tuvo su epicentro en el eje **San Felipe – Yumare – Montalbán** (Yaracuy/Carabobo), en el centro-norte del país.
+
+#### Daños por 19.600 millones
+
+El **Banco Mundial** estimó en **19.600 millones de dólares** los **daños físicos directos** provocados por la catástrofe y advirtió de que una **reconstrucción lenta podría frenar la recuperación económica** de Venezuela durante la próxima década. La cifra equivale a cerca de una quinta parte del PIB del país.
+
+Según la primera evaluación de la **Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres**, más de **800 edificios** se derrumbaron o quedaron gravemente afectados, la mayoría de ellos **residenciales de más de diez plantas** en el litoral central. Los mayores daños se concentran en:
+
+- **Edificaciones**: unos 24.000 millones de dólares.
+- **Infraestructura**: unos 13.000 millones, con las **telecomunicaciones** como el rubro más golpeado (5.000 millones).
+- **Viviendas**: 17.907 personas perdieron sus casas y unas 87.000 familias recibieron algún tipo de ayuda.
+
+#### Respuesta humanitaria
+
+La ONU lanzó una **adenda de 299 millones de dólares** a su plan de respuesta para atender las necesidades de **1,3 millones de personas afectadas** durante los próximos seis meses. Se han registrado **1.388 réplicas** desde el sismo principal y se han instalado **80 campamentos** para las personas sin hogar.
+
+> "Las autoridades reportan más de 5.200 fallecidos y el impacto económico total podría ser aún mayor, si se suman la interrupción de servicios y el costo de la reconstrucción", indicó el análisis de IPS Noticias citando a la ONU.
+
+**Con información de:** [OCHA/ReliefWeb](https://reliefweb.int/report/venezuela-bolivarian-republic/terremotos-en-venezuela-reporte-de-situacion-26-19-de-julio-de-2026-hora-0900-pm), [El Impulso/Banco Mundial](https://www.elimpulso.com/2026/07/23/banco-mundial-estima-en-casi-20-000-millones-de-dolares-los-danos-por-terremotos-en-venezuela-23jul/), [IPS](https://ipsnoticias.net/2026/07/terremotos-causan-danos-por-37-000-millones-de-dolares-en-venezuela), [BBC](https://www.bbc.com/news/articles/cjegdqw5d3yo)`,
+    contentEn: `### Venezuela: a devastating toll a month after the quakes
+
+A month after the twin earthquakes (magnitudes **7.2 and 7.5**) of June 24, the UN reports **5,208 dead and 16,740 injured**, with **17,907 homes lost** and 1,388 aftershocks. The World Bank estimates **$19.6 billion** in direct physical damage — roughly a fifth of GDP — warning that a slow reconstruction could hold back the economy for a decade. The UN launched a **$299 million** appeal to assist **1.3 million affected people** over six months.
+
+**Sources:** OCHA/ReliefWeb, El Impulso, IPS, BBC`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://ichef.bbci.co.uk/news/1024/branded_news/5ff4/live/aa946140-70f7-11f1-9a82-89f06f847cb2.jpg',
+    imageCaption: 'Equipos de rescate buscan cuerpos entre los escombros de La Guaira, una de las zonas más afectadas por los terremotos en Venezuela. Foto: BBC/AP',
+    categoryEs: 'Catástrofes',
+    categoryEn: 'Disasters',
+    enableComments: true,
+    featured: true,
+    views: 25,
+    source: 'OCHA, El Impulso, IPS, BBC',
+    sourceUrl: 'https://reliefweb.int/report/venezuela-bolivarian-republic/terremotos-en-venezuela-reporte-de-situacion-26-19-de-julio-de-2026-hora-0900-pm'
+  },
+  {
+    id: '154',
+    contentType: 'news',
+    slug: 'atentado-orgullo-berlin-atropello-csd',
+    titleEs: 'Atentado en el Orgullo de Berlín: un muerto y 29 heridos en un atropello múltiple',
+    titleEn: 'Berlin Pride attack: one dead and 29 injured in a mass car ramming',
+    excerptEs: 'Un coche embistió a la multitud del Christopher Street Day (CSD), la gran marcha del Orgullo en Berlín. Una mujer murió y 29 personas resultaron heridas. La policía alemana abatió al presunto autor, un joven islamista, e investiga el suceso como atentado.',
+    excerptEn: 'A car rammed into the crowd at the Christopher Street Day (CSD) Pride march in Berlin. One woman died and 29 people were injured. German police shot dead the suspected Islamist attacker and are treating the incident as a terrorist attack.',
+    contentEs: `### Atentado en el Orgullo de Berlín
+
+Un **atropello múltiple** contra la marcha del **Christopher Street Day (CSD)**, la gran celebración del Orgullo LGBTI de Berlín, dejó **una mujer muerta y 29 personas heridas** la noche del pasado sábado en el parque **Tiergarten**. Las autoridades alemanas investigan el suceso como un **atentado terrorista**.
+
+#### Los hechos
+
+Una **furgoneta embistió** a los asistentes a la manifestación en las inmediaciones del Tiergarten. El presunto autor, un **joven islamista**, huyó del lugar y fue **abatido por la policía** en **Spandau**, en las afueras de la capital, durante el operativo de búsqueda desplegado en la madrugada.
+
+Las autoridades cancelaron las celebraciones del fin de semana y cientos de personas dejaron **flores y velas ante la Puerta de Brandeburgo** en señal de duelo y apoyo a la comunidad LGTBI.
+
+#### Reacciones y contexto
+
+El ataque reavivó el debate sobre la **seguridad de los grandes eventos públicos** y la **amenaza del terrorismo islamista** en Alemania. La Policía confirmó que el sospechoso tenía **vínculos con el extremismo islamista**, según reportes de RTVE, El País y Cadena SER.
+
+> "Un muerto y 29 heridos en la fiesta del Orgullo. Berlín está de luto y la comunidad LGTBI no se dejará amedrentar", fue el mensaje que recorrió las redes sociales tras el atentado.
+
+**Con información de:** [Euronews](https://es.euronews.com/my-europe/2026/07/26/atentado-en-el-csd-de-berlin-atropello-multiple-de-un-presunto-autor-islamista), [RTVE](https://www.rtve.es/noticias/20260726/menos-muerto-15-heridos-atropello-multiple-berlin-durante-dia-del-orgullo/17169307.shtml), [El País](https://elpais.com/internacional/2026-07-26/alemania-busca-al-autor-del-atropello-masivo-en-berlin-que-causo-al-menos-un-muerto-y-16-heridos.html), [BBC](https://www.bbc.com/news/articles/c62eg899l99o)`,
+    contentEn: `### Terror attack at Berlin Pride
+
+A car rammed into the crowd at Berlin's **Christopher Street Day (CSD)** Pride march in Tiergarten, killing **one woman and injuring 29 people**. German police shot dead the suspected **Islamist attacker** in Spandau and treated the incident as a **terrorist attack**. Weekend celebrations were cancelled, and mourners left flowers at the Brandenburg Gate. The attack reignited the debate on public event security and Islamist extremism in Germany.
+
+**Sources:** Euronews, RTVE, El País, BBC`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://ichef.bbci.co.uk/news/1024/branded_news/1e91/live/ed7624e0-8983-11f1-b2ab-0dd01740f9f6.jpg',
+    imageCaption: 'La policía acordonó el Tiergarten de Berlín tras el atropello múltiple en la marcha del Orgullo LGBTI. Foto: BBC/AP',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 21,
+    source: 'Euronews, RTVE, El País, BBC, AP',
+    sourceUrl: 'https://www.bbc.com/news/articles/c62eg899l99o'
+  },
+  {
+    id: '155',
+    contentType: 'news',
+    slug: 'rusia-ataques-ucrania-8-muertos-zelenski-aviso',
+    titleEs: 'Rusia golpea Ucrania con misiles: al menos 8 muertos y Zelenski advierte de un asalto masivo',
+    titleEn: 'Russia strikes Ukraine with missiles: at least 8 dead and Zelensky warns of a massive assault',
+    excerptEs: 'Los ataques con misiles rusos sobre varias ciudades ucranianas dejaron al menos 8 muertos en 24 horas, incluido un bombardeo a un edificio residencial en Sloviansk. Zelenski había advertido de un inminente asalto masivo ruso durante el fin de semana.',
+    excerptEn: 'Russian missile strikes across Ukrainian cities left at least 8 dead in 24 hours, including an attack on a residential building in Sloviansk. Zelensky had warned of an imminent massive Russian assault over the weekend.',
+    contentEs: `### Rusia intensifica los ataques contra Ucrania
+
+Los **ataques con misiles rusos** contra varias ciudades ucranianas dejaron **al menos 8 muertos en las últimas 24 horas**, según reportes internacionales. Uno de los golpes más graves fue un **bombardeo contra un edificio residencial en Sloviansk**, en el este del país, donde los equipos de rescate trabajaron entre los escombros durante horas.
+
+#### Una advertencia que se cumplió
+
+El presidente ucraniano, **Volodímir Zelenski**, había advertido públicamente de un **inminente ataque ruso masivo durante el fin de semana**. La oleada de misiles, que alcanzó también la capital **Kiev**, confirmó el aviso del mandatario, quien insiste en la necesidad de **más sistemas de defensa aérea** para proteger la infraestructura civil.
+
+Los ataques contra **Kiev** se produjeron después de que Zelenski alertara sobre la ofensiva, en un escenario de **guerra que ya supera los dos años** y que ha causado decenas de miles de víctimas civiles.
+
+#### La infraestructura civil en el punto de mira
+
+Organizaciones humanitarias denuncian que **Rusia continúa atacando zonas residenciales** pese a las reiteradas condenas internacionales. Los bombardeos se han intensificado en el **este y el sur del país**, especialmente en las regiones de **Donetsk y Járkiv**, en un intento de avanzar antes de la llegada del invierno.
+
+> "Cada misil que cae sobre un edificio de viviendas es una prueba más de que la guerra contra la población civil no se detiene", señalaron fuentes de la administración ucraniana citadas por los medios.
+
+**Con información de:** [Al Jazeera](https://www.aljazeera.com/news/2026/7/30/russia-ballistic-missile-strikes-on-kyiv-come-after-zelenskyys-warning), [Euronews](https://es.euronews.com/video/2026/07/31/ultimas-noticias-31-julio-2026-manana)`,
+    contentEn: `### Russia intensifies strikes on Ukraine
+
+Russian missile strikes across Ukrainian cities killed **at least 8 people in 24 hours**, including an attack on a residential building in **Sloviansk**. Strikes also reached **Kyiv**, hours after President **Zelensky** warned of an imminent massive Russian assault over the weekend. Humanitarian groups denounce continued attacks on civilian infrastructure, with the heaviest bombardment in the eastern and southern regions as winter approaches.
+
+**Sources:** Al Jazeera, Euronews`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a6ae53e-1785390398.jpg?resize=1920%2C1440',
+    imageCaption: 'Un edificio residencial dañado tras un ataque con misiles ruso en Ucrania. Foto: Reuters',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: true,
+    views: 14,
+    source: 'Al Jazeera, Euronews, Reuters',
+    sourceUrl: 'https://www.aljazeera.com/news/2026/7/30/russia-ballistic-missile-strikes-on-kyiv-come-after-zelenskyys-warning'
+  },
+  {
+    id: '156',
+    contentType: 'news',
+    slug: 'fifa-venta-mundial-kushner-boicot-europa',
+    titleEs: 'FIFA y la venta de cuotas del Mundial a la firma de Kushner: Europa amenaza con boicot',
+    titleEn: 'FIFA plan to sell World Cup stake to Kushner firm sparks European boycott threat',
+    excerptEs: 'Las asociaciones europeas de fútbol amenazan con boicotear el Mundial y otras competiciones de la FIFA si se concreta la venta de cuotas al fondo de capital privado de Joshua Kushner. Un alto asesor del organismo renunció en protesta por la operación impulsada por Infantino.',
+    excerptEn: 'European soccer associations threaten to boycott the World Cup and other FIFA competitions if the sale of stakes to Joshua Kushner\'s private equity fund goes ahead. A top FIFA adviser resigned in protest over the deal pushed by Infantino.',
+    contentEs: `### Escándalo en la FIFA: la venta de cuotas del Mundial a la firma de Kushner
+
+Un plan de la **FIFA** para vender participaciones en el **Mundial** a un **fondo de capital privado** vinculado a **Joshua Kushner** ha desatado una ola de críticas. Las **asociaciones europeas de fútbol** acordaron **boicotear el Mundial y otras competiciones** del organismo si la operación se concreta.
+
+#### El plan y sus críticos
+
+La propuesta, impulsada por el presidente de la FIFA, **Gianni Infantino**, consiste en vender cuotas de los derechos comerciales del Mundial al fondo gestionado por **Joshua Kushner**, hermano de **Jared Kushner**, yerno del presidente estadounidense **Donald Trump**. La cercanía entre Infantino y Trump, que recibió el año pasado el **"Premio FIFA a la Paz"** creado por el propio organismo, ha alimentado las sospechas de **conflicto de intereses**.
+
+- Las **asociaciones europeas** se mostraron dispuestas a **boicotear la Copa del Mundo** si el acuerdo avanza.
+- Un **alto asesor de la FIFA** renunció este jueves **en protesta** por la operación.
+- Organizaciones de transparencia denuncian la falta de **supervisión democrática** en la gestión del organismo.
+
+#### La reacción del fútbol europeo
+
+La amenaza de boicot de las federaciones europeas, encabezadas por la UEFA, supondría un **golpe sin precedentes** al principal torneo del planeta. La medida refleja el creciente malestar con la gestión de Infantino y con la creciente **influencia del entorno de la Casa Blanca** en el fútbol mundial.
+
+> "La venta de cuotas del Mundial a un fondo vinculado a la familia Kushner es una amenaza para la integridad del fútbol", advierten medios especializados citando fuentes de las federaciones.
+
+**Con información de:** [AP](https://apnews.com/article/fifa-investors-infantino-kushner-uefa-afc-76169d3e9bb68f4d174b3c87f6b53e50), [Democracy Now!](https://www.democracynow.org/2026/7/31/headlines)`,
+    contentEn: `### FIFA World Cup stake sale sparks European boycott threat
+
+A FIFA plan to sell World Cup stakes to a **private equity fund linked to Joshua Kushner** — brother of Trump's son-in-law Jared Kushner — has triggered a backlash. **European soccer associations** agreed to boycott the World Cup and other FIFA competitions if the deal proceeds, and a top FIFA adviser resigned in protest. The proposal, pushed by president Gianni Infantino — who last year gave Trump the "FIFA Peace Prize" — has raised conflict-of-interest concerns.
+
+**Sources:** AP, Democracy Now!`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://dims.apnews.com/dims4/default/3adfe07/2147483647/strip/true/crop/3315x2209+0+80/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb4%2Fbb%2F928a443d3ee372e8ba341cd9841a%2F664a75e1c15c4c3a9ce7617ec29c70d6',
+    imageCaption: 'Gianni Infantino, presidente de la FIFA, en el centro de la polémica por la venta de cuotas del Mundial a la firma de Kushner. Foto: AP',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 12,
+    source: 'AP, Democracy Now!',
+    sourceUrl: 'https://apnews.com/article/fifa-investors-infantino-kushner-uefa-afc-76169d3e9bb68f4d174b3c87f6b53e50'
+  },
+  {
+    id: '157',
+    contentType: 'news',
+    slug: 'guterres-siria-fin-sanciones-damasco',
+    titleEs: 'Guterres pide el fin de las sanciones a Siria en su primera visita a Damasco desde 2009',
+    titleEn: 'Guterres calls for an end to Syria sanctions on first Damascus visit since 2009',
+    excerptEs: 'El secretario general de la ONU, António Guterres, visitó Damasco por primera vez desde 2009 y pidió apoyo global y el fin de todas las sanciones a Siria, reunido con el presidente Ahmad al Sharaa en pleno proceso de transición tras la caída del régimen de Al Assad.',
+    excerptEn: 'UN Secretary-General António Guterres visited Damascus for the first time since 2009 and called for global support and an end to all sanctions on Syria, meeting President Ahmad al Sharaa during the transition after the fall of Assad\'s regime.',
+    contentEs: `### Guterres en Damasco: un giro histórico para Siria
+
+El secretario general de la ONU, **António Guterres**, realizó una **visita histórica a Damasco**, la primera de un jefe de la organización desde 2009, y pidió **el fin de todas las sanciones a Siria** y un **apoyo global** al proceso de reconstrucción. Guterres fue recibido por el presidente sirio, **Ahmad al Sharaa**, en el palacio presidencial.
+
+#### El mensaje de la ONU
+
+En su segunda jornada de visita, Guterres insistió en la necesidad de **levantar las sanciones internacionales** que pesan sobre el país, para permitir la **recuperación económica** y el retorno de los millones de refugiados sirios. El secretario general subrayó que Siria atraviesa un **momento de transición** tras la caída del régimen de **Bashar al Assad**, y que la comunidad internacional debe acompañar el proceso.
+
+- Primera **visita oficial** de un secretario general de la ONU a Damasco **en 17 años**.
+- Reunión con **Ahmad al Sharaa**, presidente de la etapa de transición.
+- Llamamiento a la **comunidad internacional** para financiar la reconstrucción y **eliminar las sanciones** que bloquean la inversión.
+
+#### El reto de la reconstrucción
+
+Siria enfrenta una de las **mayores crisis humanitarias del mundo**, con **millones de desplazados** y una economía devastada por más de una década de guerra. Las organizaciones humanitarias consideran que el **levantamiento de las sanciones** es imprescindible para que la ayuda y la inversión fluyan con normalidad.
+
+> "La visita de Guterres marca un punto de inflexión: la comunidad internacional debe decidir si acompaña la transición siria o deja que el país se hunda de nuevo", señalaron analistas citados por Al Jazeera.
+
+**Con información de:** [Al Jazeera](https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years), [Euronews](https://es.euronews.com/video/2026/07/31/ultimas-noticias-31-julio-2026-manana)`,
+    contentEn: `### Guterres in Damascus: a historic turn for Syria
+
+UN Secretary-General **António Guterres** made his **first visit to Damascus since 2009** and called for **an end to all sanctions on Syria** and global support for reconstruction. Meeting President **Ahmad al Sharaa**, he urged the international community to accompany the transition following the fall of Bashar al-Assad, fund rebuilding, and lift measures blocking investment and aid.
+
+**Sources:** Al Jazeera, Euronews`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a647a0d12de-1784969741.jpg?resize=1920%2C1440',
+    imageCaption: 'El secretario general de la ONU, António Guterres, con el presidente sirio Ahmad al Sharaa en Damasco. Foto: AFP',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 11,
+    source: 'Al Jazeera, AFP, Euronews',
+    sourceUrl: 'https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years'
+  },
+  {
+    id: '158',
+    contentType: 'news',
+    slug: 'petroleras-record-ganancias-guerra-iran',
+    titleEs: 'Las petroleras baten récords de ganancias por el alza del petróleo por la guerra con Irán',
+    titleEn: 'Oil giants post record profits driven by the Iran-war oil rally',
+    excerptEs: 'ExxonMobil, Chevron y Shell reportan sus mayores beneficios trimestrales en años gracias al alza de los precios de la gasolina por la guerra de EE.UU. e Israel contra Irán. Exxon ganó más de 14.500 millones de dólares en tres meses.',
+    excerptEn: 'ExxonMobil, Chevron and Shell report their biggest quarterly profits in years thanks to rising fuel prices from the US and Israeli war on Iran. Exxon earned more than $14.5 billion in three months.',
+    contentEs: `### Las petroleras capitalizan la guerra con Irán
+
+Las grandes petroleras del mundo reportan **beneficios trimestrales récord** impulsados por el **alza de los precios del petróleo y la gasolina**, consecuencia directa del **conflicto entre Estados Unidos, Israel e Irán**. En los últimos tres meses, **ExxonMobil** ganó **más de 14.500 millones de dólares**, **Chevron** cerca de **12.000 millones** y **Shell** casi **10.000 millones**.
+
+#### Beneficios en plena crisis energética
+
+La escalada en el **golfo de Ormuz**, por donde transita una parte clave del crudo mundial, disparó el precio del **Brent por encima de los 100 dólares por barril**. El alza se trasladó a las **bombas de gasolina** en todo el mundo, mientras las grandes compañías registran los mejores resultados de los últimos años.
+
+- **ExxonMobil**: más de 14.500 millones de dólares de beneficio en el trimestre.
+- **Chevron**: cerca de 12.000 millones.
+- **Shell**: casi 10.000 millones.
+- El **crudo Brent** superó los 100 dólares por barril por primera vez desde mayo.
+
+#### El debate sobre las ganancias extraordinarias
+
+La disparada de beneficios en plena crisis energética reavivó el debate sobre los **impuestos a las ganancias extraordinarias** de las petroleras. Organizaciones de consumidores y gobiernos europeos exigen que parte de esas ganancias **reduzca el precio final** del combustible, mientras la **OPEP+** estudia nuevas decisiones de producción.
+
+> "Mientras las familias sufren el alto precio de la gasolina, las petroleras acumulan beneficios históricos. La pregunta es cuánto tiempo se tolerará esta dinámica", plantean los analistas.
+
+**Con información de:** [AP](https://apnews.com/article/oil-companies-profits-exxon-chevron-9375fbf8f6f40426f7428e07d54000c7), [Democracy Now!](https://www.democracynow.org/2026/7/31/headlines)`,
+    contentEn: `### Oil majors cash in on the Iran war
+
+The world's biggest oil companies posted **record quarterly profits** as fuel prices surged on the US-Israel-Iran conflict. **ExxonMobil** earned more than **$14.5 billion** in three months, **Chevron** about **$12 billion** and **Shell** nearly **$10 billion**, with Brent crude crossing **$100 a barrel** for the first time since May. The windfall reignited the debate on **windfall profit taxes** as consumers face high pump prices.
+
+**Sources:** AP, Democracy Now!`,
+    date: '2026-07-31',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://dims.apnews.com/dims4/default/752a8e5/2147483647/strip/true/crop/5000x3332+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5c%2F89%2F7b377e9b0c79a4a05a722c5fa191%2F397203c95e3843cbae68643e52d2d7d5',
+    imageCaption: 'Instalación petrolera de ExxonMobil. Las grandes petroleras registran beneficios récord por el alza del crudo. Foto: AP',
+    categoryEs: 'Economía',
+    categoryEn: 'Economy',
+    enableComments: true,
+    featured: false,
+    views: 10,
+    source: 'AP, Democracy Now!',
+    sourceUrl: 'https://apnews.com/article/oil-companies-profits-exxon-chevron-9375fbf8f6f40426f7428e07d54000c7'
+  },
+  {
+    id: '159',
+    contentType: 'news',
+    slug: 'padre-tirador-georgia-condenado-15-anos',
+    titleEs: 'El padre del tirador de la escuela de Georgia, condenado a 15 años de prisión',
+    titleEn: 'Father of Georgia school shooter sentenced to 15 years in prison',
+    excerptEs: 'Colin Gray fue condenado a 15 años de cárcel por regalar a su hijo de 14 años un fusil tipo AR-15 con el que mató a dos estudiantes y dos profesores en una escuela de Winder, Georgia, en 2024. Fue declarado culpable de homicidio en segundo grado.',
+    excerptEn: 'Colin Gray was sentenced to 15 years in prison for giving his 14-year-old son an AR-15-style rifle used to kill two students and two teachers at a school in Winder, Georgia, in 2024. He was convicted of second-degree murder.',
+    contentEs: `### 15 años de prisión para el padre del tirador de Georgia
+
+Un tribunal de **Georgia** condenó a **15 años de prisión** a **Colin Gray**, el padre del adolescente que mató a **dos estudiantes y dos profesores** en una escuela secundaria de **Winder** en 2024. Gray fue declarado culpable de **homicidio en segundo grado** por regalar a su hijo de **14 años** un **fusil tipo AR-15** como regalo de Navidad.
+
+#### Una sentencia pionera
+
+La condena es una de las primeras en Estados Unidos en responsabilizar penalmente a un padre por las armas entregadas a un menor que luego comete un tiroteo masivo. Los fiscales acusaron a Gray de **ignorar los problemas emocionales** de su hijo, incluida su **obsesión con los tiradores escolares**.
+
+- **Colin Gray**: 15 años de prisión por homicidio en segundo grado.
+- El hijo, que tenía 14 años en el momento del ataque, está acusado de matar a **dos estudiantes y dos profesores** en Winder en 2024.
+- La sentencia marca un **precedente** en la responsabilidad parental sobre el acceso a las armas.
+
+#### El debate sobre el control de armas
+
+El caso reavivó en Estados Unidos el **debate sobre el control de armas** y la **responsabilidad de los adultos** que facilitan el acceso de menores a los fusiles. Organizaciones defensoras del control de armamento consideran la sentencia una **señal de cambio**, mientras los grupos pro-armas denuncian una **criminalización excesiva** de los padres.
+
+> "Entregar un arma de asalto a un adolescente con señales de alerta no es un regalo: es una sentencia de muerte. Hoy la justicia lo reconoció", señalaron organizaciones de víctimas tras conocerse el fallo.
+
+**Con información de:** [BBC](https://www.bbc.com/news/articles/c78g4y18rxgo), [Democracy Now!](https://www.democracynow.org/2026/7/31/headlines)`,
+    contentEn: `### Father of Georgia school shooter sentenced to 15 years
+
+**Colin Gray** was sentenced to **15 years in prison** for giving his **14-year-old son** an AR-15-style rifle used to kill **two students and two teachers** at a Winder, Georgia, school in 2024. Convicted of **second-degree murder**, Gray was accused of ignoring his son's emotional problems and obsession with school shooters. The ruling marks a rare precedent in holding parents criminally responsible for minors' access to guns and reignited the US gun-control debate.
+
+**Sources:** BBC, Democracy Now!`,
+    date: '2026-07-31',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://ichef.bbci.co.uk/news/1024/branded_news/6af0/live/c2d87530-8c3f-11f1-b8ee-9b3c26ad07bb.jpg',
+    imageCaption: 'Tribunal de Georgia durante la sentencia contra Colin Gray, padre del tirador de Winder. Foto: BBC/AP',
+    categoryEs: 'Policiales',
+    categoryEn: 'Crime',
+    enableComments: true,
+    featured: false,
+    views: 8,
+    source: 'BBC, Democracy Now!, AP',
+    sourceUrl: 'https://www.bbc.com/news/articles/c78g4y18rxgo'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];
