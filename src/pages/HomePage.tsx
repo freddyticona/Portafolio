@@ -10,7 +10,6 @@ import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIco
 import { YOUTUBE_VIDEOS } from '../config';
 import CinematicHero from '../components/CinematicHero';
 import BlogCard from '../components/BlogCard';
-import LinkedInBadge from '../components/LinkedInBadge';
 
 interface HomePageProps {
   lang: 'es' | 'en';
@@ -176,17 +175,6 @@ export default function HomePage({
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statAwards}</div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* LINKEDIN BADGE */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center">
-          <LinkedInBadge
-            href="https://www.linkedin.com/in/freddyticonaguzman"
-            vanity="freddyticonaguzman"
-            name={lang === 'es' ? 'Freddy Ticona Guzmán' : 'Freddy Ticona Guzman'}
-          />
         </div>
       </section>
 
