@@ -87,6 +87,76 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/ceuta-60000-migrantes-entraron-25000-regresaron-marruecos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Ceuta cifra en 60.000 los migrantes entrados desde Marruecos y 25.000 ya han regresado</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/espana-marruecos-pacto-devolucion-migrantes-ceuta</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>España y Marruecos pactan devolver &quot;lo antes posible&quot; a todos los migrantes que entraron ilegalmente en Ceuta</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/sanchez-visita-ceuta-sentencia-supremo-boyas-frontera-maritima</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Sánchez visita Ceuta, vincula la crisis a la sentencia del Supremo y anuncia boyas en el mar</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/vivas-emergencia-nacional-ejercito-ceuta-reaccion-europa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Ceuta pide la emergencia nacional, Interior la rechaza y Europa observa la crisis</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/redes-sociales-sentencia-supremo-entrada-masiva-ceuta</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31</news:publication_date>
+      <news:title>Las redes sociales, el Supremo y la viralidad: así se organizó la entrada masiva a Ceuta</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/dnu-milei-expulsar-extranjeros-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

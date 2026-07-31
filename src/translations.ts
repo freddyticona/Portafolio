@@ -9041,6 +9041,248 @@ At least **18 people have died**, including children and women, attempting to cr
     source: 'AP, RTVE, CEAR, France 24',
     sourceUrl: 'https://www.rtve.es/noticias/20260730/ceuta-fotos-entrada-masiva-inmigrantes-marruecos/17174458.shtml'
   },
+  {
+    id: '145',
+    contentType: 'news',
+    slug: 'ceuta-60000-migrantes-entraron-25000-regresaron-marruecos',
+    titleEs: 'Ceuta cifra en 60.000 los migrantes entrados desde Marruecos y 25.000 ya han regresado',
+    titleEn: 'Ceuta puts migrant arrivals from Morocco at 60,000; 25,000 have already returned',
+    excerptEs: 'El presidente de Ceuta, Juan Jesús Vivas, elevó este viernes a unos 60.000 los migrantes que han entrado en la ciudad desde Marruecos en los últimos días, más de la mitad de su población. Al menos 34 personas han muerto en el intento y más de 25.000 ya han regresado voluntariamente a Marruecos, según Interior.',
+    excerptEn: 'Ceuta president Juan Jesús Vivas raised the number of migrants entering from Morocco in recent days to around 60,000, more than half of the city population. At least 34 people have died trying to cross, while over 25,000 have already voluntarily returned to Morocco.',
+    contentEs: `### Ceuta cifra en 60.000 los migrantes entrados desde Marruecos
+
+El presidente de Ceuta, **Juan Jesús Vivas**, estimó este viernes que **unas 60.000 personas** han entrado de forma masiva e irregular en la ciudad autónoma desde Marruecos en los últimos días, una cifra que **supera la mitad de la población** del enclave, de poco más de 83.000 habitantes. La magnitud de la crisis sitúa a Ceuta ante su peor emergencia migratoria en décadas.
+
+#### Cifras en revisión constante
+
+Las cifras han ido **al alza en apenas 48 horas**: de los **2.000 migrantes** reportados el miércoles se pasó a los **miles** del jueves y a los **60.000** estimados por Vivas este viernes, más del triple del cruce masivo de **mayo de 2021** (unas 10.000 personas en dos días). El salto evidencia la dimensión real de la avalancha, protagonizada mayoritariamente por jóvenes marroquíes que rodearon a nado el espigón del Tarajal.
+
+El balance de fallecidos, según Vivas, asciende a **al menos 34 personas**, la mayoría ahogadas al tratar de bordear la frontera por mar o aplastadas en el tumulto por cruzar la valla de contención de la playa del Tarajal. A esta cifra se suman los cuerpos recuperados por los servicios de emergencia a lo largo de la jornada.
+
+#### Un retorno masivo en marcha
+
+El **Ministerio del Interior** informó de que **más de 25.000 migrantes** han regresado **voluntariamente a Marruecos** desde que comenzó la crisis, en una operación coordinada con las autoridades marroquíes. España ha desplegado efectivos militares en Ceuta para **reforzar a la Guardia Civil** y mantener la seguridad en los puntos de retorno.
+
+#### La batalla de las cifras
+
+La **sucesión de cifras contradictorias** —de miles a decenas de miles en horas— se ha convertido en un eje del relato político y mediático. Para los expertos en comunicación de crisis, la gestión de los **datos oficiales** condiciona la percepción pública de la gravedad del suceso: cada corrección alimenta la desconfianza sobre la capacidad de las instituciones para controlar la frontera.
+
+> "En una crisis de esta magnitud, las cifras son un arma comunicativa. Quien las maneja con transparencia gana credibilidad; quien las actualiza sin explicación, alimenta el ruido", apunta el analista de comunicación **Pablo Gómez**.
+
+**Con información de:** [France 24](https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours), [The Objective](https://theobjective.com/espana/2026-07-31/ceuta-60000-personas-marruecos/), [El Confidencial](https://www.elconfidencial.com/espana/2026-07-30/inmigrantes-entran-ceuta-marruecos_4398665/)`,
+    contentEn: `### Ceuta counts 60,000 arrivals from Morocco; 25,000 already returned
+
+Ceuta president **Juan Jesús Vivas** estimated Friday that **around 60,000 people** have entered the Spanish enclave irregularly from Morocco in recent days — more than half of its 83,000 residents. At least **34 people have died** trying to cross, many by drowning or being crushed in the stampede at the Tarajal breakwater. Spain's Interior Ministry says **more than 25,000 migrants have voluntarily returned** to Morocco, as the military reinforces the Civil Guard in the city.
+
+The figures surged from 2,000 (Wednesday) to tens of thousands within 48 hours, surpassing the 2021 mass crossing of about 10,000 people in two days.
+
+**Sources:** [France 24](https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours), The Objective, El Confidencial`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://s.france24.com/media/display/6545ce0c-8cdc-11f1-8633-005056a97e36/w:1280/p:16x9/AP26212312898697.jpg',
+    imageCaption: 'Migrantes comienzan a regresar a Marruecos desde el enclave español de Ceuta, el 31 de julio de 2026. Foto: Antonio Sempere / AP',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    views: 18,
+    source: 'France 24, The Objective, El Confidencial, AP',
+    sourceUrl: 'https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours'
+  },
+  {
+    id: '146',
+    contentType: 'news',
+    slug: 'espana-marruecos-pacto-devolucion-migrantes-ceuta',
+    titleEs: 'España y Marruecos pactan devolver "lo antes posible" a todos los migrantes que entraron ilegalmente en Ceuta',
+    titleEn: 'Spain and Morocco agree to return all migrants who entered Ceuta illegally "as soon as possible"',
+    excerptEs: 'Los gobiernos de España y Marruecos acordaron reforzar la coordinación para la entrega "lo antes posible" de todas las personas que entraron ilegalmente en Ceuta. Ambos países señalan a las organizaciones criminales y culpan de la avalancha a la instrumentalización de la reciente sentencia del Tribunal Supremo.',
+    excerptEn: 'Spain and Morocco agreed to strengthen coordination to hand over "as soon as possible" all people who entered Ceuta illegally. Both countries blame criminal organizations and the instrumentalization of a recent Supreme Court ruling for the surge.',
+    contentEs: `### España y Marruecos pactan la devolución "lo antes posible"
+
+Los gobiernos de **España y Marruecos** han acordado este jueves **reforzar la coordinación** para gestionar la entrega, **"lo antes posible"**, de **todas las personas que han entrado ilegalmente** en Ceuta en los últimos días, especialmente durante el cruce masivo del espigón de El Tarajal. El acuerdo, comunicado por el **Ministerio del Interior**, se concreta en el compromiso de "revisar e implementar medidas" para la devolución "de forma rápida y ordenada".
+
+#### Las claves del acuerdo
+
+- **Contacto permanente**: el ministro del Interior, **Fernando Grande-Marlaska**, mantiene comunicación continua con su homólogo marroquí, **Abdelouafi Laftit**, y se desplazó a Ceuta este viernes para gestionar la crisis sobre el terreno.
+- **Compromiso presidencial**: el presidente **Pedro Sánchez** aseguró en la red X que el Gobierno prepara "las medidas necesarias" para "recuperar la normalidad lo antes posible", tras dialogar con el presidente ceutí, Juan Jesús Vivas.
+- **Responsabilidad compartida**: ambos países coinciden en señalar a las **"organizaciones criminales"** y redes de **tráfico de personas** que buscan "instrumentalizar" la reciente sentencia del Tribunal Supremo, que prohíbe las **"devoluciones en caliente"** de quienes llegan a nado a Ceuta y Melilla.
+- **Desvinculación de Argelia**: Exteriores aclaró que la crisis **no está relacionada** con el viaje de Sánchez a Argelia el pasado 20 de julio y defendió que la relación con Marruecos "es excelente".
+
+#### El marco legal del Supremo
+
+La sentencia de la Sala de lo Contencioso-Administrativo del **Tribunal Supremo** (8 de julio) ratificó que la ley de Extranjería **no permite aplicar el "rechazo en frontera"** a quienes son interceptados en el mar intentando entrar a nado a Ceuta y Melilla, porque llegar por vía marítima **no implica superar un "elemento de contención fronterizo" físico**, como sí lo son las vallas. La justicia obliga a aplicar el **procedimiento ordinario de devolución** y censura como "vía de hecho" ilegal cualquier entrega sin procedimiento ni asistencia letrada.
+
+> El comunicado oficial de Interior no precisó qué **cambios concretos** aplicarán los dos países ni los **plazos** de la devolución, lo que ha abierto interrogantes sobre la operativa real del retorno, señala el Diario de Navarra.
+
+**Con información de:** [Europa Press](https://www.europapress.es/nacional/noticia-espana-marruecos-pactan-devolucion-antes-posible-todos-migrantes-entrado-ilegalmente-ceuta-20260730160940.html), [El Confidencial](https://www.elconfidencial.com/espana/2026-07-30/espana-marruecos-crisis-migratoria-ceuta-1tna-1tps_4398549/), [La Nación](https://www.lanacion.com.ar/el-mundo/una-avalancha-de-migrantes-que-llegan-a-nado-desde-marruecos-colapsa-los-controles-en-ceuta-y-pone-nid30072026)`,
+    contentEn: `### Spain and Morocco agree to return all illegal entrants "as soon as possible"
+
+Spain's Interior Ministry announced Thursday that both governments agreed to **strengthen coordination** and implement measures to hand over **"as soon as possible" all people who entered Ceuta illegally**. Interior Minister **Fernando Grande-Marlaska** is in permanent contact with his Moroccan counterpart **Abdelouafi Laftit** and traveled to Ceuta on Friday. PM **Sánchez** said on X that the government is preparing measures "to recover normality as soon as possible."
+
+Both countries blame **criminal organizations** and human-trafficking networks for exploiting the Supreme Court ruling (July 8) that bans "hot returns" (devoluciones en caliente) for people who arrive by swimming to Ceuta and Melilla, since arriving by sea does not involve crossing a physical border barrier. The ruling requires ordinary return procedures with legal assistance. Foreign Affairs denied the crisis is linked to Sánchez's July 20 trip to Algeria.
+
+**Sources:** [Europa Press](https://www.europapress.es/nacional/noticia-espana-marruecos-pactan-devolucion-antes-posible-todos-migrantes-entrado-ilegalmente-ceuta-20260730160940.html), El Confidencial, La Nación`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://e01-expansion.uecdn.es/assets/multimedia/imagenes/2026/07/31/17854988824187.jpg',
+    imageCaption: 'Miles de personas intentan acceder a Ceuta por el espigón del Tarajal en plena negociación bilateral. Foto: Reduan Dris / EFE',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: true,
+    views: 13,
+    source: 'Europa Press, El Confidencial, EFE, La Nación',
+    sourceUrl: 'https://www.europapress.es/nacional/noticia-espana-marruecos-pactan-devolucion-antes-posible-todos-migrantes-entrado-ilegalmente-ceuta-20260730160940.html'
+  },
+  {
+    id: '147',
+    contentType: 'news',
+    slug: 'sanchez-visita-ceuta-sentencia-supremo-boyas-frontera-maritima',
+    titleEs: 'Sánchez visita Ceuta, vincula la crisis a la sentencia del Supremo y anuncia boyas en el mar',
+    titleEn: 'Sánchez visits Ceuta, links the crisis to the Supreme Court ruling and announces sea buoys',
+    excerptEs: 'El presidente del Gobierno viajó este viernes a Ceuta y condenó la entrada masiva como una "violación de la integridad territorial" de España. Vinculó la avalancha a la sentencia del Supremo que prohíbe las devoluciones en caliente y anunció la colocación de boyas para crear una frontera física en el mar.',
+    excerptEn: 'PM Sánchez traveled to Ceuta on Friday, condemned the mass entry as a "violation of Spain\'s territorial integrity", linked the surge to the Supreme Court ruling banning hot returns, and announced the placement of buoys to create a physical sea border.',
+    contentEs: `### Sánchez visita Ceuta y anuncia boyas como frontera física en el mar
+
+El presidente del Gobierno, **Pedro Sánchez**, se desplazó este viernes a **Ceuta** para conocer sobre el terreno la situación y condenó la entrada masiva de migrantes como un **"ataque"** y una **"violación de la integridad territorial de España"**, al tiempo que garantizó "todas las medidas necesarias" para hacerle frente. Lo hizo acompañado del ministro del Interior, **Fernando Grande-Marlaska**.
+
+#### La tesis del Supremo
+
+Sánchez vinculó la avalancha con una **sentencia del Tribunal Supremo** de julio que impide las **"devoluciones en caliente"** de quienes entran a nado a Ceuta y Melilla sin el debido proceso administrativo. Según el presidente, el fallo **"corrió como la pólvora por las redes sociales"** de las mafias que trafican con personas, lo que **alimentó la movilización** y provocó el cruce masivo. El Supremo exige aplicar el procedimiento ordinario de devolución a quienes llegan por mar.
+
+Sus explicaciones coinciden con lo señalado el jueves por el ministro de Exteriores, **José Manuel Albares**, quien subrayó que los hechos de Ceuta tienen relación con la sentencia del **8 de julio** y **nada que ver** con el proceso de regularización.
+
+#### Boyas en el mar
+
+Sánchez anunció la **colocación de boyas en el mar** para crear una **frontera física entre España y Marruecos**, con el objetivo de dar cumplimiento a la sentencia del Supremo: mientras no exista un elemento de contención físico que impida el paso a nado, no cabe el rechazo en frontera. La barrera de contención visible marcaría la **línea fronteriza marítima** y facilitaría la aplicación del marco legal.
+
+> La medida, de gran complejidad técnica y jurídica por tratarse de **aguas internacionales**, deberá coordinarse con Marruecos y puede tardar meses en ejecutarse, advierten fuentes del sector marítimo consultadas por Expansión.
+
+**Con información de:** [Expansión](https://www.expansion.com/economia/politica/2026/07/31/6a6c8060e5fdea7a468b4588.html), [France 24](https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours), [The Objective](https://theobjective.com/espana/2026-07-31/sanchez-denuncia-ataque-integridad-espana/)`,
+    contentEn: `### Sánchez visits Ceuta and announces sea buoys
+
+PM **Pedro Sánchez** traveled to **Ceuta** on Friday with Interior Minister **Grande-Marlaska**, condemning the mass entry as an **"attack"** and **"a violation of Spain's territorial integrity."** He linked the surge to the **Supreme Court ruling** (July 8) banning "hot returns" for people who arrive by swimming to Ceuta and Melilla, saying the ruling "spread like wildfire on the social networks" of human-trafficking mafias and fueled the mobilization.
+
+Sánchez announced the **placement of buoys in the sea** to create a **physical border between Spain and Morocco**, complying with the ruling that requires a physical containment element to apply border rejection. Foreign Minister Albares had earlier stressed the crisis is linked to the ruling, not to the regularization process.
+
+**Sources:** [Expansión](https://www.expansion.com/economia/politica/2026/07/31/6a6c8060e5fdea7a468b4588.html), France 24, The Objective`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://e01-expansion.uecdn.es/assets/multimedia/imagenes/2026/07/31/17854988842328.jpg',
+    imageCaption: 'Pedro Sánchez y Fernando Grande-Marlaska, en Ceuta, durante la visita del presidente a la ciudad autónoma. Foto: Reduan Dris / EFE',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: true,
+    views: 16,
+    source: 'Expansión, France 24, EFE, The Objective',
+    sourceUrl: 'https://www.expansion.com/economia/politica/2026/07/31/6a6c8060e5fdea7a468b4588.html'
+  },
+  {
+    id: '148',
+    contentType: 'news',
+    slug: 'vivas-emergencia-nacional-ejercito-ceuta-reaccion-europa',
+    titleEs: 'Ceuta pide la emergencia nacional, Interior la rechaza y Europa observa la crisis',
+    titleEn: 'Ceuta asks for a national emergency, Interior rejects it, and Europe watches the crisis',
+    excerptEs: 'El presidente de Ceuta, Juan Jesús Vivas, reclamó al Ejecutivo central la declaración de emergencia nacional y el despliegue del Ejército, petición que Interior rechazó. Mientras tanto, Italia estudia suspender Schengen, Finlandia apoya excluir a España y Bruselas promete apoyo ante una crisis que ya es europea.',
+    excerptEn: 'Ceuta president Juan Jesús Vivas demanded the central government declare a national emergency and deploy the army, a request Interior rejected. Meanwhile Italy considers suspending Schengen, Finland backs excluding Spain, and Brussels pledges support in a crisis that has become European.',
+    contentEs: `### Ceuta pide emergencia nacional, Interior la rechaza y Europa reacciona
+
+El presidente de Ceuta, **Juan Jesús Vivas**, reclamó este jueves al Ejecutivo central la declaración de la **emergencia nacional** y el **despliegue del Ejército** en la frontera ante la presión migratoria "extrema" que sufre la ciudad. El Gobierno central, sin embargo, **rechazó** la petición, y Vivas insistió en exigir una respuesta **"enérgica, decidida e inmediata"** del Estado.
+
+#### La ciudad al límite
+
+Ceuta, con poco más de **83.000 habitantes**, ha recibido en pocos días a decenas de miles de personas, lo que desbordó las capacidades de acogida. El gobierno ceutí alertó de una **"emergencia humanitaria y social"** y los partidos locales pidieron al Ejército que refuerce el perímetro. El despliegue militar se produjo finalmente este viernes para apoyar a la Guardia Civil en las labores de contención y retorno.
+
+#### La dimensión europea
+
+La crisis ha saltado del plano bilateral al **europeo**:
+
+- **Italia** considera **suspender el acuerdo de Schengen** con España si el flujo no se controla, según fuentes del Gobierno de Meloni.
+- **Finlandia** apoya la idea de **excluir temporalmente a España** del espacio Schengen por la crisis migratoria.
+- **Bruselas** se ofrece a **reforzar el apoyo a España**, con el despliegue de la agencia Frontex y el uso de fondos europeos.
+- El debate sobre la **securitización de la migración** vuelve a la agenda comunitaria en plena negociación del nuevo Pacto Migratorio.
+
+#### La securitización del fenómeno migratorio
+
+Para los analistas, el lenguaje de la **"emergencia"**, la **"invasión"** y la **suspensión de Schengen** convierte la migración en un **problema de seguridad** más que en un reto de gestión. La **teoría de la securitización** (Escuela de Copenhague) advierte de que, cuando un asunto es presentado como una **amenaza existencial**, se legitiman medidas excepcionales —como el despliegue militar o el cierre de fronteras— que no pasarían el escrutinio democrático habitual.
+
+> "Cuando la frontera se militariza, el migrante deja de ser una persona vulnerable para convertirse en un enemigo. Es el riesgo de este tipo de narrativas", advierte la investigadora **Helena Maleno**, activista de derechos humanos.
+
+**Con información de:** [ABC](https://www.abc.es/espana/presidente-ceuta-reclama-emergencia-nacional-ante-presion-20260730092554-nt.html), [Vozpópuli](https://www.vozpopuli.com/espana/interior-rechaza-declarar-la-emergencia-nacional-en-ceuta-vivas-pide-una-respuesta-energica-decidida-e-inmediata.html), [The Objective](https://theobjective.com/espana/2026-07-31/finlandia-excluir-espana-schengen-ceuta/), [Expansión](https://www.expansion.com/sociedad/2026/07/31/6a6c5db7468aebfd4c8b459b.html)`,
+    contentEn: `### Ceuta asks for national emergency; Europe reacts
+
+Ceuta president **Juan Jesús Vivas** demanded the central government declare a **national emergency** and deploy the **army** at the border. The government **rejected** the request; Vivas insisted on an "energetic, decisive and immediate" response. The military was eventually deployed Friday to support the Civil Guard.
+
+The crisis has gained a European dimension: **Italy** is considering **suspending Schengen** with Spain, **Finland** backs excluding Spain from the Schengen area, and **Brussels** offers Frontex and EU funds. Analysts point to the **securitization** of migration (Copenhagen School): framing the issue as an **existential threat** legitimizes exceptional measures like military deployment or border closures.
+
+**Sources:** [ABC](https://www.abc.es/espana/presidente-ceuta-reclama-emergencia-nacional-ante-presion-20260730092554-nt.html), Vozpópuli, The Objective, Expansión`,
+    date: '2026-07-31',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://e01-expansion.uecdn.es/assets/multimedia/imagenes/2026/07/31/17854988836984.jpg',
+    imageCaption: 'Cientos de jóvenes marroquíes cruzan la frontera entre Castillejos (Marruecos) y Ceuta durante la crisis. Foto: Reduan Dris / EFE',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 11,
+    source: 'ABC, Vozpópuli, The Objective, Expansión, EFE',
+    sourceUrl: 'https://www.abc.es/espana/presidente-ceuta-reclama-emergencia-nacional-ante-presion-20260730092554-nt.html'
+  },
+  {
+    id: '149',
+    contentType: 'news',
+    slug: 'redes-sociales-sentencia-supremo-entrada-masiva-ceuta',
+    titleEs: 'Las redes sociales, el Supremo y la viralidad: así se organizó la entrada masiva a Ceuta',
+    titleEn: 'Social media, the Supreme Court and virality: how the mass entry to Ceuta was organized',
+    excerptEs: 'La sentencia del Supremo que prohíbe las devoluciones en caliente "corrió como la pólvora" por WhatsApp, Telegram y TikTok de las redes de tráfico de personas, según Sánchez. La viralidad del fallo se convirtió en el acelerador de la avalancha: un caso de estudio sobre el poder de las redes para organizar fenómenos colectivos.',
+    excerptEn: 'The Supreme Court ruling banning hot returns "spread like wildfire" through the WhatsApp, Telegram and TikTok channels of human-trafficking networks, according to Sánchez. The virality of the ruling became the accelerator of the surge — a case study on the power of social media to organize collective phenomena.',
+    contentEs: `### Redes sociales y viralidad: el acelerador invisible de la crisis
+
+La sentencia del **Tribunal Supremo** que impide las **devoluciones en caliente** de quienes llegan a nado a Ceuta y Melilla **"corrió como la pólvora por las redes sociales"** de las mafias que trafican con personas, según afirmó el presidente **Pedro Sánchez**. Esa **viralidad** se ha convertido en la hipótesis central del Gobierno para explicar cómo miles de jóvenes marroquíes se concentraron en pocas horas en la frontera del Tarajal.
+
+#### El mecanismo de la viralidad
+
+Según los análisis publicados sobre el papel de las redes en la entrada masiva, el proceso combinó varios elementos:
+
+- **Difusión en cadena**: el resumen de la sentencia circuló por **WhatsApp**, **Telegram** y **TikTok** en magrebí, acompañado de vídeos de cruces exitosos de 2021.
+- **Efecto demostración**: las imágenes de quienes ya habían entrado actuaron como **prueba social** y animaron a nuevas olas de intentos.
+- **Inmediatez**: la organización se movió en **horas**, sin estructuras visibles, coordinada por canales cifrados.
+- **Desinformación selectiva**: los mensajes presentaban la sentencia como una "puerta abierta" definitiva, **simplificando** un fallo técnico sobre el procedimiento administrativo.
+
+#### Del rumor a la acción colectiva
+
+Para la sociología de la comunicación, la crisis de Ceuta es un **caso de estudio** de cómo un contenido viral puede **transformarse en acción colectiva organizada**. La **teoría del contagio social** explica que la decisión de intentar el cruce se refuerza cuando el comportamiento se percibe como **frecuente y rentable** en el entorno digital del individuo.
+
+Los expertos recuerdan además el precedente de **mayo de 2021**, cuando una concentración similar —alimentada también por redes sociales— llevó a más de **10.000 personas** a cruzar en dos días. La diferencia ahora es la **velocidad** de la difusión y el tamaño de la oleada.
+
+> "El algoritmo premia lo extremo. Cuando una sentencia se convierte en un meme migratorio, la frontera deja de ser un muro físico para ser un flujo de información. Es un nuevo tipo de presión migratoria", analiza el investigador **Carlos Maldonado**.
+
+**Con información de:** [Expansión](https://www.expansion.com/economia/politica/2026/07/31/6a6c53d1e5fdea584f8b4572.html), [France 24](https://www.france24.com/en/europe/20260731-almost-50-000-migrants-crossed-morocco-ceuta-border-over-past-24-hours), [El Confidencial](https://www.elconfidencial.com/espana/2026-07-28/crisis-migratoria-ceuta-marruecos-sentencia-1hms_4396844/)`,
+    contentEn: `### Social media and virality: the invisible accelerator of the crisis
+
+PM **Sánchez** said the Supreme Court ruling banning hot returns "spread like wildfire" through the **WhatsApp, Telegram and TikTok channels** of human-trafficking networks. Analysis of the mass entry shows a chain of elements: summaries of the ruling circulated in Maghrebi Arabic alongside videos of successful 2021 crossings; images of those who made it acted as **social proof**; encrypted channels coordinated movements in hours; and messages presented the technical ruling as a permanent "open door."
+
+For communication sociology, the crisis is a **case study** in how viral content triggers organized collective action (**social contagion**). It echoes May 2021, when social-media-fed concentration led 10,000 people to cross in two days — but now with far greater speed and scale.
+
+**Sources:** [Expansión](https://www.expansion.com/economia/politica/2026/07/31/6a6c53d1e5fdea584f8b4572.html), France 24, El Confidencial`,
+    date: '2026-07-31',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://s.france24.com/media/display/843714b4-8cc4-11f1-a22c-005056bf30b7/w:1024/p:16x9/AP26211728801582.jpg',
+    imageCaption: 'Migrantes de Marruecos llegan a la frontera española en Ceuta, en plena oleada organizada a través de redes sociales. Foto: AP',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 9,
+    source: 'Expansión, France 24, El Confidencial, AP',
+    sourceUrl: 'https://www.expansion.com/economia/politica/2026/07/31/6a6c53d1e5fdea584f8b4572.html'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];
