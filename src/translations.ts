@@ -10180,9 +10180,7 @@ SmartSub is a perfect example of how **open source software** democratizes profe
     categoryEn: 'Technology',
     enableComments: true,
     featured: false,
-    views: 1,
-    source: 'GitHub — buxuku/SmartSub (documentación oficial)',
-    sourceUrl: 'https://github.com/buxuku/SmartSub'
+    views: 1
   },
       // ============================================================
       // FIN DE NOTICIAS
