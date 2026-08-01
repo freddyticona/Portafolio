@@ -143,6 +143,62 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/guias/guia-licencia-funcionamiento-municipal-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Licencia de Funcionamiento Municipal Bolivia 2026 — Requisitos y trámite paso a paso</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/guias/guia-carnet-vacunacion-covid-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo sacar el carnet de vacunación COVID-19 en Bolivia 2026 — Paso a paso en línea</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-correccion-color-davinci-resolve</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Corrección de color en DaVinci Resolve — Guía paso a paso (gratis)</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-grabar-entrevistas-campo-periodismo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo grabar entrevistas de campo en periodismo — Guía para camarógrafos y reporteros</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/muere-rapero-soldis-c4-guadalajara</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

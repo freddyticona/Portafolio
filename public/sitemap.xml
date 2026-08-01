@@ -133,6 +133,30 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://freddydev.net/guias/guia-licencia-funcionamiento-municipal-bolivia-2026</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/guias/guia-carnet-vacunacion-covid-bolivia-2026</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-correccion-color-davinci-resolve</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-grabar-entrevistas-campo-periodismo</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/muere-rapero-soldis-c4-guadalajara</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>

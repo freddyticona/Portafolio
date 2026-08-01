@@ -6879,6 +6879,549 @@ Updated August 2026.`,
     featured: false,
     views: 1
   },
+  {
+    id: '181',
+    contentType: 'analysis',
+    slug: 'guia-licencia-funcionamiento-municipal-bolivia-2026',
+    titleEs: 'Licencia de Funcionamiento Municipal Bolivia 2026 — Requisitos y trámite paso a paso',
+    titleEn: 'Municipal Operating License Bolivia 2026 — Requirements and step by step process',
+    excerptEs: 'Guía completa para obtener la Licencia de Funcionamiento Municipal en Bolivia en 2026. Quién debe tramitarla, dónde se solicita (Unidad de Actividades Económicas del municipio), requisitos por tipo de actividad, cómo hacerlo en línea con iGob 24/7, costos, tiempo de duración y qué pasa con la Patente de Funcionamiento anual.',
+    excerptEn: 'Complete guide to get the Municipal Operating License in Bolivia in 2026. Who must apply, where to request it (Municipal Economic Activities Unit), requirements by activity type, how to do it online with iGob 24/7, costs, processing time and what happens with the annual operating patent.',
+    contentEs: `### Guía Completa: Licencia de Funcionamiento Municipal en Bolivia 2026
+
+La **Licencia de Funcionamiento** es el documento que otorga el Gobierno Autónomo Municipal (GAM) a las personas naturales o jurídicas para operar legalmente un negocio. Sin esta licencia, tu empresa o local **no puede abrir sus puertas al público** ni realizar actividades económicas de forma legal.
+
+---
+
+#### Quién debe tramitarla
+
+Todas las **personas naturales o jurídicas** que operen en un local, taller, oficina, espacio comercial o punto de venta:
+
+- Tiendas y comercios.
+- Talleres y servicios técnicos.
+- Restaurantes, cafeterías y bares.
+- Servicios profesionales y consultorías.
+- Empresas manufactureras e industriales.
+- Agencias y estudios de producción audiovisual.
+- Cualquier actividad económica con atención al público o producción.
+
+---
+
+#### Dónde se tramita
+
+En el **Gobierno Autónomo Municipal** del lugar donde está ubicado el negocio. Cada municipio tiene requisitos y procedimientos propios, pero la estructura general es similar en todo el país.
+
+**En La Paz** el trámite se realiza en la **Unidad de Actividades Económicas (UAE)**, de la Dirección de Actividades Económicas y Mercados (DAEM), dependiente de la Secretaría Municipal de Desarrollo Económico (SMDE). Puedes gestionarlo de forma **presencial** en las Plataformas de Atención Ciudadana o **en línea** a través del portal **iGob 24/7**.
+
+---
+
+#### Requisitos generales (persona natural)
+
+En atención a las Leyes Municipales Autonómicas N.º 217, 221 y 343 "De Integración, Modificación y Actualización de Patentes Municipales", los requisitos se simplificaron:
+
+1. **Registro Ciudadano** (Cédula de Identidad) y acceso a la plataforma virtual **iGob 24/7**.
+2. **Fotografía de cada elemento de identificación** de la actividad económica (VIAE) y una fotografía del frontis del inmueble, con las medidas en metros.
+3. **NIT** o inscripción al Régimen Simplificado (opcional para algunas actividades).
+4. **Plano de construcción o modificación** aprobado por la Subalcaldía (en el caso de servicios higiénicos).
+
+**Requisitos adicionales según la actividad:**
+- **Actividades alimenticias** (heladerías, carnicerías, pollos crudos, panaderías): carnet de **manipulación de alimentos** del personal.
+- **Actividades industriales** (tornerías, chaperías, lavados de autos, talleres): **Registro Ambiental (RAI)**, carta de categorización ambiental y certificación acústica emitida por la Dirección de Prevención y Control Ambiental.
+- **Más de una actividad** en el mismo inmueble y del mismo titular: licencia como **"Multiservicios"** detallando cada actividad.
+
+---
+
+#### Cómo hacer el trámite paso a paso (La Paz)
+
+1. **Regístrate en iGob 24/7** con tu cédula de identidad ([igob.lapaz.bo](https://igob.lapaz.bo)).
+2. **Adjunta los requisitos digitalizados** a través de la plataforma o presenta los documentos originales y fotocopias en una Plataforma de Atención Ciudadana.
+3. **Permite la inspección de verificación** al establecimiento de la Actividad Económica cuando el municipio lo requiera.
+4. **Descarga e imprime tu licencia** desde tu cuenta iGob 24/7 o en la plataforma presencial.
+
+**Tiempo de duración:** el trámite tiene una duración de **24 a 48 horas**.
+
+**Puntos de atención en La Paz:**
+- **Plataforma Integral Miraflores:** Calle Chichas esq. Puente de las Américas, Edificio "Torre Espra", planta baja, N.º 1204. Horario 08:15 a 17:30.
+- **Plataforma Integral Camacho:** Av. Simón Bolívar, mercado Camacho, subsuelo.
+- **Plataforma Integral Sur:** verificar dirección según tu distrito.
+
+---
+
+#### Costos
+
+- **La Licencia de Funcionamiento en sí no tiene costo** en el municipio de La Paz.
+- Debes pagar la **Patente de Funcionamiento Anual**, que es la tasa municipal que se cancela cada año por operar la actividad económica. Su monto varía según la categoría de tu negocio (referencia general: desde Bs 100 hasta varios cientos de bolivianos según el tipo de actividad).
+
+> Verifica siempre el monto vigente de la patente en tu municipio, ya que las tasas se actualizan cada gestión.
+
+---
+
+#### Preguntas frecuentes
+
+**¿Necesito la licencia de funcionamiento si vendo por internet desde casa?**
+Sí, si la actividad implica atención al público o producción desde un local. Algunos municipios regulan el trabajo desde domicilio particular; consulta en tu Alcaldía.
+
+**¿La licencia es gratuita siempre?**
+El documento en La Paz es gratuito, pero la **Patente de Funcionamiento Anual** siempre debe pagarse. En otros municipios pueden cobrar tasas por la emisión del documento.
+
+**¿Puedo renovarla?**
+La patente se renueva anualmente. La licencia de funcionamiento se mantiene mientras la actividad no cambie de giro o domicilio; si cambias de giro o dirección, debes tramitar una nueva apertura.
+
+**¿Qué pasa si opero sin licencia?**
+La Intendencia Municipal puede clausurar el establecimiento y aplicar multas. Operar sin la documentación municipal expone al negocio a sanciones.
+
+---
+
+#### Enlaces oficiales
+
+- GAMLP — Trámites y servicios: [https://lapaz.bo/tramites-y-servicios-gamlp/](https://lapaz.bo/tramites-y-servicios-gamlp/)
+- GAMLP — iGob 24/7: [https://igob.lapaz.bo](https://igob.lapaz.bo)
+- Bolivia Emprende — Guía de licencia de funcionamiento: [https://boliviaemprende.com](https://boliviaemprende.com)
+
+> Esta guía fue actualizada en agosto de 2026. Los requisitos y costos varían por municipio. Verifica siempre la información oficial de tu Gobierno Autónomo Municipal.`,
+    contentEn: `### Complete Guide: Municipal Operating License in Bolivia 2026
+
+The Municipal Operating License is issued by the Municipal Autonomous Government (GAM) allowing natural or legal persons to legally run a business. Without it, a business cannot open to the public.
+
+**Who needs it:** All natural or legal persons operating a store, workshop, office, commercial space or sales point — shops, restaurants, professional services, manufacturers, agencies, audiovisual production studios, and any activity with public service or production.
+
+**Where to apply:** At the Municipal Autonomous Government where the business is located. In La Paz it is processed at the Economic Activities Unit (UAE), in person at Citizen Service Platforms or online via the iGob 24/7 portal.
+
+**General requirements (natural person):** Valid ID (SEGIP) and iGob 24/7 account; a photo of each economic activity identification element (VIAE) and a photo of the property front with dimensions in meters; NIT or Simplified Regime registration (optional); approved construction plans for sanitary facilities when applicable. Food businesses need a food-handling card; industrial activities need the Environmental Registry (RAI), environmental categorization letter and acoustic certification; multiple activities require a "multiservice" license.
+
+**Steps (La Paz):** 1) Register on iGob 24/7 with your ID. 2) Upload digital requirements or submit originals at a service platform. 3) Allow the municipal inspection when required. 4) Download and print your license from iGob 24/7. Processing time: 24-48 hours.
+
+**Costs:** The license itself is free in La Paz. You must pay the annual Operating Patent (Patente de Funcionamiento), which varies by business category.
+
+**FAQ:** Businesses selling online from home may still need it. The license is free but the annual patent is always required. The patent renews yearly; a change of business type or address requires a new application. Operating without a license risks closure and fines from the municipal Intendencia.
+
+For more info: https://lapaz.bo/tramites-y-servicios-gamlp/`,
+    date: '2026-08-01',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '9 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=630&fit=crop',
+    imageCaption: 'Licencia de funcionamiento municipal. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '182',
+    contentType: 'analysis',
+    slug: 'guia-carnet-vacunacion-covid-bolivia-2026',
+    titleEs: 'Cómo sacar el carnet de vacunación COVID-19 en Bolivia 2026 — Paso a paso en línea',
+    titleEn: 'How to get the COVID-19 vaccination card in Bolivia 2026 — Step by step online',
+    excerptEs: 'Guía para obtener, recuperar o verificar tu carnet de vacunación COVID-19 en Bolivia en 2026. Cómo descargarlo desde el portal del Ministerio de Salud (sus.minsalud.gob.bo), con la app Unidos Contra el Covid, qué datos necesitas (carnet de identidad y fecha de nacimiento) y qué hacer si se perdió o tienes dosis registradas con otro documento.',
+    excerptEn: 'Guide to get, recover or verify your COVID-19 vaccination card in Bolivia in 2026. How to download it from the Ministry of Health portal (sus.minsalud.gob.bo), with the Unidos Contra el Covid app, what data you need (ID number and date of birth) and what to do if it was lost or doses were registered with another document.',
+    contentEs: `### Guía Completa: Carnet de vacunación COVID-19 en Bolivia 2026
+
+El **carnet de vacunación COVID-19** es el documento oficial que certifica el esquema de vacunación de una persona contra el coronavirus. En Bolivia se emite de forma digital y puede descargarse, imprimirse o verificarse desde el celular o la computadora, sin necesidad de acudir a una oficina.
+
+---
+
+#### Qué necesitas
+
+- **Número de cédula de identidad** (o documento con el que te vacunaste).
+- **Fecha de nacimiento**.
+- Acceso a internet desde un celular o computadora.
+- Que tus dosis estén registradas en el **Registro Nominal de Vacunaciones Electrónico (RNVe)** del Ministerio de Salud.
+
+---
+
+#### Paso 1 — Descarga desde el portal del Ministerio de Salud
+
+1. Ingresa al sitio del **Ministerio de Salud y Deportes**: [sus.minsalud.gob.bo](https://sus.minsalud.gob.bo).
+2. En la sección de vacunación COVID-19, elige **"Consulta tu vacunación"** o **"Imprima certificado de vacuna COVID-19"**.
+3. Ingresa tu **número de documento de identidad** y **fecha de nacimiento**.
+4. Presiona **"Buscar"**.
+5. El sistema muestra tu esquema de vacunación y el **carnet digital** listo para descargar (PDF) o imprimir.
+
+---
+
+#### Paso 2 — Desde la app Unidos Contra el Covid
+
+1. Descarga la aplicación **"Unidos Contra el Covid"** (Play Store o App Store).
+2. Escoge la opción **"Carnet"** y mantén el tipo de documento **"Cédula de identidad"**.
+3. Llena los datos: **número de carnet de identidad** y **fecha de nacimiento**.
+4. Presiona **"Verificar"**.
+5. Verás tu carnet en miniatura y podrás **descargarlo o imprimirlo**.
+6. La app también permite **escanear códigos QR** de otros carnets para verificar la autenticidad (tipo de vacuna, número de dosis y fechas).
+
+---
+
+#### Si perdiste tu carnet
+
+El Ministerio de Salud permite recuperar el documento digitalmente con los mismos pasos anteriores. No hay límite de descargas de la certificación en la plataforma; guarda el PDF en un lugar seguro.
+
+**Recomendaciones:**
+- Verifica que los datos coincidan con tu documento de identidad.
+- Si te vacunaste en un centro de salud, confirma que tus dosis fueron registradas en el RNVe.
+- Ante dudas, acude al centro de salud donde te vacunaste para regularizar tu registro.
+
+---
+
+#### ¿Es obligatorio?
+
+El carnet de vacunación COVID-19 fue exigido durante la pandemia para ingresar a espacios de gran aforo (instituciones públicas y privadas, entidades financieras, centros comerciales, universidades, unidades educativas y lugares de entretenimiento). Su exigencia se relajó progresivamente, pero sigue siendo un **documento útil** para trámites laborales, viajes y registros de salud. Consulta los requisitos vigentes de la entidad o país de destino.
+
+---
+
+#### Problemas comunes y soluciones
+
+**No encuentro mi registro:**
+- Verifica que escribiste bien el número de documento y la fecha de nacimiento.
+- Si te vacunaste con otro documento (pasaporte, carnet de extranjería), prueba con ese número.
+- Consulta en el centro de salud donde te vacunaste: puede haber un error en el registro nominal.
+
+**El sitio no carga:**
+- Prueba en otro navegador o desde el celular.
+- Revisa tu conexión a internet.
+- El sistema suele ser más estable en horarios de baja demanda.
+
+**Mi esquema está incompleto:**
+- Acude a un punto de vacunación habilitado para completar dosis pendientes si corresponde.
+
+---
+
+#### Preguntas frecuentes
+
+**¿El carnet digital tiene validez oficial?**
+Sí, el carnet generado desde las plataformas oficiales del Ministerio de Salud es el documento válido de vacunación.
+
+**¿Puedo imprimirlo en papel?**
+Sí, puedes descargar el PDF e imprimirlo cuantas veces necesites.
+
+**¿Qué datos aparecen en el carnet?**
+Tipo de vacuna, número de dosis recibidas y fechas de vacunación, junto con tus datos de identificación.
+
+**¿Es gratuito?**
+Sí, el trámite digital es completamente gratuito.
+
+---
+
+#### Enlaces oficiales
+
+- Ministerio de Salud — Sistema Único de Salud (SUS): [https://sus.minsalud.gob.bo](https://sus.minsalud.gob.bo)
+- Ministerio de Salud y Deportes: [https://www.minsalud.gob.bo](https://www.minsalud.gob.bo)
+
+> Esta guía fue actualizada en agosto de 2026. Verifica siempre la información vigente en las plataformas oficiales del Ministerio de Salud.`,
+    contentEn: `### Complete Guide: COVID-19 vaccination card in Bolivia 2026
+
+The COVID-19 vaccination card is the official document certifying a person's vaccination schedule in Bolivia. It is issued digitally and can be downloaded, printed or verified from a phone or computer.
+
+**What you need:** Your ID number, date of birth, internet access, and your doses must be registered in the National Electronic Vaccination Registry (RNVe) of the Ministry of Health.
+
+**Step 1 — Download from the Ministry portal:** Go to sus.minsalud.gob.bo, choose "Check your vaccination" or "Print COVID-19 vaccine certificate", enter your ID number and date of birth, press "Search", and download the PDF card.
+
+**Step 2 — From the Unidos Contra el Covid app:** Download the app, choose "Carnet" with "Cédula de identidad" as document type, enter ID and date of birth, press "Verify", then download or print. The app can also scan QR codes of other cards to verify authenticity.
+
+**If you lost your card:** The same digital steps recover it. There is no download limit. Keep the PDF safe.
+
+**Common issues:** Verify your ID number and date of birth; if vaccinated with a different document (passport, foreigner card) try that number; if the record is missing, ask at the vaccination center to fix the RNVe registration. An incomplete schedule can be completed at an available vaccination point.
+
+**FAQ:** The digital card has official validity, can be printed in paper, shows vaccine type, dose count and dates, and the process is completely free.
+
+For more info: https://sus.minsalud.gob.bo`,
+    date: '2026-08-01',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1584291527959-feab9e0097a1?w=1200&h=630&fit=crop',
+    imageCaption: 'Carnet de vacunación digital. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '183',
+    contentType: 'analysis',
+    slug: 'tutorial-correccion-color-davinci-resolve',
+    titleEs: 'Corrección de color en DaVinci Resolve — Guía paso a paso (gratis)',
+    titleEn: 'Color correction in DaVinci Resolve — Step by step guide (free)',
+    excerptEs: 'Tutorial práctico de corrección de color en DaVinci Resolve (versión gratuita). Cómo crear un proyecto, pasar a la página Color, leer el scopes (waveform y vectorscope), balancear blancos y negros con curvas, igualar tomas y aplicar estilos con LUTs. Incluye flujo de trabajo profesional.',
+    excerptEn: 'Practical color correction tutorial in DaVinci Resolve (free version). How to create a project, switch to the Color page, read the scopes (waveform and vectorscope), balance whites and blacks with curves, match shots and apply styles with LUTs. Includes professional workflow.',
+    contentEs: `### Tutorial: Corrección de color en DaVinci Resolve — Guía paso a paso
+
+**DaVinci Resolve** es el estándar de la industria para corrección y etalonaje de color, y su **versión gratuita** incluye la suite completa de color que usan los estudios de cine. En este tutorial te enseño el flujo de trabajo básico y profesional para que empieces a etalonar tus videos.
+
+---
+
+#### Paso 1 — Crea el proyecto y carga tu material
+
+1. Abre DaVinci Resolve y crea un **nuevo proyecto**.
+2. Ve a la pestaña **Media** (Media Pool) e importa tus clips (arrastra los archivos a la biblioteca).
+3. Pasa a la pestaña **Edit**, arrastra el clip a la **timeline**.
+4. Ve a la pestaña **Color** para comenzar la corrección.
+
+> Puedes usar la misma pestaña Color para un solo clip o trabajar por nodos para mayor control.
+
+---
+
+#### Paso 2 — Conoce los scopes (instrumentos de medición)
+
+Los **scopes** son la herramienta más importante del etalonaje: te dicen matemáticamente si la imagen está bien expuesta, sin depender de tu monitor.
+
+- **Waveform:** muestra el brillo (luminancia). El cielo y las luces altas deben estar cerca de la parte superior (100), los negros cerca de la inferior (0).
+- **Vectorscope:** muestra el color (croma). La piel debe caer en la **línea de carne** (entre las líneas de rojo y amarillo). Evita que la imagen salga de la caja central.
+- **Histograma:** distribución de luces y sombras.
+
+Para activarlos: **Menu View → Show Scopes** (o Cmd/Ctrl + Shift + W).
+
+---
+
+#### Paso 3 — Balance de blancos y negros (lo primero)
+
+1. **Blacks:** baja los negros hasta que el waveform toque el nivel 0 (usando la rueda Lift o la curva inferior).
+2. **Whites:** sube los altos hasta cerca del 100 (rueda Gain o curva superior) sin quemar las luces importantes.
+3. **Balance de color:** con el **vectorscope**, neutraliza el color. Busca una zona neutra (gris o blanco) y ajusta las ruedas para que la imagen quede centrada. Para la piel, usa la rueda **Color Wheels** ajustando con precisión.
+
+**Atajos útiles:**
+- **Rueda Lift:** corrige las sombras.
+- **Rueda Gamma:** corrige los medios tonos.
+- **Rueda Gain:** corrige las luces.
+
+---
+
+#### Paso 4 — Iguala tomas de la misma escena
+
+Cuando varias tomas de una misma escena tienen colores ligeramente distintos (por la luz o la cámara), debes **igualarlas**:
+
+1. Selecciona dos clips en el nodo de color.
+2. Botón derecho → **Match Frame** para ver la toma anterior.
+3. Usa la función **Match Color** (icono de dos rectángulos) para copiar automáticamente el balance de la toma de referencia.
+4. Ajusta manualmente si el resultado no es exacto.
+
+---
+
+#### Paso 5 — Aplica estilo y LUTs
+
+Una vez la imagen está balanceada, puedes darle un estilo:
+
+- En el nodo final, aplica una **LUT** (opción LUT en el panel de nodos).
+- Descarga LUTs gratuitas o crea tus propias **looks** guardando el balance como **still** (Menú Color → Grab Still) para reutilizarlo en otras tomas.
+
+> **Consejo:** etalonar primero (corrección) y después estilizar (look). No inviertas el orden o el estilo afectará la exposición.
+
+---
+
+#### Paso 6 — Nodos de separación
+
+El flujo profesional separa tareas en nodos:
+
+- **Nodo 1:** balance de blancos y negros.
+- **Nodo 2:** corrección de piel (rueda de color en la zona de la cara).
+- **Nodo 3:** estilo o LUT.
+- **Nodo 4:** ajustes finales de contraste y saturación.
+
+Con **nodos paralelos** (Alt+S) puedes hacer ajustes selectivos sin afectar el resto.
+
+---
+
+#### Paso 7 — Exporta tu material etalonado
+
+1. Ve a la pestaña **Deliver**.
+2. Elige el formato: para YouTube/redes usa **H.264/MP4** en Full HD o 4K.
+3. En **Quality**, sube el bitrate (ej. 10-15 Mbps para 1080p).
+4. Activa el render y espera la exportación.
+
+---
+
+#### Errores comunes al etalonar
+
+- **Corregir de memoria y no con scopes:** los scopes son objetivos; confía en ellos.
+- **Subir saturación antes de balancear:** primero balancea, después satura.
+- **Usar LUTs sin corrección previa:** una LUT sobre una imagen mal expuesta empeora el resultado.
+- **Quemar luces:** las nubes y las zonas de piel no deben llegar al 100 del waveform.
+- **Olvidar igualar tomas:** cambios bruscos de color entre cortes de la misma escena se notan mucho.
+
+---
+
+#### Checklist profesional
+
+- Scopes activados (waveform + vectorscope).
+- Negros en 0 y luces controladas.
+- Piel en la línea de carne del vectorscope.
+- Tomas de la misma escena igualadas.
+- Estilo/LUT aplicado después de la corrección.
+- Render de prueba verificado en otro dispositivo.
+
+---
+
+> Tutorial actualizado en agosto de 2026. El etalonaje se aprende corrigiendo material real: practica con tus propias grabaciones.`,
+    contentEn: `### Tutorial: Color correction in DaVinci Resolve — Step by step
+
+DaVinci Resolve is the industry standard for color correction and grading, and its free version includes the full color suite used by film studios.
+
+**Step 1 — Create project and import:** Create a new project, go to Media, import clips, drag the clip to the timeline in Edit, then switch to the Color page.
+
+**Step 2 — Read the scopes:** Waveform shows brightness (highlights near top 100, blacks near bottom 0). Vectorscope shows color — skin should fall on the skin line between red and yellow. Enable with View → Show Scopes (Cmd/Ctrl+Shift+W).
+
+**Step 3 — Balance blacks and whites first:** Set blacks to 0 and highlights near 100 using Lift (shadows), Gamma (midtones) and Gain (highlights) wheels. Neutralize color with the vectorscope targeting a neutral area; fine-tune skin with the color wheels.
+
+**Step 4 — Match shots:** Select two clips, right-click → Match Frame, then use Match Color to copy the balance from the reference shot.
+
+**Step 5 — Style and LUTs:** After balancing, apply a LUT on the final node or save your own look as a still to reuse. Correct first, then stylize.
+
+**Step 6 — Node separation:** Node 1 balance, node 2 skin correction, node 3 style/LUT, node 4 final contrast and saturation. Use parallel nodes (Alt+S) for selective adjustments.
+
+**Step 7 — Export:** Go to Deliver, choose H.264/MP4 for social (Full HD or 4K), raise the bitrate (10-15 Mbps for 1080p) and render.
+
+**Common mistakes:** Correcting by memory instead of scopes; saturating before balancing; applying LUTs to poorly exposed footage; burning highlights; forgetting to match shots.
+
+**Checklist:** Scopes on, blacks at 0, controlled highlights, skin on the vectorscope skin line, matched shots, style after correction, test render verified on another device.
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=630&fit=crop',
+    imageCaption: 'Corrección de color en DaVinci Resolve. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '184',
+    contentType: 'analysis',
+    slug: 'tutorial-grabar-entrevistas-campo-periodismo',
+    titleEs: 'Cómo grabar entrevistas de campo en periodismo — Guía para camarógrafos y reporteros',
+    titleEn: 'How to shoot field interviews in journalism — Guide for cameramen and reporters',
+    excerptEs: 'Tutorial profesional para grabar entrevistas de campo (street interviews y cobertura periodística). Cómo preparar el set improvisado, posicionar la cámara y el reportero, capturar buen audio en exteriores, manejar la luz natural cambiante y rodar con planos de corte (B-roll) para edición.',
+    excerptEn: 'Professional tutorial for shooting field interviews (street interviews and news coverage). How to prepare the improvised set, position the camera and reporter, capture good audio outdoors, handle changing natural light and shoot cutaways (B-roll) for editing.',
+    contentEs: `### Tutorial: Cómo grabar entrevistas de campo en periodismo
+
+Las **entrevistas de campo** (a pie de calle, en eventos o en zonas de conflicto) son el pan de cada día del periodismo audiovisual. Requieren rapidez, criterio técnico y capacidad para improvisar. Con 15 años de cobertura, te comparto mi flujo de trabajo profesional.
+
+---
+
+#### Preparación previa (antes de llegar)
+
+1. **Conoce el lugar:** averigua si habrá sol, sombra o lluvia para preparar la luz y el audio.
+2. **Carga completa:** baterías extra, tarjetas de memoria libres, micrófono, audífonos y trípode.
+3. **Confirmá con el entrevistado:** tema, duración, lugar y hora. Llega **10-15 minutos antes** para montar.
+4. **Define el encuadre:** planos medio (de la cintura o pecho hacia arriba) son los más usados para entrevistas informativas.
+
+---
+
+#### Posicionamiento de cámara y reportero
+
+**Altura de cámara:** a la **altura de los ojos** del entrevistado, nunca desde abajo (deforma y añade protagonismo innecesario).
+
+**Reportero y cámara:**
+- El reportero se coloca **al lado de la cámara**, lo más cerca posible del lente, mirando al entrevistado.
+- Así el entrevistado mira hacia el lente (o muy cerca de él), lo que da una **mirada frontal** natural a cámara.
+
+**Regla de los tercios:** ubica al entrevistado en el tercio de la imagen, dejando **espacio en la dirección de su mirada** (espacio de "aire" del lado hacia donde mira).
+
+---
+
+#### Audio en exteriores (la clave)
+
+El audio es la mitad del video periodístico:
+
+1. **Micrófono de solapa (lavalier):** ideal para entrevistas. Colócalo a **20-30 cm de la boca** y ocúltalo bajo la ropa si es posible.
+2. **Micrófono shotgun** con **antiviento (windjammer):** para ambientes con viento o cuando no puedes usar lavalier.
+3. **Prueba siempre con audífonos** antes de empezar.
+4. **Evita ruidos:** elige un lugar alejado de la calle, bocinas, ventiladores y conversaciones ajenas.
+5. **Grabación de respaldo:** si el equipo lo permite, graba con una segunda fuente (celular o grabadora) como seguridad.
+
+> En exteriores con viento, el **protector antiviento** es obligatorio; sin él, el audio quedará inutilizable por el soplido.
+
+---
+
+#### Manejo de la luz natural cambiante
+
+La luz al aire libre cambia en segundos (nubes, sombras, movimiento del sol):
+
+- **Coloca al entrevistado mirando a la luz** (de frente a la fuente de luz natural), no de espaldas.
+- **Fija el balance de blancos** y la exposición según la luz del momento.
+- Si pasa una nube, **reajusta la exposición** entre tomas.
+- Usa un **reflector o difusor** plegable para rellenar sombras en la cara en días soleados.
+- Evita grabar con el **sol de mediodía** directo sobre el rostro: busca sombra o espera nubes.
+
+---
+
+#### Plano de corte (B-roll) para edición
+
+El material de entrevista se edita con **planos de corte** que cubren las pausas y dan contexto:
+
+1. **Detalles del entrevistado:** manos, gestos, objetos que usa.
+2. **Planos del lugar:** el entorno donde ocurre la entrevista.
+3. **Planos de la actividad** que se está reportando (manifestación, evento, trabajo).
+4. **Insertos del reportero:** graba al reportero haciendo la pregunta de nuevo para cortar a él durante la edición.
+
+Graba **mínimo el doble de B-roll** que de entrevista. El editor necesita opciones.
+
+---
+
+#### Cómo pedir al entrevistado que responda
+
+Para facilitar la edición, pide que el entrevistado **repita la pregunta en su respuesta**:
+
+> "¿Cómo te afectó esta medida?" → "Esta medida me afectó porque..."
+
+Esto evita escuchar la pregunta del reportero en cada respuesta y agiliza el montaje.
+
+---
+
+#### Cobertura en zonas complicadas
+
+- **Seguridad primero:** identifica salidas, no te acerques a zonas de riesgo sin protección.
+- **Identificación:** portá credenciales de prensa visibles si corresponde.
+- **Equipo seguro:** usa fundas y evita cambios de lente en lugares con polvo o lluvia.
+- **Registros breves:** en eventos en movimiento, captura lo esencial y continúa; no pierdas tiempo en tomas perfectas.
+
+---
+
+#### Checklist de entrevista de campo
+
+- Cámara a la altura de los ojos, encuadre con espacio de mirada.
+- Audio probado con audífonos y antiviento activado.
+- Balance de blancos y exposición fijados según la luz.
+- B-roll suficiente grabado (detalles, lugar, actividad, reportero).
+- Entrevistado repite la pregunta en la respuesta.
+- Baterías y memoria verificadas antes de empezar.
+
+---
+
+> Tutorial actualizado en agosto de 2026, basado en mi experiencia en cobertura periodística nacional e internacional (TIPNIS, elecciones, Moscú 2024).`,
+    contentEn: `### Tutorial: How to shoot field interviews in journalism
+
+Field interviews (street, events, conflict zones) are the daily bread of audiovisual journalism. They require speed, technical judgment and improvisation skills.
+
+**Preparation:** Know the location (sun, shade, rain), bring charged batteries, spare cards, microphone, headphones and tripod, confirm with the interviewee, arrive 10-15 minutes early, and use medium shots (waist or chest up) for informative interviews.
+
+**Camera and reporter position:** Camera at the interviewee's eye level (never from below). The reporter stands next to the camera, as close to the lens as possible, so the interviewee looks near the lens. Use the rule of thirds with lead room in the direction the subject looks.
+
+**Outdoor audio (key):** Use a lavalier mic placed 20-30cm from the mouth, or a shotgun with a windjammer. Always monitor with headphones. Avoid street noise. Record a backup audio source when possible. Outdoors, the windjammer is mandatory.
+
+**Changing natural light:** Place the subject facing the light, fix white balance and exposure, re-adjust when clouds pass, use a reflector/diffuser to fill shadows, and avoid direct noon sun on the face.
+
+**B-roll for editing:** Shoot details of the interviewee (hands, gestures), the location, the activity being covered, and inserts of the reporter re-asking the question. Shoot at least twice as much B-roll as interview.
+
+**Ask for full answers:** Have the interviewee repeat the question in their answer to speed up editing.
+
+**Risky coverage:** Safety first, carry visible press credentials, protect gear, and capture essential footage quickly at moving events.
+
+**Checklist:** Camera at eye level with lead room, audio tested with headphones and wind protection, white balance and exposure set, enough B-roll, full answers, batteries and cards verified.
+
+Updated August 2026, based on my experience covering national and international news (TIPNIS, elections, Moscow 2024).`,
+    date: '2026-08-01',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '9 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200&h=630&fit=crop',
+    imageCaption: 'Entrevista de campo en periodismo. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
       // ============================================================
       // NOTICIAS DE LA VELADA DEL AÑO 6
       // ============================================================
