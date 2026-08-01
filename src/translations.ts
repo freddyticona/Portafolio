@@ -6334,6 +6334,551 @@ Updated August 2026.`,
     featured: false,
     views: 1
   },
+  {
+    id: '177',
+    contentType: 'analysis',
+    slug: 'guia-apostilla-documentos-bolivia-2026',
+    titleEs: 'Apostilla de documentos en Bolivia 2026 — Cómo apostillar paso a paso (Cancillería)',
+    titleEn: 'Document apostille in Bolivia 2026 — Step by step guide (Foreign Ministry)',
+    excerptEs: 'Guía completa para apostillar documentos en Bolivia en 2026. Qué es la Apostilla de La Haya, qué documentos se pueden apostillar, cuánto cuesta, dónde hacer el trámite (La Paz, Cochabamba, Santa Cruz y en línea), plazos y qué hacer si tu documento fue emitido en el exterior. Requisitos del portal apostilla.rree.gob.bo.',
+    excerptEn: 'Complete guide to apostille documents in Bolivia in 2026. What the Hague Apostille is, which documents can be apostilled, how much it costs, where to do the procedure (La Paz, Cochabamba, Santa Cruz and online), timelines, and what to do if your document was issued abroad. Requirements of the apostilla.rree.gob.bo portal.',
+    contentEs: `### Guía Completa: Apostilla de documentos en Bolivia 2026
+
+La **Apostilla de La Haya** es una certificación única que valida la autenticidad de un documento público emitido en un país miembro del Convenio, para que tenga efecto legal en otro país miembro, sin necesidad de cadenas de legalizaciones consulares. En Bolivia entró en vigencia en **mayo de 2018**, simplificando drásticamente los trámites de documentos para estudiar, trabajar o emigrar al exterior.
+
+---
+
+#### Qué es la Apostilla y por qué te conviene
+
+Antes de la apostilla, un documento público emitido en Bolivia debía pasar por hasta **seis etapas de legalización** (ministerios, consulados, notarías), con costos y tiempos altos. Con el Convenio, **una sola apostilla** reemplaza toda esa cadena y el documento es reconocido directamente en cualquiera de los más de **114 países** adheridos al convenio.
+
+**Marco legal:**
+- **Ley N.º 967** (2 de agosto de 2017): Bolivia se adhiere al Convenio de La Haya.
+- **Decreto Supremo N.º 3541** (25 de abril de 2018): reglamenta su aplicación.
+- **Vigencia:** 7 de mayo de 2018 (La Paz, Santa Cruz y Cochabamba) y 14 de mayo de 2018 (todo el país).
+
+---
+
+#### Qué documentos se pueden apostillar
+
+Solo **documentos públicos** emitidos por autoridades bolivianas:
+
+- Certificados de nacimiento, matrimonio y defunción (SERECÍ).
+- Certificados de antecedentes penales y policiales.
+- Títulos académicos, diplomas de posgrado, certificados de notas y mallas curriculares.
+- Poderes notariales y documentos emitidos por notarios de Fe Pública.
+- Sentencias y certificados judiciales.
+- Documentos comerciales con firma certificada.
+
+> No se apostillan documentos privados, firmas digitales sin certificación, ni documentos que ya han sido modificados o adulterados.
+
+---
+
+#### Cuánto cuesta apostillar en Bolivia
+
+El costo depende del tipo de documento y es fijado por cada entidad emisora o por la Cancillería. Valores de referencia (2026):
+
+| Tipo de documento | Costo referencial |
+|---|---|
+| Certificados académicos, notas, carga horaria | Aprox. **Bs 70** |
+| Título profesional de licenciatura | Aprox. **Bs 70** |
+| Diploma de posgrado / TUS | Aprox. **Bs 300** |
+| Otros documentos públicos | Verificar según entidad |
+
+Los pagos se realizan por la plataforma del trámite o en las entidades emisoras según el valor oficial vigente.
+
+---
+
+#### Cómo apostillar paso a paso
+
+El trámite se inicia en el **portal de apostilla de la Cancillería**:
+
+1. Ingresa a [apostilla.rree.gob.bo](http://apostilla.rree.gob.bo) y crea tu **solicitud** (selecciona el tipo de documento).
+2. Digitaliza y adjunta el **documento original** (versión PDF o imagen legible).
+3. Algunas universidades y entidades requieren que su **secretaría académica** autentique previamente la documentación y la cargue al sistema de la Cancillería.
+4. **Cancela el valor** correspondiente (según el tipo de documento).
+5. Presenta los **documentos originales** en la oficina de la Cancillería que elegiste para el apostillado físico.
+6. Recibe tu documento con la apostilla adjunta. El procedimiento puede tomar **unos 15 minutos** en oficina.
+
+**Oficinas de la Cancillería para apostilla:**
+- **La Paz:** Av. Rafael Pabón, Irpavi — Telf. 2775536
+- **Cochabamba:** Av. Lanza entre calles Oruro y La Paz — Telf. 4521844
+- **Santa Cruz:** Tercer Anillo Radial 13 — Telf. 3527431
+- **Beni (Riberalta):** Nicanor Salvatierra N.º 145 — Telf. 8524373
+
+---
+
+#### Documentos emitidos en el exterior
+
+Si tu documento fue emitido en **otro país miembro** del Convenio y necesitas usarlo en Bolivia:
+
+1. Verifica que el país esté adherido al Convenio de La Haya.
+2. Solicita la apostilla en el **país emisor** (no se apostilla en Bolivia un documento extranjero).
+3. Presenta el documento apostillado en Bolivia; es reconocido sin legalizaciones adicionales.
+4. Si el documento está en otro idioma, normalmente se solicita una **traducción oficial** al español.
+
+---
+
+#### Preguntas frecuentes
+
+**¿La apostilla es lo mismo que la legalización consular?**
+No. La apostilla reemplaza a la cadena de legalizaciones para países miembros del Convenio. Para países no adheridos se mantiene la legalización tradicional.
+
+**¿Cuánto tarda?**
+El apostillado en oficina puede tomar alrededor de 15 minutos una vez presentado el documento; el tiempo total depende de la entidad emisora y del estado del trámite en línea.
+
+**¿Puedo hacer todo en línea?**
+La solicitud se inicia en línea, pero en la mayoría de los casos deberás presentar los **documentos originales** en la oficina para el apostillado físico.
+
+**¿Necesito traducir el documento apostillado?**
+Depende del país de destino. Muchos países exigen traducción oficial del documento y de la propia apostilla.
+
+---
+
+#### Enlaces oficiales
+
+- Cancillería — Portal de apostilla: [http://apostilla.rree.gob.bo](http://apostilla.rree.gob.bo)
+- Cancillería — Servicios: [https://cancilleria.gob.bo](https://cancilleria.gob.bo)
+- Convenio de La Haya (paises miembros): [https://www.hcch.net](https://www.hcch.net)
+
+> Esta guía fue actualizada en agosto de 2026. Los costos y plazos pueden variar. Verifica siempre el valor vigente en el portal oficial de la Cancillería.`,
+    contentEn: `### Complete Guide: Document Apostille in Bolivia 2026
+
+The Hague Apostille is a single certification that validates a public document issued in a Convention member country so it is legally accepted in another member country, without consular legalization chains. It entered into force in Bolivia in May 2018.
+
+**Legal framework:** Law 967 (August 2, 2017) joined the Hague Convention; Supreme Decree 3541 (April 25, 2018) regulated it. Effective May 7, 2018 (La Paz, Santa Cruz, Cochabamba) and May 14, 2018 (nationwide). Bolivia is one of 114+ member countries.
+
+**Apostillable documents:** Public documents only — civil certificates (SERECÍ), criminal records, academic degrees, transcripts, notarial powers, court certificates, commercial documents with certified signatures.
+
+**Costs (reference 2026):** Academic certificates ~Bs 70; bachelor's degree ~Bs 70; graduate diploma ~Bs 300. Payment is done through the online portal or the issuing entity.
+
+**Steps:** 1) Create your request at apostilla.rree.gob.bo. 2) Upload a digital copy of the original document. 3) Some universities must authenticate and upload the document to the Foreign Ministry system first. 4) Pay the fee. 5) Present the original documents at the chosen office. 6) Receive the apostilled document (about 15 minutes at the office).
+
+**Offices:** La Paz (Av. Rafael Pabón, Irpavi), Cochabamba (Av. Lanza), Santa Cruz (3er Anillo Radial 13), Beni/Riberalta (Nicanor Salvatierra 145).
+
+**Documents issued abroad:** Get the apostille in the issuing country (Bolivia does not apostille foreign documents), then present it in Bolivia. An official translation to Spanish is usually required if not in Spanish.
+
+**FAQ:** It is not the same as consular legalization (apostille only works between member countries). The online request still requires presenting originals at the office. Translation depends on the destination country.
+
+For more info: http://apostilla.rree.gob.bo`,
+    date: '2026-08-01',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=630&fit=crop',
+    imageCaption: 'Apostilla de documentos. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '178',
+    contentType: 'analysis',
+    slug: 'guia-registro-marca-senapi-bolivia-2026',
+    titleEs: 'Cómo registrar una marca en el SENAPI Bolivia 2026 — Costos, pasos y requisitos',
+    titleEn: 'How to register a trademark at SENAPI Bolivia 2026 — Costs, steps and requirements',
+    excerptEs: 'Guía completa para registrar una marca o signo distintivo en el SENAPI de Bolivia en 2026. Costos oficiales (búsqueda Bs 75, solicitud Bs 500, Gaceta Bs 255, título Bs 250), beneficios para MyPEs y artesanos, clasificación de Niza, pasos en el sistema SIPI y plazos reales.',
+    excerptEn: 'Complete guide to register a trademark or distinctive sign at SENAPI in Bolivia in 2026. Official costs (search Bs 75, application Bs 500, Gazette Bs 255, title Bs 250), benefits for micro and small businesses, Nice classification, steps in the SIPI system and real timelines.',
+    contentEs: `### Guía Completa: Registro de marca en el SENAPI Bolivia 2026
+
+Registrar tu **marca o signo distintivo** ante el **SENAPI** (Servicio Nacional de Propiedad Intelectual) te otorga el derecho exclusivo de uso en todo el territorio nacional por **10 años renovables**. Es el paso clave para proteger tu emprendimiento, tu nombre comercial o tu logotipo frente a copias y usos no autorizados.
+
+---
+
+#### Qué puedes registrar
+
+- **Marca denominativa:** solo el nombre o palabra.
+- **Marca figurativa:** solo el logotipo o imagen.
+- **Marca mixta:** nombre + logotipo.
+- **Marca tridimensional:** envase o forma distintiva.
+
+Bolivia aplica el régimen **"uniclases"**: el registro protege únicamente las clases de la **Clasificación Internacional de Niza** en las que fue solicitado. Debes elegir correctamente la clase de tus productos o servicios.
+
+---
+
+#### Costos oficiales 2026 (tasas SENAPI)
+
+Según la **Resolución Administrativa N.º 037/2009**, las tasas vigentes son:
+
+| Concepto | Nacional (Bs) | Extranjero (Bs) |
+|---|---|---|
+| Búsqueda de anterioridades | **75** | **150** |
+| Solicitud de registro de marca | **500** | **1.000** |
+| Publicación en la Gaceta Oficial | **255** | **255** |
+| Título de concesión de marca | **250** | **500** |
+| Oposición a una solicitud | **250** | **500** |
+| Renovación de marca | **250** | **500** |
+
+**Costo total estimado (solo tasas, sin oposición):**
+- Solicitante nacional: **Bs 1.005** (solicitud + Gaceta + título).
+- Solicitante extranjero: **Bs 1.755**.
+- Con búsqueda formal de antecedentes: **Bs 1.080** (nacional).
+
+**Beneficio MyPE/artesano:** El SENAPI y Pro-Bolivia han ofrecido en distintos períodos la **exención de la tasa de solicitud** para micro y pequeñas empresas y artesanos registrados, dejando solo el pago de **Bs 255** de la Gaceta Oficial. Este beneficio tiene **vigencia acotada**; confirma con el SENAPI si está activo al momento de tu trámite.
+
+> Los pagos se realizan a la **cuenta fiscal del SENAPI en Banco Unión** (CTA. N.º 1-68246294) y, para la publicación, a la cuenta fiscal de la Gaceta Oficial. Verifica siempre las tasas vigentes en [senapi.gob.bo](https://www.senapi.gob.bo/tasas-de-propiedad-intelectual).
+
+---
+
+#### Pasos para registrar tu marca
+
+**Paso 1 — Búsqueda de anterioridades (recomendada):**
+Completa el **Formulario PI-112** en el sistema SIPI para verificar que no exista una marca idéntica o confundible en tu clase. El SENAPI suele responder en unos **8 días hábiles**. No se reembolsa si tu solicitud es rechazada por similitud: esta búsqueda evita pérdidas.
+
+**Paso 2 — Define el tipo de signo y la clase de Niza:**
+Determina si tu signo es denominativo, figurativo, mixto o tridimensional, y elige la clase de la Clasificación de Niza correspondiente a tus productos o servicios.
+
+**Paso 3 — Completa el Formulario PI-100:**
+Llena la solicitud de signo distintivo en el sistema **SIPI 2.0** ([sipi.senapi.gob.bo](https://sipi.senapi.gob.bo)), adjunta la reproducción del logotipo en **JPG-RGB de 4×4 cm** si corresponde, e imprime el formulario a color.
+
+**Paso 4 — Paga las tasas:**
+Realiza el depósito en la cuenta fiscal del SENAPI (Banco Unión) y adjunta el comprobante de pago a tu expediente.
+
+**Paso 5 — Presenta el expediente:**
+Entrega el formulario PI-100, la reproducción de la marca, el comprobante de pago y la cédula de identidad del titular. Si el solicitante no tiene domicilio en Bolivia, debe actuar mediante un **apoderado con poder legalizado o apostillado**.
+
+**Paso 6 — Publicación y oposiciones:**
+La solicitud se publica en la **Gaceta Oficial de Bolivia**. Terceros pueden presentar oposiciones dentro del plazo legal; de lo contrario, el registro continúa.
+
+**Paso 7 — Título de concesión:**
+Una vez aprobado, pagas el título de concesión y recibes tu registro, vigente por **10 años renovables**.
+
+---
+
+#### Plazos reales
+
+- Búsqueda de anterioridades: **~8 días hábiles**.
+- Proceso completo de registro: **de 6 a 8 meses** en promedio (depende de publicaciones, oposiciones y seguimiento).
+- La protección es retroactiva a la fecha de solicitud.
+
+---
+
+#### Preguntas frecuentes
+
+**¿Necesito un abogado?**
+No es obligatorio si el solicitante tiene domicilio en Bolivia, pero una asesoría especializada reduce el riesgo de errores formales (clasificación incorrecta, expediente mal foliado) que retrasan o invalidan el trámite.
+
+**¿El SENAPI devuelve el dinero si la solicitud es rechazada?**
+No. Las tasas pagadas corresponden a la tramitación del expediente y no se reembolsan por denegación.
+
+**¿Cuánto dura la protección?**
+10 años desde la concesión, renovables por períodos iguales mientras la marca esté en uso.
+
+---
+
+#### Enlaces oficiales
+
+- SENAPI — Tasas: [https://www.senapi.gob.bo/tasas-de-propiedad-intelectual](https://www.senapi.gob.bo/tasas-de-propiedad-intelectual)
+- SENAPI — Sistema SIPI: [https://sipi.senapi.gob.bo](https://sipi.senapi.gob.bo)
+- SENAPI — Página oficial: [https://www.senapi.gob.bo](https://www.senapi.gob.bo)
+
+> Esta guía fue actualizada en agosto de 2026. Los costos y plazos pueden variar. Verifica siempre las tasas vigentes en la página oficial del SENAPI antes de presupuestar tu trámite.`,
+    contentEn: `### Complete Guide: Trademark Registration at SENAPI Bolivia 2026
+
+Registering your trademark or distinctive sign at SENAPI (National Intellectual Property Service) grants exclusive use nationwide for 10 renewable years. It is the key step to protect your business, trade name or logo.
+
+**What you can register:** Word marks (denominative), logo marks (figurative), combined word+logo (mixed) and 3D marks. Bolivia uses a "per-class" (uniclases) regime: protection covers only the Nice Classification classes you apply for.
+
+**Official costs 2026 (Resolution 037/2009):** Search of prior marks Bs 75 (national) / 150 (foreign); application Bs 500 / 1,000; Official Gazette publication Bs 255; title Bs 250 / 500; opposition Bs 250 / 500; renewal Bs 250 / 500. Total without opposition: ~Bs 1,005 (national) or Bs 1,755 (foreign). Micro and small businesses (MyPEs) and artisans may get the application fee waived, paying only the Bs 255 Gazette fee — confirm the benefit is active.
+
+**Steps:** 1) Prior-mark search (Form PI-112 on SIPI, ~8 business days). 2) Define the sign type and Nice class. 3) Complete Form PI-100 on SIPI 2.0 (logo as 4x4cm JPG-RGB). 4) Pay fees to SENAPI's fiscal account at Banco Unión. 5) File the dossier (foreign applicants need an apostilled power of attorney). 6) Publication in the Official Gazette and opposition period. 7) Pay the title fee and receive the registration.
+
+**Timelines:** Search ~8 business days; full process 6-8 months. Protection is retroactive to the filing date.
+
+**FAQ:** A lawyer is not mandatory for domestic applicants but reduces formal errors. Fees are not refunded if the application is rejected. Protection lasts 10 years, renewable.
+
+For more info: https://www.senapi.gob.bo/tasas-de-propiedad-intelectual`,
+    date: '2026-08-01',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&h=630&fit=crop',
+    imageCaption: 'Registro de marca SENAPI. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '179',
+    contentType: 'analysis',
+    slug: 'tutorial-iluminacion-basica-video',
+    titleEs: 'Iluminación básica para video — Esquema de 3 puntos explicado para principiantes',
+    titleEn: 'Basic video lighting — The 3-point setup explained for beginners',
+    excerptEs: 'Tutorial práctico de iluminación para video dirigido a principiantes. Qué es el esquema de 3 puntos (luz principal, luz de relleno y contraluz), temperatura de color en grados Kelvin, cómo usar luz natural, softboxes y difusores, y errores comunes que arruinan una entrevista.',
+    excerptEn: 'Practical video lighting tutorial for beginners. What the 3-point setup is (key light, fill light and backlight), color temperature in Kelvin, how to use natural light, softboxes and diffusers, and common mistakes that ruin an interview.',
+    contentEs: `### Tutorial: Iluminación básica para video — Esquema de 3 puntos
+
+La iluminación es el elemento que más diferencia una toma amateur de una profesional, incluso con la misma cámara. En este tutorial te explico el esquema clásico de **3 puntos de luz**, la **temperatura de color** y cómo lograr una imagen limpia con equipo accesible.
+
+---
+
+#### Por qué importa la luz
+
+Una cámara moderna puede grabar en la oscuridad, pero la imagen resultante es plana, con ruido y sin volumen. La luz bien dirigida:
+- Separa al sujeto del fondo.
+- Aporta profundidad y textura.
+- Define el estado de ánimo de la escena.
+- Evita que el rostro se pierda en sombras.
+
+---
+
+#### El esquema de 3 puntos
+
+Es la base de casi toda iluminación en cine y televisión:
+
+**1. Luz principal (key light):**
+Es la luz dominante que ilumina el rostro del sujeto. Se coloca a unos **45 grados** del eje cámara-sujeto y ligeramente por encima de los ojos. Marca las sombras principales y define la dirección de la luz.
+
+**2. Luz de relleno (fill light):**
+Se coloca en el lado opuesto a la luz principal, a menor intensidad (por ejemplo, al 50% o usando un difusor/reflector). Su función es **suavizar las sombras** duras que crea la luz principal sin eliminarlas.
+
+**3. Contraluz (backlight / hair light):**
+Se ubica detrás del sujeto, apuntando desde atrás hacia la cabeza y los hombros. Separa al sujeto del fondo y agrega brillo y volumen. Debe ser suave para no generar un halo exagerado.
+
+> **Proporción sugerida:** luz principal al 100%, relleno al 50%, contraluz al 60-70% según el efecto deseado.
+
+---
+
+#### Temperatura de color (Kelvin)
+
+La luz tiene "color" que mides en grados **Kelvin (K)**:
+
+| Fuente | Temperatura |
+|---|---|
+| Vela / amanecer | ~1.800 - 3.000 K |
+| Lámpara incandescente | ~2.700 - 3.000 K |
+| Luz del día (sol directo) | ~5.600 K |
+| Sombra / cielo nublado | ~6.000 - 7.000 K |
+
+Regla práctica: **mezcla solo luces de la misma temperatura** o compensa con gel y balance de blancos. Si mezclas una lámpara incandescente (2.700K) con luz de ventana (5.600K), el rostro saldrá anaranjado y el fondo azul.
+
+---
+
+#### Luz natural: tu mejor aliada
+
+Si no tienes equipo, la **luz de ventana** es excelente:
+
+1. Coloca al sujeto **mirando hacia la ventana** (no de espaldas).
+2. Usa el lado de la ventana como luz principal.
+3. Un **reflector blanco** (incluso una cartulina o foam board) del lado opuesto actúa como relleno.
+4. Evita el **sol directo del mediodía** en exteriores: genera sombras duras en la cara. Busca sombra o usa las horas doradas (mañana temprano / atardecer).
+
+---
+
+#### Difusores y softboxes
+
+La diferencia entre luz dura y suave es el **tamaño aparente de la fuente** respecto al sujeto:
+- **Luz dura:** fuente pequeña y directa (un led sin difusor), sombras marcadas. Útil para look dramático.
+- **Luz suave:** fuente grande y cercana (softbox, ventana difusa, panel con tela de difusión), sombras suaves y rostro favorecedor. Ideal para entrevistas.
+
+Para entrevistas y videos profesionales: **usa siempre difusión** en la luz principal.
+
+---
+
+#### Errores comunes que arruinan una entrevista
+
+- **Sujeto de espaldas a la ventana:** el fondo sale bien expuesto pero la cara queda oscura.
+- **Contraluz mal usado:** un foco apuntando directo a cámara genera destello (flare) y silueta quemada.
+- **Mezclar temperaturas de color:** rostro anaranjado + fondo azul.
+- **Luz de techo única:** sombras duras en los ojos (look de "mapache").
+- **Sin relleno:** un solo lado de la cara muy iluminado y el otro en sombra profunda.
+
+---
+
+#### Checklist para una buena toma
+
+- Luz principal a 45°, ligeramente por encima del nivel de ojos.
+- Relleno al lado opuesto, más suave.
+- Contraluz detrás para separar del fondo.
+- Todas las luces con la **misma temperatura de color** o balanceadas.
+- Fondo más oscuro que el sujeto para dar protagonismo.
+- Prueba de encuadre y **exposición correcta** antes de grabar.
+
+---
+
+#### Equipo recomendado para empezar (presupuesto bajo)
+
+- **2 paneles LED bicolores** (3200K-5600K) con trípode.
+- **2 softboxes o difusores** de tamaño medio.
+- **Reflector 5 en 1** (blanco, plata, dorado, negro, translúcido).
+- **Filtro de gel** de corrección de color si usas lámparas de casa.
+
+Con ese set puedes iluminar entrevistas, videos para redes y contenidos de estudio sin necesidad de gran inversión.
+
+---
+
+> Tutorial actualizado en agosto de 2026. La práctica constante y el análisis de referencias profesionales son el mejor camino para dominar la iluminación.`,
+    contentEn: `### Tutorial: Basic video lighting — The 3-point setup
+
+Lighting is what most separates an amateur shot from a professional one, even with the same camera.
+
+**Why it matters:** Good light separates the subject from the background, adds depth and texture, sets the mood, and avoids flat, noisy images.
+
+**The 3-point setup:**
+1. Key light: dominant light at about 45 degrees from the camera-subject axis, slightly above eye level. Defines shadows and direction.
+2. Fill light: opposite side, lower intensity (about 50% or diffused), softens shadows.
+3. Backlight/hair light: behind the subject, separates them from the background and adds shine.
+
+Suggested ratio: key 100%, fill 50%, backlight 60-70%.
+
+**Color temperature (Kelvin):** Candle ~1,800-3,000K, incandescent ~2,700-3,000K, daylight ~5,600K, shade ~6,000-7,000K. Mix only lights of the same temperature or compensate with gels and white balance.
+
+**Natural light:** Place the subject facing a window, use the window side as the key light, add a white reflector as fill. Avoid direct noon sun; shoot in shade or during golden hours.
+
+**Diffusers/softboxes:** The bigger the apparent light source, the softer the light. Use diffusion for interviews to flatter the face.
+
+**Common mistakes:** Subject with back to the window (dark face), backlight aimed at the camera (lens flare), mixing color temperatures, single ceiling light (raccoon eyes), no fill light.
+
+**Checklist:** Key at 45° above eye level, softer fill opposite, backlight behind, same color temperature on all lights, darker background, correct exposure before recording.
+
+**Budget starter kit:** 2 bi-color LED panels with stands, 2 medium softboxes, a 5-in-1 reflector, and correction gels.
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&h=630&fit=crop',
+    imageCaption: 'Iluminación de video. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '180',
+    contentType: 'analysis',
+    slug: 'tutorial-grabar-video-profesional-celular',
+    titleEs: 'Cómo grabar video profesional con tu celular — Guía de cámara, encuadre y audio',
+    titleEn: 'How to shoot professional video with your phone — Camera, framing and audio guide',
+    excerptEs: 'Tutorial para grabar video profesional usando solo un celular. Configuración de cámara (resolución, fps, balance de blancos), regla de los tercios, estabilización, cómo conseguir buen audio (microfonos y consejos) y recomendaciones de edición para redes sociales.',
+    excerptEn: 'Tutorial to shoot professional video using only a smartphone. Camera settings (resolution, fps, white balance), rule of thirds, stabilization, how to get good audio (microphones and tips) and editing recommendations for social media.',
+    contentEs: `### Tutorial: Cómo grabar video profesional con tu celular
+
+Ya no necesitas una cámara cara para producir contenido de calidad. Con un celular actual y buenos hábitos de grabación puedes lograr resultados profesionales. En este tutorial comparto la configuración, el encuadre y el audio que uso en mi trabajo diario.
+
+---
+
+#### Configuración de cámara (antes de grabar)
+
+**1. Resolución y fps:**
+- Usa **4K a 30 fps** para la mayoría de proyectos (permite recortar en edición sin perder calidad).
+- Usa **4K a 60 fps** (o 120) para **cámara lenta** en momentos clave.
+- Evita grabar a 60 fps y exportar a 30 si no harás slow motion: desperdicia datos.
+
+**2. Balance de blancos:**
+No dejes el balance en automático si el entorno cambia de luz. Fija un valor (por ejemplo **5.600K para luz de día**, **3.200K para interior cálido**) para que los colores sean consistentes en todo el video.
+
+**3. Exposición:**
+Toca la pantalla sobre el rostro o el sujeto principal para fijar la exposición. Si la escena tiene alto contraste, usa el **bloqueo de exposición (AE/AF lock)** manteniendo el dedo sobre la pantalla.
+
+**4. Formato:**
+Graba en **vertical (9:16)** para Reels/TikTok/Shorts y en **horizontal (16:9)** para YouTube y documentales. Decide el formato según la plataforma destino antes de grabar.
+
+---
+
+#### Encuadre y composición
+
+**Regla de los tercios:**
+Imagina dos líneas horizontales y dos verticales dividiendo el encuadre. Coloca los **ojos del sujeto** en la línea superior y el sujeto a un lado, dejando espacio hacia donde mira. Evita el horizonte en el centro de la imagen.
+
+**Consejos de encuadre:**
+- Deja **aire en la cabeza** (no cortes en el mentón ni en la frente).
+- Respeta los **márgenes de seguridad** si vas a subtitular (evita el 15% inferior y superior).
+- No acerques el zoom digital: **acércate físicamente** o graba en 4K y recorta en edición.
+
+---
+
+#### Estabilización
+
+El movimiento brusco delata a un aficionado:
+- Usa un **trípode o estabilizador (gimbal)** siempre que puedas.
+- Camina con **pasos cortos y rodillas flexionadas** si grabas en movimiento.
+- Apoya el celular contra el pecho o un punto fijo para tomas estáticas sin equipo.
+- Para tomas con movimiento sin gimbal, graba a **60 fps** y aligera la velocidad en edición.
+
+---
+
+#### Audio: lo que realmente importa
+
+El audio es la mitad del video (o más). Un espectador perdona una imagen regular, pero no un audio malo:
+
+**Opciones de micrófono:**
+- **Micrófono de solapa (lavalier) inalámbrico:** ideal para entrevistas y personas hablando a cámara.
+- **Micrófono shotgun conectado al celular:** buen captador de sonido direccional para narración.
+- **Micrófono USB + grabadora portátil:** para podcast y grabación en estudio.
+
+**Consejos de audio:**
+- Graba siempre con micrófono, no con el micrófono interno del celular a distancia.
+- Coloca el micrófono a **20-30 cm de la boca**.
+- Verifica con audífonos antes de grabar: busca **ruido de fondo** (viento, tráfico, ventiladores).
+- En exteriores, usa un **protector antiviento (windjammer/felpilla)**.
+
+---
+
+#### Plan de grabación para entrevistas
+
+1. Prepara el lugar: luz de ventana de frente o luz artificial con difusor.
+2. Fija la cámara a la altura de los **ojos del entrevistado** (nunca desde abajo).
+3. Graba el audio con lavalier y una grabación de respaldo si es posible.
+4. Haz una **toma de prueba** y revisa imagen + audio antes de la entrevista real.
+5. Pide al entrevistado que **repita la pregunta** en la respuesta (facilita la edición).
+
+---
+
+#### Edición para redes sociales
+
+- Corta los silencios y las dudas: mantén el ritmo.
+- Añade **subtítulos automáticos** (aumentan la retención).
+- Usa transiciones sutiles; menos es más.
+- Exporta en **4K o 1080p** según la plataforma y mantén el **bitrate alto** para evitar pixelado.
+- Guarda el proyecto para poder reutilizar tomas en otros formatos.
+
+---
+
+#### Checklist final
+
+- Resolución y fps definidos según el proyecto.
+- Balance de blancos fijado según la luz del lugar.
+- Exposición bloqueada sobre el sujeto.
+- Encuadre con regla de los tercios y aire en la cabeza.
+- Cámara estable (trípode/gimbal) o técnica de cámara en mano firme.
+- Audio probado con micrófono externo y audífonos.
+- Toma de prueba revisada antes de la toma definitiva.
+
+---
+
+> Tutorial actualizado en agosto de 2026. La constancia y el análisis de tu propio material son la mejor escuela.`,
+    contentEn: `### Tutorial: How to shoot professional video with your phone
+
+You don't need an expensive camera to produce quality content. With a current phone and good shooting habits you can achieve professional results.
+
+**Camera settings (before recording):** Use 4K at 30fps for most projects (allows cropping in post); 60/120fps for slow motion. Fix the white balance (5,600K daylight, 3,200K warm interior) instead of auto. Tap and hold to lock exposure (AE/AF lock) on the subject. Decide vertical (9:16) or horizontal (16:9) based on the platform.
+
+**Framing:** Follow the rule of thirds — eyes on the top line, subject off-center with lead room. Leave headroom, respect safe margins for subtitles, and never use digital zoom (move closer or shoot 4K and crop in post).
+
+**Stabilization:** Use a tripod or gimbal; walk with short steps and bent knees; brace the phone against your chest or a fixed point. For handheld movement, shoot at 60fps and slow down in post.
+
+**Audio matters most:** Use an external mic — wireless lavalier for interviews, shotgun for narration, USB mic for studio. Place it 20-30cm from the mouth, monitor with headphones, and use a windjammer outdoors.
+
+**Interview plan:** Window or diffused light in front of the subject, camera at eye level, lavalier audio with backup recording, do a test take, and ask the subject to repeat the question in their answer.
+
+**Editing for social:** Cut silences, add auto subtitles, use subtle transitions, export at high bitrate, and keep the project for reusing footage.
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?w=1200&h=630&fit=crop',
+    imageCaption: 'Grabación con celular. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
       // ============================================================
       // NOTICIAS DE LA VELADA DEL AÑO 6
       // ============================================================

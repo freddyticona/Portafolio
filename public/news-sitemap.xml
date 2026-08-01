@@ -87,6 +87,62 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/guias/guia-apostilla-documentos-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Apostilla de documentos en Bolivia 2026 — Cómo apostillar paso a paso (Cancillería)</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/guias/guia-registro-marca-senapi-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo registrar una marca en el SENAPI Bolivia 2026 — Costos, pasos y requisitos</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-iluminacion-basica-video</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Iluminación básica para video — Esquema de 3 puntos explicado para principiantes</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-grabar-video-profesional-celular</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo grabar video profesional con tu celular — Guía de cámara, encuadre y audio</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/muere-rapero-soldis-c4-guadalajara</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
