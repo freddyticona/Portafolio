@@ -25,6 +25,7 @@ Allow: /*.svg
 
 # Sitemap
 Sitemap: https://freddydev.net/sitemap.xml
+Sitemap: https://freddydev.net/news-sitemap.xml
 
 # Configuración específica para crawlers importantes
 User-agent: Googlebot

@@ -10258,7 +10258,7 @@ El año pasado, la DJ **Allie Teilz** denunció a Leto por conducta inapropiada 
 A new BBC documentary, *"Jared Leto: Hollywood's Dark Secret"*, gathers testimony from ten women against the actor and Thirty Seconds to Mars frontman. Four accuse him of criminal sexual conduct when they were teenagers, with events between 2002 and 2016. The BBC says it corroborated the accounts with relatives and messages. His legal team denies all allegations.
 
 **Sources:** Infobae, BBC`,
-    date: '2026-08-01',
+    date: '2026-07-29',
     readTimeEs: '4 min de lectura',
     readTimeEn: '3 min read',
     imageUrl: 'https://www.infobae.com/resizer/v2/WKHSEPAAFRFXDHZPNOTQZR4V2M.jpg?auth=de2c555497ebbdd8c57e97c4832620a06726f1d7c6372f47d3f034c8e7bdbb7a&smart=true&width=1200&height=630&quality=85',
@@ -10303,7 +10303,7 @@ Los integrantes de **DLD** lo recordaron como *"compañero de mil batallas"* y a
 División Minúscula confirmed the death of José Luis Doblado, known as "Bola", their sound engineer for eight years and one of the most respected in the industry. He had a career of more than 40 years working with Botellita de Jerez, Cecilia Toussaint, Gloria Trevi and La Castañeda. The cause of death was not disclosed.
 
 **Sources:** Milenio`,
-    date: '2026-08-01',
+    date: '2026-07-31',
     readTimeEs: '3 min de lectura',
     readTimeEn: '2 min read',
     imageUrl: 'https://cdn.milenio.com/uploads/media/2026/07/31/causa-fallecimiento-foto-facebook-division.jpg',
@@ -10350,7 +10350,7 @@ Baresi se retiró en 1997 tras disputar **719 partidos** con los rossoneri, un r
 AC Milan confirmed the death of legendary defender and captain Franco Baresi at age 66. He won 6 Serie A titles and 3 European Cups, was world champion with Italy in 1982 and played 719 matches for the rossoneri, retiring in 1997.
 
 **Sources:** La Nación`,
-    date: '2026-08-01',
+    date: '2026-07-31',
     readTimeEs: '4 min de lectura',
     readTimeEn: '3 min read',
     imageUrl: 'https://www.lanacion.com.ar/resizer/v2/franco-baresi-murio-a-la-edad-de-66-A7FTSVVUPNGQBLYD5UTUJEOA64.jpg?auth=b870d075e195d6ed3ce0078f3b24156be54d45c9e030cff600abce6ad8ff1e0c&width=1200&height=800&quality=70&smart=true',
@@ -10393,7 +10393,7 @@ La derrota deja al técnico Luís Castro en la cuerda floja, con el Gremio en zo
 Bolívar beat Gremio 0-1 away with a goal from Dairon Asprilla and sealed its place in the Sudamericana round of 16 against São Paulo. Goalkeeper Carlos Lampe was the standout. Bolívar eliminated a Brazilian club in Brazil for the first time in 24 years.
 
 **Sources:** ABC Color`,
-    date: '2026-08-01',
+    date: '2026-07-30',
     readTimeEs: '4 min de lectura',
     readTimeEn: '3 min read',
     imageUrl: 'https://www.abc.com.py/resizer/v2/IT7PHV5D45EKHIPFTSDJF5KNUI.jpg?auth=130aa37c69ef1c400cb0472bf132da9317dc8524ea5bcc9ea4cd1ed5d9369f75&width=770&focal=1169,1045',
@@ -10435,7 +10435,7 @@ No es la primera vez que Durov enfrenta problemas legales. En **2024 fue detenid
 Russia's FSB issued an international arrest warrant for Telegram founder Pavel Durov, accusing him of failing to remove a bot that Moscow says was used by Ukrainian intelligence to recruit Russians for sabotage. Durov, who lives in Dubai, was already detained in France in 2024 on 12 charges.
 
 **Sources:** EFE, El País`,
-    date: '2026-08-01',
+    date: '2026-07-29',
     readTimeEs: '4 min de lectura',
     readTimeEn: '3 min read',
     imageUrl: 'https://efe.com/wp-content/uploads/2026/07/fundador-telegram-busca-captura-rusia.webp',
@@ -10480,7 +10480,7 @@ Los vínculos permanecían paralizados desde que el entonces presidente **Gabrie
 Chile and Venezuela agreed to restart their consular relations as the first step to gradually normalize bilateral ties, frozen for two years since the 2024 Venezuelan elections. The measure will benefit about 700,000 Venezuelans in Chile and 25,000 Chileans in Venezuela, covering security, migration and economic development.
 
 **Sources:** El Mostrador`,
-    date: '2026-08-01',
+    date: '2026-07-30',
     readTimeEs: '4 min de lectura',
     readTimeEn: '3 min read',
     imageUrl: 'https://media-front.elmostrador.cl/2024/08/venezuela-chile.jpg',
@@ -10571,7 +10571,7 @@ Además, los jugadores argentinos **dieron la espalda a los españoles** durante
 FIFA appointed a discipline and ethics prosecutor to evaluate the violent incidents after the 2026 World Cup final at MetLife Stadium involving Nahuel Molina, Leandro Paredes, Thiago Almada and assistant coach Roberto Ayala. Article 13 of the disciplinary code covers offensive conduct. Argentina also turned its back on Spain during the trophy ceremony.
 
 **Sources:** BBC News Mundo`,
-    date: '2026-08-01',
+    date: '2026-07-20',
     readTimeEs: '5 min de lectura',
     readTimeEn: '4 min read',
     imageUrl: 'https://ichef.bbci.co.uk/news/1200/branded_mundo/c38f/live/977eddb0-8475-11f1-ac57-abae38e66d9e.jpg',
@@ -10614,7 +10614,7 @@ La apuesta por Zago busca dar un nuevo rumbo deportivo al cuadro atigrado en ple
 The Strongest is close to sealing the return of Brazilian coach Antonio Carlos Zago after the departure of Sixto Vizuete. Board president Daniel Terrazas held advanced talks with Zago, who is free after leaving Botafogo da Paraíba. It would be his second spell at the club after 2025.
 
 **Sources:** Erbol`,
-    date: '2026-08-01',
+    date: '2026-07-28',
     readTimeEs: '3 min de lectura',
     readTimeEn: '2 min read',
     imageUrl: 'https://erbol.com.bo/sites/default/files/zago_25_1.jpg',

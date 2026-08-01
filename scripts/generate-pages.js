@@ -219,7 +219,8 @@ for (const article of articles) {
   html = html.replace(/<meta name="twitter:url" content=".*?"/, `<meta name="twitter:url" content="${articleUrl}"`);
   html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imgUrl}"`);
   html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${articleUrl}"`);
-  // Article structured data
+  // Article structured data (con dateModified y mainEntityOfPage para rich results)
+  const articleDate = article.date || TODAY;
   const articleSchema = `{
       "@context": "https://schema.org",
       "@type": "${articleType}",
@@ -227,17 +228,35 @@ for (const article of articles) {
       "description": "${(article.desc || '').replace(/"/g, '\\"')}",
       "image": "${imgUrl}",
       "url": "${articleUrl}",
-      "datePublished": "${article.date || TODAY}",
+      "datePublished": "${articleDate}",
+      "dateModified": "${articleDate}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "${articleUrl}"
+      },
       "author": {
         "@type": "Person",
         "name": "Freddy Ticona Guzmán"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Freddy Ticona - Servicios Audiovisuales"
+        "name": "Freddy Ticona - Servicios Audiovisuales",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://freddydev.net/favicon.ico"
+        }
       }
+      ${article.categoryEs ? `,
+      "articleSection": "${article.categoryEs.replace(/"/g, '\\"')}"` : ''}
     }`;
   html = html.replace('</head>', `    <script type="application/ld+json">${articleSchema}</script>\n  </head>`);
+  // Meta tags de artículo (Google News, Facebook, X leen HTML estático)
+  const articleMeta = `
+    <meta property="article:published_time" content="${articleDate}" />
+    <meta property="article:modified_time" content="${articleDate}" />
+    ${article.categoryEs ? `<meta property="article:section" content="${article.categoryEs.replace(/"/g, '&quot;')}" />` : ''}
+  `;
+  html = html.replace('</head>', `${articleMeta}\n  </head>`);
   // hreflang — solo para artículos con contenido en inglés
   const esUrl = articleUrl;
   const enUrl = `${SITE}/en/${route}/${article.slug}`;
