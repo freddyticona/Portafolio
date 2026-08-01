@@ -17,6 +17,90 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/jared-leto-acusaciones-conducta-sexual-adolescentes</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cuatro mujeres acusan a Jared Leto de conducta sexual contra adolescentes en un nuevo documental de la BBC</news:title>
+      <news:keywords>Espectáculos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/muere-jose-luis-bola-ingeniero-sonido-division-minuscula</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Muere José Luis Doblado &quot;Bola&quot;, histórico ingeniero de sonido del rock mexicano y de División Minúscula</news:title>
+      <news:keywords>Espectáculos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/muere-franco-baresi-leyenda-milan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Murió Franco Baresi a los 66 años, leyenda del fútbol italiano y del AC Milan</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/bolivar-elimina-gremio-octavos-sudamericana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Bolívar elimina a Gremio en Porto Alegre y avanza a los octavos de la Copa Sudamericana</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rusia-busca-captura-pavel-durov-telegram</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Rusia declara en busca y captura a Pavel Durov, fundador de Telegram, por &quot;colaboración con el terrorismo&quot;</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/chile-venezuela-reactivacion-consular</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Chile y Venezuela reactivan sus relaciones consulares tras dos años de vínculos congelados</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/ataques-petroleros-estrecho-ormuz</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -28,6 +112,34 @@
       <news:publication_date>2026-08-01</news:publication_date>
       <news:title>Reportan dos nuevos ataques contra petroleros cerca del estrecho de Ormuz</news:title>
       <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fifa-investiga-incidentes-final-mundial-argentina</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>La FIFA investiga los incidentes violentos de la final del Mundial en los que se vieron involucrados jugadores de Argentina</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/antonio-zago-regresa-strongest</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Antonio Zago, a un paso de volver a ser el director técnico de The Strongest</news:title>
+      <news:keywords>Deportes</news:keywords>
     </news:news>
   </url>
   <url>
@@ -336,34 +448,6 @@
       <news:publication_date>2026-07-31</news:publication_date>
       <news:title>SmartSub: la cadena completa de subtítulos, traducción y doblaje con IA en una sola app open source</news:title>
       <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/muere-jose-luis-bola-ingeniero-sonido-division-minuscula</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-31</news:publication_date>
-      <news:title>Muere José Luis Doblado &quot;Bola&quot;, histórico ingeniero de sonido del rock mexicano y de División Minúscula</news:title>
-      <news:keywords>Espectáculos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/muere-franco-baresi-leyenda-milan</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-31</news:publication_date>
-      <news:title>Murió Franco Baresi a los 66 años, leyenda del fútbol italiano y del AC Milan</news:title>
-      <news:keywords>Deportes</news:keywords>
     </news:news>
   </url>
 </urlset>
