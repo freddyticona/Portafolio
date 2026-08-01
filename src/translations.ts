@@ -5370,6 +5370,480 @@ For more info: https://www.migracion.gob.bo`,
     featured: false,
     views: 1
   },
+  {
+    id: '171',
+    contentType: 'analysis',
+    slug: 'guia-certificado-matrimonio-segip-bolivia-2026',
+    titleEs: 'Cómo sacar el Certificado de Matrimonio en Bolivia 2026 — Requisitos, costos y trámite SERECÍ',
+    titleEn: 'How to get the Marriage Certificate in Bolivia 2026 — Requirements, costs and SERECÍ process',
+    excerptEs: 'Guía completa y actualizada para obtener tu certificado de matrimonio en Bolivia en 2026. Requisitos por tipo de trámite (original, duplicado, partida única), costos vigentes, dónde solicitarlo en SERECÍ, cómo hacerlo en línea y qué hacer si el certificado es antiguo o necesitas apostilla.',
+    excerptEn: 'Complete and updated guide to get your marriage certificate in Bolivia in 2026. Requirements by procedure type (original, duplicate, single record), current costs, where to request it at SERECÍ, how to do it online, and what to do if the certificate is old or you need an apostille.',
+    contentEs: `### Guía Completa: Certificado de Matrimonio en Bolivia 2026
+
+El **certificado de matrimonio** es el documento oficial que acredita la inscripción de un matrimonio civil en el **Registro Civil** de Bolivia, administrado por el **Servicio de Registro Cívico (SERECÍ)**, dependiente del Órgano Electoral Plurinacional. Es indispensable para trámites de cambio de estado civil, pensiones, herencias, nacionalidad, migración y para actualizar la cédula de identidad en el SEGIP.
+
+---
+
+#### ¿Qué tipos de certificado existen?
+
+| Tipo | Cuándo se usa |
+|------|---------------|
+| **Certificado de matrimonio** | Para acreditar que el matrimonio está inscrito (tramitado en SERECÍ) |
+| **Duplicado de partida de matrimonio** | Cuando se perdió el certificado original o se necesita una nueva copia |
+| **Certificado de matrimonio con apostilla** | Para uso en el extranjero (validez internacional) |
+| **Partida única de matrimonio** | Cuando hay múltiples partidas registradas y se necesita unificar la información |
+
+---
+
+#### Requisitos para obtenerlo
+
+Según la documentación oficial del Registro Civil:
+
+- **Cédula de identidad** vigente del solicitante (original).
+- Si el solicitante no es el titular: cédula del titular o, en caso de fallecimiento, el certificado de defunción.
+- **Datos de la inscripción:** número de oficialía de registro civil, libro, partida, año y departamento donde se celebró el matrimonio.
+- **Costo del arancel** (pago previo en banco autorizado o por el portal del SERECÍ).
+
+> **Nota:** Para solicitar el certificado de otra persona se requiere ser cónyuge, familiar dentro del segundo grado de consanguinidad o contar con poder notariado.
+
+---
+
+#### Costos vigentes
+
+Los valores son referenciales y pueden actualizarse cada gestión:
+
+- **Certificado de matrimonio (emisión):** aproximadamente **Bs 34**.
+- **Duplicado de partida de matrimonio:** aproximadamente **Bs 51**.
+- **Certificado con apostilla:** el arancel de apostilla se suma al valor del certificado (verifica en la Cancillería o en la oficina SERECÍ).
+
+---
+
+#### Dónde y cómo tramitarlo
+
+**Opción 1 — Presencial (oficinas SERECÍ / OEP):**
+
+1. Ubica la oficina del **Servicio de Registro Cívico (SERECÍ)** de tu departamento o la oficialía de registro civil correspondiente.
+2. Paga el arancel en la entidad bancaria autorizada o en la propia ventanilla.
+3. Presenta tu cédula de identidad y los datos de la inscripción.
+4. El certificado se emite normalmente **el mismo día** o en un plazo de 24 a 72 horas.
+
+**Opción 2 — En línea:**
+
+El Órgano Electoral Plurinacional habilitó la solicitud digital de certificados de registro civil a través de su portal. El proceso general es:
+
+1. Ingresa al portal del **OEP / SERECÍ**.
+2. Selecciona el tipo de certificado (matrimonio).
+3. Completa los datos de inscripción (oficialía, libro, partida, año).
+4. Realiza el pago en línea y descarga tu certificado en formato PDF.
+
+---
+
+#### Certificado desde el extranjero
+
+Si estás fuera de Bolivia y necesitas el certificado de matrimonio para reagrupación familiar, nacionalidad o trámites migratorios:
+
+1. Verifica los datos de inscripción del matrimonio (nombres, fecha y lugar).
+2. Gestiona la solicitud mediante **poder notariado** o autorización ante un familiar.
+3. Solicita el certificado **actualizado**.
+4. Tramita la **apostilla** si el país de destino la exige (convenio de La Haya).
+
+---
+
+#### Preguntas frecuentes
+
+**¿El certificado de matrimonio sirve para renovar la cédula en SEGIP?**
+Sí. El SEGIP requiere el certificado de matrimonio original para actualizar el estado civil en la cédula de identidad.
+
+**¿Cuánto tarda la emisión?**
+Generalmente el mismo día en oficinas con sistema digital; en algunos casos hasta 3 días hábiles.
+
+**¿Qué hago si no conozco los datos de la partida?**
+Acércate a la oficialía de registro civil donde presumiblemente se celebró el matrimonio. Con tu cédula pueden localizar la partida.
+
+---
+
+#### Enlaces oficiales
+
+- Órgano Electoral Plurinacional / SERECÍ: [https://web.oep.org.bo/registro-civico/](https://web.oep.org.bo/registro-civico/)
+- Consulta de servicios del Registro Civil: [https://web.oep.org.bo/registro-civico/servicios-registro-civil/](https://web.oep.org.bo/registro-civico/servicios-registro-civil/)
+
+> Esta guía fue actualizada en agosto de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SERECÍ antes de realizar tu trámite.`,
+    contentEn: `### Complete Guide: Marriage Certificate in Bolivia 2026
+
+The marriage certificate is the official document proving the registration of a civil marriage in the Civil Registry of Bolivia, managed by the Civil Registry Service (SERECÍ), under the Plurinational Electoral Body. It is essential for change of marital status, pensions, inheritances, nationality, migration, and updating your ID at SEGIP.
+
+**Types:** Marriage certificate (issued by SERECÍ), duplicate of the marriage record, certificate with apostille (for international use), and single record when multiple records exist.
+
+**Requirements:** Valid ID of the applicant; if not the holder, the holder's ID or death certificate; registration data (registry office number, book, record, year, department); payment of the fee.
+
+**Costs (referential):** Certificate ~Bs 34; duplicate ~Bs 51; apostille adds the consular fee.
+
+**Process — In person:** Go to the SERECÍ office, pay the fee, present your ID and registration data. Issued same day or within 24-72 hours.
+
+**Process — Online:** Use the OEP portal, select marriage certificate, enter registration data, pay online, and download the PDF.
+
+**From abroad:** Verify registration data, manage via notarized power of attorney, request an updated certificate, and process the apostille if required.
+
+**FAQ:** Yes, the certificate is required by SEGIP to update marital status. Same-day issuance in digital offices. If you don't know the record data, the registry office can locate it with your ID.
+
+For more info: https://web.oep.org.bo/registro-civico/`,
+    date: '2026-08-01',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
+    imageCaption: 'Certificado de matrimonio. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '172',
+    contentType: 'analysis',
+    slug: 'guia-certificado-defuncion-bolivia-2026',
+    titleEs: 'Cómo sacar el Certificado de Defunción en Bolivia 2026 — Requisitos, costos y trámite SERECÍ',
+    titleEn: 'How to get the Death Certificate in Bolivia 2026 — Requirements, costs and SERECÍ process',
+    excerptEs: 'Guía completa y actualizada para tramitar el certificado de defunción en Bolivia en 2026. Requisitos para el registro del fallecimiento en SERECÍ, documentos necesarios, testigos, costo del duplicado, paso a paso del trámite y cómo obtener el certificado para herencias, seguros y pensiones.',
+    excerptEn: 'Complete and updated guide to process the death certificate in Bolivia in 2026. Requirements for registering the death at SERECÍ, necessary documents, witnesses, duplicate cost, step-by-step process, and how to get the certificate for inheritances, insurance and pensions.',
+    contentEs: `### Guía Completa: Certificado de Defunción en Bolivia 2026
+
+El **certificado de defunción** es el documento oficial que acredita el fallecimiento de una persona y que permite realizar trámites sucesorios, cobro de seguros y pensiones, baja de servicios, transferencia de bienes y cierre de cuentas. Lo emite el **Servicio de Registro Cívico (SERECÍ)**, dependiente del Órgano Electoral Plurinacional.
+
+---
+
+#### Registro del fallecimiento: primer paso obligatorio
+
+Antes de obtener el certificado, el fallecimiento debe **registrarse** en la oficialía de registro civil correspondiente. El registro es **gratuito**.
+
+**Documentos para el registro:**
+
+- **Certificado médico de defunción** original (emitido por el médico tratante o forense, con firma y sello). Indica causa, fecha y lugar de la muerte.
+- **Certificado médico forense** adicional si la muerte fue por accidente o de forma violenta.
+- **Cédula de identidad** del fallecido (si está disponible) u otro documento que lo identifique.
+- **Cédula de identidad** del solicitante (familiar o persona encargada).
+- **Dos testigos** mayores de edad, con cédula de identidad original y vigente, que no sean familiares del fallecido.
+
+---
+
+#### Paso a paso del trámite
+
+1. **Obtén el certificado médico de defunción** del médico o del servicio forense.
+2. **Acude a la oficialía de registro civil** (SERECÍ) del lugar del fallecimiento.
+3. **Presenta los documentos** junto con los dos testigos.
+4. El oficial del registro civil **inscribe la defunción** en los libros correspondientes.
+5. Recibe el **certificado de defunción** o solicita un duplicado si lo requieres.
+
+---
+
+#### Costos
+
+- **Registro de la defunción:** gratuito.
+- **Duplicado del certificado de defunción:** aproximadamente **Bs 51** por cada copia adicional.
+
+---
+
+#### ¿Para qué necesitas el certificado?
+
+- **Sucesiones y herencias** (juicio sucesorio, transferencia de bienes inmuebles y vehículos).
+- **Cobro de seguros de vida** y prestaciones.
+- **Pensiones** (viudez, orfandad) ante las AFP y el sistema de seguridad social.
+- **Baja de servicios** (luz, agua, telefonía) y cierre de cuentas bancarias.
+- **Actualización del registro civil** y del padrón electoral (depuración de fallecidos).
+
+---
+
+#### Defunción ocurrida en el exterior
+
+Si un boliviano fallece fuera del país, el fallecimiento puede registrarse en el **consulado boliviano** del lugar, que actúa como oficial del Registro Civil:
+
+- Certificado de defunción extranjero original o copia legalizada.
+- Cédula o pasaporte del solicitante.
+- Certificado de nacimiento, cédula o pasaporte del fallecido.
+- Dos testigos mayores de edad presentes en el momento del registro.
+- El certificado extranjero puede requerir **legalización o apostilla** según el país.
+
+---
+
+#### Preguntas frecuentes
+
+**¿Cuánto tarda el registro?**
+El registro se realiza en el momento en la oficialía de registro civil, siempre que se presenten todos los documentos.
+
+**¿Puedo obtener el certificado de una persona fallecida hace años?**
+Sí. Si el fallecimiento ya fue registrado, puedes solicitar un duplicado del certificado en cualquier momento.
+
+**¿Es obligatorio presentar el certificado médico?**
+Sí, es la prueba principal del fallecimiento. Sin él no se puede inscribir la defunción.
+
+---
+
+#### Enlaces oficiales
+
+- Órgano Electoral Plurinacional / SERECÍ: [https://web.oep.org.bo/registro-civico/](https://web.oep.org.bo/registro-civico/)
+- Servicios del Registro Civil: [https://web.oep.org.bo/registro-civico/servicios-registro-civil/](https://web.oep.org.bo/registro-civico/servicios-registro-civil/)
+
+> Esta guía fue actualizada en agosto de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SERECÍ.`,
+    contentEn: `### Complete Guide: Death Certificate in Bolivia 2026
+
+The death certificate is the official document proving a person's death, required for inheritances, insurance claims, pensions, service cancellations, and asset transfers. It is issued by the Civil Registry Service (SERECÍ), under the Plurinational Electoral Body.
+
+**First step — Registration (free):** The death must be registered at the civil registry office with: medical death certificate (or forensic if violent death), the deceased's ID if available, the applicant's ID, and two adult witnesses with valid IDs who are not relatives.
+
+**Step by step:** 1) Get the medical death certificate. 2) Go to the civil registry office. 3) Submit documents with two witnesses. 4) The official registers the death. 5) Receive the certificate or request a duplicate.
+
+**Costs:** Registration is free. Each duplicate costs approximately Bs 51.
+
+**Uses:** Inheritances, life insurance, pensions (widowhood, orphanhood), service cancellation, bank account closure, and electoral roll cleanup.
+
+**Death abroad:** Register at the Bolivian consulate acting as civil registry official. The foreign certificate may need legalization or apostille.
+
+**FAQ:** Registration is done on the spot with all documents. You can request a duplicate at any time if the death was already registered. The medical certificate is mandatory.
+
+For more info: https://web.oep.org.bo/registro-civico/`,
+    date: '2026-08-01',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=630&fit=crop',
+    imageCaption: 'Trámite de documentos. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '173',
+    contentType: 'analysis',
+    slug: 'guia-registro-empresa-seprec-bolivia-2026',
+    titleEs: 'Cómo registrar tu empresa en Bolivia 2026 — SEPREC (ex FUNDEMPRESA), costos y requisitos',
+    titleEn: 'How to register your company in Bolivia 2026 — SEPREC (ex FUNDEMPRESA), costs and requirements',
+    excerptEs: 'Guía completa para crear y registrar tu empresa en Bolivia en 2026 a través del SEPREC (que reemplazó a FUNDEMPRESA). Tipos de sociedad, requisitos, costos actualizados (unipersonal, SRL, SA), pasos para obtener la matrícula de comercio, el NIT y la licencia de funcionamiento municipal.',
+    excerptEn: 'Complete guide to create and register your company in Bolivia in 2026 through SEPREC (which replaced FUNDEMPRESA). Company types, requirements, updated costs (sole proprietor, SRL, SA), steps to get the commercial registration, NIT and municipal operating license.',
+    contentEs: `### Guía Completa: Registro de Empresa en Bolivia 2026
+
+Desde abril de 2022, el registro comercial de empresas en Bolivia lo administra el **SEPREC (Servicio Plurinacional de Registro de Comercio)**, que reemplazó a **FUNDEMPRESA**. Aunque muchos todavía buscan "registrar en FUNDEMPRESA", hoy todos los trámites de matrícula de comercio se realizan en el SEPREC.
+
+> **Aclaración importante:** El SEPREC (Servicio Plurinacional de Registro de Comercio) no debe confundirse con el SEPREC de Registro Civil. Para empresas, el registro de comercio es el **SEPREC** a través del portal [tramites.seprec.gob.bo](https://tramites.seprec.gob.bo) o [miempresa.seprec.gob.bo](https://miempresa.seprec.gob.bo).
+
+---
+
+#### Tipos de empresa en Bolivia
+
+| Tipo | Socios | Responsabilidad | Capital mínimo |
+|------|--------|-----------------|----------------|
+| **Unipersonal** | 1 | Ilimitada (responde con patrimonio personal) | No fijado |
+| **SRL** | 2 a 25 | Limitada al capital aportado | No fijado legalmente |
+| **SA** | 3 o más | Limitada (acciones) | No fijado (costos más altos) |
+
+---
+
+#### Costos actualizados 2026
+
+| Concepto | Unipersonal | SRL |
+|----------|-------------|-----|
+| **Inscripción en SEPREC** | Bs 130 | Bs 455 — 647 |
+| **Reserva de nombre (homonimia)** | Incluida / Bs 100 aprox. | Incluida |
+| **Minuta y escritura pública (abogado + notario)** | Bs 500 — 1.500 | Bs 1.500 — 5.000 |
+| **NIT (Impuestos Nacionales)** | Gratuito | Gratuito |
+| **Licencia de funcionamiento municipal** | Bs 150 — 800 (según municipio) | Bs 150 — 600 |
+| **TOTAL ESTIMADO** | **Bs 930 — 2.430** | **Bs 1.600 — 3.500** |
+
+> Los valores son referenciales y varían según el notario, el abogado y el municipio. No renovar la matrícula a tiempo genera multas.
+
+---
+
+#### Paso a paso: registrar tu empresa
+
+**Paso 1 — Reserva el nombre (control de homonimia):**
+Ingresa al portal del SEPREC y verifica que el nombre de tu empresa esté disponible. La respuesta suele tardar hasta 8 horas hábiles.
+
+**Paso 2 — Elabora la escritura de constitución:**
+Contrata a un abogado para redactar la minuta (razón social, objeto social, domicilio, capital social, socios y estatutos) y protocolízala ante un notario de Fe Pública. Tiempo: 2 a 5 días hábiles.
+
+**Paso 3 — Inscribe en el SEPREC:**
+Ingresa a [tramites.seprec.gob.bo](https://tramites.seprec.gob.bo), completa el formulario virtual, paga el arancel y presenta la documentación. Para unipersonales el proceso puede ser 100% virtual.
+
+**Paso 4 — Obtén el NIT en Impuestos Nacionales:**
+Con la matrícula de comercio vigente, inscríbete en el SIN. El NIT es **gratuito**. El representante legal se presenta personalmente para la verificación biométrica.
+
+**Paso 5 — Licencia de funcionamiento municipal:**
+Tramítala en la Alcaldía del municipio donde operará la empresa. Requiere NIT activo, matrícula de comercio, cédula del representante legal y certificado de uso de suelo.
+
+**Paso 6 — Registros laborales (si tendrás empleados):**
+Inscribe a tus trabajadores en las AFP y la Caja de Salud antes de iniciar operaciones con personal.
+
+---
+
+#### Renovación anual de la matrícula
+
+La **matrícula de comercio** debe renovarse cada año en el SEPREC (plazo habitual: antes del 31 de marzo de cada gestión, con prórrogas según comunicados oficiales). El costo de renovación es menor que la inscripción inicial (aprox. Bs 200 — 400 según el tipo de empresa).
+
+---
+
+#### Preguntas frecuentes
+
+**¿Puedo registrar mi empresa siendo extranjero?**
+Sí, siempre que cumplas los requisitos migratorios. En algunos casos se solicita el Registro Único de Extranjeros (RUE).
+
+**¿Es obligatorio un abogado?**
+No es obligatorio, pero es altamente recomendable para evitar errores en la escritura y los estatutos.
+
+**¿Cuánto tarda todo el proceso?**
+Entre 15 y 30 días hábiles si realizas los trámites por tu cuenta; entre 1 y 2 semanas con ayuda de un gestor.
+
+---
+
+#### Enlaces oficiales
+
+- SEPREC — Portal de trámites: [https://tramites.seprec.gob.bo](https://tramites.seprec.gob.bo)
+- SEPREC — Mi empresa: [https://miempresa.seprec.gob.bo](https://miempresa.seprec.gob.bo)
+- SEPREC — Gaceta electrónica: [https://gacetadecomercio.gob.bo](https://gacetadecomercio.gob.bo)
+- Impuestos Nacionales: [https://www.impuestos.gob.bo](https://www.impuestos.gob.bo)
+
+> Esta guía fue actualizada en agosto de 2026. Los costos y plazos pueden variar. Verifica siempre en el portal oficial del SEPREC.`,
+    contentEn: `### Complete Guide: Company Registration in Bolivia 2026
+
+Since April 2022, commercial registration in Bolivia is managed by SEPREC (Plurinational Commercial Registration Service), which replaced FUNDEMPRESA. All commercial registration procedures now happen at SEPREC.
+
+**Note:** SEPREC for companies is different from the SEPREC for civil registration. For companies, use tramites.seprec.gob.bo or miempresa.seprec.gob.bo.
+
+**Company types:** Sole proprietor (1 person, unlimited liability), SRL (2-25 partners, limited liability), SA (3+ shareholders, limited liability).
+
+**Costs (2026, referential):** SEPREC registration Bs 130 (sole) or Bs 455-647 (SRL); legal+notary fees Bs 500-1,500 (sole) or Bs 1,500-5,000 (SRL); NIT is free; municipal license Bs 150-800. Total: Bs 930-2,430 (sole) or Bs 1,600-3,500 (SRL).
+
+**Steps:** 1) Reserve the name (homonimia check at SEPREC). 2) Draft the incorporation deed with a lawyer and notary. 3) Register at SEPREC online. 4) Get the NIT at the National Tax Service (free). 5) Get the municipal operating license. 6) Register employees with AFP and health insurance if needed.
+
+**Annual renewal:** The commercial registration must be renewed every year (usually before March 31, with extensions per official announcements). Late renewal generates fines.
+
+**FAQ:** Foreigners can register if they meet immigration requirements. A lawyer is not mandatory but recommended. Full process takes 15-30 business days.
+
+For more info: https://tramites.seprec.gob.bo`,
+    date: '2026-08-01',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&h=630&fit=crop',
+    imageCaption: 'Registro de empresa. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '174',
+    contentType: 'analysis',
+    slug: 'guia-padron-electoral-bolivia-2026',
+    titleEs: 'Cómo registrarte en el Padrón Electoral Bolivia 2026 — Requisitos y trámite TSE',
+    titleEn: 'How to register in the Electoral Roll Bolivia 2026 — Requirements and TSE process',
+    excerptEs: 'Guía completa para inscribirte y verificar tu registro en el Padrón Electoral Biométrico de Bolivia en 2026. Requisitos (18 años y cédula vigente), cómo empadronarte, cómo actualizar tus datos o cambiar de domicilio, cómo consultar tu recinto con la app Yo Participo y qué hacer si apareces inhabilitado.',
+    excerptEn: 'Complete guide to register and verify your registration in the Biometric Electoral Roll of Bolivia in 2026. Requirements (18 years old and valid ID), how to register, how to update your data or change your address, how to check your polling place with the Yo Participo app, and what to do if you appear disqualified.',
+    contentEs: `### Guía Completa: Padrón Electoral en Bolivia 2026
+
+El **Padrón Electoral Biométrico** es el sistema de registro del Órgano Electoral Plurinacional (OEP) que habilita a las bolivianas y bolivianos a ejercer su derecho al voto. Estar correctamente empadronado es condición obligatoria para participar en elecciones nacionales, subnacionales y referendos.
+
+---
+
+#### Requisitos para empadronarse
+
+- Haber **cumplido 18 años**.
+- Portar la **cédula de identidad vigente** emitida por el SEGIP.
+- En el caso de extranjeros naturalizados: la documentación que acredite su naturalización.
+
+---
+
+#### Cómo inscribirse o actualizar el registro
+
+El empadronamiento se realiza en los **Notarios Electorales** habilitados por el Tribunal Supremo Electoral (TSE) y en las oficinas del SERECÍ.
+
+1. **Ubica el punto de empadronamiento** más cercano (notaría electoral o brigada móvil).
+2. **Presenta tu cédula de identidad vigente**.
+3. El notario electoral captura tu **registro biométrico** (fotografía, huellas dactilares y firma).
+4. Revisa que tus datos sean correctos y **firma la boleta de empadronamiento**.
+5. Recibe tu constancia de registro.
+
+**Cambio de domicilio:** El cambio de domicilio electoral es obligatorio y debe comunicarse al SERECÍ. Se realiza presentando la cédula de identidad y una prueba de residencia (certificado de domicilio o factura).
+
+---
+
+#### Cómo consultar tu recinto de votación (Yo Participo)
+
+La app **Yo Participo** del TSE permite verificar tu registro y conocer tu recinto de votación:
+
+1. Descarga **Yo Participo** (Android / web [yoparticipo.oep.org.bo](https://yoparticipo.oep.org.bo)).
+2. Ingresa tu **número de cédula de identidad** y **fecha de nacimiento**.
+3. El sistema muestra tu **recinto electoral**, mesa y si estás habilitado.
+
+También puedes consultar en la página del OEP: [https://www.oep.org.bo](https://www.oep.org.bo)
+
+---
+
+#### Si apareces inhabilitado
+
+Las causales más comunes de inhabilitación son:
+
+- **Posible suplantación o doble identidad** en el padrón.
+- **Documento inválido** al momento del registro (cédula caducada o incorrecta).
+- **Errores de registro** del notario operador (datos incompletos).
+
+**Qué hacer:** Acude al SERECÍ o al TSE durante los plazos de reclamo publicados en el calendario electoral y presenta tu cédula vigente para subsanar la observación.
+
+---
+
+#### Voto en el exterior
+
+Los bolivianos residentes en el extranjero pueden empadronarse en las **oficinas consulares** de Bolivia. El voto en el exterior es **voluntario**. En las elecciones recientes, más de 360.000 ciudadanos estuvieron habilitados en el exterior, concentrándose en Argentina, España, Brasil, Chile y Estados Unidos.
+
+---
+
+#### Preguntas frecuentes
+
+**¿Cuándo se puede empadronar?**
+El padrón se actualiza de manera permanente, pero cada proceso electoral define un **calendario** con fechas límite de empadronamiento. Consulta el calendario del TSE.
+
+**¿Me empadroné hace años, sigo habilitado?**
+Sí, siempre que no hayas sido depurado (fallecimiento, cambio de domicilio no registrado o suspensión de derechos ciudadanos).
+
+**¿El voto es obligatorio?**
+En Bolivia el voto es obligatorio para los mayores de 18 años residentes en el país (salvo excepciones legales); en el exterior es voluntario.
+
+---
+
+#### Enlaces oficiales
+
+- Órgano Electoral Plurinacional: [https://www.oep.org.bo](https://www.oep.org.bo)
+- App Yo Participo: [https://yoparticipo.oep.org.bo](https://yoparticipo.oep.org.bo)
+- Registro en el Padrón Electoral (SERECÍ): [https://web.oep.org.bo/registro-civico/registro-padron-electoral/](https://web.oep.org.bo/registro-civico/registro-padron-electoral/)
+
+> Esta guía fue actualizada en agosto de 2026. Los plazos y requisitos pueden variar según el calendario electoral. Verifica siempre en la página oficial del TSE.`,
+    contentEn: `### Complete Guide: Electoral Roll in Bolivia 2026
+
+The Biometric Electoral Roll is the registration system of the Plurinational Electoral Body (OEP) that enables Bolivians to vote. Being correctly registered is mandatory to participate in national, subnational elections and referendums.
+
+**Requirements:** Be 18 years old and carry a valid SEGIP ID card.
+
+**How to register:** Go to an authorized Electoral Notary or SERECÍ office, present your valid ID, the notary captures your biometric data (photo, fingerprints, signature), review your data and sign the registration form. Change of address must be communicated to SERECÍ with proof of residence.
+
+**Check your polling place:** Use the Yo Participo app (Android / yoparticipo.oep.org.bo). Enter your ID number and birth date to see your polling place, table and eligibility status.
+
+**If disqualified:** Common causes are possible identity theft or double registration, invalid document at registration, or registration errors. Go to SERECÍ or TSE during the claims period published in the electoral calendar.
+
+**Voting abroad:** Bolivians abroad register at Bolivian consulates. Voting abroad is voluntary. Over 360,000 citizens were eligible abroad in recent elections (Argentina, Spain, Brazil, Chile, USA).
+
+**FAQ:** The roll updates permanently, but each electoral process sets registration deadlines. If registered years ago, you remain eligible unless purged. Voting is mandatory in Bolivia (voluntary abroad).
+
+For more info: https://www.oep.org.bo`,
+    date: '2026-08-01',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop',
+    imageCaption: 'Urna electoral. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
   // ============================================================
   // ARTÍCULO DESTACADO - SISTEMA DE GESTIÓN DE PRENSA
   // ============================================================
@@ -5548,6 +6022,318 @@ Specialized in the intersection of software development, Artificial Intelligence
         featured: true,
         views: 1
       },
+  {
+    id: '175',
+    contentType: 'analysis',
+    slug: 'tutorial-edicion-video-davinci-resolve-gratis',
+    titleEs: 'Cómo editar video gratis con DaVinci Resolve — Tutorial completo desde cero',
+    titleEn: 'How to edit video for free with DaVinci Resolve — Complete tutorial from scratch',
+    excerptEs: 'Tutorial completo y práctico para empezar a editar video con DaVinci Resolve, el editor profesional gratuito usado en cine y televisión. Guía de descarga, configuración del proyecto, importación de clips, corte y montaje en la página Edit, corrección de color básica, audio, subtítulos y exportación.',
+    excerptEn: 'Complete and practical tutorial to start editing video with DaVinci Resolve, the free professional editor used in film and TV. Download guide, project setup, clip import, cutting and assembly in the Edit page, basic color correction, audio, subtitles and export.',
+    contentEs: `### Tutorial: Edición de video gratis con DaVinci Resolve
+
+Como camarógrafo y editor, una de las preguntas que más recibo es cómo empezar a editar sin pagar una licencia cara. La respuesta es **DaVinci Resolve**, el mismo programa que se usa en grandes producciones de cine y televisión, y que ofrece una **versión gratuita** muy completa. En este tutorial te muestro el flujo de trabajo desde cero.
+
+---
+
+#### 1. Descarga e instalación
+
+1. Ingresa a [blackmagicdesign.com/products/davinciresolve](https://www.blackmagicdesign.com/products/davinciresolve).
+2. Descarga la **versión DaVinci Resolve (gratuita)** — no la Studio (de pago).
+3. Instala siguiendo el asistente. En Windows necesitas al menos **16 GB de RAM recomendados** y una GPU con soporte OpenCL o CUDA.
+
+> **Tip:** Si tu equipo es modesto, baja la resolución de la línea de tiempo a 1080p para un mejor rendimiento en la edición.
+
+---
+
+#### 2. Configuración del proyecto
+
+Al abrir el programa:
+
+1. Crea un **proyecto nuevo** (haz clic en "New Project" y ponle un nombre).
+2. Ve a **File → Project Settings**.
+3. Configura:
+   - **Timeline resolution:** 1920x1080 (Full HD) o 3840x2160 (4K) según tu material.
+   - **Timeline frame rate:** 25 fps (estándar en Bolivia/SECAM-PAL) o 30 fps si grabaste en ese formato.
+4. Acepta los cambios. La resolución de línea de tiempo define tu video final, no el clip original.
+
+---
+
+#### 3. Importar tus clips
+
+En la página **Media** (primer icono inferior):
+
+1. Navega a tu carpeta de grabaciones.
+2. Selecciona los clips y arrástralos al **Media Pool** (banco de material).
+3. Revisa que las **metadatas** (nombre, duración, resolución) sean correctas.
+
+---
+
+#### 4. Edición básica (página Edit)
+
+La página **Edit** es donde se construye el video:
+
+- **Cortar:** Pasa el cursor por el clip y pulsa **B** (Blade) o Ctrl+B para cortar.
+- **Seleccionar:** Pulsa **A** (Selection) para volver al cursor de selección.
+- **Eliminar:** Selecciona el clip y presiona **Supr** o **Shift+Supr** para eliminar y cerrar el hueco (ripple delete).
+- **Mover:** Arrastra los clips en la línea de tiempo para reordenarlos.
+- **Atajos clave:** I (inicio del clip), O (fin), Space (reproducir/detener).
+
+> **Flujo profesional:** organiza el trabajo en 3 pistas — V1 (video principal), V2 (material de apoyo o B-roll) y A1/A2 (audio de entrevista y música).
+
+---
+
+#### 5. Corrección de color básica (página Color)
+
+DaVinci Resolve es famoso por su etalonaje. Para empezar:
+
+1. Ve a la página **Color**.
+2. Ajusta el **balance de blancos** con el selector de temperatura (WB).
+3. Corrige la **exposición** con los controles de Lift/Gamma/Gain (sombras, medios tonos, luces).
+4. Ajusta **saturación** y **contraste**.
+5. Aplica un **LUT** en el nodo si quieres un look cinematográfico (LUTs gratuitos abundan en la web).
+
+> **Regla básica:** corrige primero la exposición y el balance de blancos antes de tocar la saturación.
+
+---
+
+#### 6. Audio
+
+- Usa la página **Fairlight** (icono de sonido) para ajustar el volumen.
+- Normaliza la pista de diálogo alrededor de **-12 dB**.
+- La música de fondo debe quedar entre **-18 y -24 dB** para no tapar las voces.
+
+---
+
+#### 7. Subtítulos
+
+DaVinci Resolve 18+ incluye un módulo de subtítulos:
+
+1. En la página **Edit**, clic derecho en la línea de tiempo → **Add Subtitle Track**.
+2. Doble clic en el clip de subtítulo para escribir el texto.
+3. Ajusta posición, tamaño y color en **Inspector**.
+4. Exporta con **"Burn subtitles"** activado si quieres los subtítulos incrustados en el video.
+
+---
+
+#### 8. Exportación
+
+1. Ve a la página **Deliver**.
+2. Selecciona formato **MP4** con codec **H.264** (para YouTube, WhatsApp y redes).
+3. Calidad: **High** o define el bitrate (por ejemplo 8-10 Mbps para 1080p).
+4. Resolución de salida: la misma de la línea de tiempo (1080p o 4K).
+5. Haz clic en **Add to Render Queue** y luego **Start Render**.
+
+---
+
+#### Errores comunes y soluciones
+
+| Problema | Solución |
+|----------|----------|
+| El video se escucha pero no hay imagen | Revisa que la resolución de timeline coincida con la del clip |
+| Edición lenta / se congela | Baja la resolución de timeline a 1080p o usa "Playback → Proxy Mode" |
+| El audio no se escucha al exportar | Activa las pistas de audio en la página Deliver |
+| El video exporta "lavado" (con colores apagados) | Convierte a Rec.709 en la corrección de color (o usa HDR Tools) |
+
+---
+
+#### Recursos gratuitos
+
+- **LUTs cinematográficos:** busca en páginas como lutify.me (gratuitos) o color.io.
+- **Música sin copyright:** YouTube Audio Library, Pixabay Music.
+- **Cursos:** el manual oficial en español de Blackmagic Design es un gran punto de partida.
+
+> Tutorial actualizado en agosto de 2026. DaVinci Resolve actualiza su versión gratuita periódicamente; la interfaz puede variar ligeramente entre versiones.`,
+    contentEn: `### Tutorial: Free video editing with DaVinci Resolve
+
+As a cameraman and editor, one of the questions I get most is how to start editing without paying an expensive license. The answer is DaVinci Resolve, the same software used in major film and TV productions, which offers a very complete free version.
+
+**1. Download:** Go to blackmagicdesign.com/products/davinciresolve and download the free DaVinci Resolve version (not Studio). Windows needs at least 16GB RAM recommended and an OpenCL/CUDA GPU.
+
+**2. Project setup:** Create a new project, go to File > Project Settings, set timeline resolution (1920x1080 or 3840x2160) and frame rate (25 or 30 fps).
+
+**3. Import:** In the Media page, drag your clips to the Media Pool.
+
+**4. Editing (Edit page):** B to cut, A to select, Shift+Delete for ripple delete, I/O for in/out points, Space to play. Use 3 tracks: V1 (main video), V2 (B-roll), A1/A2 (interview + music audio).
+
+**5. Color (Color page):** Adjust white balance, exposure with Lift/Gamma/Gain, then saturation and contrast. Apply a LUT for a cinematic look.
+
+**6. Audio:** Use the Fairlight page. Normalize dialogue around -12dB. Background music between -18 and -24dB.
+
+**7. Subtitles:** Right-click the timeline > Add Subtitle Track, write text, adjust in Inspector, enable "Burn subtitles" when exporting.
+
+**8. Export (Deliver page):** MP4 with H.264 codec, High quality, match timeline resolution, add to render queue and render.
+
+**Common errors:** No image with audio (mismatch timeline resolution), slow editing (use Proxy Mode), missing audio on export (enable audio tracks), washed-out colors (convert to Rec.709).
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '12 min de lectura',
+    readTimeEn: '12 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=630&fit=crop',
+    imageCaption: 'Edición de video en DaVinci Resolve. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '176',
+    contentType: 'analysis',
+    slug: 'tutorial-subtitulos-doblaje-ia-pipeline-completo',
+    titleEs: 'Subtítulos y doblaje con IA — Pipeline completo para tus videos (gratis)',
+    titleEn: 'Subtitles and AI dubbing — Complete pipeline for your videos (free)',
+    excerptEs: 'Tutorial práctico para añadir subtítulos automáticos y doblaje con voz clonada a tus videos usando herramientas gratuitas de IA. Cómo transcribir con Whisper, traducir con modelos de lenguaje, corregir, clonar la voz y quemar los subtítulos en el video final.',
+    excerptEn: 'Practical tutorial to add automatic subtitles and cloned-voice dubbing to your videos using free AI tools. How to transcribe with Whisper, translate with language models, correct, clone the voice and burn subtitles into the final video.',
+    contentEs: `### Tutorial: Subtítulos y doblaje con IA — Pipeline completo
+
+En el artículo sobre **SmartSub** vimos un caso real de este flujo. En este tutorial te explico el **pipeline completo** paso a paso para que puedas aplicarlo a tus propios videos: desde la transcripción hasta el doblaje con clonación de voz, todo con herramientas gratuitas o de bajo costo.
+
+---
+
+#### ¿Qué puedes lograr?
+
+- **Subtítulos automáticos** en el idioma original o traducidos.
+- **Doblaje** con la propia voz del narrador (clonación de voz) en otro idioma.
+- **Quemado de subtítulos** directamente en el video (hard subtitles).
+
+---
+
+#### Paso 1 — Transcripción (Whisper)
+
+**Whisper** (de OpenAI) es el motor de reconocimiento de voz más preciso disponible:
+
+- **Local (gratis):** instala whisper.cpp o el paquete de Python. Funciona incluso sin GPU (más lento).
+- **En la nube:** varias herramientas ofrecen Whisper como API gratuita con límites diarios.
+
+Comando básico con whisper.cpp:
+
+\`\`\`bash
+./main -m models/ggml-base.bin -f video.mp4 -l es -osrt -o out
+\`\`\`
+
+Esto genera un archivo **.srt** con la transcripción y los tiempos.
+
+---
+
+#### Paso 2 — Traducción de subtítulos
+
+Una vez tienes los subtítulos, puedes traducirlos con un **modelo de lenguaje** (LLM):
+
+- Copia el contenido del .srt y pídelo traducido a otro idioma.
+- Verifica que el **formato de tiempos** (00:00:01,000 --> 00:00:04,000) se mantenga intacto.
+- Herramientas como SmartSub automatizan este paso por ti.
+
+---
+
+#### Paso 3 — Corrección
+
+Revisa nombres propios, siglas y palabras técnicas que la IA puede haber escrito mal:
+
+- **Nombres de personas y lugares** son el error más común.
+- Corrige directamente en el archivo .srt antes de continuar.
+
+---
+
+#### Paso 4 — Doblaje con clonación de voz
+
+Para doblar el video:
+
+1. Toma un **audio de referencia** (10-30 segundos) de la voz del narrador.
+2. Usa una herramienta de **clonación de voz** (text-to-speech con la voz clonada).
+3. Genera el audio en el idioma de destino.
+4. Sincroniza el audio generado con los tiempos de los subtítulos traducidos.
+
+> **Nota importante:** Usa la clonación de voz solo con tu propia voz o con autorización. Clonar voces de otras personas sin permiso puede violar derechos y normas éticas.
+
+---
+
+#### Paso 5 — Quemado de subtítulos
+
+Para incrustar los subtítulos en el video final (hard subtitles):
+
+- **FFmpeg** (gratis) es la herramienta más usada:
+
+\`\`\`bash
+ffmpeg -i video.mp4 -vf "subtitles=out.srt:force_style='Fontsize=18'" -c:a copy final.mp4
+\`\`\`
+
+- También puedes hacerlo desde **DaVinci Resolve** (página Deliver → subtítulos incrustados) o desde herramientas de edición con módulo de subtítulos.
+
+---
+
+#### Resumen del flujo
+
+| Paso | Herramienta | Resultado |
+|------|-------------|-----------|
+| 1. Transcripción | Whisper (local o nube) | Archivo .srt |
+| 2. Traducción | Modelo de lenguaje (LLM) | Subtítulos traducidos |
+| 3. Corrección | Manual | Subtítulos corregidos |
+| 4. Doblaje | Clonación de voz + TTS | Audio doblado |
+| 5. Quemado | FFmpeg o DaVinci Resolve | Video final con subtítulos |
+
+---
+
+#### Casos de uso
+
+- **Creadores de contenido:** multiplica tu audiencia traduciendo tus videos a otros idiomas.
+- **Medios de comunicación:** subtitula entrevistas y notas rápidamente.
+- **Educación:** cursos y tutoriales con subtítulos precisos.
+- **Accesibilidad:** personas con discapacidad auditiva.
+
+---
+
+#### Privacidad y GPU
+
+- Si procesas **localmente** (Whisper + FFmpeg), tus videos nunca salen de tu equipo.
+- La **clonación de voz en la nube** requiere subir el audio de referencia: revisa las políticas de privacidad.
+- Con una **GPU**, el pipeline completo de un video de 10 minutos tarda minutos; en CPU puede tomar varias veces el tiempo real.
+
+---
+
+#### Herramientas mencionadas
+
+- **Whisper:** github.com/openai/whisper (y variantes optimizadas como whisper.cpp).
+- **FFmpeg:** ffmpeg.org (gratis, multiplataforma).
+- **SmartSub:** repositorio buxuku/SmartSub (pipeline integrado con 7 motores ASR y 20 servicios de traducción).
+- **DaVinci Resolve:** edición final y quemado de subtítulos.
+
+> Tutorial actualizado en agosto de 2026. Las herramientas de IA cambian rápido; verifica siempre las versiones actuales y los límites gratuitos.`,
+    contentEn: `### Tutorial: Subtitles and AI dubbing — Complete pipeline
+
+In the SmartSub article we saw a real case of this workflow. In this tutorial I explain the complete pipeline step by step so you can apply it to your own videos: from transcription to voice-clone dubbing, all with free or low-cost tools.
+
+**What you can achieve:** Automatic subtitles in the original or translated language, dubbing with the narrator's own voice (voice cloning), and burned subtitles in the final video.
+
+**Step 1 — Transcription (Whisper):** Whisper (OpenAI) is the most accurate speech recognition engine. Run it locally for free (whisper.cpp) or use cloud APIs. It generates an .srt file with transcription and timings.
+
+**Step 2 — Translation:** Use a language model to translate the subtitles. Keep the timing format (00:00:01,000 --> 00:00:04,000) intact.
+
+**Step 3 — Correction:** Fix proper nouns, acronyms and technical words that AI may have misspelled.
+
+**Step 4 — Dubbing with voice cloning:** Take a reference audio (10-30 seconds) of the narrator's voice, use a voice cloning tool to generate the audio in the target language, and sync it with the subtitle timings. Only clone your own voice or with authorization.
+
+**Step 5 — Burn subtitles:** Use FFmpeg (free) or DaVinci Resolve (Deliver page) to embed subtitles into the final video.
+
+**Use cases:** Content creators multiplying audiences, media subtitling interviews, education courses, accessibility for the hearing impaired.
+
+**Privacy & GPU:** Local processing (Whisper + FFmpeg) keeps videos on your device. Cloud voice cloning requires uploading reference audio — check privacy policies. With a GPU, a 10-minute video takes minutes; on CPU it can take several times the real duration.
+
+**Tools:** Whisper (github.com/openai/whisper), FFmpeg (ffmpeg.org), SmartSub (buxuku/SmartSub), DaVinci Resolve.
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=1200&h=630&fit=crop',
+    imageCaption: 'Subtítulos y doblaje con IA. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
       // ============================================================
       // NOTICIAS DE LA VELADA DEL AÑO 6
       // ============================================================

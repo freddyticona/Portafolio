@@ -3,6 +3,90 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/guias/guia-certificado-matrimonio-segip-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo sacar el Certificado de Matrimonio en Bolivia 2026 — Requisitos, costos y trámite SERECÍ</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/guias/guia-certificado-defuncion-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo sacar el Certificado de Defunción en Bolivia 2026 — Requisitos, costos y trámite SERECÍ</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/guias/guia-registro-empresa-seprec-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo registrar tu empresa en Bolivia 2026 — SEPREC (ex FUNDEMPRESA), costos y requisitos</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/guias/guia-padron-electoral-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo registrarte en el Padrón Electoral Bolivia 2026 — Requisitos y trámite TSE</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-edicion-video-davinci-resolve-gratis</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Cómo editar video gratis con DaVinci Resolve — Tutorial completo desde cero</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-subtitulos-doblaje-ia-pipeline-completo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01</news:publication_date>
+      <news:title>Subtítulos y doblaje con IA — Pipeline completo para tus videos (gratis)</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/muere-rapero-soldis-c4-guadalajara</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
