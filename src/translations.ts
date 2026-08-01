@@ -10182,6 +10182,451 @@ SmartSub is a perfect example of how **open source software** democratizes profe
     featured: false,
     views: 1
   },
+  {
+    id: '161',
+    contentType: 'news',
+    slug: 'muere-rapero-soldis-c4-guadalajara',
+    titleEs: 'Muere el rapero mexicano Soldis C4 tras ser atacado a tiros en Guadalajara',
+    titleEn: 'Mexican rapper Soldis C4 killed in a shooting while filming in Guadalajara',
+    excerptEs: 'El rapero mexicano Jesús Alejandro Hinojosa Vargas, conocido como Soldis C4, murió a los 30 años tras recibir al menos cuatro disparos en Guadalajara mientras se alistaba para grabar un video musical. Un hombre enmascarado huyó en motocicleta y hasta el momento no hay detenidos.',
+    excerptEn: 'Mexican rapper Jesús Alejandro Hinojosa Vargas, known as Soldis C4, died at 30 after being shot at least four times in Guadalajara while preparing to shoot a music video. A masked man fled on a motorcycle and no arrests have been made so far.',
+    contentEs: `### Luto en el rap mexicano: asesinan a Soldis C4 en Guadalajara
+
+La escena del rap independiente de México está de luto. El rapero **Jesús Alejandro Hinojosa Vargas**, mejor conocido como **Soldis C4**, falleció la tarde del viernes 31 de julio tras ser **atacado a balazos en las calles de Guadalajara, Jalisco**, mientras se preparaba para grabar un video musical, según confirmó TV Azteca.
+
+El artista, de **30 años**, se encontraba sobre la avenida Ahuehuetes y la calle Miguel Orozco Camacho, en la colonia Lázaro Cárdenas, cuando un **hombre enmascarado** se hizo presente en la locación y le **disparó directamente al menos en cuatro ocasiones**. El agresor escapó en una motocicleta.
+
+#### La reacción de las autoridades
+
+En cuestión de minutos un equipo de primera línea se desplegó en el lugar, pero al llegar **el rapero ya no presentaba signos vitales**. Las autoridades confirmaron la muerte del artista, aunque todavía **se desconocen los motivos del crimen**. Hasta el momento **no se ha reportado ninguna detención** vinculada con el caso.
+
+Tras la noticia, diversas páginas de rap en México dedicaron mensajes de despedida al artista: *"Descanse en paz, Soldis C4. Muchas fuerzas y nuestro más grande pésame a su familia, amigos, fans y seres cercanos"*.
+
+#### ¿Quién era Soldis C4?
+
+Jesús Alejandro Hinojosa Vargas era una figura reconocida de la **escena del rap independiente en Guadalajara**. Entre sus temas más conocidos destacan **"Fuego" y "Turbio"**. Además de cantante, se desempeñó como **productor y mánager de distintos exponentes del rap local**.
+
+**Con información de:** [TV Azteca](https://www.tvazteca.com/aztecauno/famosos/muere-rapero-soldis-c4-fue-atacado-en-guadalajara-mientras-grababa-un-video/)`,
+    contentEn: `### Mexican rap mourns: Soldis C4 killed in Guadalajara
+
+Rapper **Jesús Alejandro Hinojosa Vargas**, known as **Soldis C4**, died on Friday afternoon after being shot in the streets of Guadalajara while preparing to film a music video, according to TV Azteca. A masked man shot him at least four times and fled on a motorcycle. No arrests have been reported and the motive remains unknown.
+
+**Sources:** TV Azteca`,
+    date: '2026-08-01',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://tvazteca.brightspotcdn.com/dims4/default/2d56133/2147483647/strip/true/crop/1920x1008+0+0/resize/1200x630!/quality/90/?url=https%3A%2F%2Ftv-azteca-production-tv-azteca.s3.us-west-2.amazonaws.com%2Fbrightspot%2F1c%2F24%2F6c639f474c0aa7a3bf7601b34f03%2Fmuere-querido-rapero-mexicano-tras-ser-atacado-en-guadalajara.png',
+    imageCaption: 'El rapero mexicano Soldis C4, asesinado en Guadalajara mientras grababa un video musical. Foto: TV Azteca',
+    categoryEs: 'Espectáculos',
+    categoryEn: 'Entertainment',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'TV Azteca',
+    sourceUrl: 'https://www.tvazteca.com/aztecauno/famosos/muere-rapero-soldis-c4-fue-atacado-en-guadalajara-mientras-grababa-un-video/'
+  },
+  {
+    id: '162',
+    contentType: 'news',
+    slug: 'jared-leto-acusaciones-conducta-sexual-adolescentes',
+    titleEs: 'Cuatro mujeres acusan a Jared Leto de conducta sexual contra adolescentes en un nuevo documental de la BBC',
+    titleEn: 'Four women accuse Jared Leto of sexual conduct with teenagers in a new BBC documentary',
+    excerptEs: 'Un documental de la BBC reúne los testimonios de diez mujeres contra el actor y músico Jared Leto. Cuatro lo acusan de conducta sexual criminal cuando eran adolescentes, con hechos ocurridos entre 2002 y 2016. El equipo legal del artista rechaza todas las acusaciones.',
+    excerptEn: 'A BBC documentary gathers testimony from ten women against actor and musician Jared Leto. Four accuse him of criminal sexual conduct when they were teenagers, with events between 2002 and 2016. His legal team denies all allegations.',
+    contentEs: `### Jared Leto, acusado por cuatro mujeres de conducta sexual contra adolescentes
+
+Un nuevo documental de la **BBC**, titulado *"Jared Leto: Hollywood's Dark Secret"*, reúne los testimonios de **diez mujeres** contra el actor y líder de Thirty Seconds to Mars. Cuatro de ellas acusan a **Jared Leto** de **conducta sexual criminal** en hechos ocurridos cuando eran adolescentes, con agresiones registradas entre **2002 y 2016**, cuando el artista tenía entre 30 y 40 años.
+
+Según la BBC, **nueve de las denunciantes relatan públicamente sus casos por primera vez**. Una de las víctimas asegura que el actor la agredió en el baño de un motel cuando tenía **17 años**; otra afirma que Leto la amenazó con agresión sexual a los **19**; y una tercera sostiene que mantuvo relaciones con él en California cuando tenía **17**, por debajo de la edad de consentimiento en ese estado.
+
+#### Documental con pruebas y testigos
+
+La BBC afirma haber **corroborado los testimonios** con amistades y familiares, además de imágenes y mensajes. Dos exempleados de Thirty Seconds to Mars señalan en el documental que el personal se sentía incómodo por la forma en que Leto interactuaba con adolescentes, a quienes invitaba a camerinos o a su casa. *"Todos pensaban que la diferencia de edad era demasiado grande"*, relata uno de ellos.
+
+- **2002-2016**: periodo de los hechos denunciados.
+- **10 mujeres** testifican en el documental; 9 hablan por primera vez.
+- **Acuerdo de confidencialidad** que una denunciante, quien recibió llamadas sexuales a los 16, se negó a firmar.
+- **Llamadas "extrañas y muy sexuales"** a menores, según cuatro de las mujeres.
+
+#### Antecedentes y reacción
+
+El año pasado, la DJ **Allie Teilz** denunció a Leto por conducta inapropiada cuando tenía 17 años, lo que motivó un reportaje de *Air Mail* en junio de 2025 con versiones de **nueve mujeres**. El **equipo legal de Leto rechaza todas las acusaciones**, sostiene que las interacciones fueron apropiadas y recuerda que el músico no consume alcohol ni drogas desde hace más de 35 años. Una de las denunciantes declaró: *"Esto fue hace 25 años… él ha salido impune"*.
+
+**Con información de:** [Infobae](https://www.infobae.com/entretenimiento/2026/07/29/jared-leto-enfrenta-nuevas-denuncias-por-conducta-sexual-contra-adolescentes-agresiones-amenazas-y-llamadas-explicitas/), [BBC](https://www.bbc.com/)`,
+    contentEn: `### Jared Leto accused by four women of sexual conduct with teenagers
+
+A new BBC documentary, *"Jared Leto: Hollywood's Dark Secret"*, gathers testimony from ten women against the actor and Thirty Seconds to Mars frontman. Four accuse him of criminal sexual conduct when they were teenagers, with events between 2002 and 2016. The BBC says it corroborated the accounts with relatives and messages. His legal team denies all allegations.
+
+**Sources:** Infobae, BBC`,
+    date: '2026-07-29',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.infobae.com/resizer/v2/WKHSEPAAFRFXDHZPNOTQZR4V2M.jpg?auth=de2c555497ebbdd8c57e97c4832620a06726f1d7c6372f47d3f034c8e7bdbb7a&smart=true&width=1200&height=630&quality=85',
+    imageCaption: 'Jared Leto, actor y líder de Thirty Seconds to Mars, acusado de conducta sexual contra adolescentes. Foto: REUTERS',
+    categoryEs: 'Espectáculos',
+    categoryEn: 'Entertainment',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Infobae, BBC',
+    sourceUrl: 'https://www.infobae.com/entretenimiento/2026/07/29/jared-leto-enfrenta-nuevas-denuncias-por-conducta-sexual-contra-adolescentes-agresiones-amenazas-y-llamadas-explicitas/'
+  },
+  {
+    id: '163',
+    contentType: 'news',
+    slug: 'muere-jose-luis-bola-ingeniero-sonido-division-minuscula',
+    titleEs: 'Muere José Luis Doblado "Bola", histórico ingeniero de sonido del rock mexicano y de División Minúscula',
+    titleEn: 'José Luis Doblado "Bola", historic sound engineer of Mexican rock and División Minúscula, dies',
+    excerptEs: 'División Minúscula confirmó el fallecimiento de José Luis Doblado, conocido como "Bola", su ingeniero de sonido durante ocho años y una figura clave de la escena del rock mexicano. Trabajó con Botellita de Jerez, Cecilia Toussaint, Gloria Trevi y La Castañeda, entre otros.',
+    excerptEn: 'División Minúscula confirmed the death of José Luis Doblado, known as "Bola", their sound engineer for eight years and a key figure of the Mexican rock scene. He worked with Botellita de Jerez, Cecilia Toussaint, Gloria Trevi and La Castañeda, among others.',
+    contentEs: `### El rock mexicano despide a José Luis Doblado "Bola"
+
+La escena del rock mexicano está de luto. **División Minúscula** confirmó el fallecimiento de **José Luis Doblado**, conocido como **'Bola'**, uno de los **ingenieros de sonido más respetados** de la industria y colaborador de la agrupación durante **ocho años**. La banda no dio a conocer las causas de la muerte.
+
+A través de sus redes sociales, la agrupación compartió un emotivo mensaje: *"Con gran tristeza recibimos la noticia de que nuestro querido José Luis Doblado 'Bola' pasó a otro plano. Fue nuestro ingeniero durante 8 años y vivimos juntos grandes momentos como banda y amigos. Un verdadero rocanroller que vivió siempre su vida como quiso, haciendo lo que más amaba: trabajar en la música"*.
+
+#### Una carrera de más de cuatro décadas
+
+Doblado relató en 2023 que ese año cumplía **40 años dedicándose a la industria musical**. Comenzó en la secundaria, se interesó primero por la actuación y terminó descubriendo su vocación detrás del escenario. Su oportunidad llegó mientras frecuentaba un lugar donde se presentaba la banda **Kerigma**, hasta convertirse en ingeniero de sonido.
+
+- Colaboró con **Botellita de Jerez** (1983) y participó en la **apertura de Rockotitlán** (1985).
+- Trabajó con **Cecilia Toussaint, Resorte, Gloria Trevi, Pedro Fernández, Myst, La Castañeda y Jeans**.
+- Con **División Minúscula** compartió cerca de una década de escenarios.
+
+#### Las despedidas
+
+Los integrantes de **DLD** lo recordaron como *"compañero de mil batallas"* y agradecieron su talento y amistad. La cantante **Alicia Villarreal** también se pronunció: *"Buen viaje, mi querido Doblado. Gracias por tantos años de trabajo, amistad y momentos compartidos. Ya estás junto a mi hermano"*.
+
+**Con información de:** [Milenio](https://www.milenio.com/espectaculos/musica/muere-jose-luis-doblado-bola-ingeniero-sonido-division-minuscula)`,
+    contentEn: `### Mexican rock says goodbye to José Luis Doblado "Bola"
+
+División Minúscula confirmed the death of José Luis Doblado, known as "Bola", their sound engineer for eight years and one of the most respected in the industry. He had a career of more than 40 years working with Botellita de Jerez, Cecilia Toussaint, Gloria Trevi and La Castañeda. The cause of death was not disclosed.
+
+**Sources:** Milenio`,
+    date: '2026-07-31',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://cdn.milenio.com/uploads/media/2026/07/31/causa-fallecimiento-foto-facebook-division.jpg',
+    imageCaption: 'José Luis Doblado "Bola", histórico ingeniero de sonido de División Minúscula. Foto: Facebook División Minúscula',
+    categoryEs: 'Espectáculos',
+    categoryEn: 'Entertainment',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Milenio',
+    sourceUrl: 'https://www.milenio.com/espectaculos/musica/muere-jose-luis-doblado-bola-ingeniero-sonido-division-minuscula'
+  },
+  {
+    id: '164',
+    contentType: 'news',
+    slug: 'muere-franco-baresi-leyenda-milan',
+    titleEs: 'Murió Franco Baresi a los 66 años, leyenda del fútbol italiano y del AC Milan',
+    titleEn: 'Franco Baresi dies at 66, AC Milan and Italian football legend',
+    excerptEs: 'El legendario defensor y capitán del AC Milan, Franco Baresi, campeón del mundo con Italia en 1982, murió a los 66 años. El club confirmó la noticia en un comunicado. Ganó 6 Serie A y 3 Champions League, y disputó 719 partidos con los rossoneri.',
+    excerptEn: 'Legendary AC Milan defender and captain Franco Baresi, world champion with Italy in 1982, died at 66. The club confirmed the news. He won 6 Serie A titles and 3 Champions Leagues and played 719 matches for the rossoneri.',
+    contentEs: `### Murió Franco Baresi, leyenda del fútbol italiano
+
+El legendario defensor italiano y capitán del **AC Milan**, **Franco Baresi**, murió este viernes a los **66 años**. La noticia fue confirmada por el club milanés a través de un comunicado oficial. *"Su ejemplo y su integridad quedarán grabados para siempre en el ADN del Club, al igual que su icónica camiseta con el número 6"*, señaló la institución.
+
+Aunque Milan **no dio detalles sobre el motivo del deceso**, Baresi había sido sometido en agosto de 2025 a una **intervención quirúrgica para extirparle un nódulo pulmonar**.
+
+#### Una carrera de leyenda
+
+Nacido el 8 de mayo de 1960 en Lombardía, Baresi ingresó a las categorías inferiores de Milan en 1974 y debutó con el primer equipo en 1978, con 17 años. En esa institución obtuvo **18 títulos**:
+
+- **6 Serie A**: 1978-79, 1987-88, 1991-92, 1992-93, 1993-94 y 1995-96.
+- **3 Champions League**: 1988-89, 1989-90 y 1993-94.
+- **3 Supercopas de Europa**, **2 Copas Intercontinentales** y **4 Supercopas de Italia**.
+
+Con la selección de Italia fue **campeón del mundo en 1982** (España), cuando la Tricolor venció 3-1 a Alemania Federal en el Santiago Bernabéu. Formó junto a **Paolo Maldini, Mauro Tassotti y Alessandro Costacurta** una de las líneas defensivas más temidas de Europa.
+
+#### Despedida y legado
+
+Baresi se retiró en 1997 tras disputar **719 partidos** con los rossoneri, un récord que solo superó Paolo Maldini. Vistió la camiseta de Italia en **81 ocasiones**. Protagonizó además un momento trágico en la final del Mundial de 1994, cuando erró su penal en la definición ante Brasil, igual que **Roberto Baggio**. El fútbol mundial despide a una de sus grandes figuras.
+
+**Con información de:** [La Nación](https://www.lanacion.com.ar/deportes/futbol/murio-franco-baresi-a-los-66-anos-leyenda-del-futbol-italiano-y-campeon-del-mundo-nid31072026/)`,
+    contentEn: `### Franco Baresi, Italian football legend, dies at 66
+
+AC Milan confirmed the death of legendary defender and captain Franco Baresi at age 66. He won 6 Serie A titles and 3 European Cups, was world champion with Italy in 1982 and played 719 matches for the rossoneri, retiring in 1997.
+
+**Sources:** La Nación`,
+    date: '2026-07-31',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.lanacion.com.ar/resizer/v2/franco-baresi-murio-a-la-edad-de-66-A7FTSVVUPNGQBLYD5UTUJEOA64.jpg?auth=b870d075e195d6ed3ce0078f3b24156be54d45c9e030cff600abce6ad8ff1e0c&width=1200&height=800&quality=70&smart=true',
+    imageCaption: 'Franco Baresi, leyenda del fútbol italiano y del AC Milan, murió a los 66 años. Foto: FIFA.com',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'La Nación',
+    sourceUrl: 'https://www.lanacion.com.ar/deportes/futbol/murio-franco-baresi-a-los-66-anos-leyenda-del-futbol-italiano-y-campeon-del-mundo-nid31072026/'
+  },
+  {
+    id: '165',
+    contentType: 'news',
+    slug: 'bolivar-elimina-gremio-octavos-sudamericana',
+    titleEs: 'Bolívar elimina a Gremio en Porto Alegre y avanza a los octavos de la Copa Sudamericana',
+    titleEn: 'Bolívar eliminates Gremio in Porto Alegre and advances to the Sudamericana round of 16',
+    excerptEs: 'Bolívar venció 0-1 a Gremio en el Arena do Gremio con gol de Dairon Asprilla y selló su clasificación a los octavos de la Copa Sudamericana, donde enfrentará a São Paulo. Firmó la hazaña de eliminar a un club brasileño en Brasil por primera vez en 24 años.',
+    excerptEn: 'Bolívar beat Gremio 0-1 at the Arena do Gremio with a goal from Dairon Asprilla and secured a spot in the Sudamericana round of 16, where they will face São Paulo. They eliminated a Brazilian club in Brazil for the first time in 24 years.',
+    contentEs: `### Batacazo celeste: Bolívar elimina a Gremio en Porto Alegre
+
+**Bolívar** hizo historia al imponerse **0-1 a domicilio** sobre el **Gremio** en el Arena do Gremio de Porto Alegre y aseguró su cupo en los **octavos de final de la Copa Sudamericana**, donde se medirá al también brasileño **São Paulo**. El conjunto dirigido por Alejandro Restrepo, que había ganado 3-2 en la ida, firmó la hazaña de **eliminar a un club brasileño en territorio brasileño por primera vez en 24 años**.
+
+El Gremio necesitaba ganar por dos goles para clasificar directo o al menos por uno para forzar los penales, y presionó desde el inicio con un 70% de posesión. Sin embargo, en su primera llegada de peligro, al minuto 15, **Dairon Asprilla** abrió el marcador: recibió un lanzamiento largo, eludió a Walter Kannemann y definió rastrero ante Grando.
+
+#### Lampe, la gran figura
+
+En el segundo tiempo, el técnico portugués Luís Castro introdujo tres cambios y apostó por Villasanti y Marlon, pero el Gremio careció de puntería frente a un **Carlos Lampe agigantado**, elegido la gran figura del partido. Sobre el final, el árbitro chileno Piero Maza **expulsó a Noriega y Marlon** (Gremio) y a **Justiniano** (Bolívar). El partido cerró con un remate de Braithwaite que se estrelló en el poste.
+
+- **Gremio (0)**: Grando; Pavón, Gustavo Martins, Kannemann, Pedro Gabriel, Nardoni, Noriega, Moreira, Tetê, Amuzu y Braithwaite.
+- **Bolívar (1)**: Lampe; J. Sagredo, Echeverría, Arreaga, J. Sagredo, Justiniano, Robson Matheus, Melgar, Patricio Rodríguez, Asprilla y Dorny Romero.
+- **Gol**: 0-1, minuto 15, Dairon Asprilla. Partido de vuelta jugado ante 25.010 espectadores.
+
+La derrota deja al técnico Luís Castro en la cuerda floja, con el Gremio en zona de descenso del Brasileirão. Para el fútbol boliviano, el pase de Bolívar es una de las actuaciones internacionales más destacadas del año.
+
+**Con información de:** [ABC Color](https://www.abc.com.py/deportes/futbol/sudamericana/2026/07/30/bolivar-elimina-al-gremio-y-avanza-a-los-octavos-de-la-copa-sudamericana/)`,
+    contentEn: `### Bolívar eliminates Gremio in Porto Alegre and reaches the Sudamericana round of 16
+
+Bolívar beat Gremio 0-1 away with a goal from Dairon Asprilla and sealed its place in the Sudamericana round of 16 against São Paulo. Goalkeeper Carlos Lampe was the standout. Bolívar eliminated a Brazilian club in Brazil for the first time in 24 years.
+
+**Sources:** ABC Color`,
+    date: '2026-07-30',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://www.abc.com.py/resizer/v2/IT7PHV5D45EKHIPFTSDJF5KNUI.jpg?auth=130aa37c69ef1c400cb0472bf132da9317dc8524ea5bcc9ea4cd1ed5d9369f75&width=770&focal=1169,1045',
+    imageCaption: 'Dairon Asprilla celebra su gol con Bolívar ante Gremio en Porto Alegre. Foto: SILVIO AVILA',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'ABC Color',
+    sourceUrl: 'https://www.abc.com.py/deportes/futbol/sudamericana/2026/07/30/bolivar-elimina-al-gremio-y-avanza-a-los-octavos-de-la-copa-sudamericana/'
+  },
+  {
+    id: '166',
+    contentType: 'news',
+    slug: 'rusia-busca-captura-pavel-durov-telegram',
+    titleEs: 'Rusia declara en busca y captura a Pavel Durov, fundador de Telegram, por "colaboración con el terrorismo"',
+    titleEn: 'Russia issues arrest warrant for Telegram founder Pavel Durov over "terrorism cooperation"',
+    excerptEs: 'El Servicio Federal de Seguridad de Rusia (FSB) declaró en busca y captura internacional al fundador de Telegram, Pavel Durov, acusado de no eliminar un bot usado, según Moscú, por la inteligencia ucraniana para reclutar rusos en actividades de sabotaje. Durov reside en Dubái.',
+    excerptEn: 'Russia\'s Federal Security Service (FSB) issued an international arrest warrant for Telegram founder Pavel Durov, accused of failing to remove a bot that Moscow says was used by Ukrainian intelligence to recruit Russians for sabotage. Durov lives in Dubai.',
+    contentEs: `### Rusia ordena la captura del fundador de Telegram
+
+El **Servicio Federal de Seguridad de Rusia (FSB)** declaró este miércoles **en búsqueda y captura internacional** al empresario **Pavel Durov**, fundador y director ejecutivo de **Telegram**, por su supuesta **"colaboración con actividades terroristas"**. Durov, nacido en Rusia y residente en **Dubái**, fue acusado de no eliminar un bot de la plataforma.
+
+#### La acusación del FSB
+
+Según el comunicado del FSB, la orden de captura responde a que Durov **no eliminó un popular bot** —conocido como **Leo Match**— que supuestamente era usado por los **servicios de inteligencia ucranianos** para manipular a ciudadanos rusos e involucrarlos *"en actividades terroristas y de sabotaje"*.
+
+- El Kremlin sostiene que **46 ciudadanos rusos, incluidos menores**, fueron detenidos en los últimos 12 meses por interactuar con el bot.
+- Según Moscú, los detenidos fueron **chantajeados** por agentes que se hacían pasar por chicas jóvenes en Telegram para cometer acciones contra fuerzas de seguridad e infraestructuras energéticas y de transporte.
+
+#### Antecedentes judiciales
+
+No es la primera vez que Durov enfrenta problemas legales. En **2024 fue detenido** en un aeropuerto de París, cuando las autoridades francesas comenzaron a investigarlo por 12 delitos vinculados a la **pornografía infantil, narcotráfico y crimen organizado**. Depositó una fianza de más de cinco millones de dólares y quedó en libertad bajo vigilancia judicial. La orden rusa se suma a la tensión geopolítica entre Moscú y Occidente en plena guerra con Ucrania.
+
+**Con información de:** [EFE](https://efe.com/mundo/2026-07-29/rusia-busca-y-captura-fundador-telegram-cooperacion-terrorismo/), [El País](https://elpais.com/internacional/2026-07-29/rusia-declara-en-busca-y-captura-a-pavel-durov-fundador-de-telegram-por-colaborar-con-actividad-terrorismo.html)`,
+    contentEn: `### Russia issues arrest warrant for Telegram founder
+
+Russia's FSB issued an international arrest warrant for Telegram founder Pavel Durov, accusing him of failing to remove a bot that Moscow says was used by Ukrainian intelligence to recruit Russians for sabotage. Durov, who lives in Dubai, was already detained in France in 2024 on 12 charges.
+
+**Sources:** EFE, El País`,
+    date: '2026-07-29',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://efe.com/wp-content/uploads/2026/07/fundador-telegram-busca-captura-rusia.webp',
+    imageCaption: 'Pavel Durov, fundador de Telegram, declarado en busca y captura por Rusia. Foto: EFE',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'EFE, El País',
+    sourceUrl: 'https://efe.com/mundo/2026-07-29/rusia-busca-y-captura-fundador-telegram-cooperacion-terrorismo/'
+  },
+  {
+    id: '167',
+    contentType: 'news',
+    slug: 'chile-venezuela-reactivacion-consular',
+    titleEs: 'Chile y Venezuela reactivan sus relaciones consulares tras dos años de vínculos congelados',
+    titleEn: 'Chile and Venezuela restart consular relations after two years of frozen ties',
+    excerptEs: 'Chile y Venezuela acordaron reactivar sus relaciones consulares como primer paso para normalizar sus vínculos, congelados desde las elecciones venezolanas de 2024. La medida beneficiará a unos 700 mil venezolanos en Chile y 25 mil chilenos en Venezuela.',
+    excerptEn: 'Chile and Venezuela agreed to restart their consular relations as a first step toward normalizing ties, frozen since the 2024 Venezuelan elections. The measure will benefit some 700,000 Venezuelans in Chile and 25,000 Chileans in Venezuela.',
+    contentEs: `### Chile y Venezuela reabren la vía consular
+
+Los gobiernos de **Chile y Venezuela** acordaron **reactivar sus relaciones consulares** como primera etapa de una hoja de ruta orientada a **normalizar progresivamente** los vínculos bilaterales, congelados desde hace dos años. La medida permitirá atender a cerca de **700 mil venezolanos** que viven en Chile y a unos **25 mil chilenos** residentes en Venezuela.
+
+En una declaración conjunta, ambos gobiernos plantearon que el proceso apunta a la *"reanudación plena"* de las relaciones y a garantizar protección y servicios para sus comunidades residentes, con base en los *"históricos lazos de amistad y solidaridad latinoamericana"*.
+
+#### Asistencia consular y agenda común
+
+El canciller **Francisco Pérez Mackenna** explicó que las conversaciones comenzaron tras la instalación del actual Gobierno, el 11 de marzo, y que la reactivación permitirá **entregar asistencia consular** a las comunidades de ambos países. El **presidente José Antonio Kast** calificó el acuerdo como *"trascendente"* y valoró la disposición del gobierno venezolano y de la presidenta encargada, **Delcy Rodríguez**.
+
+- **700 mil venezolanos** en Chile y **25 mil chilenos** en Venezuela serán beneficiados.
+- La agenda incluye **seguridad, migración y desarrollo económico**.
+- *"A partir de hoy, Chile y Venezuela comienzan una nueva etapa"*, afirmó Kast.
+
+#### Dos años de relaciones congeladas
+
+Los vínculos permanecían paralizados desde que el entonces presidente **Gabriel Boric** cuestionó el resultado anunciado por el Consejo Nacional Electoral tras las elecciones de julio de 2024. Maduro ordenó entonces el retiro del embajador chileno. El acuerdo anunciado no implica aún la restitución completa de las relaciones diplomáticas, sino el **inicio gradual mediante la reapertura del ámbito consular**.
+
+**Con información de:** [El Mostrador](https://www.elmostrador.cl/noticias/pais/2026/07/30/chile-y-venezuela-reactivan-relaciones-consulares-y-abren-ruta-para-normalizar-vinculos/)`,
+    contentEn: `### Chile and Venezuela restart consular relations
+
+Chile and Venezuela agreed to restart their consular relations as the first step to gradually normalize bilateral ties, frozen for two years since the 2024 Venezuelan elections. The measure will benefit about 700,000 Venezuelans in Chile and 25,000 Chileans in Venezuela, covering security, migration and economic development.
+
+**Sources:** El Mostrador`,
+    date: '2026-07-30',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://media-front.elmostrador.cl/2024/08/venezuela-chile.jpg',
+    imageCaption: 'Los gobiernos de Chile y Venezuela reactivaron sus relaciones consulares. Foto: El Mostrador',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'El Mostrador',
+    sourceUrl: 'https://www.elmostrador.cl/noticias/pais/2026/07/30/chile-y-venezuela-reactivan-relaciones-consulares-y-abren-ruta-para-normalizar-vinculos/'
+  },
+  {
+    id: '168',
+    contentType: 'news',
+    slug: 'ataques-petroleros-estrecho-ormuz',
+    titleEs: 'Reportan dos nuevos ataques contra petroleros cerca del estrecho de Ormuz',
+    titleEn: 'Two new attacks reported on tankers near the Strait of Hormuz',
+    excerptEs: 'La agencia marítima británica UKMTO reportó dos ataques contra petroleros cerca del estrecho de Ormuz, uno con daños en la sala de máquinas. El paso, clave para el comercio mundial de crudo, canaliza cerca de una cuarta parte del petróleo del planeta en medio de la tensión entre EE.UU. e Irán.',
+    excerptEn: 'The British maritime agency UKMTO reported two attacks on tankers near the Strait of Hormuz, one with damage to the engine room. The strait, key to global oil trade, channels about a quarter of the world\'s crude amid US-Iran tensions.',
+    contentEs: `### Dos nuevos ataques contra petroleros en el estrecho de Ormuz
+
+Dos petroleros comunicaron que **han sido atacados cerca del estrecho de Ormuz**, informó la agencia marítima británica **UKMTO**, en medio del aumento de las tensiones entre Washington y Teherán en la región. Según el reporte, uno de los buques afirmó que había sido *"alcanzado por un proyectil desconocido"* cuando navegaba al noreste frente a la costa de **Lima, Omán**, lo que provocó **daños en la sala de máquinas**. No se registraron heridos.
+
+Unas tres horas después, la UKMTO informó de un **segundo incidente**, al noreste de Khasab, también en Omán. *"El capitán de un petrolero comunica que ha visto una gran salpicadura y una explosión muy cerca del buque"*, señaló la agencia, que aconsejó navegar con precaución mientras las autoridades investigan.
+
+#### El paso marítimo más estratégico del mundo
+
+El **estrecho de Ormuz** conecta el golfo Pérsico con el golfo de Omán y el mar de Arabia, y canaliza cerca de una **cuarta parte del comercio marítimo mundial de crudo**. Teherán **cerró de facto el paso** tras los ataques de EE.UU. e Israel contra Irán a finales de febrero, aunque el viernes el **CENTCOM** aseguró que seguía *"abierto al paso de buques comerciales"*.
+
+- **~25%** del comercio marítimo mundial de petróleo transita por Ormuz.
+- El **Ejército de EE.UU.** reanudó esta semana los ataques contra Irán, dirigidos a centros de mando de la Guardia Revolucionaria y capacidades navales.
+- **Donald Trump** dijo estar *"perdiendo la fe"* en un acuerdo de paz y amenazó con atacar a Irán *"con mucha dureza"*.
+- En respuesta, Teherán lanzó ataques contra bases estadounidenses en Kuwait, Baréin, Jordania, Emiratos y Qatar.
+
+El incidente vuelve a presionar al alza los precios del petróleo en los mercados globales, en un escenario de guerra energética que afecta directamente el costo de los combustibles para los consumidores de América Latina.
+
+**Con información de:** [Euronews](https://es.euronews.com/2026/08/01/dos-nuevos-ataques-contra-petroleros-cerca-del-estrecho-de-ormuz)`,
+    contentEn: `### Two new attacks reported on tankers near the Strait of Hormuz
+
+The British maritime agency UKMTO reported two attacks on tankers near the Strait of Hormuz, one with damage to the engine room and no casualties. The strait channels about a quarter of the world's crude trade amid renewed US-Iran tensions and US strikes on Iranian targets.
+
+**Sources:** Euronews`,
+    date: '2026-08-01',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.euronews.com/articles/stories/09/85/85/36/1200x675_cmsv2_ba0e3e0d-1e8d-5b0a-88fe-fb5e06deec04-9858536.jpg',
+    imageCaption: 'Buques de carga cerca del estrecho de Ormuz, punto clave del comercio mundial de petróleo. Foto: AP',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Euronews',
+    sourceUrl: 'https://es.euronews.com/2026/08/01/dos-nuevos-ataques-contra-petroleros-cerca-del-estrecho-de-ormuz'
+  },
+  {
+    id: '169',
+    contentType: 'news',
+    slug: 'fifa-investiga-incidentes-final-mundial-argentina',
+    titleEs: 'La FIFA investiga los incidentes violentos de la final del Mundial en los que se vieron involucrados jugadores de Argentina',
+    titleEn: 'FIFA investigates the violent incidents of the World Cup final involving Argentine players',
+    excerptEs: 'La FIFA designó un fiscal de disciplina y ética para evaluar los incidentes violentos tras la final del Mundial 2026, en los que se vieron involucrados Nahuel Molina, Leandro Paredes, Thiago Almada y el segundo entrenador Roberto Ayala. Argentina también dio la espalda a España en la entrega de trofeos.',
+    excerptEn: 'FIFA appointed a discipline and ethics prosecutor to evaluate the violent incidents after the 2026 World Cup final involving Nahuel Molina, Leandro Paredes, Thiago Almada and assistant coach Roberto Ayala. Argentina also turned its back on Spain during the trophy ceremony.',
+    contentEs: `### La FIFA abre investigación por los incidentes de la final
+
+**Argentina será objeto de una investigación** por los lamentables incidentes violentos que se produjeron durante el partido de cierre del **Mundial 2026**, según confirmó la **FIFA**. El comité disciplinario designó a un **fiscal de disciplina y ética** para evaluar los hechos ocurridos después del pitido final en el estadio **MetLife de Nueva Jersey**.
+
+Tras la derrota por un gol ante **España**, miembros del equipo argentino y del cuerpo técnico se vieron envueltos en **altercados** con los jugadores españoles. Entre los involucrados parecen estar **Nahuel Molina, Leandro Paredes y Thiago Almada**, además del segundo entrenador **Roberto Ayala**. Cualquier jugador o entrenador implicado podría enfrentar una **suspensión**, mientras la AFA también podría recibir una **multa**.
+
+#### Qué fue lo que pasó
+
+- **Rodri** corrió desde el banquillo para celebrar y, al superar a Molina, el defensa argentino pareció golpearlo. Esa fue la chispa que encendió los ánimos.
+- **Paredes** intervino y le dio un golpe a **Eric García** en la garganta. La roja que se le mostró en un inicio fue **retirada del registro** después.
+- El suplente **Gavi** intentó intervenir, pero **Almada lo tumbó al suelo**; luego Paredes lo empujó con la mano en la cara.
+- **Ayala** pareció sujetar a García por el cuello y golpear al español **Dani Olmo**.
+- Argentina ya había sufrido la expulsión de **Enzo Fernández** (segunda amarilla en el descuento).
+
+#### Sanciones y antecedentes
+
+El **artículo 13** del Código Disciplinario de la FIFA abarca la conducta ofensiva y los principios del juego limpio. La FIFA ya había iniciado el proceso contra Argentina por la **pancarta de las Islas Malvinas** exhibida tras la semifinal ante Inglaterra. El análisis citado por la BBC recuerda que en 2014 la AFA fue multada con **28.600 dólares** por mostrar esa misma pancarta antes de un amistoso contra Eslovenia.
+
+Además, los jugadores argentinos **dieron la espalda a los españoles** durante la ceremonia de entrega del trofeo, pese al pasillo de honor que España formó para Messi y sus compañeros, un gesto calificado por muchos comentaristas como **"antideportivo"**.
+
+**Con información de:** [BBC News Mundo](https://www.bbc.com/mundo/articles/cwye8j2yq83o)`,
+    contentEn: `### FIFA investigates the incidents of the World Cup final
+
+FIFA appointed a discipline and ethics prosecutor to evaluate the violent incidents after the 2026 World Cup final at MetLife Stadium involving Nahuel Molina, Leandro Paredes, Thiago Almada and assistant coach Roberto Ayala. Article 13 of the disciplinary code covers offensive conduct. Argentina also turned its back on Spain during the trophy ceremony.
+
+**Sources:** BBC News Mundo`,
+    date: '2026-07-20',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://ichef.bbci.co.uk/news/1200/branded_mundo/c38f/live/977eddb0-8475-11f1-ac57-abae38e66d9e.jpg',
+    imageCaption: 'Leandro Paredes protagonizó un bochornoso incidente tras el cierre de la final del Mundial 2026. Foto: Getty Images',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'BBC News Mundo',
+    sourceUrl: 'https://www.bbc.com/mundo/articles/cwye8j2yq83o'
+  },
+  {
+    id: '170',
+    contentType: 'news',
+    slug: 'antonio-zago-regresa-strongest',
+    titleEs: 'Antonio Zago, a un paso de volver a ser el director técnico de The Strongest',
+    titleEn: 'Antonio Zago one step away from returning as The Strongest head coach',
+    excerptEs: 'The Strongest está cerca de cerrar el regreso del brasileño Antonio Carlos Zago como director técnico, tras la salida de Sixto Vizuete. La dirigencia atigrada, encabezada por Daniel Terrazas, mantiene reuniones avanzadas y solo restan detalles para concretar el acuerdo.',
+    excerptEn: 'The Strongest is close to sealing the return of Brazilian Antonio Carlos Zago as head coach after the departure of Sixto Vizuete. The club board, led by Daniel Terrazas, is in advanced talks and only details remain to finalize the deal.',
+    contentEs: `### Zago, a un paso de volver al Tigre
+
+**The Strongest** está cerca de definir a su nuevo director técnico. La dirigencia atigrada **avanzó en las negociaciones con el brasileño Antonio Carlos Zago**, quien se perfila para asumir nuevamente el mando del primer plantel tras la salida de **Sixto Vizuete**.
+
+De acuerdo con fuentes cercanas al club, únicamente restan **algunos detalles para concretar el acuerdo**, mientras el estratega llegaría a La Paz acompañado por **tres o cuatro integrantes de su cuerpo técnico**. El presidente **Daniel Terrazas** sostuvo al menos un par de reuniones con Zago, que marchan de forma favorable.
+
+#### Segundo ciclo al frente del aurinegro
+
+De concretarse su retorno, será el **segundo ciclo de Zago** al frente del conjunto atigrado. Su primera etapa se desarrolló entre **enero y abril de 2025**, periodo en el que dirigió cuatro partidos oficiales: dos por la Copa Libertadores ante Bahía y dos por el campeonato local, con un saldo de una victoria, un empate y dos derrotas, antes de dejar el cargo en medio del conflicto dirigencial.
+
+- El estratega se encuentra **sin equipo** desde su salida del Botafogo de Paraíba, de la Serie C de Brasil.
+- Zago podría **llegar antes del partido** de The Strongest contra Aurora por la duodécima jornada.
+- Mientras tanto, el equipo continúa bajo la conducción interina de **Juan Carlos Paz García**.
+
+La apuesta por Zago busca dar un nuevo rumbo deportivo al cuadro atigrado en plena disputa del torneo de la División Profesional, con el objetivo de volver a pelear los primeros puestos.
+
+**Con información de:** [Erbol](https://www.erbol.com.bo/deporte/antonio-zago-un-paso-de-regresar-strongest)`,
+    contentEn: `### Zago one step away from returning to The Strongest
+
+The Strongest is close to sealing the return of Brazilian coach Antonio Carlos Zago after the departure of Sixto Vizuete. Board president Daniel Terrazas held advanced talks with Zago, who is free after leaving Botafogo da Paraíba. It would be his second spell at the club after 2025.
+
+**Sources:** Erbol`,
+    date: '2026-07-28',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://erbol.com.bo/sites/default/files/zago_25_1.jpg',
+    imageCaption: 'Antonio Carlos Zago, a un paso de volver a dirigir a The Strongest. Foto: Erbol',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'Erbol',
+    sourceUrl: 'https://www.erbol.com.bo/deporte/antonio-zago-un-paso-de-regresar-strongest'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];
