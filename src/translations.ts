@@ -13161,7 +13161,7 @@ Bolivia's Ministry of Health confirmed the first imported measles case in La Paz
     titleEn: 'Spain are 2026 World Cup champions after beating Argentina 1-0 in extra time',
     excerptEs: 'La selección roja conquistó su segundo título mundialista de la historia al derrotar 1-0 a Argentina en la final del Mundial 2026, con gol de Ferrán Torres al minuto 105 de la prórroga. España volvió a tocar la gloria 16 años después del título de Sudáfrica 2010 y confirmó su dominio continental tras la Eurocopa.',
     excerptEn: 'Spain won their second World Cup title by beating Argentina 1-0 in the 2026 final, with a goal by Ferrán Torres in the 105th minute of extra time. The win arrived 16 years after South Africa 2010 and confirms the recent Euro triumph.',
-content: `### España, campeón del Mundial 2026
+contentEs: `### España, campeón del Mundial 2026
 
 La selección dirigida por **Luis de la Fuente** se coronó **campeona del Mundial 2026** al derrotar **1-0 a Argentina** en la final disputada en el **New York New Jersey Stadium (MetLife)**, en la madrugada del **19 de julio**. Tras 90 minutos de máxima intensidad y sin goles, el encuentro se definió en la **prórroga**, con **gol de Ferrán Torres al minuto 105**, con asistencia por cabeza de **Nico Williams**, para darle a España su **segunda Copa del Mundo** de su historia.
 
@@ -13209,7 +13209,7 @@ Spain beat Argentina 1-0 in extra time in the MetLife Stadium final with a goal 
     titleEn: 'Desaguadero becomes a bottleneck for legal crossing at the Peru border',
     excerptEs: 'Cruzar el paso fronterizo de Desaguadero entre Bolivia y Perú se volvió un sacrificio: filas de más de tres horas a la intemperie, bajo el frío del altiplano y entre un mar de camiones de carga pesada. El comercio y el tránsito de personas en la principal conexión terrestre entre ambos países se ven severamente afectados.',
     excerptEn: 'Crossing the Desaguadero border between Bolivia and Peru has become a sacrifice: lines of more than three hours in the open, under the cold of the highlands, amid heavy trucks. Trade and transit at the main land link between both countries are severely affected.',
-content: `### El paso fronterizo de Desaguadero, un cuello de botella
+contentEs: `### El paso fronterizo de Desaguadero, un cuello de botella
 
 Formar una extensa fila durante **más de tres horas a la intemperie**, bajo el frío del altiplano y sortear un **mar de camiones de carga pesada**, es en la actualidad el sacrificio obligatorio para **cruzar legalmente** el paso fronterizo de **Desaguadero**, entre Bolivia y Perú. Así lo refleja un reporte de **Los Tiempos**.
 
@@ -13256,7 +13256,7 @@ Crossing the legal Desaguadero border between Bolivia and Peru now requires more
     titleEn: 'Vozinha signs for Colo-Colo: the breakout goalkeeper of the 2026 World Cup',
     excerptEs: 'El arquero de Cabo Verde, Vozinha (Josémar Dias), de 40 años, fue presentado como nuevo refuerzo de Colo-Colo en el Estadio Monumental. El club chileno formalizó la contratación de quien fue una de las grandes figuras del Mundial 2026 y pasó de menos de 50 mil a cerca de 30 millones de seguidores en redes sociales.',
     excerptEn: 'Cabo Verde goalkeeper Vozinha (Josémar Dias), 40, was announced as a new signing for Chile\'s Colo-Colo. The move came after his breakout performances at the 2026 World Cup, where he went from under 50 thousand to nearly 30 million followers.',
-    content: `### Vozinha, nuevo refuerzo de Colo-Colo
+    contentEs: `### Vozinha, nuevo refuerzo de Colo-Colo
 
 El arquero **Vozinha** (nombre real **Josémar Dias**), quien fue una de las **grandes revelaciones del Mundial 2026** con la selección de **Cabo Verde**, fue estrenado oficialmente como nuevo refuerzo de **Colo-Colo**, de Chile, tras firmar su contrato en el **Estadio Monumental**. El guardameta de **40 años** llega al conjunto chileno para el segundo semestre.
 
