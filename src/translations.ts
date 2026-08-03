@@ -7422,6 +7422,609 @@ Updated August 2026, based on my experience covering national and international 
     featured: false,
     views: 1
   },
+  {
+    id: '185',
+    contentType: 'analysis',
+    slug: 'guia-jubilacion-pension-vejez-bolivia-2026',
+    titleEs: 'Jubilación en Bolivia 2026 — Pensión de vejez, requisitos y trámite completo',
+    titleEn: 'Retirement in Bolivia 2026 — Old-age pension, requirements and complete process',
+    excerptEs: 'Guía completa para jubilarte en Bolivia en 2026. Quiénes pueden acceder a la pensión de vejez, requisitos de edad y cotizaciones según la Ley 065 de Pensiones, cómo funciona la Gestora Pública, los pasos para solicitar la pensión, la Renta Dignidad y qué pasa con los aportes si no alcanzas las cotizaciones.',
+    excerptEn: 'Complete guide to retire in Bolivia in 2026. Who can access the old-age pension, age and contribution requirements under Pension Law 065, how the Public Pension Manager (Gestora) works, the steps to apply for the pension, the Renta Dignidad and what happens with contributions if you do not reach the required payments.',
+    contentEs: `### Guía Completa: Jubilación en Bolivia 2026
+
+La **pensión de vejez** es la prestación que otorga el sistema de pensiones boliviano a las personas que cumplen los requisitos de edad y cotizaciones establecidos por la **Ley 065 de Pensiones** (28 de noviembre de 2010). Desde 2020, la administración de los fondos está a cargo de la **Gestora Pública de la Seguridad Social de Largo Plazo** (la "Gestora"), que reemplazó a las antiguas AFP.
+
+---
+
+#### Quiénes pueden jubilarse
+
+Todo trabajador afiliado al sistema de pensiones que haya realizado aportes. En el sistema boliviano, tanto los trabajadores dependientes como los independientes realizan aportes mensuales que se acreditan en su **cuenta individual**.
+
+**Requisitos generales para la pensión de vejez:**
+- Haber cumplido la **edad** requerida según el esquema que corresponda.
+- Acreditar un **número mínimo de cotizaciones** (aportes).
+- Haber aportado durante toda la vida laboral al Sistema Integral de Pensiones (SIP), o realizar los trámites de reconocimiento de aportes anteriores (Bono Compensatorio, Cómputo de Servicios, etc.).
+
+---
+
+#### Edad y cotizaciones según la Ley 065
+
+La Ley 065 establece un **esquema flexible** en el que la edad y las cotizaciones se compensan entre sí:
+
+| Esquema | Edad | Cotizaciones mínimas |
+|---|---|---|
+| Vejez (edad plena) | 58 años (hombres) / 55 años (mujeres) | 10 años (120 cotizaciones) |
+| Renta Solidaria de Vejez | 60 años | 120 cotizaciones |
+| Vejez anticipada | Menos que la edad plena | Mayor número de cotizaciones |
+
+**Datos clave:**
+- Con **58 años (hombres) o 55 (mujeres)** y al menos **10 años de aportes**, accedes a la pensión de vejez ordinaria.
+- Si no llegas a los 58/55 años pero tienes **muchas cotizaciones**, puedes jubilarte anticipadamente.
+- La **Renta Solidaria de Vejez** aplica a quienes no alcanzan los requisitos de la pensión contributiva completa y tienen 60 años, con 10 años de aportes.
+
+> La fórmula exacta de edad-cotizaciones se actualiza y depende de cada caso. Verifica tu situación con un cálculo personalizado en la Gestora o en el sistema de pensiones.
+
+---
+
+#### La Gestora Pública de Seguridad Social
+
+Desde **2020** (Ley 1356, promulgada en 2020), la **Gestora Pública de la Seguridad Social de Largo Plazo** administra el sistema de pensiones en Bolivia, reemplazando a las AFP Futuro y BBVA Previsión.
+
+**Qué puedes hacer en la Gestora:**
+- Consultar tu **cuenta individual** y estado de aportes.
+- Realizar el **trámite de jubilación** (solicitud de pensión).
+- Regularizar aportes y acreditaciones.
+- Solicitar información sobre la **Renta Dignidad**.
+
+**Sitio web oficial:** [www.gestora.bo](https://www.gestora.bo)
+
+---
+
+#### Pasos para solicitar la pensión de vejez
+
+1. **Verifica tu historial de aportes:** consulta tu cuenta individual en la Gestora y confirma que todos los aportes estén acreditados.
+2. **Reúne la documentación:** cédula de identidad, certificado de nacimiento, comprobantes de aportes y, en su caso, documentos para reconocimiento de servicios previos.
+3. **Solicita el trámite de jubilación:** presenta tu solicitud en la Gestora (presencial o por su plataforma) al cumplir los requisitos.
+4. **Espera la resolución:** la Gestora califica la solicitud y determina el monto de la pensión según tus aportes.
+5. **Empieza a cobrar:** la pensión se paga de forma mensual a través del sistema financiero.
+
+---
+
+#### ¿Qué pasa si no alcanzas los requisitos?
+
+- **Si no cumples la edad:** puedes esperar y seguir aportando; la edad se alcanza con el tiempo.
+- **Si no cumples las cotizaciones:** con la **Renta Solidaria de Vejez** (60 años y 120 cotizaciones) o con devolución de aportes según los casos que establece la ley.
+- **Si tienes aportes en el sistema antiguo** (SSO / Fondo de Jubilación antes de la Ley 065), debes gestionar el **reconocimiento** de esos aportes para que se computen en tu pensión.
+
+---
+
+#### Renta Dignidad
+
+La **Renta Dignidad** es una prestación universal para **mayores de 60 años** residentes en Bolivia, sin requisito de aportes. Se cobra mensualmente:
+
+- **Monto normal:** Bs 300 mensuales (si percibe pensión u otra renta).
+- **Monto aumentado:** Bs 350 mensuales (si no percibe ninguna renta ni pensión).
+
+Se tramita en las entidades autorizadas (Banco Unión y otros puntos de pago) presentando la cédula de identidad y un certificado de nacimiento, según los requisitos vigentes.
+
+---
+
+#### Preguntas frecuentes
+
+**¿Los independientes pueden jubilarse?**
+Sí, realizando aportes voluntarios mensuales a la Gestora. Los aportes voluntarios se acumulan en la cuenta individual.
+
+**¿Puedo seguir trabajando después de jubilarme?**
+Sí. En Bolivia se permite recibir la pensión y continuar trabajando, pero debes verificar las condiciones de aportes adicionales según la ley.
+
+**¿Cómo saber cuánto será mi pensión?**
+Depende de tus cotizaciones acumuladas, la rentabilidad de tu cuenta individual y la fórmula de la Ley 065. Puedes solicitar una proyección en la Gestora.
+
+**¿Qué pasa si muero antes de jubilarme?**
+Tus derechohabientes (beneficiarios) pueden acceder a la pensión de sobrevivientes o a la devolución de tus aportes según la ley.
+
+---
+
+#### Enlaces oficiales
+
+- Gestora Pública: [https://www.gestora.bo](https://www.gestora.bo)
+- Ley 065 de Pensiones (texto): [https://www.bcb.gob.bo](https://www.bcb.gob.bo)
+- Trámites de jubilación en Gob.bo: [https://www.gob.bo](https://www.gob.bo)
+
+> Esta guía fue actualizada en agosto de 2026. Los requisitos y montos pueden variar. Verifica siempre la información vigente en la Gestora o en las normas oficiales.`,
+    contentEn: `### Complete Guide: Retirement in Bolivia 2026
+
+The old-age pension is the benefit granted by the Bolivian pension system to people who meet the age and contribution requirements of Pension Law 065 (November 28, 2010). Since 2020, the Public Pension Manager (Gestora) administers the funds, replacing the old AFPs.
+
+**Who can retire:** Any worker affiliated to the pension system with contributions. Both dependent and independent workers make monthly contributions credited to their individual account.
+
+**Requirements:** Age according to the scheme, a minimum number of contributions, and recognition of prior contributions if applicable (compensation bonus, service computing).
+
+**Age and contributions (Law 065 flexible scheme):** Old-age pension — 58 years (men) / 55 years (women) with 10 years (120 contributions). Solidarity Old-Age Income — 60 years with 120 contributions. Early retirement — younger age with more contributions. If you do not meet the full contributory requirements at 60 with 120 contributions, the Solidarity scheme may apply.
+
+**The Gestora:** Since 2020, the Gestora Pública (Law 1356) administers pensions. You can check your individual account, apply for retirement, regularize contributions and request Renta Dignidad information at gestora.bo.
+
+**Steps:** 1) Check your contribution history. 2) Gather documents (ID, birth certificate, contribution proofs). 3) File your retirement application at the Gestora. 4) Wait for the resolution determining your pension amount. 5) Receive monthly payments.
+
+**If you do not meet requirements:** Wait and keep contributing, apply for the Solidarity scheme, or claim contribution refunds per the law. Contributions from the old system must be recognized to count.
+
+**Renta Dignidad:** Universal benefit for residents aged 60+. Bs 300/month (with other income) or Bs 350/month (without any income or pension). Processed at authorized payment points with ID and birth certificate.
+
+**FAQ:** Independents can retire with voluntary contributions. You can work after retiring. Your pension depends on contributions, fund returns and the Law 065 formula. If you die before retiring, beneficiaries access survivor pensions or contribution refunds.
+
+For more info: https://www.gestora.bo`,
+    date: '2026-08-01',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=630&fit=crop',
+    imageCaption: 'Jubilación y pensiones en Bolivia. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '186',
+    contentType: 'analysis',
+    slug: 'guia-registro-propiedad-derechos-reales-bolivia-2026',
+    titleEs: 'Cómo registrar un inmueble en Derechos Reales Bolivia 2026 — Compra venta y trámites',
+    titleEn: 'How to register a property at Derechos Reales Bolivia 2026 — Sales and procedures',
+    excerptEs: 'Guía completa para inscribir un inmueble en el Registro Público de Derechos Reales de Bolivia en 2026. Requisitos para la compra venta (escritura pública, impuestos, plano/catastro), tipos de trámite (inscripción rápida, gabinete), plazos, costos y cómo hacer trámites en línea.',
+    excerptEn: 'Complete guide to register a property at the Public Real Estate Registry (Derechos Reales) of Bolivia in 2026. Requirements for purchase-sale (public deed, taxes, approved plan/cadastre), types of procedures (quick registration, cabinet), timelines, costs and how to do online procedures.',
+    contentEs: `### Guía Completa: Registro de inmuebles en Derechos Reales Bolivia 2026
+
+El **Registro Público de Derechos Reales (DD.RR.)** es la institución del Órgano Judicial, dependiente del Consejo de la Magistratura, que da **publicidad y seguridad jurídica** a la propiedad de bienes inmuebles. Según la **Ley de Inscripción de Derechos Reales** (1887) y el Código Civil, ningún derecho real sobre inmuebles surte efectos contra terceros si no está inscrito.
+
+---
+
+#### Por qué es importante inscribir
+
+Inscribir tu inmueble en DD.RR. te otorga el **Folio Real** actualizado, que acredita que tú eres el propietario legítimo. Sin la inscripción:
+
+- La propiedad no tiene plena seguridad jurídica frente a terceros.
+- No puedes vender, hipotecar ni transferir legalmente el bien.
+- Puedes perder derechos ante conflictos o embargos.
+
+---
+
+#### Trámites más comunes
+
+**1. Compra venta:**
+Es la inscripción más frecuente cuando compras o vendes un inmueble.
+
+**Requisitos (inscripción rápida de compra venta):**
+- **Escritura pública de compra venta** (minuta protocolizada ante notario de Fe Pública).
+- **Impuesto Anual** de la última gestión pagado.
+- **Impuesto a la Transferencia** pagado (alícuota según el valor de la operación).
+- **Plano aprobado por el GAM** y/o **Certificado Catastral** a nombre del comprador o vendedor (actualizado).
+- **Cédula de identidad** de vendedores y compradores (o NIT para personas jurídicas).
+- Todos los documentos en **original y 2 fotocopias**.
+
+**2. Inscripción en gabinete:**
+Para trámites más complejos (herencias, adjudicaciones, regularizaciones, afectaciones) que requieren revisión detallada del registrador.
+
+**3. Anotaciones preventivas:**
+Embargos, hipotecas, demandas y otras medidas que se registran para proteger derechos.
+
+**4. Certificados y consultas:**
+Certificado de gravámenes, folio real y consulta de estado del trámite.
+
+---
+
+#### Tipos de registro disponibles
+
+Según el portal oficial de trámites de DD.RR. ([tramitesddrr.organojudicial.gob.bo](https://tramitesddrr.organojudicial.gob.bo)):
+
+- **Inscripción Rápida:** para compra venta y trámites que cumplen todos los requisitos.
+- **Inscripción en Gabinete:** para trámites que requieren revisión del registrador.
+- **Ventanilla en Línea:** para realizar consultas y trámites por internet.
+- **Oficinas DD.RR.:** atención presencial en cada departamento.
+
+---
+
+#### Plazos
+
+- **Inscripción rápida:** generalmente **3 días hábiles** una vez presentada la documentación completa.
+- **Inscripción en gabinete:** puede tomar **más tiempo** (semanas) según la complejidad del trámite y la revisión del registrador.
+
+---
+
+#### Costos
+
+El costo de la inscripción se calcula según el **valor del inmueble** y el tipo de trámite, conforme al arancel de DD.RR. Está compuesto por:
+
+- **Derechos de inscripción** (proporcionales al valor de la operación).
+- **Formularios y certificaciones** requeridas.
+- Eventualmente, **honorarios de abogados o gestores** si contratas asesoría.
+
+> Los montos exactos dependen del valor catastral o de la operación y varían por departamento. Verifica la tabla de aranceles vigente en tu oficina de DD.RR.
+
+---
+
+#### Pasos para inscribir una compra venta
+
+1. **Firma la minuta** de compra venta con el vendedor y redacta la **escritura pública** ante notario de Fe Pública.
+2. **Paga el Impuesto a la Transferencia** de Inmuebles (a cargo del vendedor, en el municipio) y el **Impuesto Anual** correspondiente.
+3. **Verifica el estado del inmueble:** solicita un **certificado de gravámenes** para confirmar que no tiene embargos ni hipotecas.
+4. **Obtén el plano aprobado o certificado catastral** actualizado del municipio.
+5. **Presenta la documentación en DD.RR.** (original + 2 fotocopias) en la oficina de tu departamento o por la ventanilla en línea.
+6. **Recibe tu testimonio** de propiedad con el sello de registro y el **nuevo Folio Real** actualizado.
+
+---
+
+#### Preguntas frecuentes
+
+**¿Es obligatorio inscribir en DD.RR.?**
+Para que la propiedad surta efectos frente a terceros y sea transferible, sí. La inscripción da seguridad jurídica al derecho real.
+
+**¿Cuánto tarda una inscripción rápida?**
+Generalmente **3 días hábiles** si los requisitos están completos.
+
+**¿Necesito abogado?**
+No es obligatorio, pero es muy recomendable para redactar la minuta, verificar gravámenes y asegurar que la documentación esté en orden.
+
+**¿Qué es el Folio Real?**
+Es la ficha registral que identifica al inmueble y a su propietario dentro de DD.RR. Contiene la historia de las inscripciones del bien.
+
+**¿Puedo hacer trámites en línea?**
+Sí, el portal de DD.RR. permite ventanilla en línea y consultas digitales en varios departamentos.
+
+---
+
+#### Enlaces oficiales
+
+- DD.RR. — Trámites en línea: [https://tramitesddrr.organojudicial.gob.bo](https://tramitesddrr.organojudicial.gob.bo)
+- Consejo de la Magistratura — Requisitos DD.RR.: [https://cm.organojudicial.gob.bo](https://cm.organojudicial.gob.bo)
+
+> Esta guía fue actualizada en agosto de 2026. Los requisitos y costos pueden variar por departamento. Verifica siempre la información oficial de tu oficina de Derechos Reales.`,
+    contentEn: `### Complete Guide: Property registration at Derechos Reales Bolivia 2026
+
+Derechos Reales (DD.RR.) is the public real estate registry of the Bolivian Judiciary (Consejo de la Magistratura). Under the Law on Real Estate Registration (1887) and the Civil Code, no real right over property is effective against third parties without registration.
+
+**Why register:** Registration gives you the updated Folio Real (registry sheet) proving you are the legitimate owner. Without it, the property lacks full legal security, cannot be legally sold or mortgaged, and you risk losing rights in disputes.
+
+**Most common procedures:**
+- Purchase-sale (compra venta): Public deed, last annual tax paid, transfer tax paid, approved plan by the municipality and/or updated cadastral certificate, and IDs of buyer and seller (original + 2 copies).
+- Cabinet registration: for complex cases (inheritances, adjudications, regularization).
+- Precautionary annotations: liens, mortgages, lawsuits.
+- Certificates and queries: liens certificate, folio real, procedure status.
+
+**Types:** Quick registration, cabinet registration, online window, and departmental offices (tramitesddrr.organojudicial.gob.bo).
+
+**Timelines:** Quick registration ~3 business days with complete documents. Cabinet registration takes longer depending on complexity.
+
+**Costs:** Based on the property value and procedure type per the DD.RR. fee schedule — registration rights (proportional to value), forms, certifications, and optionally professional fees. Verify current fees at your office.
+
+**Steps for a sale:** 1) Sign the deed with a notary. 2) Pay the transfer tax (seller's responsibility) and annual tax. 3) Get a liens certificate to confirm no encumbrances. 4) Obtain the approved plan or cadastral certificate. 5) Submit documents at DD.RR. in person or online. 6) Receive your registered deed and updated Folio Real.
+
+**FAQ:** Registration is required for legal security. Quick registration takes about 3 business days. A lawyer is not mandatory but recommended. The Folio Real is the registry sheet identifying the property and owner.
+
+For more info: https://tramitesddrr.organojudicial.gob.bo`,
+    date: '2026-08-01',
+    readTimeEs: '10 min de lectura',
+    readTimeEn: '10 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop',
+    imageCaption: 'Registro de propiedad en Derechos Reales. Foto: Unsplash',
+    categoryEs: 'Guías y Trámites',
+    categoryEn: 'Guides & Procedures',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '187',
+    contentType: 'analysis',
+    slug: 'tutorial-streaming-en-vivo-obs-studio',
+    titleEs: 'Streaming en vivo con OBS Studio — Guía completa para transmitir gratis',
+    titleEn: 'Live streaming with OBS Studio — Complete guide to broadcast for free',
+    excerptEs: 'Tutorial completo para transmitir en vivo con OBS Studio (gratis). Cómo configurar escenas y fuentes, ajustar el audio, conectar a YouTube, Twitch o Facebook, configurar la salida y los ajustes para streaming de video 1080p/60fps sin cortes.',
+    excerptEn: 'Complete tutorial to live stream with OBS Studio (free). How to configure scenes and sources, adjust audio, connect to YouTube, Twitch or Facebook, set up output and streaming settings for smooth 1080p/60fps video without drops.',
+    contentEs: `### Tutorial: Streaming en vivo con OBS Studio — Guía completa
+
+**OBS Studio** (Open Broadcaster Software) es la herramienta gratuita y de código abierto más usada en el mundo para transmitir en vivo y grabar pantalla. Es el estándar para creadores, periodistas y emisoras. En este tutorial te enseño a configurarlo paso a paso.
+
+---
+
+#### Paso 1 — Descarga e instala OBS
+
+1. Descarga OBS Studio desde [obsproject.com](https://obsproject.com) (Windows, macOS o Linux).
+2. Instálalo siguiendo el asistente. Al abrirlo por primera vez, el **asistente de configuración automática** detectará tu equipo y sugerirá ajustes según tu internet.
+
+---
+
+#### Paso 2 — Entiende las escenas y fuentes
+
+OBS funciona con **escenas** y **fuentes**:
+
+- **Escena:** una composición completa (por ejemplo, "Intro", "Entrevista", "Pantalla").
+- **Fuente:** un elemento dentro de la escena (cámara, captura de pantalla, imagen, texto, audio).
+
+**Crea tu primera escena:**
+1. En la sección **Escenas**, presiona **+** y nómbrala ("Inicio").
+2. En la sección **Fuentes**, presiona **+** y elige el tipo:
+   - **Dispositivo de captura de video:** tu cámara/webcam.
+   - **Captura de pantalla:** para mostrar tu pantalla o ventana.
+   - **Texto:** títulos y rótulos.
+   - **Imagen:** logos y gráficos.
+   - **Captura de audio:** micrófono.
+
+**Escenas típicas para una transmisión:**
+- **Intro:** logo + música.
+- **Cámara principal:** entrevista o presentador.
+- **Pantalla:** presentación o demo.
+- **B-roll:** imágenes o video pregrabado.
+- **Final:** créditos y redes sociales.
+
+---
+
+#### Paso 3 — Configura el audio
+
+1. En **Fuentes**, añade tu **micrófono** (Dispositivo de captura de audio).
+2. Configura el **mezclador** (parte inferior): ajusta los niveles del micrófono y del sistema.
+3. **Nivel óptimo:** el audio debe rondar los **-12 dB a -6 dB** en el medidor (evita llegar al rojo).
+4. Activa **"Limitar audio"** (Limiter) en los filtros del micrófono para evitar distorsión.
+5. Prueba con audífonos antes de salir al aire.
+
+> El audio es más importante que el video en una transmisión. Un streaming con buena imagen y mal audio pierde audiencia.
+
+---
+
+#### Paso 4 — Conecta la plataforma (YouTube, Twitch, Facebook)
+
+Cada plataforma te da una **clave de transmisión (stream key)**:
+
+1. En tu plataforma: ve a **Configuración → Transmisión/Stream** (YouTube: Ir en vivo; Twitch: Creator Dashboard; Facebook: Live Producer).
+2. Copia la **URL del servidor (server)** y la **clave de stream**.
+3. En OBS: **Configuración → Transmisión**.
+4. Elige el **servicio** (YouTube, Twitch, Facebook) y pega la **clave de transmisión**.
+5. Presiona **"Comenzar transmisión"**.
+
+> **Seguridad:** nunca compartas tu stream key. Cualquiera con ella puede transmitir con tu canal.
+
+---
+
+#### Paso 5 — Ajusta la configuración de salida
+
+**Configuración → Salida (modo avanzado):**
+
+- **Resolución base:** 1920x1080.
+- **Resolución de salida (escalada):** 1920x1080 (o 1280x720 si tu internet es limitada).
+- **FPS común:** 30 o 60. Para deportes y gaming, 60.
+- **Bitrate de video:** se ajusta según tu subida de internet:
+  - 1080p/60fps: **4500-6000 kbps**.
+  - 1080p/30fps: **3500-4500 kbps**.
+  - 720p/30fps: **2500-3500 kbps**.
+- **Codificador (encoder):** usa hardware (NVENC en NVIDIA, AMF en AMD, Quick Sync en Intel) si tu equipo lo soporta; consume menos CPU.
+
+**Configuración → Video:**
+- **Base:** 1920x1080. **Salida:** 1920x1080 (o 720p).
+- **FPS:** 30 o 60.
+
+---
+
+#### Paso 6 — Consejos para transmisiones estables
+
+- **Internet:** usa **cable Ethernet** siempre que puedas; sube al menos el doble del bitrate que configures.
+- **Bitrate conservador:** si tu conexión es inestable, baja a 720p/30 y reduce el bitrate.
+- **Cierra programas pesados:** libera CPU y ancho de banda.
+- **Diferencia tu audio:** monitorea con audífonos y deja la música de fondo baja.
+- **Haz una prueba:** transmite en modo privado/oculto antes del evento para verificar calidad.
+
+---
+
+#### Paso 7 — Graba y publica repeticiones
+
+OBS también graba en local mientras transmites:
+- **Configuración → Salida → Grabación:** elige formato **MKV o MP4**.
+- Activa **"Regrabar durante la transmisión"** si quieres el archivo de la transmisión para re-publicarlo.
+
+---
+
+#### Errores comunes
+
+- **Bits de caída (dropped frames):** bitrate demasiado alto para tu conexión → reduce.
+- **Audio en el rojo:** distorsión por niveles altos → baja el volumen del micrófono.
+- **Escena desordenada:** controla el **orden de las capas** (fuentes arriba taparán a las de abajo).
+- **Stream key expuesta:** revócala en la plataforma inmediatamente.
+- **Sin pruebas previas:** nunca estrenes configuración en un evento en vivo.
+
+---
+
+#### Checklist antes de salir al aire
+
+- Escenas configuradas (intro, cámara, pantalla, final).
+- Audio probado con audífonos y niveles en verde.
+- Stream key conectada y verificada.
+- Bitrate acorde a tu internet.
+- Prueba privada realizada.
+- Baterías y conexión estables.
+
+---
+
+> Tutorial actualizado en agosto de 2026. La práctica con OBS se consigue transmitiendo en privado y probando distintas configuraciones.`,
+    contentEn: `### Tutorial: Live streaming with OBS Studio — Complete guide
+
+OBS Studio (Open Broadcaster Software) is the free, open-source standard for live streaming and screen recording.
+
+**Step 1 — Install:** Download from obsproject.com. The first-run auto-configuration wizard detects your hardware and suggests settings based on your internet speed.
+
+**Step 2 — Scenes and sources:** A scene is a full composition; a source is an element within it (camera, screen capture, image, text, audio). Create a scene, then add sources (video capture device, screen capture, text, image, audio input). Typical scenes: intro (logo + music), main camera, screen, B-roll, outro.
+
+**Step 3 — Audio:** Add your microphone as an audio source, adjust levels in the mixer to around -12 dB to -6 dB, add a limiter filter to prevent distortion, and monitor with headphones before going live.
+
+**Step 4 — Connect platform:** Get your stream key from YouTube/Twitch/Facebook. In OBS Settings → Stream, select the service and paste the key. Never share your stream key.
+
+**Step 5 — Output settings:** Base resolution 1920x1080, output 1080p or 720p, 30/60 fps. Video bitrate: 1080p60 4500-6000 kbps, 1080p30 3500-4500, 720p30 2500-3500. Use hardware encoding (NVENC/AMF/Quick Sync) when available.
+
+**Step 6 — Stability tips:** Use Ethernet, keep your upload at least double your bitrate, lower to 720p/30 on unstable connections, close heavy programs, and do a private test stream before the event.
+
+**Step 7 — Record:** OBS can record locally (MKV/MP4) and re-record while streaming to republish the broadcast.
+
+**Common mistakes:** Dropped frames (bitrate too high), audio in the red (distortion), messy scene layering, exposed stream key, no test before going live.
+
+**Checklist:** Scenes set, audio tested and in the green, stream key verified, bitrate matched to internet, private test done, stable connection.
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '9 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1200&h=630&fit=crop',
+    imageCaption: 'Streaming en vivo con OBS Studio. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '188',
+    contentType: 'analysis',
+    slug: 'tutorial-video-vertical-redes-sociales-reels-tiktok',
+    titleEs: 'Video vertical para redes sociales — Guía de Reels, TikTok y Shorts',
+    titleEn: 'Vertical video for social media — Guide for Reels, TikTok and Shorts',
+    excerptEs: 'Tutorial para producir videos verticales (9:16) para Reels, TikTok y YouTube Shorts. Tamaños y duración óptimos por plataforma, cómo encuadrar para vertical, subtítulos dinámicos, ritmo de edición y exportación con el formato y bitrate correctos.',
+    excerptEn: 'Tutorial to produce vertical videos (9:16) for Reels, TikTok and YouTube Shorts. Optimal sizes and duration per platform, how to frame for vertical, dynamic subtitles, editing rhythm and export with the correct format and bitrate.',
+    contentEs: `### Tutorial: Video vertical para redes sociales — Guía de Reels, TikTok y Shorts
+
+El **video vertical (9:16)** es el formato dominante de las redes sociales. Producir bien en vertical no es simplemente girar la cámara: requiere encuadre, ritmo y subtítulos pensados para el consumo móvil. En este tutorial te doy el flujo completo.
+
+---
+
+#### Paso 1 — Conoce los formatos de cada plataforma
+
+| Plataforma | Relación | Tamaño ideal | Duración sugerida |
+|---|---|---|---|
+| Instagram Reels | 9:16 | 1080x1920 | 15-60 segundos |
+| TikTok | 9:16 | 1080x1920 | 21-34 segundos |
+| YouTube Shorts | 9:16 | 1080x1920 | hasta 60 segundos |
+
+- **Resolución:** siempre **1080x1920** como mínimo.
+- **Duración:** para retención, apunta a **menos de 60 segundos** en Reels/Shorts y **20-40 segundos** en TikTok.
+- Graba en 1080p o 4K vertical para permitir recortes sin perder calidad.
+
+---
+
+#### Paso 2 — Encuadra para vertical
+
+La composición vertical cambia las reglas:
+
+- **Mantén el sujeto en el centro** de la imagen (el "eje seguro" central). Los extremos superior e inferior se cortan en previsualizaciones y pueden quedar tapados por la interfaz de la app (texto de marca, botones).
+- **Zona segura central:** el 70% central de la pantalla debe tener el contenido clave (rostro, producto, texto).
+- **No uses horizontal y recortes:** un video horizontal recortado a vertical pierde composición. Graba directamente vertical si el contenido es para redes.
+- **Rostro arriba:** deja espacio para el título arriba y los subtítulos abajo.
+
+---
+
+#### Paso 3 — Añade subtítulos dinámicos
+
+Los subtítulos son casi obligatorios: la mayoría ve videos sin sonido al inicio.
+
+- **Subtítulos grandes y legibles:** mínimo 40-50 px, con contraste (borde o sombra).
+- **Palabra destacada:** resalta la palabra clave del momento en un color distinto para retener la atención.
+- **Sincronización:** cada subtítulo debe coincidir exactamente con el audio hablado.
+- **Herramientas:** CapCut, DaVinci Resolve, Submagic o las herramientas automáticas de cada app.
+
+---
+
+#### Paso 4 — Ritmo de edición
+
+El video vertical premia la velocidad:
+
+- **Cortes cada 1-3 segundos:** evita tomas largas estáticas.
+- **Entra en acción rápido:** el gancho (hook) en los primeros **2 segundos** define la retención.
+- **Transiciones sutiles:** zoom suave, cortes en ritmo o efectos simples; evita transiciones recargadas.
+- **Reusa tomas:** mezcla planos del mismo tema para mantener el movimiento.
+
+---
+
+#### Paso 5 — Audio y música
+
+- **Volumen equilibrado:** la voz debe escucharse por encima de la música.
+- **Música de tendencia:** en TikTok y Reels, usa audio en tendencia para más alcance.
+- **Cuida los derechos:** usa el catálogo de música libre de las propias plataformas para evitar bloqueos.
+
+---
+
+#### Paso 6 — Exporta correctamente
+
+**Configuración de exportación recomendada:**
+- **Formato:** MP4 (H.264).
+- **Resolución:** 1080x1920.
+- **FPS:** 30 o 60.
+- **Bitrate:** 8-12 Mbps para buena calidad en 1080p.
+- **Audio:** AAC, 44.1 kHz.
+
+En **DaVinci Resolve:** crea el proyecto con resolución **1080x1920** (o usa la pestaña timeline con resolución vertical) antes de editar para no recortar al final.
+
+---
+
+#### Paso 7 — Publica en el mejor momento
+
+- **Consistencia:** publica al menos 3-4 veces por semana.
+- **Horarios:** prueba distintos horarios (mañana, almuerzo, noche) y analiza las estadísticas.
+- **Interacción:** responde comentarios; los primeros minutos definen el alcance.
+- **Analiza:** revisa retención, alcance y guardados para mejorar cada video.
+
+---
+
+#### Errores comunes en video vertical
+
+- **Grabar horizontal y recortar:** pierde calidad y composición.
+- **Texto fuera de la zona segura:** cortado por la interfaz de la app.
+- **Sin subtítulos:** pierdes al espectador que ve sin sonido.
+- **Gancho tardío:** si los primeros segundos son lentos, nadie sigue viendo.
+- **Exportar en baja resolución:** las plataformas comprimen; entrega la mejor calidad posible.
+
+---
+
+#### Checklist para cada video
+
+- Formato 9:16, 1080x1920.
+- Contenido clave dentro de la zona segura central.
+- Subtítulos grandes y sincronizados.
+- Gancho en los primeros 2 segundos.
+- Audio equilibrado (voz + música).
+- Exportación MP4 en 1080x1920.
+- Publicación consistente y con análisis de datos.
+
+---
+
+> Tutorial actualizado en agosto de 2026. El video vertical se domina probando: cada plataforma premia la constancia y el análisis de métricas.`,
+    contentEn: `### Tutorial: Vertical video for social media — Guide for Reels, TikTok and Shorts
+
+Vertical video (9:16) is the dominant social media format. Producing well in vertical is not just rotating the camera — it needs framing, rhythm and subtitles designed for mobile viewing.
+
+**Formats:** Instagram Reels, TikTok and YouTube Shorts all use 9:16 (1080x1920). Suggested duration: Reels/Shorts under 60s, TikTok 20-40s. Shoot in 1080p or 4K vertical to allow cropping.
+
+**Framing for vertical:** Keep the subject in the central safe zone (about 70% of the screen). The top and bottom edges get covered by app UI. Don't shoot horizontal and crop — shoot vertical directly for social content.
+
+**Dynamic subtitles:** Most viewers watch without sound initially. Use large legible subtitles (40-50px) with contrast, highlight the keyword in a different color, and sync each subtitle exactly to the audio. Tools: CapCut, DaVinci Resolve, Submagic.
+
+**Editing rhythm:** Cut every 1-3 seconds, hook the viewer in the first 2 seconds, use subtle transitions (smooth zoom, cuts on beat), and reuse shots for movement.
+
+**Audio:** Voice must be above the music. Use trending audio on TikTok/Reels for reach, and only royalty-free music to avoid blocks.
+
+**Export:** MP4 (H.264), 1080x1920, 30/60 fps, 8-12 Mbps bitrate, AAC audio. In DaVinci Resolve create the project at 1080x1920 from the start.
+
+**Publishing:** Post 3-4 times a week, test different times, engage with comments early, and analyze retention and saves.
+
+**Common mistakes:** Shooting horizontal and cropping, text outside the safe zone, no subtitles, late hook, low-quality export.
+
+**Checklist:** 9:16 at 1080x1920, key content in the central safe zone, large synced subtitles, hook in 2 seconds, balanced audio, MP4 export, consistent publishing with analytics.
+
+Updated August 2026.`,
+    date: '2026-08-01',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop',
+    imageCaption: 'Video vertical para redes sociales. Foto: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
       // ============================================================
       // NOTICIAS DE LA VELADA DEL AÑO 6
       // ============================================================
