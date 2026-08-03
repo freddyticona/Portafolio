@@ -13290,6 +13290,446 @@ Vozinha (Josémar Dias), the 40-year-old goalkeeper who became one of the breako
     source: 'AP News',
     sourceUrl: 'https://apnews.com/article/colo-vozinha-contrato-cabo-verde-mundial-3bf77f3ed82e9d021e3048ae937eab37'
   },
+  {
+    id: '193',
+    contentType: 'news',
+    slug: 'whatsapp-deja-funcionar-celulares-agosto-2026',
+    titleEs: 'WhatsApp dejará de funcionar en agosto en estos celulares antiguos',
+    titleEn: 'WhatsApp will stop working in August on these old phones',
+    excerptEs: 'A partir de agosto de 2026, WhatsApp dejará de dar soporte a los teléfonos que no puedan actualizar a Android 5.0 (Lollipop) o iOS 15.1. Entre los afectados están el iPhone 6 y varios modelos antiguos de Huawei, LG y Sony que ya no podrán actualizar la aplicación.',
+    excerptEn: 'From August 2026, WhatsApp will drop support for phones that cannot update to Android 5.0 (Lollipop) or iOS 15.1. Affected devices include the iPhone 6 and several older LG, Sony and Huawei models that can no longer receive updates.',
+    contentEs: `### Adiós a WhatsApp en los celulares antiguos
+
+Miles de usuarios de **WhatsApp** deberán prestar atención en las próximas semanas: la aplicación de mensajería más usada del mundo implementará un cambio en sus **requisitos de compatibilidad** a partir de **agosto 2026**, dejando de dar soporte a una importante cantidad de teléfonos inteligentes.
+
+A partir de esa fecha, **WhatsApp sólo será compatible con dispositivos que ejecuten Android 5.0 (Lollipop) o versiones posteriores**, mientras que en el ecosistema de Apple será indispensable contar con **iOS 15.1 o superior**.
+
+#### Qué celulares quedan fuera
+
+- **iPhone 6** y otros equipos antiguos que no puedan actualizarse a iOS 15.1.
+- Modelos antiguos de **LG** que seguían en funcionamiento.
+- **Sony Xperia Z y Xperia Z2**.
+- **Huawei Ascend Mate y Ascend G740**.
+- Otros equipos con sistemas operativos sin actualizaciones disponibles.
+
+Aunque el teléfono continúe funcionando para llamadas y mensajes de texto, **WhatsApp dejará de recibir nuevas versiones** y eventualmente dejará de operar correctamente.
+
+#### Por qué Meta toma esta decisión
+
+Cada actualización incorpora **nuevas herramientas, mejoras de rendimiento y sistemas de protección** que requieren mayor capacidad de procesamiento y versiones recientes del sistema operativo. Concentrar el desarrollo en equipos más modernos permite **fortalecer la seguridad de millones de usuarios**, reducir la exposición a ataques informáticos y acelerar la llegada de futuras funciones.
+
+#### Qué hacer si tu celular está afectado
+
+- Comprueba en **Configuración > Información > Actualización de software** si hay alguna actualización pendiente.
+- Si ya no hay nuevas versiones, la única solución es **migrar la cuenta a un dispositivo compatible**.
+
+> Si tu teléfono tiene varios años de antigüedad, conviene revisar desde ahora si cumple con los requisitos mínimos para evitar sorpresas cuando comiencen a aplicarse las nuevas condiciones en **agosto 2026**.
+
+**Con información de:** [A24](https://www.a24.com/trends/adios-whatsapp-deja-funcionar-agosto-estos-celulares-n1578160)`,
+    contentEn: `### Goodbye: WhatsApp stops on old phones
+
+From August 2026, WhatsApp will require Android 5.0 or iOS 15.1 or higher. Phones that cannot update, like the iPhone 6 and older LG, Sony and Huawei models, will stop receiving updates and eventually stop working. Users are advised to update or migrate to a compatible device.
+
+**Sources:** A24`,
+    date: '2026-08-03',
+    readTimeEn: '4 min read',
+    readTimeEs: '4 min de lectura',
+    imageUrl: 'https://images.unsplash.com/photo-1610393730932-869bdb6d256a?w=1200&q=80',
+    imageCaption: 'Aplicación de WhatsApp en un teléfono inteligente. Foto referencial: Unsplash',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'A24',
+    sourceUrl: 'https://www.a24.com/trends/adios-whatsapp-deja-funcionar-agosto-estos-celulares-n1578160'
+  },
+  {
+    id: '194',
+    contentType: 'news',
+    slug: 'whatsapp-editar-pdf-estados-musica-ipad',
+    titleEs: 'WhatsApp revive el espíritu de Messenger: ya se pueden editar PDF y crear cuenta desde el iPad',
+    titleEn: 'WhatsApp revives the Messenger spirit: edit PDFs and create an account from iPad',
+    excerptEs: 'La actualización de WhatsApp de julio de 2026 amplía sus funciones a tabletas, autos y computadoras. Ahora permite crear una cuenta directamente desde el iPad, editar documentos PDF sin salir del chat, compartir música en los estados desde Spotify o Apple Music, y suma funciones para Android Auto y CarPlay.',
+    excerptEn: 'The July 2026 WhatsApp update expands the app to tablets, cars and computers. Users can now create an account directly from an iPad, edit PDFs without leaving the chat, share music in their status from Spotify or Apple Music, and enjoy new features for Android Auto and CarPlay.',
+    contentEs: `### WhatsApp quiere dejar de ser una app solo para el teléfono
+
+**WhatsApp** anunció una serie de **actualizaciones** que amplían sus **funciones en tabletas, automóviles y computadoras**, además de incorporar nuevas formas de compartir contenido con los contactos, en un giro que la aleja de ser una aplicación pensada únicamente para el móvil.
+
+#### Crear cuenta desde un iPad
+
+Uno de los cambios más llamativos es que ahora **los usuarios ya pueden registrarse directamente desde la aplicación para iPad**. Hasta ahora la versión para tablet funcionaba únicamente como extensión del teléfono y era indispensable vincular ambos dispositivos. Con este cambio, Meta elimina esa restricción y convierte al iPad en una puerta de entrada independiente. La medida no elimina la necesidad de registrar un número telefónico, pero sí reduce la dependencia de un smartphone.
+
+#### Editar PDFs y compartir música
+
+- **Editar PDF dentro de WhatsApp**: los archivos podrán abrirse directamente en la app y será posible **resaltar texto o agregar anotaciones** sin salir del chat, gracias a la integración con **Adobe Acrobat**.
+- **Compartir música en estados**: ahora es posible compartir canciones desde **Spotify o Apple Music**, que se mostrarán automáticamente en los estados del usuario, en una dinámica que recuerda a la función popular de **Windows Live Messenger**.
+- **Experiencia en el automóvil**: se suman funciones nuevas para iPads, los estados y la experiencia en **Android Auto y CarPlay**.
+
+"*WhatsApp debería funcionar donde sea que estés*", señaló el equipo de Meta, que busca que la aplicación se adapte sin problemas a las demás apps y a todos los dispositivos.
+
+**Con información de:** [Expansión](https://expansion.mx/tecnologia/2026/07/27/whatsapp-nuevas-funciones-2026-editar-pdf)`,
+    contentEn: `## WhatsApp expands beyond the phone
+
+The July 2026 WhatsApp update lets users create an account directly from an iPad, edit PDFs without leaving the chat (via Adobe Acrobat), share music from Spotify or Apple Music in their status, and improves the experience in Android Auto and CarPlay.
+
+**Sources:** Expansión`,
+    date: '2026-08-03',
+    readTimeEn: '3 min read',
+    readTimeEs: '3 min de lectura',
+    imageUrl: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1200&q=80',
+    imageCaption: 'WhatsApp en una tableta. Foto referencial: Unsplash',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'Expansión',
+    sourceUrl: 'https://expansion.mx/tecnologia/2026/07/27/whatsapp-nuevas-funciones-2026-editar-pdf'
+  },
+  {
+    id: '195',
+    contentType: 'news',
+    slug: 'whatsapp-grupos-historial-etiquetas-nuevas-funciones',
+    titleEs: 'WhatsApp estrena funciones en los grupos: historial, etiquetas de miembro y más',
+    titleEn: 'WhatsApp rolls out new group features: history, member labels and more',
+    excerptEs: 'El historial de mensajes de grupo permite que los nuevos miembros accedan a mensajes recientes, mientras que las etiquetas de miembro ayudan a identificar el rol de cada integrante. También llega un modo estricto de cuenta que bloquea la multimedia de desconocidos.',
+    excerptEn: 'Group message history lets new members read recent messages, while custom member labels help identify each person\'s role. A strict account mode that blocks media from unknown contacts has also arrived.',
+    contentEs: `### WhatsApp sigue mejorando los chats grupales
+
+**WhatsApp** lanzó este año una serie de funciones para **chats grupales** que buscan mejorar la organización entre amigos, familiares o compañeros, evitando que la información se pierda entre tantos mensajes.
+
+#### Historial de mensajes de grupo
+
+La app presentó el **historial de mensajes de grupo**, con el que los **nuevos miembros pueden acceder a mensajes enviados antes de su ingreso**. Administradores y usuarios pueden **compartir entre 25 y 100 mensajes recientes**, facilitando la integración y el contexto. El historial mantiene el **cifrado de extremo a extremo**, garantizando la privacidad sin necesidad de capturas ni reenvíos.
+
+#### Etiquetas de miembro y ajustes avanzados
+
+- **Etiquetas personalizadas en cada grupo**: podrás aparecer como *"papá de María"* en un grupo familiar y como *"arquero"* en el grupo del equipo, según tu rol o relación en ese espacio.
+- **Ajustes estrictos de la cuenta**: al habilitar esta opción se imponen restricciones; por ejemplo, **los archivos adjuntos y multimedia enviados por personas que no figuren en tus contactos serán bloqueados**.
+
+Estas funciones avanzadas se activan en **Configuración > Privacidad > Opciones avanzadas**, y se están desplegando de forma progresiva en las próximas semanas.
+
+> Las nuevas herramientas buscan que los usuarios puedan **organizarse mejor** y ponerse de acuerdo de manera más sencilla dentro de los grupos.
+
+**Con información de:** [Infobae](https://www.infobae.com/tecno/2026/02/28/whatsapp-2026-lista-completa-de-todas-las-nuevas-funciones-que-han-llegado-en-este-ano/) y [La Crónica de Hoy](https://www.cronica.com.mx/tendencias/2026/01/07/whatsapp-tiene-nuevas-funciones-en-los-grupos-detalles-de-la-actualizacion)`,
+    contentEn: `## WhatsApp new group features
+
+WhatsApp this year released several group features: message history that lets new members read earlier messages, custom member labels, and a strict account mode that blocks media from unknown contacts.
+
+**Sources:** Infobae, La Crónica de Hoy`,
+    date: '2026-08-03',
+    readTimeEn: '3 min read',
+    readTimeEs: '3 min de lectura',
+    imageUrl: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=1200&q=80',
+    imageCaption: 'Grupos y chats en la aplicación WhatsApp. Foto referencial: Unsplash',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'Infobae',
+    sourceUrl: 'https://www.infobae.com/tecno/2026/02/28/whatsapp-2026-lista-completa-de-todas-las-nuevas-funciones-que-han-llegado-en-este-ano/'
+  },
+  {
+    id: '196',
+    contentType: 'news',
+    slug: 'estafa-whatsapp-bolivia-bcb-alerta',
+    titleEs: 'Estafas por WhatsApp: el Banco Central de Bolivia advierte y tomará acciones legales',
+    titleEn: 'WhatsApp scams: Bolivia\'s central bank warns and will take legal action',
+    excerptEs: 'El BCB denuncia el uso ilícito de su identidad, logotipo y nombres de funcionarios para estafar a través de mensajes de WhatsApp, correos, SMS y llamadas que prometen falsos créditos, inversiones y transferencias. La entidad reitera que no gestiona inversiones para particulares y anuncia acciones judiciales.',
+    excerptEn: 'Bolivia\'s central bank (BCB) reported that scammers are using its identity, logo and staff names to offer fake credits, investments and transfers via WhatsApp, email, SMS and phone calls. The bank does not manage private investments and will take legal action.',
+    contentEs: `### No caigas en las falsas ofertas del banco
+
+El **Banco Central de Bolivia (BCB)** reitera su alerta a la población sobre **el uso ilícito de su identidad institucional**, logotipo e incluso nombres de sus funcionarios por parte de personas inescrupulosas que intentan realizar **estafas** a través de falsas ofertas de **créditos, inversiones y transferencias**.
+
+Estos actos ilícitos se realizan mediante **correos electrónicos, mensajes de WhatsApp, SMS y llamadas telefónicas**, prometiendo beneficios inexistentes a cambio de dinero o información. La tendencia se ha intensificado en el último año.
+
+#### La recomendación del banco
+
+- El BCB **no atiende a particulares ni gestiona inversiones** para los ciudadanos; se limita a funciones de banca central.
+- **No compartas datos personales**, números de cuenta ni claves de acceso.
+- Ante cualquier sospecha, verificar por los **canales oficiales** de la entidad: línea gratuita **800-102023** y contacto oficial.
+
+Los grupos delictivos buscan obtener **información privada crítica** para acceder directamente a los recursos económicos de las víctimas. Por ello, el BCB **iniciará acciones legales** para identificar y sancionar a los responsables.
+
+> Los estafadores aprovechan la confianza que genera la marca del banco central para atraer a sus víctimas, pero el BCB no ofrece créditos ni inversiones a personas individuales.
+
+**Con información de:** [El Mundo](https://elmundo.com.bo/banco-central-de-bolivia-asumira-acciones-legales-ante-intentos-de-estafa), [Red Uno](https://www.reduno.com.bo/noticias/cuidado-con-los-mensajes-falsos-el-bcb-advierte-sobre-nuevas-estafas-digitales-20264993853) y [La Patria](https://lapatria.bo/actualidad/banco-central-de-bolivia-alerta-sobre-estafas-y-robos-de-datos)`,
+    contentEn: `## Beware of fake banking offers
+
+Bolivia's Central Bank (BCB) reported that scammers are illegally using its identity and the names of its staff to offer fake credits, investments and transfers via email, WhatsApp, SMS and phone calls. The bank does not handle private investments and will take legal action. Never share personal or banking data.
+
+**Sources:** La Patria, Red Uno, El Mundo`,
+    date: '2026-08-03',
+    readTimeEn: '3 min read',
+    readTimeEs: '3 min de lectura',
+    imageUrl: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80',
+    imageCaption: 'Estafas online y protección de datos. Foto referencial: Unsplash',
+    categoryEs: 'Noticias',
+    categoryEn: 'News',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'La Patria',
+    sourceUrl: 'https://lapatria.bo/actualidad/banco-central-de-bolivia-alerta-sobre-estafas-y-robos-de-datos'
+  },
+  {
+    id: '197',
+    contentType: 'news',
+    slug: 'estafa-imagen-david-santalla-falsa-app-inversiones',
+    titleEs: 'Estafa digital con la imagen de David Santalla promociona una falsa app de inversiones',
+    titleEn: 'Digital scam using David Santalla\'s image pushes a fake investment app',
+    excerptEs: 'Una estafa en redes sociales usa la imagen del fallecido actor boliviano David Santalla para promocionar una falsa aplicación de inversiones llamada Pilar Finrevoux, suplantando además la identidad visual de El Deber. Las autoridades advierten sobre la clonación de voces y rostros con IA.',
+    excerptEn: 'A social media scam uses the image of late Bolivian actor David Santalla to promote a fake investment app called Pilar Finrevoux, even impersonating the visual identity of newspaper El Deber. Authorities warn about AI voice and face cloning.',
+    contentEs: `### Cuidado con la estafa del falso actor
+
+En Bolivia se detectó una **estafa en redes sociales** que utiliza la **imagen del actor David Santalla** —fallecido el 21 de febrero de 2026— para promocionar una **falsa aplicación de inversiones llamada Pilar Finrevoux**. La campaña incluso suplanta la **identidad visual del diario El Deber** para ganar credibilidad, con testimonios ficticios y promesas de *ganancias en dólares* o *rentabilidad del 7% mensual*.
+
+La noticia falsa comenzó a circular **dos semanas después** del fallecimiento del actor y se compartió especialmente en Instagram.
+
+#### Advertencias y recomendaciones
+
+- Toda información oficial de los medios se publica a través de sus **canales verificados**.
+- **No hagas clic** en enlaces sospechosos ni **proporciones datos bancarios** en sitios no oficiales.
+- Santalla es un ícono cultural y **no un promotor de estafas**.
+- En la región, las estafas que clonan **voces y rostros con inteligencia artificial** crecieron más del **335%** en el último año.
+
+> Muchas de estas estafas prometen **rentabilidades imposibles** y se difunden con **suplantación de identidad** de medios confiables, por lo que siempre conviene verificar las fuentes oficiales.
+
+**Con información de:** [La Patria](https://lapatria.bo/enfoque-nacional/alerta-por-estafa-en-redes-con-imagen-de-david-santalla)`,
+    contentEn: `## Scam using David Santalla's image
+
+A social media scam uses the image of late Bolivian actor David Santalla to promote a fake investment app called Pilar Finrevoux, and even impersonates the identity of newspaper El Deber. Police warn about AI-cloned voices and faces, on the rise in Latin America.
+
+**Sources:** La Patria`,
+    date: '2026-08-03',
+    readTimeEs: '2 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80',
+    imageCaption: 'Estafa digital y suplantación de identidad. Foto referencial: Unsplash',
+    categoryEs: 'Noticias',
+    categoryEn: 'News',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'La Patria',
+    sourceUrl: 'https://lapatria.bo/enfoque-nacional/alerta-por-estafa-en-redes-con-imagen-de-david-santalla'
+  },
+  {
+    id: '198',
+    contentType: 'news',
+    slug: 'eclipse-solar-total-12-agosto-2026',
+    titleEs: 'Eclipse solar total del 12 de agosto de 2026: dónde y cómo verlo',
+    titleEn: 'Total solar eclipse on August 12, 2026: where and how to watch it',
+    excerptEs: 'El 12 de agosto de 2026 ocurrirá un eclipse solar total visible en zonas de Groenlandia, Islandia, España, Portugal y el norte de Rusia. La totalidad durará menos de dos minutos. En el resto de Europa y Norteamérica se apreciará de forma parcial, y la NASA lo transmitirá en vivo.',
+    excerptEn: 'A total solar eclipse will cross Greenland, Iceland, Spain, Portugal and northern Russia on August 12, 2026. Totality will last less than two minutes. A partial eclipse will be visible across the northern hemisphere, and NASA will stream it live.',
+    contentEs: `### El fenómeno astronómico del año
+
+El **12 de agosto de 2026** se producirá uno de los fenómenos astronómicos más esperados del año: un **eclipse solar total**, cuya franja de totalidad recorrerá **Groenlandia, Islandia, España, el norte de Rusia y un pequeño rincón de Portugal**. En otros lugares del hemisferio norte (estados del norte de Estados Unidos, Canadá, gran parte de Europa y el noroeste de África) se verá de forma **parcial**.
+
+La sombra de la Luna comenzará en el norte de Rusia, se moverá hacia **Groenlandia (aproximadamente 13:30)** y llegará a su máximo frente a la costa occidental de **Islandia a las 15:45**. El fenómeno continuará hacia el Atlántico y terminará recorriendo **España a última hora de la tarde**, con la puesta de sol en las **Islas Baleares**.
+
+#### Datos clave
+
+- La **totalidad** durará, para la mayoría de los observadores, **menos de dos minutos**.
+- En **España** el eclipse ocurrirá al atardecer, muy cerca del horizonte, lo que lo hace único: es el primer eclipse total visible desde el país desde **1912**.
+- **Nunca mires directamente al Sol** durante las fases parciales sin **protección ocular certificada** (ISO 12312-2). Solo es seguro observarlo sin protección durante los segundos de totalidad.
+- La **NASA transmitirá el eclipse en vivo** desde el 12 de agosto, a partir de la **1:15 p.m., hora del este**.
+
+> Este eclipse será **visible en el hemisferio norte**. Desde **Bolivia y Sudamérica** no se apreciará; los interesados podrán seguirlo a través de la transmisión de la NASA.
+
+**Con información de:** [NASA Ciencia](https://ciencia.nasa.gov/sistema-solar/eclipse-solar-total-del-12-de-agosto-de-2026/) y [Milenio](https://www.milenio.com/ciencia-y-salud/eclipse-solar-total-horarios-y-zonas-de-visibilidad-12-de-agosto-2026)`,
+    contentEn: `## August 12, 2026 total solar eclipse
+
+A total solar eclipse will cross Greenland, Iceland, Spain and northern Portugal on August 12, 2026. Totality will last less than two minutes. A partial eclipse will be visible across the northern hemisphere, and NASA will stream it live.
+
+**Sources:** NASA, Milenio`,
+    date: '2026-08-03',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1543298867-0bedf7226492?w=1200&q=80',
+    imageCaption: 'Eclipse solar. Foto referencial: Unsplash',
+    categoryEs: 'Ciencia',
+    categoryEn: 'Science',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'NASA',
+    sourceUrl: 'https://ciencia.nasa.gov/sistema-solar/eclipse-solar-total-del-12-de-agosto-de-2026/'
+  },
+  {
+    id: '199',
+    contentType: 'news',
+    slug: 'copa-bolivia-2026-19-agosto-fbf',
+    titleEs: 'La Copa Bolivia se jugará desde el 19 de agosto bajo el control de la FBF',
+    titleEn: 'The Copa Bolivia starts on August 19 under the FBF',
+    excerptEs: 'El certamen nacional que otorgará cupos internacionales se jugará del 19 de agosto al 2 de diciembre de 2026, bajo el control de la Federación Boliviana de Fútbol (FBF). El campeón clasificará a la Libertadores 2027 como Bolivia 3 y el segundo a la Sudamericana como Bolivia 1.',
+    excerptEn: 'The national tournament that awards international slots will run from August 19 to December 2, 2026, under the Bolivian Football Federation (FBF). The champion earns a Libertadores 2027 spot as Bolivia 3 and the runner-up a Sudamericana spot as Bolivia 1.',
+    contentEs: `### Copa Bolivia, con fecha y control de la FBF
+
+Finalmente se oficializó el desarrollo del certamen denominado **Copa Bolivia**, que se jugará del **19 de agosto al 2 de diciembre de 2026**, formando parte del calendario nacional para los clubes profesionales **bajo el control de la Federación Boliviana de Fútbol (FBF)**.
+
+De acuerdo con la convocatoria, **el campeón de la Copa Bolivia se clasificará a la Copa Libertadores de 2027 como *Bolivia 3***, mientras que **el segundo participará en la Copa Sudamericana en calidad de *Bolivia 1***.
+
+#### Clubes y formato
+
+Las llaves de la segunda fase fueron previamente aprobadas. **Bolívar, The Strongest, Blooming, Oriente Petrolero, Always Ready** y el resto de los equipos de la **División Profesional** ya conocen a sus rivales para la fase de grupos.
+
+El certamen busca ampliar el calendario competitivo **dando más rodaje** a los planteles y **otorgando cupos internacionales** a los ganadores, en un año deportivo intenso para el fútbol boliviano.
+
+**Con información de:** [Los Tiempos](https://www.lostiempos.com/deportes/futbol/20260724/copa-bolivia-comienza-19-agosto-control-fbf)`,
+    contentEn: `## The Copa Bolivia starts for the FBF
+
+The Copa Bolivia will run from August 19 to December 2, 2026 under the Bolivian Football Federation. The champion qualifies for the 2027 Libertadores as Bolivia 3 and the runner-up to the Sudamericana as Bolivia 1.
+
+**Sources:** Los Tiempos`,
+    date: '2026-08-03',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1489944444589-4ba4fe59867f?w=1200&q=80',
+    imageCaption: 'Estadio de fútbol. Foto referencial: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/deportes/futbol/20260724/copa-bolivia-comienza-19-agosto-control-fbf'
+  },
+  {
+    id: '200',
+    contentType: 'news',
+    slug: 'futbolistas-bolivianos-mercado-2026-vaca-arabia-saudita',
+    titleEs: 'Futbolistas bolivianos mueven el mercado: Ramiro Vaca jugará en Arabia Saudita',
+    titleEn: 'Bolivian footballers move the market: Ramiro Vaca heads to Saudi Arabia',
+    excerptEs: 'Después de largas negociaciones se anunció que los futbolistas bolivianos Ramiro Vaca, Moisés Paniagua, Luis Haquín y Santiago Cuiza ficharán para clubes del mercado internacional. Ramiro Vaca, incluido por un club saudí, es uno de los fichajes más destacados de la temporada.',
+    excerptEn: 'After long negotiations, it was announced that Bolivian footballers Ramiro Vaca, Moisés Paniagua, Luis Haquín and Santiago Cuiza will sign for international clubs. Ramiro Vaca, picked up by a Saudi club, is one of the standout moves of the season.',
+    contentEs: `### Traspasos que hacen historia
+
+El **mercado de pases** del fútbol boliviano se movió con fuerza tras las negociaciones: se anunció que los futbolistas bolivianos **Ramiro Vaca, Moisés Paniagua, Luis Haquín y Santiago Cuiza** ficharán para clubes del **mercado internacional**, destacando la llegada de **Ramiro Vaca a un club saudí**.
+
+El arribo del volante reaviva el interés del fútbol boliviano en mercados emergentes y confirma la **proyección internacional** de la nueva generación de jugadores del país.
+
+#### Otros movimientos
+
+- **Bolívar** disputó la Copa Sudamericana ante **Gremio**, en los octavos de final de los playoffs.
+- **Always Ready** se consolidó puntero del torneo de la División Profesional en varias fechas.
+
+> La salida de jugadores bolivianos hacia **Arabia Saudita** y otras ligas extranjeras abre nuevas vitrinas y eleva la cotización del fútbol local en la región.
+
+**Con información de:** [Los Tiempos](https://www.lostiempos.com/deportes/futbol/20260729/futbolistas-bolivianos-mueven-el-mercado-ramiro-vaca-jugara-en-arabia-saudita)`,
+    contentEn: `## Bolivian footballers abroad
+
+Bolivian footballers Ramiro Vaca, Moisés Paniagua, Luis Haquín and Santiago Cuiza announced moves in the transfer window. Ramiro Vaca will play in Saudi Arabia, a key step for the projection of local footballers abroad.
+
+**Sources:** Los Tiempos`,
+    date: '2026-08-03',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1526623219966-6b3e94d8c69f?w=1200&q=80',
+    imageCaption: 'Balón de fútbol sobre el césped. Foto referencial: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/deportes/futbol/20260729/futbolistas-bolivianos-mueven-el-mercado-ramiro-vaca-jugara-en-arabia-saudita'
+  },
+  {
+    id: '201',
+    contentType: 'news',
+    slug: 'delitos-ciberneticos-bolivia-estafa-trata-extorsion',
+    titleEs: 'Estafa, trata de personas y extorsiones, los delitos cibernéticos más denunciados en Bolivia',
+    titleEn: 'Scam, human trafficking and extortion top cybercrime reports in Bolivia',
+    excerptEs: 'La estafa, la trata de personas y las extorsiones encabezan el listado de delitos cibernéticos más denunciados en Bolivia, según reportes de la Agencia de Noticias Fides (ANF). Los datos reflejan la acelerada digitalización de las tramas delictivas en el país.',
+    excerptEn: 'Scam, human trafficking and extortion lead the list of most reported cybercrimes in Bolivia, according to reports from the Fides News Agency (ANF). The data reflects the rapid digitalization of criminal networks in the country.',
+    contentEs: `### La ciberdelincuencia crece en Bolivia
+
+La **estafa**, la **trata de personas** y las **extorsiones** son los **delitos cibernéticos más denunciados en Bolivia**, de acuerdo con reportes difundidos por la **Agencia de Noticias Fides (ANF)**. El material confirma cómo la **delincuencia** ha encontrado en **internet y las aplicaciones de mensajería** un nuevo territorio para operar.
+
+Las **estafas vía WhatsApp** —en las que delincuentes se hacen pasar por familiares o instituciones— se cuentan entre las modalidades de mayor crecimiento, junto con otros esquemas que utilizan **las redes sociales**.
+
+#### Prevenir es la clave
+
+- **No responder** a mensajes que pidan dinero a nombre de familiares.
+- **Verificar** siempre por otra vía la identidad de quien escribe.
+- **No compartir** datos personales ni códigos de seguridad con desconocidos.
+- Ante un presunto delito, **presentar la denuncia** ante la Fiscalía o unidades especializadas.
+
+> La digitalización de las actividades civiles y económicas también elevó la exposición a los **delitos en línea**, por lo que la **prevención** y la **denuncia temprana** son hoy claves para proteger a la población.
+
+**Con información de:** [Agencia de Noticias Fides (ANF)](https://www.noticiasfides.com/nacional/seguridad/la-estafa-trata-de-personas-y-extorsiones-los-delitos-ciberneticos-mas-denunciados-en-bolivia)`,
+    contentEn: `## Cybercrime in Bolivia
+
+Scam, human trafficking and extortion are the most reported cybercrimes in Bolivia, according to the Fides News Agency. WhatsApp scams, where criminals impersonate relatives or institutions, are on the rise.
+
+**Sources:** ANF`,
+    date: '2026-08-03',
+    readTimeEs: '2 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1550565118-3a14e8d0386?w=1200&q=80',
+    imageCaption: 'Seguridad digital y denuncia. Foto referencial: Unsplash',
+    categoryEs: 'Noticias',
+    categoryEn: 'News',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'ANF',
+    sourceUrl: 'https://www.noticiasfides.com/nacional/seguridad/la-estafa-trata-de-personas-y-extorsiones-los-delitos-ciberneticos-mas-denunciados-en-bolivia'
+  },
+  {
+    id: '202',
+    contentType: 'news',
+    slug: 'whatsapp-nombres-usuario-reservar',
+    titleEs: 'WhatsApp y los nombres de usuario: así puedes reservar el tuyo',
+    titleEn: 'WhatsApp usernames: how to reserve yours',
+    excerptEs: 'WhatsApp amplió el uso de los nombres de usuario (usernames) como alternativa de contacto que no depende del número de teléfono. Reservar tu nombre con anticipación te permite evitar que otros lo hagan y te da una identidad digital más estable.',
+    excerptEn: 'WhatsApp expanded the use of usernames as a contact option that does not depend on the phone number. Reserving your name in advance helps you avoid someone else taking it and gives you a more stable digital identity.',
+    contentEs: `### El nombre de usuario gana protagonismo
+
+WhatsApp incorporó la posibilidad de usar **nombres de usuario (usernames)** como una **alternativa de contacto** que no depende del número de teléfono, ampliando la gestión de la identidad dentro de la app. A esto se suma la recomendación de **reservar tu nombre con anticipación para evitar que otros lo hagan** antes, una función que se hizo popular durante la expansión del sistema.
+
+Esta función forma parte de los cambios que WhatsApp implementa para que el contacto pueda **establecerse de un modo más versátil**, despegándose del número, un paso crucial en la estrategia de **Meta** por ampliar la base de usuarios.
+
+#### Claves para proteger tu nombre
+
+- Reserva tu **nombre de usuario (username)** **cuanto antes** para evitar que otra persona lo ocupe.
+- Verifica que sea **único y fácil de recordar**.
+- Usa los **canales verificados** de Meta para cualquier gestión.
+
+> Con los nombres de usuario, WhatsApp busca reducir el uso exclusivo del número telefónico y abrir la posibilidad a una **identidad digital** más personal y estable, por lo que reservar tu nombre a tiempo puede ser una gran ventaja.
+
+**Con información de:** [A24 - ¿Cómo reservar en WhatsApp tu nombre de usuario?](https://www.a24.com/trends/como-reservar-whatsapp-tu-nombre-usuario-y-asi-evitar-que-otros-lo-haga-antes-n1571257)`,
+    contentEn: `## WhatsApp usernames
+
+WhatsApp is expanding usernames as a contact option that reduces the reliance on phone numbers. Users are advised to reserve their username as early as possible to avoid someone else taking it.
+
+**Sources:** A24`,
+    date: '2026-08-03',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1555421689-491a97e3d8d0?w=1200&q=80',
+    imageCaption: 'Smartphone con app de mensajería. Foto referencial: Unsplash',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'A24',
+    sourceUrl: 'https://www.a24.com/trends/como-reservar-whatsapp-tu-nombre-usuario-y-asi-evitar-que-otros-lo-haga-antes-n1571257'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];

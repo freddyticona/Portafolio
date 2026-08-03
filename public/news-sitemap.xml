@@ -30,4 +30,144 @@
       <news:keywords>Noticias</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/noticias/whatsapp-deja-funcionar-celulares-agosto-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>WhatsApp dejará de funcionar en agosto en estos celulares antiguos</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/whatsapp-editar-pdf-estados-musica-ipad</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>WhatsApp revive el espíritu de Messenger: ya se pueden editar PDF y crear cuenta desde el iPad</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/whatsapp-grupos-historial-etiquetas-nuevas-funciones</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>WhatsApp estrena funciones en los grupos: historial, etiquetas de miembro y más</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/estafa-whatsapp-bolivia-bcb-alerta</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Estafas por WhatsApp: el Banco Central de Bolivia advierte y tomará acciones legales</news:title>
+      <news:keywords>Noticias</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/estafa-imagen-david-santalla-falsa-app-inversiones</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Estafa digital con la imagen de David Santalla promociona una falsa app de inversiones</news:title>
+      <news:keywords>Noticias</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-12-agosto-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Eclipse solar total del 12 de agosto de 2026: dónde y cómo verlo</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/copa-bolivia-2026-19-agosto-fbf</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>La Copa Bolivia se jugará desde el 19 de agosto bajo el control de la FBF</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/futbolistas-bolivianos-mercado-2026-vaca-arabia-saudita</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Futbolistas bolivianos mueven el mercado: Ramiro Vaca jugará en Arabia Saudita</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/delitos-ciberneticos-bolivia-estafa-trata-extorsion</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Estafa, trata de personas y extorsiones, los delitos cibernéticos más denunciados en Bolivia</news:title>
+      <news:keywords>Noticias</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/whatsapp-nombres-usuario-reservar</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>WhatsApp y los nombres de usuario: así puedes reservar el tuyo</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
 </urlset>
