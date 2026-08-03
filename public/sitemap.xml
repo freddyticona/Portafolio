@@ -6,25 +6,25 @@
   <!-- Secciones Principales -->
   <url>
     <loc>https://freddydev.net</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://freddydev.net/sobre-mi</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/portafolio</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/cv</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://freddydev.net/noticias</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -48,30 +48,42 @@
   </url>
   <url>
     <loc>https://freddydev.net/galeria</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/servicios</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/reservas</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/contacto</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Artículos (cada uno en su ruta primaria) -->
+  <url>
+    <loc>https://freddydev.net/noticias/sarampion-la-paz-vacunacion-masiva-2026</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/desaguadero-cuello-botella-paso-legal-frontera</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://freddydev.net/guias/guia-certificado-matrimonio-segip-bolivia-2026</loc>
     <lastmod>2026-08-01</lastmod>
@@ -583,6 +595,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/vozinha-ficha-colo-colo-portero-mundial-2026</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/nvidia-deepstream-9-1-tracking</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -872,6 +890,12 @@
   </url>
   <url>
     <loc>https://freddydev.net/noticias/fifa-investiga-incidentes-final-mundial-argentina</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/espana-campeona-mundial-2026-ferrara-torres-final</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

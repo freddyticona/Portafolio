@@ -13104,6 +13104,192 @@ The Strongest is close to sealing the return of Brazilian coach Antonio Carlos Z
     source: 'Erbol',
     sourceUrl: 'https://www.erbol.com.bo/deporte/antonio-zago-un-paso-de-regresar-strongest'
   },
+      {
+    id: '189',
+    contentType: 'news',
+    slug: 'sarampion-la-paz-vacunacion-masiva-2026',
+    titleEs: 'Confirmado un caso importado de sarampión en La Paz y se activa la vacunación masiva',
+    titleEn: 'Imported measles case confirmed in La Paz and mass vaccination activated',
+    excerptEs: 'El Ministerio de Salud confirmó el primer caso importado de sarampión en La Paz, contraído durante un viaje a Perú. Ante el riesgo de propagación se dispusieron más de 300.000 dosis gratuitas, se habilitaron 67 centros de salud en la ciudad y se activó el control del carnet de vacunación en terminales de buses y aeropuertos.',
+    excerptEn: 'The Ministry of Health confirmed the first imported measles case in La Paz, contracted during a trip to Peru. With more than 300,000 free doses, 67 health centers activated in the city and vaccination record checks at bus terminals and airports, authorities seek to prevent an outbreak.',
+contentEs: `### Primer caso importado de sarampión en La Paz
+
+El **Ministerio de Salud y Deportes** confirmó un **caso importado de sarampión en La Paz**, el primero registrado en el departamento, lo que activó un plan de respuesta sanitaria a escala nacional. Según el reporte institucional, se trata de un joven que **contrajo el virus durante un viaje a Perú**, donde tuvo contacto con una persona que dio positivo a la enfermedad. A su regreso, se trasladó a La Paz y tuvo contacto con familiares y amigos.
+
+Ante el escenario, las autoridades **dispusieron más de 300.000 dosis gratuitas** de la vacuna contra el sarampión (SRP/SR) en los centros de salud del país y llamaron a la población a completar sus esquemas de vacunación.
+
+#### La Paz habilita 67 centros de salud
+
+El **Gobierno Autónomo Municipal de La Paz** habilitó **67 centros de salud** y los **cinco hospitales municipales** para intensificar la inmunización contra el sarampión, además de desplegar brigadas en barrios y zonas estratégicas. En complemento, el **Sedes La Paz** activó el **Comité de Operaciones de Emergencia (COE) Salud** y dispuso el **control del carnet de vacunación** contra el sarampión en **terminales terrestres y aeropuertos** para evitar la propagación.
+
+- Más de **300.000 dosis gratuitas** disponibles a nivel nacional.
+- **67 centros de salud** y **5 hospitales municipales** en La Paz.
+- **Control del carnet** en terminales y aeropuertos del departamento.
+- Llamado urgente a vacunarse a la población de **La Paz y El Alto**.
+
+#### Contexto: una alerta sanitaria latente
+
+Aunque en **2025** el sarampión había sido controlado en el país, Bolivia enfrentó una **emergencia sanitaria nacional** por esta enfermedad en meses previos, con la mayor concentración de casos en **Santa Cruz**. El sarampión es una enfermedad viral altamente contagiosa que se transmite por gotículas al hablar, toser o estornudar. Según las recomendaciones de salud pública, la **vacunación infantil (SRP)** es la medida más efectiva para frenar el virus.
+
+> Ante cualquier síntoma como **fiebre y sarpullido**, las autoridades recomiendan acudir de inmediato a un centro de salud para cortar la cadena de transmisión.
+
+**Con información de:** [El Ministerio de Salud y Deportes](https://www.minsalud.gob.bo/9329-salud-insta-a-la-vacunacion-masiva-despues-de-confirmarse-un-caso-importado-de-sarampion-en-la-paz), [La Paz habilita 67 centros](https://www.reduno.com.bo/salud-belleza/la-paz-habilita-67-centros-de-salud-para-reforzar-la-vacunacion-contra-el-sarampion-20267309413) y [La Razón](https://larazon.bo/sociedad/2026/08/03/sarampion-sedes-la-paz-dispone-control-del-carnet-de-vacunacion-en-terminales/)`,
+    contentEn: `### Imported measles case confirmed in La Paz
+
+Bolivia's Ministry of Health confirmed the first imported measles case in La Paz, contracted during a trip to Peru. More than 300,000 free vaccine doses, 67 health centers and vaccination certificate controls at terminals and airports were set up to contain any spread.
+
+**Sources:** Ministry of Health, La Razón, Red Uno`,
+    date: '2026-08-03',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80',
+    imageCaption: 'Campaña de vacunación contra el sarampión en Bolivia. Foto referencial: Unsplash',
+    categoryEs: 'Noticias',
+    categoryEn: 'News',
+    enableComments: true,
+    featured: true,
+    views: 1,
+    breaking: true,
+    source: 'Ministerio de Salud y Deportes',
+    sourceUrl: 'https://www.minsalud.gob.bo/9329-salud-insta-a-la-vacunacion-masiva-despues-de-confirmarse-un-caso-importado-de-sarampion-en-la-paz'
+  },
+  {
+    id: '190',
+    contentType: 'news',
+    slug: 'espana-campeona-mundial-2026-ferrara-torres-final',
+    titleEs: 'España es campeona del Mundial 2026 al vencer 1-0 a Argentina en la prórroga',
+    titleEn: 'Spain are 2026 World Cup champions after beating Argentina 1-0 in extra time',
+    excerptEs: 'La selección roja conquistó su segundo título mundialista de la historia al derrotar 1-0 a Argentina en la final del Mundial 2026, con gol de Ferrán Torres al minuto 105 de la prórroga. España volvió a tocar la gloria 16 años después del título de Sudáfrica 2010 y confirmó su dominio continental tras la Eurocopa.',
+    excerptEn: 'Spain won their second World Cup title by beating Argentina 1-0 in the 2026 final, with a goal by Ferrán Torres in the 105th minute of extra time. The win arrived 16 years after South Africa 2010 and confirms the recent Euro triumph.',
+content: `### España, campeón del Mundial 2026
+
+La selección dirigida por **Luis de la Fuente** se coronó **campeona del Mundial 2026** al derrotar **1-0 a Argentina** en la final disputada en el **New York New Jersey Stadium (MetLife)**, en la madrugada del **19 de julio**. Tras 90 minutos de máxima intensidad y sin goles, el encuentro se definió en la **prórroga**, con **gol de Ferrán Torres al minuto 105**, con asistencia por cabeza de **Nico Williams**, para darle a España su **segunda Copa del Mundo** de su historia.
+
+Con este triunfo, España **repitió la gloria de 2010**, cuando levantó el título en Sudáfrica, y consolidó una generación encabezada por **Lamine Yamal, Rodri, Dani Olmo, Nico Williams** y el propio Ferrán.
+
+#### Un partido de dominio español
+
+'La Roja' monopolizó la posesión y generó las oportunidades más claras, mientras Argentina apostó a resistir y buscar alguna chance con **Lionel Messi** y **Julián Álvarez**. El arquero **Emiliano 'Dibu' Martínez** fue la gran figura de la Albiceleste con múltiples atajadas que mantuvieron el marcador en cero.
+
+- **Gol definitivo**: Ferrán Torres, con asistencia de cabeza de **Nico Williams**, al **105'**.
+- **Expulsión**: Enzo Fernández por doble en el amonestación en el tiempo reglamentario.
+- **Balón de Oro**: **Rodri** consiguió el galardón a mejor jugador del Mundial.
+- **Mejor portero del torneo**: **Unai Simón**.
+
+#### El fin de un ciclo y el inicio de otro
+
+Para Argentina terminó un ciclo inolvidable como campeona; no pudo **retener el título de Catar 2022**, aunque disputó una segunda final mundialista consecutiva de la mano de **Lionel Scaloni**. Con la caída, **Leo Messi** cerró su camino junto a la selección con lágrimas durante la entrega de medallas.
+
+España, con este triunfo, confirmó además su gran momento tras **levantar la Eurocopa** y se estableció como el mejor combinado del planeta en una **Copa del Mundo disputada en Norteamérica** (Estados Unidos, México y Canadá).
+
+**Con información de:** [MARCA](https://www.marca.com/futbol/mundial/espana-argentina.html), [CNN Español](https://cnnespanol.cnn.com/2026/07/19/deportes/espana-campeon-mundial-2026-fifa-orix)`,
+    contentEn: `### Spain are 2026 World Cup champions
+
+Spain beat Argentina 1-0 in extra time in the MetLife Stadium final with a goal by Ferran Torres in the 105th minute, assisted by a header from Nico Williams. It is Spain's second World Cup, 16 years after South Africa 2010. Dibu Martínez was again outstanding for Argentina, who lost a second straight final under Lionel Scaloni.
+
+**Sources:** MARCA, CNN Español`,
+    date: '2026-07-20',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1200&q=80',
+    imageCaption: 'España levanta la Copa del Mundo en la final. Foto representativa: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: true,
+    views: 1,
+    source: 'MARCA / CNN Español',
+    sourceUrl: 'https://www.marca.com/futbol/mundial/espana-argentina.html'
+  },
+  {
+    id: '191',
+    contentType: 'news',
+    slug: 'desaguadero-cuello-botella-paso-legal-frontera',
+    titleEs: 'Desaguadero se convierte en un \u201ccuello de botella\u201d para el paso legal en la frontera con Perú',
+    titleEn: 'Desaguadero becomes a bottleneck for legal crossing at the Peru border',
+    excerptEs: 'Cruzar el paso fronterizo de Desaguadero entre Bolivia y Perú se volvió un sacrificio: filas de más de tres horas a la intemperie, bajo el frío del altiplano y entre un mar de camiones de carga pesada. El comercio y el tránsito de personas en la principal conexión terrestre entre ambos países se ven severamente afectados.',
+    excerptEn: 'Crossing the Desaguadero border between Bolivia and Peru has become a sacrifice: lines of more than three hours in the open, under the cold of the highlands, amid heavy trucks. Trade and transit at the main land link between both countries are severely affected.',
+content: `### El paso fronterizo de Desaguadero, un cuello de botella
+
+Formar una extensa fila durante **más de tres horas a la intemperie**, bajo el frío del altiplano y sortear un **mar de camiones de carga pesada**, es en la actualidad el sacrificio obligatorio para **cruzar legalmente** el paso fronterizo de **Desaguadero**, entre Bolivia y Perú. Así lo refleja un reporte de **Los Tiempos**.
+
+El paso es la **principal conexión terrestre entre ambos países** y se ubica sobre el río del mismo nombre, en una zona en la que el movimiento comercial se ha visto severamente afectado en las últimas semanas.
+
+#### Impactos en el comercio y en las personas
+
+- **Filas de más de 3 horas** a la intemperie para el tránsito de personas y vehículos.
+- **Un mar de camiones de carga** que busca cruzar la barrera para poder continuar.
+- **Dificultades** para el flujo de mercancías, combustible y pasajeros.
+- Comerciantes y viajeros de la zona sienten el **efecto del cuello de botella** a diario.
+
+El reporte destaca que **la acumulación de vehículos** y la escasez de espacios llevaron la zona a un punto crítico, mientras choferes y pasajeros esperan agilizar los controles de migración y aduana.
+
+En el pasado reciente, la misma frontera sufrió **bloqueos que dejaron a más de mil camiones inmovilizados a ambos lados**, lo que recuerda la **sensibilidad social** que atraviesa la relación bilateral entre Bolivia y Perú.
+
+> La situación de **Desaguadero** muestra cómo los problemas de transporte y control en frontera transforman un cruce histórico en un auténtico **cuello de botella** para el paso legal.
+
+**Con información de:** [Los Tiempos](https://www.lostiempos.com/actualidad/pais/20260803/desaguadero-se-convierte-cuello-botella-paso-legal)`,
+    contentEn: `### Desaguadero, the bottleneck for legal crossing
+
+Crossing the legal Desaguadero border between Bolivia and Peru now requires more than three hours out in the open and dodging a sea of heavy trucks. The main land connection between both countries is congested for travelers and cargo alike.
+
+**Sources:** Los Tiempos`,
+    date: '2026-08-03',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200&q=80',
+    imageCaption: 'Paso fronterizo el Desaguadero entre Bolivia y Perú. Foto referencial: Unsplash',
+    categoryEs: 'Noticias',
+    categoryEn: 'News',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    breaking: false,
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/actualidad/pais/20260803/desaguadero-se-convierte-cuello-botella-paso-legal'
+  },
+  {
+    id: '192',
+    contentType: 'news',
+    slug: 'vozinha-ficha-colo-colo-portero-mundial-2026',
+    titleEs: 'Vozinha ficha por Colo-Colo: el portero sensación del Mundial 2026 llega al fútbol chileno',
+    titleEn: 'Vozinha signs for Colo-Colo: the breakout goalkeeper of the 2026 World Cup',
+    excerptEs: 'El arquero de Cabo Verde, Vozinha (Josémar Dias), de 40 años, fue presentado como nuevo refuerzo de Colo-Colo en el Estadio Monumental. El club chileno formalizó la contratación de quien fue una de las grandes figuras del Mundial 2026 y pasó de menos de 50 mil a cerca de 30 millones de seguidores en redes sociales.',
+    excerptEn: 'Cabo Verde goalkeeper Vozinha (Josémar Dias), 40, was announced as a new signing for Chile\'s Colo-Colo. The move came after his breakout performances at the 2026 World Cup, where he went from under 50 thousand to nearly 30 million followers.',
+    content: `### Vozinha, nuevo refuerzo de Colo-Colo
+
+El arquero **Vozinha** (nombre real **Josémar Dias**), quien fue una de las **grandes revelaciones del Mundial 2026** con la selección de **Cabo Verde**, fue estrenado oficialmente como nuevo refuerzo de **Colo-Colo**, de Chile, tras firmar su contrato en el **Estadio Monumental**. El guardameta de **40 años** llega al conjunto chileno para el segundo semestre.
+
+Vozinha llegó al Mundial **sin contrato** tras finalizar su vínculo con el **GD Chaves**, de la segunda división de Portugal, y terminó el torneo como uno de los **personajes más comentados de la competencia**.
+
+#### La revelación del Mundial
+
+- Cabo Verde fue una de las **grandes sorpresas** del torneo al clasificarse en **segundo lugar del Grupo H**.
+- En el arranque, la defensa comandada por Vozinha **sostuvo a España** en un empate sin goles, siendo el único equipo que no recibió goles de los españoles.
+- También empató con **Uruguay (2-2)** y con **Arabia Saudita (0-0)**.
+- Cabo Verde se despidió en **16 avos de final (fase de 32)**, al perder por **3-2 en la prórroja** frente a **Argentina**.
+
+En redes, el desempeño del arquero disparó su popularidad: pasó de **menos de 50 mil** a cerca de **30 millones de seguidores en Instagram**, convirtiéndose en un auténtico **fenómeno mundial**.
+
+**Con información de:** [AP News](https://apnews.com/article/colo-vozinha-contrato-cabo-verde-mundial-3bf77f3ed82e9d021e3048ae937eab37)`,
+    contentEn: `### Vozinha signs for Colo-Colo
+
+Vozinha (Josémar Dias), the 40-year-old goalkeeper who became one of the breakout stars of the 2026 World Cup with Cape Verde, has signed as a new reinforcing for Chile\'s Colo-Colo. He kept a clean sheet against eventual champions Spain in the group stage and grew from under 50 thousand to about 30 million followers on Instagram.
+
+**Sources:** AP News, El País`,
+    date: '2026-07-25',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '2 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=1200&q=80',
+    imageCaption: 'Fútbol / Arco / Partido de selecciones. Foto referencial: Unsplash',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    views: 1,
+    source: 'AP News',
+    sourceUrl: 'https://apnews.com/article/colo-vozinha-contrato-cabo-verde-mundial-3bf77f3ed82e9d021e3048ae937eab37'
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];

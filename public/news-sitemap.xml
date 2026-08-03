@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/guias/guia-certificado-matrimonio-segip-bolivia-2026</loc>
+    <loc>https://freddydev.net/noticias/sarampion-la-paz-vacunacion-masiva-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,13 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Matrimonio en Bolivia 2026 — Requisitos, costos y trámite SERECÍ</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Confirmado un caso importado de sarampión en La Paz y se activa la vacunación masiva</news:title>
+      <news:keywords>Noticias</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/guias/guia-certificado-defuncion-bolivia-2026</loc>
+    <loc>https://freddydev.net/noticias/desaguadero-cuello-botella-paso-legal-frontera</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,121 +25,9 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo sacar el Certificado de Defunción en Bolivia 2026 — Requisitos, costos y trámite SERECÍ</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/guias/guia-registro-empresa-seprec-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo registrar tu empresa en Bolivia 2026 — SEPREC (ex FUNDEMPRESA), costos y requisitos</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/guias/guia-padron-electoral-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo registrarte en el Padrón Electoral Bolivia 2026 — Requisitos y trámite TSE</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/tutorial-edicion-video-davinci-resolve-gratis</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo editar video gratis con DaVinci Resolve — Tutorial completo desde cero</news:title>
-      <news:keywords>Tutoriales</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/tutorial-subtitulos-doblaje-ia-pipeline-completo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Subtítulos y doblaje con IA — Pipeline completo para tus videos (gratis)</news:title>
-      <news:keywords>Tutoriales</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/guias/guia-apostilla-documentos-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Apostilla de documentos en Bolivia 2026 — Cómo apostillar paso a paso (Cancillería)</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/guias/guia-registro-marca-senapi-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo registrar una marca en el SENAPI Bolivia 2026 — Costos, pasos y requisitos</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/tutorial-iluminacion-basica-video</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Iluminación básica para video — Esquema de 3 puntos explicado para principiantes</news:title>
-      <news:keywords>Tutoriales</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/blog/tutorial-grabar-video-profesional-celular</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01</news:publication_date>
-      <news:title>Cómo grabar video profesional con tu celular — Guía de cámara, encuadre y audio</news:title>
-      <news:keywords>Tutoriales</news:keywords>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Desaguadero se convierte en un \u201ccuello de botella\u201d para el paso legal en la frontera con Perú</news:title>
+      <news:keywords>Noticias</news:keywords>
     </news:news>
   </url>
 </urlset>
