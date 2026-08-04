@@ -170,4 +170,144 @@
       <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-free-fire-tips-estadisticas-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Free Fire: la guía definitiva para subir de rango y sus números récord en 2026</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-fortnite-build-edit-mejora-estadisticas</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Fortnite: cómo dominar builds y edits con una velocidad récord de jugadores</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-minecraft-cofre-rush-start-sobrevivir</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Minecraft: guía de inicio rápido para sobrevivir y minar como un profesional</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-gta-v-online-hacerse-dinero-rapido</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>GTA 5 Online: estrategia avanzada para generar dinero rápido y no aburrirte</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-league-of-legends-mejorar-rango-rol</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>League of Legends: la ruta para subir de rango eligiendo bien tu rol y objetivo</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-cod-mobile-ajustes-hud-pergaminos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>COD Mobile: configura tu HUD y domina el apuntado táctil como un pro</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-roblox-crear-juego-ganar-dinero</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Roblox: crea tu primer juego y empieza a ganar dinero como desarrollador</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-valorant-apuntado-sensibilidad-contra-rotacion</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Valorant: mejora tu apuntado con la sensibilidad, el crosshair y el control del recoil</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-clash-royale-mazo-elixir-subir-trofeos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>Clash Royale: arma un mazo balanceado y sube trofeos con estrategia de elixir</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-ea-fc-ultimate-team-monedas-fut</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03</news:publication_date>
+      <news:title>EA FC 26: la guía para triunfar en Ultimate Team sin gastar de más</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
 </urlset>

@@ -13730,6 +13730,1192 @@ WhatsApp is expanding usernames as a contact option that reduces the reliance on
     source: 'A24',
     sourceUrl: 'https://www.a24.com/trends/como-reservar-whatsapp-tu-nombre-usuario-y-asi-evitar-que-otros-lo-haga-antes-n1571257'
   },
+  {
+    id: '203',
+    contentType: 'analysis',
+    slug: 'tutorial-free-fire-tips-estadisticas-2026',
+    titleEs: 'Free Fire: la guía definitiva para subir de rango y sus números récord en 2026',
+    titleEn: 'Free Fire: the ultimate ranked climbing guide and its record numbers in 2026',
+    excerptEs: 'Free Fire sigue siendo uno de los battle royale móviles más jugados del planeta, con más de 1.300 millones de descargas y picos de 142 millones de jugadores activos. En esta guía completa aprendes a optimizar ajustes, dominar el apuntado, elegir personaje y subir de rango con estrategia real.',
+    excerptEn: 'Free Fire remains one of the most-played mobile battle royales on the planet, with over 1.3 billion downloads and peaks of 142 million active players. In this complete guide you learn to optimize settings, master aiming, pick your character and climb ranks with real strategy.',
+    contentEs: `### Free Fire: por qué sigue imbatible
+
+**Free Fire** llegó a finales de 2017 como una alternativa ligera al battle royale de PC y se convirtió en un fenómeno global. Su gran acierto fue correr en **cualquier celular**, incluso con 1 GB de RAM, y en partidas de solo **10 minutos** con 50 jugadores. Eso lo hizo masivo en Latinoamérica, India, el Sudeste Asiático y Brasil.
+
+Las cifras lo respaldan: superó las **1.300 millones de descargas acumuladas**, mantiene alrededor de **130 millones de jugadores activos mensuales (MAU)** y en diciembre de 2025 alcanzó **135,4 millones**, con picos de **142,3 millones** en febrero de 2026. Su techo histórico de **150 millones de DAU** fue en mayo de 2021. En 2024 generó unos **408 millones de dólares** en ingresos.
+
+<div style="background:#0d1117;border:1px solid #1f2937;border-radius:14px;padding:18px;margin:22px 0">
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<style>
+@keyframes gbar{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.gbar{transform-origin:bottom;animation:gbar 1.3s ease-out both}
+@keyframes gnum{from{opacity:0}to{opacity:1}}
+.gnum{opacity:0;animation:gnum .8s ease-out .9s forwards}
+.lb{font:10px sans-serif;fill:#9ca3af;text-anchor:middle}
+.val{font:9px sans-serif;fill:#f3c14b;text-anchor:middle}
+</style>
+<line x1="30" y1="210" x2="410" y2="210" stroke="#374151" stroke-width="1"/>
+<rect class="gbar" x="36" y="77" width="34" height="133" fill="#f59e0b" opacity=".85" rx="4"/>
+<rect class="gbar" x="92" y="50" width="34" height="160" fill="#f3c14b" rx="4"/>
+<rect class="gbar" x="148" y="70" width="34" height="140" fill="#f59e0b" opacity=".85" rx="4"/>
+<rect class="gbar" x="204" y="82" width="34" height="128" fill="#f59e0b" opacity=".85" rx="4"/>
+<rect class="gbar" x="260" y="76" width="34" height="134" fill="#f59e0b" opacity=".85" rx="4"/>
+<rect class="gbar" x="316" y="71" width="34" height="139" fill="#f59e0b" opacity=".85" rx="4"/>
+<rect class="gbar" x="372" y="73" width="34" height="137" fill="#f59e0b" opacity=".85" rx="4"/>
+<text class="gnum val" x="53" y="70">125</text>
+<text class="gnum val" x="109" y="43">150</text>
+<text class="gnum val" x="165" y="63">131</text>
+<text class="gnum val" x="221" y="75">120</text>
+<text class="gnum val" x="277" y="69">126</text>
+<text class="gnum val" x="333" y="64">130</text>
+<text class="gnum val" x="389" y="66">128</text>
+<text class="lb" x="53" y="222">2020</text>
+<text class="lb" x="109" y="222">2021</text>
+<text class="lb" x="165" y="222">2022</text>
+<text class="lb" x="221" y="222">2023</text>
+<text class="lb" x="277" y="222">2024</text>
+<text class="lb" x="333" y="222">2025</text>
+<text class="lb" x="389" y="222">2026</text>
+</svg>
+<p style="color:#9ca3af;font-size:12px;margin:10px 0 0;text-align:center">Jugadores activos mensuales (MAU) en millones. Fuente: estimaciones de ActivePlayer.io, Sensor Tower y rec0ded88.com (2026).</p>
+</div>
+
+### Paso 1: optimiza tus ajustes antes de jugar
+
+La configuración correcta vale más que mil horas de práctica. Prioriza **rendimiento por encima de gráficos**:
+
+- **Gráficos:** bajos. Reduce consumo de batería y sube el FPS.
+- **FPS:** 60 si tu equipo lo soporta; si no, 30 estables.
+- **Alto FPS y colores:** prefiere brillo alto para detectar enemigos en la hierba.
+- **Zona de disparo:** sube la sensibilidad del **joystick de fuego** si eres de apuntado a pulso.
+
+### Paso 2: domina el HUD y los dos pulgares
+
+El gran salto competitivo en móvil es pasar de dos pulgares a **cuatro dedos** (claw): pulgares para moverse y apuntar, índices para disparar y agacharte. Dedica 30 minutos al día en el modo entrenamiento hasta que tu reflejo se automatice. Usa **giroscopio** solo si tu pulso es estable; a la mayoría le funciona mejor desactivado.
+
+### Paso 3: elige el personaje correcto
+
+Cada personaje aporta una habilidad que cambia el juego:
+
+- **Alok** («Drop the Beat»): curación + velocidad. El más usado en ranked, ideal en late game.
+- **K** («Master of All»): recupera EP y recarga EP cuando la habilidad está activa.
+- **Wukong** («Camuflaje»): excelente para rotar y escapar.
+- **DJ Alok y Chrono** («Time Turner»): escudo que salva vidas en peleas a corta distancia.
+
+Combina la habilidad pasiva del personaje con 2-3 **habilidades de otros personajes** (slots) para crear una build a tu estilo.
+
+### Paso 4: estrategia de caída y rotación
+
+En Free Fire la posición mata más que la puntería:
+
+1. **Cae en zonas medianas** de loot, no en las más concurridas al inicio.
+2. Completa el **looteo rápido** (un arma, chaleco, casco, munición) y busca **Vehículo** para rotar antes del primer cierre.
+3. No pelees sin motivo en mid-game: conserva botiquines y granadas.
+4. En el **late game**, toma el centro de la zona azul con 1-2 segundos de ventaja; quien controla el círculo, controla la partida.
+
+### Paso 5: puntería y gestión de armas
+
+- **AR como principal** (M4A1, M1887 o Groza) + **SMG a corta distancia**.
+- Practica el **recoil control**: baja ligeramente el pulgar derecho mientras disparas.
+- Usa **ADS para distancias medias** y **disparo a cadera (hip fire)** a menos de 10 metros.
+- Las **granadas fumígenas** son oro puro para cruzar espacios abiertos; las **flash** para asaltar.
+
+### Paso 6: sube de rango con cabeza
+
+- Juega **squad con voz**: la comunicación duplica tu probabilidad de ganar.
+- Evita pelear en desventaja numérica; prioriza **colocar** (clasificar entre los primeros) sobre el número de bajas.
+- Revisa tu **K/D y win rate** cada semana y corrige el error más repetido (¿moriste por posicionamiento o por apuntado?).
+
+### Conclusión
+
+Free Fire no es un juego de reflejos puros: es un juego de **decisiones**. Ajusta tu equipo, arma una build de personaje coherente, rota con lógica y el rango subirá solo. Con más de 130 millones de jugadores activos al mes, el campo de batalla nunca ha estado más vivo.
+
+**Referencias:** rec0ded88.com/statistics/free-fire, ActivePlayer.io, Sensor Tower (datos 2026).`,
+    contentEn: `### Free Fire: why it remains unbeatable
+
+**Free Fire** arrived in late 2017 as a lightweight battle royale and became a global phenomenon. Its winning formula: it runs on almost any phone, even 1 GB RAM, in 10-minute matches with 50 players. That made it massive in Latin America, India, Southeast Asia and Brazil.
+
+It surpassed **1.3 billion cumulative downloads**, holds around **130 million monthly active users** and hit **135.4M in December 2025**, with **142.3M peaks in February 2026**. Its historical peak was **150M DAU in May 2021**. In 2024 it generated about **$408 million** in revenue.
+
+### Step 1: optimize your settings first
+
+- **Graphics:** low. Better battery life and higher FPS.
+- **FPS:** 60 if supported, otherwise stable 30.
+- **Fire zone sensitivity:** raise it if you rely on flick aiming.
+
+### Step 2: master the HUD and claw grip
+
+Move from two thumbs to **four-finger claw** grip: thumbs to move and aim, index fingers to shoot and crouch. Train 30 minutes a day in practice mode until it becomes automatic.
+
+### Step 3: pick the right character
+
+- **Alok:** healing + speed. Best for ranked late game.
+- **K:** recovers EP fast.
+- **Wukong:** camouflage for rotations.
+- **Chrono:** shield that saves close-range fights.
+
+Combine the character's passive with 2-3 skills from other characters to build your playstyle.
+
+### Step 4: drop and rotation strategy
+
+1. Land in **medium loot zones**, not the busiest.
+2. Loot fast (weapon, vest, helmet, ammo) and grab a **vehicle** before the first circle.
+3. Don't fight without reason mid-game: keep medkits and grenades.
+4. In **late game**, own the center of the blue zone with 1-2 seconds of advantage.
+
+### Step 5: aim and weapon management
+
+- **AR as primary** + **SMG for close range**.
+- Control recoil by pulling down slightly while shooting.
+- Use **ADS for medium range** and **hip fire** under 10 meters.
+- **Smoke grenades** are gold for crossing open spaces.
+
+### Step 6: climb ranks smartly
+
+- Play **squad with voice**: communication doubles your win probability.
+- Prioritize **placement** over kills when outnumbered.
+- Review your **K/D and win rate** weekly and fix your most repeated mistake.
+
+**References:** rec0ded88.com/statistics/free-fire, ActivePlayer.io, Sensor Tower (2026 data).`,
+    date: '2026-08-03',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80',
+    imageCaption: 'Free Fire: battle royale móvil con más de 1.300 millones de descargas. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '204',
+    contentType: 'analysis',
+    slug: 'tutorial-fortnite-build-edit-mejora-estadisticas',
+    titleEs: 'Fortnite: cómo dominar builds y edits con una velocidad récord de jugadores',
+    titleEn: 'Fortnite: how to master builds and edits at record player speed',
+    excerptEs: 'Fortnite maneja picos de más de 15 millones de jugadores simultáneos y una base de unos 250 millones de usuarios activos mensuales. Aprende a configurar tus binds, dominar el editing, construir a velocidad y defenderte en el meta actual de Fortnite.',
+    excerptEn: 'Fortnite handles peaks of over 15 million concurrent players and around 250 million monthly active users. Learn to set your binds, master editing, build under pressure and defend in Fortnite\'s current meta.',
+    contentEs: `### Fortnite: del fenómeno al gigante del juego en vivo
+
+**Fortnite** demostró que un juego puede ser a la vez **free-to-play, social y competitivo**. Combinando construcción, disparos y un mapa que evoluciona cada temporada, alcanzó una base masiva: en su mejor momento rebasó los **250 millones de usuarios registrados, mantiene cerca de 250 millones de MAU** y ha registrado **picos de más de 15 millones de jugadores simultáneos** en eventos live como los conciertos digitales de Travis Scott o Ariana Grande.
+
+Los ingresos acompañan esa escala: Epic Games hizo del pase de batalla y las cosméticas su motor económico, con años en los que la facturación superó los **5.000 millones de dólares**. Hoy, la lista de lanzamientos compite con sus espectáculos dentro del juego.
+
+<div style="background:#0d1117;border:1px solid #1f2937;border-radius:14px;padding:18px;margin:22px 0">
+<svg viewBox="0 0 440 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<style>
+@keyframes gbar{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.gbar{transform-origin:bottom;animation:gbar 1.3s ease-out both}
+@keyframes gnum{from{opacity:0}to{opacity:1}}
+.gnum{opacity:0;animation:gnum .8s ease-out .9s forwards}
+.lb{font:10px sans-serif;fill:#9ca3af;text-anchor:middle}
+.val2{font:9px sans-serif;fill:#7dd3fc;text-anchor:middle}
+</style>
+<line x1="28" y1="195" x2="400" y2="195" stroke="#374151" stroke-width="1"/>
+<rect class="gbar" x="44" y="120" width="36" height="75" fill="#38bdf8" opacity=".85" rx="4"/>
+<rect class="gbar" x="104" y="95" width="36" height="100" fill="#38bdf8" opacity=".85" rx="4"/>
+<rect class="gbar" x="164" y="70" width="36" height="125" fill="#38bdf8" opacity=".85" rx="4"/>
+<rect class="gbar" x="224" y="35" width="36" height="160" fill="#60a5fa" rx="4"/>
+<rect class="gbar" x="284" y="50" width="36" height="145" fill="#7dd3fc" rx="4"/>
+<rect class="gbar" x="344" y="60" width="36" height="135" fill="#38bdf8" opacity=".85" rx="4"/>
+<text class="gnum val2" x="62" y="92">S1</text>
+<text class="gnum val2" x="122" y="67">S8</text>
+<text class="gnum val2" x="182" y="42">2020</text>
+<text class="gnum val2" x="242" y="7">2022</text>
+<text class="gnum val2" x="302" y="22">2024</text>
+<text class="gnum val2" x="362" y="32">2026</text>
+<text class="lb" x="62" y="207">S1</text>
+<text class="lb" x="122" y="207">S8</text>
+<text class="lb" x="182" y="207">2020</text>
+<text class="lb" x="242" y="207">2022</text>
+<text class="lb" x="302" y="207">2024</text>
+<text class="lb" x="362" y="207">2026</text>
+</svg>
+<p style="color:#9ca3af;font-size:12px;margin:10px 0 0;text-align:center">Ilustración de la evolución de temporadas y crecimiento de Fortnite (niveles relativos). Fuente: estimaciones de Epic, saasultra.com y rec0ded88.com (2026).</p>
+</div>
+
+### Paso 1: configura tus binds para construir
+
+La construcción en Fortnite es lo que separa al novato del veterano. La regla de oro: **todo lo que no es moverte debe estar a un dedo** de distancia.
+
+- **Pared (wall):** tecla fácil de alcanzar (Q o M1 en mouse extra).
+- **Rampa (stair):** junto a la pared.
+- **Piso (floor):** cerca de la rampa.
+- **Percha/cono (cone):** la de uso menos frecuente, la más lejana.
+- En consola, retira **Auto-aim asistido** o modifícalo según tu estilo para respuestas más rápidas.
+
+### Paso 2: calentamiento con combos esenciales
+
+Antes de cualquier partida ranked, dedica 5 minutos en **modo creativo** a estos movimientos:
+
+1. **Rampa + piso + pared** continuos hacia delante (ramp rush).
+2. **Tarp / túnel**: piso + pared para avanzar bajo protección en zona abierta.
+3. **Edits de salida**: edita la pared en una ventana y vuelve a colocarla (protect + shoot).
+4. **90s**: giros de 90° para subir espacios abiertos con protección.
+
+### Paso 3: construye con propósito, no por inercia
+
+La gente construye por miedo; los pro construyen por ventaja. Antes de colocar una pieza pregúntate: "*¿me protege de un ángulo que el enemigo puede ver?*". Un edificio de 2 piezas bien colocado gana a un castillo de 10 hechas sin pensar.
+
+### Paso 4: masteriza el hip-shot a la pared
+
+Cuando el rival está cubierto por un muro, tu apuntado cambia:
+
+- **Shoot + pre-fire en el ángulo**: dispara en el instante que asoma su cabeza.
+- **Prefire**: dispara justo donde sabes que va a aparecer.
+- **Peek-relámpago (window peek)**: edita una ventanita, dispara y reconstruye antes de que responda.
+- A medio y largo alcance usa **snipers** y **DMR** cuando el rival está subiendo.
+
+### Paso 5: economía de materiales
+
+- Recolecta **madera / piedra / metal** balanceado.
+- En zonas de looteo abierto, prioriza **recolección bien organizada** con pico y 3 golpes por árbol/roca.
+- No gastes materiales construyendo en el inicio sin necesidad; guárdalos para **rotaciones** y **late game**.
+
+### Paso 6: y el meta actual
+
+Fortnite cambia cada temporada. Antes de copiar una build, comprueba:
+
+- **Sprint/movimiento y picks nuevos**: adapta tu jugabilidad al meta.
+- **Especial y armas nuevas**: invierte según lo nuevo de la temporada.
+- **Custom builds** de la comunidad (retos de la zona) cubren la actualidad.
+
+### Consejo
+
+La práctica inteligente vence a las horas brutas. Grábate la partida, repasa el momento exacto en que moriste y corrige UNA sola cosa por sesión. Con bases de +250M de jugadores activos, siempre hay rivales para probar tu progreso.
+
+**Referencias:** saasultra.com/es/fortnite-statistics, rec0ded88.com/statistics/fortnite, ActivePlayer.io (datos 2026).`,
+    contentEn: `### Fortnite: from phenomenon to the ultimate live game
+
+**Fortnite** is free-to-play, social and ever-changing. It has topped **250 million monthly active users** and **15 million+ concurrent players** during live events. Revenue can top **$5 billion** thanks to the battle pass and cosmetics.
+
+### Step 1: set your builds
+
+- **Wall:** easy-to-reach key (Q or side mouse button).
+- **Stairs, floor, cone:** close to the wall.
+- Edit binds the least used farthest away.
+
+### Step 2: warm up the essentials
+
+1. Ramp + 1 wall + 1 floor **ramp rush**.
+2. **Tunnel** to advance under protection.
+3. **Edit**: create a window, shoot out and rebuild.
+4. **90s** to climb open areas safely.
+
+### Step 3: build with purpose
+
+Ask yourself: "does this piece protect me from a shot the enemy can hit?". A clever 2-piece build beats a thoughtless 20-piece castle.
+
+### Step 4: window shooting and prefire
+
+- **Prefire** where the enemy will appear.
+- **Edit a window**, fire, rebuild before they respond.
+- At medium range use **snipers** and marksman rifles when low.
+
+### Step 5: economy of materials
+
+- Balance **wood/stone/metal**.
+- Harvest fast with the pickaxe; keep resources for **rotations** and **late game**.
+
+### Step 6: current meta
+
+Every season changes. Check new **movement** and **weapons** of the new season online.
+
+**References:** Fortnite statistics by saasultra.com and rec0ded88.com (2026 data).`,
+    date: '2026-08-03',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1493711662062-fa541adb3fc3?w=1200&q=80',
+    imageCaption: 'Fortnite: construcción, disparos y batallas épicas en vivo. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '205',
+    contentType: 'analysis',
+    slug: 'tutorial-minecraft-cofre-rush-start-sobrevivir',
+    titleEs: 'Minecraft: guía de inicio rápido para sobrevivir y minar como un profesional',
+    titleEn: 'Minecraft: quick-start guide to survive and mine like a pro',
+    excerptEs: 'Minecraft superó los 350 millones de copias vendidas, es el juego más comprado de la historia y mantiene más de 200 millones de jugadores activos mensuales. Esta guía te lleva del primer día a construir una base segura, conseguir hierro y diamantes y vivir sin miedo a los creepers.',
+    excerptEn: 'Minecraft has sold over 350 million copies, more than any game in history, and keeps over 200 million monthly active players. This guide takes you from day one to a safe base, iron and diamonds, and living without fear of creepers.',
+    contentEs: `### Minecraft: el sandbox que lo conquistó todo
+
+**Minecraft** es el juego más vendido de la historia, con más de **350 millones de copias** y una base de **más de 200 millones de jugadores activos mensuales (MAU)**. Su éxito es tan grande que incluso la película de 2025 reavivó las ventas. Vendió más de **$380 millones solo en 2021**, y el total supera los **4.200 millones de dólares** en ingresos acumulados.
+
+Gran parte de su magia está en la **supervivencia en modo difícil** y la libertad total. Aquí tienes la ruta optimizada para no morir los primeros días y empezar a prosperar.
+
+<div style="background:#0d1117;border:1px solid #1f2937;border-radius:14px;padding:20px;margin:22px 0">
+<svg viewBox="0 0 460 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<style>
+@keyframes gbar{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.gbar{transform-origin:bottom;animation:gbar 1.3s ease-out both}
+@keyframes gnum{from{opacity:0}to{opacity:1}}
+.gnum{opacity:0;animation:gnum .8s ease-out .9s forwards}
+.lb{font:10px sans-serif;fill:#9ca3af;text-anchor:middle}
+.val3{font:9px sans-serif;fill:#86efac;text-anchor:middle}
+</style>
+<line x1="30" y1="205" x2="430" y2="205" stroke="#374151" stroke-width="1"/>
+<rect class="gbar" x="46" y="150" width="42" height="55" fill="#4ade80" opacity=".85" rx="4"/>
+<rect class="gbar" x="112" y="120" width="42" height="85" fill="#4ade80" opacity=".85" rx="4"/>
+<rect class="gbar" x="178" y="95" width="42" height="110" fill="#4ade80" opacity=".85" rx="4"/>
+<rect class="gbar" x="244" y="60" width="42" height="145" fill="#4ade80" rx="4"/>
+<rect class="gbar" x="310" y="50" width="42" height="155" fill="#86efac" rx="4"/>
+<rect class="gbar" x="376" y="58" width="42" height="147" fill="#4ade80" opacity=".85" rx="4"/>
+<text class="gnum val3" x="67" y="108">30</text>
+<text class="gnum val3" x="133" y="78">85</text>
+<text class="gnum val3" x="199" y="53">130</text>
+<text class="gnum val3" x="265" y="18">200</text>
+<text class="gnum val3" x="331" y="8">238</text>
+<text class="gnum val3" x="397" y="16">350</text>
+<text class="lb" x="67" y="217">2014</text>
+<text class="lb" x="133" y="217">2016</text>
+<text class="lb" x="199" y="217">2018</text>
+<text class="lb" x="265" y="217">2020</text>
+<text class="lb" x="331" y="217">2023</text>
+<text class="lb" x="397" y="217">2026</text>
+</svg>
+<p style="color:#9ca3af;font-size:12px;margin:10px 0 0;text-align:center">Ventas acumuladas de Minecraft por año (millones, representación ilustrativa). Fuente: Microsoft / Mojang y estimaciones del sector (2026).</p>
+</div>
+
+### Paso 1: el día 1 perfecto
+
+Tu primer ciclo de 20 minutos define tu partida:
+
+1. **Recolecta madera** de un árbol con la mano. Convierte en tablas y crea un **crafting table**.
+2. Fabrica tu **pico de madera**, luego **pico y hacha de piedra**.
+3. Excava un **refugio de 1 noche** simple en una colina de tierra o hazte una **casa de madera** pequeña y bien iluminada.
+4. **No salgas de noche**: enciérrate y espera el día siguiente.
+
+### Paso 2: consigue hierro (y algo de carbón)
+
+- Construye un **pico de piedra** y cava en nivel Y ~16 para encontrar **mineral de hierro**.
+- Un **horno** convierte mineral en lingote; necesitas **carbón** (también bajo tierra).
+- Fabrica **armadura de hierro, espada y pico** para no tener miedo a los monstruos básicos.
+
+### Paso 3: base segura y almacenamiento
+
+- Crea una **casa de 5x5** con entrada protegida (no dejes la puerta abierta).
+- Coloca **antorchas** (carbón + palo) dentro y fuera para que no aparezcan hostiles.
+- Construye un **cofre/caja** para guardar materiales.
+- **Ten una cama**: de noche duerme para pasar la fase oscura y resetear tu punto de aparición.
+
+### Paso 4: cultiva comida automáticamente
+
+- Empieza con un **pequeño huerto de trigo** junto a agua.
+- En el siguiente ciclo consigue **huevos** de gallinas para una granja de pollo.
+- La comida no solo cura: también quita el hambre cuando exploras lejos de la base.
+
+### Paso 5: las herramientas de nivel diamante y redstone
+
+- Excava más profundo (Y 5) en busca de **diamantes y redstone**.
+- Al fusionar **armadura y pico de diamante**, acelera tu minado 5x.
+- Con **redstone** puedes hacer engranajes, trampas y granjas automáticas.
+
+### Paso 6: estrategia del mid-game
+
+- Mapea el **Nether**: un portal te acorta distancias enormes.
+- Consigue **obsidiana** al impactar agua con lava.
+- Prepárate para **The End**: el dragón final requiere pocas armas si sabes esquivar.
+- No ignores la **encantadora**: Fortuna y Eficiencia (Fortune/Efficiency) multiplican tu minado.
+
+### Consejo final
+
+La verdadera habilidad de Minecraft es saber **cuándo**. No salgas donde hay esqueletos, no explores de noche sin preparación, y prioriza la **herramienta y la comida** antes que la belleza. Con más de 200 millones de jugadores activos, la comunidad siempre es una inspiración.
+
+**Referencias:** estadísticas de Minecraft por prioridata.com y Microsoft/Mojang (2026).`,
+    contentEn: `### Minecraft: the greatest sandbox ever
+
+**Minecraft** is the best-selling game in history with over **350 million copies** and **200 million+ monthly active users**. In 2021 it sold about **$380 million**; lifetime revenue exceeds **$4.2 billion**.
+
+### Step 1: day one
+
+- Punch a **tree** to get wood, craft a **crafting table**.
+- Make **wooden pickaxe** then **stone tools**.
+- Build a **lit shelter** before sunset; stay inside at night.
+
+### Step 2: get iron and coal
+
+- Mine around Y level 6 for **iron**.
+- Make a **furnace**, craft **iron armor, shield and pickaxe**.
+
+### Step 3: secure base
+
+- Build a **5x5 house**, light it with **torches**.
+- Store loot in a **chest**; sleep at night.
+
+### Step 4: farm food
+
+- Start a **wheat field** near water.
+- Catch **chickens** for an egg farm.
+
+### Step 5: diamonds and redstone
+
+- Mine deep (Y 5) for **diamonds and redstone**.
+- With **Fortune** enchantment your yield multiplies.
+
+### Step 6: mid-game
+
+- Build a **Nether portal** to travel fast.
+- Get **obsidian** to reach the **End**.
+
+**References:** statistics by prioridata.com and Microsoft/Mojang (2026).`,
+    date: '2026-08-03',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80',
+    imageCaption: 'Minecraft: el sandbox más vendido de la historia con 350 millones de copias. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '206',
+    contentType: 'analysis',
+    slug: 'tutorial-gta-v-online-hacerse-dinero-rapido',
+    titleEs: 'GTA 5 Online: estrategia avanzada para generar dinero rápido y no aburrirte',
+    titleEn: 'GTA Online: advanced money-making strategy that stays fun',
+    excerptEs: 'GTA V, lanzado en 2013, superó los 85 millones de copias vendidas y está entre los productos de entretenimiento más rentables de la historia, con más de 8.500 millones de dólares en ingresos. Aprende a generar dinero de forma legítima en GTA Online, evitar los mods de riesgo y mantener el interés.',
+    excerptEn: 'GTA V, released in 2013, has sold over 85 million copies and ranks among the most profitable entertainment products ever, with over $8.5 billion in revenue. Learn how to earn money legitimately in GTA Online, avoid griefers and keep it fun.',
+    contentEs: `### GTA V: la máquina de dinero que no se detiene
+
+**GTA V** (2013) es uno de los productos de entretenimiento más rentables de la historia: superó los **85 millones de copias vendidas**, más que ningún otro videojuego de la historia, y lleva una recaudación estimada de **más de 8.500 millones de dólares**. Su modo **GTA Online** sigue lanzando contenido y conviviendo con **+13 años** de vida útil, algo único en la industria.
+
+Aunque el modo histórico es fascinante, la clave para disfrutar **GTA Online** es no frustrarte con el dinero. Aquí una ruta para ganar GTA$ con estrategia y sin volverte loco.
+
+### Paso 1: arranca con las misiones que rinden más
+
+- Completa la **storyline** principal del inicio de Online (las primeras misiones de Gerald/Lamar te dan acceso a actividades).
+- Haz misiones de **contacto de alto pago** y clases semanales atractivas.
+- No pierdas el tiempo con actividades de recompensa bajísima al comienzo.
+
+### Paso 2: apuesta por el activo pasivo antes que el grind
+
+La diferencia entre ganar 100k/h y 1M/h está en el **pasivo**:
+
+- **Oficina ejecutiva (Office)**: desbloquea los entregos de cajas (Crates).
+- **Entrepots de contrabando (crates)**: la inversión más estable para principiante.
+- **Agency o Motorcycle Club**: misiones semanales de alto pago.
+- Prioriza el **Research/Cargo** pasivo.
+
+### Paso 3: elige bien la primera propiedad
+
+- **Misión de contacto:** los cargamentos de cajas valen +$50k cada uno con un buen implemento.
+- **Entrega de drogas/ganancia**: pago alto pero con más riesgo.
+- La **especialidad de bunker/research** genera dinero mientras estás en línea.
+
+### Paso 4: los heists (golpes)
+
+- El **Cayo Perico Heist** es el mejor rendimiento por hora del juego, se puede hacer solo, discreto y repetible.
+- El **Diamond Casino Heist** da control sobre enfoque y salida.
+- Aprende a **esquivar las cámaras** y conocer las rutas para terminar sin alertas y conservar más del botín.
+
+### Paso 5: gestiona tu tiempo y diversión
+
+- Alterna **misiones de pago alto** con **carreras** y eventos aleatorios para no quemarte.
+- Únete a una **sesión privada** en un **crew** amistoso para misiones en equipo.
+- Los **doble RP / 2x GTA$** que rota Rockstar cada semana son oro: planifica tu moneda alrededor de ellos.
+
+### Paso 6: protege tu progreso
+
+- **Activa el modo Pasivo (Passive)** ante quienes te molestan.
+- Evita las **sesiones públicas** repletas de modders destructivos; usa sesiones públicas cerradas o invita a tu crew.
+- Guarda de forma regular para no perder el poder adquisitivo acumulado.
+
+### Conclusión
+
+GTA Online es un juego de **rentabilidad y paciencia**. La regla de oro es no correr por correr: compra un pasivo, repite el heist que domina, y aprovecha los bonos semanales. Son 13+ años de contenido esperándote.
+
+**Referencias:** Estadísticas de GTA V por gameboost.com (2026) y Wikipedia.`,
+    contentEn: `### GTA V: the money machine
+
+**GTA V** (2013) sold over **85 million copies** and became one of the most profitable entertainment products ever, with over **$8.5 billion** in revenue. **GTA Online** is still updated after 13+ years.
+
+### Step 1: start with the best missions
+
+- Complete the main Online intro missions.
+- Do **high-pay** contracts, not low-reward ones.
+
+### Step 2: passive income assets over grinding
+
+- **Executive Office + crate warehouses**: the stable starter investment.
+- **Agency/motorcycle club** positions.
+- Focus on **passive cargo research**.
+
+### Step 3: choose the right property
+
+- **Cargo** contracts pay $50k-300k.
+- **Drug/sale** yields high but riskier.
+- The **bunker/research** generates money while you're online.
+
+### Step 4: the heists
+
+- **Cayo Perico** is the highest per-hour income.
+- **Diamond Casino** gives control over approach.
+- Learn **camera routes** to finish undetected.
+
+### Step 5: keep it fun
+
+- Alternate high-pay missions, races and random events.
+- Join a **crew** for team sessions.
+- Play around the weekly **2x GTA$** bonuses.
+
+### Step 6: stay safe
+
+- Use **Passive Mode** to avoid griefers.
+- Avoid public session modders: use closed sessions.
+
+**References:** GTA V statistics by gameboost.com (2026).`,
+    date: '2026-08-03',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1538481192675-c12c4e865fc0?w=1200&q=80',
+    imageCaption: 'GTA V: un clásico de 2013 con más de 8.500 millones de dólares en ingresos. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '207',
+    contentType: 'analysis',
+    slug: 'tutorial-league-of-legends-mejorar-rango-rol',
+    titleEs: 'League of Legends: la ruta para subir de rango eligiendo bien tu rol y objetivo',
+    titleEn: 'League of Legends: the route to climb ranks by mastering your role and objective',
+    excerptEs: 'League of Legends mantiene entre 120 y 135 millones de jugadores activos mensuales y unos 30 a 40 millones diarios, con el Mundial 2025 superando los 6,7 millones de espectadores. Esta guía te ayuda a subir de rango con un rol claro, buen posicionamiento y contraste de objetivos.',
+    excerptEn: 'League of Legends keeps 120-135 million monthly active users and 30-40 million daily players, with Worlds 2025 peaking over 6.7 million viewers. This guide helps you climb ranks with a clear role, good positioning and smart objectives.',
+    contentEs: `### League of Legends: 16 años que no pasan
+
+**League of Legends** (2009) sigue siendo, a sus 16 años, el **juego más jugado en PC del mundo**: de **120 a 135 millones de jugadores activos mensuales (MAU)** y entre **30 y 40 millones de usuarios al día**. Los Mundiales (Worlds) 2025 marcaron récords con **más de 6,7 millones de espectadores simultáneos** en la gran final entre T1 y KT Rolster.
+
+El juego genera un estimado de **1.650 a 1.800 millones de dólares** al año, y China concentra más de la mitad de la base mundial. Comprender su estructura es el primer paso para no estancarte en el ranking.
+
+### Paso 1: elige UN rol y UN personaje
+
+La mejora más radical es la **especialización**:
+
+- **Top (tanque/bruiser)**: duelos, split push.
+- **Jungla**: control de mapa, ganks, objetivos neutros.
+- **Mid**: juego móvil y rotaciones.
+- **Bot/AD carry**: escalar en late.
+- **Support**: visión, peel y control de objetivo.
+
+Elige 2 roles de máx. y 2-3 campeones en tu rol principal para no repartir la práctica en 50 campeones.
+
+### Paso 2: domina el posicionamiento (map)
+
+- Ocupa buena **visión/ward** en los ríos antes de cada objetivo.
+- Antes de pelear pregúntate: "*¿estoy junto a un ward y bajo la cobertura de mi equipo?*".
+- El **control de visión (wards/pink)** es tu primera línea de defensa contra los ganks.
+
+### Paso 3: gestión de minions y de oleadas
+
+- Aprende el **último golpe (CS)**: 10 creeps/min es el tope realista; apunta a 6-7 como sólido.
+- **Congela la ola**: mantén la línea junto a tu torre defensiva cuando vayas en desventaja.
+- Empuje lento (slow push) antes de un objetivo para forzar la rotación del rival.
+
+### Paso 4: objetivo por encima de la cacería
+
+- Toma la **Heraldo (Rift Herald)** y el **Dragón** cuando hayas empujado la ola.
+- No busques **peleas sin visión**; un intento de emboscada mal calculado te deja 4v5 enemigo.
+- Decide por la **información**: la entrada mal posicionada pierde más que la tímida.
+
+### Paso 5: mejora tras cada partida
+
+- Grábate un clip del momento en que moriste y reprodúcelo para aprender la causa.
+- Apunta a 2 defectos concretos: **"morí por mi posicionamiento"** frente a "tuve un mal trade".
+- Dato: la mayoría de las muertes vienen de posicionamiento o visión, no de la mecánica.
+
+### Paso 6: mentalidad y ranking
+
+- **Juega 2-3 partidas** ranked al día cuando estés con la cabeza fría.
+- Desactiva el chat para evitar el tilting durante la partida.
+- Revisa los **cambios de balance** de tu meta favorita para no quedarte fuera del competitivo actual.
+
+### Conclusión
+
+Subir de rango en LoL no es mecánica pura; es **gestión de visión, de olas (wave) y de decisiones**. Con 30 millones de jugadores al día, tu mejora se nota cada partida si le dedicas el foco correcto.
+
+**Referencias:** Estadísticas de League of Legends por tracker.gg, wecoach.gg y Esports Charts (2026).`,
+    contentEn: `### League of Legends: the most played PC game
+
+**League of Legends** (2009) keeps **120-135 million MAU** and **30-40 million daily players**. Worlds 2025 peaked at **6.7 million concurrent viewers**.
+
+### Step 1: pick a role
+
+Choose 2 roles and 2-3 champions in your main role. Don't spread thin.
+
+### Step 2: map presence
+
+- **Ward** the jungle before objectives.
+- Stay close to team cover.
+
+### Step 3: wave management
+
+- **Last-hit**: aim 6-7 creeps/min.
+- Freeze lanes when behind; slow-push for objectives.
+
+### Step 4: objectives over kills
+
+- Take **Herald/Dragon** instead of pointless chases.
+- Never face-check without vision.
+
+### Step 5: review after games
+
+- Record death moments; list 2 fixable mistakes.
+
+### Step 6: mindset
+
+- Play 2-3 ranked games when focused. Mute flamers.
+
+**References:** tracker.gg, wecoach.gg, Esports Charts (2026 data).`,
+    date: '2026-08-03',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1591989677843-8d39fd47d004?w=1200&q=80',
+    imageCaption: 'League of Legends: el MOBA más jugado con más de 30 millones de jugadores diarios. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '208',
+    contentType: 'analysis',
+    slug: 'tutorial-cod-mobile-ajustes-hud-pergaminos',
+    titleEs: 'COD Mobile: configura tu HUD y domina el apuntado táctil como un pro',
+    titleEn: 'COD Mobile: set your HUD and master touch aiming like a pro',
+    excerptEs: 'Call of Duty: Mobile acumula más de 489 millones de descargas y 1.800 millones de dólares en ingresos desde 2019. Aprende a personalizar el HUD, dominar el claw grip, configurar la sensibilidad y jugar Ranked con una ventaja real sobre tus rivales.',
+    excerptEn: 'Call of Duty: Mobile has accumulated over 489 million downloads and $1.8 billion in revenue since 2019. Learn to customize the HUD, master the claw grip, configure sensitivity and play Ranked with a real edge over rivals.',
+    contentEs: `### COD Mobile: el shooter móvil más exitoso
+
+**Call of Duty: Mobile** (lanzado en octubre de 2019) es un caso de éxito inmenso: superó las **489 millones de descargas** en Android e iOS y generó **1.800 millones de dólares en ingresos** por compras dentro de la app. Su media de **12 a 15 millones de usuarios activos mensuales** y un **pico de descargas de 100 millones en su primera semana** hablan de una base sólida.
+
+Desarrollado por TiMi Studio de Tencent y publicado por Activision, es el segundo shooter móvil más rentable del mundo detrás de PUBG Mobile. Aquí va la ruta para que tu dedo no sea tu techo.
+
+### Paso 1: personaliza el HUD antes que nada
+
+El HUD por defecto es una plantilla; tu HUD debe ser tuyo:
+
+- En **ajustes > HUD**, arrastra los botones a tu alcance natural de pulgar.
+- Usa **botones transparentes** para no tapar el campo de visión.
+- Habilita **posiciones de botón fijas** (evita arrastres accidentales en plena pelea).
+
+### Paso 2: sube el nivel con el claw grip
+
+- El **claw** (dedo extra) es la diferencia entre casual y competitivo: 2 pulgares + 2 índices.
+- Coloca **disparar y agacharse** en los índices, movimiento y apuntado en los pulgares.
+- Empieza 30 minutos en **entrenamiento** con una pistola; la memoria muscular es la meta.
+
+### Paso 3: afina la sensibilidad y el giroscopio
+
+- Sube la **sensibilidad del joystick de apuntado** y deja el **ADS** medio.
+- Si tu dispositivo tiene buen **gyro**, actívalo como microcorrección; si no, déjalo apagado para no pelear contra el temblor.
+- Prueba los **controles de apuntado** (reticula) hasta que tu objetivo fluya sin "derrapes".
+
+### Paso 4: arma el loadout ganador
+
+- **BR/MP Battle Royale:** AR de confianza (AK-117 o M4) + **SMG** para cercanas.
+- **Multiplayer Ranked:** apuesta por **metas del parche**: revisa qué armas mejoraron.
+- Añade **supresor** para los modos sin minimapa y **perk Dead Silence**.
+
+### Paso 5: juega a favor del mapa y del modo
+
+- En **Multijugador**, controla los puntos de interés y no vuelvas al spawn.
+- En **Battle Royale**, rota al círculo con el vehículo a tiempo.
+- **Ranked** pide paciencia: sube **1 o 2 niveles por sesión** y evita tilt.
+
+### Paso 6: progreso y estadísticas
+
+- Revisa tu **K/D y winrate** por modo en el perfil.
+- Grábate una **partida Ranked** por semana; la mejora se nota al comparar.
+- No ignores el **sistema de rendimiento** semanal: los 2x XP ayudan a desbloquear cosas sin fricción.
+
+### Conclusión
+
+COD Mobile premia la **configuración** tanto como la habilidad. Un HUD personalizado, claw grip y sensibilidad afinada te dan ventaja sin jugar horas extra. Con +489 millones de descargas, hay rivales de todos los niveles esperándote.
+
+**Referencias:** rec0ded88.com/statistics/call-of-duty-mobile, AppMagic y Sensor Tower (2026).`,
+    contentEn: `### COD Mobile: the most successful mobile shooter
+
+**Call of Duty: Mobile** (October 2019) surpassed **489 million downloads** and **$1.8 billion** in revenue. It holds **12-15 million MAU**, with **100 million downloads in its first week**.
+
+### Step 1: customize the HUD
+
+- Drag buttons to your natural thumb reach.
+- Use **transparent buttons**.
+
+### Step 2: master claw
+
+- 2 thumbs + 2 index fingers. Shoot/crouch with indexes, move/aim with thumbs.
+
+### Step 3: sensitivity
+
+- Raise **aim sensitivity**, test **gyro** as micro-correction or disable it.
+
+### Step 4: loadout
+
+- **AR** primary + **SMG** secondary in BR; play the **meta weapons** in ranked.
+
+### Step 5: map and mode
+
+- Hold good positions, rotate with vehicle on time, climb ranked 1-2 levels per session.
+
+### Step 6: progress
+
+- Review **K/D and winrate**; record one ranked game weekly.
+
+**References:** rec0ded88.com/statistics/call-of-duty-mobile, AppMagic, Sensor Tower (2026).`,
+    date: '2026-08-03',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1511512578047-dfb046420?w=1200&q=80',
+    imageCaption: 'COD Mobile: shooter táctil con más de 489 millones de descargas. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '209',
+    contentType: 'analysis',
+    slug: 'tutorial-roblox-crear-juego-ganar-dinero',
+    titleEs: 'Roblox: crea tu primer juego y empieza a ganar dinero como desarrollador',
+    titleEn: 'Roblox: build your first game and start earning as a developer',
+    excerptEs: 'Roblox supera los 130 millones de jugadores activos diarios y casi 380 millones mensuales, y pagó más de 1.500 millones de dólares a sus creadores. Esta guía te lleva desde instalar Roblox Studio hasta publicar tu experiencia y monetizar con Robux.',
+    excerptEn: 'Roblox exceeds ~130 million daily active users and about 380 million monthly, and paid creators over $1.5 billion. This guide takes you from installing Roblox Studio to publishing your experience and monetizing with Robux.',
+    contentEs: `### Roblox: la plataforma que convierte jugadores en desarrolladores
+
+**Roblox** es más que un juego: es una plataforma de creación con **~130 a 151 millones de jugadores activos diarios (DAU)** según el trimestre y unos **380 millones de usuarios activos mensuales**. En 2025 generó cerca de **4.900 millones de dólares** de ingresos y repartió **más de 1.500 millones de dólares** entre sus creadores vía el programa Developer Exchange.
+
+Con más de **40 millones de experiencias** y una economía de **Robux**, cualquier persona puede llegar de jugador a creador. Veamos la ruta completa.
+
+<div style="background:#0d1117;border:1px solid #1f2937;border-radius:14px;padding:20px;margin:22px 0">
+<svg viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+<style>
+@keyframes gbar{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.gbar{transform-origin:bottom;animation:gbar 1.3s ease-out both}
+@keyframes gnum{from{opacity:0}to{opacity:1}}
+.gnum{opacity:0;animation:gnum .8s ease-out .9s forwards}
+.lb{font:10px sans-serif;fill:#9ca3af;text-anchor:middle}
+.val4{font:9px sans-serif;fill:#faca15;text-anchor:middle}
+</style>
+<line x1="30" y1="195" x2="430" y2="195" stroke="#374151" stroke-width="1"/>
+<rect class="gbar" x="40" y="135" width="42" height="60" fill="#facc15" opacity=".85" rx="4"/>
+<rect class="gbar" x="108" y="120" width="42" height="75" fill="#facc15" opacity=".85" rx="4"/>
+<rect class="gbar" x="176" y="95" width="42" height="100" fill="#facc15" opacity=".85" rx="4"/>
+<rect class="gbar" x="244" y="70" width="42" height="125" fill="#facc15" rx="4"/>
+<rect class="gbar" x="312" y="45" width="42" height="150" fill="#fde047" rx="4"/>
+<rect class="gbar" x="380" y="55" width="42" height="140" fill="#facc15" opacity=".85" rx="4"/>
+<text class="gnum val4" x="61" y="80">42</text>
+<text class="gnum val4" x="129" y="65">49</text>
+<text class="gnum val4" x="197" y="40">66</text>
+<text class="gnum val4" x="265" y="15">77</text>
+<text class="gnum val4" x="333" y="13">132</text>
+<text class="gnum val4" x="401" y="23">144</text>
+<text class="lb" x="61" y="207">Q1'21</text>
+<text class="lb" x="129" y="207">Q1'22</text>
+<text class="lb" x="197" y="207">Q1'23</text>
+<text class="lb" x="265" y="207">Q1'24</text>
+<text class="lb" x="333" y="207">Q1'26</text>
+<text class="lb" x="401" y="207">Q4'25</text>
+</svg>
+<p style="color:#9ca3af;font-size:12px;margin:10px 0 0;text-align:center">DAU de Roblox por trimestre seleccionado (millones) según archivo de la SEC de Roblox Corp. (2026).</p>
+</div>
+
+### Paso 1: instala Roblox Studio y entiende la interfaz
+
+- **Roblox Studio** es el editor oficial, gratuito: descárgalo desde develop.roblox.com.
+- Familiarízate con el **Explorador**, las **Propiedades** y la **Toolbox** de partes.
+- Empieza con una plantilla **BasePlate** o **Obby** y haz tus primeros bloques.
+
+### Paso 2: aprende lo esencial de Lua
+
+Roblox usa el lenguaje **Lua**. El 80% de lo que necesitas es:
+
+- **Variables y eventos** (ej: \<IntegerValue\> para puntuación).
+- **script.Parent / .Instance**: conectar objetos.
+- **CreateService / TweenService**: para animar y crear objetos.
+
+Tres tutoriales simples de la documentación oficial y podrás hacer tu primer **Obby** (plataformas + script de misiones).
+
+### Paso 3: construye tu primera experiencia
+
+Recomiendo arrancar con un **Obby** o un **simulador simple**; son simples, se cargan rápido y se ven bien:
+
+1. Crea un **spawn point** y una zona de meta.
+2. Añade **checkpoints** con un script de respawn.
+3. Añade una **tabla de puntuación** en Leaderstats.
+
+### Paso 4: publica y prueba
+
+- Ve a **File > Publish to Roblox**.
+- Configura la **experiencia** con una imagen de portada y descripción optimizada (nombre SEO).
+- Prueba en **privado** con amigos; observa dónde se traban y corrige.
+
+### Paso 5: monetiza con Robux
+
+- **Game Passes**: el acceso a un modo exclusivo es la vía más directa.
+- **Developer Products**: ventas consumibles (monedas, habilidades).
+- **Premium Payouts**: los jugadores Premium te generan ingresos según tu juego.
+
+El corte de Roblox para el desarrollador parte de ~24-29% de cada Robux convertido a moneda real a través de **DevEx**.
+
+### Paso 6: escala tu marketing
+
+- Colabora con un/a **developer** o usa la herramienta de **marketing/aumento** de Roblox para promocionar.
+- Entra en **Discord de Roblox** para feedback y tráfico.
+- **Actualiza** tu juego cada semana: Roblox favorece el contenido fresco.
+
+### Conclusión
+
+Roblox democratiza la creación de juego: cualquier jugador puede convertirse en desarrollador. Con +380 millones de MAU y más de mil millones de dólares repartidos cada año, aprender Roblox Studio y Lua es una habilidad con futuro.
+
+**Referencias:** Estadísticas de Roblox por Axis Intelligence / archivos SEC (Q1 2026), Statista y bloggersideas.com.`,
+    contentEn: `### Roblox: the creator platform
+
+**Roblox** has **130-151 million DAU** by quarter and about **380 million MAU**. In 2025 it earned ~**$4.9 billion** and paid creators **over $1.5 billion**.
+
+### Step 1: install Roblox Studio
+
+Free tool at develop.roblox.com. Learn the **Explorer**, **Properties** and **Toolbox**.
+
+### Step 2: learn basic Lua
+
+- **Events and scripts**, **Instance.new**, **TweenService**. Start with an **Obby**.
+
+### Step 3: build your first experience
+
+Use an **Obby or simple simulator**: spawn, checkpoints, leaderstats scoreboard.
+
+### Step 4: publish and test
+
+**File > Publish to Roblox**, configure SEO, test with friends.
+
+### Step 5: monetize with Robux
+
+- **Game Passes**, **Developer Products**, and **Premium Payouts**.
+
+### Step 6: grow
+
+- Collaborate, iterate weekly, use community **Discord**.
+
+**References:** Roblox SEC filings (Q1 2026), Statista, blogs.`,
+    date: '2026-08-03',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1585909695284-32d2985acde0?w=1200&q=80',
+    imageCaption: 'Roblox: plataforma de creación con 380 millones de usuarios activos mensuales. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '210',
+    contentType: 'analysis',
+    slug: 'tutorial-valorant-apuntado-sensibilidad-contra-rotacion',
+    titleEs: 'Valorant: mejora tu apuntado con la sensibilidad, el crosshair y el control del recoil',
+    titleEn: 'Valorant: improve your aim with sensitivity, crosshair and recoil control',
+    excerptEs: 'Valorant, el FPS táctico de Riot, maneja entre 14 y 25 millones de jugadores activos mensuales según la temporada y unos 3,9 millones diarios, con un pico concurrente récord de 6,76 millones. Aprende a configurar sensibilidad, crosshair y control de recoil para ganar duelos.',
+    excerptEn: 'Valorant, Riot\'s tactical FPS, handles 14-25 million monthly active players depending on the season and about 3.9 million daily, with a record 6.76 million concurrent peak. Learn to set sensitivity, crosshair and recoil control to win duels.',
+    contentEs: `### Valorant: el duelo 5v5 que premia la puntería
+
+**Valorant** (lanzado en junio de 2020) es el FPS táctico de Riot Games que combinó la sensibilidad de CS con las habilidades de los personajes. Maneja una base de **14 a 25 millones de jugadores activos mensuales** según temporada y unos **3,9 millones de usuarios diarios**, con un pico concurrente récord de **6,76 millones** en el primer trimestre de 2025 (VCT).
+
+Su economía y el apuntado táctico lo convierten en un juego de **precisión de milímetros**. Afinar tu setup es el primer salto para ganar duelos.
+
+### Paso 1: la sensibilidad correcta (eDPI)
+
+Valorant premia el **control de deslizamiento** más que la velocidad:
+
+- Calcula tu **eDPI = DPI del mouse × sensibilidad del juego**.
+- Los pros manejan entre **150 y 400 eDPI** como rango sano; en el interés de la mayoría está entre **200 y 300**.
+- No copies la configuración de un pro de memoria: **ajusta tu mouse DPI** y mantén la misma para ser consistente.
+- Baja la sensibilidad hasta que tu **180°** requiera casi 30 cm; es el objetivo táctico.
+
+### Paso 2: crosshair limpio y fijo
+
+- Un **crosshair pequeño, no invasivo, con outline** es lo estándar.
+- Cambia el **color** para diferenciarlo del fondo en cada mapa.
+- Deja el **recoil de compensación** en automático; no uses crosshair flicks en movimientos largos.
+- Activa el **clamp de crosshair** en los ajustes para que no se expanda de más.
+
+### Paso 3: domina el recoil del primer disparo
+
+- El arma principal **Vandal** y **Phantom** disparan en ráfaga. La clave: **transferencia de apuntado** entre cabezas.
+- Practica en **Range** (Firing Range): dispara 3 balas, corrige, dispara de nuevo.
+- En el **Deathmatch**, mide tu **pre-fire** en los ángulos.
+
+### Paso 4: control del mapa y del sonido
+
+- Aprende las **líneas de visión y puntos de peeks** de cada mapa (Haven, Ascent, Split, Bind, Lotus...).
+- **El sonido es oro**: se planean los pasos del rival para ganar ventaja de posición.
+- El clutch se gana **quieto** o **cambiando** con pausas; nunca corras disparando.
+
+### Paso 5: economía y ultimate
+
+- Compra **armas según tu económica**: un round de pistola + restricción de compra te puede ganar una ronda económica al oponente.
+- **No fuerces compras si hay remanente bajo**: conserva el momentum con buy seguro.
+- Ahorra los **ultimates** (Sage, Jett, Cypher...) para momentos de entrada o retoma.
+
+### Paso 6: análisis post-partida
+
+- Grábate el **death replay** y localiza una única causa de muerte por sesión.
+- Revisa tu **headshot %**; subirlo es señal de puntería.
+- Entrena **one-tap** en la práctica de rango (Deathmatch) antes de cada ranked.
+
+### Conclusión
+
+En Valorant gana la **calma + precisión**. Una sensibilidad cómoda (eDPI ~200-300), un crosshair fijo y un control de recoil por reflejo te dan ventaja ante cualquiera. Con millones de jugadores, la práctica diaria de 10 minutos rinde frutos.
+
+**Referencias:** tracker.gg Valorant Population, rec0ded88.com/statistics/valorant, quantumrun.com (2026).`,
+    contentEn: `### Valorant: precision takes duels
+
+**Valorant** (June 2020) holds **14-25 million MAU** by season and **~3.9 million DAU**, with a **6.76 million** concurrent record.
+
+### Step 1: sensitivity eDPI
+
+- Compute **eDPI = mouse DPI × game sensitivity**.
+- Collect **180-300 eDPI** is healthy. Lower it so a **180°** needs ~30 cm.
+
+### Step 2: clean crosshair
+
+- Small, colored, fixed crosshair; enable **firing error clamp**.
+
+### Step 3: recoil and bursts
+
+- **Vandal/Phantom** burst-3 shots, lecture pull-down transfers; practice **3-shot-taps** in the range.
+
+### Step 4: map and sound
+
+- Learn lines and windows; **sound** is king; shift-walk, don't rush.
+
+### Step 5: economy and ultimates
+
+- Buy when safe, force later rounds smartly; use ultimates on entry.
+
+### Step 6: review
+
+- Watch deaths and **headshot %**; 10-min aim session per day.
+
+**References:** tracker.gg, rec0ded88.com, quantumrun (2026).`,
+    date: '2026-08-03',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1547394765-185e679e2d4a?w=1200&q=80',
+    imageCaption: 'Valorant: el FPS táctico de Riot con picos de 25 millones de jugadores. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '211',
+    contentType: 'analysis',
+    slug: 'tutorial-clash-royale-mazo-elixir-subir-trofeos',
+    titleEs: 'Clash Royale: arma un mazo balanceado y sube trofeos con estrategia de elixir',
+    titleEn: 'Clash Royale: build a balanced deck and push trophies with elixir strategy',
+    excerptEs: 'Clash Royale acumula más de 700 millones de descargas, unos 25 millones de jugadores diarios y vivió en 2025 uno de sus mejores años con ingresos que rondaron los 500 millones de dólares. Aprende a balancear tu mazo, gestionar el elixir y escalar tronas.',
+    excerptEn: 'Clash Royale has accumulated over 700 million downloads and about 25 million daily players, with a strong 2025 pull near $500 million in revenue. Learn to balance your deck, manage elixir and climb trophies.',
+    contentEs: `### Clash Royale: el regreso de Supercell
+
+**Clash Royale** (lanzado en marzo de 2016) es el juego de cartas en tiempo real de Supercell que combina tower defense, MOBA y cartas coleccionables. A lo largo de su década de vida superó los **597 millones de descargas** (algunas mediciones ya superan **700 millones**) y acumula **más de 4.000 millones de dólares en ingresos** de por vida.
+
+En 2025 vivió un gran repunte: **su mejor año desde 2017**, con unos **500 millones de dólares en ingresos anuales** y una vuelta de hasta **25 millones de jugadores diarios**. Aprender la **gestión del elixir** es la base para subir de trofeos.
+
+### Paso 1: construye un mazo equilibrado
+
+Todo mazo competitivo combina roles. La regla del **"mazo completo"**:
+
+- **Tanque** (tank): aguanta el daño frente a la torre (por ej. Giant, Pekka, Golem).
+- **Carta de daño a torre** (win condition): ataca en el momento correcto (Balloon, Hog Rider).
+- **Defensa** agro + **splash** (Baby Dragon, Fire Spirits).
+- **Hechizos**: un hechizo de daño y otro barato (Zap, Arrow).
+- **Coste medio**: 3.0-3.5 de elixir es lo equilibrado.
+
+### Paso 2: gestiona el elixir (no lo gastes en vano)
+
+- **Sé paciente**: juega a la contra y espera que el rival comprometa su elixir.
+- No lances tu carta de daño a torre sin conocer las cartas del oponente; guarda elixir para responder.
+- El **cycle rápido** (mazo 2.6-2.9) te rota las cartas clave con más frecuencia.
+
+### Paso 3: tropas de golpe a la torre
+
+- Un **Knight, Valkyrie o Mini P.E.K.K.A.** como base de respuesta gana duelos defensivos.
+- Coloca las tropas en **el lado opuesto** a la amenaza si hay espacio.
+- Aprende el **posicionamiento en mosaico** (tile) donde el oponente no puede defender fácilmente.
+
+### Paso 4: el counter push
+
+La mejor defensa crea ataque: después de defender, **deja tu tanque y las tropas sobrevivientes** para un empuje con 1-2 cartas de apoyo. Es así como se consiguen las **3 coronas**.
+
+### Paso 5: mazo meta y actualización de cartas
+
+- Copia un **mazo top de la temporada** (RoyaleAPI o deckr.io) para aprender las sinergias.
+- Sube **primero** las cartas de tu mazo principal; no disperses la colección.
+- **No elijas una carta solo por rareza**: prioriza la **sinergia** y la **mano**.
+
+### Paso 6: sube trofeos con paciencia
+
+- Juega cuando estés **con la mente fría**: el tilt te baja más de lo que subes.
+- Analiza cada derrota: ¿perdiste elixir? ¿mal posicionamiento? Cada caída tiene causa.
+- Los eventos y retos son la mejor manera de probar mazos **sin riesgo**.
+
+### Conclusión
+
+Clash Royale es un juego de **ritmo**: la carta correcta en el momento correcto vale más que tener todo al máximo nivel. Con un «mazo equilibrado + buena gestión del elixir» podrás convertir su magnífica década de contenido en un ascenso real en trofeos.
+
+**Referencias:** Estadísticas de Clash Royale por AppMagic, statista y sci-tech-today (2026).`,
+    contentEn: `### Clash Royale: Supercell's strategy gem
+
+**Clash Royale** (March 2016) passed **600 million downloads** and **$3.6B lifetime revenue**, with a strong 2025 comeback of ~**$500M** and **25 million DAU**.
+
+### Step 1: build a balanced deck
+
+Cover **tank, damage, splash, spells**: aim a **3.0-3.5 elixir** average.
+
+### Step 2: manage elixir
+
+Don't overcommit; play **counters** and switch to **fast cycles (2.6-2.9)** for key cards.
+
+### Step 3: use tank-and-support
+
+Counter with a **mini-tank**, then **counter-push** with survivors.
+
+### Step 4: elixir management
+
+Wait for the opponent to commit, then counter with advantage.
+
+### Step 5: meta and upgrades
+
+Copy a **season meta deck**, upgrade it first, don't spread collection.
+
+### Step 6: climb patiently
+
+Play when focused; each loss has a lesson (elixir or placement).
+
+**References:** AppMagic, sci-tech-today, blog udonis (2026).`,
+    date: '2026-08-03',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1591989682951-10a9c6c2c6f5?w=1200&q=80',
+    imageCaption: 'Clash Royale: el juego de cartas en tiempo real con millones de jugadores diarios. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+      {
+    id: '212',
+    contentType: 'analysis',
+    slug: 'tutorial-ea-fc-ultimate-team-monedas-fut',
+    titleEs: 'EA FC 26: la guía para triunfar en Ultimate Team sin gastar de más',
+    titleEn: 'EA FC 26: the guide to succeed in Ultimate Team without overspending',
+    excerptEs: 'EA FC 26 vendió 12 millones de copias en su primer mes y es el fenómeno anual de EA, cuyo Ultimate Team genera buena parte de los 4.400 millones anuales en contenido extra. Aprende a armar una plantilla competitiva, tradear en el mercado y sacar partido a los SBC sin arruinarte.',
+    excerptEn: 'EA FC 26 sold 12 million copies in its first month and anchors EA\'s annual live service, whose Ultimate Team drives a big share of $4.4B in extra content. Learn to build a competitive squad, trade the market and use SBCs without overspending.',
+    contentEs: `### EA FC: el simulador de fútbol más rentable del mundo
+
+**EA Sports FC 26** vendió **12 millones de copias** a finales de octubre de 2025, con casi **9 millones en su primera semana** y un lanzamiento **1,4 veces más rápido** que el FC 25 del año anterior. Es el sucesor de la franquicia FIFA, y su modo estrella **Ultimate Team (FUT)** es el motor económico del juego.
+
+EA reporta unos **4.400 millones de dólares en contenido extra** cada año, de los cuales **parte importante proviene de Ultimate Team**. En el modo, puedes gastar dinero real o **build desde cero con estrategia**. Aquí la ruta para que tu equipo compita sin romper el bolsillo.
+
+### Paso 1: empieza con los fundamentos
+
+- Completa las **tareas de inicio (starter objectives)** que regalan packs y jugadores.
+- Escoge una **táctica simple**: una formación reconocible (por ejemplo 4-4-2 o 4-3-3) con **capacidad del equipo** al 75-80 antes que perfección.
+- Configura la **física de pase y tiro** en tu base.
+
+### Paso 2: arma el equipo competitivo sin gastar
+
+- **Compras en el mercado** de jugadores baratos con buena química.
+- Usa **jugadores de bajo coste con buena química** (química/chem es clave) antes de fichar estrellas.
+- Equilibra el **ritmo (pace) y la defensa**; en FUT una defensa sólida vale más que 3 estrellas de ataque.
+
+### Paso 3: el mercado de transferencias (descubierto)
+
+Haz de trader en el **Mercado de Transferencias** y convierte el contenido que obtienes gratis en **monedas**:
+
+- Compra jugadores **baratos los lunes**, revéndelos **el fin de semana** cuando sube la demanda.
+- Sigue los **cambios de meta**: cuando una carta sube por un **SBC o promo**, sácale partido.
+- Usa la **app companion** para operar desde el móvil entre partidas.
+
+### Paso 4: saca jugo a los SBC
+
+Los **Squads Build Challenges** son la forma más barata de conseguir cartas premium:
+
+- Prioriza las **SBCs de jugador** cuando la meta requiere una carta que no puedes pagar.
+- No metas cartas de alto valor en SBC de bajo premio: **compara el valor** antes de sacrificarla.
+- Los **objetivos** (objectives) regalan packs sin coste: agrégalos a tu rutina.
+
+### Paso 5: gestión del equipo y química
+
+- La **química** entre jugadores decide el rendimiento: busca **liga/nación/club** compatibles.
+- Mantén un **banco equilibrado**: cambia de táctica sin gastar monedas.
+- Aprende a leer los **tiers** (rank) y las **cartas promo** para no sobrevalorar.
+
+### Paso 6: no dejes que el bolsillo decida
+
+- La **comunidad** suele tener **metas asequibles** cada semana.
+- **No gastes dinero real** en packs: la ventaja de comprar con monedas es más rentable a largo plazo.
+- Diviértete: el PvP de tu nivel mejora más que los precios de la plantilla.
+
+### Conclusión
+
+EA FC 26 es un juego de **gestión** además de fútbol. Una plantilla con buena química, un buen manejo del mercado y unas decisiones de SBC inteligentes te harán competir al más alto nivel sin gastar de más. El campeón está dentro de tu estrategia, no en tu cartera.
+
+**Referencias:** Estadísticas de EA FC 26 por rec0ded88.com, quantumrun, coopboardgames y EA Financials (2026).`,
+    contentEn: `## EA FC: the ultimate football simulator
+
+**EA Sports FC 26** sold **12 million copies** by late October 2025, with ~**9M in the first week**. Its star mode **Ultimate Team** drives a big part of EA's ~**$4.4B** extra-content revenue.
+
+### Step 1: foundations
+
+Complete **starter objectives**, pick a **simple formation** (4-3-3), build chemistry.
+
+### Step 2: competitive squad on a budget
+
+Buy **cheap attacking players with good chemistry**; defense beats attack with 3 stars.
+
+### Step 3: transfer market trading
+
+Buy low **on Mondays**, sell **on the weekend**. Watch **promo/meta shifts**. Use the companion app.
+
+### Step 4: get value from SBCs
+
+Use **SBCs** for premium cards you can't afford; **value-check** before sacrificing.
+
+### Step 5: chemistry and management
+
+**Chemistry** decides performance; keep a **side bench**; read the tiers.
+
+### Step 6: don't let your wallet decide
+
+Use **community metas**, spend **coins, not real money**, and keep it fun.
+
+**References:** EA FC 26 statistics by rec0ded88.com and quantumrun (2026).`,
+    date: '2026-08-03',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200&q=80',
+    imageCaption: 'EA Sports FC: el simulador de fútbol con ventas millonarias y Ultimate Team. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];
