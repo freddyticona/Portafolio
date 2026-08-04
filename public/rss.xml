@@ -9,7 +9,77 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Tue, 04 Aug 2026 01:10:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 22:38:57 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Cortes invisibles en video: cómo dominar el J-cut y el L-cut en tus ediciones]]></title>
+      <link>https://freddydev.net/blog/tutorial-cortes-invisibles-j-l-cut</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-cortes-invisibles-j-l-cut</guid>
+      <description><![CDATA[El J-cut y el L-cut son los cortes invisibles que usan los editores profesionales para que una entrevista fluya sin saltos bruscos. Aprende qué son, cuándo usarlos y cómo aplicarlos paso a paso en DaVinci Resolve y Premiere Pro, con ejemplos de noticieros y documentales.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Match cut y ritmo de montaje: cómo construir secuencias que atrapan]]></title>
+      <link>https://freddydev.net/blog/tutorial-match-cut-ritmo-montaje</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-match-cut-ritmo-montaje</guid>
+      <description><![CDATA[El match cut (corte por similitud) y el control del ritmo son la esencia del lenguaje audiovisual. Aprende la duración ideal de cada toma por género, cómo usar cortes por movimiento y forma, y cómo leer el pulso de una escena con ejemplos de cine, TV y YouTube.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[B-roll y cutaways: la cobertura invisible que salva cualquier entrevista]]></title>
+      <link>https://freddydev.net/blog/tutorial-b-roll-cutaways-cobertura</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-b-roll-cutaways-cobertura</guid>
+      <description><![CDATA[El B-roll (material de apoyo) y los cutaways (planos de reacción) son la diferencia entre un video aburrido y uno dinámico. Aprende qué grabar, cuánto necesitas, cómo cubrir cortes y saltos en edición, y la proporción ideal de B-roll para entrevistas, noticias y YouTube.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Edición multicámara: cómo sincronizar y cortar con varias cámaras como un profesional]]></title>
+      <link>https://freddydev.net/blog/tutorial-cobertura-multicam-sincronizacion</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-cobertura-multicam-sincronizacion</guid>
+      <description><![CDATA[La edición multicámara (multicam) es imprescindible en conciertos, conferencias, bodas y entrevistas con varias cámaras. Aprende a sincronizar clips por audio o marca de tiempo, a crear una secuencia multicámara y a cambiar de ángulo en vivo con atajos, en DaVinci Resolve y Premiere Pro.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Mezcla de audio para video: niveles, ecualización y compresión para diálogo y música]]></title>
+      <link>https://freddydev.net/blog/tutorial-mezcla-audio-video-niveles</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-mezcla-audio-video-niveles</guid>
+      <description><![CDATA[El audio es el 50% de tu video: una mala mezcla arruina la mejor imagen. Aprende a fijar niveles correctos (diálogo, música, efectos), normalizar, ecualizar voces, usar compresores y ducking automático, con valores exactos en dB para TV, YouTube y cine.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Normalización de volumen LUFS: exporta con el nivel correcto para cada plataforma]]></title>
+      <link>https://freddydev.net/blog/tutorial-normalizacion-lufs-loudness</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-normalizacion-lufs-loudness</guid>
+      <description><![CDATA[¿Por qué tu video suena más bajo que los demás en YouTube? La respuesta son los LUFS. Aprende qué es la sonoridad, los objetivos por plataforma (YouTube -14, Spotify -14, TV -23, Netflix -12), cómo normalizar con DaVinci Fairlight o Premiere, y evita que te distorsionen el máster.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Speed ramps y time remapping: cómo dominar la cámara lenta y rápida en edición]]></title>
+      <link>https://freddydev.net/blog/tutorial-speed-ramps-time-remapping</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-speed-ramps-time-remapping</guid>
+      <description><![CDATA[Los speed ramps (aceleraciones y desaceleraciones suaves) dan ese look cinematográfico a deportes, reels y trailers. Aprende la diferencia entre speed ramp y time remapping, los valores óptimos por tipo de toma, el flujo de fotogramas (optical flow) y el uso de keyframes en DaVinci Resolve y Premiere Pro.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Lower thirds y títulos animados: rotulación profesional para tus videos]]></title>
+      <link>https://freddydev.net/blog/tutorial-lower-thirds-titulos-animados</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-lower-thirds-titulos-animados</guid>
+      <description><![CDATA[Los lower thirds (rótulos inferiores) identifican personas y lugares con elegancia. Aprende los principios de legibilidad, tamaño, tiempo en pantalla, animación de entrada/salida y cómo crearlos con el Fusion de DaVinci Resolve o los Essential Graphics de Premiere Pro.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Exportar para YouTube, Instagram y TikTok: la configuración exacta por plataforma]]></title>
+      <link>https://freddydev.net/blog/tutorial-exportar-youtube-plataformas</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-exportar-youtube-plataformas</guid>
+      <description><![CDATA[Cada plataforma tiene su configuración ideal de exportación: códec, resolución, bitrate, fotogramas y color. Aprende la guía exacta para YouTube (4K HDR), Instagram Reels (9:16), TikTok y WhatsApp, con valores en Mbps y perfiles de color, para DaVinci Resolve y Premiere Pro.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Códecs y bitrates de video explicados: H.264 vs H.265 vs AV1 y cómo elegir]]></title>
+      <link>https://freddydev.net/blog/tutorial-codecs-bitrates-h264-hevc</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/tutorial-codecs-bitrates-h264-hevc</guid>
+      <description><![CDATA[¿Qué códec debo usar al exportar? H.264, H.265/HEVC y AV1 comprimen distinto. Aprende qué es un códec, por qué el bitrate importa, las ventajas y desventajas de cada uno, cuándo usar cuál, y los valores de bitrate recomendados por resolución en DaVinci Resolve y Premiere.]]></description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[Confirmado un caso importado de sarampión en La Paz y se activa la vacunación masiva]]></title>
       <link>https://freddydev.net/noticias/sarampion-la-paz-vacunacion-masiva-2026</link>

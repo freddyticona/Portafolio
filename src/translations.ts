@@ -14916,6 +14916,1169 @@ Use **community metas**, spend **coins, not real money**, and keep it fun.
     featured: false,
     views: 1
   },
+  {
+    id: '213',
+    contentType: 'analysis',
+    slug: 'tutorial-cortes-invisibles-j-l-cut',
+    titleEs: 'Cortes invisibles en video: cómo dominar el J-cut y el L-cut en tus ediciones',
+    titleEn: 'Invisible cuts in video: how to master the J-cut and L-cut in your edits',
+    excerptEs: 'El J-cut y el L-cut son los cortes invisibles que usan los editores profesionales para que una entrevista fluya sin saltos bruscos. Aprende qué son, cuándo usarlos y cómo aplicarlos paso a paso en DaVinci Resolve y Premiere Pro, con ejemplos de noticieros y documentales.',
+    excerptEn: 'The J-cut and L-cut are the invisible edits professionals use to make an interview flow without jarring jumps. Learn what they are, when to use them and how to apply them step by step in DaVinci Resolve and Premiere Pro, with newsroom and documentary examples.',
+    contentEs: `### Cortes invisibles: la base del montaje profesional
+
+Un buen editor pasa desapercibido: el público siente que la historia fluye sola, cuando en realidad hay docenas de cortes por minuto. La técnica más importante para lograrlo es el **corte en J (J-cut)** y su gemelo, el **corte en L (L-cut)**. Son tan fundamentales que los usan desde noticieros de TV hasta el cine de autor.
+
+<svg viewBox="0 0 460 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<defs>
+<style>
+@keyframes blip{0%{opacity:.25}50%{opacity:1}100%{opacity:.25}}
+.blip{animation:blip 1.6s ease-in-out infinite}
+@keyframes play{from{x:30}to{x:400}}
+.play{animation:play 3.2s linear infinite}
+</style>
+</defs>
+<text x="230" y="24" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">TIMELINE: corte en J (audio avanza antes que la imagen)</text>
+<rect x="30" y="40" width="140" height="26" rx="4" fill="#3b82f6" opacity=".9"/>
+<rect x="30" y="72" width="170" height="22" rx="4" fill="#f3c14b" opacity=".9"/>
+<text x="34" y="58" font-size="9" fill="#fff" font-family="sans-serif">Vídeo A (entrevista 1)</text>
+<text x="34" y="87" font-size="9" fill="#0d1117" font-family="sans-serif" font-weight="bold">Audio: VO del clip B empieza aquí</text>
+<rect x="170" y="40" width="230" height="26" rx="4" fill="#60a5fa" opacity=".9"/>
+<rect x="200" y="72" width="200" height="22" rx="4" fill="#fbbf24" opacity=".9"/>
+<text x="178" y="58" font-size="9" fill="#fff" font-family="sans-serif">Vídeo B (B-roll)</text>
+<text x="205" y="87" font-size="9" fill="#0d1117" font-family="sans-serif" font-weight="bold">Audio del clip B continúa</text>
+<line x1="30" y1="112" x2="430" y2="112" stroke="#1f2937" stroke-width="1"/>
+<text x="230" y="134" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">TIMELINE: corte en L (audio del clip A se estira)</text>
+<rect x="30" y="150" width="200" height="26" rx="4" fill="#3b82f6" opacity=".9"/>
+<rect x="30" y="182" width="230" height="22" rx="4" fill="#f3c14b" opacity=".9"/>
+<text x="34" y="168" font-size="9" fill="#fff" font-family="sans-serif">Vídeo A (B-roll)</text>
+<text x="34" y="197" font-size="9" fill="#0d1117" font-family="sans-serif" font-weight="bold">Audio de la entrevista A se mantiene</text>
+<rect x="230" y="150" width="200" height="26" rx="4" fill="#60a5fa" opacity=".9"/>
+<text x="238" y="168" font-size="9" fill="#fff" font-family="sans-serif">Vídeo B (entrevista 2)</text>
+<text x="265" y="197" font-size="9" fill="#0d1117" font-family="sans-serif" font-weight="bold">Corte de imagen aquí</text>
+<line x1="30" y1="222" x2="430" y2="222" stroke="#1f2937" stroke-width="1"/>
+<rect class="play" x="30" y="26" width="3" height="210" fill="#ef4444" opacity=".8"/>
+</svg>
+
+### Qué es cada corte
+
+- **J-cut:** el **audio del clip siguiente entra antes** que su imagen. En la línea de tiempo dibuja una "J": primero escuchas la voz del entrevistado B y luego ves la imagen. Suaviza la transición y mantiene la atención.
+- **L-cut:** el **audio del clip anterior se estira** sobre la imagen del siguiente. Forma una "L". Permite cerrar una idea mientras el ojo ya ve el nuevo contexto (clásico en B-roll sobre entrevista).
+
+### Paso 1: prepara dos clips con continuidad
+
+Necesitas material que "se responda": una pregunta y su respuesta, o una toma amplia y un detalle. En una entrevista, el primer clip es la pregunta (plano medio) y el segundo el close-up de la respuesta con B-roll.
+
+### Paso 2: crea el J-cut en la línea de tiempo
+
+1. Coloca el clip B en la pista de video, justo después del clip A.
+2. Con la herramienta de **selección (A)**, arrastra el **audio del clip B** hacia atrás unos 12-20 cuadros para que comience antes que su imagen.
+3. Reproduce: deberías escuchar la voz de B mientras aún se ve la imagen de A.
+4. Ajusta el solape hasta que la entrada del audio no "choque" con el final de la frase anterior.
+
+> En **DaVinci Resolve**: separa audio y video con **Ctrl+Shift+G** (Link) y desliza la pista de audio manualmente. En **Premiere Pro**: mantén presionado **Alt** y arrastra el audio hacia atrás (o hacia adelante) para desincronizarlo sin romper el clip.
+
+### Paso 3: crea el L-cut
+
+1. Con el mismo material, estira el **audio del clip A** para que continúe ~15 cuadros después del corte de imagen.
+2. Coloca el B-roll o el plano nuevo sobre esos cuadros.
+3. El resultado: el espectador escucha la frase final de A mientras ya ve el detalle de B.
+
+### Paso 4: afina el ritmo con los números
+
+- En **noticieros y entrevistas rápidas**: solape de **8 a 14 cuadros**.
+- En **documentales y cine**: solape de **16 a 24 cuadros** para transiciones más pausadas.
+- Regla práctica: el corte debe notarse en el audio pero **no** en la imagen.
+
+### Paso 5: errores que delatan al principiante
+
+| Error | Corrección |
+|-------|-----------|
+| Audio entra de golpe | Reduce el solape o añade 2-4 cuadros de fundido de audio |
+| Solape demasiado largo en diálogo rápido | Baja a 8-10 cuadros |
+| El corte en J y L suenan "pegados" | Deja 1-2 cuadros de silencio entre palabras |
+| Cambia de escena y el audio se corta en seco | Usa L-cut siempre que cambies de imagen |
+
+### Conclusión
+
+Los cortes en J y en L son el "truco" que separa al aficionado del editor profesional. La próxima vez que edites una entrevista, no cortes imagen y audio juntos: desincrónzalos a propósito. El flujo de la conversación y la atención del espectador te lo agradecerán.
+
+**Referencia visual:** los cortes invisibles son estándar en los manuales de montaje de la BBC y en los tutoriales de Blackmagic Design (DaVinci Resolve) y Adobe (Premiere Pro), 2026.`,
+    contentEn: `### Invisible cuts: the foundation of professional editing
+
+A good editor goes unnoticed: the audience feels the story flows by itself when in reality there are dozens of cuts per minute. The most important technique is the **J-cut** and its twin, the **L-cut**, used from TV news to auteur cinema.
+
+**What they are:**
+- **J-cut:** the next clip's **audio enters before its image** (forms a J on the timeline).
+- **L-cut:** the previous clip's **audio extends over the next image** (forms an L).
+
+**Step 1:** Prepare two clips that respond to each other (question + answer, or wide shot + detail).
+
+**Step 2 - J-cut:** Place clip B after clip A. With the selection tool, drag clip B's audio back 12-20 frames so it starts before its image. In DaVinci Resolve use Ctrl+Shift+G to unlink audio; in Premiere hold Alt and drag the audio.
+
+**Step 3 - L-cut:** Extend clip A's audio ~15 frames past the image cut and place B-roll over those frames.
+
+**Step 4 - Timing:** News interviews 8-14 frames; documentaries 16-24 frames. The cut should be felt in audio, not image.
+
+**Step 5 - Common mistakes:** audio entering abruptly (fade 2-4 frames), too-long overlap in fast dialogue, hard audio cuts on scene change (use L-cut).
+
+Invisible cuts are the difference between amateur and professional editing. Desync image and audio on purpose.`,
+    date: '2026-08-04',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&h=630&fit=crop',
+    imageCaption: 'Línea de tiempo de edición: los cortes en J y en L desincronizan audio e imagen. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '214',
+    contentType: 'analysis',
+    slug: 'tutorial-match-cut-ritmo-montaje',
+    titleEs: 'Match cut y ritmo de montaje: cómo construir secuencias que atrapan',
+    titleEn: 'Match cut and editing rhythm: how to build sequences that captivate',
+    excerptEs: 'El match cut (corte por similitud) y el control del ritmo son la esencia del lenguaje audiovisual. Aprende la duración ideal de cada toma por género, cómo usar cortes por movimiento y forma, y cómo leer el pulso de una escena con ejemplos de cine, TV y YouTube.',
+    excerptEn: 'The match cut (cut on similarity) and rhythm control are the essence of audiovisual language. Learn the ideal shot duration per genre, how to use motion and shape cuts, and how to read a scene\'s pulse with film, TV and YouTube examples.',
+    contentEs: `### El ritmo es el idioma del editor
+
+Cada corte le dice algo al espectador: un corte a los 2 segundos transmite urgencia; uno a los 12 segundos, contemplación. Dominar el **match cut** y el **ritmo de montaje** convierte una secuencia plana en una escena con energía propia.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes gbar{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.gbar{transform-origin:bottom;animation:gbar 1.2s ease-out both}
+@keyframes gnum{from{opacity:0}to{opacity:1}}
+.gnum{opacity:0;animation:gnum .7s ease-out .8s forwards}
+.lb{font:10px sans-serif;fill:#9ca3af;text-anchor:middle}
+.val{font:9px sans-serif;fill:#f3c14b;text-anchor:middle}
+</style>
+<line x1="30" y1="210" x2="410" y2="210" stroke="#374151" stroke-width="1"/>
+<text x="220" y="20" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">Duración media por toma (segundos)</text>
+<rect class="gbar" x="38" y="60" width="40" height="150" fill="#ef4444" rx="4"/>
+<rect class="gbar" x="110" y="100" width="40" height="110" fill="#f59e0b" rx="4"/>
+<rect class="gbar" x="182" y="60" width="40" height="150" fill="#f3c14b" rx="4"/>
+<rect class="gbar" x="254" y="30" width="40" height="180" fill="#22c55e" rx="4"/>
+<rect class="gbar" x="326" y="90" width="40" height="120" fill="#3b82f6" rx="4"/>
+<text class="gnum val" x="58" y="52">2-4</text>
+<text class="gnum val" x="130" y="92">5-7</text>
+<text class="gnum val" x="202" y="52">3-5</text>
+<text class="gnum val" x="274" y="22">8-12</text>
+<text class="gnum val" x="346" y="82">6-8</text>
+<text class="lb" x="58" y="222">Acción</text>
+<text class="lb" x="130" y="222">YouTube</text>
+<text class="lb" x="202" y="222">Noticias</text>
+<text class="lb" x="274" y="222">Documental</text>
+<text class="lb" x="346" y="222">Entrevista</text>
+</svg>
+
+### Paso 1: entiende el pulso por género
+
+La duración de la toma define la emoción:
+
+- **Acción / trailers:** 2-4 segundos por toma. Cortes rápidos = adrenalina.
+- **Noticieros:** 3-5 segundos. Mantienen atención sin fatigar.
+- **YouTube / reels:** 2-5 segundos con "ganchos" constantes.
+- **Entrevistas:** 6-8 segundos en el rostro, alternando B-roll.
+- **Documentales:** 8-12 segundos. Permiten respirar y reflexionar.
+
+### Paso 2: corta en el movimiento, no después
+
+El corte ideal ocurre **durante** el movimiento (acción en progreso), nunca en el punto muerto. Si un entrevistado gira la cabeza, corta justo cuando empieza el giro. El ojo procesa la acción continua como una sola toma, y el corte se vuelve invisible.
+
+### Paso 3: el match cut por forma
+
+El **match cut** une dos planos por **similitud visual** (una luna y una pelota, una rueda y un reloj) o por **acción continua** (el brazo que lanza y el brazo que atrapa, en diferentes escenarios). Es el cortes que usó Stanley Kubrick en *2001* y que hoy domina los montajes virales de YouTube.
+
+Cómo construirlo:
+
+1. Encuentra **dos elementos con forma o dirección parecidas** (círculos, líneas diagonales, misma velocidad).
+2. Alinea el **movimiento y el encuadre** de ambos planos en el punto de corte.
+3. Corta en el **instante de mayor energía** (cuando el objeto ocupa gran parte del encuadre).
+4. Mantén el **mismo eje de cámara** o el mismo color para reforzar la conexión.
+
+### Paso 4: sube el ritmo con la regla de los tres
+
+En secuencias de acción o montaje, acelera progresivamente: **6s, 4s, 3s, 2s, 1.5s**. Cada toma más corta que la anterior acumula tensión. Es el esquema de los montajes de persecuciones y de los resúmenes deportivos.
+
+### Paso 5: usa la música como regla
+
+- Corta en los **golpes (downbeats)** de la música.
+- Empieza con tomas más largas y ve acortando en los **crescendos**.
+- Al final de la secuencia, deja una **toma larga** para "frenar" y cerrar la emoción.
+
+### Conclusión
+
+El match cut da coherencia visual; el ritmo da emoción. No hay una duración "correcta" universal: la hay por género y por intención. Pregúntate siempre **qué quieres que sienta el espectador** en cada corte, y la duración de la toma saldrá sola.
+
+**Referencia:** fundamentos de montaje de la BBC Academy y cursos de edición de Blackmagic (2026).`,
+    contentEn: `### Rhythm is the editor's language
+
+Each cut says something: a cut at 2 seconds transmits urgency; one at 12 seconds, contemplation. Mastering the **match cut** and editing rhythm turns a flat sequence into a scene with its own energy.
+
+**Step 1 - Pulse by genre:** Action/trailers 2-4s, news 3-5s, YouTube 2-5s, interviews 6-8s, documentaries 8-12s per shot.
+
+**Step 2 - Cut on motion:** Cut during movement, never at the dead point. The brain processes continuous action as one shot.
+
+**Step 3 - Match cut by shape:** Join two shots by visual similarity (moon and ball, wheel and clock) or continuous action (the arm that throws and the arm that catches). Align movement and framing, cut at peak energy, keep the same axis.
+
+**Step 4 - Rule of three:** Accelerate progressively: 6s, 4s, 3s, 2s, 1.5s. Each shorter shot builds tension.
+
+**Step 5 - Music as a rule:** Cut on downbeats, start long and shorten during crescendos, end with a long shot to brake.
+
+Match cuts give visual coherence; rhythm gives emotion. There's no universal "correct" duration — only per genre and intention.`,
+    date: '2026-08-04',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=1200&h=630&fit=crop',
+    imageCaption: 'Match cut: unir dos planos por similitud visual para construir ritmo. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '215',
+    contentType: 'analysis',
+    slug: 'tutorial-b-roll-cutaways-cobertura',
+    titleEs: 'B-roll y cutaways: la cobertura invisible que salva cualquier entrevista',
+    titleEn: 'B-roll and cutaways: the invisible coverage that saves any interview',
+    excerptEs: 'El B-roll (material de apoyo) y los cutaways (planos de reacción) son la diferencia entre un video aburrido y uno dinámico. Aprende qué grabar, cuánto necesitas, cómo cubrir cortes y saltos en edición, y la proporción ideal de B-roll para entrevistas, noticias y YouTube.',
+    excerptEn: 'B-roll (support footage) and cutaways (reaction shots) are the difference between a boring video and a dynamic one. Learn what to shoot, how much you need, how to cover cuts and jump cuts in editing, and the ideal B-roll ratio for interviews, news and YouTube.',
+    contentEs: `### El B-roll es tu salvavidas en la sala de edición
+
+El **B-roll** (material de apoyo) y los **cutaways** (planos de reacción o detalle) te permiten cortar una entrevista sin que el espectador vea los saltos, añadir contexto y disimular cualquier problema de sonido o encuadre. Es la diferencia entre un video que aburre y uno que engancha.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes grow{from{r:0}to{r:62}}
+.grow{animation:grow 1.1s ease-out both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.fade{opacity:0;animation:fade .8s ease-out .7s forwards}
+.lbl{font:11px sans-serif;text-anchor:middle;font-weight:bold}
+</style>
+<circle cx="230" cy="120" r="95" fill="#1f2937"/>
+<g class="grow"><path d="M230 25 A95 95 0 0 1 325 120 L230 120 Z" fill="#3b82f6"/></g>
+<g class="grow"><path d="M230 120 A95 95 0 0 1 180 203 L230 120 Z" fill="#f3c14b"/></g>
+<g class="grow"><path d="M230 120 A95 95 0 0 1 325 120 L230 120 Z" fill="#60a5fa"/></g>
+<circle cx="230" cy="120" r="50" fill="#0d1117"/>
+<text class="fade lbl" x="285" y="80" fill="#3b82f6">60% B-roll</text>
+<text class="fade lbl" x="195" y="185" fill="#f3c14b">25% Cabeza</text>
+<text class="fade lbl" x="282" y="158" fill="#93c5fd">15% Cutaways</text>
+<text class="fade" x="230" y="228" font-size="10" fill="#9ca3af" text-anchor="middle" font-family="sans-serif">Proporción recomendada en entrevistas dinámicas</text>
+</svg>
+
+### Paso 1: graba el B-roll correcto en campo
+
+Antes de cortar, necesitas material. Al grabar una entrevista, dedica tiempo extra a:
+
+- **Detalles de manos** (teclado, herramientas, documentos).
+- **Plano general del lugar** (contexto geográfico).
+- **Inserts de objetos** que la persona menciona.
+- **Planos de reacción del entrevistador** (cutaways).
+- **Movimientos de cámara vacíos** (panorámicas del espacio) para transiciones.
+
+> Regla del editor: por cada **10 minutos de entrevista**, intenta grabar al menos **5 minutos de B-roll** bien hecho.
+
+### Paso 2: usa el B-roll para tapar cortes y "erres"
+
+El uso más común: cubrir los **momentos incómodos** — una tos, un titubeo, una pausa demasiado larga, o un salto de plano (jump cut) cuando recortas una frase. En lugar de cortar y pegar dos imágenes del mismo rostro, intercala 1-2 segundos de B-roll.
+
+### Paso 3: intercala sin perder el hilo
+
+La estructura ganadora en entrevistas:
+
+1. **Apertura:** plano general del lugar (3-5 s) para ubicar al espectador.
+2. **Rostro del entrevistado:** cada bloque de 6-10 segundos.
+3. **Cutaway cada 3 bloques:** reacción del entrevistador o detalle.
+4. **Cierre:** B-roll del lugar o detalle final para salir con elegancia.
+
+### Paso 4: los cutaways de reacción
+
+Los **cutaways de reacción** (la cara del entrevistador asintiendo) son oro puro: permiten cortar el audio del entrevistado y reajustar el ritmo sin que se note. Graba siempre **al menos 5 reacciones distintas** (asentir, pensar, tomar nota, mirar).
+
+### Paso 5: la proporción ideal
+
+- **Noticias / TV:** 30-40% de B-roll sobre el total.
+- **Documental:** 40-60% (mucho contexto y atmósfera).
+- **YouTube / vlogs:** 25-40% para mantener ritmo.
+- **Entrevista larga:** suficiente para cortar cada 3-5 bloques.
+
+### Conclusión
+
+El B-roll no es decoración: es la herramienta que te da **libertad de edición**. Sin material de apoyo, cada corte en el rostro del entrevistado se convierte en un salto. Con él, transformas una conversación de 40 minutos en una pieza de 5 minutos que no aburre a nadie.
+
+**Referencia:** técnicas de cobertura para entrevistas de la BBC Academy y guías de producción de B-roll de Adobe Premiere Pro (2026).`,
+    contentEn: `### B-roll is your editing lifeline
+
+**B-roll** (support footage) and **cutaways** (reaction/detail shots) let you cut an interview without visible jumps, add context, and hide sound or framing problems.
+
+**Step 1 - Shoot the right B-roll:** hands detail, wide shot of the place, inserts of mentioned objects, interviewer reactions, and empty camera moves. Rule: for every 10 interview minutes, shoot ~5 minutes of good B-roll.
+
+**Step 2 - Cover cuts:** use 1-2 seconds of B-roll to hide coughs, hesitations, and jump cuts when you trim phrases.
+
+**Step 3 - Interleave smartly:** open with a wide shot (3-5s), blocks of 6-10s of the face, a cutaway every 3 blocks, close with B-roll.
+
+**Step 4 - Reaction cutaways:** the interviewer nodding is gold — it lets you cut audio and adjust rhythm unnoticed. Shoot at least 5 different reactions.
+
+**Step 5 - Ideal ratio:** news/TV 30-40%, documentary 40-60%, YouTube 25-40%.
+
+B-roll gives you editing freedom. With it, a 40-minute conversation becomes a 5-minute piece that captivates.`,
+    date: '2026-08-04',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=1200&h=630&fit=crop',
+    imageCaption: 'B-roll y cutaways: material de apoyo para entrevistas dinámicas. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '216',
+    contentType: 'analysis',
+    slug: 'tutorial-cobertura-multicam-sincronizacion',
+    titleEs: 'Edición multicámara: cómo sincronizar y cortar con varias cámaras como un profesional',
+    titleEn: 'Multicam editing: how to sync and cut multiple cameras like a pro',
+    excerptEs: 'La edición multicámara (multicam) es imprescindible en conciertos, conferencias, bodas y entrevistas con varias cámaras. Aprende a sincronizar clips por audio o marca de tiempo, a crear una secuencia multicámara y a cambiar de ángulo en vivo con atajos, en DaVinci Resolve y Premiere Pro.',
+    excerptEn: 'Multicam editing is essential for concerts, conferences, weddings and multi-camera interviews. Learn to sync clips by audio or timecode, build a multicam sequence and switch angles live with shortcuts in DaVinci Resolve and Premiere Pro.',
+    contentEs: `### Cuando una cámara no alcanza
+
+Conciertos, conferencias, bodas, podcasts: cuando hay varias cámaras, la edición multicámara te permite **sincronizar todos los clips** y **cambiar de ángulo al instante**, como si estuvieras en una mesa de dirección en vivo, pero con el control de la post-producción.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes rec{0%{fill:#f3c14b}50%{fill:#ef4444}100%{fill:#f3c14b}}
+.rec{animation:rec 1.4s ease-in-out infinite}
+@keyframes amp{from{opacity:.3}to{opacity:1}}
+.amp{animation:amp .5s ease-in-out infinite alternate}
+</style>
+<text x="230" y="22" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">Sincronización multicámara por audio</text>
+<rect x="40" y="42" width="380" height="26" rx="4" fill="#1f2937"/>
+<rect class="amp" x="46" y="48" width="4" height="14" fill="#22c55e"/>
+<rect class="amp" x="60" y="52" width="4" height="10" fill="#22c55e"/>
+<rect class="amp" x="74" y="45" width="4" height="17" fill="#22c55e"/>
+<rect class="amp" x="88" y="50" width="4" height="12" fill="#22c55e"/>
+<rect class="amp" x="102" y="47" width="4" height="15" fill="#22c55e"/>
+<rect class="amp" x="330" y="48" width="4" height="14" fill="#22c55e"/>
+<rect class="amp" x="344" y="52" width="4" height="10" fill="#22c55e"/>
+<rect class="amp" x="358" y="45" width="4" height="17" fill="#22c55e"/>
+<text x="45" y="84" font-size="9" fill="#9ca3af" font-family="sans-serif">Cámara 1 (audio de referencia: palmada / slate)</text>
+<rect x="40" y="96" width="380" height="26" rx="4" fill="#1f2937"/>
+<rect class="amp" x="46" y="102" width="4" height="14" fill="#60a5fa"/>
+<rect class="amp" x="60" y="106" width="4" height="10" fill="#60a5fa"/>
+<rect class="amp" x="330" y="104" width="4" height="12" fill="#60a5fa"/>
+<rect class="amp" x="344" y="102" width="4" height="14" fill="#60a5fa"/>
+<text x="45" y="138" font-size="9" fill="#9ca3af" font-family="sans-serif">Cámara 2 (mismo pico de audio alineado)</text>
+<rect x="40" y="150" width="380" height="26" rx="4" fill="#1f2937"/>
+<rect class="amp" x="46" y="156" width="4" height="14" fill="#f59e0b"/>
+<rect class="amp" x="330" y="158" width="4" height="10" fill="#f59e0b"/>
+<text x="45" y="192" font-size="9" fill="#9ca3af" font-family="sans-serif">Cámara 3 (sincronizada automáticamente)</text>
+<circle class="rec" cx="430" cy="60" r="4"/>
+<text x="230" y="222" font-size="10" fill="#9ca3af" text-anchor="middle" font-family="sans-serif">Método 1: palmada, slate o conteo al inicio de cada grabación</text>
+</svg>
+
+### Paso 1: prepara la sincronización en campo
+
+La clave está **antes** de editar. Al empezar a grabar, haz con todas las cámaras:
+
+- **Slate o palmada** delante de los micrófonos (pico de audio bien visible).
+- Un **conteo** ("uno, dos, tres...") para comparar.
+- **Fotos del mismo reloj** o marca de tiempo visible.
+
+Cualquiera de estos te dará un **pico de audio o un fotograma de referencia** común.
+
+### Paso 2: sincroniza los clips
+
+En **DaVinci Resolve**:
+
+1. Selecciona todos los clips de la escena en el Media Pool.
+2. Clic derecho → **Create Multicam Sequence Using** → **Audio** (o **Timecode**).
+3. Nombra la secuencia y da clic en crear.
+4. Arrastra el clip multicámara a la línea de tiempo.
+
+En **Premiere Pro**:
+
+1. Selecciona los clips en el proyecto.
+2. Clic derecho → **Create Multi-Camera Source Sequence**.
+3. Elige **Audio** o **Timecode** como método.
+4. Pulsa **OK**; el clip multicámara se creará con todos los ángulos.
+
+### Paso 3: corta los ángulos como director en vivo
+
+1. Activa el clip multicámara en la línea de tiempo.
+2. Pulsa el **botón Multicam** en el monitor de programa (DaVinci) o usa el monitor multicámara (Premiere).
+3. Reproduce con la barra espaciadora.
+4. Mientras ves las cámaras en vivo, presiona los **números 1, 2, 3...** (atajo) para cambiar de ángulo en tiempo real.
+5. Cada pulsación inserta un corte en la línea de tiempo.
+
+### Paso 4: reajusta con el timeline
+
+El multicam es un punto de partida, no el final:
+
+- Ve al timeline y **ajusta cada corte** arrastrando el punto de edición.
+- Amplía con **zoom de timeline (Shift+Z / +)** para ver los frames exactos.
+- Cambia de ángulo manualmente si el corte automático quedó en el lugar incorrecto.
+
+### Paso 5: atajos que aceleran el flujo
+
+- **Números 1-9:** cambiar de ángulo durante la reproducción.
+- **Coma / punto (,) (.)** o **Página arriba/abajo:** avanzar/retroceder un cuadro.
+- **Shift+Coma / Punto:** avanzar 5 cuadros.
+- **Ctrl+Shift+D (Resolve) / Shift+D (Premiere):** abrir/cerrar la vista multicámara.
+
+### Conclusión
+
+La edición multicámara te da la velocidad de un director en vivo con la precisión de la post-producción. Graba un slate al inicio, sincroniza por audio, y cambia de ángulo con atajos: ahorrarás horas de trabajo y tus cortes serán limpios en cualquier evento.
+
+**Referencia:** guías oficiales de multicam de Blackmagic Design (DaVinci Resolve 19) y Adobe (Premiere Pro), 2026.`,
+    contentEn: `### When one camera isn't enough
+
+For concerts, conferences, weddings and podcasts, multicam editing lets you **sync all clips** and **switch angles instantly**, like a live director with post-production control.
+
+**Step 1 - Field prep:** at the start, clap or slate in front of the mics, count aloud, or photograph the same clock. This gives a common audio peak or reference frame.
+
+**Step 2 - Sync:** In DaVinci Resolve, select clips → Create Multicam Sequence Using → Audio (or Timecode). In Premiere, right-click → Create Multi-Camera Source Sequence → Audio/Timecode.
+
+**Step 3 - Cut like a live director:** enable the multicam clip, press the Multicam button, and while playing press the number keys (1, 2, 3...) to switch angles in real time. Each press adds a cut.
+
+**Step 4 - Refine:** drag cut points in the timeline, zoom in to fix exact frames, switch angles manually if needed.
+
+**Step 5 - Shortcuts:** numbers 1-9 switch angles; comma/period nudge one frame; Shift+comma/period nudge 5.
+
+Multicam gives you live-director speed with post-production precision. Sync by audio, cut with shortcuts, and save hours on any event.`,
+    date: '2026-08-04',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1200&h=630&fit=crop',
+    imageCaption: 'Edición multicámara: varias fuentes sincronizadas en una sola línea de tiempo. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '217',
+    contentType: 'analysis',
+    slug: 'tutorial-mezcla-audio-video-niveles',
+    titleEs: 'Mezcla de audio para video: niveles, ecualización y compresión para diálogo y música',
+    titleEn: 'Audio mixing for video: levels, EQ and compression for dialogue and music',
+    excerptEs: 'El audio es el 50% de tu video: una mala mezcla arruina la mejor imagen. Aprende a fijar niveles correctos (diálogo, música, efectos), normalizar, ecualizar voces, usar compresores y ducking automático, con valores exactos en dB para TV, YouTube y cine.',
+    excerptEn: 'Audio is 50% of your video: a bad mix ruins the best image. Learn to set correct levels (dialogue, music, effects), normalize, EQ voices, use compressors and automatic ducking, with exact dB values for TV, YouTube and film.',
+    contentEs: `### El audio es el 50% de la experiencia
+
+El espectador perdona una imagen imperfecta, pero nunca un audio que suena mal. La mezcla de audio —**niveles, ecualización, compresión y música**— es lo que diferencia una producción amateur de una profesional. Aquí te doy los valores exactos que uso en la sala de edición.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes meter{0%{transform:scaleY(.3)}50%{transform:scaleY(1)}100%{transform:scaleY(.3)}}
+.meter{transform-origin:bottom;animation:meter 1.4s ease-in-out infinite}
+.axis{font:9px sans-serif;fill:#6b7280}
+.ztxt{font:9px sans-serif;fill:#f3c14b}
+</style>
+<line x1="40" y1="210" x2="430" y2="210" stroke="#374151" stroke-width="1"/>
+<text x="32" y="214" font-size="9" fill="#6b7280">-30</text>
+<text x="32" y="150" font-size="9" fill="#6b7280">-12</text>
+<text x="32" y="106" font-size="9" fill="#f3c14b">-6</text>
+<text x="32" y="62" font-size="9" fill="#ef4444">0</text>
+<line x1="40" y1="150" x2="430" y2="150" stroke="#374151" stroke-width=".5" stroke-dasharray="3 3"/>
+<line x1="40" y1="106" x2="430" y2="106" stroke="#f59e0b" stroke-width=".5" stroke-dasharray="3 3"/>
+<rect class="meter" x="70" y="52" width="40" height="158" fill="#ef4444"/>
+<rect class="meter" x="150" y="118" width="40" height="92" fill="#3b82f6"/>
+<rect class="meter" x="230" y="140" width="40" height="70" fill="#22c55e"/>
+<rect class="meter" x="310" y="164" width="40" height="46" fill="#9ca3af"/>
+<text x="90" y="230" font-size="9" fill="#f3c14b" text-anchor="middle" font-family="sans-serif">Diálogo</text>
+<text x="170" y="230" font-size="9" fill="#f3c14b" text-anchor="middle" font-family="sans-serif">Música</text>
+<text x="250" y="230" font-size="9" fill="#f3c14b" text-anchor="middle" font-family="sans-serif">Efectos</text>
+<text x="330" y="230" font-size="9" fill="#f3c14b" text-anchor="middle" font-family="sans-serif">Silencio</text>
+<text x="90" y="46" font-size="10" fill="#fff" text-anchor="middle" font-family="sans-serif">-3</text>
+<text x="170" y="112" font-size="10" fill="#fff" text-anchor="middle" font-family="sans-serif">-18</text>
+<text x="250" y="134" font-size="10" fill="#fff" text-anchor="middle" font-family="sans-serif">-12</text>
+<text x="330" y="158" font-size="10" fill="#fff" text-anchor="middle" font-family="sans-serif">-24</text>
+</svg>
+
+### Paso 1: fija los niveles base
+
+Estos son los **valores de referencia** (en dB) que uso al mezclar:
+
+- **Diálogo / voz principal:** picos entre **-6 y -3 dB**, promedio cerca de **-12 dB**.
+- **Música de fondo:** entre **-24 y -18 dB** bajo el diálogo.
+- **Efectos de sonido:** entre **-12 y -8 dB**, con picos cortos.
+- **Silencio / transiciones:** **-60 dB** o menos (fondo limpio).
+
+> Regla de oro: el **diálogo siempre gana**. Todo lo demás se mezcla por debajo.
+
+### Paso 2: normaliza y ajusta con clip gain
+
+1. Normaliza el diálogo a un nivel cómodo (por ejemplo **-12 dB promedio**).
+2. Usa el **Clip Gain / Volume** de cada clip para igualar bloques que suenan distinto.
+3. Marca en el timeline los puntos donde la voz baja (cabeza girada, lejos del mic) y sube solo esos tramos.
+
+### Paso 3: ecualiza la voz para que se entienda
+
+En la página **Fairlight** (DaVinci) o el panel de **EQ** (Premiere):
+
+- **Baja frecuencias (80-120 Hz):** corta con un high-pass a **80-100 Hz** para quitar retumbo (rumble).
+- **Presencia (3-5 kHz):** realza **+2 a +3 dB** para inteligibilidad de la voz.
+- **Sibilancia (6-8 kHz):** si la "s" silba, baja suavemente con de-esser o EQ.
+- **Brillantez (8-12 kHz):** un toque de **+1 a +2 dB** si la voz suena apagada.
+
+### Paso 4: comprime para mantener el nivel
+
+El **compresor** evita que los picos griten y que las palabras bajas se pierdan:
+
+- **Umbral (threshold):** -18 dB.
+- **Ratio:** 3:1 o 4:1 para diálogo.
+- **Attack:** 10-30 ms (deja pasar el ataque natural).
+- **Release:** 100-200 ms.
+- **Gain makeup:** +3 a +6 dB para compensar la reducción.
+
+### Paso 5: aplica ducking automático a la música
+
+El **ducking** baja la música automáticamente cuando alguien habla:
+
+1. En Fairlight, abre el **bus de música**.
+2. Añade un **Ducker** y selecciona como fuente el bus de diálogo.
+3. Configura reducción de **-8 a -12 dB** y release suave (200 ms) para que no se note el "bombeco".
+
+### Conclusión
+
+Una mezcla correcta es: diálogo claro, música que no estorba, y efectos que acompañan sin gritar. Fija los niveles base, ecualiza la voz, comprime con suavidad y deja que el ducking haga el trabajo. Con estos valores, tu video sonará profesional en cualquier dispositivo.
+
+**Referencia:** estándares de mezcla para broadcast y niveles de diálogo según las guías de Fairlight (Blackmagic) y Adobe Audition, 2026.`,
+    contentEn: `### Audio is 50% of the experience
+
+Viewers forgive imperfect images, never bad audio. The mix — levels, EQ, compression, music — separates amateur from pro. Here are the exact values.
+
+**Step 1 - Base levels (dB):** dialogue peaks -6 to -3, average near -12; background music -24 to -18; sound effects -12 to -8; silence -60 or less. Dialogue always wins.
+
+**Step 2 - Normalize:** normalize dialogue to ~-12 dB average, use clip gain to even out blocks, boost only the quiet sections.
+
+**Step 3 - EQ the voice:** high-pass at 80-100 Hz to remove rumble, +2 to +3 dB presence at 3-5 kHz, tame sibilance at 6-8 kHz, slight +1 to +2 dB at 8-12 kHz if dull.
+
+**Step 4 - Compress:** threshold -18 dB, ratio 3:1 or 4:1, attack 10-30ms, release 100-200ms, makeup +3 to +6 dB.
+
+**Step 5 - Duck the music:** set up a ducker on the music bus triggered by dialogue, with -8 to -12 dB reduction and soft release.
+
+A correct mix: clear dialogue, music that stays out of the way, effects that accompany without shouting.`,
+    date: '2026-08-04',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1200&h=630&fit=crop',
+    imageCaption: 'Mezcla de audio: niveles, EQ y compresión para un video profesional. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '218',
+    contentType: 'analysis',
+    slug: 'tutorial-normalizacion-lufs-loudness',
+    titleEs: 'Normalización de volumen LUFS: exporta con el nivel correcto para cada plataforma',
+    titleEn: 'LUFS loudness normalization: export at the right level for every platform',
+    excerptEs: '¿Por qué tu video suena más bajo que los demás en YouTube? La respuesta son los LUFS. Aprende qué es la sonoridad, los objetivos por plataforma (YouTube -14, Spotify -14, TV -23, Netflix -12), cómo normalizar con DaVinci Fairlight o Premiere, y evita que te distorsionen el máster.',
+    excerptEn: 'Why does your video sound quieter than others on YouTube? The answer is LUFS. Learn what loudness is, platform targets (YouTube -14, Spotify -14, TV -23, Netflix -12), how to normalize with DaVinci Fairlight or Premiere, and avoid master distortion.',
+    contentEs: `### El volumen no se mide solo en dB
+
+Has exportado tu video y suena más bajo que los demás. No es un capricho del algoritmo: es la **sonoridad (loudness)**, que se mide en **LUFS**. Cada plataforma normaliza el audio a un objetivo, y si exportas fuera de rango, tu video sonará más bajo o se comprimirá mal.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes barx{from{width:0}to{width:var(--w)}}
+.barx{height:22px;animation:barx 1.2s ease-out both}
+.l{font:10px sans-serif;fill:#9ca3af}
+.v{font:9px sans-serif;fill:#fff}
+</style>
+<text x="220" y="24" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">Objetivos de sonoridad por plataforma (LUFS)</text>
+<text class="l" x="15" y="54">YouTube</text>
+<rect class="barx" x="15" y="60" width="200" height="16" rx="3" fill="#f3c14b" style="--w:200px"/>
+<text class="v" x="220" y="72">-14</text>
+<text class="l" x="15" y="94">Spotify</text>
+<rect class="barx" x="15" y="100" width="200" height="16" rx="3" fill="#3b82f6" style="--w:200px"/>
+<text class="v" x="220" y="112">-14</text>
+<text class="l" x="15" y="134">Apple Music</text>
+<rect class="barx" x="15" y="140" width="160" height="16" rx="3" fill="#22c55e" style="--w:160px"/>
+<text class="v" x="180" y="152">-16</text>
+<text class="l" x="15" y="174">TV / Broadcast</text>
+<rect class="barx" x="15" y="180" width="110" height="16" rx="3" fill="#8b5cf6" style="--w:110px"/>
+<text class="v" x="130" y="192">-23</text>
+<text class="l" x="15" y="214">Netflix</text>
+<rect class="barx" x="15" y="220" width="180" height="16" rx="3" fill="#ef4444" style="--w:180px"/>
+<text class="v" x="200" y="232">-12</text>
+</svg>
+
+### Qué son los LUFS (y el LKFS)
+
+Los **LUFS** (Loudness Units Full Scale) miden la **percepción humana del volumen**, promediada en el tiempo, no el pico técnico. Un video puede tener picos altos y sonar "bajo" porque el promedio es débil. Por eso los mezcladores y las plataformas usan LUFS, no solo dB.
+
+### Paso 1: conoce el objetivo de tu plataforma
+
+- **YouTube, Spotify, Podcasts:** **-14 LUFS** (integrado) con picos en **-1 dBTP**.
+- **Apple Music:** **-16 LUFS** (usa Sound Check).
+- **TV / Broadcast (EBU R128):** **-23 LUFS** estándar.
+- **Netflix:** **-12 LUFS** promedio con picos en -2 dBTP.
+- **Instagram / TikTok / Reels:** **-14 a -12 LUFS** (tienden a subir volumen).
+
+> Si tu video es para **YouTube**, el objetivo seguro es **-14 LUFS integrado, picos -1 dBTP**.
+
+### Paso 2: mide tu audio actual
+
+En **DaVinci Resolve (Fairlight)**:
+
+1. Ve a la página **Fairlight**.
+2. En **Fairlight → Bus Format**, asegúrate de que la pista use **+24 dB**.
+3. Reproduce toda la línea de tiempo y abre el medidor: fíjate en el **valor LUFS integrado** (Loudness).
+4. Anota el valor (por ejemplo -8 LUFS = demasiado fuerte).
+
+En **Premiere Pro**:
+
+1. Abre el **Loudness Radar** (Effects → Loudness Radar).
+2. Reproduce la línea de tiempo completa; el medidor muestra **Integrated, True Peak y Range**.
+
+### Paso 3: normaliza con un normalizador de loudness
+
+**En Fairlight:**
+
+1. Crea un **bus Master** y añade un **Normalizer** (o Loudness Meter).
+2. Configura el **target: -14 LUFS** y **true peak: -1 dBTP**.
+3. El normalizador ajusta el gain automáticamente al renderizar.
+
+**En Premiere:**
+
+1. Añade **Normalizer** (Audio Effects → Normalizer) al bus master.
+2. Introduce el valor **-14 LUFS** y picos **-1.0 dB**.
+
+### Paso 4: ajusta antes de normalizar (no al revés)
+
+La normalización **mueve todo el volumen hacia arriba o abajo sin cambiar la mezcla** —no arregla una mezcla mala, solo la alinea al objetivo. Por eso:
+
+1. Primero **mezcla bien** (niveles relativos correctos).
+2. Luego normaliza al objetivo LUFS de la plataforma.
+3. Si el normalizador sube demasiado y aparecen picos, baja el **gain del máster** 2-3 dB.
+
+### Paso 5: verifica antes de exportar
+
+- **Integrated LUFS:** dentro de ±0.5 LUFS del objetivo.
+- **True peak:** **por debajo de -1 dBTP** (evita clip en móviles y plataformas).
+- **Rango (LRA):** menos de 15 LU es ideal para música; el diálogo puede ser mayor.
+
+### Conclusión
+
+El secreto de un video que "suena bien en todas partes" no es subir el volumen a tope: es **apuntar al LUFS correcto** de cada plataforma y mantener picos controlados. Mide, normaliza y verifica. Tu audiencia —y tus oídos— lo notarán.
+
+**Referencia:** especificaciones de sonoridad de YouTube, Spotify, Netflix y EBU R128 (2026).`,
+    contentEn: `### Loudness isn't measured only in dB
+
+Your exported video sounds quieter than others. It's **loudness**, measured in **LUFS**. Each platform normalizes audio to a target; export out of range and your video sounds lower or gets compressed badly.
+
+**What LUFS are:** they measure the *perceptual* volume averaged over time, not the technical peak.
+
+**Step 1 - Platform targets:** YouTube/Spotify/podcasts -14 LUFS with -1 dBTP peaks; Apple Music -16; TV/broadcast (EBU R128) -23; Netflix -12 with -2 dBTP; Instagram/TikTok -14 to -12.
+
+**Step 2 - Measure:** In DaVinci Fairlight, play the full timeline and read the integrated LUFS. In Premiere, open the Loudness Radar effect.
+
+**Step 3 - Normalize:** Add a Normalizer on the master bus, set -14 LUFS target and -1 dBTP true peak. It adjusts gain automatically on render.
+
+**Step 4 - Mix first, normalize second:** normalization moves everything together; it doesn't fix a bad mix. If peaks appear, lower master gain 2-3 dB.
+
+**Step 5 - Verify:** integrated LUFS within ±0.5 of target, true peak below -1 dBTP, LRA under 15 LU for music.
+
+Aim at the correct LUFS per platform with controlled peaks, and your video will sound great everywhere.`,
+    date: '2026-08-04',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1200&h=630&fit=crop',
+    imageCaption: 'Normalización LUFS: exporta con la sonoridad correcta para cada plataforma. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '219',
+    contentType: 'analysis',
+    slug: 'tutorial-speed-ramps-time-remapping',
+    titleEs: 'Speed ramps y time remapping: cómo dominar la cámara lenta y rápida en edición',
+    titleEn: 'Speed ramps and time remapping: how to master slow and fast motion in editing',
+    excerptEs: 'Los speed ramps (aceleraciones y desaceleraciones suaves) dan ese look cinematográfico a deportes, reels y trailers. Aprende la diferencia entre speed ramp y time remapping, los valores óptimos por tipo de toma, el flujo de fotogramas (optical flow) y el uso de keyframes en DaVinci Resolve y Premiere Pro.',
+    excerptEn: 'Speed ramps (smooth accelerations and decelerations) give that cinematic look to sports, reels and trailers. Learn the difference between speed ramp and time remapping, optimal values per shot type, optical flow, and keyframing in DaVinci Resolve and Premiere Pro.',
+    contentEs: `### Cuando el tiempo se convierte en herramienta
+
+Una pelota que entra en cámara lenta, un correo que acelera de golpe, una transición que desacelera en el punto clave: los **speed ramps** y el **time remapping** convierten el tiempo en una herramienta narrativa. Son el look favorito de deportes, trailers y contenido viral.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes dash{from{stroke-dashoffset:800}to{stroke-dashoffset:0}}
+.curve{stroke-dasharray:800;animation:dash 2.2s ease-out forwards}
+.dot{animation:dot 2.2s linear forwards}
+@keyframes dotm{0%{cx:40}45%{cx:230}55%{cx:230}100%{cx:420}}
+.dotm{animation:dotm 2.2s ease-in-out forwards}
+</style>
+<line x1="40" y1="210" x2="420" y2="210" stroke="#374151" stroke-width="1"/>
+<line x1="40" y1="210" x2="40" y2="40" stroke="#374151" stroke-width="1"/>
+<text x="30" y="50" font-size="9" fill="#6b7280" text-anchor="end">100%</text>
+<text x="30" y="135" font-size="9" fill="#6b7280" text-anchor="end">40%</text>
+<text x="30" y="215" font-size="9" fill="#6b7280" text-anchor="end">0</text>
+<text x="430" y="214" font-size="9" fill="#6b7280" text-anchor="end">t</text>
+<path class="curve" d="M40 60 C 150 60, 200 150, 230 150 S 320 60, 420 60" fill="none" stroke="#f3c14b" stroke-width="2.5"/>
+<circle class="dotm" cx="40" cy="60" r="5" fill="#ef4444"/>
+<text x="230" y="228" font-size="10" fill="#9ca3af" text-anchor="middle" font-family="sans-serif">Curva de velocidad: normal → cámara lenta → normal (dip clásico)</text>
+</svg>
+
+### Qué son (y la diferencia)
+
+- **Speed ramp:** un **cambio de velocidad suave** dentro de un clip (lento → rápido → lento). Se dibuja con una curva de keyframes.
+- **Time remapping:** el **reajuste temporal total** de un clip (cámara lenta, aceleración, reversa, congelación), controlado por keyframes de velocidad y *freeze frames*.
+- **Cámara lenta:** velocidad reducida (40% = 0.4x). Requiere **alta tasa de fotogramas** al grabar (60, 120, 240 fps) para que se vea fluida.
+
+### Paso 1: valores óptimos según la toma
+
+- **Deporte / acción:** rampa desde **100% a 20-25%** en el impacto y vuelve a 100%.
+- **Trailers / reels:** entrada **rápida (150-200%)** y desaceleración **hasta 30-40%** en el clímax.
+- **Transiciones entre escenas:** desacelerar el clip de salida a **50%** y acelerar el de entrada desde **50%**.
+- **Detalle de producto:** cámara lenta **25-40%** sobre el gesto clave.
+
+> Para cámara lenta fluida, graba a **60 fps** mínimo y compón en línea de tiempo de **24 o 25 fps** (2.4x-2.5x de margen).
+
+### Paso 2: aplica la rampa en DaVinci Resolve
+
+1. Selecciona el clip en la línea de tiempo.
+2. Abre el **Inspector** y busca **Retime** (Velocidad).
+3. Cambia el **Retime Process** a **Optical Flow** para movimientos suaves.
+4. Clic derecho en el clip → **Retime Controls → Speed Points**.
+5. Añade un punto de velocidad, arrastra la línea hacia abajo (más lento) o arriba (más rápido) y usa el **tirador de suavizado** (curve) para que el cambio no sea brusco.
+
+### Paso 3: aplica la rampa en Premiere Pro
+
+1. Selecciona el clip.
+2. Clic derecho → **Speed/Duration** para un valor fijo.
+3. Para un ramp real: **Rate Stretch Tool (R)** arrastra el borde del clip para estirarlo, o usa **Time Remapping** (icono de reloj en el clip).
+4. Añade keyframes de velocidad con **Ctrl+clic** en la línea de velocidad del clip.
+5. Arrastra cada keyframe hacia arriba/abajo y **separa los keyframes** (arrastra con Alt) para crear la curva.
+6. En **Interpolation**, elige **Ease In / Ease Out** para un ramp suave.
+
+### Paso 4: activa el optical flow
+
+El **optical flow** calcula fotogramas intermedios y evita el "jaloneo" en cámara lenta:
+
+- **DaVinci Resolve:** Retime Process → **Optical Flow** → activa **Enhanced** (más calidad).
+- **Premiere Pro:** en el clip, activa **Time Interpolation → Optical Flow**.
+- Aplica solo si tu material tiene suficiente resolución; el procesado tarda más al exportar.
+
+### Paso 5: errores típicos
+
+| Error | Solución |
+|-------|----------|
+| Cámara lenta "saltarina" | Graba a 60+ fps o usa Optical Flow |
+| Rampa brusca | Separa keyframes y usa Ease In/Out |
+| Se nota el cambio de velocidad | Que el punto de giro coincida con un golpe de música o acción |
+| Desenfoque en clips rápidos | Disminuye la aceleración o usa shutter angle adecuado |
+
+### Conclusión
+
+El speed ramp no es un efecto decorativo: es **intención narrativa**. Graba con alta tasa de fotogramas, construye la curva con keyframes suavizados, activa el optical flow y sincroniza los puntos de giro con la música o la acción. Tu video dejará de ser lineal y pasará a tener ritmo propio.
+
+**Referencia:** técnicas de retime de Blackmagic Design (DaVinci Resolve 19) y Adobe Premiere Pro, 2026.`,
+    contentEn: `### Time becomes a tool
+
+A ball entering in slow motion, a runner accelerating suddenly, a transition slowing at the key point: **speed ramps** and **time remapping** turn time into narrative. The favorite look of sports, trailers and viral content.
+
+**Difference:** a *speed ramp* is a smooth speed change within a clip (slow→fast→slow); *time remapping* is full temporal control (slow-mo, acceleration, reverse, freeze) via velocity keyframes.
+
+**Step 1 - Optimal values:** sports ramp 100%→20-25% at impact; trailers fast in (150-200%) then down to 30-40%; transitions decelerate to 50% and accelerate from 50%; product detail 25-40%. Shoot 60 fps minimum for smooth slow-mo.
+
+**Step 2 - DaVinci:** select clip → Inspector → Retime → Optical Flow. Right-click → Retime Controls → Speed Points, drag the line and smooth the curve.
+
+**Step 3 - Premiere:** right-click Speed/Duration, or use Rate Stretch Tool / Time Remapping with Ctrl+click velocity keyframes, separate them with Alt, and use Ease In/Out interpolation.
+
+**Step 4 - Optical flow:** DaVinci Retime Process → Optical Flow (Enhanced); Premiere Time Interpolation → Optical Flow. Only if resolution allows.
+
+**Step 5 - Fixes:** jumpy slow-mo (shoot 60+ fps or optical flow), abrupt ramp (separate keyframes + ease), noticeable speed change (align with music/action beat).
+
+A speed ramp is narrative intention. Shoot high frame rates, build smooth keyframe curves, enable optical flow, and sync turning points with music or action.`,
+    date: '2026-08-04',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?w=1200&h=630&fit=crop',
+    imageCaption: 'Speed ramp: cámara lenta y aceleración con curvas de velocidad. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '220',
+    contentType: 'analysis',
+    slug: 'tutorial-lower-thirds-titulos-animados',
+    titleEs: 'Lower thirds y títulos animados: rotulación profesional para tus videos',
+    titleEn: 'Lower thirds and animated titles: professional captioning for your videos',
+    excerptEs: 'Los lower thirds (rótulos inferiores) identifican personas y lugares con elegancia. Aprende los principios de legibilidad, tamaño, tiempo en pantalla, animación de entrada/salida y cómo crearlos con el Fusion de DaVinci Resolve o los Essential Graphics de Premiere Pro.',
+    excerptEn: 'Lower thirds identify people and places with elegance. Learn legibility principles, size, on-screen time, entrance/exit animation and how to build them with DaVinci Resolve Fusion or Premiere Pro Essential Graphics.',
+    contentEs: `### El rótulo que nadie nota (pero todos leen)
+
+Los **lower thirds** son esos rótulos que dicen el nombre y cargo de una persona, o el lugar donde estás. Bien hechos, pasan desapercibidos; mal hechos, delatan al aficionado. Esta es la guía para rotular como lo hacen los noticieros.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes slidein{from{transform:translateX(-30px);opacity:0}to{transform:translateX(0);opacity:1}}
+.slide{animation:slidein .8s ease-out both}
+@keyframes s2{from{transform:translateX(-30px);opacity:0}to{transform:translateX(0);opacity:1}}
+.s2{animation:s2 .8s ease-out .3s both}
+</style>
+<rect x="15" y="15" width="430" height="130" rx="6" fill="#10131a" stroke="#1f2937"/>
+<rect x="15" y="145" width="430" height="80" rx="6" fill="#10131a" stroke="#1f2937"/>
+<circle cx="45" cy="55" r="18" fill="#2b3240"/>
+<rect x="70" y="42" width="130" height="10" rx="3" fill="#3b82f6"/>
+<rect x="70" y="58" width="90" height="8" rx="3" fill="#1f2937"/>
+<g class="slide"><rect x="40" y="170" width="6" height="36" fill="#f3c14b"/><rect x="54" y="178" width="120" height="12" rx="2" fill="#f3c14b"/><rect x="54" y="196" width="80" height="8" rx="2" fill="#1f2937"/></g>
+<text x="230" y="140" font-size="9" fill="#9ca3af" text-anchor="middle" font-family="sans-serif">Pantalla: foto del invitado + texto</text>
+<text x="230" y="238" font-size="9" fill="#9ca3af" text-anchor="middle" font-family="sans-serif">Lower third clásico: nombre (dorado) + cargo (gris)</text>
+</svg>
+
+### Paso 1: define el contenido mínimo
+
+El lower third debe ser **breve y legible**. Mínimo indispensable:
+
+- **Nombre** de la persona (o título del lugar).
+- **Cargo o función** (máximo 2 líneas cortas).
+- Opcional: **logo** del programa o canal (esquina).
+
+> Nunca escribas una frase completa en un rótulo: si necesitas más de 6 palabras, es un texto, no un lower third.
+
+### Paso 2: aplica las reglas de legibilidad
+
+- **Tamaño de fuente:** nunca menor a **28 px** en un lienzo 1080p (proporcional a tu resolución).
+- **Contraste:** texto **blanco o dorado** sobre fondo oscuro, o con **sombra/outline** sobre imagen.
+- **Márgenes:** deja al menos **5% del ancho** de borde en cada lado (zona segura para TV).
+- **Duración:** **4-8 segundos** en pantalla; 6 s es el estándar para entrevistas.
+- **Tiempo de entrada:** entra **0.5-1 s después** de que la persona empiece a hablar, para no tapar el inicio.
+
+### Paso 3: anima la entrada y salida
+
+La animación correcta es **sutil** (150-300 ms):
+
+- **Entrada:** deslizamiento horizontal desde la izquierda (con easing out) + fade del 20% de opacidad.
+- **Salida:** fade out suave o deslizamiento inverso.
+- Evita zooms, rebotes y rotaciones: en rotulación, menos es más.
+
+### Paso 4: créalo en DaVinci Resolve (Fusion)
+
+1. En la página **Edit**, coloca el cursor sobre el clip donde quieres el rótulo.
+2. Shift+Espacio → busca **Title** o ve a **Effects → Titles → Text+**.
+3. Arrastra el título a una **pista V2** encima del video.
+4. En **Inspector**, escribe el nombre y el cargo en **Text**.
+5. En **Transform**, anímalo: keyframe del **Position X** de -200 a 0 con easing, y **Opacity** de 0 a 100%.
+6. Para el dorado institucional, usa un **color #F3C14B** o un degradado.
+
+### Paso 5: créalo en Premiere Pro (Essential Graphics)
+
+1. Ve a **Graphics → Essential Graphics**.
+2. Selecciona una plantilla de **lower third** o crea una desde cero con **Text Tool (T)**.
+3. Escribe el texto en dos líneas (nombre / cargo).
+4. En **Essential Graphics**, ajusta tipografía, tamaño y color.
+5. Anima con el panel **Effects Controls**: Position + Opacity con keyframes y **Ease Out**.
+6. Guarda como **plantilla de motion graphic (.mogrt)** para reutilizarla en todos tus videos.
+
+### Paso 6: errores que delatan
+
+| Error | Solución |
+|-------|----------|
+| Texto demasiado pequeño | Mínimo 28 px en 1080p |
+| Dura demasiado en pantalla | Máximo 8 s |
+| Entra antes que hable la persona | Retrasa la entrada 0.5-1 s |
+| Colores que se pierden en la imagen | Añade sombra, outline o fondo semitransparente |
+| Fuentes distintas en cada video | Define una **plantilla .mogrt** reutilizable |
+
+### Conclusión
+
+Un buen lower third es invisible: aparece justo cuando lo necesitas, se lee en un vistazo y no estorba a la imagen. Define una plantilla con nombre, cargo, colores institucionales y animación sutil, y úsala siempre. La consistencia es la firma del profesional.
+
+**Referencia:** principios de rotulación y zonas seguras de broadcast (EBU/SMPTE) y plantillas de Blackmagic Fusion / Adobe Premiere, 2026.`,
+    contentEn: `### The caption nobody notices (but everyone reads)
+
+**Lower thirds** identify people and places. Done well they go unnoticed; done badly they betray the amateur.
+
+**Step 1 - Minimal content:** name + title/role (max 2 short lines), optional program logo. Never a full sentence.
+
+**Step 2 - Legibility rules:** font size never below 28px on a 1080p canvas; white or gold text over dark, or with shadow/outline; 5% safe margins; on-screen 4-8s (6s standard); enter 0.5-1s after the person starts speaking.
+
+**Step 3 - Animate subtly:** slide from the left with ease-out + opacity fade, 150-300ms. Avoid zoom, bounce and rotation.
+
+**Step 4 - DaVinci (Fusion):** Effects → Titles → Text+, drag to V2, write name/role, animate Position X and Opacity keyframes with easing, institutional gold #F3C14B.
+
+**Step 5 - Premiere (Essential Graphics):** use a lower third template or Text Tool, adjust typography, animate Position + Opacity with Ease Out, save as .mogrt template.
+
+**Step 6 - Red flags:** tiny text, too long on screen, entering before the person speaks, colors lost in image, different fonts per video.
+
+A good lower third is invisible: appears when needed, reads at a glance, doesn't interfere. Build one consistent template and reuse it everywhere.`,
+    date: '2026-08-04',
+    readTimeEs: '7 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&h=630&fit=crop',
+    imageCaption: 'Lower thirds y títulos animados para rotulación profesional. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '221',
+    contentType: 'analysis',
+    slug: 'tutorial-exportar-youtube-plataformas',
+    titleEs: 'Exportar para YouTube, Instagram y TikTok: la configuración exacta por plataforma',
+    titleEn: 'Export for YouTube, Instagram and TikTok: the exact settings per platform',
+    excerptEs: 'Cada plataforma tiene su configuración ideal de exportación: códec, resolución, bitrate, fotogramas y color. Aprende la guía exacta para YouTube (4K HDR), Instagram Reels (9:16), TikTok y WhatsApp, con valores en Mbps y perfiles de color, para DaVinci Resolve y Premiere Pro.',
+    excerptEn: 'Each platform has its ideal export setup: codec, resolution, bitrate, frame rate and color. Learn the exact guide for YouTube (4K HDR), Instagram Reels (9:16), TikTok and WhatsApp, with Mbps values and color profiles, for DaVinci Resolve and Premiere Pro.',
+    contentEs: `### Cada plataforma es un idioma distinto
+
+Un mismo video exportado igual se ve bien en una plataforma y mal en otra: bitrate, resolución, fotogramas y perfil de color importan. Esta es la guía exacta de exportación que aplico para YouTube, Instagram, TikTok y WhatsApp.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes barw{from{width:0}to{width:var(--w)}}
+.bw{animation:barw 1.3s ease-out both}
+.t{font:10px sans-serif;fill:#9ca3af}
+.va{font:9px sans-serif;fill:#fff}
+</style>
+<text x="220" y="24" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">Bitrate de video recomendado (Mbps)</text>
+<text class="t" x="15" y="54">YouTube 1080p</text>
+<rect class="bw" x="15" y="60" width="100" height="14" rx="3" fill="#ef4444" style="--w:100px"/>
+<text class="va" x="120" y="71">8-12</text>
+<text class="t" x="15" y="94">YouTube 4K</text>
+<rect class="bw" x="15" y="100" width="230" height="14" rx="3" fill="#f3c14b" style="--w:230px"/>
+<text class="va" x="250" y="111">35-45</text>
+<text class="t" x="15" y="134">Instagram/TikTok</text>
+<rect class="bw" x="15" y="140" width="150" height="14" rx="3" fill="#22c55e" style="--w:150px"/>
+<text class="va" x="170" y="151">12-18</text>
+<text class="t" x="15" y="174">WhatsApp</text>
+<rect class="bw" x="15" y="180" width="90" height="14" rx="3" fill="#3b82f6" style="--w:90px"/>
+<text class="va" x="110" y="191">6-10</text>
+<text class="t" x="15" y="214">Broadcast TV</text>
+<rect class="bw" x="15" y="220" width="180" height="14" rx="3" fill="#8b5cf6" style="--w:180px"/>
+<text class="va" x="200" y="231">18-20</text>
+</svg>
+
+### Paso 1: la configuración base universal
+
+En **toda** exportación usa:
+
+- **Formato:** MP4 (contenedor .mp4).
+- **Códec de video:** **H.264** (para máxima compatibilidad) o **H.265/HEVC** (menor tamaño, misma calidad, para 4K).
+- **Códec de audio:** **AAC**, 48 kHz, 256 kbps (o 320 kbps).
+- **Frame rate:** el de tu proyecto (24, 25 o 30 fps); no lo cambies al exportar.
+- **Perfil de color:** **Rec.709** (SDR) a menos que uses HDR.
+
+### Paso 2: exporta para YouTube
+
+- **Resolución:** 1080p mínimo; **4K (2160p)** si grabaste en 4K (mejor calidad de compresión en YouTube).
+- **Bitrate 1080p:** **8-12 Mbps**.
+- **Bitrate 4K:** **35-45 Mbps**.
+- **Frame rate:** respeta el original (24/25/30/60). YouTube soporta 60 fps.
+- **HDR:** si grabaste HDR, exporta con **HLG** o **PQ (HDR10)** y YouTube lo detectará.
+- **Audio:** **AAC 256 kbps**, normalizado a **-14 LUFS**.
+
+### Paso 3: exporta para Instagram y TikTok
+
+Estos son los **verticales (9:16)**:
+
+- **Resolución:** 1080x1920 (o 2160x3840 para máximo detalle).
+- **Bitrate:** **12-18 Mbps**.
+- **Duración:** Reels hasta 90 s (2026); TikTok hasta 10 min para videos largos.
+- **Formato:** MP4 H.264, AAC.
+- **Consejo:** deja **margen seguro** (10%) arriba y abajo para las UI de la app (me gusta, comentarios).
+
+### Paso 4: exporta para WhatsApp y web
+
+- **Resolución:** 720p o 1080p.
+- **Bitrate:** **6-10 Mbps** (WhatsApp comprime mucho; no subas demasiado o se verá peor).
+- **Duración recomendada:** clips de 1-3 minutos.
+- **Formato:** MP4 H.264 — máximo compatible con móviles.
+
+### Paso 5: la página Deliver de DaVinci Resolve
+
+1. Ve a **Deliver** (pestaña final).
+2. En **Custom**, elige **MP4 / H.264**.
+3. Configura: resolución, **frame rate**, bitrate (**Automatic** o manual según la plataforma).
+4. Activa **Render at source resolution** para máxima calidad.
+5. En **Audio**, elige **AAC** y sube a 256 kbps.
+6. Clic **Add to Render Queue** → **Start Render**.
+
+### Paso 6: la ventana de exportación de Premiere
+
+1. **File → Export → Media** (o **Ctrl+M**).
+2. Formato: **H.264**, preset **Match Source** o **YouTube 1080p/4K**.
+3. En **Video**, elige resolución, bitrate (VBR 2 pass, target según plataforma) y nivel de perfil **High**.
+4. En **Audio**, AAC 256 kbps.
+5. Marca **Use Maximum Render Quality**.
+6. Exporta y verifica con **Media Encoder** si tienes cola de renders.
+
+### Conclusión
+
+Exportar bien es saber **qué prioriza cada plataforma**: YouTube quiere calidad y resolución; Instagram y TikTok quieren verticales optimizados; WhatsApp quiere compatibilidad. Configura el bitrate y formato correctos una vez, guarda los presets, y tu video se verá nítido en todas partes.
+
+**Referencia:** especificaciones oficiales de codificación de YouTube, Instagram y TikTok (2026).`,
+    contentEn: `### Every platform is a different language
+
+The same video exported identically looks great on one platform and bad on another: bitrate, resolution, frame rate and color profile matter.
+
+**Step 1 - Universal base:** MP4 container, H.264 codec (H.265/HEVC for 4K), AAC audio 48kHz 256kbps, project frame rate, Rec.709 color.
+
+**Step 2 - YouTube:** 1080p minimum (4K preferred for better compression), bitrate 8-12 Mbps (1080p) or 35-45 (4K), preserve frame rate, HLG/PQ for HDR, audio -14 LUFS.
+
+**Step 3 - Instagram/TikTok:** vertical 9:16, 1080x1920, bitrate 12-18 Mbps, Reels up to 90s, safe margins for UI.
+
+**Step 4 - WhatsApp/web:** 720p-1080p, bitrate 6-10 Mbps (they compress a lot), MP4 H.264 for maximum compatibility.
+
+**Step 5 - DaVinci Deliver:** Custom → MP4/H.264, set resolution/bitrate, render at source resolution, AAC 256kbps.
+
+**Step 6 - Premiere:** File → Export → Media, H.264, Match Source or YouTube preset, VBR 2-pass, High profile, Maximum Render Quality.
+
+Export well by knowing each platform's priority: YouTube wants quality, Instagram/TikTok optimized verticals, WhatsApp compatibility. Save your presets and your video will look sharp everywhere.`,
+    date: '2026-08-04',
+    readTimeEs: '9 min de lectura',
+    readTimeEn: '8 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&h=630&fit=crop',
+    imageCaption: 'Exportación por plataforma: la configuración exacta para cada red social. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
+  {
+    id: '222',
+    contentType: 'analysis',
+    slug: 'tutorial-codecs-bitrates-h264-hevc',
+    titleEs: 'Códecs y bitrates de video explicados: H.264 vs H.265 vs AV1 y cómo elegir',
+    titleEn: 'Video codecs and bitrates explained: H.264 vs H.265 vs AV1 and how to choose',
+    excerptEs: '¿Qué códec debo usar al exportar? H.264, H.265/HEVC y AV1 comprimen distinto. Aprende qué es un códec, por qué el bitrate importa, las ventajas y desventajas de cada uno, cuándo usar cuál, y los valores de bitrate recomendados por resolución en DaVinci Resolve y Premiere.',
+    excerptEn: 'Which codec should I use when exporting? H.264, H.265/HEVC and AV1 compress differently. Learn what a codec is, why bitrate matters, pros and cons of each, when to use which, and recommended bitrates per resolution in DaVinci Resolve and Premiere.',
+    contentEs: `### El códec es el idioma de tu video
+
+Cuando exportas, el códec decide **cuánto pesa el archivo, cuánta calidad conserva y qué dispositivos pueden reproducirlo**. H.264, H.265/HEVC y AV1 son los protagonistas, y elegir mal puede arruinar tu video o hacerlo inaccesible.
+
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;background:#0d1117;border-radius:12px">
+<style>
+@keyframes box{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.bx{transform-origin:bottom;animation:box 1.2s ease-out both}
+@keyframes bn{from{opacity:0}to{opacity:1}}
+.bn{opacity:0;animation:bn .8s ease-out .8s forwards}
+.lb{font:10px sans-serif;fill:#9ca3af;text-anchor:middle}
+</style>
+<line x1="30" y1="210" x2="410" y2="210" stroke="#374151" stroke-width="1"/>
+<text x="220" y="22" font-size="11" fill="#f3c14b" text-anchor="middle" font-family="sans-serif" font-weight="bold">Eficiencia de compresión (menor = mejor, mismo bitrate)</text>
+<rect class="bx" x="40" y="40" width="60" height="170" fill="#ef4444" rx="4"/>
+<rect class="bx" x="140" y="80" width="60" height="130" fill="#3b82f6" rx="4"/>
+<rect class="bx" x="240" y="110" width="60" height="100" fill="#22c55e" rx="4"/>
+<rect class="bx" x="340" y="140" width="60" height="70" fill="#f59e0b" rx="4"/>
+<text class="bn" x="70" y="34" font-size="10" fill="#fff" text-anchor="middle">100%</text>
+<text class="bn" x="170" y="74" font-size="10" fill="#fff" text-anchor="middle">~60%</text>
+<text class="bn" x="270" y="104" font-size="10" fill="#fff" text-anchor="middle">~50%</text>
+<text class="bn" x="370" y="134" font-size="10" fill="#fff" text-anchor="middle">~40%</text>
+<text class="lb" x="70" y="222">H.264</text>
+<text class="lb" x="170" y="222">H.265</text>
+<text class="lb" x="270" y="222">AV1</text>
+<text class="lb" x="370" y="222">VVC</text>
+</svg>
+
+### Qué es un códec (en 30 segundos)
+
+Un **códec** (coder-decoder) comprime el video: guarda solo lo que cambia entre fotogramas y descarta lo que el ojo no nota. A menor bitrate con misma calidad, **mejor compresión**. Los tres grandes:
+
+- **H.264 (AVC):** el estándar universal. Compatible con todo: móviles, TV, WhatsApp, YouTube. Grande pero seguro.
+- **H.265/HEVC:** la mitad de tamaño que H.264 con calidad similar. Compatible con dispositivos modernos (iPhone, Android, TV 4K), pero no todos los navegadores.
+- **AV1:** el nuevo estándar abierto (Google, Netflix). Excelente compresión, requiere hardware o software compatible.
+
+### Paso 1: elige por destino
+
+- **YouTube / Vimeo:** H.264 (sube 1080p) o H.265 (4K, menos peso). YouTube re-codifica igual, así que prioriza calidad.
+- **Instagram / TikTok / WhatsApp:** **H.264 siempre** — máxima compatibilidad con la app.
+- **Archivo propio / máster:** **H.265 o AV1** si tu equipo lo reproduce; o exporta también un máster sin pérdida (ProRes/DNxHR) para futuras re-ediciones.
+- **Televisión / broadcast:** H.264 en **perfil High 4:2:2** o ProRes/DNxHR.
+
+### Paso 2: elige el bitrate por resolución
+
+| Resolución | H.264 (Mbps) | H.265 (Mbps) | AV1 (Mbps) |
+|-----------|-------------|-------------|-----------|
+| 720p | 5-8 | 3-5 | 2-4 |
+| 1080p | 8-12 | 5-8 | 3-5 |
+| 1440p (2K) | 16-24 | 9-14 | 6-9 |
+| 2160p (4K) | 35-45 | 18-25 | 12-18 |
+
+> El bitrate es un equilibrio: **muy bajo = bloques (artefactos)**, **muy alto = archivo enorme** sin mejora visible.
+
+### Paso 3: configura el códec en DaVinci Resolve
+
+1. Ve a **Deliver**.
+2. En formato, elige **MP4**.
+3. En **Codec**: **H.264** (compatibilidad) o **H.265** (menor peso).
+4. Bitrate: **Automatic** para Vimeo/YouTube, o manual según la tabla.
+5. En **Advanced**, activa **Hardware encoding** si tu GPU lo soporta (render mucho más rápido).
+
+### Paso 4: configura el códec en Premiere Pro
+
+1. **File → Export → Media**.
+2. Formato **H.264** (o **HEVC** en el menú desplegable).
+3. **Performance:** Hardware Encoding (si tu GPU lo soporta).
+4. **Bitrate Settings:** VBR, **2 pass**, target según la tabla.
+5. **Profile:** High, **Level:** el del formato (4.1 para 1080p, 5.1/5.2 para 4K).
+
+### Paso 5: errores típicos y soluciones
+
+| Problema | Solución |
+|----------|----------|
+| El archivo "pesa" muchísimo | Baja el bitrate a la mitad del valor máximo de la tabla |
+| El video se ve con bloques en movimiento | Sube el bitrate 20-30% en escenas con acción |
+| No se reproduce en el celular de alguien | Cambia a H.264 (máxima compatibilidad) |
+| Render lento con H.265 | Activa hardware encoding o usa H.264 |
+| En 4K el video se ve mal en YouTube | Sube a H.265 con bitrate 35-45 Mbps antes de que YouTube re-codifique |
+
+### Conclusión
+
+Elegir códec no es fe ni moda: es **matchear el destino**. H.264 para redes y compatibilidad universal, H.265 para 4K y archivo, AV1 para máxima eficiencia en plataformas modernas. Usa la tabla de bitrates por resolución y guarda tus presets. Tu video llegará nítido y con el peso justo.
+
+**Referencia:** especificaciones de códecs de YouTube, Apple (HEVC) y AOM (AV1), 2026.`,
+    contentEn: `### The codec is your video's language
+
+When exporting, the codec decides **file size, quality retained and which devices can play it**. H.264, H.265/HEVC and AV1 are the main actors — choosing wrong can ruin your video or make it inaccessible.
+
+**What a codec is:** it compresses video, keeping only what changes between frames and what the eye doesn't notice. Better compression = same quality at lower bitrate.
+
+- **H.264:** the universal standard — everything plays it. Big but safe.
+- **H.265/HEVC:** half the size of H.264 with similar quality. Modern devices, not all browsers.
+- **AV1:** open standard (Google, Netflix). Excellent compression, needs compatible hardware/software.
+
+**Step 1 - Choose by destination:** YouTube H.264/H.265; Instagram/TikTok/WhatsApp always H.264; master file H.265/AV1 or lossless (ProRes/DNxHR); broadcast H.264 High 4:2:2.
+
+**Step 2 - Bitrate per resolution (H.264 / H.265 / AV1):** 720p 5-8/3-5/2-4; 1080p 8-12/5-8/3-5; 1440p 16-24/9-14/6-9; 4K 35-45/18-25/12-18 Mbps.
+
+**Step 3 - DaVinci:** Deliver → MP4 → H.264 or H.265, manual bitrate, enable hardware encoding.
+
+**Step 4 - Premiere:** Export Media → H.264 or HEVC, hardware encoding, VBR 2-pass, High profile, correct level.
+
+**Step 5 - Fixes:** huge files (halve bitrate), blocky motion (raise 20-30% for action), won't play on phone (use H.264), slow H.265 render (hardware encoding).
+
+Match the codec to the destination, use the bitrate table by resolution, and save your presets.`,
+    date: '2026-08-04',
+    readTimeEs: '8 min de lectura',
+    readTimeEn: '7 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=630&fit=crop',
+    imageCaption: 'Códecs de video: H.264, H.265 y AV1 explicados con bitrates por resolución. Foto referencial: Unsplash',
+    categoryEs: 'Tutoriales',
+    categoryEn: 'Tutorials',
+    enableComments: true,
+    featured: false,
+    views: 1
+  },
       // ============================================================
       // FIN DE NOTICIAS
     ];

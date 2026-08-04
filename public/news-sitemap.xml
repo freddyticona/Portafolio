@@ -3,6 +3,146 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/blog/tutorial-cortes-invisibles-j-l-cut</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Cortes invisibles en video: cómo dominar el J-cut y el L-cut en tus ediciones</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-match-cut-ritmo-montaje</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Match cut y ritmo de montaje: cómo construir secuencias que atrapan</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-b-roll-cutaways-cobertura</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>B-roll y cutaways: la cobertura invisible que salva cualquier entrevista</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-cobertura-multicam-sincronizacion</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Edición multicámara: cómo sincronizar y cortar con varias cámaras como un profesional</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-mezcla-audio-video-niveles</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Mezcla de audio para video: niveles, ecualización y compresión para diálogo y música</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-normalizacion-lufs-loudness</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Normalización de volumen LUFS: exporta con el nivel correcto para cada plataforma</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-speed-ramps-time-remapping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Speed ramps y time remapping: cómo dominar la cámara lenta y rápida en edición</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-lower-thirds-titulos-animados</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Lower thirds y títulos animados: rotulación profesional para tus videos</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-exportar-youtube-plataformas</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Exportar para YouTube, Instagram y TikTok: la configuración exacta por plataforma</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/tutorial-codecs-bitrates-h264-hevc</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04</news:publication_date>
+      <news:title>Códecs y bitrates de video explicados: H.264 vs H.265 vs AV1 y cómo elegir</news:title>
+      <news:keywords>Tutoriales</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/sarampion-la-paz-vacunacion-masiva-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
