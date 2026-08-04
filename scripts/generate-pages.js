@@ -64,6 +64,13 @@ const pages = {
     desc: 'Galería de fotos de coberturas periodísticas, documentales y producciones televisivas de Freddy Ticona en toda Bolivia.',
     path: '/galeria'
   },
+  'showreel': {
+    title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
+    desc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación 4K.',
+    ogTitle: 'Showreel Audiovisual de Freddy Ticona | Camarógrafo Bolivia',
+    path: '/showreel',
+    video: true
+  },
   'servicios': {
     title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
     desc: 'Contrata servicios profesionales de filmación 4K, edición de video, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cotiza tu proyecto.',
@@ -182,6 +189,34 @@ for (const [key, meta] of Object.entries(pages)) {
     <link rel="alternate" hreflang="x-default" href="${esUrl}" />
   </head>`
   );
+
+  // VideoObject JSON-LD para la página dedicada del showreel
+  if (meta.video) {
+    const videoSchema = `{
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Freddy Ticona Guzmán - Showreel Audiovisual 2026",
+      "description": "Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia.",
+      "thumbnailUrl": "https://img.youtube.com/vi/MK4au-qQcsw/hqdefault.jpg",
+      "uploadDate": "2026-07-01",
+      "embedUrl": "https://www.youtube.com/embed/MK4au-qQcsw",
+      "contentUrl": "https://www.youtube.com/watch?v=MK4au-qQcsw",
+      "author": {
+        "@type": "Person",
+        "name": "Freddy Ticona Guzmán",
+        "url": "${SITE}/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Freddy Ticona - Servicios Audiovisuales",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "${SITE}/favicon.ico"
+        }
+      }
+    }`;
+    html = html.replace('</head>', `    <script type="application/ld+json">${videoSchema}</script>\n  </head>`);
+  }
 
   // Write the file
   if (key === '') {

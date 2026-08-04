@@ -19,7 +19,7 @@ export interface SEOMetadata {
   description: string;
   keywords: string[];
   ogImage?: string;
-  ogType?: 'website' | 'article';
+  ogType?: 'website' | 'article' | 'video.other';
   canonical?: string;
   noIndex?: boolean;
 }
@@ -154,6 +154,22 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
       description: 'Updated step-by-step guides for government procedures in Bolivia: SEGIP ID card, SOAT insurance, driver license, passport, NIT tax ID, RUAT vehicle registry, birth certificate, police records and visa for foreigners.',
       keywords: ['Bolivia procedures guide', 'SEGIP ID card', 'SOAT Bolivia 2026', 'Bolivia driver license', 'Bolivia passport', 'NIT Bolivia', 'Bolivia visa', 'police records Bolivia', 'birth certificate Bolivia'],
     }
+  },
+  showreel: {
+    es: {
+      title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
+      description: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación y edición en Bolivia.',
+      keywords: ['showreel camarógrafo', 'showreel audiovisual Bolivia', 'video camarógrafo Freddy Ticona', 'filmación 4K Bolivia', 'demostración edición video', 'showreel realizador'],
+      ogType: 'video.other',
+      ogImage: 'https://img.youtube.com/vi/MK4au-qQcsw/hqdefault.jpg',
+    },
+    en: {
+      title: 'Audiovisual Showreel | Freddy Ticona Cameraman Bolivia | 4K Filming',
+      description: 'Professional showreel by Freddy Ticona Guzmán: documentaries, frontline journalistic coverage, TV productions and international projects. More than 15 years of filming and editing experience in Bolivia.',
+      keywords: ['cameraman showreel', 'audiovisual showreel Bolivia', 'Freddy Ticona cameraman video', '4K filming Bolivia', 'video editor showreel', 'filmmaker showreel'],
+      ogType: 'video.other',
+      ogImage: 'https://img.youtube.com/vi/MK4au-qQcsw/hqdefault.jpg',
+    }
   }
 };
 
@@ -197,6 +213,15 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
   }
   canonicalLink.href = canonicalUrl;
   updateOrCreateMetaTag('property', 'og:url', canonicalUrl);
+
+  // og:video para la página dedicada del showreel
+  if (pageId === 'showreel') {
+    updateOrCreateMetaTag('property', 'og:video', 'https://www.youtube.com/watch?v=MK4au-qQcsw');
+    updateOrCreateMetaTag('property', 'og:video:type', 'text/html');
+    updateOrCreateMetaTag('property', 'og:video:secure_url', 'https://www.youtube.com/embed/MK4au-qQcsw');
+    updateOrCreateMetaTag('property', 'og:video:width', '1280');
+    updateOrCreateMetaTag('property', 'og:video:height', '720');
+  }
 
   // hreflang para i18n (SEO multilanguage)
   updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'es', `${SITE_CONFIG.url}${pagePath}`);

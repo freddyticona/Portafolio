@@ -14940,6 +14940,14 @@ export const translations = {
     heroCtaCv: 'Ver CV Completo',
     heroShowreelTitle: 'Audiovisual Showreel',
 
+    showreelPageTitle: 'Showreel | Camarógrafo Freddy Ticona | Filmación en Bolivia',
+    showreelPageEyebrow: 'Showreel 2026',
+    showreelPageHeading: 'Showreel Audiovisual Profesional',
+    showreelPageLead: 'Selección de lo mejor de más de 15 años de carrera: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales.',
+    showreelPageCtaPortfolio: 'Ver Portafolio Completo',
+    showreelPageMetaTitle: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia',
+    showreelPageMetaDesc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística y producciones televisivas en Bolivia. Más de 15 años de experiencia en filmación 4K.',
+
     quickStatsTitle: 'Trayectoria Destacada',
     statYears: 'Años de Experiencia',
     statChannels: 'Canales de TV',
@@ -15081,6 +15089,14 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
     heroCtaPortfolio: 'View Portfolio',
     heroCtaCv: 'View Full CV',
     heroShowreelTitle: 'Audiovisual Showreel',
+
+    showreelPageTitle: 'Showreel | Cameraman Freddy Ticona | Filming in Bolivia',
+    showreelPageEyebrow: '2026 Showreel',
+    showreelPageHeading: 'Professional Audiovisual Showreel',
+    showreelPageLead: 'A selection of the best from over 15 years of career: documentaries, frontline journalistic coverage, TV productions and international projects.',
+    showreelPageCtaPortfolio: 'View Full Portfolio',
+    showreelPageMetaTitle: 'Audiovisual Showreel | Freddy Ticona Cameraman Bolivia',
+    showreelPageMetaDesc: 'Professional showreel by Freddy Ticona Guzmán: documentaries, journalistic coverage and TV productions in Bolivia. More than 15 years of 4K filming experience.',
 
     quickStatsTitle: 'Key Highlights',
     statYears: 'Years of Experience',

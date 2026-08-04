@@ -150,6 +150,19 @@ export default function HomePage({
                 </div>
               )}
             </div>
+            <div className="flex items-center justify-between mt-3 px-2">
+              <span className="text-[10px] font-mono text-stone-500 uppercase tracking-widest">
+                {lang === 'es' ? 'Página dedicada con el video completo' : 'Dedicated page with the full video'}
+              </span>
+              <button
+                onClick={() => handleNavToTab('showreel')}
+                aria-label={lang === 'es' ? 'Ver showreel completo' : 'View full showreel'}
+                className="inline-flex items-center gap-1 text-xs font-mono font-bold text-gold hover:text-gold-hover hover:translate-x-1 transition-all duration-300 cursor-pointer"
+              >
+                {lang === 'es' ? 'Ver Showreel' : 'View Showreel'}
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
           </div>
         </div>
       </section>

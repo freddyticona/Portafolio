@@ -24,7 +24,7 @@ import type { FilterState } from './components/PortfolioFilters';
 
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import { CONTACT_INFO } from './config';
+import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags } from './lib/seo';
 import { useGsapAnimations } from './hooks/useGsapAnimations';
 import CustomCursor from './components/CustomCursor';
@@ -48,6 +48,7 @@ const BlogPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.
 const NoticiasPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.NoticiasPage })));
 const GuiasPage = lazy(() => import('./pages/GuiasPage'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
+const ShowreelPage = lazy(() => import('./pages/ShowreelPage'));
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
 const ServicesPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ServicesPage })));
@@ -169,7 +170,7 @@ export default function App() {
       const pageStr = parts[0] || 'inicio';
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
-        'blog', 'guias', 'galeria', 'contacto', 'reservas', 'servicios', 'admin',
+        'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
@@ -205,7 +206,19 @@ export default function App() {
 
   // ─── SEO: actualizar meta tags en cada cambio de página/idioma ───────────
   useEffect(() => {
-    updateMetaTags(activePage, lang);
+    const additionalData =
+      activePage === 'showreel'
+        ? {
+            video: {
+              title: 'Freddy Ticona Guzmán - Showreel Audiovisual 2026',
+              description:
+                'Showreel profesional de Freddy Ticona Guzmán. Documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación y edición.',
+              videoId: YOUTUBE_VIDEOS.showreel,
+              uploadDate: '2026-07-01',
+            },
+          }
+        : undefined;
+    updateMetaTags(activePage, lang, additionalData);
   }, [activePage, lang]);
 
   // ─── GSAP Animations (scroll reveal, counters, etc.) ────────────────────
@@ -306,6 +319,8 @@ export default function App() {
           );
         case 'galeria':
           return <GalleryPage lang={lang} t={t} />;
+        case 'showreel':
+          return <ShowreelPage lang={lang} t={t} handleNavToTab={handleNavToTab} />;
         case 'contacto':
           return <ContactPage lang={lang} t={t} />;
         case 'reservas':
