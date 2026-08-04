@@ -23,9 +23,8 @@ describe('generateHomeStructuredData', () => {
     expect(person.name).toBe('Freddy Ticona Guzmán');
   });
 
-  it('includes VideoObject schema', () => {
+  it('does not include VideoObject schema (showreel is click-to-play, not a video display page)', () => {
     const video = data['@graph'].find((item: any) => item['@type'] === 'VideoObject');
-    expect(video).toBeDefined();
-    expect(video.contentUrl).toContain('youtube.com');
+    expect(video).toBeUndefined();
   });
 });

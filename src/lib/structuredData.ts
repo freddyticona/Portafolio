@@ -113,34 +113,7 @@ export function generateHomeStructuredData(): object {
     '@context': 'https://schema.org',
     '@graph': [
       PERSON_DATA,
-      BUSINESS_DATA,
-      {
-        '@type': 'VideoObject',
-        '@id': `${BASE_URL}/#showreel`,
-        name: 'Showreel Freddy Ticona - Camarógrafo Profesional Bolivia',
-        description: 'Showreel profesional destacando 15 años de experiencia en cinematografía, documentales y cobertura periodística en Bolivia. Filmación profesional, edición y producción audiovisual en La Paz.',
-        thumbnailUrl: [
-          `${BASE_URL}/images/freddy_studio.webp`,
-          `${BASE_URL}/images/freddy_profile.webp`
-        ],
-        uploadDate: '2026-07-20',
-        duration: 'PT90S',
-        contentUrl: 'https://www.youtube.com/watch?v=MK4au-qQcsw',
-        embedUrl: 'https://www.youtube.com/embed/MK4au-qQcsw',
-        interactionStatistic: {
-          '@type': 'InteractionCounter',
-          interactionType: { '@type': 'WatchAction' },
-          userInteractionCount: 150
-        },
-        regionsAllowed: 'BO',
-        requiresSubscription: false,
-        inLanguage: 'es',
-        publication: {
-          '@type': 'BroadcastEvent',
-          isLiveBroadcast: false,
-          startDate: '2026-07-20T10:00:00-04:00'
-        }
-      }
+      BUSINESS_DATA
     ]
   };
 }
