@@ -101,10 +101,10 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
       title: lang === 'es' ? 'Preguntas Frecuentes' : 'Frequently Asked Questions',
       items: [
         {
-          qEs: '¿Cuánto tiempo toma la edición?',
-          qEn: 'How long does editing take?',
-          aEs: 'Eventos sociales: 2-3 días. Corporativos: 5-7 días. Documentales: según proyecto.',
-          aEn: 'Social events: 2-3 days. Corporate: 5-7 days. Documentaries: project-based.'
+          qEs: '¿Cuánto tiempo toma la entrega?',
+          qEn: 'How long does delivery take?',
+          aEs: 'El material finalizado se entrega en un plazo de 3 a 5 días hábiles posteriores a la conclusión de la grabación o recepción del material.',
+          aEn: 'The finished material is delivered within 3 to 5 business days after the shooting is complete or the material is received.'
         },
         {
           qEs: '¿Viajas a otras ciudades?',
@@ -115,8 +115,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
         {
           qEs: '¿Qué incluye el precio?',
           qEn: 'What does the price include?',
-          aEs: 'Filmación, edición básica, música licenciada y entregas en formatos digitales.',
-          aEn: 'Filming, basic editing, licensed music and digital format deliveries.'
+          aEs: 'Cada tarifa incluye preproducción, grabación multicámara Full HD (2 cámaras Nikon D5100), audio profesional inalámbrico, edición, corrección de color y entrega final en MP4 (H.264).',
+          aEn: 'Each rate includes pre-production, multi-camera Full HD shooting (2 Nikon D5100 cameras), professional wireless audio, editing, color correction and final delivery in MP4 (H.264).'
         }
       ]
     }
@@ -195,8 +195,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
           </h2>
           <p className="text-stone-400 max-w-2xl mx-auto">
             {lang === 'es'
-              ? 'Soluciones audiovisuales profesionales para cada necesidad. Contáctame para una cotización personalizada.'
-              : 'Professional audiovisual solutions for every need. Contact me for a personalized quote.'}
+              ? 'Precio cerrado por producto entregado. Cada tarifa incluye preproducción, grabación multicámara en Full HD (2 cámaras Nikon D5100), audio profesional, edición, corrección de color y entrega final. Contáctame para una cotización personalizada.'
+              : 'Fixed price per delivered product. Each rate includes pre-production, multi-camera Full HD shooting (2 Nikon D5100 cameras), professional audio, editing, color correction and final delivery. Contact me for a personalized quote.'}
           </p>
         </div>
 

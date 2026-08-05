@@ -128,315 +128,414 @@ export const APP_CONFIG = {
  */
 export const SERVICES_PRICING = [
   {
-    id: 'filmacion-basica',
-    type: 'filmacion',
-    nameEs: 'Filmación Básica',
-    nameEn: 'Basic Filming',
-    descriptionEs: 'Servicio de filmación con camarógrafo profesional y doble cámara Nikon D5100 Full HD.',
-    descriptionEn: 'Professional filming service with cameraman and dual Nikon D5100 Full HD cameras.',
-    basePrice: 500,
-    currency: 'BOB',
-    duration: '2 horas',
-    featuresEs: [
-      'Camarógrafo profesional',
-      '2 cámaras Nikon D5100 Full HD',
-      'Grabación de audio inalámbrico',
-      'Entrega en 48 horas',
-      '1 revisión incluida'
-    ],
-    featuresEn: [
-      'Professional cameraman',
-      '2 Nikon D5100 Full HD cameras',
-      'Wireless audio recording',
-      '48-hour delivery',
-      '1 revision included'
-    ],
-    icon: 'Camera'
-  },
-  {
-    id: 'filmacion-completa',
-    type: 'filmacion',
-    nameEs: 'Filmación Completa',
-    nameEn: 'Full Filming',
-    descriptionEs: 'Paquete completo con camarógrafo, asistente y doble cámara Nikon D5100 para coberturas institucionales.',
-    descriptionEn: 'Complete package with cameraman, assistant and dual Nikon D5100 cameras for institutional coverage.',
+    id: 'video-historia-de-vida',
+    type: 'video',
+    nameEs: 'Video Historia de Vida',
+    nameEn: 'Life Story Video',
+    descriptionEs: 'Grabación multicámara de entrevistas y material de apoyo con narrativa emotiva e impacto humano. Audio con micrófono inalámbrico.',
+    descriptionEn: 'Multi-camera interviews and supporting footage with an emotional narrative and human impact. Wireless microphone audio.',
     basePrice: 1200,
     currency: 'BOB',
-    duration: '4 horas',
-    popular: true,
+    duration: 'video Full HD 1080p (2-3 min)',
     featuresEs: [
-      'Camarógrafo + Asistente',
-      '2 cámaras Nikon D5100 Full HD',
-      'Audio inalámbrico multi-canal',
-      'Entrega en 72 horas',
-      '2 revisiones incluidas'
+      'Grabación multicámara (2 cámaras Nikon D5100)',
+      'Entrevistas en profundidad',
+      'B-roll y material de apoyo',
+      'Audio con micrófono inalámbrico',
+      'Entrega en 3-5 días hábiles'
     ],
     featuresEn: [
-      'Cameraman + Assistant',
-      '2 Nikon D5100 Full HD cameras',
-      'Multi-channel wireless audio',
-      '72-hour delivery',
-      '2 revisions included'
-    ],
-    icon: 'Video'
-  },
-  {
-    id: 'edicion-basica',
-    type: 'edicion',
-    nameEs: 'Edición Básica',
-    nameEn: 'Basic Editing',
-    descriptionEs: 'Edición de video con cortes, transiciones básicas y corrección de color.',
-    descriptionEn: 'Video editing with cuts, basic transitions and color correction.',
-    basePrice: 300,
-    currency: 'BOB',
-    duration: 'por minuto de video',
-    featuresEs: [
-      'Corte y ensamble',
-      'Transiciones suaves',
-      'Corrección de color básica',
-      'Audio mixing',
-      'Export en múltiples formatos'
-    ],
-    featuresEn: [
-      'Cut and assembly',
-      'Smooth transitions',
-      'Basic color correction',
-      'Audio mixing',
-      'Multi-format export'
-    ],
-    icon: 'Scissors'
-  },
-  {
-    id: 'edicion-profesional',
-    type: 'edicion',
-    nameEs: 'Edición Profesional',
-    nameEn: 'Professional Editing',
-    descriptionEs: 'Edición avanzada con motion graphics, efectos especiales y masterización.',
-    descriptionEn: 'Advanced editing with motion graphics, special effects and mastering.',
-    basePrice: 600,
-    currency: 'BOB',
-    duration: 'por minuto de video',
-    popular: true,
-    featuresEs: [
-      'Todo lo de edición básica',
-      'Motion graphics',
-      'Efectos visuales',
-      'Color grading profesional',
-      'Sound design',
-      'Versión para redes sociales'
-    ],
-    featuresEn: [
-      'All basic editing features',
-      'Motion graphics',
-      'Visual effects',
-      'Professional color grading',
-      'Sound design',
-      'Social media version'
-    ],
-    icon: 'Wrench'
-  },
-  {
-    id: 'documental-corto',
-    type: 'documental',
-    nameEs: 'Documental Corto',
-    nameEn: 'Short Documentary',
-    descriptionEs: 'Producción de documental corto de hasta 15 minutos con investigación y guion.',
-    descriptionEn: 'Short documentary production up to 15 minutes with research and script.',
-    basePrice: 3500,
-    currency: 'BOB',
-    duration: '2 semanas',
-    featuresEs: [
-      'Investigación y guion',
-      'Filmación en locación',
-      'Entrevistas con audio profesional',
-      'B-roll cinematográfico',
-      'Narración profesional',
-      'Edición completa',
-      'Música con licencia'
-    ],
-    featuresEn: [
-      'Research and script',
-      'Location filming',
-      'Interviews with professional audio',
-      'Cinematic B-roll',
-      'Professional narration',
-      'Complete editing',
-      'Licensed music'
-    ],
-    icon: 'Film'
-  },
-  {
-    id: 'documental-completo',
-    type: 'documental',
-    nameEs: 'Documental Completo',
-    nameEn: 'Full Documentary',
-    descriptionEs: 'Producción de documental completo de 30-60 minutos con posproducción profesional.',
-    descriptionEn: 'Full documentary production 30-60 minutes with professional post-production.',
-    basePrice: 8000,
-    currency: 'BOB',
-    duration: '4-6 semanas',
-    popular: true,
-    featuresEs: [
-      'Todo lo de documental corto',
-      'Hasta 60 minutos finales',
-      'Producción multi-locación',
-      'Grabación de audio profesional',
-      'Color grading cinematográfico',
-      'Sound design completo',
-      'Mezcla 5.1 surround',
-      'Distribución en múltiples plataformas'
-    ],
-    featuresEn: [
-      'All short documentary features',
-      'Up to 60 final minutes',
-      'Multi-location production',
-      'Professional audio recording',
-      'Cinematic color grading',
-      'Complete sound design',
-      '5.1 surround mix',
-      'Multi-platform distribution'
-    ],
-    icon: 'Clapperboard'
-  },
-  {
-    id: 'consultoria',
-    type: 'consultoria',
-    nameEs: 'Consultoría Técnica',
-    nameEn: 'Technical Consulting',
-    descriptionEs: 'Asesoría especializada en producción, equipo o técnicas de filmación.',
-    descriptionEn: 'Specialized consulting on production, equipment or filming techniques.',
-    basePrice: 200,
-    currency: 'BOB',
-    duration: 'por hora',
-    featuresEs: [
-      'Asesoría personalizada',
-      'Revisión de equipo',
-      'Recomendaciones técnicas',
-      'Capacitación',
-      'Soporte por email'
-    ],
-    featuresEn: [
-      'Personalized consulting',
-      'Equipment review',
-      'Technical recommendations',
-      'Training',
-      'Email support'
-    ],
-    icon: 'MessageCircle'
-  },
-  {
-    id: 'cobertura-evento',
-    type: 'cobertura',
-    nameEs: 'Cobertura de Evento',
-    nameEn: 'Event Coverage',
-    descriptionEs: 'Cobertura completa de eventos (conferencias, conciertos, ceremonias).',
-    descriptionEn: 'Complete event coverage (conferences, concerts, ceremonies).',
-    basePrice: 1500,
-    currency: 'BOB',
-    duration: 'por evento (hasta 6 horas)',
-    popular: true,
-    featuresEs: [
-      '2 camarógrafos (doble cámara Nikon D5100)',
-      'Audio del evento',
-      'Highlight reel',
-      'Entrega completa en 1 semana'
-    ],
-    featuresEn: [
-      '2 cameramen (dual Nikon D5100 cameras)',
-      'Event audio',
-      'Highlight reel',
-      'Complete delivery in 1 week'
-    ],
-    icon: 'Radio'
-  },
-  {
-    id: 'paquete-corporativo',
-    type: 'paquete-completo',
-    nameEs: 'Paquete Corporativo',
-    nameEn: 'Corporate Package',
-    descriptionEs: 'Solución completa para empresas: videos corporativos, capacitaciones y eventos.',
-    descriptionEn: 'Complete solution for companies: corporate videos, trainings and events.',
-    basePrice: 5000,
-    currency: 'BOB',
-    duration: 'por mes',
-    featuresEs: [
-      'Hasta 4 videos por mes',
-      'Filmación en locación',
-      'Edición completa',
-      'Graficado corporativo',
-      'Gestión de proyecto dedicada',
-      'Almacenamiento en la nube',
-      'Revisiones ilimitadas'
-    ],
-    featuresEn: [
-      'Up to 4 videos per month',
-      'Location filming',
-      'Complete editing',
-      'Corporate graphics',
-      'Dedicated project management',
-      'Cloud storage',
-      'Unlimited revisions'
-    ],
-    icon: 'Briefcase'
-  },
-  {
-    id: 'paquete-wedding',
-    type: 'paquete-completo',
-    nameEs: 'Paquete Wedding/Boda',
-    nameEn: 'Wedding Package',
-    descriptionEs: 'Cobertura cinematográfica completa de bodas y eventos especiales.',
-    descriptionEn: 'Complete cinematic coverage of weddings and special events.',
-    basePrice: 3000,
-    currency: 'BOB',
-    duration: 'por evento',
-    popular: true,
-    featuresEs: [
-      'Filmación de 8 horas',
-      '2 camarógrafos',
-      'Edición cinemática',
-      'Highlight reel de 3-5 min',
-      'Video completo',
-      'Tráiler en 48 horas',
-      'Música con licencia'
-    ],
-    featuresEn: [
-      '8 hours filming',
-      '2 cameramen',
-      'Cinematic editing',
-      '3-5 min highlight reel',
-      'Full video',
-      '48-hour trailer',
-      'Licensed music'
+      'Multi-camera shooting (2 Nikon D5100 cameras)',
+      'In-depth interviews',
+      'B-roll and supporting footage',
+      'Wireless microphone audio',
+      'Delivery in 3-5 business days'
     ],
     icon: 'Heart'
   },
   {
-    id: 'corresponsal-prensa',
-    type: 'prensa',
-    nameEs: 'Corresponsal de Prensa Independiente',
-    nameEn: 'Independent Press Correspondent',
-    descriptionEs: 'Cobertura periodística y reportería freelance para agencias, medios internacionales y plataformas digitales. Disponible para asignaciones urgentes, corresponsalía en La Paz y desplazamientos a todo Bolivia.',
-    descriptionEn: 'Press coverage and freelance reporting for agencies, international media and digital platforms. Available for urgent assignments, La Paz correspondent coverage and travel throughout Bolivia.',
-    basePrice: 800,
+    id: 'cobertura-evento',
+    type: 'video',
+    nameEs: 'Cobertura de Evento',
+    nameEn: 'Event Coverage',
+    descriptionEs: 'Registro multicámara de actividades, eventos institucionales o talleres con edición dinámica y testimonios.',
+    descriptionEn: 'Multi-camera coverage of activities, institutional events or workshops with dynamic editing and testimonials.',
+    basePrice: 850,
     currency: 'BOB',
-    duration: 'por jornada (8 horas)',
+    duration: 'video Full HD 1080p (2-3 min)',
     featuresEs: [
-      'Cobertura de prensa en terreno',
-      'Crónica y nota periodística escrita',
-      'Foto y video para agencias',
-      'Edición express para nota informativa',
-      'Disponibilidad inmediata para urgencias',
-      'Desplazamiento a todo Bolivia'
+      '2 cámaras simultáneas (Nikon D5100)',
+      'Testimonios de participantes',
+      'Edición dinámica con música',
+      'Textos y gráfica institucional',
+      'Entrega en 3-5 días hábiles'
     ],
     featuresEn: [
-      'On-the-ground press coverage',
-      'Written articles and press notes',
-      'Photo and video for agencies',
-      'Express editing for news pieces',
-      'Immediate availability for urgent assignments',
-      'Travel throughout Bolivia'
+      '2 simultaneous cameras (Nikon D5100)',
+      'Participant testimonials',
+      'Dynamic editing with music',
+      'Institutional text and graphics',
+      'Delivery in 3-5 business days'
+    ],
+    icon: 'Radio'
+  },
+  {
+    id: 'video-noticioso',
+    type: 'video',
+    nameEs: 'Video Noticioso / Cápsula Ágil',
+    nameEn: 'News Video / Quick Capsule',
+    descriptionEs: 'Cobertura periodística rápida y edición ágil optimizada para redes sociales. Audio con micrófono inalámbrico.',
+    descriptionEn: 'Fast press coverage and agile editing optimized for social media. Wireless microphone audio.',
+    basePrice: 650,
+    currency: 'BOB',
+    duration: 'cápsula Full HD 1080p (1-2 min)',
+    featuresEs: [
+      'Grabación rápida de 1 entrevista principal',
+      '2-3 tomas de apoyo',
+      'Cortes directos y titulares en pantalla',
+      'Música de fondo',
+      'Optimizado para Facebook, Instagram y WhatsApp'
+    ],
+    featuresEn: [
+      'Quick shooting of 1 main interview',
+      '2-3 supporting shots',
+      'Direct cuts and on-screen headlines',
+      'Background music',
+      'Optimized for Facebook, Instagram and WhatsApp'
     ],
     icon: 'Newspaper'
+  },
+  {
+    id: 'noticiero-corporativo',
+    type: 'video',
+    nameEs: 'Noticiero Corporativo',
+    nameEn: 'Corporate Newscast',
+    descriptionEs: 'Gestión y montaje multicámara de clips de distintas sedes con identidad y gráfica corporativa.',
+    descriptionEn: 'Multi-camera management and editing of clips from different locations with corporate identity and graphics.',
+    basePrice: 1100,
+    currency: 'BOB',
+    duration: 'video Full HD 1080p (3-5 min)',
+    featuresEs: [
+      'Montaje de material de varias sedes',
+      'Titulares animados con identidad corporativa',
+      'Separadores de sección',
+      'Música corporativa y logo',
+      'Entrega en 3-5 días hábiles'
+    ],
+    featuresEn: [
+      'Editing of footage from multiple locations',
+      'Animated headlines with corporate identity',
+      'Section dividers',
+      'Corporate music and logo',
+      'Delivery in 3-5 business days'
+    ],
+    icon: 'Briefcase'
+  },
+  {
+    id: 'reportaje-impacto',
+    type: 'video',
+    nameEs: 'Reportaje Audiovisual de Impacto',
+    nameEn: 'Impact Audiovisual Report',
+    descriptionEs: 'Producción en profundidad con guionismo, investigación visual y rodaje multicámara. Audio profesional inalámbrico.',
+    descriptionEn: 'In-depth production with scriptwriting, visual research and multi-camera shooting. Professional wireless audio.',
+    basePrice: 2200,
+    currency: 'BOB',
+    duration: 'video Full HD 1080p (3-5 min)',
+    popular: true,
+    featuresEs: [
+      'Preproducción con guion narrativo',
+      '2-3 entrevistas en profundidad',
+      'Cámara en trípode + cámara en movimiento',
+      'B-roll de entorno y detalles',
+      'Narrativa con llamado a la acción',
+      'Apto para TV, YouTube y cooperantes'
+    ],
+    featuresEn: [
+      'Pre-production with narrative script',
+      '2-3 in-depth interviews',
+      'Tripod camera + moving camera',
+      'B-roll of environment and details',
+      'Narrative with call to action',
+      'Suitable for TV, YouTube and donors'
+    ],
+    icon: 'Film'
+  },
+  {
+    id: 'edicion-preexistente',
+    type: 'edicion',
+    nameEs: 'Edición de Material Preexistente',
+    nameEn: 'Editing of Existing Footage',
+    descriptionEs: 'Montaje de video con archivo existente, limpieza de audio, corrección de color y gráficos institucionales.',
+    descriptionEn: 'Video editing with existing footage, audio cleaning, color correction and institutional graphics.',
+    basePrice: 600,
+    currency: 'BOB',
+    duration: 'video Full HD 1080p (2-3 min)',
+    featuresEs: [
+      'Selección y montaje del material',
+      'Limpieza de audio',
+      'Corrección de color',
+      'Titulares y gráfica institucional',
+      'Entrega en 3-5 días hábiles'
+    ],
+    featuresEn: [
+      'Footage selection and editing',
+      'Audio cleaning',
+      'Color correction',
+      'Headlines and institutional graphics',
+      'Delivery in 3-5 business days'
+    ],
+    icon: 'Scissors'
+  },
+  {
+    id: 'cobertura-fotografica',
+    type: 'fotografia',
+    nameEs: 'Cobertura Fotográfica Profesional',
+    nameEn: 'Professional Photo Coverage',
+    descriptionEs: 'Registro fotográfico profesional de eventos o proyectos con sensor CMOS de alta calidad (Nikon D5100, 16.2 MP).',
+    descriptionEn: 'Professional photo coverage of events or projects with high-quality CMOS sensor (Nikon D5100, 16.2 MP).',
+    basePrice: 450,
+    currency: 'BOB',
+    duration: 'pack 20-30 fotos editadas',
+    featuresEs: [
+      'Fotografía de momentos representativos',
+      'Retratos y detalles simbólicos',
+      'Edición de exposición, contraste y color',
+      '20-30 fotos en alta resolución',
+      'Entrega por enlace descargable'
+    ],
+    featuresEn: [
+      'Photography of key moments',
+      'Portraits and symbolic details',
+      'Exposure, contrast and color editing',
+      '20-30 high-resolution photos',
+      'Delivery via download link'
+    ],
+    icon: 'Camera'
+  },
+  {
+    id: 'fotoreportaje-impacto',
+    type: 'fotografia',
+    nameEs: 'Fotoreportaje de Impacto Social',
+    nameEn: 'Social Impact Photo Story',
+    descriptionEs: 'Serie fotográfica narrativa que cuenta una historia visual completa: retratos de familias y su entorno cotidiano.',
+    descriptionEn: 'Narrative photo series telling a complete visual story: portraits of families and their daily environment.',
+    basePrice: 850,
+    currency: 'BOB',
+    duration: 'pack 50 fotos editadas',
+    featuresEs: [
+      'Visita al hogar o comunidad',
+      'Retratos ambientales',
+      'Fotografía de vida cotidiana',
+      'Secuencia con coherencia narrativa',
+      '50 fotos editadas en alta resolución'
+    ],
+    featuresEn: [
+      'Home or community visit',
+      'Environmental portraits',
+      'Everyday life photography',
+      'Sequence with narrative coherence',
+      '50 high-resolution edited photos'
+    ],
+    icon: 'Camera'
+  },
+  {
+    id: 'reel-vertical',
+    type: 'redes',
+    nameEs: 'Reel / Video Vertical para Redes',
+    nameEn: 'Reel / Vertical Video for Social Media',
+    descriptionEs: 'Grabación o edición de contenido vertical optimizado para Instagram Reels, TikTok y Facebook Stories. Incluye música, textos animados y subtítulos.',
+    descriptionEn: 'Shooting or editing of vertical content optimized for Instagram Reels, TikTok and Facebook Stories. Includes music, animated text and subtitles.',
+    basePrice: 300,
+    currency: 'BOB',
+    duration: '1 reel vertical (15-60 seg)',
+    featuresEs: [
+      'Formato vertical 9:16',
+      'Música con buen ritmo',
+      'Textos animados y subtítulos',
+      'Mensaje captado en los primeros 3 segundos',
+      'Listo para Instagram, TikTok y Facebook'
+    ],
+    featuresEn: [
+      'Vertical 9:16 format',
+      'Upbeat music',
+      'Animated text and subtitles',
+      'Message captured in the first 3 seconds',
+      'Ready for Instagram, TikTok and Facebook'
+    ],
+    icon: 'Video'
+  },
+  {
+    id: 'pack-reels-mensual',
+    type: 'redes',
+    nameEs: 'Pack Mensual de Reels (8 piezas)',
+    nameEn: 'Monthly Reels Pack (8 pieces)',
+    descriptionEs: 'Producción mensual de 8 Reels verticales con línea gráfica institucional, subtítulos y música. Ideal para mantener presencia constante en redes.',
+    descriptionEn: 'Monthly production of 8 vertical Reels with institutional graphic line, subtitles and music. Ideal for constant social media presence.',
+    basePrice: 1800,
+    currency: 'BOB',
+    duration: '8 reels/mes',
+    featuresEs: [
+      'Línea gráfica mensual unificada',
+      '2 Reels por semana con temáticas variadas',
+      'Testimonios, datos y efemérides',
+      'Subtítulos y música incluidos',
+      'Entrega semanal o al inicio del mes'
+    ],
+    featuresEn: [
+      'Unified monthly graphic line',
+      '2 Reels per week with varied themes',
+      'Testimonials, data and anniversaries',
+      'Subtitles and music included',
+      'Weekly or monthly delivery'
+    ],
+    icon: 'Video'
+  },
+  {
+    id: 'animacion-ia',
+    type: 'ia',
+    nameEs: 'Animación con IA (pieza individual)',
+    nameEn: 'AI Animation (single piece)',
+    descriptionEs: 'Video animado generado con inteligencia artificial (motion graphics, personajes o escenas ilustradas) con edición y posproducción profesional.',
+    descriptionEn: 'Animated video generated with artificial intelligence (motion graphics, characters or illustrated scenes) with professional editing and post-production.',
+    basePrice: 500,
+    currency: 'BOB',
+    duration: '1 pieza animada (15-30 seg)',
+    featuresEs: [
+      'Escenas animadas generadas con IA',
+      'Narración o voz en off',
+      'Música y textos',
+      'Corrección de color y edición final',
+      'Alto impacto visual'
+    ],
+    featuresEn: [
+      'AI-generated animated scenes',
+      'Narration or voice-over',
+      'Music and text',
+      'Color correction and final editing',
+      'High visual impact'
+    ],
+    icon: 'Wrench'
+  },
+  {
+    id: 'pack-animaciones-ia',
+    type: 'ia',
+    nameEs: 'Pack Animaciones IA para Campaña',
+    nameEn: 'AI Animations Pack for Campaign',
+    descriptionEs: 'Producción de 4 piezas animadas con IA para campañas de sensibilización o difusión, con identidad visual unificada y música.',
+    descriptionEn: 'Production of 4 AI animated pieces for awareness or dissemination campaigns, with unified visual identity and music.',
+    basePrice: 1500,
+    currency: 'BOB',
+    duration: '4 videos animados (15-30 seg c/u)',
+    featuresEs: [
+      'Concepto y identidad visual de campaña',
+      '4 piezas complementarias',
+      'Música, textos y llamado a la acción',
+      'Uso individual o como secuencia',
+      'Ideal para sensibilización y recaudación'
+    ],
+    featuresEn: [
+      'Campaign concept and visual identity',
+      '4 complementary pieces',
+      'Music, text and call to action',
+      'Standalone use or as a sequence',
+      'Ideal for awareness and fundraising'
+    ],
+    icon: 'Wrench'
+  },
+  {
+    id: 'plan-capsulas-difusion',
+    type: 'plan',
+    nameEs: 'PLAN 1: Cápsulas y Difusión Rápida',
+    nameEn: 'PLAN 1: Capsules and Quick Dissemination',
+    descriptionEs: '2 Videos Historias de Vida Full HD + 1 Cobertura Fotográfica Profesional. Precio regular por separado: Bs. 2.850 — Ahorro real: Bs. 500.',
+    descriptionEn: '2 Full HD Life Story Videos + 1 Professional Photo Coverage. Regular price separately: Bs. 2,850 — Real savings: Bs. 500.',
+    basePrice: 2350,
+    currency: 'BOB',
+    duration: 'paquete institucional',
+    featuresEs: [
+      '2 Videos Historias de Vida Full HD (2 x Bs. 1.200)',
+      '1 Cobertura Fotográfica Profesional (Bs. 450)',
+      'Ahorro real de Bs. 500'
+    ],
+    featuresEn: [
+      '2 Full HD Life Story Videos (2 x Bs. 1,200)',
+      '1 Professional Photo Coverage (Bs. 450)',
+      'Real savings of Bs. 500'
+    ],
+    icon: 'Clapperboard'
+  },
+  {
+    id: 'plan-cobertura-impacto',
+    type: 'plan',
+    nameEs: 'PLAN 2: Cobertura e Historias de Impacto',
+    nameEn: 'PLAN 2: Coverage and Impact Stories',
+    descriptionEs: '1 Historia de Vida + 1 Cobertura de Evento + 1 Cápsula + 1 Pack Fotográfico. Precio regular por separado: Bs. 3.150 — Ahorro real: Bs. 650.',
+    descriptionEn: '1 Life Story + 1 Event Coverage + 1 Capsule + 1 Photo Pack. Regular price separately: Bs. 3,150 — Real savings: Bs. 650.',
+    basePrice: 2500,
+    currency: 'BOB',
+    duration: 'paquete institucional',
+    popular: true,
+    featuresEs: [
+      '1 Video Historia de Vida Full HD (Bs. 1.200)',
+      '1 Cobertura de Evento en Video (Bs. 850)',
+      '1 Video Noticioso / Cápsula (Bs. 650)',
+      '1 Pack Fotográfico 30 fotos (Bs. 450)',
+      'Ahorro real de Bs. 650'
+    ],
+    featuresEn: [
+      '1 Full HD Life Story Video (Bs. 1,200)',
+      '1 Event Coverage Video (Bs. 850)',
+      '1 News Video / Capsule (Bs. 650)',
+      '1 Photo Pack 30 photos (Bs. 450)',
+      'Real savings of Bs. 650'
+    ],
+    icon: 'Clapperboard'
+  },
+  {
+    id: 'plan-campana-completa',
+    type: 'plan',
+    nameEs: 'PLAN 3: Campaña Audiovisual Completa',
+    nameEn: 'PLAN 3: Complete Audiovisual Campaign',
+    descriptionEs: '1 Reportaje de Impacto + 2 Historias de Vida + 1 Fotoreportaje 50 fotos. Precio regular por separado: Bs. 5.450 — Ahorro real: Bs. 1.250.',
+    descriptionEn: '1 Impact Report + 2 Life Stories + 1 Photo Story 50 photos. Regular price separately: Bs. 5,450 — Real savings: Bs. 1,250.',
+    basePrice: 4200,
+    currency: 'BOB',
+    duration: 'paquete institucional',
+    featuresEs: [
+      '1 Reportaje Audiovisual de Impacto (Bs. 2.200)',
+      '2 Videos Historias de Vida (2 x Bs. 1.200)',
+      '1 Fotoreportaje de Impacto Social 50 fotos (Bs. 850)',
+      'Ahorro real de Bs. 1.250'
+    ],
+    featuresEn: [
+      '1 Impact Audiovisual Report (Bs. 2,200)',
+      '2 Life Story Videos (2 x Bs. 1,200)',
+      '1 Social Impact Photo Story 50 photos (Bs. 850)',
+      'Real savings of Bs. 1,250'
+    ],
+    icon: 'Clapperboard'
+  },
+  {
+    id: 'plan-redes-animaciones',
+    type: 'plan',
+    nameEs: 'PLAN 4: Redes Sociales + Animaciones IA',
+    nameEn: 'PLAN 4: Social Media + AI Animations',
+    descriptionEs: '1 Pack Mensual de 8 Reels + 4 Animaciones IA para campaña. Precio regular por separado: Bs. 3.300 — Ahorro real: Bs. 500.',
+    descriptionEn: '1 Monthly Pack of 8 Reels + 4 AI Animations for campaign. Regular price separately: Bs. 3,300 — Real savings: Bs. 500.',
+    basePrice: 2800,
+    currency: 'BOB',
+    duration: 'paquete institucional',
+    featuresEs: [
+      '1 Pack Mensual de 8 Reels verticales (Bs. 1.800)',
+      '4 Animaciones con IA para campaña (Bs. 1.500)',
+      'Ahorro real de Bs. 500'
+    ],
+    featuresEn: [
+      '1 Monthly Pack of 8 vertical Reels (Bs. 1,800)',
+      '4 AI Animations for campaign (Bs. 1,500)',
+      'Real savings of Bs. 500'
+    ],
+    icon: 'Clapperboard'
   }
 ] as const;
 
