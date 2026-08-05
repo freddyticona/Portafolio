@@ -191,11 +191,11 @@ export default function CVPage({ lang, t }: CVPageProps) {
 
               <div>
                 <div className="flex justify-between font-mono mb-1">
-                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Pilotaje de Drones (Filmación Aérea 4K)' : 'Drone Operations (4K Aerial Shooting)'}</span>
-                  <span className="text-gold font-bold">85%</span>
+                  <span className="text-stone-300 font-bold">{lang === 'es' ? 'Operación de Cámaras Full HD (Nikon)' : 'Full HD Camera Operations (Nikon)'}</span>
+                  <span className="text-gold font-bold">90%</span>
                 </div>
                 <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
-                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '85%' }} />
+                  <div className="bg-gradient-to-r from-gold/70 to-gold h-full rounded-full" style={{ width: '90%' }} />
                 </div>
               </div>
 

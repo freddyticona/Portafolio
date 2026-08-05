@@ -85,7 +85,7 @@ const KNOWLEDGE_BASE = {
     // Equipment
     equipment: {
       keywords: ['equipo', 'cámara', 'camara', 'equipo', 'tecnología', 'material'],
-      response: 'Trabajo con equipo profesional:\n\n📹 Cámaras Full HD (Sony, Canon)\n💡 Iluminación profesional\n🎙️ Audio de alta calidad\n🖥️ Suite de edición completa\n\n¿Necesitas cobertura para algún evento?',
+      response: 'Trabajo con equipo profesional:\n\n📹 2 cámaras Nikon D5100 Full HD\n🎙️ Audio de alta calidad\n🖥️ Suite de edición completa\n\n¿Necesitas cobertura para algún evento?',
       action: { label: '📹 Filmación', action: 'booking' }
     },
 

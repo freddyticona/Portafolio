@@ -16131,7 +16131,7 @@ Mi evolución profesional me llevó a especializarme en la dirección de fotogra
 
     specialtiesTitle: 'Mis Áreas de Especialidad',
     specCamTitle: 'Dirección de Fotografía y Cámara',
-    specCamDesc: 'Operación avanzada de cámaras de cine digital y transmisión de televisión (Sony FX9/FS7, Panasonic PX270, RED). Composición precisa, iluminación cinematográfica en exteriores e interiores y operación autorizada de drones.',
+    specCamDesc: 'Operación avanzada de cámaras profesionales Full HD (Nikon D5100 y cámara secundaria Nikon), con experiencia en cámaras de cine digital y transmisión de televisión (Sony FX9/FS7, Panasonic PX270, RED). Composición precisa e iluminación cinematográfica en exteriores e interiores.',
     specEditTitle: 'Montaje y Post-Producción',
     specEditDesc: 'Edición ágil de reportajes de investigación y documentales de largo aliento. Dominio experto de Adobe Premiere Pro, Avid Media Composer y DaVinci Resolve para un flujo de color y sonido óptimo.',
     specTechTitle: 'Flujos IP y Ciberseguridad',
@@ -16281,7 +16281,7 @@ My professional growth led me to specialize in documentary cinematography and fr
 
     specialtiesTitle: 'Areas of Expertise',
     specCamTitle: 'Cinematography & Camera Direction',
-    specCamDesc: 'Expert command of digital cinema cameras and live broadcast gear (Sony FX9/FS7, Panasonic PX270, RED). Precise framing, outdoor/indoor cinematic lighting, and licensed drone flight operations.',
+    specCamDesc: 'Expert command of professional Full HD cameras (Nikon D5100 and secondary Nikon body), with experience on digital cinema cameras and live broadcast gear (Sony FX9/FS7, Panasonic PX270, RED). Precise framing and outdoor/indoor cinematic lighting.',
     specEditTitle: 'Editing & Post-Production',
     specEditDesc: 'Fast-paced editing for investigative reporting and long-form cultural documentaries. High proficiency in Adobe Premiere Pro, Avid Media Composer, and DaVinci Resolve for pristine color and sound.',
     specTechTitle: 'IP Workflows & Cybersecurity',

@@ -262,8 +262,8 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
             </h3>
             <p className="text-xs text-stone-400 leading-relaxed font-light">
               {lang === 'es' 
-                ? 'Zona central, La Paz, Bolivia. Operaciones aéreas con dron autorizadas por la DGAC y cobertura en toda la cordillera andina.' 
-                : 'Central district, La Paz, Bolivia. Certified aerial drone operations and coverage across the entire Andean mountain range.'}
+                ? 'Zona central, La Paz, Bolivia. Cobertura en toda la ciudad y desplazamiento a la cordillera andina para proyectos especiales.' 
+                : 'Central district, La Paz, Bolivia. Coverage across the city and travel to the Andean mountain range for special projects.'}
             </p>
           </div>
 

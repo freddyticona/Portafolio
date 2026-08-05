@@ -86,15 +86,15 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
         icon: TrendingUp,
         titleEs: 'Calidad Full HD',
         titleEn: 'Full HD Quality',
-        descEs: 'Equipamiento de última generación',
-        descEn: 'State-of-the-art equipment'
+        descEs: 'Equipo profesional Nikon D5100 doble cámara',
+        descEn: 'Professional dual Nikon D5100 equipment'
       }
     ],
     processTitle: lang === 'es' ? 'Cómo trabajo' : 'How I work',
     processSteps: [
       { step: '1', titleEs: 'Consulta', titleEn: 'Consultation', descEs: 'Discutimos tu proyecto y objetivos', descEn: 'We discuss your project and goals' },
       { step: '2', titleEs: 'Planificación', titleEn: 'Planning', descEs: 'Definimos fechas, locaciones y estrategia', descEn: 'We define dates, locations and strategy' },
-      { step: '3', titleEs: 'Producción', titleEn: 'Production', descEs: 'Rodaje con tecnología profesional', descEn: 'Shooting with professional technology' },
+      { step: '3', titleEs: 'Producción', titleEn: 'Production', descEs: 'Rodaje con doble cámara Nikon D5100 Full HD', descEn: 'Shooting with dual Nikon D5100 Full HD cameras' },
       { step: '4', titleEs: 'Entrega', titleEn: 'Delivery', descEs: 'Recibe tu video en los formatos que necesitas', descEn: 'Receive your video in the formats you need' }
     ],
     faq: {

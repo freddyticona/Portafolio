@@ -132,21 +132,21 @@ export const SERVICES_PRICING = [
     type: 'filmacion',
     nameEs: 'Filmación Básica',
     nameEn: 'Basic Filming',
-    descriptionEs: 'Servicio de filmación con camarógrafo profesional, equipo básico de cámaras y audio.',
-    descriptionEn: 'Professional filming service with cameraman, basic camera and audio equipment.',
+    descriptionEs: 'Servicio de filmación con camarógrafo profesional y doble cámara Nikon D5100 Full HD.',
+    descriptionEn: 'Professional filming service with cameraman and dual Nikon D5100 Full HD cameras.',
     basePrice: 500,
     currency: 'BOB',
     duration: '2 horas',
     featuresEs: [
       'Camarógrafo profesional',
-      'Equipo profesional Full HD',
+      '2 cámaras Nikon D5100 Full HD',
       'Grabación de audio inalámbrico',
       'Entrega en 48 horas',
       '1 revisión incluida'
     ],
     featuresEn: [
       'Professional cameraman',
-      'Full HD professional equipment',
+      '2 Nikon D5100 Full HD cameras',
       'Wireless audio recording',
       '48-hour delivery',
       '1 revision included'
@@ -158,27 +158,23 @@ export const SERVICES_PRICING = [
     type: 'filmacion',
     nameEs: 'Filmación Completa',
     nameEn: 'Full Filming',
-    descriptionEs: 'Paquete completo con camarógrafo, asistente, iluminación profesional y múltiples cámaras.',
-    descriptionEn: 'Complete package with cameraman, assistant, professional lighting and multiple cameras.',
+    descriptionEs: 'Paquete completo con camarógrafo, asistente y doble cámara Nikon D5100 para coberturas institucionales.',
+    descriptionEn: 'Complete package with cameraman, assistant and dual Nikon D5100 cameras for institutional coverage.',
     basePrice: 1200,
     currency: 'BOB',
     duration: '4 horas',
     popular: true,
     featuresEs: [
       'Camarógrafo + Asistente',
-      'Hasta 3 cámaras Full HD',
-      'Iluminación profesional completa',
-      'Audio multi-canal',
-      'Drone (opcional)',
+      '2 cámaras Nikon D5100 Full HD',
+      'Audio inalámbrico multi-canal',
       'Entrega en 72 horas',
       '2 revisiones incluidas'
     ],
     featuresEn: [
       'Cameraman + Assistant',
-      'Up to 3 Full HD cameras',
-      'Complete professional lighting',
-      'Multi-channel audio',
-      'Drone (optional)',
+      '2 Nikon D5100 Full HD cameras',
+      'Multi-channel wireless audio',
       '72-hour delivery',
       '2 revisions included'
     ],
@@ -252,7 +248,7 @@ export const SERVICES_PRICING = [
     featuresEs: [
       'Investigación y guion',
       'Filmación en locación',
-      'Entrevistas con iluminación',
+      'Entrevistas con audio profesional',
       'B-roll cinematográfico',
       'Narración profesional',
       'Edición completa',
@@ -261,7 +257,7 @@ export const SERVICES_PRICING = [
     featuresEn: [
       'Research and script',
       'Location filming',
-      'Interviews with lighting',
+      'Interviews with professional audio',
       'Cinematic B-roll',
       'Professional narration',
       'Complete editing',
@@ -340,18 +336,14 @@ export const SERVICES_PRICING = [
     duration: 'por evento (hasta 6 horas)',
     popular: true,
     featuresEs: [
-      'Hasta 2 camarógrafos',
-      'Equipo profesional múltiple',
+      '2 camarógrafos (doble cámara Nikon D5100)',
       'Audio del evento',
-      'Streaming en vivo (opcional)',
       'Highlight reel',
       'Entrega completa en 1 semana'
     ],
     featuresEn: [
-      'Up to 2 cameramen',
-      'Multiple professional equipment',
+      '2 cameramen (dual Nikon D5100 cameras)',
       'Event audio',
-      'Live streaming (optional)',
       'Highlight reel',
       'Complete delivery in 1 week'
     ],
@@ -401,7 +393,6 @@ export const SERVICES_PRICING = [
     featuresEs: [
       'Filmación de 8 horas',
       '2 camarógrafos',
-      'Drone cinematográfico',
       'Edición cinemática',
       'Highlight reel de 3-5 min',
       'Video completo',
@@ -411,7 +402,6 @@ export const SERVICES_PRICING = [
     featuresEn: [
       '8 hours filming',
       '2 cameramen',
-      'Cinematic drone',
       'Cinematic editing',
       '3-5 min highlight reel',
       'Full video',

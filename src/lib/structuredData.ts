@@ -422,7 +422,7 @@ export function generateFAQStructuredData(): object {
         name: '¿Qué equipos utiliza para filmación?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Utilizo cámaras profesionales Full HD, equipos de iluminación LED, sistemas de audio inalámbricos y drones para tomas aéreas, dependiendo de las necesidades del proyecto.'
+          text: 'Utilizo cámaras profesionales Full HD (Nikon D5100 y cámara secundaria), equipos de iluminación LED y sistemas de audio inalámbricos, dependiendo de las necesidades del proyecto.'
         }
       }
     ]
