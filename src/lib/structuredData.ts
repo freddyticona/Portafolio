@@ -452,7 +452,7 @@ export function injectStructuredData(data: object): void {
  * Función principal para actualizar structured data según página
  */
 export function updatePageStructuredData(pageId: string, additionalData?: any): void {
-  let structuredData: object;
+  let structuredData: object | any[];
 
   switch (pageId) {
     case 'inicio':

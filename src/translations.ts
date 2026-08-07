@@ -3741,6 +3741,16 @@ Con información de: Ministerio de Salud y Deportes.`,
     excerptEn: 'Complete and updated guide to get or renew your Bolivian identity card in 2026. Official requirements, costs, step-by-step in-person process, SEGIP office locations, and how to activate your digital ID on your phone.',
     contentEs: `### Guía Completa: Cédula de Identidad Bolivia 2026
 
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 17 (primera vez, renovación y duplicado) |
+| **Tiempo** | Entrega en 15 a 30 días hábiles |
+| **Vigencia** | Indefinida (no vence) |
+| **Entidad** | SEGIP |
+| **Dónde se tramita** | Oficinas SEGIP + pago en Banco Unión
+
 La **Cédula de Identidad** es el documento de identificación oficial más importante para los ciudadanos bolivianos. Emitida por el **Servicio General de Identificación Personal (SEGIP)**, este documento es obligatorio para realizar trámites bancarios, votar, viajar al interior y exterior del país, y cualquier gestión oficial.
 
 En esta guía encontrarás todo lo que necesitas saber para obtener o renovar tu cédula en 2026: requisitos actualizados, costos vigentes, horarios, ubicaciones y la nueva cédula digital.
@@ -3970,6 +3980,16 @@ Sigue al SEGIP en sus redes para estar al tanto de horarios extraordinarios, cam
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SEGIP antes de realizar tu trámite.`,
     contentEn: `### Complete Guide: Bolivian Identity Card 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 17 (first time, renewal and duplicate) |
+| **Time** | Delivery in 15-30 business days |
+| **Validity** | No expiry |
+| **Entity** | SEGIP |
+| **Where** | SEGIP offices + Banco Unión payment
+
 The **Cédula de Identidad** is the official identification document for Bolivian citizens, issued by **SEGIP** (Servicio General de Identificación Personal). This guide covers everything you need to know to obtain or renew your ID in 2026.
 
 **Requirements by type:**
@@ -4008,8 +4028,8 @@ For more details visit: https://www.segip.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '10 min de lectura',
     readTimeEn: '10 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=1200&h=630&fit=crop',
-    imageCaption: 'La Paz, Bolivia. Foto: Unsplash',
+    imageUrl: '/images/guia/cedula-identidad-segip.jpg',
+    imageCaption: 'Oficina del SEGIP en El Sena, Pando. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4025,6 +4045,16 @@ For more details visit: https://www.segip.gob.bo`,
     excerptEs: 'Guía completa del Seguro Obligatorio de Accidentes de Tránsito (SOAT) en Bolivia para 2026. Precios actualizados por tipo de vehículo, dónde comprarlo, documentos necesarios, multas por no tenerlo y cómo verificar tu póliza en línea.',
     excerptEn: 'Complete guide to the Mandatory Transit Accident Insurance (SOAT) in Bolivia for 2026. Updated prices by vehicle type, where to buy it, required documents, fines, and how to verify your policy online.',
     contentEs: `### Guía Completa: SOAT Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 250 a Bs 4,000 según tipo de vehículo |
+| **Tiempo** | Inmediato (online o en agencia) |
+| **Vigencia** | 1 año |
+| **Entidad** | Aseguradoras autorizadas por la APS |
+| **Dónde se tramita** | Online o en agencias (Unión, BISA, Alianza, etc.)
 
 El **SOAT (Seguro Obligatorio de Accidentes de Tránsito)** es un seguro que todo propietario de vehículo en Bolivia debe contratar anualmente. Cubre gastos médicos y muerte por accidentes de tránsito para ocupantes del vehículo, peatones y terceros afectados.
 
@@ -4147,6 +4177,16 @@ No. El RUAT es obligatorio para adquirir el SOAT. Si no tienes RUAT, debes trami
 > Esta guía fue actualizada en julio de 2026. Los precios y montos pueden variar. Verifica siempre en el sitio oficial de la APS o tu aseguradora.`,
     contentEn: `### Complete Guide: SOAT Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 250 to Bs 4,000 by vehicle type |
+| **Time** | Immediate (online or at agency) |
+| **Validity** | 1 year |
+| **Entity** | Insurers licensed by APS |
+| **Where** | Online or at agencies (Unión, BISA, Alianza, etc.)
+
 The **SOAT (Mandatory Transit Accident Insurance)** is an annual insurance that every vehicle owner in Bolivia must purchase. It covers medical expenses and death from traffic accidents.
 
 **2026 Prices (approximate):**
@@ -4167,8 +4207,8 @@ For more info: https://www.aps.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1200&h=630&fit=crop',
-    imageCaption: 'Automóvil en carretera. Foto: Unsplash',
+    imageUrl: '/images/guia/soat-trafico-lapaz.jpg',
+    imageCaption: 'Tráfico vehicular en La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4184,6 +4224,16 @@ For more info: https://www.aps.gob.bo`,
     excerptEs: 'Guía completa para obtener o renovar tu licencia de conducir en Bolivia. Categorías (A, B, C, D, E, F), requisitos actualizados, costos por categoría, paso a paso de los exámenes médicos, psicológicos, escrito y práctico, y todo sobre el nuevo sistema SEGIP.',
     excerptEn: 'Complete guide to get or renew your driver\'s license in Bolivia. Categories (A, B, C, D, E, F), updated requirements, costs by category, step-by-step of medical, psychological, written and driving tests, and the new SEGIP system.',
     contentEs: `### Guía Completa: Licencia de Conducir Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 150 a Bs 600 según categoría |
+| **Tiempo** | Entrega en 10 a 30 días hábiles |
+| **Vigencia** | 5 años |
+| **Entidad** | SEGIP |
+| **Dónde se tramita** | turnos.segip.gob.bo + oficinas SEGIP (pago en Banco Unión)
 
 La **Licencia de Conducir** es el documento oficial que autoriza a una persona a conducir vehículos motorizados en territorio boliviano. Es emitida por el **SEGIP (Servicio General de Identificación Personal)** desde la transferencia de competencias de las antiguas alcaldías.
 
@@ -4299,6 +4349,16 @@ No. Conducir con licencia vencida es una infracción que puede resultar en multa
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en el sitio oficial del SEGIP.`,
     contentEn: `### Complete Guide: Driver's License Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 150 to Bs 600 by category |
+| **Time** | Delivery in 10-30 business days |
+| **Validity** | 5 years |
+| **Entity** | SEGIP |
+| **Where** | turnos.segip.gob.bo + SEGIP offices (Banco Unión payment)
+
 The **Driver's License** is issued by **SEGIP** since the transfer of competencies from municipalities.
 
 **Categories:**
@@ -4319,8 +4379,8 @@ The **Driver's License** is issued by **SEGIP** since the transfer of competenci
     date: '2026-07-24',
     readTimeEs: '9 min de lectura',
     readTimeEn: '9 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&h=630&fit=crop',
-    imageCaption: 'Conduciendo en carretera. Foto: Unsplash',
+    imageUrl: '/images/guia/licencia-coche-lapaz.jpg',
+    imageCaption: 'Circulación vehicular en La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4336,6 +4396,16 @@ The **Driver's License** is issued by **SEGIP** since the transfer of competenci
     excerptEs: 'Guía completa para obtener o renovar tu pasaporte boliviano. Tipos de pasaporte (ordinario, emergencia), requisitos actualizados, costos oficiales, paso a paso del trámite en SEGIP, tiempos de entrega y cómo consultar el estado de tu solicitud.',
     excerptEn: 'Complete guide to get or renew your Bolivian passport. Types (ordinary, emergency), updated requirements, official costs, step-by-step SEGIP process, delivery times, and how to check your application status.',
     contentEs: `### Guía Completa: Pasaporte Boliviano 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 300 a Bs 900 según tipo |
+| **Tiempo** | 10-20 días hábiles (ordinario); 48-72 horas (emergencia) |
+| **Vigencia** | 10 años (mayores); 5 años (menores) |
+| **Entidad** | SEGIP |
+| **Dónde se tramita** | turnos.segip.gob.bo + oficinas SEGIP (pago en Banco Unión)
 
 El **Pasaporte Boliviano** es el documento de viaje que permite a los ciudadanos bolivianos salir del país y viajar al extranjero. Es emitido por el **SEGIP** y tiene una vigencia de **10 años** para mayores de edad.
 
@@ -4457,6 +4527,16 @@ Sí. Todo ciudadano boliviano, sin importar la edad, necesita pasaporte para via
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en el sitio oficial del SEGIP antes de realizar tu trámite.`,
     contentEn: `### Complete Guide: Bolivian Passport 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 300 to Bs 900 by type |
+| **Time** | 10-20 business days (ordinary); 48-72 hours (emergency) |
+| **Validity** | 10 years (adults); 5 years (minors) |
+| **Entity** | SEGIP |
+| **Where** | turnos.segip.gob.bo + SEGIP offices (Banco Unión payment)
+
 The **Bolivian Passport** is issued by **SEGIP** and is valid for **10 years** for adults, **5 years** for minors.
 
 **Types and costs:**
@@ -4479,8 +4559,8 @@ For more info: https://www.segip.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=630&fit=crop',
-    imageCaption: 'Pasaporte y billetes de avión. Foto: Unsplash',
+    imageUrl: '/images/guia/pasaporte-boliviano.jpg',
+    imageCaption: 'Pasaporte de la República de Bolivia. Foto: Wikimedia Commons (public domain)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4496,6 +4576,16 @@ For more info: https://www.segip.gob.bo`,
     excerptEs: 'Guía completa para obtener tu Número de Identificación Tributaria (NIT) en Bolivia. Requisitos para personas naturales y jurídicas, costo gratuito, paso a paso del trámite en el SIN, cómo obtener tu certificado electrónico y cómo inscribirte en el régimen simplificado.',
     excerptEn: 'Complete guide to get your Tax Identification Number (NIT) in Bolivia. Requirements for individuals and legal entities, free cost, step-by-step process at SIN, how to get your electronic certificate, and how to register for the simplified regime.',
     contentEs: `### Guía Completa: NIT Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Gratuito (firma digital: Bs 100 a 150) |
+| **Tiempo** | Inmediato (mismo día) |
+| **Vigencia** | Indefinida (se cancela al cesar la actividad) |
+| **Entidad** | Servicio de Impuestos Nacionales (SIN) |
+| **Dónde se tramita** | citas.impuestos.gob.bo + oficinas del SIN
 
 El **NIT (Número de Identificación Tributaria)** es el registro que toda persona natural o jurídica debe tener para realizar actividades económicas en Bolivia. Es emitido por el **Servicio de Impuestos Nacionales (SIN)** y es obligatorio para emitir facturas, declarar impuestos y operar legalmente.
 
@@ -4609,6 +4699,16 @@ Es la firma digital que te permite presentar declaraciones juradas y realizar tr
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SIN.`,
     contentEn: `### Complete Guide: NIT Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free (digital signature: Bs 100-150) |
+| **Time** | Immediate (same day) |
+| **Validity** | Indefinite (cancelled when activity ceases) |
+| **Entity** | National Tax Service (SIN) |
+| **Where** | citas.impuestos.gob.bo + SIN offices
+
 The **NIT (Tax Identification Number)** is required for anyone conducting economic activities in Bolivia, issued by the **National Tax Service (SIN)**.
 
 **Requirements:**
@@ -4625,8 +4725,8 @@ For more info: https://www.impuestos.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
-    imageCaption: 'Documentos de oficina. Foto: Unsplash',
+    imageUrl: '/images/guia/nit-bus-transporte.jpg',
+    imageCaption: 'Transporte público en La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4642,6 +4742,16 @@ For more info: https://www.impuestos.gob.bo`,
     excerptEs: 'Guía completa del Registro Único de Automotores (RUAT) en Bolivia. Cómo transferir un vehículo, requisitos para compra-venta, costos actualizados, paso a paso en SEGIP, cómo obtener el RUAT por primera vez y cómo consultar la deuda vehicular.',
     excerptEn: 'Complete guide to the Single Vehicle Registry (RUAT) in Bolivia. How to transfer a vehicle, requirements for sale-purchase, updated costs, step-by-step at SEGIP, how to get RUAT for the first time, and how to check vehicle debt.',
     contentEs: `### Guía Completa: RUAT y Transferencia Vehicular Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 150 a 300 (transferencia); Bs 50 a 100 (duplicado) |
+| **Tiempo** | 15 a 30 días hábiles (algunas oficinas: al instante) |
+| **Vigencia** | Indefinida mientras seas el propietario |
+| **Entidad** | SEGIP |
+| **Dónde se tramita** | turnos.segip.gob.bo + oficinas SEGIP (pago en Banco Unión)
 
 El **RUAT (Registro Único de Automotores)** es el documento que acredita la propiedad de un vehículo en Bolivia. Es emitido por el **SEGIP** y es obligatorio para circular, transferir el vehículo, contratar el SOAT y realizar cualquier trámite vehicular.
 
@@ -4745,6 +4855,16 @@ Es un documento legal firmado por ambas partes ante notario de fe pública. No s
 > Esta guía fue actualizada en julio de 2026. Los costos y requisitos pueden variar. Verifica siempre en el sitio oficial del SEGIP.`,
     contentEn: `### Complete Guide: RUAT Vehicle Transfer Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 150-300 (transfer); Bs 50-100 (duplicate) |
+| **Time** | 15-30 business days (some offices: same day) |
+| **Validity** | Indefinite while you are the owner |
+| **Entity** | SEGIP |
+| **Where** | turnos.segip.gob.bo + SEGIP offices (Banco Unión payment)
+
 The **RUAT (Single Vehicle Registry)** is the document proving vehicle ownership in Bolivia, issued by SEGIP.
 
 **Transfer requirements:**
@@ -4769,8 +4889,8 @@ For more info: https://www.segip.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1200&h=630&fit=crop',
-    imageCaption: 'Vehículo en carretera. Foto: Unsplash',
+    imageUrl: '/images/guia/ruat-coche-lapaz.jpg',
+    imageCaption: 'Calle vehicular de La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4786,6 +4906,16 @@ For more info: https://www.segip.gob.bo`,
     excerptEs: 'Guía completa para obtener tu certificado de nacimiento en línea desde la página del SEGIP. Costo, requisitos, paso a paso para descargar el PDF, cómo pagar con Tigo Money o Banco Unión, y qué hacer si tu registro no aparece en el sistema.',
     excerptEn: 'Complete guide to get your birth certificate online from the SEGIP website. Cost, requirements, step-by-step to download the PDF, how to pay with Tigo Money or Banco Unión, and what to do if your record does not appear in the system.',
     contentEs: `### Guía Completa: Certificado de Nacimiento en Línea Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 17 |
+| **Tiempo** | Inmediato (descarga de PDF en línea) |
+| **Vigencia** | Indefinida (documento de registro) |
+| **Entidad** | SEGIP |
+| **Dónde se tramita** | segip.gob.bo (Certificados en Línea)
 
 El **Certificado de Nacimiento** es un documento indispensable para realizar prácticamente cualquier trámite en Bolivia: inscripción escolar, matrimonio, obtención de cédula de identidad, pasaporte, etc.
 
@@ -4893,6 +5023,16 @@ Depende de la institución. Algunos trámites en el exterior pueden requerir el 
 > Esta guía fue actualizada en julio de 2026. Los costos pueden variar. Verifica siempre en el sitio oficial del SEGIP.`,
     contentEn: `### Complete Guide: Birth Certificate Online Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 17 |
+| **Time** | Immediate (online PDF download) |
+| **Validity** | Indefinite (registration document) |
+| **Entity** | SEGIP |
+| **Where** | segip.gob.bo (Online Certificates)
+
 The **Birth Certificate** can be obtained online through the **SEGIP** portal without visiting an office. Cost: **Bs 17**.
 
 **Requirements:** Internet connection, ID number or full names, parents' names, email, payment method.
@@ -4913,8 +5053,8 @@ For more info: https://www.segip.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '6 min de lectura',
     readTimeEn: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1516575334481-f85287c2c82d?w=1200&h=630&fit=crop',
-    imageCaption: 'Bebé recién nacido. Foto: Unsplash',
+    imageUrl: '/images/guia/nacimiento-bebe.jpg',
+    imageCaption: 'Recién nacido. Foto: Wikimedia Commons (public domain)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -4930,6 +5070,16 @@ For more info: https://www.segip.gob.bo`,
     excerptEs: 'Guía completa para obtener el Registro de Antecedentes Policiales (REAP) en Bolivia. Requisitos, costo aproximado, paso a paso presencial y en línea, vigencia del certificado y para qué trámites se requiere.',
     excerptEn: 'Complete guide to get the Police Background Record (REAP) in Bolivia. Requirements, approximate cost, in-person and online step-by-step, certificate validity, and which procedures require it.',
     contentEs: `### Guía Completa: Antecedentes Policiales (REAP) Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 30 a 50 |
+| **Tiempo** | Mismo día (15 a 30 minutos) |
+| **Vigencia** | 6 meses |
+| **Entidad** | Policía Boliviana (FELCC) |
+| **Dónde se tramita** | FELCC de tu departamento (presencial)
 
 El **Registro de Antecedentes Policiales (REAP)**, también conocido como **Certificado de Antecedentes Policiales**, es un documento que certifica si una persona tiene o no registros de infracciones o delitos en la base de datos de la Policía Boliviana.
 
@@ -5019,6 +5169,16 @@ El arancel es el único costo. No hay cargos ocultos.
 > Esta guía fue actualizada en julio de 2026. Los costos pueden variar según la unidad policial. Verifica siempre en la unidad más cercana.`,
     contentEn: `### Complete Guide: Police Background Certificate (REAP) Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 30-50 |
+| **Time** | Same day (15-30 minutes) |
+| **Validity** | 6 months |
+| **Entity** | Bolivian Police (FELCC) |
+| **Where** | FELCC of your department (in person)
+
 The **REAP (Police Background Record)** certifies whether a person has police records in Bolivia. Required for job applications, educational institutions, and migration procedures.
 
 **Cost:** Bs 30-50
@@ -5039,8 +5199,8 @@ For more info: Visit your nearest FELCC office.`,
     date: '2026-07-24',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop',
-    imageCaption: 'Policía Boliviana. Foto: Unsplash',
+    imageUrl: '/images/guia/policia-boliviana.jpg',
+    imageCaption: 'Policía de Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -5056,6 +5216,16 @@ For more info: Visit your nearest FELCC office.`,
     excerptEs: 'Guía completa para obtener el Certificado de Antecedentes Penales en Bolivia. Emitido por el Tribunal Departamental de Justicia, requisitos, costo, paso a paso presencial, vigencia del documento y para qué trámites se requiere.',
     excerptEn: 'Complete guide to get the Criminal Background Certificate in Bolivia. Issued by the Departmental Court of Justice, requirements, cost, in-person step-by-step, validity, and which procedures require it.',
     contentEs: `### Guía Completa: Antecedentes Penales Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 30 a 50 (según el departamento) |
+| **Tiempo** | Inmediato (mismo día) |
+| **Vigencia** | 6 meses |
+| **Entidad** | Tribunal Departamental de Justicia |
+| **Dónde se tramita** | Ventanilla de Antecedentes Penales del tribunal (presencial)
 
 El **Certificado de Antecedentes Penales** es un documento oficial emitido por el **Tribunal Departamental de Justicia** que certifica si una persona tiene o no sentencias condenatorias ejecutoriadas registradas en su contra.
 
@@ -5160,6 +5330,16 @@ Sí. Si necesitas el certificado para trámites en el exterior, puedes apostilla
 > Esta guía fue actualizada en julio de 2026. Los costos pueden variar según el departamento. Verifica siempre en tu Tribunal Departamental de Justicia.`,
     contentEn: `### Complete Guide: Criminal Background Certificate Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 30-50 (depending on the department) |
+| **Time** | Immediate (same day) |
+| **Validity** | 6 months |
+| **Entity** | Departmental Court of Justice |
+| **Where** | Criminal Records window at the court (in person)
+
 The **Criminal Background Certificate** is issued by the **Departmental Court of Justice**. It certifies whether a person has final criminal convictions.
 
 **Cost:** Bs 30-50
@@ -5180,8 +5360,8 @@ For more info: Visit your nearest Departmental Court of Justice.`,
     date: '2026-07-24',
     readTimeEs: '6 min de lectura',
     readTimeEn: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop',
-    imageCaption: 'Tribunal de Justicia. Foto: Unsplash',
+    imageUrl: '/images/guia/tribunal-supremo-sucre.jpg',
+    imageCaption: 'Tribunal Supremo de Justicia, Sucre, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -5197,6 +5377,16 @@ For more info: Visit your nearest Departmental Court of Justice.`,
     excerptEs: 'Guía completa de visas para extranjeros que desean viajar o residir en Bolivia. Tipos de visa (turista, negocios, residencia), requisitos por país de origen, costos actualizados, paso a paso del trámite consular, prórroga de estadía y cómo regularizar tu situación migratoria.',
     excerptEn: 'Complete visa guide for foreigners wanting to travel or reside in Bolivia. Visa types (tourist, business, residency), requirements by country of origin, updated costs, step-by-step consular process, stay extension, and how to regularize your immigration status.',
     contentEs: `### Guía Completa: Visa para Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Gratuita a US$ 400 según tipo de visa |
+| **Tiempo** | 3 a 15 días hábiles |
+| **Vigencia** | 90 días (turista) a permanente |
+| **Entidad** | Cancillería / Dirección General de Migración |
+| **Dónde se tramita** | Consulado boliviano en tu país o visa on arrival
 
 La **visa para Bolivia** es el documento que autoriza a un extranjero a ingresar y permanecer en el país por un período determinado. Los requisitos varían según el país de origen del solicitante y el tipo de visa.
 
@@ -5342,6 +5532,16 @@ Sí. Todo extranjero, sin importar la edad, debe cumplir con los requisitos migr
 > Esta guía fue actualizada en julio de 2026. Los requisitos y costos pueden variar. Verifica siempre en la página oficial del Ministerio de Relaciones Exteriores de Bolivia o en el consulado boliviano más cercano.`,
     contentEn: `### Complete Guide: Visa for Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free to US$ 400 by visa type |
+| **Time** | 3-15 business days |
+| **Validity** | 90 days (tourist) to permanent |
+| **Entity** | Foreign Ministry / Immigration Office |
+| **Where** | Bolivian consulate in your country or visa on arrival
+
 **Visa-exempt countries (up to 90 days):** Argentina, Brazil, Colombia, Chile, Ecuador, Paraguay, Peru, Uruguay, Costa Rica, Panama, Mexico, Schengen countries, UK, Ireland, Japan, South Korea, Israel, UAE, Australia, New Zealand.
 
 **Visa types and costs (USD):**
@@ -5362,8 +5562,8 @@ For more info: https://www.migracion.gob.bo`,
     date: '2026-07-24',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1454923634634-bd1614829e1b?w=1200&h=630&fit=crop',
-    imageCaption: 'Sellos de pasaporte. Foto: Unsplash',
+    imageUrl: '/images/guia/sello-entrada-bolivia.jpg',
+    imageCaption: 'Sello de ingreso a Bolivia en pasaporte. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -5379,6 +5579,16 @@ For more info: https://www.migracion.gob.bo`,
     excerptEs: 'Guía completa y actualizada para obtener tu certificado de matrimonio en Bolivia en 2026. Requisitos por tipo de trámite (original, duplicado, partida única), costos vigentes, dónde solicitarlo en SERECÍ, cómo hacerlo en línea y qué hacer si el certificado es antiguo o necesitas apostilla.',
     excerptEn: 'Complete and updated guide to get your marriage certificate in Bolivia in 2026. Requirements by procedure type (original, duplicate, single record), current costs, where to request it at SERECÍ, how to do it online, and what to do if the certificate is old or you need an apostille.',
     contentEs: `### Guía Completa: Certificado de Matrimonio en Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 34 (certificado); Bs 51 (duplicado) |
+| **Tiempo** | Mismo día a 72 horas |
+| **Vigencia** | Indefinida |
+| **Entidad** | SERECÍ (Órgano Electoral Plurinacional) |
+| **Dónde se tramita** | Oficinas SERECÍ u online en web.oep.org.bo
 
 El **certificado de matrimonio** es el documento oficial que acredita la inscripción de un matrimonio civil en el **Registro Civil** de Bolivia, administrado por el **Servicio de Registro Cívico (SERECÍ)**, dependiente del Órgano Electoral Plurinacional. Es indispensable para trámites de cambio de estado civil, pensiones, herencias, nacionalidad, migración y para actualizar la cédula de identidad en el SEGIP.
 
@@ -5470,6 +5680,16 @@ Acércate a la oficialía de registro civil donde presumiblemente se celebró el
 > Esta guía fue actualizada en agosto de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SERECÍ antes de realizar tu trámite.`,
     contentEn: `### Complete Guide: Marriage Certificate in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 34 (certificate); Bs 51 (duplicate) |
+| **Time** | Same day to 72 hours |
+| **Validity** | Indefinite |
+| **Entity** | SERECÍ (Plurinational Electoral Body) |
+| **Where** | SERECÍ offices or online at web.oep.org.bo
+
 The marriage certificate is the official document proving the registration of a civil marriage in the Civil Registry of Bolivia, managed by the Civil Registry Service (SERECÍ), under the Plurinational Electoral Body. It is essential for change of marital status, pensions, inheritances, nationality, migration, and updating your ID at SEGIP.
 
 **Types:** Marriage certificate (issued by SERECÍ), duplicate of the marriage record, certificate with apostille (for international use), and single record when multiple records exist.
@@ -5490,8 +5710,8 @@ For more info: https://web.oep.org.bo/registro-civico/`,
     date: '2026-08-01',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
-    imageCaption: 'Certificado de matrimonio. Foto: Unsplash',
+    imageUrl: '/images/guia/matrimonio-anillos.jpg',
+    imageCaption: 'Anillos de matrimonio. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -5507,6 +5727,16 @@ For more info: https://web.oep.org.bo/registro-civico/`,
     excerptEs: 'Guía completa y actualizada para tramitar el certificado de defunción en Bolivia en 2026. Requisitos para el registro del fallecimiento en SERECÍ, documentos necesarios, testigos, costo del duplicado, paso a paso del trámite y cómo obtener el certificado para herencias, seguros y pensiones.',
     excerptEn: 'Complete and updated guide to process the death certificate in Bolivia in 2026. Requirements for registering the death at SERECÍ, necessary documents, witnesses, duplicate cost, step-by-step process, and how to get the certificate for inheritances, insurance and pensions.',
     contentEs: `### Guía Completa: Certificado de Defunción en Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Registro gratuito; duplicado Bs 51 |
+| **Tiempo** | Inmediato (registro el mismo día) |
+| **Vigencia** | Indefinida |
+| **Entidad** | SERECÍ (Órgano Electoral Plurinacional) |
+| **Dónde se tramita** | Oficialía de registro civil (SERECÍ) del lugar del fallecimiento
 
 El **certificado de defunción** es el documento oficial que acredita el fallecimiento de una persona y que permite realizar trámites sucesorios, cobro de seguros y pensiones, baja de servicios, transferencia de bienes y cierre de cuentas. Lo emite el **Servicio de Registro Cívico (SERECÍ)**, dependiente del Órgano Electoral Plurinacional.
 
@@ -5586,6 +5816,16 @@ Sí, es la prueba principal del fallecimiento. Sin él no se puede inscribir la 
 > Esta guía fue actualizada en agosto de 2026. Los costos y requisitos pueden variar. Verifica siempre en la página oficial del SERECÍ.`,
     contentEn: `### Complete Guide: Death Certificate in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free registration; duplicate Bs 51 |
+| **Time** | Immediate (same-day registration) |
+| **Validity** | Indefinite |
+| **Entity** | SERECÍ (Plurinational Electoral Body) |
+| **Where** | Civil registry office (SERECÍ) where the death occurred
+
 The death certificate is the official document proving a person's death, required for inheritances, insurance claims, pensions, service cancellations, and asset transfers. It is issued by the Civil Registry Service (SERECÍ), under the Plurinational Electoral Body.
 
 **First step — Registration (free):** The death must be registered at the civil registry office with: medical death certificate (or forensic if violent death), the deceased's ID if available, the applicant's ID, and two adult witnesses with valid IDs who are not relatives.
@@ -5604,8 +5844,8 @@ For more info: https://web.oep.org.bo/registro-civico/`,
     date: '2026-08-01',
     readTimeEs: '7 min de lectura',
     readTimeEn: '7 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=630&fit=crop',
-    imageCaption: 'Trámite de documentos. Foto: Unsplash',
+    imageUrl: '/images/guia/cementerio-general-lapaz.jpg',
+    imageCaption: 'Cementerio General de La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -5621,6 +5861,16 @@ For more info: https://web.oep.org.bo/registro-civico/`,
     excerptEs: 'Guía completa para crear y registrar tu empresa en Bolivia en 2026 a través del SEPREC (que reemplazó a FUNDEMPRESA). Tipos de sociedad, requisitos, costos actualizados (unipersonal, SRL, SA), pasos para obtener la matrícula de comercio, el NIT y la licencia de funcionamiento municipal.',
     excerptEn: 'Complete guide to create and register your company in Bolivia in 2026 through SEPREC (which replaced FUNDEMPRESA). Company types, requirements, updated costs (sole proprietor, SRL, SA), steps to get the commercial registration, NIT and municipal operating license.',
     contentEs: `### Guía Completa: Registro de Empresa en Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Bs 930 a Bs 3,500 (total estimado según tipo de empresa) |
+| **Tiempo** | 15 a 30 días hábiles (todo el proceso) |
+| **Vigencia** | Matrícula con renovación anual |
+| **Entidad** | SEPREC (ex FUNDEMPRESA) + SIN + Alcaldía |
+| **Dónde se tramita** | tramites.seprec.gob.bo (100% virtual para unipersonal)
 
 Desde abril de 2022, el registro comercial de empresas en Bolivia lo administra el **SEPREC (Servicio Plurinacional de Registro de Comercio)**, que reemplazó a **FUNDEMPRESA**. Aunque muchos todavía buscan "registrar en FUNDEMPRESA", hoy todos los trámites de matrícula de comercio se realizan en el SEPREC.
 
@@ -5704,6 +5954,16 @@ Entre 15 y 30 días hábiles si realizas los trámites por tu cuenta; entre 1 y 
 > Esta guía fue actualizada en agosto de 2026. Los costos y plazos pueden variar. Verifica siempre en el portal oficial del SEPREC.`,
     contentEn: `### Complete Guide: Company Registration in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Bs 930 to Bs 3,500 (estimated total by company type) |
+| **Time** | 15-30 business days (full process) |
+| **Validity** | Registration with annual renewal |
+| **Entity** | SEPREC (ex FUNDEMPRESA) + SIN + Municipality |
+| **Where** | tramites.seprec.gob.bo (fully online for sole proprietors)
+
 Since April 2022, commercial registration in Bolivia is managed by SEPREC (Plurinational Commercial Registration Service), which replaced FUNDEMPRESA. All commercial registration procedures now happen at SEPREC.
 
 **Note:** SEPREC for companies is different from the SEPREC for civil registration. For companies, use tramites.seprec.gob.bo or miempresa.seprec.gob.bo.
@@ -5722,8 +5982,8 @@ For more info: https://tramites.seprec.gob.bo`,
     date: '2026-08-01',
     readTimeEs: '10 min de lectura',
     readTimeEn: '10 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&h=630&fit=crop',
-    imageCaption: 'Registro de empresa. Foto: Unsplash',
+    imageUrl: '/images/guia/negocios-totora-cochabamba.jpg',
+    imageCaption: 'Calles comerciales de Totora, Cochabamba, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -5739,6 +5999,16 @@ For more info: https://tramites.seprec.gob.bo`,
     excerptEs: 'Guía completa para inscribirte y verificar tu registro en el Padrón Electoral Biométrico de Bolivia en 2026. Requisitos (18 años y cédula vigente), cómo empadronarte, cómo actualizar tus datos o cambiar de domicilio, cómo consultar tu recinto con la app Yo Participo y qué hacer si apareces inhabilitado.',
     excerptEn: 'Complete guide to register and verify your registration in the Biometric Electoral Roll of Bolivia in 2026. Requirements (18 years old and valid ID), how to register, how to update your data or change your address, how to check your polling place with the Yo Participo app, and what to do if you appear disqualified.',
     contentEs: `### Guía Completa: Padrón Electoral en Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Gratuito |
+| **Tiempo** | El mismo día |
+| **Vigencia** | Permanente (sujeto a depuración del padrón) |
+| **Entidad** | Órgano Electoral Plurinacional (OEP / TSE) |
+| **Dónde se tramita** | Notarios Electorales y oficinas SERECÍ
 
 El **Padrón Electoral Biométrico** es el sistema de registro del Órgano Electoral Plurinacional (OEP) que habilita a las bolivianas y bolivianos a ejercer su derecho al voto. Estar correctamente empadronado es condición obligatoria para participar en elecciones nacionales, subnacionales y referendos.
 
@@ -5818,6 +6088,16 @@ En Bolivia el voto es obligatorio para los mayores de 18 años residentes en el 
 > Esta guía fue actualizada en agosto de 2026. Los plazos y requisitos pueden variar según el calendario electoral. Verifica siempre en la página oficial del TSE.`,
     contentEn: `### Complete Guide: Electoral Roll in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free |
+| **Time** | Same day |
+| **Validity** | Permanent (subject to roll cleanup) |
+| **Entity** | Plurinational Electoral Body (OEP / TSE) |
+| **Where** | Electoral Notaries and SERECÍ offices
+
 The Biometric Electoral Roll is the registration system of the Plurinational Electoral Body (OEP) that enables Bolivians to vote. Being correctly registered is mandatory to participate in national, subnational elections and referendums.
 
 **Requirements:** Be 18 years old and carry a valid SEGIP ID card.
@@ -5836,8 +6116,8 @@ For more info: https://www.oep.org.bo`,
     date: '2026-08-01',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop',
-    imageCaption: 'Urna electoral. Foto: Unsplash',
+    imageUrl: '/images/guia/padron-elecciones.jpg',
+    imageCaption: 'Proceso electoral en la Asamblea Legislativa, La Paz. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -6344,6 +6624,16 @@ Updated August 2026.`,
     excerptEn: 'Complete guide to apostille documents in Bolivia in 2026. What the Hague Apostille is, which documents can be apostilled, how much it costs, where to do the procedure (La Paz, Cochabamba, Santa Cruz and online), timelines, and what to do if your document was issued abroad. Requirements of the apostilla.rree.gob.bo portal.',
     contentEs: `### Guía Completa: Apostilla de documentos en Bolivia 2026
 
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Aprox. Bs 70 (certificados) a Bs 300 (posgrado) |
+| **Tiempo** | Unos 15 minutos en oficina |
+| **Vigencia** | Indefinida |
+| **Entidad** | Ministerio de Relaciones Exteriores (Cancillería) |
+| **Dónde se tramita** | apostilla.rree.gob.bo + oficinas (La Paz, Cochabamba, Santa Cruz, Beni)
+
 La **Apostilla de La Haya** es una certificación única que valida la autenticidad de un documento público emitido en un país miembro del Convenio, para que tenga efecto legal en otro país miembro, sin necesidad de cadenas de legalizaciones consulares. En Bolivia entró en vigencia en **mayo de 2018**, simplificando drásticamente los trámites de documentos para estudiar, trabajar o emigrar al exterior.
 
 ---
@@ -6444,6 +6734,16 @@ Depende del país de destino. Muchos países exigen traducción oficial del docu
 > Esta guía fue actualizada en agosto de 2026. Los costos y plazos pueden variar. Verifica siempre el valor vigente en el portal oficial de la Cancillería.`,
     contentEn: `### Complete Guide: Document Apostille in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Approx. Bs 70 (certificates) to Bs 300 (graduate degree) |
+| **Time** | About 15 minutes at the office |
+| **Validity** | Indefinite |
+| **Entity** | Ministry of Foreign Affairs (Cancillería) |
+| **Where** | apostilla.rree.gob.bo + offices (La Paz, Cochabamba, Santa Cruz, Beni)
+
 The Hague Apostille is a single certification that validates a public document issued in a Convention member country so it is legally accepted in another member country, without consular legalization chains. It entered into force in Bolivia in May 2018.
 
 **Legal framework:** Law 967 (August 2, 2017) joined the Hague Convention; Supreme Decree 3541 (April 25, 2018) regulated it. Effective May 7, 2018 (La Paz, Santa Cruz, Cochabamba) and May 14, 2018 (nationwide). Bolivia is one of 114+ member countries.
@@ -6464,8 +6764,8 @@ For more info: http://apostilla.rree.gob.bo`,
     date: '2026-08-01',
     readTimeEs: '8 min de lectura',
     readTimeEn: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=630&fit=crop',
-    imageCaption: 'Apostilla de documentos. Foto: Unsplash',
+    imageUrl: '/images/guia/apostilla-sello.jpg',
+    imageCaption: 'Sello de apostilla sobre documento oficial. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -6481,6 +6781,16 @@ For more info: http://apostilla.rree.gob.bo`,
     excerptEs: 'Guía completa para registrar una marca o signo distintivo en el SENAPI de Bolivia en 2026. Costos oficiales (búsqueda Bs 75, solicitud Bs 500, Gaceta Bs 255, título Bs 250), beneficios para MyPEs y artesanos, clasificación de Niza, pasos en el sistema SIPI y plazos reales.',
     excerptEn: 'Complete guide to register a trademark or distinctive sign at SENAPI in Bolivia in 2026. Official costs (search Bs 75, application Bs 500, Gazette Bs 255, title Bs 250), benefits for micro and small businesses, Nice classification, steps in the SIPI system and real timelines.',
     contentEs: `### Guía Completa: Registro de marca en el SENAPI Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Aprox. Bs 1,005 (nacional, sin oposiciones) |
+| **Tiempo** | 6 a 8 meses (proceso completo) |
+| **Vigencia** | 10 años renovables |
+| **Entidad** | SENAPI (Propiedad Intelectual) |
+| **Dónde se tramita** | sipi.senapi.gob.bo + pago en cuenta fiscal SENAPI (Banco Unión)
 
 Registrar tu **marca o signo distintivo** ante el **SENAPI** (Servicio Nacional de Propiedad Intelectual) te otorga el derecho exclusivo de uso en todo el territorio nacional por **10 años renovables**. Es el paso clave para proteger tu emprendimiento, tu nombre comercial o tu logotipo frente a copias y usos no autorizados.
 
@@ -6576,6 +6886,16 @@ No. Las tasas pagadas corresponden a la tramitación del expediente y no se reem
 > Esta guía fue actualizada en agosto de 2026. Los costos y plazos pueden variar. Verifica siempre las tasas vigentes en la página oficial del SENAPI antes de presupuestar tu trámite.`,
     contentEn: `### Complete Guide: Trademark Registration at SENAPI Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Approx. Bs 1,005 (national, no oppositions) |
+| **Time** | 6-8 months (full process) |
+| **Validity** | 10 renewable years |
+| **Entity** | SENAPI (Intellectual Property) |
+| **Where** | sipi.senapi.gob.bo + payment to SENAPI fiscal account (Banco Unión)
+
 Registering your trademark or distinctive sign at SENAPI (National Intellectual Property Service) grants exclusive use nationwide for 10 renewable years. It is the key step to protect your business, trade name or logo.
 
 **What you can register:** Word marks (denominative), logo marks (figurative), combined word+logo (mixed) and 3D marks. Bolivia uses a "per-class" (uniclases) regime: protection covers only the Nice Classification classes you apply for.
@@ -6592,8 +6912,8 @@ For more info: https://www.senapi.gob.bo/tasas-de-propiedad-intelectual`,
     date: '2026-08-01',
     readTimeEs: '10 min de lectura',
     readTimeEn: '10 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&h=630&fit=crop',
-    imageCaption: 'Registro de marca SENAPI. Foto: Unsplash',
+    imageUrl: '/images/guia/senapi-marca.jpg',
+    imageCaption: 'Transporte público en La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -6889,6 +7209,16 @@ Updated August 2026.`,
     excerptEn: 'Complete guide to get the Municipal Operating License in Bolivia in 2026. Who must apply, where to request it (Municipal Economic Activities Unit), requirements by activity type, how to do it online with iGob 24/7, costs, processing time and what happens with the annual operating patent.',
     contentEs: `### Guía Completa: Licencia de Funcionamiento Municipal en Bolivia 2026
 
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Gratuita en La Paz (patente anual aparte, según categoría) |
+| **Tiempo** | 24 a 48 horas |
+| **Vigencia** | Anual (patente); licencia vigente mientras no cambie giro o domicilio |
+| **Entidad** | Gobierno Autónomo Municipal (GAM) |
+| **Dónde se tramita** | iGob 24/7 (La Paz) o plataformas municipales
+
 La **Licencia de Funcionamiento** es el documento que otorga el Gobierno Autónomo Municipal (GAM) a las personas naturales o jurídicas para operar legalmente un negocio. Sin esta licencia, tu empresa o local **no puede abrir sus puertas al público** ni realizar actividades económicas de forma legal.
 
 ---
@@ -6981,6 +7311,16 @@ La Intendencia Municipal puede clausurar el establecimiento y aplicar multas. Op
 > Esta guía fue actualizada en agosto de 2026. Los requisitos y costos varían por municipio. Verifica siempre la información oficial de tu Gobierno Autónomo Municipal.`,
     contentEn: `### Complete Guide: Municipal Operating License in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free in La Paz (annual patent separate, by category) |
+| **Time** | 24-48 hours |
+| **Validity** | Annual (patent); license valid unless business type/address changes |
+| **Entity** | Municipal Autonomous Government (GAM) |
+| **Where** | iGob 24/7 (La Paz) or municipal platforms
+
 The Municipal Operating License is issued by the Municipal Autonomous Government (GAM) allowing natural or legal persons to legally run a business. Without it, a business cannot open to the public.
 
 **Who needs it:** All natural or legal persons operating a store, workshop, office, commercial space or sales point — shops, restaurants, professional services, manufacturers, agencies, audiovisual production studios, and any activity with public service or production.
@@ -6999,8 +7339,8 @@ For more info: https://lapaz.bo/tramites-y-servicios-gamlp/`,
     date: '2026-08-01',
     readTimeEs: '9 min de lectura',
     readTimeEn: '9 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=630&fit=crop',
-    imageCaption: 'Licencia de funcionamiento municipal. Foto: Unsplash',
+    imageUrl: '/images/guia/alcaldia-cochabamba.jpg',
+    imageCaption: 'Edificio de la Alcaldía Municipal de Cochabamba. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -7016,6 +7356,16 @@ For more info: https://lapaz.bo/tramites-y-servicios-gamlp/`,
     excerptEs: 'Guía para obtener, recuperar o verificar tu carnet de vacunación COVID-19 en Bolivia en 2026. Cómo descargarlo desde el portal del Ministerio de Salud (sus.minsalud.gob.bo), con la app Unidos Contra el Covid, qué datos necesitas (carnet de identidad y fecha de nacimiento) y qué hacer si se perdió o tienes dosis registradas con otro documento.',
     excerptEn: 'Guide to get, recover or verify your COVID-19 vaccination card in Bolivia in 2026. How to download it from the Ministry of Health portal (sus.minsalud.gob.bo), with the Unidos Contra el Covid app, what data you need (ID number and date of birth) and what to do if it was lost or doses were registered with another document.',
     contentEs: `### Guía Completa: Carnet de vacunación COVID-19 en Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Gratuito |
+| **Tiempo** | Inmediato (descarga en línea) |
+| **Vigencia** | Indefinida |
+| **Entidad** | Ministerio de Salud y Deportes |
+| **Dónde se tramita** | sus.minsalud.gob.bo o app Unidos Contra el Covid
 
 El **carnet de vacunación COVID-19** es el documento oficial que certifica el esquema de vacunación de una persona contra el coronavirus. En Bolivia se emite de forma digital y puede descargarse, imprimirse o verificarse desde el celular o la computadora, sin necesidad de acudir a una oficina.
 
@@ -7109,6 +7459,16 @@ Sí, el trámite digital es completamente gratuito.
 > Esta guía fue actualizada en agosto de 2026. Verifica siempre la información vigente en las plataformas oficiales del Ministerio de Salud.`,
     contentEn: `### Complete Guide: COVID-19 vaccination card in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free |
+| **Time** | Immediate (online download) |
+| **Validity** | Indefinite |
+| **Entity** | Ministry of Health and Sports |
+| **Where** | sus.minsalud.gob.bo or the Unidos Contra el Covid app
+
 The COVID-19 vaccination card is the official document certifying a person's vaccination schedule in Bolivia. It is issued digitally and can be downloaded, printed or verified from a phone or computer.
 
 **What you need:** Your ID number, date of birth, internet access, and your doses must be registered in the National Electronic Vaccination Registry (RNVe) of the Ministry of Health.
@@ -7127,8 +7487,8 @@ For more info: https://sus.minsalud.gob.bo`,
     date: '2026-08-01',
     readTimeEs: '7 min de lectura',
     readTimeEn: '7 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1584291527959-feab9e0097a1?w=1200&h=630&fit=crop',
-    imageCaption: 'Carnet de vacunación digital. Foto: Unsplash',
+    imageUrl: '/images/guia/vacunas-covid.jpg',
+    imageCaption: 'Vacunas contra el COVID-19. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -7432,6 +7792,16 @@ Updated August 2026, based on my experience covering national and international 
     excerptEn: 'Complete guide to retire in Bolivia in 2026. Who can access the old-age pension, age and contribution requirements under Pension Law 065, how the Public Pension Manager (Gestora) works, the steps to apply for the pension, the Renta Dignidad and what happens with contributions if you do not reach the required payments.',
     contentEs: `### Guía Completa: Jubilación en Bolivia 2026
 
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Gratuito (trámite) |
+| **Tiempo** | Según la resolución de la Gestora |
+| **Vigencia** | Vitalicia (pensión mensual) |
+| **Entidad** | Gestora Pública de la Seguridad Social de Largo Plazo |
+| **Dónde se tramita** | gestora.bo o agencias de la Gestora
+
 La **pensión de vejez** es la prestación que otorga el sistema de pensiones boliviano a las personas que cumplen los requisitos de edad y cotizaciones establecidos por la **Ley 065 de Pensiones** (28 de noviembre de 2010). Desde 2020, la administración de los fondos está a cargo de la **Gestora Pública de la Seguridad Social de Largo Plazo** (la "Gestora"), que reemplazó a las antiguas AFP.
 
 ---
@@ -7534,6 +7904,16 @@ Tus derechohabientes (beneficiarios) pueden acceder a la pensión de sobrevivien
 > Esta guía fue actualizada en agosto de 2026. Los requisitos y montos pueden variar. Verifica siempre la información vigente en la Gestora o en las normas oficiales.`,
     contentEn: `### Complete Guide: Retirement in Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Free (procedure) |
+| **Time** | Depends on the Gestora's resolution |
+| **Validity** | Lifetime (monthly pension) |
+| **Entity** | Public Pension Manager (Gestora) |
+| **Where** | gestora.bo or Gestora agencies
+
 The old-age pension is the benefit granted by the Bolivian pension system to people who meet the age and contribution requirements of Pension Law 065 (November 28, 2010). Since 2020, the Public Pension Manager (Gestora) administers the funds, replacing the old AFPs.
 
 **Who can retire:** Any worker affiliated to the pension system with contributions. Both dependent and independent workers make monthly contributions credited to their individual account.
@@ -7556,8 +7936,8 @@ For more info: https://www.gestora.bo`,
     date: '2026-08-01',
     readTimeEs: '10 min de lectura',
     readTimeEn: '10 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=630&fit=crop',
-    imageCaption: 'Jubilación y pensiones en Bolivia. Foto: Unsplash',
+    imageUrl: '/images/guia/jubilacion-adulto-mayor.jpg',
+    imageCaption: 'Adulto mayor andino en Potosí, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,
@@ -7573,6 +7953,16 @@ For more info: https://www.gestora.bo`,
     excerptEs: 'Guía completa para inscribir un inmueble en el Registro Público de Derechos Reales de Bolivia en 2026. Requisitos para la compra venta (escritura pública, impuestos, plano/catastro), tipos de trámite (inscripción rápida, gabinete), plazos, costos y cómo hacer trámites en línea.',
     excerptEn: 'Complete guide to register a property at the Public Real Estate Registry (Derechos Reales) of Bolivia in 2026. Requirements for purchase-sale (public deed, taxes, approved plan/cadastre), types of procedures (quick registration, cabinet), timelines, costs and how to do online procedures.',
     contentEs: `### Guía Completa: Registro de inmuebles en Derechos Reales Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Costo** | Según el valor del inmueble (arancel de DD.RR.) |
+| **Tiempo** | 3 días hábiles (inscripción rápida); semanas (gabinete) |
+| **Vigencia** | Indefinida (mientras seas el propietario) |
+| **Entidad** | Registro Público de Derechos Reales (Órgano Judicial) |
+| **Dónde se tramita** | tramitesddrr.organojudicial.gob.bo u oficinas DD.RR.
 
 El **Registro Público de Derechos Reales (DD.RR.)** es la institución del Órgano Judicial, dependiente del Consejo de la Magistratura, que da **publicidad y seguridad jurídica** a la propiedad de bienes inmuebles. Según la **Ley de Inscripción de Derechos Reales** (1887) y el Código Civil, ningún derecho real sobre inmuebles surte efectos contra terceros si no está inscrito.
 
@@ -7680,6 +8070,16 @@ Sí, el portal de DD.RR. permite ventanilla en línea y consultas digitales en v
 > Esta guía fue actualizada en agosto de 2026. Los requisitos y costos pueden variar por departamento. Verifica siempre la información oficial de tu oficina de Derechos Reales.`,
     contentEn: `### Complete Guide: Property registration at Derechos Reales Bolivia 2026
 
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Cost** | Based on property value (DD.RR. fee schedule) |
+| **Time** | 3 business days (quick registration); weeks (cabinet) |
+| **Validity** | Indefinite (while you are the owner) |
+| **Entity** | Public Real Estate Registry (Derechos Reales, Judiciary) |
+| **Where** | tramitesddrr.organojudicial.gob.bo or DD.RR. offices
+
 Derechos Reales (DD.RR.) is the public real estate registry of the Bolivian Judiciary (Consejo de la Magistratura). Under the Law on Real Estate Registration (1887) and the Civil Code, no real right over property is effective against third parties without registration.
 
 **Why register:** Registration gives you the updated Folio Real (registry sheet) proving you are the legitimate owner. Without it, the property lacks full legal security, cannot be legally sold or mortgaged, and you risk losing rights in disputes.
@@ -7704,8 +8104,8 @@ For more info: https://tramitesddrr.organojudicial.gob.bo`,
     date: '2026-08-01',
     readTimeEs: '10 min de lectura',
     readTimeEn: '10 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop',
-    imageCaption: 'Registro de propiedad en Derechos Reales. Foto: Unsplash',
+    imageUrl: '/images/guia/derechos-reales-casa-lapaz.jpg',
+    imageCaption: 'Vista de La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
     categoryEs: 'Guías y Trámites',
     categoryEn: 'Guides & Procedures',
     enableComments: true,

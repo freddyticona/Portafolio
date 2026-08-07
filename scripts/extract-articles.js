@@ -44,15 +44,16 @@ function readBlogPostsBlock() {
  */
 function parseStringLiteral(raw) {
   const trimmed = raw.trim();
+  const resolveUnicodeEscapes = (s) => s.replace(/\\u([0-9a-fA-F]{4})/g, (m, hex) => String.fromCharCode(parseInt(hex, 16)));
   if (trimmed.startsWith('`') && trimmed.endsWith('`')) {
     const inner = trimmed.slice(1, -1);
-    return inner.replace(/\\`/g, '`').replace(/\\\$\{/g, '${').replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\\\/g, '\\');
+    return resolveUnicodeEscapes(inner.replace(/\\`/g, '`').replace(/\\\$\{/g, '${').replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\\\/g, '\\'));
   }
   if (trimmed.startsWith("'") && trimmed.endsWith("'")) {
-    return trimmed.slice(1, -1).replace(/\\'/g, "'").replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\\\/g, '\\');
+    return resolveUnicodeEscapes(trimmed.slice(1, -1).replace(/\\'/g, "'").replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\\\/g, '\\'));
   }
   if (trimmed.startsWith('"') && trimmed.endsWith('"')) {
-    return trimmed.slice(1, -1).replace(/\\"/g, '"').replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\\\/g, '\\');
+    return resolveUnicodeEscapes(trimmed.slice(1, -1).replace(/\\"/g, '"').replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\\\/g, '\\'));
   }
   return trimmed;
 }
@@ -81,7 +82,8 @@ function escapeXml(s) {
 function extractField(line, key) {
   // Soporta strings simples, dobles y template literals multilínea (en ese caso
   // solo captura hasta el primer cierre en la misma línea).
-  const re = new RegExp(`^\\s*${key}:\\s*(['"\`])([\\s\\S]*?)\\1`);
+  // (?:\\\\.|[^\\\\]) captura escapes (ej: \' \" \\ \`) sin cortar en ellos.
+  const re = new RegExp(`^\\s*${key}:\\s*(['"\`])((?:\\\\.|[^\\\\])*?)\\1`);
   const m = line.match(re);
   if (!m) return null;
   return parseStringLiteral(m[1] + m[2] + m[1]);
