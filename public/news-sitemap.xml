@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/gobierno-interviene-ypfb-reestructuracion-corrupcion</loc>
+    <loc>https://freddydev.net/noticias/historia-jorge-messi-artifice-silencioso</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,13 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Gobierno interviene YPFB y anuncia reestructuración tras denuncias de corrupción</news:title>
-      <news:keywords>Economía</news:keywords>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>La historia de Jorge Messi, el artífice silencioso que acompañó a su hijo hasta la cumbre del fútbol</news:title>
+      <news:keywords>Deportes</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/paz-reunion-gobernadores-sucre-pacto-fiscal-50-50</loc>
+    <loc>https://freddydev.net/noticias/incendio-consume-15-mil-casetas-feria-barrio-lindo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,55 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Paz se reúne con los nueve gobernadores en Sucre para tratar el pacto fiscal 50/50</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/dolar-oficial-bs-1202-tercera-baja-consecutiva</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>El dólar oficial baja por tercera jornada consecutiva y se ubica en Bs 12,02</news:title>
-      <news:keywords>Economía</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/paz-justifica-reduccion-ministerios-mucho-flojo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Paz justifica reducción de ministerios: &quot;había mucho flojo&quot;</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/brasileno-acribillado-tercer-anillo-avenida-busch-santa-cruz</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Asesinan a balazos a un brasileño en el tercer anillo y avenida Busch de Santa Cruz</news:title>
+      <news:publication_date>2026-08-07</news:publication_date>
+      <news:title>Incendio consume cerca de 15.000 casetas en la Feria Barrio Lindo</news:title>
       <news:keywords>Seguridad</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/fuga-palmasola-apagon-dos-reos-brasilenos-policias-aprehendidos</loc>
+    <loc>https://freddydev.net/noticias/excombatientes-nancahuazu-teoponte-regresan-parada-militar</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -81,65 +39,9 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Dos reos brasileños se fugan de Palmasola tras un apagón; tres policías son aprehendidos</news:title>
-      <news:keywords>Seguridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/paz-balance-gestion-anuncios-6-agosto</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Paz presentará balance de gestión y anuncios &quot;muy importantes&quot; este 6 de agosto en Sucre</news:title>
+      <news:publication_date>2026-08-07</news:publication_date>
+      <news:title>Excombatientes de Ñancahuazú y Teoponte regresan a la Parada Militar</news:title>
       <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/rusia-ataque-misiles-kiev-17-muertos-44-heridos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Rusia lanza ataques con misiles y drones sobre Kiev: al menos 17 muertos y 44 heridos</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/eclipse-solar-total-12-agosto-espana</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Eclipse solar total del 12 de agosto: el fenómeno que España no veía en más de un siglo</news:title>
-      <news:keywords>Ciencia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/policia-unidades-elite-frontera-brasil-san-matias</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>Policía despliega unidades de élite en la frontera con Brasil tras ola de violencia</news:title>
-      <news:keywords>Seguridad</news:keywords>
     </news:news>
   </url>
 </urlset>

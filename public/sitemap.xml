@@ -6,25 +6,25 @@
   <!-- Secciones Principales -->
   <url>
     <loc>https://freddydev.net</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://freddydev.net/sobre-mi</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/portafolio</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/cv</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://freddydev.net/noticias</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -48,36 +48,96 @@
   </url>
   <url>
     <loc>https://freddydev.net/galeria</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/showreel</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/servicios</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/reservas</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/contacto</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Artículos (cada uno en su ruta primaria) -->
+  <url>
+    <loc>https://freddydev.net/noticias/historia-jorge-messi-artifice-silencioso</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/incendio-consume-15-mil-casetas-feria-barrio-lindo</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/excombatientes-nancahuazu-teoponte-regresan-parada-militar</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/presentan-siete-implicados-caso-subteniente-salazar</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/presidente-gobernadores-firman-pacto-fiscal-50-50</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/dolar-flexible-mas-us-1012-millones-banca</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/felcn-afecta-mas-us-38-millones-narcotrafico-oruro</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ejecutivo-enviara-ley-de-inversiones-alp-siguiente-semana</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/exportan-cafe-yungas-corea-del-sur</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/china-brasil-principales-mercados-minerales-bolivianos</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://freddydev.net/noticias/gobierno-interviene-ypfb-reestructuracion-corrupcion</loc>
     <lastmod>2026-08-05</lastmod>
