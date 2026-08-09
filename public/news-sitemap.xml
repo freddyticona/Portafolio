@@ -16,32 +16,4 @@
       <news:keywords>Deportes</news:keywords>
     </news:news>
   </url>
-  <url>
-    <loc>https://freddydev.net/noticias/incendio-consume-15-mil-casetas-feria-barrio-lindo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-07</news:publication_date>
-      <news:title>Incendio consume cerca de 15.000 casetas en la Feria Barrio Lindo</news:title>
-      <news:keywords>Seguridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/excombatientes-nancahuazu-teoponte-regresan-parada-militar</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-07</news:publication_date>
-      <news:title>Excombatientes de Ñancahuazú y Teoponte regresan a la Parada Militar</news:title>
-      <news:keywords>País</news:keywords>
-    </news:news>
-  </url>
 </urlset>

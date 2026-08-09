@@ -115,8 +115,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
         {
           qEs: '¿Qué incluye el precio?',
           qEn: 'What does the price include?',
-          aEs: 'Cada tarifa incluye preproducción, grabación multicámara Full HD (2 cámaras Nikon D5100), audio profesional inalámbrico, edición, corrección de color y entrega final en MP4 (H.264).',
-          aEn: 'Each rate includes pre-production, multi-camera Full HD shooting (2 Nikon D5100 cameras), professional wireless audio, editing, color correction and final delivery in MP4 (H.264).'
+          aEs: 'Cada tarifa incluye preproducción, grabación multicámara Full HD (2 cámaras Nikon D5100), audio profesional inalámbrico con micrófono Rode Wireless GO 3, edición, corrección de color y entrega final en MP4 (H.264).',
+          aEn: 'Each rate includes pre-production, multi-camera Full HD shooting (2 Nikon D5100 cameras), professional wireless audio with Rode Wireless GO 3 microphone, editing, color correction and final delivery in MP4 (H.264).'
         }
       ]
     }
