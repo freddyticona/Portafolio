@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/historia-jorge-messi-artifice-silencioso</loc>
+    <loc>https://freddydev.net/noticias/terremoto-magnitud-7-4-sacude-colombia-epicentro-choco</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,111 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>La historia de Jorge Messi, el artífice silencioso que acompañó a su hijo hasta la cumbre del fútbol</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/senado-eeuu-aprueba-sanciones-rusia-iran</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>El Senado de EE.UU. aprueba amplias sanciones contra Rusia e Irán</news:title>
-      <news:keywords>Política Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/acuerdo-reabrir-estrecho-ormuz-pronto</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>Un funcionario de EE.UU. afirma que un acuerdo para reabrir el Estrecho de Ormuz llegará &quot;pronto&quot;</news:title>
-      <news:keywords>Oriente Medio</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/de-la-espriella-nuevo-presidente-colombia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>Abelardo De la Espriella asume como presidente de Colombia en una ceremonia en Cali</news:title>
-      <news:keywords>América Latina</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/tigre-amur-regresa-kazajistan-70-anos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>Un tigre de Amur regresa a la vida salvaje en Kazajistán tras más de 70 años de extinción local</news:title>
-      <news:keywords>Medio Ambiente</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/tifon-dolphin-okinawa-china-puertos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>El tifón Dolphin golpea Okinawa y China cierra puertos ante su inminente llegada</news:title>
-      <news:keywords>Clima</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/serbia-respalda-integridad-territorial-ucrania</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>Serbia respalda la integridad territorial de Ucrania en la visita de Zelensky a Belgrado</news:title>
-      <news:keywords>Europa</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/incendio-bald-range-canada-20000-evacuados</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>El incendio Bald Range en Canadá duplica su tamaño y obliga a evacuar a más de 20.000 personas</news:title>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Un terremoto de magnitud 7,4 sacude el occidente de Colombia con epicentro en Chocó</news:title>
       <news:keywords>Desastres Naturales</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/ebola-congo-300-ninos-nueva-vacuna</loc>
+    <loc>https://freddydev.net/noticias/terremoto-colombia-balance-111-fallecidos-590-heridos</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -123,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>Ebola en RD Congo: mueren más de 300 niños y crece la esperanza en una nueva vacuna</news:title>
-      <news:keywords>Salud</news:keywords>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Balance del terremoto en Colombia: al menos 111 fallecidos y más de 590 heridos</news:title>
+      <news:keywords>Catástrofes</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/el-nino-49-millones-hambre-aguda</loc>
+    <loc>https://freddydev.net/noticias/manizales-danos-catedral-basilica-terremoto-colombia</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -137,13 +39,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>El Niño empujará a 49 millones de personas más al hambre aguda, advierte el PMA</news:title>
-      <news:keywords>Clima</news:keywords>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>La cúpula de la Catedral Basílica de Manizales colapsa por el terremoto</news:title>
+      <news:keywords>Desastres Naturales</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/hiroshima-81-aniversario-bomba-abolir-armas-nucleares</loc>
+    <loc>https://freddydev.net/noticias/terremoto-cali-25-edificios-colapsados-alcalde-pide-rescatistas</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -151,9 +53,93 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-08</news:publication_date>
-      <news:title>Hiroshima conmemora el 81.º aniversario de la bomba atómica e insta a abolir las armas nucleares</news:title>
-      <news:keywords>Mundo</news:keywords>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Cali: al menos 25 edificios colapsados y el alcalde pide más rescatistas</news:title>
+      <news:keywords>Catástrofes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/terremoto-pereira-47-fallecidos-aeropuerto-matecana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Pereira registra 47 fallecidos y el aeropuerto Matecaña colapsa parcialmente</news:title>
+      <news:keywords>Desastres Naturales</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/terremoto-choco-12-fallecidos-quibdo-baudo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Chocó, el epicentro: 12 fallecidos y daños &quot;monstruosos&quot; en Quibdó</news:title>
+      <news:keywords>Catástrofes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/replicas-terremoto-colombia-probabilidad-nuevo-sismo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>¿Cuántas réplicas han ocurrido y qué probabilidad hay de otro gran sismo en Colombia?</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/de-la-espriella-declara-desastre-nacional-terremoto</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>De la Espriella declara el desastre de carácter nacional por el terremoto</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/solidaridad-internacional-terremoto-colombia-noboa-rescatistas</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Noboa ofrece 47 rescatistas y el mundo se solidariza con Colombia</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/volcan-purace-emite-cenizas-tras-terremoto-colombia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>El volcán Puracé emite cenizas y gases tras el terremoto</news:title>
+      <news:keywords>Medio Ambiente</news:keywords>
     </news:news>
   </url>
 </urlset>
