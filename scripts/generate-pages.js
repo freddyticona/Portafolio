@@ -64,6 +64,12 @@ const pages = {
     desc: 'Galería de fotos de coberturas periodísticas, documentales y producciones televisivas de Freddy Ticona en toda Bolivia.',
     path: '/galeria'
   },
+  'eclipse-2026': {
+    title: 'Eclipse Solar Total 12 de Agosto 2026 | Especial Noticias y Fotos',
+    desc: 'Especial del eclipse solar total del 12 de agosto de 2026: 10 noticias por país, galería de fotos, trayectoria y horarios de la totalidad desde Siberia hasta la península ibérica.',
+    ogTitle: 'Especial Eclipse Solar Total 2026 | 10 Noticias y Galería',
+    path: '/eclipse-2026'
+  },
   'showreel': {
     title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
     desc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación 4K.',

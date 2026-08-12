@@ -97,6 +97,7 @@ interface NoticiasPageProps {
   activeBlogPostId: string | null;
   setActiveBlogPostId: (id: string | null) => void;
   handleArticleClick: (post: BlogPost, page?: PageId) => void;
+  onInicioSpecial?: () => void;
 }
 
 export function NoticiasPage({
@@ -106,6 +107,7 @@ export function NoticiasPage({
   activeBlogPostId,
   setActiveBlogPostId,
   handleArticleClick,
+  onInicioSpecial,
 }: NoticiasPageProps) {
   const activePost = activeBlogPostId
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
@@ -150,6 +152,7 @@ export function NoticiasPage({
         lang={lang}
         t={t}
         onArticleClick={(post) => handleArticleClick(post)}
+        onSpecialClick={onInicioSpecial}
       />
     </Suspense>
   );

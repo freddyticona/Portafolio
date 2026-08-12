@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { BlogPost, ContentType } from '../types';
 import NewsCard from './NewsCard';
-import { TrendingUp, Flame, Search, SlidersHorizontal, ChevronDown, List, Sparkles, Newspaper, Eye, Mail } from 'lucide-react';
+import { TrendingUp, Flame, Search, SlidersHorizontal, ChevronDown, List, Sparkles, Newspaper, Eye, Mail, Sun } from 'lucide-react';
 import { TranslationT } from '../types.translation';
 import NewsPortalFilters from './NewsPortalFilters';
 
@@ -10,6 +10,7 @@ interface NewsPortalProps {
   lang: 'es' | 'en';
   t: TranslationT;
   onArticleClick: (post: BlogPost) => void;
+  onSpecialClick?: () => void;
 }
 
 const categoryColors: Record<string, string> = {
@@ -48,7 +49,7 @@ const categoryColors: Record<string, string> = {
   'Economy': 'bg-yellow-600/15 text-yellow-300 border-yellow-600/25',
 };
 
-export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPortalProps) {
+export default function NewsPortal({ posts, lang, t, onArticleClick, onSpecialClick }: NewsPortalProps) {
   const [activeRegion, setActiveRegion] = useState<string>('all');
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [activeContentType, setActiveContentType] = useState<string>('all');
@@ -227,6 +228,46 @@ export default function NewsPortal({ posts, lang, t, onArticleClick }: NewsPorta
             : 'Journalistic analysis, field stories, and cultural reports from Bolivia and around the globe.'}
         </p>
       </div>
+
+      {/* Banner del especial del eclipse */}
+      {onSpecialClick && (
+        <button
+          onClick={onSpecialClick}
+          className="w-full text-left mb-8 group relative overflow-hidden rounded-md border border-gold/30 bg-gradient-to-r from-black via-[#1a1206] to-black">
+          <img
+            src="/images/news/2026-08-12-eclipse-mundo.jpg"
+            alt="Especial Eclipse Solar Total 2026"
+            className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-50 transition-opacity duration-500"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent" />
+          <div className="relative z-10 flex items-center gap-4 px-5 py-6 md:px-8">
+            <span className="hidden sm:inline-flex items-center justify-center w-12 h-12 shrink-0 rounded-sm bg-gold text-black">
+              <Sun className="w-6 h-6" />
+            </span>
+            <div className="min-w-0 space-y-1">
+              <span className="inline-flex items-center gap-1.5 text-[9px] font-mono font-bold uppercase tracking-widest text-gold bg-gold/10 border border-gold/20 px-2 py-0.5 rounded-sm">
+                <Sparkles className="w-3 h-3" />
+                {lang === 'es' ? 'Especial del 12 de agosto de 2026' : 'August 12, 2026 special'}
+              </span>
+              <h3 className="text-base md:text-lg font-extrabold text-white font-display tracking-tight">
+                {lang === 'es'
+                  ? 'Eclipse Solar Total 2026: 10 noticias, galería por país y trayectoria'
+                  : 'Total Solar Eclipse 2026: 10 stories, country gallery and trajectory'}
+              </h3>
+              <p className="hidden md:block text-xs text-stone-400 font-light">
+                {lang === 'es'
+                  ? 'Del mar de Laptev a las Baleares: revive el eclipse que cruzó Groenlandia, Islandia y España.'
+                  : 'From the Laptev Sea to the Balearic Islands: relive the eclipse that crossed Greenland, Iceland and Spain.'}
+              </p>
+            </div>
+            <span className="ml-auto shrink-0 inline-flex items-center gap-1.5 border border-gold/40 text-gold text-[10px] font-mono font-bold uppercase tracking-widest px-3 py-2 rounded-sm group-hover:bg-gold group-hover:text-black transition-colors">
+              {lang === 'es' ? 'Abrir especial' : 'Open special'}
+              <ChevronDown className="w-3.5 h-3.5 -rotate-90" />
+            </span>
+          </div>
+        </button>
+      )}
 
       {/* Filters */}
       <NewsPortalFilters

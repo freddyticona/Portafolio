@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/terremoto-magnitud-7-4-sacude-colombia-epicentro-choco</loc>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-espana-historia-13-comunidades</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,97 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Un terremoto de magnitud 7,4 sacude el occidente de Colombia con epicentro en Chocó</news:title>
-      <news:keywords>Desastres Naturales</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/terremoto-colombia-balance-111-fallecidos-590-heridos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Balance del terremoto en Colombia: al menos 111 fallecidos y más de 590 heridos</news:title>
-      <news:keywords>Catástrofes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/manizales-danos-catedral-basilica-terremoto-colombia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>La cúpula de la Catedral Basílica de Manizales colapsa por el terremoto</news:title>
-      <news:keywords>Desastres Naturales</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/terremoto-cali-25-edificios-colapsados-alcalde-pide-rescatistas</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Cali: al menos 25 edificios colapsados y el alcalde pide más rescatistas</news:title>
-      <news:keywords>Catástrofes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/terremoto-pereira-47-fallecidos-aeropuerto-matecana</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Pereira registra 47 fallecidos y el aeropuerto Matecaña colapsa parcialmente</news:title>
-      <news:keywords>Desastres Naturales</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/terremoto-choco-12-fallecidos-quibdo-baudo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Chocó, el epicentro: 12 fallecidos y daños &quot;monstruosos&quot; en Quibdó</news:title>
-      <news:keywords>Catástrofes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/replicas-terremoto-colombia-probabilidad-nuevo-sismo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>¿Cuántas réplicas han ocurrido y qué probabilidad hay de otro gran sismo en Colombia?</news:title>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>El eclipse solar total sorprende a España: 13 comunidades viven un fenómeno histórico</news:title>
       <news:keywords>Ciencia</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/de-la-espriella-declara-desastre-nacional-terremoto</loc>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-islandia-reikiavik-totalidad</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -109,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>De la Espriella declara el desastre de carácter nacional por el terremoto</news:title>
-      <news:keywords>Política</news:keywords>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Islandia se oscurece: Reikiavik disfruta de una totalidad de casi un minuto</news:title>
+      <news:keywords>Ciencia</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/solidaridad-internacional-terremoto-colombia-noboa-rescatistas</loc>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-groenlandia-paso-nativa</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -123,13 +39,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Noboa ofrece 47 rescatistas y el mundo se solidariza con Colombia</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Groenlandia recibe la totalidad: el eclipse sobre una de las zonas más remotas del planeta</news:title>
+      <news:keywords>Ciencia</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/volcan-purace-emite-cenizas-tras-terremoto-colombia</loc>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-rusia-siberia-primera-totalidad</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -137,9 +53,93 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>El volcán Puracé emite cenizas y gases tras el terremoto</news:title>
-      <news:keywords>Medio Ambiente</news:keywords>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Rusia inaugura la totalidad del eclipse sobre la costa siberiana</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-portugal-guadramil-montesinho</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Portugal apenas roza la totalidad: el eclipse visto desde la frontera con España</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-parcial-reino-unido-londres-91</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Reino Unido ve el 91% del Sol cubierto en el eclipse más oscuro en décadas</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-parcial-eeuu-alaska-nasa-en-vivo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>EE.UU. ve un eclipse parcial de costa a costa mientras la NASA retransmite en vivo</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-parcial-marruecos-tanger-casablanca-87</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Marruecos sigue el eclipse con hasta un 93% de cobertura en el norte</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-francia-parcial-92-paris-atardecer</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Francia ve cerrarse el cielo al atardecer: eclipse parcial de hasta el 92% en París</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-2026-mejores-fotos-mundo-masa-nasa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Las mejores fotos del eclipse solar total 2026: de Groenlandia a Mallorca</news:title>
+      <news:keywords>Ciencia</news:keywords>
     </news:news>
   </url>
 </urlset>

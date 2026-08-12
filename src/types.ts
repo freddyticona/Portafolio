@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'noticias' | 'guias' | 'galeria' | 'showreel' | 'contacto' | 'reservas' | 'servicios' | 'admin';
+export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'noticias' | 'guias' | 'galeria' | 'showreel' | 'contacto' | 'reservas' | 'servicios' | 'admin' | 'eclipse-2026';
 
 export interface PortfolioItem {
   id: string;
