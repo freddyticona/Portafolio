@@ -27,6 +27,7 @@ import {
   X,
   ChevronDown,
   ChevronUp,
+  ChevronLeft,
   Eye,
   ArrowUp,
   List,
@@ -77,6 +78,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   const [showToc, setShowToc] = useState(false);
   const [copied, setCopied] = useState(false);
   const tocRefs = useRef<Record<string, HTMLElement>>({});
+  const [activeGalleryImage, setActiveGalleryImage] = useState<string | null>(null);
 
   // ─── Scroll Progress + Back to Top ──────────────────────────────────
   useEffect(() => {
@@ -450,6 +452,36 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
 
+      {/* Photo Gallery — imágenes adicionales del artículo */}
+      {post.images && post.images.length > 0 && (
+        <div className="mt-10">
+          <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-gold mb-4 flex items-center gap-2">
+            <Camera className="w-4 h-4 text-gold" />
+            <span>{lang === 'es' ? `Galería de fotos (${post.images.length})` : `Photo gallery (${post.images.length})`}</span>
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {post.images.map((img, idx) => (
+              <div
+                key={idx}
+                onClick={() => setActiveGalleryImage(img)}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setActiveGalleryImage(img); } }}
+                role="button"
+                tabIndex={0}
+                aria-label={`${lang === 'es' ? post.titleEs : post.titleEn} - ${idx + 1}`}
+                className="aspect-video rounded-sm overflow-hidden bg-[#050505] border border-white/5 hover:border-gold/40 transition-all duration-300 cursor-pointer group"
+              >
+                <img
+                  src={img}
+                  alt={`${lang === 'es' ? post.titleEs : post.titleEn} - ${idx + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Tags */}
       <div className="flex flex-wrap items-center gap-2 pt-4 border-t border-white/5">
         <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-stone-500 mr-1">
@@ -686,6 +718,58 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         >
           <ArrowUp className="w-5 h-5" />
         </button>
+      )}
+
+      {/* Full-screen gallery image viewer */}
+      {activeGalleryImage && (
+        (() => {
+          const currentIdx = post.images ? post.images.indexOf(activeGalleryImage) : -1;
+          const showPrev = post.images && currentIdx > 0;
+          const showNext = post.images && currentIdx < post.images.length - 1;
+          return (
+            <div
+              className="fixed inset-0 z-[80] bg-[#050505]/95 flex items-center justify-center px-4 backdrop-blur-sm animate-fadeIn"
+              onClick={() => setActiveGalleryImage(null)}
+            >
+              <button
+                onClick={() => setActiveGalleryImage(null)}
+                aria-label={lang === 'es' ? 'Cerrar' : 'Close'}
+                className="fixed top-4 right-4 p-2 rounded-sm bg-[#020202] hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
+              >
+                <X className="w-6 h-6" />
+              </button>
+              {showPrev && (
+                <button
+                  onClick={(e) => { e.stopPropagation(); setActiveGalleryImage(post.images![currentIdx - 1]); }}
+                  aria-label={lang === 'es' ? 'Anterior' : 'Previous'}
+                  className="fixed left-3 top-1/2 -translate-y-1/2 p-2 rounded-sm bg-[#020202]/80 hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
+                >
+                  <ChevronLeft className="w-6 h-6" />
+                </button>
+              )}
+              <img
+                src={activeGalleryImage}
+                alt={lang === 'es' ? 'Galería de imágenes' : 'Image gallery'}
+                className="max-w-full max-h-[90vh] object-contain rounded-sm"
+                onClick={(e) => e.stopPropagation()}
+              />
+              {showNext && (
+                <button
+                  onClick={(e) => { e.stopPropagation(); setActiveGalleryImage(post.images![currentIdx + 1]); }}
+                  aria-label={lang === 'es' ? 'Siguiente' : 'Next'}
+                  className="fixed right-3 top-1/2 -translate-y-1/2 p-2 rounded-sm bg-[#020202]/80 hover:bg-white/5 border border-white/10 text-stone-400 hover:text-white transition-colors cursor-pointer z-10"
+                >
+                  <ChevronRight className="w-6 h-6" />
+                </button>
+              )}
+              {post.images && currentIdx >= 0 && (
+                <span className="fixed bottom-4 left-1/2 -translate-x-1/2 px-3 py-1 bg-[#020202]/80 border border-white/10 text-[10px] font-mono text-stone-400 rounded-sm z-10">
+                  {String(currentIdx + 1).padStart(2, '0')}/{String(post.images.length).padStart(2, '0')}
+                </span>
+              )}
+            </div>
+          );
+        })()
       )}
     </>
   );

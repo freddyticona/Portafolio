@@ -17771,6 +17771,17 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
         readTimeEn: "4 min read",
         imageUrl: "/images/news/2026-08-12-eclipse-mundo.jpg",
         imageCaption: "Selección de imágenes del eclipse solar total del 12 de agosto de 2026 en todo el mundo. Imagen: TODAY",
+        images: [
+          "/images/news/2026-08-12-eclipse-espana.jpg",
+          "/images/news/2026-08-12-eclipse-islandia.jpg",
+          "/images/news/2026-08-12-eclipse-groenlandia.jpg",
+          "/images/news/2026-08-12-eclipse-portugal.jpg",
+          "/images/news/2026-08-12-eclipse-reino-unido.jpg",
+          "/images/news/2026-08-12-eclipse-eeuu.jpg",
+          "/images/news/2026-08-12-eclipse-marruecos.jpg",
+          "/images/news/2026-08-12-eclipse-francia.jpg",
+          "/images/news/2026-08-12-eclipse-mundo.jpg"
+        ],
         categoryEs: "Ciencia",
         categoryEn: "Science",
         enableComments: true,
