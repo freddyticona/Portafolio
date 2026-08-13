@@ -185,13 +185,11 @@ for (const [key, meta] of Object.entries(pages)) {
     );
   }
 
-  // Add hreflang
+  // Add hreflang — el contenido se sirve en ambos idiomas en la misma URL (toggle), sin URLs /en
   const esUrl = canonicalUrl;
-  const enUrl = `${SITE}/en${meta.path === '/' ? '' : meta.path}`;
   html = html.replace(
     '</head>',
     `    <link rel="alternate" hreflang="es" href="${esUrl}" />
-    <link rel="alternate" hreflang="en" href="${enUrl}" />
     <link rel="alternate" hreflang="x-default" href="${esUrl}" />
   </head>`
   );
@@ -298,12 +296,10 @@ for (const article of articles) {
     ${article.categoryEs ? `<meta property="article:section" content="${article.categoryEs.replace(/"/g, '&quot;')}" />` : ''}
   `;
   html = html.replace('</head>', `${articleMeta}\n  </head>`);
-  // hreflang — solo para artículos con contenido en inglés
+  // hreflang — el contenido se sirve en ambos idiomas en la misma URL (toggle), sin URLs /en
   const esUrl = articleUrl;
-  const enUrl = `${SITE}/en/${route}/${article.slug}`;
   html = html.replace('</head>', `    <link rel="alternate" hreflang="es" href="${esUrl}" />
     <link rel="alternate" hreflang="x-default" href="${esUrl}" />
-    ${article.titleEn && article.titleEn !== article.title ? `<link rel="alternate" hreflang="en" href="${enUrl}" />` : ''}
   </head>`);
   // Incluir contenido visible para Googlebot pre-renderizado
   const bodyContent = `

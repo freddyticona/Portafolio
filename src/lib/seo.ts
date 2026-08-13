@@ -223,9 +223,10 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
     updateOrCreateMetaTag('property', 'og:video:height', '720');
   }
 
-  // hreflang para i18n (SEO multilanguage)
+  // hreflang para i18n (SEO multilanguage) — el contenido se sirve en ambos
+  // idiomas en la misma URL (toggle), no existen rutas /en/*. Solo apuntamos
+  // a la URL actual para evitar que Google indexe URLs inexistentes.
   updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'es', `${SITE_CONFIG.url}${pagePath}`);
-  updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'en', `${SITE_CONFIG.url}/en${pagePath}`);
   updateOrCreateLinkTag('link', 'alternate', 'hreflang', 'x-default', `${SITE_CONFIG.url}${pagePath}`);
 
   // robots tag

@@ -4,6 +4,33 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "vite",
+  "redirects": [
+    {
+      "source": "/en/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bolivia-puesto-91-rsf",
+      "destination": "/noticias/bolivia-puesto-91-rsf",
+      "permanent": true
+    },
+    {
+      "source": "/noticias/curso-verano-seguridad-ninos-padres",
+      "destination": "/noticias",
+      "permanent": true
+    },
+    {
+      "source": "/noticias/es-campeon-del-mundo-y-cuando-no-esta-metiendo-goles-esta-rescatando-perritos",
+      "destination": "/noticias",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
