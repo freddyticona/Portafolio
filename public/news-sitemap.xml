@@ -3,6 +3,62 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/frontera-segura</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-13</news:publication_date>
+      <news:title>Las policías de Bolivia y Brasil lanzarán el programa Frontera Segura en Guayaramerín</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/muere-prichard-colon-33</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-13</news:publication_date>
+      <news:title>Muere el exboxeador Prichard Colón a los 33 años</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rumania-nuclear-danubio</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-13</news:publication_date>
+      <news:title>Rumania cierra su única central nuclear por la bajada del nivel del Danubio</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/libano-incendios</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-13</news:publication_date>
+      <news:title>Bomberos de Líbano denuncian que Israel provoca a propósito incendios forestales en el sur del país</news:title>
+      <news:keywords>Oriente Medio</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/eclipse-solar-total-espana-historia-13-comunidades</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -140,6 +196,132 @@
       <news:publication_date>2026-08-12</news:publication_date>
       <news:title>Las mejores fotos del eclipse solar total 2026: de Groenlandia a Mallorca</news:title>
       <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reservas-bcb-3632</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Reservas internacionales suben a 3.632 millones de dólares al cierre de julio</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ley-inversiones-comision</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Proyecto de Ley de Inversiones irá a comisión y legisladores piden 20 días para analizarla</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/marinkovic-suarez-libre</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Tras denuncia de transfugio por &quot;pegas&quot;, Marinkovic y Suárez anuncian su alejamiento de Libre</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cns-enriquecimiento</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Denuncian a gerente de la CNS por pasar de Bs 1.063 a más de Bs 7.316.035 en pocos meses</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/salarios-policias</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Proyecto de ley pretende subir salarios mínimos de Bs 6.800 y Bs 9.500 para policías operativos</news:title>
+      <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nino-titicaca</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Expertos advierten que el El Niño puede desencadenar una crisis en el Titicaca</news:title>
+      <news:keywords>Medio Ambiente</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/julio-record-calor-eeuu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Julio 2026 fue el mes más caluroso registrado en EE.UU.</news:title>
+      <news:keywords>Clima</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/qusra-colonos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Colonos israelíes asedian a familias palestinas en la aldea de Qusra, en Cisjordania</news:title>
+      <news:keywords>Oriente Medio</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/500-drones-rusia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12</news:publication_date>
+      <news:title>Más de 500 drones golpean Rusia en una noche de ataques que deja al menos 4 muertos</news:title>
+      <news:keywords>Conflictos</news:keywords>
     </news:news>
   </url>
 </urlset>
