@@ -212,6 +212,14 @@ scripts/
 - Creado `public/offline.html` para fallback offline
 - **Commit**: `5a27f20`
 
+### Sesión 10 noticias virales Badabun (agosto 2026):
+- Agregados 10 artículos nuevos (ids 978-987) reescritos y ampliados desde badabun.com (prestar cuenta bancaria, accidente vial, visa EU, asbesto, deudas Coppel, frases a policía, acta de nacimiento, niño con síndrome de Down, traileros, juez anti-maltrato)
+- Fotos originales descargadas de `/assets/notas/` de cada artículo a `public/images/blog/badabun/` (jpg + webp optimizado)
+- **Disclaimers**: cada artículo incluye "Nota editorial" aclarando qué afirmaciones carecen de fuente independiente verificada y señalando las verificables (artículos 16/17/400 Bis, OMS/IARC, CBP, caso Cicconetti)
+- Categorías: Sociedad, Salud, Seguridad, Internacional | región 'International' | fuente BADABUN con sourceUrl original
+- Build: 304 páginas pre-renderizadas (294→304), 290 artículos (280→290), RSS 290 items, sitemap 303 URLs
+- **Commits**: (agregar tras push)
+
 ## Editorial Workflow — Artículos de Noticias
 
 Al crear o reescribir un artículo para el sector de noticias, seguir este flujo editorial + SEO:

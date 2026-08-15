@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/frontera-segura</loc>
+    <loc>https://freddydev.net/noticias/prestar-cuenta-banco-amigo-20-anos-prision</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,51 +11,9 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-13</news:publication_date>
-      <news:title>Las policías de Bolivia y Brasil lanzarán el programa Frontera Segura en Guayaramerín</news:title>
-      <news:keywords>Seguridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/muere-prichard-colon-33</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13</news:publication_date>
-      <news:title>Muere el exboxeador Prichard Colón a los 33 años</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/rumania-nuclear-danubio</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13</news:publication_date>
-      <news:title>Rumania cierra su única central nuclear por la bajada del nivel del Danubio</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/libano-incendios</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13</news:publication_date>
-      <news:title>Bomberos de Líbano denuncian que Israel provoca a propósito incendios forestales en el sur del país</news:title>
-      <news:keywords>Oriente Medio</news:keywords>
+      <news:publication_date>2026-08-14</news:publication_date>
+      <news:title>Le prestó su cuenta de banco a un amigo y le dieron 20 años de prisión por lavado de dinero</news:title>
+      <news:keywords>Sociedad</news:keywords>
     </news:news>
   </url>
 </urlset>
