@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-nadia-beller-cerimedo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18</news:publication_date>
+      <news:title>“Si no fingía estar muerta, me remataban”: Nadia Beller sobrevivió a cuatro balazos y destapó el entramado que sacude al Gobierno</news:title>
+      <news:keywords>Reportaje</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/combustibles-filas-surtidores</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
