@@ -16,4 +16,144 @@
       <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/noticias/luis-vega-retiro-musica-2027</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Luis Vega anuncia el cierre de su proyecto musical por depresión: &quot;No disfruto mi música&quot;</news:title>
+      <news:keywords>Cultura</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nevada-yungas-la-cumbre</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Precaución en La Cumbre: intensa nevada cubre la ruta a los Yungas de La Paz</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/sucre-mordeduras-perros-2500-casos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Sucre registra hasta 10 mordeduras de perros al día y más de 2.500 casos en Chuquisaca</news:title>
+      <news:keywords>Salud</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/agua-potable-la-paz-achachicala</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Agua potable se restablece antes de lo previsto en zonas de La Paz tras trabajos en la planta de Achachicala</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/expocruz-2026-edicion-50</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>ExpoCruz 2026 lanza su versión internacional 50: &quot;Oportunidades para todos&quot;, del 18 al 27 de septiembre</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/san-roque-bendicion-perros-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Perrotón y bendiciones de perros marcan el Día de San Roque en La Paz</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/aguirre-china-vacunas-bolivianita-tren</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Aguirre vuelve de China con gestiones para vacunas, bolivianita y el Tren Metropolitano</news:title>
+      <news:keywords>País</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ley-inversiones-inicia-tramite-diputados</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Ley de Inversiones inicia su trámite en Diputados y ya enfrenta reparos</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/dia-bandera-201-anos-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Bolivia conmemora 201 años de su primera bandera con una ceremonia en plaza Murillo</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/santa-cruz-semana-contrastes-clima</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Santa Cruz tendrá una semana de contrastes: calor, fuertes vientos y el ingreso de un frente frío</news:title>
+      <news:keywords>País</news:keywords>
+    </news:news>
+  </url>
 </urlset>
