@@ -21,6 +21,11 @@
       "permanent": true
     },
     {
+      "source": "/blog/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia",
+      "destination": "/noticias/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia",
+      "permanent": true
+    },
+    {
       "source": "/noticias/curso-verano-seguridad-ninos-padres",
       "destination": "/noticias",
       "permanent": true

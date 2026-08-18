@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/prestar-cuenta-banco-amigo-20-anos-prision</loc>
+    <loc>https://freddydev.net/noticias/combustibles-filas-surtidores</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,9 +11,9 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-14</news:publication_date>
-      <news:title>Le prestó su cuenta de banco a un amigo y le dieron 20 años de prisión por lavado de dinero</news:title>
-      <news:keywords>Sociedad</news:keywords>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>Ministro de Hidrocarburos pide disculpas por las filas en surtidores y no fija fecha para normalizar los combustibles</news:title>
+      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
 </urlset>
