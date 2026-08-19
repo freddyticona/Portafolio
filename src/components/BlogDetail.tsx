@@ -140,6 +140,59 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     });
   }, [htmlContent]);
 
+  // Hidratar tweets embebidos con el oEmbed oficial de Twitter (tuit original completo)
+  useEffect(() => {
+    const containers = document.querySelectorAll<HTMLElement>('.tweet-embed[data-tweet-url]');
+    if (!containers.length) return;
+
+    const loadedWidgets = new Set<(el: HTMLElement) => void>();
+
+    const ensureWidgets = (el: HTMLElement) => {
+      const w = (window as unknown as { twttr?: { widgets?: { load: (el?: HTMLElement) => void } } }).twttr;
+      if (w?.widgets) {
+        try { w.widgets.load(el); } catch { /* noop */ }
+        return;
+      }
+      // Cargar widgets.js una sola vez y luego aplicar
+      if (!loadedWidgets.size) {
+        const s = document.createElement('script');
+        s.src = 'https://platform.twitter.com/widgets.js';
+        s.async = true;
+        s.onload = () => {
+          loadedWidgets.forEach((cb) => cb(el));
+          loadedWidgets.clear();
+        };
+        document.head.appendChild(s);
+      }
+      loadedWidgets.add(() => {
+        const w2 = (window as unknown as { twttr?: { widgets?: { load: (el?: HTMLElement) => void } } }).twttr;
+        try { w2?.widgets?.load(el); } catch { /* noop */ }
+      });
+    };
+
+    containers.forEach((container) => {
+      const url = container.dataset.tweetUrl;
+      if (!url || container.dataset.embedLoaded) return;
+      container.dataset.embedLoaded = '1';
+
+      fetch(
+        `https://publish.twitter.com/oembed?url=${encodeURIComponent(url)}&omit_script=true&dnt=true&theme=dark&align=center`
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          if (data && typeof data.html === 'string') {
+            container.innerHTML = data.html;
+            container.classList.add('tweet-embed--hydrated');
+            ensureWidgets(container);
+          }
+        })
+        .catch(() => {
+          // Fallback: se mantiene el contenido original de la cita
+          container.dataset.embedLoaded = '0';
+        });
+    });
+  }, [htmlContent]);
+
   // ─── Structured Data + OG Tags para el artículo ────────────────────
   useEffect(() => {
     const title = lang === 'es' ? post.titleEs : post.titleEn;

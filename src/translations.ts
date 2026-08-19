@@ -19443,47 +19443,17 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
 <p>La defensa de Cerimedo, encabezada por el abogado Ernesto Giraldes, confirmó en diálogo con la cadena TN que entregó el celular de su cliente a la Fiscalía y negó que el consultor intentara fugarse de Bolivia.</p>
 <h2>La voz de las exautoridades</h2>
 <p>Entre las personalidades que se pronunciaron sobre el caso, el expresidente Evo Morales acusó en su cuenta de X a Cerimedo de haberlo amenazado en dos ocasiones, una de ellas el 14 de mayo, cuando, según el exmandatario, "emite un mensaje agresivo donde escribe al final la palabra: 'tictac', como si a mi vida se le estuviera acabando el tiempo".</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-evo">E</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Evo Morales</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@evoespueblo</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/evoespueblo/status/2089807579312521399">
   <blockquote><p>"En su momento, denunciamos oportunamente las dos amenazas que hizo Fernando Cerimedo, asesor personal de Rodrigo Paz, en mi contra. Ahora entendemos por qué".</p></blockquote>
-  <div class="tweet-time">18 de agosto de 2026 · <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">Ver en X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Evo Morales (@evoespueblo)</span> — <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <h2>Los tuits que marcaron la jornada</h2>
 <p>El presidente Rodrigo Paz se pronunció en X y calificó de "hechos de violencia que están llegando a extremos insospechados, con repercusiones tanto a nivel nacional como internacional" lo ocurrido en Santa Cruz, y aseguró que como Gobierno están "profundamente consternados".</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-rodrigo">RP</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Rodrigo Paz P.</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@Rodrigo_PazP</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/Rodrigo_PazP/status/2089894346644426868">
   <blockquote><p>"Los hechos de violencia están llegando a extremos insospechados, con repercusiones tanto a nivel nacional como internacional. Como Presidente y Gobierno, estamos profundamente consternados".</p></blockquote>
-  <div class="tweet-time">19 de agosto de 2026 · <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">Ver en X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Rodrigo Paz P. (@Rodrigo_PazP)</span> — <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <p>Horas antes, el propio Cerimedo había vinculado en X su detención a una supuesta "campaña en contra", mientras Beller publicaba en su cuenta de Facebook los chats que complican al consultor y que luego fueron verificados por Infobae.</p>
 <p><small>Con información de: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> y agencias de noticias.</small></p>`,
@@ -19522,47 +19492,17 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
 <p>Cerimedo\'s defense, led by lawyer Ernesto Giraldes, told TN that it handed over the consultant\'s cell phone to the prosecutor\'s office and denied that Cerimedo tried to flee Bolivia.</p>
 <h2>The voice of former authorities</h2>
 <p>Among the figures who spoke on the case, former president Evo Morales accused Cerimedo on X of having threatened him twice, one of them on May 14, when, according to the former leader, he "posts an aggressive message that ends with the word: \'tictac,\' as if my life\'s time were running out."</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-evo">E</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Evo Morales</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@evoespueblo</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/evoespueblo/status/2089807579312521399">
   <blockquote><p>"Back then we promptly reported the two threats that Fernando Cerimedo, Rodrigo Paz\'s personal advisor, made against me. Now we understand why."</p></blockquote>
-  <div class="tweet-time">August 18, 2026 · <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">View on X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Evo Morales (@evoespueblo)</span> — <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <h2>The tweets that marked the day</h2>
 <p>President Rodrigo Paz took to X and described what happened in Santa Cruz as "acts of violence that are reaching unforeseen extremes, with consequences both at the national and international level," saying his government is "deeply saddened."</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-rodrigo">RP</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Rodrigo Paz P.</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@Rodrigo_PazP</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/Rodrigo_PazP/status/2089894346644426868">
   <blockquote><p>"The acts of violence are reaching unforeseen extremes, with consequences both at the national and international level. As President and Government, we are deeply saddened."</p></blockquote>
-  <div class="tweet-time">August 19, 2026 · <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">View on X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Rodrigo Paz P. (@Rodrigo_PazP)</span> — <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <p>Hours earlier, Cerimedo himself had linked his detention on X to an alleged "campaign against him," while Beller posted on her Facebook account the chats that implicate the consultant, later verified by Infobae.</p>
 <p><small>Sources: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> and wire services.</small></p>`,
@@ -19617,47 +19557,17 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
 <p><small>Nadia Beller, en entrevista con Página/12 — <a href="https://www.pagina12.com.ar/2026/08/19/nadia-beller-el-decia-que-el-gobierno-de-milei-se-iba-a-caer-que-estaba-demasiado-corrupto/">Página/12</a></small></p>
 <h2>La opinión de exautoridades</h2>
 <p>Sobre el perfil y la trayectoria del consultor también se pronunciaron exautoridades. El expresidente boliviano Evo Morales denunció que Cerimedo, "asesor personal de Rodrigo Paz", lanzó amenazas contra su vida, y recordó un mensaje del 14 de mayo que terminaba con la palabra "tictac". En Brasil, personajes como el expresidente de la ICL residencial y figuras ligadas a la "milicia digital" reiteraron sus advertencias sobre el rol de Cerimedo.</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-evo">E</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Evo Morales</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@evoespueblo</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/evoespueblo/status/2089807579312521399">
   <blockquote><p>"Ahora entendemos por qué".</p></blockquote>
-  <div class="tweet-time">18 de agosto de 2026 · <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">Ver en X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Evo Morales (@evoespueblo)</span> — <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <h2>Los tuits que compartió</h2>
 <p>En sus redes, Cerimedo construyó una narrativa de victimización. Tras la aprehensión, compartió mensajes en los que se presentaba como inocente y hablaba de una supuesta "campaña" en su contra. El presidente Rodrigo Paz, en cambio, tuiteó que los hechos "están llegando a extremos insospechados" y que el Gobierno está "profundamente consternado".</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-rodrigo">RP</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Rodrigo Paz P.</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@Rodrigo_PazP</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/Rodrigo_PazP/status/2089894346644426868">
   <blockquote><p>"Los hechos de violencia están llegando a extremos insospechados, con repercusiones tanto a nivel nacional como internacional".</p></blockquote>
-  <div class="tweet-time">19 de agosto de 2026 · <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">Ver en X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Rodrigo Paz P. (@Rodrigo_PazP)</span> — <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <p><small>Con información de: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> y CLIP.</small></p>`,
         contentEn: `<h1>Fernando Cerimedo: the digital strategist who went from the Milei and Bolsonaro campaigns to advising Bolivia\'s president</h1>
@@ -19680,47 +19590,17 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
 <p><small>Nadia Beller, in an interview with Página/12 — <a href="https://www.pagina12.com.ar/2026/08/19/nadia-beller-el-decia-que-el-gobierno-de-milei-se-iba-a-caer-que-estaba-demasiado-corrupto/">Página/12</a></small></p>
 <h2>The view of former authorities</h2>
 <p>Former officials also weighed in on the consultant\'s profile and career. Former Bolivian president Evo Morales alleged that Cerimedo, "Rodrigo Paz\'s personal advisor," had made threats against his life, recalling a May 14 message that ended with the word "tictac." Figures tied to the "digital militia" in Brazil reiterated their warnings about Cerimedo\'s role.</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-evo">E</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Evo Morales</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@evoespueblo</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/evoespueblo/status/2089807579312521399">
   <blockquote><p>"Now we understand why."</p></blockquote>
-  <div class="tweet-time">August 18, 2026 · <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">View on X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Evo Morales (@evoespueblo)</span> — <a href="https://x.com/evoespueblo/status/2089807579312521399" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <h2>The tweets he shared</h2>
 <p>On his own feeds, Cerimedo built a narrative of victimhood. After his detention he shared posts presenting himself as innocent and speaking of an alleged "campaign" against him. President Rodrigo Paz, by contrast, tweeted that the events "are reaching unforeseen extremes" and that the government is "deeply saddened."</p>
-<div class="tweet-card">
-  <div class="tweet-card-head">
-    <span class="tweet-avatar tweet-avatar-rodrigo">RP</span>
-    <div class="tweet-id">
-      <div class="tweet-name-row">
-        <span class="tweet-name">Rodrigo Paz P.</span>
-        <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="tweet-handle">@Rodrigo_PazP</div>
-    </div>
-    <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-  </div>
+<div class="tweet-embed" data-tweet-url="https://twitter.com/Rodrigo_PazP/status/2089894346644426868">
   <blockquote><p>"The acts of violence are reaching unforeseen extremes, with consequences both at the national and international level."</p></blockquote>
-  <div class="tweet-time">August 19, 2026 · <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">View on X</a></div>
-  <div class="tweet-actions">
-    <span class="tweet-action-item">↩</span>
-    <span class="tweet-action-item">↻</span>
-    <span class="tweet-action-item">♥</span>
-  </div>
+  <p><small class="tweet-embed-note"><span class="tweet-embed-author">Rodrigo Paz P. (@Rodrigo_PazP)</span> — <a href="https://x.com/Rodrigo_PazP/status/2089894346644426868" target="_blank" rel="noopener noreferrer">Ver tuit en X</a> <span class="tweet-embed-status">· Cargando tuit original…</span></small></p>
+</div>
 </div>
 <p><small>Sources: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> and CLIP.</small></p>`,
         date: '2026-08-19',
