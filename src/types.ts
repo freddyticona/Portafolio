@@ -101,7 +101,7 @@ export interface BlogPost {
   location?: string; // Ubicación de la noticia
   source?: string; // Fuente de la noticia (medio)
   sourceUrl?: string; // URL de la fuente original
-  region?: 'Bolivia' | 'International';
+  region?: 'Bolivia' | 'International' | 'US';
 }
 
 export interface Testimonial {
