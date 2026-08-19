@@ -19400,6 +19400,613 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
         region: 'US',
         sourceUrl: 'https://abc7news.com/post/new-fbi-files-reveal-former-rep-eric-swalwell-admitted-relationship-suspected-chinese-operative-christine-fang/19694681/'
       },
+      {
+        id: '1019',
+        contentType: 'reportage',
+        slug: 'especial-repercusiones-internacionales-caso-beller-cerimedo',
+        titleEs: 'Las repercusiones internacionales del caso Beller-Cerimedo: del CLIP de Brasil al despacho de Milei',
+        titleEn: 'International fallout of the Beller-Cerimedo case: from Brazil\'s CLIP investigation to Milei\'s office',
+        excerptEs: 'La detención de Fernando Cerimedo por el ataque a balazos contra la abogada Nadia Beller instaló el caso en la agenda regional. Agencias internacionales, verificadores y medios de Argentina, España y México siguen una causa que combina violencia de género, políticos y milicias digitales.',
+        excerptEn: 'The arrest of Fernando Cerimedo over the shooting of lawyer Nadia Beller put the case on the regional agenda. International wire services, fact-checkers and media across Argentina, Spain and Mexico are following a case that mixes gender violence, politics and digital militias.',
+        contentEs: `<h1>Las repercusiones internacionales del caso Beller-Cerimedo: del CLIP de Brasil al despacho de Milei</h1>
+<p><em>Lo que comenzó como un hecho policial en Santa Cruz de la Sierra se convirtió en una noticia continental. La detención de Fernando Cerimedo —estratega digital argentino y asesor del presidente de Bolivia, Rodrigo Paz—, acusado de ser el autor intelectual del ataque armado contra la abogada y activista Nadia Beller, ocupó titulares en agencias de noticias y medios de al menos ocho países en las primeras 48 horas del caso.</em></p>
+<h2>Una cobertura que cruzó la región</h2>
+<p>El eco de la noticia comenzó con las agencias de información: Associated Press, Reuters y EFE repicaron la detención ocurrida en el aeropuerto de Viru Viru, junto con los reportes locales de El Deber, Los Tiempos, Urgente.bo y La Razón. Desde Argentina, Clarín, Infobae, La Nación, Página/12 y TN dedicaron portales especiales al tema; en España lo cubrieron El País, Público y El Mundo; y en México y Brasil, El Financiero y medios como el portal brasileño ligado a la academia (CLIP) profundizaron el ángulo de las "milicias digitales" investigadas por el Supremo Tribunal Federal.</p>
+<p>La brasileña ICL —que desde 2022 investiga la "milicia digital" alrededor de la campaña de Jair Bolsonaro— reactivó el archivo de más de 66 menciones a Cerimedo en las actas del expediente, una referencia que los medios argentinos citaron de inmediato.</p>
+<h2>El desmarque del Gobierno argentino</h2>
+<p>En Buenos Aires, voceros de Casa Rosada intentaron poner distancia. Según reportó La Nación, funcionarios señalaron que Cerimedo "estaba hace tiempo distanciado del Presidente" y que no ocupaba ningún cargo oficial en el Gobierno.</p>
+<blockquote><p>"Estaba hace tiempo distanciado del Presidente".</p></blockquote>
+<p><small>Fuente: <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a></small></p>
+<p>Cerimedo formó parte del equipo de campaña de Javier Milei en las elecciones de 2023, aunque la gestión de la sociedad con sus agencias de comunicación fue una constante fuente de controversia. El último año, además, el exfuncionario pasó a asesorar al presidente boliviano Rodrigo Paz.</p>
+<h2>Lo que dicen los verificadores</h2>
+<p>Chequeado, la referencia argentina en fact-checking, publicó una nota titulada "Qué se sabe del ataque a Nadia Beller" en la que recuerda que, hasta el momento de la publicación, la participación de Cerimedo en el atentado no había sido confirmada por una sentencia judicial, aunque sí existían elementos que su fiscalía boliviana vincula al caso.</p>
+<p>Los verificadores también recordaron los antecedentes de Cerimedo en Brasil: el estratega fue investigado dentro de la "Operación Milicias Digitales" y el pliego de la causa golpista del 8 de enero lo menciona en 66 oportunidades; sin embargo, en febrero de 2025 la Procuraduría General de la República decidió no acusarlo formalmente, algo que los medios argentinos aclararon en sus notas de balance.</p>
+<h2>La mirada desde Bolivia</h2>
+<p>En Santa Cruz, la defensa de Nadia Beller pidió que la causa no sea declarada en reserva y que se investigue "hasta los extremos insospechados". El presidente Rodrigo Paz difundió un mensaje de solidaridad con la activista y prometió una investigación exhaustiva. Fiscalía General confirmó la aprehensión y adelantó que imputará por tentativa de feminicidio.</p>
+<blockquote><p>"Rodrigo Paz se solidariza con Beller e instruye investigación exhaustiva".</p></blockquote>
+<p><small>Comunicado difundido por el Gobierno de Bolivia, recogido por <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a></small></p>
+<h2>Cronología del caso</h2>
+<ul>
+<li><strong>16-17 de agosto:</strong> Nadia Beller es atacada a balazos en Santa Cruz de la Sierra.</li>
+<li><strong>18 de agosto:</strong> Cerimedo es detenido en el aeropuerto de Viru Viru cuando intentaba viajar a Buenos Aires.</li>
+<li><strong>18 de agosto:</strong> La Fiscalía General confirma la aprehensión por tentativa de feminicidio.</li>
+<li><strong>18 de agosto:</strong> El Gobierno argentino se desmarca y El TSJ instruye que el caso no sea declarado en reserva.</li>
+<li><strong>19 de agosto:</strong> La prensa internacional amplía la cobertura con perfiles y análisis de antecedentes.</li>
+</ul>
+<p><small>Con información de: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> y agencias de noticias.</small></p>`,
+        contentEn: `<h1>International fallout of the Beller-Cerimedo case: from Brazil\'s CLIP investigation to Milei\'s office</h1>
+<p><em>What started as a police matter in Santa Cruz de la Sierra became a continental story. The arrest of Fernando Cerimedo — Argentine digital strategist and advisor to Bolivia\'s president, Rodrigo Paz — over the shooting of lawyer and activist Nadia Beller topped headlines in wire services and media from at least eight countries within the first 48 hours.</em></p>
+<h2>Coverage that spanned the region</h2>
+<p>International wire services — Associated Press, Reuters and EFE — amplified the arrest at Viru Viru airport, alongside local reports from El Deber, Los Tiempos, Urgente.bo and La Razón. In Argentina, Clarín, Infobae, La Nación, Página/12 and TN launched live blogs on the case; Spain\'s El País, Público and El Mundo covered it; and outlets in Mexico and Brazil explored the "digital militias" angle investigated by Brazil\'s Supreme Federal Court.</p>
+<p>ICL, the Brazilian investigative unit that has tracked the "digital militia" around Jair Bolsonaro\'s campaign since 2022, flagged again the record of more than 66 mentions of Cerimedo in the docket, a reference quickly cited by Argentine media.</p>
+<h2>Argentina\'s government distances itself</h2>
+<p>In Buenos Aires, spokespeople for the Casa Rosada sought to keep their distance. According to La Nación, officials said Cerimedo "had long since been distanced from the President" and that he held no official role in the government.</p>
+<blockquote><p>"He had long since been distanced from the President."</p></blockquote>
+<p><small>Source: <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a></small></p>
+<p>Cerimedo was part of Javier Milei\'s campaign team in the 2023 election, though his dealings with government agencies were a recurring source of controversy. In the past year he became an advisor to Bolivian President Rodrigo Paz.</p>
+<h2>What fact-checkers say</h2>
+<p>Chequeado, Argentina\'s leading fact-checking outlet, published "What is known about the attack on Nadia Beller," recalling that, as of publication, Cerimedo\'s role in the attack had not been confirmed by any court decision, although elements linked him to the case in the Bolivian prosecutor\'s files.</p>
+<p>The fact-checkers also revisited Cerimedo\'s record in Brazil: he was probed in the "Digital Militias Operation," and the January 8 coup-case docket mentions him 66 times. Yet in February 2025 the Attorney General\'s Office decided not to formally charge him — a point Argentine media carefully noted in their balance pieces.</p>
+<h2>The Bolivian view</h2>
+<p>In Santa Cruz, Nadia Beller\'s legal team asked that the case not be sealed and that it be investigated "to unforeseen extremes." President Rodrigo Paz issued a message of solidarity with the activist and promised a thorough investigation. The Attorney General\'s Office confirmed the detention and said it would charge Cerimedo with attempted femicide.</p>
+<blockquote><p>"Rodrigo Paz shows solidarity with Beller and orders a thorough investigation."</p></blockquote>
+<p><small>Statement released by Bolivia\'s government, as reported by <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a></small></p>
+<h2>Case timeline</h2>
+<ul>
+<li><strong>Aug. 16-17:</strong> Nadia Beller is shot in Santa Cruz de la Sierra.</li>
+<li><strong>Aug. 18:</strong> Cerimedo is arrested at Viru Viru airport while trying to fly to Buenos Aires.</li>
+<li><strong>Aug. 18:</strong> The Attorney General\'s Office confirms the detention on charges of attempted femicide.</li>
+<li><strong>Aug. 18:</strong> Argentina\'s government distances itself; Bolivia\'s top court orders the case not be sealed.</li>
+<li><strong>Aug. 19:</strong> International media expand coverage with profiles and background analysis.</li>
+</ul>
+<p><small>Sources: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> and wire services.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '9 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/cerimedo-reuters-archivo.jpg',
+        imageCaption: 'Fernando Cerimedo, estratega argentino detenido en Bolivia. Foto: Reuters',
+        categoryEs: 'Especial',
+        categoryEn: 'Special',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        videoUrl: 'SxHYUmyzzA0',
+        images: [
+          '/images/blog/caso-nadia-beller/cerimedo-reuters-archivo.jpg',
+          '/images/blog/caso-nadia-beller/momento-ataque-camara.webp',
+          '/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp',
+          '/images/blog/caso-nadia-beller/relacion-cerimedo-beller.webp'
+        ],
+        location: 'Santa Cruz de la Sierra, Bolivia',
+        source: 'Reuters / La Nación / Chequeado',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026'
+      },
+      {
+        id: '1020',
+        contentType: 'reportage',
+        slug: 'especial-perfil-fernando-cerimedo-estratega-digital',
+        titleEs: 'Fernando Cerimedo: el estratega digital que pasó de las campañas de Milei y Bolsonaro a asesor del presidente de Bolivia',
+        titleEn: 'Fernando Cerimedo: the digital strategist who went from the Milei and Bolsonaro campaigns to advising Bolivia\'s president',
+        excerptEs: 'Creador de contenidos, dueño de La Derecha Diario y referente de las llamadas "milicias digitales", Cerimedo pasó de asesorar a Javier Milei y colaborar en la campaña de Bolsonaro a convertirse en el estratega del presidente boliviano Rodrigo Paz. Repasamos su trayectoria, sus controversias y su defensa.',
+        excerptEn: 'Digital content creator, owner of La Derecha Diario and a leading figure of the so-called "digital militias," Cerimedo went from advising Javier Milei and working on Bolsonaro\'s campaign to becoming the strategist of Bolivian President Rodrigo Paz. A look at his career, his controversies and his defense.',
+        contentEs: `<h1>Fernando Cerimedo: el estratega digital que pasó de las campañas de Milei y Bolsonaro a asesor del presidente de Bolivia</h1>
+<p><em>Pocos nombres generan tantos reflejos encontrados en la política latinoamericana como el de Fernando Cerimedo. Consultor, agencia de publicidad y dueño de la red de portales La Derecha Diario, el argentino se movió durante una década entre campañas de la derecha populista de la región, investigaciones por desinformación y, desde finales de 2025, el despacho del presidente de Bolivia, Rodrigo Paz. La detención por el ataque a Nadia Beller puso ese currículum en el centro del debate.</em></p>
+<h2>Los orígenes: publicidad y contenidos</h2>
+<p>Nacido en Mar del Plata, Cerimedo se formó en publicidad y gestión de contenidos. A lo largo de su carrera creó múltiples agencias y empresas de marketing digital, entre ellas Numen Publicidad, que según registros públicos y confirmaciones de la propia empresa trabajaba para el Estado argentino. Su salto a la fama mediática llegó en 2021-2022 con la fundación de La Derecha Diario, una red de portales que publicaba contenido a favor de la derecha en varios países y que ha sido señalada como un ejemplo de "milicias digitales".</p>
+<h2>De Milei a Brasil: operaciones en campaña</h2>
+<p>Cerimedo fue, según reportes de La Nación y otros medios, parte del equipo de comunicación de la campaña de Javier Milei en 2023. Pero su capítulo más controvertido fue el brasileño: la ICL (Institución Cultural La Libertad) documentó su participación en la campaña de Jair Bolsonaro en 2022 y lo vinculó con la "milicia digital" que presionaba a la Corte Electoral. El expediente de la causa del 8 de enero menciona su nombre en 66 oportunidades; en febrero de 2025, la Procuraduría General de la República decidió no acusarlo formalmente.</p>
+<p>También trabajó en Chile, donde organizaciones como CLIP reportaron una red de desinformación vinculada a su estructura, y en México, donde inicialmente promovió contenidos en favor de partidos de derecha, aunque luego moderó ese perfil.</p>
+<h2>Asesor del presidente de Bolivia</h2>
+<p>En 2025, Cerimedo fue contratado por Rodrigo Paz, entonces candidato, para diseñar la comunicación de la campaña que llevó a la segunda vuelta. Tras el triunfo, se convirtió en asesor personal del mandatario en temas de comunicación estratégica y reputación. La contratación generó críticas de la oposición boliviana, que cuestionó los montos, la falta de transparencia y el perfil del consultor condenado a pasar por tribunales por temas de desinformación.</p>
+<h2>La defensa y el presente judicial</h2>
+<p>En el caso Beller, Cerimedo ha negado cualquier relación con el ataque. Su defensa ha señalado que es inocente y que la Fiscalía trabaja con indicios y presunciones. A la vez, la investigación sigue su curso: la justicia boliviana mantiene la aprehensión y evalúa la imputación por tentativa de feminicidio, mientras la defensa exige el acceso completo al expediente. El presidente Paz, por su parte, prometió una investigación "exhaustiva" y de "extremos insospechados".</p>
+<p><small>Con información de: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> y CLIP.</small></p>`,
+        contentEn: `<h1>Fernando Cerimedo: the digital strategist who went from the Milei and Bolsonaro campaigns to advising Bolivia\'s president</h1>
+<p><em>Few names trigger such crossed reflexes in Latin American politics as Fernando Cerimedo. Consultant, advertising executive and owner of the La Derecha Diario network of websites, the Argentine spent a decade moving between right-wing populist campaigns, disinformation investigations and, since late 2025, the office of Bolivia\'s President Rodrigo Paz. His arrest over the attack on Nadia Beller put that record at the center of the debate.</em></p>
+<h2>Origins: advertising and content</h2>
+<p>Born in Mar del Plata, Cerimedo trained in advertising and content management. Over his career he created several digital marketing agencies and companies, including Numen Publicidad, which — according to public records and confirmations from the company itself — worked for the Argentine state. His leap to media fame came in 2021-2022 with the founding of La Derecha Diario, a network of websites publishing right-wing content across several countries, often cited as an example of "digital militias."</p>
+<h2>From Milei to Brazil: campaign operations</h2>
+<p>Cerimedo was, according to La Nación and other outlets, part of Javier Milei\'s campaign communications team in 2023. But his most controversial chapter was the Brazilian one: ICL documented his participation in Jair Bolsonaro\'s 2022 campaign and tied him to the "digital militia" that pressed Brazil\'s electoral court. The January 8 coup-case docket mentions his name 66 times; in February 2025 the Attorney General\'s Office decided not to formally charge him.</p>
+<p>He also worked in Chile, where organizations such as CLIP documented a disinformation network tied to his structure, and in Mexico, where he initially promoted content favoring right-wing parties before moderating that profile.</p>
+<h2>Advisor to Bolivia\'s president</h2>
+<p>In 2025, Cerimedo was hired by Rodrigo Paz, then a candidate, to design the communications strategy of the runoff campaign. After the victory, he became a personal advisor to the president for strategic communications and reputation. The hiring drew criticism from Bolivian opposition figures, who questioned the fees, the lack of transparency and the profile of a consultant who had faced courts over disinformation issues.</p>
+<h2>His defense and the current case</h2>
+<p>In the Beller case, Cerimedo has denied any connection to the attack. His defense says he is innocent and that the prosecution is working with leads and presumptions. Meanwhile the investigation continues: Bolivian courts maintain his detention and prosecutors are weighing an attempted-femicide charge, while the defense demands full access to the file. President Paz, for his part, promised a "thorough" investigation into "unforeseen extremes."</p>
+<p><small>Sources: <a href="https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924">Swissinfo</a>, <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>, <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a> and CLIP.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '10 min de lectura',
+        readTimeEn: '9 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/cerimedo-efe.jpg',
+        imageCaption: 'Fernando Cerimedo. Foto: EFE',
+        categoryEs: 'Especial',
+        categoryEn: 'Special',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 1,
+        videoUrl: 'jUdKJzutvPA',
+        images: [
+          '/images/blog/caso-nadia-beller/cerimedo-efe.jpg',
+          '/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp',
+          '/images/blog/caso-nadia-beller/cerimedo-reuters-archivo.jpg'
+        ],
+        location: 'Santa Cruz de la Sierra, Bolivia',
+        source: 'Swissinfo / EFE / La Nación',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.swissinfo.ch/spa/qui%C3%A9n-es-fernando-cerimedo%2c-el-exasesor-de-milei-detenido-en-bolivia/91916924'
+      },
+      {
+        id: '1021',
+        contentType: 'news',
+        slug: 'paz-solidariza-beller-investigacion-exhaustiva',
+        titleEs: 'Rodrigo Paz se solidariza con Nadia Beller e instruye investigar el caso hasta sus "extremos insospechados"',
+        titleEn: 'Rodrigo Paz shows solidarity with Nadia Beller and orders an investigation into the case\'s "unforeseen extremes"',
+        excerptEs: 'El presidente de Bolivia difundió un comunicado de respaldo a la activista herida a balazos y pidió a la justicia y la Policía investigar el caso con "absoluta transparencia", sin descartar ninguna línea de investigación ni involucrados.',
+        excerptEn: 'Bolivia\'s president issued a statement backing the activist wounded in the shooting and asked the courts and police to investigate the case with "absolute transparency," ruling out no line of inquiry or individual.',
+        contentEs: `<h1>Rodrigo Paz se solidariza con Nadia Beller e instruye investigar el caso hasta sus "extremos insospechados"</h1>
+<p><em>El presidente de Bolivia, Rodrigo Paz, se refirió públicamente este martes al ataque a balazos que sufrió la abogada y activista Nadia Beller en Santa Cruz de la Sierra y expresó su solidaridad con la víctima, al tiempo que instruyó a la justicia y a la Policía a investigar el caso "de manera exhaustiva" y "hasta sus extremos insospechados".</em></p>
+<p>Según el comunicado difundido por el Gobierno a través de medios locales como <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a>, el mandatario afirmó que la investigación debe realizarse con "absoluta transparencia" y sin protección de ningún tipo para los implicados, en alusión directa a Fernando Cerimedo, su asesor y exjefe de campaña, detenido en el aeropuerto de Viru Viru poco después del ataque.</p>
+<blockquote><p>"Rodrigo Paz se solidariza con Beller e instruye investigación exhaustiva".</p></blockquote>
+<p><small>Comunicado del Ejecutivo recogido por <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a>.</small></p>
+<h2>El mensaje presidencial</h2>
+<p>En el texto, Paz manifestó su "indignación" por el hecho violento contra la abogada, quien permanece internada tras los disparos. El presidente pidió a los órganos de justicia y a la fuerza pública celeridad en las diligencias y afirmó que quien resulte responsable "deberá responder ante la ley".</p>
+<h2>Reacciones políticas</h2>
+<p>El pronunciamiento llegó tras la detención de Cerimedo y en medio de una creciente presión de la oposición y de organizaciones de mujeres, que reclamaron una investigación independiente y recordaron que el caso ocurre en un país con altas tasas de feminicidio y violencia contra las mujeres. Voceros de la sociedad civil pidieron además que el caso no sea declarado en reserva para garantizar transparencia.</p>
+<h2>La causa judicial</h2>
+<p>La Fiscalía General del Estado confirmó que Cerimedo pasó de estar arrestado a aprehendido por el delito de tentativa de feminicidio contra Beller, con quien habría sostenido una relación de pareja. La investigación busca determinar el rol exacto del estratega argentino y de eventuales autores materiales del ataque.</p>
+<p><small>Con información de: <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a> y agencias.</small></p>`,
+        contentEn: `<h1>Rodrigo Paz shows solidarity with Nadia Beller and orders an investigation into the case\'s "unforeseen extremes"</h1>
+<p><em>Bolivia\'s President Rodrigo Paz issued a public statement on Tuesday about the shooting of lawyer and activist Nadia Beller in Santa Cruz de la Sierra, expressing solidarity with the victim while instructing the courts and police to investigate the case "thoroughly" and "to its unforeseen extremes."</em></p>
+<p>According to the statement released by the government and covered by local outlets such as <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a>, the president said the investigation must be carried out with "absolute transparency" and with no protection for anyone involved, in a direct reference to Fernando Cerimedo, his advisor and former campaign chief, detained at Viru Viru airport shortly after the attack.</p>
+<blockquote><p>"Rodrigo Paz shows solidarity with Beller and orders a thorough investigation."</p></blockquote>
+<p><small>Executive statement as reported by <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a>.</small></p>
+<h2>The presidential message</h2>
+<p>In the statement, Paz expressed his "outrage" over the violent attack against the lawyer, who remains hospitalized after the shooting. The president asked the judiciary and police to act swiftly and said whoever is responsible "must answer before the law."</p>
+<h2>Political reactions</h2>
+<p>The statement came after Cerimedo\'s detention and amid growing pressure from the opposition and women\'s organizations demanding an independent investigation, recalling that the case unfolds in a country with high rates of femicide and violence against women. Civil society spokespeople also asked that the case not be sealed to guarantee transparency.</p>
+<h2>The judicial case</h2>
+<p>The Attorney General\'s Office confirmed that Cerimedo went from being arrested to formally detained on charges of attempted femicide against Beller, with whom he allegedly had a relationship. The investigation aims to determine the exact role of the Argentine strategist and any eventual perpetrators of the attack.</p>
+<p><small>Sources: <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a> and wire services.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg',
+        imageCaption: 'El presidente de Bolivia, Rodrigo Paz, expresó su solidaridad con Nadia Beller. Foto: El Deber',
+        categoryEs: 'País',
+        categoryEn: 'Bolivia',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'El Deber',
+        region: 'Bolivia',
+        sourceUrl: 'https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757'
+      },
+      {
+        id: '1022',
+        contentType: 'news',
+        slug: 'fiscalia-imputara-cerimedo-tentativa-feminicidio',
+        titleEs: 'La Fiscalía imputará a Fernando Cerimedo por tentativa de feminicidio y pedirá su detención preventiva',
+        titleEn: 'Bolivian prosecutors to charge Fernando Cerimedo with attempted femicide and seek pretrial detention',
+        excerptEs: 'El fiscal general del Estado, Roger Mariaca, informó que el asesor del presidente Paz será procesado por el delito de tentativa de feminicidio en el marco de la Ley 348 y que pedirán su detención preventiva mientras dure la investigación.',
+        excerptEn: 'State Attorney General Roger Mariaca said the president\'s advisor will be charged with attempted femicide under Law 348 and that prosecutors will request pretrial detention while the investigation continues.',
+        contentEs: `<h1>La Fiscalía imputará a Fernando Cerimedo por tentativa de feminicidio y pedirá su detención preventiva</h1>
+<p><em>El fiscal general del Estado, Roger Mariaca, confirmó este martes que Fernando Cerimedo, asesor del presidente Rodrigo Paz, será imputado por el delito de tentativa de feminicidio contra la abogada y activista Nadia Beller, y que el Ministerio Público solicitará su detención preventiva.</em></p>
+<p>"Cerimedo pasó de estar en calidad de arrestado a aprehendido", señaló Mariaca en conferencia de prensa, según reportó <a href="https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva">Urgente.bo</a>. El fiscal general explicó que la víctima y el investigado mantenían una relación de pareja, motivo por el cual la causa —iniciada como tentativa de asesinato— fue encausada como tentativa de feminicidio en el marco de la Ley 348 contra la violencia hacia las mujeres.</p>
+<h2>Riesgos procesales</h2>
+<p>La Fiscalía argumentó la existencia de riesgos procesales para pedir la privación de libertad, entre ellos el peligro de fuga, considerando que Cerimedo fue detenido en el aeropuerto internacional de Viru Viru cuando intentaba viajar a Buenos Aires. Los fiscales también mencionaron la posibilidad de obstaculización de la investigación.</p>
+<h2>Relación víctima-victimario</h2>
+<p>Según la línea de investigación, Beller y Cerimedo mantuvieron un vínculo sentimental. La activista fue atacada a balazos por dos sujetos que simulaban ser repartidores en moto, hechos captados por cámaras de seguridad y difundidos en redes sociales.</p>
+<h2>La defensa</h2>
+<p>La defensa de Cerimedo ha señalado que el estratega es inocente y que las acusaciones se sustentan "en indicios y presunciones". Los abogados del consultor demandaron acceso pleno al expediente y solicitaron a la justicia garantías en el proceso. El presidente Paz, por su parte, instruyó investigar el caso "hasta sus extremos insospechados".</p>
+<p><small>Con información de: <a href="https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva">Urgente.bo</a>.</small></p>`,
+        contentEn: `<h1>Bolivian prosecutors to charge Fernando Cerimedo with attempted femicide and seek pretrial detention</h1>
+<p><em>State Attorney General Roger Mariaca confirmed Tuesday that Fernando Cerimedo, advisor to President Rodrigo Paz, will be charged with attempted femicide against lawyer and activist Nadia Beller, and that the Public Prosecutor\'s Office will request pretrial detention.</em></p>
+<p>"Cerimedo went from being under arrest to formally detained," Mariaca said at a press conference, as reported by <a href="https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva">Urgente.bo</a>. The attorney general explained that the victim and the suspect had been in a relationship, which is why the case — initially opened as attempted murder — was reframed as attempted femicide under Law 348 on violence against women.</p>
+<h2>Procedural risks</h2>
+<p>The prosecution argued the existence of procedural risks to request detention, including flight risk, given that Cerimedo was arrested at Viru Viru international airport while trying to fly to Buenos Aires. Prosecutors also cited the possibility of obstruction of the investigation.</p>
+<h2>Victim-perpetrator relationship</h2>
+<p>According to the investigation\'s working hypothesis, Beller and Cerimedo had a romantic relationship. The activist was shot by two attackers disguised as motorcycle delivery riders, scenes captured by security cameras and widely shared online.</p>
+<h2>The defense</h2>
+<p>Cerimedo\'s defense has said the strategist is innocent and that the accusations rest "on leads and presumptions." His lawyers demanded full access to the case file and asked the courts for procedural guarantees. President Paz, meanwhile, ordered the case to be investigated "to its unforeseen extremes."</p>
+<p><small>Source: <a href="https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva">Urgente.bo</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp',
+        imageCaption: 'El fiscal general del Estado, Roger Mariaca. Foto: Urgente.bo',
+        categoryEs: 'Seguridad',
+        categoryEn: 'Security',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'Urgente.bo',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva'
+      },
+      {
+        id: '1023',
+        contentType: 'news',
+        slug: 'beller-denuncia-corrupcion-entorno-paz',
+        titleEs: 'Nadia Beller denuncia actos de corrupción de la esposa y el entorno de Rodrigo Paz',
+        titleEn: 'Nadia Beller alleges corruption by the wife and inner circle of Rodrigo Paz',
+        excerptEs: 'La activista atacada a balazos en Santa Cruz aseguró, según Los Tiempos, que el entorno cercano al mandatario incurre en actos de corrupción, y afirmó que Cerimedo conoce a los autores del ataque y mantiene control sobre un grupo de policías de élite.',
+        excerptEn: 'The activist shot in Santa Cruz said, according to Los Tiempos, that the president\'s close circle is involved in corruption, and claimed Cerimedo knows the attackers and keeps control over a group of elite police officers.',
+        contentEs: `<h1>Nadia Beller denuncia actos de corrupción de la esposa y el entorno de Rodrigo Paz</h1>
+<p><em>La abogada y activista Nadia Beller, atacada a balazos el fin de semana en Santa Cruz de la Sierra, amplió sus acusaciones: según el diario Los Tiempos, aseguró que la esposa y el entorno cercano al presidente Rodrigo Paz incurren en actos de corrupción, y sostuvo que Fernando Cerimedo conoce la identidad de los autores del ataque armado contra ella.</em></p>
+<p>En declaraciones difundidas este miércoles, Beller —quien permanece bajo protección ante el temor de nuevas agresiones— señaló que Cerimedo, su expareja y asesor del mandatario, "conoce a los autores" del hecho y que tiene "bajo su control" a un grupo de policías de élite, según la crónica de <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a>.</p>
+<blockquote><p>"Cerimedo conoce a los autores del ataque y mantiene bajo su control a un grupo de policías de élite".</p></blockquote>
+<p><small>Declaraciones de Nadia Beller recogidas por <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a>.</small></p>
+<h2>Corrupción en el entorno presidencial</h2>
+<p>Beller también apuntó contra la esposa del mandatario y su círculo más próximo, a los que vinculó con actos de corrupción dentro y fuera de la administración. La activista pidió que las denuncias sean investigadas por instancias independientes y solicitó que su caso no sea declarado en reserva, para garantizar la transparencia de las pesquisas.</p>
+<h2>Protección y seguridad</h2>
+<p>Fuentes cercanas a la víctima señalaron que Beller pidió medidas de protección reforzadas ante el riesgo latente para su vida. La justicia boliviana atendió parte de sus solicitudes y la Fiscalía mantiene la línea de investigación sobre el intento de feminicidio.</p>
+<h2>Posición de Palacio</h2>
+<p>El presidente Rodrigo Paz reafirmó su compromiso de investigar el caso "hasta sus extremos insospechados", mientras que desde la defensa de Cerimedo se rechazaron las afirmaciones de Beller, calificándolas de "declaraciones sin sustento" que buscan presionar el proceso. La Fiscalía deberá evaluar el valor probatorio de cada señalamiento.</p>
+<p><small>Con información de: <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a>.</small></p>`,
+        contentEn: `<h1>Nadia Beller alleges corruption by the wife and inner circle of Rodrigo Paz</h1>
+<p><em>Lawyer and activist Nadia Beller, shot over the weekend in Santa Cruz de la Sierra, widened her accusations: according to Los Tiempos, she said the wife and close circle of President Rodrigo Paz engage in corruption, and claimed Fernando Cerimedo knows the identity of those who attacked her.</em></p>
+<p>In statements published Wednesday, Beller — who remains under protection out of fear of further attacks — said Cerimedo, her ex-partner and the president\'s advisor, "knows the perpetrators" of the attack and keeps "under his control" a group of elite police officers, according to <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a>.</p>
+<blockquote><p>"Cerimedo knows the perpetrators of the attack and keeps under his control a group of elite police officers."</p></blockquote>
+<p><small>Nadia Beller\'s statements as reported by <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a>.</small></p>
+<h2>Corruption in the presidential circle</h2>
+<p>Beller also targeted the president\'s wife and his closest circle, linking them to corruption acts inside and outside the administration. The activist asked that the complaints be investigated by independent bodies and requested that her case not be sealed, to guarantee transparency.</p>
+<h2>Protection and security</h2>
+<p>Sources close to the victim said Beller asked for reinforced protective measures given the ongoing risk to her life. Bolivian courts granted part of her requests, and prosecutors maintain the attempted-femicide line of investigation.</p>
+<h2>The position of the Presidency</h2>
+<p>President Rodrigo Paz reaffirmed his commitment to investigate the case "to its unforeseen extremes," while Cerimedo\'s defense rejected Beller\'s statements, calling them "unsupported allegations" aimed at pressuring the proceedings. Prosecutors will weigh the evidentiary value of each claim.</p>
+<p><small>Source: <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/beller-dtv-elpais.jpg',
+        imageCaption: 'Nadia Beller, abogada y activista. Foto: DTV',
+        categoryEs: 'País',
+        categoryEn: 'Bolivia',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz de la Sierra, Bolivia',
+        source: 'Los Tiempos',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion'
+      },
+      {
+        id: '1024',
+        contentType: 'news',
+        slug: 'gobierno-argentino-desmarca-cerimedo',
+        titleEs: 'El Gobierno de Milei se desmarca de Cerimedo y afirma que "estaba hace tiempo distanciado" del Presidente',
+        titleEn: 'Milei\'s government distances itself from Cerimedo, saying he was "long distanced" from the President',
+        excerptEs: 'Voceros de Casa Rosada aseguraron que el estratega detenido en Bolivia no ocupa ningún cargo oficial y que no mantiene vínculo con el Presidente desde hace tiempo, pese a haber sido clave en la campaña de 2023.',
+        excerptEn: 'Casa Rosada spokespeople said the strategist detained in Bolivia holds no official position and has had no link with the President for some time, despite having been key to the 2023 campaign.',
+        contentEs: `<h1>El Gobierno de Milei se desmarca de Cerimedo y afirma que "estaba hace tiempo distanciado" del Presidente</h1>
+<p><em>El Gobierno argentino intentó esta semana despejar cualquier responsabilidad sobre Fernando Cerimedo, el estratega detenido en Bolivia por el ataque a su expareja Nadia Beller. Voceros de la Casa Rosada afirmaron, según La Nación, que "estaba hace tiempo distanciado del Presidente" y que no desempeñaba ningún cargo oficial.</em></p>
+<p>Cerimedo fue parte del equipo de comunicación de la campaña presidencial de Javier Milei en 2023, en la que se desempeñó como asesor cercano. Su rol generó polémica por los vínculos de sus empresas de contenidos con el Estado. Tras el triunfo, su presencia en el entorno del mandatario fue diluyéndose, aunque nunca hubo un anuncio formal de desvinculación.</p>
+<blockquote><p>"Estaba hace tiempo distanciado del Presidente".</p></blockquote>
+<p><small>Voceros de la Casa Rosada, citados por <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>.</small></p>
+<h2>Una relación que dejó huellas</h2>
+<p>Pese al desmarque, el caso volvió a poner sobre la mesa las antiguas vinculaciones: en Brasil, Cerimedo es monitoreado por la investigación de la "milicia digital" ligada a la campaña de Jair Bolsonaro, y en Argentina su nombre aparece en distintos expedientes vinculados a la producción de contenido en plataformas digitales. Ninguna de esas causas concluyó en una condena en su contra.</p>
+<h2>El día de la detención</h2>
+<p>Cerimedo fue aprehendido en el aeropuerto de Viru Viru cuando intentaba viajar a Buenos Aires, horas después del ataque armado que dejó herida a Beller. Desde la oposición argentina, figuras del peronismo recordaron sus antecedentes y reclamaron que el proceso judicial continúe con total independencia.</p>
+<p><small>Con información de: <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a> y <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a>.</small></p>`,
+        contentEn: `<h1>Milei\'s government distances itself from Cerimedo, saying he was "long distanced" from the President</h1>
+<p><em>Argentina\'s government tried this week to clear any responsibility over Fernando Cerimedo, the strategist detained in Bolivia over the attack on his ex-partner Nadia Beller. Casa Rosada spokespeople said, according to La Nación, that Cerimedo "had long since been distanced from the President" and held no official position.</em></p>
+<p>Cerimedo was part of Javier Milei\'s presidential campaign communications team in 2023, serving as a close advisor. His role sparked controversy over his content companies\' ties to the state. After the victory, his presence in the president\'s orbit faded, though there was never a formal announcement of separation.</p>
+<blockquote><p>"He had long since been distanced from the President."</p></blockquote>
+<p><small>Casa Rosada spokespeople, as cited by <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>.</small></p>
+<h2>A relationship that left traces</h2>
+<p>Despite the distancing, the case reopened old connections: in Brazil, Cerimedo is monitored in the "digital militia" investigation tied to Jair Bolsonaro\'s campaign, and in Argentina his name appears in various cases linked to content production on digital platforms. None of those proceedings ended in a conviction against him.</p>
+<h2>The day of the arrest</h2>
+<p>Cerimedo was detained at Viru Viru airport while trying to fly to Buenos Aires, hours after the armed attack left Beller wounded. From the Argentine opposition, Peronist figures recalled his background and demanded that the judicial process continue with full independence.</p>
+<p><small>Sources: <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a> and <a href="https://chequeado.com/investigaciones/detencion-de-fernando-cerimedo-ex-asesor-de-milei-en-bolivia-que-se-sabe-del-ataque-a-nadia-beller/">Chequeado</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/us-news/milei-cerimedo-distanciado.png',
+        imageCaption: 'Fernando Cerimedo y Javier Milei. Foto: La Nación',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Buenos Aires, Argentina',
+        source: 'La Nación',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026'
+      },
+      {
+        id: '1025',
+        contentType: 'news',
+        slug: 'tsj-instruye-celeridad-caso-beller-cerimedo',
+        titleEs: 'El TSJ instruye celeridad en el caso Beller-Cerimedo y ordena que no sea declarado en reserva',
+        titleEn: 'Bolivia\'s high court orders urgency in Beller-Cerimedo case and rejects keeping it sealed',
+        excerptEs: 'El presidente del Tribunal Supremo de Justicia, Romer Saucedo, instruyó atender de forma inmediata los requerimientos del Ministerio Público y garantizar el acceso de la víctima a la información del proceso.',
+        excerptEn: 'Supreme Court President Romer Saucedo ordered immediate attention to prosecutors\' requests and guaranteed the victim access to the case information.',
+        contentEs: `<h1>El TSJ instruye celeridad en el caso Beller-Cerimedo y ordena que no sea declarado en reserva</h1>
+<p><em>El presidente del Tribunal Supremo de Justicia (TSJ) de Bolivia, Romer Saucedo, instruyó este martes al juez que conoce el caso Beller-Cerimedo actuar con celeridad, atender de inmediato los requerimientos del Ministerio Público para allanamientos y no declarar la investigación en reserva, atendiendo la solicitud expresa de la propia víctima.</em></p>
+<p>La decisión fue difundida por el propio Saucedo y reportada por medios como <a href="https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/">La Razón</a>. El magistrado aseguró que se ordenó al juez de la causa despachar "de forma inmediata" los pedidos del Ministerio Público y adoptar todas las medidas de protección para la abogada y activista Nadia Beller.</p>
+<h2>Transparencia para la víctima</h2>
+<p>Beller, quien resultó herida en el ataque a balazos, había expresado públicamente su rechazo a que la investigación sea declarada en reserva y manifestó su temor por la integridad del proceso. El TSJ determinó que el expediente no será reservado, de modo de garantizar el acceso de la víctima a la información y el control de las diligencias.</p>
+<h2>Medidas de protección</h2>
+<p>Fuentes judiciales señalaron que, además de la celeridad, se ordenó reforzar el esquema de seguridad para la activista y su entorno ante el riesgo latente detectado por la unidad de protección a víctimas y testigos. La Unidad de Riesgos del Ministerio Público evaluará nuevas medidas según avance la investigación.</p>
+<h2>El contexto</h2>
+<p>La instrucción del TSJ llega en medio de una causa de alto perfil político: el acusado es Fernando Cerimedo, asesor del presidente Rodrigo Paz, imputado por tentativa de feminicidio. La decisión de no declarar el caso en reserva busca despejar dudas sobre la transparencia del proceso.</p>
+<p><small>Con información de: <a href="https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/">La Razón</a>.</small></p>`,
+        contentEn: `<h1>Bolivia\'s high court orders urgency in Beller-Cerimedo case and rejects keeping it sealed</h1>
+<p><em>Supreme Court of Justice (TSJ) President Romer Saucedo on Tuesday instructed the judge handling the Beller-Cerimedo case to act swiftly, immediately address prosecutors\' search requests and not declare the investigation sealed, honoring the victim\'s own request.</em></p>
+<p>The decision was announced by Saucedo and reported by outlets such as <a href="https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/">La Razón</a>. The magistrate said the judge was ordered to process the Public Prosecutor\'s requests "immediately" and adopt all protective measures for lawyer and activist Nadia Beller.</p>
+<h2>Transparency for the victim</h2>
+<p>Beller, who was wounded in the shooting, had publicly opposed the investigation being sealed and voiced fears about the integrity of the process. The TSJ ruled the case file will not remain confidential, guaranteeing the victim access to information and oversight of the proceedings.</p>
+<h2>Protective measures</h2>
+<p>Judicial sources said that, besides speed, the security scheme for the activist and her circle would be reinforced given the risks detected by the victim and witness protection unit. The Prosecutor\'s Office risk unit will assess further measures as the investigation advances.</p>
+<h2>The context</h2>
+<p>The TSJ order comes amid a politically sensitive case: the defendant is Fernando Cerimedo, advisor to President Rodrigo Paz, charged with attempted femicide. Keeping the case unsealed aims to dispel doubts about the transparency of the process.</p>
+<p><small>Source: <a href="https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/">La Razón</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/tsj-visita-beller.webp',
+        imageCaption: 'Autoridades judiciales visitan a Nadia Beller. Foto: TSJ',
+        categoryEs: 'Justicia',
+        categoryEn: 'Justice',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz de la Sierra, Bolivia',
+        source: 'La Razón',
+        region: 'Bolivia',
+        sourceUrl: 'https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/'
+      },
+      {
+        id: '1026',
+        contentType: 'news',
+        slug: 'frank-beard-baterista-zz-top-fallece',
+        titleEs: 'Fallece Frank Beard, baterista de ZZ Top, a los 77 años',
+        titleEn: 'Frank Beard, drummer for ZZ Top, dies at 77',
+        excerptEs: 'El músico, quien formó parte del trío de blues rock de Houston durante 56 años, murió en cuidados paliativos en su rancho de Richmond, Texas, con su familia a su lado, según confirmó la banda.',
+        excerptEn: 'The musician, who was part of the Houston blues-rock trio for 56 years, died in hospice care at his ranch in Richmond, Texas, with his family at his side, the band confirmed.',
+        contentEs: `<h1>Fallece Frank Beard, baterista de ZZ Top, a los 77 años</h1>
+<p><em>Frank Beard, célebre baterista y miembro fundador de ZZ Top, falleció a los 77 años. La banda confirmó este martes su deceso: ocurrió en cuidados paliativos ("hospice care") en su rancho de Richmond, Texas, con su familia presente.</em></p>
+<p>"Se anunció hoy que Frank Beard, baterista de ZZ Top durante los últimos 56 años, ha fallecido. Estaba en cuidados paliativos cuando murió en su rancho de Richmond, Texas, con miembros de su familia a su lado", rezó el comunicado de la banda citado por <a href="https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9">Associated Press</a>.</p>
+<blockquote><p>"Estaba en cuidados paliativos cuando murió en su rancho de Richmond, Texas, con miembros de su familia a su lado".</p></blockquote>
+<p><small>Comunicado de ZZ Top, vía <a href="https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9">Associated Press</a>.</small></p>
+<h2>Una leyenda del rock sureño</h2>
+<p>Beard, junto a Billy Gibbons y Dusty Hill, integró uno de los tríos más reconocibles del rock: ZZ Top, nacido en Houston en 1969. Su imagen —contrapunto del poblado barbado Gibbons y de Hill— y su batería precisa fueron la base de éxitos como "La Grange", "Sharp Dressed Man" y "Gimme All Your Lovin'".</p>
+<p>El grupo llevó el blues rock tejano a estadios de todo el mundo y fue incluido en el Salón de la Fama del Rock &amp; Roll en 2004. Beard, cuya barba era más corta que la de sus compañeros, solía bromear sobre esa diferencia con una marca de dólar que contrastaba con sus socios.</p>
+<h2>Últimos meses y cancelaciones</h2>
+<p>En las últimas semanas, ZZ Top canceló su concierto programado para el 5 de agosto en el Hollywood Bowl debido a problemas de salud del baterista. Su muerte pone fin a más de medio siglo ininterrumpido de actividad del trío original de Houston.</p>
+<p>La familia, la banda y los representantes pidieron privacidad y no divulgaron la causa exacta del deceso.</p>
+<p><small>Con información de: <a href="https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9">Associated Press</a> y <a href="https://abcnews.com/GMA/Culture/frank-beard-longtime-zz-top-drummer-dead-77/story?id=119913099">ABC News</a>.</small></p>`,
+        contentEn: `<h1>Frank Beard, drummer for ZZ Top, dies at 77</h1>
+<p><em>Frank Beard, the celebrated drummer and founding member of ZZ Top, has died at 77. The band confirmed his passing Tuesday: he died in hospice care at his ranch in Richmond, Texas, with his family at his side.</em></p>
+<p>"It was announced today that Frank Beard, ZZ Top\'s drummer for the past 56 years, has died. He was in hospice care when he passed away at his ranch in Richmond, TX with family members at his side," read the band\'s statement as cited by <a href="https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9">Associated Press</a>.</p>
+<blockquote><p>"He was in hospice care when he passed away at his ranch in Richmond, TX with family members at his side."</p></blockquote>
+<p><small>ZZ Top statement, via <a href="https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9">Associated Press</a>.</small></p>
+<h2>A southern rock legend</h2>
+<p>Beard, alongside Billy Gibbons and Dusty Hill, made up one of rock\'s most recognizable trios: ZZ Top, formed in Houston in 1969. His image —a counterpart to the heavily bearded Gibbons and Hill— and his precise drumming powered hits such as "La Grange," "Sharp Dressed Man" and "Gimme All Your Lovin\'."</p>
+<p>The band took Texas blues rock to stadiums worldwide and was inducted into the Rock &amp; Roll Hall of Fame in 2004. Beard, whose beard was shorter than his bandmates\', often joked about the difference, a quirk that became part of the band\'s identity.</p>
+<h2>Final months and cancellations</h2>
+<p>In recent weeks, ZZ Top cancelled its Aug. 5 show at the Hollywood Bowl due to the drummer\'s health issues. His death ends more than a half-century of continuous activity by the original Houston trio.</p>
+<p>The family, the band and representatives asked for privacy and did not disclose the exact cause of death.</p>
+<p><small>Sources: <a href="https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9">Associated Press</a> and <a href="https://abcnews.com/GMA/Culture/frank-beard-longtime-zz-top-drummer-dead-77/story?id=119913099">ABC News</a>.</small></p>`,
+        date: '2026-08-18',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/us-news/frank-beard-zz-top.jpg',
+        imageCaption: 'Frank Beard, baterista de ZZ Top. Foto: ABC News / Getty',
+        categoryEs: 'Espectáculos',
+        categoryEn: 'Entertainment',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Richmond, Texas, EE.UU.',
+        source: 'Associated Press',
+        region: 'US',
+        sourceUrl: 'https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9'
+      },
+      {
+        id: '1027',
+        contentType: 'news',
+        slug: 'tormenta-lala-hawaii-deja-miles-sin-luz',
+        titleEs: 'La tormenta Lala deja más de 100.000 clientes sin luz en Hawái y daños en la Isla Grande',
+        titleEn: 'Tropical Storm Lala leaves more than 100,000 customers without power in Hawaii and damages the Big Island',
+        excerptEs: 'El paso de Lala por el archipiélago, primero como huracán y luego como tormenta tropical, derribó tendidos eléctricos, dañó viviendas costeras en la Isla Grande y dejó a cientos de miles de personas sin electricidad. Las cuadrillas trabajan en la restauración.',
+        excerptEn: 'Lala\'s passage through the archipelago, first as a hurricane and then a tropical storm, toppled power lines, damaged coastal homes on the Big Island and left hundreds of thousands of people without electricity. Crews are working to restore service.',
+        contentEs: `<h1>La tormenta Lala deja más de 100.000 clientes sin luz en Hawái y daños en la Isla Grande</h1>
+<p><em>La antigua tormenta tropical Lala, que golpeó la costa sur de la Isla Grande de Hawái el fin de semana, dejó este martes a más de 100.000 clientes sin electricidad mientras las cuadrillas trabajan en la restauración del servicio en las zonas más afectadas del archipiélago.</em></p>
+<p>Según <a href="https://apnews.com/article/tropical-storm-lala-recovery-hawaii-7f6fc2cb95baf0c523fa7546e6a0ddc7">Associated Press</a>, la tormenta —que alcanzó categoría de huracán antes de debilitarse— arrasó con líneas de transmisión y dañó al menos 16 líneas de energía en la Isla Grande. El gobernador Josh Green informó que cerca de un centenar de viviendas resultaron dañadas o fueron arrastradas por el mar en zonas costeras.</p>
+<h2>Apagones masivos</h2>
+<p>En su punto máximo, el domingo por la tarde, más de 180.000 clientes estuvieron sin luz en todo el estado, según datos de <em>poweroutage.us</em> citados por medios locales. La isla de Oahu llegó a registrar apagones que superaron los 220.000 clientes antes de reducirse a cerca de 130.000. Para el martes, todavía más de 100.000 clientes permanecían sin electricidad y las autoridades advirtieron que algunas áreas rurales podrían quedar sin luz durante semanas o incluso meses.</p>
+<h2>Restauración lenta en zonas remotas</h2>
+<p>El acceso difícil a las comunidades rurales de la Isla Grande complica los trabajos de reparación. "Estamos ante un fenómeno que combinó picos de viento sostenidos y lluvias torrenciales; la infraestructura quedó severamente afectada", señalaron responsables de la empresa eléctrica local. Las prioridades son hospitales, estaciones de bomberos y centros de agua.</p>
+<h2>Lala continúa activa</h2>
+<p>El Centro Nacional de Huracanes (NHC) informó que Lala, ya debilitada, seguía desplazándose hacia el oeste, ahora rumbo al Monumento Nacional Marino Papahānaumokuākea, un área protegida del Pacífico. Se espera que la tormenta se degrade gradualmente en los próximos días.</p>
+<p><small>Con información de: <a href="https://apnews.com/article/tropical-storm-lala-recovery-hawaii-7f6fc2cb95baf0c523fa7546e6a0ddc7">Associated Press</a>.</small></p>`,
+        contentEn: `<h1>Tropical Storm Lala leaves more than 100,000 customers without power in Hawaii and damages the Big Island</h1>
+<p><em>The former Tropical Storm Lala, which battered the south coast of Hawaii\'s Big Island over the weekend, left more than 100,000 customers without electricity by Tuesday as crews work to restore service in the hardest-hit areas of the archipelago.</em></p>
+<p>According to <a href="https://apnews.com/article/tropical-storm-lala-recovery-hawaii-7f6fc2cb95baf0c523fa7546e6a0ddc7">Associated Press</a>, the storm —which reached hurricane strength before weakening— tore down transmission lines and damaged at least 16 power lines on the Big Island. Gov. Josh Green said close to 100 homes were damaged or washed away in coastal areas.</p>
+<h2>Massive outages</h2>
+<p>At its peak on Sunday afternoon, more than 180,000 customers were without power across the state, according to <em>poweroutage.us</em> data cited by local media. Outages on Oahu exceeded 220,000 customers before dropping to roughly 130,000. By Tuesday, more than 100,000 customers were still without electricity, and authorities warned some rural areas could remain dark for weeks or even months.</p>
+<h2>Slow restoration in remote areas</h2>
+<p>Difficult access to rural communities on the Big Island complicates repair work. "This was a storm that combined sustained wind gusts with torrential rain; the infrastructure was severely damaged," said officials from the local power company. Priorities are hospitals, fire stations and water facilities.</p>
+<h2>Lala remains active</h2>
+<p>The National Hurricane Center said Lala, now weakened, continued moving westward, now toward the Papahānaumokuākea Marine National Monument, a protected Pacific area. The storm is expected to gradually degrade in the coming days.</p>
+<p><small>Source: <a href="https://apnews.com/article/tropical-storm-lala-recovery-hawaii-7f6fc2cb95baf0c523fa7546e6a0ddc7">Associated Press</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/us-news/lala-recuperacion-hawaii.jpg',
+        imageCaption: 'Cuadrillas trabajan en la restauración eléctrica tras el paso de la tormenta Lala en Hawái. Foto: AP',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Honolulu, Hawái, EE.UU.',
+        source: 'Associated Press',
+        region: 'US',
+        sourceUrl: 'https://apnews.com/article/tropical-storm-lala-recovery-hawaii-7f6fc2cb95baf0c523fa7546e6a0ddc7'
+      },
+      {
+        id: '1028',
+        contentType: 'news',
+        slug: 'disney-abc-demandan-fcc-primera-enmienda',
+        titleEs: 'Disney y ABC demandan a la FCC por la revisión de licencias de sus estaciones y alegan violación a la Primera Enmienda',
+        titleEn: 'Disney and ABC sue the FCC over station license review, alleging a First Amendment violation',
+        excerptEs: 'La matriz de ABC presentó una demanda contra el regulador federal tras la orden de acelerar la renovación de licencias de ocho estaciones, en represalia por la cobertura de "The View" y las sátiras de Jimmy Kimmel, según la empresa.',
+        excerptEn: 'The parent company of ABC sued the federal regulator after an order to expedite license renewals for eight stations, which the company says is retaliation over "The View" and Jimmy Kimmel\'s satire.',
+        contentEs: `<h1>Disney y ABC demandan a la FCC por la revisión de licencias de sus estaciones y alegan violación a la Primera Enmienda</h1>
+<p><em>Disney y su filial ABC presentaron el martes una demanda contra la Comisión Federal de Comunicaciones (FCC) para frenar la revisión anticipada de las licencias de ocho estaciones de la cadena, argumentando que la medida del gobierno federal constituye una violación de la Primera Enmienda en represalia por contenido de "The View" y las sátiras de Jimmy Kimmel.</em></p>
+<p>Según <a href="https://apnews.com/article/abc-fcc-kimmel-disney-lawsuit-8c379d4d4dc90e97a8ef57371f203bfa">Associated Press</a>, la demanda fue presentada el mismo día en que la FCC ordenó a las estaciones presentar solicitudes de renovación de licencia anticipada. La empresa sostiene que ese trámite responde a retaliación política por la cobertura crítica de programas como "The View" y por las bromas del conductor nocturno Jimmy Kimmel en contra de funcionarios de la administración.</p>
+<h2>"Una amenaza existencial"</h2>
+<p>En la demanda, ABC y Disney calificaron la acción del regulador como "una amenaza existencial" a su libertad editorial y subrayaron que el proceso viola la protección constitucional a la prensa. Reuters calificó el caso como "una prueba clave de los derechos de libertad de expresión", que podría sentar precedente para otras cadenas.</p>
+<blockquote><p>"La revisión forzosa de licencias no tiene precedentes en la historia de la radiodifusión estadounidense y constituye una violación de la Primera Enmienda".</p></blockquote>
+<p><small>Fragmento de la demanda citada por <a href="https://www.reuters.com/world/disney-abc-sue-us-regulator-over-threats-broadcast-licenses-2026-08-18/">Reuters</a>.</small></p>
+<h2>Los antecedentes del conflicto</h2>
+<p>El presidente de la FCC ha sido un duro crítico de ABC y de su programación. En los últimos meses, el regulador elevó consultas sobre el contenido de "The View" y sobre notas informativas de la cadena. Disney, que también controla otras propiedades mediáticas como ESPN, advirtió que permitir esta práctica sentaría un mal precedente para toda la industria.</p>
+<h2>Contexto regulatorio</h2>
+<p>Las emisoras de televisión en Estados Unidos renovan sus licencias de forma periódica ante la FCC. El trámite anticipado ordenado a las ocho estaciones de ABC es inusual: históricamente el regulador no acelera el proceso salvo casos de graves incumplimientos. Analistas legales coinciden en que el resultado del caso podría definir los límites del poder regulatorio federal sobre el contenido editorial.</p>
+<p><small>Con información de: <a href="https://apnews.com/article/abc-fcc-kimmel-disney-lawsuit-8c379d4d4dc90e97a8ef57371f203bfa">Associated Press</a> y <a href="https://www.reuters.com/world/disney-abc-sue-us-regulator-over-threats-broadcast-licenses-2026-08-18/">Reuters</a>.</small></p>`,
+        contentEn: `<h1>Disney and ABC sue the FCC over station license review, alleging a First Amendment violation</h1>
+<p><em>Disney and its ABC unit sued the Federal Communications Commission (FCC) on Tuesday to block the early review of licenses for eight of the network\'s stations, arguing the federal government\'s move violates the First Amendment in retaliation for content on "The View" and Jimmy Kimmel\'s satire.</em></p>
+<p>According to <a href="https://apnews.com/article/abc-fcc-kimmel-disney-lawsuit-8c379d4d4dc90e97a8ef57371f203bfa">Associated Press</a>, the lawsuit was filed the same day the FCC ordered the stations to submit early license renewal requests. The company says the proceeding is political retaliation over critical coverage on shows such as "The View" and over late-night host Jimmy Kimmel\'s jokes aimed at administration officials.</p>
+<h2>"An existential threat"</h2>
+<p>In the suit, ABC and Disney called the regulator\'s action "an existential threat" to their editorial freedom and stressed that the process violates the constitutional protection of the press. Reuters called the case "a key test of free speech rights," one that could set a precedent for other networks.</p>
+<blockquote><p>"The forced license review has no precedent in the history of American broadcasting and constitutes a violation of the First Amendment."</p></blockquote>
+<p><small>Excerpt from the lawsuit as cited by <a href="https://www.reuters.com/world/disney-abc-sue-us-regulator-over-threats-broadcast-licenses-2026-08-18/">Reuters</a>.</small></p>
+<h2>Background of the conflict</h2>
+<p>The FCC chair has been a sharp critic of ABC and its programming. In recent months, the regulator escalated inquiries about "The View" content and the network\'s news coverage. Disney, which also controls media properties such as ESPN, warned that allowing the practice would set a damaging precedent for the entire industry.</p>
+<h2>Regulatory context</h2>
+<p>Television stations in the United States renew their licenses periodically before the FCC. The early proceeding ordered for ABC\'s eight stations is unusual: historically the regulator does not speed up the process except in cases of serious violations. Legal analysts agree the outcome could define the limits of federal regulatory power over editorial content.</p>
+<p><small>Sources: <a href="https://apnews.com/article/abc-fcc-kimmel-disney-lawsuit-8c379d4d4dc90e97a8ef57371f203bfa">Associated Press</a> and <a href="https://www.reuters.com/world/disney-abc-sue-us-regulator-over-threats-broadcast-licenses-2026-08-18/">Reuters</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/us-news/disney-abc-fcc.jpg',
+        imageCaption: 'La FCC quedó acusada de retaliación contra la programación de ABC. Foto: Reuters',
+        categoryEs: 'Medios',
+        categoryEn: 'Media',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Washington D.C., Estados Unidos',
+        source: 'Associated Press',
+        region: 'US',
+        sourceUrl: 'https://apnews.com/article/abc-fcc-kimmel-disney-lawsuit-8c379d4d4dc90e97a8ef57371f203bfa'
+      },
+      {
+        id: '1029',
+        contentType: 'news',
+        slug: 'madonna-lidera-nominaciones-mtv-vmas-2026',
+        titleEs: 'Madonna lidera las nominaciones a los MTV VMA 2026 con 11 candidaturas, seguida de Taylor Swift',
+        titleEn: 'Madonna leads the 2026 MTV VMAs nominations with 11 nods, followed by Taylor Swift',
+        excerptEs: 'La reina del pop vuelve a dominar la máxima cita de los videoclips: 11 nominaciones, incluida Video del Año por su cortometraje "Confessions II". Taylor Swift suma nueve y Ariana Grande y Sabrina Carpenter completan las primeras filas.',
+        excerptEn: 'The Queen of Pop dominates the leading music-video awards again: 11 nominations, including Video of the Year for her short film "Confessions II." Taylor Swift adds nine, with Ariana Grande and Sabrina Carpenter rounding out the top tiers.',
+        contentEs: `<h1>Madonna lidera las nominaciones a los MTV VMA 2026 con 11 candidaturas, seguida de Taylor Swift</h1>
+<p><em>MTV anunció este martes las nominaciones a los Premios Video Music Awards (VMA) 2026 y Madonna encabeza la lista con 11 candidaturas, incluida Video del Año por su cortometraje "Confessions II". Taylor Swift aparece segunda con nueve nominaciones, entre ellas por su clip "The Fate of Ophelia".</em></p>
+<p>Según <a href="https://apnews.com/article/2026-mtv-vma-nominations-e9ac1be3adfd613c3bc348e83543832e">Associated Press</a>, detrás del podio liderado por Madonna y Swift se ubican Ariana Grande y Sabrina Carpenter, que completan la categoría de artistas más nominados de la edición. La gala, una de las más esperadas del año para la industria musical, se celebrará en los próximos meses en Nueva York.</p>
+<h2>Video del Año</h2>
+<p>La categoría principal, Video del Año, enfrenta a "Confessions II" de Madonna, "The Fate of Ophelia" de Taylor Swift y los videoclips de Ariana Grande. Una eventual barrida de la cantante de "Like a Prayer" le permitiría igualar a Beyoncé y a la propia Swift en el récord de trofeos vitalicios de la ceremonia (Moon Person), según destacó CBS News.</p>
+<h2>El regreso de la reina</h2>
+<p>Madonna, quien viene de una serie de lanzamientos celebrados por la crítica, vuelve así a la escena de una ceremonia que la coronó en los años 80. Su videografía histórica, marcada por la provocación y la reinvención visual, la convierte en una de las artistas más premiadas de la historia del certamen.</p>
+<h2>La lista completa</h2>
+<ul>
+<li><strong>Madonna:</strong> 11 nominaciones, incluida Video del Año.</li>
+<li><strong>Taylor Swift:</strong> 9 nominaciones por "The Fate of Ophelia".</li>
+<li><strong>Ariana Grande y Sabrina Carpenter:</strong> entre los artistas más nombrados.</li>
+<li><strong>Categorías destacadas:</strong> Video del Año, Mejor Pop, Mejor Cinematografía y Artista del Año.</li>
+</ul>
+<p><small>Con información de: <a href="https://apnews.com/article/2026-mtv-vma-nominations-e9ac1be3adfd613c3bc348e83543832e">Associated Press</a> y <a href="https://www.billboard.com/lists/2026-mtv-vma-nominations-list-madonna-video-music-awards/">Billboard</a>.</small></p>`,
+        contentEn: `<h1>Madonna leads the 2026 MTV VMAs nominations with 11 nods, followed by Taylor Swift</h1>
+<p><em>MTV announced the 2026 Video Music Awards (VMAs) nominations Tuesday, with Madonna leading the field with 11 nods, including Video of the Year for her short film "Confessions II." Taylor Swift ranks second with nine nominations, including for "The Fate of Ophelia."</em></p>
+<p>According to <a href="https://apnews.com/article/2026-mtv-vma-nominations-e9ac1be3adfd613c3bc348e83543832e">Associated Press</a>, Ariana Grande and Sabrina Carpenter follow Madonna and Swift as the most-nominated artists of the edition. The ceremony, one of the most anticipated nights for the music industry, will take place in New York in the coming months.</p>
+<h2>Video of the Year</h2>
+<p>The top category, Video of the Year, pits Madonna\'s "Confessions II" against Taylor Swift\'s "The Fate of Ophelia" and Ariana Grande\'s clips. A potential sweep for the "Like a Prayer" singer would tie her with Beyoncé and Swift for the record lifetime Moon Person trophies, CBS News highlighted.</p>
+<h2>The return of the queen</h2>
+<p>Madonna, coming off a string of critically acclaimed releases, thus returns to the stage of a ceremony that crowned her in the 1980s. Her historic videography —marked by provocation and visual reinvention— makes her one of the most-awarded artists in the show\'s history.</p>
+<h2>The full list</h2>
+<ul>
+<li><strong>Madonna:</strong> 11 nominations, including Video of the Year.</li>
+<li><strong>Taylor Swift:</strong> 9 nominations for "The Fate of Ophelia."</li>
+<li><strong>Ariana Grande and Sabrina Carpenter:</strong> among the most-nominated artists.</li>
+<li><strong>Key categories:</strong> Video of the Year, Best Pop, Best Cinematography and Artist of the Year.</li>
+</ul>
+<p><small>Sources: <a href="https://apnews.com/article/2026-mtv-vma-nominations-e9ac1be3adfd613c3bc348e83543832e">Associated Press</a> and <a href="https://www.billboard.com/lists/2026-mtv-vma-nominations-list-madonna-video-music-awards/">Billboard</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/us-news/madonna-vma-2026.jpg',
+        imageCaption: 'Madonna, líder de las nominaciones a los MTV VMA 2026. Foto: Audacy / Getty',
+        categoryEs: 'Espectáculos',
+        categoryEn: 'Entertainment',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Nueva York, Estados Unidos',
+        source: 'Associated Press',
+        region: 'US',
+        sourceUrl: 'https://apnews.com/article/2026-mtv-vma-nominations-e9ac1be3adfd613c3bc348e83543832e'
+      },
+      {
+        id: '1030',
+        contentType: 'news',
+        slug: 'tiroteo-concierto-parque-charles-young-lexington',
+        titleEs: 'Tiroteo en un concierto al aire libre en Lexington deja un muerto y cuatro heridos, entre ellos dos niños',
+        titleEn: 'Shooting at an outdoor concert in Lexington leaves 1 dead and 4 injured, including two children',
+        excerptEs: 'Una balacera durante el evento East End Day en el parque Charles Young de Lexington, Kentucky, dejó un adolescente muerto y cuatro heridos, incluidos menores de 14 y 4 años. La policía detuvo a un sospechoso de 18 años.',
+        excerptEn: 'A shooting at the East End Day event in Charles Young Park in Lexington, Kentucky, left a teenager dead and four people injured, including children aged 14 and 4. Police arrested an 18-year-old suspect.',
+        contentEs: `<h1>Tiroteo en un concierto al aire libre en Lexington deja un muerto y cuatro heridos, entre ellos dos niños</h1>
+<p><em>Un tiroteo durante un concierto al aire libre en el parque Charles Young de Lexington, Kentucky, dejó el sábado un adolescente de 16 años muerto y otras cuatro personas heridas, entre ellas dos niños de 14 y 4 años, informaron las autoridades locales según <a href="https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6">Associated Press</a>.</em></p>
+<p>Los disparos se produjeron poco antes de las 19:00 horas durante la celebración comunitaria "East End Day". Una persona murió en el hospital y cuatro más resultaron heridas con lesiones que, según la policía, no ponen en riesgo sus vidas. El jefe de la policía de Lexington, Lawrence Weathers, confirmó que entre los heridos figuran los menores de 14 y 4 años.</p>
+<h2>Detención de un sospechoso</h2>
+<p>Horas después del hecho, la policía anunció la detención de Jametrius M. Griffin, de 18 años, acusado de asesinato, agresión y manipulación de pruebas, según <a href="https://www.nbcnews.com/news/us-news/five-shot-lexington-ky-park-leaving-one-dead-rcna592770">NBC News</a>. Las autoridades solicitaron la colaboración de la comunidad para aportar videos y testimonios adicionales con el objetivo de esclarecer las circunstancias del tiroteo.</p>
+<blockquote><p>"Pedimos que cualquier persona con información se acerque o llame. Cada dato puede ayudar a las familias afectadas".</p></blockquote>
+<p><small>Jefe de la Policía de Lexington, Lawrence Weathers, citado por <a href="https://www.foxnews.com/us/lexington-kentucky-park-shooting-kills-injures-live-band-performance">Fox News</a>.</small></p>
+<h2>Conmoción en la comunidad</h2>
+<p>El tiroteo en un evento familiar provocó consternación en Lexington. Líderes comunitarios y autoridades locales convocaron a vigilias y pidieron reforzar la seguridad en los espacios públicos. "East End Day es una tradición para las familias; nadie debería tener miedo de disfrutar su parque", declaró una concejala citada por medios locales.</p>
+<h2>Un patrón que se repite</h2>
+<p>El hecho se suma a la ola de tiroteos masivos que afecta a Estados Unidos. Organizaciones de control de armas recordaron que la violencia armada es la principal causa de muerte entre menores en el país y reclamaron acciones legislativas ante el Congreso.</p>
+<p><small>Con información de: <a href="https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6">Associated Press</a>, <a href="https://www.nbcnews.com/news/us-news/five-shot-lexington-ky-park-leaving-one-dead-rcna592770">NBC News</a> y <a href="https://www.foxnews.com/us/lexington-kentucky-park-shooting-kills-injures-live-band-performance">Fox News</a>.</small></p>`,
+        contentEn: `<h1>Shooting at an outdoor concert in Lexington leaves 1 dead and 4 injured, including two children</h1>
+<p><em>A shooting during an outdoor concert at Charles Young Park in Lexington, Kentucky, left a 16-year-old dead and four other people injured on Saturday, including children aged 14 and 4, local authorities said, as reported by <a href="https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6">Associated Press</a>.</em></p>
+<p>Gunfire erupted just before 7:00 p.m. during the "East End Day" community celebration. One person died at the hospital and four more were wounded with injuries police said were non-life-threatening. Lexington Police Chief Lawrence Weathers confirmed that children aged 14 and 4 were among the injured.</p>
+<h2>Suspect arrested</h2>
+<p>Hours later, police announced the arrest of Jametrius M. Griffin, 18, on allegations of murder, assault and tampering with evidence, according to <a href="https://www.nbcnews.com/news/us-news/five-shot-lexington-ky-park-leaving-one-dead-rcna592770">NBC News</a>. Authorities asked the community for additional videos and testimony to clarify the circumstances of the shooting.</p>
+<blockquote><p>"We ask that anyone with information come forward or call. Every detail can help the affected families."</p></blockquote>
+<p><small>Lexington Police Chief Lawrence Weathers, as cited by <a href="https://www.foxnews.com/us/lexington-kentucky-park-shooting-kills-injures-live-band-performance">Fox News</a>.</small></p>
+<h2>Community shock</h2>
+<p>The shooting at a family event caused dismay across Lexington. Community leaders and local officials called for vigils and asked to strengthen safety in public spaces. "East End Day is a tradition for families; nobody should be afraid to enjoy their park," a council member told local media.</p>
+<h2>A recurring pattern</h2>
+<p>The incident adds to the wave of mass shootings affecting the United States. Gun-control organizations recalled that gun violence is the leading cause of death among children in the country and urged Congress to act.</p>
+<p><small>Sources: <a href="https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6">Associated Press</a>, <a href="https://www.nbcnews.com/news/us-news/five-shot-lexington-ky-park-leaving-one-dead-rcna592770">NBC News</a> and <a href="https://www.foxnews.com/us/lexington-kentucky-park-shooting-kills-injures-live-band-performance">Fox News</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '5 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/blog/us-news/tiroteo-lexington-kentucky.jpg',
+        imageCaption: 'Policía en el parque Charles Young de Lexington tras el tiroteo. Foto: NBC News',
+        categoryEs: 'EE.UU.',
+        categoryEn: 'United States',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Lexington, Kentucky, EE.UU.',
+        source: 'Associated Press',
+        region: 'US',
+        sourceUrl: 'https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6'
+      },
       // FIN DE NOTICIAS
     ];
 

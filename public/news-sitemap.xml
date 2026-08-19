@@ -3,6 +3,160 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/especial-repercusiones-internacionales-caso-beller-cerimedo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Las repercusiones internacionales del caso Beller-Cerimedo: del CLIP de Brasil al despacho de Milei</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/especial-perfil-fernando-cerimedo-estratega-digital</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Fernando Cerimedo: el estratega digital que pasó de las campañas de Milei y Bolsonaro a asesor del presidente de Bolivia</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/paz-solidariza-beller-investigacion-exhaustiva</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Rodrigo Paz se solidariza con Nadia Beller e instruye investigar el caso hasta sus &quot;extremos insospechados&quot;</news:title>
+      <news:keywords>País</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fiscalia-imputara-cerimedo-tentativa-feminicidio</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>La Fiscalía imputará a Fernando Cerimedo por tentativa de feminicidio y pedirá su detención preventiva</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/beller-denuncia-corrupcion-entorno-paz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Nadia Beller denuncia actos de corrupción de la esposa y el entorno de Rodrigo Paz</news:title>
+      <news:keywords>País</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/gobierno-argentino-desmarca-cerimedo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>El Gobierno de Milei se desmarca de Cerimedo y afirma que &quot;estaba hace tiempo distanciado&quot; del Presidente</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tsj-instruye-celeridad-caso-beller-cerimedo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>El TSJ instruye celeridad en el caso Beller-Cerimedo y ordena que no sea declarado en reserva</news:title>
+      <news:keywords>Justicia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tormenta-lala-hawaii-deja-miles-sin-luz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>La tormenta Lala deja más de 100.000 clientes sin luz en Hawái y daños en la Isla Grande</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/disney-abc-demandan-fcc-primera-enmienda</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Disney y ABC demandan a la FCC por la revisión de licencias de sus estaciones y alegan violación a la Primera Enmienda</news:title>
+      <news:keywords>Medios</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/madonna-lidera-nominaciones-mtv-vmas-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Madonna lidera las nominaciones a los MTV VMA 2026 con 11 candidaturas, seguida de Taylor Swift</news:title>
+      <news:keywords>Espectáculos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tiroteo-concierto-parque-charles-young-lexington</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Tiroteo en un concierto al aire libre en Lexington deja un muerto y cuatro heridos, entre ellos dos niños</news:title>
+      <news:keywords>EE.UU.</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/reportaje-especial-nadia-beller-cerimedo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -112,6 +266,20 @@
       <news:publication_date>2026-08-18</news:publication_date>
       <news:title>Archivos del FBI desclasificados revelan la relación de Swalwell con una supuesta operativa china</news:title>
       <news:keywords>Política</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/frank-beard-baterista-zz-top-fallece</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18</news:publication_date>
+      <news:title>Fallece Frank Beard, baterista de ZZ Top, a los 77 años</news:title>
+      <news:keywords>Espectáculos</news:keywords>
     </news:news>
   </url>
 </urlset>
