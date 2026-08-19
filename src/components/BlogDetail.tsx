@@ -140,49 +140,36 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     });
   }, [htmlContent]);
 
-  // Hidratar tweets embebidos con el iframe oficial del embed de Twitter (tuit original)
+  // Cargar widgets.js de X y transformar blockquote.twitter-tweet en tuits embebidos
   useEffect(() => {
-    const containers = document.querySelectorAll<HTMLElement>('.tweet-embed[data-tweet-url]');
-    if (!containers.length) return;
+    const container = document.querySelector<HTMLElement>('.article-content');
+    if (!container || !container.querySelector('blockquote.twitter-tweet')) return;
 
-    const getTweetId = (url: string): string => {
-      const m = url.match(/\/(?:status|statuses)\/(\d+)/);
-      return m ? m[1] : '';
+    // Ya cargado en una visita previa del SPA → solo re-cargar widgets del DOM nuevo
+    const runWidgets = () => {
+      if (window.twttr && typeof window.twttr.widgets?.load === 'function') {
+        window.twttr.widgets.load(container);
+      }
     };
 
-    containers.forEach((container) => {
-      const url = container.dataset.tweetUrl;
-      const tweetId = url ? getTweetId(url) : '';
-      if (!url || !tweetId || container.dataset.iframeLoaded) return;
-      container.dataset.iframeLoaded = '1';
+    if (window.twttr && typeof window.twttr.widgets?.load === 'function') {
+      runWidgets();
+      return;
+    }
 
-      const iframe = document.createElement('iframe');
-      iframe.src = `https://platform.twitter.com/embed/Tweet.html?id=${tweetId}&theme=dark&hide_thread=true&align=center`;
-      iframe.width = '100%';
-      iframe.style.border = '0';
-      iframe.style.overflow = 'hidden';
-      iframe.style.display = 'block';
-      iframe.title = 'Tuit embebido';
-      container.appendChild(iframe);
-      container.classList.add('tweet-embed--hydrated');
-
-      const onResize = (height: number) => {
-        iframe.style.height = `${Math.max(200, height)}px`;
-      };
-
-      const resizeListener = (event: MessageEvent) => {
-        const data = event.data;
-        if (data && typeof data === 'object' && data.type === 'resize' && event.source === iframe.contentWindow) {
-          onResize(Number(data.height) || 520);
-        }
-      };
-      window.addEventListener('message', resizeListener);
-
-      iframe.onload = () => {
-        // Altura por defecto razonable; X ajustará por postMessage
-        onResize(520);
-      };
-    });
+    // Cargar el script oficial una sola vez
+    const existing = document.querySelector<HTMLScriptElement>('script[src*="platform.twitter.com/widgets.js"], script[src*="platform.x.com/widgets.js"]');
+    if (!existing) {
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = runWidgets;
+      document.head.appendChild(script);
+    } else {
+      existing.addEventListener('load', runWidgets);
+      existing.addEventListener('error', runWidgets);
+    }
   }, [htmlContent]);
 
   // ─── Structured Data + OG Tags para el artículo ────────────────────

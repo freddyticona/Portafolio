@@ -22,3 +22,15 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+
+/**
+ * API global de los widgets oficiales de X / Twitter
+ * (cargados por https://platform.twitter.com/widgets.js)
+ */
+interface Window {
+  twttr?: {
+    widgets?: {
+      load: (el?: HTMLElement) => void
+    }
+  }
+}
