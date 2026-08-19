@@ -140,56 +140,48 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     });
   }, [htmlContent]);
 
-  // Hidratar tweets embebidos con el oEmbed oficial de Twitter (tuit original completo)
+  // Hidratar tweets embebidos con el iframe oficial del embed de Twitter (tuit original)
   useEffect(() => {
     const containers = document.querySelectorAll<HTMLElement>('.tweet-embed[data-tweet-url]');
     if (!containers.length) return;
 
-    const loadedWidgets = new Set<(el: HTMLElement) => void>();
-
-    const ensureWidgets = (el: HTMLElement) => {
-      const w = (window as unknown as { twttr?: { widgets?: { load: (el?: HTMLElement) => void } } }).twttr;
-      if (w?.widgets) {
-        try { w.widgets.load(el); } catch { /* noop */ }
-        return;
-      }
-      // Cargar widgets.js una sola vez y luego aplicar
-      if (!loadedWidgets.size) {
-        const s = document.createElement('script');
-        s.src = 'https://platform.twitter.com/widgets.js';
-        s.async = true;
-        s.onload = () => {
-          loadedWidgets.forEach((cb) => cb(el));
-          loadedWidgets.clear();
-        };
-        document.head.appendChild(s);
-      }
-      loadedWidgets.add(() => {
-        const w2 = (window as unknown as { twttr?: { widgets?: { load: (el?: HTMLElement) => void } } }).twttr;
-        try { w2?.widgets?.load(el); } catch { /* noop */ }
-      });
+    const getTweetId = (url: string): string => {
+      const m = url.match(/\/(?:status|statuses)\/(\d+)/);
+      return m ? m[1] : '';
     };
 
     containers.forEach((container) => {
       const url = container.dataset.tweetUrl;
-      if (!url || container.dataset.embedLoaded) return;
-      container.dataset.embedLoaded = '1';
+      const tweetId = url ? getTweetId(url) : '';
+      if (!url || !tweetId || container.dataset.iframeLoaded) return;
+      container.dataset.iframeLoaded = '1';
 
-      fetch(
-        `https://publish.twitter.com/oembed?url=${encodeURIComponent(url)}&omit_script=true&dnt=true&theme=dark&align=center`
-      )
-        .then((res) => res.json())
-        .then((data) => {
-          if (data && typeof data.html === 'string') {
-            container.innerHTML = data.html;
-            container.classList.add('tweet-embed--hydrated');
-            ensureWidgets(container);
-          }
-        })
-        .catch(() => {
-          // Fallback: se mantiene el contenido original de la cita
-          container.dataset.embedLoaded = '0';
-        });
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://platform.twitter.com/embed/Tweet.html?id=${tweetId}&theme=dark&hide_thread=true&align=center`;
+      iframe.width = '100%';
+      iframe.style.border = '0';
+      iframe.style.overflow = 'hidden';
+      iframe.style.display = 'block';
+      iframe.title = 'Tuit embebido';
+      container.appendChild(iframe);
+      container.classList.add('tweet-embed--hydrated');
+
+      const onResize = (height: number) => {
+        iframe.style.height = `${Math.max(200, height)}px`;
+      };
+
+      const resizeListener = (event: MessageEvent) => {
+        const data = event.data;
+        if (data && typeof data === 'object' && data.type === 'resize' && event.source === iframe.contentWindow) {
+          onResize(Number(data.height) || 520);
+        }
+      };
+      window.addEventListener('message', resizeListener);
+
+      iframe.onload = () => {
+        // Altura por defecto razonable; X ajustará por postMessage
+        onResize(520);
+      };
     });
   }, [htmlContent]);
 

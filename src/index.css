@@ -402,14 +402,18 @@ button:focus-visible,
 
 .tweet-embed--hydrated {
   max-width: 550px;
+  border: 1px solid #2f3336;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
 }
 
-.tweet-embed--hydrated > div {
-  max-width: 550px;
-}
-
-.tweet-embed--hydrated .twitter-tweet {
-  max-width: 100%;
+.tweet-embed--hydrated > iframe {
+  display: block;
+  width: 100%;
+  height: 520px;
+  background: #000;
+  margin: 0 auto;
 }
 
 /* Fallback de carga: spinner sutil */
