@@ -144,26 +144,18 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     });
   }, [htmlContent]);
 
-  // Tuits embebidos: intenta el widget oficial de X (widgets.js + twttr.widgets.load)
-  // y si X no transforma el blockquote (bloqueado/logged-out/región), lo sustituye
-  // por una tarjeta estática con el texto íntegro del tuit original.
+  // Tuits embebidos: intenta el widget oficial de X (widgets.js + twttr.widgets.load).
+  // Los datos del blockquote se capturan al montar (antes de que widgets.js pueda
+  // reemplazar el nodo). Si tras un timeout NO hay un tuit renderizado de X en el
+  // artículo (widget bloqueado por región/anti-bot/logged-out), se inyectan tarjetas
+  // estáticas con el texto íntegro del tuit original.
   useEffect(() => {
     const container = document.querySelector<HTMLElement>('.article-content');
-    const blockquotes = container
-      ? Array.from(container.querySelectorAll<HTMLElement>('blockquote.twitter-tweet'))
-      : [];
-    if (!blockquotes.length) return;
+    if (!container) return;
 
-    const isRendered = (bq: HTMLElement) =>
-      !bq.isConnected ||
-      bq.classList.contains('twitter-tweet-rendered') ||
-      !!bq.querySelector('iframe.twitter-tweet, iframe[id^="twitter-widget-"]');
-
-    // Fallback: tarjeta estática con avatares, autor, fecha, el texto del tuit y enlace a X
-    const fallbackToCard = (bq: HTMLElement) => {
-      if (bq.dataset.cardBuilt || !bq.isConnected || isRendered(bq)) return;
-      bq.dataset.cardBuilt = '1';
-
+    // Capturar datos de cada blockquote tal cual llegan del contenido
+    type TweetData = { text: string; tweetUrl: string; author: string; handle: string; date: string };
+    const tweets: TweetData[] = Array.from(container.querySelectorAll<HTMLElement>('blockquote.twitter-tweet')).map((bq) => {
       const p = bq.querySelector('p');
       const text = p ? p.innerHTML.trim() : (bq.textContent || '').trim();
       const links = Array.from(bq.querySelectorAll('a'));
@@ -179,39 +171,67 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         handle = m[2].trim();
         date = (m[3] || '').trim();
       }
-      if (!author) author = author || 'Ver tuit en X';
+      return { text, tweetUrl, author: author || 'Ver tuit en X', handle, date };
+    });
+    if (!tweets.length) return;
 
-      const card = document.createElement('div');
-      card.className = 'tweet-card';
-      card.innerHTML = `
-      <div class="tweet-card-head">
-        <span class="tweet-avatar">${escapeHtml((author || 'X').charAt(0).toUpperCase())}</span>
-        <div class="tweet-id">
-          <div class="tweet-name-row">
-            <span class="tweet-name">${escapeHtml(author)}</span>
-            <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    const buildCard = (t: TweetData) => `
+      <div class="tweet-card">
+        <div class="tweet-card-head">
+          <span class="tweet-avatar">${escapeHtml((t.author || 'X').charAt(0).toUpperCase())}</span>
+          <div class="tweet-id">
+            <div class="tweet-name-row">
+              <span class="tweet-name">${escapeHtml(t.author)}</span>
+              <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="tweet-handle">@${escapeHtml(t.handle)}</div>
           </div>
-          <div class="tweet-handle">@${escapeHtml(handle)}</div>
+          <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
         </div>
-        <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-      </div>
-      <div class="tweet-text">${text}</div>
-      ${date ? `<div class="tweet-time">${escapeHtml(date)}</div>` : ''}
-      ${tweetUrl ? `<a class="tweet-open" href="${tweetUrl}" target="_blank" rel="noopener noreferrer">Ver el tuit original en X ↗</a>` : ''}`;
-      bq.replaceWith(card);
+        <div class="tweet-text">${t.text}</div>
+        ${t.date ? `<div class="tweet-time">${escapeHtml(t.date)}</div>` : ''}
+        ${t.tweetUrl ? `<a class="tweet-open" href="${t.tweetUrl}" target="_blank" rel="noopener noreferrer">Ver el tuit original en X ↗</a>` : ''}
+      </div>`;
+
+    // Un tuit SÍ se renderizó si en el artículo hay un iframe/span emitido por X
+    const xRenderedTweets = () =>
+      container.querySelectorAll<HTMLElement>('iframe[src*="platform.twitter.com/embed"], span.twitter-tweet-rendered iframe, iframe[id^="twitter-widget-"]').length;
+
+    const exiledBlockquotes = () => Array.from(container.querySelectorAll('blockquote.twitter-tweet'));
+
+    // Fallback definitivo: reemplazar cualquier blockquote residual por la tarjeta
+    const applyFallback = () => {
+      const remaining = exiledBlockquotes();
+      remaining.forEach((bq) => {
+        const text = bq.querySelector('p')?.innerHTML.trim() || (bq.textContent || '').trim();
+        const links = Array.from(bq.querySelectorAll('a'));
+        const tweetUrl = links.length ? links[links.length - 1].href : '';
+        const raw = (bq.textContent || '').replace(/\s+/g, ' ').trim();
+        let author = 'Tuit';
+        let handle = '';
+        let date = '';
+        const m = raw.match(/—\s*([^(—]+?)\s*\(@([^)]+)\)\s*(.*)$/);
+        if (m) { author = m[1].trim(); handle = m[2].trim(); date = (m[3] || '').trim(); }
+        const card = document.createElement('div');
+        card.innerHTML = buildCard({ text, tweetUrl, author, handle, date });
+        bq.replaceWith(card.firstElementChild as HTMLElement);
+      });
+      // Si widgets.js eliminó los blockquotes sin renderizar tuits, inyecta las tarjetas
+      if (!xRenderedTweets() && !remaining.length) {
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = tweets.map(buildCard).join('');
+        container.appendChild(wrapper);
+      }
     };
 
-    // Cargar widgets y verificar que X realmente transforme los bloques.
-    // El temporizador de fallback arranca de inmediato para cubrir el caso en
-    // que widgets.js no cargue o X no pueda emitir el widget (región/anti-bot).
+    // Temporizador: a los ~8s, si no hay tuits renderizados, usar las tarjetas estáticas.
     let checks = 0;
     const iv = window.setInterval(() => {
       checks++;
-      blockquotes.forEach((bq) => {
-        if (checks >= 4) fallbackToCard(bq);
-      });
-      const pending = blockquotes.filter((bq) => !isRendered(bq));
-      if (!pending.length || checks >= 4) window.clearInterval(iv);
+      if (checks >= 4) {
+        window.clearInterval(iv);
+        if (!xRenderedTweets()) applyFallback();
+      }
     }, 2000);
 
     const runWidgets = () => {
