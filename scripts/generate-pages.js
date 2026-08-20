@@ -1,13 +1,19 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { extractArticles } from './extract-articles.js';
+import { extractArticles, escapeXml } from './extract-articles.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE = 'https://freddydev.net';
 const TODAY = new Date().toISOString().slice(0, 10);
+
+const escapeAttr = (s) => String(s)
+  .replace(/&/g, '&amp;')
+  .replace(/"/g, '&quot;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;');
 
 function primaryPage(article) {
   if (article.categoryEs === 'Guías y Trámites') return 'guias';
@@ -104,6 +110,8 @@ const articles = _rawArticles.map(a => ({
   date: a.date || '',
   imageUrl: a.imageUrl || '',
   source: a.source || '',
+  sourceUrl: a.sourceUrl || '',
+  imageCaption: a.imageCaption || '',
   categoryEs: a.categoryEs || '',
 }));
 const distDir = path.join(__dirname, '..', 'dist');
@@ -258,6 +266,18 @@ for (const article of articles) {
   html = html.replace(/<meta name="twitter:url" content=".*?"/, `<meta name="twitter:url" content="${articleUrl}"`);
   html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imgUrl}"`);
   html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${articleUrl}"`);
+  // Identidad: la sección de noticias no debe heredar la marca del portafolio
+  // (auditoría SEO). og:site_name refleja la sección según la ruta primaria.
+  const siteName = route === 'noticias' ? 'FreddyDev - Noticias' : 'Freddy Ticona Guzmán';
+  html = html.replace(/<meta property="og:site_name" content=".*?"/, `<meta property="og:site_name" content="${siteName}"`);
+  // og:image:alt descriptivo del artículo (evita heredar "Camarógrafo Profesional")
+  const imgAlt = escapeAttr(article.imageCaption || article.title);
+  html = html.replace(/<meta property="og:image:alt" content=".*?"/, `<meta property="og:image:alt" content="${imgAlt}"`);
+  // meta keywords derivados del artículo (evita keywords del portafolio en noticias)
+  const keywords = [article.categoryEs, article.source, article.title.split(/\s+/).slice(0, 6).join(' ')].filter(Boolean).join(', ');
+  html = html.replace(/<meta name="keywords" content=".*?"/, `<meta name="keywords" content="${escapeAttr(keywords)}"`);
+  // Twitter image alt para consistencia con og:image:alt
+  html = html.replace(/<meta name="twitter:image:alt" content=".*?"/, `<meta name="twitter:image:alt" content="${imgAlt}"`);
   // Article structured data (con dateModified y mainEntityOfPage para rich results)
   const articleDate = article.date || TODAY;
   const articleSchema = `{
@@ -308,6 +328,7 @@ for (const article of articles) {
     <p>${article.desc}</p>
     <p>Fecha: ${article.date}</p>
     <p>Categoría: ${article.categoryEs}</p>
+    ${article.source ? `<p>Fuente: ${escapeXml(article.source)}${article.sourceUrl ? ` — ${escapeXml(article.sourceUrl)}` : ''}</p>` : ''}
   </div>`.trim();
   html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');

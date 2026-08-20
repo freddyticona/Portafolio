@@ -171,6 +171,9 @@ export function extractArticles() {
     const sourceUrl = extractField(line, 'sourceUrl');
     if (sourceUrl !== null) pending.sourceUrl = sourceUrl;
 
+    const imageCaption = extractField(line, 'imageCaption');
+    if (imageCaption !== null) pending.imageCaption = imageCaption;
+
     // Cierre de objeto: `},` o `}` (último item). Soporta indentación 0 o más.
     if (/^\s*\},?\s*$/.test(line) && pending.slug) {
       articles.push({
@@ -183,6 +186,7 @@ export function extractArticles() {
         categoryEs: pending.categoryEs || '',
         source: pending.source || '',
         sourceUrl: pending.sourceUrl || '',
+        imageCaption: pending.imageCaption || '',
       });
       pending = {};
     }

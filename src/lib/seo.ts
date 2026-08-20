@@ -251,7 +251,7 @@ function primaryRoute(post: { source?: string; categoryEs?: string }): string {
  * Actualiza los meta tags para la vista detalle de un artículo
  */
 export function updateArticleMetaTags(
-  post: { titleEs: string; titleEn: string; excerptEs: string; excerptEn: string; imageUrl?: string; slug: string; source?: string; categoryEs?: string },
+  post: { titleEs: string; titleEn: string; excerptEs: string; excerptEn: string; imageUrl?: string; imageCaption?: string; slug: string; source?: string; categoryEs?: string },
   lang: 'es' | 'en',
   pagePath?: string
 ): void {
@@ -264,13 +264,16 @@ export function updateArticleMetaTags(
   document.title = `${title} | Freddy Ticona Guzmán`;
 
   updateOrCreateMetaTag('name', 'description', description);
-  updateOrCreateMetaTag('name', 'keywords', '');
+  const keywords = [post.categoryEs, post.source, title.split(/\s+/).slice(0, 6).join(' ')].filter(Boolean).join(', ');
+  updateOrCreateMetaTag('name', 'keywords', keywords);
   updateOrCreateMetaTag('property', 'og:title', title);
   updateOrCreateMetaTag('property', 'og:description', description);
   updateOrCreateMetaTag('property', 'og:type', 'article');
   updateOrCreateMetaTag('property', 'og:image', ogImage);
+  updateOrCreateMetaTag('property', 'og:image:alt', post.imageCaption || title);
   updateOrCreateMetaTag('property', 'og:locale', lang === 'es' ? 'es_BO' : 'en_US');
-  updateOrCreateMetaTag('property', 'og:site_name', SITE_CONFIG.name);
+  const siteName = route === 'noticias' ? 'FreddyDev - Noticias' : SITE_CONFIG.name;
+  updateOrCreateMetaTag('property', 'og:site_name', siteName);
   updateOrCreateMetaTag('name', 'twitter:card', 'summary_large_image');
   updateOrCreateMetaTag('name', 'twitter:title', title);
   updateOrCreateMetaTag('name', 'twitter:description', description);

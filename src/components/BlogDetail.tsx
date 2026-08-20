@@ -411,6 +411,10 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
             })}
           </span>
           <span className="flex items-center gap-1.5">
+            <User className="w-3.5 h-3.5" />
+            {lang === 'es' ? 'Por Freddy Ticona' : 'By Freddy Ticona'}
+          </span>
+          <span className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5" />
             {dynamicReadTime}
           </span>
