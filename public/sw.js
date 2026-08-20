@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -6,7 +6,7 @@
 // Service Worker para Portafolio Freddy Ticona - PWA v2.0
 // Proporciona funcionalidad offline, caché inteligente y sincronización
 
-const CACHE_VERSION = '3.2.0';
+const CACHE_VERSION = '3.3.0';
 const CACHE_NAME = `freddy-ticona-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `freddy-ticono-runtime-${CACHE_VERSION}`;
 const IMAGE_CACHE = `freddy-ticono-images-${CACHE_VERSION}`;
@@ -23,7 +23,8 @@ const STATIC_FILES = [
   '/icon-192.png',
   '/icon-512.png',
   '/robots.txt',
-  '/sitemap.xml'
+  '/sitemap.xml',
+  '/offline.html'
 ];
 
 // Instalación del Service Worker
@@ -72,6 +73,13 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+// Devuelve siempre un Response válido (nunca undefined) para evitar
+// "TypeError: Failed to convert value to 'Response'".
+async function offlineResponse() {
+  const cached = await caches.match('/offline.html');
+  return cached || new Response('Offline', { status: 503, headers: { 'Content-Type': 'text/plain' } });
+}
+
 // Estrategia de caché: Network First para navegación, Cache First para assets
 self.addEventListener('fetch', (event) => {
   const { request } = event;
@@ -79,6 +87,13 @@ self.addEventListener('fetch', (event) => {
 
   // Ignorar requests de extensiones
   if (url.protocol === 'extension:') {
+    return;
+  }
+
+  // NO interceptar requests cross-origin (widgets de X, Google Fonts, GA, YouTube,
+  // fuentes externas). Dejarlos pasar al navegador o el FetchEvent falla y la
+  // petición se rompe con net::ERR_FAILED.
+  if (url.origin !== self.location.origin) {
     return;
   }
 
@@ -97,12 +112,14 @@ self.addEventListener('fetch', (event) => {
         .catch(() => {
           // Si falla la red, buscar en cache
           return caches.match(request).then((cached) => {
-            if (!cached) return caches.match('/offline.html');
-            // Si servimos HTML cacheados, notificar al cliente para que recargue
-            self.clients.matchAll().then((clients) => {
-              clients.forEach((client) => client.postMessage({ type: 'STALE_HTML' }));
-            });
-            return cached;
+            if (cached) {
+              // Si servimos HTML cacheados, notificar al cliente para que recargue
+              self.clients.matchAll().then((clients) => {
+                clients.forEach((client) => client.postMessage({ type: 'STALE_HTML' }));
+              });
+              return cached;
+            }
+            return offlineResponse();
           });
         })
     );
@@ -152,14 +169,14 @@ self.addEventListener('fetch', (event) => {
         return caches.match(request).then((response) => {
           if (response) return response;
           // Si no hay nada en cache, devolver offline page
-          return caches.match('/offline.html');
+          return offlineResponse();
         });
       })
     );
     return;
   }
 
-  // Para todo lo demás - Network First
+  // Para todo lo demás (mismo origen) - Network First
   event.respondWith(
     fetch(request)
       .then((response) => {
@@ -169,7 +186,7 @@ self.addEventListener('fetch', (event) => {
       .catch(() => {
         return caches.match(request).then((response) => {
           if (response) return response;
-          return caches.match('/offline.html');
+          return offlineResponse();
         });
       })
   );
