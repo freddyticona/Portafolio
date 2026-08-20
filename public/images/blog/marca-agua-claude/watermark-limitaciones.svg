@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="'Courier New', monospace">
+  <rect width="640" height="340" fill="#0a0a0a" rx="14"/>
+  <title>Dónde la marca de agua se debilita o desaparece</title>
+
+  <text x="320" y="32" text-anchor="middle" fill="#d4af37" font-size="16" font-weight="bold" letter-spacing="1">DÓNDE LA MARCA SE DEBILITA O DESAPARECE</text>
+
+  <!-- Panel 1: código exacto -->
+  <g>
+    <rect x="24" y="48" width="188" height="150" rx="10" fill="#101014" stroke="#1f1f24"/>
+    <circle cx="40" cy="68" r="4" fill="#e74c3c" opacity="0.5"/>
+    <circle cx="54" cy="68" r="4" fill="#f1c40f" opacity="0.5"/>
+    <circle cx="68" cy="68" r="4" fill="#2ecc71" opacity="0.5"/>
+    <text x="40" y="100" fill="#e7e9ea" font-size="13">2 + 2 = 4</text>
+    <text x="40" y="122" fill="#e7e9ea" font-size="13">if x &gt; 0 {</text>
+    <text x="52" y="144" fill="#e7e9ea" font-size="13">return x * 2;</text>
+    <text x="40" y="166" fill="#e7e9ea" font-size="13">}</text>
+
+    <!-- Escudo de "sin marca" -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="4s" repeatCount="indefinite"/>
+      <rect x="120" y="88" width="76" height="26" rx="13" fill="#1c1111" stroke="#e74c3c" stroke-width="1.4"/>
+      <text x="158" y="105" text-anchor="middle" fill="#e74c3c" font-size="11" font-weight="bold">SIN MARCA</text>
+    </g>
+    <text x="24" y="214" fill="#8a8a8a" font-size="11">Código exacto: no hay elección, la marca no se aplica</text>
+  </g>
+
+  <!-- Panel 2: elección libre -->
+  <g>
+    <rect x="226" y="48" width="188" height="150" rx="10" fill="#101014" stroke="#1f1f24"/>
+    <text x="242" y="96" fill="#e7e9ea" font-size="12">// Para nombrar al grupo</text>
+    <text x="242" y="118" fill="#e7e9ea" font-size="12">// podríamos usar…</text>
+    <circle cx="320" cy="144" r="7" fill="#d4af37" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="320" y="168" text-anchor="middle" fill="#d4af37" font-size="13" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>"equipo"</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0" dur="4s" repeatCount="indefinite"/>
+      <rect x="278" y="176" width="84" height="24" rx="12" fill="#0f2e1b" stroke="#2ecc71" stroke-width="1.4"/>
+      <text x="320" y="192" text-anchor="middle" fill="#2ecc71" font-size="11" font-weight="bold">CON MARCA</text>
+    </g>
+    <text x="226" y="214" fill="#8a8a8a" font-size="11">Comentarios y nombres: elección arbitraria → marca posible</text>
+  </g>
+
+  <!-- Panel 3: corrección ligera -->
+  <g>
+    <rect x="428" y="48" width="188" height="150" rx="10" fill="#101014" stroke="#1f1f24"/>
+    <text x="444" y="88" fill="#8a8a8a" font-size="12" text-decoration="line-through">ellos tubieron razón</text>
+    <text x="444" y="110" fill="#d4af37" font-size="12">ellos tuvieron razón</text>
+    <text x="444" y="140" fill="#8a8a8a" font-size="12" text-decoration="line-through">voy a ir ay</text>
+    <text x="444" y="162" fill="#d4af37" font-size="12">voy a ir ahí</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="4s" repeatCount="indefinite" begin="0s"/>
+      <rect x="444" y="176" width="156" height="24" rx="12" fill="#1c1111" stroke="#f39c12" stroke-width="1.4"/>
+      <text x="522" y="192" text-anchor="middle" fill="#f39c12" font-size="11" font-weight="bold">¿DEMASIADO CORTO?</text>
+    </g>
+    <text x="428" y="214" fill="#8a8a8a" font-size="11">Solo unas pocas correcciones ≈ poca señal</text>
+  </g>
+
+  <!-- Leyenda inferior animada -->
+  <g opacity="0" fill="#e7e9ea" font-size="11">
+    <animate attributeName="opacity" values="0;0;1;1;0" dur="4s" begin="0.5s" keyTimes="0;0.2;0.4;0.8;1" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/>
+    <text x="320" y="258" text-anchor="middle">Reescribir palabra por palabra elimina la marca;</text>
+    <text x="320" y="278" text-anchor="middle">una edición ligera probablemente no la borra.</text>
+  </g>
+
+  <!-- Indicador de detección -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;1;1;0" dur="4s" begin="0.5s" keyTimes="0;0.2;0.4;0.6;0.9;1"/>
+    <text x="320" y="318" text-anchor="middle" fill="#ff9800" font-size="11">⚠ La ausencia de marca NO prueba que el texto sea humano</text>
+  </g>
+</svg>

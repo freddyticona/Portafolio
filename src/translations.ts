@@ -20082,6 +20082,12 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
 <h2>Cómo funciona la marca de agua de texto</h2>
 <p>En el artículo técnico publicado el 14 de agosto —<em>How Claude's text watermark works</em>— Anthropic detalló que su método es una versión del enfoque <strong>SynthID-Text</strong> desarrollado por Google DeepMind y publicado en la revista Nature en 2024, descendiente de una propuesta de Scott Aaronson de 2022. La idea central aprovecha cómo trabajan los modelos de lenguaje.</p>
 <p>Un gran modelo como Claude genera el texto palabra por palabra. En cada paso elige entre una lista de candidatos posibles, quedándose con la palabra más sensata o probable según el contexto. En la frase "El clima hoy estaba frío y…", la siguiente palabra difícilmente será "azucarado", pero puede ser "nublado" o "gris". En casos como este —decisiones de bajo riesgo donde ambas opciones son igualmente válidas— el modelo resuelve la elección con un número aleatorio.</p>
+<figure style="margin:24px 0;text-align:center">
+  <a href="/images/blog/marca-agua-claude/watermark-animacion.svg" target="_blank" rel="noopener" aria-label="Abrir la animación en una pestaña nueva">
+    <img src="/images/blog/marca-agua-claude/watermark-animacion.svg" alt="Animación interactiva: cómo Claude elige entre palabras igualmente válidas y deja un patrón detectable solo con la clave" style="width:100%;max-width:640px;border-radius:14px;background:#0a0a0a" loading="lazy" />
+  </a>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px">Animación: cuando "nublado" y "gris" son igualmente válidos, Claude resuelve la elección con un patrón que solo su clave puede leer.</figcaption>
+</figure>
 <p>La marca de agua usa precisamente esas elecciones de bajo riesgo para dejar un patrón en la respuesta. El patrón es <strong>imperceptible para el lector</strong>, pero <strong>detectable para quien tenga la clave</strong> que lo codifica. Cuando el marcado está activo, las elecciones siguen siendo aleatorias, pero la <em>fuente</em> de la aleatoriedad cambia: en lugar de un generador arbitrario, se usa la clave y algunas palabras anteriores para decidir qué palabra elige el modelo. Si se conoce la secuencia de palabras y la clave, se puede calcular la probabilidad de que el texto haya sido generado por Claude.</p>
 <p>Anthropic insiste en lo que <strong>no</strong> hace la técnica:</p>
 <ul>
@@ -20100,6 +20106,12 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
 <li><strong>Pasajes cortos:</strong> la detección funciona mejor cuanto más largo es el texto; en muestras pequeñas hay menos decisiones y, por tanto, menos información.</li>
 <li><strong>Reescrituras completas:</strong> una edición ligera probablemente no elimina la marca del todo, pero reescribir cada palabra sí la elimina (aunque entonces, matiza Anthropic, es discutible que el texto siga siendo "generado por IA").</li>
 </ul>
+<figure style="margin:24px 0;text-align:center">
+  <a href="/images/blog/marca-agua-claude/watermark-limitaciones.svg" target="_blank" rel="noopener" aria-label="Abrir la infografía en una pestaña nueva">
+    <img src="/images/blog/marca-agua-claude/watermark-limitaciones.svg" alt="Infografía animada: dónde la marca de agua se debilita (código exacto, texto corto, corrección ligera) y dónde la reescritura total la elimina" style="width:100%;max-width:640px;border-radius:14px;background:#0a0a0a" loading="lazy" />
+  </a>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px">Infografía: la marca aparece solo donde hay elección; el código exacto y los textos muy cortos quedan sin marca.</figcaption>
+</figure>
 <p>La marca <strong>viaja con el texto al copiarlo y pegarlo</strong> —porque es parte del texto— y puede persistir tras ediciones ligeras. Las <strong>traducciones</strong> producidas por Claude también llevan marca, ya que en ese caso cada palabra la elige el modelo.</p>
 <h2>Archivos e imágenes: credenciales C2PA</h2>
 <p>Cuando Claude produce un archivo de un tipo compatible (por ejemplo .svg, .png o .jpg), adjunta una <strong>credencial de contenido</strong>: una nota pequeña y criptográficamente firmada en los metadatos del archivo que indica que fue creado o procesado con Claude. Se trata del estándar abierto <strong>C2PA</strong> (Coalition for Content Provenance and Authenticity), el mismo que usan fabricantes de cámaras y programas de edición de fotos para registrar el origen de una imagen, y que ya emplean Adobe, Google y OpenAI.</p>
@@ -20131,6 +20143,26 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
 </ul>
 <h2>Contexto de la industria</h2>
 <p>Google lleva desde 2023 marcando sus imágenes con SynthID y lo extendió a texto, audio y video; OpenAI usa marcas de agua invisibles en imágenes y, según The Wall Street Journal, <strong>tiene la tecnología para marcar el texto de ChatGPT desde hace años pero decidió no desplegarla</strong> por temor a falsos positivos, la facilidad de evasión y a perder usuarios frente a la competencia. xAI, de Elon Musk, no ha firmado el código de prácticas. Claude se convierte así en la primera gran empresa de IA en desplegar marcas de agua de texto de forma global y en producción.</p>
+<h2>Videos: la explicación en movimiento</h2>
+<p>Para completar este especial, aquí tienes tres videos relacionados: el contexto regulatorio que obligó a Anthropic a marcar el texto, el funcionamiento técnico del marcado y una mirada crítica desde la comunidad de desarrolladores. Están en inglés; puedes activar los subtítulos automáticos.</p>
+<figure style="margin:20px 0">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/3DohfzYB8PU" title="Anthropic's Invisible AI Watermark: What the EU AI Act Changes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px;text-align:center">"Anthropic's Invisible AI Watermark: What the EU AI Act Changes" — el contexto regulatorio del Artículo 50 explicado en imágenes.</figcaption>
+</figure>
+<figure style="margin:20px 0">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/Ie5H__56mx0" title="How Anthropic Implements Claude's Text Watermarking" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px;text-align:center">"How Anthropic Implements Claude's Text Watermarking" — el mecanismo técnico detrás de la técnica (SynthID-Text).</figcaption>
+</figure>
+<figure style="margin:20px 0">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/0vKkbBrLLeo" title="Lookout! Anthropic Trying to Watermark your code!" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px;text-align:center">"Lookout! Anthropic Trying to Watermark your code!" — la polémica desde la comunidad de desarrolladores.</figcaption>
+</figure>
 <h2>Qué significa para los usuarios</h2>
 <p>Para la mayoría de los usuarios el cambio será imperceptible en el día a día: el texto tendrá el mismo aspecto, la misma calidad y el mismo costo. El impacto real aparecerá cuando alguien quiera demostrar (o cuestionar) la procedencia de un texto: desde académicos y periodistas que verifican la autoría hasta empresas que deben decidir si su contenido cumple con las obligaciones de transparencia del EU AI Act. La recomendación práctica de los analistas coincide: divulgar el uso de IA según las políticas de cada organización, porque la marca no sustituye el juicio humano ni las normas profesionales de divulgación.</p>
 <p><small>Con información de: <a href="https://www.anthropic.com/news/claude-text-watermark">Anthropic</a>, <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Centro de ayuda de Claude</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images">The Verge</a>, <a href="https://www.forbes.com/sites/anishasircar/2026/08/13/claude-will-now-leave-a-watermark-on-everything-it-writes-what-does-that-mean/">Forbes</a>, <a href="https://www.artificiallawyer.com/2026/08/17/claudes-watermarks-and-their-legal-sector-impact/">Artificial Lawyer</a> y <a href="https://wwwhatsnew.com/2026/08/15/claude-marca-agua-texto-invisible-eu-ai-act-agosto-2026/">WWWhatsNew</a>.</small></p>`,
@@ -20145,6 +20177,12 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
 <h2>How the text watermark works</h2>
 <p>In its technical article published August 14 —<em>How Claude\'s text watermark works</em>— Anthropic detailed that its method is a version of the <strong>SynthID-Text</strong> approach developed by Google DeepMind and published in Nature in 2024, following a proposal by Scott Aaronson from 2022. The core idea exploits how language models work.</p>
 <p>A large model like Claude generates text one word at a time. At each step it chooses among a list of candidate words, selecting the most sensible or likely given the preceding text. In the sentence "The weather today was cold and…", the next word is very unlikely to be "sugary" but may well be "overcast" or "grey." In such cases —low-stakes decisions where either option is equally good— the model settles the choice with a random number.</p>
+<figure style="margin:24px 0;text-align:center">
+  <a href="/images/blog/marca-agua-claude/watermark-animacion.svg" target="_blank" rel="noopener" aria-label="Open the animation in a new tab">
+    <img src="/images/blog/marca-agua-claude/watermark-animacion.svg" alt="Interactive animation: how Claude picks between equally valid words and leaves a pattern detectable only with the key" style="width:100%;max-width:640px;border-radius:14px;background:#0a0a0a" loading="lazy" />
+  </a>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px">Animation: when "overcast" and "grey" are equally valid, Claude settles the choice with a pattern only its key can read.</figcaption>
+</figure>
 <p>The watermark uses precisely those low-stakes choices to leave a pattern in the response. The pattern is <strong>invisible to the reader</strong> but <strong>detectable to anyone holding the key</strong> that encodes it. When marking is active, choices remain random, but the <em>source</em> of randomness changes: instead of an arbitrary generator, the watermark uses the key and a few preceding words to decide which word the model picks. Given the word sequence and the key, one can compute the likelihood that Claude generated the text.</p>
 <p>Anthropic stresses what the technique does <strong>not</strong> do:</p>
 <ul>
@@ -20163,6 +20201,12 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
 <li><strong>Short passages:</strong> detection works better with longer text; small samples offer fewer choices and less information.</li>
 <li><strong>Full rewrites:</strong> light editing probably will not remove the mark entirely, but rewriting every word will (though Anthropic notes it is then arguable whether the text can still be called AI-generated).</li>
 </ul>
+<figure style="margin:24px 0;text-align:center">
+  <a href="/images/blog/marca-agua-claude/watermark-limitaciones.svg" target="_blank" rel="noopener" aria-label="Open the infographic in a new tab">
+    <img src="/images/blog/marca-agua-claude/watermark-limitaciones.svg" alt="Animated infographic: where the watermark weakens (exact code, short text, light proofreading) and where a full rewrite removes it" style="width:100%;max-width:640px;border-radius:14px;background:#0a0a0a" loading="lazy" />
+  </a>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px">Infographic: the mark only appears where there is a real choice; exact code and very short passages stay unmarked.</figcaption>
+</figure>
 <p>The mark <strong>travels with the text when copied and pasted</strong> —because it is part of the text— and may persist through some editing. <strong>Translations</strong> produced by Claude also carry the mark, since in that case every word is chosen by the model.</p>
 <h2>Files and images: C2PA credentials</h2>
 <p>When Claude produces a supported file type (e.g. .svg, .png or .jpg), it attaches a <strong>content credential</strong>: a small, cryptographically signed note in the file\'s metadata stating the file was created or processed with Claude. This follows the open <strong>C2PA</strong> standard (Coalition for Content Provenance and Authenticity) —the same one used by camera manufacturers and photo-editing software to record an image\'s origin, and already adopted by Adobe, Google and OpenAI.</p>
@@ -20194,6 +20238,26 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
 </ul>
 <h2>Industry context</h2>
 <p>Google has been watermarking its AI-generated images since 2023 with SynthID, later extending to text, audio and video. OpenAI uses invisible watermarks on images and, according to The Wall Street Journal, <strong>has had the technology to watermark ChatGPT text for years but chose not to deploy it</strong> over concerns about false positives, easy circumvention and losing users to competitors. Elon Musk\'s xAI has not signed the code of practice. Claude thereby becomes the first major AI company to deploy text watermarks globally and in production.</p>
+<h2>Videos: the explanation in motion</h2>
+<p>To round out this special report, here are three related videos: the regulatory context that pushed Anthropic to mark text, the technical mechanics of the marking, and a critical view from the developer community.</p>
+<figure style="margin:20px 0">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/3DohfzYB8PU" title="Anthropic's Invisible AI Watermark: What the EU AI Act Changes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px;text-align:center">"Anthropic's Invisible AI Watermark: What the EU AI Act Changes" — the regulatory context of Article 50.</figcaption>
+</figure>
+<figure style="margin:20px 0">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/Ie5H__56mx0" title="How Anthropic Implements Claude's Text Watermarking" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px;text-align:center">"How Anthropic Implements Claude's Text Watermarking" — the technical mechanics behind the technique (SynthID-Text).</figcaption>
+</figure>
+<figure style="margin:20px 0">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/0vKkbBrLLeo" title="Lookout! Anthropic Trying to Watermark your code!" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption style="font-size:13px;color:#8a8a8a;margin-top:8px;text-align:center">"Lookout! Anthropic Trying to Watermark your code!" — the controversy from the developer community.</figcaption>
+</figure>
 <h2>What it means for users</h2>
 <p>For most users the change will be imperceptible day to day: text will look the same, read the same and cost the same. The real impact will appear whenever someone wants to prove —or question— the provenance of a text: from academics and journalists verifying authorship to companies deciding whether their content complies with EU AI Act transparency obligations. The practical advice from analysts is consistent: disclose AI use according to each organization\'s policies, because the watermark does not replace human judgment or professional disclosure rules.</p>
 <p><small>Sources: <a href="https://www.anthropic.com/news/claude-text-watermark">Anthropic</a>, <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Claude Help Center</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images">The Verge</a>, <a href="https://www.forbes.com/sites/anishasircar/2026/08/13/claude-will-now-leave-a-watermark-on-everything-it-writes-what-does-that-mean/">Forbes</a>, <a href="https://www.artificiallawyer.com/2026/08/17/claudes-watermarks-and-their-legal-sector-impact/">Artificial Lawyer</a> and <a href="https://wwwhatsnew.com/2026/08/15/claude-marca-agua-texto-invisible-eu-ai-act-agosto-2026/">WWWhatsNew</a>.</small></p>`,
@@ -20210,7 +20274,9 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
         views: 1,
         images: [
           '/images/blog/marca-agua-claude/portada-watermark.jpg',
-          '/images/blog/marca-agua-claude/watermark-diagram.svg'
+          '/images/blog/marca-agua-claude/watermark-diagram.svg',
+          '/images/blog/marca-agua-claude/watermark-animacion.svg',
+          '/images/blog/marca-agua-claude/watermark-limitaciones.svg'
         ],
         location: 'Global',
         source: 'Anthropic / The Verge / Forbes',

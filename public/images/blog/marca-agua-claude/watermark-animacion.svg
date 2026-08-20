@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Courier New', monospace">
+  <rect width="640" height="400" fill="#0a0a0a" rx="14"/>
+  <title>Así se forma la marca de agua de texto de Claude</title>
+
+  <!-- Título -->
+  <text x="320" y="34" text-anchor="middle" fill="#d4af37" font-size="17" font-weight="bold" letter-spacing="1">¿CÓMO SE FORMA LA MARCA DE AGUA?</text>
+  <text x="320" y="54" text-anchor="middle" fill="#8a8a8a" font-size="11">Claude elige palabras palabra por palabra</text>
+
+  <!-- Fila de palabras generadas -->
+  <g font-size="15" fill="#e7e9ea">
+    <text x="40" y="110">El</text>
+    <text x="80" y="110">clima</text>
+    <text x="145" y="110">hoy</text>
+    <text x="195" y="110">estaba</text>
+    <text x="270" y="110">frío</text>
+    <text x="315" y="110">y…</text>
+  </g>
+
+  <!-- Candidatos -->
+  <g>
+    <rect x="350" y="96" width="86" height="24" rx="5" fill="#1a1a1a" stroke="#d4af37" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="350" y="96" width="86" height="24" rx="5" fill="#1a1a1a" stroke="#6b5b1e" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="393" y="113" text-anchor="middle" fill="#d4af37" font-size="13" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" dur="6s" repeatCount="indefinite"/>nublado</text>
+    <text x="393" y="113" text-anchor="middle" fill="#727272" font-size="13" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;0;0" dur="6s" repeatCount="indefinite"/>gris</text>
+  </g>
+
+  <!-- Etiqueta candidatos -->
+  <text x="393" y="138" text-anchor="middle" fill="#727272" font-size="10" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" dur="6s" repeatCount="indefinite"/>dos opciones igual de válidas</text>
+
+  <!-- Decisor: dado girando -->
+  <g transform="translate(478,108)">
+    <rect x="-14" y="-14" width="28" height="28" rx="6" fill="#1a1a1a" stroke="#d4af37" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="0" cy="0" r="3.5" fill="#d4af37" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="478" y="130" text-anchor="middle" fill="#8a8a8a" font-size="10">aleatoriedad</text>
+
+  <!-- Flecha -->
+  <g stroke="#d4af37" stroke-width="1.6" fill="none">
+    <line x1="310" y1="130" x2="352" y2="146" opacity="0.6"/>
+  </g>
+
+  <!-- Texto final con marca -->
+  <text x="40" y="200" fill="#e7e9ea" font-size="15">
+    <tspan x="40">Resultado idéntico a simple vista:</tspan>
+    <tspan x="40" dy="22" fill="#d4af37">"El clima hoy estaba frío y … nublado"</tspan>
+  </text>
+
+  <!-- Patrón de puntos formando la marca -->
+  <g opacity="0" fill="#d4af37">
+    <animate attributeName="opacity" values="0;0;1;1;0" dur="6s" repeatCount="indefinite"/>
+    <circle cx="420" cy="210" r="2.5"/><circle cx="432" cy="210" r="2.5"/>
+    <circle cx="444" cy="210" r="2.5"/><circle cx="456" cy="210" r="2.5"/>
+    <circle cx="468" cy="210" r="2.5"/>
+    <circle cx="420" cy="222" r="2.5"/><circle cx="432" cy="222" r="2.5"/>
+    <circle cx="444" cy="222" r="2.5"/><circle cx="456" cy="222" r="2.5"/>
+    <circle cx="468" cy="222" r="2.5"/>
+    <circle cx="420" cy="234" r="2.5"/><circle cx="432" cy="234" r="2.5"/>
+    <circle cx="444" cy="234" r="2.5"/><circle cx="456" cy="234" r="2.5"/>
+    <circle cx="468" cy="234" r="2.5"/>
+    <circle cx="420" cy="246" r="2.5"/><circle cx="432" cy="246" r="2.5"/>
+    <circle cx="444" cy="246" r="2.5"/><circle cx="456" cy="246" r="2.5"/>
+    <circle cx="468" cy="246" r="2.5"/>
+  </g>
+
+  <!-- Clave -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;1;1" dur="6s" repeatCount="indefinite"/>
+    <rect x="500" y="196" width="120" height="26" rx="13" fill="#0f2e1b" stroke="#2ecc71" stroke-width="1.5"/>
+    <text x="560" y="213" text-anchor="middle" fill="#2ecc71" font-size="12" font-weight="bold">CLAVE: sí es de Claude</text>
+  </g>
+
+  <!-- Barra de confianza -->
+  <g>
+    <rect x="40" y="300" width="560" height="10" rx="5" fill="#1a1a1a"/>
+    <rect x="40" y="300" width="0" height="10" rx="5" fill="#d4af37">
+      <animate attributeName="width" values="0;0;0;0;60;180;380;560" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/>
+    </rect>
+    <text x="40" y="330" fill="#8a8a8a" font-size="11">Confianza de detección (más texto = más decisiones = más señal)</text>
+    <text x="600" y="330" text-anchor="end" fill="#d4af37" font-size="11" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" dur="6s" repeatCount="indefinite"/>alta</text>
+  </g>
+
+  <text x="320" y="378" text-anchor="middle" fill="#555" font-size="10">El lector no ve ninguna diferencia: solo la clave de Anthropic puede leer la marca</text>
+</svg>
