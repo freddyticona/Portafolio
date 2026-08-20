@@ -87,6 +87,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/guias/guia-multas-transito-consulta-placa-bolivia-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Multas de tránsito en Bolivia: cómo consultar deudas e infracciones por placa (2026)</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/especial-repercusiones-internacionales-caso-beller-cerimedo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

@@ -44,7 +44,7 @@ export default function GuiasPage({
       const title = lang === 'es' ? post.titleEs : post.titleEn;
       const lower = title.toLowerCase();
       if (lower.includes('segip') || lower.includes('cédula') || lower.includes('cedula')) return lang === 'es' ? 'SEGIP · Identidad' : 'SEGIP · Identity';
-      if (lower.includes('soat') || lower.includes('ruat') || lower.includes('licencia de conducir') || lower.includes('vehicular')) return lang === 'es' ? 'Vehículos y Tránsito' : 'Vehicles & Traffic';
+      if (lower.includes('soat') || lower.includes('ruat') || lower.includes('licencia de conducir') || lower.includes('vehicular') || lower.includes('tránsito') || lower.includes('transito') || lower.includes('multa') || lower.includes('placa')) return lang === 'es' ? 'Vehículos y Tránsito' : 'Vehicles & Traffic';
       if (lower.includes('pasaporte') || lower.includes('visa') || lower.includes('apostilla') || lower.includes('extranjero')) return lang === 'es' ? 'Migración y Documentos Internacionales' : 'Migration & International Documents';
       if (lower.includes('antecedente') || lower.includes('penal') || lower.includes('policial')) return lang === 'es' ? 'Antecedentes y Seguridad' : 'Background Checks & Safety';
       if (lower.includes('matrimonio') || lower.includes('defunción') || lower.includes('defuncion') || lower.includes('nacimiento')) return lang === 'es' ? 'Registro Civil (SERECÍ)' : 'Civil Registry (SERECÍ)';

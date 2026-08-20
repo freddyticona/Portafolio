@@ -20629,6 +20629,200 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
         region: 'International',
         sourceUrl: 'https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda'
       },
+      {
+        id: '1042',
+        contentType: 'analysis',
+        slug: 'guia-multas-transito-consulta-placa-bolivia-2026',
+        titleEs: 'Multas de tránsito en Bolivia: cómo consultar deudas e infracciones por placa (2026)',
+        titleEn: 'Traffic fines in Bolivia: how to check debts and infractions by plate (2026)',
+        excerptEs: 'Aprende a consultar en línea si tu vehículo tiene multas o infracciones de tránsito usando solo la placa. Plataformas oficiales de la Policía Boliviana (DNFR), RUAT, Vías Bolivia y Estado Digital, costos de pago, consecuencias de no pagar y descuentos vigentes en 2026.',
+        excerptEn: 'Learn how to check online whether your vehicle has traffic fines or infractions using only the license plate. Official platforms of the Bolivian Police (DNFR), RUAT, Vías Bolivia and Estado Digital, payment costs, consequences of not paying and discounts in effect in 2026.',
+        contentEs: `### Guía Completa: Multas de Tránsito Bolivia 2026
+
+**Resumen rápido (2026):**
+
+| Dato | Detalle |
+|------|---------|
+| **Consulta** | 100% en línea, gratis, solo con la placa |
+| **Tiempo** | Instantáneo (resultados al momento) |
+| **Plataformas oficiales** | Policía DNFR, RUAT, Vías Bolivia (SNCPD), Estado Digital |
+| **Pago** | Banco Unión / UNINET, apps bancarias (QR) o tu municipalidad |
+| **Si no pagas** | Bloquea ITV, traspaso vehicular y expone a papeletas en operativos |
+
+Desde el **1 de enero de 2026** la Policía Boliviana endureció los controles en calles, avenidas, carreteras y trancas, exigiendo **Inspección Técnica Vehicular (ITV) vigente** y **SOAT** vigente. Una de las primeras verificaciones de un control es consultar si tu placa tiene **multas o infracciones pendientes**. Por eso conviene saber revisarlas tú mismo antes de salir.
+
+Las boletas de infracción desde hace años son **100% digitales**: ya no se coloca el sticker en el parabrisas; la papeleta queda registrada en el sistema y asociada a tu **placa**. Con solo el número de placa puedes verla en línea.
+
+---
+
+#### ¿Qué es una infracción de tránsito?
+
+Es toda contravención al Código de Tránsito: exceso de velocidad, cruzar en luz roja, estacionamiento indebido, no usar cinturón de seguridad, conducir sin licencia, sin ITV o sin SOAT, entre otras.
+
+Las sanciones económicas se calculan en **días multa** sobre el salario mínimo nacional (SMV) vigente y varían según la vía (urbana/municipal o carretera). Algunas contravenciones también implican **retención del vehículo** o de la **licencia de conducir**.
+
+---
+
+#### Cómo consultar multas por placa (paso a paso)
+
+**1. Policía Boliviana — DNFR (la consulta más rápida)**
+
+1. Ingresa a [https://policiadnfr.gob.bo/ConsultarInfracciones](https://policiadnfr.gob.bo/ConsultarInfracciones)
+2. Escribe el número de placa de tu vehículo (formato PTA, por ejemplo 1234ABC).
+3. Resuelve el captcha (suma los dos números que muestra el sistema).
+4. Haz clic en **"Consultar"**.
+5. Si no hay deudas verás el mensaje de vehículo sin infracciones; si hay, se listarán todas las papeletas con su estado: **pendiente**, **pagada** o **anulada**.
+
+**2. RUAT — Consulta de Deudas, Infracciones e ITV**
+
+1. Entra a [https://www.ruat.gob.bo](https://www.ruat.gob.bo) → **"Vehículos"** → **"Consulta Deudas Infracciones e ITV"**.
+2. Ingresa la placa y el código de verificación de caracteres.
+3. El sistema muestra deudas tributarias municipales (impuesto a la propiedad de vehículos), infracciones de tránsito y el estado de la ITV.
+4. Para el detalle de las infracciones te remite a la DNFR ([https://policiadnfr.gob.bo](https://policiadnfr.gob.bo)).
+
+**3. Vías Bolivia — SNCPD (Sistema Nacional de Control de Placas y Documentos)**
+
+1. Ingresa a [https://sncpd.viasbolivia.gob.bo/ConsultaMultas/ListaMultas](https://sncpd.viasbolivia.gob.bo/ConsultaMultas/ListaMultas)
+2. Escribe la placa y haz clic en **"Buscar"**.
+3. Revisa si tu vehículo tiene multas registradas.
+
+**4. Estado Digital — Ministerio de Gobierno**
+
+1. Ingresa a [https://estadodigital.mingobierno.gob.bo/infracciones/home](https://estadodigital.mingobierno.gob.bo/infracciones/home)
+2. Consulta el listado de infracciones vinculadas a tu placa.
+3. El sistema genera el **código de la Boleta de Infracción**, que debes presentar al momento de pagar en agencias del **Banco Unión** o **UNINET**.
+
+> **Consejo:** haz la consulta cada 1 o 3 meses, y sobre todo antes de vender el vehículo, hacer la ITV o renovar el SOAT. Las multas no desaparecen solas.
+
+---
+
+#### Cómo se paga una multa de tránsito (2026)
+
+| Canal | Cómo funciona |
+|-------|---------------|
+| **Banco Unión / UNINET** | Con el código de la Boleta de Infracción generado en Estado Digital o la DNFR |
+| **Apps bancarias** | Escaneando el código **QR** que emite la Policía (DNFR) para multas, valores fiscales e ITV |
+| **Tesorería municipal / Recaudaciones** | Para infracciones municipales (estacionamiento, ordenanzas) en el municipio donde se cometió |
+| **Plataformas de tu alcaldía** | Varias ciudades tienen apps y portales (por ejemplo "Tu Municipio 24/7" y SIMAT en Cochabamba) |
+
+**¿Hay descuentos?** Sí, y en 2026 hay buenas noticias:
+
+- **Pronto pago:** muchos municipios mantienen descuentos en impuestos y multas pagados a tiempo (10% general y hasta **20% para adultos mayores** en varias ciudades).
+- **Perdonazo municipal:** ciudades como **Cochabamba ampliaron su "Perdonazo" hasta octubre de 2026**, con **100% de condonación de multas e intereses** de gestiones 1995-2024 para impuestos de vehículos, inmuebles y actividades económicas.
+- Los *perdonazos* son vigentes solo por gestión municipal; consulta el que corresponda a tu ciudad antes de pagar.
+
+---
+
+#### Consecuencias de no pagar
+
+- **No puedes hacer la ITV:** "no tener multas pendientes de tránsito" es requisito para la inspección técnica vehicular. Circular sin ITV vigente implica multa inicial de **Bs 100** y, por reincidencia, más de **Bs 250**, además de la prohibición de circular.
+- **Traspasos bloqueados:** las deudas quedan asociadas a la placa/RUAT, lo que entorpece la venta del motorizado y el pago del impuesto a la propiedad vehicular.
+- **Controles 2026:** sin ITV o sin SOAT vigente la papeleta y la retención del motorizado son inmediatas.
+- **Actualización y coactiva:** los saldos impagos se actualizan e incluso pueden derivar en cobranza coactiva por parte del municipio.
+
+---
+
+#### ¿La multa no te corresponde? Cómo reclamar
+
+1. Revisa en la consulta el **código de la boleta**, la fecha y el tipo de contravención.
+2. Acude a la **jefatura de tránsito** de la ciudad donde se registró la infracción (o al juzgado municipal) con tu cédula de identidad, licencia y datos del vehículo.
+3. Presenta tu **descargo/impugnación** antes del vencimiento; no esperes a la coactiva.
+4. Sirve adjuntar comprobantes de tu ubicación en la fecha, fotos de tu vehículo (placa y estado) y confirmar que el registro corresponde a tu misma placa y no a una homónima.
+
+---
+
+#### Preguntas Frecuentes
+
+**¿Hay que pagar para consultar?**
+No. Las consultas de infracciones por placa son gratuitas; el pago solo corresponde si hay deuda.
+
+**¿Una multa afecta la venta del vehículo?**
+Sí. Las deudas de tránsito y el impuesto vehicular están ligados a la placa/RUAT y deben regularizarse para el traspaso.
+
+**¿La multa se registra contra el vehículo o el conductor?**
+Suele registrarse contra la **placa del vehículo** (por eso aparece al consultar por placa), aunque también puede asociarse a la licencia del conductor.
+
+**¿Basta con consultar una sola plataforma?**
+No siempre. Revisa DNFR, RUAT y Vías Bolivia (más tu municipio), porque cada entidad registra su propio tipo de deudas.
+
+**¿Qué pasa si veo una multa de otra ciudad?**
+Debes pagarla o reclamarla ante la entidad de esa ciudad; no desaparece por cambio de domicilio.
+
+---
+
+> Esta guía fue actualizada en agosto de 2026 con las plataformas oficiales vigentes. Los montos y descuentos varían según municipio y gestión; verifica siempre en [policiadnfr.gob.bo](https://policiadnfr.gob.bo), [ruat.gob.bo](https://www.ruat.gob.bo) o tu gobierno municipal.
+
+Con información de: [Policía Boliviana — DNFR](https://policiadnfr.gob.bo) · [RUAT](https://www.ruat.gob.bo) · [Vías Bolivia — SNCPD](https://sncpd.viasbolivia.gob.bo/ConsultaMultas/ListaMultas) · [Estado Digital (Min. de Gobierno)](https://estadodigital.mingobierno.gob.bo/infracciones/home) · [Red Uno Bolivia](https://www.reduno.com.bo)`,
+        contentEn: `### Complete Guide: Traffic Fines in Bolivia 2026
+
+**Quick summary (2026):**
+
+| Data | Detail |
+|------|--------|
+| **Check** | 100% online, free, plate-only |
+| **Time** | Instant |
+| **Official platforms** | Police DNFR, RUAT, Vías Bolivia (SNCPD), Estado Digital |
+| **Payment** | Banco Unión / UNINET, banking apps (QR) or your municipality |
+| **If unpaid** | Blocks ITV, vehicle transfer and exposes to tickets at checkpoints |
+
+Since **January 1, 2026**, the Bolivian Police tightened inspections on streets, highways and checkpoints, requiring a valid **Technical Vehicle Inspection (ITV)** and **SOAT**. One of the first checks is whether your plate has pending traffic fines.
+
+Since tickets went digital, no more stickers on the windshield: the fine is recorded in the system and linked to your **license plate**. With only the plate number you can look it up online.
+
+#### How to check fines by plate (step by step)
+
+1. **Bolivian Police — DNFR**: go to [https://policiadnfr.gob.bo/ConsultarInfracciones](https://policiadnfr.gob.bo/ConsultarInfracciones), enter your plate, solve the captcha (add the two shown numbers) and click **"Consult"**. It lists every ticket with its status: pending, paid or voided.
+2. **RUAT**: go to [https://www.ruat.gob.bo](https://www.ruat.gob.bo) → "Vehículos" → "Consulta Deudas Infracciones e ITV", enter plate + verification code. It shows municipal tax debts, traffic infractions and ITV status.
+3. **Vías Bolivia — SNCPD**: [https://sncpd.viasbolivia.gob.bo/ConsultaMultas/ListaMultas](https://sncpd.viasbolivia.gob.bo/ConsultaMultas/ListaMultas), enter plate and click Search.
+4. **Estado Digital (Min. of Government)**: [https://estadodigital.mingobierno.gob.bo/infracciones/home](https://estadodigital.mingobierno.gob.bo/infracciones/home). It generates the **ticket code** you must present when paying at **Banco Unión** or **UNINET**.
+
+#### How to pay (2026)
+
+- **Banco Unión / UNINET**: with the ticket code.
+- **Banking apps**: scan the **QR** code issued by the Police (DNFR) for fines, fiscal values and ITV.
+- **Municipal treasury**: for municipal codes (parking, ordinances).
+- **City platforms**: e.g. "Tu Municipio 24/7" and SIMAT in Cochabamba.
+
+**Discounts:** many municipalities keep early-payment discounts (10%, and up to **20% for seniors**). Some cities, like **Cochabamba, extended their "Perdonazo" through October 2026** with a **100% waiver of fines and interest** for taxes from 1995–2024 (vehicles, real estate, business).
+
+#### Consequences of not paying
+
+- **No ITV**: "no pending traffic fines" is a requirement for the technical vehicle inspection. Driving without ITV is an initial fine of **Bs 100**, above **Bs 250** on repeat, plus a driving ban.
+- **Blocked transfers**: fines stay attached to the plate/RUAT and hinder selling the vehicle.
+- **2026 checkpoints**: no ITV or SOAT means an immediate ticket and vehicle retention.
+- **Interest and collection**: unpaid balances are updated and can go to coercive collection.
+
+#### How to dispute a fine
+
+1. Review the **ticket code**, date and infraction type.
+2. Go to the **Traffic Department** of the city where it was issued (or the municipal court) with your ID, license and vehicle data.
+3. File your challenge before the deadline.
+4. Attach location proofs, photos of your plate/vehicle, and verify the record belongs to your plate.
+
+#### FAQs
+
+**Is it free to check?** Yes, checks are free; payment is only due if there is a debt.
+**Can a fine affect selling the vehicle?** Yes — traffic and vehicle-tax debts are attached to the plate/RUAT and must be settled for the transfer.
+**Is the fine linked to the vehicle or driver?** Usually to the **plate**, but it can also be linked to the driver's license.
+**Is one platform enough?** Not always — check DNFR, RUAT, Vías Bolivia and your municipality, since each registers different debts.
+**What if I see a fine from another city?** Pay or dispute it with that city's authority; it does not disappear by changing address.
+
+---
+
+> Updated in August 2026 with current official platforms. Amounts and discounts vary by municipality; always verify at [policiadnfr.gob.bo](https://policiadnfr.gob.bo), [ruat.gob.bo](https://www.ruat.gob.bo) or your municipal government.
+
+Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https://www.ruat.gob.bo) · [Vías Bolivia — SNCPD](https://sncpd.viasbolivia.gob.bo/ConsultaMultas/ListaMultas) · [Estado Digital (Min. of Government)](https://estadodigital.mingobierno.gob.bo/infracciones/home) · [Red Uno Bolivia](https://www.reduno.com.bo)`,
+        date: '2026-08-20',
+        readTimeEs: '9 min de lectura',
+        readTimeEn: '9 min read',
+        imageUrl: '/images/guia/soat-trafico-lapaz.jpg',
+        imageCaption: 'Tráfico vehicular en La Paz, Bolivia. Foto: Wikimedia Commons (CC BY-SA)',
+        categoryEs: 'Guías y Trámites',
+        categoryEn: 'Guides & Procedures',
+        enableComments: true,
+        featured: false,
+        views: 1
+      },
       // FIN DE NOTICIAS
     ];
 
