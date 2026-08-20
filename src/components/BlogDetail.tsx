@@ -63,10 +63,6 @@ function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 }
 
-function escapeHtml(value: string): string {
-  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
-
 function calculateReadTime(content: string): string {
   const text = stripHtml(content);
   const wordsPerMinute = 200;
@@ -144,120 +140,59 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     });
   }, [htmlContent]);
 
-  // Tuits embebidos: intenta el widget oficial de X (widgets.js + twttr.widgets.load).
-  // Los datos del blockquote se capturan al montar (antes de que widgets.js pueda
-  // reemplazar el nodo). Si tras un timeout NO hay un tuit renderizado de X en el
-  // artículo (widget bloqueado por región/anti-bot/logged-out), se inyectan tarjetas
-  // estáticas con el texto íntegro del tuit original.
+  // Tuits embebidos: reemplaza cada blockquote.twitter-tweet por el iframe oficial
+  // del embed de X (platform.twitter.com/embed/Tweet.html) — el mismo widget
+  // interactivo real que genera widgets.js, pero inyectado directamente para no
+  // depender de que el script externo cargue (evita bloqueos de región/anti-bot).
   useEffect(() => {
     const container = document.querySelector<HTMLElement>('.article-content');
     if (!container) return;
 
-    // Capturar datos de cada blockquote tal cual llegan del contenido
-    type TweetData = { text: string; tweetUrl: string; author: string; handle: string; date: string };
-    const tweets: TweetData[] = Array.from(container.querySelectorAll<HTMLElement>('blockquote.twitter-tweet')).map((bq) => {
-      const p = bq.querySelector('p');
-      const text = p ? p.innerHTML.trim() : (bq.textContent || '').trim();
+    const blockquotes = Array.from(container.querySelectorAll<HTMLElement>('blockquote.twitter-tweet'));
+    if (!blockquotes.length) return;
+
+    blockquotes.forEach((bq) => {
+      if (bq.dataset.embedded) return;
+      bq.dataset.embedded = '1';
+
+      // Extraer el ID del tweet desde el enlace oficial (ref_src=twsrc%5Etfw)
       const links = Array.from(bq.querySelectorAll('a'));
-      const tweetUrl = links.length ? links[links.length - 1].href : '';
-      const raw = (bq.textContent || '').replace(/\s+/g, ' ').trim();
+      const tweetLink = links.find((a) => /\/status(?:es)?\/\d+/.test(a.href)) || links[links.length - 1];
+      const idMatch = tweetLink ? tweetLink.href.match(/\/(?:status|statuses)\/(\d+)/) : null;
+      const tweetId = idMatch ? idMatch[1] : '';
 
-      let author = '';
-      let handle = '';
-      let date = '';
-      const m = raw.match(/—\s*([^(—]+?)\s*\(@([^)]+)\)\s*(.*)$/);
-      if (m) {
-        author = m[1].trim();
-        handle = m[2].trim();
-        date = (m[3] || '').trim();
-      }
-      return { text, tweetUrl, author: author || 'Ver tuit en X', handle, date };
+      if (!tweetId) return;
+
+      // Envoltorio para el iframe del widget real de X
+      const wrapper = document.createElement('div');
+      wrapper.className = 'tweet-wrapper';
+
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://platform.twitter.com/embed/Tweet.html?id=${tweetId}&theme=dark&hide_thread=true&align=center`;
+      iframe.width = '100%';
+      iframe.style.border = '0';
+      iframe.style.overflow = 'hidden';
+      iframe.style.display = 'block';
+      iframe.style.background = '#000';
+      iframe.style.minHeight = '200px';
+      iframe.style.height = '520px';
+      iframe.title = 'Tuit de X';
+      iframe.loading = 'lazy';
+      iframe.setAttribute('scrolling', 'no');
+      wrapper.appendChild(iframe);
+
+      // Ajustar altura según lo que notifique X (postMessage resize)
+      const onResize = (event: MessageEvent) => {
+        const data = event.data;
+        if (data && typeof data === 'object' && data.type === 'resize' && event.source === iframe.contentWindow) {
+          const h = Number(data.height);
+          if (Number.isFinite(h) && h > 0) iframe.style.height = `${h}px`;
+        }
+      };
+      window.addEventListener('message', onResize);
+
+      bq.replaceWith(wrapper);
     });
-    if (!tweets.length) return;
-
-    const buildCard = (t: TweetData) => `
-      <div class="tweet-card">
-        <div class="tweet-card-head">
-          <span class="tweet-avatar">${escapeHtml((t.author || 'X').charAt(0).toUpperCase())}</span>
-          <div class="tweet-id">
-            <div class="tweet-name-row">
-              <span class="tweet-name">${escapeHtml(t.author)}</span>
-              <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <div class="tweet-handle">@${escapeHtml(t.handle)}</div>
-          </div>
-          <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-        </div>
-        <div class="tweet-text">${t.text}</div>
-        ${t.date ? `<div class="tweet-time">${escapeHtml(t.date)}</div>` : ''}
-        ${t.tweetUrl ? `<a class="tweet-open" href="${t.tweetUrl}" target="_blank" rel="noopener noreferrer">Ver el tuit original en X ↗</a>` : ''}
-      </div>`;
-
-    // Un tuit SÍ se renderizó si en el artículo hay un iframe/span emitido por X
-    const xRenderedTweets = () =>
-      container.querySelectorAll<HTMLElement>('iframe[src*="platform.twitter.com/embed"], span.twitter-tweet-rendered iframe, iframe[id^="twitter-widget-"]').length;
-
-    const exiledBlockquotes = () => Array.from(container.querySelectorAll('blockquote.twitter-tweet'));
-
-    // Fallback definitivo: reemplazar cualquier blockquote residual por la tarjeta
-    const applyFallback = () => {
-      const remaining = exiledBlockquotes();
-      remaining.forEach((bq) => {
-        const text = bq.querySelector('p')?.innerHTML.trim() || (bq.textContent || '').trim();
-        const links = Array.from(bq.querySelectorAll('a'));
-        const tweetUrl = links.length ? links[links.length - 1].href : '';
-        const raw = (bq.textContent || '').replace(/\s+/g, ' ').trim();
-        let author = 'Tuit';
-        let handle = '';
-        let date = '';
-        const m = raw.match(/—\s*([^(—]+?)\s*\(@([^)]+)\)\s*(.*)$/);
-        if (m) { author = m[1].trim(); handle = m[2].trim(); date = (m[3] || '').trim(); }
-        const card = document.createElement('div');
-        card.innerHTML = buildCard({ text, tweetUrl, author, handle, date });
-        bq.replaceWith(card.firstElementChild as HTMLElement);
-      });
-      // Si widgets.js eliminó los blockquotes sin renderizar tuits, inyecta las tarjetas
-      if (!xRenderedTweets() && !remaining.length) {
-        const wrapper = document.createElement('div');
-        wrapper.innerHTML = tweets.map(buildCard).join('');
-        container.appendChild(wrapper);
-      }
-    };
-
-    // Temporizador: a los ~8s, si no hay tuits renderizados, usar las tarjetas estáticas.
-    let checks = 0;
-    const iv = window.setInterval(() => {
-      checks++;
-      if (checks >= 4) {
-        window.clearInterval(iv);
-        if (!xRenderedTweets()) applyFallback();
-      }
-    }, 2000);
-
-    const runWidgets = () => {
-      if (window.twttr && typeof window.twttr.widgets?.load === 'function') {
-        window.twttr.widgets.load(container);
-      }
-    };
-
-    if (window.twttr && typeof window.twttr.widgets?.load === 'function') {
-      runWidgets();
-      return;
-    }
-
-    const existing = document.querySelector<HTMLScriptElement>('script[src*="platform.twitter.com/widgets.js"], script[src*="platform.x.com/widgets.js"]');
-    if (!existing) {
-      const script = document.createElement('script');
-      script.src = 'https://platform.twitter.com/widgets.js';
-      script.async = true;
-      script.charset = 'utf-8';
-      script.onload = runWidgets;
-      script.onerror = runWidgets;
-      document.head.appendChild(script);
-    } else {
-      existing.addEventListener('load', runWidgets);
-      existing.addEventListener('error', runWidgets);
-    }
   }, [htmlContent]);
 
   // ─── Structured Data + OG Tags para el artículo ────────────────────
