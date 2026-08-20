@@ -63,6 +63,10 @@ function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 }
 
+function escapeHtml(value: string): string {
+  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 function calculateReadTime(content: string): string {
   const text = stripHtml(content);
   const wordsPerMinute = 200;
@@ -140,12 +144,76 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     });
   }, [htmlContent]);
 
-  // Cargar widgets.js de X y transformar blockquote.twitter-tweet en tuits embebidos
+  // Tuits embebidos: intenta el widget oficial de X (widgets.js + twttr.widgets.load)
+  // y si X no transforma el blockquote (bloqueado/logged-out/región), lo sustituye
+  // por una tarjeta estática con el texto íntegro del tuit original.
   useEffect(() => {
     const container = document.querySelector<HTMLElement>('.article-content');
-    if (!container || !container.querySelector('blockquote.twitter-tweet')) return;
+    const blockquotes = container
+      ? Array.from(container.querySelectorAll<HTMLElement>('blockquote.twitter-tweet'))
+      : [];
+    if (!blockquotes.length) return;
 
-    // Ya cargado en una visita previa del SPA → solo re-cargar widgets del DOM nuevo
+    const isRendered = (bq: HTMLElement) =>
+      !bq.isConnected ||
+      bq.classList.contains('twitter-tweet-rendered') ||
+      !!bq.querySelector('iframe.twitter-tweet, iframe[id^="twitter-widget-"]');
+
+    // Fallback: tarjeta estática con avatares, autor, fecha, el texto del tuit y enlace a X
+    const fallbackToCard = (bq: HTMLElement) => {
+      if (bq.dataset.cardBuilt || !bq.isConnected || isRendered(bq)) return;
+      bq.dataset.cardBuilt = '1';
+
+      const p = bq.querySelector('p');
+      const text = p ? p.innerHTML.trim() : (bq.textContent || '').trim();
+      const links = Array.from(bq.querySelectorAll('a'));
+      const tweetUrl = links.length ? links[links.length - 1].href : '';
+      const raw = (bq.textContent || '').replace(/\s+/g, ' ').trim();
+
+      let author = '';
+      let handle = '';
+      let date = '';
+      const m = raw.match(/—\s*([^(—]+?)\s*\(@([^)]+)\)\s*(.*)$/);
+      if (m) {
+        author = m[1].trim();
+        handle = m[2].trim();
+        date = (m[3] || '').trim();
+      }
+      if (!author) author = author || 'Ver tuit en X';
+
+      const card = document.createElement('div');
+      card.className = 'tweet-card';
+      card.innerHTML = `
+      <div class="tweet-card-head">
+        <span class="tweet-avatar">${escapeHtml((author || 'X').charAt(0).toUpperCase())}</span>
+        <div class="tweet-id">
+          <div class="tweet-name-row">
+            <span class="tweet-name">${escapeHtml(author)}</span>
+            <svg class="tweet-verified" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="11" fill="#1d9bf0"/><path d="M6.5 11.5l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="tweet-handle">@${escapeHtml(handle)}</div>
+        </div>
+        <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="#e7e9ea"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </div>
+      <div class="tweet-text">${text}</div>
+      ${date ? `<div class="tweet-time">${escapeHtml(date)}</div>` : ''}
+      ${tweetUrl ? `<a class="tweet-open" href="${tweetUrl}" target="_blank" rel="noopener noreferrer">Ver el tuit original en X ↗</a>` : ''}`;
+      bq.replaceWith(card);
+    };
+
+    // Cargar widgets y verificar que X realmente transforme los bloques.
+    // El temporizador de fallback arranca de inmediato para cubrir el caso en
+    // que widgets.js no cargue o X no pueda emitir el widget (región/anti-bot).
+    let checks = 0;
+    const iv = window.setInterval(() => {
+      checks++;
+      blockquotes.forEach((bq) => {
+        if (checks >= 4) fallbackToCard(bq);
+      });
+      const pending = blockquotes.filter((bq) => !isRendered(bq));
+      if (!pending.length || checks >= 4) window.clearInterval(iv);
+    }, 2000);
+
     const runWidgets = () => {
       if (window.twttr && typeof window.twttr.widgets?.load === 'function') {
         window.twttr.widgets.load(container);
@@ -157,7 +225,6 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
       return;
     }
 
-    // Cargar el script oficial una sola vez
     const existing = document.querySelector<HTMLScriptElement>('script[src*="platform.twitter.com/widgets.js"], script[src*="platform.x.com/widgets.js"]');
     if (!existing) {
       const script = document.createElement('script');
@@ -165,6 +232,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
       script.async = true;
       script.charset = 'utf-8';
       script.onload = runWidgets;
+      script.onerror = runWidgets;
       document.head.appendChild(script);
     } else {
       existing.addEventListener('load', runWidgets);
