@@ -9,9 +9,9 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Thu, 20 Aug 2026 13:31:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 13:36:25 GMT</lastBuildDate>
     <item>
-      <title><![CDATA[Claude marcará con agua invisible cada texto y archivo que genere: así funciona el sistema de Anthropic]]></title>
+      <title><![CDATA[Claude marcará de forma invisible cada texto y archivo que genere: así funciona la marca de agua de Anthropic]]></title>
       <link>https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</link>
       <guid isPermaLink="true">https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</guid>
       <description><![CDATA[Desde el 2 de agosto, los modelos de Claude lanzados tejen una marca de agua imperceptible en el texto que generan y firman sus archivos con metadatos C2PA. Repasamos la técnica oficial (SynthID-Text), el Artículo 50 del EU AI Act, los planes de precios —que no cambian— y la controversia entre expertos, abogados y empresas.]]></description>
