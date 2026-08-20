@@ -20063,6 +20063,160 @@ Match the codec to the destination, use the bitrate table by resolution, and sav
         region: 'US',
         sourceUrl: 'https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6'
       },
+      {
+        id: '1031',
+        contentType: 'reportage',
+        slug: 'especial-marca-de-agua-texto-claude-anthropic',
+        titleEs: 'Claude marcará con agua invisible cada texto y archivo que genere: así funciona el sistema de Anthropic',
+        titleEn: 'Claude will invisibly watermark every text and file it generates: how Anthropic\'s system works',
+        excerptEs: 'Desde el 2 de agosto, los modelos de Claude lanzados tejen una marca de agua imperceptible en el texto que generan y firman sus archivos con metadatos C2PA. Repasamos la técnica oficial (SynthID-Text), el Artículo 50 del EU AI Act, los planes de precios —que no cambian— y la controversia entre expertos, abogados y empresas.',
+        excerptEn: 'Since August 2, newly launched Claude models weave an imperceptible watermark into the text they generate and sign their files with C2PA metadata. We break down the official technique (SynthID-Text), the EU AI Act\'s Article 50, the pricing plans —which remain unchanged— and the backlash from experts, lawyers and companies.',
+        contentEs: `<h1>Claude marcará con agua invisible cada texto y archivo que genere: así funciona el sistema de Anthropic</h1>
+<p><em>Anthropic confirmó el 11 de agosto de 2026 que todos los modelos de Claude lanzados a partir del 2 del mismo mes insertan una marca de agua imperceptible en el texto que generan y adjuntan metadatos de procedencia firmados digitalmente (estándar C2PA) a los archivos que producen. El sistema se aplica de forma global —también fuera de la Unión Europea—, sin opción de rechazo, y está impulsado por la entrada en vigor del Artículo 50 del EU AI Act.</em></p>
+<h2>Por qué ahora: el Artículo 50 del EU AI Act</h2>
+<p>El detonante regulatorio es el <strong>Artículo 50 del Reglamento Europeo de Inteligencia Artificial (EU AI Act)</strong>, aplicable desde el <strong>2 de agosto de 2026</strong>. La norma obliga a los proveedores de IA generativa que operan en el mercado europeo a marcar las salidas generadas con señales legibles por máquina —marcas de agua de texto y credenciales de procedencia— para que plataformas, reguladores y usuarios puedan identificar el contenido producido por IA.</p>
+<p>Anthropic firmó en julio de 2026 el <em>Código de Prácticas sobre Transparencia de Contenido Generado por IA</em> de la Comisión Europea, junto a OpenAI, Google, Meta y Microsoft. El código ya cuenta con cerca de <strong>190 firmantes</strong> y otorga una presunción de cumplimiento del estándar del Artículo 50. Las multas por incumplimiento del régimen de etiquetado alcanzan hasta <strong>15 millones de euros o el 3% de la facturación global anual</strong>, lo que sea mayor.</p>
+<p>La empresa explicó que aplica el marcado <strong>a nivel mundial y desde el lanzamiento</strong> porque todavía no dispone de una forma duradera de limitarlo por región. Los modelos lanzados antes del 2 de agosto de 2026 gozan de un <strong>periodo de transición de cuatro meses</strong> y Anthropic trabaja para añadirles soporte de marcado en los próximos meses.</p>
+<h2>Qué cubre el marcado</h2>
+<p>El marcado se aplica a todos los modelos compatibles de Claude en todas las superficies: <strong>Claude Platform (API), Claude (chat), Claude Code, Claude Cowork y Claude Tag</strong>, así como los despliegues a través de AWS (Amazon Bedrock), Google Cloud (Vertex AI) y Microsoft Foundry. Al aplicarse "a nivel de modelo", la marca estará presente sin importar desde qué producto o superficie se genere el texto.</p>
+<h2>Cómo funciona la marca de agua de texto</h2>
+<p>En el artículo técnico publicado el 14 de agosto —<em>How Claude's text watermark works</em>— Anthropic detalló que su método es una versión del enfoque <strong>SynthID-Text</strong> desarrollado por Google DeepMind y publicado en la revista Nature en 2024, descendiente de una propuesta de Scott Aaronson de 2022. La idea central aprovecha cómo trabajan los modelos de lenguaje.</p>
+<p>Un gran modelo como Claude genera el texto palabra por palabra. En cada paso elige entre una lista de candidatos posibles, quedándose con la palabra más sensata o probable según el contexto. En la frase "El clima hoy estaba frío y…", la siguiente palabra difícilmente será "azucarado", pero puede ser "nublado" o "gris". En casos como este —decisiones de bajo riesgo donde ambas opciones son igualmente válidas— el modelo resuelve la elección con un número aleatorio.</p>
+<p>La marca de agua usa precisamente esas elecciones de bajo riesgo para dejar un patrón en la respuesta. El patrón es <strong>imperceptible para el lector</strong>, pero <strong>detectable para quien tenga la clave</strong> que lo codifica. Cuando el marcado está activo, las elecciones siguen siendo aleatorias, pero la <em>fuente</em> de la aleatoriedad cambia: en lugar de un generador arbitrario, se usa la clave y algunas palabras anteriores para decidir qué palabra elige el modelo. Si se conoce la secuencia de palabras y la clave, se puede calcular la probabilidad de que el texto haya sido generado por Claude.</p>
+<p>Anthropic insiste en lo que <strong>no</strong> hace la técnica:</p>
+<ul>
+<li><strong>No añade nada al texto ni esconde caracteres</strong>: no hay caracteres ocultos ni marcas visibles.</li>
+<li><strong>No requiere tokens extra ni encarece</strong>: la generación cuesta lo mismo.</li>
+<li><strong>No degrada la calidad ni la legibilidad</strong>: en pruebas internas no hallaron impacto en el contenido, la creatividad o la fluidez, y citan estudios de SynthID-Text sin diferencias estadísticamente significativas.</li>
+<li><strong>No contiene información identificativa</strong>: no puede rastrearse a una persona, organización ni conversación concreta.</li>
+</ul>
+<p>La analogía con el Monopoly que usa la empresa: si en lugar de un dado se usara un libro de dígitos del número pi para decidir cuántos pasos avanza cada jugador, los movimientos seguirían pareciendo aleatorios, pero cualquiera que conociera pi podría deducir después que el juego se resolvió con esa secuencia. Algo parecido ocurre con el texto "marcado" de Claude.</p>
+<h2>Dónde la marca es más tenue (y dónde desaparece)</h2>
+<p>No todo el texto generado lleva la misma cantidad de marca. Anthropic detalló las limitaciones:</p>
+<ul>
+<li><strong>Pasajes factuales:</strong> donde solo existe una respuesta correcta —por ejemplo "la obra más famosa de Isaac Newton fue Principia… Mathematica"— no hay elección real y la marca no tiene nada sobre lo que actuar.</li>
+<li><strong>Corrección de estilo:</strong> si Claude solo corrige gramática y puntuación de un texto humano, la marca solo puede vivir en la pequeña cantidad de correcciones, que pueden ser demasiado pocas para registrarse.</li>
+<li><strong>Código:</strong> como gran parte del código debe ser exacto para funcionar, tiene menos marcado que el texto; la marca se aprovecha sobre todo en comentarios y nombres donde hay elección arbitraria.</li>
+<li><strong>Pasajes cortos:</strong> la detección funciona mejor cuanto más largo es el texto; en muestras pequeñas hay menos decisiones y, por tanto, menos información.</li>
+<li><strong>Reescrituras completas:</strong> una edición ligera probablemente no elimina la marca del todo, pero reescribir cada palabra sí la elimina (aunque entonces, matiza Anthropic, es discutible que el texto siga siendo "generado por IA").</li>
+</ul>
+<p>La marca <strong>viaja con el texto al copiarlo y pegarlo</strong> —porque es parte del texto— y puede persistir tras ediciones ligeras. Las <strong>traducciones</strong> producidas por Claude también llevan marca, ya que en ese caso cada palabra la elige el modelo.</p>
+<h2>Archivos e imágenes: credenciales C2PA</h2>
+<p>Cuando Claude produce un archivo de un tipo compatible (por ejemplo .svg, .png o .jpg), adjunta una <strong>credencial de contenido</strong>: una nota pequeña y criptográficamente firmada en los metadatos del archivo que indica que fue creado o procesado con Claude. Se trata del estándar abierto <strong>C2PA</strong> (Coalition for Content Provenance and Authenticity), el mismo que usan fabricantes de cámaras y programas de edición de fotos para registrar el origen de una imagen, y que ya emplean Adobe, Google y OpenAI.</p>
+<p><strong>Nada cambia en el archivo en sí</strong>: la credencial no se incrusta ni se oculta en los píxeles; es un metadato que cualquier herramienta compatible con C2PA puede leer. Su punto débil es que puede desaparecer si el archivo pasa por una conversión de formato, se vuelve a guardar o se captura una captura de pantalla. Por eso Anthropic presenta ambas técnicas (marca de texto y metadatos) como complementarias y acepta que el sistema "no es perfecto": la ausencia de marca <strong>no</strong> prueba que el contenido sea humano.</p>
+<h2>La API de detección: anunciada, todavía no disponible</h2>
+<p>Anthropic anunció que próximamente ofrecerá una <strong>API de detección de marca de agua</strong> para comprobar si un texto o archivo fue procesado por Claude, y que publicará documentación técnica sobre su implementación. Hasta ese momento, la marca de agua de texto es comprobable únicamente por Anthropic, que posee la clave. La <strong>ausencia de esa API en el lanzamiento</strong> es una de las críticas más repetidas: sin detector público, el marcado no puede ser verificado de forma independiente por periodistas, plataformas ni reguladores.</p>
+<p>Anthropic aclara que una detección positiva solo indica que el contenido <em>pudo</em> ser procesado por Claude —no que Claude lo haya escrito entero, ni que una persona lo haya manipulado— y que la marca no puede distinguir "Claude escribió esto" de "Claude editó esto". Tampoco altera quién es el propietario legal del contenido ni las responsabilidades de autoría.</p>
+<h2>Planes de precios: el marcado no cuesta más</h2>
+<p>Anthropic fue enfática: <strong>el marcado no requiere tokens extra y no encarece el servicio</strong>. El precio de generación es idéntico. Los planes vigentes de Claude (verificados en su web a agosto de 2026) se mantienen sin cambios por esta medida:</p>
+<ul>
+<li><strong>Free:</strong> $0 — uso diario limitado.</li>
+<li><strong>Pro:</strong> $20/mes (o $200 al año, equivalente a $17/mes). Incluye Claude Code y Cowork.</li>
+<li><strong>Max 5x:</strong> $100/mes — cinco veces el uso de Pro.</li>
+<li><strong>Max 20x:</strong> $200/mes — veinte veces el uso de Pro, para uso intensivo.</li>
+<li><strong>Team:</strong> $25/asiento/mes ($20 con pago anual) en Standard y $125/asiento/mes ($100 anual) en Premium.</li>
+<li><strong>Enterprise:</strong> precio personalizado.</li>
+<li><strong>API</strong> (por millón de tokens de entrada/salida): Haiku $0,80/$4, Sonnet $3/$15, Opus $15/$75, Fable $10/$50.</li>
+</ul>
+<p>Para los desarrolladores, una implicación relevante: <strong>todas las respuestas nuevas de la API de Claude devuelven texto marcado, sin opción de exclusión</strong>, por lo que cualquier producto construido sobre Claude entrega a sus usuarios salidas que llevan la marca.</p>
+<h2>La controversia: expertos, usuarios y empresas</h2>
+<p>El anuncio generó un rechazo inmediato en X y Reddit. El periodista Eric Erickson resumió el malestar de los usuarios que usan Claude solo para corregir: "Había dejado Grammarly por Claude para corregir, porque lo hace mejor. Pero ahora mi trabajo quedará marcado como si Claude lo hubiera hecho. Es ridículo". Otros llamaron al marcado "una estupidez" y "enormemente problemático", y Aakash Gupta declaró el fin de "la era del texto de IA no demostrable".</p>
+<p>En Reddit, programadores pidieron que no se añadiera una "firma criptográfica" al código por temor a "degradar la salida", y estalló un debate sobre a quién corresponde el crédito del trabajo asistido por IA: si a la máquina que lo produce o a la persona que da las instrucciones. Algunos usuarios reportaron haber cancelado sus suscripciones.</p>
+<p>Los críticos señalaron además:</p>
+<ul>
+<li><strong>Falsos positivos:</strong> un texto escrito por una persona y pulido mínimamente por Claude podría dar positivo si se ejecuta contra la futura herramienta de detección, sin que se hayan publicado umbrales de precisión ni un procedimiento de disputa.</li>
+<li><strong>Rol de juez y parte:</strong> el inversor Bill Gurley cuestionó que si solo Anthropic puede leer la marca, se convierte en "juez, jurado y fiscal".</li>
+<li><strong>Privacidad:</strong> el exejecutivo de Microsoft Steven Sinofsky preguntó qué implican el marcado y el registro de marcas para el "derecho a pensamientos privados libres de rastro digital".</li>
+<li><strong>Sector legal:</strong> según Artificial Lawyer, cualquier documento producido con salidas de Claude quedará identificable como IA; si un despacho usa fragmentos con marca en contratos nuevos, la marca puede replicarse y un documento podría acumular marcas de varios modelos. La marca tampoco es garantía de exactitud: un error o alucinación puede convivir con ella.</li>
+</ul>
+<h2>Contexto de la industria</h2>
+<p>Google lleva desde 2023 marcando sus imágenes con SynthID y lo extendió a texto, audio y video; OpenAI usa marcas de agua invisibles en imágenes y, según The Wall Street Journal, <strong>tiene la tecnología para marcar el texto de ChatGPT desde hace años pero decidió no desplegarla</strong> por temor a falsos positivos, la facilidad de evasión y a perder usuarios frente a la competencia. xAI, de Elon Musk, no ha firmado el código de prácticas. Claude se convierte así en la primera gran empresa de IA en desplegar marcas de agua de texto de forma global y en producción.</p>
+<h2>Qué significa para los usuarios</h2>
+<p>Para la mayoría de los usuarios el cambio será imperceptible en el día a día: el texto tendrá el mismo aspecto, la misma calidad y el mismo costo. El impacto real aparecerá cuando alguien quiera demostrar (o cuestionar) la procedencia de un texto: desde académicos y periodistas que verifican la autoría hasta empresas que deben decidir si su contenido cumple con las obligaciones de transparencia del EU AI Act. La recomendación práctica de los analistas coincide: divulgar el uso de IA según las políticas de cada organización, porque la marca no sustituye el juicio humano ni las normas profesionales de divulgación.</p>
+<p><small>Con información de: <a href="https://www.anthropic.com/news/claude-text-watermark">Anthropic</a>, <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Centro de ayuda de Claude</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images">The Verge</a>, <a href="https://www.forbes.com/sites/anishasircar/2026/08/13/claude-will-now-leave-a-watermark-on-everything-it-writes-what-does-that-mean/">Forbes</a>, <a href="https://www.artificiallawyer.com/2026/08/17/claudes-watermarks-and-their-legal-sector-impact/">Artificial Lawyer</a> y <a href="https://wwwhatsnew.com/2026/08/15/claude-marca-agua-texto-invisible-eu-ai-act-agosto-2026/">WWWhatsNew</a>.</small></p>`,
+        contentEn: `<h1>Claude will invisibly watermark every text and file it generates: how Anthropic\'s system works</h1>
+<p><em>On August 11, 2026, Anthropic confirmed that all Claude models launched on or after August 2 weave an imperceptible watermark into the text they generate and attach digitally signed provenance metadata (C2PA standard) to the files they produce. The system is applied globally —including outside the European Union— with no opt-out, and is driven by the entry into force of Article 50 of the EU AI Act.</em></p>
+<h2>Why now: Article 50 of the EU AI Act</h2>
+<p>The regulatory trigger is <strong>Article 50 of the European Union\'s AI Act</strong>, enforceable since <strong>August 2, 2026</strong>. It requires generative AI providers serving the European market to mark their output with machine-readable signals —text watermarks and provenance credentials— so platforms, regulators and users can identify AI-generated content.</p>
+<p>In July 2026, Anthropic signed the European Commission\'s <em>Code of Practice on Transparency of AI-Generated Content</em>, alongside OpenAI, Google, Meta and Microsoft. The code already counts nearly <strong>190 signatories</strong> and confers a presumption of meeting the Article 50 standard. Fines for non-compliance with the labeling regime reach up to <strong>€15 million or 3% of a company\'s total worldwide annual turnover</strong>, whichever is higher.</p>
+<p>The company said it applies the marking <strong>worldwide and at launch</strong> because it does not yet have a durable way to scope it by region. Models launched before August 2, 2026 benefit from a <strong>four-month compliance grace period</strong>, and Anthropic is working to add marking support for them over the coming months.</p>
+<h2>What the marking covers</h2>
+<p>The marking applies to all supported Claude models across every surface: <strong>Claude Platform (API), Claude (chat), Claude Code, Claude Cowork and Claude Tag</strong>, as well as deployments through AWS (Amazon Bedrock), Google Cloud (Vertex AI) and Microsoft Foundry. Because it is applied "at the model level," the watermark is present no matter which Claude product or surface the text comes from.</p>
+<h2>How the text watermark works</h2>
+<p>In its technical article published August 14 —<em>How Claude\'s text watermark works</em>— Anthropic detailed that its method is a version of the <strong>SynthID-Text</strong> approach developed by Google DeepMind and published in Nature in 2024, following a proposal by Scott Aaronson from 2022. The core idea exploits how language models work.</p>
+<p>A large model like Claude generates text one word at a time. At each step it chooses among a list of candidate words, selecting the most sensible or likely given the preceding text. In the sentence "The weather today was cold and…", the next word is very unlikely to be "sugary" but may well be "overcast" or "grey." In such cases —low-stakes decisions where either option is equally good— the model settles the choice with a random number.</p>
+<p>The watermark uses precisely those low-stakes choices to leave a pattern in the response. The pattern is <strong>invisible to the reader</strong> but <strong>detectable to anyone holding the key</strong> that encodes it. When marking is active, choices remain random, but the <em>source</em> of randomness changes: instead of an arbitrary generator, the watermark uses the key and a few preceding words to decide which word the model picks. Given the word sequence and the key, one can compute the likelihood that Claude generated the text.</p>
+<p>Anthropic stresses what the technique does <strong>not</strong> do:</p>
+<ul>
+<li><strong>Nothing is added to the text and there are no hidden characters</strong>.</li>
+<li><strong>It requires no extra tokens and is not more expensive</strong>.</li>
+<li><strong>It does not degrade quality or readability</strong>: internal tests found no impact and the company cites SynthID-Text studies with no statistically significant differences.</li>
+<li><strong>It carries no identifying information</strong>: it cannot be traced to a specific person, organization or chat.</li>
+</ul>
+<p>The company\'s Monopoly analogy: if, instead of rolling dice, players used a book of the digits of pi to decide how many spaces to move, the moves would still look random —but anyone who knew pi could later work out the game was resolved with that sequence. Something similar happens with Claude\'s "watermarked" text.</p>
+<h2>Where the mark is weaker (and where it disappears)</h2>
+<p>Not all generated text carries the same amount of watermark. Anthropic detailed the limitations:</p>
+<ul>
+<li><strong>Factual passages:</strong> where only one answer is correct —e.g. "Isaac Newton\'s most famous work was Principia… Mathematica"— there is no real choice and the watermark has nothing to act on.</li>
+<li><strong>Proofreading:</strong> if Claude only fixes grammar and punctuation in human writing, the mark can only live in the handful of corrections, which may be too few to register.</li>
+<li><strong>Code:</strong> since much code must be exact to run, it carries less watermarking than other text; the mark mostly appears in comments and names where there is an arbitrary choice.</li>
+<li><strong>Short passages:</strong> detection works better with longer text; small samples offer fewer choices and less information.</li>
+<li><strong>Full rewrites:</strong> light editing probably will not remove the mark entirely, but rewriting every word will (though Anthropic notes it is then arguable whether the text can still be called AI-generated).</li>
+</ul>
+<p>The mark <strong>travels with the text when copied and pasted</strong> —because it is part of the text— and may persist through some editing. <strong>Translations</strong> produced by Claude also carry the mark, since in that case every word is chosen by the model.</p>
+<h2>Files and images: C2PA credentials</h2>
+<p>When Claude produces a supported file type (e.g. .svg, .png or .jpg), it attaches a <strong>content credential</strong>: a small, cryptographically signed note in the file\'s metadata stating the file was created or processed with Claude. This follows the open <strong>C2PA</strong> standard (Coalition for Content Provenance and Authenticity) —the same one used by camera manufacturers and photo-editing software to record an image\'s origin, and already adopted by Adobe, Google and OpenAI.</p>
+<p><strong>Nothing in the file changes</strong>: the credential is not embedded or hidden in the pixels; it is metadata any C2PA-aware tool can read. Its weakness is that it can be stripped if the file is converted to another format, re-saved, or captured in a screenshot. Anthropic therefore presents both techniques (text watermark and metadata) as complementary and acknowledges the system "is not perfect": the absence of a mark does <strong>not</strong> prove content is human.</p>
+<h2>The detection API: announced, not yet available</h2>
+<p>Anthropic said it will soon offer a <strong>watermark detection API</strong> to check whether a piece of text or a file was processed by Claude, and will publish technical documentation on its implementation. Until then, the text watermark can only be verified by Anthropic itself, which holds the key. The <strong>absence of that API at launch</strong> is one of the most repeated criticisms: without a public detector, the marking cannot be independently verified by journalists, platforms or regulators.</p>
+<p>Anthropic clarifies that a positive detection only shows the content <em>may</em> have been processed by Claude —not that Claude wrote it entirely, nor that a human has not touched it— and that the watermark cannot distinguish "Claude wrote this" from "Claude heavily edited this." It also does not change who legally owns the content or authorship responsibilities.</p>
+<h2>Pricing: the marking costs nothing extra</h2>
+<p>Anthropic was explicit: <strong>the watermark does not require extra tokens and does not make the service more expensive</strong>. Generation costs the same. Claude\'s current plans (verified on its website as of August 2026) remain unchanged because of this measure:</p>
+<ul>
+<li><strong>Free:</strong> $0 — limited daily use.</li>
+<li><strong>Pro:</strong> $20/month (or $200/year, about $17/month). Includes Claude Code and Cowork.</li>
+<li><strong>Max 5x:</strong> $100/month — five times Pro\'s usage.</li>
+<li><strong>Max 20x:</strong> $200/month — twenty times Pro\'s usage, for power users.</li>
+<li><strong>Team:</strong> $25/seat/month ($20 with annual billing) Standard and $125/seat/month ($100 annual) Premium.</li>
+<li><strong>Enterprise:</strong> custom pricing.</li>
+<li><strong>API</strong> (per million input/output tokens): Haiku $0.80/$4, Sonnet $3/$15, Opus $15/$75, Fable $10/$50.</li>
+</ul>
+<p>For developers, a key implication: <strong>all new Claude API responses return watermarked text, with no opt-out</strong>, so any product built on Claude delivers marked output to its users.</p>
+<h2>The backlash: experts, users and companies</h2>
+<p>The announcement drew immediate pushback on X and Reddit. Journalist Eric Erickson captured the frustration of users who rely on Claude only for proofreading: "I had ditched Grammarly for Claude for proofreading because it does a better job. But now the stuff I\'ve written will be watermarked that Claude did the work. This is ridiculous." Others called the marking "bulls—" and "hugely problematic," and Aakash Gupta declared the end of "the era of unprovable AI writing."</p>
+<p>On Reddit, developers worried that adding a "cryptographic signature" to code would "degrade the output," and a lively debate erupted over who deserves credit for AI-assisted work: the machine that produces it or the human giving instructions. Some users reported cancelling their subscriptions.</p>
+<p>Critics also highlighted:</p>
+<ul>
+<li><strong>False positives:</strong> text written by a person and lightly polished by Claude could return a positive detection against the future tool, with no accuracy thresholds or dispute procedure published.</li>
+<li><strong>Judge and jury:</strong> investor Bill Gurley questioned whether, if only Anthropic can read the mark, it becomes "judge, jury and prosecutor."</li>
+<li><strong>Privacy:</strong> former Microsoft executive Steven Sinofsky asked what marking and mark logs imply for the "right to private thoughts free of a digital trail."</li>
+<li><strong>Legal sector:</strong> according to Artificial Lawyer, any document produced with Claude outputs becomes identifiable as AI; if a firm reuses marked snippets in new contracts, the mark can replicate, and one document could accumulate watermarks from several models. The watermark is also no guarantee of accuracy: an error or hallucination can coexist with it.</li>
+</ul>
+<h2>Industry context</h2>
+<p>Google has been watermarking its AI-generated images since 2023 with SynthID, later extending to text, audio and video. OpenAI uses invisible watermarks on images and, according to The Wall Street Journal, <strong>has had the technology to watermark ChatGPT text for years but chose not to deploy it</strong> over concerns about false positives, easy circumvention and losing users to competitors. Elon Musk\'s xAI has not signed the code of practice. Claude thereby becomes the first major AI company to deploy text watermarks globally and in production.</p>
+<h2>What it means for users</h2>
+<p>For most users the change will be imperceptible day to day: text will look the same, read the same and cost the same. The real impact will appear whenever someone wants to prove —or question— the provenance of a text: from academics and journalists verifying authorship to companies deciding whether their content complies with EU AI Act transparency obligations. The practical advice from analysts is consistent: disclose AI use according to each organization\'s policies, because the watermark does not replace human judgment or professional disclosure rules.</p>
+<p><small>Sources: <a href="https://www.anthropic.com/news/claude-text-watermark">Anthropic</a>, <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Claude Help Center</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images">The Verge</a>, <a href="https://www.forbes.com/sites/anishasircar/2026/08/13/claude-will-now-leave-a-watermark-on-everything-it-writes-what-does-that-mean/">Forbes</a>, <a href="https://www.artificiallawyer.com/2026/08/17/claudes-watermarks-and-their-legal-sector-impact/">Artificial Lawyer</a> and <a href="https://wwwhatsnew.com/2026/08/15/claude-marca-agua-texto-invisible-eu-ai-act-agosto-2026/">WWWhatsNew</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '12 min de lectura',
+        readTimeEn: '10 min read',
+        imageUrl: '/images/blog/marca-agua-claude/portada-watermark.jpg',
+        imageCaption: 'La marca de agua de texto de Claude es imperceptible para el lector pero detectable con la clave de Anthropic. Ilustración: WWWhatsNew',
+        categoryEs: 'Especial',
+        categoryEn: 'Special',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        images: [
+          '/images/blog/marca-agua-claude/portada-watermark.jpg',
+          '/images/blog/marca-agua-claude/watermark-diagram.svg'
+        ],
+        location: 'Global',
+        source: 'Anthropic / The Verge / Forbes',
+        region: 'International',
+        sourceUrl: 'https://www.anthropic.com/news/claude-text-watermark'
+      },
       // FIN DE NOTICIAS
     ];
 

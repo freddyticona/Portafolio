@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Claude marcará con agua invisible cada texto y archivo que genere: así funciona el sistema de Anthropic</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/especial-repercusiones-internacionales-caso-beller-cerimedo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -154,132 +168,6 @@
       <news:publication_date>2026-08-19</news:publication_date>
       <news:title>Tiroteo en un concierto al aire libre en Lexington deja un muerto y cuatro heridos, entre ellos dos niños</news:title>
       <news:keywords>EE.UU.</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/reportaje-especial-nadia-beller-cerimedo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>“Si no fingía estar muerta, me remataban”: Nadia Beller sobrevivió a cuatro balazos y destapó el entramado que sacude al Gobierno</news:title>
-      <news:keywords>Reportaje</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/eeuu-descarta-prorrogar-alto-fuego-iran</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>Estados Unidos descarta prorrogar el alto el fuego con Irán y Teherán amenaza con una ofensiva</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/muerte-hayden-panettiere-autopsia-sin-trauma</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>Muerte de Hayden Panettiere: la autopsia no halló signos de trauma y se desconoce la causa</news:title>
-      <news:keywords>Espectáculos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/suprema-eeuu-rechaza-recurso-trump-carroll</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>La Corte Suprema de EE.UU. rechaza por segunda vez el recurso de Trump en el caso Carroll</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/eeuu-sanciona-cpi-rubio-desmantelar</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>EE.UU. sanciona al presidente y a un fiscal de la CPI y Rubio promete &quot;desmantelar&quot; la corte</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/primarias-alaska-sullivan-peltola-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>Alaska celebra hoy sus primarias con un duelo clave entre Sullivan y Peltola que puede decidir el Senado</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/juicio-federal-meta-seguridad-infantil-oakland</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>Empieza en Oakland el juicio federal contra Meta por la seguridad de menores en sus plataformas</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/archivos-fbi-swalwell-fang-fang-china</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>Archivos del FBI desclasificados revelan la relación de Swalwell con una supuesta operativa china</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/frank-beard-baterista-zz-top-fallece</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18</news:publication_date>
-      <news:title>Fallece Frank Beard, baterista de ZZ Top, a los 77 años</news:title>
-      <news:keywords>Espectáculos</news:keywords>
     </news:news>
   </url>
 </urlset>
