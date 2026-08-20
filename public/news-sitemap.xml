@@ -17,6 +17,76 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/emiratos-suspende-comercio-iran-estrecho-hormuz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Emiratos Árabes suspende todo el comercio y las transacciones financieras con Irán</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/corea-del-norte-lanza-misiles-agosto-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Corea del Norte lanza una decena de misiles al mar, horas después del plan de Trump de reunirse con Kim</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/israel-admite-que-sus-fuerzas-dispararon-contra-el-auto-de-hind-rajab</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Israel admite por primera vez que sus fuerzas dispararon contra el auto de Hind Rajab, la niña de 5 años, y abre una investigación</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/harry-meghan-regresan-reino-unido</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Príncipe Harry y Meghan se mudarán al Reino Unido este mes e inscribirán a sus hijos en escuelas británicas</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ebola-supera-los-5000-casos-congo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Ébola en República Democrática del Congo: el brote supera los 5.000 casos confirmados</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/especial-repercusiones-internacionales-caso-beller-cerimedo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -168,6 +238,76 @@
       <news:publication_date>2026-08-19</news:publication_date>
       <news:title>Tiroteo en un concierto al aire libre en Lexington deja un muerto y cuatro heridos, entre ellos dos niños</news:title>
       <news:keywords>EE.UU.</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/colapso-mina-oro-republica-centroafricana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Al menos 30 muertos por el colapso de una mina de oro en República Centroafricana</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/pakistan-convoca-a-eeuu-por-declaraciones-sobre-cachemira</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Pakistán convoca al diplomático de EE.UU. por declaraciones de su embajador sobre Cachemira</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ee-uu-sanciona-al-presidente-de-la-cpi-y-a-un-fiscal-senior</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>EE.UU. impone sanciones al presidente de la Corte Penal Internacional y a un fiscal senior que investigó a Israel</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/juez-federal-revoca-tps-para-mas-de-5000-etíopes</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Un juez federal revoca el estatus de protección temporal (TPS) para más de 5.000 inmigrantes etíopes</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ee-uu-canada-aplazan-aranceles-ultima-hora</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>EE.UU. y Canadá alcanzan un acuerdo de última hora para aplazar los aranceles del 50%</news:title>
+      <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
 </urlset>

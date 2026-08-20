@@ -9,12 +9,47 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Thu, 20 Aug 2026 13:53:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 14:34:34 GMT</lastBuildDate>
     <item>
       <title><![CDATA[Claude marcará de forma invisible cada texto y archivo que genere: así funciona la marca de agua de Anthropic]]></title>
       <link>https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</link>
       <guid isPermaLink="true">https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</guid>
       <description><![CDATA[Desde el 2 de agosto, los modelos de Claude lanzados tejen una marca de agua imperceptible en el texto que generan y firman sus archivos con metadatos C2PA. Repasamos la técnica oficial (SynthID-Text), el Artículo 50 del EU AI Act, los planes de precios —que no cambian— y la controversia entre expertos, abogados y empresas.]]></description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Emiratos Árabes suspende todo el comercio y las transacciones financieras con Irán]]></title>
+      <link>https://freddydev.net/noticias/emiratos-suspende-comercio-iran-estrecho-hormuz</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/emiratos-suspende-comercio-iran-estrecho-hormuz</guid>
+      <description><![CDATA[La medida se adoptó tras el lanzamiento de misiles hacia aguas emiratíes en plena escalada por el estrecho de Ormuz. Teherán descarta las amenazas económicas de Estados Unidos.]]></description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Corea del Norte lanza una decena de misiles al mar, horas después del plan de Trump de reunirse con Kim]]></title>
+      <link>https://freddydev.net/noticias/corea-del-norte-lanza-misiles-agosto-2026</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/corea-del-norte-lanza-misiles-agosto-2026</guid>
+      <description><![CDATA[Seúl detectó alrededor de 10 misiles balísticos de corto alcance lanzados desde la zona de Pionyang hacia el mar de Japón, un día después de que el Norte desdeñara la reducción de las maniobras militares conjuntas.]]></description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Israel admite por primera vez que sus fuerzas dispararon contra el auto de Hind Rajab, la niña de 5 años, y abre una investigación]]></title>
+      <link>https://freddydev.net/noticias/israel-admite-que-sus-fuerzas-dispararon-contra-el-auto-de-hind-rajab</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/israel-admite-que-sus-fuerzas-dispararon-contra-el-auto-de-hind-rajab</guid>
+      <description><![CDATA[El Ejército israelí reconoció que sus tropas estuvieron implicadas en el ataque al automóvil donde murió Hind Rajab en Gaza y anunció investigaciones penales sobre su muerte.]]></description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Príncipe Harry y Meghan se mudarán al Reino Unido este mes e inscribirán a sus hijos en escuelas británicas]]></title>
+      <link>https://freddydev.net/noticias/harry-meghan-regresan-reino-unido</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/harry-meghan-regresan-reino-unido</guid>
+      <description><![CDATA[Según reportes publicados este jueves, la pareja planea trasladarse a una residencia privada a las afueras de Londres e inscribir a Archie y Lilibet en escuelas británicas para el próximo periodo lectivo.]]></description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ébola en República Democrática del Congo: el brote supera los 5.000 casos confirmados]]></title>
+      <link>https://freddydev.net/noticias/ebola-supera-los-5000-casos-congo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/ebola-supera-los-5000-casos-congo</guid>
+      <description><![CDATA[La epidemia de ébola por virus Bundibugyo suma 5.021 casos confirmados y 2.378 muertes en el Congo, con 20 casos en Uganda. La OMS teme que sea la más letal jamás registrada.]]></description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -92,6 +127,41 @@
       <link>https://freddydev.net/noticias/tiroteo-concierto-parque-charles-young-lexington</link>
       <guid isPermaLink="true">https://freddydev.net/noticias/tiroteo-concierto-parque-charles-young-lexington</guid>
       <description><![CDATA[Una balacera durante el evento East End Day en el parque Charles Young de Lexington, Kentucky, dejó un adolescente muerto y cuatro heridos, incluidos menores de 14 y 4 años. La policía detuvo a un sospechoso de 18 años.]]></description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Al menos 30 muertos por el colapso de una mina de oro en República Centroafricana]]></title>
+      <link>https://freddydev.net/noticias/colapso-mina-oro-republica-centroafricana</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/colapso-mina-oro-republica-centroafricana</guid>
+      <description><![CDATA[El derrumbe de una mina artesanal de oro dejó al menos 30 mineros fallecidos. Las labores de rescate continúan con pocas esperanzas de hallar sobrevivientes.]]></description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Pakistán convoca al diplomático de EE.UU. por declaraciones de su embajador sobre Cachemira]]></title>
+      <link>https://freddydev.net/noticias/pakistan-convoca-a-eeuu-por-declaraciones-sobre-cachemira</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/pakistan-convoca-a-eeuu-por-declaraciones-sobre-cachemira</guid>
+      <description><![CDATA[Islamabad protestó formalmente por las declaraciones del embajador estadounidense Sergio Gor en Srinagar, que calificaron a Cachemira como "parte importante de la India".]]></description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[EE.UU. impone sanciones al presidente de la Corte Penal Internacional y a un fiscal senior que investigó a Israel]]></title>
+      <link>https://freddydev.net/noticias/ee-uu-sanciona-al-presidente-de-la-cpi-y-a-un-fiscal-senior</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/ee-uu-sanciona-al-presidente-de-la-cpi-y-a-un-fiscal-senior</guid>
+      <description><![CDATA[El Departamento de Estado congeló activos del presidente de la CPI, Tomoko Akane, y del abogado Abdoulaye Seye, parte del equipo que pidió una orden de detención contra Netanyahu.]]></description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Un juez federal revoca el estatus de protección temporal (TPS) para más de 5.000 inmigrantes etíopes]]></title>
+      <link>https://freddydev.net/noticias/juez-federal-revoca-tps-para-mas-de-5000-etíopes</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/juez-federal-revoca-tps-para-mas-de-5000-etíopes</guid>
+      <description><![CDATA[El fallo del juez Brian Murphy levanta el último bloqueo legal para que el gobierno de Trump cancele el TPS país por país. La protección ya terminó para haitianos y sirios.]]></description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[EE.UU. y Canadá alcanzan un acuerdo de última hora para aplazar los aranceles del 50%]]></title>
+      <link>https://freddydev.net/noticias/ee-uu-canada-aplazan-aranceles-ultima-hora</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/ee-uu-canada-aplazan-aranceles-ultima-hora</guid>
+      <description><![CDATA[Trump anunció el retraso de los aranceles a importaciones canadienses por valor de 20.000 millones de dólares, a menos de dos horas de que entraran en vigor.]]></description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>

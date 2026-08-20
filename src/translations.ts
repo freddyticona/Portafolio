@@ -20283,6 +20283,352 @@ titleEs: 'Claude marcará de forma invisible cada texto y archivo que genere: as
         region: 'International',
         sourceUrl: 'https://www.anthropic.com/news/claude-text-watermark'
       },
+      {
+        id: '1032',
+        contentType: 'news',
+        slug: 'emiratos-suspende-comercio-iran-estrecho-hormuz',
+        titleEs: 'Emiratos Árabes suspende todo el comercio y las transacciones financieras con Irán',
+        titleEn: 'UAE suspends all trade and financial transactions with Iran',
+        excerptEs: 'La medida se adoptó tras el lanzamiento de misiles hacia aguas emiratíes en plena escalada por el estrecho de Ormuz. Teherán descarta las amenazas económicas de Estados Unidos.',
+        excerptEn: 'The measure came after missiles were fired toward Emirati waters amid the escalation over the Strait of Hormuz. Tehran dismisses US economic threats.',
+        contentEs: `<h1>Emiratos Árabes suspende todo el comercio y las transacciones financieras con Irán</h1>
+<p><em>Los Emiratos Árabes Unidos (EAU) suspendieron el 20 de agosto todas las transacciones comerciales y financieras con Irán, en una nueva escalada regional que mantiene alterado el estrecho de Ormuz, por donde transita gran parte del petróleo mundial.</em></p>
+<p>De acuerdo con lo informado por CNN y agencias de noticias emiratíes, la decisión se tomó después de que las defensas aéreas de EAU rastrearan dos misiles balísticos lanzados desde territorio iraní; ambos cayeron al mar, el segundo dentro de aguas emiratíes. Irán negó haber apuntado intencionalmente contra el territorio de EAU con sus misiles.</p>
+<p>La suspensión se produce en pleno pulso entre Washington y Teherán. El presidente de Estados Unidos, Donald Trump, aseguró que la situación con Irán está "muy bien", mientras las conversaciones siguen estancadas y el tránsito por el estrecho de Ormuz permanece severamente afectado: cerca del 80% de los buques prefiere ahora la ruta omaní autorizada por la ONU para evitar los peajes que intenta cobrar Teherán.</p>
+<h2>Impacto global</h2>
+<p>Analistas citados por agencias internacionales advierten que, si la crisis se prolonga, los precios del petróleo se mantendrán elevados. Irán, a través del canciller Abbas Araghchi, afirmó que Estados Unidos "está suplicando" negociar, mientras las potencias regionales buscan mediar para reanudar el diálogo antes del vencimiento de un memorando de entendimiento pactado en junio.</p>
+<p><small>Con información de: <a href="https://www.cnn.com/2026/08/19/world/live-news/iran-war-trump">CNN</a>, <a href="https://www.livemint.com/news/world/usiran-tensions-escalate-trump-rules-out-talks-uae-halts-iran-trade-tehran-warns-gulf-allies-latest-developments-11787150365510.html">Livemint</a> y <a href="https://www.usnews.com/news/world/articles/2026-08-20/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east">Associated Press</a>.</small></p>`,
+        contentEn: `<h1>UAE suspends all trade and financial transactions with Iran</h1>
+<p><em>The United Arab Emirates suspended all commercial and financial transactions with Iran on August 20, a new regional escalation that keeps the Strait of Hormuz —through which much of the world\'s oil transits— disrupted.</em></p>
+<p>According to reports from CNN and Emirati news agencies, the decision came after UAE air defenses tracked two ballistic missiles fired from Iranian territory; both fell into the sea, the second inside Emirati waters. Iran denied intentionally targeting UAE territory with its missiles.</p>
+<p>The suspension comes amid the standoff between Washington and Tehran. US President Donald Trump said the situation with Iran is "so good," while talks remain stalled and shipping through the Strait of Hormuz stays severely disrupted: about 80% of vessels now prefer the UN-authorized Omani route to avoid tolls Tehran is trying to collect.</p>
+<p><small>Sources: <a href="https://www.cnn.com/2026/08/19/world/live-news/iran-war-trump">CNN</a>, <a href="https://www.livemint.com/news/world/usiran-tensions-escalate-trump-rules-out-talks-uae-halts-iran-trade-tehran-warns-gulf-allies-latest-developments-11787150365510.html">Livemint</a> and <a href="https://www.usnews.com/news/world/articles/2026-08-20/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east">Associated Press</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-20-iran-uae.jpg',
+        imageCaption: 'El estrecho de Ormuz, punto crítico del comercio energético mundial. Fuente: Democracy Now',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Oriente Medio',
+        source: 'CNN / Livemint / AP',
+        region: 'International',
+        sourceUrl: 'https://www.cnn.com/2026/08/19/world/live-news/iran-war-trump'
+      },
+      {
+        id: '1033',
+        contentType: 'news',
+        slug: 'corea-del-norte-lanza-misiles-agosto-2026',
+        titleEs: 'Corea del Norte lanza una decena de misiles al mar, horas después del plan de Trump de reunirse con Kim',
+        titleEn: 'North Korea fires a barrage of missiles toward the sea hours after Trump says he plans to meet Kim',
+        excerptEs: 'Seúl detectó alrededor de 10 misiles balísticos de corto alcance lanzados desde la zona de Pionyang hacia el mar de Japón, un día después de que el Norte desdeñara la reducción de las maniobras militares conjuntas.',
+        excerptEn: 'Seoul detected around 10 short-range ballistic missiles fired from the Pyongyang area toward the Sea of Japan, a day after the North dismissed the scaling back of joint military drills.',
+        contentEs: `<h1>Corea del Norte lanza una decena de misiles al mar, horas después del plan de Trump de reunirse con Kim</h1>
+<p><em>Corea del Norte lanzó el jueves 20 de agosto alrededor de 10 misiles balísticos de corto alcance hacia el mar, según informó el Ejército surcoreano, apenas horas después de que el presidente de Estados Unidos, Donald Trump, anunciara su intención de reunirse con Kim Jong-un.</em></p>
+<p>El Estado Mayor Conjunto de Corea del Sur detectó la salva desde la zona de Pionyang en dirección al mar de Japón (mar del Este). El gabinete del primer ministro japonés confirmó haber detectado el lanzamiento, señalándolo como un posible misil balístico.</p>
+<p>El lanzamiento ocurre un día después de que Corea del Norte desdeñara la decisión de Washington y Seúl de reducir los ejercicios conjuntos Ulchi Freedom Shield, de 11 días. Trump había ordenado "reducir sustancialmente" las maniobras citando su "gran relación" con Kim y la negativa de Corea del Sur a apoyar su política hacia Irán.</p>
+<p>Kim Yo Jong, influyente hermana del líder norcoreano, calificó el gesto estadounidense como "indigno de comentario" y advirtió que "la naturaleza provocadora y agresiva de los ejercicios no cambiará aunque reduzcan su duración y tamaño". También citó las maniobras previas de este año y el impulso de Seúl por incorporar submarinos de propulsión nuclear.</p>
+<p><small>Con información de: <a href="https://apnews.com">Associated Press</a> y <a href="https://www.japantimes.co.jp/news/2026/08/20/asia-pacific/north-korea-missile-august-20/">The Japan Times</a>.</small></p>`,
+        contentEn: `<h1>North Korea fires a barrage of missiles toward the sea hours after Trump says he plans to meet Kim</h1>
+<p><em>North Korea launched around 10 short-range ballistic missiles toward the sea on Thursday, August 20, according to South Korea\'s military, just hours after US President Donald Trump announced his intention to meet Kim Jong Un.</em></p>
+<p>Seoul\'s Joint Chiefs of Staff detected the barrage from the Pyongyang area toward the Sea of Japan (East Sea). Japan\'s prime minister\'s office confirmed detecting the launch and described it as a suspected ballistic missile.</p>
+<p>The launch comes a day after North Korea dismissed the decision by Washington and Seoul to scale back the 11-day Ulchi Freedom Shield exercises. Trump had ordered the Pentagon to "substantially reduce" the drills, citing his "great relationship" with Kim and South Korea\'s refusal to support his Iran policy.</p>
+<p>Kim Yo Jong, the influential sister of North Korean leader Kim Jong Un, called the US overture "not worth commenting on" and warned that "the provocative, aggressive nature of the drills won\'t change even though their duration and size were reduced." She also cited earlier drills this year and Seoul\'s push to introduce nuclear-powered submarines.</p>
+<p><small>Sources: <a href="https://apnews.com">Associated Press</a> and <a href="https://www.japantimes.co.jp/news/2026/08/20/asia-pacific/north-korea-missile-august-20/">The Japan Times</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-20-norcorea-misiles.jpg',
+        imageCaption: 'Soldados de EE.UU. en un ejercicio junto a la frontera con Corea del Norte, 20 de agosto de 2026. Foto: AP',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Corea del Norte / Corea del Sur',
+        source: 'AP / The Japan Times',
+        region: 'International',
+        sourceUrl: 'https://www.npr.org/2026/08/20/g-s1-139381/north-korea-suspected-missile'
+      },
+      {
+        id: '1034',
+        contentType: 'news',
+        slug: 'israel-admite-que-sus-fuerzas-dispararon-contra-el-auto-de-hind-rajab',
+        titleEs: 'Israel admite por primera vez que sus fuerzas dispararon contra el auto de Hind Rajab, la niña de 5 años, y abre una investigación',
+        titleEn: 'Israel admits for the first time its forces fired on 5-year-old Hind Rajab\'s car and orders a probe',
+        excerptEs: 'El Ejército israelí reconoció que sus tropas estuvieron implicadas en el ataque al automóvil donde murió Hind Rajab en Gaza y anunció investigaciones penales sobre su muerte.',
+        excerptEn: 'The Israeli military admitted its troops were involved in the attack on the car where Hind Rajab died in Gaza and announced criminal probes into her killing.',
+        contentEs: `<h1>Israel admite por primera vez que sus fuerzas dispararon contra el auto de Hind Rajab, la niña de 5 años, y abre una investigación</h1>
+<p><em>El Ejército israelí admitió por primera vez que sus fuerzas dispararon contra el automóvil en el que viajaba Hind Rajab, de cinco años, y ordenó investigaciones penales sobre su muerte, según confirmaron fuentes militares citadas por agencias internacionales.</em></p>
+<p>El cuerpo de la menor fue hallado en un coche acribillado a balazos en la ciudad de Gaza días después de su última llamada, el 29 de enero de 2024, una desesperada conversación de horas con la Media Luna Roja Palestina en la que pedía que rescataran a su familia. Hasta ahora, el Ejército israelí había negado que sus tropas estuvieran presentes cerca del lugar del incidente.</p>
+<p>El anuncio, recogido por The Associated Press y la cadena NPR, se suma al creciente escrutinio internacional sobre las bajas civiles en Gaza. Organismos de derechos humanos documentaron decenas de casos similares de niños y civiles atrapados en ataques durante la guerra.</p>
+<p><small>Con información de: <a href="https://www.livemint.com/news/world/hind-rajab-killing-israel-admits-for-first-time-idf-fired-on-5-year-old-s-car-in-gaza-orders-probe-netanyayu-palestine-11787153597368.html">Livemint / AP</a> y <a href="https://www.npr.org/sections/world">NPR</a>.</small></p>`,
+        contentEn: `<h1>Israel admits for the first time its forces fired on 5-year-old Hind Rajab\'s car and orders a probe</h1>
+<p><em>Israel\'s military admitted for the first time that its forces fired on the car in which five-year-old Hind Rajab was traveling and ordered criminal probes into her death, military sources cited by international agencies confirmed.</em></p>
+<p>The girl\'s body was found in a bullet-riddled car in Gaza City days after her last call, on January 29, 2024 —a desperate, hours-long conversation with the Palestinian Red Crescent in which she begged for her family to be rescued. Until now, the Israeli military had denied that its troops were present near the site of the incident.</p>
+<p>The announcement, reported by The Associated Press and NPR, adds to growing international scrutiny of civilian casualties in Gaza. Human rights groups have documented dozens of similar cases of children and civilians trapped in attacks during the war.</p>
+<p><small>Sources: <a href="https://www.livemint.com/news/world/hind-rajab-killing-israel-admits-for-first-time-idf-fired-on-5-year-old-s-car-in-gaza-orders-probe-netanyayu-palestine-11787153597368.html">Livemint / AP</a> and <a href="https://www.npr.org/sections/world">NPR</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-20-hind-rajab.jpg',
+        imageCaption: 'Gaza. Foto: AP / Livemint',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Gaza',
+        source: 'AP / NPR',
+        region: 'International',
+        sourceUrl: 'https://www.npr.org/2026/08/20/g-s1-139381/north-korea-suspected-missile'
+      },
+      {
+        id: '1035',
+        contentType: 'news',
+        slug: 'colapso-mina-oro-republica-centroafricana',
+        titleEs: 'Al menos 30 muertos por el colapso de una mina de oro en República Centroafricana',
+        titleEn: 'At least 30 killed in a gold mine collapse in the Central African Republic',
+        excerptEs: 'El derrumbe de una mina artesanal de oro dejó al menos 30 mineros fallecidos. Las labores de rescate continúan con pocas esperanzas de hallar sobrevivientes.',
+        excerptEn: 'The collapse of an artisanal gold mine killed at least 30 miners. Rescue efforts continue with little hope of finding survivors.',
+        contentEs: `<h1>Al menos 30 muertos por el colapso de una mina de oro en República Centroafricana</h1>
+<p><em>El colapso de una mina de oro en República Centroafricana (RCA) dejó al menos 30 mineros fallecidos, según reportaron agencias internacionales el miércoles 19 de agosto, mientras las operaciones de rescate se prolongaban con cada vez menos esperanzas de encontrar sobrevivientes.</em></p>
+<p>El accidente se suma a una serie de desastres mineros recurrentes en la región, donde miles de personas trabajan en minería artesanal sin regulación ni condiciones de seguridad adecuadas. Los derrumbes, la falta de ventilación y las excavaciones improvisadas convierten a estas minas en trampas mortales, denuncian organizaciones locales.</p>
+<p>Las autoridades aún no han precisado la cifra final de víctimas ni las causas exactas del derrumbe. La tragedia reabre el debate sobre la formalización de la minería artesanal en África central, un sector que da sustento a cientos de miles de familias.</p>
+<p><small>Con información de: <a href="https://www.livemint.com/news/world/30-killed-in-central-african-republic-mine-collapse-as-region-continues-to-reel-from-recurring-mining-disasters-11787115415162.html">Livemint</a>.</small></p>`,
+        contentEn: `<h1>At least 30 killed in a gold mine collapse in the Central African Republic</h1>
+<p><em>The collapse of a gold mine in the Central African Republic (CAR) killed at least 30 miners, international agencies reported on Wednesday, August 19, as rescue operations dragged on with diminishing hopes of finding survivors.</em></p>
+<p>The accident adds to a series of recurring mining disasters in the region, where thousands of people work in artisanal mining with little regulation and poor safety conditions. Cave-ins, lack of ventilation and makeshift excavations turn these mines into death traps, local organizations say.</p>
+<p>Authorities have not yet given a final casualty figure or the exact causes of the collapse. The tragedy reopens the debate over formalizing artisanal mining in central Africa, a sector that sustains hundreds of thousands of families.</p>
+<p><small>Source: <a href="https://www.livemint.com/news/world/30-killed-in-central-african-republic-mine-collapse-as-region-continues-to-reel-from-recurring-mining-disasters-11787115415162.html">Livemint</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-20-rca-mina.jpg',
+        imageCaption: 'Minería artesanal en África central. Foto: Livemint / agencias',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'República Centroafricana',
+        source: 'Livemint',
+        region: 'International',
+        sourceUrl: 'https://www.livemint.com/news/world/30-killed-in-central-african-republic-mine-collapse-as-region-continues-to-reel-from-recurring-mining-disasters-11787115415162.html'
+      },
+      {
+        id: '1036',
+        contentType: 'news',
+        slug: 'harry-meghan-regresan-reino-unido',
+        titleEs: 'Príncipe Harry y Meghan se mudarán al Reino Unido este mes e inscribirán a sus hijos en escuelas británicas',
+        titleEn: 'Prince Harry and Meghan to relocate to the UK this month and enrol their children in British schools',
+        excerptEs: 'Según reportes publicados este jueves, la pareja planea trasladarse a una residencia privada a las afueras de Londres e inscribir a Archie y Lilibet en escuelas británicas para el próximo periodo lectivo.',
+        excerptEn: 'According to reports published Thursday, the couple plans to move to a private residence outside London and enrol Archie and Lilibet in British schools for the coming term.',
+        contentEs: `<h1>Príncipe Harry y Meghan se mudarán al Reino Unido este mes e inscribirán a sus hijos en escuelas británicas</h1>
+<p><em>El príncipe Harry y Meghan Markle planean trasladarse de Estados Unidos a una residencia privada a las afueras de Londres a finales de este mes y han inscrito a los príncipes Archie y Lilibet en escuelas británicas para el próximo periodo lectivo, según reportes publicados este jueves.</em></p>
+<p>La información, difundida por medios británicos y agencias internacionales, marca un giro en la vida de la pareja, que residía en California desde que se apartó de la Casa Real en 2020. El regreso al Reino Unido se produce en un contexto de tensiones familiares con la monarquía y de un gradual acercamiento del duque de Sussex a su país de origen.</p>
+<p>Ni el Palacio de Buckingham ni los representantes de la pareja han emitido comentarios oficiales hasta el momento. Fuentes cercanas señalaron que las escuelas confirmarían los anuncios solo cuando la inscripción esté cerrada.</p>
+<p><small>Con información de: <a href="https://www.livemint.com/news/world/prince-harry-and-meghan-markle-to-relocate-to-uk-this-month-enrol-kids-in-british-schools-report-11787189729672.html">Livemint / AP</a>.</small></p>`,
+        contentEn: `<h1>Prince Harry and Meghan to relocate to the UK this month and enrol their children in British schools</h1>
+<p><em>Prince Harry and Meghan Markle plan to move from the United States to a private residence outside London later this month and have enrolled Prince Archie and Princess Lilibet in British schools for the coming term, according to reports published Thursday.</em></p>
+<p>The news, reported by British media and international agencies, marks a turning point for the couple, who have lived in California since stepping back from royal duties in 2020. The return to the UK comes amid ongoing family tensions with the monarchy and a gradual rapprochement of the Duke of Sussex with his home country.</p>
+<p>Neither Buckingham Palace nor the couple\'s representatives have made official comments so far. Sources close to the family said the schools would confirm the enrolments only once admissions are finalized.</p>
+<p><small>Source: <a href="https://www.livemint.com/news/world/prince-harry-and-meghan-markle-to-relocate-to-uk-this-month-enrol-kids-in-british-schools-report-11787189729672.html">Livemint / AP</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-19-harry-meghan.jpg',
+        imageCaption: 'El príncipe Harry y Meghan Markle. Foto: Jonathan Brady / Pool PA vía AP',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Reino Unido',
+        source: 'Livemint / AP',
+        region: 'International',
+        sourceUrl: 'https://www.livemint.com/news/world/prince-harry-and-meghan-markle-to-relocate-to-uk-this-month-enrol-kids-in-british-schools-report-11787189729672.html'
+      },
+      {
+        id: '1037',
+        contentType: 'news',
+        slug: 'pakistan-convoca-a-eeuu-por-declaraciones-sobre-cachemira',
+        titleEs: 'Pakistán convoca al diplomático de EE.UU. por declaraciones de su embajador sobre Cachemira',
+        titleEn: 'Pakistan summons the US diplomat over ambassador\'s remarks on Kashmir',
+        excerptEs: 'Islamabad protestó formalmente por las declaraciones del embajador estadounidense Sergio Gor en Srinagar, que calificaron a Cachemira como "parte importante de la India".',
+        excerptEn: 'Islamabad lodged a formal protest over remarks by US Ambassador Sergio Gor in Srinagar describing Kashmir as an "important part of India."',
+        contentEs: `<h1>Pakistán convoca al diplomático de EE.UU. por declaraciones de su embajador sobre Cachemira</h1>
+<p><em>Pakistán convocó al encargado de negocios de Estados Unidos en Islamabad y presentó una enérgica protesta por las declaraciones del embajador estadounidense Sergio Gor en Srinagar, quien describió a Jammu y Cachemira como una "parte importante de la India".</em></p>
+<p>Según informó la agencia Reuters, el Ministerio de Relaciones Exteriores paquistaní citó las resoluciones del Consejo de Seguridad de la ONU sobre el estatus del territorio en disputa y rechazó la postura estadounidense. El incidente refleja la sensibilidad del tema en el sur de Asia, donde India y Pakistán mantienen una disputa de décadas por la región.</p>
+<p>La Casa Blanca no ha hecho comentarios públicos sobre la protesta. Analistas regionales advierten que el vigente alto el fuego en la Línea de Control sigue siendo frágil.</p>
+<p><small>Con información de: <a href="https://www.livemint.com/news/world/sergio-gor-s-j-k-remarks-trigger-pakistan-protest-islamabad-summons-us-diplomat-unsc-resolutions-jammu-kashmir-news-11787157148622.html">Livemint / Reuters</a>.</small></p>`,
+        contentEn: `<h1>Pakistan summons the US diplomat over ambassador\'s remarks on Kashmir</h1>
+<p><em>Pakistan summoned the US chargé d\'affaires in Islamabad and lodged a strong protest over remarks by US Ambassador Sergio Gor in Srinagar describing Jammu and Kashmir as an "important part of India."</em></p>
+<p>According to Reuters, Pakistan\'s Foreign Ministry cited United Nations Security Council resolutions on the status of the disputed territory and rejected the US stance. The incident reflects how sensitive the issue remains in South Asia, where India and Pakistan have argued over the region for decades.</p>
+<p>The White House has made no public comment on the protest. Regional analysts warn that the existing ceasefire along the Line of Control remains fragile.</p>
+<p><small>Source: <a href="https://www.livemint.com/news/world/sergio-gor-s-j-k-remarks-trigger-pakistan-protest-islamabad-summons-us-diplomat-unsc-resolutions-jammu-kashmir-news-11787157148622.html">Livemint / Reuters</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-19-pakistan-jk.jpg',
+        imageCaption: 'Sergio Gor, embajador de EE.UU. Foto: Reuters / PTI',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Pakistán / India',
+        source: 'Reuters / Livemint',
+        region: 'International',
+        sourceUrl: 'https://www.livemint.com/news/world/sergio-gor-s-j-k-remarks-trigger-pakistan-protest-islamabad-summons-us-diplomat-unsc-resolutions-jammu-kashmir-news-11787157148622.html'
+      },
+      {
+        id: '1038',
+        contentType: 'news',
+        slug: 'ee-uu-sanciona-al-presidente-de-la-cpi-y-a-un-fiscal-senior',
+        titleEs: 'EE.UU. impone sanciones al presidente de la Corte Penal Internacional y a un fiscal senior que investigó a Israel',
+        titleEn: 'US imposes sanctions on the ICC president and a senior prosecutor who probed Israel',
+        excerptEs: 'El Departamento de Estado congeló activos del presidente de la CPI, Tomoko Akane, y del abogado Abdoulaye Seye, parte del equipo que pidió una orden de detención contra Netanyahu.',
+        excerptEn: 'The State Department froze assets of ICC President Tomoko Akane and trial lawyer Abdoulaye Seye, part of the team that sought an arrest warrant for Netanyahu.',
+        contentEs: `<h1>EE.UU. impone sanciones al presidente de la Corte Penal Internacional y a un fiscal senior que investigó a Israel</h1>
+<p><em>La administración Trump impuso sanciones al presidente de la Corte Penal Internacional (CPI), Tomoko Akane, y al abogado principal Abdoulaye Seye, congelando cualquier activo que posean en jurisdicciones de Estados Unidos o que toque el sistema financiero estadounidense, según confirmó Democracy Now.</em></p>
+<p>El Departamento de Estado señaló a Akane, de Japón, y a Seye, de Senegal, quien formó parte del equipo que solicitó una orden de detención contra el primer ministro israelí, Benjamin Netanyahu, por presuntos crímenes de lesa humanidad en Gaza. Medios israelíes informaron además que Seye supervisa una indagación sobre la financiación israelí de asentamientos ilegales en Cisjordania y el armamento de colonos.</p>
+<p>Las sanciones se suman a la larga tensión entre Washington y la CPI, cuyos magistrados ya habían sido sancionados durante la primera administración Trump. Organizaciones de derechos humanos denunciaron que las medidas buscan desviar la justicia internacional.</p>
+<p><small>Con información de: <a href="https://www.democracynow.org/2026/8/19/headlines/trump_admin_imposes_sanctions_on_icc_president_and_senior_prosecutor">Democracy Now</a>.</small></p>`,
+        contentEn: `<h1>US imposes sanctions on the ICC president and a senior prosecutor who probed Israel</h1>
+<p><em>The Trump administration imposed sanctions on the president of the International Criminal Court (ICC), Tomoko Akane, and chief trial lawyer Abdoulaye Seye, freezing any assets they hold in US jurisdictions or that touch the American financial system, Democracy Now confirmed.</em></p>
+<p>The State Department targeted Akane, of Japan, and Seye, of Senegal, who was part of the team that sought an arrest warrant for Israeli Prime Minister Benjamin Netanyahu over alleged crimes against humanity in Gaza. Israeli media also reported that Seye oversees an inquiry into Israeli funding for illegal West Bank settlements and the arming of settlers.</p>
+<p>The sanctions add to the long-running tension between Washington and the ICC, whose judges were already sanctioned during Trump\'s first term. Human rights groups denounced the measures as an attempt to deflect international justice.</p>
+<p><small>Source: <a href="https://www.democracynow.org/2026/8/19/headlines/trump_admin_imposes_sanctions_on_icc_president_and_senior_prosecutor">Democracy Now</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-19-icc-sanciones.jpg',
+        imageCaption: 'Sala de la Corte Penal Internacional. Fuente: ICC',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Estados Unidos / La Haya',
+        source: 'Democracy Now',
+        region: 'International',
+        sourceUrl: 'https://www.democracynow.org/2026/8/19/headlines/trump_admin_imposes_sanctions_on_icc_president_and_senior_prosecutor'
+      },
+      {
+        id: '1039',
+        contentType: 'news',
+        slug: 'juez-federal-revoca-tps-para-mas-de-5000-etíopes',
+        titleEs: 'Un juez federal revoca el estatus de protección temporal (TPS) para más de 5.000 inmigrantes etíopes',
+        titleEn: 'Federal judge revokes temporary protected status for more than 5,000 Ethiopian immigrants',
+        excerptEs: 'El fallo del juez Brian Murphy levanta el último bloqueo legal para que el gobierno de Trump cancele el TPS país por país. La protección ya terminó para haitianos y sirios.',
+        excerptEn: 'Judge Brian Murphy\'s ruling lifts the final legal block to ending TPS country by country. Protection has already ended for Haitians and Syrians.',
+        contentEs: `<h1>Un juez federal revoca el estatus de protección temporal (TPS) para más de 5.000 inmigrantes etíopes</h1>
+<p><em>Un juez federal de Boston falló a favor de la administración Trump y revocó el Estatus de Protección Temporal (TPS) para más de 5.000 inmigrantes etíopes que viven y trabajan en Estados Unidos, según informó Democracy Now el miércoles 19 de agosto.</em></p>
+<p>La resolución del juez Brian Murphy eliminó el último bloqueo legal para que el Ejecutivo ponga fin al TPS centrado en países individuales, después de que la Corte Suprema retirara la protección para inmigrantes de Haití y Siria. Desde el regreso de Trump al poder, su administración ha avanzado para terminar con el TPS de al menos 13 de los 17 países designados.</p>
+<p>El TPS había otorgado alivio a la deportación de cientos de miles de inmigrantes cuyos países de origen fueron declarados inseguros por guerra o desastres climáticos. Organizaciones de defensa de inmigrantes advirtieron que los afectados enfrentan ahora un panorama de incertidumbre legal y riesgo de expulsión.</p>
+<p><small>Con información de: <a href="https://www.democracynow.org/2026/8/19/headlines/federal_judge_revokes_tps_for_5_000_ethiopian_immigrants">Democracy Now</a>.</small></p>`,
+        contentEn: `<h1>Federal judge revokes temporary protected status for more than 5,000 Ethiopian immigrants</h1>
+<p><em>A federal judge in Boston sided with the Trump administration and revoked Temporary Protected Status (TPS) for more than 5,000 Ethiopian immigrants living and working in the United States, Democracy Now reported on Wednesday, August 19.</em></p>
+<p>Judge Brian Murphy\'s ruling lifted the final legal block to ending TPS for individual countries, after the Supreme Court ended protection for immigrants from Haiti and Syria. Since Trump returned to office, his administration has moved to terminate TPS for at least 13 of 17 designated countries.</p>
+<p>TPS had granted deportation relief to hundreds of thousands of immigrants whose home countries were designated unsafe because of war or climate disaster. Immigrant advocacy groups warned that those affected now face legal uncertainty and the risk of removal.</p>
+<p><small>Source: <a href="https://www.democracynow.org/2026/8/19/headlines/federal_judge_revokes_tps_for_5_000_ethiopian_immigrants">Democracy Now</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-19-tps-etiopia.jpg',
+        imageCaption: 'Inmigrantes etíopes en Estados Unidos. Fuente: Bill Clark / CQ-Roll Call / Sipa USA vía Reuters',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Estados Unidos',
+        source: 'Democracy Now / AP',
+        region: 'International',
+        sourceUrl: 'https://www.democracynow.org/2026/8/19/headlines/federal_judge_revokes_tps_for_5_000_ethiopian_immigrants'
+      },
+      {
+        id: '1040',
+        contentType: 'news',
+        slug: 'ee-uu-canada-aplazan-aranceles-ultima-hora',
+        titleEs: 'EE.UU. y Canadá alcanzan un acuerdo de última hora para aplazar los aranceles del 50%',
+        titleEn: 'US and Canada reach a last-minute deal to delay the 50% tariffs',
+        excerptEs: 'Trump anunció el retraso de los aranceles a importaciones canadienses por valor de 20.000 millones de dólares, a menos de dos horas de que entraran en vigor.',
+        excerptEn: 'Trump announced the postponement of tariffs on Canadian imports worth $20 billion less than two hours before they were to take effect.',
+        contentEs: `<h1>EE.UU. y Canadá alcanzan un acuerdo de última hora para aplazar los aranceles del 50%</h1>
+<p><em>El presidente de Estados Unidos, Donald Trump, anunció el miércoles un acuerdo de última hora con Canadá para aplazar los aranceles del 50% sobre importaciones canadienses por valor de unos 20.000 millones de dólares, menos de dos horas antes de que las sanciones entraran en vigor.</em></p>
+<p>Según informaron NPR, Reuters y CNBC, la pausa dura tres días y deja un margen para que los negociadores cierren un pacto definitivo antes del plazo del sábado a medianoche. Trump sugirió que el acuerdo podría incluir reducciones en los aranceles a autos fabricados en Canadá y un avance en el proyecto del oleoducto Keystone XL.</p>
+<p>El primer ministro canadiense, Mark Carney, señaló que el acuerdo incluye "compromisos clave" y que las conversaciones continuarán. La tregua comercial alivia momentáneamente a exportadores canadienses de madera, lácteos, vino y manufacturas, sectores que temían un nuevo golpe económico en plena disputa bilateral.</p>
+<p><small>Con información de: <a href="https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs">NPR</a>, <a href="https://www.reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/">Reuters</a>, <a href="https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html">CNBC</a> y <a href="https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says">Al Jazeera</a>.</small></p>`,
+        contentEn: `<h1>US and Canada reach a last-minute deal to delay the 50% tariffs</h1>
+<p><em>US President Donald Trump announced a last-minute deal with Canada on Wednesday to delay the 50% tariffs on Canadian imports worth about $20 billion, less than two hours before the duties were set to take effect.</em></p>
+<p>According to NPR, Reuters and CNBC, the pause lasts three days, giving negotiators room to finalize a definitive pact before the Saturday midnight deadline. Trump hinted the deal could include cuts to tariffs on cars built in Canada and progress on the Keystone XL pipeline project.</p>
+<p>Canadian Prime Minister Mark Carney said the deal includes "key commitments" and that talks will continue. The trade truce offers temporary relief to Canadian exporters of lumber, dairy, wine and manufactured goods, sectors that feared another economic blow amid the bilateral dispute.</p>
+<p><small>Sources: <a href="https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs">NPR</a>, <a href="https://www.reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/">Reuters</a>, <a href="https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html">CNBC</a> and <a href="https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says">Al Jazeera</a>.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-19-canada-aranceles.jpg',
+        imageCaption: 'El primer ministro de Canadá, Mark Carney. Foto: Getty Images',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Estados Unidos / Canadá',
+        source: 'NPR / Reuters / CNBC',
+        region: 'International',
+        sourceUrl: 'https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs'
+      },
+      {
+        id: '1041',
+        contentType: 'news',
+        slug: 'ebola-supera-los-5000-casos-congo',
+        titleEs: 'Ébola en República Democrática del Congo: el brote supera los 5.000 casos confirmados',
+        titleEn: 'Ebola in DR Congo: outbreak surpasses 5,000 confirmed cases',
+        excerptEs: 'La epidemia de ébola por virus Bundibugyo suma 5.021 casos confirmados y 2.378 muertes en el Congo, con 20 casos en Uganda. La OMS teme que sea la más letal jamás registrada.',
+        excerptEn: 'The Bundibugyo virus ebola epidemic has 5,021 confirmed cases and 2,378 deaths in the DRC, plus 20 cases in Uganda. WHO fears it could be the deadliest ever recorded.',
+        contentEs: `<h1>Ébola en República Democrática del Congo: el brote supera los 5.000 casos confirmados</h1>
+<p><em>El brote de ébola por virus Bundibugyo en República Democrática del Congo (RDC) superó los 5.000 casos confirmados: la OMS y el ECDC reportaron 5.021 casos y 2.378 muertes en el país (tasa de letalidad del 47,4%) a fecha 16 de agosto, más 20 casos y 2 muertes en Uganda.</em></p>
+<p>La OMS advirtió que el brote, declarado emergencia de salud pública de importancia internacional el 17 de mayo, está en camino de convertirse en la epidemia de ébola más letal jamás registrada. La provincia de Ituri concentra la mayor carga —4.257 casos y 1.878 muertes—, seguida de Kivu del Norte, Haut-Uele y Kivu del Sur, en el este del país, una zona remota y golpeada por el conflicto.</p>
+<p>Los trabajadores de salud pagan un alto precio: más de un centenar se han infectado y al menos 35 han fallecido. La falta de una vacuna autorizada contra la cepa Bundibugyo y el rastreo de contactos incompleto complican la respuesta. En Estados Unidos no se ha confirmado ningún caso y el CDC considera bajo el riesgo para el público.</p>
+<p>Uganda declaró el fin de su brote el 28 de julio; todos sus casos fueron diagnosticados en Kampala, sin propagación comunitaria. Los países vecinos mantienen la vigilancia en la frontera.</p>
+<p><small>Con información de: <a href="https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026">OMS</a>, <a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda">ECDC</a> y <a href="https://www.cdc.gov/ebola/situation-summary/index.html">CDC</a>.</small></p>`,
+        contentEn: `<h1>Ebola in DR Congo: outbreak surpasses 5,000 confirmed cases</h1>
+<p><em>The Bundibugyo virus Ebola outbreak in the Democratic Republic of the Congo (DRC) has surpassed 5,000 confirmed cases: WHO and ECDC reported 5,021 cases and 2,378 deaths in the country (a 47.4% case fatality rate) as of August 16, plus 20 cases and 2 deaths in Uganda.</em></p>
+<p>WHO warned the outbreak, declared a Public Health Emergency of International Concern on May 17, is on track to become the deadliest Ebola epidemic ever recorded. Ituri province carries the heaviest burden —4,257 cases and 1,878 deaths— followed by North Kivu, Haut-Uele and South Kivu, in the remote, conflict-hit east of the country.</p>
+<p>Health workers are paying a high price: more than a hundred have been infected and at least 35 have died. The lack of a licensed vaccine for the Bundibugyo strain and incomplete contact tracing complicate the response. No cases have been confirmed in the United States, and the CDC considers the risk to the public low.</p>
+<p>Uganda declared its outbreak over on July 28; all its cases were diagnosed in Kampala, with no community spread. Neighboring countries are maintaining border surveillance.</p>
+<p><small>Sources: <a href="https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026">WHO</a>, <a href="https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda">ECDC</a> and <a href="https://www.cdc.gov/ebola/situation-summary/index.html">CDC</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-08-ebola-congo.jpg',
+        imageCaption: 'Brote de ébola en África central. Foto: agencias',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'África central',
+        source: 'OMS / ECDC / CDC',
+        region: 'International',
+        sourceUrl: 'https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda'
+      },
       // FIN DE NOTICIAS
     ];
 
