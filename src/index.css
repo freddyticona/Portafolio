@@ -371,6 +371,42 @@ button:focus-visible,
   margin: 1.75rem auto;
 }
 
+/* Fallback visual: si el iframe aún no se monta, el blockquote.twitter-tweet
+   debe verse como un tuit de X (no como un blockquote de cita). El widget
+   reemplaza este bloque automáticamente al cargar. */
+blockquote.twitter-tweet {
+  max-width: 550px;
+  margin: 1.75rem auto;
+  background: #000;
+  border: 1px solid #2f3336;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  font-style: normal;
+  color: #71767b;
+  border-left: 0;
+}
+
+blockquote.twitter-tweet::before,
+blockquote.twitter-tweet::after {
+  content: none;
+}
+
+blockquote.twitter-tweet p {
+  color: #e7e9ea;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+}
+
+blockquote.twitter-tweet a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+blockquote.twitter-tweet a:hover {
+  text-decoration: underline;
+}
+
 .article-content hr {
   border: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);

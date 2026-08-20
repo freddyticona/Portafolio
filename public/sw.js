@@ -6,7 +6,7 @@
 // Service Worker para Portafolio Freddy Ticona - PWA v2.0
 // Proporciona funcionalidad offline, caché inteligente y sincronización
 
-const CACHE_VERSION = '3.3.0';
+const CACHE_VERSION = '3.3.1';
 const CACHE_NAME = `freddy-ticona-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `freddy-ticono-runtime-${CACHE_VERSION}`;
 const IMAGE_CACHE = `freddy-ticono-images-${CACHE_VERSION}`;
