@@ -467,7 +467,9 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
               alt={lang === 'es' ? post.titleEs : post.titleEn}
               className="absolute inset-0 w-full h-full object-cover object-center"
               loading="lazy"
+              style={{ filter: 'brightness(0.92) contrast(1.05)' }}
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent pointer-events-none" aria-hidden="true" />
           </div>
           <figcaption className="text-xs font-mono text-stone-500 text-right flex items-center justify-end gap-1.5">
             <Camera className="w-3 h-3 text-stone-600" />
