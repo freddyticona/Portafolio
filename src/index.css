@@ -371,6 +371,16 @@ button:focus-visible,
   margin: 1.75rem auto;
 }
 
+/* Fix: evita parpadeo negro de iframes de YouTube al hacer scroll (compositing con backdrop-blur) */
+.article-content iframe {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+.article-content div:has(> iframe) {
+  transform: translateZ(0);
+  isolation: isolate;
+}
+
 /* Fallback visual: si el iframe aún no se monta, el blockquote.twitter-tweet
    debe verse como un tuit de X (no como un blockquote de cita). El widget
    reemplaza este bloque automáticamente al cargar. */
