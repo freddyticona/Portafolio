@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-actualizacion-caso-nadia-beller-cerimedo-gobierno-paz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>“La eliminamos ya o estamos jodidos” y cuatro aprehendidos: los chats filtrados que hunden a Cerimedo y el nuevo operativo por el intento de feminicidio de Nadia Beller</news:title>
+      <news:keywords>Nacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -98,20 +112,6 @@
       <news:publication_date>2026-08-20</news:publication_date>
       <news:title>Multas de tránsito en Bolivia: cómo consultar deudas e infracciones por placa (2026)</news:title>
       <news:keywords>Guías y Trámites</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/reportaje-especial-actualizacion-caso-nadia-beller-cerimedo-gobierno-paz</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Caso Nadia Beller y Cerimedo: la encrucijada judicial, las denuncias al entorno gubernamental y el impacto político en el Gobierno de Paz</news:title>
-      <news:keywords>Nacional</news:keywords>
     </news:news>
   </url>
 </urlset>
