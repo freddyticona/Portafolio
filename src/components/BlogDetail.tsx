@@ -73,20 +73,33 @@ function calculateReadTime(content: string): string {
 
 export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts }: BlogDetailProps) {
   const [showComments, setShowComments] = useState(true);
-  const [scrollProgress, setScrollProgress] = useState(0);
   const [showBackTop, setShowBackTop] = useState(false);
   const [showToc, setShowToc] = useState(false);
   const [copied, setCopied] = useState(false);
   const tocRefs = useRef<Record<string, HTMLElement>>({});
   const [activeGalleryImage, setActiveGalleryImage] = useState<string | null>(null);
+  const progressRef = useRef<HTMLDivElement>(null);
 
   // ─── Scroll Progress + Back to Top ──────────────────────────────────
+  // Optimizado con rAF + ref directa para no re-renderizar en cada pixel de scroll
+  // (evita parpadeo negro de iframes de YouTube al scrollear, que se producía al
+  // hacer setState 60fps y forzar reconciliación del article-content).
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      setScrollProgress(scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0);
-      setShowBackTop(scrollTop > 400);
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+        if (progressRef.current) {
+          progressRef.current.style.width = `${progress}%`;
+          progressRef.current.setAttribute('aria-valuenow', String(Math.round(progress)));
+        }
+        setShowBackTop(scrollTop > 400);
+        ticking = false;
+      });
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
@@ -306,10 +319,11 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     <>
       {/* Barra de progreso de lectura */}
       <div
-        className="fixed top-0 left-0 h-0.5 bg-gold z-50 transition-all duration-100"
-        style={{ width: `${scrollProgress}%` }}
+        ref={progressRef}
+        className="fixed top-0 left-0 h-0.5 bg-gold z-50"
+        style={{ width: '0%' }}
         role="progressbar"
-        aria-valuenow={Math.round(scrollProgress)}
+        aria-valuenow={0}
         aria-valuemin={0}
         aria-valuemax={100}
         aria-label={lang === 'es' ? 'Progreso de lectura' : 'Reading progress'}
