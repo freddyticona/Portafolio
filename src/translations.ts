@@ -20823,6 +20823,346 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         featured: false,
         views: 1
       },
+      {
+        id: '1043',
+        contentType: 'news',
+        slug: 'gobierno-interviene-ypfb-reestructuracion-corrupcion-combustibles',
+        titleEs: 'Gobierno decreta la intervención de YPFB y dispone su reestructuración tras denuncias de corrupción',
+        titleEn: 'Government decrees YPFB intervention and restructuring following corruption allegations',
+        excerptEs: 'El ministro de Hidrocarburos, Marcelo Blanco, anunció la intervención técnica, ejecutiva y jurídica de YPFB tras evidenciarse desvíos de combustible y cobros irregulares. Se iniciaron auditorías y procesos penales contra funcionarios implicados.',
+        excerptEn: 'Minister of Hydrocarbons Marcelo Blanco announced technical, executive, and legal intervention in YPFB after fuel diversion and illegal charges were uncovered. Audits and criminal prosecution have been initiated.',
+        contentEs: `<h1>Gobierno decreta la intervención de YPFB y dispone su reestructuración tras denuncias de corrupción</h1>
+<p><em>El Ministerio de Hidrocarburos dispuso la intervención inmediata de Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) e inició un proceso de auditorías internas y denuncias penales contra funcionarios implicados en cobros irregulares y desvío de combustibles.</em></p>
+<p>El ministro Marcelo Blanco, junto al presidente ejecutivo de la estatal petrolera, Sebastián Daroca, anunció la medida por instrucción directa del presidente Rodrigo Paz Pereira. La intervención busca erradicar redes de corrupción identificadas en la cadena de distribución de diésel y gasolina que afectaban el suministro en varias regiones del país.</p>
+<p>Operativos coordinados entre la Policía y las Fuerzas Armadas detectaron que personal de YPFB exigía pagos al margen de la norma para priorizar el despacho de cisternas a estaciones de servicio. El Gobierno advirtió que no habrá impunidad y que las investigaciones patrimoniales avanzarán en la Fiscalía.</p>
+<p><small>Con información de: <a href="https://larazon.bo/economia-y-empresa/2026/08/05/gobierno-interviene-ypfb-y-anuncia-investigacion-por-denuncias-de-corrupcion/">La Razón</a>, <a href="https://www.urgente.bo/noticia/gobierno-anuncia-la-intervencion-de-ypfb-para-su-reestructuracion-tras-denuncias-de">Urgente.bo</a> y <a href="https://eldeber.com.bo/economia/gobierno-interviene-ypfb-anuncia-reestructuracion-denuncias-corrupcion_1785953143">El Deber</a>.</small></p>`,
+        contentEn: `<h1>Government decrees YPFB intervention and restructuring following corruption allegations</h1>
+<p><em>The Ministry of Hydrocarbons ordered the immediate intervention of state oil company YPFB and launched internal audits and criminal charges against officials involved in illegal fees and fuel diversion.</em></p>
+<p>Minister Marcelo Blanco and YPFB Executive President Sebastián Daroca announced the measure following instructions from President Rodrigo Paz Pereira. The intervention aims to dismantle corruption rings within fuel distribution networks that triggered nationwide shortages.</p>
+<p>Coordinated police and military operations revealed YPFB personnel demanding extra-official fees to prioritize tanker deliveries to gas stations. The government vowed zero tolerance and financial investigations by prosecutors.</p>
+<p><small>Source: <a href="https://larazon.bo/economia-y-empresa/2026/08/05/gobierno-interviene-ypfb-y-anuncia-investigacion-por-denuncias-de-corrupcion/">La Razón</a>, <a href="https://www.urgente.bo/noticia/gobierno-anuncia-la-intervencion-de-ypfb-para-su-reestructuracion-tras-denuncias-de">Urgente.bo</a> and <a href="https://eldeber.com.bo/economia/gobierno-interviene-ypfb-anuncia-reestructuracion-denuncias-corrupcion_1785953143">El Deber</a>.</small></p>`,
+        date: '2026-08-05',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-05-ypfb.jpg',
+        imageCaption: 'Oficinas centrales de YPFB. Foto: Archivo / El Deber',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'La Razón / Urgente.bo / El Deber',
+        region: 'Bolivia',
+        sourceUrl: 'https://larazon.bo/economia-y-empresa/2026/08/05/gobierno-interviene-ypfb-y-anuncia-investigacion-por-denuncias-de-corrupcion/'
+      },
+      {
+        id: '1044',
+        contentType: 'news',
+        slug: 'santa-cruz-y-gobierno-acuerdan-10-puntos-crisis-combustibles-importacion-privada',
+        titleEs: 'Santa Cruz y el Gobierno acuerdan agenda de 10 puntos para enfrentar la crisis de combustibles',
+        titleEn: 'Santa Cruz and the Government agree on 10-point agenda to tackle fuel crisis',
+        excerptEs: 'Autoridades regionales, cívicos y el Ejecutivo acordaron la publicación diaria de cronogramas de despacho de diésel, eliminación de trabas tributarias para la importación privada y promoción de biocombustibles.',
+        excerptEn: 'Regional authorities, civic leaders, and the Executive agreed on daily fuel dispatch schedules, removing tax hurdles for private imports, and promoting biofuels.',
+        contentEs: `<h1>Santa Cruz y el Gobierno acuerdan agenda de 10 puntos para enfrentar la crisis de combustibles</h1>
+<p><em>El Ejecutivo nacional y las principales autoridades cívicas e institucionales de Santa Cruz firmaron un acuerdo de 10 compromisos destinados a normalizar el suministro de diésel y gasolina en el departamento más productivo del país.</em></p>
+<p>El encuentro contó con la participación del vocero presidencial José Luis Gálvez, el titular de YPFB Sebastián Daroca, el gobernador Juan Pablo Velasco, el alcalde Mamen Saavedra y el presidente del Comité pro Santa Cruz, Stello Cochamanidis. Entre las medidas destacan la transparencia en los volúmenes entregados y la exención del IVA e IT para importaciones privadas directas.</p>
+<p>Además, se acordó impulsar proyectos de biocombustibles para reducir la dependencia de carburantes fósiles importados y garantizar el abastecimiento prioritario al sector agroindustrial durante la época de siembra y cosecha.</p>
+<p><small>Con información de: <a href="https://larazon.bo/economia-y-empresa/2026/08/17/santa-cruz-acuerda-agenda-con-el-gobierno-para-enfrentar-la-crisis-de-combustibles/">La Razón</a>, <a href="https://www.reduno.com.bo/noticias/autoridades-crucenas-y-gobierno-acuerdan-medidas-para-enfrentar-la-crisis-de-combustibles-202681712560">Red Uno</a> y <a href="https://monteronoticias.com/2026/08/18/gobierno-y-ypfb-acuerdan-10-medidas-para-enfrentar-la-falta-de-combustibles/">Montero Noticias</a>.</small></p>`,
+        contentEn: `<h1>Santa Cruz and the Government agree on 10-point agenda to tackle fuel crisis</h1>
+<p><em>The national Executive and Santa Cruz civic leaders signed a 10-point agreement aimed at restoring diesel and gasoline supplies in the country's main agricultural hub.</em></p>
+<p>The meeting included Presidential Spokesperson José Luis Gálvez, YPFB head Sebastián Daroca, Governor Juan Pablo Velasco, Mayor Mamen Saavedra, and Pro Santa Cruz Civic Committee President Stello Cochamanidis. Key points include transparent dispatch schedules and VAT/IT tax exemptions for private fuel imports.</p>
+<p>The roadmap also seeks to boost biofuel production to diminish reliance on imported fossil fuels and ensure fuel supplies for the agricultural sector.</p>
+<p><small>Source: <a href="https://larazon.bo/economia-y-empresa/2026/08/17/santa-cruz-acuerda-agenda-con-el-gobierno-para-enfrentar-la-crisis-de-combustibles/">La Razón</a>, <a href="https://www.reduno.com.bo/noticias/autoridades-crucenas-y-gobierno-acuerdan-medidas-para-enfrentar-la-crisis-de-combustibles-202681712560">Red Uno</a> and <a href="https://monteronoticias.com/2026/08/18/gobierno-y-ypfb-acuerdan-10-medidas-para-enfrentar-la-falta-de-combustibles/">Montero Noticias</a>.</small></p>`,
+        date: '2026-08-17',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-05-gobernadores.jpg',
+        imageCaption: 'Reunión entre autoridades nacionales y regionales en Santa Cruz. Foto: Ministerio de Hidrocarburos',
+        categoryEs: 'Nacional',
+        categoryEn: 'National',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz de la Sierra, Bolivia',
+        source: 'La Razón / Red Uno / Montero Noticias',
+        region: 'Bolivia',
+        sourceUrl: 'https://larazon.bo/economia-y-empresa/2026/08/17/santa-cruz-acuerda-agenda-con-el-gobierno-para-enfrentar-la-crisis-de-combustibles/'
+      },
+      {
+        id: '1045',
+        contentType: 'news',
+        slug: 'vicepresidente-lara-denuncia-penalmente-ministro-economia-irregularidades-patrimoniales',
+        titleEs: 'Vicepresidente Edmand Lara presenta denuncia penal contra el ministro de Economía por presuntas irregularidades',
+        titleEn: 'Vice President Edmand Lara files criminal complaint against Finance Minister over alleged irregularities',
+        excerptEs: 'El segundo mandatario presentó acusación formal por incumplimiento de deberes y uso de instrumento falsificado contra el ministro de Economía, evidenciando fisuras dentro del Ejecutivo.',
+        excerptEn: 'The Vice President filed formal charges for breach of duties and document forgery against the Finance Minister, highlighting internal rifts within the Executive.',
+        contentEs: `<h1>Vicepresidente Edmand Lara presenta denuncia penal contra el ministro de Economía por presuntas irregularidades</h1>
+<p><em>El vicepresidente de la República, Edmand Lara, formalizó una denuncia penal ante el Ministerio Público contra el ministro de Economía y Finanzas Públicas por la presunta comisión de delitos como incumplimiento de deberes y falsedad ideológica.</em></p>
+<p>Lara cuestionó inconsistencias patrimoniales y contradicciones entre las cifras de ahorro fiscal anunciadas por Economía y los reportes de deuda acumulada del sector hidrocarburífero. La acción judicial acentúa las diferencias políticas internas dentro del binomio gubernamental.</p>
+<p>El Ministerio de Economía rechazó las acusaciones asegurando que las cuentas públicas se manejan con total transparencia y que responderá por las vías legales correspondientes.</p>
+<p><small>Con información de: <a href="https://www.nodal.am/2026/08/el-vicepresidente-edmand-lara-denuncio-al-ministro-de-economia-y-finanzas-publicas-por-presuntas-irregularidades-vinculadas-con-su-patrimonio/">NODAL</a> y <a href="https://oxigeno.bo/lara-ratifica-denunciara-al-presidente-de-ypfb-y-exige-explicaciones-al-ministro-de-hidrocarburos">Oxígeno Digital</a>.</small></p>`,
+        contentEn: `<h1>Vice President Edmand Lara files criminal complaint against Finance Minister over alleged irregularities</h1>
+<p><em>Bolivian Vice President Edmand Lara submitted a formal criminal complaint to the Prosecutor's Office against the Minister of Economy and Public Finance for alleged breach of duties and ideological falsehood.</em></p>
+<p>Lara cited asset inconsistencies and discrepancies between fiscal savings claims and debt reports in the hydrocarbons sector. The legal action underlines growing friction between top government figures.</p>
+<p>The Ministry of Economy rejected the accusations, affirming full transparency in public accounts and pledging to respond through appropriate legal channels.</p>
+<p><small>Source: <a href="https://www.nodal.am/2026/08/el-vicepresidente-edmand-lara-denuncio-al-ministro-de-economia-y-finanzas-publicas-por-presuntas-irregularidades-vinculadas-con-su-patrimonio/">NODAL</a> and <a href="https://oxigeno.bo/lara-ratifica-denunciara-al-presidente-de-ypfb-y-exige-explicaciones-al-ministro-de-hidrocarburos">Oxígeno Digital</a>.</small></p>`,
+        date: '2026-08-16',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-informe.jpg',
+        imageCaption: 'Conferencia de prensa en la Vicepresidencia del Estado. Foto: ABI',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'NODAL / Oxígeno Digital',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.nodal.am/2026/08/el-vicepresidente-edmand-lara-denuncio-al-ministro-de-economia-y-finanzas-publicas-por-presuntas-irregularidades-vinculadas-con-su-patrimonio/'
+      },
+      {
+        id: '1046',
+        contentType: 'news',
+        slug: 'santa-cruz-plantea-importacion-directa-combustible-frente-desabastecimiento',
+        titleEs: 'Santa Cruz plantea la importación directa de combustible para consumo propio ante la escasez',
+        titleEn: 'Santa Cruz proposes direct fuel imports for local consumption amid national shortages',
+        excerptEs: 'Sectores productivos y empresariales cruceños impulsan mecanismos legales para importar carburantes de forma autónoma, buscando evitar la paralización de la maquinaria agrícola.',
+        excerptEn: 'Santa Cruz business and agricultural leaders are pushing legal frameworks to import fuels independently, aiming to prevent farm machinery from grinding to a halt.',
+        contentEs: `<h1>Santa Cruz plantea la importación directa de combustible para consumo propio ante la escasez</h1>
+<p><em>Ante las interrupciones en el suministro nacional de diésel, agroindustriales y cívicos de Santa Cruz demandan la agilización de licencias de importación directa para abastecer la demanda interna de la región.</em></p>
+<p>La propuesta busca autorizar a privados el manejo del transporte, almacenamiento y distribución de diésel traído desde países vecinos, sin pasar por los esquemas de subsidio estatal. Dirigentes del sector señalaron que la campaña de siembra requiere volúmenes continuos para garantizar la seguridad alimentaria del país.</p>
+<p>El Gobierno nacional manifestó apertura para reglamentar procedimientos de importación sin aranceles siempre que se respete la normativa técnica vigente.</p>
+<p><small>Con información de: <a href="https://www.infobae.com/america/america-latina/2026/08/18/crisis-de-combustible-en-bolivia-santa-cruz-plantea-alternativas-y-busca-importar-para-consumo-propio/">Infobae</a> y <a href="https://lapatria.bo/enfoque-nacional/gestion/crisis-combustibles-civicos-autoridades-crucenas-reunen/">La Patria</a>.</small></p>`,
+        contentEn: `<h1>Santa Cruz proposes direct fuel imports for local consumption amid national shortages</h1>
+<p><em>In response to nationwide diesel distribution delays, Santa Cruz agricultural and civic groups are requesting expedited direct import permits to cover regional fuel demand.</em></p>
+<p>The plan would allow private firms to transport, store, and distribute fuel imported from neighboring nations independently of state subsidy channels. Farming leaders stressed that planting season requires steady supplies to ensure food security.</p>
+<p>National authorities expressed readiness to streamline duty-free import regulations provided safety standards are met.</p>
+<p><small>Source: <a href="https://www.infobae.com/america/america-latina/2026/08/18/crisis-de-combustible-en-bolivia-santa-cruz-plantea-alternativas-y-busca-importar-para-consumo-propio/">Infobae</a> and <a href="https://lapatria.bo/enfoque-nacional/gestion/crisis-combustibles-civicos-autoridades-crucenas-reunen/">La Patria</a>.</small></p>`,
+        date: '2026-08-18',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-05-palmasola.jpg',
+        imageCaption: 'Maquinaria agrícola aguardando suministro de diésel en Santa Cruz. Foto: El Deber',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'Infobae / La Patria',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.infobae.com/america/america-latina/2026/08/18/crisis-de-combustible-en-bolivia-santa-cruz-plantea-alternativas-y-busca-importar-para-consumo-propio/'
+      },
+      {
+        id: '1047',
+        contentType: 'news',
+        slug: 'productores-agricolas-san-julian-bloqueos-protestas-diesel',
+        titleEs: 'Agricultores y transportistas se movilizan en San Julián exigiendo diésel para la cosecha',
+        titleEn: 'Farmers and truckers protest in San Julián demanding diesel for harvests',
+        excerptEs: 'Productores de granos tomaron carreteras secundarias en el municipio cruceño reclamando cupos prioritarios de carburantes para evitar la pérdida de hectáreas cultivadas.',
+        excerptEn: 'Grain producers blocked secondary roads in Santa Cruz province demanding priority fuel quotas to prevent crops from rotting in the fields.',
+        contentEs: `<h1>Agricultores y transportistas se movilizan en San Julián exigiendo diésel para la cosecha</h1>
+<p><em>Decenas de tractores y camiones tomaron accesos viales en el municipio de San Julián en protesta por la persistente falta de diésel en las estaciones de servicio de la zona productora.</em></p>
+<p>Los agricultores advirtieron que la recolección de soya y maíz enfrenta un riesgo crítico si YPFB no despacha los volúmenes comprometidos para las estaciones locales. Dirigentes vecinales exigieron la presencia de brigadas de distribución directa para evitar intermediarios y cobros con sobreprecio.</p>
+<p>Misiones de la ANH se trasladaron a la zona para fiscalizar los envíos y desactivar las medidas de presión.</p>
+<p><small>Con información de: <a href="https://www.vision360.bo/noticias/2026/08/10/62227-escasez-de-combustible-mantiene-en-alerta-a-transportistas-y-agricultores-que-advierten-con-movilizaciones">Visión 360</a>.</small></p>`,
+        contentEn: `<h1>Farmers and truckers protest in San Julián demanding diesel for harvests</h1>
+<p><em>Dozens of tractors and heavy trucks blocked access roads in San Julián to protest persistent diesel shortages at rural filling stations.</em></p>
+<p>Soybean and corn growers warned harvests face severe losses unless state oil firm YPFB delivers promised fuel quotas. Local representatives demanded direct distribution patrols to prevent illegal markups.</p>
+<p>Hydrocarbon regulatory teams dispatched officers to inspect deliveries and restore order.</p>
+<p><small>Source: <a href="https://www.vision360.bo/noticias/2026/08/10/62227-escasez-de-combustible-mantiene-en-alerta-a-transportistas-y-agricultores-que-advierten-con-movilizaciones">Visión 360</a>.</small></p>`,
+        date: '2026-08-10',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-ypfb.jpg',
+        imageCaption: 'Protesta de productores agrícolas en carreteras de San Julián. Foto: Visión 360',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'San Julián, Santa Cruz, Bolivia',
+        source: 'Visión 360',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.vision360.bo/noticias/2026/08/10/62227-escasez-de-combustible-mantiene-en-alerta-a-transportistas-y-agricultores-que-advierten-con-movilizaciones'
+      },
+      {
+        id: '1048',
+        contentType: 'news',
+        slug: 'presidente-paz-justifica-reduccion-ministerios-austeridad-estatal',
+        titleEs: 'Presidente Rodrigo Paz justifica la reducción de ministerios en el marco del plan de austeridad',
+        titleEn: 'President Rodrigo Paz defends ministry reduction under state austerity plan',
+        excerptEs: 'El mandatario defendió la eliminación y fusión de carpetas gubernamentales asegurando que la medida optimiza el gasto público y concentra funciones estratégicas en Presidencia y Economía.',
+        excerptEn: 'The President defended fusing and eliminating government departments, claiming the move streamlines public spending and focuses core tasks in Finance and the Presidency.',
+        contentEs: `<h1>Presidente Rodrigo Paz justifica la reducción de ministerios en el marco del plan de austeridad</h1>
+<p><em>En declaraciones públicas, el presidente Rodrigo Paz Pereira reafirmó la reestructuración del aparato estatal que redujo la cantidad de ministerios con el objetivo de recortar gastos burocráticos innecesarios.</em></p>
+<p>Tras la disolución del Ministerio de Planificación, sus competencias pasaron a ser administradas directamente entre el Ministerio de la Presidencia y el Ministerio de Economía. Paz señaló que el Estado necesitaba ser más ágil y eficiente para atender las demandas económicas del país.</p>
+<p>Sectores de la oposición criticaron la concentración de funciones, mientras el oficialismo sostiene que el reajuste representa un ahorro significativo de recursos fiscales.</p>
+<p><small>Con información de: <a href="https://www.opinion.com.bo/articulo/pais/paz-justifica-reduccion-ministerios-porque-habia-mucho-flojo/20260805155051994341.html">Opinión Bolivia</a> y <a href="https://www.urgente.bo">Urgente.bo</a>.</small></p>`,
+        contentEn: `<h1>President Rodrigo Paz defends ministry reduction under state austerity plan</h1>
+<p><em>In public remarks, President Rodrigo Paz Pereira reaffirmed the downsizing of the state apparatus, which slashed the number of cabinet posts to curb bureaucratic overhead.</em></p>
+<p>Following the dissolution of the Planning Ministry, its duties were transferred to the Presidency and Economy Ministries. Paz stated the government needed to become leaner to navigate fiscal challenges.</p>
+<p>Opposition figures raised concerns over power centralization, while government officials maintained the reorganization generates significant fiscal savings.</p>
+<p><small>Source: <a href="https://www.opinion.com.bo/articulo/pais/paz-justifica-reduccion-ministerios-porque-habia-mucho-flojo/20260805155051994341.html">Opinión Bolivia</a> and <a href="https://www.urgente.bo">Urgente.bo</a>.</small></p>`,
+        date: '2026-08-05',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-ministerios.jpg',
+        imageCaption: 'Palacio Quemado y Casa Grande del Pueblo en La Paz. Foto: AP',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'Opinión Bolivia / Urgente.bo',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.opinion.com.bo/articulo/pais/paz-justifica-reduccion-ministerios-porque-habia-mucho-flojo/20260805155051994341.html'
+      },
+      {
+        id: '1049',
+        contentType: 'news',
+        slug: 'bolivia-asume-presidencia-pro-tempore-siesur-integracion-energetica',
+        titleEs: 'Bolivia asume la presidencia pro témpore del SIESUR para impulsar la integración energética',
+        titleEn: 'Bolivia takes over SIESUR pro tempore presidency to advance energy integration',
+        excerptEs: 'El país asumió el liderazgo del Sistema de Integración Energética del Sur, enfocando su gestión en la interconexión eléctrica regional y acuerdos comerciales de gas.',
+        excerptEn: 'The country assumed leadership of the Southern Energy Integration System, prioritizing regional electrical grid connections and natural gas trade deals.',
+        contentEs: `<h1>Bolivia asume la presidencia pro témpore del SIESUR para impulsar la integración energética</h1>
+<p><em>El ministro de Hidrocarburos participó en el encuentro regional donde Bolivia asumió formalmente la presidencia pro témpore del Sistema de Integración Energética del Sur (SIESUR).</em></p>
+<p>Durante la sesión virtual, las autoridades energéticas de la región acordaron avanzar en marcos normativos armonizados para facilitar la exportación e importación de electricidad y gas entre países sudamericanos. Bolivia ratificó su vocación de centro distribuidor de energía.</p>
+<p>La agenda boliviana contempla estudios de factibilidad para nuevos tendidos eléctricos fronterizos con Brasil y Paraguay.</p>
+<p><small>Con información de: <a href="https://larazon.bo/economia-y-empresa/2026/08/13/bolivia-asume-la-presidencia-pro-tempore-del-siesur/">La Razón</a>.</small></p>`,
+        contentEn: `<h1>Bolivia takes over SIESUR pro tempore presidency to advance energy integration</h1>
+<p><em>The Minister of Hydrocarbons represented Bolivia as the nation formally assumed the pro tempore presidency of the Southern Energy Integration System (SIESUR).</em></p>
+<p>During the virtual summit, regional energy ministers agreed to harmonize regulatory frameworks to facilitate cross-border electricity and gas trade across South America.</p>
+<p>Bolivia's tenure will focus on feasibility studies for new power transmission lines connecting with Brazil and Paraguay.</p>
+<p><small>Source: <a href="https://larazon.bo/economia-y-empresa/2026/08/13/bolivia-asume-la-presidencia-pro-tempore-del-siesur/">La Razón</a>.</small></p>`,
+        date: '2026-08-13',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-06-minerales-china-brasil.webp',
+        imageCaption: 'Reunión ministerial virtual del SIESUR. Foto: Ministerio de Hidrocarburos',
+        categoryEs: 'Nacional',
+        categoryEn: 'National',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'La Razón',
+        region: 'Bolivia',
+        sourceUrl: 'https://larazon.bo/economia-y-empresa/2026/08/13/bolivia-asume-la-presidencia-pro-tempore-del-siesur/'
+      },
+      {
+        id: '1050',
+        contentType: 'news',
+        slug: 'alcaldia-la-paz-alerta-riesgo-agua-epsas-desmiente-escasez',
+        titleEs: 'Alcaldía de La Paz advierte posible riesgo de agua por sequía; EPSAS rechaza escasez',
+        titleEn: 'La Paz Municipality warns of potential drought water risks; EPSAS denies shortage',
+        excerptEs: 'Divergencias entre el gobierno municipal y la empresa pública de agua sobre el nivel de las represas reabrieron el debate sobre el uso eficiente del recurso hídrico.',
+        excerptEn: 'Disagreements between city hall and the municipal water company over dam reservoir levels reopened public debate regarding water conservation.',
+        contentEs: `<h1>Alcaldía de La Paz advierte posible riesgo de agua por sequía; EPSAS rechaza escasez</h1>
+<p><em>Autoridades de la Alcaldía paceña emitieron recomendaciones preventivas ante un potencial descenso en las reservas de los embalses que surten a la sede de Gobierno, aunque la empresa administradora EPSAS garantizó el suministro normal.</em></p>
+<p>La Secretaría de Ciudad Verde recomendó a la población evitar el derroche de agua en lavado de vehículos e industrias ante la época seca. Por su parte, técnicos de EPSAS informaron que las represas del sistema Hampaturi e Incachaca cuentan con volumen suficiente para cubrir los próximos meses.</p>
+<p>Ambas instituciones acordaron coordinar monitoreos semanales para evaluar la precipitación pluvial en la cuenca alta.</p>
+<p><small>Con información de: <a href="https://larazon.bo/ciudades/2026/08/11/alcaldia-preve-posible-escasez-de-agua-en-la-paz-epsas-lo-rechaza/">La Razón</a>.</small></p>`,
+        contentEn: `<h1>La Paz Municipality warns of potential drought water risks; EPSAS denies shortage</h1>
+<p><em>La Paz municipal officials issued water-saving guidelines due to seasonal reservoir drops, though water utility EPSAS insisted supplies remain stable.</em></p>
+<p>City environmental officers advised residents to conserve water and restrict non-essential uses. Meanwhile, EPSAS engineers confirmed that major dams supplying the capital hold adequate reserves for upcoming dry months.</p>
+<p>Both bodies agreed to conduct joint weekly inspections to track rainfall patterns in feeder basins.</p>
+<p><small>Source: <a href="https://larazon.bo/ciudades/2026/08/11/alcaldia-preve-posible-escasez-de-agua-en-la-paz-epsas-lo-rechaza/">La Razón</a>.</small></p>`,
+        date: '2026-08-11',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-dolar.jpg',
+        imageCaption: 'Represa de almacenamiento hídrico en La Paz. Foto: La Razón',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'La Razón',
+        region: 'Bolivia',
+        sourceUrl: 'https://larazon.bo/ciudades/2026/08/11/alcaldia-preve-posible-escasez-de-agua-en-la-paz-epsas-lo-rechaza/'
+      },
+      {
+        id: '1051',
+        contentType: 'news',
+        slug: 'productores-agricolas-denuncian-cobros-irregulares-diésel-estaciones-servicio',
+        titleEs: 'Productores agrícolas denuncian sobreprecios de hasta 2 bolivianos por litro de diésel',
+        titleEn: 'Agricultural producers denounce illegal markups of up to 2 bolivianos per liter of diesel',
+        excerptEs: 'Asociaciones agropecuarias enviaron pruebas al Ministerio de Hidrocarburos sobre venta de carburantes por encima del precio oficial en surtidores privados y puestos de reventa.',
+        excerptEn: 'Farmers associations submitted evidence to the Ministry of Hydrocarbons regarding fuel sales above regulated prices at private gas stations.',
+        contentEs: `<h1>Productores agrícolas denuncian sobreprecios de hasta 2 bolivianos por litro de diésel</h1>
+<p><em>Gremiales y pequeños agricultores denunciaron que algunas estaciones de servicio y revendedores independientes exigen sobreprecios de hasta Bs 2 adicionales por litro para entregar diésel.</em></p>
+<p>Las denuncias provocaron el despliegue de operativos de la Agencia Nacional de Hidrocarburos (ANH) y la Fiscalía en puntos críticos de la red vial interprovincial. La entidad reguladora recordó que el precio del diésel subsidiado es fijo y que el cobro excesivo constituye delito de especulación.</p>
+<p>Se dispuso la clausura preventiva de tres estaciones de servicio bajo investigación patrimonial.</p>
+<p><small>Con información de: <a href="https://eldeber.com.bo/economia/gobierno-interviene-ypfb-anuncia-reestructuracion-denuncias-corrupcion_1785953143">El Deber</a>.</small></p>`,
+        contentEn: `<h1>Agricultural producers denounce illegal markups of up to 2 bolivianos per liter of diesel</h1>
+<p><em>Small-scale farmers reported that select gas stations and illicit resellers are charging up to 2 extra bolivianos per liter of diesel above the official rate.</em></p>
+<p>The complaints triggered raids by the National Hydrocarbons Agency (ANH) and prosecutors along key rural transport corridors. Regulators reiterated that state-subsidized fuel prices are fixed by law.</p>
+<p>Three filling stations were temporarily shut down pending financial audits.</p>
+<p><small>Source: <a href="https://eldeber.com.bo/economia/gobierno-interviene-ypfb-anuncia-reestructuracion-denuncias-corrupcion_1785953143">El Deber</a>.</small></p>`,
+        date: '2026-08-06',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-ypfb.jpg',
+        imageCaption: 'Inspección de la ANH en estaciones de servicio. Foto: El Deber',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'El Deber',
+        region: 'Bolivia',
+        sourceUrl: 'https://eldeber.com.bo/economia/gobierno-interviene-ypfb-anuncia-reestructuracion-denuncias-corrupcion_1785953143'
+      },
+      {
+        id: '1052',
+        contentType: 'news',
+        slug: 'senamhi-emite-alerta-roja-vientos-fuertes-santa-cruz',
+        titleEs: 'Senamhi emite alerta roja por vientos de hasta 90 km/h en el departamento de Santa Cruz',
+        titleEn: 'Senamhi issues red alert for strong winds up to 90 km/h in Santa Cruz department',
+        excerptEs: 'El Servicio Nacional de Meteorología e Hidrología advirtió sobre ráfagas de alta intensidad que afectan la navegación aérea, el tendido eléctrico y aumentan el riesgo de incendios.',
+        excerptEn: 'The National Meteorology Service warned of high-velocity wind gusts impacting air travel, power lines, and amplifying wildfire risks.',
+        contentEs: `<h1>Senamhi emite alerta roja por vientos de hasta 90 km/h en el departamento de Santa Cruz</h1>
+<p><em>El Servicio Nacional de Meteorología e Hidrología (Senamhi) declaró alerta roja meteorológica para varias provincias del departamento de Santa Cruz debido al ingreso de un frente con vientos moderados a fuertes.</em></p>
+<p>Se prevén ráfagas de entre 60 y 90 km/h en las provincias Ibáñez, Warnes, Sara, Obispo Santistevan y Cordillera. La ABT y Unidades de Gestión de Riesgos recomendaron suspender quemas agrícolas controladas para prevenir incendios forestales descontrolados.</p>
+<p>Operadores aeroportuarios monitorean la visibilidad en Viru Viru ante eventuales suspensiones de vuelos.</p>
+<p><small>Con información de: <a href="https://www.opinion.com.bo/articulo/pais/senamhi-emite-alerta-roja-vientos-fuertes-jueves-santa-cruz/20260805162903994350.html">Opinión Bolivia</a>.</small></p>`,
+        contentEn: `<h1>Senamhi issues red alert for strong winds up to 90 km/h in Santa Cruz department</h1>
+<p><em>The National Meteorology and Hydrology Service (Senamhi) issued a red weather alert for multiple provinces in Santa Cruz due to an incoming wind front.</em></p>
+<p>Gusts ranging from 60 to 90 km/h are projected across Ibáñez, Warnes, Sara, Obispo Santistevan, and Cordillera provinces. Disaster management units urged a halt to agricultural burning to prevent wildfire outbreaks.</p>
+<p>Airport authorities at Viru Viru are monitoring flight safety conditions.</p>
+<p><small>Source: <a href="https://www.opinion.com.bo/articulo/pais/senamhi-emite-alerta-roja-vientos-fuertes-jueves-santa-cruz/20260805162903994350.html">Opinión Bolivia</a>.</small></p>`,
+        date: '2026-08-05',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-frontera-brasil.jpg',
+        imageCaption: 'Cielo nublado y vientos en Santa Cruz. Foto: Opinión Bolivia',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'Opinión Bolivia',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.opinion.com.bo/articulo/pais/senamhi-emite-alerta-roja-vientos-fuertes-jueves-santa-cruz/20260805162903994350.html'
+      },
       // FIN DE NOTICIAS
     ];
 
