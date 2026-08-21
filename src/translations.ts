@@ -21163,6 +21163,77 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         region: 'Bolivia',
         sourceUrl: 'https://www.opinion.com.bo/articulo/pais/senamhi-emite-alerta-roja-vientos-fuertes-jueves-santa-cruz/20260805162903994350.html'
       },
+      {
+        id: '1053',
+        contentType: 'reportage',
+        slug: 'reportaje-especial-actualizacion-caso-nadia-beller-cerimedo-gobierno-paz',
+        titleEs: 'Caso Nadia Beller y Cerimedo: la encrucijada judicial, las denuncias al entorno gubernamental y el impacto político en el Gobierno de Paz',
+        titleEn: 'Nadia Beller and Cerimedo case: judicial updates, corruption claims against government officials, and the political storm in the Paz administration',
+        excerptEs: 'Reportaje especial sobre los últimos giros en el caso del intento de feminicidio contra Nadia Beller: la prisión preventiva de Fernando Cerimedo, las acusaciones contra mandos policiales y asesores de la Casa Grande del Pueblo, y la crisis política que enfrenta el presidente Rodrigo Paz.',
+        excerptEn: 'Special report on the latest developments in the attempted femicide case of Nadia Beller: Fernando Cerimedo’s pretrial detention, allegations against police commanders and presidential advisors, and the political storm surrounding President Rodrigo Paz.',
+        contentEs: `<h1>Caso Nadia Beller y Cerimedo: la encrucijada judicial, las denuncias al entorno gubernamental y el impacto político en el Gobierno de Paz</h1>
+
+<p><em>REPORTAJE ESPECIAL — A medida que avanzan las investigaciones por el intento de feminicidio contra la abogada y activista Nadia Beller, el caso ha dejado de ser únicamente una causa penal de alta repercusión para convertirse en un terremoto político e institucional. La imputación e instrucción de detención preventiva contra Fernando Cerimedo, exasesor de comunicación estratégica del presidente Rodrigo Paz, ha destapado denuncias de redes de corrupción, presiones a mandos policiales e intensos cuestionamientos dentro del propio Ejecutivo.</em></p>
+
+<h2>1. El avance de la causa penal: imputación por tentativa de feminicidio</h2>
+<p>El Ministerio Público, bajo la dirección del Fiscal General Roger Mariaca, formalizó la imputación contra el estratega digital argentino Fernando Cerimedo bajo la figura de tentativa de feminicidio (Ley 348), solicitando su detención preventiva en un centro penitenciario de máxima seguridad. La calificación penal se fundamentó en la existencia demostrada de un vínculo sentimental previo entre la víctima y el imputado, descartando la tipificación inicial de homicidio en grado de tentativa.</p>
+<p>Según los informes del Instituto de Investigaciones Forenses (IDIF) y las pericias balísticas, la noche del 17 de agosto Beller fue interceptada por dos sicarios disfrazados de repartidores que percutaron cuatro disparos a corta distancia. Las imágenes de videovigilancia y la triangulación de celdas telefónicas fueron piezas clave para sustentar la orden de aprehensión de Cerimedo en el aeropuerto internacional de Viru Viru cuando pretendía abandonar el país.</p>
+
+<h2>2. Las revelaciones de Nadia Beller: seguridad, sospechas y denuncias de corrupción</h2>
+<p>Desde el centro médico y bajo un riguroso esquema de protección policial, Nadia Beller ha mantenido una postura firme. En declaraciones exclusivas a cadenas nacionales como DTV e internacionales como Página/12 y La Nación, Beller sostuvo que salvó la vida fingiendo haber fallecido tras recibir los impactos en el cuello y el tórax.</p>
+<p>Más allá del ataque físico, la abogada lanzó graves acusaciones contra el entorno cercano del presidente Rodrigo Paz, señalando que Cerimedo manejaba información sobre supuestas irregularidades en la adjudicación de contratos públicos y que ejercía influencia sobre grupos de inteligencia policial. "No fue un hecho aislado ni un robo común; hay intereses que buscaban silenciar denuncias de corrupción de alto nivel", afirmó la activista en sus últimas intervenciones públicas.</p>
+
+<h2>3. La postura del Gobierno de Rodrigo Paz: distanciamiento e instrucción de transparencia</h2>
+<p>El presidente de la República, Rodrigo Paz Pereira, hizo público un comunicado oficial en el que expresó su solidaridad con la víctima y ordenó al Ministerio de Gobierno y a la Policía Boliviana brindar "total y absoluta transparencia" sin ningún tipo de blindaje o fuero especial para los investigados.</p>
+<p>El Ejecutivo desvinculó de manera inmediata a Cerimedo de sus funciones de asesoramiento estratégico en la Casa Grande del Pueblo. No obstante, el caso ha desatado duras críticas de la oposición y tensiones internas. El vicepresidente Edmand Lara exigió una purga inmediata en las filas gubernamentales y pidió auditorías independientes sobre todos los contratos en los que tuvo injerencia el asesor argentino.</p>
+
+<h2>4. Repercusiones internacionales y el escenario judicial futuro</h2>
+<p>El caso ha traspasado las fronteras bolivianas. En Argentina, tanto voceros oficiales de la Casa Rosada como referentes del partido La Libertad Avanza se distanciaron categóricamente de Cerimedo, recordando que el consultor ya no formaba parte de la estructura oficial del gobierno de Javier Milei. Paralelamente, organismos de derechos humanos internacionales y el Tribunal Supremo de Justicia (TSJ) de Bolivia han instado a garantizar la celeridad del proceso y la máxima protección para la víctima y sus familiares.</p>
+<p>La audiencia de medidas cautelares definirá los próximos pasos procesales, en medio de un clima de vigilante expectativa pública y un profundo debate sobre la seguridad y el rol de los asesores políticos en la administración del Estado.</p>
+
+<p><small>Con información de: <a href="https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva">Urgente.bo</a>, <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a>, <a href="https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/">La Razón</a>, <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a> y <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>.</small></p>`,
+        contentEn: `<h1>Nadia Beller and Cerimedo case: judicial updates, corruption claims against government officials, and the political storm in the Paz administration</h1>
+
+<p><em>SPECIAL REPORT — As the investigation into the attempted femicide of lawyer and activist Nadia Beller unfolds, the case has escalated from a high-profile criminal trial into an institutional political crisis. The formal indictment and preventive detention order against Fernando Cerimedo, former strategic communications advisor to President Rodrigo Paz, have brought forward allegations of corruption networks, police pressure, and fierce debate within the Executive branch.</em></p>
+
+<h2>1. Criminal Case Progress: Attempted Femicide Charges</h2>
+<p>The Public Prosecutor’s Office, led by Attorney General Roger Mariaca, formally charged Argentine digital strategist Fernando Cerimedo with attempted femicide under Law 348, requesting preventive detention in a high-security prison. The charge was established based on evidence of a prior romantic relationship between the victim and the suspect, overriding initial classifications of attempted murder.</p>
+<p>According to reports from the Institute of Forensic Investigations (IDIF) and ballistics experts, Beller was ambushed on August 17 by two hitmen dressed as delivery drivers who fired four shots at close range. Security camera footage and cell tower triangulation were crucial in issuing Cerimedo’s arrest warrant at Viru Viru International Airport as he attempted to leave the country.</p>
+
+<h2>2. Nadia Beller's Revelations: Protection, Suspicions, and Corruption Allegations</h2>
+<p>Under strict police protection at a medical facility, Nadia Beller has maintained a firm stance. In exclusive interviews with local networks like DTV and international outlets including Página/12 and La Nación, Beller stated she survived by playing dead after being struck in the neck and chest.</p>
+
+<h2>3. Rodrigo Paz Administration Response: Distance and Transparency Instructions</h2>
+<p>President Rodrigo Paz Pereira issued an official statement expressing solidarity with the victim and directing the Ministry of Government and the Bolivian Police to ensure complete transparency without granting immunity to anyone involved.</p>
+<p>The Executive immediately dismissed Cerimedo from his advisory role at the Casa Grande del Pueblo. However, the scandal triggered sharp criticism from opposition leaders and internal friction. Vice President Edmand Lara called for an immediate cabinet audit and independent reviews of all contracts handled during the advisor's tenure.</p>
+
+<h2>4. International Repercussions and Future Judicial Outlook</h2>
+<p>The case has drawn international attention. In Argentina, Casa Rosada spokespersons and leaders of the ruling La Libertad Avanza party distanced themselves from Cerimedo, emphasizing he no longer formed part of Javier Milei's administration. Meanwhile, international human rights organizations and Bolivia's Supreme Tribunal of Justice (TSJ) called for swift proceedings and maximum protection for Beller and her family.</p>
+
+<p><small>Sources: <a href="https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva">Urgente.bo</a>, <a href="https://eldeber.com.bo/pais/rodrigo-paz-solidariza-beller-instruye-investigacion-exhaustiva_1787139757">El Deber</a>, <a href="https://larazon.bo/nacional/2026/08/18/tsj-instruye-que-el-caso-beller-cerimedo-no-sea-reservado/">La Razón</a>, <a href="https://www.lostiempos.com/actualidad/seguridad/20260819/beller-denuncia-esposa-al-entorno-rodrigo-paz-actos-corrupcion">Los Tiempos</a> and <a href="https://www.lanacion.com.ar/politica/quien-es-fernando-cerimedo-el-exasesor-de-javier-milei-detenido-en-bolivia-nid18082026">La Nación</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/beller-hospital-dtv.webp',
+        imageCaption: 'Entrevista a Nadia Beller desde la clínica y reconstrucción judicial del caso. Fotos: DTV / Reuters / El Deber',
+        images: [
+          '/images/blog/caso-nadia-beller/beller-hospital-dtv.webp',
+          '/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp',
+          '/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp',
+          '/images/blog/caso-nadia-beller/tsj-visita-beller.webp',
+          '/images/blog/caso-nadia-beller/relacion-cerimedo-beller.webp'
+        ],
+        categoryEs: 'Nacional',
+        categoryEn: 'National',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Santa Cruz / La Paz, Bolivia',
+        source: 'DTV / Urgente.bo / El Deber / La Razón / Los Tiempos / La Nación',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.urgente.bo/noticia/fiscalia-imputara-cerimedo-por-tentativa-de-feminicidio-y-solicitara-su-detencion-preventiva'
+      },
       // FIN DE NOTICIAS
     ];
 

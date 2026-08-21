@@ -100,4 +100,18 @@
       <news:keywords>Guías y Trámites</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-actualizacion-caso-nadia-beller-cerimedo-gobierno-paz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Caso Nadia Beller y Cerimedo: la encrucijada judicial, las denuncias al entorno gubernamental y el impacto político en el Gobierno de Paz</news:title>
+      <news:keywords>Nacional</news:keywords>
+    </news:news>
+  </url>
 </urlset>
