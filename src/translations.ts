@@ -21323,6 +21323,336 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         region: 'Bolivia',
         sourceUrl: 'https://www.lanacion.com.ar/politica/difunden-nuevos-chats-que-complicarian-a-cerimedo-habla-de-eliminar-a-su-novia-nadia-nid20082026/'
       },
+      {
+        id: '1054',
+        contentType: 'news',
+        slug: 'bcb-advierte-caida-36-economia-bolivia-2026',
+        titleEs: 'BCB advierte que la economía de Bolivia caerá 3,6% en 2026 por falta de divisas y combustibles',
+        titleEn: 'BCB warns Bolivia’s economy will shrink 3.6% in 2026 amid forex and fuel shortages',
+        excerptEs: 'El Banco Central de Bolivia proyecta una contracción del 3,6% para el resto del año y atribuye la desaceleración a la escasez de dólares, la caída de reservas y la crisis de carburantes.',
+        excerptEn: 'The Central Bank of Bolivia forecasts a 3.6% contraction for the rest of the year, blaming dollar shortages, falling reserves and the fuel crisis.',
+        contentEs: `<h1>BCB advierte que la economía de Bolivia caerá 3,6% en 2026 por falta de divisas y combustibles</h1>
+<p><em>El Banco Central de Bolivia (BCB) advirtió que la actividad económica se contraerá 3,6% en lo que resta de 2026, en un contexto marcado por la falta de dólares, la presión sobre las reservas internacionales y los bloqueos por la crisis de carburantes.</em></p>
+<p>Según el reporte citado por <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com</a>, la entidad monetaria vinculó la desaceleración a la menor importación de insumos, la intermitencia en el suministro de diésel y la caída de la inversión pública. El BCB señaló que la normalización del abastecimiento de combustibles y el acceso a financiamiento externo serán determinantes para evitar una caída mayor.</p>
+<p>El pronóstico se conoció mientras el Gobierno busca un acuerdo para la reforma del Presupuesto 2026 y negocia líneas de crédito para recomponer reservas.</p>
+<p><small>Con información de: <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com / BCB</a>.</small></p>`,
+        contentEn: `<h1>BCB warns Bolivia’s economy will shrink 3.6% in 2026 amid forex and fuel shortages</h1>
+<p><em>The Central Bank of Bolivia (BCB) warned economic activity will contract 3.6% through the end of 2026, amid dollar shortages, pressure on international reserves and fuel-supply blockades.</em></p>
+<p>According to <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com</a>, the central bank linked the slowdown to lower imports of inputs, intermittent diesel supply and falling public investment.</p>
+<p><small>Source: <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com / BCB</a>.</small></p>`,
+        date: '2026-08-21',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-dolar.jpg',
+        imageCaption: 'Casa de cambio en La Paz. Foto: Archivo',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'bolivia.com / BCB',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.bolivia.com/actualidad/economia/noticias/'
+      },
+      {
+        id: '1055',
+        contentType: 'news',
+        slug: 'dictan-detencion-preventiva-mario-centellas-90-dias-palmasola',
+        titleEs: 'Dictan detención preventiva de 90 días en Palmasola para Mario Centellas',
+        titleEn: 'Judge orders 90-day preventive detention in Palmasola for Mario Centellas',
+        excerptEs: 'La Justicia dispuso la reclusión preventiva por tres meses mientras avanza la investigación penal en su contra; la defensa anunció apelación.',
+        excerptEn: 'The court ordered three months of preventive detention as the criminal investigation proceeds; the defense will appeal.',
+        contentEs: `<h1>Dictan detención preventiva de 90 días en Palmasola para Mario Centellas</h1>
+<p><em>Un juez cautelar determinó la detención preventiva por 90 días en el penal de Palmasola para Mario Centellas, imputado en una causa penal que el Ministerio Público mantiene en reserva.</em></p>
+<p>Según el reporte de <a href="https://notibol.com/bolivia/local">Notibol</a>, la audiencia se desarrolló el 21 de agosto y la autoridad jurisdiccional consideró concurrentes los riesgos procesales de fuga y obstaculización. La defensa cuestionó la medida y anunció que presentará un recurso de apelación en las próximas horas.</p>
+<p>El caso se suma a otras medidas cautelares dictadas esta semana en Santa Cruz.</p>
+<p><small>Con información de: <a href="https://notibol.com/bolivia/local">Notibol</a>.</small></p>`,
+        contentEn: `<h1>Judge orders 90-day preventive detention in Palmasola for Mario Centellas</h1>
+<p><em>A precautionary judge ordered 90 days of preventive detention in Palmasola prison for Mario Centellas, charged in a criminal case under seal.</em></p>
+<p>According to <a href="https://notibol.com/bolivia/local">Notibol</a>, the hearing on Aug 21 found flight and obstruction risks.</p>
+<p><small>Source: <a href="https://notibol.com/bolivia/local">Notibol</a>.</small></p>`,
+        date: '2026-08-21',
+        readTimeEs: '2 min de lectura',
+        readTimeEn: '2 min read',
+        imageUrl: '/images/news/2026-08-05-palmasola.jpg',
+        imageCaption: 'Penal de Palmasola, Santa Cruz. Foto: Archivo',
+        categoryEs: 'Seguridad',
+        categoryEn: 'Security',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'Notibol',
+        region: 'Bolivia',
+        sourceUrl: 'https://notibol.com/bolivia/local'
+      },
+      {
+        id: '1056',
+        contentType: 'news',
+        slug: 'relatora-onu-preocupada-ley-antibloqueo-hostigamiento-sociedad-civil',
+        titleEs: 'Relatora de la ONU expresa preocupación por ley antibloqueo y hostigamiento a la sociedad civil',
+        titleEn: 'UN rapporteur voices concern over anti-blockade law and harassment of civil society',
+        excerptEs: 'La experta alertó sobre restricciones desproporcionadas a la protesta y pidió al Estado garantizar la participación sin represalias.',
+        excerptEn: 'The expert warned of disproportionate restrictions on protest and urged the State to guarantee participation without retaliation.',
+        contentEs: `<h1>Relatora de la ONU expresa preocupación por ley antibloqueo y hostigamiento a la sociedad civil</h1>
+<p><em>La Relatora Especial de Naciones Unidas manifestó su preocupación por los alcances de la ley antibloqueo y por denuncias de hostigamiento contra organizaciones de la sociedad civil.</em></p>
+<p>De acuerdo con <a href="https://notibol.com/bolivia/local">Notibol</a>, la experta advirtió que la norma podría derivar en sanciones desproporcionadas y en una criminalización de la protesta social, y llamó al Estado a adecuar su aplicación a estándares internacionales de derechos humanos.</p>
+<p>El Gobierno señaló que la ley busca garantizar la libre circulación y que se revisarán los reglamentos observados.</p>
+<p><small>Con información de: <a href="https://notibol.com/bolivia/local">Notibol / ONU</a>.</small></p>`,
+        contentEn: `<h1>UN rapporteur voices concern over anti-blockade law and harassment of civil society</h1>
+<p><em>The UN Special Rapporteur voiced concern over the anti-blockade law and reports of harassment against civil society groups.</em></p>
+<p>According to <a href="https://notibol.com/bolivia/local">Notibol</a>, the expert warned of disproportionate sanctions and criminalization of protest.</p>
+<p><small>Source: <a href="https://notibol.com/bolivia/local">Notibol / UN</a>.</small></p>`,
+        date: '2026-08-21',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-informe.jpg',
+        imageCaption: 'Sede de Naciones Unidas. Foto: ONU',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Ginebra / La Paz, Bolivia',
+        source: 'Notibol / ONU',
+        region: 'Bolivia',
+        sourceUrl: 'https://notibol.com/bolivia/local'
+      },
+      {
+        id: '1057',
+        contentType: 'news',
+        slug: 'cochabamba-inaugura-primera-clinica-publica-mascotas-callejeras',
+        titleEs: 'Cochabamba inaugura la primera clínica pública para mascotas callejeras del país',
+        titleEn: 'Cochabamba opens Bolivia’s first public clinic for stray pets',
+        excerptEs: 'El centro municipal ofrecerá atención veterinaria gratuita, esterilizaciones y adopciones; la Alcaldía anunció que atenderá a animales en situación de calle.',
+        excerptEn: 'The municipal center will offer free veterinary care, sterilizations and adoptions for street animals.',
+        contentEs: `<h1>Cochabamba inaugura la primera clínica pública para mascotas callejeras del país</h1>
+<p><em>La Alcaldía de Cochabamba inauguró la Clínica Veterinaria Municipal, el primer centro público del país dedicado a la atención de mascotas en situación de calle.</em></p>
+<p>Según <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, el establecimiento brindará consultas, desparasitación, vacunación antirrábica y cirugías de esterilización sin costo, además de gestionar adopciones responsables. Autoridades locales indicaron que el servicio priorizará a animales rescatados y a familias de bajos recursos.</p>
+<p>La iniciativa fue destacada por colectivos animalistas que demandaban políticas públicas sostenidas.</p>
+<p><small>Con información de: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
+        contentEn: `<h1>Cochabamba opens Bolivia’s first public clinic for stray pets</h1>
+<p><em>Cochabamba City Hall opened the Municipal Veterinary Clinic, the country’s first public center for street pets.</em></p>
+<p>According to <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, the clinic will provide free consultations, deworming, rabies vaccination and sterilizations.</p>
+<p><small>Source: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
+        date: '2026-08-21',
+        readTimeEs: '2 min de lectura',
+        readTimeEn: '2 min read',
+        imageUrl: '/images/news/2026-08-08-hiroshima.jpg',
+        imageCaption: 'Veterinarios atienden a mascotas. Foto: Referencial',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Cochabamba, Bolivia',
+        source: 'bolivia.com',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.bolivia.com/tag/cochabamba'
+      },
+      {
+        id: '1058',
+        contentType: 'news',
+        slug: 'seis-federaciones-tropico-suspenden-bloqueos-cuarto-intermedio',
+        titleEs: 'Seis Federaciones del Trópico suspenden bloqueos y declaran cuarto intermedio',
+        titleEn: 'Six Federations of the Tropics suspend roadblocks and declare a truce',
+        excerptEs: 'Los dirigentes anunciaron una pausa en las medidas de presión y condicionaron el diálogo a la atención de demandas productivas y energéticas.',
+        excerptEn: 'Leaders announced a pause in pressure measures, conditioning dialogue on productive and energy demands.',
+        contentEs: `<h1>Seis Federaciones del Trópico suspenden bloqueos y declaran cuarto intermedio</h1>
+<p><em>Las Seis Federaciones del Trópico de Cochabamba anunciaron la suspensión de los bloqueos de carreteras y la apertura de un cuarto intermedio para evaluar el diálogo con el Gobierno.</em></p>
+<p>De acuerdo con <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, las organizaciones indicaron que la medida busca evitar mayores perjuicios a productores y transportistas, aunque se declararon en alerta permanente. Entre sus demandas figuran la regularización del suministro de carburantes y la atención a la crisis energética en la zona.</p>
+<p>El Ejecutivo valoró la pausa y convocó a una mesa técnica en las próximas horas.</p>
+<p><small>Con información de: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
+        contentEn: `<h1>Six Federations of the Tropics suspend roadblocks and declare a truce</h1>
+<p><em>The Six Federations of the Cochabamba Tropics announced a suspension of roadblocks and a truce to assess dialogue with the Government.</em></p>
+<p>According to <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, they remain on standby alert.</p>
+<p><small>Source: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
+        date: '2026-08-21',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-05-gobernadores.jpg',
+        imageCaption: 'Dirigentes del Trópico en conferencia de prensa. Foto: Archivo',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Chimoré, Cochabamba, Bolivia',
+        source: 'bolivia.com',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.bolivia.com/tag/cochabamba'
+      },
+      {
+        id: '1059',
+        contentType: 'news',
+        slug: 'suspenden-salidas-buses-la-paz-oruro-cochabamba-nevadas',
+        titleEs: 'Intensas nevadas obligan a suspender salidas de buses en La Paz, Oruro y Cochabamba',
+        titleEn: 'Heavy snowfall forces suspension of bus departures in La Paz, Oruro and Cochabamba',
+        excerptEs: 'La Terminal de Buses y la ABC reportaron cierres temporales de tramos interdepartamentales por nieve y hielo en la vía.',
+        excerptEn: 'Bus terminals and highway authorities reported temporary closures of interdepartmental stretches due to snow and ice.',
+        contentEs: `<h1>Intensas nevadas obligan a suspender salidas de buses en La Paz, Oruro y Cochabamba</h1>
+<p><em>Las intensas nevadas registradas en el occidente del país obligaron a suspender de manera temporal las salidas de buses interdepartamentales desde La Paz, Oruro y Cochabamba.</em></p>
+<p>Según reportes de <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a> y <a href="https://www.lostiempos.com/">Los Tiempos</a>, la Administradora Boliviana de Carreteras (ABC) desplegó maquinaria para despejar la vía y recomendó a los conductores postergar viajes hasta la habilitación de los tramos.</p>
+<p>El Senamhi mantiene alerta por vientos y nevadas en la zona andina.</p>
+<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a>.</small></p>`,
+        contentEn: `<h1>Heavy snowfall forces suspension of bus departures in La Paz, Oruro and Cochabamba</h1>
+<p><em>Heavy snowfall in western Bolivia forced temporary suspension of interdepartmental bus departures from La Paz, Oruro and Cochabamba.</em></p>
+<p>According to <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a>, the highway authority deployed machinery to clear routes.</p>
+<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a>.</small></p>`,
+        date: '2026-08-18',
+        readTimeEs: '2 min de lectura',
+        readTimeEn: '2 min read',
+        imageUrl: '/images/news/2026-08-05-frontera-brasil.jpg',
+        imageCaption: 'Carretera cubierta de nieve en el occidente. Foto: ABC',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz / Oruro / Cochabamba, Bolivia',
+        source: 'El Día',
+        region: 'Bolivia',
+        sourceUrl: 'https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html'
+      },
+      {
+        id: '1060',
+        contentType: 'news',
+        slug: 'informe-medico-nadia-beller-embarazada-cerimedo-padre',
+        titleEs: 'Informe médico revela que Nadia Beller cursa cuatro semanas de embarazo; Cerimedo sería el padre',
+        titleEn: 'Medical report reveals Nadia Beller is four weeks pregnant; Cerimedo would be the father',
+        excerptEs: 'El documento forense conocido tras su internación en Santa Cruz reaviva el debate sobre el vínculo entre la víctima y el exasesor presidencial.',
+        excerptEn: 'The forensic document released after her hospitalization in Santa Cruz reignites debate over the victim’s relationship with the ex-presidential adviser.',
+        contentEs: `<h1>Informe médico revela que Nadia Beller cursa cuatro semanas de embarazo; Cerimedo sería el padre</h1>
+<p><em>Un informe médico conocido tras la internación de Nadia Beller en una clínica privada de Santa Cruz indica que la activista cursa aproximadamente cuatro semanas de embarazo y señala a Fernando Cerimedo como presunto padre.</em></p>
+<p>Según <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>, el documento fue obtenido en el marco de la investigación por tentativa de feminicidio y ya forma parte del cuaderno de investigación. La defensa de Cerimedo cuestionó la conclusión y pidió pericias complementarias.</p>
+<p>La Fiscalía indicó que el estado de gestación será valorado como agravante conforme a la Ley 348.</p>
+<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>.</small></p>`,
+        contentEn: `<h1>Medical report reveals Nadia Beller is four weeks pregnant; Cerimedo would be the father</h1>
+<p><em>A medical report after Nadia Beller’s hospitalization in Santa Cruz indicates she is about four weeks pregnant and names Fernando Cerimedo as the alleged father.</em></p>
+<p>According to <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>, the document is already part of the attempted femicide file.</p>
+<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>.</small></p>`,
+        date: '2026-08-18',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/blog/caso-nadia-beller/beller-hospital-dtv.webp',
+        imageCaption: 'Nadia Beller permanece internada en Santa Cruz. Foto: El Día',
+        categoryEs: 'Seguridad',
+        categoryEn: 'Security',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'El Día',
+        region: 'Bolivia',
+        sourceUrl: 'https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html'
+      },
+      {
+        id: '1061',
+        contentType: 'news',
+        slug: 'santa-cruz-amplia-horarios-perdonazo-tributario-31-agosto',
+        titleEs: 'Municipio cruceño amplía horarios para facilitar el perdonazo tributario hasta el 31 de agosto',
+        titleEn: 'Santa Cruz municipality extends hours to facilitate tax amnesty until Aug 31',
+        excerptEs: 'La atención será de lunes a viernes hasta las 18:00 y sábados hasta el mediodía para el pago de impuestos de vehículos e inmuebles.',
+        excerptEn: 'Service will run Mon-Fri until 6pm and Saturdays until noon for vehicle and property taxes.',
+        contentEs: `<h1>Municipio cruceño amplía horarios para facilitar el perdonazo tributario hasta el 31 de agosto</h1>
+<p><em>El Gobierno Autónomo Municipal de Santa Cruz de la Sierra amplió los horarios de atención para facilitar el acceso al perdonazo y la regularización tributaria.</em></p>
+<p>Según <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>, la atención se extenderá hasta el 31 de agosto, de lunes a viernes de 08:00 a 18:00 y los sábados de 08:00 a 12:00, para el pago de impuestos de vehículos, inmuebles y patentes con condonación de multas e intereses.</p>
+<p>La comuna llamó a los contribuyentes a regularizar sus deudas antes del vencimiento del beneficio.</p>
+<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>.</small></p>`,
+        contentEn: `<h1>Santa Cruz municipality extends hours to facilitate tax amnesty until Aug 31</h1>
+<p><em>Santa Cruz City Hall extended service hours to facilitate access to the tax amnesty.</em></p>
+<p>According to <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>, service will run until Aug 31, Mon-Fri 08:00-18:00 and Sat 08:00-12:00.</p>
+<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>.</small></p>`,
+        date: '2026-08-18',
+        readTimeEs: '2 min de lectura',
+        readTimeEn: '2 min read',
+        imageUrl: '/images/news/2026-08-05-informe.jpg',
+        imageCaption: 'Contribuyentes hacen fila para el perdonazo. Foto: El Día',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'El Día',
+        region: 'Bolivia',
+        sourceUrl: 'https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html'
+      },
+      {
+        id: '1062',
+        contentType: 'news',
+        slug: 'paz-propone-ayllus-potosi-oruro-socios-agromineria',
+        titleEs: 'Presidente Paz propone a ayllus de Potosí y Oruro ser socios de inversión agrominera',
+        titleEn: 'President Paz proposes ayllus of Potosí and Oruro become agromining investment partners',
+        excerptEs: 'El mandatario planteó un modelo de participación comunitaria en proyectos de agregados y fertilizantes para el altiplano sur.',
+        excerptEn: 'The president proposed a community participation model in aggregates and fertilizer projects for the southern highlands.',
+        contentEs: `<h1>Presidente Paz propone a ayllus de Potosí y Oruro ser socios de inversión agrominera</h1>
+<p><em>El presidente Rodrigo Paz propuso a los ayllus de Potosí y Oruro constituirse como socios de inversiones en proyectos agromineros destinados a la producción de fertilizantes y materiales para el agro.</em></p>
+<p>Según <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>, el planteamiento busca que las comunidades originarias participen de las utilidades y de la toma de decisiones, bajo un esquema de economía comunitaria y sostenibilidad.</p>
+<p>Dirigentes de los ayllus valoraron la propuesta y pidieron detalles sobre el marco normativo y la distribución de beneficios.</p>
+<p><small>Con información de: <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>.</small></p>`,
+        contentEn: `<h1>President Paz proposes ayllus of Potosí and Oruro become agromining investment partners</h1>
+<p><em>President Rodrigo Paz proposed that the ayllus of Potosí and Oruro become partners in agromining investments for fertilizer production.</em></p>
+<p>According to <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>, the model seeks community profit-sharing.</p>
+<p><small>Source: <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-08-hiroshima.jpg',
+        imageCaption: 'Comunarios de ayllus del altiplano. Foto: El Mundo',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Potosí / Oruro, Bolivia',
+        source: 'El Mundo',
+        region: 'Bolivia',
+        sourceUrl: 'https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/'
+      },
+      {
+        id: '1063',
+        contentType: 'news',
+        slug: 'cinco-animales-silvestres-recuperados-vuelven-habitat-natural',
+        titleEs: 'Cinco animales silvestres recuperados vuelven a su hábitat natural en Santa Cruz',
+        titleEn: 'Five rescued wild animals return to their natural habitat in Santa Cruz',
+        excerptEs: 'La Gobernación liberó ejemplares rehabilitados tras rescates por tráfico y tenencia ilegal; activan campaña preventiva.',
+        excerptEn: 'The Governor’s Office released rehabilitated animals rescued from trafficking and illegal possession.',
+        contentEs: `<h1>Cinco animales silvestres recuperados vuelven a su hábitat natural en Santa Cruz</h1>
+<p><em>Cinco animales silvestres rescatados del tráfico y la tenencia ilegal fueron reintroducidos a su hábitat natural en áreas protegidas de Santa Cruz tras un proceso de rehabilitación.</em></p>
+<p>Según <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>, la Gobernación, a través de la Dirección de Medio Ambiente, liberó a los ejemplares luego de evaluaciones veterinarias y anunció una campaña de sensibilización para prevenir la captura y comercialización de fauna.</p>
+<p>Las autoridades pidieron a la población denunciar el tráfico de especies.</p>
+<p><small>Con información de: <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>.</small></p>`,
+        contentEn: `<h1>Five rescued wild animals return to their natural habitat in Santa Cruz</h1>
+<p><em>Five wild animals rescued from trafficking were reintroduced to protected areas in Santa Cruz after rehabilitation.</em></p>
+<p>According to <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>, the Governor’s Office released them after veterinary checks.</p>
+<p><small>Source: <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '2 min de lectura',
+        readTimeEn: '2 min read',
+        imageUrl: '/images/news/2026-08-08-tigre-amur.jpg',
+        imageCaption: 'Liberación de fauna silvestre en Santa Cruz. Foto: Gobernación',
+        categoryEs: 'Medio Ambiente',
+        categoryEn: 'Environment',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz, Bolivia',
+        source: 'El Mundo',
+        region: 'Bolivia',
+        sourceUrl: 'https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/'
+      },
       // FIN DE NOTICIAS
     ];
 

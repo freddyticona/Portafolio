@@ -12,12 +12,12 @@
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>“La eliminamos ya o estamos jodidos” y cuatro aprehendidos: los chats filtrados que hunden a Cerimedo y el nuevo operativo por el intento de feminicidio de Nadia Beller</news:title>
+      <news:title>Caso Beller: chats “la eliminamos” y 4 arrestos acorralan a Cerimedo</news:title>
       <news:keywords>Nacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</loc>
+    <loc>https://freddydev.net/noticias/bcb-advierte-caida-36-economia-bolivia-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Claude marcará de forma invisible cada texto y archivo que genere: así funciona la marca de agua de Anthropic</news:title>
-      <news:keywords>Especial</news:keywords>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>BCB advierte que la economía de Bolivia caerá 3,6% en 2026 por falta de divisas y combustibles</news:title>
+      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/emiratos-suspende-comercio-iran-estrecho-hormuz</loc>
+    <loc>https://freddydev.net/noticias/dictan-detencion-preventiva-mario-centellas-90-dias-palmasola</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -39,13 +39,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Emiratos Árabes suspende todo el comercio y las transacciones financieras con Irán</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>Dictan detención preventiva de 90 días en Palmasola para Mario Centellas</news:title>
+      <news:keywords>Seguridad</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/corea-del-norte-lanza-misiles-agosto-2026</loc>
+    <loc>https://freddydev.net/noticias/relatora-onu-preocupada-ley-antibloqueo-hostigamiento-sociedad-civil</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -53,13 +53,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Corea del Norte lanza una decena de misiles al mar, horas después del plan de Trump de reunirse con Kim</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>Relatora de la ONU expresa preocupación por ley antibloqueo y hostigamiento a la sociedad civil</news:title>
+      <news:keywords>Política</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/israel-admite-que-sus-fuerzas-dispararon-contra-el-auto-de-hind-rajab</loc>
+    <loc>https://freddydev.net/noticias/cochabamba-inaugura-primera-clinica-publica-mascotas-callejeras</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -67,13 +67,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Israel admite por primera vez que sus fuerzas dispararon contra el auto de Hind Rajab, la niña de 5 años, y abre una investigación</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>Cochabamba inaugura la primera clínica pública para mascotas callejeras del país</news:title>
+      <news:keywords>Sociedad</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/harry-meghan-regresan-reino-unido</loc>
+    <loc>https://freddydev.net/noticias/seis-federaciones-tropico-suspenden-bloqueos-cuarto-intermedio</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -81,37 +81,9 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Príncipe Harry y Meghan se mudarán al Reino Unido este mes e inscribirán a sus hijos en escuelas británicas</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/ebola-supera-los-5000-casos-congo</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Ébola en República Democrática del Congo: el brote supera los 5.000 casos confirmados</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/guias/guia-multas-transito-consulta-placa-bolivia-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-20</news:publication_date>
-      <news:title>Multas de tránsito en Bolivia: cómo consultar deudas e infracciones por placa (2026)</news:title>
-      <news:keywords>Guías y Trámites</news:keywords>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>Seis Federaciones del Trópico suspenden bloqueos y declaran cuarto intermedio</news:title>
+      <news:keywords>Política</news:keywords>
     </news:news>
   </url>
 </urlset>

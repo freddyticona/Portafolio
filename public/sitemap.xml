@@ -91,6 +91,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/bcb-advierte-caida-36-economia-bolivia-2026</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/dictan-detencion-preventiva-mario-centellas-90-dias-palmasola</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/relatora-onu-preocupada-ley-antibloqueo-hostigamiento-sociedad-civil</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cochabamba-inaugura-primera-clinica-publica-mascotas-callejeras</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/seis-federaciones-tropico-suspenden-bloqueos-cuarto-intermedio</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/especial-marca-de-agua-texto-claude-anthropic</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -131,6 +161,18 @@
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/paz-propone-ayllus-potosi-oruro-socios-agromineria</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cinco-animales-silvestres-recuperados-vuelven-habitat-natural</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://freddydev.net/noticias/especial-repercusiones-internacionales-caso-beller-cerimedo</loc>
@@ -284,6 +326,24 @@
   </url>
   <url>
     <loc>https://freddydev.net/noticias/santa-cruz-plantea-importacion-directa-combustible-frente-desabastecimiento</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/suspenden-salidas-buses-la-paz-oruro-cochabamba-nevadas</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/informe-medico-nadia-beller-embarazada-cerimedo-padre</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/santa-cruz-amplia-horarios-perdonazo-tributario-31-agosto</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
