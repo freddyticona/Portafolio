@@ -22472,6 +22472,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <li><strong>Infraestructura nuclear:</strong> La autoridad reguladora confirmó que las centrales de Onagawa y Fukushima Daiichi no registraron anomalías.</li>
 </ul>
 <p>Las imágenes difundidas por las cadenas NHK y TV Asahi mostraron estanterías colapsadas en supermercados de Sendai y pasajeros refugiados bajo las mesas de la estación de Tokio. En redes sociales, el hashtag #earthquake se convirtió en tendencia nacional con miles de videos grabados desde cámaras de seguridad que captaron el balanceo de rascacielos en la capital.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Video en directo:</strong> La cobertura en vivo con imágenes aéreas de Sendai y Tokio puede revisarse en el canal oficial de YouTube de <a href="https://www.youtube.com/@NHKWORLDJAPAN" target="_blank" rel="noopener noreferrer">NHK World-Japan</a>, que emitió la señal continua del sismo con traducción simultánea al inglés.</li>
+  <li><strong>X / Twitter oficial:</strong> La <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener noreferrer">Agencia Meteorológica de Japón (JMA)</a> publicó los boletines técnicos con hipocentro, magnitud y mapa de intensidad shindo por prefectura; sus avisos se replican minuto a minuto en la cuenta institucional del gabinete japonés @Kantei_Saigai.</li>
+  <li><strong>Guía oficial de preparación sísmica:</strong> El <a href="https://www.bousai.go.jp/" target="_blank" rel="noopener noreferrer">Gabinete de Gestión de Desastres de Japón</a> mantiene el manual gratuito "Tokyo Bousai", el afiche-guía ilustrado de preparación para terremotos distribuido a todos los hogares de la capital.</li>
+  <li><strong>Experto consultado:</strong> Sismólogos de la <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener noreferrer">Universidad de Tokio</a> y del <a href="https://www.eri.u-tokyo.ac.jp/en/" target="_blank" rel="noopener noreferrer">Earthquake Research Institute</a> explicaron en rueda de prensa el mecanismo de subducción de la placa del Pacífico bajo Okhotsk.</li>
+  <li><strong>Infografía y mapas:</strong> El portal de mapas de intensidad sísmica de la JMA (JMA Seismic Intensity) permite consultar la distribución exacta del shindo 4 registrado en Tohoku.</li>
+  <li><strong>Agencia:</strong> Despacho original de la <a href="https://www.apnews.com/" target="_blank" rel="noopener noreferrer">Associated Press (AP)</a> con el balance de heridos de la Agencia Nacional de Policía.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.apnews.com/" target="_blank" rel="noopener noreferrer">AP</a>, <a href="https://www3.nhk.or.jp/nhkworld/" target="_blank" rel="noopener noreferrer">NHK</a> y Agencia Meteorológica de Japón.</small></p>`,
         contentEn: `<h1>A magnitude 5.9 earthquake shakes eastern Japan, leaving at least five injured</h1>
 <p><em>A magnitude 5.9 earthquake struck eastern Japan on Sunday afternoon, leaving at least five people injured according to the National Police Agency, cited by AP. The quake was felt with intensity 4 on the Japanese shindo scale across Tohoku prefectures and lightly in Tokyo.</em></p>
@@ -22480,6 +22489,14 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Aftershocks:</strong> Quakes below magnitude 5 expected during the coming week.</li>
   <li><strong>Seismic context:</strong> Japan records 18% of the world's magnitude-6+ earthquakes.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Live video:</strong> Continuous quake coverage with aerial imagery of Sendai and Tokyo is available on the <a href="https://www.youtube.com/@NHKWORLDJAPAN" target="_blank" rel="noopener noreferrer">NHK World-Japan</a> official YouTube channel.</li>
+  <li><strong>Official X / Twitter:</strong> The <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener noreferrer">Japan Meteorological Agency (JMA)</a> published technical bulletins with hypocenter, magnitude and shindo intensity maps per prefecture.</li>
+  <li><strong>Official preparedness guide:</strong> Japan’s <a href="https://www.bousai.go.jp/" target="_blank" rel="noopener noreferrer">Disaster Management Cabinet Office</a> distributes the illustrated "Tokyo Bousai" earthquake handbook to every household.</li>
+  <li><strong>Experts:</strong> Seismologists from the <a href="https://www.eri.u-tokyo.ac.jp/en/" target="_blank" rel="noopener noreferrer">Earthquake Research Institute, University of Tokyo</a> briefed reporters on the Pacific plate subduction mechanism.</li>
+  <li><strong>Wire:</strong> Original <a href="https://www.apnews.com/" target="_blank" rel="noopener noreferrer">Associated Press (AP)</a> dispatch with the National Police Agency casualty count.</li>
 </ul>
 <p><small>Source: <a href="https://www.apnews.com/" target="_blank" rel="noopener noreferrer">AP</a>, <a href="https://www3.nhk.or.jp/nhkworld/" target="_blank" rel="noopener noreferrer">NHK</a> and Japan Meteorological Agency.</small></p>`,
         date: '2026-08-23',
@@ -22518,6 +22535,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>Una monarquía popular y un rey deportista</h2>
 <p>Harald V reina desde 1991, tras la muerte de su padre, el rey Olaf V. Es bisnieto de la reina Victoria de Inglaterra y fue el primer monarca noruego nacido en suelo nacional en más de cinco siglos. Conocido por su cercanía y su pasión deportiva —participó en tres Juegos Olímpicos de vela (1964, 1968 y 1972)—, su popularidad supera de manera sostenida el 80% en los sondeos nacionales, según el instituto demoscópico Norstat.</p>
 <p>La televisión pública NRK emitió especiales sobre la vida del monarca durante todo el domingo, y cientos de ciudadanos depositaron flores y velas frente a las rejas del palacio real de Oslo, imágenes ampliamente compartidas en redes sociales bajo el hashtag <strong>#GetWellKingHarald</strong>.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Comunicado oficial:</strong> La <a href="https://www.kongehuset.no/" target="_blank" rel="noopener noreferrer">Casa Real de Noruega</a> publicó el parte médico en noruego e inglés, actualizado diariamente durante la hospitalización.</li>
+  <li><strong>Video:</strong> El canal de YouTube de <a href="https://www.youtube.com/@nrk" target="_blank" rel="noopener noreferrer">NRK</a> (televisión pública noruega) emitió especiales biográficos sobre el reinado de Harald V e imágenes de las flores depositadas frente al palacio de Oslo.</li>
+  <li><strong>X / Twitter:</strong> La cuenta oficial de la Casa Real @Kongehuset y el primer ministro @jonasgahrstore publicaron los mensajes de agradecimiento y recuperación.</li>
+  <li><strong>Guía médica de referencia:</strong> La ficha clínica de anemia hemolítica de la <a href="https://www.mayoclinic.org/" target="_blank" rel="noopener noreferrer">Mayo Clinic</a> y las guías de práctica clínica de la <a href="https://www.ehaweb.org/" target="_blank" rel="noopener noreferrer">European Hematology Association (EHA)</a> detallan protocolos de tratamiento con corticoides y transfusiones.</li>
+  <li><strong>Expertos consultados:</strong> Hematólogos del <a href="https://oslo-universitetssykehus.no/" target="_blank" rel="noopener noreferrer">Oslo University Hospital</a> explicaron a la prensa escandinava el pronóstico de la enfermedad en pacientes de edad avanzada.</li>
+  <li><strong>Agencia:</strong> Despacho original de <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a> con la confirmación del deterioro clínico.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.nrk.no/" target="_blank" rel="noopener noreferrer">NRK</a> y Casa Real de Noruega.</small></p>`,
         contentEn: `<h1>Norway’s King Harald’s health worsens as he battles hemolytic anemia</h1>
 <p><em>The health of Norway’s 89-year-old King Harald V deteriorated on Sunday, the Royal Palace confirmed in a statement picked up by AFP. The monarch remains hospitalized in Oslo with hemolytic anemia, a blood disorder destroying red blood cells faster than they regenerate.</em></p>
@@ -22526,6 +22552,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Medical history:</strong> The king underwent cancer surgery in 2004 and cardiac treatment in 2020.</li>
   <li><strong>Public support:</strong> Citizens gathered outside Oslo’s royal palace under the #GetWellKingHarald hashtag.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Official statement:</strong> The <a href="https://www.kongehuset.no/" target="_blank" rel="noopener noreferrer">Royal House of Norway</a> published the medical bulletin in Norwegian and English, updated daily.</li>
+  <li><strong>Video:</strong> <a href="https://www.youtube.com/@nrk" target="_blank" rel="noopener noreferrer">NRK</a> (Norwegian public broadcaster) aired biographical specials and images of flowers outside the Oslo palace.</li>
+  <li><strong>X / Twitter:</strong> The Royal House @Kongehuset and PM @jonasgahrstore posted official messages.</li>
+  <li><strong>Medical reference:</strong> Hemolytic anemia clinical guides from the <a href="https://www.mayoclinic.org/" target="_blank" rel="noopener noreferrer">Mayo Clinic</a> and the <a href="https://www.ehaweb.org/" target="_blank" rel="noopener noreferrer">European Hematology Association</a>.</li>
+  <li><strong>Experts:</strong> Hematologists at <a href="https://oslo-universitetssykehus.no/" target="_blank" rel="noopener noreferrer">Oslo University Hospital</a> briefed Scandinavian media on elderly prognosis.</li>
+  <li><strong>Wire:</strong> Original <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a> dispatch.</li>
 </ul>
 <p><small>Source: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.nrk.no/" target="_blank" rel="noopener noreferrer">NRK</a> and Norwegian Royal House.</small></p>`,
         date: '2026-08-23',
@@ -22565,6 +22600,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>Antecedentes y presión competitiva en el mercado chino</h2>
 <p>El anuncio se produce en plena guerra de precios y de tecnología en el mercado eléctrico chino, donde Tesla compite frontalmente con BYD, NIO y Xpeng. Los expertos en movilidad señalan que la reputación de calidad se juega cada recall en las redes sociales chinas, donde los videos de fallos de vehículos se viralizan con rapidez. En Weibo, el anuncio acumuló decenas de miles de comentarios en pocas horas, con críticas a la fiabilidad del software y elogios a la rapidez de la actualización remota.</p>
 <p>La SAMR recordó que los fabricantes están obligados a informar de los avances de las reparaciones trimestralmente y que el incumplimiento de un recall puede acarrear multas de hasta el 3% de la facturación local.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Resolución oficial:</strong> La <a href="https://www.samr.gov.cn/" target="_blank" rel="noopener noreferrer">Administración Reguladora de Mercados de China (SAMR)</a> publicó los dos expedientes de recall con números de lote, fechas de fabricación y descripción técnica de los defectos.</li>
+  <li><strong>Guía para propietarios:</strong> El portal de soporte de <a href="https://www.tesla.com/support" target="_blank" rel="noopener noreferrer">Tesla</a> habilitó una página de verificación por VIN donde los conductores chinos consultan si su vehículo está incluido y programan la reparación.</li>
+  <li><strong>Video:</strong> Canales técnicos de automovilismo en YouTube como <a href="https://www.youtube.com/@MKBHD" target="_blank" rel="noopener noreferrer">MKBHD</a> y analistas chinos de movilidad eléctrica publicaron explicaciones del sistema de actualización OTA y del mecanismo de puertas de emergencia.</li>
+  <li><strong>X / Twitter:</strong> Elon Musk (@elonmusk) y la cuenta oficial @Tesla respondieron a usuarios sobre el alcance del recall; en Weibo, la cuenta de Tesla China acumuló decenas de miles de comentarios.</li>
+  <li><strong>Informe financiero:</strong> El análisis de coste de <a href="https://www.bloomberg.com/" target="_blank" rel="noopener noreferrer">Bloomberg Intelligence</a> estima el impacto de 400-700 millones de dólares para la compañía.</li>
+  <li><strong>Expertos consultados:</strong> Analistas de movilidad eléctrica del mercado chino compararon el recall con los retiros de BYD, NIO y Xpeng en la última década.</li>
+  <li><strong>Agencias:</strong> Despachos de <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener noreferrer">Reuters</a> y Europa Press.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener noreferrer">Reuters</a>, Europa Press y SAMR.</small></p>`,
         contentEn: `<h1>Tesla recalls five million vehicles in China over two safety defects</h1>
 <p><em>China’s State Administration for Market Regulation (SAMR) approved two recalls affecting nearly five million Tesla vehicles, covering Models 3 and Y built between 2019 and 2025.</em></p>
@@ -22573,6 +22618,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Market context:</strong> Tesla’s largest China recall since 2.6 million vehicles in 2023.</li>
   <li><strong>Financial impact:</strong> Analysts estimate costs between $400 and $700 million.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Official filing:</strong> China’s <a href="https://www.samr.gov.cn/" target="_blank" rel="noopener noreferrer">State Administration for Market Regulation (SAMR)</a> published both recall filings with lot numbers, build dates and technical defect descriptions.</li>
+  <li><strong>Owner guide:</strong> <a href="https://www.tesla.com/support" target="_blank" rel="noopener noreferrer">Tesla Support</a> enabled a VIN lookup page for Chinese owners to check eligibility and book repairs.</li>
+  <li><strong>Video:</strong> Tech reviewers like <a href="https://www.youtube.com/@MKBHD" target="_blank" rel="noopener noreferrer">MKBHD</a> and Chinese EV analysts explained the OTA update system and emergency door mechanism.</li>
+  <li><strong>X / Twitter:</strong> @elonmusk and @Tesla replied to users; Tesla China’s Weibo account drew tens of thousands of comments.</li>
+  <li><strong>Financial report:</strong> <a href="https://www.bloomberg.com/" target="_blank" rel="noopener noreferrer">Bloomberg Intelligence</a> cost analysis ($400-700M impact).</li>
+  <li><strong>Wires:</strong> <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener noreferrer">Reuters</a> and Europa Press dispatches.</li>
 </ul>
 <p><small>Source: <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener noreferrer">Reuters</a>, Europa Press and SAMR.</small></p>`,
         date: '2026-08-23',
@@ -22611,6 +22665,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>El tablero diplomático del Mediterráneo oriental</h2>
 <p>Analistas en seguridad del Instituto Elcano y del European Council on Foreign Relations (ECFR) coinciden en que el despliegue tiene una doble función: disuasoria frente a Teherán y de contención de daños diplomáticos, al demostrar a Washington que los aliados europeos protegen las bases estadounidenses en su territorio. Teherán, por su parte, negó tener planes ofensivos contra Grecia y calificó las advertencias de "psicosis mediática orquestada".</p>
 <p>Imágenes satelitales analizadas por investigadores de fuente abierta (OSINT) en la plataforma X muestran la llegada de los remolques de las baterías al aeropuerto de Jania el sábado por la noche, material gráfico replicado por corresponsales de defensa de varios medios internacionales.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Ficha técnica del sistema:</strong> El fabricante <a href="https://www.rtx.com/" target="_blank" rel="noopener noreferrer">RTX (Raytheon)</a> publica la guía completa del MIM-104 Patriot con variantes PAC-2/PAC-3, alcance y capacidades de intercepción.</li>
+  <li><strong>Video:</strong> El canal oficial de la <a href="https://www.youtube.com/@NATO" target="_blank" rel="noopener noreferrer">OTAN en YouTube</a> mantiene material documental sobre despliegues de baterías Patriot en el flanco oriental y el Mediterráneo.</li>
+  <li><strong>X / Twitter:</strong> El Estado Mayor de Defensa griego (@HNDG_mod) y corresponsales de defensa publicaron imágenes satelitales OSINT de la llegada de los remolques al aeropuerto de Jania.</li>
+  <li><strong>Prensa local:</strong> El diario <a href="https://www.kathimerini.gr/" target="_blank" rel="noopener noreferrer">Kathimerini</a> accedió a fuentes militares que detallaron los radares de largo alcance y el enlace con el mando aliado de Nápoles.</li>
+  <li><strong>Expertos consultados:</strong> Analistas del <a href="https://www.realinstitutoelcano.org/" target="_blank" rel="noopener noreferrer">Real Instituto Elcano</a> y del <a href="https://ecfr.eu/" target="_blank" rel="noopener noreferrer">European Council on Foreign Relations (ECFR)</a> valoraron la función disuasoria del despliegue.</li>
+  <li><strong>Agencia:</strong> Despacho original de <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.kathimerini.gr/" target="_blank" rel="noopener noreferrer">Kathimerini</a> y Estado Mayor de Defensa griego.</small></p>`,
         contentEn: `<h1>Greece deploys Patriot air-defense missiles to Crete over potential Iranian attack risk</h1>
 <p><em>The Greek armed forces confirmed the transfer of MIM-104 Patriot missile batteries to Crete, EFE reported, following Western intelligence assessments warning of a potential Iranian attack on allied interests in the eastern Mediterranean.</em></p>
@@ -22619,6 +22682,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>System capability:</strong> PAC-3 variants can intercept aircraft, cruise and tactical ballistic missiles up to 160 km away.</li>
   <li><strong>Regional comparison:</strong> Greece joins Germany, Spain and the Netherlands in forward Patriot deployments.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>System datasheet:</strong> Manufacturer <a href="https://www.rtx.com/" target="_blank" rel="noopener noreferrer">RTX (Raytheon)</a> publishes the full MIM-104 Patriot guide with PAC-2/PAC-3 variants and interception ranges.</li>
+  <li><strong>Video:</strong> The official <a href="https://www.youtube.com/@NATO" target="_blank" rel="noopener noreferrer">NATO YouTube channel</a> hosts documentary footage of Patriot deployments on the eastern flank and Mediterranean.</li>
+  <li><strong>X / Twitter:</strong> Greek Defense Staff (@HNDG_mod) and defense correspondents shared OSINT satellite images of trailers arriving at Chania airport.</li>
+  <li><strong>Local press:</strong> <a href="https://www.kathimerini.gr/" target="_blank" rel="noopener noreferrer">Kathimerini</a> cited military sources on long-range radars and the Naples allied command link.</li>
+  <li><strong>Experts:</strong> Analysts at the <a href="https://www.realinstitutoelcano.org/" target="_blank" rel="noopener noreferrer">Elcano Royal Institute</a> and <a href="https://ecfr.eu/" target="_blank" rel="noopener noreferrer">ECFR</a> assessed the deployment’s deterrent role.</li>
+  <li><strong>Wire:</strong> Original <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a> dispatch.</li>
 </ul>
 <p><small>Source: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.kathimerini.gr/" target="_blank" rel="noopener noreferrer">Kathimerini</a> and Greek Defense Staff.</small></p>`,
         date: '2026-08-23',
@@ -22657,6 +22729,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>Qué dicen los expertos en derecho electoral</h2>
 <p>Constitucionalistas de la Universidad de Kiev y observadores de la OSCE explican que ningún país ha celebrado elecciones generales en una guerra de esta intensidad desde el caso británico de 1945, cuando se votó semanas después del alto el fuego en Europa. Los expertos advierten que unas urnas abiertas con el país en guerra podrían dar a Rusia una herramienta de interferencia: ciberataques a los sistemas de voto, desinformación masiva y ataques físicos a colegios electorales.</p>
 <p>El mandatario reiteró que las elecciones se celebrarán "el primer día en que la seguridad lo permita", y propuso a la oposición crear una comisión nacional conjunta que prepare el marco logístico y jurídico de los futuros comicios.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Video del discurso:</strong> El discurso nocturno íntegro está publicado en el <a href="https://www.youtube.com/@ZelenskyyUaOfficial" target="_blank" rel="noopener noreferrer">canal oficial de YouTube de la Presidencia de Ucrania</a> con subtítulos en inglés.</li>
+  <li><strong>X / Twitter oficial:</strong> La cuenta @ZelenskyyUa difundió la cita textual "un tsunami" junto al video del mensaje; el canal de Telegram presidencial replicó la transcripción completa.</li>
+  <li><strong>Marco legal:</strong> La Constitución de Ucrania y la Ley de Régimen Legal del Estado de Guerra, consultables en el portal del <a href="https://www.president.gov.ua/en" target="_blank" rel="noopener noreferrer">gabinete ucraniano</a>, prohíben comicios bajo ley marcial.</li>
+  <li><strong>Guía de observación electoral:</strong> La <a href="https://www.osce.org/odihr" target="_blank" rel="noopener noreferrer">ODIHR de la OSCE</a> mantiene guías metodológicas sobre condiciones mínimas para celebrar elecciones en contextos de conflicto.</li>
+  <li><strong>Encuestas:</strong> Los sondeos del instituto sociológico Kyiv International Institute (KIIS) sobre intención de voto, con Zaluzhnyi al frente, fueron citados por analistas políticos.</li>
+  <li><strong>Expertos consultados:</strong> Constitucionalistas de la Universidad de Kiev y analistas de la OSCE compararon el caso con las elecciones británicas de 1945.</li>
+  <li><strong>Agencia:</strong> Despacho original de <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.osce.org/" target="_blank" rel="noopener noreferrer">OSCE</a> y Presidencia de Ucrania.</small></p>`,
         contentEn: `<h1>Zelensky says wartime elections would be "a tsunami" that would "fracture Ukraine"</h1>
 <p><em>Ukrainian President Volodymyr Zelensky said Sunday that holding presidential elections during the war with Russia would be "a tsunami" that would "fracture" the country, AFP reported, amid growing external pressure to set an electoral calendar.</em></p>
@@ -22665,6 +22747,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>External pressure:</strong> Some Western diplomats suggest elections would strengthen any peace deal’s legitimacy.</li>
   <li><strong>Expert view:</strong> No country has held general elections amid such intense fighting since Britain in 1945.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Speech video:</strong> The full nightly address is posted on the <a href="https://www.youtube.com/@ZelenskyyUaOfficial" target="_blank" rel="noopener noreferrer">Office of the President of Ukraine</a> official YouTube channel with English subtitles.</li>
+  <li><strong>Official X / Twitter:</strong> @ZelenskyyUa shared the "tsunami" quote with the video; the presidential Telegram channel posted the full transcript.</li>
+  <li><strong>Legal framework:</strong> Ukraine’s Constitution and Martial Law Act, available via the <a href="https://www.president.gov.ua/en" target="_blank" rel="noopener noreferrer">Ukrainian government portal</a>, ban wartime elections.</li>
+  <li><strong>Election observation guide:</strong> <a href="https://www.osce.org/odihr" target="_blank" rel="noopener noreferrer">OSCE/ODIHR</a> methodology guides on minimum conditions for elections in conflict settings.</li>
+  <li><strong>Polls:</strong> Kyiv International Institute (KIIS) voting-intention surveys cited by political analysts.</li>
+  <li><strong>Experts:</strong> Constitutional scholars at Kyiv universities and OSCE analysts compared the case with Britain’s 1945 election.</li>
+  <li><strong>Wire:</strong> Original <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a> dispatch.</li>
 </ul>
 <p><small>Source: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.osce.org/" target="_blank" rel="noopener noreferrer">OSCE</a> and Presidency of Ukraine.</small></p>`,
         date: '2026-08-23',
@@ -22703,6 +22795,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>Qué dice la ciencia del rendimiento: comparación con los grandes récords</h2>
 <p>Fisiólogos del deporte consultados explicaron que mantener 2:42 por kilómetro durante 21 kilómetros implica un consumo máximo de oxígeno (VO2 máx) superior a 85 ml/kg/min y una economía de carrera excepcional, valores comparables a los de Eliud Kipchoge en su maratón "sub-2" de Viena. Los analistas destacaron además el papel de las zapatillas de ruta con placa de fibra de carbono y espuma supercrítica, tecnología que ha acelerado todos los récords de ruta en la última década entre un 2% y un 4%.</p>
 <p>La carrera se disputó con circuito homologado, medición certificada y diferencia de desnivel dentro de la tolerancia del 0,1% exigida por World Athletics, condiciones que garantizan la validez del récord. Las imágenes de la televisión pública argentina mostraron a Kejelcha levantando los brazos en la avenida 9 de Julio ante miles de espectadores, secuencia que se viralizó de inmediato en las redes sociales deportivas.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Resultado oficial y ficha del atleta:</strong> La base de datos de <a href="https://worldathletics.org/" target="_blank" rel="noopener noreferrer">World Athletics</a> homologó el crono de 56:51 y publica la progresión histórica del récord de medio maratón.</li>
+  <li><strong>Video de la llegada:</strong> La transmisión completa con la llegada en la avenida 9 de Julio está disponible en el canal de YouTube de <a href="https://www.youtube.com/@WorldAthletics" target="_blank" rel="noopener noreferrer">World Athletics</a> y en las plataformas de la televisión pública argentina.</li>
+  <li><strong>X / Twitter:</strong> @WorldAthletics confirmó el récord con el certificado de homologación; los organizadores de la carrera publicaron el mapa del circuito y el kilómetro a kilómetro de los parciales.</li>
+  <li><strong>Guía técnica:</strong> El documento de requisitos de homologación de récords de ruta de World Athletics (medición FibreSense, tolerancia de desnivel del 0,1%) detalla por qué la marca es válida.</li>
+  <li><strong>Expertos consultados:</strong> Fisiólogos del deporte explicaron el VO2 máx superior a 85 ml/kg/min requerido para sostener 2:42 por kilómetro, con paralelos al maratón "sub-2" de Eliud Kipchoge en Viena.</li>
+  <li><strong>Comparativa:</strong> La progresión de récords con zapatillas de placa de carbono documentada por analistas de atletismo de ruta (Valencia 2024: 57:31).</li>
+  <li><strong>Medio:</strong> Crónica original de <a href="https://www.elmundo.es/deportes/atletismo.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.elmundo.es/deportes/atletismo.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> y <a href="https://worldathletics.org/" target="_blank" rel="noopener noreferrer">World Athletics</a>.</small></p>`,
         contentEn: `<h1>Kejelcha breaks half-marathon world record in Buenos Aires with 56:51</h1>
 <p><em>Ethiopian long-distance runner Tamirat Kejelcha made history Sunday on the streets of Buenos Aires, setting a new half-marathon world record of 56:51, officially timed and ratified by World Athletics, EL MUNDO reported.</em></p>
@@ -22711,6 +22813,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Record progression:</strong> The previous mark of 57:31 was beaten by 40 seconds, the biggest leap in history.</li>
   <li><strong>Regional impact:</strong> The first ratified absolute athletics world record set in Argentina.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Official result and athlete profile:</strong> The <a href="https://worldathletics.org/" target="_blank" rel="noopener noreferrer">World Athletics</a> database ratified the 56:51 time and tracks the half-marathon record progression.</li>
+  <li><strong>Finish-line video:</strong> The full broadcast with the 9 de Julio avenue finish is available on the <a href="https://www.youtube.com/@WorldAthletics" target="_blank" rel="noopener noreferrer">World Athletics</a> YouTube channel.</li>
+  <li><strong>X / Twitter:</strong> @WorldAthletics confirmed the record with its ratification certificate; organizers published the course map and split times.</li>
+  <li><strong>Technical guide:</strong> World Athletics’ road-record ratification requirements (FibreSense measurement, 0.1% elevation tolerance).</li>
+  <li><strong>Experts:</strong> Sports physiologists explained the 85+ ml/kg/min VO2 max needed to hold 2:42/km, paralleling Eliud Kipchoge’s Vienna sub-2 marathon.</li>
+  <li><strong>Media:</strong> Original <a href="https://www.elmundo.es/deportes/atletismo.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> report.</li>
 </ul>
 <p><small>Source: <a href="https://www.elmundo.es/deportes/atletismo.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> and <a href="https://worldathletics.org/" target="_blank" rel="noopener noreferrer">World Athletics</a>.</small></p>`,
         date: '2026-08-23',
@@ -22749,6 +22860,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>La violencia de colonos, un problema estructural documentado</h2>
 <p>Informes de la Oficina de Coordinación de Asuntos Humanitarios de la ONU (OCHA) y de la organización Yesh Din documentan que más del 90% de las quejas por violencia de colonos terminan archivadas sin acusación, una tasa de impunidad que los expertos en derecho internacional señalan como factor de repetición de los ataques. El video del caso de Hebrón, replicado por corresponsales de Reuters y Al Jazeera, reavivó el debate internacional sobre la protección de la población civil en territorio ocupado.</p>
 <p>El Ministerio de Exteriores de Palestina pidió a la comunidad internacional medidas concretas y no "condenas rituales", mientras la embajada de Estados Unidos en Jerusalén instó a Israel a "rendir cuentas plenamente y con transparencia" en este caso concreto.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Video del ataque:</strong> La grabación original del teléfono móvil, replicada por corresponsales de <a href="https://www.aljazeera.com/" target="_blank" rel="noopener noreferrer">Al Jazeera</a> y Reuters, circula en X/Twitter y fue clave para la apertura de la investigación.</li>
+  <li><strong>Informe de la ONU:</strong> El <a href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer">OCHA oPT</a> publica mensualmente el informe "Protection of Civilians" con el registro de 1.200+ incidentes de violencia de colonos en 2026, con mapas interactivos por gobernación.</li>
+  <li><strong>Guía jurídica:</strong> El informe de la organización israelí <a href="https://www.yesh-din.org/en/" target="_blank" rel="noopener noreferrer">Yesh Din</a> "Law Enforcement on Israeli Soldiers and Settlers" documenta que más del 90% de las quejas termina sin acusación.</li>
+  <li><strong>Informe de derechos humanos:</strong> <a href="https://www.btselem.org/" target="_blank" rel="noopener noreferrer">B'Tselem</a> exigió investigar la inacción de la seguridad del asentamiento durante el ataque.</li>
+  <li><strong>Expertos consultados:</strong> Juristas internacionales de la Universidad de Birzeit y analistas del derecho humanitario explicaron el marco de la Cuarta Convención de Ginebra sobre población civil en territorio ocupado.</li>
+  <li><strong>Agencia:</strong> Despacho original de <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer">OCHA-ONU</a> y <a href="https://www.btselem.org/" target="_blank" rel="noopener noreferrer">B'Tselem</a>.</small></p>`,
         contentEn: `<h1>Two Israeli teenagers arrested for beating an amputee Palestinian in the West Bank</h1>
 <p><em>Israeli police arrested two teenagers from a southern West Bank settlement accused of brutally attacking an amputee Palestinian man near Hebron, EFE reported. The assault, captured on a mobile phone video widely shared on social media, triggered an investigation for nationalist-motivated violence.</em></p>
@@ -22757,6 +22877,15 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Context data:</strong> The UN logged over 1,200 settler-violence incidents against Palestinians in 2026, the highest since 2005.</li>
   <li><strong>Impunity concerns:</strong> Over 90% of settler-violence complaints end without indictment, according to OCHA and Yesh Din.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Attack video:</strong> The original mobile phone footage, shared by <a href="https://www.aljazeera.com/" target="_blank" rel="noopener noreferrer">Al Jazeera</a> and Reuters correspondents, circulated on X/Twitter and triggered the investigation.</li>
+  <li><strong>UN report:</strong> <a href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer">OCHA oPT</a> publishes the monthly "Protection of Civilians" report logging 1,200+ settler-violence incidents in 2026, with interactive maps.</li>
+  <li><strong>Legal guide:</strong> Israeli organization <a href="https://www.yesh-din.org/en/" target="_blank" rel="noopener noreferrer">Yesh Din</a>’s report "Law Enforcement on Israeli Soldiers and Settlers" documents the 90%+ no-indictment rate.</li>
+  <li><strong>Human rights report:</strong> <a href="https://www.btselem.org/" target="_blank" rel="noopener noreferrer">B'Tselem</a> demanded scrutiny of settlement security inaction.</li>
+  <li><strong>Experts:</strong> International law scholars at Birzeit University explained the Fourth Geneva Convention framework on civilians under occupation.</li>
+  <li><strong>Wire:</strong> Original <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a> dispatch.</li>
 </ul>
 <p><small>Source: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer">OCHA-UN</a> and <a href="https://www.btselem.org/" target="_blank" rel="noopener noreferrer">B'Tselem</a>.</small></p>`,
         date: '2026-08-23',
@@ -22795,6 +22924,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>Expertos: prometedor, pero falta validación científica a gran escala</h2>
 <p>Climatólogos de la NASA Langley y de la Universidad de Delft, que participan en programas paralelos de medición satelital de estelas, valoran el avance pero advierten de la necesidad de ensayos controlados de mayor duración: la variabilidad natural de los cirros dificulta aislar el efecto de cada vuelo desviado. También subrayan el riesgo de "transferencia del problema": desviar rutas puede aumentar emisiones de CO2 en algunos tramos, por lo que la optimización debe ser holística.</p>
 <p>La Organización de Aviación Civil Internacional (OACI) confirmó que trabaja en un marco regulatorio internacional para la gestión de estelas, y Google publicó los datasets de entrenamiento del modelo en acceso abierto para la comunidad científica, un gesto que la comunidad de investigación ha celebrado en foros técnicos y en la plataforma X.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Blog oficial del proyecto:</strong> Google publicó los resultados técnicos y los datasets de entrenamiento en acceso abierto en el <a href="https://research.google/blog/" target="_blank" rel="noopener noreferrer">Google Research Blog</a>.</li>
+  <li><strong>Video explicativo:</strong> El canal de YouTube de <a href="https://www.youtube.com/@NASA" target="_blank" rel="noopener noreferrer">NASA</a> y los documentales del Langley Research Center explican cómo se miden las estelas desde satélite y aviones instrumentados.</li>
+  <li><strong>Informe científico de referencia:</strong> El <a href="https://www.ipcc.ch/" target="_blank" rel="noopener noreferrer">IPCC</a> y estudios del <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer">Imperial College London</a> estiman en cerca del 2% la contribución de estelas y cirros inducidos al calentamiento global.</li>
+  <li><strong>Marco regulatorio:</strong> La <a href="https://www.icao.int/" target="_blank" rel="noopener noreferrer">OACI</a> trabaja en el marco internacional de gestión de estelas; sus documentos de trabajo están disponibles en el portal CAEP.</li>
+  <li><strong>X / Twitter:</strong> El equipo de Google Research (@GoogleAI) y climatólogos de la Universidad de Delft (@TUDelft) debatieron públicamente la validación a gran escala.</li>
+  <li><strong>Expertos consultados:</strong> Investigadores de la NASA Langley y de la Universidad Técnica de Delft advirtieron sobre la variabilidad natural de los cirros y el riesgo de transferencia del problema.</li>
+  <li><strong>Medio:</strong> Reportaje original de <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO Ciencia</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a>, <a href="https://www.ipcc.ch/" target="_blank" rel="noopener noreferrer">IPCC</a> y <a href="https://www.icao.int/" target="_blank" rel="noopener noreferrer">OACI</a>.</small></p>`,
         contentEn: `<h1>Blue Skies: Google’s ambitious AI plan to reduce planet-warming airplane contrails</h1>
 <p><em>Google unveiled Sunday the results of Blue Skies, its AI project to minimize aircraft condensation trails, the white streaks science identifies as one of the least-known but most potent drivers of human-caused global warming, EL MUNDO reported.</em></p>
@@ -22803,6 +22942,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Pilot results:</strong> Tests with partner airlines cut contrail radiative energy by over 50% with just a 2% fuel increase.</li>
   <li><strong>Expert caution:</strong> Scientists demand larger controlled trials to isolate effects from natural cirrus variability.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Official project blog:</strong> Google published technical results and open training datasets on the <a href="https://research.google/blog/" target="_blank" rel="noopener noreferrer">Google Research Blog</a>.</li>
+  <li><strong>Explainer video:</strong> <a href="https://www.youtube.com/@NASA" target="_blank" rel="noopener noreferrer">NASA</a>’s YouTube channel and Langley Research Center documentaries explain satellite and instrumented-aircraft contrail measurement.</li>
+  <li><strong>Reference science:</strong> The <a href="https://www.ipcc.ch/" target="_blank" rel="noopener noreferrer">IPCC</a> and <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer">Imperial College London</a> studies estimate contrails and induced cirrus drive ~2% of global warming.</li>
+  <li><strong>Regulatory framework:</strong> <a href="https://www.icao.int/" target="_blank" rel="noopener noreferrer">ICAO</a> working papers on contrail management via its CAEP portal.</li>
+  <li><strong>X / Twitter:</strong> Google Research (@GoogleAI) and Delft climatologists (@TUDelft) debated large-scale validation publicly.</li>
+  <li><strong>Experts:</strong> NASA Langley and TU Delft researchers cautioned on natural cirrus variability and problem-shifting risks.</li>
+  <li><strong>Media:</strong> Original <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO Ciencia</a> report.</li>
 </ul>
 <p><small>Source: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a>, <a href="https://www.ipcc.ch/" target="_blank" rel="noopener noreferrer">IPCC</a> and <a href="https://www.icao.int/" target="_blank" rel="noopener noreferrer">ICAO</a>.</small></p>`,
         date: '2026-08-23',
@@ -22841,6 +22990,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>Qué dicen los biomecánicos y el debate deportivo</h2>
 <p>Biomecánicos del deporte advierten que la comparación es más simbólica que científica: un robot no sufre fatiga muscular ni lesiones de tendones, y su "atletismo" es una prueba de estrés de ingeniería. Aun así, reconocen el valor tecnológico: los avances en control dinámico, materiales y baterías de descarga rápida tienen aplicaciones directas en prótesis deportivas, rescate en desastres y logística.</p>
 <p>Los organizadores de los Juegos Mundiales de Robots anunciaron que la carrera de 100 metros se celebrará con cronometraje homologado y transmisión televisiva global, con cámaras de alta velocidad que permitirán analizar cada fase de la zancada. En las redes sociales, los videos de los ensayos de Lightning superan ya las decenas de millones de reproducciones, con debates apasionados sobre si la máquina "merece" un récord.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Video de los ensayos:</strong> Los videos de las carreras de prueba de Lightning superan las decenas de millones de reproducciones; los organizadores publican los clips oficiales en los canales de los Juegos Mundiales de Robots y en la cuenta de EL MUNDO en YouTube.</li>
+  <li><strong>Referencia del récord humano:</strong> La carrera de Usain Bolt (9,58 segundos, Berlín 2009) puede revisarse con análisis de zancada fotograma a fotograma en el canal oficial de <a href="https://www.youtube.com/@WorldAthletics" target="_blank" rel="noopener noreferrer">World Athletics</a>.</li>
+  <li><strong>Guía técnica de robótica:</strong> Los estándares de robótica humanoide de <a href="https://www.ieee-ras.org/" target="_blank" rel="noopener noreferrer">IEEE Robotics and Automation Society</a> detallan los retos de control dinámico, actuadores de alta densidad de par y locomoción bípeda.</li>
+  <li><strong>X / Twitter:</strong> Ingenieros de robótica y laboratorios como Boston Dynamics (@BostonDynamics) comentaron los avances de control predictivo tras la difusión de los videos.</li>
+  <li><strong>Infografía:</strong> EL MUNDO publicó una infografía comparativa de la anatomía de Lightning (45 kg, zancada de más de 4 metros, aceleración de 15 G) frente a la zancada de Bolt.</li>
+  <li><strong>Expertos consultados:</strong> Biomecánicos del deporte explicaron por qué la comparación es simbólica: el robot no sufre fatiga muscular ni lesiones tendinosas.</li>
+  <li><strong>Medio:</strong> Reportaje original de <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> y organización de los Juegos Mundiales de Robots.</small></p>`,
         contentEn: `<h1>How Lightning was born: the robot designed to beat Usain Bolt</h1>
 <p><em>Named Lightning, weighing 45 kg, with a single goal: run 100 meters faster than any human, including the legendary Usain Bolt. EL MUNDO reconstructed the design process of this titanium biped built for the Robot World Games.</em></p>
@@ -22849,6 +23008,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Human record comparison:</strong> Bolt ran 100m in 9.58s; simulations suggest Lightning can dip below 9.3 seconds.</li>
   <li><strong>Tech spillover:</strong> Advances apply to sports prosthetics, disaster rescue, and logistics.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Trial videos:</strong> Lightning’s test-race videos top tens of millions of views; organizers post official clips on the Robot World Games channels.</li>
+  <li><strong>Human record reference:</strong> Usain Bolt’s 9.58s Berlin 2009 race with frame-by-frame stride analysis is available on <a href="https://www.youtube.com/@WorldAthletics" target="_blank" rel="noopener noreferrer">World Athletics</a>’ official channel.</li>
+  <li><strong>Robotics guide:</strong> <a href="https://www.ieee-ras.org/" target="_blank" rel="noopener noreferrer">IEEE Robotics and Automation Society</a> standards detail humanoid dynamic control and high-torque actuation challenges.</li>
+  <li><strong>X / Twitter:</strong> Robotics engineers and labs like @BostonDynamics commented on predictive-control advances after the videos spread.</li>
+  <li><strong>Infographic:</strong> EL MUNDO published a comparative anatomy graphic (45 kg, 4m+ stride, 15G acceleration) versus Bolt’s stride.</li>
+  <li><strong>Experts:</strong> Sports biomechanists explained why the comparison is symbolic: robots face no muscle fatigue or tendon injuries.</li>
+  <li><strong>Media:</strong> Original <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> report.</li>
 </ul>
 <p><small>Source: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> and Robot World Games organizers.</small></p>`,
         date: '2026-08-23',
@@ -22887,6 +23056,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <h2>El mercado de las reliquias deportivas, un activo de inversión</h2>
 <p>Los analistas del sector explican que las reliquias deportivas de élite se han consolidado como activo alternativo de inversión, con rentabilidades anuales superiores a las del arte clásico en la última década. Fondos especializados y coleccionistas asiáticos y estadounidenses pujarán por la pieza, cuya identidad del comprador se conocerá tras el cierre de la puja en las próximas semanas.</p>
 <p>La NBA y los Chicago Bulls emitieron sendos comunicados celebrando que "objetos con la historia de Jordan sigan inspirando a nuevas generaciones", mientras en las redes sociales el anuncio generó tendencias mundiales con debates sobre el valor patrimonial del deporte frente a su mercantilización.</p>
+<h2>Fuentes, multimedia y recursos para profundizar</h2>
+<ul>
+  <li><strong>Video histórico:</strong> El tiro de Jordan en el sexto partido de las Finales de 1998 puede revisarse en el canal oficial de la <a href="https://www.youtube.com/@NBA" target="_blank" rel="noopener noreferrer">NBA en YouTube</a>, que conserva la retransmisión original de la NBC.</li>
+  <li><strong>Estadísticas y carrera:</strong> La base de datos <a href="https://www.basketball-reference.com/" target="_blank" rel="noopener noreferrer">Basketball Reference</a> documenta los números completos de Jordan en esas Finales contra Utah.</li>
+  <li><strong>Fotografía de archivo:</strong> La agencia <a href="https://www.gettyimages.com/" target="_blank" rel="noopener noreferrer">Getty Images</a> conserva las fotos de la serie que forman parte del fotomatching forense de autenticación de la camiseta.</li>
+  <li><strong>Guía del mercado de coleccionismo:</strong> Los informes anuales del mercado de reliquias deportivas (MCP Auction Yearbook) comparan los récords: Mickey Mantle 12,6 millones (2022) y Maradona 9,3 millones (2022).</li>
+  <li><strong>X / Twitter:</strong> La cuenta @NBA y @ChicagosBulls celebraron la subasta; coleccionistas y casas de pujas publicaron las estimaciones y generaron tendencias mundiales.</li>
+  <li><strong>Expertos consultados:</strong> Especialistas en fotomatching y autenticación de prendas deportivas explicaron el análisis píxel a píxel contra imágenes de archivo.</li>
+  <li><strong>Medio:</strong> Reportaje original de <a href="https://www.elmundo.es/deportes/baloncesto.html" target="_blank" rel="noopener noreferrer">EL MUNDO Baloncesto</a>.</li>
+</ul>
 <p><small>Con información de: <a href="https://www.elmundo.es/deportes/baloncesto.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> y casa de subastas oficial.</small></p>`,
         contentEn: `<h1>Michael Jordan’s 1998 Finals jersey goes to auction with sights set on $100 million</h1>
 <p><em>The red No. 23 jersey Michael Jordan wore during the 1998 NBA Finals — the Chicago Bulls’ sixth and last championship — went to auction Sunday with an unprecedented estimate: organizers expect bids to top $100 million, EL MUNDO reported. That would make it the most expensive sports item ever sold, ahead of the Mickey Mantle card auctioned in 2022 for $12.6 million.</em></p>
@@ -22895,6 +23074,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <ul>
   <li><strong>Market estimate:</strong> Jordan’s 1992 Dream Team jersey sold for $3 million in 2024; the NBA memorabilia market grows over 20% annually.</li>
   <li><strong>Cross-sport comparison:</strong> Maradona’s "Hand of God" shirt reached $9.3 million.</li>
+</ul>
+<h2>Sources, Multimedia and Resources</h2>
+<ul>
+  <li><strong>Historic video:</strong> Jordan’s Game 6 1998 Finals shot is preserved on the official <a href="https://www.youtube.com/@NBA" target="_blank" rel="noopener noreferrer">NBA YouTube channel</a>, keeping the original NBC broadcast.</li>
+  <li><strong>Career stats:</strong> <a href="https://www.basketball-reference.com/" target="_blank" rel="noopener noreferrer">Basketball Reference</a> documents Jordan’s full Finals numbers against Utah.</li>
+  <li><strong>Archive photography:</strong> <a href="https://www.gettyimages.com/" target="_blank" rel="noopener noreferrer">Getty Images</a> holds the series photos used in the jersey’s forensic photomatching.</li>
+  <li><strong>Collectibles market guide:</strong> Annual sports memorabilia market reports compare records: Mickey Mantle $12.6M (2022), Maradona $9.3M (2022).</li>
+  <li><strong>X / Twitter:</strong> @NBA and @ChicagosBulls celebrated the auction; collectors and auction houses posted estimates that trended worldwide.</li>
+  <li><strong>Experts:</strong> Photomatching specialists explained the pixel-by-pixel analysis against archival images.</li>
+  <li><strong>Media:</strong> Original <a href="https://www.elmundo.es/deportes/baloncesto.html" target="_blank" rel="noopener noreferrer">EL MUNDO Baloncesto</a> report.</li>
 </ul>
 <p><small>Source: <a href="https://www.elmundo.es/deportes/baloncesto.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> and official auction house.</small></p>`,
         date: '2026-08-23',
