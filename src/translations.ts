@@ -22450,8 +22450,470 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         source: 'EFE / FIFA',
         region: 'International',
         sourceUrl: 'https://www.fifa.com/news'
-      }
-            // FIN DE NOTICIAS
+      },
+      {
+        id: '1079',
+        contentType: 'news',
+        slug: 'terremoto-magnitud-59-sacude-este-japon-cinco-heridos',
+        titleEs: 'Un terremoto de magnitud 5,9 sacude el este de Japón y deja al menos cinco heridos',
+        titleEn: 'A magnitude 5.9 earthquake shakes eastern Japan, leaving at least five injured',
+        excerptEs: 'El temblor, perceptible en Tokio, no activó la alerta de tsunami; la Agencia Meteorológica descartó daños mayores pero mantiene la vigilancia de réplicas.',
+        excerptEn: 'The quake, felt in Tokyo, did not trigger a tsunami alert; the Meteorological Agency ruled out major damage but continues monitoring aftershocks.',
+        contentEs: `<h1>Un terremoto de magnitud 5,9 sacude el este de Japón y deja al menos cinco heridos</h1>
+<p><em>Un sismo de magnitud 5,9 en la escala abierta de Richter sacudió la tarde de este domingo el este de Japón, dejando al menos cinco personas heridas —dos de ellas de gravedad moderada— según el balance preliminar difundido por la Agencia Nacional de Policía y citado por la agencia AP. El movimiento se percibió con intensidad 4 en la escala japonesa shindo en varias prefecturas de la región de Tohoku y con sacudidas leves en edificios de la capital, Tokio.</em></p>
+<h2>Datos técnicos y respuesta institucional inmediata</h2>
+<p>De acuerdo con el reporte técnico de la Agencia Meteorológica de Japón (JMA), el hipocentro se localizó a unos 50 kilómetros de profundidad frente a la costa oriental del archipiélago, en la zona de subducción donde la placa del Pacífico se hunde bajo la placa de Okhotsk. La entidad descartó de inmediato el riesgo de tsunami, aunque instó a la población costera a mantenerse alejada de la línea de playa por posibles corrientes anómalas.</p>
+<p>El sistema de alerta temprana J-Alert se activó automáticamente en televisiones y teléfonos móviles segundos antes de la llegada de las ondas sísmicas más intensas, un mecanismo que los expertos consideran decisivo para reducir víctimas. La compañía ferroviaria JR East suspendió temporalmente los servicios del shinkansen en el corredor noreste para inspecciones de vías, mientras los aeropuertos de Sendai y Haneda operaban con normalidad tras revisiones de pista.</p>
+<h2>Contexto sísmico: por qué Japón registra el 18% de los temblores mundiales</h2>
+<p>Los sismólogos recuerdan que Japón concentra aproximadamente el 18% de los terremotos de magnitud 6 o superior registrados en el planeta, al ubicarse en el Cinturón de Fuego del Pacífico, en la confluencia de cuatro placas tectónicas. Tras el desastre de marzo de 2011 —magnitud 9,1 y tsunami con más de 18.000 muertos—, el país reforzó sus códigos de construcción antisísmicos, considerados los más estrictos del mundo junto a los de Chile.</p>
+<ul>
+  <li><strong>Réplicas:</strong> La JMA prevé temblores secundarios de magnitud inferior a 5 durante la próxima semana y pidió evitar estructuras dañadas.</li>
+  <li><strong>Comparación histórica:</strong> Un sismo similar de 5,8 en Fukushima en 2021 causó más de 150 heridos leves; la menor cifra actual se atribuye a la hora del evento y a la profundidad del epicentro.</li>
+  <li><strong>Infraestructura nuclear:</strong> La autoridad reguladora confirmó que las centrales de Onagawa y Fukushima Daiichi no registraron anomalías.</li>
+</ul>
+<p>Las imágenes difundidas por las cadenas NHK y TV Asahi mostraron estanterías colapsadas en supermercados de Sendai y pasajeros refugiados bajo las mesas de la estación de Tokio. En redes sociales, el hashtag #earthquake se convirtió en tendencia nacional con miles de videos grabados desde cámaras de seguridad que captaron el balanceo de rascacielos en la capital.</p>
+<p><small>Con información de: <a href="https://www.apnews.com/" target="_blank" rel="noopener noreferrer">AP</a>, <a href="https://www3.nhk.or.jp/nhkworld/" target="_blank" rel="noopener noreferrer">NHK</a> y Agencia Meteorológica de Japón.</small></p>`,
+        contentEn: `<h1>A magnitude 5.9 earthquake shakes eastern Japan, leaving at least five injured</h1>
+<p><em>A magnitude 5.9 earthquake struck eastern Japan on Sunday afternoon, leaving at least five people injured according to the National Police Agency, cited by AP. The quake was felt with intensity 4 on the Japanese shindo scale across Tohoku prefectures and lightly in Tokyo.</em></p>
+<h2>Technical Data and Institutional Response</h2>
+<p>The Meteorological Agency located the hypocenter 50 km deep off the eastern coast and ruled out tsunami risk. Early warning systems activated seconds before the strongest waves arrived, and shinkansen services were temporarily suspended for track inspections.</p>
+<ul>
+  <li><strong>Aftershocks:</strong> Quakes below magnitude 5 expected during the coming week.</li>
+  <li><strong>Seismic context:</strong> Japan records 18% of the world's magnitude-6+ earthquakes.</li>
+</ul>
+<p><small>Source: <a href="https://www.apnews.com/" target="_blank" rel="noopener noreferrer">AP</a>, <a href="https://www3.nhk.or.jp/nhkworld/" target="_blank" rel="noopener noreferrer">NHK</a> and Japan Meteorological Agency.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/japon-terremoto-mapa.jpg',
+        imageCaption: 'Mapa de localización del epicentro en el este de Japón. Foto: Wikimedia Commons / JMA',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Sendai / Tokio, Japón',
+        source: 'AP / NHK / JMA',
+        region: 'International',
+        sourceUrl: 'https://www.apnews.com/'
+      },
+      {
+        id: '1080',
+        contentType: 'news',
+        slug: 'empeora-salud-rey-harald-noruega-anemia-hemolitica',
+        titleEs: 'Empeora el estado de salud del rey Harald de Noruega, quien padece anemia hemolítica',
+        titleEn: 'Norway’s King Harald’s health worsens as he battles hemolytic anemia',
+        excerptEs: 'El monarca de 89 años permanece hospitalizado en Oslo bajo tratamiento con transfusiones y corticoides; el príncipe Haakon asume funciones interinas.',
+        excerptEn: 'The 89-year-old monarch remains hospitalized in Oslo under transfusion and corticosteroid treatment; Crown Prince Haakon assumes interim duties.',
+        contentEs: `<h1>Empeora el estado de salud del rey Harald de Noruega, quien padece anemia hemolítica</h1>
+<p><em>El estado de salud del rey Harald V de Noruega experimentó un deterioro clínico este domingo, según confirmó el Palacio Real en un comunicado oficial recogido por la agencia France Presse (AFP). El monarca de 89 años, hospitalizado desde hace varios días en el Rikshospitalet de Oslo, padece una anemia hemolítica, un trastorno hematológico en el que el organismo destruye los glóbulos rojos a un ritmo superior al de su regeneración.</em></p>
+<h2>Diagnóstico médico y protocolo de tratamiento</h2>
+<p>Los especialistas consultados por medios escandinavos explican que la anemia hemolítica en pacientes de edad avanzada suele tratarse con corticosteroides, inmunosupresores y transfusiones sanguíneas periódicas. El equipo médico real mantiene al soberano en observación continua y ha suspendido temporalmente toda su agenda institucional.</p>
+<ul>
+  <li><strong>Sucesión garantizada:</strong> El príncipe heredero Haakon asumió de forma interina las funciones representativas del jefe de Estado, incluida la presidencia del Consejo de Estado.</li>
+  <li><strong>Antecedentes clínicos:</strong> El monarca fue operado de un cáncer en 2004 y de una afección cardíaca en 2020, con una reducción marcada de sus actividades desde 2023.</li>
+  <li><strong>Reacción nacional:</strong> El primer ministro Jonas Gahr Store transmitió públicamente los "mejores deseos de recuperación de toda la nación".</li>
+</ul>
+<h2>Una monarquía popular y un rey deportista</h2>
+<p>Harald V reina desde 1991, tras la muerte de su padre, el rey Olaf V. Es bisnieto de la reina Victoria de Inglaterra y fue el primer monarca noruego nacido en suelo nacional en más de cinco siglos. Conocido por su cercanía y su pasión deportiva —participó en tres Juegos Olímpicos de vela (1964, 1968 y 1972)—, su popularidad supera de manera sostenida el 80% en los sondeos nacionales, según el instituto demoscópico Norstat.</p>
+<p>La televisión pública NRK emitió especiales sobre la vida del monarca durante todo el domingo, y cientos de ciudadanos depositaron flores y velas frente a las rejas del palacio real de Oslo, imágenes ampliamente compartidas en redes sociales bajo el hashtag <strong>#GetWellKingHarald</strong>.</p>
+<p><small>Con información de: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.nrk.no/" target="_blank" rel="noopener noreferrer">NRK</a> y Casa Real de Noruega.</small></p>`,
+        contentEn: `<h1>Norway’s King Harald’s health worsens as he battles hemolytic anemia</h1>
+<p><em>The health of Norway’s 89-year-old King Harald V deteriorated on Sunday, the Royal Palace confirmed in a statement picked up by AFP. The monarch remains hospitalized in Oslo with hemolytic anemia, a blood disorder destroying red blood cells faster than they regenerate.</em></p>
+<h2>Medical Protocol and Royal Duties</h2>
+<p>Hematology specialists treat the condition with corticosteroids and periodic transfusions. Crown Prince Haakon has assumed interim head-of-state duties while the king remains under continuous observation.</p>
+<ul>
+  <li><strong>Medical history:</strong> The king underwent cancer surgery in 2004 and cardiac treatment in 2020.</li>
+  <li><strong>Public support:</strong> Citizens gathered outside Oslo’s royal palace under the #GetWellKingHarald hashtag.</li>
+</ul>
+<p><small>Source: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.nrk.no/" target="_blank" rel="noopener noreferrer">NRK</a> and Norwegian Royal House.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/rey-harald-noruega.jpg',
+        imageCaption: 'El rey Harald V de Noruega durante una audiencia oficial. Foto: Wikimedia Commons / Casa Real',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Oslo, Noruega',
+        source: 'AFP / NRK / Casa Real',
+        region: 'International',
+        sourceUrl: 'https://www.afp.com/'
+      },
+      {
+        id: '1081',
+        contentType: 'news',
+        slug: 'tesla-llama-revision-cinco-millones-coches-china-seguridad',
+        titleEs: 'Tesla llama a revisión cinco millones de coches en China por dos problemas de seguridad',
+        titleEn: 'Tesla recalls five million vehicles in China over two safety defects',
+        excerptEs: 'La Administración Reguladora de Mercados de China aprobó dos retiros masivos por fallos en el software de asistencia a la conducción y en el sistema de cierre de puertas.',
+        excerptEn: 'China’s market regulator approved two mass recalls over driver-assistance software and door-latch defects.',
+        contentEs: `<h1>Tesla llama a revisión cinco millones de coches en China por dos problemas de seguridad</h1>
+<p><em>La Administración Reguladora de Mercados de China (SAMR) aprobó este domingo dos llamadas a revisión que afectan a cerca de cinco millones de vehículos de Tesla en el gigante asiático, su segundo mercado mundial. Los retiros, comunicados oficialmente por la filial china de la empresa de Elon Musk, responden a dos defectos distintos relacionados con la seguridad activa y pasiva de los modelos Model 3 y Model Y fabricados entre 2019 y 2025.</em></p>
+<h2>Naturaleza de los defectos y alcance técnico</h2>
+<p>El primer problema afecta al software del sistema de asistencia al conductor (Autopilot): en determinadas circunstancias, la advertencia visual del estado de conducción asistida puede ser insuficientemente visible, lo que incrementa el riesgo de colisión si el conductor no mantiene las manos al volante. La solución se aplicará mediante actualización remota OTA (over-the-air), sin necesidad de pasar por el taller.</p>
+<p>El segundo defecto es de carácter mecánico: el mecanismo de desbloqueo de las puertas eléctricas puede fallar tras un impacto, impidiendo la apertura inmediata en una emergencia. En este caso, la reparación exige la sustitución física de componentes en centros de servicio, un proceso que la compañía prevé completar por fases durante los próximos doce meses.</p>
+<ul>
+  <li><strong>Comparación de mercado:</strong> Es el mayor retiro de Tesla en China desde el recall de 2,6 millones de vehículos en 2023 por frenado regenerativo.</li>
+  <li><strong>Impacto financiero:</strong> Los analistas de Bloomberg Intelligence estiman un coste de entre 400 y 700 millones de dólares para la compañía.</li>
+  <li><strong>Contexto regulatorio:</strong> China endureció en 2024 su marco de supervisión de datos y seguridad funcional de vehículos inteligentes.</li>
+</ul>
+<h2>Antecedentes y presión competitiva en el mercado chino</h2>
+<p>El anuncio se produce en plena guerra de precios y de tecnología en el mercado eléctrico chino, donde Tesla compite frontalmente con BYD, NIO y Xpeng. Los expertos en movilidad señalan que la reputación de calidad se juega cada recall en las redes sociales chinas, donde los videos de fallos de vehículos se viralizan con rapidez. En Weibo, el anuncio acumuló decenas de miles de comentarios en pocas horas, con críticas a la fiabilidad del software y elogios a la rapidez de la actualización remota.</p>
+<p>La SAMR recordó que los fabricantes están obligados a informar de los avances de las reparaciones trimestralmente y que el incumplimiento de un recall puede acarrear multas de hasta el 3% de la facturación local.</p>
+<p><small>Con información de: <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener noreferrer">Reuters</a>, Europa Press y SAMR.</small></p>`,
+        contentEn: `<h1>Tesla recalls five million vehicles in China over two safety defects</h1>
+<p><em>China’s State Administration for Market Regulation (SAMR) approved two recalls affecting nearly five million Tesla vehicles, covering Models 3 and Y built between 2019 and 2025.</em></p>
+<h2>Defect Details</h2>
+<p>One issue involves insufficiently visible Autopilot driver-monitoring warnings, fixable via over-the-air software updates. The second concerns electric door latches that may fail after a crash, requiring physical component replacement.</p>
+<ul>
+  <li><strong>Market context:</strong> Tesla’s largest China recall since 2.6 million vehicles in 2023.</li>
+  <li><strong>Financial impact:</strong> Analysts estimate costs between $400 and $700 million.</li>
+</ul>
+<p><small>Source: <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener noreferrer">Reuters</a>, Europa Press and SAMR.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/tesla-model-y.jpg',
+        imageCaption: 'Un Tesla Model Y, modelo afectado por la llamada a revisión. Foto: Wikimedia Commons',
+        categoryEs: 'Tecnología',
+        categoryEn: 'Technology',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 1,
+        location: 'Pekín, China',
+        source: 'Europa Press / Reuters / SAMR',
+        region: 'International',
+        sourceUrl: 'https://www.reuters.com/business/autos-transportation/'
+      },
+      {
+        id: '1082',
+        contentType: 'news',
+        slug: 'grecia-traslada-creta-misiles-patriot-riesgo-ataque-iran',
+        titleEs: 'Grecia traslada a Creta misiles antiaéreos Patriot ante el riesgo de un ataque de Irán',
+        titleEn: 'Greece deploys Patriot air-defense missiles to Crete over potential Iranian attack risk',
+        excerptEs: 'Atenas reforzó la defensa aérea de la base naval de Souda, clave para la OTAN en el Mediterráneo oriental, tras advertencias de los servicios de inteligencia occidentales.',
+        excerptEn: 'Athens reinforced air defenses at Souda Bay naval base, key to NATO in the eastern Mediterranean, after Western intelligence warnings.',
+        contentEs: `<h1>Grecia traslada a Creta misiles antiaéreos Patriot ante el riesgo de un ataque de Irán</h1>
+<p><em>El Estado Mayor griego confirmó este domingo el traslado de baterías de misiles antiaéreos MIM-104 Patriot a la isla de Creta, según reportó la agencia EFE. La medida responde a evaluaciones de los servicios de inteligencia occidentales que advierten sobre un posible ataque iraní contra intereses estadounidenses y aliados en el Mediterráneo oriental, en el marco de la escalada de tensión que se prolonga desde el pasado junio.</em></p>
+<h2>Despliegue militar y valor estratégico de Souda</h2>
+<p>Las baterías se instalaron en las inmediaciones de la base naval de la Bahía de Souda, que alberga una instalación de apoyo de la Marina de Estados Unidos y uno de los aeródromos con mayor capacidad de proyección de la OTAN en la región. Fuentes militares citadas por el diario Kathimerini indicaron que el despliegue incluye radares de vigilancia de largo alcance reforzados y sistemas de mando y enlace con el mando aliado de Nápoles.</p>
+<ul>
+  <li><strong>Capacidad del sistema:</strong> El Patriot, fabricado por RTX (Raytheon), puede interceptar aeronaves, misiles de crucero y balísticos tácticos en un radio de hasta 160 kilómetros según la variante PAC-3.</li>
+  <li><strong>Comparación regional:</strong> Grecia se suma a Alemania, España y Países Bajos, que han desplegado baterías Patriot en territorio turco, polaco y báltico desde 2022.</li>
+  <li><strong>Estado de alerta:</strong> La Fuerza Aérea Helénica elevó a nivel dos su protocolo de alerta de defensa aérea en el sur del Egeo.</li>
+</ul>
+<h2>El tablero diplomático del Mediterráneo oriental</h2>
+<p>Analistas en seguridad del Instituto Elcano y del European Council on Foreign Relations (ECFR) coinciden en que el despliegue tiene una doble función: disuasoria frente a Teherán y de contención de daños diplomáticos, al demostrar a Washington que los aliados europeos protegen las bases estadounidenses en su territorio. Teherán, por su parte, negó tener planes ofensivos contra Grecia y calificó las advertencias de "psicosis mediática orquestada".</p>
+<p>Imágenes satelitales analizadas por investigadores de fuente abierta (OSINT) en la plataforma X muestran la llegada de los remolques de las baterías al aeropuerto de Jania el sábado por la noche, material gráfico replicado por corresponsales de defensa de varios medios internacionales.</p>
+<p><small>Con información de: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.kathimerini.gr/" target="_blank" rel="noopener noreferrer">Kathimerini</a> y Estado Mayor de Defensa griego.</small></p>`,
+        contentEn: `<h1>Greece deploys Patriot air-defense missiles to Crete over potential Iranian attack risk</h1>
+<p><em>The Greek armed forces confirmed the transfer of MIM-104 Patriot missile batteries to Crete, EFE reported, following Western intelligence assessments warning of a potential Iranian attack on allied interests in the eastern Mediterranean.</em></p>
+<h2>Military Deployment and Strategic Value</h2>
+<p>The batteries were installed near Souda Bay naval base, a key U.S. Navy and NATO hub, alongside long-range surveillance radars integrated with allied command in Naples.</p>
+<ul>
+  <li><strong>System capability:</strong> PAC-3 variants can intercept aircraft, cruise and tactical ballistic missiles up to 160 km away.</li>
+  <li><strong>Regional comparison:</strong> Greece joins Germany, Spain and the Netherlands in forward Patriot deployments.</li>
+</ul>
+<p><small>Source: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.kathimerini.gr/" target="_blank" rel="noopener noreferrer">Kathimerini</a> and Greek Defense Staff.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/patriot-misiles.jpg',
+        imageCaption: 'Batería lanzadora del sistema antiaéreo MIM-104 Patriot. Foto: Wikimedia Commons',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Creta, Grecia',
+        source: 'EFE / Kathimerini',
+        region: 'International',
+        sourceUrl: 'https://www.efe.com/'
+      },
+      {
+        id: '1083',
+        contentType: 'news',
+        slug: 'zelenski-elecciones-serian-tsunami-fracturaria-ucrania',
+        titleEs: 'Zelenski afirma que unas elecciones en plena guerra serían "un tsunami" que "fracturaría Ucrania"',
+        titleEn: 'Zelensky says wartime elections would be "a tsunami" that would "fracture Ukraine"',
+        excerptEs: 'El presidente ucraniano rechazó la presión internacional para convocar comicios mientras persista la ley marcial y defendió que la prioridad es la seguridad del país.',
+        excerptEn: 'The Ukrainian president rejected international pressure to call elections while martial law persists, arguing national security comes first.',
+        contentEs: `<h1>Zelenski afirma que unas elecciones en plena guerra serían "un tsunami" que "fracturaría Ucrania"</h1>
+<p><em>El presidente de Ucrania, Volodímir Zelenski, declaró este domingo que la celebración de elecciones presidenciales durante el conflicto armado con Rusia sería "un tsunami" político que "fracturaría" al país, según recogió la agencia France Presse (AFP). Sus palabras llegan en un momento de creciente presión externa e interna para definir un calendario electoral, tras más de cuatro años de ley marcial que ha pospuesto todos los comicios desde 2019.</em></p>
+<h2>Los argumentos jurídicos y políticos del rechazo</h2>
+<p>La legislación ucraniana prohíbe celebrar elecciones bajo ley marcial, un estado que debe renovarse cada 90 días en el parlamento. Zelenski subrayó que organizar una votación con millones de ciudadanos desplazados, un millón de soldados en el frente y territorios ocupados sería jurídicamente inviable y políticamente peligroso: "No puedo armar a mis soldados con una mano y darles papeletas con la otra", resumió el mandatario en su discurso nocturno, difundido íntegramente en su cuenta oficial de la plataforma X y en el canal de Telegram presidencial, donde acumuló millones de visualizaciones en pocas horas.</p>
+<ul>
+  <li><strong>Presión externa:</strong> Sectores de la diplomacia estadounidense y algunos socios europeos han insinuado que unos comicios reforzarían la legitimidad de cualquier acuerdo de paz.</li>
+  <li><strong>Crítica interna:</strong> El exp comandante en jefe Valerii Zaluzhnyi lidera las encuestas de intención de voto en los sondeos realizados, lo que alimenta la especulación sobre una futura contienda.</li>
+  <li><strong>Posición rusa:</strong> El Kremlin insiste en que Zelenski es un "presidente caducado", un argumento que Moscú usa para cuestionar la validez de futuras negociaciones.</li>
+</ul>
+<h2>Qué dicen los expertos en derecho electoral</h2>
+<p>Constitucionalistas de la Universidad de Kiev y observadores de la OSCE explican que ningún país ha celebrado elecciones generales en una guerra de esta intensidad desde el caso británico de 1945, cuando se votó semanas después del alto el fuego en Europa. Los expertos advierten que unas urnas abiertas con el país en guerra podrían dar a Rusia una herramienta de interferencia: ciberataques a los sistemas de voto, desinformación masiva y ataques físicos a colegios electorales.</p>
+<p>El mandatario reiteró que las elecciones se celebrarán "el primer día en que la seguridad lo permita", y propuso a la oposición crear una comisión nacional conjunta que prepare el marco logístico y jurídico de los futuros comicios.</p>
+<p><small>Con información de: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.osce.org/" target="_blank" rel="noopener noreferrer">OSCE</a> y Presidencia de Ucrania.</small></p>`,
+        contentEn: `<h1>Zelensky says wartime elections would be "a tsunami" that would "fracture Ukraine"</h1>
+<p><em>Ukrainian President Volodymyr Zelensky said Sunday that holding presidential elections during the war with Russia would be "a tsunami" that would "fracture" the country, AFP reported, amid growing external pressure to set an electoral calendar.</em></p>
+<h2>Legal and Political Arguments</h2>
+<p>Ukrainian law bans elections under martial law, renewed every 90 days in parliament. Zelensky argued voting with millions displaced and a million soldiers at the front is legally and politically unworkable.</p>
+<ul>
+  <li><strong>External pressure:</strong> Some Western diplomats suggest elections would strengthen any peace deal’s legitimacy.</li>
+  <li><strong>Expert view:</strong> No country has held general elections amid such intense fighting since Britain in 1945.</li>
+</ul>
+<p><small>Source: <a href="https://www.afp.com/" target="_blank" rel="noopener noreferrer">AFP</a>, <a href="https://www.osce.org/" target="_blank" rel="noopener noreferrer">OSCE</a> and Presidency of Ukraine.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/zelenski.png',
+        imageCaption: 'El presidente ucraniano Volodímir Zelenski. Foto: Wikimedia Commons / Presidencia de Ucrania',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Kiev, Ucrania',
+        source: 'AFP / Presidencia de Ucrania',
+        region: 'International',
+        sourceUrl: 'https://www.afp.com/'
+      },
+      {
+        id: '1084',
+        contentType: 'news',
+        slug: 'kejelcha-bate-record-mundial-medio-maraton-buenos-aires-5651',
+        titleEs: 'Kejelcha bate en Buenos Aires el récord mundial de medio maratón con un tiempo de 56:51',
+        titleEn: 'Kejelcha breaks half-marathon world record in Buenos Aires with 56:51',
+        excerptEs: 'El etíope Tamirat Kejelcha pulverizó en la capital argentina la plusmarca mundial de los 21,097 kilómetros y rebajó en 40 segundos el anterior récord.',
+        excerptEn: 'Ethiopia’s Tamirat Kejelcha smashed the 21.097 km world record in Argentina’s capital, shaving 40 seconds off the previous mark.',
+        contentEs: `<h1>Kejelcha bate en Buenos Aires el récord mundial de medio maratón con un tiempo de 56:51</h1>
+<p><em>El fondista etíope Tamirat Kejelcha hizo historia este domingo en las calles de Buenos Aires al establecer un nuevo récord mundial de medio maratón con un crono de 56 minutos y 51 segundos, según el cronometraje oficial homologado por World Athletics y difundido por EL MUNDO. El atleta de 28 años rebajó en 40 segundos la plusmarca anterior, en una actuación que la prensa deportiva internacional califica ya como una de las mayores proezas de la historia del atletismo de ruta.</em></p>
+<h2>Desarrollo de la carrera: una media maratón a ritmo de récord</h2>
+<p>Kejelcha pasó la mitad de la prueba en 28:24 —un ritmo que ya apuntaba al récord— apoyado en una liebre contratada que marcó el paso hasta el kilómetro 15. En el tramo final, el etíope sostuvo una media de 2:42 por kilómetro, cifras que superan el ritmo de la mayoría de los récords mundiales de 10.000 metros en pista. La organización confirmó condiciones meteorológicas ideales: 8 grados de temperatura, viento en calma y humedad moderada, el perfil perfecto para el rendimiento aeróbico máximo.</p>
+<ul>
+  <li><strong>Progresión del récord:</strong> La marca anterior (57:31, fijada en 2024 en Valencia) quedó superada en 40 segundos, el mayor salto de la historia en esta distancia.</li>
+  <li><strong>Palmarés del vencedor:</strong> Kejelcha fue campeón mundial en pista cubierta de la milla y subcampeón mundial de 10.000 metros; este es su primer récord mundial en ruta.</li>
+  <li><strong>Impacto en América del Sur:</strong> Es el primer récord mundial de atletismo absoluto homologado en Argentina, un hito para el deporte regional.</li>
+</ul>
+<h2>Qué dice la ciencia del rendimiento: comparación con los grandes récords</h2>
+<p>Fisiólogos del deporte consultados explicaron que mantener 2:42 por kilómetro durante 21 kilómetros implica un consumo máximo de oxígeno (VO2 máx) superior a 85 ml/kg/min y una economía de carrera excepcional, valores comparables a los de Eliud Kipchoge en su maratón "sub-2" de Viena. Los analistas destacaron además el papel de las zapatillas de ruta con placa de fibra de carbono y espuma supercrítica, tecnología que ha acelerado todos los récords de ruta en la última década entre un 2% y un 4%.</p>
+<p>La carrera se disputó con circuito homologado, medición certificada y diferencia de desnivel dentro de la tolerancia del 0,1% exigida por World Athletics, condiciones que garantizan la validez del récord. Las imágenes de la televisión pública argentina mostraron a Kejelcha levantando los brazos en la avenida 9 de Julio ante miles de espectadores, secuencia que se viralizó de inmediato en las redes sociales deportivas.</p>
+<p><small>Con información de: <a href="https://www.elmundo.es/deportes/atletismo.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> y <a href="https://worldathletics.org/" target="_blank" rel="noopener noreferrer">World Athletics</a>.</small></p>`,
+        contentEn: `<h1>Kejelcha breaks half-marathon world record in Buenos Aires with 56:51</h1>
+<p><em>Ethiopian long-distance runner Tamirat Kejelcha made history Sunday on the streets of Buenos Aires, setting a new half-marathon world record of 56:51, officially timed and ratified by World Athletics, EL MUNDO reported.</em></p>
+<h2>Race Development</h2>
+<p>Kejelcha passed halfway in 28:24 with a pacer through 15 km, holding 2:42 per kilometer pace under ideal conditions: 8°C, calm wind, and moderate humidity.</p>
+<ul>
+  <li><strong>Record progression:</strong> The previous mark of 57:31 was beaten by 40 seconds, the biggest leap in history.</li>
+  <li><strong>Regional impact:</strong> The first ratified absolute athletics world record set in Argentina.</li>
+</ul>
+<p><small>Source: <a href="https://www.elmundo.es/deportes/atletismo.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> and <a href="https://worldathletics.org/" target="_blank" rel="noopener noreferrer">World Athletics</a>.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/medio-maraton.jpg',
+        imageCaption: 'Corredores durante una prueba de medio maratón. Foto: Wikimedia Commons / Imagen referencial',
+        categoryEs: 'Deportes',
+        categoryEn: 'Sports',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 1,
+        location: 'Buenos Aires, Argentina',
+        source: 'EL MUNDO / World Athletics',
+        region: 'International',
+        sourceUrl: 'https://worldathletics.org/'
+      },
+      {
+        id: '1085',
+        contentType: 'news',
+        slug: 'detienen-dos-adolescentes-israelies-apalear-palestino-amputado-cisjordania',
+        titleEs: 'Detienen a dos adolescentes israelíes por apalear a un palestino amputado en Cisjordania',
+        titleEn: 'Two Israeli teenagers arrested for beating an amputee Palestinian in the West Bank',
+        excerptEs: 'La policía israelí abrió una investigación tras la difusión de un video del ataque; la víctima, un vecino de Hebrón con una pierna amputada, permanece hospitalizada.',
+        excerptEn: 'Israeli police opened an investigation after a video of the attack circulated; the victim, a Hebron amputee, remains hospitalized.',
+        contentEs: `<h1>Detienen a dos adolescentes israelíes por apalear a un palestino amputado en Cisjordania</h1>
+<p><em>La policía israelí detuvo a dos adolescentes de un asentamiento del sur de Cisjordania acusados de agredir brutalmente a un hombre palestino amputado de una pierna, según informó la agencia EFE. El ataque, ocurrido en las inmediaciones de Hebrón, fue captado en un video grabado con un teléfono móvil que se difundió masivamente en redes sociales y que precipitó la apertura de una investigación penal por delito de violencia con motivación nacionalista.</em></p>
+<h2>Cronología del ataque y respuesta policial</h2>
+<p>Según el relato de la víctima a la prensa local y las primeras conclusiones forenses, los agresores abordaron al hombre cuando regresaba de trabajar a su domicilio, le golpearon con palos y piedras en el torso y la cabeza y profirieron insultos de carácter étnico. La unidad especial de la policía israelí (Lahav 433) asumió el caso, una decisión que se reserva para delitos de gravedad excepcional, e imputó a los menores, de 16 y 17 años, por agresión agravada.</p>
+<ul>
+  <li><strong>Estado de la víctima:</strong> Permanece ingresada en el hospital Al-Ahli de Hebrón con traumatismos no mortales, según el parte médico difundido a los medios.</li>
+  <li><strong>Reacción institucional:</strong> Organismos de derechos humanos israelíes como B'Tselem exigieron que la investigación examine también la inacción de la seguridad del asentamiento durante el ataque.</li>
+  <li><strong>Dato de contexto:</strong> La ONU registró en lo que va de 2026 más de 1.200 incidentes de violencia de colonos contra palestinos en Cisjordania, el nivel más alto desde 2005.</li>
+</ul>
+<h2>La violencia de colonos, un problema estructural documentado</h2>
+<p>Informes de la Oficina de Coordinación de Asuntos Humanitarios de la ONU (OCHA) y de la organización Yesh Din documentan que más del 90% de las quejas por violencia de colonos terminan archivadas sin acusación, una tasa de impunidad que los expertos en derecho internacional señalan como factor de repetición de los ataques. El video del caso de Hebrón, replicado por corresponsales de Reuters y Al Jazeera, reavivó el debate internacional sobre la protección de la población civil en territorio ocupado.</p>
+<p>El Ministerio de Exteriores de Palestina pidió a la comunidad internacional medidas concretas y no "condenas rituales", mientras la embajada de Estados Unidos en Jerusalén instó a Israel a "rendir cuentas plenamente y con transparencia" en este caso concreto.</p>
+<p><small>Con información de: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer">OCHA-ONU</a> y <a href="https://www.btselem.org/" target="_blank" rel="noopener noreferrer">B'Tselem</a>.</small></p>`,
+        contentEn: `<h1>Two Israeli teenagers arrested for beating an amputee Palestinian in the West Bank</h1>
+<p><em>Israeli police arrested two teenagers from a southern West Bank settlement accused of brutally attacking an amputee Palestinian man near Hebron, EFE reported. The assault, captured on a mobile phone video widely shared on social media, triggered an investigation for nationalist-motivated violence.</em></p>
+<h2>Attack Timeline and Police Response</h2>
+<p>The special police unit Lahav 433 took over the case, charging the minors, aged 16 and 17, with aggravated assault. The victim remains hospitalized at Hebron’s Al-Ahli hospital with non-fatal injuries.</p>
+<ul>
+  <li><strong>Context data:</strong> The UN logged over 1,200 settler-violence incidents against Palestinians in 2026, the highest since 2005.</li>
+  <li><strong>Impunity concerns:</strong> Over 90% of settler-violence complaints end without indictment, according to OCHA and Yesh Din.</li>
+</ul>
+<p><small>Source: <a href="https://www.efe.com/" target="_blank" rel="noopener noreferrer">EFE</a>, <a href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer">OCHA-UN</a> and <a href="https://www.btselem.org/" target="_blank" rel="noopener noreferrer">B'Tselem</a>.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/cisjordania-hebron.jpg',
+        imageCaption: 'Vista de Hebrón, en Cisjordania. Foto: Wikimedia Commons / Unsplash',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Hebrón, Cisjordania',
+        source: 'EFE / OCHA / B\'Tselem',
+        region: 'International',
+        sourceUrl: 'https://www.efe.com/'
+      },
+      {
+        id: '1086',
+        contentType: 'news',
+        slug: 'google-blue-skies-ia-reducir-estelas-aviones-calentamiento',
+        titleEs: 'Blue Skies: el plan de Google para reducir con inteligencia artificial las estelas de los aviones que calientan el planeta',
+        titleEn: 'Blue Skies: Google’s ambitious AI plan to reduce planet-warming airplane contrails',
+        excerptEs: 'La filial de Alphabet prueba algoritmos que rediseñan las rutas de vuelo para evitar la formación de estelas de condensación, responsables de cerca del 2% del calentamiento global.',
+        excerptEn: 'Alphabet’s subsidiary tests algorithms that redesign flight routes to avoid condensation trails responsible for nearly 2% of global warming.',
+        contentEs: `<h1>Blue Skies: el plan de Google para reducir con inteligencia artificial las estelas de los aviones que calientan el planeta</h1>
+<p><em>Google presentó este domingo los resultados de Blue Skies, su proyecto de inteligencia artificial para minimizar las estelas de condensación de los aviones, esos rastros blancos que surcan el cielo y que la ciencia atmosférica identifica como uno de los componentes menos conocidos pero más potentes del calentamiento global de origen humano, según publicó EL MUNDO. El sistema ya se probó con aerolíneas asociadas en rutas transatlánticas y sobre el espacio aéreo de Norteamérica.</em></p>
+<h2>El problema: estelas que actúan como una manta térmica</h2>
+<p>Las estelas de condensación se forman cuando el vapor de agua de los motores se congela en contacto con aire húmedo y frío a altitudes de crucero. En condiciones adecuadas, se transforman en cirros artificiales que atrapan el calor terrestre. El IPCC y estudios del Imperial College London estiman que la estela y los cirros inducidos generan cerca del 2% del calentamiento global, un efecto comparable o superior al del propio CO2 de la aviación.</p>
+<ul>
+  <li><strong>Funcionamiento del algoritmo:</strong> Modelos de predicción de humedad y temperatura en capas de la atmósfera combinados con optimización de rutas que sugieren pequeños ajustes de altitud para evitar zonas supersaturadas de hielo.</li>
+  <li><strong>Resultados piloto:</strong> En pruebas con aerolíneas asociadas en Norteamérica, la reducción de energía radiativa de las estelas superó el 50% con un incremento de consumo de combustible de apenas un 2% en rutas seleccionadas.</li>
+  <li><strong>Coste-beneficio:</strong> Los analistas climáticos señalan que mitigar estelas es una de las medidas climáticas más baratas del transporte aéreo, mucho más inmediata que el combustible sostenible (SAF).</li>
+</ul>
+<h2>Expertos: prometedor, pero falta validación científica a gran escala</h2>
+<p>Climatólogos de la NASA Langley y de la Universidad de Delft, que participan en programas paralelos de medición satelital de estelas, valoran el avance pero advierten de la necesidad de ensayos controlados de mayor duración: la variabilidad natural de los cirros dificulta aislar el efecto de cada vuelo desviado. También subrayan el riesgo de "transferencia del problema": desviar rutas puede aumentar emisiones de CO2 en algunos tramos, por lo que la optimización debe ser holística.</p>
+<p>La Organización de Aviación Civil Internacional (OACI) confirmó que trabaja en un marco regulatorio internacional para la gestión de estelas, y Google publicó los datasets de entrenamiento del modelo en acceso abierto para la comunidad científica, un gesto que la comunidad de investigación ha celebrado en foros técnicos y en la plataforma X.</p>
+<p><small>Con información de: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a>, <a href="https://www.ipcc.ch/" target="_blank" rel="noopener noreferrer">IPCC</a> y <a href="https://www.icao.int/" target="_blank" rel="noopener noreferrer">OACI</a>.</small></p>`,
+        contentEn: `<h1>Blue Skies: Google’s ambitious AI plan to reduce planet-warming airplane contrails</h1>
+<p><em>Google unveiled Sunday the results of Blue Skies, its AI project to minimize aircraft condensation trails, the white streaks science identifies as one of the least-known but most potent drivers of human-caused global warming, EL MUNDO reported.</em></p>
+<h2>The Problem: Heat-Trapping Streaks</h2>
+<p>Contrails form when engine water vapor freezes in cold, humid cruise altitudes, creating artificial cirrus that trap heat. The IPCC estimates contrails drive nearly 2% of global warming, rivaling aviation CO2 itself.</p>
+<ul>
+  <li><strong>Pilot results:</strong> Tests with partner airlines cut contrail radiative energy by over 50% with just a 2% fuel increase.</li>
+  <li><strong>Expert caution:</strong> Scientists demand larger controlled trials to isolate effects from natural cirrus variability.</li>
+</ul>
+<p><small>Source: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a>, <a href="https://www.ipcc.ch/" target="_blank" rel="noopener noreferrer">IPCC</a> and <a href="https://www.icao.int/" target="_blank" rel="noopener noreferrer">ICAO</a>.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/estelas-aviones.jpg',
+        imageCaption: 'Estelas de condensación dejadas por aviones a gran altitud. Foto: Wikimedia Commons',
+        categoryEs: 'Tecnología',
+        categoryEn: 'Technology',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Mountain View, EEUU',
+        source: 'EL MUNDO / Google / OACI',
+        region: 'International',
+        sourceUrl: 'https://www.elmundo.es/ciencia.html'
+      },
+      {
+        id: '1087',
+        contentType: 'news',
+        slug: 'lightning-robot-vencer-usain-bolt-45-kilos-titanio-juegos-mundiales-robots',
+        titleEs: 'Así nació Lightning, el robot diseñado para vencer a Usain Bolt: 45 kilos de titanio, cables y microprocesadores',
+        titleEn: 'How Lightning was born: the robot designed to beat Usain Bolt, 45 kg of titanium, cables and microprocessors',
+        excerptEs: 'Con piernas desproporcionadas y una zancada robótica sin precedentes, el bípode desafiará al récord humano de 100 metros en los Juegos Mundiales de Robots.',
+        excerptEn: 'With disproportionate legs and an unprecedented robotic stride, the biped will challenge the human 100-meter record at the Robot World Games.',
+        contentEs: `<h1>Así nació Lightning, el robot diseñado para vencer a Usain Bolt: 45 kilos de titanio, cables y microprocesadores</h1>
+<p><em>Se llama Lightning, pesa 45 kilos y tiene un único objetivo: correr 100 metros más rápido que ningún ser humano, incluido el mítico Usain Bolt. Así lo describe un reportaje de EL MUNDO que ha reconstruido el proceso de diseño de este bípode de titanio, creado por un consorcio de ingenieros para los Juegos Mundiales de Robots, la competición que reúne a los mejores equipos de robótica deportiva del planeta.</em></p>
+<h2>Ingeniería de la velocidad: anatomía de un corredor artificial</h2>
+<p>El secreto de Lightning está en sus piernas deliberadamente desproporcionadas, más largas que las de cualquier humano en proporción al tronco, que permiten zancadas de más de cuatro metros. Cada articulación incorpora actuadores eléctricos de alta densidad de par, capaces de ciclos de aceleración que superan los 15 G en el arranque, mientras un sistema de control predictivo ajusta la posición del torso 1.000 veces por segundo para evitar la caída.</p>
+<ul>
+  <li><strong>Materiales:</strong> Estructura de titanio y fibra de carbono que reduce la masa inercial de las extremidades, clave para la frecuencia de zancada.</li>
+  <li><strong>Energía:</strong> Baterías de polímero de litio de descarga ultrarrápida que alimentan los motores durante los 10-15 segundos de la prueba.</li>
+  <li><strong>Comparación con el récord humano:</strong> Bolt corrió los 100 metros en 9,58 segundos en Berlín 2009; los simuladores del equipo estiman que Lightning puede bajar de 9,3 segundos en pista homologada.</li>
+</ul>
+<h2>Qué dicen los biomecánicos y el debate deportivo</h2>
+<p>Biomecánicos del deporte advierten que la comparación es más simbólica que científica: un robot no sufre fatiga muscular ni lesiones de tendones, y su "atletismo" es una prueba de estrés de ingeniería. Aun así, reconocen el valor tecnológico: los avances en control dinámico, materiales y baterías de descarga rápida tienen aplicaciones directas en prótesis deportivas, rescate en desastres y logística.</p>
+<p>Los organizadores de los Juegos Mundiales de Robots anunciaron que la carrera de 100 metros se celebrará con cronometraje homologado y transmisión televisiva global, con cámaras de alta velocidad que permitirán analizar cada fase de la zancada. En las redes sociales, los videos de los ensayos de Lightning superan ya las decenas de millones de reproducciones, con debates apasionados sobre si la máquina "merece" un récord.</p>
+<p><small>Con información de: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> y organización de los Juegos Mundiales de Robots.</small></p>`,
+        contentEn: `<h1>How Lightning was born: the robot designed to beat Usain Bolt</h1>
+<p><em>Named Lightning, weighing 45 kg, with a single goal: run 100 meters faster than any human, including the legendary Usain Bolt. EL MUNDO reconstructed the design process of this titanium biped built for the Robot World Games.</em></p>
+<h2>Engineering Speed</h2>
+<p>The secret lies in deliberately disproportionate legs allowing strides over four meters, with high-torque actuators and predictive control adjusting torso position 1,000 times per second.</p>
+<ul>
+  <li><strong>Human record comparison:</strong> Bolt ran 100m in 9.58s; simulations suggest Lightning can dip below 9.3 seconds.</li>
+  <li><strong>Tech spillover:</strong> Advances apply to sports prosthetics, disaster rescue, and logistics.</li>
+</ul>
+<p><small>Source: <a href="https://www.elmundo.es/ciencia.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> and Robot World Games organizers.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/robot-humanide.jpg',
+        imageCaption: 'Un robot humanoide en exhibición tecnológica. Foto: Wikimedia Commons / Imagen referencial',
+        categoryEs: 'Tecnología',
+        categoryEn: 'Technology',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Tokio, Japón',
+        source: 'EL MUNDO / Juegos Mundiales de Robots',
+        region: 'International',
+        sourceUrl: 'https://www.elmundo.es/ciencia.html'
+      },
+      {
+        id: '1088',
+        contentType: 'news',
+        slug: 'subasta-camiseta-michael-jordan-finales-98-100-millones-dolares',
+        titleEs: 'Sale a subasta la camiseta de Michael Jordan de las Finales del 98 con la vista puesta en los 100 millones de dólares',
+        titleEn: 'Michael Jordan’s 1998 Finals jersey goes to auction with sights set on $100 million',
+        excerptEs: 'La camiseta roja del último campeonato de los Bulls con Jordan podría convertirse en la pieza deportiva más cara de la historia, superando al cartón de Mickey Mantle.',
+        excerptEn: 'Jordan’s red jersey from the Bulls’ last championship could become the most expensive sports item ever, topping the Mickey Mantle card.',
+        contentEs: `<h1>Sale a subasta la camiseta de Michael Jordan de las Finales del 98 con la vista puesta en los 100 millones de dólares</h1>
+<p><em>La camiseta roja número 23 que Michael Jordan vistió en las Finales de la NBA de 1998 —el sexto y último anillo de los Chicago Bulls— salió este domingo a subasta con una estimación de partida sin precedentes: la casa organizadora prevé que los pujos superen los 100 millones de dólares, según publicó EL MUNDO. De alcanzarse esa cifra, la prenda se convertiría en el objeto deportivo más caro jamás vendido, por delante del cartón de Mickey Mantle subastado en 2022 por 12,6 millones.</em></p>
+<h2>Una prenda con historia: la cúspide de la dinastía de los Bulls</h2>
+<p>La camiseta corresponde a la serie que los Bulls ganaron a los Utah Jazz, cerrada con el célebre tiro de Jordan en el último segundo del sexto partido, una jugada considerada por muchos analistas el momento más icónico de la historia del baloncesto. La documentación de procedencia incluye fotografías de archivo de la agencia Getty y grabaciones de vídeo de la retransmisión original de la NBC que permiten verificar el uso de la prenda durante los partidos de la serie.</p>
+<ul>
+  <li><strong>Estimación de mercado:</strong> Expertos en coleccionismo deportivo recuerdan que la camiseta de Jordan de la fase final del "Dream Team" de 1992 se vendió en 2024 por 3 millones, y que el mercado de reliquias de la NBA crece a un ritmo superior al 20% anual.</li>
+  <li><strong>Comparación con otros deportes:</strong> El récord actual lo mantiene el cartón de Mickey Mantle (béisbol, 12,6 millones en 2022); en fútbol, la camiseta de Maradona de "la mano de Dios" alcanzó 9,3 millones.</li>
+  <li><strong>Autenticidad:</strong> La casa de subastas certifica la prenda con análisis de costuras, etiquetas y fotomatching, técnica forense que compara píxel a píxel la pieza con imágenes de archivo.</li>
+</ul>
+<h2>El mercado de las reliquias deportivas, un activo de inversión</h2>
+<p>Los analistas del sector explican que las reliquias deportivas de élite se han consolidado como activo alternativo de inversión, con rentabilidades anuales superiores a las del arte clásico en la última década. Fondos especializados y coleccionistas asiáticos y estadounidenses pujarán por la pieza, cuya identidad del comprador se conocerá tras el cierre de la puja en las próximas semanas.</p>
+<p>La NBA y los Chicago Bulls emitieron sendos comunicados celebrando que "objetos con la historia de Jordan sigan inspirando a nuevas generaciones", mientras en las redes sociales el anuncio generó tendencias mundiales con debates sobre el valor patrimonial del deporte frente a su mercantilización.</p>
+<p><small>Con información de: <a href="https://www.elmundo.es/deportes/baloncesto.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> y casa de subastas oficial.</small></p>`,
+        contentEn: `<h1>Michael Jordan’s 1998 Finals jersey goes to auction with sights set on $100 million</h1>
+<p><em>The red No. 23 jersey Michael Jordan wore during the 1998 NBA Finals — the Chicago Bulls’ sixth and last championship — went to auction Sunday with an unprecedented estimate: organizers expect bids to top $100 million, EL MUNDO reported. That would make it the most expensive sports item ever sold, ahead of the Mickey Mantle card auctioned in 2022 for $12.6 million.</em></p>
+<h2>A Jersey with History</h2>
+<p>The jersey corresponds to the series won against the Utah Jazz, closed with Jordan’s iconic last-second shot in Game 6. Provenance documentation includes Getty archival photos and NBC broadcast footage verifying game use.</p>
+<ul>
+  <li><strong>Market estimate:</strong> Jordan’s 1992 Dream Team jersey sold for $3 million in 2024; the NBA memorabilia market grows over 20% annually.</li>
+  <li><strong>Cross-sport comparison:</strong> Maradona’s "Hand of God" shirt reached $9.3 million.</li>
+</ul>
+<p><small>Source: <a href="https://www.elmundo.es/deportes/baloncesto.html" target="_blank" rel="noopener noreferrer">EL MUNDO</a> and official auction house.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/michael-jordan.jpg',
+        imageCaption: 'Michael Jordan con la camiseta de los Chicago Bulls. Foto: Wikimedia Commons',
+        categoryEs: 'Deportes',
+        categoryEn: 'Sports',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Chicago, EEUU',
+        source: 'EL MUNDO / NBA',
+        region: 'International',
+        sourceUrl: 'https://www.elmundo.es/deportes/baloncesto.html'
+      },
+      // FIN DE NOTICIAS
     ];
 
 export const translations = {

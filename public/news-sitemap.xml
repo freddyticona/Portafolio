@@ -3,6 +3,146 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/terremoto-magnitud-59-sacude-este-japon-cinco-heridos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Un terremoto de magnitud 5,9 sacude el este de Japón y deja al menos cinco heridos</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/empeora-salud-rey-harald-noruega-anemia-hemolitica</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Empeora el estado de salud del rey Harald de Noruega, quien padece anemia hemolítica</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tesla-llama-revision-cinco-millones-coches-china-seguridad</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Tesla llama a revisión cinco millones de coches en China por dos problemas de seguridad</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/grecia-traslada-creta-misiles-patriot-riesgo-ataque-iran</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Grecia traslada a Creta misiles antiaéreos Patriot ante el riesgo de un ataque de Irán</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/zelenski-elecciones-serian-tsunami-fracturaria-ucrania</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Zelenski afirma que unas elecciones en plena guerra serían &quot;un tsunami&quot; que &quot;fracturaría Ucrania&quot;</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/kejelcha-bate-record-mundial-medio-maraton-buenos-aires-5651</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Kejelcha bate en Buenos Aires el récord mundial de medio maratón con un tiempo de 56:51</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/detienen-dos-adolescentes-israelies-apalear-palestino-amputado-cisjordania</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Detienen a dos adolescentes israelíes por apalear a un palestino amputado en Cisjordania</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/google-blue-skies-ia-reducir-estelas-aviones-calentamiento</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Blue Skies: el plan de Google para reducir con inteligencia artificial las estelas de los aviones que calientan el planeta</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/lightning-robot-vencer-usain-bolt-45-kilos-titanio-juegos-mundiales-robots</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Así nació Lightning, el robot diseñado para vencer a Usain Bolt: 45 kilos de titanio, cables y microprocesadores</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/subasta-camiseta-michael-jordan-finales-98-100-millones-dolares</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>Sale a subasta la camiseta de Michael Jordan de las Finales del 98 con la vista puesta en los 100 millones de dólares</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/alp-inicia-debate-ley-incentivos-financiamiento-exterior-bolivia</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
