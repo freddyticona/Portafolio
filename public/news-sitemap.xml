@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/reportaje-especial-actualizacion-caso-nadia-beller-cerimedo-gobierno-paz</loc>
+    <loc>https://freddydev.net/noticias/alp-inicia-debate-ley-incentivos-financiamiento-exterior-bolivia</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,13 +11,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Caso Beller: chats “la eliminamos” y 4 arrestos acorralan a Cerimedo</news:title>
-      <news:keywords>Nacional</news:keywords>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Asamblea Plurinacional inicia el tratamiento de la Ley de Incentivos al Financiamiento Exterior y Atracción de Capitales</news:title>
+      <news:keywords>Política</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/bcb-advierte-caida-36-economia-bolivia-2026</loc>
+    <loc>https://freddydev.net/noticias/ypfb-y-transporte-pesado-acuerdan-cronograma-distribucion-diesel</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,13 +25,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>BCB advierte que la economía de Bolivia caerá 3,6% en 2026 por falta de divisas y combustibles</news:title>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>YPFB y la Cámara Boliviana del Transporte Pesado firman acuerdo para garantizar cupos continuos de diésel</news:title>
       <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/dictan-detencion-preventiva-mario-centellas-90-dias-palmasola</loc>
+    <loc>https://freddydev.net/noticias/senamhi-emite-alerta-naranja-vientos-y-frente-frio-seis-departamentos</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -39,41 +39,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Dictan detención preventiva de 90 días en Palmasola para Mario Centellas</news:title>
-      <news:keywords>Seguridad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/relatora-onu-preocupada-ley-antibloqueo-hostigamiento-sociedad-civil</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Relatora de la ONU expresa preocupación por ley antibloqueo y hostigamiento a la sociedad civil</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/cochabamba-inaugura-primera-clinica-publica-mascotas-callejeras</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Cochabamba inaugura la primera clínica pública para mascotas callejeras del país</news:title>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>SENAMHI emite Alerta Naranja por vientos moderados a fuertes y abrupto descenso de temperaturas en seis departamentos</news:title>
       <news:keywords>Sociedad</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/seis-federaciones-tropico-suspenden-bloqueos-cuarto-intermedio</loc>
+    <loc>https://freddydev.net/noticias/ministerio-salud-despliega-brigadas-vacunacion-sarampion-dengue</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -81,9 +53,163 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Seis Federaciones del Trópico suspenden bloqueos y declaran cuarto intermedio</news:title>
-      <news:keywords>Política</news:keywords>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Ministerio de Salud despliega más de 1.500 brigadas móviles para el bloqueo epidemiológico del sarampión y control del dengue</news:title>
+      <news:keywords>Salud</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/aduana-nacional-incauta-contrabando-35-millones-bolivianos-oruro</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Aduana Nacional asesta duro golpe al contrabando e incauta ilícitos evaluados en 3,5 millones de bolivianos en Oruro</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/alcaldia-la-paz-y-choferes-negocian-reordenamiento-vehicular-centro</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Alcaldía de La Paz y federaciones de transporte acuerdan plan de reordenamiento y restricción de placas en el casco central</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/empresarios-privados-piden-liberacion-total-exportaciones-no-tradicionales</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Confederación de Empresarios Privados de Bolivia solicita la liberación total e irrestricta de exportaciones no tradicionales</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cinemateca-boliviana-inaugura-muestra-retrospectiva-cine-andino</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Fundación Cinemateca Boliviana inaugura muestra retrospectiva restaurada de la cinematografía andina</news:title>
+      <news:keywords>Cultura</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/g20-rio-de-janeiro-acuerda-fondo-global-transicion-energetica</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Cumbre del G20 en Río de Janeiro aprueba un fondo multilateral de 100.000 millones de dólares para la transición energética en economías emergentes</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/oms-convoca-comite-emergencia-brote-internacional-salud</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>La OMS convoca al Comité de Emergencia en Ginebra ante el incremento de brotes virales en tres continentes</news:title>
+      <news:keywords>Salud</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nasa-publica-primeras-imagenes-telescopio-espacial-nancy-grace-roman</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>La NASA publica las primeras imágenes de campo ultraprofundo captadas por el Telescopio Espacial Nancy Grace Roman</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/parlamento-europeo-aprueba-reglamento-monitoreo-algoritmos-ia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>El Parlamento Europeo aprueba el reglamento vinculante para la auditoría y transparencia de modelos masivos de Inteligencia Artificial</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/panama-y-colombia-refuerzan-seguridad-corredor-migratorio-darien</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Panamá y Colombia fortalecen el despliegue de seguridad e inteligencia en el corredor selvático del Darién</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/petroleo-brent-alcanza-88-dolares-tensiones-estrecho-ormuz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>El petróleo Brent roza los 88 dólares por barril ante la creciente volatilidad en las rutas marítimas del Estrecho de Ormuz</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fifa-confirma-sedes-oficiales-mundial-de-clubes-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>La FIFA ratifica el calendario definitivo y las 12 sedes oficiales para el renovado Mundial de Clubes 2026</news:title>
+      <news:keywords>Deportes</news:keywords>
     </news:news>
   </url>
 </urlset>

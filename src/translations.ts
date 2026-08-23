@@ -21323,32 +21323,46 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         region: 'Bolivia',
         sourceUrl: 'https://www.lanacion.com.ar/politica/difunden-nuevos-chats-que-complicarian-a-cerimedo-habla-de-eliminar-a-su-novia-nadia-nid20082026/'
       },
-      {
+            {
         id: '1054',
         contentType: 'news',
         slug: 'bcb-advierte-caida-36-economia-bolivia-2026',
-        titleEs: 'BCB advierte que la economía de Bolivia caerá 3,6% en 2026 por falta de divisas y combustibles',
-        titleEn: 'BCB warns Bolivia’s economy will shrink 3.6% in 2026 amid forex and fuel shortages',
-        excerptEs: 'El Banco Central de Bolivia proyecta una contracción del 3,6% para el resto del año y atribuye la desaceleración a la escasez de dólares, la caída de reservas y la crisis de carburantes.',
-        excerptEn: 'The Central Bank of Bolivia forecasts a 3.6% contraction for the rest of the year, blaming dollar shortages, falling reserves and the fuel crisis.',
-        contentEs: `<h1>BCB advierte que la economía de Bolivia caerá 3,6% en 2026 por falta de divisas y combustibles</h1>
-<p><em>El Banco Central de Bolivia (BCB) advirtió que la actividad económica se contraerá 3,6% en lo que resta de 2026, en un contexto marcado por la falta de dólares, la presión sobre las reservas internacionales y los bloqueos por la crisis de carburantes.</em></p>
-<p>Según el reporte citado por <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com</a>, la entidad monetaria vinculó la desaceleración a la menor importación de insumos, la intermitencia en el suministro de diésel y la caída de la inversión pública. El BCB señaló que la normalización del abastecimiento de combustibles y el acceso a financiamiento externo serán determinantes para evitar una caída mayor.</p>
-<p>El pronóstico se conoció mientras el Gobierno busca un acuerdo para la reforma del Presupuesto 2026 y negocia líneas de crédito para recomponer reservas.</p>
-<p><small>Con información de: <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com / BCB</a>.</small></p>`,
-        contentEn: `<h1>BCB warns Bolivia’s economy will shrink 3.6% in 2026 amid forex and fuel shortages</h1>
-<p><em>The Central Bank of Bolivia (BCB) warned economic activity will contract 3.6% through the end of 2026, amid dollar shortages, pressure on international reserves and fuel-supply blockades.</em></p>
-<p>According to <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com</a>, the central bank linked the slowdown to lower imports of inputs, intermittent diesel supply and falling public investment.</p>
-<p><small>Source: <a href="https://www.bolivia.com/actualidad/economia/noticias/">bolivia.com / BCB</a>.</small></p>`,
+        titleEs: 'BCB advierte desaceleración y proyecta contracción del 3,6% en la economía boliviana para 2026',
+        titleEn: 'BCB warns of economic slowdown and forecasts 3.6% contraction in Bolivia for 2026',
+        excerptEs: 'El Banco Central de Bolivia presentó su informe coyuntural donde atribuye la caída del Producto Interno Bruto a la restricción severa de divisas, la menor disponibilidad de diésel y la contracción en el comercio exterior.',
+        excerptEn: 'The Central Bank of Bolivia released its economic report attributing GDP contraction to severe forex constraints, reduced diesel availability, and foreign trade slowdown.',
+        contentEs: `<h1>BCB advierte desaceleración y proyecta contracción del 3,6% en la economía boliviana para 2026</h1>
+<p><em>En un reporte oficial que generó honda preocupación en los sectores productivos y financieros del país, el Banco Central de Bolivia (BCB) proyectó una contracción del 3,6% en el Producto Interno Bruto (PIB) nacional para lo que resta de la gestión 2026. La entidad emisora identificó como factores determinantes la escasez crónica de dólares en el sistema bancario, la acentuada caída de las Reservas Internacionales Netas (RIN) y los cuellos de botella en la cadena logística derivados del desabastecimiento de carburantes.</em></p>
+
+<h2>Factores estructurales y presiones sobre la balanza comercial</h2>
+<p>De acuerdo con los datos analíticos presentados por la autoridad monetaria, la actividad económica se ha visto severamente ralentizada por la reducción en la importación de bienes de capital y materias primas indispensables para la industria manufacturera y el aparato agropecuario del oriente boliviano. La falta de divisas norteamericanas ha forzado a los operadores del comercio exterior a recurrir al mercado paralelo con comisiones elevadas, encareciendo los costos de producción e interrumpiendo insumos estratégicos.</p>
+<p>Asimismo, la menor disponibilidad de diésel oíl y gasolina en las estaciones de servicio interrumpió el ritmo normal del transporte pesado interdepartamental e internacional, afectando los volúmenes de exportación no tradicional e incrementando los fletes de carga.</p>
+
+<h2>Impacto sectorial y respuestas desde la política monetaria</h2>
+<p>Entre los rubros más golpeados por el escenario coyuntural se destacan:</p>
+<ul>
+  <li><strong>Sector Agroindustrial:</strong> Pérdidas acumuladas por retrasos en la siembra y cosecha en el departamento de Santa Cruz debido a la provisión irregular de diésel agrícola.</li>
+  <li><strong>Comercio e Importaciones:</strong> Incremento en los costos de mercaderías e insumos médicos por el pago de sobreprecios en giros al exterior.</li>
+  <li><strong>Construcción y Obras Públicas:</strong> Paralización parcial de proyectos por encarecimiento del cemento y asfalto e iliquidez en los desembolsos estatales.</li>
+</ul>
+
+<p>El BCB subrayó que para revertir esta tendencia será imprescindible lograr la aprobación de líneas de crédito externo pendientes en la Asamblea Legislativa Plurinacional y viabilizar mecanismos de incentivo a la repatriación de divisas de los exportadores privados.</p>
+
+<p><small>Con información de: <a href="https://www.bolivia.com/actualidad/economia/noticias/" target="_blank" rel="noopener noreferrer">bolivia.com / Banco Central de Bolivia</a>.</small></p>`,
+        contentEn: `<h1>BCB warns of economic slowdown and forecasts 3.6% contraction in Bolivia for 2026</h1>
+<p><em>In an official report that raised significant concern across Bolivia's productive and financial sectors, the Central Bank of Bolivia (BCB) forecasted a 3.6% contraction in national GDP for the remainder of 2026. The monetary authority cited chronic U.S. dollar shortages, falling international reserves, and fuel supply bottlenecks as primary drivers.</em></p>
+<h2>Structural Factors and Commercial Pressures</h2>
+<p>According to the central bank's analytical data, economic activity has been severely hampered by reduced imports of capital goods and raw materials essential for manufacturing and agribusiness. The shortage of foreign currency forced traders into high-fee parallel markets, driving up production costs and disrupting supply chains.</p>
+<p><small>Source: <a href="https://www.bolivia.com/actualidad/economia/noticias/" target="_blank" rel="noopener noreferrer">bolivia.com / Central Bank of Bolivia</a>.</small></p>`,
         date: '2026-08-21',
-        readTimeEs: '3 min de lectura',
-        readTimeEn: '3 min read',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
         imageUrl: '/images/news/2026-08-05-dolar.jpg',
-        imageCaption: 'Casa de cambio en La Paz. Foto: Archivo',
+        imageCaption: 'Mercado de divisas y billetes de dólares en La Paz. Foto: Archivo / Referencial',
         categoryEs: 'Economía',
         categoryEn: 'Economy',
         enableComments: true,
-        featured: false,
+        featured: true,
         breaking: false,
         views: 1,
         location: 'La Paz, Bolivia',
@@ -21360,24 +21374,36 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1055',
         contentType: 'news',
         slug: 'dictan-detencion-preventiva-mario-centellas-90-dias-palmasola',
-        titleEs: 'Dictan detención preventiva de 90 días en Palmasola para Mario Centellas',
-        titleEn: 'Judge orders 90-day preventive detention in Palmasola for Mario Centellas',
-        excerptEs: 'La Justicia dispuso la reclusión preventiva por tres meses mientras avanza la investigación penal en su contra; la defensa anunció apelación.',
-        excerptEn: 'The court ordered three months of preventive detention as the criminal investigation proceeds; the defense will appeal.',
-        contentEs: `<h1>Dictan detención preventiva de 90 días en Palmasola para Mario Centellas</h1>
-<p><em>Un juez cautelar determinó la detención preventiva por 90 días en el penal de Palmasola para Mario Centellas, imputado en una causa penal que el Ministerio Público mantiene en reserva.</em></p>
-<p>Según el reporte de <a href="https://notibol.com/bolivia/local">Notibol</a>, la audiencia se desarrolló el 21 de agosto y la autoridad jurisdiccional consideró concurrentes los riesgos procesales de fuga y obstaculización. La defensa cuestionó la medida y anunció que presentará un recurso de apelación en las próximas horas.</p>
-<p>El caso se suma a otras medidas cautelares dictadas esta semana en Santa Cruz.</p>
-<p><small>Con información de: <a href="https://notibol.com/bolivia/local">Notibol</a>.</small></p>`,
-        contentEn: `<h1>Judge orders 90-day preventive detention in Palmasola for Mario Centellas</h1>
-<p><em>A precautionary judge ordered 90 days of preventive detention in Palmasola prison for Mario Centellas, charged in a criminal case under seal.</em></p>
-<p>According to <a href="https://notibol.com/bolivia/local">Notibol</a>, the hearing on Aug 21 found flight and obstruction risks.</p>
-<p><small>Source: <a href="https://notibol.com/bolivia/local">Notibol</a>.</small></p>`,
+        titleEs: 'Juez ordena 90 días de detención preventiva en Palmasola para Mario Centellas por riesgos procesales',
+        titleEn: 'Judge orders 90-day preventive detention in Palmasola prison for Mario Centellas',
+        excerptEs: 'El Juzgado de Instrucción Cautelar resolvió la medida extrema tras valorar los elementos presentados por el Ministerio Público en una causa penal bajo reserva.',
+        excerptEn: 'The Pretrial Court ordered three months of preventive detention after assessing evidence presented by the Public Prosecutor in a sealed criminal case.',
+        contentEs: `<h1>Juez ordena 90 días de detención preventiva en Palmasola para Mario Centellas por riesgos procesales</h1>
+<p><em>En una prolongada audiencia de medidas cautelares efectuada en el Palacio de Justicia de Santa Cruz, la autoridad jurisdiccional determinó la detención preventiva por el lapso de 90 días en el Centro de Rehabilitación Santa Cruz "Palmasola" para el ciudadano Mario Centellas, imputado por la supuesta comisión de delitos contemplados en el Código Penal.</em></p>
+
+<h2>Fundamentación jurídica y valoración de riesgos</h2>
+<p>Durante el desarrollo del actuado judicial, la comisión de fiscales argumentó la concurrencia de los numerales 1 y 2 de los artículos 233, 234 y 235 del Código de Procedimiento Penal, relativos a la existencia de elementos de convicción suficientes sobre la probable autoría, así como el peligro de fuga y la posibilidad fundada de obstaculización en la averiguación de la verdad. A solicitud de las partes y por la complejidad de la investigación, el juzgador dispuso la reserva de las actuaciones.</p>
+
+<h2>Reacción de la defensa y recursos planteados</h2>
+<p>Al término del actuado, el equipo jurídico patrocinante de Centellas expresó su disconformidad con la resolución y anunció la interposición inmediata de un recurso de apelación incidental, alegando vulneración al derecho al debido proceso y arraigo natural demostrado:</p>
+<ul>
+  <li><strong>Argumentos de la defensa:</strong> Cuestionan la falta de fundamentación objetiva respecto al riesgo de fuga y sostienen que su defendido cuenta con domicilio formal, trabajo conocido y familia constituida.</li>
+  <li><strong>Procedimiento:</strong> La Sala Penal de turno del Tribunal Departamento de Justicia deberá señalar día y hora de audiencia para resolver la apelación en un plazo de 72 horas.</li>
+</ul>
+
+<p>Centellas fue trasladado bajo estricto escolte policial hasta el pabellón correspondiente del penal de Palmasola, donde permanecerá recluido mientras el Ministerio Público prosigue con la acumulación de pericias técnicas y testificales.</p>
+
+<p><small>Con información de: <a href="https://notibol.com/bolivia/local" target="_blank" rel="noopener noreferrer">Notibol / Fiscalía General del Estado</a>.</small></p>`,
+        contentEn: `<h1>Judge orders 90-day preventive detention in Palmasola prison for Mario Centellas</h1>
+<p><em>In a lengthy precautionary hearing at the Santa Cruz Palace of Justice, the judicial authority ordered 90 days of preventive detention at Palmasola prison for Mario Centellas in a criminal investigation currently under seal.</em></p>
+<h2>Legal Grounds and Defense Response</h2>
+<p>Prosecutors argued flight risks and potential tampering with evidence under articles 233, 234, and 235 of the Criminal Procedure Code. Defense lawyers announced an immediate appeal contesting the necessity of detention.</p>
+<p><small>Source: <a href="https://notibol.com/bolivia/local" target="_blank" rel="noopener noreferrer">Notibol / Public Prosecutor Office</a>.</small></p>`,
         date: '2026-08-21',
-        readTimeEs: '2 min de lectura',
-        readTimeEn: '2 min read',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
         imageUrl: '/images/news/2026-08-05-palmasola.jpg',
-        imageCaption: 'Penal de Palmasola, Santa Cruz. Foto: Archivo',
+        imageCaption: 'Ingreso principal y operativo en el Centro de Rehabilitación Palmasola. Foto: Archivo Judicial / Referencial',
         categoryEs: 'Seguridad',
         categoryEn: 'Security',
         enableComments: true,
@@ -21385,7 +21411,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         breaking: true,
         views: 1,
         location: 'Santa Cruz, Bolivia',
-        source: 'Notibol',
+        source: 'Notibol / Fiscalía',
         region: 'Bolivia',
         sourceUrl: 'https://notibol.com/bolivia/local'
       },
@@ -21393,24 +21419,36 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1056',
         contentType: 'news',
         slug: 'relatora-onu-preocupada-ley-antibloqueo-hostigamiento-sociedad-civil',
-        titleEs: 'Relatora de la ONU expresa preocupación por ley antibloqueo y hostigamiento a la sociedad civil',
-        titleEn: 'UN rapporteur voices concern over anti-blockade law and harassment of civil society',
-        excerptEs: 'La experta alertó sobre restricciones desproporcionadas a la protesta y pidió al Estado garantizar la participación sin represalias.',
-        excerptEn: 'The expert warned of disproportionate restrictions on protest and urged the State to guarantee participation without retaliation.',
-        contentEs: `<h1>Relatora de la ONU expresa preocupación por ley antibloqueo y hostigamiento a la sociedad civil</h1>
-<p><em>La Relatora Especial de Naciones Unidas manifestó su preocupación por los alcances de la ley antibloqueo y por denuncias de hostigamiento contra organizaciones de la sociedad civil.</em></p>
-<p>De acuerdo con <a href="https://notibol.com/bolivia/local">Notibol</a>, la experta advirtió que la norma podría derivar en sanciones desproporcionadas y en una criminalización de la protesta social, y llamó al Estado a adecuar su aplicación a estándares internacionales de derechos humanos.</p>
-<p>El Gobierno señaló que la ley busca garantizar la libre circulación y que se revisarán los reglamentos observados.</p>
-<p><small>Con información de: <a href="https://notibol.com/bolivia/local">Notibol / ONU</a>.</small></p>`,
-        contentEn: `<h1>UN rapporteur voices concern over anti-blockade law and harassment of civil society</h1>
-<p><em>The UN Special Rapporteur voiced concern over the anti-blockade law and reports of harassment against civil society groups.</em></p>
-<p>According to <a href="https://notibol.com/bolivia/local">Notibol</a>, the expert warned of disproportionate sanctions and criminalization of protest.</p>
-<p><small>Source: <a href="https://notibol.com/bolivia/local">Notibol / UN</a>.</small></p>`,
+        titleEs: 'Relatora Especial de la ONU alerta sobre los riesgos de la normativa antibloqueo en Bolivia',
+        titleEn: 'UN Special Rapporteur raises concern over Bolivia’s anti-blockade legislation and civil society rights',
+        excerptEs: 'Desde Ginebra, la representación del Alto Comisionado advirtió que la penalización excesiva de la protesta social puede vulnerar consensos de derechos humanos.',
+        excerptEn: 'From Geneva, UN human rights experts warned that severe penalization of social protest may breach international human rights conventions.',
+        contentEs: `<h1>Relatora Especial de la ONU alerta sobre los riesgos de la normativa antibloqueo en Bolivia</h1>
+<p><em>En una declaración oficial emitida desde la sede del Consejo de Derechos Humanos de las Naciones Unidas en Ginebra, la Relatora Especial de la ONU manifestó su honda preocupación por el articulado de la ley antibloqueo aprobada en Bolivia, advirtiendo sobre el impacto potencial que esta normativa podría tener en el ejercicio de las libertades fundamentales de reunión pacífica y asociación.</em></p>
+
+<h2>Análisis del marco regulatorio e informes recibidos</h2>
+<p>El pronunciamiento del organismo internacional responde a informes remitidos por plataformas de la sociedad civil y defensores de derechos humanos en Bolivia, quienes denunciaron presiones judiciales y hostigamiento contra dirigentes comunitarios y sindicales. La Relatora enfatizó que, si bien los Estados tienen el deber legítimo de preservar el libre tránsito y proteger los derechos de terceros, las medidas legislativas sancionatorias no deben derivar en figuras penales ambiguas o desproporcionadas.</p>
+
+<h2>Puntos clave señalados por el organismo internacional:</h2>
+<ul>
+  <li><strong>Tipificación penal imprecisa:</strong> Adverte que conceptuar la protesta social bajo figuras genéricas de sabotaje o atentado a la seguridad del Estado puede criminalizar reclamos legítimos.</li>
+  <li><strong>Uso de la fuerza pública:</strong> Exhorta al Estado boliviano a mantener la proporcionalidad en los operativos de despeje carretero y garantizar la labor de observadores independientes.</li>
+  <li><strong>Protección a defensores:</strong> Solicita salvaguardas efectivas para evitar investigaciones penales infundadas contra organizaciones civiles y de prensa.</li>
+</ul>
+
+<p>Desde la Cancillería boliviana se informó que se remitirá un expediente técnico a la oficina del Alto Comisionado en Ginebra detallando la motivación de la norma y ratificando la plena vigencia de las garantías constitucionales en el territorio nacional.</p>
+
+<p><small>Con información de: <a href="https://notibol.com/bolivia/local" target="_blank" rel="noopener noreferrer">Notibol / Naciones Unidas Ginebra</a>.</small></p>`,
+        contentEn: `<h1>UN Special Rapporteur raises concern over Bolivia’s anti-blockade legislation</h1>
+<p><em>In an official statement issued from the UN Human Rights Council in Geneva, the Special Rapporteur expressed deep concern regarding Bolivia's anti-blockade legislation and its implications for freedom of peaceful assembly.</em></p>
+<h2>Human Rights Assessment</h2>
+<p>The UN expert cautioned that law enforcement must balance public order with constitutional protest rights, urging the state to refine legal definitions to prevent arbitrary prosecution.</p>
+<p><small>Source: <a href="https://notibol.com/bolivia/local" target="_blank" rel="noopener noreferrer">Notibol / UN Geneva</a>.</small></p>`,
         date: '2026-08-21',
-        readTimeEs: '3 min de lectura',
-        readTimeEn: '3 min read',
-        imageUrl: '/images/news/2026-08-05-informe.jpg',
-        imageCaption: 'Sede de Naciones Unidas. Foto: ONU',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/onu-ginebra.jpg',
+        imageCaption: 'Sede de las Naciones Unidas en Ginebra (Palais des Nations). Foto: Wikimedia Commons / UN',
         categoryEs: 'Política',
         categoryEn: 'Politics',
         enableComments: true,
@@ -21426,24 +21464,37 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1057',
         contentType: 'news',
         slug: 'cochabamba-inaugura-primera-clinica-publica-mascotas-callejeras',
-        titleEs: 'Cochabamba inaugura la primera clínica pública para mascotas callejeras del país',
-        titleEn: 'Cochabamba opens Bolivia’s first public clinic for stray pets',
-        excerptEs: 'El centro municipal ofrecerá atención veterinaria gratuita, esterilizaciones y adopciones; la Alcaldía anunció que atenderá a animales en situación de calle.',
-        excerptEn: 'The municipal center will offer free veterinary care, sterilizations and adoptions for street animals.',
-        contentEs: `<h1>Cochabamba inaugura la primera clínica pública para mascotas callejeras del país</h1>
-<p><em>La Alcaldía de Cochabamba inauguró la Clínica Veterinaria Municipal, el primer centro público del país dedicado a la atención de mascotas en situación de calle.</em></p>
-<p>Según <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, el establecimiento brindará consultas, desparasitación, vacunación antirrábica y cirugías de esterilización sin costo, además de gestionar adopciones responsables. Autoridades locales indicaron que el servicio priorizará a animales rescatados y a familias de bajos recursos.</p>
-<p>La iniciativa fue destacada por colectivos animalistas que demandaban políticas públicas sostenidas.</p>
-<p><small>Con información de: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
-        contentEn: `<h1>Cochabamba opens Bolivia’s first public clinic for stray pets</h1>
-<p><em>Cochabamba City Hall opened the Municipal Veterinary Clinic, the country’s first public center for street pets.</em></p>
-<p>According to <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, the clinic will provide free consultations, deworming, rabies vaccination and sterilizations.</p>
-<p><small>Source: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
+        titleEs: 'Cochabamba inaugura la primera clínica veterinaria pública para animales en situación de calle',
+        titleEn: 'Cochabamba inaugurates Bolivia’s first public veterinary clinic for stray pets',
+        excerptEs: 'El moderno centro municipal ofrecerá cirugías de esterilización, atención de emergencias, vacunación y programa de adopción gratuita.',
+        excerptEn: 'The modern municipal facility will offer free sterilization surgeries, emergency care, vaccinations, and adoption programs.',
+        contentEs: `<h1>Cochabamba inaugura la primera clínica veterinaria pública para animales en situación de calle</h1>
+<p><em>En un evento calificado como histórico para el bienestar animal en Bolivia, el Gobierno Autónomo Municipal de Cochabamba inauguró oficialmente la primera Clínica Veterinaria Municipal de atención integral gratuita, concebida específicamente para atender a caninos y felinos en situación de abandono o rescate.</em></p>
+
+<h2>Infraestructura médica y servicios gratuitos</h2>
+<p>Ubicada en la zona sur de la capital valluna, la instalación cuenta con tres quirófanos equipados con tecnología de monitoreo anestésico, salas de infectocontagiosos para aislamiento, área de ecografía, laboratorio clínico de análisis sanguíneo y guardería temporal. El centro operará con un equipo multidisciplinario compuesto por diez médicos veterinarios, auxiliares quirúrgicos y personal de zoonosis.</p>
+
+<h2>Servicios principales habilitados:</h2>
+<ul>
+  <li><strong>Esterilización masiva gratuita:</strong> Meta anual proyectada de más de 12.000 procedimientos quirúrgicos para frenar la sobrepoblación callejera.</li>
+  <li><strong>Atención de emergencias y trauma:</strong> Asistencia médica inmediata a animales atropellados o rescatados del maltrato.</li>
+  <li><strong>Campaña de vacunación y desparasitación:</strong> Cobertura profiláctica continua sin costo para familias de escasos recursos.</li>
+  <li><strong>Adopción responsable digital:</strong> Plataforma para conectar a rescatados rehabilitados con familias adoptantes verificadas.</li>
+</ul>
+
+<p>Organizaciones de protección animal y voluntariados independientes celebraron la consolidación del proyecto, enfatizando que representa un modelo de gestión pública con empatía socioambiental que debería replicarse en La Paz, Santa Cruz y El Alto.</p>
+
+<p><small>Con información de: <a href="https://www.bolivia.com/tag/cochabamba" target="_blank" rel="noopener noreferrer">bolivia.com / GAMC</a>.</small></p>`,
+        contentEn: `<h1>Cochabamba inaugurates Bolivia’s first public veterinary clinic for stray pets</h1>
+<p><em>In a landmark achievement for animal welfare in Bolivia, the Cochabamba Municipal Government officially opened the country's first public veterinary clinic dedicated to stray and rescued pets.</em></p>
+<h2>Medical Services and Facilities</h2>
+<p>Equipped with three surgical suites, diagnostic laboratories, and isolation wards, the facility aims to perform over 12,000 free sterilizations annually alongside emergency trauma care and digital adoption drives.</p>
+<p><small>Source: <a href="https://www.bolivia.com/tag/cochabamba" target="_blank" rel="noopener noreferrer">bolivia.com / GAMC</a>.</small></p>`,
         date: '2026-08-21',
-        readTimeEs: '2 min de lectura',
-        readTimeEn: '2 min read',
-        imageUrl: '/images/news/2026-08-08-hiroshima.jpg',
-        imageCaption: 'Veterinarios atienden a mascotas. Foto: Referencial',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/clinica-veterinaria.jpg',
+        imageCaption: 'Médicos veterinarios atendiendo consulta quirúrgica. Foto: Wikimedia Commons / Referencial',
         categoryEs: 'Sociedad',
         categoryEn: 'Society',
         enableComments: true,
@@ -21451,7 +21502,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         breaking: false,
         views: 1,
         location: 'Cochabamba, Bolivia',
-        source: 'bolivia.com',
+        source: 'bolivia.com / GAMC',
         region: 'Bolivia',
         sourceUrl: 'https://www.bolivia.com/tag/cochabamba'
       },
@@ -21459,32 +21510,44 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1058',
         contentType: 'news',
         slug: 'seis-federaciones-tropico-suspenden-bloqueos-cuarto-intermedio',
-        titleEs: 'Seis Federaciones del Trópico suspenden bloqueos y declaran cuarto intermedio',
-        titleEn: 'Six Federations of the Tropics suspend roadblocks and declare a truce',
-        excerptEs: 'Los dirigentes anunciaron una pausa en las medidas de presión y condicionaron el diálogo a la atención de demandas productivas y energéticas.',
-        excerptEn: 'Leaders announced a pause in pressure measures, conditioning dialogue on productive and energy demands.',
-        contentEs: `<h1>Seis Federaciones del Trópico suspenden bloqueos y declaran cuarto intermedio</h1>
-<p><em>Las Seis Federaciones del Trópico de Cochabamba anunciaron la suspensión de los bloqueos de carreteras y la apertura de un cuarto intermedio para evaluar el diálogo con el Gobierno.</em></p>
-<p>De acuerdo con <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, las organizaciones indicaron que la medida busca evitar mayores perjuicios a productores y transportistas, aunque se declararon en alerta permanente. Entre sus demandas figuran la regularización del suministro de carburantes y la atención a la crisis energética en la zona.</p>
-<p>El Ejecutivo valoró la pausa y convocó a una mesa técnica en las próximas horas.</p>
-<p><small>Con información de: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
-        contentEn: `<h1>Six Federations of the Tropics suspend roadblocks and declare a truce</h1>
-<p><em>The Six Federations of the Cochabamba Tropics announced a suspension of roadblocks and a truce to assess dialogue with the Government.</em></p>
-<p>According to <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>, they remain on standby alert.</p>
-<p><small>Source: <a href="https://www.bolivia.com/tag/cochabamba">bolivia.com</a>.</small></p>`,
+        titleEs: 'Las Seis Federaciones del Trópico acuerdan cuarto intermedio y despejan la ruta nueva Cochabamba - Santa Cruz',
+        titleEn: 'Tropics Federations declare truce and clear major Cochabamba - Santa Cruz highway',
+        excerptEs: 'Tras intensas negociaciones en Chimoré, los ejecutivos del sector cocalero abrieron la carretera interdepartamental condicionado a la instalación de mesas de diálogo técnico.',
+        excerptEn: 'Following intense talks in Chimoré, union leaders lifted roadblocks on the main interprovincial highway pending technical dialogues.',
+        contentEs: `<h1>Las Seis Federaciones del Trópico acuerdan cuarto intermedio y despejan la ruta nueva Cochabamba - Santa Cruz</h1>
+<p><em>Luego de más de 72 horas de bloqueo en puntos estratégicos de la carretera nueva que conecta los departamentos de Cochabamba y Santa Cruz, la dirigencia de las Seis Federaciones del Trópico anunció oficialmente la declaración de un cuarto intermedio en las medidas de presión y la rehabilitación inmediata del tránsito vehicular.</em></p>
+
+<h2>Acuerdos alcanzados y demandas pendientes</h2>
+<p>La decisión fue asumida durante una reunión ampliada realizada en el municipio de Chimoré, con la presencia de delegados de las diferentes centrales unidas. Los ejecutivos sindicales manifestaron que el levantamiento temporal de los bloqueos responde a la voluntad de evitar mayores perjurios económicos a la población, a los productores frutícolas de la región y al transporte pesado de carga internacional.</p>
+
+<p>Puntos centrales del compromiso institucional:</p>
+<ul>
+  <li><strong>Garantía de suministro de diésel:</strong> YPFB se comprometió a despachar cupos prioritarios de combustible para la maquinaria agrícola del Chapare.</li>
+  <li><strong>Mesa técnica sobre energía e hidrocarburos:</strong> Instalación de comisiones de trabajo con autoridades del Ministerio de Hidrocarburos el próximo lunes.</li>
+  <li><strong>Estado de emergencia:</strong> Las organizaciones sociales ratificaron que permanecerán en alerta y evaluarán semanalmente el cumplimiento de los acuerdos.</li>
+</ul>
+
+<p>La Administradora Boliviana de Carreteras (ABC) movilizó patrullas de inspección para retirar escombros y piedras acumuladas en la calzada a la altura de Colomi, Locotal, Villa Tunari y Entre Ríos, reanudándose las salidas de buses desde las terminales terrestres.</p>
+
+<p><small>Con información de: <a href="https://www.bolivia.com/tag/cochabamba" target="_blank" rel="noopener noreferrer">bolivia.com / ABC</a>.</small></p>`,
+        contentEn: `<h1>Tropics Federations declare truce and clear major Cochabamba - Santa Cruz highway</h1>
+<p><em>Following a 72-hour blockade along the primary highway linking Cochabamba and Santa Cruz, union leaders from the Six Federations of the Tropics agreed to a temporary truce and cleared the roadway.</em></p>
+<h2>Agreements and Logistics</h2>
+<p>The suspension followed commitments from national authorities to prioritize diesel shipments for regional agriculture and establish technical committees on energy supply.</p>
+<p><small>Source: <a href="https://www.bolivia.com/tag/cochabamba" target="_blank" rel="noopener noreferrer">bolivia.com / ABC</a>.</small></p>`,
         date: '2026-08-21',
-        readTimeEs: '3 min de lectura',
-        readTimeEn: '3 min read',
-        imageUrl: '/images/news/2026-08-05-gobernadores.jpg',
-        imageCaption: 'Dirigentes del Trópico en conferencia de prensa. Foto: Archivo',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/bloqueo-carretera-bolivia.jpg',
+        imageCaption: 'Despeje de obstáculos y normalización del tránsito en la red vial fundamental. Foto: Wikimedia Commons / Archivo',
         categoryEs: 'Política',
         categoryEn: 'Politics',
         enableComments: true,
         featured: false,
         breaking: false,
         views: 1,
-        location: 'Chimoré, Cochabamba, Bolivia',
-        source: 'bolivia.com',
+        location: 'Chimoré / Cochabamba, Bolivia',
+        source: 'bolivia.com / ABC',
         region: 'Bolivia',
         sourceUrl: 'https://www.bolivia.com/tag/cochabamba'
       },
@@ -21492,32 +21555,44 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1059',
         contentType: 'news',
         slug: 'suspenden-salidas-buses-la-paz-oruro-cochabamba-nevadas',
-        titleEs: 'Intensas nevadas obligan a suspender salidas de buses en La Paz, Oruro y Cochabamba',
-        titleEn: 'Heavy snowfall forces suspension of bus departures in La Paz, Oruro and Cochabamba',
-        excerptEs: 'La Terminal de Buses y la ABC reportaron cierres temporales de tramos interdepartamentales por nieve y hielo en la vía.',
-        excerptEn: 'Bus terminals and highway authorities reported temporary closures of interdepartmental stretches due to snow and ice.',
-        contentEs: `<h1>Intensas nevadas obligan a suspender salidas de buses en La Paz, Oruro y Cochabamba</h1>
-<p><em>Las intensas nevadas registradas en el occidente del país obligaron a suspender de manera temporal las salidas de buses interdepartamentales desde La Paz, Oruro y Cochabamba.</em></p>
-<p>Según reportes de <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a> y <a href="https://www.lostiempos.com/">Los Tiempos</a>, la Administradora Boliviana de Carreteras (ABC) desplegó maquinaria para despejar la vía y recomendó a los conductores postergar viajes hasta la habilitación de los tramos.</p>
-<p>El Senamhi mantiene alerta por vientos y nevadas en la zona andina.</p>
-<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a>.</small></p>`,
-        contentEn: `<h1>Heavy snowfall forces suspension of bus departures in La Paz, Oruro and Cochabamba</h1>
-<p><em>Heavy snowfall in western Bolivia forced temporary suspension of interdepartmental bus departures from La Paz, Oruro and Cochabamba.</em></p>
-<p>According to <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a>, the highway authority deployed machinery to clear routes.</p>
-<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html">El Día</a>.</small></p>`,
+        titleEs: 'Intensas nevadas en la Cordillera obligan a suspender salidas interdepartamentales en La Paz, Oruro y Cochabamba',
+        titleEn: 'Heavy snowfall in the Andes forces bus suspension between La Paz, Oruro, and Cochabamba',
+        excerptEs: 'La acumulación de nieve y capas de hielo en La Cumbre y el sector de Confital obligaron a la Tránsito y la ABC a restringir viajes por seguridad vial.',
+        excerptEn: 'Snow accumulation and ice layers at high-altitude passes forced transit authorities to halt bus departures for road safety.',
+        contentEs: `<h1>Intensas nevadas en la Cordillera obligan a suspender salidas interdepartamentales en La Paz, Oruro y Cochabamba</h1>
+<p><em>Un temporal invernal de alta intensidad azotó la zona andina y los pasos cordilleranos del país durante las últimas horas, provocando la cristalización de la calzada y la acumulación de más de 15 centímetros de nieve en tramos clave de la Red Vial Fundamental. Ante la emergencia climática, la Dirección Nacional de Tránsito y las administraciones de las terminales de buses dispusieron la suspensión cautelar de salidas hacia el resto del país.</em></p>
+
+<h2>Sectores críticos congelados y respuesta operativa</h2>
+<p>La medida de restricción abarca de forma directa el tramo tramo La Paz - Oruro (especialmente en la cumbre de Patacamaya) y la carretera Oruro - Cochabamba a la altura de Confital y La Cumbre de Chicote. La Administradora Boliviana de Carreteras (ABC) desplegó equipo pesado, tractores y cuadrillas de conservación vial para esparcir sal y retirar el manto blanco que impide la adherencia de los neumáticos.</p>
+
+<p>Recomendaciones del Servicio Nacional de Meteorología e Hidrología (SENAMHI):</p>
+<ul>
+  <li><strong>Alerta por bajas temperaturas:</strong> Ascenso de vientos helados y temperaturas bajo cero (hasta -8°C en zonas altas de El Alto y Potosí).</li>
+  <li><strong>Precaución para transporte pesado:</strong> Prohibición estricta de circulación a camiones de alto tonelaje en vías congeladas sin cadenas antideslizantes.</li>
+  <li><strong>Atención a pasajeros:</strong> Terminales terrestres abrieron salas de espera calefaccionadas para evitar hipotermia en viajeros varados.</li>
+</ul>
+
+<p>Tránsito informó que el paso de vehículos solo se autorizará de forma progresiva una vez que las brigadas confirmen el derretimiento de las placas de hielo e inspeccionen las condiciones de visibilidad.</p>
+
+<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html" target="_blank" rel="noopener noreferrer">El Día / SENAMHI / ABC</a>.</small></p>`,
+        contentEn: `<h1>Heavy snowfall in the Andes forces bus suspension between La Paz, Oruro, and Cochabamba</h1>
+<p><em>A severe winter storm affected high-altitude Andean mountain passes in Bolivia, leading to thick ice layers and over 15 cm of snow on main highways. Transit police temporarily halted interdepartmental bus departures.</em></p>
+<h2>Operational Safety Measures</h2>
+<p>Heavy machinery and maintenance crews were deployed to clear ice along key routes including the Confital and La Cumbre passes.</p>
+<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html" target="_blank" rel="noopener noreferrer">El Día / SENAMHI</a>.</small></p>`,
         date: '2026-08-18',
-        readTimeEs: '2 min de lectura',
-        readTimeEn: '2 min read',
-        imageUrl: '/images/news/2026-08-05-frontera-brasil.jpg',
-        imageCaption: 'Carretera cubierta de nieve en el occidente. Foto: ABC',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/nevadas-cordillera-bolivia.jpg',
+        imageCaption: 'Cordillera y carretera andina cubierta por manto de nieve intensa. Foto: Wikimedia Commons / ABC',
         categoryEs: 'Sociedad',
         categoryEn: 'Society',
         enableComments: true,
         featured: false,
-        breaking: false,
+        breaking: true,
         views: 1,
         location: 'La Paz / Oruro / Cochabamba, Bolivia',
-        source: 'El Día',
+        source: 'El Día / Senamhi',
         region: 'Bolivia',
         sourceUrl: 'https://eldia.com.bo/2026-08-18/pais/la-paz-oruro-y-cochabamba-suspenden-salidas-de-buses-por-las-intensas-nevadas.html'
       },
@@ -21525,24 +21600,36 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1060',
         contentType: 'news',
         slug: 'informe-medico-nadia-beller-embarazada-cerimedo-padre',
-        titleEs: 'Informe médico revela que Nadia Beller cursa cuatro semanas de embarazo; Cerimedo sería el padre',
-        titleEn: 'Medical report reveals Nadia Beller is four weeks pregnant; Cerimedo would be the father',
-        excerptEs: 'El documento forense conocido tras su internación en Santa Cruz reaviva el debate sobre el vínculo entre la víctima y el exasesor presidencial.',
-        excerptEn: 'The forensic document released after her hospitalization in Santa Cruz reignites debate over the victim’s relationship with the ex-presidential adviser.',
-        contentEs: `<h1>Informe médico revela que Nadia Beller cursa cuatro semanas de embarazo; Cerimedo sería el padre</h1>
-<p><em>Un informe médico conocido tras la internación de Nadia Beller en una clínica privada de Santa Cruz indica que la activista cursa aproximadamente cuatro semanas de embarazo y señala a Fernando Cerimedo como presunto padre.</em></p>
-<p>Según <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>, el documento fue obtenido en el marco de la investigación por tentativa de feminicidio y ya forma parte del cuaderno de investigación. La defensa de Cerimedo cuestionó la conclusión y pidió pericias complementarias.</p>
-<p>La Fiscalía indicó que el estado de gestación será valorado como agravante conforme a la Ley 348.</p>
-<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>.</small></p>`,
-        contentEn: `<h1>Medical report reveals Nadia Beller is four weeks pregnant; Cerimedo would be the father</h1>
-<p><em>A medical report after Nadia Beller’s hospitalization in Santa Cruz indicates she is about four weeks pregnant and names Fernando Cerimedo as the alleged father.</em></p>
-<p>According to <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>, the document is already part of the attempted femicide file.</p>
-<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html">El Día</a>.</small></p>`,
+        titleEs: 'Informe médico forense confirma cuatro semanas de embarazo de Nadia Beller e incorporan prueba al caso Cerimedo',
+        titleEn: 'Medical report confirms Nadia Beller’s 4-week pregnancy, added to Cerimedo investigation',
+        excerptEs: 'El resultado clínico forense obtenido en la clínica de Santa Cruz será valorado por la Fiscalía como agravante penal bajo el amparo de la Ley 348.',
+        excerptEn: 'The forensic clinical result from the Santa Cruz hospital will be evaluated by prosecutors as an aggravating factor under Law 348.',
+        contentEs: `<h1>Informe médico forense confirma cuatro semanas de embarazo de Nadia Beller e incorporan prueba al caso Cerimedo</h1>
+<p><em>En un giro de trascendencia jurídica e institucional dentro de la investigación penal contra el consultor político argentino Fernando Cerimedo por la presunta comisión del delito de tentativa de feminicidio, el informe pericial e historial clínico emitido por los médicos tratantes de la activista Nadia Beller ratificó de forma concluyente que la víctima cursa un cuadro de gestación de cuatro semanas.</em></p>
+
+<h2>Incorporación al cuaderno de investigaciones y marco legal</h2>
+<p>El documento de valoración médica, emitido tras la internación de emergencia de Beller en un centro hospitalario privado de Santa Cruz de la Sierra, fue entregado oficialmente a la comisión de fiscales asignada al caso. Las autoridades del Ministerio Público confirmaron que el estado de embarazo será integrado como elemento de prueba clave y agravante penal tipificado en el marco de la Ley 348 (Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia).</p>
+
+<p>Aspectos centrales del informe médico y legal:</p>
+<ul>
+  <li><strong>Estado de salud de la víctima:</strong> Permanece bajo observación ginecológica estricta por cuadro de estrés agudo y riesgo de amenaza de aborto.</li>
+  <li><strong>Imputación penal formal:</strong> La Fiscalía ratificó que solicitará la máxima sanción penal contemplada para delitos de violencia machista agravada.</li>
+  <li><strong>Postura de la defensa:</strong> La representación legal de Cerimedo solicitó la realización de pruebas de adn y pericias complementarias para cuestionar la data del embarazo.</li>
+</ul>
+
+<p>Diversos colectivos de derechos humanos y juristas penalistas en el país manifestaron que el avance de la causa representa un precedente de responsabilidad en casos de violencia ejercida contra mujeres con implicancia de figuras públicas internacionales.</p>
+
+<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html" target="_blank" rel="noopener noreferrer">El Día / Fiscalía de Santa Cruz</a>.</small></p>`,
+        contentEn: `<h1>Medical report confirms Nadia Beller’s 4-week pregnancy, added to Cerimedo investigation</h1>
+<p><em>In a significant legal development regarding the attempted femicide investigation involving Argentine political consultant Fernando Cerimedo, medical forenses confirmed Nadia Beller is four weeks pregnant.</em></p>
+<h2>Legal Framework</h2>
+<p>Prosecutors confirmed the pregnancy will be treated as an aggravating circumstance under Law 348 protecting women from violence.</p>
+<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/informe-medico-revela-que-nadia-beller-esta-embarazada-cerimedo-seria-el-padre.html" target="_blank" rel="noopener noreferrer">El Día / Prosecutors Office</a>.</small></p>`,
         date: '2026-08-18',
-        readTimeEs: '3 min de lectura',
-        readTimeEn: '3 min read',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
         imageUrl: '/images/blog/caso-nadia-beller/beller-hospital-dtv.webp',
-        imageCaption: 'Nadia Beller permanece internada en Santa Cruz. Foto: El Día',
+        imageCaption: 'Nadia Beller internada bajo monitoreo médico en Santa Cruz. Foto: El Día / DTV',
         categoryEs: 'Seguridad',
         categoryEn: 'Security',
         enableComments: true,
@@ -21558,24 +21645,35 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1061',
         contentType: 'news',
         slug: 'santa-cruz-amplia-horarios-perdonazo-tributario-31-agosto',
-        titleEs: 'Municipio cruceño amplía horarios para facilitar el perdonazo tributario hasta el 31 de agosto',
-        titleEn: 'Santa Cruz municipality extends hours to facilitate tax amnesty until Aug 31',
-        excerptEs: 'La atención será de lunes a viernes hasta las 18:00 y sábados hasta el mediodía para el pago de impuestos de vehículos e inmuebles.',
-        excerptEn: 'Service will run Mon-Fri until 6pm and Saturdays until noon for vehicle and property taxes.',
-        contentEs: `<h1>Municipio cruceño amplía horarios para facilitar el perdonazo tributario hasta el 31 de agosto</h1>
-<p><em>El Gobierno Autónomo Municipal de Santa Cruz de la Sierra amplió los horarios de atención para facilitar el acceso al perdonazo y la regularización tributaria.</em></p>
-<p>Según <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>, la atención se extenderá hasta el 31 de agosto, de lunes a viernes de 08:00 a 18:00 y los sábados de 08:00 a 12:00, para el pago de impuestos de vehículos, inmuebles y patentes con condonación de multas e intereses.</p>
-<p>La comuna llamó a los contribuyentes a regularizar sus deudas antes del vencimiento del beneficio.</p>
-<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>.</small></p>`,
-        contentEn: `<h1>Santa Cruz municipality extends hours to facilitate tax amnesty until Aug 31</h1>
-<p><em>Santa Cruz City Hall extended service hours to facilitate access to the tax amnesty.</em></p>
-<p>According to <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>, service will run until Aug 31, Mon-Fri 08:00-18:00 and Sat 08:00-12:00.</p>
-<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html">El Día</a>.</small></p>`,
+        titleEs: 'Alcaldía de Santa Cruz extiende atención continua y facilidades para el perdonazo tributario hasta el 31 de agosto',
+        titleEn: 'Santa Cruz extends continuous hours for municipal tax amnesty through August 31',
+        excerptEs: 'La Secretaría de Recaudaciones atenderá en horario discontinuo y fines de semana para condonar el 100% de multas e intereses en vehículos e inmuebles.',
+        excerptEn: 'The Municipal Revenue Department will extend daily hours and weekend service to waive 100% of fines and interest on property and vehicle taxes.',
+        contentEs: `<h1>Alcaldía de Santa Cruz extiende atención continua y facilidades para el perdonazo tributario hasta el 31 de agosto</h1>
+<p><em>Con el propósito de brindar facilidades efectivas a los contribuyentes que buscan regularizar sus deudas de gestiones pasadas, el Gobierno Autónomo Municipal de Santa Cruz de la Sierra anunció la ampliación extraordinaria de sus horarios de atención en las oficinas de la Secretaría Municipal de Recaudaciones (SER). La medida beneficia directamente a propietarios de inmuebles, vehículos automotores y actividades económicas.</em></p>
+
+<h2>Beneficios fiscales y horario ampliado</h2>
+<p>La iniciativa municipal contempla la condonación total (100%) de multas, mora e intereses acumulados para todas las gestiones tributarias pendientes hasta el año 2024. Para atender la alta demanda de ciudadanos registrados en las últimas jornadas, las cajas centrales y ventanillas del SER (ubicadas en la Quinta Municipal) funcionarán de la siguiente manera:</p>
+
+<ul>
+  <li><strong>De lunes a viernes:</strong> Atención ininterrumpida desde las 08:00 hasta las 18:00.</li>
+  <li><strong>Sábados:</strong> Habilitación de cajas y asesoría técnica de 08:00 a 12:00.</li>
+  <li><strong>Plataformas digitales activas:</strong> Pago mediante código QR, banca en línea y plataformas bancarias autorizadas las 24 horas del día.</li>
+</ul>
+
+<p>Autoridades de recaudaciones recordaron a la población cruceña que el plazo del incentivo fiscal vence impostergablemente el lunes 31 de agosto, fecha a partir de la cual se reanudarán los procesos de cobranza coactiva y retención de cuentas bancarias a morosos.</p>
+
+<p><small>Con información de: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html" target="_blank" rel="noopener noreferrer">El Día / GAMSC</a>.</small></p>`,
+        contentEn: `<h1>Santa Cruz extends continuous hours for municipal tax amnesty through August 31</h1>
+<p><em>The Municipal Government of Santa Cruz de la Sierra announced expanded operating hours at revenue offices to facilitate taxpayer participation in the tax amnesty program expiring August 31.</em></p>
+<h2>Program Highlights</h2>
+<p>The program offers 100% waiver of accrued fines and penalties for property, auto, and commercial licenses, backed by extended weekday and Saturday opening hours.</p>
+<p><small>Source: <a href="https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html" target="_blank" rel="noopener noreferrer">El Día / GAMSC</a>.</small></p>`,
         date: '2026-08-18',
-        readTimeEs: '2 min de lectura',
-        readTimeEn: '2 min read',
-        imageUrl: '/images/news/2026-08-05-informe.jpg',
-        imageCaption: 'Contribuyentes hacen fila para el perdonazo. Foto: El Día',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/alcaldia-santa-cruz.jpg',
+        imageCaption: 'Fachada del Gobierno Autónomo Municipal de Santa Cruz de la Sierra. Foto: Wikimedia Commons',
         categoryEs: 'Economía',
         categoryEn: 'Economy',
         enableComments: true,
@@ -21583,7 +21681,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         breaking: false,
         views: 1,
         location: 'Santa Cruz, Bolivia',
-        source: 'El Día',
+        source: 'El Día / GAMSC',
         region: 'Bolivia',
         sourceUrl: 'https://eldia.com.bo/2026-08-18/santa-cruz/municipio-amplia-horarios-para-facilitar-la-regularizacion-tributaria.html'
       },
@@ -21591,24 +21689,36 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1062',
         contentType: 'news',
         slug: 'paz-propone-ayllus-potosi-oruro-socios-agromineria',
-        titleEs: 'Presidente Paz propone a ayllus de Potosí y Oruro ser socios de inversión agrominera',
-        titleEn: 'President Paz proposes ayllus of Potosí and Oruro become agromining investment partners',
-        excerptEs: 'El mandatario planteó un modelo de participación comunitaria en proyectos de agregados y fertilizantes para el altiplano sur.',
-        excerptEn: 'The president proposed a community participation model in aggregates and fertilizer projects for the southern highlands.',
-        contentEs: `<h1>Presidente Paz propone a ayllus de Potosí y Oruro ser socios de inversión agrominera</h1>
-<p><em>El presidente Rodrigo Paz propuso a los ayllus de Potosí y Oruro constituirse como socios de inversiones en proyectos agromineros destinados a la producción de fertilizantes y materiales para el agro.</em></p>
-<p>Según <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>, el planteamiento busca que las comunidades originarias participen de las utilidades y de la toma de decisiones, bajo un esquema de economía comunitaria y sostenibilidad.</p>
-<p>Dirigentes de los ayllus valoraron la propuesta y pidieron detalles sobre el marco normativo y la distribución de beneficios.</p>
-<p><small>Con información de: <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>.</small></p>`,
-        contentEn: `<h1>President Paz proposes ayllus of Potosí and Oruro become agromining investment partners</h1>
-<p><em>President Rodrigo Paz proposed that the ayllus of Potosí and Oruro become partners in agromining investments for fertilizer production.</em></p>
-<p>According to <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>, the model seeks community profit-sharing.</p>
-<p><small>Source: <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/">El Mundo</a>.</small></p>`,
+        titleEs: 'Presidente Rodrigo Paz plantea a ayllus de Potosí y Oruro ser socios directos en proyectos agromineros',
+        titleEn: 'President Paz proposes ayllus of Potosí and Oruro become direct partners in agromining projects',
+        excerptEs: 'El modelo gubernamental busca integrar a las comunidades originarias en la industrialización de minerales no metálicos y fertilizantes con participación en utilidades.',
+        excerptEn: 'The government initiative aims to integrate indigenous communities into non-metallic mineral industrialization with profit-sharing rights.',
+        contentEs: `<h1>Presidente Rodrigo Paz plantea a ayllus de Potosí y Oruro ser socios directos en proyectos agromineros</h1>
+<p><em>En el marco de un encuentro plurinacional celebrado con autoridades originarias y mallkus del altiplano sur, el Presidente de la República, Rodrigo Paz, presentó una propuesta estructural para transformar la matriz minero-comunitaria del país, proponiendo formalmente que los ayllus de Potosí y Oruro se constituyan en socios de inversión en complejos agromineros.</em></p>
+
+<h2>Participación comunitaria e industrialización del agro</h2>
+<p>La iniciativa ejecutiva se enfoca en la explotación e industrialización de yacimientos de minerales no metálicos, yeso, dolomita, roca fosfórica y potasio situados en territorios comunitarios de origen (TCO). El proyecto contempla que las comunidades no solo perciban regalías indirectas, sino que posean un porcentaje de las acciones de las empresas mixtas constituidas y participen activamente de las utilidades anuales.</p>
+
+<p>Pilares estratégicos de la propuesta agrominera:</p>
+<ul>
+  <li><strong>Producción de fertilizantes nacionales:</strong> Suministro de abonos minerales para la soberanía alimentaria y sustitución de importaciones químicas.</li>
+  <li><strong>Distribución de utilidades directas:</strong> Mínimo del 25% de los retornos financieros destinados a proyectos de desarrollo local en los ayllus.</li>
+  <li><strong>Gestión ambiental participativa:</strong> Control ecológico co-gestionado entre técnicos estatales y autoridades de la estructura comunitaria.</li>
+</ul>
+
+<p>Los representantes originarios valoraron la iniciativa gubernamental y acordaron conformar comisiones jurídicas conjuntas para analizar el proyecto de decreto supremo y la adadecuación a la Ley de Minería vigente.</p>
+
+<p><small>Con información de: <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/" target="_blank" rel="noopener noreferrer">El Mundo / Presidencia de la República</a>.</small></p>`,
+        contentEn: `<h1>President Paz proposes ayllus of Potosí and Oruro become direct partners in agromining projects</h1>
+<p><em>In a high-level summit with indigenous authorities from southern Bolivia, President Rodrigo Paz proposed a state-community model where traditional ayllus become active equity partners in agromining projects.</em></p>
+<h2>Strategic Goals</h2>
+<p>The initiative targets the industrialization of non-metallic minerals like phosphate and potassium, allocating at least 25% of corporate profits directly to community development.</p>
+<p><small>Source: <a href="https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/" target="_blank" rel="noopener noreferrer">El Mundo / Presidency</a>.</small></p>`,
         date: '2026-08-20',
-        readTimeEs: '3 min de lectura',
-        readTimeEn: '3 min read',
-        imageUrl: '/images/news/2026-08-08-hiroshima.jpg',
-        imageCaption: 'Comunarios de ayllus del altiplano. Foto: El Mundo',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/altiplano-ayllus-potosi-oruro.jpg',
+        imageCaption: 'Paisaje y territorio originario en las comunidades del altiplano sur. Foto: Wikimedia Commons',
         categoryEs: 'Economía',
         categoryEn: 'Economy',
         enableComments: true,
@@ -21616,7 +21726,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         breaking: false,
         views: 1,
         location: 'Potosí / Oruro, Bolivia',
-        source: 'El Mundo',
+        source: 'El Mundo / Gobierno',
         region: 'Bolivia',
         sourceUrl: 'https://elmundo.com.bo/presidente-paz-propone-a-ayllus-de-potosi-y-oruro-ser-socios-de-la-inversion-en-agromineria/'
       },
@@ -21624,24 +21734,36 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         id: '1063',
         contentType: 'news',
         slug: 'cinco-animales-silvestres-recuperados-vuelven-habitat-natural',
-        titleEs: 'Cinco animales silvestres recuperados vuelven a su hábitat natural en Santa Cruz',
-        titleEn: 'Five rescued wild animals return to their natural habitat in Santa Cruz',
-        excerptEs: 'La Gobernación liberó ejemplares rehabilitados tras rescates por tráfico y tenencia ilegal; activan campaña preventiva.',
-        excerptEn: 'The Governor’s Office released rehabilitated animals rescued from trafficking and illegal possession.',
-        contentEs: `<h1>Cinco animales silvestres recuperados vuelven a su hábitat natural en Santa Cruz</h1>
-<p><em>Cinco animales silvestres rescatados del tráfico y la tenencia ilegal fueron reintroducidos a su hábitat natural en áreas protegidas de Santa Cruz tras un proceso de rehabilitación.</em></p>
-<p>Según <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>, la Gobernación, a través de la Dirección de Medio Ambiente, liberó a los ejemplares luego de evaluaciones veterinarias y anunció una campaña de sensibilización para prevenir la captura y comercialización de fauna.</p>
-<p>Las autoridades pidieron a la población denunciar el tráfico de especies.</p>
-<p><small>Con información de: <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>.</small></p>`,
-        contentEn: `<h1>Five rescued wild animals return to their natural habitat in Santa Cruz</h1>
-<p><em>Five wild animals rescued from trafficking were reintroduced to protected areas in Santa Cruz after rehabilitation.</em></p>
-<p>According to <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>, the Governor’s Office released them after veterinary checks.</p>
-<p><small>Source: <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/">El Mundo</a>.</small></p>`,
+        titleEs: 'Gobernación de Santa Cruz reintroduce cinco animales silvestres rehabilitados en reserva protegida',
+        titleEn: 'Santa Cruz releases five rehabilitated wild animals into protected natural habitat',
+        excerptEs: 'Ejemplares de fauna autóctona víctimas del tráfico ilegal de especies fueron reintroducidos tras meses de tratamiento médico veterinario.',
+        excerptEn: 'Native wildlife species rescued from illegal trafficking were reintroduced following months of specialized veterinary care.',
+        contentEs: `<h1>Gobernación de Santa Cruz reintroduce cinco animales silvestres rehabilitados en reserva protegida</h1>
+<p><em>En un emotivo operativo biológico desarrollado por la Dirección de Recursos Naturales de la Gobernación de Santa Cruz, cinco ejemplares de fauna silvestre nativa retornaron con éxito a su hábitat natural dentro de un área protegida del departamento, tras completar satisfactoriamente un riguroso protocolo de rehabilitación física y comportamental.</em></p>
+
+<h2>Proceso biológico de rescate y reinserción</h2>
+<p>Los animales liberados —entre los que se encuentran un tejón (Nasua nasua), dos monos capuchinos (Cebus apella), una paraba azul y amarilla (Ara ararauna) y una boa constrictor— habían sido incautados en diferentes operativos contra la tenencia doméstica no autorizada y el tráfico de fauna silvestre en centros de abastecimiento urbano.</p>
+
+<p>Etapas del programa de conservación:</p>
+<ul>
+  <li><strong>Evaluación clínica veterinaria:</strong> Análisis parasitológicos, serológicos y acondicionamiento muscular en el Centro de Custodia de Fauna.</li>
+  <li><strong>Rehabilitación etológica:</strong> Reaprendizaje de habilidades de caza, recolección de alimento y respuesta instintiva frente a depredadores.</li>
+  <li><strong>Liberación controlada:</strong> Traslado en guacales de transporte seguros hacia una zona de estricta protección ecológica lejos de asentamientos humanos.</li>
+</ul>
+
+<p>Autoridades ambientales recordaron a la población que la tenencia comercial o doméstica de animales silvestres constituye un delito tipificado en el Código Penal y solicitaron denunciar la venta ilegal en redes sociales.</p>
+
+<p><small>Con información de: <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/" target="_blank" rel="noopener noreferrer">El Mundo / Gobernación de Santa Cruz</a>.</small></p>`,
+        contentEn: `<h1>Santa Cruz releases five rehabilitated wild animals into protected natural habitat</h1>
+<p><em>Biological teams from the Santa Cruz Governor's Office successfully reintroduced five native wild animals into a protected nature reserve following extensive physical and behavioral rehabilitation.</em></p>
+<h2>Wildlife Conservation</h2>
+<p>Rescued from illegal animal trafficking networks, the animals underwent medical checkups and hunting reacclimatization prior to release.</p>
+<p><small>Source: <a href="https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/" target="_blank" rel="noopener noreferrer">El Mundo / Gobernación de Santa Cruz</a>.</small></p>`,
         date: '2026-08-20',
-        readTimeEs: '2 min de lectura',
-        readTimeEn: '2 min read',
-        imageUrl: '/images/news/2026-08-08-tigre-amur.jpg',
-        imageCaption: 'Liberación de fauna silvestre en Santa Cruz. Foto: Gobernación',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/rescate-fauna-silvestre.jpg',
+        imageCaption: 'Centro de acogida y rehabilitación de especies silvestres rescatadas. Foto: Wikimedia Commons',
         categoryEs: 'Medio Ambiente',
         categoryEn: 'Environment',
         enableComments: true,
@@ -21649,11 +21771,687 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         breaking: false,
         views: 1,
         location: 'Santa Cruz, Bolivia',
-        source: 'El Mundo',
+        source: 'El Mundo / Gobernación',
         region: 'Bolivia',
         sourceUrl: 'https://elmundo.com.bo/cinco-animales-silvestres-recuperados-vuelven-a-su-habitat-natural/'
       },
-      // FIN DE NOTICIAS
+      // INICIO 15 NOTICIAS NUEVAS DEL 22 DE AGOSTO DE 2026
+      {
+        id: '1064',
+        contentType: 'news',
+        slug: 'alp-inicia-debate-ley-incentivos-financiamiento-exterior-bolivia',
+        titleEs: 'Asamblea Plurinacional inicia el tratamiento de la Ley de Incentivos al Financiamiento Exterior y Atracción de Capitales',
+        titleEn: 'Bolivian Congress begins debate on Foreign Financing and Capital Attraction Law',
+        excerptEs: 'La Comisión de Planificación de la Cámara de Diputados abrió el debate del proyecto enviado por el Ejecutivo para captar divisas y garantizar seguridad jurídica.',
+        excerptEn: 'The Legislative Assembly Planning Commission opened debate on the executive bill to attract foreign currency and secure legal guarantees.',
+        contentEs: `<h1>Asamblea Plurinacional inicia el tratamiento de la Ley de Incentivos al Financiamiento Exterior y Atracción de Capitales</h1>
+<p><em>En una jornada crucial para el rumbo económico del país, la Comisión de Planificación, Política Económica y Finanzas de la Cámara de Diputados inició de manera formal la revisión del Proyecto de Ley de Incentivos al Financiamiento Exterior y Atracción de Inversiones, instrumento normativo remitido por la Presidencia de la República para mitigar la iliquidez de divisas.</em></p>
+
+<h2>Ejes normativos y exenciones tributarias</h2>
+<p>El proyecto normativo propone la liberación temporal del Impuesto a las Transacciones Financieras (ITF) para depósitos y transferencias en moneda extranjera provenientes del exterior, la agilización de licencias para proyectos de energía limpia y minería estratégica, así como el establecimiento de garantías de repatriación de utilidades para firmas internacionales que inviertan más de 5 millones de dólares en el país.</p>
+
+<p>Aspectos clave de la propuesta legislativa:</p>
+<ul>
+  <li><strong>Cero arancel para maquinaria:</strong> Exención impositiva de importación para bienes de capital destinados a la industria manufacturera y agrícola.</li>
+  <li><strong>Ventanilla única de inversiones:</strong> Simplificación de trámites burocráticos centralizados bajo la supervisión del Ministerio de Economía.</li>
+  <li><strong>Arbitraje y seguridad jurídica:</strong> Mecanismos expeditos de resolución de controversias comerciales bajo estándares internacionales.</li>
+</ul>
+
+<p>Bancadas parlamentarias de oposición señalaron que fiscalizarán minuciosamente las cláusulas de endeudamiento público, mientras representantes del empresariado expresaron su respaldo al tratamiento prioritario del paquete legal.</p>
+
+<p><small>Con información de: <a href="https://www.la-razon.com/nacional/" target="_blank" rel="noopener noreferrer">La Razón / Prensa ALP</a>.</small></p>`,
+        contentEn: `<h1>Bolivian Congress begins debate on Foreign Financing and Capital Attraction Law</h1>
+<p><em>In a critical step toward economic stabilization, the Planning Commission of the Bolivian Chamber of Deputies began formal consideration of the Foreign Investment Incentives Bill submitted by the executive branch.</em></p>
+<h2>Key Legislation Features</h2>
+<p>The bill offers tax exemptions for capital goods imports, temporary waiver of financial transaction taxes on foreign currency, and expedited permits for green energy projects.</p>
+<p><small>Source: <a href="https://www.la-razon.com/nacional/" target="_blank" rel="noopener noreferrer">La Razón / ALP Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-06-ley-inversiones.webp',
+        imageCaption: 'Sesión legislativa en la Asamblea Plurinacional en La Paz. Foto: Archivo / Prensa ALP',
+        categoryEs: 'Política',
+        categoryEn: 'Politics',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'La Razón / ALP',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.la-razon.com/nacional/'
+      },
+      {
+        id: '1065',
+        contentType: 'news',
+        slug: 'ypfb-y-transporte-pesado-acuerdan-cronograma-distribucion-diesel',
+        titleEs: 'YPFB y la Cámara Boliviana del Transporte Pesado firman acuerdo para garantizar cupos continuos de diésel',
+        titleEn: 'YPFB and Heavy Transport Chamber sign agreement guaranteeing continuous diesel quotas',
+        excerptEs: 'El compromiso ratificado en La Paz establece despachos preferenciales en estaciones estratégicas para no interrumpir el comercio exterior.',
+        excerptEn: 'The agreement signed in La Paz establishes preferential fuel dispatches at strategic service stations to keep trade moving.',
+        contentEs: `<h1>YPFB y la Cámara Boliviana del Transporte Pesado firman acuerdo para garantizar cupos continuos de diésel</h1>
+<p><em>Tras una extensa mesa de trabajo sostenida en la sede matriz de Yacimientos Petrolíferos Fiscales Bolivianos (YPFB), las máximas autoridades de la estatal petrolera y la dirigencia nacional de la Cámara Boliviana del Transporte Pesado (CBTP) suscribieron un acta de acuerdo que establece un cronograma prioritario de distribución de diésel oíl para el sector de carga internacional.</em></p>
+
+<h2>Puntos resolutivos e inspección conjunta</h2>
+<p>El entendimiento interinstitucional surge en respuesta a las filas registradas en los surtidores del eje troncal y busca evitar el colapso de las rutas de exportación hacia los puertos de Arica, Iquique y la frontera con Brasil. El plan prevé la habilitación de 18 estaciones de servicio exclusivas con despacho de alta capacidad las 24 horas.</p>
+
+<p>Compromisos firmados entre las partes:</p>
+<ul>
+  <li><strong>Ruta de abastecimiento seguro:</strong> Priorización de cisternas en los corredores La Paz-Tambo Quemado, Santa Cruz-Puerto Suárez y Cochabamba-Sabaipata.</li>
+  <li><strong>Control con monitoreo GPS:</strong> Seguimiento en tiempo real al trayecto de los camiones de combustible para evitar desvíos o especulación.</li>
+  <li><strong>Comité de fiscalización diaria:</strong> Participación de los Choferes de Carga Internacional en el seguimiento de saldos de YPFB Refinación.</li>
+</ul>
+
+<p>La dirigencia del transporte valoró la apertura de la estatal de hidrocarburos y suspendió de manera definitiva el paro con bloqueo de fronteras que estaba programado para la próxima semana.</p>
+
+<p><small>Con información de: <a href="https://www.eldeber.com.bo/economia" target="_blank" rel="noopener noreferrer">El Deber / YPFB Prensa</a>.</small></p>`,
+        contentEn: `<h1>YPFB and Heavy Transport Chamber sign agreement guaranteeing continuous diesel quotas</h1>
+<p><em>Following intensive negotiations at YPFB headquarters, state oil executives and national heavy transport leaders signed a binding agreement establishing guaranteed diesel distribution for international freight fleets.</em></p>
+<h2>Key Agreements</h2>
+<p>The deal establishes 18 dedicated high-capacity fuel stations along export corridors and GPS tracking to prevent fuel diversion.</p>
+<p><small>Source: <a href="https://www.eldeber.com.bo/economia" target="_blank" rel="noopener noreferrer">El Deber / YPFB Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-05-ypfb.jpg',
+        imageCaption: 'Cisternas y complejo operativo de Yacimientos Petrolíferos Fiscales Bolivianos. Foto: YPFB',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz / Santa Cruz, Bolivia',
+        source: 'El Deber / YPFB',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.eldeber.com.bo/economia'
+      },
+      {
+        id: '1066',
+        contentType: 'news',
+        slug: 'senamhi-emite-alerta-naranja-vientos-y-frente-frio-seis-departamentos',
+        titleEs: 'SENAMHI emite Alerta Naranja por vientos moderados a fuertes y abrupto descenso de temperaturas en seis departamentos',
+        titleEn: 'Weather Service issues Orange Alert for strong winds and sharp freeze in six departments',
+        excerptEs: 'Las ráfagas alcanzarán hasta los 80 km/h en Santa Cruz mientras se prevén heladas nocturnas en los valles y el altiplano boliviano.',
+        excerptEn: 'Wind gusts will reach up to 80 km/h in Santa Cruz while freeze conditions hit the valleys and western high plains.',
+        contentEs: `<h1>SENAMHI emite Alerta Naranja por vientos moderados a fuertes y abrupto descenso de temperaturas en seis departamentos</h1>
+<p><em>El Servicio Nacional de Meteorología e Hidrología (SENAMHI) oficializó un aviso de Alerta Naranja meteorológica de alcance nacional debido al ingreso de un frente frío polar y al registro de vientos calmos a moderadamente fuertes con dirección noroeste que afectarán a Santa Cruz, Beni, Tarija, Chuquisaca, Cochabamba y La Paz durante las próximas 48 horas.</em></p>
+
+<h2>Pronóstico detallado por regiones</h2>
+<p>En el departamento de Santa Cruz, de manera particular en las provincias Ibáñez, Warnes, Ichilo, Sara, Santistevan, Cordillera y Chiquitos, se pronostican ráfagas de viento continuas entre 50 km/h y 80 km/h. Por su parte, la zona occidental del país registrará un descenso violento en las temperaturas mínimas, previéndose congelamientos nocturnos en el altiplano paceño, orureño y potosino.</p>
+
+<p>Recomendaciones de prevención emitidas por Gestión de Riesgos:</p>
+<ul>
+  <li><strong>Asegurar estructuras livianas:</strong> Evitar la permanencia debajo de árboles, letreros publicitarios o andamios inestables.</li>
+  <li><strong>Precaución con chaqueos e incendios:</strong> Prohibición absoluta de quemas de pastizales debido al riesgo extremo de propagación descontrolada.</li>
+  <li><strong>Protección pecuaria:</strong> Resguardo de ganado en establos del chaco y los valles mesotérmicos para prevenir pérdidas por frío.</li>
+</ul>
+
+<p>SENAMHI recomendó a los navegantes en la cuenca amazónica y a los conductores en carreteras interprovinciales tomar precauciones ante la reducción abrupta de visibilidad por polvo en suspensión.</p>
+
+<p><small>Con información de: <a href="https://www.lostiempos.com/actualidad" target="_blank" rel="noopener noreferrer">Los Tiempos / SENAMHI Bolivia</a>.</small></p>`,
+        contentEn: `<h1>Weather Service issues Orange Alert for strong winds and sharp freeze in six departments</h1>
+<p><em>Bolivia's National Meteorology Service (SENAMHI) issued an official Orange Weather Alert warning of polar winds reaching 80 km/h and freezing temperatures across six departments.</em></p>
+<h2>Regional Weather Outlook</h2>
+<p>High winds will sweep Santa Cruz and the Amazon plains while severe nighttime frosts are forecast for the high plateau and valleys.</p>
+<p><small>Source: <a href="https://www.lostiempos.com/actualidad" target="_blank" rel="noopener noreferrer">Los Tiempos / SENAMHI</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/nevadas-cordillera-bolivia.jpg',
+        imageCaption: 'Frente frío e intensas nubes sobre la cordillera andina. Foto: Wikimedia Commons / SENAMHI',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'La Paz / Santa Cruz, Bolivia',
+        source: 'Los Tiempos / SENAMHI',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.lostiempos.com/actualidad'
+      },
+      {
+        id: '1067',
+        contentType: 'news',
+        slug: 'ministerio-salud-despliega-brigadas-vacunacion-sarampion-dengue',
+        titleEs: 'Ministerio de Salud despliega más de 1.500 brigadas móviles para el bloqueo epidemiológico del sarampión y control del dengue',
+        titleEn: 'Ministry of Health deploys 1,500 mobile brigades for measles barrier and dengue control',
+        excerptEs: 'Los equipos médicos recorrerán unidades educativas y barrios periurbanos en La Paz, Santa Cruz y Pando para elevar la cobertura profiláctica.',
+        excerptEn: 'Medical teams will visit schools and suburban neighborhoods in La Paz, Santa Cruz, and Pando to boost vaccine coverage.',
+        contentEs: `<h1>Ministerio de Salud despliega más de 1.500 brigadas móviles para el bloqueo epidemiológico del sarampión y control del dengue</h1>
+<p><em>En un esfuerzo coordinado entre el Gobierno Central, los Servicios Departamentales de Salud (SEDES) y la Organización Panamericana de la Salud (OPS/OMS), el Ministerio de Salud y Deportes puso en marcha la campaña nacional de bloqueo epidemiológico mediante el despliegue inmediato de 1.500 brigadas sanitarias de vacunación y fumigación en municipios de alta vulnerabilidad.</em></p>
+
+<h2>Acciones intensivas e inmunización escolar</h2>
+<p>El plan prioritario focaliza sus operaciones en distritos urbanos de Santa Cruz de la Sierra, El Alto, la zona metropolitana de La Paz y cobija (Pando). Las brigadas visitarán casa por casa e ingresarán a centros educativos para administrar la dosis de vacuna SRP (sarampión, rubéola y parotiditis) a niños menores de cinco años que presenten esquemas incompletos.</p>
+
+<p>Componentes estratégicos del plan sanitario:</p>
+<ul>
+  <li><strong>Vacunación masiva gratuita:</strong> Aplicación de dosis biológicas respaldadas por la certificación internacional de seguridad.</li>
+  <li><strong>Destrucción de criaderos de Aedes aegypti:</strong> Fumigación espacial y eliminación de recipientes con agua estancada en zonas tropicales.</li>
+  <li><strong>Monitoreo de fiebre e erupciones:</strong> Vigilancia activa en hospitales de primer y segundo nivel para detección oportuna de sospechosos.</li>
+</ul>
+
+<p>Las autoridades hicieron un llamado vehemente a los padres de familia para que presenten el carnet de vacunación y permitan el trabajo seguro del personal médico debidamente uniformado e identificado.</p>
+
+<p><small>Con información de: <a href="https://www.la-razon.com/sociedad/" target="_blank" rel="noopener noreferrer">La Razón / Ministerio de Salud</a>.</small></p>`,
+        contentEn: `<h1>Ministry of Health deploys 1,500 mobile brigades for measles barrier and dengue control</h1>
+<p><em>In partnership with PAHO/WHO, Bolivia's Ministry of Health launched a nationwide epidemiological campaign deploying 1,500 mobile medical teams for door-to-door vaccination and vector control.</em></p>
+<h2>Health Interventions</h2>
+<p>The initiative targets school children and suburban communities in high-risk zones providing free MMR vaccines and fumigating mosquito breeding grounds.</p>
+<p><small>Source: <a href="https://www.la-razon.com/sociedad/" target="_blank" rel="noopener noreferrer">La Razón / Ministry of Health</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-22/dengue-prevencion.jpg',
+        imageCaption: 'Control de vectores y campañas epidemiológicas preventivas. Foto: Wikimedia Commons / OPS',
+        categoryEs: 'Salud',
+        categoryEn: 'Health',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz / Santa Cruz, Bolivia',
+        source: 'La Razón / Min. Salud',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.la-razon.com/sociedad/'
+      },
+      {
+        id: '1068',
+        contentType: 'news',
+        slug: 'aduana-nacional-incauta-contrabando-35-millones-bolivianos-oruro',
+        titleEs: 'Aduana Nacional asesta duro golpe al contrabando e incauta ilícitos evaluados en 3,5 millones de bolivianos en Oruro',
+        titleEn: 'Bolivian Customs seizes illegal contraband valued at 3.5 million bolivianos in Oruro',
+        excerptEs: 'Operativos de la Unidad de Control Contrabando e inteligencia militar interceptaron camiones con electrodomésticos y ropa usada sin documentación.',
+        excerptEn: 'Military intelligence and Customs units intercepted heavy trucks transportating undocumented electronics and used clothing near the Chilean border.',
+        contentEs: `<h1>Aduana Nacional asesta duro golpe al contrabando e incauta ilícitos evaluados en 3,5 millones de bolivianos en Oruro</h1>
+<p><em>En el marco de los operativos de vigilancia fronteriza ejecutados por la Unidad de Control Contrabando (UCC) en coordinación con el Viceministerio de Lucha Contra el Contrabando y las Fuerzas Armadas, la Aduana Nacional logró la interceptación e incautación de tres camiones de gran tonelaje que transportaban mercancía de contrabando procedente de la frontera con Chile.</em></p>
+
+<h2>Detalle de los decomisos y procedimiento legal</h2>
+<p>El operativo se desarrolló en inmediaciones de la ruta alternativa Pisiga - Toledo, en el departamento de Oruro. Durante la inspección de la carga, los efectivos evidenciaron que los motorizados trasladaban electrodomésticos de última generación, dispositivos móviles, bebidas alcohólicas y fardos de ropa usada sin ningún tipo de declaración de mercancía de importación (DMI) ni factura fiscal de origen.</p>
+
+<p>Resultados del operativo de control estatal:</p>
+<ul>
+  <li><strong>Avaluó preliminar:</strong> Mercadería ilegal valorada en más de 3.500.000 de bolivianos.</li>
+  <li><strong>Aprehensiones:</strong> Tres conductores masculinos puestos a disposición del Ministerio Público bajo cargos de delitos aduaneros agravados.</li>
+  <li><strong>Destino de la carga:</strong> Traslado bajo custodia a recintos depósitos aduaneros para inventario oficial e incineración de ropa usada prohibida por ley.</li>
+</ul>
+
+<p>La Aduana Nacional reiteró su compromiso de intensificar el patrullaje en pasos no habilitados del occidente para proteger la industria formal y la producción manufacturera boliviana.</p>
+
+<p><small>Con información de: <a href="https://notibol.com/bolivia/local" target="_blank" rel="noopener noreferrer">Notibol / Aduana Nacional</a>.</small></p>`,
+        contentEn: `<h1>Bolivian Customs seizes illegal contraband valued at 3.5 million bolivianos in Oruro</h1>
+<p><em>Customs enforcement officers working alongside military patrols intercepted three heavy trucks loaded with illegal contraband originating from the Chilean border in Oruro department.</em></p>
+<h2>Enforcement Outcomes</h2>
+<p>The seized goods included undocumented electronics and prohibited used clothing with an estimated market value exceeding 3.5 million bolivianos.</p>
+<p><small>Source: <a href="https://notibol.com/bolivia/local" target="_blank" rel="noopener noreferrer">Notibol / National Customs</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-06-felcn-oruro.webp',
+        imageCaption: 'Operativo de control e incautación de mercadería ilegal en la zona occidental. Foto: Prensa Aduana',
+        categoryEs: 'Seguridad',
+        categoryEn: 'Security',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Oruro, Bolivia',
+        source: 'Notibol / Aduana',
+        region: 'Bolivia',
+        sourceUrl: 'https://notibol.com/bolivia/local'
+      },
+      {
+        id: '1069',
+        contentType: 'news',
+        slug: 'alcaldia-la-paz-y-choferes-negocian-reordenamiento-vehicular-centro',
+        titleEs: 'Alcaldía de La Paz y federaciones de transporte acuerdan plan de reordenamiento y restricción de placas en el casco central',
+        titleEn: 'La Paz City Hall and transport unions agree on traffic reorganizing plan for downtown core',
+        excerptEs: 'La mesa de diálogo redujo paradas ilegales y sancionará el trancaje de minibuses en los nudos críticos de la San Francisco y la Pérez Velasco.',
+        excerptEn: 'Municipal negotiations targeted illegal minibus stops and congestion choke points near San Francisco square and Pérez Velasco avenue.',
+        contentEs: `<h1>Alcaldía de La Paz y federaciones de transporte acuerdan plan de reordenamiento y restricción de placas en el casco central</h1>
+<p><em>En una reunión sostenida entre el Alcalde de La Paz, la Secretaría Municipal de Movilidad y los ejecutivos de la Federación Urbana de Choferes Chuquiago Marka y la Central Única de Transporte, se logró consensuar un plan integral de ordenamiento vial diseñado para descongestionar el tráfico vehicular en el centro paceño y erradicar las paradas no autorizadas.</em></p>
+
+<h2>Medidas operativas y fiscalización edil</h2>
+<p>El plan acordado contempla la estricta aplicación del control por dígito de placa en el área de restricción central, la eliminación de giros a la izquierda en avenidas de alto flujo como la Mariscal Santa Cruz y la 16 de Julio (El Prado), además del despliegue permanente de 200 guardias municipales de transporte equipados con dispositivos de fotomulta.</p>
+
+<p>Compromisos firmados para el reordenamiento urbano:</p>
+<ul>
+  <li><strong>Sanción al trancaje ("trancaderas"):</strong> Multas progresivas a minibuses y carreteros que efectúen desembarco de pasajeros en carriles de paso rápido.</li>
+  <li><strong>Paradas fijas obligatorias:</strong> Respeto irrestricto a los paraderos señalizados en la Pérez Velasco, Plaza San Francisco y Obelisco.</li>
+  <li><strong>Campaña de buen trato al usuario:</strong> Control nocturno del cumplimiento de rutas completas para evitar el cobro excesivo o "trameaje".</li>
+</ul>
+
+<p>La Alcaldía paceña destacó que la voluntad demostrada por la dirigencia del transporte permitirá mejorar la fluidez vial y reducir la contaminación acústica y ambiental en el municipio.</p>
+
+<p><small>Con información de: <a href="https://www.la-razon.com/ciudades/" target="_blank" rel="noopener noreferrer">La Razón / GAMLP</a>.</small></p>`,
+        contentEn: `<h1>La Paz City Hall and transport unions agree on traffic reorganizing plan for downtown core</h1>
+<p><em>City authorities and La Paz minibus federations reached a milestone agreement to implement strict traffic flow controls, license plate restrictions, and designated stops across downtown avenues.</em></p>
+<h2>Urban Mobility Plan</h2>
+<p>The strategy focuses on eliminating illegal passenger drop-offs at major intersections and penalizing route truncation by public transport drivers.</p>
+<p><small>Source: <a href="https://www.la-razon.com/ciudades/" target="_blank" rel="noopener noreferrer">La Razón / GAMLP</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/la-paz-ciudad.jpg',
+        imageCaption: 'Tráfico urbano y entorno arquitectónico en el centro de La Paz. Foto: Wikimedia Commons',
+        categoryEs: 'Sociedad',
+        categoryEn: 'Society',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'La Razón / GAMLP',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.la-razon.com/ciudades/'
+      },
+      {
+        id: '1070',
+        contentType: 'news',
+        slug: 'empresarios-privados-piden-liberacion-total-exportaciones-no-tradicionales',
+        titleEs: 'Confederación de Empresarios Privados de Bolivia solicita la liberación total e irrestricta de exportaciones no tradicionales',
+        titleEn: 'Private Entrepreneurs Confederation requests total freedom for non-traditional exports',
+        excerptEs: 'La dirigencia de la CEPB y la Cainco sostienen que agilizar las ventas de soya, carne y quinoa generará un flujo superior a 1.200 millones de dólares.',
+        excerptEn: 'Business leaders argue that lifting export quotas on soy, meat, and quinoa could generate over $1.2 billion in foreign exchange.',
+        contentEs: `<h1>Confederación de Empresarios Privados de Bolivia solicita la liberación total e irrestricta de exportaciones no tradicionales</h1>
+<p><em>En un pronunciamiento conjunto difundido por la Confederación de Empresarios Privados de Bolivia (CEPB) y la Cámara de Industria, Comercio, Servicios y Turismo de Santa Cruz (Cainco), el sector privado nacional instó formalmente al Gobierno Central a decretar la liberación plena y permanente de los certificados de abastecimiento interno a precio justo que actualmente regulan la exportación de productos agroindustriales.</em></p>
+
+<h2>Incentivos a la producción e ingreso de divisas</h2>
+<p>Los empresarios argumentaron que la eliminación de trabas burocráticas y cupos de exportación para la soya y sus derivados, la carne bovina, el azúcar, la quínoa y las maderas procesadas permitirá a las empresas nacionales cerrar contratos de suministro a largo plazo con mercados compradores de China, la Unión Europea y la Comunidad Andina.</p>
+
+<p>Fundamentos presentados por el empresariado privado:</p>
+<ul>
+  <li><strong>Generación acelerada de divisas:</strong> Estimación de ingresos brutos superiores a 1.200 millones de dólares en divisas para el sistema bancario nacional.</li>
+  <li><strong>Seguridad de abastecimiento interno:</strong> Garantía demostrada de que la capacidad productiva excede en más del 200% el consumo del mercado local.</li>
+  <li><strong>Atracción de financiamiento privado:</strong> Fomento a la inversión en tecnología de riego e infraestructura de acopio agropecuario.</li>
+</ul>
+
+<p>El Ministerio de Desarrollo Productivo informó que se instalará una mesa de trabajo técnico la próxima semana para revisar las proyecciones de oferta y demanda y evaluar los incentivos solicitados.</p>
+
+<p><small>Con información de: <a href="https://www.eldeber.com.bo/economia" target="_blank" rel="noopener noreferrer">El Deber / CEPB Prensa</a>.</small></p>`,
+        contentEn: `<h1>Private Entrepreneurs Confederation requests total freedom for non-traditional exports</h1>
+<p><em>Bolivia's Private Entrepreneurs Confederation (CEPB) and the Santa Cruz Chamber of Commerce (Cainco) issued a joint appeal urging the government to permanently lift export quotas on agricultural goods.</em></p>
+<h2>Economic Rationale</h2>
+<p>Business representatives emphasized that unleashing full export capacity for soy, beef, and quinoa would inject over $1.2 billion in foreign currency into the national banking system.</p>
+<p><small>Source: <a href="https://www.eldeber.com.bo/economia" target="_blank" rel="noopener noreferrer">El Deber / CEPB Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-06-minerales-china-brasil.webp',
+        imageCaption: 'Operaciones de comercio exterior y carga de productos de exportación. Foto: Archivo',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Santa Cruz / La Paz, Bolivia',
+        source: 'El Deber / CEPB',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.eldeber.com.bo/economia'
+      },
+      {
+        id: '1071',
+        contentType: 'news',
+        slug: 'cinemateca-boliviana-inaugura-muestra-retrospectiva-cine-andino',
+        titleEs: 'Fundación Cinemateca Boliviana inaugura muestra retrospectiva restaurada de la cinematografía andina',
+        titleEn: 'Bolivian Film Archive opens restored retrospective exhibition of Andean cinema classics',
+        excerptEs: 'La sala de exhibición presentará obras icónicas de Jorge Sanjinés y Antonio Eguino digitalizadas en formato 4K para las nuevas generaciones.',
+        excerptEn: 'The national film archive will screen 4K digitally remastered classics by renowned filmmakers Jorge Sanjinés and Antonio Eguino.',
+        contentEs: `<h1>Fundación Cinemateca Boliviana inaugura muestra retrospectiva restaurada de la cinematografía andina</h1>
+<p><em>En el marco de la conmemoración de las actividades culturales de la temporada y el fortalecimiento de la memoria audiovisual del país, la Fundación Cinemateca Boliviana dejó oficialmente abierta al público la gran muestra retrospectiva "Clásicos del Cine Andino", ciclo que exhibirá diez largometrajes fundamentales del cine nacional restaurados digitalmente en alta resolución 4K.</em></p>
+
+<h2>Patrimonio fílmico y preservación histórica</h2>
+<p>El programa de proyección incluye copias magistrales de obras maestras como "Yawar Mallku" (1969) y "El Coraje del Pueblo" (1971) del maestro Jorge Sanjinés y el Grupo Ukamau, así como "Pueblo Chico" (1974) y "Chuquiago" (1977) dirigidas por Antonio Eguino. Los trabajos de recuperación y digitalización fueron realizados en laboratorios especializados de conservación en Italia y Suiza.</p>
+
+<p>Novedades del ciclo cultural audiovisual:</p>
+<ul>
+  <li><strong>Digitalización a partir de negativos originales:</strong> Restauración de color, corrección de grano y sonido surround 5.1 remasterizado.</li>
+  <li><strong>Mesas de debate con realizadores:</strong> Presencia de historiadores de cine, directores y miembros del equipo técnico para conversatorios post-proyección.</li>
+  <li><strong>Funciones gratuitas para estudiantes:</strong> Programación matinal orientada a colegios públicos y carreras universitarias de comunicación y artes.</li>
+</ul>
+
+<p>La dirección de la Cinemateca invitó a la colectividad paceña y a los visitantes a reencontrarse con la riqueza del patrimonio narrativo de la cinematografía boliviana.</p>
+
+<p><small>Con información de: <a href="https://www.la-razon.com/la-gaceta-cultural/" target="_blank" rel="noopener noreferrer">La Razón / Cinemateca Boliviana</a>.</small></p>`,
+        contentEn: `<h1>Bolivian Film Archive opens restored retrospective exhibition of Andean cinema classics</h1>
+<p><em>The Bolivian Film Archive (Cinemateca Boliviana) officially inaugurated "Andean Cinema Classics", a landmark exhibition showcasing ten iconic national feature films restored in 4K resolution.</em></p>
+<h2>Cultural Heritage</h2>
+<p>The exhibition features remastered masterpieces by legendary directors Jorge Sanjinés and Antonio Eguino alongside panel discussions with film historians.</p>
+<p><small>Source: <a href="https://www.la-razon.com/la-gaceta-cultural/" target="_blank" rel="noopener noreferrer">La Razón / Cinemateca Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/lote-2-ago-2026/cochabamba-ciudad.jpg',
+        imageCaption: 'Promoción del patrimonio cultural y artístico cinematográfico. Foto: Wikimedia Commons',
+        categoryEs: 'Cultura',
+        categoryEn: 'Culture',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'La Paz, Bolivia',
+        source: 'La Razón / Cinemateca',
+        region: 'Bolivia',
+        sourceUrl: 'https://www.la-razon.com/la-gaceta-cultural/'
+      },
+      {
+        id: '1072',
+        contentType: 'news',
+        slug: 'g20-rio-de-janeiro-acuerda-fondo-global-transicion-energetica',
+        titleEs: 'Cumbre del G20 en Río de Janeiro aprueba un fondo multilateral de 100.000 millones de dólares para la transición energética en economías emergentes',
+        titleEn: 'G20 Summit in Rio de Janeiro approves $100 billion energy transition fund for emerging economies',
+        excerptEs: 'Los jefes de Estado de las economías más desarrolladas ratificaron la declaración final orientada a acelerar la descarbonización en América Latina y África.',
+        excerptEn: 'Heads of state from top global economies ratified a declaration establishing financial mechanisms for decarbonization in Latin America and Africa.',
+        contentEs: `<h1>Cumbre del G20 en Río de Janeiro aprueba un fondo multilateral de 100.000 millones de dólares para la transición energética en economías emergentes</h1>
+<p><em>En una jornada calificada como decisiva para la diplomacia climática y el multilateralismo global, los líderes de las 20 principales economías del planeta reunidos en la Cumbre del G20 en Río de Janeiro firmaron la Declaración de Consenso que establece la creación del Fondo Global de Financiamiento Verde, dotado con un capital inicial de 100.000 millones de dólares.</em></p>
+
+<h2>Mecanismos de inversión y compromisos climáticos</h2>
+<p>El fondo será administrado conjuntamente por el Banco Mundial y el Banco Interamericano de Desarrollo (BID), con aportes directos de la Unión Europea, Estados Unidos, China y Japón. Los recursos tendrán la finalidad de subsidiar proyectos de infraestructura de energía solar, eólica, hidrógeno verde y modernización de redes eléctricas en países en desarrollo de América Latina, África y Asia.</p>
+
+<p>Puntos sobresalientes del acuerdo internacional:</p>
+<ul>
+  <li><strong>Acceso a créditos de baja tasa:</strong> Financiamiento blando con períodos de gracia de hasta 15 años para proyectos estatales sostenibles.</li>
+  <li><strong>Transferencia de tecnología limpia:</strong> Compromiso de liberación de patentes industriales para la fabricación local de paneles solares y baterías.</li>
+  <li><strong>Protección de bosques tropicales:</strong> Compensación económica directa a países amazónicos por preservación de biomas de alta biodiversidad.</li>
+</ul>
+
+<p>La presidencia del bloque destacó que la ratificación del acuerdo demuestra que el crecimiento económico futuro debe ser inclusivo y ambientalmente responsable.</p>
+
+<p><small>Con información de: <a href="https://www.reuters.com/world/" target="_blank" rel="noopener noreferrer">Reuters / G20 Rio Official</a>.</small></p>`,
+        contentEn: `<h1>G20 Summit in Rio de Janeiro approves $100 billion energy transition fund for emerging economies</h1>
+<p><em>Global leaders gathered at the G20 Summit in Rio de Janeiro approved a consensus declaration establishing a $100 billion multilateral green transition fund for developing nations.</em></p>
+<h2>Financial Structure</h2>
+<p>Managed by the World Bank and IDB, the fund will finance solar, wind, and green hydrogen projects across Latin America, Africa, and Asia.</p>
+<p><small>Source: <a href="https://www.reuters.com/world/" target="_blank" rel="noopener noreferrer">Reuters / G20 Official</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/g20-rio-janeiro.jpg',
+        imageCaption: 'Vista panormámica de Río de Janeiro, sede de la Cumbre del G20. Foto: Wikimedia Commons',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 1,
+        location: 'Río de Janeiro, Brasil',
+        source: 'Reuters / G20',
+        region: 'International',
+        sourceUrl: 'https://www.reuters.com/world/'
+      },
+      {
+        id: '1073',
+        contentType: 'news',
+        slug: 'oms-convoca-comite-emergencia-brote-internacional-salud',
+        titleEs: 'La OMS convoca al Comité de Emergencia en Ginebra ante el incremento de brotes virales en tres continentes',
+        titleEn: 'WHO convenes Emergency Committee in Geneva following rise in viral outbreaks across three continents',
+        excerptEs: 'El Comité de Expertos evaluará si los focos epidémicos notificados constituyen una Emergencia de Salud Pública de Importancia Internacional (ESPII).',
+        excerptEn: 'The expert panel will determine whether reported epidemic clusters constitute a Public Health Emergency of International Concern (PHEIC).',
+        contentEs: `<h1>La OMS convoca al Comité de Emergencia en Ginebra ante el incremento de brotes virales en tres continentes</h1>
+<p><em>En una reunión extraordinaria convocada por la Dirección General de la Organización Mundial de la Salud (OMS) en su sede central de Ginebra (Suiza), epidemiólogos e infectólogos del Comité de Emergencia iniciaron las deliberaciones para analizar el aumento en la tasa de contagios de variantes virales zoonóticas registradas en África subsahariana, el sudeste asiático y regiones de Sudamérica.</em></p>
+
+<h2>Evaluación epidemiológica y medidas de contención</h2>
+<p>La cita médica de alto nivel analiza los datos consolidados del sistema de vigilancia epidemiológica global, que reportó un incremento en la frecuencia de transmisión comunitaria. El panel científico examina la eficacia de las pruebas moleculares de diagnóstico rápido disponibles, el stock internacional de vacunas y las restricciones operativas de fronteras.</p>
+
+<p>Aspectos clave de la agenda científica internacional:</p>
+<ul>
+  <li><strong>Determinación de estatus ESPII:</strong> Decisión de elevar el nivel de alerta sanitaria para movilizar fondos de respuesta rápida de la ONU.</li>
+  <li><strong>Distribución equitativa de biológicos:</strong> Coordinación de envíos prioritarios de tratamientos antivirales a zonas de brote activo.</li>
+  <li><strong>Recomendaciones para viajeros internacionales:</strong> Actualización de protocolos sanitarios e inmunización obligatoria en terminales aéreas.</li>
+</ul>
+
+<p>La OMS emitirá sus recomendaciones oficiales al término de las sesiones deliberativas, instando a los ministerios de salud a fortalecer la vigilancia en laboratorios nacionales.</p>
+
+<p><small>Con información de: <a href="https://www.who.int/news" target="_blank" rel="noopener noreferrer">AFP / OMS Prensa Ginebra</a>.</small></p>`,
+        contentEn: `<h1>WHO convenes Emergency Committee in Geneva following rise in viral outbreaks</h1>
+<p><em>World Health Organization leadership convened its Emergency Committee at Geneva headquarters to evaluate rising viral outbreak figures across three continents.</em></p>
+<h2>Global Response</h2>
+<p>Scientists are reviewing diagnostic test supplies, vaccine stockpiles, and determining whether to declare a Public Health Emergency of International Concern.</p>
+<p><small>Source: <a href="https://www.who.int/news" target="_blank" rel="noopener noreferrer">AFP / WHO Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-22/oms-sede-ginebra.jpg',
+        imageCaption: 'Sede central de la Organización Mundial de la Salud en Ginebra. Foto: Wikimedia Commons / WHO',
+        categoryEs: 'Salud',
+        categoryEn: 'Health',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Ginebra, Suiza',
+        source: 'AFP / OMS',
+        region: 'International',
+        sourceUrl: 'https://www.who.int/news'
+      },
+      {
+        id: '1074',
+        contentType: 'news',
+        slug: 'nasa-publica-primeras-imagenes-telescopio-espacial-nancy-grace-roman',
+        titleEs: 'La NASA publica las primeras imágenes de campo ultraprofundo captadas por el Telescopio Espacial Nancy Grace Roman',
+        titleEn: 'NASA releases first ultra-deep field images captured by the Nancy Grace Roman Space Telescope',
+        excerptEs: 'El observatorio infrarrojo de nueva generación fotografió millones de galaxias lejanas con un campo de visión 100 veces superior al Hubble.',
+        excerptEn: 'The next-generation infrared observatory photographed millions of distant galaxies with a field of view 100 times wider than Hubble.',
+        contentEs: `<h1>La NASA publica las primeras imágenes de campo ultraprofundo captadas por el Telescopio Espacial Nancy Grace Roman</h1>
+<p><em>En una conferencia científica transmitida de forma global desde el Centro de Vuelo Espacial Goddard en Maryland, la Administración Nacional de Aeronáutica y el Espacio (NASA), junto con la Agencia Espacial Europea (ESA), presentó la primera serie de imágenes panorámicas de alta definición obtenidas por el Telescopio Espacial Nancy Grace Roman.</em></p>
+
+<h2>Avance astrofísico y energía oscura</h2>
+<p>Las capturas infrarrojas logradas por el observatorio revelan una densidad inédita de galaxias primordiales formadas en los primeros 500 millones de años tras el Big Bang. A diferencia de sus antecesores (Hubble y James Webb), el telescopio Roman posee un instrumento de gran campo que le permite mapear extensiones celestes 100 veces más amplias en un solo encuadre con una nitidez panorámica excepcional.</p>
+
+<p>Objetivos científicos de la misión espacial:</p>
+<ul>
+  <li><strong>Mapeo de la energía oscura:</strong> Medición precisa de la aceleración de la expansión cósmica mediante el estudio de lentes gravitacionales.</li>
+  <li><strong>Censo de exoplanetas:</strong> Detección de miles de mundos extrasolares mediante la técnica de microlente gravitacional.</li>
+  <li><strong>Cartografía galáctica:</strong> Registro detallado de la distribución de materia oscura en el universo cercano y lejano.</li>
+</ul>
+
+<p>La comunidad astrofísica mundial celebró la calidad de los datos calibrados, que marcan el inicio de una nueva era de descubrimientos cosmológicos.</p>
+
+<p><small>Con información de: <a href="https://www.nasa.gov/news" target="_blank" rel="noopener noreferrer">AP / NASA Goddard Space Flight Center</a>.</small></p>`,
+        contentEn: `<h1>NASA releases first ultra-deep field images captured by the Nancy Grace Roman Space Telescope</h1>
+<p><em>NASA and ESA unveiled the first panoramic high-definition deep-space images captured by the Nancy Grace Roman Space Telescope from Goddard Space Flight Center.</em></p>
+<h2>Astronomical Capabilities</h2>
+<p>Featuring a field of view 100 times larger than Hubble, the infrared telescope will map dark energy, discover exoplanets, and chart galactic dark matter.</p>
+<p><small>Source: <a href="https://www.nasa.gov/news" target="_blank" rel="noopener noreferrer">AP / NASA Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/espacio-telescopio.jpg',
+        imageCaption: 'Campo ultraprofundo de galaxias distantes captado en luz infrarroja. Foto: NASA / ESA',
+        categoryEs: 'Tecnología',
+        categoryEn: 'Technology',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Washington / Maryland, EEUU',
+        source: 'AP / NASA',
+        region: 'International',
+        sourceUrl: 'https://www.nasa.gov/news'
+      },
+      {
+        id: '1075',
+        contentType: 'news',
+        slug: 'parlamento-europeo-aprueba-reglamento-monitoreo-algoritmos-ia',
+        titleEs: 'El Parlamento Europeo aprueba el reglamento vinculante para la auditoría y transparencia de modelos masivos de Inteligencia Artificial',
+        titleEn: 'European Parliament approves binding regulation for auditing and transparency of large AI models',
+        excerptEs: 'La normativa impone multas de hasta el 7% de la facturación global a tecnológicas que no auditen sus algoritmos contra sesgos y manipulación.',
+        excerptEn: 'The legislation levies fines up to 7% of global revenue on tech companies failing to audit algorithms for bias and manipulation.',
+        contentEs: `<h1>El Parlamento Europeo aprueba el reglamento vinculante para la auditoría y transparencia de modelos masivos de Inteligencia Artificial</h1>
+<p><em>En una votación celebrada en el hemiciclo de Estrasburgo, el Parlamento Europeo aprobó por amplia mayoría el texto definitivo del Reglamento de Transparencia y Auditoría Algorítmica, marco legal de cumplimiento obligatorio para todas las multinacionales tecnológicas que desplieguen sistemas de Inteligencia Artificial (IA) generativa y modelos de lenguaje de gran escala en el mercado comunitario.</em></p>
+
+<h2>Exigencias éticas y sanciones corporativas</h2>
+<p>La ley europea exige a los desarrolladores de modelos de IA de alto riesgo someter sus códigos a auditorías externas independientes, certificar que sus conjuntos de datos de entrenamiento no violan derechos de autor ni privacidad, y etiquetar obligatoriamente todo contenido sintético (texto, audio, video y deepfakes) generado por computadora.</p>
+
+<p>Puntos centrales de la directiva comunitaria:</p>
+<ul>
+  <li><strong>Marcado de agua digital indeleble:</strong> Inserción de metadatos de autenticidad en imágenes y videos generados con IA.</li>
+  <li><strong>Prohibición de reconocimiento facial masivo:</strong> Restricción estricta del uso de identificación biométrica en tiempo real en espacios públicos.</li>
+  <li><strong>Régimen sancionador severo:</strong> Multas financieras de hasta el 7% de la facturación global anual a empresas infractoras.</li>
+</ul>
+
+<p>La Comisión Europea dispondrá de un plazo de seis meses para la puesta en marcha de la Oficina Europea de Inteligencia Artificial encargada de supervisar el cumplimiento técnico.</p>
+
+<p><small>Con información de: <a href="https://www.euronews.com/europa" target="_blank" rel="noopener noreferrer">Euronews / Prensa Parlamento Europeo</a>.</small></p>`,
+        contentEn: `<h1>European Parliament approves binding regulation for auditing and transparency of large AI models</h1>
+<p><em>The European Parliament voted overwhelmingly in Strasbourg to adopt the Algorithmic Transparency Regulation, establishing strict auditing standards for AI developers operating within the EU.</em></p>
+<h2>Regulatory Impact</h2>
+<p>The law mandates digital watermarking of synthetic content, bans real-time public biometric surveillance, and imposes hefty corporate fines for non-compliance.</p>
+<p><small>Source: <a href="https://www.euronews.com/europa" target="_blank" rel="noopener noreferrer">Euronews / EP Press</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-22/parlamento-europeo.jpg',
+        imageCaption: 'Hemiciclo del Parlamento Europeo durante la votación en Estrasburgo. Foto: Wikimedia Commons / EP',
+        categoryEs: 'Tecnología',
+        categoryEn: 'Technology',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Estrasburgo, Francia',
+        source: 'Euronews / UE',
+        region: 'International',
+        sourceUrl: 'https://www.euronews.com/europa'
+      },
+      {
+        id: '1076',
+        contentType: 'news',
+        slug: 'panama-y-colombia-refuerzan-seguridad-corredor-migratorio-darien',
+        titleEs: 'Panamá y Colombia fortalecen el despliegue de seguridad e inteligencia en el corredor selvático del Darién',
+        titleEn: 'Panama and Colombia reinforce security and intelligence operations along the Darien Gap',
+        excerptEs: 'Los gobiernos coordinaron patrullajes fluviales y puestos de asistencia médica para combatir redes de trata y brindar ayuda humanitaria.',
+        excerptEn: 'Both governments coordinated river patrols and medical assistance stations to combat human trafficking networks and provide humanitarian aid.',
+        contentEs: `<h1>Panamá y Colombia fortalecen el despliegue de seguridad e inteligencia en el corredor selvático del Darién</h1>
+<p><em>En una reunión binacional de ministros de Defensa y Seguridad realizada en la zona fronteriza, los gobiernos de Panamá y Colombia anunciaron la puesta en marcha de la Estrategia Conjunta Escudo Bi-Nacional, plan enfocado en desmantelar las organizaciones de crimen organizado transnacional que lucran con el tráfico ilegal de migrantes en el tapón del Darién.</em></p>
+
+<h2>Operativos militares y ayuda humanitaria</h2>
+<p>La estrategia coordinada contempla el incremento de patrullajes navales y fluviales en los ríos Atrato, Tuira y Chucunaque, el uso de drones térmicos de reconocimiento diurno y nocturno, así como la instalación de tres nuevos Puestos de Atención Humanitaria en Lajas Blancas y Metetí equipados con médicos, insumos potabilizadores de agua y personal de Acnur.</p>
+
+<p>Ejes prioritarios de la intervención binacional:</p>
+<ul>
+  <li><strong>Combate al tráfico de personas:</strong> Acciones judiciales contra redes ilegales que cobran extorsiones a migrantes irregulares.</li>
+  <li><strong>Identificación biométrica fronteriza:</strong> Cotejo instantáneo de antecedentes penales en bases de datos de Interpol.</li>
+  <li><strong>Protección ambiental del parque nacional:</strong> Operativos de mitigación de la contaminación y tala de selva virgen.</li>
+</ul>
+
+<p>Ambos Estados ratificaron que la solución a la crisis de movilidad humana requiere un enfoque de corresponsabilidad regional que involucre a todos los países de tránsito y destino de las Américas.</p>
+
+<p><small>Con información de: <a href="https://www.efe.com/efe/america" target="_blank" rel="noopener noreferrer">EFE / Cancillería Panamá</a>.</small></p>`,
+        contentEn: `<h1>Panama and Colombia reinforce security and intelligence operations along the Darien Gap</h1>
+<p><em>Defense ministers from Panama and Colombia launched "Bi-National Shield," an integrated security strategy aimed at dismantling human trafficking networks operating within the Darien Gap jungle.</em></p>
+<h2>Strategic Measures</h2>
+<p>The joint operation deploys river patrols, thermal drones, biometric checkpoints, and humanitarian medical hubs along migration routes.</p>
+<p><small>Source: <a href="https://www.efe.com/efe/america" target="_blank" rel="noopener noreferrer">EFE / Panama Ministry</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-13-frontera-segura.jpg',
+        imageCaption: 'Despliegue operativo y resguardo en pasos fronterizos continentales. Foto: Archivo EFE',
+        categoryEs: 'Internacional',
+        categoryEn: 'International',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Panamá / Colombia',
+        source: 'EFE / Cancillería',
+        region: 'International',
+        sourceUrl: 'https://www.efe.com/efe/america'
+      },
+      {
+        id: '1077',
+        contentType: 'news',
+        slug: 'petroleo-brent-alcanza-88-dolares-tensiones-estrecho-ormuz',
+        titleEs: 'El petróleo Brent roza los 88 dólares por barril ante la creciente volatilidad en las rutas marítimas del Estrecho de Ormuz',
+        titleEn: 'Brent crude oil approaches $88 per barrel amid heightened volatility in the Strait of Hormuz',
+        excerptEs: 'Los mercados de materias primas reaccionaron con alzas tras inspecciones navales y el incremento de primas de riesgo para buques petroleros.',
+        excerptEn: 'Commodity markets reacted with price surges following naval inspections and rising maritime insurance premiums for tankers.',
+        contentEs: `<h1>El petróleo Brent roza los 88 dólares por barril ante la creciente volatilidad en las rutas marítimas del Estrecho de Ormuz</h1>
+<p><em>En las operaciones de cierre de las bolsas energeticas de Londres y Nueva York, el crudo de referencia internacional Brent registró una jornada de marcada volatilidad al escalar hasta los 87,90 dólares el barril, nivel máximo en los últimos cuatro meses, impulsado por la incertidumbre geotécnica en el Estrecho de Ormuz, canal por el que transita aproximadamente el 20% del petróleo mundial.</em></p>
+
+<h2>Factores bursátiles y fletes marítimos</h2>
+<p>Los analistas de commodities atribuyen el alza a la decisión de aseguradoras internacionales de elevar hasta en un 35% las primas de riesgo de guerra para buques cisterna y metaneros que navegan por el Golfo Pérsico. Las recientes interceptaciones navales e inspecciones a cargueros encendieron las alarmas de las refinerías en Asia y Europa, que buscaron asegurar inventarios de reserva.</p>
+
+<p>Impactos inmediatos en la economía global:</p>
+<ul>
+  <li><strong>Efecto en los carburantes de aviación:</strong> Incremento directo en los fletes de carga aérea y pasajes comerciales internacionales.</li>
+  <li><strong>Presión inflacionaria mundial:</strong> Temor a un rebrote en los precios de fertilizantes y derivados petroquímicos.</li>
+  <li><strong>Reunión de emergencia de la OPEP+:</strong> Convocatoria virtual de ministros para evaluar un incremento compensatorio de cuotas de extracción.</li>
+</ul>
+
+<p>Representantes del sector energético prevén que las cotizaciones se mantendrán elevadas mientras persista la tensión operativa en las vías de navegación estratégica.</p>
+
+<p><small>Con información de: <a href="https://www.bloomberg.com/energy" target="_blank" rel="noopener noreferrer">Bloomberg / Financial Times</a>.</small></p>`,
+        contentEn: `<h1>Brent crude oil approaches $88 per barrel amid heightened volatility in the Strait of Hormuz</h1>
+<p><em>Brent crude oil surged to $87.90 a barrel on London and New York exchanges following heightened geopolitical tensions and naval inspections in the vital Strait of Hormuz transit route.</em></p>
+<h2>Market Impact</h2>
+<p>Rising maritime insurance premiums for oil tankers navigating the Persian Gulf raised fears of global fuel price inflation, triggering talks within OPEC+.</p>
+<p><small>Source: <a href="https://www.bloomberg.com/energy" target="_blank" rel="noopener noreferrer">Bloomberg / FT</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '3 min de lectura',
+        readTimeEn: '3 min read',
+        imageUrl: '/images/news/2026-08-08-hormuz.jpg',
+        imageCaption: 'Buque petrolero navegando en rutas de alta mar. Foto: Archivo Bloomberg',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: true,
+        views: 1,
+        location: 'Londres / Nueva York',
+        source: 'Bloomberg / FT',
+        region: 'International',
+        sourceUrl: 'https://www.bloomberg.com/energy'
+      },
+      {
+        id: '1078',
+        contentType: 'news',
+        slug: 'fifa-confirma-sedes-oficiales-mundial-de-clubes-2026',
+        titleEs: 'La FIFA ratifica el calendario definitivo y las 12 sedes oficiales para el renovado Mundial de Clubes 2026',
+        titleEn: 'FIFA confirms official match calendar and 12 host venues for expanded 2026 Club World Cup',
+        excerptEs: 'El ente matriz del fútbol mundial confirmó los estadios de vanguardia que albergarán a los 32 mejores clubes de los cinco continentes.',
+        excerptEn: 'Soccer’s governing body announced state-of-the-art stadiums that will host 32 top clubs from across five continents.',
+        contentEs: `<h1>La FIFA ratifica el calendario definitivo y las 12 sedes oficiales para el renovado Mundial de Clubes 2026</h1>
+<p><em>En una ceremonia oficial celebrada en su sede de Zúrich (Suiza) con la presencia de dirigentes de las seis confederaciones continentales, la Federación Internacional de Fútbol Asociación (FIFA) presentó el calendario definitivo de partidos y las 12 sedes oficiales seleccionadas para albergar la histórica edición ampliada del Mundial de Clubes FIFA 2026.</em></p>
+
+<h2>Estructura del torneo y estadios seleccionados</h2>
+<p>El certamen internacional reunirá por primera vez a 32 campeones de clubes en un formato de fase de grupos y eliminación directa idéntico al de las copas del mundo de selecciones. Entre los escenarios confirmados destacan recintos emblemáticos como el MetLife Stadium de Nueva Jersey (sede de la gran final), el Hard Rock Stadium de Miami, el Mercedes-Benz Stadium de Atlanta y el Rose Bowl de Pasadena.</p>
+
+<p>Detalles clave de la competencia ecuménica:</p>
+<ul>
+  <li><strong>32 clubes internacionales:</strong> Participación de los últimos cuatro campeones de la UEFA Champions League, Copa Libertadores, Concacaf, AFC, CAF y OFC.</li>
+  <li><strong>Incentivo económico récord:</strong> Bolsa total de premios de 2.000 millones de dólares a ser distribuida entre las instituciones participantes.</li>
+  <li><strong>Tecnología arbitral de punta:</strong> Implementación del fuera de juego semiautomático y transmisión inmersiva de alta definición.</li>
+</ul>
+
+<p>La FIFA destacó que el evento marcará un punto de inflexión en la historia del fútbol de clubes, uniendo a fanáticos de todo el planeta en una fiesta deportiva sin precedentes.</p>
+
+<p><small>Con información de: <a href="https://www.fifa.com/news" target="_blank" rel="noopener noreferrer">EFE / FIFA Media Press</a>.</small></p>`,
+        contentEn: `<h1>FIFA confirms official match calendar and 12 host venues for expanded 2026 Club World Cup</h1>
+<p><em>At FIFA headquarters in Zurich, football’s governing body officially unveiled the match schedule and 12 host stadiums chosen for the 32-team 2026 Club World Cup.</em></p>
+<h2>Tournament Structure</h2>
+<p>Featuring 32 top club champions from all six continents, the tournament offers a $2 billion prize pool with MetLife Stadium hosting the final.</p>
+<p><small>Source: <a href="https://www.fifa.com/news" target="_blank" rel="noopener noreferrer">EFE / FIFA Media</a>.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '4 min de lectura',
+        readTimeEn: '4 min read',
+        imageUrl: '/images/news/2026-08-05-eclipse.jpg',
+        imageCaption: 'Escenario deportivo e infraestructura internacional de fútbol. Foto: Archivo FIFA',
+        categoryEs: 'Deportes',
+        categoryEn: 'Sports',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Zúrich, Suiza',
+        source: 'EFE / FIFA',
+        region: 'International',
+        sourceUrl: 'https://www.fifa.com/news'
+      }
+            // FIN DE NOTICIAS
     ];
 
 export const translations = {
