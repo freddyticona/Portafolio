@@ -251,6 +251,19 @@ Al crear o reescribir un artículo para el sector de noticias, seguir este flujo
 - Si el contenido lleva HTML (no Markdown), usar `contentHtml` en vez de `content`.
 - Incrementar el contador en `generate-rss.js`, `generate-sitemap.js`, `generate-pages.js`.
 
+### 7. Estándar Interactivo (obligatorio desde agosto 2026)
+TODOS los artículos y reportajes deben integrar las fuentes como elementos visuales e interactivos embebidos en el cuerpo — **nunca como listas de enlaces**. Componentes CSS disponibles en `src/index.css` (clases `.embed-video`, `.tweet-card`, `.expert-quote`, `.stat-grid`/`.stat-card`, `.doc-card`, `.report-figure`, `.report-chapter`):
+
+- **Reproductor de video 16:9** (`.embed-video`): iframes de YouTube con IDs verificados (nunca inventar IDs).
+- **Tarjetas de tuit** (`.tweet-card`): avatar con color de marca, nombre, insignia de verificación, @handle, texto, fecha y botón "Ver en X →" a la cuenta real. Si se tiene el ID real del tuit, usar el widget oficial: `<blockquote class="twitter-tweet">...<a href="https://x.com/USER/status/ID">...</a></blockquote>` (BlogDetail.tsx lo convierte en embed interactivo real).
+- **Citas de expertos** (`.expert-quote`): pull-quote con avatar de gradiente, nombre, cargo e institución.
+- **Infografías de datos** (`.stat-grid`/`.stat-card`): tarjetas con cifras grandes y hover.
+- **Tarjetas de documentos oficiales** (`.doc-card`): clickeables hacia informes, boletines, leyes, PDFs.
+- **Fotografías** (`.report-figure`): figuras con caption; imágenes reales descargadas de Wikimedia Commons (verificar tema, nunca reutilizar fotos ajenas al tema).
+- **Capítulos** (`h2.report-chapter`): separadores temáticos para reportajes extensos.
+
+Estructura de reportaje especial: lead 5W+1H en cursiva → capítulos H2 con multimedia distribuido → análisis comunicacional → cronología en infografía → cierre con atribución múltiple. Contenido siempre reescrito y conceptualizado, en español y en inglés.
+
 ## Git
 - Branch: main
 - Remote: origin/main (GitHub)

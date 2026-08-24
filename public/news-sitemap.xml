@@ -3,6 +3,62 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-guerra-iran-estados-unidos-operacion-epic-fury-cronologia-completa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Reportaje especial | EE.UU. vs Irán: la crónica completa de la Operación Epic Fury, la guerra que paralizó el estrecho de Ormuz y llevó el petróleo a $122</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-guerra-ucrania-rusia-cuarto-ano-cronologia-completa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Reportaje especial | Ucrania vs Rusia: cuatro años de guerra, el frente que no se mueve y la ciudad que no duerme</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-israel-iran-la-guerra-que-cambio-oriente-medio</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Reportaje especial | Israel e Irán: la guerra en la sombra que se convirtió en la mayor confrontación abierta de su historia</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reportaje-especial-gobiernos-de-derecha-escandalos-2026-por-pais</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Reportaje especial | El año de la derecha: los escándalos que sacudieron a los gobiernos de América y Europa en 2026</news:title>
+      <news:keywords>Especial</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/terremoto-magnitud-59-sacude-este-japon-cinco-heridos</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
