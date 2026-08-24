@@ -417,6 +417,246 @@ blockquote.twitter-tweet a:hover {
   text-decoration: underline;
 }
 
+/* ==========================================
+   EMBEDS INTERACTIVOS EN ARTICULOS
+   Video, tarjetas de tuit, expertos, datos y documentos
+   ========================================== */
+
+/* Reproductor de video responsivo 16:9 */
+.embed-video {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 1.75rem auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #000;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+}
+.embed-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-video figcaption,
+.embed-caption {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #a3a3a3;
+  margin-top: 0.5rem;
+}
+
+/* Tarjeta de publicacion de X (estilo tuit) */
+.tweet-card {
+  max-width: 550px;
+  margin: 1.75rem auto;
+  background: #000;
+  border: 1px solid #2f3336;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  color: #e7e9ea;
+  transition: border-color 0.2s ease;
+}
+.tweet-card:hover {
+  border-color: #3e4144;
+}
+.tweet-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+.tweet-card-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+.tweet-card-names {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.tweet-card-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.tweet-card-verified {
+  color: #1d9bf0;
+  font-size: 0.85rem;
+}
+.tweet-card-handle {
+  color: #71767b;
+  font-size: 0.85rem;
+}
+.tweet-card-body {
+  font-size: 1.02rem;
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+}
+.tweet-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #71767b;
+  font-size: 0.8rem;
+  border-top: 1px solid #2f3336;
+  padding-top: 0.65rem;
+}
+.tweet-card-link {
+  color: #1d9bf0;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tweet-card-link:hover {
+  text-decoration: underline;
+}
+
+/* Tarjeta de cita de experto */
+.expert-quote {
+  max-width: 640px;
+  margin: 1.75rem auto;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #3b82f6;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+.expert-quote-text {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: #e5e5e5;
+  margin: 0 0 0.9rem;
+}
+.expert-quote-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.expert-quote-initial {
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.expert-quote-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #fff;
+  line-height: 1.25;
+}
+.expert-quote-role {
+  font-size: 0.78rem;
+  color: #a3a3a3;
+  line-height: 1.3;
+}
+
+/* Tarjetas de datos / infografia */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.9rem;
+  max-width: 720px;
+  margin: 1.75rem auto;
+}
+.stat-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem 0.9rem;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.stat-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+.stat-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #3b82f6;
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+.stat-label {
+  font-size: 0.75rem;
+  color: #a3a3a3;
+  line-height: 1.35;
+}
+
+/* Tarjeta de documento / informe oficial */
+.doc-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 640px;
+  margin: 1.75rem auto;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.doc-card:hover {
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(59, 130, 246, 0.08);
+}
+.doc-card-icon {
+  width: 46px;
+  height: 56px;
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.doc-card-icon.blue { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+.doc-card-icon.green { background: linear-gradient(135deg, #22c55e, #15803d); }
+.doc-card-title {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #fff;
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+.doc-card-desc {
+  font-size: 0.78rem;
+  color: #a3a3a3;
+  line-height: 1.35;
+}
+
+@media (max-width: 640px) {
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+  .tweet-card, .expert-quote, .doc-card, .embed-video { margin-left: 0; margin-right: 0; }
+}
+
 .article-content hr {
   border: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
