@@ -657,6 +657,33 @@ blockquote.twitter-tweet a:hover {
   .tweet-card, .expert-quote, .doc-card, .embed-video { margin-left: 0; margin-right: 0; }
 }
 
+/* Figuras fotográficas de reportajes especiales */
+.article-content figure.report-figure {
+  max-width: 720px;
+  margin: 2rem auto;
+}
+.article-content figure.report-figure img {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: block;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+.article-content figure.report-figure figcaption {
+  font-size: 0.75rem;
+  color: #a3a3a3;
+  text-align: center;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* Separador de capítulo del reportaje */
+.article-content h2.report-chapter {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .article-content hr {
   border: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
