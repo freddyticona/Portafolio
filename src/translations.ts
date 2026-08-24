@@ -23564,6 +23564,160 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         region: 'International',
         sourceUrl: 'https://www.reuters.com/world/americas/'
       },
+      {
+        id: '1094',
+        contentType: 'news',
+        slug: 'reportaje-especial-cine-2026-peliculas-mas-esperadas-que-ver-antes',
+        titleEs: `Reportaje especial | Cine 2026: las películas que debes ver y qué saber antes de sentarte en la butaca`,
+        titleEn: `Special Report | Cinema 2026: the movies you must see and what to know before taking your seat`,
+        excerptEs: `De Avengers: Doomsday y Dune: Parte Tres (ambas el 18 de diciembre) a Shrek 5 (23 de diciembre), pasando por los estrenos ya en cartelera como Toy Story 5, Spider-Man: Un Nuevo Día y The Mandalorian & Grogu: una guía completa con el contexto, el orden de visionado y las claves para no perderte nada en el cine del año.`,
+        excerptEn: `From Avengers: Doomsday and Dune: Part Three (both on December 18) to Shrek 5 (December 23), plus already-released hits like Toy Story 5, Spider-Man: Brand New Day and The Mandalorian & Grogu: a complete guide with the context, watch order and keys to not miss a thing in the year of cinema.`,
+        contentEs: `<h1>Reportaje especial | Cine 2026: las películas que debes ver y qué saber antes de sentarte en la butaca</h1>
+<p><em>El 2026 se perfila como uno de los años más densos del cine comercial reciente: dos eventos de superhéroes el mismo día de diciembre, la conclusión de una trilogía de ciencia ficción admirada, el regreso de Shrek, y ya en cartelera éxitos como Toy Story 5, Spider-Man: Un Nuevo Día y la primera película de Star Wars en siete años. Pero verlas sin contexto es perder la mitad de la experiencia. Este es el mapa completo: qué se viene, qué ya salió y qué debes haber visto antes para entender cada trama.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&h=630&fit=crop" alt="Sala de cine" loading="lazy"><figcaption>El cine en 2026 vive una avalancha de estrenos de franquicias. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Capítulo 1 — Lo que se viene: el tramo final de 2026</h2>
+<p>Tres pesos pesados aún no han llegado a las salas y concentran la mayor expectativa del año. Todas comparten una fecha en diciembre, en plena temporada de premios y vacaciones.</p>
+
+<h3>Avengers: Doomsday — 18 de diciembre de 2026</h3>
+<p>El clímax de la Saga del Multiverso del MCU llega con los hermanos Russo de nuevo en la dirección y el regreso de Robert Downey Jr., esta vez como <strong>Doctor Doom</strong> y no como Iron Man. Chris Evans vuelve como Steve Rogers, y por primera vez en pantalla grande se reúnen Vengadores, los Nuevos Vengadores (Thunderbolts), los 4 Fantásticos y los X-Men clásicos (Patrick Stewart, Ian McKellen). El salto entre universos es el corazón de la trama, y la película prepara directamente <em>Avengers: Secret Wars</em> (17 de diciembre de 2027).</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">18 dic 2026</div><div class="stat-label">Estreno de Avengers: Doomsday en EE. UU.</div></div><div class="stat-card"><div class="stat-value">RDJ</div><div class="stat-label">Robert Downey Jr. como Doctor Doom, no como Iron Man</div></div><div class="stat-card"><div class="stat-value">2027</div><div class="stat-label">Prepara Avengers: Secret Wars (dic 2027)</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Avengers:_Doomsday" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Avengers: Doomsday — ficha y reparto</div><div class="doc-card-desc">Todo lo confirmado sobre la culminación de la Saga del Multiverso.</div></div></a>
+<a class="doc-card" href="https://www.youtube.com/results?search_query=Avengers+Doomsday+Trailer+Oficial+2026" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">TRÁILER</div><div><div class="doc-card-title">Ver el tráiler oficial</div><div class="doc-card-desc">Búsqueda del avance en YouTube.</div></div></a>
+<p><strong>Qué ver antes:</strong> para seguir el lienzo completo conviene repasar <em>Loki</em> (el multiverso), <em>Doctor Strange en el multiverso de la locura</em>, <em>Deadpool & Wolverine</em>, <em>Los 4 Fantásticos: Primeros Pasos</em> (2025, presenta a Franklin Richards) y <em>Thunderbolts*</em> (2025). Doomsday sucede unos meses después de esta última.</p>
+
+<h3>Dune: Parte Tres — 18 de diciembre de 2026</h3>
+<p>Denis Villeneuve cierra su trilogía de <em>Dune</em> adaptando <strong>Dune Messiah</strong>, la segunda novela de Frank Herbert. La historia salta doce años tras <em>Dune: Parte Dos</em> y se centra en las consecuencias políticas y religiosas del ascenso de Paul Atreides, un giro más oscuro y cerebral que los dos primeros filmes. Vuelven Timothée Chalamet, Zendaya, Florence Pugh, Jason Momoa y Rebecca Ferguson, con novedades como Robert Pattinson (Scytale) y Anya Taylor-Joy (Alia ya adulta).</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">18 dic 2026</div><div class="stat-label">Estreno de Dune: Parte Tres</div></div><div class="stat-card"><div class="stat-value">Dune Messiah</div><div class="stat-label">Adapta la segunda novela de Frank Herbert</div></div><div class="stat-card"><div class="stat-value">+12 años</div><div class="stat-label">Salto temporal respecto a Parte Dos</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Dune:_Part_Three" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Dune: Parte Tres — ficha</div><div class="doc-card-desc">Reparto, fecha y la adaptación de Dune Messiah.</div></div></a>
+<p><strong>Qué ver antes:</strong> imprescindible ver <em>Dune</em> (2021) y <em>Dune: Parte Dos</em> (2024) en orden. La tercera entrega cierra el arco de Paul y asume que conoces a las casas Atreides, Harkonnen y Fremen.</p>
+
+<h3>Shrek 5 — 23 de diciembre de 2026</h3>
+<p>DreamWorks estrena la quinta entrega por el 25º aniversario de la primera <em>Shrek</em> (2001). Mike Myers, Cameron Diaz y Eddie Murphy retoman sus roles, con un tono que apostará por el choque generacional dentro del universo de los ogros. Es la primera vez desde 2010 que la franquicia vuelve a los cines en una entrega numerada.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">23 dic 2026</div><div class="stat-label">Estreno de Shrek 5 (fecha revisada)</div></div><div class="stat-card"><div class="stat-value">2001</div><div class="stat-label">25º aniversario de la primera Shrek</div></div><div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Entregas numeradas previas (2001-2010)</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Shrek_5" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Shrek 5 — ficha</div><div class="doc-card-desc">Elenco de voz y fecha de estreno.</div></div></a>
+<p><strong>Qué ver antes:</strong> las cuatro películas originales (<em>Shrek</em>, <em>Shrek 2</em>, <em>Shrek tercero</em>, <em>Shrek para siempre</em>) y, para el universo extendido, <em>El gato con botas: el último deseo</em> (2022).</p>
+
+<h2 class="report-chapter">Capítulo 2 — Para ponerse al día: lo que ya está en cartelera</h2>
+<p>Si quieres ir con todo al día, estas ya se estrenaron en 2026 y varias siguen en salas o llegan pronto a streaming.</p>
+
+<h3>Toy Story 5 — 19 de junio de 2026</h3>
+<p>Pixar lleva los juguetes a la era de las pantallas: Woody y Buzz se enfrentan a un competidor inesperado, la tableta inteligente. Andrew Stanton dirige; vuelven Tom Hanks y Tim Allen. Randy Newman compone de nuevo. Es la primera entrega numerada desde <em>Toy Story 4</em> (2019).</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Toy_Story_5" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Toy Story 5 — ficha</div><div class="doc-card-desc">Reparto, recaudación y la trama de los "juguetes vs. pantallas".</div></div></a>
+
+<h3>Spider-Man: Un Nuevo Día (Brand New Day) — 31 de julio de 2026</h3>
+<p>Tom Holland retoma a Peter Parker tras <em>No Way Home</em>: el mundo ha olvidado su identidad y Spider-Man vuelve a sus raíces callejeras. Destin Daniel Cretton dirige; se suman Sadie Sink, Mark Ruffalo (Hulk) y Jon Bernthal (Punisher). Es el primer Spider-Man "real" de Holland, sin la red del MCU original.</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Spider-Man: Un Nuevo Día — ficha</div><div class="doc-card-desc">Reparto, fecha y conexión con el MCU.</div></div></a>
+<p><strong>Qué ver antes:</strong> la trilogía de Holland (<em>Homecoming</em>, <em>Far From Home</em>, <em>No Way Home</em>) para entender el trauma post-hechizo de Strange.</p>
+
+<h3>The Mandalorian & Grogu — 22 de mayo de 2026</h3>
+<p>La primera película de Star Wars en siete años lleva a Din Djarin y Grogu de la serie a la gran pantalla. Jon Favreau dirige y co-escribe con Dave Filoni; reparto con Pedro Pascal, Sigourney Weaver y Jeremy Allen White. Llega a Disney+ el 2 de septiembre de 2026.</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/The_Mandalorian_and_Grogu" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">The Mandalorian and Grogu — ficha</div><div class="doc-card-desc">Reparto y cómo conecta con las series de Disney+.</div></div></a>
+<p><strong>Qué ver antes:</strong> <em>The Mandalorian</em> temporadas 1 a 3 y <em>The Book of Boba Fett</em>; para la trama mayor, <em>Ahsoka</em>.</p>
+
+<h3>The Odyssey — 17 de julio de 2026</h3>
+<p>Christopher Nolan adapta la epopeya de Homero con un reparto de ensueño: Matt Damon (Odiseo), Tom Holland, Ana de Armas, Zendaya y Robert Pattinson. Es la otra gran apuesta del verano y una de las favoritas a los premios.</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">The Odyssey (2026) — ficha</div><div class="doc-card-desc">Reparto y detalles de la adaptación de Nolan.</div></div></a>
+
+<h2 class="report-chapter">Capítulo 3 — La que se fue lejos: The Batman Parte II</h2>
+<p>La secuela de Matt Reeves con Robert Pattinson sufrió un nuevo retraso en julio de 2026: pasó de octubre de 2027 a <strong>18 de febrero de 2028</strong>. Sigue fuera del universo compartido de DC (DCU) de James Gunn y es continuación directa de <em>The Batman</em> (2022) y la serie <em>The Penguin</em>.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">18 feb 2028</div><div class="stat-label">Nueva fecha de The Batman Parte II</div></div><div class="stat-card"><div class="stat-value">2022</div><div class="stat-label">Ve de <em>The Batman</em> y <em>The Penguin</em></div></div><div class="stat-card"><div class="stat-value">Elseworlds</div><div class="stat-label">Fuera del DCU de Gunn</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/The_Batman:_Part_II" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">The Batman: Part II — ficha</div><div class="doc-card-desc">Por qué se retrasó y cómo encaja en el Batman de Reeves.</div></div></a>
+
+<h2 class="report-chapter">Capítulo 4 — Cómo prepararte: el orden de visionado</h2>
+<p>El cine de franquicias premia al espectador informado. Tres reglas sencillas:</p>
+<ul>
+<li><strong>No fumes el tráiler como spoiler:</strong> en 2026 los avances revelan a veces el primer acto entero. Si quieres sorpresa, evita los tráileres extensos.</li>
+<li><strong>Prioriza la continuidad:</strong> Doomsday y Dune 3 son ininteligibles sin sus predecesoras; Mandalorian y Spider-Man dependen de series o películas previas.</li>
+<li><strong>Aprovecha el puente a streaming:</strong> Mandalorian & Grogu entra a Disney+ el 2 de septiembre; muchas ya están o estarán en plataformas semanas después de salas.</li>
+</ul>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;El espectador de 2026 no va al cine a descubrir una historia, va a reconocer un universo. La 'cultura del contexto' —ver lo previo, leer el lore— es ya parte de la experiencia tanto como la propia película. Quien llega sin mapa, sale confundido.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">CD</div><div><div class="expert-quote-name">Analistas de industria cinematográfica</div><div class="expert-quote-role">Estudios de audiencias y franquicias</div></div></div></div>
+
+<h2 class="report-chapter">Cronología del cine 2026</h2>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">22 may 2026</div><div class="stat-label">The Mandalorian & Grogu (en cines)</div></div><div class="stat-card"><div class="stat-value">17 jul 2026</div><div class="stat-label">The Odyssey (Nolan)</div></div><div class="stat-card"><div class="stat-value">19 jun 2026</div><div class="stat-label">Toy Story 5</div></div><div class="stat-card"><div class="stat-value">31 jul 2026</div><div class="stat-label">Spider-Man: Un Nuevo Día</div></div><div class="stat-card"><div class="stat-value">18 dic 2026</div><div class="stat-label">Avengers: Doomsday y Dune: Parte Tres</div></div><div class="stat-card"><div class="stat-value">23 dic 2026</div><div class="stat-label">Shrek 5</div></div><div class="stat-card"><div class="stat-value">2 sep 2026</div><div class="stat-label">Mandalorian & Grogu en Disney+</div></div><div class="stat-card"><div class="stat-value">18 feb 2028</div><div class="stat-label">The Batman Parte II (retrasada)</div></div></div>
+<p><small>Reportaje elaborado con información de: <a href="https://www.boxofficemojo.com/" target="_blank" rel="noopener noreferrer">Box Office Mojo</a>, <a href="https://en.wikipedia.org/wiki/Avengers:_Doomsday" target="_blank" rel="noopener noreferrer">Wikipedia (Avengers: Doomsday)</a>, <a href="https://en.wikipedia.org/wiki/Dune:_Part_Three" target="_blank" rel="noopener noreferrer">Wikipedia (Dune: Part Three)</a>, <a href="https://en.wikipedia.org/wiki/Shrek_5" target="_blank" rel="noopener noreferrer">Wikipedia (Shrek 5)</a>, <a href="https://en.wikipedia.org/wiki/Toy_Story_5" target="_blank" rel="noopener noreferrer">Wikipedia (Toy Story 5)</a>, <a href="https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day" target="_blank" rel="noopener noreferrer">Wikipedia (Spider-Man)</a>, <a href="https://en.wikipedia.org/wiki/The_Mandalorian_and_Grogu" target="_blank" rel="noopener noreferrer">Wikipedia (The Mandalorian and Grogu)</a>, <a href="https://en.wikipedia.org/wiki/The_Batman:_Part_II" target="_blank" rel="noopener noreferrer">Wikipedia (The Batman: Part II)</a> y comunicados de Marvel, Warner Bros, Disney, Pixar y DreamWorks.</small></p>`,
+        contentEn: `<h1>Special Report | Cinema 2026: the movies you must see and what to know before taking your seat</h1>
+<p><em>2026 is shaping up as one of the densest years in recent blockbuster cinema: two superhero events on the same December day, the conclusion of a beloved sci-fi trilogy, the return of Shrek, and already in theaters hits like Toy Story 5, Spider-Man: Brand New Day and the first Star Wars film in seven years. But watching them without context means missing half the experience. This is the complete map: what is coming, what has already dropped, and what you should have seen beforehand to follow every plot.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&h=630&fit=crop" alt="Movie theater" loading="lazy"><figcaption>2026 cinema is flooded with franchise releases. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Chapter 1 — What is coming: the final stretch of 2026</h2>
+<p>Three heavyweights have not yet hit theaters and concentrate the year's biggest anticipation. All share a December date, in the heart of awards and holiday season.</p>
+
+<h3>Avengers: Doomsday — December 18, 2026</h3>
+<p>The climax of the MCU's Multiverse Saga arrives with the Russo brothers back in the director's chair and Robert Downey Jr. returning — this time as <strong>Doctor Doom</strong>, not Iron Man. Chris Evans returns as Steve Rogers, and for the first time on the big screen the Avengers, the New Avengers (Thunderbolts), the Fantastic Four and the classic X-Men (Patrick Stewart, Ian McKellen) unite. The collision of universes is the heart of the plot, and the film directly sets up <em>Avengers: Secret Wars</em> (December 17, 2027).</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">Dec 18, 2026</div><div class="stat-label">Avengers: Doomsday US release</div></div><div class="stat-card"><div class="stat-value">RDJ</div><div class="stat-label">Robert Downey Jr. as Doctor Doom, not Iron Man</div></div><div class="stat-card"><div class="stat-value">2027</div><div class="stat-label">Sets up Avengers: Secret Wars (Dec 2027)</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Avengers:_Doomsday" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Avengers: Doomsday — profile & cast</div><div class="doc-card-desc">Everything confirmed about the Multiverse Saga finale.</div></div></a>
+<a class="doc-card" href="https://www.youtube.com/results?search_query=Avengers+Doomsday+Trailer+Official+2026" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">TRAILER</div><div><div class="doc-card-title">Watch the official trailer</div><div class="doc-card-desc">Search the teaser on YouTube.</div></div></a>
+<p><strong>What to watch first:</strong> to follow the full canvas, brush up on <em>Loki</em> (the multiverse), <em>Doctor Strange in the Multiverse of Madness</em>, <em>Deadpool & Wolverine</em>, <em>Fantastic Four: First Steps</em> (2025, introduces Franklin Richards) and <em>Thunderbolts*</em> (2025). Doomsday takes place a few months after the latter.</p>
+
+<h3>Dune: Part Three — December 18, 2026</h3>
+<p>Denis Villeneuve closes his <em>Dune</em> trilogy by adapting <strong>Dune Messiah</strong>, Frank Herbert's second novel. The story jumps twelve years after <em>Dune: Part Two</em> and focuses on the political and religious fallout of Paul Atreides' rise — a darker, more cerebral turn than the first two films. Timothée Chalamet, Zendaya, Florence Pugh, Jason Momoa and Rebecca Ferguson return, with additions like Robert Pattinson (Scytale) and Anya Taylor-Joy (an adult Alia).</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">Dec 18, 2026</div><div class="stat-label">Dune: Part Three release</div></div><div class="stat-card"><div class="stat-value">Dune Messiah</div><div class="stat-label">Adapts Frank Herbert's second novel</div></div><div class="stat-card"><div class="stat-value">+12 yrs</div><div class="stat-label">Time jump from Part Two</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Dune:_Part_Three" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Dune: Part Three — profile</div><div class="doc-card-desc">Cast, date and the Dune Messiah adaptation.</div></div></a>
+<p><strong>What to watch first:</strong> seeing <em>Dune</em> (2021) and <em>Dune: Part Two</em> (2024) in order is essential. The third chapter closes Paul's arc and assumes you know the Atreides, Harkonnen and Fremen.</p>
+
+<h3>Shrek 5 — December 23, 2026</h3>
+<p>DreamWorks releases the fifth entry for the 25th anniversary of the original <em>Shrek</em> (2001). Mike Myers, Cameron Diaz and Eddie Murphy reprise their roles, with a tone leaning into a generational clash within the ogres' universe. It is the first numbered installment to return to theaters since 2010.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">Dec 23, 2026</div><div class="stat-label">Shrek 5 release (revised date)</div></div><div class="stat-card"><div class="stat-value">2001</div><div class="stat-label">25th anniversary of the first Shrek</div></div><div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Previous numbered entries (2001-2010)</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Shrek_5" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Shrek 5 — profile</div><div class="doc-card-desc">Voice cast and release date.</div></div></a>
+<p><strong>What to watch first:</strong> the four original films (<em>Shrek</em>, <em>Shrek 2</em>, <em>Shrek the Third</em>, <em>Shrek Forever After</em>) and, for the extended universe, <em>Puss in Boots: The Last Wish</em> (2022).</p>
+
+<h2 class="report-chapter">Chapter 2 — Catch up: what is already in theaters</h2>
+<p>If you want to be fully up to date, these already premiered in 2026 and several are still running or soon on streaming.</p>
+
+<h3>Toy Story 5 — June 19, 2026</h3>
+<p>Pixar brings the toys into the screen era: Woody and Buzz face an unexpected rival, the smart tablet. Andrew Stanton directs; Tom Hanks and Tim Allen return. Randy Newman scores again. It is the first numbered entry since <em>Toy Story 4</em> (2019).</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Toy_Story_5" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Toy Story 5 — profile</div><div class="doc-card-desc">Cast, box office and the "toys vs. screens" plot.</div></div></a>
+
+<h3>Spider-Man: Brand New Day — July 31, 2026</h3>
+<p>Tom Holland returns as Peter Parker after <em>No Way Home</em>: the world has forgotten his identity and Spider-Man goes back to his street-level roots. Destin Daniel Cretton directs; Sadie Sink, Mark Ruffalo (Hulk) and Jon Bernthal (Punisher) join. It is Holland's first "real" Spider-Man, without the original MCU safety net.</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">Spider-Man: Brand New Day — profile</div><div class="doc-card-desc">Cast, date and MCU connection.</div></div></a>
+<p><strong>What to watch first:</strong> Holland's trilogy (<em>Homecoming</em>, <em>Far From Home</em>, <em>No Way Home</em>) to understand the post-Strange-spell trauma.</p>
+
+<h3>The Mandalorian & Grogu — May 22, 2026</h3>
+<p>The first Star Wars film in seven years brings Din Djarin and Grogu from the series to the big screen. Jon Favreau directs and co-writes with Dave Filoni; cast includes Pedro Pascal, Sigourney Weaver and Jeremy Allen White. It hits Disney+ on September 2, 2026.</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/The_Mandalorian_and_Grogu" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">The Mandalorian and Grogu — profile</div><div class="doc-card-desc">Cast and how it connects to the Disney+ series.</div></div></a>
+<p><strong>What to watch first:</strong> <em>The Mandalorian</em> seasons 1-3 and <em>The Book of Boba Fett</em>; for the larger arc, <em>Ahsoka</em>.</p>
+
+<h3>The Odyssey — July 17, 2026</h3>
+<p>Christopher Nolan adapts Homer's epic with a dream cast: Matt Damon (Odysseus), Tom Holland, Ana de Armas, Zendaya and Robert Pattinson. It is the other big summer bet and a leading awards contender.</p>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">The Odyssey (2026) — profile</div><div class="doc-card-desc">Cast and details of Nolan's adaptation.</div></div></a>
+
+<h2 class="report-chapter">Chapter 3 — The one that slipped away: The Batman Part II</h2>
+<p>Matt Reeves' sequel with Robert Pattinson took another delay in July 2026: from October 2027 to <strong>February 18, 2028</strong>. It remains outside James Gunn's shared DCU and is a direct follow-up to <em>The Batman</em> (2022) and the <em>The Penguin</em> series.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">Feb 18, 2028</div><div class="stat-label">New date for The Batman Part II</div></div><div class="stat-card"><div class="stat-value">2022</div><div class="stat-label">See <em>The Batman</em> and <em>The Penguin</em> first</div></div><div class="stat-card"><div class="stat-value">Elseworlds</div><div class="stat-label">Outside Gunn's DCU</div></div></div>
+<a class="doc-card" href="https://en.wikipedia.org/wiki/The_Batman:_Part_II" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WIKI</div><div><div class="doc-card-title">The Batman: Part II — profile</div><div class="doc-card-desc">Why it was delayed and how it fits Reeves' Batman.</div></div></a>
+
+<h2 class="report-chapter">Chapter 4 — How to prepare: the watch order</h2>
+<p>Franchise cinema rewards the informed viewer. Three simple rules:</p>
+<ul>
+<li><strong>Don't treat the trailer as a spoiler:</strong> in 2026, teasers sometimes reveal the entire first act. If you want surprise, skip the extended trailers.</li>
+<li><strong>Prioritize continuity:</strong> Doomsday and Dune 3 are unintelligible without their predecessors; Mandalorian and Spider-Man depend on earlier shows or films.</li>
+<li><strong>Use the streaming bridge:</strong> Mandalorian & Grogu hits Disney+ on September 2; many titles are or will be on platforms weeks after theaters.</li>
+</ul>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;The 2026 viewer does not go to the cinema to discover a story, but to recognize a universe. The 'context culture' — watching the previous entries, reading the lore — is now as much a part of the experience as the film itself. Whoever arrives without a map leaves confused.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">CD</div><div><div class="expert-quote-name">Film industry analysts</div><div class="expert-quote-role">Audience and franchise studies</div></div></div></div>
+
+<h2 class="report-chapter">2026 cinema timeline</h2>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">May 22, 2026</div><div class="stat-label">The Mandalorian & Grogu (in theaters)</div></div><div class="stat-card"><div class="stat-value">Jul 17, 2026</div><div class="stat-label">The Odyssey (Nolan)</div></div><div class="stat-card"><div class="stat-value">Jun 19, 2026</div><div class="stat-label">Toy Story 5</div></div><div class="stat-card"><div class="stat-value">Jul 31, 2026</div><div class="stat-label">Spider-Man: Brand New Day</div></div><div class="stat-card"><div class="stat-value">Dec 18, 2026</div><div class="stat-label">Avengers: Doomsday and Dune: Part Three</div></div><div class="stat-card"><div class="stat-value">Dec 23, 2026</div><div class="stat-label">Shrek 5</div></div><div class="stat-card"><div class="stat-value">Sep 2, 2026</div><div class="stat-label">Mandalorian & Grogu on Disney+</div></div><div class="stat-card"><div class="stat-value">Feb 18, 2028</div><div class="stat-label">The Batman Part II (delayed)</div></div></div>
+<p><small>Report compiled with information from: <a href="https://www.boxofficemojo.com/" target="_blank" rel="noopener noreferrer">Box Office Mojo</a>, <a href="https://en.wikipedia.org/wiki/Avengers:_Doomsday" target="_blank" rel="noopener noreferrer">Wikipedia (Avengers: Doomsday)</a>, <a href="https://en.wikipedia.org/wiki/Dune:_Part_Three" target="_blank" rel="noopener noreferrer">Wikipedia (Dune: Part Three)</a>, <a href="https://en.wikipedia.org/wiki/Shrek_5" target="_blank" rel="noopener noreferrer">Wikipedia (Shrek 5)</a>, <a href="https://en.wikipedia.org/wiki/Toy_Story_5" target="_blank" rel="noopener noreferrer">Wikipedia (Toy Story 5)</a>, <a href="https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day" target="_blank" rel="noopener noreferrer">Wikipedia (Spider-Man)</a>, <a href="https://en.wikipedia.org/wiki/The_Mandalorian_and_Grogu" target="_blank" rel="noopener noreferrer">Wikipedia (The Mandalorian and Grogu)</a>, <a href="https://en.wikipedia.org/wiki/The_Batman:_Part_II" target="_blank" rel="noopener noreferrer">Wikipedia (The Batman: Part II)</a> and press materials from Marvel, Warner Bros, Disney, Pixar and DreamWorks.</small></p>`,
+        date: '2026-08-24',
+        readTimeEs: '11 min de lectura',
+        readTimeEn: '11 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&h=630&fit=crop',
+        imageCaption: 'El cine en 2026 vive una avalancha de estrenos de franquicias. Foto: Unsplash',
+        categoryEs: 'Especial',
+        categoryEn: 'Special',
+        enableComments: true,
+        featured: true,
+        breaking: false,
+        views: 1,
+        location: 'Los Angeles / Nueva York / Londres',
+        source: 'Box Office Mojo / Marvel / Warner Bros / Disney / Pixar / DreamWorks',
+        region: 'International',
+        sourceUrl: 'https://www.boxofficemojo.com/'
+      },
       // FIN DE NOTICIAS
     ];
 
