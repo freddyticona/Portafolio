@@ -23718,6 +23718,553 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
         region: 'International',
         sourceUrl: 'https://www.boxofficemojo.com/'
       },
+      
+
+      {
+        id: '1095',
+        contentType: 'news',
+        slug: 'ucrania-rusia-guerra-2026-golpe-profundo-drones-sanciones',
+        titleEs: `Ucrania-Rusia: la guerra entra en su fase de "golpe profundo" con drones y sanciones`,
+        titleEn: `Ukraine-Russia: the war enters its "deep-strike" phase with drones and sanctions`,
+        excerptEs: `En el día 1.643 de la invasión, el conflicto ya no se decide solo en las trincheras: los drones de largo alcance golpean la infraestructura rusa mientras el Senado de EE. UU. aprueba un paquete de sanciones sin precedentes.`,
+        excerptEn: `On day 1,643 of the invasion, the war is no longer decided only at the front: long-range drones hit Russian infrastructure as the U.S. Senate passes an unprecedented sanctions package.`,
+        contentEs: `<h1>Ucrania-Rusia: la guerra entra en su fase de "golpe profundo" con drones y sanciones</h1>
+<p><em>El 24 de agosto de 2026, Ucrania conmemora su Día de la Independencia en el día 1.643 de la invasión rusa a gran escala. Lo que comenzó como una guerra de movimientos y trincheras se ha transformado en una contienda de atrición donde los drones de largo alcance y los golpes a la infraestructura energética definen el ritmo del conflicto.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop" alt="Frente en Ucrania" loading="lazy"><figcaption>El frente se ha estabilizado, pero la guerra se libra cada vez más en la profundidad estratégica. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">El frente se estanca, la profundidad se golpea</h2>
+<p>Rusia conserva el control de cerca del 20% del territorio ucraniano y mantiene la iniciativa en varios sectores del este, avanzando lentamente hacia el cinturón de fortalezas alrededor de Sloviansk. Sin embargo, la característica militar que define 2026 no es el movimiento en los mapas, sino la transformación de la guerra misma: casi todas las noches, drones ucranianos de largo alcance cruzan cientos de kilómetros para alcanzar refinerías, depósitos de combustible, ferrocarriles y nodos eléctricos en suelo ruso. Según el Council on Foreign Relations, estas operaciones han neutralizado hasta el 40% de la capacidad de refinación rusa en momentos puntuales.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">1.643</div><div class="stat-label">Día de la invasión (24 ago 2026)</div></div><div class="stat-card"><div class="stat-value">~20%</div><div class="stat-label">Territorio ucraniano bajo control ruso</div></div><div class="stat-card"><div class="stat-value">~40%</div><div class="stat-label">Capacidad de refinación rusa neutralizada (CFR)</div></div><div class="stat-card"><div class="stat-value">745 km²</div><div class="stat-label">Liberados en Oleksandrivka desde enero (Zelensky)</div></div></div>
+<p>El Instituto para el Estudio de la Guerra (ISW) evalúa de forma independiente que Ucrania recuperó al menos 626 km² de territorio tácticamente significativo en la dirección de Oleksandrivka entre enero y agosto de 2026. La ofensiva de primavera-verano rusa, en cambio, se ha desacelerado a paso de tortuga: 38 km² en julio frente a 456 del año anterior.</p>
+
+<h2 class="report-chapter">Las sanciones vuelven a escena</h2>
+<p>El 7 de agosto de 2026, el Senado de Estados Unidos aprobó por 86 votos contra 11 un amplio paquete de sanciones promovido por el senador Lindsey Graham. La Cámara de Representantes introdujo una medida idéntica durante su receso. La presión legislativa busca cerrar los resquicios por los que Moscú sigue financiando la guerra pese a las restricciones occidentales.</p>
+<a class="doc-card" href="https://www.understandingwar.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">ISW</div><div><div class="doc-card-title">Institute for the Study of War</div><div class="doc-card-desc">Seguimiento diario del frente y evaluaciones de territorio.</div></div></a>
+<a class="doc-card" href="https://www.unhcr.org/ukraine" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">ACNUR</div><div><div class="doc-card-title">ACNUR — Crisis de refugiados de Ucrania</div><div class="doc-card-desc">Cifras de desplazados y refugiados.</div></div></a>
+
+<h2 class="report-chapter">El costo humano</h2>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Ni Rusia ni Ucrania parecen hoy capaces de una victoria militar decisiva. El cuadro estratégico de la segunda mitad de 2026 es de estancamiento prolongado punteado por cambios tácticos locales.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">IE</div><div><div class="expert-quote-name">Analistas del conflicto (ISW, CSIS, Chatham House)</div><div class="expert-quote-role">Consenso de expertos</div></div></div></div>
+<p>La Oficina del Alto Comisionado de la ONU para los Derechos Humanos (OHCHR) reportó que julio de 2026 fue el mes más letal para civiles desde marzo de 2022: 437 muertos y 2.610 heridos. Ucrania afirma más de 1,47 millones de bajas militares rusas acumuladas al 24 de agosto. Ninguna de las partes vislumbra una salida militar cercana.</p>
+<p><small>Con información de: Institute for the Study of War (ISW), UN OHCHR, Council on Foreign Relations (CFR), Estado Mayor de Ucrania y reportes de Reuters/AP/BBC.</small></p>`,
+        contentEn: `<h1>Ukraine-Russia: the war enters its "deep-strike" phase with drones and sanctions</h1>
+<p><em>On August 24, 2026, Ukraine marks its Independence Day on day 1,643 of the full-scale Russian invasion. What began as a war of maneuver and trenches has become a war of attrition in which long-range drones and strikes on energy infrastructure set the tempo.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop" alt="Ukraine front" loading="lazy"><figcaption>The front has stabilized, but the war is increasingly fought in strategic depth. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">The front stalls, the depth gets hit</h2>
+<p>Russia still holds roughly 20% of Ukrainian territory and keeps the initiative in several eastern sectors, slowly pushing toward the fortress belt around Sloviansk. Yet the military feature that defines 2026 is not movement on the maps but the transformation of warfare itself: nearly every night, Ukrainian long-range drones cross hundreds of kilometres to hit refineries, fuel depots, railways and power nodes inside Russia. According to the Council on Foreign Relations, these operations have at times knocked out up to 40% of Russian refining capacity.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">1,643</div><div class="stat-label">Day of the invasion (Aug 24, 2026)</div></div><div class="stat-card"><div class="stat-value">~20%</div><div class="stat-label">Ukrainian territory under Russian control</div></div><div class="stat-card"><div class="stat-value">~40%</div><div class="stat-label">Russian refining capacity disabled (CFR)</div></div><div class="stat-card"><div class="stat-value">745 km²</div><div class="stat-label">Liberated in Oleksandrivka since January (Zelensky)</div></div></div>
+<p>The Institute for the Study of War (ISW) independently assesses that Ukraine recovered at least 626 km² of tactically significant territory in the Oleksandrivka direction between January and August 2026. Russia's spring-summer offensive, by contrast, has slowed to a crawl: 38 km² in July versus 456 a year earlier.</p>
+
+<h2 class="report-chapter">Sanctions return to the stage</h2>
+<p>On August 7, 2026, the U.S. Senate passed by 86 votes to 11 a sweeping sanctions package sponsored by Senator Lindsey Graham. The House introduced an identical measure during recess. The legislative push aims to close the loopholes through which Moscow keeps funding the war despite Western restrictions.</p>
+<a class="doc-card" href="https://www.understandingwar.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">ISW</div><div><div class="doc-card-title">Institute for the Study of War</div><div class="doc-card-desc">Daily front tracking and territory assessments.</div></div></a>
+<a class="doc-card" href="https://www.unhcr.org/ukraine" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">UNHCR</div><div><div class="doc-card-title">UNHCR — Ukraine refugee crisis</div><div class="doc-card-desc">Displacement and refugee figures.</div></div></a>
+
+<h2 class="report-chapter">The human cost</h2>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Neither Russia nor Ukraine appears capable today of a decisive military victory. The strategic picture for the second half of 2026 is prolonged stalemate punctuated by local tactical shifts.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">EA</div><div><div class="expert-quote-name">Conflict analysts (ISW, CSIS, Chatham House)</div><div class="expert-quote-role">Expert consensus</div></div></div></div>
+<p>The UN Office of the High Commissioner for Human Rights (OHCHR) reported that July 2026 was the deadliest month for civilians since March 2022: 437 killed and 2,610 injured. Ukraine claims more than 1.47 million cumulative Russian military losses as of August 24. Neither side sees a near-term military exit.</p>
+<p><small>With information from: Institute for the Study of War (ISW), UN OHCHR, Council on Foreign Relations (CFR), General Staff of Ukraine, and Reuters/AP/BBC reporting.</small></p>`,
+        date: '2026-08-23',
+        readTimeEs: '9 min de lectura',
+        readTimeEn: '9 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop',
+        imageCaption: 'El frente se estabiliza pero la guerra se libra en la profundidad estratégica. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Kyiv / Moscú / Washington',
+        source: 'ISW / OHCHR / CFR / Reuters',
+        region: 'International',
+        sourceUrl: 'https://www.understandingwar.org/'
+      },
+      {
+        id: '1096',
+        contentType: 'news',
+        slug: 'gaza-alto-al-fuego-octubre-2025-se-desintegra',
+        titleEs: `Gaza: el alto al fuego de octubre de 2025 se desintegra entre hambre y rehenes`,
+        titleEn: `Gaza: the October 2025 ceasefire unravels amid hunger and hostages`,
+        excerptEs: `El plan de paz anunciado el 10 de octubre de 2025 está estancado. Hamas controla el 46% de la Franja, Israel el 54%, y la ayuda humanitaria sigue siendo dramáticamente insuficiente.`,
+        excerptEn: `The peace plan announced on October 10, 2025 is stalled. Hamas controls 46% of the Strip, Israel 54%, and humanitarian aid remains drastically insufficient.`,
+        contentEs: `<h1>Gaza: el alto al fuego de octubre de 2025 se desintegra entre hambre y rehenes</h1>
+<p><em>Seis meses después del anuncio del alto al fuego del 10 de octubre de 2025, el plan de paz de 20 puntos promovido por la administración Trump se ha estancado en casi todas sus promesas, más allá de la pausa inicial en los combates y el canje de rehenes.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop" alt="Oriente Medio" loading="lazy"><figcaption>La Franja de Gaza sigue dividida entre Hamas e Israel. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Un alto al fuego que no pacifica</h2>
+<p>Desde el alto al fuego, más de 700 palestinos y cuatro israelíes han muerto en Gaza por violaciones del cese. Israel retiró sus tropas de aproximadamente la mitad de la Franja y hoy controla un 54% del territorio; Hamas ha consolidado el control sobre el 46% restante. Una junta de paz y un comité de 15 tecnócratas palestinos fueron creados para gobernar, pero la autoridad de Hamas persiste.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">700+</div><div class="stat-label">Palestinos muertos desde el alto al fuego</div></div><div class="stat-card"><div class="stat-value">46% / 54%</div><div class="stat-label">Control de Hamas / Israel en Gaza</div></div><div class="stat-card"><div class="stat-value">77%</div><div class="stat-label">Población con inseguridad alimentaria aguda</div></div><div class="stat-card"><div class="stat-value">0,5%</div><div class="stat-label">Escombros retirados de la Franja</div></div></div>
+
+<h2 class="report-chapter">La ayuda que no llega</h2>
+<p>La situación humanitaria mejoró respecto del punto más crudo del conflicto, pero sigue siendo desesperada. El 77% de la población enfrenta inseguridad alimentaria aguda, y persisten faltantes graves de medicamentos, combustible y materiales de refugio. Solo el 0,5% de los escombros se ha retirado, y la mayoría de los fondos prometidos por donantes no se ha transferido al fondo administrado por el Banco Mundial. En la reunión inaugural de la junta de paz se prometieron unos 17.000 millones de dólares (10.000 de EE. UU. y 7.000 de nueve países), pero su desembolso está condicionado al desarme de Hamas.</p>
+<a class="doc-card" href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">OCHA</div><div><div class="doc-card-title">Oficina de Coordinación de Asuntos Humanitarios (ONU)</div><div class="doc-card-desc">Informes semanales sobre Gaza y Cisjordania.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Más de 18.000 pacientes —incluidos 11.000 con cáncer— requieren tratamiento urgente y no han podido ser evacuados. La reconstrucción apenas ha comenzado.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">ONG</div><div><div class="expert-quote-name">Organizaciones humanitarias en Gaza</div><div class="expert-quote-role">Reporte de situación</div></div></div></div>
+<p>El futuro político —la desmilitarización de Hamas, la retirada israelí completa y el avance hacia un Estado palestino— no registra avances significativos. La crisis de los rehenes, en tanto, sigue sin resolverse por completo.</p>
+<p><small>Con información de: J Street, OCHA, UNRWA, The Jerusalem Post y reportes de la ONU.</small></p>`,
+        contentEn: `<h1>Gaza: the October 2025 ceasefire unravels amid hunger and hostages</h1>
+<p><em>Six months after the ceasefire announced on October 10, 2025, the 20-point peace plan promoted by the Trump administration has stalled on nearly all its promises beyond the initial pause in fighting and the hostage exchange.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop" alt="Middle East" loading="lazy"><figcaption>The Gaza Strip remains divided between Hamas and Israel. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">A ceasefire that does not pacify</h2>
+<p>Since the ceasefire, more than 700 Palestinians and four Israelis have been killed in Gaza through violations of the truce. Israel withdrew its troops from roughly half of the Strip and now controls about 54% of the territory; Hamas has consolidated control over the remaining 46%. A Board of Peace and a 15-person committee of Palestinian technocrats were created to govern, but Hamas's authority persists.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">700+</div><div class="stat-label">Palestinians killed since the ceasefire</div></div><div class="stat-card"><div class="stat-value">46% / 54%</div><div class="stat-label">Hamas / Israel control in Gaza</div></div><div class="stat-card"><div class="stat-value">77%</div><div class="stat-label">Population facing acute food insecurity</div></div><div class="stat-card"><div class="stat-value">0.5%</div><div class="stat-label">Rubble cleared from the Strip</div></div></div>
+
+<h2 class="report-chapter">Aid that does not arrive</h2>
+<p>The humanitarian situation improved from the raw worst of the conflict but remains dire. 77% of the population faces acute food insecurity, and severe shortages of medicine, fuel and shelter materials persist. Only 0.5% of rubble has been removed, and most donor pledges have not been transferred to the World Bank-administered fund. At the Board of Peace's inaugural meeting some $17 billion was pledged ($10B from the U.S. and $7B from nine countries), but disbursement is conditioned on Hamas disarming.</p>
+<a class="doc-card" href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">OCHA</div><div><div class="doc-card-title">UN Office for the Coordination of Humanitarian Affairs</div><div class="doc-card-desc">Weekly reports on Gaza and the West Bank.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;More than 18,000 patients —including 11,000 cancer patients— require urgent treatment and have not been able to evacuate. Reconstruction has barely begun.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">NGO</div><div><div class="expert-quote-name">Humanitarian organizations in Gaza</div><div class="expert-quote-role">Situation report</div></div></div></div>
+<p>The political future —Hamas's demilitarization, full Israeli withdrawal and progress toward a Palestinian state— shows no meaningful advance. The hostage crisis, meanwhile, remains unresolved.</p>
+<p><small>With information from: J Street, OCHA, UNRWA, The Jerusalem Post and UN reporting.</small></p>`,
+        date: '2026-08-22',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop',
+        imageCaption: 'La Franja de Gaza sigue dividida entre Hamas e Israel. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Gaza / Jerusalén / Washington',
+        source: 'J Street / OCHA / UNRWA',
+        region: 'International',
+        sourceUrl: 'https://www.ochaopt.org/'
+      },
+      {
+        id: '1097',
+        contentType: 'news',
+        slug: 'guerra-comercial-eeuu-china-aranceles-tierras-raras-taiwan',
+        titleEs: `Guerra comercial EE. UU.-China: aranceles, tierras raras y el fantasma de Taiwán`,
+        titleEn: `US-China trade war: tariffs, rare earths and the Taiwan shadow`,
+        excerptEs: `Los aranceles estadounidenses superan el 100% en categorías clave, Pekín responde restringiendo las tierras raras, y Taiwán reaparece como el punto de mayor tensión del planeta.`,
+        excerptEn: `U.S. tariffs exceed 100% on key categories, Beijing retaliates by restricting rare earths, and Taiwan re-emerges as the planet's most dangerous flashpoint.`,
+        contentEs: `<h1>Guerra comercial EE. UU.-China: aranceles, tierras raras y el fantasma de Taiwán</h1>
+<p><em>La rivalidad entre las dos mayores economías del mundo ya no es solo comercial: es una competencia sistémica por la tecnología, las cadenas de suministro y la seguridad en el Indo-Pacífico.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Puertos y comercio" loading="lazy"><figcaption>El comercio global se reordena en torno a la rivalidad entre Washington y Pekín. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Del arancel a la near-embargo</h2>
+<p>En su segundo mandato, la administración Trump impuso aranceles sobre bienes chinos que en algunas categorías superan el 100-145%, lo que equivale a una casi-embargo sobre buena parte del comercio. China respondió con sus propios aranceles, restricciones a la exportación de tierras raras críticas para la manufactura estadounidense, y medidas regulatorias contra empresas de EE. UU. La herramienta legal central es la Sección 301 de la Trade Act de 1974, complementada por controles de exportación que han expandido la lista de entidades del Departamento de Comercio.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">100-145%</div><div class="stat-label">Aranceles en categorías clave (EE. UU.)</div></div><div class="stat-card"><div class="stat-value">-13,2%</div><div class="stat-label">Caída del Hang Seng (mercados asiáticos)</div></div><div class="stat-card"><div class="stat-value">90%</div><div class="stat-label">Imanes de tierras raras controlados por China</div></div><div class="stat-card"><div class="stat-value">"China + 1"</div><div class="stat-label">Estrategia de diversificación de cadenas</div></div></div></div>
+
+<h2 class="report-chapter">Taiwán, el detonante</h2>
+<p>La cuestión de Taiwán sigue siendo el desencadenante más peligroso de un enfrentamiento directo. EE. UU. mantiene una política de ambigüedad estratégica sobre si defendería militarmente la isla, mientras apoya sus capacidades de defensa. China considera a Taiwán una provincia rebelde que debe reunificarse, si es necesario por la fuerza. Cualquier escalada —ejercicios navales, un bloqueo— podría arrastrar a las potencias a un conflicto abierto.</p>
+<a class="doc-card" href="https://www.hudson.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">HUDSON</div><div><div class="doc-card-title">Hudson Institute — US-China & Taiwan</div><div class="doc-card-desc">Análisis de la rivalidad y el riesgo de Taiwán.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;El riesgo de un error de cálculo —un incidente militar en el Mar de China Meridional o en torno a Taiwán que escala más allá de lo previsto— convierte el contacto diplomático directo en valioso incluso sin avances sustantivos.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">AE</div><div><div class="expert-quote-name">Analistas de política exterior</div><div class="expert-quote-role">Rivalidad sistémica</div></div></div></div>
+<p>El resultado más visible es la reestructuración acelerada de las cadenas de suministro: Vietnam, México, India, Tailandia e Indonesia se benefician del fenómeno "China + 1", mientras países aliados enfrentan la presión de Washington para restringir la tecnología china.</p>
+<p><small>Con información de: Hudson Institute, Council on Foreign Relations, Reuters, Financial Times y Wall Street Journal.</small></p>`,
+        contentEn: `<h1>US-China trade war: tariffs, rare earths and the Taiwan shadow</h1>
+<p><em>The rivalry between the world's two largest economies is no longer merely commercial: it is a systemic competition for technology, supply chains and security across the Indo-Pacific.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Ports and trade" loading="lazy"><figcaption>Global trade is being reordered around the Washington-Beijing rivalry. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">From tariff to near-embargo</h2>
+<p>In his second term, the Trump administration imposed tariffs on Chinese goods that in some categories exceed 100-145%, amounting to a near-embargo on much of that trade. China retaliated with its own tariffs, restrictions on exports of rare earth minerals critical to U.S. manufacturing, and regulatory pressure on American companies. The main legal vehicle is Section 301 of the Trade Act of 1974, backed by export controls that expanded the Commerce Department's Entity List.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">100-145%</div><div class="stat-label">Tariffs on key categories (US)</div></div><div class="stat-card"><div class="stat-value">-13.2%</div><div class="stat-label">Hang Seng drop (Asian markets)</div></div><div class="stat-card"><div class="stat-value">90%</div><div class="stat-label">Rare-earth magnets controlled by China</div></div><div class="stat-card"><div class="stat-value">"China + 1"</div><div class="stat-label">Supply chain diversification strategy</div></div></div>
+
+<h2 class="report-chapter">Taiwan, the trigger</h2>
+<p>The Taiwan question remains the single most dangerous trigger of direct confrontation. The U.S. maintains strategic ambiguity over whether it would militarily defend the island while supporting its defense capabilities. China views Taiwan as a breakaway province that must be reunified, by force if necessary. Any escalation —naval exercises, a blockade— could drag the powers into open conflict.</p>
+<a class="doc-card" href="https://www.hudson.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">HUDSON</div><div><div class="doc-card-title">Hudson Institute — US-China & Taiwan</div><div class="doc-card-desc">Analysis of the rivalry and Taiwan risk.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;The risk of miscalculation —a military incident in the South China Sea or around Taiwan that escalates beyond what either side intends— makes direct diplomatic contact valuable even without substantive progress.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">FA</div><div><div class="expert-quote-name">Foreign policy analysts</div><div class="expert-quote-role">Systemic rivalry</div></div></div></div>
+<p>The most visible result is the accelerated restructuring of supply chains: Vietnam, Mexico, India, Thailand and Indonesia benefit from the "China + 1" trend, while U.S. allies face pressure to restrict Chinese technology.</p>
+<p><small>With information from: Hudson Institute, Council on Foreign Relations, Reuters, Financial Times and Wall Street Journal.</small></p>`,
+        date: '2026-08-21',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop',
+        imageCaption: 'El comercio global se reordena en torno a la rivalidad Washington-Pekín. Foto: Unsplash',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Washington / Pekín / Taipéi',
+        source: 'Hudson Institute / CFR / Reuters',
+        region: 'International',
+        sourceUrl: 'https://www.hudson.org/'
+      },
+      {
+        id: '1098',
+        contentType: 'news',
+        slug: 'clima-2026-julio-mas-caliente-el-nino-se-fortalece',
+        titleEs: `El clima en 2026: julio más caliente de la historia y un El Niño que se fortalece`,
+        titleEn: `Climate in 2026: the hottest July on record and a strengthening El Niño`,
+        excerptEs: `La OMM confirma que julio de 2026 empató con 2024 como el mes más cálido registrado, mientras un El Niño robusto amenaza con agravar sequías e inundaciones.`,
+        excerptEn: `The WMO confirms July 2026 tied with 2024 as the warmest month on record, as a robust El Niño threatens to worsen droughts and floods.`,
+        contentEs: `<h1>El clima en 2026: julio más caliente de la historia y un El Niño que se fortalece</h1>
+<p><em>Los registros de temperatura, las olas de calor y los fenómenos extremos de 2026 confirman una tendencia de largo plazo que ya no es excepción, sino la norma.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Clima extremo" loading="lazy"><figcaption>Las olas de calor y las inundaciones se multiplican en 2026. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Julio, el mes de los récords</h2>
+<p>El 12 de agosto de 2026, la Organización Meteorológica Mundial (OMM) confirmó que julio de 2026 empató con julio de 2024 como el mes más cálido registrado a nivel global desde 1850. Según la NOAA, los diez julios más cálidos han ocurrido todos desde 2016, y los cuatro últimos años (2023-2026) encabezan la lista. Las temperaturas medias de la superficie del mar fueron las más altas jamás registradas para un mes de julio.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">1,47°C</div><div class="stat-label">Sobre la base preindustrial (Copernicus)</div></div><div class="stat-card"><div class="stat-value">+4ª</div><div class="stat-label">Ola de calor en Europa desde mayo</div></div><div class="stat-card"><div class="stat-value">70</div><div class="stat-label">Muertos por la ola de calor en Norteamérica</div></div><div class="stat-card"><div class="stat-value">81%</div><div class="stat-label">Probabilidad de El Niño fuerte (NOAA)</div></div></div>
+
+<h2 class="report-chapter">Europa, EE. UU. y Asia bajo el calor</h2>
+<p>Europa occidental vivió su periodo junio-julio más cálido, con una cuarta ola de calor desde mayo y sequía que afecta la agricultura, los ríos y el riesgo de incendios. En Norteamérica, una ola de calor dejó al menos 70 muertes al 5 de agosto. Mientras tanto, un El Niño en fortalecimiento —con 81% de probabilidad de un pico muy intenso según la NOAA— eleva el riesgo de sequías e inundaciones monzónicas en el sur de Asia. Decenas de personas murieron en inundaciones monzónicas en India y Pakistán.</p>
+<a class="doc-card" href="https://wmo.int/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">OMM</div><div><div class="doc-card-title">Organización Meteorológica Mundial</div><div class="doc-card-desc">Informes de calor récord y eventos extremos 2026.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;La jerarquía de los meses individuales importa menos que la tendencia de largo plazo. El calentamiento es inequívoco y sus impactos en salud, agricultura y energía son crecientes.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">OMM</div><div><div class="expert-quote-name">Organización Meteorológica Mundial</div><div class="expert-quote-role">Comunicado 12 ago 2026</div></div></div></div>
+<p>La OMM subraya la necesidad de sistemas de alerta temprana y servicios de información para limitar el impacto en cascada sobre las sociedades y las economías.</p>
+<p><small>Con información de: Organización Meteorológica Mundial (OMM), NOAA, Copernicus, WHO Europe y NPR.</small></p>`,
+        contentEn: `<h1>Climate in 2026: the hottest July on record and a strengthening El Niño</h1>
+<p><em>The temperature records, heatwaves and extreme events of 2026 confirm a long-term trend that is no longer the exception but the norm.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Extreme climate" loading="lazy"><figcaption>Heatwaves and floods multiply across 2026. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">July, the record month</h2>
+<p>On August 12, 2026, the World Meteorological Organization (WMO) confirmed that July 2026 tied with July 2024 as the warmest month on record globally since 1850. According to NOAA, the ten warmest Julys have all occurred since 2016, with the past four years (2023-2026) at the top. Global sea surface temperatures were the highest ever recorded for a July.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">1.47°C</div><div class="stat-label">Above pre-industrial baseline (Copernicus)</div></div><div class="stat-card"><div class="stat-value">4th</div><div class="stat-label">European heatwave since May</div></div><div class="stat-card"><div class="stat-value">70</div><div class="stat-label">Deaths in North American heatwave</div></div><div class="stat-card"><div class="stat-value">81%</div><div class="stat-label">Odds of a strong El Niño (NOAA)</div></div></div>
+
+<h2 class="report-chapter">Europe, the U.S. and Asia under heat</h2>
+<p>Western Europe lived through its warmest June-July period, with a fourth heatwave since May and drought hurting agriculture, rivers and fire risk. In North America, a heatwave caused at least 70 deaths by August 5. Meanwhile, a strengthening El Niño —with 81% odds of a very strong peak per NOAA— raises the risk of droughts and monsoon floods across South Asia. Dozens died in monsoon floods in India and Pakistan.</p>
+<a class="doc-card" href="https://wmo.int/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">WMO</div><div><div class="doc-card-title">World Meteorological Organization</div><div class="doc-card-desc">Reports on record heat and extreme events 2026.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;The ranking of individual months matters less than the long-term trend. Warming is unequivocal and its impacts on health, agriculture and energy are growing.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">WMO</div><div><div class="doc-card-title">World Meteorological Organization</div><div class="expert-quote-role">Statement Aug 12, 2026</div></div></div></div>
+<p>The WMO stresses the need for early-warning systems and information services to limit cascading impacts on societies and economies.</p>
+<p><small>With information from: World Meteorological Organization (WMO), NOAA, Copernicus, WHO Europe and NPR.</small></p>`,
+        date: '2026-08-20',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop',
+        imageCaption: 'Las olas de calor y las inundaciones se multiplican en 2026. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Ginebra / Europa / Asia',
+        source: 'OMM / NOAA / Copernicus',
+        region: 'International',
+        sourceUrl: 'https://wmo.int/'
+      },
+      {
+        id: '1099',
+        contentType: 'news',
+        slug: 'estrecho-de-ormuz-cierre-petroleo-mundo-iran',
+        titleEs: `Estrecho de Ormuz: el cierre que reconfiguró el petróleo mundial`,
+        titleEn: `Strait of Hormuz: the closure that reshaped world oil`,
+        excerptEs: `Tras la Operación Epic Fury del 28 de febrero, el cierre del Estrecho de Ormuz disparó el Brent de 72 a 118 dólares y obligó a renegociar las rutas energéticas globales.`,
+        excerptEn: `After Operation Epic Fury on February 28, the closure of the Strait of Hormuz drove Brent from $72 to $118 and forced a renegotiation of global energy routes.`,
+        contentEs: `<h1>Estrecho de Ormuz: el cierre que reconfiguró el petróleo mundial</h1>
+<p><em>El estrecho por donde transita cerca de una quinta parte del petróleo mundial se convirtió en 2026 en el punto de fractura energética más grave de las últimas décadas.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop" alt="Estrecho de Ormuz" loading="lazy"><figcaption>Una quinta parte del petróleo mundial cruza el Estrecho de Ormuz. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">De los bombardeos al cierre</h2>
+<p>El 28 de febrero de 2026, Estados Unidos e Israel lanzaron la Operación Epic Fury contra objetivos iraníes. En respuesta, la Guardia Revolucionaria (IRGC) anunció el cierre del estrecho a la navegación aliada a Israel y EE. UU. el 2 de marzo. Irán creó la Autoridad del Estrecho del Golfo Pérsico (PGSA) para aprobar y gravar el paso comercial. Un alto al fuego entre EE. UU. e Irán entró en vigor el 8 de abril, pero el paso siguió restringido.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">~20%</div><div class="stat-label">Del petróleo mundial por Ormuz</div></div><div class="stat-card"><div class="stat-value">$72→$118</div><div class="stat-label">Precio del Brent en el pico</div></div><div class="stat-card"><div class="stat-value">~13 M</div><div class="stat-label">Barriles diarios afectados</div></div><div class="stat-card"><div class="stat-value">17 jun</div><div class="stat-label">MoU de 14 puntos EE. UU.-Irán</div></div>
+<p>El cierre disparó el precio del Brent de unos 72 dólares a un pico de 118, y los fletes de guerra se dispararon. Maersk, CMA CGM y Hapag-Lloyd desviaron sus rutas por el Cabo de Buena Esperanza, añadiendo hasta 14 días y costos millonarios. El 17 de junio, EE. UU. e Irán firmaron un memorando de entendimiento de 14 puntos para frenar el conflicto y abrir una vía de paz, con un capítulo específico sobre Ormuz.</p>
+<a class="doc-card" href="https://www.eia.gov/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">EIA</div><div><div class="doc-card-title">U.S. Energy Information Administration</div><div class="doc-card-desc">Análisis del cierre de Ormuz y precios del petróleo.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;El cierre de 2026 es estructuralmente distinto de todas las crisis previas: no fue una amenaza ni una demostración de capacidad, sino un cierre formal con interdicción de buques.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">ME</div><div><div class="expert-quote-name">Analistas energéticos</div><div class="expert-quote-role">Crisis del Golfo Pérsico</div></div></div></div>
+<p>También el gas natural licuado (GNL) se vio golpeado: cerca del 20% del GNL global transita el estrecho, predominante desde Qatar. Los analistas advierten que una interrupción prolongada tendría efectos inflacionarios similares a la invasión de Ucrania de 2022.</p>
+<p><small>Con información de: U.S. EIA, Lloyd's List, Al Jazeera, Financial Times y análisis de la crisis de Ormuz 2026.</small></p>`,
+        contentEn: `<h1>Strait of Hormuz: the closure that reshaped world oil</h1>
+<p><em>The strait through which roughly one-fifth of the world's oil flows became in 2026 the gravest energy fracture point in decades.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop" alt="Strait of Hormuz" loading="lazy"><figcaption>A fifth of world oil crosses the Strait of Hormuz. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">From strikes to closure</h2>
+<p>On February 28, 2026, the U.S. and Israel launched Operation Epic Fury against Iranian targets. In response, the IRGC announced the closure of the strait to Israel- and U.S.-allied shipping on March 2. Iran created the Persian Gulf Strait Authority (PGSA) to approve and tax commercial passage. A U.S.-Iran ceasefire took effect on April 8, but passage remained restricted.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">~20%</div><div class="stat-label">Of world oil via Hormuz</div></div><div class="stat-card"><div class="stat-value">$72→$118</div><div class="stat-label">Brent price at the peak</div></div><div class="stat-card"><div class="stat-value">~13M</div><div class="stat-label">Barrels per day affected</div></div><div class="stat-card"><div class="stat-value">Jun 17</div><div class="stat-label">14-point US-Iran MoU</div></div></div>
+<p>The closure drove Brent from about $72 to a peak of $118, and war-risk premiums spiked. Maersk, CMA CGM and Hapag-Lloyd rerouted via the Cape of Good Hope, adding up to 14 days and millions in cost. On June 17, the U.S. and Iran signed a 14-point memorandum of understanding to halt the conflict and open a peace path, with a specific chapter on Hormuz.</p>
+<a class="doc-card" href="https://www.eia.gov/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">EIA</div><div><div class="doc-card-title">U.S. Energy Information Administration</div><div class="doc-card-desc">Analysis of the Hormuz closure and oil prices.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;The 2026 closure is structurally different from every prior crisis: not a threat or a show of capability, but a formal closure with active vessel interdiction.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">EA</div><div><div class="expert-quote-name">Energy analysts</div><div class="expert-quote-role">Persian Gulf crisis</div></div></div></div>
+<p>Liquefied natural gas was also hit: roughly 20% of global LNG transits the strait, predominantly from Qatar. Analysts warn a prolonged disruption would carry inflationary effects similar to Russia's 2022 invasion of Ukraine.</p>
+<p><small>With information from: U.S. EIA, Lloyd's List, Al Jazeera, Financial Times and 2026 Hormuz crisis analysis.</small></p>`,
+        date: '2026-08-19',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop',
+        imageCaption: 'Una quinta parte del petróleo mundial cruza el Estrecho de Ormuz. Foto: Unsplash',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: true,
+        breaking: true,
+        views: 1,
+        location: 'Teherán / Washington / Doha',
+        source: 'EIA / Lloyd\'s List / Al Jazeera',
+        region: 'International',
+        sourceUrl: 'https://www.eia.gov/'
+      },
+      {
+        id: '1100',
+        contentType: 'news',
+        slug: 'otan-mayor-rearme-europeo-desde-guerra-fria',
+        titleEs: `La OTAN y el mayor rearme europeo desde la Guerra Fría`,
+        titleEn: `NATO and the biggest European rearmament since the Cold War`,
+        excerptEs: `Los aliados se comprometieron a destinar el 5% del PIB a defensa y seguridad para 2035, mientras Rutte advierte que Rusia podría estar lista para atacar a la OTAN en cinco años.`,
+        excerptEn: `Allies committed to spend 5% of GDP on defense and security by 2035, as Rutte warns Russia could be ready to attack NATO within five years.`,
+        contentEs: `<h1>La OTAN y el mayor rearme europeo desde la Guerra Fría</h1>
+<p><em>La invasión rusa de Ucrania en 2022 rompió tres décadas de complacencia y disparó el mayor proceso de rearme europeo desde el final de la Guerra Fría.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop" alt="Defensa europea" loading="lazy"><figcaption>Europa construye instalaciones de defensa a escala histórica. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">El objetivo del 5%</h2>
+<p>En la cumbre de La Haya de 2025, los líderes aliados acordaron un marco que compromete a los países a destinar el 5% del PIB a defensa y seguridad para 2035, con un piso central del 3,5% para capacidades militares. En 2025, todos los 32 aliados cumplieron o superaron por primera vez el anterior umbral del 2%, con un promedio de la alianza del 2,76%. El gasto europeo creció un 20% interanual, la mayor alza anual desde 1953.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">5%</div><div class="stat-label">Meta de PIB en defensa para 2035</div></div><div class="stat-card"><div class="stat-value">+90%</div><div class="stat-label">Gasto nominal vs. 2022</div></div><div class="stat-card"><div class="stat-value">5 años</div><div class="stat-label">Ventana de amenaza rusa (Rutte)</div></div><div class="stat-card"><div class="stat-value">x5</div><div class="stat-label">Aumento de defensa aérea acordado</div></div></div></div>
+
+<h2 class="report-chapter">Alemania al frente</h2>
+<p>Alemania se convirtió en el segundo mayor gastador de la OTAN (114.000 millones de dólares), superando al Reino Unido, con incrementos reales del 23,2% en 2026. El secretario general Mark Rutte describió el compromiso como "un salto transformacional" y enmarcó a Rusia como "la amenaza más significativa y directa". Rusia, por su parte, dedica cerca del 40% de su presupuesto y el 70% de su producción de maquinaria a actividades bélicas, y lanzó 46.000 drones y misiles contra Ucrania en 2025.</p>
+<a class="doc-card" href="https://www.nato.int/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">OTAN</div><div><div class="doc-card-title">OTAN — Gasto en defensa</div><div class="doc-card-desc">Datos oficiales de inversión de los aliados 2014-2026.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Somos el próximo objetivo de Rusia. Demasiados se relajan en silencio. El momento de actuar es ahora.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">MR</div><div><div class="expert-quote-name">Mark Rutte, secretario general de la OTAN</div><div class="expert-quote-role">Berlín, dic 2025</div></div></div></div>
+<p>El cuello de botella es la capacidad industrial: contratistas como Rheinmetall, Lockheed Martin y BAE enfrentan límites de producción. La OTAN acordó un aumento de cinco veces en sus capacidades de defensa aérea.</p>
+<p><small>Con información de: OTAN, IISS, SIPRI, RAND y El País.</small></p>`,
+        contentEn: `<h1>NATO and the biggest European rearmament since the Cold War</h1>
+<p><em>Russia's 2022 invasion of Ukraine shattered three decades of complacency and triggered the largest European rearmament since the end of the Cold War.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop" alt="European defense" loading="lazy"><figcaption>Europe is building defense facilities on a historic scale. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">The 5% goal</h2>
+<p>At the 2025 Hague summit, allied leaders agreed a framework committing countries to spend 5% of GDP on defense and security by 2035, with a 3.5% core floor for military capabilities. In 2025, all 32 allies met or exceeded the prior 2% threshold for the first time, with an alliance average of 2.76%. European spending grew 20% year-on-year, the largest annual increase since 1953.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">5%</div><div class="stat-label">GDP defense goal for 2035</div></div><div class="stat-card"><div class="stat-value">+90%</div><div class="stat-label">Nominal spending vs. 2022</div></div><div class="stat-card"><div class="stat-value">5 yrs</div><div class="stat-label">Russian threat window (Rutte)</div></div><div class="stat-card"><div class="stat-value">x5</div><div class="stat-label">Agreed air-defense increase</div></div></div>
+
+<h2 class="report-chapter">Germany in the lead</h2>
+<p>Germany became NATO's #2 spender ($114 billion), overtaking the UK, with real increases of 23.2% in 2026. Secretary General Mark Rutte called the commitment "a transformational leap" and framed Russia as "the most significant and direct threat". Russia, for its part, devotes some 40% of its budget and 70% of machinery output to war-related activity, and launched 46,000 drones and missiles against Ukraine in 2025.</p>
+<a class="doc-card" href="https://www.nato.int/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">NATO</div><div><div class="doc-card-title">NATO — Defence spending</div><div class="doc-card-desc">Official allies' investment data 2014-2026.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;We are Russia's next target. Too many are quietly complacent. The time for action is now.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">MR</div><div><div class="expert-quote-name">Mark Rutte, NATO Secretary General</div><div class="expert-quote-role">Berlin, Dec 2025</div></div></div></div>
+<p>The binding constraint is industrial capacity: contractors like Rheinmetall, Lockheed Martin and BAE face production bottlenecks. NATO agreed a fivefold increase in air-defense capabilities.</p>
+<p><small>With information from: NATO, IISS, SIPRI, RAND and El País.</small></p>`,
+        date: '2026-08-18',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop',
+        imageCaption: 'Europa construye instalaciones de defensa a escala histórica. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Bruselas / Berlín / La Haya',
+        source: 'OTAN / IISS / SIPRI',
+        region: 'International',
+        sourceUrl: 'https://www.nato.int/'
+      },
+      {
+        id: '1101',
+        contentType: 'news',
+        slug: 'sudan-tres-anos-guerra-hambruna-olvidada',
+        titleEs: `Sudán: tres años de guerra y la hambruna olvidada`,
+        titleEn: `Sudan: three years of war and the forgotten famine`,
+        excerptEs: `La guerra entre el Ejército y las Fuerzas de Apoyo Rápido desplazó a más de 13,6 millones de personas y dejó a la mitad del país en inseguridad alimentaria aguda.`,
+        excerptEn: `The war between the Army and the Rapid Support Forces displaced more than 13.6 million people and left half the country in acute food insecurity.`,
+        contentEs: `<h1>Sudán: tres años de guerra y la hambruna olvidada</h1>
+<p><em>Mientras la atención internacional se desvía hacia otras crisis, Sudán vive la emergencia humanitaria más grave y más ignorada del planeta.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop" alt="Sudán" loading="lazy"><figcaption>Más de 13,6 millones de sudaneses están desplazados. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Una guerra de dos ejércitos</h2>
+<p>El conflicto estalló el 15 de abril de 2023 entre el Ejército sudanés (SAF) y las paramilitares Fuerzas de Apoyo Rápido (RSF). Tres años después, el país está dividido: el SAF controla el este y el norte, y las RSF dominan casi todo Darfur y avanzan por Kordofan. La violencia incluye masacres, violencia sexual sistemática y ataques a hospitales.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">13,6 M+</div><div class="stat-label">Personas desplazadas</div></div><div class="stat-card"><div class="stat-value">25 M+</div><div class="stat-label">Inseguridad alimentaria aguda (mitad del país)</div></div><div class="stat-card"><div class="stat-value">4,4 M</div><div class="stat-label">Refugiados fuera de Sudán</div></div><div class="stat-card"><div class="stat-value">1.600+</div><div class="stat-label">Trabajadores de salud muertos</div></div>
+
+<h2 class="report-chapter">La hambruna se extiende</h2>
+<p>El Plan de Necesidades Humanitarias 2026 de la ONU describe condiciones de hambruna confirmadas en El Fasher (Darfur del Norte) y Kadugli (Kordofan del Sur), con más de 20 zonas en riesgo. Cerca del 70% de los hospitales en zonas de conflicto son no funcionales. Los ataques con drones —incluido uno a un hospital en Darfur Oriental que mató a 70 personas— agravaron la respuesta médica.</p>
+<a class="doc-card" href="https://www.unocha.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">OCHA</div><div><div class="doc-card-title">Sudán — Plan de Necesidades 2026</div><div class="doc-card-desc">Visión general de la crisis y la respuesta humanitaria.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Sudán enfrenta una crisis humanitaria profunda y prolongada que desaparece progresivamente de la atención internacional.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">ACN</div><div><div class="expert-quote-name">Acción contra el Hambre (Sudán)</div><div class="expert-quote-role">Reporte de campo</div></div></div></div>
+<p>El foco en 2026 se ha desplazado a exigir corredores humanitarios y frenar el flujo de armas sofisticadas, en particular drones, que alimentan el baño de sangre. Pero la financiación sigue siendo apenas una fracción de lo requerido.</p>
+<p><small>Con información de: UNOCHA, DW, UNHCR, ACNUR y CSIS.</small></p>`,
+        contentEn: `<h1>Sudan: three years of war and the forgotten famine</h1>
+<p><em>While international attention turns elsewhere, Sudan endures the gravest and most neglected humanitarian emergency on the planet.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop" alt="Sudan" loading="lazy"><figcaption>More than 13.6 million Sudanese are displaced. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">A war of two armies</h2>
+<p>The conflict erupted on April 15, 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF). Three years on, the country is partitioned: the SAF holds the east and north, while the RSF dominate nearly all of Darfur and push into Kordofan. The violence includes massacres, systematic sexual violence and attacks on hospitals.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">13.6M+</div><div class="stat-label">Displaced people</div></div><div class="stat-card"><div class="stat-value">25M+</div><div class="stat-label">Acute food insecurity (half the country)</div></div><div class="stat-card"><div class="stat-value">4.4M</div><div class="stat-label">Refugees outside Sudan</div></div><div class="stat-card"><div class="stat-value">1,600+</div><div class="stat-label">Health workers killed</div></div></div>
+
+<h2 class="report-chapter">Famine spreads</h2>
+<p>The UN 2026 Humanitarian Needs and Response Plan describes famine conditions confirmed in El Fasher (North Darfur) and Kadugli (South Kordofan), with more than 20 areas at risk. Some 70% of hospitals in conflict zones are non-functional. Drone attacks —including one on a hospital in East Darfur that killed 70 people— worsened the medical response.</p>
+<a class="doc-card" href="https://www.unocha.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">OCHA</div><div><div class="doc-card-title">Sudan — 2026 Needs Plan</div><div class="doc-card-desc">Overview of the crisis and humanitarian response.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Sudan faces a deep and prolonged humanitarian crisis that is increasingly disappearing from international attention.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">ACH</div><div><div class="expert-quote-name">Action Against Hunger (Sudan)</div><div class="expert-quote-role">Field report</div></div></div></div>
+<p>In 2026 the focus has shifted to enforcing humanitarian corridors and stopping the flow of sophisticated weapons, especially drones, that fuel the bloodshed. But funding remains only a fraction of what is required.</p>
+<p><small>With information from: UNOCHA, DW, UNHCR and CSIS.</small></p>`,
+        date: '2026-08-17',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=630&fit=crop',
+        imageCaption: 'Más de 13,6 millones de sudaneses están desplazados. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Jartum / El Fasher / Puerto Sudán',
+        source: 'UNOCHA / DW / ACNUR',
+        region: 'International',
+        sourceUrl: 'https://www.unocha.org/'
+      },
+      {
+        id: '1102',
+        contentType: 'news',
+        slug: 'economia-mundial-2026-sombra-de-la-guerra',
+        titleEs: `La economía mundial 2026 a la sombra de la guerra`,
+        titleEn: `The world economy 2026 in the shadow of war`,
+        excerptEs: `El FMI recorta a 3,1% el crecimiento global para 2026 y eleva la inflación a 4,4%, con riesgos a la baja dominados por el conflicto en Oriente Medio y la fragmentación comercial.`,
+        excerptEn: `The IMF cuts global growth to 3.1% for 2026 and raises inflation to 4.4%, with downside risks dominated by the Middle East conflict and trade fragmentation.`,
+        contentEs: `<h1>La economía mundial 2026 a la sombra de la guerra</h1>
+<p><em>El Fondo Monetario Internacional tituló su informe de abril de 2026 "La economía mundial a la sombra de la guerra". El mensaje es claro: la geopolítica vuelve a ser el principal riesgo macroeconómico.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Economía global" loading="lazy"><figcaption>La incertidumbre geopolítica pesa sobre el crecimiento global. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Crecimiento y precios</h2>
+<p>El FMI proyecta que el crecimiento global se desacelere al 3,1% en 2026 y al 3,2% en 2027, por debajo de los promedios previos a la pandemia. La inflación global repuntará levemente al 4,4% en 2026 antes de retomar su caída. Los riesgos están decididamente a la baja: un conflicto más largo o amplio, una fragmentación geopolítica mayor, o una desilusión sobre la productividad de la IA podrían debilitar el crecimiento y sacudir los mercados.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">3,1%</div><div class="stat-label">Crecimiento global 2026 (FMI)</div></div><div class="stat-card"><div class="stat-value">4,4%</div><div class="stat-label">Inflación global 2026</div></div><div class="stat-card"><div class="stat-value">$58</div><div class="stat-label">Brent promedio 2026 (EIA)</div></div><div class="stat-card"><div class="stat-value">2,5%</div><div class="stat-label">Escenario adverso de crecimiento</div></div>
+
+<h2 class="report-chapter">Petróleo y fragmentación</h2>
+<p>La EIA de EE. UU. prevé un Brent promedio de 58 dólares en 2026, presionado por el exceso de oferta de la OPEP+ y la debilidad de la demanda. Pero los choques energéticos —como el cierre de Ormuz— pueden revertir rápidamente esa tendencia. La fragmentación del comercio, con aranceles récord entre EE. UU. y China, añade costos y fricciones a las cadenas globales.</p>
+<a class="doc-card" href="https://www.imf.org/en/publications/weo" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">FMI</div><div><div class="doc-card-title">World Economic Outlook, abril 2026</div><div class="doc-card-desc">"La economía mundial a la sombra de la guerra".</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Los riesgos a la baja dominan el panorama. Un conflicto más prolongado, una fragmentación mayor o una decepción sobre la IA pueden debilitar seriamente el crecimiento.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">FMI</div><div><div class="expert-quote-name">Fondo Monetario Internacional</div><div class="expert-quote-role">WEO abril 2026</div></div></div></div>
+<p>En un escenario severo, con dislocaciones energéticas persistentes, la economía global rozaría la recesión, con inflación cercana al 6%. La deuda pública elevada y los buffers de política erosionados amplifican la vulnerabilidad.</p>
+<p><small>Con información de: FMI (WEO abril 2026), U.S. EIA y JP Morgan Global Research.</small></p>`,
+        contentEn: `<h1>The world economy 2026 in the shadow of war</h1>
+<p><em>The IMF titled its April 2026 report "The world economy in the shadow of war". The message is clear: geopolitics is again the main macroeconomic risk.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Global economy" loading="lazy"><figcaption>Geopolitical uncertainty weighs on global growth. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Growth and prices</h2>
+<p>The IMF projects global growth to slow to 3.1% in 2026 and 3.2% in 2027, below pre-pandemic averages. Global inflation will tick up to 4.4% in 2026 before resuming its decline. Downside risks dominate: a longer or broader conflict, deeper geopolitical fragmentation, or disappointment over AI productivity could weaken growth and unsettle markets.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">3.1%</div><div class="stat-label">Global growth 2026 (IMF)</div></div><div class="stat-card"><div class="stat-value">4.4%</div><div class="stat-label">Global inflation 2026</div></div><div class="stat-card"><div class="stat-value">$58</div><div class="stat-label">Average Brent 2026 (EIA)</div></div><div class="stat-card"><div class="stat-value">2.5%</div><div class="stat-label">Adverse scenario growth</div></div></div>
+
+<h2 class="report-chapter">Oil and fragmentation</h2>
+<p>The U.S. EIA forecasts an average Brent of $58 in 2026, pressured by OPEC+ supply surplus and weak demand. But energy shocks —like the Hormuz closure— can quickly reverse that trend. Trade fragmentation, with record tariffs between the U.S. and China, adds costs and frictions to global chains.</p>
+<a class="doc-card" href="https://www.imf.org/en/publications/weo" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">IMF</div><div><div class="doc-card-title">World Economic Outlook, April 2026</div><div class="doc-card-desc">"The world economy in the shadow of war".</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Downside risks dominate the outlook. A longer conflict, greater fragmentation or an AI disappointment can seriously weaken growth.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">IMF</div><div><div class="expert-quote-name">International Monetary Fund</div><div class="expert-quote-role">WEO April 2026</div></div></div></div>
+<p>In a severe scenario, with persistent energy dislocations, the global economy would approach recession, with inflation near 6%. High public debt and eroded policy buffers amplify vulnerability.</p>
+<p><small>With information from: IMF (WEO April 2026), U.S. EIA and JP Morgan Global Research.</small></p>`,
+        date: '2026-08-16',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop',
+        imageCaption: 'La incertidumbre geopolítica pesa sobre el crecimiento global. Foto: Unsplash',
+        categoryEs: 'Economía',
+        categoryEn: 'Economy',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Washington / Nueva York / Ginebra',
+        source: 'FMI / EIA / JP Morgan',
+        region: 'International',
+        sourceUrl: 'https://www.imf.org/en/publications/weo'
+      },
+      {
+        id: '1103',
+        contentType: 'news',
+        slug: 'haiti-gangs-controlan-capital-estado-colapsa',
+        titleEs: `Haití: los grupos armados controlan la capital y el Estado colapsa`,
+        titleEn: `Haiti: armed gangs control the capital as the state collapses`,
+        excerptEs: `La coalición Viv Ansanm controla entre el 85% y el 90% de Puerto Príncipe, con 1,5 millones de desplazados, mientras la misión internacional se transforma en una fuerza de la ONU.`,
+        excerptEn: `The Viv Ansanm coalition controls 85-90% of Port-au-Prince, with 1.5 million displaced, as the international mission transitions into a UN force.`,
+        contentEs: `<h1>Haití: los grupos armados controlan la capital y el Estado colapsa</h1>
+<p><em>El vacuum político tras el asesinato del presidente en 2021 y la crisis económica permitieron que coaliciones de pandillas se apoderaran de buena parte de la capital caribeña.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop" alt="Haití" loading="lazy"><figcaption>Puerto Príncipe vive un colapso casi total de la autoridad estatal. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">La capital sitiada</h2>
+<p>Las coaliciones de pandillas —lideradas por la federación Viv Ansanm— controlan entre el 85% y el 90% de Puerto Príncipe y se han expandido hacia los departamentos de Artibonite, Centre y Grand Nord. El Consejo de Relaciones Exteriores estima que la autoridad estatal ha colapsado casi por completo en la ciudad.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">85-90%</div><div class="stat-label">De Puerto Príncipe bajo control de pandillas</div></div><div class="stat-card"><div class="stat-value">1,5 M</div><div class="stat-label">Desplazados internos (junio 2026, OIM)</div></div><div class="stat-card"><div class="stat-value"><1.000</div><div class="stat-label">Tropas de la fuerza internacional desplegadas</div></div><div class="stat-card"><div class="stat-value">2021</div><div class="stat-label">Año del asesinato presidencial</div></div></div>
+
+<h2 class="report-chapter">Una misión que no alcanza</h2>
+<p>Bajo la Resolución 2793 del Consejo de Seguridad de la ONU, la misión de apoyo liderada por Kenia (MSS) comenzó en 2026 a transicionar hacia una Fuerza de Represión de Pandillas respaldada por la ONU, pero seguía en fase inicial de despliegue, con menos de 1.000 efectivos. Mientras tanto, los recortes de financiación de EE. UU. han alimentado el reclutamiento de niños por parte de grupos armados, según reportó The New Humanitarian el 19 de agosto de 2026.</p>
+<a class="doc-card" href="https://www.thenewhumanitarian.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">TNH</div><div><div class="doc-card-title">The New Humanitarian — Haití</div><div class="doc-card-desc">Cobertura de la crisis y el reclutamiento infantil.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Sudán es la crisis más descuidada del mundo, pero Haití compite por ese título: el colapso del Estado y la violencia de las pandillas desaparecen de los titulares.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">CR</div><div><div class="expert-quote-name">Analistas de crisis humanitarias</div><div class="expert-quote-role">Caribe</div></div></div></div>
+<p>La emergencia humanitaria es récord: hambre, desplazamiento y enfermedad se combinan en un cuadro donde la transición política y la celebración de elecciones siguen lejos.</p>
+<p><small>Con información de: Council on Foreign Relations, OIM, ACLED, The New Humanitarian y Resolución 2793 del CS de la ONU.</small></p>`,
+        contentEn: `<h1>Haiti: armed gangs control the capital as the state collapses</h1>
+<p><em>The political vacuum after the 2021 presidential assassination and the economic crisis allowed gang coalitions to seize much of the Caribbean capital.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop" alt="Haiti" loading="lazy"><figcaption>Port-au-Prince faces a near-total collapse of state authority. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">The besieged capital</h2>
+<p>Gang coalitions —led by the Viv Ansanm federation— control 85-90% of Port-au-Prince and have pushed into the Artibonite, Centre and Grand Nord departments. The Council on Foreign Relations estimates state authority has nearly collapsed in the city.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">85-90%</div><div class="stat-label">Of Port-au-Prince under gang control</div></div><div class="stat-card"><div class="stat-value">1.5M</div><div class="stat-label">Internally displaced (June 2026, IOM)</div></div><div class="stat-card"><div class="stat-value"><1,000</div><div class="stat-label">International force troops deployed</div></div><div class="stat-card"><div class="stat-value">2021</div><div class="stat-label">Year of the presidential assassination</div></div></div>
+
+<h2 class="report-chapter">A mission that falls short</h2>
+<p>Under UN Security Council Resolution 2793, the Kenya-led Multinational Security Support mission (MSS) began transitioning in 2026 into a UN-backed Gang Suppression Force, but remained in early deployment with under 1,000 troops. Meanwhile, U.S. funding cuts have fueled child recruitment by armed groups, The New Humanitarian reported on August 19, 2026.</p>
+<a class="doc-card" href="https://www.thenewhumanitarian.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon red">TNH</div><div><div class="doc-card-title">The New Humanitarian — Haiti</div><div class="doc-card-desc">Coverage of the crisis and child recruitment.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Sudan is the world's most neglected crisis, but Haiti competes for that title: state collapse and gang violence vanish from the headlines.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">CR</div><div><div class="expert-quote-name">Humanitarian crisis analysts</div><div class="expert-quote-role">Caribbean</div></div></div></div>
+<p>The humanitarian emergency is record-breaking: hunger, displacement and disease combine in a picture where political transition and elections remain far off.</p>
+<p><small>With information from: Council on Foreign Relations, IOM, ACLED, The New Humanitarian and UNSC Resolution 2793.</small></p>`,
+        date: '2026-08-15',
+        readTimeEs: '7 min de lectura',
+        readTimeEn: '7 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop',
+        imageCaption: 'Puerto Príncipe vive un colapso casi total de la autoridad estatal. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Puerto Príncipe / Naciones Unidas',
+        source: 'CFR / OIM / The New Humanitarian',
+        region: 'International',
+        sourceUrl: 'https://www.thenewhumanitarian.org/'
+      },
+      {
+        id: '1104',
+        contentType: 'news',
+        slug: 'america-latina-2026-giro-derecha-elecciones-economia',
+        titleEs: `América Latina 2026: giro a la derecha, elecciones y economía frágil`,
+        titleEn: `Latin America 2026: rightward shift, elections and a fragile economy`,
+        excerptEs: `La región crecería solo 1,7% en 2026, con Argentina como excepción positiva tras la victoria de Milei, mientras Brasil y México se debilitan y varios países van a las urnas.`,
+        excerptEn: `The region would grow just 1.7% in 2026, with Argentina the positive outlier after Milei's win, while Brazil and Mexico weaken and several countries head to the polls.`,
+        contentEs: `<h1>América Latina 2026: giro a la derecha, elecciones y economía frágil</h1>
+<p><em>El continente vive un año político y económico definitorio: elecciones en las principales economías, un giro centrrado-derecha y una economía que crece por debajo de su potencial.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="América Latina" loading="lazy"><figcaption>La región enfrenta elecciones y un giro político en 2026. Foto: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Crecimiento modesto</h2>
+<p>Los pronósticos apuntan a un crecimiento regional de 1,7% en 2026 (frente al 2,2% de 2025), por debajo del potencial y sin recesiones. Argentina es la excepción positiva: tras la avalancha de su partido en las legislativas de octubre de 2025, el FMI proyecta un 3,5% para 2026. La inflación bajó de 117,8% en 2024 a cerca del 29-35% en 2026, y la pobreza cayó del 41,7% a 28,2%.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">1,7%</div><div class="stat-label">Crecimiento regional 2026</div></div><div class="stat-card"><div class="stat-value">3,5%</div><div class="stat-label">Crecimiento de Argentina (FMI)</div></div><div class="stat-card"><div class="stat-value">28,2%</div><div class="stat-label">Pobreza en Argentina (2° sem 2025)</div></div><div class="stat-card"><div class="stat-value">Oct 2025</div><div class="stat-label">Victoria legislativa de Milei</div></div>
+
+<h2 class="report-chapter">El mapa electoral</h2>
+<p>En 2026 hay elecciones en casi todas las grandes economías, salvo México y Argentina. Chile asumió un nuevo gobierno en marzo; Perú vota en abril-mayo; Colombia en junio; Brasil en octubre. La tendencia reciente hacia el centroderecha —vista en Argentina, Ecuador y Bolivia— podría continuar, aunque en Brasil y Colombia lideran candidatos de izquierda. La estrategia de Trump hacia la región añade incertidumbre, con relaciones tensas con Brasil y Colombia y respaldo a Milei.</p>
+<a class="doc-card" href="https://www.americasquarterly.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">AQ</div><div><div class="doc-card-title">Americas Quarterly</div><div class="doc-card-desc">Análisis político y económico de la región 2026.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;Los gobiernos de centro-derecha ideológicamente más cercanos a EE. UU. buscarán, sin embargo, no prescindir de Europa como actor entre Washington y Pekín.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">LADW</div><div><div class="expert-quote-name">Comité Latinoamericano de la Economía Alemana</div><div class="expert-quote-role">Brief 2026</div></div></div></div>
+<p>La geopolítica eleva el papel de la región como socia comercial entre Washington y Pekín, con acuerdos de la UE con México y el Mercosur ya posicionados.</p>
+<p><small>Con información de: Americas Quarterly, Deloitte, Buenos Aires Herald, La Nación y comités empresariales germano-latinoamericanos.</small></p>`,
+        contentEn: `<h1>Latin America 2026: rightward shift, elections and a fragile economy</h1>
+<p><em>The continent faces a defining political and economic year: elections in the major economies, a center-right shift and an economy growing below its potential.</em></p>
+
+<figure class="report-figure"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop" alt="Latin America" loading="lazy"><figcaption>The region faces elections and a political shift in 2026. Photo: Unsplash</figcaption></figure>
+
+<h2 class="report-chapter">Modest growth</h2>
+<p>Forecasts point to regional growth of 1.7% in 2026 (down from 2.2% in 2025), below potential and without recessions. Argentina is the positive outlier: after his party's landslide in the October 2025 midterms, the IMF projects 3.5% for 2026. Inflation fell from 117.8% in 2024 to around 29-35% in 2026, and poverty dropped from 41.7% to 28.2%.</p>
+<div class="stat-grid"><div class="stat-card"><div class="stat-value">1.7%</div><div class="stat-label">Regional growth 2026</div></div><div class="stat-card"><div class="stat-value">3.5%</div><div class="stat-label">Argentina growth (IMF)</div></div><div class="stat-card"><div class="stat-value">28.2%</div><div class="stat-label">Poverty in Argentina (2nd half 2025)</div></div><div class="stat-card"><div class="stat-value">Oct 2025</div><div class="stat-label">Milei's legislative victory</div></div></div>
+
+<h2 class="report-chapter">The electoral map</h2>
+<p>In 2026 nearly all major economies hold elections except Mexico and Argentina. Chile's new government took office in March; Peru votes in April-May; Colombia in June; Brazil in October. The recent center-right trend —seen in Argentina, Ecuador and Bolivia— may continue, though left-wing candidates lead in Brazil and Colombia. Trump's regional strategy adds uncertainty, with tense relations with Brazil and Colombia and backing for Milei.</p>
+<a class="doc-card" href="https://www.americasquarterly.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">AQ</div><div><div class="doc-card-title">Americas Quarterly</div><div class="doc-card-desc">Political and economic analysis of the region 2026.</div></div></a>
+<div class="expert-quote"><p class="expert-quote-text">&ldquo;The new conservative to right-wing populist governments are ideologically closer to the U.S., yet unlikely to forgo Europe as a player between Washington and Beijing.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">LADW</div><div><div class="expert-quote-name">Latin America Committee of German Business</div><div class="expert-quote-role">Brief 2026</div></div></div></div>
+<p>Geopolitics elevates the region's role as a trade partner between Washington and Beijing, with EU agreements with Mexico and Mercosur already positioned.</p>
+<p><small>With information from: Americas Quarterly, Deloitte, Buenos Aires Herald, La Nación and German-Latin American business committees.</small></p>`,
+        date: '2026-08-14',
+        readTimeEs: '8 min de lectura',
+        readTimeEn: '8 min read',
+        imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=630&fit=crop',
+        imageCaption: 'La región enfrenta elecciones y un giro político en 2026. Foto: Unsplash',
+        categoryEs: 'Mundo',
+        categoryEn: 'World',
+        enableComments: true,
+        featured: false,
+        breaking: false,
+        views: 1,
+        location: 'Buenos Aires / Santiago / Brasilia / Bogotá',
+        source: 'Americas Quarterly / Deloitte / BA Herald',
+        region: 'International',
+        sourceUrl: 'https://www.americasquarterly.org/'
+      },
+
       // FIN DE NOTICIAS
     ];
 
