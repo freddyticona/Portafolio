@@ -3,6 +3,216 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freddydev.net/noticias/pakistan-inundaciones-monzon-2026-muertos-ndma</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Pakistán: las inundaciones de monzón de 2026 superan las 159 víctimas mortales</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/japon-terremoto-kumamoto-2026-respuesta-takaichi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Japón: Takaichi encabeza la respuesta tras el terremoto de Kumamoto y los lanzamientos de Corea del Norte</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/union-europea-ia-ley-entra-en-vigor-2-agosto-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>La ley de IA de la UE alcanza su mayor hito de aplicación el 2 de agosto de 2026</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nvidia-resultados-trimestre-26-agosto-2026-inteligencia-artificial</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Nvidia presenta resultados el 26 de agosto: Wall Street espera un BPA de unos 2,06 dólares</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/migrantes-mediterraneo-muertes-aumentan-2026-omi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>ONU: las muertes de migrantes en el Mediterráneo se duplican y triplican en 2026</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eeuu-canada-nuevos-aranceles-trump-25-agosto-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Trump amenaza con nuevos aranceles a Canadá en medio de tensión política interna en EE. UU.</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reino-unido-chagos-burnham-primer-ministro-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Reino Unido: Burnham asume como primer ministro y hereda el conflicto de Chagos</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/espana-campeon-mundial-futbol-2026-final-argentina</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>España se corona campeona del mundo al batir a Argentina en la final de 2026</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/venezuela-terremotos-junio-2026-catia-la-mar</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Venezuela: un par de terremotos derriba más de 100 edificios en Catia La Mar</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/costa-rica-terremoto-m5-25-agosto-2026-sismos-globales</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Sismos globales del 25 de agosto: M5,0 en Costa Rica y réplicas en México, Japón y California</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/israel-turquia-tensiones-conflicto-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Crecen las tensiones entre Israel y Turquía y podrían estallar en guerra abierta</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/yemen-houthi-58-muertos-pacto-saudi-turquia-pakistan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Yemen: ataques Houthi dejan 58 muertos y se firma un pacto militar saudí-turco-paquistaní</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-solar-total-12-agosto-2026-groenlandia-islandia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Eclipse solar total del 12 de agosto de 2026 sobre Groenlandia e Islandia</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/deportes-2026-sinner-wimbledon-pogacar-tour-francia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Sinner retiene Wimbledon y Pogacar gana su quinto Tour de Francia en 2026</news:title>
+      <news:keywords>Deportes</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/papa-leon-xiv-lampedusa-migrantes-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>El papa León XIV visita Lampedusa y recuerda a los migrantes desaparecidos en el mar</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/reportaje-especial-guerra-iran-estados-unidos-operacion-epic-fury-cronologia-completa</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -59,7 +269,7 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/terremoto-magnitud-59-sacude-este-japon-cinco-heridos</loc>
+    <loc>https://freddydev.net/noticias/reportaje-especial-cine-2026-peliculas-mas-esperadas-que-ver-antes</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -67,13 +277,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Un terremoto de magnitud 5,9 sacude el este de Japón y deja al menos cinco heridos</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Reportaje especial | Cine 2026: las películas que debes ver y qué saber antes de sentarte en la butaca</news:title>
+      <news:keywords>Especial</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/empeora-salud-rey-harald-noruega-anemia-hemolitica</loc>
+    <loc>https://freddydev.net/noticias/playstation-comunicado-nuevos-terminos-juegos-licencia-digital-2026</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -81,134 +291,8 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Empeora el estado de salud del rey Harald de Noruega, quien padece anemia hemolítica</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/tesla-llama-revision-cinco-millones-coches-china-seguridad</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Tesla llama a revisión cinco millones de coches en China por dos problemas de seguridad</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/grecia-traslada-creta-misiles-patriot-riesgo-ataque-iran</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Grecia traslada a Creta misiles antiaéreos Patriot ante el riesgo de un ataque de Irán</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/zelenski-elecciones-serian-tsunami-fracturaria-ucrania</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Zelenski afirma que unas elecciones en plena guerra serían &quot;un tsunami&quot; que &quot;fracturaría Ucrania&quot;</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/kejelcha-bate-record-mundial-medio-maraton-buenos-aires-5651</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Kejelcha bate en Buenos Aires el récord mundial de medio maratón con un tiempo de 56:51</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/detienen-dos-adolescentes-israelies-apalear-palestino-amputado-cisjordania</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Detienen a dos adolescentes israelíes por apalear a un palestino amputado en Cisjordania</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/google-blue-skies-ia-reducir-estelas-aviones-calentamiento</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Blue Skies: el plan de Google para reducir con inteligencia artificial las estelas de los aviones que calientan el planeta</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/lightning-robot-vencer-usain-bolt-45-kilos-titanio-juegos-mundiales-robots</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Así nació Lightning, el robot diseñado para vencer a Usain Bolt: 45 kilos de titanio, cables y microprocesadores</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/subasta-camiseta-michael-jordan-finales-98-100-millones-dolares</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Sale a subasta la camiseta de Michael Jordan de las Finales del 98 con la vista puesta en los 100 millones de dólares</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/reportaje-especial-gta-vi-historia-completa-del-lanzamiento-mas-esperado-y-su-hacker</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>Reportaje especial | GTA VI: la historia completa del lanzamiento más esperado de la historia, de la filtración de 90 videos a las amenazas del hacker</news:title>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Reportaje especial | PlayStation y sus nuevos terminos: que dice el comunicado y que cambia en tus juegos</news:title>
       <news:keywords>Especial</news:keywords>
     </news:news>
   </url>
