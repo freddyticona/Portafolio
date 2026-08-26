@@ -212,4 +212,18 @@
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/noticias/jefe-inteligencia-eeuu-ratcliffe-moscu-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25</news:publication_date>
+      <news:title>Reportaje especial | El jefe de inteligencia de EE. UU. en Moscú: el viaje secreto de Ratcliffe a Rusia</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
 </urlset>
