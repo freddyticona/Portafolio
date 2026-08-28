@@ -25167,7 +25167,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `La asamblea de la cruceñidad determinó exigir la anulación del Decreto Supremo 5676 antes de la medianoche del domingo, advirtiendo con un paro cívico escalonado y medidas de presión departamentales si no hay respuesta.`,
     excerptEn: `The Santa Cruz civic assembly resolved to demand the full repeal of Supreme Decree 5676 before Sunday midnight, warning of rolling civic strikes and department-wide protests if the central government fails to comply.`,
     contentEs: `<h1>Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1545262810-a9cde1be1cb3?w=1200&h=630&fit=crop' alt='Estaciones de servicio con filas de camiones en Santa Cruz' loading='lazy'><figcaption>Estaciones de servicio en el cuarto anillo de Santa Cruz con filas kilométricas de camiones por falta de diésel. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1134-santa-cruz-comite-diesel.jpg' alt='Estaciones de servicio con filas de camiones en Santa Cruz' loading='lazy'><figcaption>Vista de la capital cruceña donde el Comité Cívico determinó el plazo por el DS 5676. Fuente: Archivo de Prensa Santa Cruz / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En una concurrida y tensa reunión del directorio ampliado, el Comité Cívico pro Santa Cruz aprobó un ultimátum definitivo al Poder Ejecutivo: o se abroga el Decreto Supremo 5676 que restringe la comercialización y transporte de hidrocarburos antes de la medianoche del domingo 30 de agosto, o Santa Cruz iniciará medidas de presión indefinidas.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La asamblea cívica y el malestar productivo</h2>
 <p>El sector agropecuario, las federaciones de transporte pesado y las juntas vecinales cruceñas coincidieron en calificar la norma 5676 como un freno directo para la siembra de invierno y la logística del oriente boliviano. La normativa, promulgada con el objetivo oficial de frenar el contrabando de combustible subvencionado, ha generado trabas burocráticas y paralización de maquinaria en las provincias productivas.</p>
@@ -25205,7 +25205,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Asamblea de la Cruceñidad</div><div class='doc-card-desc'>Resolución oficial del Comité pro Santa Cruz y voto resolutivo del transporte pesado.</div></div></a>
 <p>Con información de: El Deber, Unitel Santa Cruz, Agencia de Noticias Fides (ANF).</p>`,
     contentEn: `<h1>Santa Cruz Civic Committee issues Sunday deadline for Government to repeal fuel decree DS 5676</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1545262810-a9cde1be1cb3?w=1200&h=630&fit=crop' alt='Lines of trucks waiting for diesel in Santa Cruz' loading='lazy'><figcaption>Gas stations in Santa Cruz surrounded by kilometers of heavy trucks waiting for diesel supplies. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1134-santa-cruz-comite-diesel.jpg' alt='Lines of trucks waiting for diesel in Santa Cruz' loading='lazy'><figcaption>Vista de la capital cruceña donde el Comité Cívico determinó el plazo por el DS 5676. Fuente: Archivo de Prensa Santa Cruz / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In a heavily attended and tense plenary session, the Pro Santa Cruz Civic Committee delivered an uncompromising ultimatum to the national Executive: repeal Supreme Decree 5676 restricting fuel transport and purchase quotas before midnight this Sunday, August 30, or face indefinite department-wide strikes.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Civic assembly and agricultural paralysis</h2>
 <p>Agricultural federations, heavy freight unions, and neighborhood groups unanimously condemned decree 5676 as a devastating blow to the winter planting season and eastern Bolivia's logistics chain. While officially enacted to curb subsidized fuel smuggling across borders, the decree has throttled regional productivity due to onerous administrative quotas at local filling stations.</p>
@@ -25235,8 +25235,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1545262810-a9cde1be1cb3?w=1200&h=630&fit=crop',
-    imageCaption: `Filas kilométricas en estaciones de servicio de Santa Cruz por racionamiento de diésel. Fuente: El Deber / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1134-santa-cruz-comite-diesel.jpg',
+    imageCaption: `Vista de la capital cruceña donde el Comité Cívico determinó el plazo por el DS 5676. Fuente: Archivo de Prensa Santa Cruz / Freddy Ticona.`,
     enableComments: true,
     featured: true,
     breaking: true,
@@ -25255,7 +25255,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El consultor argentino Fernando Cerimedo brindó declaraciones a través de su defensa tras su reclusión en Palmasola, rechazando los audios filtrados y enfrentando una querella por 200 millones de dólares presentada por consorcios empresariales.`,
     excerptEn: `Argentine political consultant Fernando Cerimedo spoke through his defense attorneys from inside Palmasola penitentiary, denying illicit ties to the executive branch and facing a $200 million commercial lawsuit.`,
     contentEs: `<h1>Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta demanda por $us 200M</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop' alt='Palacio de Justicia y juzgados penales de Santa Cruz' loading='lazy'><figcaption>Juzgados cautelares de Santa Cruz donde se tramitan los recursos del caso Cerimedo. Fuente: Unitel / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1135-palacio-justicia-santa-cruz.jpg' alt='Palacio de Justicia y juzgados penales de Santa Cruz' loading='lazy'><figcaption>Palacio de Justicia de Santa Cruz donde radican las causas del caso Cerimedo. Fuente: Archivo Judicial / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En su segunda jornada de detención preventiva en el pabellón PC-7 del penal de Palmasola, el consultor político y estratega digital argentino Fernando Cerimedo difundió una carta manuscrita a través de su abogado, en la que asegura ser víctima de una conspiración y niega haber gestionado contratos estatales ilícitos.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La defensa técnica y los audios peritados</h2>
 <p>Cerimedo fue remitido a Palmasola con 180 días de prisión preventiva tras la divulgación de audios en los que presuntamente negociaba comisiones millonarias vinculadas a contrataciones públicas. Su abogado defensor Jorge Valda manifestó que las grabaciones carecen de cadena de custodia y presentan indicios de clonación de voz mediante inteligencia artificial.</p>
@@ -25283,7 +25283,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>FGE</div><div><div class='doc-card-title'>Fiscalía Departamental de Santa Cruz</div><div class='doc-card-desc'>Actas de imputación formal y peritaje del IITCUP sobre dispositivos electrónicos.</div></div></a>
 <p>Con información de: El Deber, Unitel, Red Uno, Agencia Boliviana de Información (ABI).</p>`,
     contentEn: `<h1>From Palmasola prison, Cerimedo denies government influence while facing $200M damages lawsuit</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop' alt='Courthouse in Santa Cruz dealing with corruption cases' loading='lazy'><figcaption>Santa Cruz courthouse where preliminary hearings in the Cerimedo corruption investigation are held. Source: Unitel / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1135-palacio-justicia-santa-cruz.jpg' alt='Courthouse in Santa Cruz dealing with corruption cases' loading='lazy'><figcaption>Palacio de Justicia de Santa Cruz donde radican las causas del caso Cerimedo. Fuente: Archivo Judicial / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Inside the high-security compound of Palmasola prison in Santa Cruz, Argentine political strategist Fernando Cerimedo released a written statement through his legal defense, strongly repudiating allegations of procurement graft and influence peddling inside Bolivian state ministries.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Defense claims and civil suit</h2>
 <p>Cerimedo faces 180 days of preventive detention following leaked audio recordings that purportedly linked his consulting firm to illicit contract commissions. His legal team argued before judges that the recordings were tampered with using generative voice synthesis, claiming his income derived solely from private political communications advisories during recent regional campaigns.</p>
@@ -25303,8 +25303,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '6 min de lectura',
     readTimeEn: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop',
-    imageCaption: `Palacio de Justicia de Santa Cruz donde radica el proceso penal del caso Cerimedo. Fuente: Unitel / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1135-palacio-justicia-santa-cruz.jpg',
+    imageCaption: `Palacio de Justicia de Santa Cruz donde radican las causas del caso Cerimedo. Fuente: Archivo Judicial / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25323,7 +25323,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El senador Rodrigo Paz admitió que el monopolio estatal en la importación de carburantes colapsó y apoyó el proyecto de ley del diputado Velasco para permitir que cooperativas y agroindustrias importen diésel con arancel cero.`,
     excerptEn: `Senator Rodrigo Paz conceded that the state monopoly on fuel imports has collapsed and endorsed Deputy Velasco’s draft bill to authorize zero-tariff diesel imports by private cooperatives and agribusinesses.`,
     contentEs: `<h1>Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para libre importación de diésel</h1>
-<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz en conferencia de prensa en la Asamblea Legislativa' loading='lazy'><figcaption>El senador Rodrigo Paz durante una conferencia de prensa en el hall de la Asamblea Legislativa Plurinacional en La Paz. Fuente: Los Tiempos / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1136-rodrigo-paz-asamblea.jpg' alt='Rodrigo Paz en conferencia de prensa en la Asamblea Legislativa' loading='lazy'><figcaption>Asamblea Legislativa Plurinacional en La Paz durante el debate de libre importación de diésel. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En una contundente conferencia de prensa desde el Legislativo, el senador Rodrigo Paz Pereira reconoció de forma explícita que la administración estatal ha fracasado en garantizar el abastecimiento regular de diésel en el país y expresó su respaldo irrestricto al proyecto de ley impulsado por el diputado José Carlos Velasco para liberar la importación y comercialización de carburantes.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El sinceramiento del debate energético</h2>
 <p>Paz señaló que la escasez en surtidores y los cupos impuestos mediante decretos son el síntoma visible de un modelo que agotó las reservas de gas y las divisas del Banco Central. Según el parlamentario, mantener el monopolio de Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) solo profundiza la especulación y el mercado negro.</p>
@@ -25352,7 +25352,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://lostiempos.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LT</div><div><div class='doc-card-title'>Los Tiempos · Cobertura Parlamentaria</div><div class='doc-card-desc'>Declaraciones del senador Rodrigo Paz y proyecto de ley de importación privada de hidrocarburos.</div></div></a>
 <p>Con información de: Los Tiempos, El Deber, ERBOL.</p>`,
     contentEn: `<h1>Paz admits state 'inefficiency' and backs Velasco's proposal for private diesel imports</h1>
-<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz holding a press conference at the Plurinational Legislative Assembly' loading='lazy'><figcaption>Senator Rodrigo Paz speaking to media at the Legislative Assembly hall in La Paz. Source: Los Tiempos / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1136-rodrigo-paz-asamblea.jpg' alt='Rodrigo Paz holding a press conference at the Plurinational Legislative Assembly' loading='lazy'><figcaption>Asamblea Legislativa Plurinacional en La Paz durante el debate de libre importación de diésel. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In a decisive press conference from the Legislative Assembly in La Paz, Senator Rodrigo Paz Pereira openly conceded that state administration has failed to guarantee reliable diesel supplies nationwide, throwing his full legislative weight behind Deputy José Carlos Velasco's bill to deregulate fuel importation.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Confronting the energy crisis</h2>
 <p>Paz argued that endless fuel queues and administrative rationing under recent decrees are the direct consequence of depleted natural gas reserves and foreign currency shortages at the Central Bank. He emphasized that preserving YPFB's strict import monopoly only fuels contraband and black-market pricing.</p>
@@ -25372,8 +25372,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: '/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg',
-    imageCaption: `El senador Rodrigo Paz durante su pronunciamiento sobre la crisis energética en La Paz. Fuente: Los Tiempos / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1136-rodrigo-paz-asamblea.jpg',
+    imageCaption: `Asamblea Legislativa Plurinacional en La Paz durante el debate de libre importación de diésel. Fuente: Prensa Senado / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25392,7 +25392,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El Ministerio de Economía autorizó una inyección presupuestaria extraordinaria para que YPFB garantice la importación de gasolinas y diésel durante el segundo semestre de 2026 e inicios de 2027, profundizando el déficit fiscal.`,
     excerptEn: `The Ministry of Economy authorized an extraordinary budgetary injection for YPFB to sustain gasoline and diesel imports through late 2026 and early 2027, intensifying fiscal pressures.`,
     contentEs: `<h1>Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027</h1>
-<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Plantas de almacenamiento y despacho de combustibles de YPFB' loading='lazy'><figcaption>Complejo de almacenamiento y despacho de hidrocarburos de YPFB en Palmasola, Santa Cruz. Fuente: ABI / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1137-ypfb-hidrocarburos.jpg' alt='Plantas de almacenamiento y despacho de combustibles de YPFB' loading='lazy'><figcaption>Complejo de refinación y tanques de almacenamiento de hidrocarburos de YPFB. Fuente: YPFB / ABI.</figcaption></figure>
 <p class='lead'><em>En una medida de emergencia destinada a evitar el desabastecimiento generalizado antes del cierre de gestión, el Gobierno nacional aprobó una adenda presupuestaria que incrementa en más del 100% los recursos asignados a Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) para la compra de combustibles extranjeros hasta enero de 2027.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La magnitud de la inyección fiscal</h2>
 <p>El decreto financiero asigna un cupo adicional de 1.850 millones de dólares provenientes de reasignaciones presupuestarias y créditos multilaterales para cubrir los contratos de flete y suministro con refinadoras de Chile, Argentina y Perú. Con esta disposición, el gasto consolidado en subvención a los hidrocarburos superará los 3.500 millones de dólares en 2026.</p>
@@ -25421,7 +25421,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://abi.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ABI</div><div><div class='doc-card-title'>Agencia Boliviana de Información · Economía</div><div class='doc-card-desc'>Decreto de asignación presupuestaria extraordinaria para compras de YPFB.</div></div></a>
 <p>Con información de: ABI, La Razón, El Deber, Ministerio de Economía y Finanzas Públicas.</p>`,
     contentEn: `<h1>Government doubles YPFB subsidy budget through January 2027 amid fiscal strain</h1>
-<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='YPFB fuel storage and dispatch terminal' loading='lazy'><figcaption>YPFB fuel storage and distribution facility in Palmasola, Santa Cruz. Source: ABI / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1137-ypfb-hidrocarburos.jpg' alt='YPFB fuel storage and dispatch terminal' loading='lazy'><figcaption>Complejo de refinación y tanques de almacenamiento de hidrocarburos de YPFB. Fuente: YPFB / ABI.</figcaption></figure>
 <p class='lead'><em>In an emergency fiscal maneuver aimed at averting widespread fuel shortages before year-end, the national government enacted a supplementary budget decree expanding state energy company YPFB’s import allocation by over 100% through January 2027.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Fiscal scope of the extraordinary injection</h2>
 <p>The measure channels an additional $1.85 billion in reallocated public funds and multilateral credit lines to service supply and shipping contracts with refiners in Chile, Argentina, and Peru. Total fuel subsidy outlays for 2026 are now projected to exceed $3.5 billion, pushing the national fiscal deficit toward 9.8% of GDP.</p>
@@ -25440,8 +25440,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: `Planta de YPFB Logística en Santa Cruz durante los operativos de despacho de combustible. Fuente: ABI / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1137-ypfb-hidrocarburos.jpg',
+    imageCaption: `Complejo de refinación y tanques de almacenamiento de hidrocarburos de YPFB. Fuente: YPFB / ABI.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25460,7 +25460,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Horas después del operativo policial de desbloqueo, organizaciones campesinas y transportistas del Beni y Santa Cruz volvieron a cerrar la carretera en el puente San Pablo con promontorios de tierra y ramas.`,
     excerptEn: `Hours after a police anti-riot dispersal operation, peasant syndicates and interprovincial transport drivers reestablished the blockade over San Pablo bridge with earth mounds and tree logs.`,
     contentEs: `<h1>Reinstalan bloqueo en puente San Pablo tras gasificación; exigen atención a demandas de transporte</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1569437061241-a848be43cc82?w=1200&h=630&fit=crop' alt='Bloqueo con troncos y camiones varados en carretera interdepartamental' loading='lazy'><figcaption>Troncos y promontorios de tierra colocados en el acceso oriental del puente San Pablo. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg' alt='Bloqueo con troncos y camiones varados en carretera interdepartamental' loading='lazy'><figcaption>Punto de bloqueo en carretera interdepartamental con promontorios y ramas. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>La tregua en la carretera que une a los departamentos de Santa Cruz y Beni duró menos de seis horas. Tras el violento desalojo ejecutado por la Unidad Táctica de Operaciones Policiales (UTOP) en la madrugada, cientos de comunarios y transportistas de la Chiquitania se reagruparon y cerraron nuevamente el estratégico puente San Pablo.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La reactivación del cerco carretero</h2>
 <p>Los manifestantes, que reclaman cupos extraordinarios de diésel para la cosecha de soya y el mantenimiento urgente de la red vial fundamental, utilizaron maquinaria pesada y troncos para levantar barricadas inexpugnables sobre ambas cabeceras del puente. Más de 400 camiones cisterna, buses interdepartamentales y camiones con ganado permanecen varados a ambos lados de la frontera interdepartamental.</p>
@@ -25488,7 +25488,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Conflicto San Pablo</div><div class='doc-card-desc'>Crónica in situ sobre la reinstalación de barricadas en el límite entre Santa Cruz y Beni.</div></div></a>
 <p>Con información de: El Deber, Unitel, Radio Guarayos, Fegasacruz.</p>`,
     contentEn: `<h1>Protesters reinstall San Pablo bridge blockade after police tear-gas clearance</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1569437061241-a848be43cc82?w=1200&h=630&fit=crop' alt='Roadblock with logs and stranded trucks on highway' loading='lazy'><figcaption>Tree trunks and earth barriers re-erected at the eastern approach of San Pablo bridge. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg' alt='Roadblock with logs and stranded trucks on highway' loading='lazy'><figcaption>Punto de bloqueo en carretera interdepartamental con promontorios y ramas. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>The calm along the critical trunk road connecting Santa Cruz and Beni lasted fewer than six hours. Following an early morning anti-riot police charge, hundreds of agrarian syndicate members and regional freight drivers regrouped to shut down the strategic San Pablo bridge once again.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Blockade reestablished</h2>
 <p>Demanding priority fuel quotas for the winter soy harvest and urgent maintenance on the national highway network, protesters used earth-moving equipment and timber to erect reinforced roadblocks across both bridge approaches. Over 400 fuel tankers, intercity passenger buses, and cattle trucks are currently immobilized.</p>
@@ -25508,8 +25508,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1569437061241-a848be43cc82?w=1200&h=630&fit=crop',
-    imageCaption: `Reinstalación de barricadas y camiones varados en el puente San Pablo. Fuente: El Deber / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg',
+    imageCaption: `Punto de bloqueo en carretera interdepartamental con promontorios y ramas. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: true,
@@ -25528,7 +25528,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El gobernador en ejercicio Mario Aguilera anunció la redacción de un decreto departamental que crea un consorcio público-privado para importar diésel directamente desde Argentina y Paraguay sin pasar por YPFB.`,
     excerptEn: `Acting Governor Mario Aguilera announced a departmental decree establishing a public-private framework to import diesel directly from Argentina and Paraguay, bypassing central state bureaucracy.`,
     contentEs: `<h1>Gobernación cruceña alista decreto para importar combustible con privados ante crisis</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&h=630&fit=crop' alt='Sede de la Gobernación de Santa Cruz y parque industrial' loading='lazy'><figcaption>Edificio central de la Gobernación de Santa Cruz donde se redactó el proyecto de decreto autonómico. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1139-gobernacion-santa-cruz.jpg' alt='Sede de la Gobernación de Santa Cruz y parque industrial' loading='lazy'><figcaption>Sede de la Gobernación Autónoma Departamental de Santa Cruz en la Plaza 24 de Septiembre. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Frente a la prolongada parálisis en las cadenas de suministro y el desabastecimiento en el sector productivo, la Gobernación del Departamento de Santa Cruz confirmó la elaboración final de un decreto autonómico extraordinario que habilitará la importación directa y almacenamiento de combustibles mediante alianzas estratégicas con cámaras empresariales.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El marco autonómico de emergencia</h2>
 <p>La iniciativa legal se fundamenta en las competencias exclusivas departamentales en materia de fomento al desarrollo productivo y mitigación de desastres económicos. El esquema contempla que la Gobernación actúe como facilitador institucional y certificador de calidad, mientras que la Cámara Agropecuaria del Oriente (CAO) y la Federación de Empresarios Privados aportarán el financiamiento en moneda extranjera para las compras en refinerías de Salta y Asunción.</p>
@@ -25557,7 +25557,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://santacruz.gob.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon green'>GSC</div><div><div class='doc-card-title'>Gobierno Autónomo Departamental de Santa Cruz</div><div class='doc-card-desc'>Anteproyecto de decreto de salvaguarda energética y productividad departamental.</div></div></a>
 <p>Con información de: El Deber, CAO, Unitel Santa Cruz, La Razón.</p>`,
     contentEn: `<h1>Santa Cruz Government prepares departmental decree for private fuel imports amid crisis</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&h=630&fit=crop' alt='Headquarters of the Government of Santa Cruz' loading='lazy'><figcaption>Central administrative complex of the Santa Cruz Departmental Government. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1139-gobernacion-santa-cruz.jpg' alt='Headquarters of the Government of Santa Cruz' loading='lazy'><figcaption>Sede de la Gobernación Autónoma Departamental de Santa Cruz en la Plaza 24 de Septiembre. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In response to severe supply chain bottlenecks and chronic diesel shortages across agricultural valleys, the Autonomous Departmental Government of Santa Cruz finalized an emergency decree authorizing direct private fuel importation and storage in coordination with regional business confederations.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Autonomous legal framework</h2>
 <p>Grounded in constitutional autonomy clauses regarding regional economic development, the decree establishes a public-private mechanism where the Departmental Government provides regulatory certification while agribusiness chambers (CAO) and private enterprise federations finance offshore purchases from refineries in Argentina and Paraguay.</p>
@@ -25577,8 +25577,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&h=630&fit=crop',
-    imageCaption: `Gobernación cruceña durante el anuncio del decreto de importación privada de hidrocarburos. Fuente: El Deber / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1139-gobernacion-santa-cruz.jpg',
+    imageCaption: `Sede de la Gobernación Autónoma Departamental de Santa Cruz en la Plaza 24 de Septiembre. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25597,7 +25597,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El presidente de la Cámara Nacional de Industrias, Mirko Sokol, sostuvo un encuentro de alto nivel con diplomáticos estadounidenses en La Paz para reactivar mecanismos de comercio, financiamiento a mipymes y proyectos de transición verde.`,
     excerptEn: `National Chamber of Industries President Mirko Sokol held a high-level diplomatic meeting with US officials in La Paz to explore trade facilitation, MSME financing, and green energy transition initiatives.`,
     contentEs: `<h1>Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia para tratar cooperación bilateral</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop' alt='Encuentro diplomático y empresarial en La Paz' loading='lazy'><figcaption>Reunión institucional entre directivos empresariales bolivianos y el cuerpo diplomático de Estados Unidos en Calacoto, La Paz. Fuente: CNI / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1140-embajada-eeuu-la-paz.jpg' alt='Encuentro diplomático y empresarial en La Paz' loading='lazy'><figcaption>Zona empresarial de Calacoto en La Paz donde sesionó la reunión bilateral de la CNI. Fuente: CNI / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En el marco del fortalecimiento de las relaciones económicas y comerciales entre el sector privado nacional y la comunidad internacional, el titular de la Cámara Nacional de Industrias (CNI), Mirko Sokol, encabezó una reunión de trabajo con el Encargado de Negocios de la Embajada de los Estados Unidos en Bolivia en la sede industrial de La Paz.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Agenda bilateral de comercio e inversión</h2>
 <p>La cita bilateral abordó temas prioritarios para la reactivación del aparato productivo boliviano, entre ellos la ampliación de programas de asistencia técnica para micro y pequeñas empresas, la apertura de canales de exportación no tradicional hacia el mercado norteamericano y el financiamiento de proyectos industriales orientados a la eficiencia energética.</p>
@@ -25625,7 +25625,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://cni.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CNI</div><div><div class='doc-card-title'>Cámara Nacional de Industrias · Nota de Prensa</div><div class='doc-card-desc'>Resumen ejecutivo de la reunión bilateral sobre inversiones y asistencia técnica.</div></div></a>
 <p>Con información de: CNI Bolivia, Embajada de EEUU en La Paz, El Deber, La Razón.</p>`,
     contentEn: `<h1>Mirko Sokol meets with US Chargé d’Affaires in Bolivia to discuss bilateral cooperation</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop' alt='Diplomatic and business summit in La Paz' loading='lazy'><figcaption>Institutional meeting between Bolivian industrial leaders and US diplomatic representatives in Calacoto, La Paz. Source: CNI / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1140-embajada-eeuu-la-paz.jpg' alt='Diplomatic and business summit in La Paz' loading='lazy'><figcaption>Zona empresarial de Calacoto en La Paz donde sesionó la reunión bilateral de la CNI. Fuente: CNI / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In an effort to deepen trade ties and investment cooperation between Bolivia's private sector and international partners, National Chamber of Industries (CNI) President Mirko Sokol hosted a working meeting with the US Embassy Chargé d’Affaires at the industrial federation headquarters in La Paz.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Bilateral trade and innovation agenda</h2>
 <p>The bilateral session addressed key priorities for revitalizing Bolivian industrial output, including technical assistance for micro and small manufacturers, streamlining non-traditional export corridors to North American markets, and green finance for industrial energy transition projects.</p>
@@ -25645,8 +25645,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop',
-    imageCaption: `Reunión entre directivos de la CNI y la delegación diplomática estadounidense en La Paz. Fuente: CNI / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1140-embajada-eeuu-la-paz.jpg',
+    imageCaption: `Zona empresarial de Calacoto en La Paz donde sesionó la reunión bilateral de la CNI. Fuente: CNI / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25665,7 +25665,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Ráfagas de viento de hasta 85 km/h azotaron la capital cruceña provocando la caída de más de 30 árboles, daños en vehículos estacionados, voladura de tinglados y cortes de energía eléctrica en al menos cinco distritos urbanos.`,
     excerptEn: `Wind gusts reaching 85 km/h battered Santa Cruz, bringing down over 30 trees, damaging parked vehicles, tearing off tin roofs, and causing widespread power outages across five municipal districts.`,
     contentEs: `<h1>Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan cortes de luz</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=1200&h=630&fit=crop' alt='Árbol caído sobre la calzada y cables eléctricos por fuerte temporal' loading='lazy'><figcaption>Personal municipal de emergencias removiendo un árbol caído sobre la avenida Cristo Redentor en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1141-vientos-santa-cruz.jpg' alt='Árbol caído sobre la calzada y cables eléctricos por fuerte temporal' loading='lazy'><figcaption>Árboles tradicionales de Santa Cruz azotados por fuertes ráfagas de viento sur. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Un frente de vientos huracanados del sur con ráfagas que superaron los 85 kilómetros por hora provocó múltiples emergencias en la ciudad de Santa Cruz de la Sierra durante la tarde del viernes, dejando cuantiosos daños materiales, árboles de gran porte arrancados de raíz y la suspensión del suministro eléctrico en populosas zonas urbanas.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El temporal y los destrozos en la capital</h2>
 <p>El temporal, que ingresó acompañado de un brusco descenso de temperatura, golpeó con mayor intensidad al centro histórico y a los distritos municipales 1, 2, 4 y 5. En el segundo anillo y avenida Busch, un toborochi centenario se desplomó sobre dos automóviles estacionados, afortunadamente sin causar víctimas fatales entre los transeúntes.</p>
@@ -25694,7 +25694,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon green'>ED</div><div><div class='doc-card-title'>El Deber · Reporte Climatológico Santa Cruz</div><div class='doc-card-desc'>Informe gráfico y registro de daños por los ventarrones en la capital cruceña.</div></div></a>
 <p>Con información de: El Deber, Unitel, SENAMHI Bolivia, CRE.</p>`,
     contentEn: `<h1>Gale-force winds topple trees onto vehicles in Santa Cruz causing power outages</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=1200&h=630&fit=crop' alt='Fallen tree over roadway and electrical cables from storm' loading='lazy'><figcaption>Municipal emergency crews clearing a massive toppled tree on Cristo Redentor Avenue in Santa Cruz. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1141-vientos-santa-cruz.jpg' alt='Fallen tree over roadway and electrical cables from storm' loading='lazy'><figcaption>Árboles tradicionales de Santa Cruz azotados por fuertes ráfagas de viento sur. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>A southerly cold front delivering gale-force wind gusts exceeding 85 kilometers per hour swept through Santa Cruz de la Sierra on Friday afternoon, causing extensive property damage, uprooting decades-old trees, and knocking out electrical grids across five municipal districts.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Gale impact across urban sectors</h2>
 <p>Accompanied by a sharp 14°C temperature drop, the storm hit the historic center and municipal districts 1, 2, 4, and 5 hardest. Near the second ring and Busch Avenue, a large toborochi tree crushed two parked sedans, fortunately resulting in no injuries.</p>
@@ -25713,8 +25713,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '4 min de lectura',
     readTimeEn: '4 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=1200&h=630&fit=crop',
-    imageCaption: `Operativos de despeje de vías tras la caída de árboles en Santa Cruz de la Sierra. Fuente: El Deber / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1141-vientos-santa-cruz.jpg',
+    imageCaption: `Árboles tradicionales de Santa Cruz azotados por fuertes ráfagas de viento sur. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25733,7 +25733,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Cientos de aficionados y astrónomos observaron el eclipse lunar parcial visible en todo el territorio nacional, donde la sombra terrestre cubrió más del 80% del disco lunar brindando tonalidades rojizas.`,
     excerptEn: `Hundreds of astronomy enthusiasts and researchers across Bolivia observed a partial lunar eclipse that covered over 80% of the lunar disk in vivid reddish hues under cloudless skies.`,
     contentEs: `<h1>Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en una madrugada despejada</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1536746803623-cef87080bfc8?w=1200&h=630&fit=crop' alt='Eclipse lunar parcial con tonalidad rojiza en el cielo nocturno' loading='lazy'><figcaption>Fase máxima del eclipse lunar parcial observado desde el mirador de Killi Killi en La Paz. Fuente: Planetario Max Schreier / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1142-eclipse-lunar-sangre.jpg' alt='Eclipse lunar parcial con tonalidad rojiza en el cielo nocturno' loading='lazy'><figcaption>Registro astronómico de la 'Luna de Sangre' durante la fase del eclipse parcial. Fuente: Planetario Max Schreier / UMSA.</figcaption></figure>
 <p class='lead'><em>Durante la madrugada de este viernes 28 de agosto, los cielos despejados de gran parte de Bolivia ofrecieron un escenario privilegiado para la observación del eclipse lunar parcial, un fenómeno astronómico en el que la penumbra y umbra de la Tierra tiñeron de color cobrizo y rojizo a nuestro satélite natural.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La danza astronómica en el altiplano y valles</h2>
 <p>El fenómeno inició a las 02:42 hora boliviana, alcanzando su punto de mayor cobertura a las 04:18, cuando el 84% de la superficie lunar quedó sumergida en el cono de sombra terrestre. En ciudades de gran altitud como La Paz, Oruro y Potosí, la baja humedad atmosférica permitió registrar fotografías de alta nitidez sin interferencia de nubosidad.</p>
@@ -25762,7 +25762,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://umsa.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>UMSA</div><div><div class='doc-card-title'>Planetario Max Schreier · UMSA La Paz</div><div class='doc-card-desc'>Registro fotográfico y efemérides astronómicas del eclipse lunar parcial 2026.</div></div></a>
 <p>Con información de: Planetario Max Schreier, Observatorio Astronómico Nacional de Tarija, NASA Science.</p>`,
     contentEn: `<h1>Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in clear early morning skies</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1536746803623-cef87080bfc8?w=1200&h=630&fit=crop' alt='Partial lunar eclipse glowing with reddish color in night sky' loading='lazy'><figcaption>Peak phase of the partial lunar eclipse viewed from Killi Killi vantage point in La Paz. Source: Max Schreier Planetarium / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1142-eclipse-lunar-sangre.jpg' alt='Partial lunar eclipse glowing with reddish color in night sky' loading='lazy'><figcaption>Registro astronómico de la 'Luna de Sangre' durante la fase del eclipse parcial. Fuente: Planetario Max Schreier / UMSA.</figcaption></figure>
 <p class='lead'><em>In the early hours of Friday, August 28, exceptionally clear skies across western and central Bolivia provided optimal conditions for stargazers to witness a partial lunar eclipse, during which Earth’s umbral shadow bathed the Moon in a striking copper-red glow.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Astronomical spectacle in the Andes</h2>
 <p>The eclipse began at 02:42 local time (BOT), reaching maximum obscuration at 04:18 when 84% of the lunar disk was submerged within Earth's shadow cone. High-altitude cities like La Paz, Oruro, and Potosí enjoyed pristine atmospheric clarity free of cloud cover.</p>
@@ -25781,8 +25781,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '4 min de lectura',
     readTimeEn: '4 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1536746803623-cef87080bfc8?w=1200&h=630&fit=crop',
-    imageCaption: `La Luna teñida de tonos cobrizos durante el eclipse parcial observado en La Paz. Fuente: Planetario Max Schreier / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1142-eclipse-lunar-sangre.jpg',
+    imageCaption: `Registro astronómico de la 'Luna de Sangre' durante la fase del eclipse parcial. Fuente: Planetario Max Schreier / UMSA.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25801,7 +25801,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Con respaldo multipartidario, la Cámara Alta aprobó en grande y detalle el proyecto normativo que obliga a entidades públicas, empresas mixtas y concesionarias a responder solicitudes de información ciudadana en un plazo de 15 días.`,
     excerptEn: `With cross-party support, the Bolivian Senate approved in full the Access to Public Information Bill, mandating that state agencies and public enterprises respond to citizen requests within 15 days.`,
     contentEs: `<h1>Senado aprueba Ley de Acceso a la Información y la remite a Diputados</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1200&h=630&fit=crop' alt='Hemiciclo de la Cámara de Senadores en sesión plenaria' loading='lazy'><figcaption>Hemiciclo del Senado de Bolivia durante la votación de la Ley de Acceso a la Información Pública. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1143-senado-bolivia-hemiciclo.jpg' alt='Hemiciclo de la Cámara de Senadores en sesión plenaria' loading='lazy'><figcaption>Plaza Murillo y frontis de la Asamblea Legislativa donde el Senado sancionó la norma de transparencia. Fuente: Prensa Senado.</figcaption></figure>
 <p class='lead'><em>En una histórica jornada legislativa tras más de dos décadas de postergaciones, el pleno de la Cámara de Senadores aprobó en sus estaciones en grande y en detalle el proyecto de Ley de Acceso a la Información Pública y Transparencia Gubernamental, remitiendo el texto a la Cámara de Diputados para su correspondiente revisión.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Los pilares de la nueva legislación</h2>
 <p>El proyecto establece el principio de máxima publicidad para toda gestión de fondos fiscales, licitaciones de obras públicas, salarios jerárquicos y contratos de explotación de recursos naturales. La norma fija un plazo perentorio de 15 días hábiles (prorrogables por 5 en casos justificados) para que ministerios, gobernaciones, municipios y empresas públicas como YPFB, BOA y ENDE entreguen la información solicitada por ciudadanos y periodistas.</p>
@@ -25829,7 +25829,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://senado.gob.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ALP</div><div><div class='doc-card-title'>Cámara de Senadores de Bolivia</div><div class='doc-card-desc'>Texto sancionado del proyecto de Ley de Acceso a la Información Pública.</div></div></a>
 <p>Con información de: Prensa Senado Bolivia, ANP Bolivia, La Razón, ERBOL.</p>`,
     contentEn: `<h1>Senate passes landmark Access to Public Information Bill and sends it to Deputies</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1200&h=630&fit=crop' alt='Bolivian Senate chamber during plenary session' loading='lazy'><figcaption>Bolivian Senate chamber voting on the landmark Access to Public Information and Transparency Bill. Source: Senate Press / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1143-senado-bolivia-hemiciclo.jpg' alt='Bolivian Senate chamber during plenary session' loading='lazy'><figcaption>Plaza Murillo y frontis de la Asamblea Legislativa donde el Senado sancionó la norma de transparencia. Fuente: Prensa Senado.</figcaption></figure>
 <p class='lead'><em>In a milestone legislative vote breaking over two decades of political stalling, the Bolivian Senate approved in full the draft Access to Public Information and Government Transparency Law, remitting the bill to the Chamber of Deputies for final review.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Pillars of the transparency law</h2>
 <p>The legislation enforces the principle of maximum publicity across all state expenditures, procurement contracts, executive payrolls, and natural resource extraction deals. It mandates a strict 15-business-day response deadline for ministries, regional governorates, municipalities, and state corporations such as YPFB, BOA, and ENDE.</p>
@@ -25848,8 +25848,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1200&h=630&fit=crop',
-    imageCaption: `Plenaria del Senado de Bolivia aprobando el proyecto de ley de transparencia. Fuente: Prensa Senado / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1143-senado-bolivia-hemiciclo.jpg',
+    imageCaption: `Plaza Murillo y frontis de la Asamblea Legislativa donde el Senado sancionó la norma de transparencia. Fuente: Prensa Senado.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -25868,7 +25868,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El Ministerio del Interior de Nepal elevó a 553 el número oficial de víctimas mortales tras la catastrófica crecida del río Bhote Koshi provocada por la ruptura de un lago glaciar en el Tíbet, con cientos de personas aún desaparecidas.`,
     excerptEn: `Nepal’s Ministry of Home Affairs updated the confirmed death toll to 553 after a catastrophic glacial lake outburst flood on the Bhote Koshi river decimated riverine towns, with hundreds remaining unaccounted for.`,
     contentEs: `<h1>Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescates siguen en zonas aisladas</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop' alt='Valles himalayos y labores de rescate tras riada e inundaciones' loading='lazy'><figcaption>Equipos del Ejército de Nepal y brigadas internacionales en la devastada cuenca del distrito de Sindhupalchok. Fuente: AP Photo / Reuters.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg' alt='Valles himalayos y labores de rescate tras riada e inundaciones' loading='lazy'><figcaption>Cuenca del río Bhote Koshi en Sindhupalchok devastada por la riada glaciar. Fuente: AP / Reuters / Wikimedia Commons.</figcaption></figure>
 <p class='lead'><em>La dimensión de la tragedia en la cordillera del Himalaya continúa en ascenso. El Ministerio del Interior de Nepal confirmó este viernes que la cifra de cuerpos recuperados se elevó a 553 en los valles ribereños del río Bhote Koshi, tras la violenta tromba de agua, lodo y rocas desatada por el desborde violento de un lago glaciar (GLOF) en territorio tibetano.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La magnitud de la devastación en Sindhupalchok</h2>
 <p>El torrente arrasó con más de una veintena de aldeas y destruyó la autopista Araniko, que conecta Katmandú con la frontera china, dejando completamente incomunicadas a comunidades enteras en los distritos de Sindhupalchok y Dolakha. Las brigadas del Ejército nepalí y socorristas internacionales operan con helicópteros militares en medio de condiciones climáticas adversas.</p>
@@ -25897,7 +25897,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://reuters.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>REU</div><div><div class='doc-card-title'>Reuters · Cobertura Especial Nepal</div><div class='doc-card-desc'>Reportes del Ministerio del Interior de Nepal y balance de daños en Sindhupalchok.</div></div></a>
 <p>Con información de: Reuters, AP, The Kathmandu Post, ICIMOD.</p>`,
     contentEn: `<h1>Nepal death toll climbs to 553 following catastrophic Bhote Koshi glacial river burst</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop' alt='Himalayan valley rescue operations following catastrophic flood' loading='lazy'><figcaption>Nepal Army search and rescue units navigating rubble in devastated Sindhupalchok district. Source: AP Photo / Reuters.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg' alt='Himalayan valley rescue operations following catastrophic flood' loading='lazy'><figcaption>Cuenca del río Bhote Koshi en Sindhupalchok devastada por la riada glaciar. Fuente: AP / Reuters / Wikimedia Commons.</figcaption></figure>
 <p class='lead'><em>The human toll of the Himalayan glacial disaster expanded grimly on Friday as Nepal’s Ministry of Home Affairs confirmed 553 bodies recovered along the Bhote Koshi river valley, following a catastrophic Glacial Lake Outburst Flood (GLOF) triggered across the Tibetan border.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Catastrophic devastation in Sindhupalchok</h2>
 <p>The raging torrent of water, mud, and boulders obliterated over twenty riverside settlements and severed the strategic Araniko Highway connecting Kathmandu to China. Military helicopters are performing high-risk extractions in Sindhupalchok and Dolakha districts under persistent monsoonal fog.</p>
@@ -25916,8 +25916,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop',
-    imageCaption: `Devastación y labores de búsqueda tras la riada del río Bhote Koshi en Nepal. Fuente: AP / Reuters.`,
+    imageUrl: '/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg',
+    imageCaption: `Cuenca del río Bhote Koshi en Sindhupalchok devastada por la riada glaciar. Fuente: AP / Reuters / Wikimedia Commons.`,
     enableComments: true,
     featured: true,
     breaking: true,
@@ -25936,7 +25936,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `La Casa Real noruega anunció el fallecimiento del rey Harald V en el Rikshospitalet de Oslo tras complicaciones por anemia hemolítica. Su hijo, el príncipe heredero Haakon, asume la jefatura del Estado como Haakon VIII.`,
     excerptEn: `The Royal Court of Norway announced the passing of King Harald V at Oslo’s Rikshospitalet following complications from severe hemolytic anemia. Crown Prince Haakon succeeds him as King Haakon VIII.`,
     contentEs: `<h1>Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono de Oslo</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=1200&h=630&fit=crop' alt='Palacio Real de Oslo con banderas a media asta' loading='lazy'><figcaption>Banderas a media asta en el Palacio Real de Oslo tras el anuncio de la muerte del rey Harald V. Fuente: Casa Real de Noruega / AFP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1145-king-harald-norway.jpg' alt='Palacio Real de Oslo con banderas a media asta' loading='lazy'><figcaption>Retrato oficial de Su Majestad el rey Harald V de Noruega. Fuente: Det Norske Kongehus / Archivo Real de Oslo.</figcaption></figure>
 <p class='lead'><em>La monarquía más antigua de Escandinavia cierra una era. A las 06:14 horas de este viernes 28 de agosto, el rey Harald V de Noruega falleció pacíficamente a los 89 años de edad en el Hospital Universitario Rikshospitalet de Oslo, rodeado de su familia cercana. Conforme a la Constitución noruega, su hijo el príncipe heredero asume de inmediato el trono bajo el nombre regio de Haakon VIII.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Un reinado de 35 años al servicio de la democracia</h2>
 <p>Harald V, quien ascendió al trono en enero de 1991 tras la muerte del rey Olav V, fue una de las figuras más respetadas y queridas del continente europeo. Reconocido por su cercanía ciudadana, su modernización de la institución monárquica y su célebre discurso inclusivo de 2016 sobre la diversidad de Noruega, el monarca navegó crisis nacionales con templanza institucional.</p>
@@ -25964,7 +25964,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>KH</div><div><div class='doc-card-title'>Det Norske Kongehus · Sitio Oficial</div><div class='doc-card-desc'>Proclamación oficial del deceso de S.M. el Rey Harald V y asunción de S.M. el Rey Haakon VIII.</div></div></a>
 <p>Con información de: Det Norske Kongehus (Casa Real), NRK Noruega, Reuters, BBC.</p>`,
     contentEn: `<h1>King Harald V of Norway dies at 89; Haakon VIII ascends to the throne in Oslo</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=1200&h=630&fit=crop' alt='Royal Palace in Oslo with flags at half-mast' loading='lazy'><figcaption>Flags flying at half-mast at the Royal Palace in Oslo following the death of King Harald V. Source: Royal Court of Norway / AFP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1145-king-harald-norway.jpg' alt='Royal Palace in Oslo with flags at half-mast' loading='lazy'><figcaption>Retrato oficial de Su Majestad el rey Harald V de Noruega. Fuente: Det Norske Kongehus / Archivo Real de Oslo.</figcaption></figure>
 <p class='lead'><em>An era of modern Nordic history concluded on Friday as King Harald V of Norway passed away peacefully at age 89 at Oslo University Hospital (Rikshospitalet). Crown Prince Haakon immediately succeeded him as King Haakon VIII in accordance with the Norwegian Constitution.</em></p>
 <h2 class='report-chapter'>Chapter 1 — A 35-year reign of unity</h2>
 <p>Ascending to the throne in 1991, Harald V earned widespread admiration as a unifying and progressive monarch. Renowned for his moral clarity and steadfast defense of democratic inclusivity, he guided Norway through major modern challenges with understated dignity.</p>
@@ -25983,8 +25983,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=1200&h=630&fit=crop',
-    imageCaption: `El Palacio Real de Oslo durante los actos solemnes de duelo por el rey Harald V. Fuente: Casa Real de Noruega / AFP.`,
+    imageUrl: '/images/blog/noticias-2026/1145-king-harald-norway.jpg',
+    imageCaption: `Retrato oficial de Su Majestad el rey Harald V de Noruega. Fuente: Det Norske Kongehus / Archivo Real de Oslo.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26003,7 +26003,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El Ministerio del Interior de España desplegó refuerzos policiales en el enclave norteafricano de Ceuta tras violentos choques frente al Centro de Estancia Temporal de Inmigrantes, haciendo un llamado a la serenidad institucional.`,
     excerptEn: `Spain’s Ministry of the Interior deployed riot police reinforcements to the North African enclave of Ceuta following violent clashes outside the migrant processing facility, appealing for civic calm.`,
     contentEs: `<h1>España llama a la calma tras noche de protestas y disturbios en Ceuta por crisis migratoria</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=630&fit=crop' alt='Valla fronteriza y despliegue de seguridad en Ceuta' loading='lazy'><figcaption>Efectivos de la Policía Nacional y Guardia Civil custodiando el perímetro del Tarajal en Ceuta. Fuente: EFE / El País.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1146-ceuta-tarajal-spain.jpg' alt='Valla fronteriza y despliegue de seguridad en Ceuta' loading='lazy'><figcaption>Perímetro fronterizo y espigón del Tarajal en la ciudad autónoma de Ceuta. Fuente: EFE / El País.</figcaption></figure>
 <p class='lead'><em>Tras una madrugada de intensos disturbios, barricadas con fuego y ataques cruzados en las inmediaciones del Centro de Estancia Temporal de Inmigrantes (CETI) de Ceuta, el Gobierno de España emitió este viernes un llamado enérgico a la concordia ciudadana y ordenó el envío de dos unidades de intervención policial (UIP) de refuerzo.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La escalada de tensión en el enclave</h2>
 <p>La tensión en la ciudad autónoma se disparó luego de semanas de saturación en las instalaciones de acogida, que albergan a más del triple de su capacidad oficial tras una oleada ininterrumpida de llegadas marítimas y terrestres a nado. Grupos vecinales y manifestantes convocados por redes sociales protagonizaron choques con residentes del centro y fuerzas de seguridad en el barrio del Príncipe Alfonso.</p>
@@ -26031,7 +26031,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://elpais.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EP</div><div><div class='doc-card-title'>El País · Sección España</div><div class='doc-card-desc'>Crónica sobre los disturbios en Ceuta y el dispositivo especial del Ministerio del Interior.</div></div></a>
 <p>Con información de: El País, Agencia EFE, RTVE, Ministerio del Interior de España.</p>`,
     contentEn: `<h1>Spain calls for calm following night of protests and unrest in Ceuta over migration crisis</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=630&fit=crop' alt='Border fence and security personnel in Ceuta' loading='lazy'><figcaption>National Police and Civil Guard units patrolling the Tarajal border perimeter in Ceuta. Source: EFE / El País.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1146-ceuta-tarajal-spain.jpg' alt='Border fence and security personnel in Ceuta' loading='lazy'><figcaption>Perímetro fronterizo y espigón del Tarajal en la ciudad autónoma de Ceuta. Fuente: EFE / El País.</figcaption></figure>
 <p class='lead'><em>Following a volatile night of street clashes, burning barricades, and scuffles outside the Migrant Temporary Stay Center (CETI) in Ceuta, the Spanish Government issued a firm appeal for civic restraint while dispatching two tactical police reinforcement units (UIP) to the enclave.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Overcrowding and community friction</h2>
 <p>Social tensions mounted after weeks of unprecedented arrivals pushed the processing center to 350% of nominal capacity. Demonstrations organized on social networks culminated in confrontations with security forces in the Príncipe Alfonso district, resulting in 18 arrests.</p>
@@ -26050,8 +26050,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=630&fit=crop',
-    imageCaption: `Dispositivo policial extraordinario en la ciudad autónoma de Ceuta. Fuente: EFE / El País.`,
+    imageUrl: '/images/blog/noticias-2026/1146-ceuta-tarajal-spain.jpg',
+    imageCaption: `Perímetro fronterizo y espigón del Tarajal en la ciudad autónoma de Ceuta. Fuente: EFE / El País.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26070,7 +26070,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El Instituto Nacional de Estadística (INE) reportó que el Índice de Precios de Consumo (IPC) subió cinco décimas en agosto impulsado por el encarecimiento de carburantes, electricidad y servicios turísticos de verano.`,
     excerptEn: `Spain’s National Statistics Institute (INE) reported that consumer price inflation (CPI) accelerated to 4.3% in August, driven by sharp rebounds in fuel, electricity, and peak summer hospitality costs.`,
     contentEs: `<h1>Inflación en España se dispara al 4,3% en agosto, el más alto en 18 meses</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop' alt='Mercados financieros y canasta básica en España' loading='lazy'><figcaption>Supermercados y comercios en Madrid registran el impacto del incremento en precios energéticos. Fuente: INE / Cinco Días.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1147-inflacion-espana-madrid.jpg' alt='Mercados financieros y canasta básica en España' loading='lazy'><figcaption>Sede histórica del Banco de España en Madrid donde se monitorea la evolución del IPC. Fuente: INE / Cinco Días.</figcaption></figure>
 <p class='lead'><em>El repunte de las tensiones energéticas globales y la presión de la demanda turística estival pasaron factura a la economía española. Según el indicador adelantado del Instituto Nacional de Estadística (INE), la tasa interanual del IPC se situó en agosto en el 4,3%, su registro más elevado desde comienzos de 2025.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Motores del incremento de precios</h2>
 <p>El dato supone una aceleración de medio punto porcentual respecto al 3,8% registrado en julio. El factor determinante fue la subida de los precios de las gasolinas y el diésel, que contrasta con las rebajas del mismo mes del año anterior, sumado al alza en las tarifas eléctricas reguladas por el encarecimiento del gas en el mercado ibérico MIBGAS.</p>
@@ -26099,7 +26099,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://ine.es' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INE</div><div><div class='doc-card-title'>Instituto Nacional de Estadística · IPC Agosto 2026</div><div class='doc-card-desc'>Nota de prensa y series estadísticas del Índice de Precios de Consumo.</div></div></a>
 <p>Con información de: INE España, Funcas, El Economista, Cinco Días.</p>`,
     contentEn: `<h1>Spanish inflation jumps to 4.3% in August reaching 18-month peak</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop' alt='Financial markets and consumer price data in Spain' loading='lazy'><figcaption>Commercial retail outlets in Madrid reflecting the impact of rebounding energy tariffs. Source: INE / Cinco Días.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1147-inflacion-espana-madrid.jpg' alt='Financial markets and consumer price data in Spain' loading='lazy'><figcaption>Sede histórica del Banco de España en Madrid donde se monitorea la evolución del IPC. Fuente: INE / Cinco Días.</figcaption></figure>
 <p class='lead'><em>Global energy volatility and peak summer tourism demand took a toll on Spanish consumer pricing in August, with the headline Consumer Price Index (CPI) accelerating to 4.3% year-on-year, its highest mark since early 2025 according to flash estimates from the National Statistics Institute (INE).</em></p>
 <h2 class='report-chapter'>Chapter 1 — Key inflationary drivers</h2>
 <p>The headline metric surged 0.5 percentage points above July's 3.8% print. The primary contributors were sharp rises in automotive fuels and regulated electricity tariffs, alongside elevated costs across hospitality and package holiday services.</p>
@@ -26118,8 +26118,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop',
-    imageCaption: `Evolución del IPC y precios de consumo en España durante agosto de 2026. Fuente: INE / Cinco Días.`,
+    imageUrl: '/images/blog/noticias-2026/1147-inflacion-espana-madrid.jpg',
+    imageCaption: `Sede histórica del Banco de España en Madrid donde se monitorea la evolución del IPC. Fuente: INE / Cinco Días.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26138,7 +26138,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `A medio año del estallido del conflicto militar a gran escala en territorio iraní, los frentes de combate se estancan en una guerra de desgaste con impacto crítico en las rutas petroleras del Golfo Pérsico.`,
     excerptEn: `Six months after the outbreak of large-scale military conflict across Iranian territory, combat fronts have settled into a grinding war of attrition with critical repercussions for Persian Gulf energy corridors.`,
     contentEs: `<h1>Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento regional</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1573673258946-4de097d42b0e?w=1200&h=630&fit=crop' alt='Columnas de humo y despliegue militar en Medio Oriente' loading='lazy'><figcaption>Instalaciones militares y de refinación afectadas por ataques aéreos en el Golfo Pérsico. Fuente: Reuters / AP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1148-iran-hormuz-war.jpg' alt='Columnas de humo y despliegue militar en Medio Oriente' loading='lazy'><figcaption>Torre Azadi en Teherán, epicentro institucional durante los seis meses de conflicto en Irán. Fuente: Reuters / AP.</figcaption></figure>
 <p class='lead'><em>Seis meses después de que los primeros ataques aéreos masivos dieran inicio a las hostilidades abiertas en torno a las instalaciones nucleares y militares de Irán, la contienda ha mutado de una campaña de bombardeos de alta precisión a un prolongado conflicto de desgaste regional que desafía los equilibrios geopolíticos globales.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La parálisis de las líneas de frente</h2>
 <p>Lo que inicialmente fue proyectado por analistas occidentales como una operación quirúrgica rápida para neutralizar las capacidades balísticas de Teherán ha derivado en una guerra asimétrica multidimensional. Los ataques de drones y misiles antibuque contra petroleros en el estrecho de Ormuz han encarecido los fletes marítimos globales en un 220%, mientras las defensas antiaéreas iraníes continúan operando desde complejos subterráneos.</p>
@@ -26167,7 +26167,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://reuters.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>REU</div><div><div class='doc-card-title'>Reuters · Especial Medio Oriente</div><div class='doc-card-desc'>Informe de balance militar y geopolítico a seis meses del inicio del conflicto en Irán.</div></div></a>
 <p>Con información de: Reuters, AP, Al Jazeera, IISS London.</p>`,
     contentEn: `<h1>Six months of war in Iran: from surprise offensive to regional stalemate</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1573673258946-4de097d42b0e?w=1200&h=630&fit=crop' alt='Smoke plumes and military deployment in the Middle East' loading='lazy'><figcaption>Strategic infrastructure and military installations impacted by regional airstrikes in the Persian Gulf. Source: Reuters / AP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1148-iran-hormuz-war.jpg' alt='Smoke plumes and military deployment in the Middle East' loading='lazy'><figcaption>Torre Azadi en Teherán, epicentro institucional durante los seis meses de conflicto en Irán. Fuente: Reuters / AP.</figcaption></figure>
 <p class='lead'><em>Half a year after initial air bombardments inaugurated full-scale military conflict around Iranian defense complexes, the campaign has shifted from rapid precision strikes into an entrenched war of attrition severely impacting global maritime energy lanes.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Strategic deadlock and maritime disruption</h2>
 <p>Initial expectations of swift capitulation have given way to protracted asymmetric skirmishes. Asymmetric drone swarm tactics and anti-ship missile strikes near the Strait of Hormuz have pushed maritime insurance rates up by 220%, forcing substantial volumes of crude tankers to detour around the Cape of Good Hope.</p>
@@ -26186,8 +26186,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '6 min de lectura',
     readTimeEn: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1573673258946-4de097d42b0e?w=1200&h=630&fit=crop',
-    imageCaption: `Operaciones militares y tensión marítima en el Golfo Pérsico. Fuente: Reuters / AP.`,
+    imageUrl: '/images/blog/noticias-2026/1148-iran-hormuz-war.jpg',
+    imageCaption: `Torre Azadi en Teherán, epicentro institucional durante los seis meses de conflicto en Irán. Fuente: Reuters / AP.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26206,7 +26206,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El presidente estadounidense Donald Trump firmó una polémica orden ejecutiva rebautizando la porción estadounidense del lago Ontario, desatando una enérgica protesta diplomática por parte del gobierno canadiense.`,
     excerptEn: `US President Donald Trump enacted a controversial executive order renaming the US waters of Lake Ontario as ‘Lake America’, provoking a sharp diplomatic rebuke from Canadian federal authorities.`,
     contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza categóricamente</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop' alt='Aguas abiertas del lago Ontario en la frontera entre EEUU y Canadá' loading='lazy'><figcaption>Costa meridional del lago Ontario en el estado de Nueva York. Fuente: AP Photo / CBC News.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1149-lake-ontario.jpg' alt='Aguas abiertas del lago Ontario en la frontera entre EEUU y Canadá' loading='lazy'><figcaption>Aguas y ribera del lago Ontario sujetas a disputa de nomenclatura entre Washington y Ottawa. Fuente: AP / CBC News.</figcaption></figure>
 <p class='lead'><em>En una decisión que escala las tensiones bilaterales entre Washington y Ottawa, el presidente de los Estados Unidos, Donald Trump, estampó su firma en una orden ejecutiva que instruye a los organismos federales y cartográficos denominar formalmente a las aguas meridionales del lago Ontario como 'Lake America' (Lago América).</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La orden ejecutiva y su fundamentación</h2>
 <p>La ceremonia de firma tuvo lugar en un acto público en el norte del estado de Nueva York. Según la Casa Blanca, la medida busca "reivindicar el patrimonio histórico y la soberanía hídrica de los Estados Unidos" en los Grandes Lagos. La directiva obliga al Servicio Geológico de EE.UU. (USGS) y a la Administración Nacional Oceánica y Atmosférica (NOAA) a actualizar todas las cartas de navegación y mapas federales en un plazo de 60 días.</p>
@@ -26234,7 +26234,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://cbc.ca' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CBC</div><div><div class='doc-card-title'>CBC News · Ottawa Diplomatic Desk</div><div class='doc-card-desc'>Nota oficial de rechazo canadiense a la orden ejecutiva sobre el lago Ontario.</div></div></a>
 <p>Con información de: CBC News, The Washington Post, AP, Global Affairs Canada.</p>`,
     contentEn: `<h1>Trump signs executive order renaming Lake Ontario 'Lake America'; Canada strongly rejects</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop' alt='Open waters of Lake Ontario on the US-Canada boundary' loading='lazy'><figcaption>Southern shoreline of Lake Ontario in upstate New York. Source: AP Photo / CBC News.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1149-lake-ontario.jpg' alt='Open waters of Lake Ontario on the US-Canada boundary' loading='lazy'><figcaption>Aguas y ribera del lago Ontario sujetas a disputa de nomenclatura entre Washington y Ottawa. Fuente: AP / CBC News.</figcaption></figure>
 <p class='lead'><em>Igniting fresh diplomatic turbulence between Washington and Ottawa, US President Donald Trump signed an executive order directing federal cartographic and maritime agencies to officially rename the US portion of Lake Ontario as 'Lake America'.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Executive directive and domestic scope</h2>
 <p>Announced during a public rally in upstate New York, the decree mandates that the US Geological Survey (USGS) and NOAA update all federal navigation charts and educational maps within 60 days to reflect the new designation.</p>
@@ -26253,8 +26253,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop',
-    imageCaption: `Aguas fronterizas del lago Ontario sujetas a disputa toponímica. Fuente: AP / CBC News.`,
+    imageUrl: '/images/blog/noticias-2026/1149-lake-ontario.jpg',
+    imageCaption: `Aguas y ribera del lago Ontario sujetas a disputa de nomenclatura entre Washington y Ottawa. Fuente: AP / CBC News.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26273,7 +26273,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Meta Platforms implementará controles parentales obligatorios, apagado automático nocturno y límites al algoritmo de recomendación para usuarios menores de 18 años tras cerrar un acuerdo judicial histórico con fiscales en EEUU.`,
     excerptEn: `Meta Platforms announced mandatory parental controls, default nighttime screen freezes, and algorithmic restrictions for users under 18 following an unprecedented $18 billion multi-state judicial settlement.`,
     contentEs: `<h1>Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones en tribunales</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop' alt='Sede de Meta Platforms y aplicaciones móviles de redes sociales' loading='lazy'><figcaption>Logotipo de Meta e interfaces móviles de Instagram y WhatsApp sujetas a las nuevas restricciones de seguridad para menores. Fuente: Meta Newsroom / Reuters.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1150-meta-headquarters.jpg' alt='Sede de Meta Platforms y aplicaciones móviles de redes sociales' loading='lazy'><figcaption>Sede central de Meta Platforms en Menlo Park, California. Fuente: Meta Newsroom / Reuters.</figcaption></figure>
 <p class='lead'><em>En lo que representa la mayor transformación regulatoria de su modelo de negocio desde su fundación, Meta Platforms Inc. anunció un paquete integral de salvaguardas y restricciones para usuarios menores de 18 años en Instagram y Facebook, en cumplimiento del histórico acuerdo judicial de 18.000 millones de dólares alcanzado con una coalición de 42 fiscales generales en Estados Unidos.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Las nuevas medidas técnicas obligatorias</h2>
 <p>El paquete de reformas incluye la activación automática de 'Cuentas para Adolescentes' hiperprotegidas: todos los perfiles de menores de 16 años pasarán a ser privados por defecto, se bloqueará la recepción de mensajes directos de adultos no añadidos como contactos y se impondrá un 'toque de queda digital' que congelará las notificaciones entre las 22:00 y las 07:00 horas.</p>
@@ -26302,7 +26302,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://about.fb.com/news/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>META</div><div><div class='doc-card-title'>Meta Newsroom · Teen Accounts Announcement</div><div class='doc-card-desc'>Especificaciones técnicas de los nuevos controles parentales y límites de pantalla.</div></div></a>
 <p>Con información de: Meta Newsroom, The Wall Street Journal, Reuters, Financial Times.</p>`,
     contentEn: `<h1>Meta rolls out strict minor protections following landmark $18B legal settlement</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop' alt='Meta Platforms corporate branding and social mobile apps' loading='lazy'><figcaption>Meta logos and mobile interfaces of Instagram and WhatsApp subject to new underage safety guardrails. Source: Meta Newsroom / Reuters.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1150-meta-headquarters.jpg' alt='Meta Platforms corporate branding and social mobile apps' loading='lazy'><figcaption>Sede central de Meta Platforms en Menlo Park, California. Fuente: Meta Newsroom / Reuters.</figcaption></figure>
 <p class='lead'><em>In the most far-reaching regulatory overhaul of its platform architecture to date, Meta Platforms Inc. introduced mandatory safety guardrails for users under 18 across Instagram and Facebook, fulfilling terms of an unprecedented $18 billion legal settlement with a bipartisan coalition of 42 state attorneys general.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Mandatory youth safety features</h2>
 <p>The overhaul establishes default private accounts for all teens under 16, blocks direct messaging from unlinked adult accounts, and enforces an automated sleep mode that silences app notifications between 10:00 PM and 7:00 AM. In addition, feed recommendation engines will strictly filter cosmetic surgery promotion and extreme diet content.</p>
@@ -26321,8 +26321,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop',
-    imageCaption: `Nuevas políticas de seguridad y límites de interacción para menores en Meta. Fuente: Meta Newsroom / Reuters.`,
+    imageUrl: '/images/blog/noticias-2026/1150-meta-headquarters.jpg',
+    imageCaption: `Sede central de Meta Platforms en Menlo Park, California. Fuente: Meta Newsroom / Reuters.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26341,7 +26341,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Olas de calor extremas y vientos cálidos del Sáhara desataron más de 40 focos de fuego en las provincias montañosas de Cabilia y Bugía, cobrando la vida de 12 personas y forzando la evacuación de miles de familias.`,
     excerptEn: `Blistering heatwaves and desert winds sparked over 40 fast-moving wildfires across Algeria’s mountainous Kabylie and Bejaia provinces, killing 12 people and displacing thousands.`,
     contentEs: `<h1>Incendios forestales en Argelia dejan 12 muertos; tres días de luto nacional</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&h=630&fit=crop' alt='Frentes de fuego e incendios forestales en montañas de Argelia' loading='lazy'><figcaption>Bomberos de la Protección Civil de Argelia combatiendo las llamas en la provincia costera de Bugía. Fuente: APS Argelia / AFP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1151-argelia-incendios-kabylie.jpg' alt='Frentes de fuego e incendios forestales en montañas de Argelia' loading='lazy'><figcaption>Cordillera montañosa de Djurdjura en la Cabilia argelina afectada por los incendios forestales. Fuente: APS Argelia / AFP.</figcaption></figure>
 <p class='lead'><em>Una trágica combinación de temperaturas que rozaron los 48 grados Celsius y violentas ráfagas de viento del sur (Siroco) desató una ola de incendios forestales en el norte de Argelia, provocando la muerte de al menos 12 personas —entre ellas cuatro militares que participaban en tareas de rescate— y arrasando con miles de hectáreas de olivares y bosques de pino.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La vorágine del fuego en Cabilia</h2>
 <p>Los focos más críticos se concentran en las escarpadas provincias de Bugía, Tizi Uzu y Jijel, donde las llamas descendieron velozmente por las laderas amenazando a decenas de pueblos berberiscos. La Dirección General de Protección Civil desplegó más de 3.000 efectivos, 12 aviones cisterna Beriev e hidroaviones movilizados por el Ministerio de Defensa Nacional.</p>
@@ -26369,7 +26369,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://aps.dz' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>APS</div><div><div class='doc-card-title'>Algérie Presse Service · Urgences Nationales</div><div class='doc-card-desc'>Parte oficial de la Protección Civil sobre el combate de incendios en Bugía.</div></div></a>
 <p>Con información de: APS Argelia, AFP, Le Figaro, Protección Civil Argelina.</p>`,
     contentEn: `<h1>Algerian forest fires leave 12 dead as government declares three days of national mourning</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&h=630&fit=crop' alt='Wildfires burning across rugged mountains in northern Algeria' loading='lazy'><figcaption>Algerian Civil Protection firefighters battling blazes along mountain ridges in Bejaia province. Source: APS Algeria / AFP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1151-argelia-incendios-kabylie.jpg' alt='Wildfires burning across rugged mountains in northern Algeria' loading='lazy'><figcaption>Cordillera montañosa de Djurdjura en la Cabilia argelina afectada por los incendios forestales. Fuente: APS Argelia / AFP.</figcaption></figure>
 <p class='lead'><em>A deadly convergence of 48°C extreme temperatures and scorching southerly desert winds fueled over 40 aggressive wildfires across northern Algeria, claiming at least 12 lives—including four soldiers engaged in evacuation duties—and consuming thousands of hectares of olive groves and pine forests.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Firestorm across the Kabylie highlands</h2>
 <p>The most dangerous fires engulfed slopes in Bejaia, Tizi Ouzou, and Jijel provinces, threatening historic Berber villages. Over 3,000 civil protection firefighters and 12 water-bomber aircraft mobilized under military command.</p>
@@ -26388,8 +26388,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&h=630&fit=crop',
-    imageCaption: `Operativos aéreos y terrestres contra los incendios forestales en el norte de Argelia. Fuente: APS / AFP.`,
+    imageUrl: '/images/blog/noticias-2026/1151-argelia-incendios-kabylie.jpg',
+    imageCaption: `Cordillera montañosa de Djurdjura en la Cabilia argelina afectada por los incendios forestales. Fuente: APS Argelia / AFP.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26408,7 +26408,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Rockstar Games lanzó un extenso metraje cinemático in-engine de Grand Theft Auto VI ambientado en el estado ficticio de Leonida, exhibiendo avances revolucionarios en física de fluidos, animación facial e inteligencia artificial de NPCs.`,
     excerptEn: `Rockstar Games dropped a major in-engine gameplay and cinematic showcase for Grand Theft Auto VI set across the fictional state of Leonida, showcasing groundbreaking strides in fluid physics, facial rendering, and NPC AI.`,
     contentEs: `<h1>Rockstar presenta vista oficial de GTA 6: fans y críticos impactados por el realismo</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=630&fit=crop' alt='Pantalla de videojuegos next-gen y producción de Rockstar Games' loading='lazy'><figcaption>Captura del avance técnico de Grand Theft Auto VI presentado por Rockstar Games en su portal oficial. Fuente: Rockstar Games Press.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1152-rockstar-games-gta.jpg' alt='Pantalla de videojuegos next-gen y producción de Rockstar Games' loading='lazy'><figcaption>Sede de Rockstar Games donde se desarrolló el motor RAGE 9 para Grand Theft Auto VI. Fuente: Rockstar Games Press.</figcaption></figure>
 <p class='lead'><em>La espera de más de una década para la comunidad global de los videojuegos alcanzó un clímax histórico este viernes. Rockstar Games publicó de manera sorpresiva una presentación técnica y cinemática en tiempo real de Grand Theft Auto VI, deslumbrando a la industria con un nivel de fidelidad gráfica y dinamismo urbano nunca antes visto en consolas de última generación.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La recreación de Vice City y el estado de Leonida</h2>
 <p>El material audiovisual, capturado íntegramente en hardware PlayStation 5 Pro y Xbox Series X, ofreció una inmersión profunda en las calles de Vice City, las zonas pantanosas de Grassrivers y las playas atestadas de turistas. Los avances en el motor propietario RAGE 9 destacan por la simulación volumétrica de nubes, deformación de agua en tiempo real y densidad de tráfico orgánico.</p>
@@ -26436,7 +26436,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://rockstargames.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>R*</div><div><div class='doc-card-title'>Rockstar Games · Official NewsWire</div><div class='doc-card-desc'>Galería de capturas en alta resolución y detalles técnicos del motor RAGE 9 para GTA 6.</div></div></a>
 <p>Con información de: Rockstar Games NewsWire, IGN, Eurogamer, Bloomberg Tech.</p>`,
     contentEn: `<h1>Rockstar unveils official in-engine look at GTA 6: fans and critics stunned by visual fidelity</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=630&fit=crop' alt='Next-gen gaming showcase and Rockstar Games production' loading='lazy'><figcaption>In-engine visual capture from Grand Theft Auto VI released across official channels by Rockstar Games. Source: Rockstar Games Press.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1152-rockstar-games-gta.jpg' alt='Next-gen gaming showcase and Rockstar Games production' loading='lazy'><figcaption>Sede de Rockstar Games donde se desarrolló el motor RAGE 9 para Grand Theft Auto VI. Fuente: Rockstar Games Press.</figcaption></figure>
 <p class='lead'><em>Ending a decade-long wait for the global gaming industry, Rockstar Games unexpectedly published an extensive in-engine technical showcase of Grand Theft Auto VI on Friday, setting a new benchmark for open-world visual realism and simulation density on modern consoles.</em></p>
 <h2 class='report-chapter'>Chapter 1 — The living sprawl of Vice City</h2>
 <p>Captured on next-generation hardware, the footage demonstrated the sheer technical leap enabled by the proprietary RAGE 9 engine: real-time volumetric weather systems, hyper-realistic fluid displacement, and unprecedented pedestrian density throughout Vice City and surrounding bayous.</p>
@@ -26455,8 +26455,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=630&fit=crop',
-    imageCaption: `Avance cinemático in-engine de Grand Theft Auto VI. Fuente: Rockstar Games Press.`,
+    imageUrl: '/images/blog/noticias-2026/1152-rockstar-games-gta.jpg',
+    imageCaption: `Sede de Rockstar Games donde se desarrolló el motor RAGE 9 para Grand Theft Auto VI. Fuente: Rockstar Games Press.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26475,7 +26475,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Grupos de familiares de turistas y montañistas británicos arribaron a Katmandú para coordinar directamente con diplomáticos del Foreign Office y brigadas nepalíes la búsqueda de 33 senderistas incomunicados en la ruta Langtang-Tíbet.`,
     excerptEn: `Distressed relatives of British trekkers arrived in Kathmandu to coordinate with UK Foreign Office consuls and Nepali rescue teams in the search for 33 mountaineers missing along the Langtang-Tibet route.`,
     contentEs: `<h1>Familias vuelan a Nepal en busca de 33 británicos desaparecidos tras riada</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop' alt='Aeropuerto internacional de Katmandú y equipos de rescate de montaña' loading='lazy'><figcaption>Familiares y diplomáticos británicos en el Aeropuerto Internacional Tribhuvan de Katmandú. Fuente: BBC News / AP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1153-nepal-langtang-valley.jpg' alt='Aeropuerto internacional de Katmandú y equipos de rescate de montaña' loading='lazy'><figcaption>Valle montañoso de Langtang en el Himalaya donde se concentra la búsqueda de los excursionistas. Fuente: BBC News / AP.</figcaption></figure>
 <p class='lead'><em>En medio de la angustia y la falta de comunicaciones terrestres, más de una veintena de familiares de montañistas y cooperantes británicos aterrizaron este viernes en el Aeropuerto Internacional de Katmandú para seguir de cerca las labores de rescate de los 33 ciudadanos del Reino Unido declarados como desaparecidos tras la descomunal riada del río Bhote Koshi.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La expedición atrapada en Langtang</h2>
 <p>El contingente de senderistas británicos formaba parte de tres grupos de expedición de alta montaña que transitaban los senderos entre los valles de Langtang y Tatopani, en las inmediaciones de la frontera con el Tíbet. Las riadas de lodo y el colapso de puentes colgantes destruyeron los refugios de montaña y torres de telefonía celular, impidiendo cualquier contacto satelital desde la madrugada del miércoles.</p>
@@ -26503,7 +26503,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://bbc.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>BBC</div><div><div class='doc-card-title'>BBC News · World Asia</div><div class='doc-card-desc'>Crónica sobre el operativo de búsqueda de excursionistas británicos en el Himalaya.</div></div></a>
 <p>Con información de: BBC News, The Guardian, AP, FCDO UK.</p>`,
     contentEn: `<h1>Families fly to Nepal searching for 33 British trekkers missing after glacial flood</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop' alt='Kathmandu International Airport with mountain rescue teams' loading='lazy'><figcaption>British families and consular response personnel arriving at Tribhuvan International Airport in Kathmandu. Source: BBC News / AP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1153-nepal-langtang-valley.jpg' alt='Kathmandu International Airport with mountain rescue teams' loading='lazy'><figcaption>Valle montañoso de Langtang en el Himalaya donde se concentra la búsqueda de los excursionistas. Fuente: BBC News / AP.</figcaption></figure>
 <p class='lead'><em>Amid severed communications and blocked mountain trails, over twenty family members of British trekkers landed in Kathmandu on Friday to coordinate directly with UK consular officials and local search parties for 33 nationals missing along the Bhote Koshi corridor.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Stranded in high-altitude Langtang</h2>
 <p>The missing trekkers were navigating classic routes between Langtang Valley and Tatopani when catastrophic glacial outburst surges swept away suspension footbridges and cellular relays, leaving the expedition cut off from base communications.</p>
@@ -26522,8 +26522,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-28',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop',
-    imageCaption: `Llegada de brigadas internacionales y familiares de desaparecidos a Katmandú. Fuente: BBC News / AP.`,
+    imageUrl: '/images/blog/noticias-2026/1153-nepal-langtang-valley.jpg',
+    imageCaption: `Valle montañoso de Langtang en el Himalaya donde se concentra la búsqueda de los excursionistas. Fuente: BBC News / AP.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26542,7 +26542,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Un contingente de más de 200 efectivos policiales intervino con gases lacrimógenos el bloqueo campesino en el límite entre Santa Cruz y Beni, logrando el paso momentáneo de decenas de camiones cisterna varados.`,
     excerptEn: `A police detachment of over 200 riot officers deployed tear gas to break up a peasant highway blockade on the Santa Cruz-Beni border, temporarily allowing stranded fuel tankers to resume transit.`,
     contentEs: `<h1>Policía gasifica bloqueadores en puente San Pablo y despeja la vía temporalmente</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1509822929464-92b5bbab86b4?w=1200&h=630&fit=crop' alt='Efectivos policiales y contingente antimotines en carretera boliviana' loading='lazy'><figcaption>Contingente de la Policía Boliviana durante el operativo de despeje en el puente San Pablo. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1154-policia-boliviana-operativo.jpg' alt='Efectivos policiales y contingente antimotines en carretera boliviana' loading='lazy'><figcaption>Efectivos de la Policía Boliviana en tareas de control y despeje de carreteras. Fuente: Policía Boliviana / El Deber.</figcaption></figure>
 <p class='lead'><em>En un operativo táctico ejecutado en las primeras horas de la madrugada del jueves 27 de agosto, más de doscientos efectivos de la Policía Boliviana intervinieron el punto de bloqueo instalado en el puente San Pablo sobre la carretera interdepartamental Santa Cruz-Trinidad, utilizando agentes químicos para dispersar a los manifestantes y habilitar el paso vehicular.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El operativo de la madrugada</h2>
 <p>El contingente policial avanzó desde la localidad de Guarayos con apoyo de dos carros Neptuno de dispersión hídrica y maquinaria pesada de la Administradora Boliviana de Carreteras (ABC). Los comunarios y transportistas respondieron con piedras y petardos antes de replegarse hacia los matorrales adyacentes a la vía troncal.</p>
@@ -26570,7 +26570,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Seguridad y Carreteras</div><div class='doc-card-desc'>Informe gráfico y parte policial del operativo de desbloqueo en San Pablo.</div></div></a>
 <p>Con información de: El Deber, Unitel, Comando Departamental de Policía Santa Cruz.</p>`,
     contentEn: `<h1>Anti-riot police use tear gas to disperse San Pablo bridge protesters and temporarily open highway</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1509822929464-92b5bbab86b4?w=1200&h=630&fit=crop' alt='Bolivian riot police deployed along interdepartmental highway' loading='lazy'><figcaption>Bolivian Police tactical units during the highway clearance operation at San Pablo bridge. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1154-policia-boliviana-operativo.jpg' alt='Bolivian riot police deployed along interdepartmental highway' loading='lazy'><figcaption>Efectivos de la Policía Boliviana en tareas de control y despeje de carreteras. Fuente: Policía Boliviana / El Deber.</figcaption></figure>
 <p class='lead'><em>In a coordinated dawn tactical operation on Thursday, August 27, over two hundred Bolivian riot police officers cleared the agrarian blockade on the San Pablo bridge along the Santa Cruz-Trinidad highway, deploying chemical dispersants to restore essential transit.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Dawn clearance operation</h2>
 <p>Supported by ABC earthmovers and specialized crowd dispersal units, police advanced to dismantle debris barricades while protesters staged a tactical retreat into adjacent forested areas after minor skirmishes.</p>
@@ -26589,8 +26589,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1509822929464-92b5bbab86b4?w=1200&h=630&fit=crop',
-    imageCaption: `Operativo de despeje en el puente San Pablo ejecutado por la Policía Boliviana. Fuente: El Deber / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1154-policia-boliviana-operativo.jpg',
+    imageCaption: `Efectivos de la Policía Boliviana en tareas de control y despeje de carreteras. Fuente: Policía Boliviana / El Deber.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26609,7 +26609,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Una comisión de fiscales anticorrupción allanó el inmueble alquilado por Fernando Cerimedo en la zona residencial de Equipetrol, secuestrando computadoras y agendas de reuniones, mientras se alista la citación de testigos clave.`,
     excerptEn: `Anti-corruption prosecutors raided Fernando Cerimedo’s rented penthouse in the Equipetrol district of Santa Cruz, seizing computers and financial logs while issuing witness subpoenas to key associates.`,
     contentEs: `<h1>Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser citada a declarar</h1>
-<figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Operativos fiscales e inmuebles en el barrio Equipetrol de Santa Cruz' loading='lazy'><figcaption>Fiscales y agentes de la FELCC durante el allanamiento a oficinas vinculadas al caso Cerimedo en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1155-equipetrol-santa-cruz.jpg' alt='Operativos fiscales e inmuebles en el barrio Equipetrol de Santa Cruz' loading='lazy'><figcaption>Edificios y oficinas corporativas del barrio Equipetrol en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En el marco de las pesquisas por presunto tráfico de influencias y cobros indebidos en licitaciones estatales, una comisión de fiscales anticorrupción acompañada por peritos de la Fuerza Especial de Lucha Contra el Crimen (FELCC) ejecutó una orden judicial de allanamiento y secuestro de evidencias en el departamento habitado por el consultor argentino Fernando Cerimedo en el exclusivo barrio Equipetrol de Santa Cruz.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La recolección de indicios digitales</h2>
 <p>El operativo judicial se prolongó por más de tres horas en el sexto piso del edificio empresarial 'Torre Titanium'. Los investigadores precintaron y secuestraron dos computadoras portátiles de alta gama, tres discos duros externos encriptados, agendas de trabajo y contratos de prestación de servicios suscritos entre 2024 y 2026.</p>
@@ -26638,7 +26638,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>FGE</div><div><div class='doc-card-title'>Fiscalía Departamental de Santa Cruz · Nota Oficial</div><div class='doc-card-desc'>Acta del operativo de allanamiento y registro en el barrio Equipetrol.</div></div></a>
 <p>Con información de: El Deber, Unitel, Red Uno, Fiscalía General del Estado.</p>`,
     contentEn: `<h1>Prosecutors raid Cerimedo’s Equipetrol apartment; attorney Beller summoned for deposition</h1>
-<figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Judicial police units outside building in Equipetrol district' loading='lazy'><figcaption>Anti-corruption prosecutors and police forensics executing a search warrant on Cerimedo-linked offices in Santa Cruz. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1155-equipetrol-santa-cruz.jpg' alt='Judicial police units outside building in Equipetrol district' loading='lazy'><figcaption>Edificios y oficinas corporativas del barrio Equipetrol en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Deepening the criminal probe into alleged procurement kickbacks and influence peddling inside public infrastructure contracts, a specialized anti-corruption prosecution team alongside FELCC forensics executed a judicial search warrant at Argentine political strategist Fernando Cerimedo’s apartment in Santa Cruz’s upscale Equipetrol quarter.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Seizure of digital forensics</h2>
 <p>During the three-hour search of a residential office suite, investigators seized two encrypted laptops, three external storage drives, personal agendas, and commercial consulting contracts covering 2024 to 2026.</p>
@@ -26657,8 +26657,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: '/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg',
-    imageCaption: `Operativo judicial de allanamiento y registro en el barrio Equipetrol de Santa Cruz. Fuente: El Deber / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1155-equipetrol-santa-cruz.jpg',
+    imageCaption: `Edificios y oficinas corporativas del barrio Equipetrol en Santa Cruz. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26677,7 +26677,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El senador Rodrigo Paz defendió la necesidad de controlar la comercialización de carburantes para frenar el desvío ilícito a la minería ilegal y el contrabando, aunque abrió la puerta a flexibilizar trámites para el agro.`,
     excerptEn: `Senator Rodrigo Paz defended regulatory oversight to curb illicit fuel diversions into illegal gold mining and smuggling, while advocating for streamlined paperwork for legitimate agricultural producers.`,
     contentEs: `<h1>Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder en la formalización'</h1>
-<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz en debate parlamentario sobre políticas de hidrocarburos' loading='lazy'><figcaption>El senador Rodrigo Paz durante su exposición en el Senado sobre la regulación de hidrocarburos en Bolivia. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1156-asamblea-legislativa-la-paz.jpg' alt='Rodrigo Paz en debate parlamentario sobre políticas de hidrocarburos' loading='lazy'><figcaption>Palacio Legislativo en La Paz donde se analizan las modificaciones al DS 5676. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En medio del creciente debate sobre las restricciones de compra de diésel impuestas al sector productivo, el senador Rodrigo Paz Pereira sostuvo que el Decreto Supremo 5676 contiene elementos indispensables para combatir las mafias del contrabando fronterizo, aunque admitió que la norma debe ser perfeccionada con urgencia para no asfixiar a los pequeños agricultores.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El dilema entre control y abastecimiento</h2>
 <p>Paz argumentó que una parte sustancial del combustible subvencionado con fondos públicos termina desviada hacia factorías de narcotráfico y campamentos de minería ilegal de oro en el norte de La Paz y la Amazonía. Sin embargo, reconoció que la exigencia de trámites digitales y cupos reducidos ha perjudicado a quienes realmente producen alimentos en los valles y el oriente.</p>
@@ -26706,7 +26706,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://lostiempos.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LT</div><div><div class='doc-card-title'>Los Tiempos · Política Nacional</div><div class='doc-card-desc'>Declaraciones del senador Rodrigo Paz sobre la reformulación del DS 5676.</div></div></a>
 <p>Con información de: Los Tiempos, El Deber, ERBOL, Prensa Senado.</p>`,
     contentEn: `<h1>Paz on fuel decree DS 5676: 'It can be improved, but we cannot retreat on market oversight'</h1>
-<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz addressing parliamentary debate on energy policy' loading='lazy'><figcaption>Senator Rodrigo Paz speaking during a Senate policy committee session on fuel market regulations. Source: Senate Press / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1156-asamblea-legislativa-la-paz.jpg' alt='Rodrigo Paz addressing parliamentary debate on energy policy' loading='lazy'><figcaption>Palacio Legislativo en La Paz donde se analizan las modificaciones al DS 5676. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Amid polarized debates over diesel purchase quotas, Senator Rodrigo Paz Pereira affirmed that Supreme Decree 5676 established essential anti-contraband safeguards, but urged the central administration to promptly amend its operational rules to protect smallholder farmers.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Balancig oversight with productivity</h2>
 <p>Paz pointed out that vast volumes of state-subsidized fuel are siphoned off into illicit gold mining operations and border contraband networks. Nonetheless, he acknowledged that rigid electronic registration requirements have paralyzed food producers across eastern and valley provinces.</p>
@@ -26726,8 +26726,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: '/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg',
-    imageCaption: `El senador Rodrigo Paz exponiendo alternativas para la reglamentación del DS 5676. Fuente: Prensa Senado / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1156-asamblea-legislativa-la-paz.jpg',
+    imageCaption: `Palacio Legislativo en La Paz donde se analizan las modificaciones al DS 5676. Fuente: Prensa Senado / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26746,7 +26746,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `La Cámara Alta aprobó el contrato de préstamo con el Banco Interamericano de Desarrollo para financiar la ampliación de la Línea Café y la modernización tecnológica del sistema de transporte por cable Mi Teleférico.`,
     excerptEn: `The Bolivian Senate sanctioned a $62 million loan agreement with the Inter-American Development Bank to finance the expansion of the Brown Line and technological modernization of Mi Teleférico.`,
     contentEs: `<h1>Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop' alt='Cabinas de Mi Teleférico sobrevolando la ciudad de La Paz y el Illimani' loading='lazy'><figcaption>Cabinas del sistema Mi Teleférico sobrevolando la ladera este de La Paz con el nevado Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1157-mi-teleferico-la-paz.jpg' alt='Cabinas de Mi Teleférico sobrevolando la ciudad de La Paz y el Illimani' loading='lazy'><figcaption>Cabinas de Mi Teleférico sobrevolando La Paz con el majestuoso Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En una sesión plenaria respaldada por legisladores de las tres bancadas paceñas, la Cámara de Senadores sancionó por unanimidad la ley que aprueba el contrato de préstamo suscrito entre el Estado boliviano y el Banco Interamericano de Desarrollo (BID) por un monto de 62 millones de dólares destinados a la expansión del sistema de transporte urbano por cable 'Mi Teleférico'.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El destino de las nuevas inversiones</h2>
 <p>El financiamiento internacional se destinará principalmente a la prolongación del tramo II de la Línea Café, que conectará la estación de Miraflores con los barrios de Samapa y Pampahasi en la ladera este paceña, beneficiando de forma directa a más de 65.000 habitantes de zonas de difícil acceso topográfico.</p>
@@ -26775,7 +26775,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://miteleferico.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>MT</div><div><div class='doc-card-title'>Empresa Estatal de Transporte por Cable Mi Teleférico</div><div class='doc-card-desc'>Ficha técnica y trazado de la ampliación de la Línea Café hacia Pampahasi.</div></div></a>
 <p>Con información de: Prensa Senado, Mi Teleférico, La Razón, ABI.</p>`,
     contentEn: `<h1>Senate sanctions $62 million IDB loan to expand La Paz-El Alto cable car transit system</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop' alt='Mi Teleférico cable cars gliding over La Paz with Mount Illimani in backdrop' loading='lazy'><figcaption>Mi Teleférico aerial cabins traversing the eastern slopes of La Paz with snow-capped Mount Illimani in the background. Source: Mi Teleférico / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1157-mi-teleferico-la-paz.jpg' alt='Mi Teleférico cable cars gliding over La Paz with Mount Illimani in backdrop' loading='lazy'><figcaption>Cabinas de Mi Teleférico sobrevolando La Paz con el majestuoso Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In a unanimous plenary vote backed by all parliamentary caucuses, the Bolivian Senate sanctioned legislation approving a $62 million concessional loan from the Inter-American Development Bank (IDB) to finance the urban expansion and technological upgrading of the iconic 'Mi Teleférico' mass transit network.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Brown Line expansion towards Pampahasi</h2>
 <p>The multilateral funding will primarily finance Phase II of the Brown Line, extending the route from Miraflores to the steep residential hillsides of Samapa and Pampahasi, benefiting over 65,000 residents who currently face grueling 50-minute surface bus commutes.</p>
@@ -26794,8 +26794,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop',
-    imageCaption: `Cabinas de Mi Teleférico sobrevolando los valles urbanos de La Paz. Fuente: Mi Teleférico / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1157-mi-teleferico-la-paz.jpg',
+    imageCaption: `Cabinas de Mi Teleférico sobrevolando La Paz con el majestuoso Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26814,7 +26814,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El Ministerio Público de La Paz emitió una citación formal para que el dirigente empresarial Mirko Sokol preste declaración informativa en calidad de investigado dentro de la indagación por presuntas irregularidades en adjudicaciones aduaneras.`,
     excerptEn: `La Paz prosecutors issued a formal summons for industrial leader Mirko Sokol to provide deposition testimony as a named suspect in an inquiry concerning irregular customs donation disbursements.`,
     contentEs: `<h1>Mirko Sokol está convocado a declarar como sindicado este viernes por caso donaciones</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&h=630&fit=crop' alt='Edificio del Ministerio Público y expedientes judiciales' loading='lazy'><figcaption>Fiscalía Departamental de La Paz donde se radicó la causa sobre donaciones aduaneras. Fuente: ANF / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1158-fiscalia-la-paz.jpg' alt='Edificio del Ministerio Público y expedientes judiciales' loading='lazy'><figcaption>Calles céntricas de La Paz próximas a la Fiscalía Departamental. Fuente: ANF / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>La Fiscalía Departamental de La Paz confirmó la emisión de una orden de comparendo contra el presidente de la Cámara Nacional de Industrias, Mirko Sokol, a objeto de que preste su declaración informativa en calidad de sindicado este viernes en la División Anticorrupción, dentro del proceso abierto por presunto favorecimiento ilícito en la entrega de mercaderías decomisadas por la Aduana Nacional.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Los hechos investigados en el expediente</h2>
 <p>La investigación penal se inició a raíz de una denuncia presentada por asambleístas de oposición, quienes señalaron que lotes de insumos textiles, maquinaria industrial y repuestos comisados en recintos aduaneros de Oruro y El Alto habrían sido entregados a fundaciones y gremios privados sin cumplir con la reglamentación de subastas públicas ni verificar el fin social.</p>
@@ -26842,7 +26842,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://noticiasfides.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>ANF</div><div><div class='doc-card-title'>Agencia de Noticias Fides · Judicial</div><div class='doc-card-desc'>Detalles de la citación fiscal emitida contra el titular de los industriales en La Paz.</div></div></a>
 <p>Con información de: ANF, La Razón, ERBOL, Fiscalía Departamental de La Paz.</p>`,
     contentEn: `<h1>Mirko Sokol summoned to testify as suspect this Friday in customs donations case</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&h=630&fit=crop' alt='Public Prosecutor headquarters and judicial files' loading='lazy'><figcaption>La Paz Departmental Prosecutor's Office handling the customs donation inquiry. Source: ANF / Freddy Ticona.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1158-fiscalia-la-paz.jpg' alt='Public Prosecutor headquarters and judicial files' loading='lazy'><figcaption>Calles céntricas de La Paz próximas a la Fiscalía Departamental. Fuente: ANF / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>The La Paz Prosecutor's Office confirmed a formal summons for National Chamber of Industries President Mirko Sokol to testify as a suspect this Friday before the Anti-Corruption Unit, probing alleged irregularities in the allocation of seized customs goods.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Core allegations</h2>
 <p>The criminal inquiry centers on complaints alleging that confiscated industrial machinery, textile supplies, and vehicle parts held in Oruro and El Alto customs warehouses were transferred to private foundations and guild entities without complying with public auction statutory requirements.</p>
@@ -26861,8 +26861,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&h=630&fit=crop',
-    imageCaption: `Fiscalía Departamental de La Paz donde se tramita la causa por donaciones aduaneras. Fuente: ANF / Freddy Ticona.`,
+    imageUrl: '/images/blog/noticias-2026/1158-fiscalia-la-paz.jpg',
+    imageCaption: `Calles céntricas de La Paz próximas a la Fiscalía Departamental. Fuente: ANF / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -26881,7 +26881,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Autoridades de Nepal y China coordinan labores de rescate tras el desborde violento de un lago glaciar en la frontera himalaya que arrasó con campamentos turísticos, poblados autóctonos y puentes fronterizos.`,
     excerptEn: `Nepali and Chinese authorities coordinate emergency rescue operations following a massive glacial lake outburst flood on the Himalayan border that swept through tourist settlements and frontier crossings.`,
     contentEs: `<h1>Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop' alt='Valles montañosos del Himalaya y rescates de emergencia' loading='lazy'><figcaption>Zona montañosa del valle de Sindhupalchok devastada por la ola de agua y lodo glaciar. Fuente: Reuters / Kathmandu Post.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1159-nepal-tibet-himalayas.jpg' alt='Valles montañosos del Himalaya y rescates de emergencia' loading='lazy'><figcaption>Paso fronterizo montañoso de Tatopani entre Nepal y el Tíbet. Fuente: The Kathmandu Post / Reuters.</figcaption></figure>
 <p class='lead'><em>En el segundo día de operaciones de auxilio tras el colapso repentino de una morrena glaciar en la frontera entre la Región Autónoma del Tíbet y Nepal, las autoridades de socorro confirmaron este jueves que el recuento de cadáveres recuperados ascendió a 392, mientras que más de 500 personas continúan reportadas como desaparecidas.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La furia del torrente en los valles ribereños</h2>
 <p>El desastre se desencadenó a primeras horas del miércoles cuando una masa estimada en más de 8 millones de metros cúbicos de agua glaciar fracturó una presa natural de hielo y roca en territorio chino, bajando como un muro líquido de diez metros de altura por el cauce encajonado del río Bhote Koshi. Aldeas enteras como Tatopani y Kodari quedaron sepultadas bajo toneladas de lodo y peñascos.</p>
@@ -26909,7 +26909,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://kathmandupost.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>KP</div><div><div class='doc-card-title'>The Kathmandu Post · Emergency Coverage</div><div class='doc-card-desc'>Informe de situación sobre las víctimas y rescates del desborde glaciar.</div></div></a>
 <p>Con información de: The Kathmandu Post, Reuters, Xinhua, Cruz Roja de Nepal.</p>`,
     contentEn: `<h1>Death toll rises to 392 in Nepal-Tibet glacial disaster with hundreds missing</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop' alt='Himalayan mountain ridges and emergency river rescue' loading='lazy'><figcaption>Mountain valleys of Sindhupalchok devastated by the surging wall of glacial water and debris. Source: Reuters / Kathmandu Post.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1159-nepal-tibet-himalayas.jpg' alt='Himalayan mountain ridges and emergency river rescue' loading='lazy'><figcaption>Paso fronterizo montañoso de Tatopani entre Nepal y el Tíbet. Fuente: The Kathmandu Post / Reuters.</figcaption></figure>
 <p class='lead'><em>Entering the second day of emergency operations following the breach of a glacial moraine on the Tibet-Nepal frontier, disaster management authorities confirmed on Thursday that the death toll has reached 392, with more than 500 people remaining unaccounted for.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Outburst flood devastation</h2>
 <p>The calamity occurred when an estimated 8 million cubic meters of glacial meltwater breached a natural ice-and-debris moraine dam in Tibet, cascading as a ten-meter-high wave through the steep Bhote Koshi canyon and burying villages like Tatopani and Kodari.</p>
@@ -26928,8 +26928,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop',
-    imageCaption: `Cañón del río Bhote Koshi devastado por la riada glaciar en el Himalaya. Fuente: Reuters / Kathmandu Post.`,
+    imageUrl: '/images/blog/noticias-2026/1159-nepal-tibet-himalayas.jpg',
+    imageCaption: `Paso fronterizo montañoso de Tatopani entre Nepal y el Tíbet. Fuente: The Kathmandu Post / Reuters.`,
     enableComments: true,
     featured: false,
     breaking: true,
@@ -26948,7 +26948,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `La Casa Real noruega emitió un comunicado médico extraordinario informando que el monarca de 89 años permanece en la unidad de cuidados intensivos del Rikshospitalet de Oslo, delegando temporalmente la regencia en el príncipe Haakon.`,
     excerptEn: `The Royal Court of Norway released an extraordinary medical bulletin announcing that the 89-year-old monarch is in intensive care at Oslo’s Rikshospitalet, formally delegating state duties to Crown Prince Haakon.`,
     contentEs: `<h1>Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica grave</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=630&fit=crop' alt='Entrada del Hospital Universitario Rikshospitalet en Oslo' loading='lazy'><figcaption>Hospital Universitario Rikshospitalet de Oslo donde el monarca noruego recibe atención médica intensiva. Fuente: NTB / Reuters.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1160-rikshospitalet-oslo.jpg' alt='Entrada del Hospital Universitario Rikshospitalet en Oslo' loading='lazy'><figcaption>Hospital Universitario Rikshospitalet de Oslo donde fue atendido el monarca noruego. Fuente: NTB / Reuters.</figcaption></figure>
 <p class='lead'><em>La preocupación y la vigilia se apoderaron de Noruega este jueves 27 de agosto tras la publicación de un boletín oficial del Palacio Real de Oslo, en el que se confirmó un deterioro crítico en el cuadro clínico del rey Harald V, ingresado de urgencia en el Hospital Universitario Rikshospitalet debido a una complicación por anemia hemolítica severa.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — El cuadro clínico del monarca</h2>
 <p>El monarca de 89 años, quien ya había sido intervenido quirúrgicamente en años previos para el implante de un marcapasos permanente, presentó una brusca caída en sus niveles de hemoglobina y dificultad respiratoria tras un proceso infeccioso pulmonar. El equipo médico de la Casa Real determinó su traslado inmediato a la unidad de cuidados intensivos para recibir transfusiones continuas y terapia inmunológica.</p>
@@ -26976,7 +26976,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>KH</div><div><div class='doc-card-title'>Det Norske Kongehus · Boletín Médico</div><div class='doc-card-desc'>Informe de salud de Su Majestad el Rey Harald V emitido por el médico de la corte.</div></div></a>
 <p>Con información de: Kongehuset, NRK Noruega, NTB, Reuters.</p>`,
     contentEn: `<h1>Health of King Harald V of Norway deteriorates critically due to severe hemolytic anemia</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=630&fit=crop' alt='Rikshospitalet University Hospital entrance in Oslo' loading='lazy'><figcaption>Oslo University Hospital (Rikshospitalet) where King Harald V of Norway is receiving intensive medical care. Source: NTB / Reuters.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1160-rikshospitalet-oslo.jpg' alt='Rikshospitalet University Hospital entrance in Oslo' loading='lazy'><figcaption>Hospital Universitario Rikshospitalet de Oslo donde fue atendido el monarca noruego. Fuente: NTB / Reuters.</figcaption></figure>
 <p class='lead'><em>National concern grew across Norway on Thursday, August 27, following a solemn medical bulletin from the Royal Court in Oslo confirming a critical downturn in the health of 89-year-old King Harald V, who was hospitalized in the intensive care unit for severe hemolytic anemia.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Clinical condition</h2>
 <p>The monarch experienced a steep decline in blood hemoglobin levels following a recent respiratory infection. Attending physicians at Rikshospitalet initiated specialized immune therapy and blood transfusions under 24-hour observation.</p>
@@ -26995,8 +26995,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=630&fit=crop',
-    imageCaption: `El Hospital Rikshospitalet de Oslo durante la atención médica al rey Harald V. Fuente: NTB / Reuters.`,
+    imageUrl: '/images/blog/noticias-2026/1160-rikshospitalet-oslo.jpg',
+    imageCaption: `Hospital Universitario Rikshospitalet de Oslo donde fue atendido el monarca noruego. Fuente: NTB / Reuters.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -27015,7 +27015,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Grupos de manifestantes encapuchados protagonizaron altercados callejeros en el barrio Príncipe Alfonso y quemaron asentamientos informales de migrantes tras semanas de colapso en los centros de acogida de la ciudad autónoma.`,
     excerptEn: `Hooded demonstrators clashed with riot police in Ceuta’s Príncipe Alfonso neighborhood and burned makeshift migrant shelters following weeks of severe overcrowding at reception centers.`,
     contentEs: `<h1>Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&h=630&fit=crop' alt='Barricadas con fuego y despliegue policial en calles de Ceuta' loading='lazy'><figcaption>Contenedores ardiendo y despliegue de furgones policiales durante los disturbios en Ceuta. Fuente: El Faro de Ceuta / EFE.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1161-ceuta-spain-monte-hacho.jpg' alt='Barricadas con fuego y despliegue policial en calles de Ceuta' loading='lazy'><figcaption>Vista costera y monte Hacho en la ciudad autónoma de Ceuta. Fuente: El Faro de Ceuta / EFE.</figcaption></figure>
 <p class='lead'><em>Una noche de máxima tensión y violencia callejera sacudió a la ciudad autónoma de Ceuta entre la noche del miércoles y la madrugada del jueves 27 de agosto, cuando grupos de manifestantes violentos destrozaron y prendieron fuego a campamentos provisionales de migrantes en las proximidades del monte Hacho y el perímetro fronterizo.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La quema de asentamientos y los choques con la Policía</h2>
 <p>Los incidentes comenzaron tras una concentración no autorizada frente a la Delegación del Gobierno convocada a través de grupos de mensajería instantánea. Grupos de jóvenes encapuchados se desplazaron hacia las barriadas de Príncipe Alfonso y Los Rosales, donde incendiaron carpas de lona y contenedores de basura, obligando a intervenir a los bomberos bajo escolta de la Unidad de Prevención y Reacción (UPR).</p>
@@ -27044,7 +27044,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://elpais.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EP</div><div><div class='doc-card-title'>El País · España</div><div class='doc-card-desc'>Crónica detallada sobre la noche de violencia y quema de refugios en Ceuta.</div></div></a>
 <p>Con información de: El País, El Faro de Ceuta, EFE, Cruz Roja Española.</p>`,
     contentEn: `<h1>Night of violent unrest in Ceuta as protesters destroy informal migrant encampments</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&h=630&fit=crop' alt='Burning barricades and riot police vehicles on Ceuta streets' loading='lazy'><figcaption>Burning dumpsters and tactical riot police vans during overnight disturbances in Ceuta. Source: El Faro de Ceuta / EFE.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1161-ceuta-spain-monte-hacho.jpg' alt='Burning barricades and riot police vehicles on Ceuta streets' loading='lazy'><figcaption>Vista costera y monte Hacho en la ciudad autónoma de Ceuta. Fuente: El Faro de Ceuta / EFE.</figcaption></figure>
 <p class='lead'><em>Severe street violence erupted across the Spanish North African enclave of Ceuta on the night of Wednesday, August 26 into Thursday, August 27, as groups of masked rioters set fire to makeshift migrant encampments near Mount Hacho and the border perimeter.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Arson and street clashes</h2>
 <p>Following an unauthorized protest outside government delegacy offices, groups moved toward the Príncipe Alfonso quarter, torching over 35 municipal dumpsters and makeshift canvas shelters before tactical police intervened with tear gas and water cannons.</p>
@@ -27063,8 +27063,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&h=630&fit=crop',
-    imageCaption: `Disturbios y quema de barricadas en el enclave de Ceuta. Fuente: El Faro de Ceuta / EFE.`,
+    imageUrl: '/images/blog/noticias-2026/1161-ceuta-spain-monte-hacho.jpg',
+    imageCaption: `Vista costera y monte Hacho en la ciudad autónoma de Ceuta. Fuente: El Faro de Ceuta / EFE.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -27083,7 +27083,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `Un análisis cronológico detallado de las cinco fases militares del conflicto en Irán, desde los bombardeos iniciales a complejos subterráneos hasta la actual guerra aeronaval de desgaste en el Golfo Pérsico.`,
     excerptEn: `A detailed chronological assessment of the five operational phases of the war in Iran, from initial deep-penetration strikes to the current air-and-sea attrition warfare across the Persian Gulf.`,
     contentEs: `<h1>Seis meses de guerra en Irán: cronología de medio año de fuego cruzado</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1508873696983-2df5293cb32b?w=1200&h=630&fit=crop' alt='Mapa geopolítico y despliegue militar en el Golfo Pérsico' loading='lazy'><figcaption>Monitoreo satelital y teatros de operaciones militares en la cuenca del Golfo Pérsico. Fuente: CSIS / AP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1162-persian-gulf-iran.jpg' alt='Mapa geopolítico y despliegue militar en el Golfo Pérsico' loading='lazy'><figcaption>Monitoreo marítimo y satelital del estrecho de Ormuz y el Golfo Pérsico. Fuente: CSIS / AP.</figcaption></figure>
 <p class='lead'><em>Al cumplirse seis meses exactos del inicio de la campaña bélica a gran escala en torno a las instalaciones nucleares y balísticas de la República Islámica de Irán, el conflicto ingresó en una fase crítica caracterizada por ataques asimétricos con drones, guerra electrónica en aguas del Golfo y un estancamiento diplomático sin precedentes.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — Las cinco fases de la escalada</h2>
 <p>El desarrollo de las hostilidades puede estructurarse en cinco etapas tácticas: 1) La ofensiva aérea sorpresa de febrero contra los complejos de Natanz y Fordow; 2) La respuesta balística masiva de Teherán hacia bases militares en la región; 3) La guerra de desgaste en el estrecho de Ormuz con minado de rutas navieras; 4) La ofensiva de ciberataques contra infraestructuras energéticas; y 5) La actual consolidación de frentes asimétricos regionales.</p>
@@ -27112,7 +27112,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>Center for Strategic and International Studies</div><div class='doc-card-desc'>Informe de balance militar y táctico de los seis meses de la guerra en Irán.</div></div></a>
 <p>Con información de: CSIS Washington, Reuters, The Guardian, AP.</p>`,
     contentEn: `<h1>Six months of war in Iran: chronology of half a year of cross-border strikes</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1508873696983-2df5293cb32b?w=1200&h=630&fit=crop' alt='Geopolitical map and military operations in the Persian Gulf' loading='lazy'><figcaption>Satellite tracking of theater military operations throughout the Persian Gulf basin. Source: CSIS / AP.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1162-persian-gulf-iran.jpg' alt='Geopolitical map and military operations in the Persian Gulf' loading='lazy'><figcaption>Monitoreo marítimo y satelital del estrecho de Ormuz y el Golfo Pérsico. Fuente: CSIS / AP.</figcaption></figure>
 <p class='lead'><em>Marking exactly six months since initial deep-penetration strikes targeted Iranian ballistic and nuclear facilities, the conflict has settled into an entrenched war of attrition defined by asymmetric drone swarms, naval mine warfare, and total diplomatic deadlock.</em></p>
 <h2 class='report-chapter'>Chapter 1 — The five tactical phases</h2>
 <p>Operational progression spans five distinct phases: 1) Initial deep strikes against hardened facilities at Natanz and Fordow in February; 2) Retaliatory ballistic barrages against regional bases; 3) Maritime choke point harassment in the Strait of Hormuz; 4) Infrastructure cyberwarfare; and 5) The current multi-front proxy stalemate.</p>
@@ -27131,8 +27131,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '6 min de lectura',
     readTimeEn: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1508873696983-2df5293cb32b?w=1200&h=630&fit=crop',
-    imageCaption: `Teatro de operaciones aeronavales en el Golfo Pérsico. Fuente: CSIS / AP.`,
+    imageUrl: '/images/blog/noticias-2026/1162-persian-gulf-iran.jpg',
+    imageCaption: `Monitoreo marítimo y satelital del estrecho de Ormuz y el Golfo Pérsico. Fuente: CSIS / AP.`,
     enableComments: true,
     featured: false,
     breaking: false,
@@ -27151,7 +27151,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEs: `El anuncio presidencial de renombrar la cuenca estadounidense del lago Ontario generó controversia en el Capitolio y una enérgica respuesta de las provincias canadienses de Ontario y Quebec.`,
     excerptEn: `The presidential announcement renaming the US portion of Lake Ontario sparked fierce debate on Capitol Hill and strong pushback from the Canadian provinces of Ontario and Quebec.`,
     contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; tensión diplomática con Ottawa</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop' alt='Ribera y aguas del lago Ontario en la frontera norteamericana' loading='lazy'><figcaption>Aguas del lago Ontario vistas desde la costa norteamericana en Rochester, Nueva York. Fuente: Reuters / The Globe and Mail.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1163-lake-ontario-ny.jpg' alt='Ribera y aguas del lago Ontario en la frontera norteamericana' loading='lazy'><figcaption>Aguas abiertas del lago Ontario desde la costa norteamericana. Fuente: The Globe and Mail / Reuters.</figcaption></figure>
 <p class='lead'><em>En una sorpresiva medida de corte nacionalista enmarcada en la disputa sobre aranceles comerciales y control fronterizo, el presidente estadounidense Donald Trump formalizó este miércoles una orden ejecutiva que instruye al Departamento del Interior y a las agencias federales catalogar el sector estadounidense del lago Ontario bajo la denominación oficial de 'Lake America'.</em></p>
 <h2 class='report-chapter'>Capítulo 1 — La fundamentación en el acto de campaña</h2>
 <p>Durante un multitudinario mitin en Rochester, Nueva York, el mandatario defendió la medida argumentando que Estados Unidos debe reafirmar su liderazgo en los recursos hídricos compartidos: "Es uno de los grandes cuerpos de agua de nuestro continente y es hora de que su nombre rinda tributo a la grandeza de nuestra nación".</p>
@@ -27179,7 +27179,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
 <a class='doc-card' href='https://theglobeandmail.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>GM</div><div><div class='doc-card-title'>The Globe and Mail · Politics</div><div class='doc-card-desc'>Cobertura de la tensión diplomática entre Ottawa y Washington por la denominación de los Grandes Lagos.</div></div></a>
 <p>Con información de: The Globe and Mail, Reuters, AP, Toronto Star.</p>`,
     contentEn: `<h1>Trump signs order renaming Lake Ontario 'Lake America'; diplomatic friction mounts with Ottawa</h1>
-<figure class='report-figure'><img src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop' alt='Lake Ontario shoreline on the North American border' loading='lazy'><figcaption>Lake Ontario waters viewed from the US shoreline near Rochester, New York. Source: Reuters / The Globe and Mail.</figcaption></figure>
+<figure class='report-figure'><img src='/images/blog/noticias-2026/1163-lake-ontario-ny.jpg' alt='Lake Ontario shoreline on the North American border' loading='lazy'><figcaption>Aguas abiertas del lago Ontario desde la costa norteamericana. Fuente: The Globe and Mail / Reuters.</figcaption></figure>
 <p class='lead'><em>In an unexpected nationalist move tied to broader disputes over trade tariffs and border controls, US President Donald Trump signed an executive order directing federal agencies to designate the US territorial waters of Lake Ontario as 'Lake America'.</em></p>
 <h2 class='report-chapter'>Chapter 1 — Announcement in upstate New York</h2>
 <p>Unveiled during an official rally in Rochester, New York, the measure directs the Department of the Interior to adopt the 'Lake America' nomenclature across federal mapping publications.</p>
@@ -27198,8 +27198,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     date: '2026-08-27',
     readTimeEs: '5 min de lectura',
     readTimeEn: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop',
-    imageCaption: `Aguas fronterizas del lago Ontario en el estado de Nueva York. Fuente: Reuters / The Globe and Mail.`,
+    imageUrl: '/images/blog/noticias-2026/1163-lake-ontario-ny.jpg',
+    imageCaption: `Aguas abiertas del lago Ontario desde la costa norteamericana. Fuente: The Globe and Mail / Reuters.`,
     enableComments: true,
     featured: false,
     breaking: false,
