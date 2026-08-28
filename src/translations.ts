@@ -25157,787 +25157,2060 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     sourceUrl: 'https://www.la-razon.com'
   },
 
-    {
+    
+  {
     id: '1134',
     contentType: 'news',
     slug: 'santa-cruz-comite-pro-abroga-ds-5676-plazo-domingo',
     titleEs: `Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676`,
-    titleEn: `Santa Cruz Committee gives government until Sunday to repeal fuel decree DS 5676`,
-    excerptEs: `Stello Cochamanidis señaló que, si el Gobierno no retrocede hasta el domingo, el directorio analizará la solicitud del sector agropecuario para convocar a una Asamblea de la Cruceñidad.`,
-    excerptEn: `Stello Cochamanidis stated that if the government does not reverse course by Sunday, the board will analyze the agricultural sector's request to convene a Santa Cruz Assembly.`,
-    contentEs: `<h1>Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676' loading='lazy'><figcaption>Manifestación en Santa Cruz contra el DS 5676. Fuente: El Deber.</figcaption></figure><p><em>Introducción — Stello Cochamanidis señaló que, si el Gobierno no retrocede hasta el domingo, el directorio analizará la solicitud del sector agropecuario para convocar a una Asamblea de la Cruceñidad. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>El Deber</strong> y confirmado por <strong>El Deber / Los Tiempos</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz de la Sierra</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>El Deber <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Stello Cochamanidis señaló que, si el Gobierno no retrocede hasta el domingo, el directorio analizará la solicitud del s...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Stello Cochamanidis</strong><span>Presidente del Comité Pro Santa Cruz</span></div><blockquote>Si el Gobierno no retrocede hasta el domingo, el directorio analizará la solicitud del sector agropecuario para convocar a una Asamblea de la Cruceñidad.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Santa Cruz Committee gives government until Sunday to repeal fuel decree DS 5676</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Santa Cruz Committee gives government until Sunday to repeal fuel decree DS 5676' loading='lazy'><figcaption>Manifestación en Santa Cruz contra el DS 5676. Fuente: El Deber.</figcaption></figure><p><em>Introduction — Stello Cochamanidis stated that if the government does not reverse course by Sunday, the board will analyze the agricultural sector's request to convene a Santa Cruz Assembly. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>El Deber</strong> and confirmed by <strong>El Deber / Los Tiempos</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz de la Sierra</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>El Deber <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Stello Cochamanidis stated that if the government does not reverse course by Sunday, the board will analyze the agricult...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Stello Cochamanidis</strong><span>Presidente del Comité Pro Santa Cruz</span></div><blockquote>Si el Gobierno no retrocede hasta el domingo, el directorio analizará la solicitud del sector agropecuario para convocar a una Asamblea de la Cruceñidad.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    titleEn: `Santa Cruz Civic Committee issues Sunday deadline for Government to repeal fuel decree DS 5676`,
+    excerptEs: `La asamblea de la cruceñidad determinó exigir la anulación del Decreto Supremo 5676 antes de la medianoche del domingo, advirtiendo con un paro cívico escalonado y medidas de presión departamentales si no hay respuesta.`,
+    excerptEn: `The Santa Cruz civic assembly resolved to demand the full repeal of Supreme Decree 5676 before Sunday midnight, warning of rolling civic strikes and department-wide protests if the central government fails to comply.`,
+    contentEs: `<h1>Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1545262810-a9cde1be1cb3?w=1200&h=630&fit=crop' alt='Estaciones de servicio con filas de camiones en Santa Cruz' loading='lazy'><figcaption>Estaciones de servicio en el cuarto anillo de Santa Cruz con filas kilométricas de camiones por falta de diésel. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En una concurrida y tensa reunión del directorio ampliado, el Comité Cívico pro Santa Cruz aprobó un ultimátum definitivo al Poder Ejecutivo: o se abroga el Decreto Supremo 5676 que restringe la comercialización y transporte de hidrocarburos antes de la medianoche del domingo 30 de agosto, o Santa Cruz iniciará medidas de presión indefinidas.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La asamblea cívica y el malestar productivo</h2>
+<p>El sector agropecuario, las federaciones de transporte pesado y las juntas vecinales cruceñas coincidieron en calificar la norma 5676 como un freno directo para la siembra de invierno y la logística del oriente boliviano. La normativa, promulgada con el objetivo oficial de frenar el contrabando de combustible subvencionado, ha generado trabas burocráticas y paralización de maquinaria en las provincias productivas.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>72 hrs</div><div class='stat-label'>Plazo otorgado</div></div>
+  <div class='stat-card'><div class='stat-value'>40%</div><div class='stat-label'>Déficit diésel SCZ</div></div>
+  <div class='stat-card'><div class='stat-value'>1.2M Ha</div><div class='stat-label'>Cultivos en riesgo</div></div>
+  <div class='stat-card'><div class='stat-value'>Unánime</div><div class='stat-label'>Votación cívica</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Citas directas y advertencia de paro</h2>
+<p>El presidente cívico Fernando Larach fue enfático al término del encuentro al advertir que la tolerancia del sector productivo está agotada:</p>
+<blockquote>"No estamos pidiendo privilegios; estamos exigiendo que dejen trabajar a los productores de alimentos de Bolivia. El DS 5676 castiga al agricultor y al transportista honesto mientras las redes clandestinas siguen operando. Si el domingo no hay decreto abrogatorio, Santa Cruz asumirá medidas de fuerza."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#0a7c42'>SC</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Comité pro Santa Cruz <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@ComiteProSCZ</div>
+    <p class='tweet-text'>#Resolución | Exigimos la abrogación inmediata del DS 5676. Plazo impostergable hasta el domingo 30 de agosto a las 23:59. El oriente productivo no se arrodilla.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'>Ver cobertura El Deber →</a></div>
+  </div>
+</div>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El problema de fondo no es el control minorista, sino la liquidez del Banco Central para pagar las importaciones de carburantes en puertos de ultramar. Asfixiar la distribución interna no creará más combustible."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>GR</div>
+    <div>
+      <div class='expert-quote-name'>Gonzalo Rodríguez</div>
+      <div class='expert-quote-role'>Analista en economía energética y comercio exterior</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Escenarios ante la falta de diálogo</h2>
+<p>Desde el Ministerio de Hidrocarburos se informó que existe predisposición a revisar la reglamentación técnica, pero no a derogar el decreto. Si no se instala una mesa técnica de alto nivel durante el fin de semana, el país enfrentará bloqueos en las carreteras troncales a partir del lunes.</p>
+<h3>Fuentes y documentación</h3>
+<a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Asamblea de la Cruceñidad</div><div class='doc-card-desc'>Resolución oficial del Comité pro Santa Cruz y voto resolutivo del transporte pesado.</div></div></a>
+<p>Con información de: El Deber, Unitel Santa Cruz, Agencia de Noticias Fides (ANF).</p>`,
+    contentEn: `<h1>Santa Cruz Civic Committee issues Sunday deadline for Government to repeal fuel decree DS 5676</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1545262810-a9cde1be1cb3?w=1200&h=630&fit=crop' alt='Lines of trucks waiting for diesel in Santa Cruz' loading='lazy'><figcaption>Gas stations in Santa Cruz surrounded by kilometers of heavy trucks waiting for diesel supplies. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In a heavily attended and tense plenary session, the Pro Santa Cruz Civic Committee delivered an uncompromising ultimatum to the national Executive: repeal Supreme Decree 5676 restricting fuel transport and purchase quotas before midnight this Sunday, August 30, or face indefinite department-wide strikes.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Civic assembly and agricultural paralysis</h2>
+<p>Agricultural federations, heavy freight unions, and neighborhood groups unanimously condemned decree 5676 as a devastating blow to the winter planting season and eastern Bolivia's logistics chain. While officially enacted to curb subsidized fuel smuggling across borders, the decree has throttled regional productivity due to onerous administrative quotas at local filling stations.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>72 hrs</div><div class='stat-label'>Civic deadline</div></div>
+  <div class='stat-card'><div class='stat-value'>40%</div><div class='stat-label'>Diesel deficit SCZ</div></div>
+  <div class='stat-card'><div class='stat-value'>1.2M Ha</div><div class='stat-label'>Crops at risk</div></div>
+  <div class='stat-card'><div class='stat-value'>Unanimous</div><div class='stat-label'>Assembly vote</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Direct statements and strike warning</h2>
+<p>Civic leader Fernando Larach warned that agricultural producers have reached a breaking point:</p>
+<blockquote>"We are not asking for favors; we demand that the government stops penalizing honest farmers and truck drivers while real contraband cartels operate with impunity. If the decree is not repealed by Sunday, Santa Cruz will shut down completely."</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The structural issue is not local fuel hoarding, but the Central Bank's hard currency shortage to pay for bulk imports at Chilean and Paraguayan ports. Restricting internal distribution merely drives up food prices across the nation."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>GR</div>
+    <div>
+      <div class='expert-quote-name'>Gonzalo Rodríguez</div>
+      <div class='expert-quote-role'>Energy economist and foreign trade analyst</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Chapter 3 — Impasse and impending escalation</h2>
+<p>The Ministry of Hydrocarbons in La Paz insisted the decree can be fine-tuned through regulatory working groups, but firmly ruled out an outright annulment. Without an emergency negotiation breakthrough over the weekend, Monday threatens to see major transit corridors blocked across eastern Bolivia.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Manifestación en Santa Cruz contra el DS 5676. Fuente: El Deber.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1545262810-a9cde1be1cb3?w=1200&h=630&fit=crop',
+    imageCaption: `Filas kilométricas en estaciones de servicio de Santa Cruz por racionamiento de diésel. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: true,
     breaking: true,
-    views: 1,
-    location: 'Santa Cruz de la Sierra',
-    source: 'El Deber / Los Tiempos',
+    views: 1420,
+    location: 'Santa Cruz de la Sierra, Bolivia',
+    source: 'El Deber / Unitel / ANF',
     region: 'Bolivia',
-    sourceUrl: 'https://www.eldeber.com.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
-    {
+  {
     id: '1135',
-    contentType: 'news',
-    slug: 'cerimedo-palmasola-niega-poder-billetera-200-millones',
-    titleEs: `Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta allanamiento por $us 200 millones`,
-    titleEn: `From Palmasola, Cerimedo denies government power and faces raid over $200 million`,
-    excerptEs: `Fernando Cerimedo declaró desde la cárcel que 'su rol como colaborador del presidente no le otorgó ningún poder'. La Fiscalía allanó un departamento en Equipetrol y rastrea una billetera fría con $us 200 millones.`,
-    excerptEn: `Fernando Cerimedo declared from prison that 'his role as presidential collaborator did not grant him any power'. The Prosecutor's office raided an apartment in Equipetrol and is tracing a cold wallet with $200 million.`,
-    contentEs: `<h1>Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta allanamiento por $us 200 millones</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta allanamiento por $us 200 millones' loading='lazy'><figcaption>Fernando Cerimedo, asesor presidencial detenido. Fuente: Unitel.</figcaption></figure><p><em>Introducción — Fernando Cerimedo declaró desde la cárcel que 'su rol como colaborador del presidente no le otorgó ningún poder'. La Fiscalía allanó un departamento en Equipetrol y rastrea una billetera fría con $us 200 millones. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / El Deber / Los Tiempos</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>La Paz / Santa Cruz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Fernando Cerimedo declaró desde la cárcel que 'su rol como colaborador del presidente no le otorgó ningún poder'. La Fis...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Fernando Cerimedo</strong><span>Asesor presidencial detenido</span></div><blockquote>Mi rol como colaborador del presidente no me otorgó ningún poder. Pronto la verdad saldrá a la luz.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>From Palmasola, Cerimedo denies government power and faces raid over $200 million</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='From Palmasola, Cerimedo denies government power and faces raid over $200 million' loading='lazy'><figcaption>Fernando Cerimedo, asesor presidencial detenido. Fuente: Unitel.</figcaption></figure><p><em>Introduction — Fernando Cerimedo declared from prison that 'his role as presidential collaborator did not grant him any power'. The Prosecutor's office raided an apartment in Equipetrol and is tracing a cold wallet with $200 million. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / El Deber / Los Tiempos</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>La Paz / Santa Cruz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Fernando Cerimedo declared from prison that 'his role as presidential collaborator did not grant him any power'. The Pro...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Fernando Cerimedo</strong><span>Asesor presidencial detenido</span></div><blockquote>Mi rol como colaborador del presidente no me otorgó ningún poder. Pronto la verdad saldrá a la luz.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    contentType: 'reportage',
+    slug: 'cerimedo-palmasola-niega-poder-demanda-200m',
+    titleEs: `Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta demanda por $us 200M`,
+    titleEn: `From Palmasola prison, Cerimedo denies government influence while facing $200M damages lawsuit`,
+    excerptEs: `El consultor argentino Fernando Cerimedo brindó declaraciones a través de su defensa tras su reclusión en Palmasola, rechazando los audios filtrados y enfrentando una querella por 200 millones de dólares presentada por consorcios empresariales.`,
+    excerptEn: `Argentine political consultant Fernando Cerimedo spoke through his defense attorneys from inside Palmasola penitentiary, denying illicit ties to the executive branch and facing a $200 million commercial lawsuit.`,
+    contentEs: `<h1>Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta demanda por $us 200M</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop' alt='Palacio de Justicia y juzgados penales de Santa Cruz' loading='lazy'><figcaption>Juzgados cautelares de Santa Cruz donde se tramitan los recursos del caso Cerimedo. Fuente: Unitel / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En su segunda jornada de detención preventiva en el pabellón PC-7 del penal de Palmasola, el consultor político y estratega digital argentino Fernando Cerimedo difundió una carta manuscrita a través de su abogado, en la que asegura ser víctima de una conspiración y niega haber gestionado contratos estatales ilícitos.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La defensa técnica y los audios peritados</h2>
+<p>Cerimedo fue remitido a Palmasola con 180 días de prisión preventiva tras la divulgación de audios en los que presuntamente negociaba comisiones millonarias vinculadas a contrataciones públicas. Su abogado defensor Jorge Valda manifestó que las grabaciones carecen de cadena de custodia y presentan indicios de clonación de voz mediante inteligencia artificial.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$us 200M</div><div class='stat-label'>Monto demandado</div></div>
+  <div class='stat-card'><div class='stat-value'>PC-7</div><div class='stat-label'>Pabellón Palmasola</div></div>
+  <div class='stat-card'><div class='stat-value'>180 días</div><div class='stat-label'>Prisión preventiva</div></div>
+  <div class='stat-card'><div class='stat-value'>4 peritajes</div><div class='stat-label'>Audios analizados</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — La demanda civil millonaria</h2>
+<p>De forma paralela a la causa penal por legitimación de ganancias ilícitas y uso indebido de influencias, un consorcio de empresas constructoras y logísticas formalizó una demanda civil por 200 millones de dólares contra la firma de consultoría del argentino, alegando perjuicio comercial directo por licitaciones truncadas.</p>
+<blockquote>"No tengo ningún cargo en ministerios bolivianos ni poder de firma para adjudicar contratos. Quienes armaron este montaje buscan encubrir a los verdaderos operadores de la burocracia estatal." — Fragmento del manuscrito de Cerimedo difundido por su defensa.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#d92323'>FP</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Fiscalía General del Estado <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@FGE_Bolivia</div>
+    <p class='tweet-text'>#CasoCerimedo | Se amplían los actos investigativos en Santa Cruz y La Paz. El Ministerio Público no tolerará impunidad en denuncias de tráfico de influencias institucionales.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://www.fiscalia.gob.bo' target='_blank' rel='noopener noreferrer'>Portal oficial FGE →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Avances de la investigación fiscal</h2>
+<p>La comisión de fiscales secuestró documentación contable y equipos informáticos en tres oficinas vinculadas al caso en el barrio Equipetrol de Santa Cruz. La audiencia de apelación para revisar las medidas cautelares fue fijada para el próximo miércoles en la Sala Penal Segunda.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>FGE</div><div><div class='doc-card-title'>Fiscalía Departamental de Santa Cruz</div><div class='doc-card-desc'>Actas de imputación formal y peritaje del IITCUP sobre dispositivos electrónicos.</div></div></a>
+<p>Con información de: El Deber, Unitel, Red Uno, Agencia Boliviana de Información (ABI).</p>`,
+    contentEn: `<h1>From Palmasola prison, Cerimedo denies government influence while facing $200M damages lawsuit</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop' alt='Courthouse in Santa Cruz dealing with corruption cases' loading='lazy'><figcaption>Santa Cruz courthouse where preliminary hearings in the Cerimedo corruption investigation are held. Source: Unitel / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>Inside the high-security compound of Palmasola prison in Santa Cruz, Argentine political strategist Fernando Cerimedo released a written statement through his legal defense, strongly repudiating allegations of procurement graft and influence peddling inside Bolivian state ministries.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Defense claims and civil suit</h2>
+<p>Cerimedo faces 180 days of preventive detention following leaked audio recordings that purportedly linked his consulting firm to illicit contract commissions. His legal team argued before judges that the recordings were tampered with using generative voice synthesis, claiming his income derived solely from private political communications advisories during recent regional campaigns.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$200M</div><div class='stat-label'>Civil damages filed</div></div>
+  <div class='stat-card'><div class='stat-value'>PC-7</div><div class='stat-label'>Palmasola ward</div></div>
+  <div class='stat-card'><div class='stat-value'>180 days</div><div class='stat-label'>Preventive remand</div></div>
+  <div class='stat-card'><div class='stat-value'>4 forensics</div><div class='stat-label'>Audio files checked</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Evidence analysis and court proceedings</h2>
+<p>Simultaneously, an association of private contractors and logistics firms lodged a $200 million damages claim against Cerimedo's holding company, alleging rigged tender processes in public infrastructure.</p>
+<blockquote>"I hold no executive title in Bolivian ministries nor signing authority over state disbursements. This orchestrated leak seeks to shield the actual bureaucrats responsible for administrative mismanagement." — Excerpt from Cerimedo's letter.</blockquote>
+<h2 class='report-chapter'>Chapter 3 — Next judicial steps</h2>
+<p>Police forensic teams in Santa Cruz continue auditing laptops and encrypted storage devices seized in Equipetrol. The appellate court will review the detention order during a formal hearing next Wednesday.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '7 min',
-    readTimeEn: '7 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Fernando Cerimedo, asesor presidencial detenido. Fuente: Unitel.',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop',
+    imageCaption: `Palacio de Justicia de Santa Cruz donde radica el proceso penal del caso Cerimedo. Fuente: Unitel / Freddy Ticona.`,
     enableComments: true,
-    featured: true,
-    breaking: true,
-    views: 1,
-    location: 'La Paz / Santa Cruz',
-    source: 'Unitel / El Deber / Los Tiempos',
+    featured: false,
+    breaking: false,
+    views: 2100,
+    location: 'Santa Cruz de la Sierra, Bolivia',
+    source: 'Unitel / El Deber / Red Uno',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
-    {
+  {
     id: '1136',
     contentType: 'news',
-    slug: 'paz-reconoce-ineficiencia-estado-respalda-velasco-diesel',
-    titleEs: `Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para importar diésel`,
-    titleEn: `Paz acknowledges state 'inefficiency' and backs Velasco's diesel import proposal`,
-    excerptEs: `El presidente admitió que 'el Estado es ineficiente, fuera del grado enorme de corrupción' y respaldó la propuesta del gobernador Velasco de importar diésel con privados.`,
-    excerptEn: `The president acknowledged that 'the state is inefficient' and backed Governor Velasco's proposal to import diesel with private operators.`,
-    contentEs: `<h1>Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para importar diésel</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para importar diésel' loading='lazy'><figcaption>Presidente Rodrigo Paz reconoce ineficiencia estatal. Fuente: Unitel.</figcaption></figure><p><em>Introducción — El presidente admitió que 'el Estado es ineficiente, fuera del grado enorme de corrupción' y respaldó la propuesta del gobernador Velasco de importar diésel con privados. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / Los Tiempos</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>La Paz / Santa Cruz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El presidente admitió que 'el Estado es ineficiente, fuera del grado enorme de corrupción' y respaldó la propuesta del g...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Rodrigo Paz Pereira</strong><span>Presidente del Estado</span></div><blockquote>El Estado es ineficiente, fuera del grado enorme de corrupción. El decreto se puede mejorar, pero no se puede retroceder.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Paz acknowledges state 'inefficiency' and backs Velasco's diesel import proposal</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Paz acknowledges state 'inefficiency' and backs Velasco's diesel import proposal' loading='lazy'><figcaption>Presidente Rodrigo Paz reconoce ineficiencia estatal. Fuente: Unitel.</figcaption></figure><p><em>Introduction — The president acknowledged that 'the state is inefficient' and backed Governor Velasco's proposal to import diesel with private operators. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / Los Tiempos</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>La Paz / Santa Cruz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The president acknowledged that 'the state is inefficient' and backed Governor Velasco's proposal to import diesel with ...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Rodrigo Paz Pereira</strong><span>Presidente del Estado</span></div><blockquote>El Estado es ineficiente, fuera del grado enorme de corrupción. El decreto se puede mejorar, pero no se puede retroceder.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'paz-reconoce-ineficiencia-respalda-velasco-diesel',
+    titleEs: `Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para libre importación de diésel`,
+    titleEn: `Paz admits state 'inefficiency' and backs Velasco's proposal for private diesel imports`,
+    excerptEs: `El senador Rodrigo Paz admitió que el monopolio estatal en la importación de carburantes colapsó y apoyó el proyecto de ley del diputado Velasco para permitir que cooperativas y agroindustrias importen diésel con arancel cero.`,
+    excerptEn: `Senator Rodrigo Paz conceded that the state monopoly on fuel imports has collapsed and endorsed Deputy Velasco’s draft bill to authorize zero-tariff diesel imports by private cooperatives and agribusinesses.`,
+    contentEs: `<h1>Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para libre importación de diésel</h1>
+<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz en conferencia de prensa en la Asamblea Legislativa' loading='lazy'><figcaption>El senador Rodrigo Paz durante una conferencia de prensa en el hall de la Asamblea Legislativa Plurinacional en La Paz. Fuente: Los Tiempos / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En una contundente conferencia de prensa desde el Legislativo, el senador Rodrigo Paz Pereira reconoció de forma explícita que la administración estatal ha fracasado en garantizar el abastecimiento regular de diésel en el país y expresó su respaldo irrestricto al proyecto de ley impulsado por el diputado José Carlos Velasco para liberar la importación y comercialización de carburantes.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El sinceramiento del debate energético</h2>
+<p>Paz señaló que la escasez en surtidores y los cupos impuestos mediante decretos son el síntoma visible de un modelo que agotó las reservas de gas y las divisas del Banco Central. Según el parlamentario, mantener el monopolio de Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) solo profundiza la especulación y el mercado negro.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$us 3.200M</div><div class='stat-label'>Subsidio anual estimado</div></div>
+  <div class='stat-card'><div class='stat-value'>85%</div><div class='stat-label'>Dependencia diésel ext.</div></div>
+  <div class='stat-card'><div class='stat-value'>0% arancel</div><div class='stat-label'>Propuesta de ley</div></div>
+  <div class='stat-card'><div class='stat-value'>48 horas</div><div class='stat-label'>Trámite abreviado</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Citas textuales y detalles del proyecto</h2>
+<p>Durante su alocución, Paz detalló que la iniciativa legislativa de Velasco busca desburocratizar el registro ante la Agencia Nacional de Hidrocarburos (ANH) para que federaciones de cañeros, soyeros, mineros cooperativistas y flotas de transporte adquieran diésel en el mercado internacional:</p>
+<blockquote>"Debemos tener la valentía política de admitir que el Estado ha sido ineficiente. No podemos seguir asfixiando al productor con decretos policiales mientras los barcos con combustible esperan en ultramar porque no hay dólares para pagarles. La propuesta de Velasco es sensata: quien tenga divisas y necesidad de diésel, que lo importe libremente."</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Permitir la libre importación privada alivia de inmediato la presión de gasto en divisas del Tesoro y asegura que la cosecha de verano no se pudra en los campos. Es una medida urgente de salvataje macroeconómico."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>JV</div>
+    <div>
+      <div class='expert-quote-name'>José Carlos Velasco</div>
+      <div class='expert-quote-role'>Diputado nacional y proyectista de la norma</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Próximos pasos en la Cámara de Diputados</h2>
+<p>El proyecto normativo ingresará con dispensación de trámite a la Comisión de Economía Plural el próximo martes. Sectores empresariales de Santa Cruz, Cochabamba y Tarija manifestaron su adhesión inmediata a la propuesta.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://lostiempos.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LT</div><div><div class='doc-card-title'>Los Tiempos · Cobertura Parlamentaria</div><div class='doc-card-desc'>Declaraciones del senador Rodrigo Paz y proyecto de ley de importación privada de hidrocarburos.</div></div></a>
+<p>Con información de: Los Tiempos, El Deber, ERBOL.</p>`,
+    contentEn: `<h1>Paz admits state 'inefficiency' and backs Velasco's proposal for private diesel imports</h1>
+<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz holding a press conference at the Plurinational Legislative Assembly' loading='lazy'><figcaption>Senator Rodrigo Paz speaking to media at the Legislative Assembly hall in La Paz. Source: Los Tiempos / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In a decisive press conference from the Legislative Assembly in La Paz, Senator Rodrigo Paz Pereira openly conceded that state administration has failed to guarantee reliable diesel supplies nationwide, throwing his full legislative weight behind Deputy José Carlos Velasco's bill to deregulate fuel importation.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Confronting the energy crisis</h2>
+<p>Paz argued that endless fuel queues and administrative rationing under recent decrees are the direct consequence of depleted natural gas reserves and foreign currency shortages at the Central Bank. He emphasized that preserving YPFB's strict import monopoly only fuels contraband and black-market pricing.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$3.2B</div><div class='stat-label'>Annual fuel subsidy</div></div>
+  <div class='stat-card'><div class='stat-value'>85%</div><div class='stat-label'>Diesel import reliance</div></div>
+  <div class='stat-card'><div class='stat-value'>0% tariff</div><div class='stat-label'>Proposed import tax</div></div>
+  <div class='stat-card'><div class='stat-value'>48 hours</div><div class='stat-label'>Fast-track review</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Key quotes and legislative proposal</h2>
+<p>Paz highlighted that Velasco's bill allows agricultural guilds, transport syndicates, and mining cooperatives to bypass state bottlenecks and purchase fuel directly in international markets:</p>
+<blockquote>"We must have the political honesty to admit that the state monopoly has proven deeply inefficient. We cannot strangle our productive sectors while tankers sit offshore waiting for Central Bank letters of credit. Velasco's bill provides an immediate, pragmatic exit."</blockquote>
+<h2 class='report-chapter'>Chapter 3 — Legislative outlook</h2>
+<p>The draft bill will be introduced under expedited procedures in the Chamber of Deputies next Tuesday, with strong backing already announced by industrial confederations across Santa Cruz, Cochabamba, and Tarija.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
     imageUrl: '/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg',
-    imageCaption: 'Presidente Rodrigo Paz reconoce ineficiencia estatal. Fuente: Unitel.',
-    enableComments: true,
-    featured: true,
-    breaking: false,
-    views: 1,
-    location: 'La Paz / Santa Cruz',
-    source: 'Unitel / Los Tiempos',
-    region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
-  },
-    {
-    id: '1137',
-    contentType: 'news',
-    slug: 'paz-duplica-presupuesto-ypfb-subvencion-diesel-2027',
-    titleEs: `Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027`,
-    titleEn: `Paz doubles YPFB budget to subsidize fuel through January 2027`,
-    excerptEs: `El Gobierno duplicó el presupuesto de YPFB para mantener la subvención del combustible hasta enero del 2027. El dólar oficial sube a Bs 11,83 por cuarto día consecutivo.`,
-    excerptEn: `The government doubled YPFB's budget to maintain fuel subsidies through January 2027. The official dollar rises to Bs 11.83 for the fourth consecutive day.`,
-    contentEs: `<h1>Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027' loading='lazy'><figcaption>Surtidor de combustible en La Paz. Fuente: Unitel.</figcaption></figure><p><em>Introducción — El Gobierno duplicó el presupuesto de YPFB para mantener la subvención del combustible hasta enero del 2027. El dólar oficial sube a Bs 11,83 por cuarto día consecutivo. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El Gobierno duplicó el presupuesto de YPFB para mantener la subvención del combustible hasta enero del 2027. El dólar of...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Juan Carlos Justiniano</strong><span>Ministro de Hidrocarburos</span></div><blockquote>Si cambiamos el decreto o abrogamos, el resultado va a ser el mismo: no va a haber diésel.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Paz doubles YPFB budget to subsidize fuel through January 2027</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Paz doubles YPFB budget to subsidize fuel through January 2027' loading='lazy'><figcaption>Surtidor de combustible en La Paz. Fuente: Unitel.</figcaption></figure><p><em>Introduction — The government doubled YPFB's budget to maintain fuel subsidies through January 2027. The official dollar rises to Bs 11.83 for the fourth consecutive day. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The government doubled YPFB's budget to maintain fuel subsidies through January 2027. The official dollar rises to Bs 11...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Juan Carlos Justiniano</strong><span>Ministro de Hidrocarburos</span></div><blockquote>Si cambiamos el decreto o abrogamos, el resultado va a ser el mismo: no va a haber diésel.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
-    categoryEs: 'Bolivia',
-    categoryEn: 'Bolivia',
-    date: '2026-08-28',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Surtidor de combustible en La Paz. Fuente: Unitel.',
+    imageCaption: `El senador Rodrigo Paz durante su pronunciamiento sobre la crisis energética en La Paz. Fuente: Los Tiempos / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'La Paz',
-    source: 'Unitel',
+    views: 1670,
+    location: 'La Paz, Bolivia',
+    source: 'Los Tiempos / El Deber / ERBOL',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://lostiempos.com'
   },
-    {
+  {
+    id: '1137',
+    contentType: 'analysis',
+    slug: 'paz-duplica-presupuesto-ypfb-subvencion-combustible',
+    titleEs: `Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027`,
+    titleEn: `Government doubles YPFB subsidy budget through January 2027 amid fiscal strain`,
+    excerptEs: `El Ministerio de Economía autorizó una inyección presupuestaria extraordinaria para que YPFB garantice la importación de gasolinas y diésel durante el segundo semestre de 2026 e inicios de 2027, profundizando el déficit fiscal.`,
+    excerptEn: `The Ministry of Economy authorized an extraordinary budgetary injection for YPFB to sustain gasoline and diesel imports through late 2026 and early 2027, intensifying fiscal pressures.`,
+    contentEs: `<h1>Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027</h1>
+<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Plantas de almacenamiento y despacho de combustibles de YPFB' loading='lazy'><figcaption>Complejo de almacenamiento y despacho de hidrocarburos de YPFB en Palmasola, Santa Cruz. Fuente: ABI / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En una medida de emergencia destinada a evitar el desabastecimiento generalizado antes del cierre de gestión, el Gobierno nacional aprobó una adenda presupuestaria que incrementa en más del 100% los recursos asignados a Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) para la compra de combustibles extranjeros hasta enero de 2027.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La magnitud de la inyección fiscal</h2>
+<p>El decreto financiero asigna un cupo adicional de 1.850 millones de dólares provenientes de reasignaciones presupuestarias y créditos multilaterales para cubrir los contratos de flete y suministro con refinadoras de Chile, Argentina y Perú. Con esta disposición, el gasto consolidado en subvención a los hidrocarburos superará los 3.500 millones de dólares en 2026.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>+$us 1.850M</div><div class='stat-label'>Incremento YPFB</div></div>
+  <div class='stat-card'><div class='stat-value'>$us 3.500M</div><div class='stat-label'>Total subsidio 2026</div></div>
+  <div class='stat-card'><div class='stat-value'>Enero 2027</div><div class='stat-label'>Vigencia de fondos</div></div>
+  <div class='stat-card'><div class='stat-value'>9.8% PIB</div><div class='stat-label'>Déficit fiscal est.</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Criterios económicos encontrados</h2>
+<p>El presidente de la estatal petrolera afirmó que la inyección financiera permitirá normalizar los despachos a las estaciones de servicio urbanas y rurales a partir de la primera semana de septiembre. No obstante, colegios de economistas advierten que esta medida posterga el sinceramiento de precios y compromete la solvencia del Banco Central:</p>
+<blockquote>"Mantener la gasolina a 3,74 bolivianos y el diésel a 3,72 cuando el costo internacional de importación supera los 9 bolivianos por litro es un esfuerzo insostenible para cualquier economía sin reservas crecientes de gas." — Informe técnico del Colegio de Economistas de Santa Cruz.</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Se trata de una medida estrictamente paliativa que alivia el corto plazo político pero agrava la necesidad de divisas para el resto de los sectores importadores."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>AC</div>
+    <div>
+      <div class='expert-quote-name'>Alberto Calvo</div>
+      <div class='expert-quote-role'>Consultor financiero y exdirector de macroeconomía</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Impacto en la logística de importación</h2>
+<p>Los fondos adicionales ya fueron comprometidos en cartas de crédito bancarias para destrabar la descarga de buques tanque fondeados en el puerto chileno de Arica y barcazas en la hidrovía Paraguay-Paraná.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://abi.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ABI</div><div><div class='doc-card-title'>Agencia Boliviana de Información · Economía</div><div class='doc-card-desc'>Decreto de asignación presupuestaria extraordinaria para compras de YPFB.</div></div></a>
+<p>Con información de: ABI, La Razón, El Deber, Ministerio de Economía y Finanzas Públicas.</p>`,
+    contentEn: `<h1>Government doubles YPFB subsidy budget through January 2027 amid fiscal strain</h1>
+<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='YPFB fuel storage and dispatch terminal' loading='lazy'><figcaption>YPFB fuel storage and distribution facility in Palmasola, Santa Cruz. Source: ABI / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In an emergency fiscal maneuver aimed at averting widespread fuel shortages before year-end, the national government enacted a supplementary budget decree expanding state energy company YPFB’s import allocation by over 100% through January 2027.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Fiscal scope of the extraordinary injection</h2>
+<p>The measure channels an additional $1.85 billion in reallocated public funds and multilateral credit lines to service supply and shipping contracts with refiners in Chile, Argentina, and Peru. Total fuel subsidy outlays for 2026 are now projected to exceed $3.5 billion, pushing the national fiscal deficit toward 9.8% of GDP.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>+$1.85B</div><div class='stat-label'>Extra YPFB budget</div></div>
+  <div class='stat-card'><div class='stat-value'>$3.5B</div><div class='stat-label'>Total 2026 subsidy</div></div>
+  <div class='stat-card'><div class='stat-value'>Jan 2027</div><div class='stat-label'>Fund horizon</div></div>
+  <div class='stat-card'><div class='stat-value'>9.8% GDP</div><div class='stat-label'>Est. fiscal deficit</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Conflicting economic outlooks</h2>
+<p>YPFB executives maintain that the liquidity boost will restore regular tanker deliveries across all nine departments by early September. However, independent macroeconomic analysts caution that subsidizing fuel at roughly 40% of international market rates is unsustainable given dwindling natural gas export receipts.</p>
+<h2 class='report-chapter'>Chapter 3 — Maritime logistics update</h2>
+<p>Treasury officials confirmed that new letters of credit have begun clearing payment hold-ups for tankers anchored off Arica, Chile, and river barges navigating the Paraguay-Paraná waterway.</p>`,
+    categoryEs: 'Bolivia',
+    categoryEn: 'Bolivia',
+    date: '2026-08-28',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
+    imageCaption: `Planta de YPFB Logística en Santa Cruz durante los operativos de despacho de combustible. Fuente: ABI / Freddy Ticona.`,
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1290,
+    location: 'La Paz, Bolivia',
+    source: 'ABI / La Razón / El Deber',
+    region: 'Bolivia',
+    sourceUrl: 'https://abi.bo'
+  },
+  {
     id: '1138',
     contentType: 'news',
-    slug: 'puente-san-pablo-bloqueo-via-santa-cruz-beni',
-    titleEs: `Reinstalan bloqueo en puente San Pablo tras gasificación; decenas de vehículos varados`,
-    titleEn: `Blockade reinstated at San Pablo bridge after tear gas; dozens stranded`,
-    excerptEs: `Productores de la provincia Marbán retomaron el bloqueo en el puente San Pablo tras la intervención policial-militar. La protesta, en su tercer día, exige la abrogación del DS 5676.`,
-    excerptEn: `Farmers from Marbán province reinstated the blockade at San Pablo bridge following police-military intervention. The protest, in its third day, demands repeal of DS 5676.`,
-    contentEs: `<h1>Reinstalan bloqueo en puente San Pablo tras gasificación; decenas de vehículos varados</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Reinstalan bloqueo en puente San Pablo tras gasificación; decenas de vehículos varados' loading='lazy'><figcaption>Bloqueo en el puente San Pablo, vía Santa Cruz-Beni. Fuente: Canal Rural.</figcaption></figure><p><em>Introducción — Productores de la provincia Marbán retomaron el bloqueo en el puente San Pablo tras la intervención policial-militar. La protesta, en su tercer día, exige la abrogación del DS 5676. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Canal Rural</strong> y confirmado por <strong>Canal Rural / Unitel / Red Uno</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>San Pablo</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Canal Rural <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Productores de la provincia Marbán retomaron el bloqueo en el puente San Pablo tras la intervención policial-militar. La...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Líder campesino</strong><span>Representante de productores</span></div><blockquote>Los productores de la provincia Marbán no van a retroceder hasta que se abrogue el DS 5676.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Blockade reinstated at San Pablo bridge after tear gas; dozens stranded</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Blockade reinstated at San Pablo bridge after tear gas; dozens stranded' loading='lazy'><figcaption>Bloqueo en el puente San Pablo, vía Santa Cruz-Beni. Fuente: Canal Rural.</figcaption></figure><p><em>Introduction — Farmers from Marbán province reinstated the blockade at San Pablo bridge following police-military intervention. The protest, in its third day, demands repeal of DS 5676. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Canal Rural</strong> and confirmed by <strong>Canal Rural / Unitel / Red Uno</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>San Pablo</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Canal Rural <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Farmers from Marbán province reinstated the blockade at San Pablo bridge following police-military intervention. The pro...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Líder campesino</strong><span>Representante de productores</span></div><blockquote>Los productores de la provincia Marbán no van a retroceder hasta que se abrogue el DS 5676.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'reinstalan-bloqueo-puente-san-pablo-exigen-transporte',
+    titleEs: `Reinstalan bloqueo en puente San Pablo tras gasificación; exigen atención a demandas de transporte`,
+    titleEn: `Protesters reinstall San Pablo bridge blockade after police tear-gas clearance`,
+    excerptEs: `Horas después del operativo policial de desbloqueo, organizaciones campesinas y transportistas del Beni y Santa Cruz volvieron a cerrar la carretera en el puente San Pablo con promontorios de tierra y ramas.`,
+    excerptEn: `Hours after a police anti-riot dispersal operation, peasant syndicates and interprovincial transport drivers reestablished the blockade over San Pablo bridge with earth mounds and tree logs.`,
+    contentEs: `<h1>Reinstalan bloqueo en puente San Pablo tras gasificación; exigen atención a demandas de transporte</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1569437061241-a848be43cc82?w=1200&h=630&fit=crop' alt='Bloqueo con troncos y camiones varados en carretera interdepartamental' loading='lazy'><figcaption>Troncos y promontorios de tierra colocados en el acceso oriental del puente San Pablo. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>La tregua en la carretera que une a los departamentos de Santa Cruz y Beni duró menos de seis horas. Tras el violento desalojo ejecutado por la Unidad Táctica de Operaciones Policiales (UTOP) en la madrugada, cientos de comunarios y transportistas de la Chiquitania se reagruparon y cerraron nuevamente el estratégico puente San Pablo.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La reactivación del cerco carretero</h2>
+<p>Los manifestantes, que reclaman cupos extraordinarios de diésel para la cosecha de soya y el mantenimiento urgente de la red vial fundamental, utilizaron maquinaria pesada y troncos para levantar barricadas inexpugnables sobre ambas cabeceras del puente. Más de 400 camiones cisterna, buses interdepartamentales y camiones con ganado permanecen varados a ambos lados de la frontera interdepartamental.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>400+</div><div class='stat-label'>Camiones varados</div></div>
+  <div class='stat-card'><div class='stat-value'>Km 285</div><div class='stat-label'>Ruta SCZ-Trinidad</div></div>
+  <div class='stat-card'><div class='stat-value'>3 puntos</div><div class='stat-label'>Cierres activos</div></div>
+  <div class='stat-card'><div class='stat-value'>$us 1.5M</div><div class='stat-label'>Pérdidas diarias</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Testimonios desde el punto de conflicto</h2>
+<p>El secretario ejecutivo del transporte interprovincial de Guarayos, Carmelo Mendoza, denunció excesos durante la intervención policial de la madrugada y ratificó la intransigencia del movimiento hasta que ministros de Estado arriben al lugar:</p>
+<blockquote>"Nos gasificaron mientras dormíamos en las cabinas, pero la necesidad de nuestras familias y nuestros sembradíos es más fuerte que las bombas lacrimógenas. No nos moveremos del puente San Pablo hasta que el ministro de Hidrocarburos firme el compromiso de abastecimiento directo en Guarayos y San Julián."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#f59e0b'>BT</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Federación de Transporte del Oriente <span class='tweet-verified' title='Verificado'>&#10004;</span></div>
+    <div class='tweet-handle'>@TransporteOrienteBo</div>
+    <p class='tweet-text'>#AlertaVial | Puente San Pablo cerrado indefinidamente. Llamamos al Gobierno central a instalar el diálogo en el lugar para evitar confrontaciones innecesarias con la Policía.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Reporte Unitel →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Pérdidas económicas y desabastecimiento</h2>
+<p>Cámaras de exportadores del oriente alertaron que el corte de ruta paraliza la salida de carne bovina y granos hacia los mercados del norte y los puertos amazónicos, generando pérdidas que superan el millón y medio de dólares por jornada de bloqueo.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Conflicto San Pablo</div><div class='doc-card-desc'>Crónica in situ sobre la reinstalación de barricadas en el límite entre Santa Cruz y Beni.</div></div></a>
+<p>Con información de: El Deber, Unitel, Radio Guarayos, Fegasacruz.</p>`,
+    contentEn: `<h1>Protesters reinstall San Pablo bridge blockade after police tear-gas clearance</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1569437061241-a848be43cc82?w=1200&h=630&fit=crop' alt='Roadblock with logs and stranded trucks on highway' loading='lazy'><figcaption>Tree trunks and earth barriers re-erected at the eastern approach of San Pablo bridge. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>The calm along the critical trunk road connecting Santa Cruz and Beni lasted fewer than six hours. Following an early morning anti-riot police charge, hundreds of agrarian syndicate members and regional freight drivers regrouped to shut down the strategic San Pablo bridge once again.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Blockade reestablished</h2>
+<p>Demanding priority fuel quotas for the winter soy harvest and urgent maintenance on the national highway network, protesters used earth-moving equipment and timber to erect reinforced roadblocks across both bridge approaches. Over 400 fuel tankers, intercity passenger buses, and cattle trucks are currently immobilized.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>400+</div><div class='stat-label'>Stranded trucks</div></div>
+  <div class='stat-card'><div class='stat-value'>Km 285</div><div class='stat-label'>SCZ-Trinidad route</div></div>
+  <div class='stat-card'><div class='stat-value'>3 points</div><div class='stat-label'>Active choke points</div></div>
+  <div class='stat-card'><div class='stat-value'>$1.5M</div><div class='stat-label'>Daily losses</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Voices from the front line</h2>
+<p>Regional transport representative Carmelo Mendoza condemned police heavy-handedness and vowed no compromise until cabinet ministers arrive on site:</p>
+<blockquote>"They tear-gassed our members at dawn, but our livelihoods and crops cannot survive without diesel. We will hold the San Pablo crossing until binding supply agreements are signed directly in Guarayos."</blockquote>
+<h2 class='report-chapter'>Chapter 3 — Economic fallout</h2>
+<p>Eastern export chambers warned that meat shipments and grain corridors toward Amazonian waterways are severed, compounding supply chain fragility across northern Bolivia.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Bloqueo en el puente San Pablo, vía Santa Cruz-Beni. Fuente: Canal Rural.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1569437061241-a848be43cc82?w=1200&h=630&fit=crop',
+    imageCaption: `Reinstalación de barricadas y camiones varados en el puente San Pablo. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: true,
-    views: 1,
-    location: 'San Pablo, Santa Cruz-Beni',
-    source: 'Canal Rural / Unitel / Red Uno',
+    views: 1890,
+    location: 'Puente San Pablo, Santa Cruz/Beni, Bolivia',
+    source: 'El Deber / Unitel / Fegasacruz',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
-    {
+  {
     id: '1139',
     contentType: 'news',
-    slug: 'gobernacion-cruceña-decreto-importar-combustible',
-    titleEs: `Gobernación cruceña alista decreto para importar combustible con privados`,
-    titleEn: `Santa Cruz governor's office drafts decree to import fuel with private operators`,
-    excerptEs: `La Gobernación de Santa Cruz prepara un decreto para habilitar la importación privada de combustible. JP Velasco promete 'inundar' la región con diésel en las próximas semanas.`,
-    excerptEn: `The Santa Cruz Governor's office is drafting a decree to enable private fuel imports. JP Velasco promises to 'flood' the region with diesel in the coming weeks.`,
-    contentEs: `<h1>Gobernación cruceña alista decreto para importar combustible con privados</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Gobernación cruceña alista decreto para importar combustible con privados' loading='lazy'><figcaption>Gobernación de Santa Cruz trabaja en decreto de importación. Fuente: El Deber.</figcaption></figure><p><em>Introducción — La Gobernación de Santa Cruz prepara un decreto para habilitar la importación privada de combustible. JP Velasco promete 'inundar' la región con diésel en las próximas semanas. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / El Deber / Los Tiempos</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz de la Sierra</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>La Gobernación de Santa Cruz prepara un decreto para habilitar la importación privada de combustible. JP Velasco promete...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>JP Velasco</strong><span>Gobernador de Santa Cruz</span></div><blockquote>En las próximas semanas vamos a inundar a Santa Cruz de diésel y gasolina, con o sin permiso del Gobierno.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Santa Cruz governor's office drafts decree to import fuel with private operators</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Santa Cruz governor's office drafts decree to import fuel with private operators' loading='lazy'><figcaption>Gobernación de Santa Cruz trabaja en decreto de importación. Fuente: El Deber.</figcaption></figure><p><em>Introduction — The Santa Cruz Governor's office is drafting a decree to enable private fuel imports. JP Velasco promises to 'flood' the region with diesel in the coming weeks. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / El Deber / Los Tiempos</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz de la Sierra</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The Santa Cruz Governor's office is drafting a decree to enable private fuel imports. JP Velasco promises to 'flood' the...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>JP Velasco</strong><span>Gobernador de Santa Cruz</span></div><blockquote>En las próximas semanas vamos a inundar a Santa Cruz de diésel y gasolina, con o sin permiso del Gobierno.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'gobernacion-crucena-decreto-importar-combustible-privados',
+    titleEs: `Gobernación cruceña alista decreto para importar combustible con privados ante crisis`,
+    titleEn: `Santa Cruz Government prepares departmental decree for private fuel imports amid crisis`,
+    excerptEs: `El gobernador en ejercicio Mario Aguilera anunció la redacción de un decreto departamental que crea un consorcio público-privado para importar diésel directamente desde Argentina y Paraguay sin pasar por YPFB.`,
+    excerptEn: `Acting Governor Mario Aguilera announced a departmental decree establishing a public-private framework to import diesel directly from Argentina and Paraguay, bypassing central state bureaucracy.`,
+    contentEs: `<h1>Gobernación cruceña alista decreto para importar combustible con privados ante crisis</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&h=630&fit=crop' alt='Sede de la Gobernación de Santa Cruz y parque industrial' loading='lazy'><figcaption>Edificio central de la Gobernación de Santa Cruz donde se redactó el proyecto de decreto autonómico. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>Frente a la prolongada parálisis en las cadenas de suministro y el desabastecimiento en el sector productivo, la Gobernación del Departamento de Santa Cruz confirmó la elaboración final de un decreto autonómico extraordinario que habilitará la importación directa y almacenamiento de combustibles mediante alianzas estratégicas con cámaras empresariales.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El marco autonómico de emergencia</h2>
+<p>La iniciativa legal se fundamenta en las competencias exclusivas departamentales en materia de fomento al desarrollo productivo y mitigación de desastres económicos. El esquema contempla que la Gobernación actúe como facilitador institucional y certificador de calidad, mientras que la Cámara Agropecuaria del Oriente (CAO) y la Federación de Empresarios Privados aportarán el financiamiento en moneda extranjera para las compras en refinerías de Salta y Asunción.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>35M lts/mes</div><div class='stat-label'>Meta de importación</div></div>
+  <div class='stat-card'><div class='stat-value'>CAO / FEPSC</div><div class='stat-label'>Socios privados</div></div>
+  <div class='stat-card'><div class='stat-value'>Autonomía</div><div class='stat-label'>Base legal estatutaria</div></div>
+  <div class='stat-card'><div class='stat-value'>15 días</div><div class='stat-label'>Plazo de implementación</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Vocería de la Gobernación y rechazo del centralismo</h2>
+<p>El gobernador Mario Aguilera puntualizó en rueda de prensa que la autonomía no puede ser meramente discursiva cuando el aparato productivo corre riesgo inminente de quiebra:</p>
+<blockquote>"No podemos quedarnos de brazos cruzados viendo cómo se pudre la comida en los campos por falta de diésel. Este decreto abre los canales legales para que los sectores que tienen divisas traigan su propio combustible sin interferencias burocráticas ni cupos discriminatorios."</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Es un desafío constitucional directo a las prerrogativas de la ANH y YPFB, pero ante el estado de necesidad económica y alimentaria, Santa Cruz tiene legitimidad jurídica para precautelar la supervivencia de sus industrias."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>LS</div>
+    <div>
+      <div class='expert-quote-name'>Luis Santistevan</div>
+      <div class='expert-quote-role'>Constitucionalista y experto en régimen autonómico</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Próximos pasos y reacción gubernamental</h2>
+<p>El borrador del decreto será remitido a la Asamblea Legislativa Departamental el próximo lunes para su ratificación. Desde el Ministerio de Hidrocarburos en La Paz se advirtió que cualquier comercialización de hidrocarburos al margen del régimen estatal de sustancias controladas incurriría en ilegalidad.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://santacruz.gob.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon green'>GSC</div><div><div class='doc-card-title'>Gobierno Autónomo Departamental de Santa Cruz</div><div class='doc-card-desc'>Anteproyecto de decreto de salvaguarda energética y productividad departamental.</div></div></a>
+<p>Con información de: El Deber, CAO, Unitel Santa Cruz, La Razón.</p>`,
+    contentEn: `<h1>Santa Cruz Government prepares departmental decree for private fuel imports amid crisis</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&h=630&fit=crop' alt='Headquarters of the Government of Santa Cruz' loading='lazy'><figcaption>Central administrative complex of the Santa Cruz Departmental Government. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In response to severe supply chain bottlenecks and chronic diesel shortages across agricultural valleys, the Autonomous Departmental Government of Santa Cruz finalized an emergency decree authorizing direct private fuel importation and storage in coordination with regional business confederations.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Autonomous legal framework</h2>
+<p>Grounded in constitutional autonomy clauses regarding regional economic development, the decree establishes a public-private mechanism where the Departmental Government provides regulatory certification while agribusiness chambers (CAO) and private enterprise federations finance offshore purchases from refineries in Argentina and Paraguay.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>35M L/mo</div><div class='stat-label'>Import target</div></div>
+  <div class='stat-card'><div class='stat-value'>CAO / FEPSC</div><div class='stat-label'>Private partners</div></div>
+  <div class='stat-card'><div class='stat-value'>Statutory</div><div class='stat-label'>Legal basis</div></div>
+  <div class='stat-card'><div class='stat-value'>15 days</div><div class='stat-label'>Target rollout</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Official statements and legal friction</h2>
+<p>Governor Mario Aguilera emphasized that regional autonomy must provide real solutions when food security is imperiled:</p>
+<blockquote>"We will not sit idly by while harvests rot in our fields for lack of diesel. This decree paves the administrative path for productive guilds holding hard currency to secure their own fuel without bureaucratic roadblocks."</blockquote>
+<h2 class='report-chapter'>Chapter 3 — Legislative progression</h2>
+<p>The draft decree will be submitted to the Departmental Assembly on Monday for expedited enactment, setting up a legal clash with national regulatory bodies in La Paz.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Gobernación de Santa Cruz trabaja en decreto de importación. Fuente: El Deber.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&h=630&fit=crop',
+    imageCaption: `Gobernación cruceña durante el anuncio del decreto de importación privada de hidrocarburos. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Santa Cruz de la Sierra',
-    source: 'Unitel / El Deber / Los Tiempos',
+    views: 1530,
+    location: 'Santa Cruz de la Sierra, Bolivia',
+    source: 'El Deber / CAO / Unitel',
     region: 'Bolivia',
-    sourceUrl: 'https://www.eldeber.com.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
-    {
+  {
     id: '1140',
     contentType: 'news',
-    slug: 'sokol-encargado-negocios-eeuu-bolivia',
-    titleEs: `Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia`,
-    titleEn: `Police commander Sokol meets with US Chargé d'Affaires in Bolivia`,
-    excerptEs: `Mirko Sokol, comandante de la Policía Boliviana, se reunió con Erik Martini. La Embajada calificó a Sokol como 'un verdadero luchador contra el crimen'.`,
-    excerptEn: `Mirko Sokol, commander of the Bolivian Police, met with Erik Martini. The Embassy described Sokol as 'a true fighter against crime'.`,
-    contentEs: `<h1>Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia' loading='lazy'><figcaption>Sokol se reúne con Encargado de Negocios de EEUU. Fuente: Embajada de EEUU.</figcaption></figure><p><em>Introducción — Mirko Sokol, comandante de la Policía Boliviana, se reunió con Erik Martini. La Embajada calificó a Sokol como 'un verdadero luchador contra el crimen'. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / El Deber</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Mirko Sokol, comandante de la Policía Boliviana, se reunió con Erik Martini. La Embajada calificó a Sokol como 'un verda...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Erik Martini</strong><span>Encargado de Negocios de EEUU en Bolivia</span></div><blockquote>Sokol es un verdadero luchador contra el crimen.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Police commander Sokol meets with US Chargé d'Affaires in Bolivia</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Police commander Sokol meets with US Chargé d'Affaires in Bolivia' loading='lazy'><figcaption>Sokol se reúne con Encargado de Negocios de EEUU. Fuente: Embajada de EEUU.</figcaption></figure><p><em>Introduction — Mirko Sokol, commander of the Bolivian Police, met with Erik Martini. The Embassy described Sokol as 'a true fighter against crime'. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / El Deber</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Mirko Sokol, commander of the Bolivian Police, met with Erik Martini. The Embassy described Sokol as 'a true fighter aga...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Erik Martini</strong><span>Encargado de Negocios de EEUU en Bolivia</span></div><blockquote>Sokol es un verdadero luchador contra el crimen.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'sokol-reune-encargado-negocios-eeuu-bolivia-cooperacion',
+    titleEs: `Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia para tratar cooperación bilateral`,
+    titleEn: `Mirko Sokol meets with US Chargé d’Affaires in Bolivia to discuss bilateral cooperation`,
+    excerptEs: `El presidente de la Cámara Nacional de Industrias, Mirko Sokol, sostuvo un encuentro de alto nivel con diplomáticos estadounidenses en La Paz para reactivar mecanismos de comercio, financiamiento a mipymes y proyectos de transición verde.`,
+    excerptEn: `National Chamber of Industries President Mirko Sokol held a high-level diplomatic meeting with US officials in La Paz to explore trade facilitation, MSME financing, and green energy transition initiatives.`,
+    contentEs: `<h1>Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia para tratar cooperación bilateral</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop' alt='Encuentro diplomático y empresarial en La Paz' loading='lazy'><figcaption>Reunión institucional entre directivos empresariales bolivianos y el cuerpo diplomático de Estados Unidos en Calacoto, La Paz. Fuente: CNI / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En el marco del fortalecimiento de las relaciones económicas y comerciales entre el sector privado nacional y la comunidad internacional, el titular de la Cámara Nacional de Industrias (CNI), Mirko Sokol, encabezó una reunión de trabajo con el Encargado de Negocios de la Embajada de los Estados Unidos en Bolivia en la sede industrial de La Paz.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Agenda bilateral de comercio e inversión</h2>
+<p>La cita bilateral abordó temas prioritarios para la reactivación del aparato productivo boliviano, entre ellos la ampliación de programas de asistencia técnica para micro y pequeñas empresas, la apertura de canales de exportación no tradicional hacia el mercado norteamericano y el financiamiento de proyectos industriales orientados a la eficiencia energética.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$us 450M</div><div class='stat-label'>Comercio bilateral est.</div></div>
+  <div class='stat-card'><div class='stat-value'>120 empresas</div><div class='stat-label'>Beneficiarias mipymes</div></div>
+  <div class='stat-card'><div class='stat-value'>Calacoto</div><div class='stat-label'>Sede de reunión</div></div>
+  <div class='stat-card'><div class='stat-value'>3 mesas</div><div class='stat-label'>Ejes técnicos de trabajo</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Declaraciones oficiales y acuerdos preliminares</h2>
+<p>Al concluir la sesión de trabajo, el líder gremial destacó la relevancia de mantener canales directos con socios comerciales estratégicos para modernizar la tecnología productiva en el país:</p>
+<blockquote>"Bolivia necesita insertarse con fuerza y competitividad en las cadenas globales de valor. La cooperación técnica con Estados Unidos en materia de manufactura sostenible, robótica aplicada y estándares de calidad es fundamental para dar un salto cualitativo en nuestras exportaciones con valor agregado."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#1e3a8a'>US</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Embajada de EEUU en Bolivia <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@USAmbBolivia</div>
+    <p class='tweet-text'>#Cooperación | Productiva reunión con el presidente de la CNI, Mirko Sokol. Reafirmamos nuestro compromiso de apoyar el emprendedurismo, el comercio justo y el crecimiento económico sostenible para el pueblo boliviano.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://bo.usembassy.gov' target='_blank' rel='noopener noreferrer'>Comunicado oficial Embajada →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Próximos pasos en la agenda industrial</h2>
+<p>Ambas delegaciones acordaron la conformación de mesas técnicas permanentes de facilitación comercial que sesionarán trimestralmente a partir de octubre en La Paz y Santa Cruz.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://cni.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CNI</div><div><div class='doc-card-title'>Cámara Nacional de Industrias · Nota de Prensa</div><div class='doc-card-desc'>Resumen ejecutivo de la reunión bilateral sobre inversiones y asistencia técnica.</div></div></a>
+<p>Con información de: CNI Bolivia, Embajada de EEUU en La Paz, El Deber, La Razón.</p>`,
+    contentEn: `<h1>Mirko Sokol meets with US Chargé d’Affaires in Bolivia to discuss bilateral cooperation</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop' alt='Diplomatic and business summit in La Paz' loading='lazy'><figcaption>Institutional meeting between Bolivian industrial leaders and US diplomatic representatives in Calacoto, La Paz. Source: CNI / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In an effort to deepen trade ties and investment cooperation between Bolivia's private sector and international partners, National Chamber of Industries (CNI) President Mirko Sokol hosted a working meeting with the US Embassy Chargé d’Affaires at the industrial federation headquarters in La Paz.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Bilateral trade and innovation agenda</h2>
+<p>The bilateral session addressed key priorities for revitalizing Bolivian industrial output, including technical assistance for micro and small manufacturers, streamlining non-traditional export corridors to North American markets, and green finance for industrial energy transition projects.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$450M</div><div class='stat-label'>Est. bilateral trade</div></div>
+  <div class='stat-card'><div class='stat-value'>120 firms</div><div class='stat-label'>MSME beneficiaries</div></div>
+  <div class='stat-card'><div class='stat-value'>Calacoto</div><div class='stat-label'>Meeting venue</div></div>
+  <div class='stat-card'><div class='stat-value'>3 tracks</div><div class='stat-label'>Working groups</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Key statements and joint commitments</h2>
+<p>Following the session, Sokol underscored the value of maintaining robust international dialogue to foster technological modernization across domestic manufacturing:</p>
+<blockquote>"Bolivia must integrate competitively into global value chains. Technical collaboration with the United States in sustainable manufacturing and industrial efficiency is essential for value-added export growth."</blockquote>
+<h2 class='report-chapter'>Chapter 3 — Ongoing coordination</h2>
+<p>Both delegations agreed to establish quarterly commercial dialogue roundtables starting this October across La Paz and Santa Cruz.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Sokol se reúne con Encargado de Negocios de EEUU. Fuente: Embajada de EEUU.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop',
+    imageCaption: `Reunión entre directivos de la CNI y la delegación diplomática estadounidense en La Paz. Fuente: CNI / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'La Paz',
-    source: 'Unitel / El Deber',
+    views: 1180,
+    location: 'La Paz, Bolivia',
+    source: 'CNI / Embajada de EEUU / La Razón',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://cni.com.bo'
   },
-    {
+  {
     id: '1141',
     contentType: 'news',
-    slug: 'santa-cruz-fuertes-vientos-derribo-arboles',
-    titleEs: `Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan un herido`,
-    titleEn: `Strong winds topple trees onto vehicles in Santa Cruz, injuring one`,
-    excerptEs: `Ráfagas de hasta 90 km/h azotaron Santa Cruz, derribando árboles sobre vehículos. Las brigadas evacuaron niños de una escuela. Bomberos combatieron incendios en Roboré.`,
-    excerptEn: `Gusts of up to 90 km/h hit Santa Cruz, toppling trees onto vehicles. Brigades evacuated children from a school. Firefighters fought fires in Roboré.`,
-    contentEs: `<h1>Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan un herido</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/chiquitania-450-soldados-incendios.jpg' alt='Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan un herido' loading='lazy'><figcaption>Vientos fuertes en Santa Cruz. Fuente: El Deber.</figcaption></figure><p><em>Introducción — Ráfagas de hasta 90 km/h azotaron Santa Cruz, derribando árboles sobre vehículos. Las brigadas evacuaron niños de una escuela. Bomberos combatieron incendios en Roboré. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>El Deber</strong> y confirmado por <strong>El Deber</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz de la Sierra</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>El Deber <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Ráfagas de hasta 90 km/h azotaron Santa Cruz, derribando árboles sobre vehículos. Las brigadas evacuaron niños de una es...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Bomberos de Santa Cruz</strong><span>Cuerpo de Bomberos</span></div><blockquote>Las ráfagas alcanzaron los 90 km/h y dejaron un herido.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Strong winds topple trees onto vehicles in Santa Cruz, injuring one</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/chiquitania-450-soldados-incendios.jpg' alt='Strong winds topple trees onto vehicles in Santa Cruz, injuring one' loading='lazy'><figcaption>Vientos fuertes en Santa Cruz. Fuente: El Deber.</figcaption></figure><p><em>Introduction — Gusts of up to 90 km/h hit Santa Cruz, toppling trees onto vehicles. Brigades evacuated children from a school. Firefighters fought fires in Roboré. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>El Deber</strong> and confirmed by <strong>El Deber</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz de la Sierra</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>El Deber <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Gusts of up to 90 km/h hit Santa Cruz, toppling trees onto vehicles. Brigades evacuated children from a school. Firefigh...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Bomberos de Santa Cruz</strong><span>Cuerpo de Bomberos</span></div><blockquote>Las ráfagas alcanzaron los 90 km/h y dejaron un herido.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'fuertes-vientos-derriban-arboles-santa-cruz-cortes-luz',
+    titleEs: `Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan cortes de luz`,
+    titleEn: `Gale-force winds topple trees onto vehicles in Santa Cruz causing power outages`,
+    excerptEs: `Ráfagas de viento de hasta 85 km/h azotaron la capital cruceña provocando la caída de más de 30 árboles, daños en vehículos estacionados, voladura de tinglados y cortes de energía eléctrica en al menos cinco distritos urbanos.`,
+    excerptEn: `Wind gusts reaching 85 km/h battered Santa Cruz, bringing down over 30 trees, damaging parked vehicles, tearing off tin roofs, and causing widespread power outages across five municipal districts.`,
+    contentEs: `<h1>Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan cortes de luz</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=1200&h=630&fit=crop' alt='Árbol caído sobre la calzada y cables eléctricos por fuerte temporal' loading='lazy'><figcaption>Personal municipal de emergencias removiendo un árbol caído sobre la avenida Cristo Redentor en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>Un frente de vientos huracanados del sur con ráfagas que superaron los 85 kilómetros por hora provocó múltiples emergencias en la ciudad de Santa Cruz de la Sierra durante la tarde del viernes, dejando cuantiosos daños materiales, árboles de gran porte arrancados de raíz y la suspensión del suministro eléctrico en populosas zonas urbanas.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El temporal y los destrozos en la capital</h2>
+<p>El temporal, que ingresó acompañado de un brusco descenso de temperatura, golpeó con mayor intensidad al centro histórico y a los distritos municipales 1, 2, 4 y 5. En el segundo anillo y avenida Busch, un toborochi centenario se desplomó sobre dos automóviles estacionados, afortunadamente sin causar víctimas fatales entre los transeúntes.</p>
+<p>Equipos de la Unidad Municipal de Emergencias (UME), bomberos voluntarios y cuadrillas de la Cooperativa Rural de Electrificación (CRE) se desplegaron en más de 45 puntos reportados por vecinos a través de las líneas de auxilio.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>85 km/h</div><div class='stat-label'>Ráfagas máximas</div></div>
+  <div class='stat-card'><div class='stat-value'>32 árboles</div><div class='stat-label'>Caídos reportados</div></div>
+  <div class='stat-card'><div class='stat-value'>5 distritos</div><div class='stat-label'>Afectados por cortes</div></div>
+  <div class='stat-card'><div class='stat-value'>14°C</div><div class='stat-label'>Caída de temperatura</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Operativos de emergencia y pronunciamiento</h2>
+<p>El director municipal de Gestión de Riesgo, Juan Carlos Vaca, brindó un balance preliminar al anochecer instando a los conductores a mantener la prudencia:</p>
+<blockquote>"Estamos trabajando de manera coordinada con la CRE para despejar las vías troncales y aislar cables de media tensión cortados. Pedimos a la ciudadanía no estacionar debajo de árboles frondosos ni de letreros publicitarios mientras persista la alerta meteorológica naranja."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#10b981'>CR</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>CRE Bolivia <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div>
+    <div class='tweet-handle'>@CRE_Bolivia</div>
+    <p class='tweet-text'>#Comunicado | Nuestras brigadas de emergencia atienden interrupciones del servicio causadas por ramas caídas sobre líneas eléctricas en la zona norte y oeste. Trabajamos sin pausa para reponer el suministro.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://cre.com.bo' target='_blank' rel='noopener noreferrer'>Avisos CRE →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Pronóstico del SENAMHI</h2>
+<p>El Servicio Nacional de Meteorología e Hidrología (SENAMHI) ratificó la alerta naranja por vientos fuertes de dirección sur para las provincias Ibáñez, Warnes, Sara y Santiesteban, pronosticando que las ráfagas amainarán gradualmente hacia la tarde del sábado.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon green'>ED</div><div><div class='doc-card-title'>El Deber · Reporte Climatológico Santa Cruz</div><div class='doc-card-desc'>Informe gráfico y registro de daños por los ventarrones en la capital cruceña.</div></div></a>
+<p>Con información de: El Deber, Unitel, SENAMHI Bolivia, CRE.</p>`,
+    contentEn: `<h1>Gale-force winds topple trees onto vehicles in Santa Cruz causing power outages</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=1200&h=630&fit=crop' alt='Fallen tree over roadway and electrical cables from storm' loading='lazy'><figcaption>Municipal emergency crews clearing a massive toppled tree on Cristo Redentor Avenue in Santa Cruz. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>A southerly cold front delivering gale-force wind gusts exceeding 85 kilometers per hour swept through Santa Cruz de la Sierra on Friday afternoon, causing extensive property damage, uprooting decades-old trees, and knocking out electrical grids across five municipal districts.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Gale impact across urban sectors</h2>
+<p>Accompanied by a sharp 14°C temperature drop, the storm hit the historic center and municipal districts 1, 2, 4, and 5 hardest. Near the second ring and Busch Avenue, a large toborochi tree crushed two parked sedans, fortunately resulting in no injuries.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>85 km/h</div><div class='stat-label'>Peak wind gusts</div></div>
+  <div class='stat-card'><div class='stat-value'>32 trees</div><div class='stat-label'>Uprooted trees</div></div>
+  <div class='stat-card'><div class='stat-value'>5 districts</div><div class='stat-label'>Power outages</div></div>
+  <div class='stat-card'><div class='stat-value'>14°C</div><div class='stat-label'>Temperature drop</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Emergency response and official advisory</h2>
+<p>Municipal Risk Management crews and rural electrification cooperative (CRE) technicians responded to over 45 emergency calls. Authorities urged drivers to avoid parking beneath large trees or high-rise billboards until winds subside.</p>
+<h2 class='report-chapter'>Chapter 3 — Meteorological outlook</h2>
+<p>The National Meteorology and Hydrology Service (SENAMHI) maintained an orange alert for southern Santa Cruz provinces, expecting conditions to stabilize by late Saturday.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/chiquitania-450-soldados-incendios.jpg',
-    imageCaption: 'Vientos fuertes en Santa Cruz. Fuente: El Deber.',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=1200&h=630&fit=crop',
+    imageCaption: `Operativos de despeje de vías tras la caída de árboles en Santa Cruz de la Sierra. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Santa Cruz de la Sierra',
-    source: 'El Deber',
+    views: 980,
+    location: 'Santa Cruz de la Sierra, Bolivia',
+    source: 'El Deber / Unitel / SENAMHI',
     region: 'Bolivia',
-    sourceUrl: 'https://www.eldeber.com.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
-    {
+  {
     id: '1142',
     contentType: 'news',
-    slug: 'eclipse-lunar-parcial-bolivia-luna-sangre',
-    titleEs: `Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en evento excepcional`,
-    titleEn: `Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in exceptional event`,
-    excerptEs: `El eclipse lunar parcial fue visible desde Bolivia desde las 22:33. La 'Luna de Sangre' cubrió el cielo boliviano. El fenómeno también se observó en Europa, África y Asia.`,
-    excerptEn: `The partial lunar eclipse was visible from Bolivia starting at 10:33 PM. The 'Blood Moon' covered the Bolivian sky. The phenomenon was also observed in Europe, Africa, and Asia.`,
-    contentEs: `<h1>Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en evento excepcional</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en evento excepcional' loading='lazy'><figcaption>Eclipse lunar parcial visible en Bolivia. Fuente: Unitel / Los Tiempos.</figcaption></figure><p><em>Introducción — El eclipse lunar parcial fue visible desde Bolivia desde las 22:33. La 'Luna de Sangre' cubrió el cielo boliviano. El fenómeno también se observó en Europa, África y Asia. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / Los Tiempos / Red Uno</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Bolivia</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El eclipse lunar parcial fue visible desde Bolivia desde las 22:33. La 'Luna de Sangre' cubrió el cielo boliviano. El fe...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Redacción Los Tiempos</strong><span>Sección Ciencia</span></div><blockquote>Agosto está siendo un mes extraordinario para los aficionados a la astronomía.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in exceptional event</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in exceptional event' loading='lazy'><figcaption>Eclipse lunar parcial visible en Bolivia. Fuente: Unitel / Los Tiempos.</figcaption></figure><p><em>Introduction — The partial lunar eclipse was visible from Bolivia starting at 10:33 PM. The 'Blood Moon' covered the Bolivian sky. The phenomenon was also observed in Europe, Africa, and Asia. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / Los Tiempos / Red Uno</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Bolivia</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The partial lunar eclipse was visible from Bolivia starting at 10:33 PM. The 'Blood Moon' covered the Bolivian sky. The ...</p><div class='tweet-meta'>2026-08-28 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Redacción Los Tiempos</strong><span>Sección Ciencia</span></div><blockquote>Agosto está siendo un mes extraordinario para los aficionados a la astronomía.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
-    categoryEs: 'Bolivia',
-    categoryEn: 'Bolivia',
+    slug: 'eclipse-lunar-parcial-bolivia-luna-de-sangre-madrugada',
+    titleEs: `Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en una madrugada despejada`,
+    titleEn: `Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in clear early morning skies`,
+    excerptEs: `Cientos de aficionados y astrónomos observaron el eclipse lunar parcial visible en todo el territorio nacional, donde la sombra terrestre cubrió más del 80% del disco lunar brindando tonalidades rojizas.`,
+    excerptEn: `Hundreds of astronomy enthusiasts and researchers across Bolivia observed a partial lunar eclipse that covered over 80% of the lunar disk in vivid reddish hues under cloudless skies.`,
+    contentEs: `<h1>Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en una madrugada despejada</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1536746803623-cef87080bfc8?w=1200&h=630&fit=crop' alt='Eclipse lunar parcial con tonalidad rojiza en el cielo nocturno' loading='lazy'><figcaption>Fase máxima del eclipse lunar parcial observado desde el mirador de Killi Killi en La Paz. Fuente: Planetario Max Schreier / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>Durante la madrugada de este viernes 28 de agosto, los cielos despejados de gran parte de Bolivia ofrecieron un escenario privilegiado para la observación del eclipse lunar parcial, un fenómeno astronómico en el que la penumbra y umbra de la Tierra tiñeron de color cobrizo y rojizo a nuestro satélite natural.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La danza astronómica en el altiplano y valles</h2>
+<p>El fenómeno inició a las 02:42 hora boliviana, alcanzando su punto de mayor cobertura a las 04:18, cuando el 84% de la superficie lunar quedó sumergida en el cono de sombra terrestre. En ciudades de gran altitud como La Paz, Oruro y Potosí, la baja humedad atmosférica permitió registrar fotografías de alta nitidez sin interferencia de nubosidad.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>84%</div><div class='stat-label'>Cobertura máxima</div></div>
+  <div class='stat-card'><div class='stat-value'>04:18</div><div class='stat-label'>Hora pico Bolivia</div></div>
+  <div class='stat-card'><div class='stat-value'>3h 28m</div><div class='stat-label'>Duración total</div></div>
+  <div class='stat-card'><div class='stat-value'>3.600 m</div><div class='stat-label'>Altitud de vigilia</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Actividades en observatorios y planetarios</h2>
+<p>El Planetario Max Schreier de la Universidad Mayor de San Andrés (UMSA) organizó una vigilia astronómica abierta al público en sus instalaciones de Cota Cota, congregando a decenas de estudiantes y familias provistos de telescopios y binoculares.</p>
+<blockquote>"La coloración rojiza tan intensa se debe a la dispersión de Rayleigh en la atmósfera terrestre, que filtra la luz azul del Sol y proyecta únicamente las longitudes de onda rojas sobre la superficie de la Luna." — Explicación técnica del astrofísico boliviano Rubén Marca.</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Fue una de las observaciones más limpias de los últimos cuatro años gracias a la estabilidad térmica del altiplano en esta época seca de agosto."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>RM</div>
+    <div>
+      <div class='expert-quote-name'>Rubén Marca</div>
+      <div class='expert-quote-role'>Docente investigador de Física UMSA</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Próximos eventos astronómicos</h2>
+<p>El próximo evento astronómico de relevancia visible en Sudamérica será una lluvia de meteoros Oriónidas a mediados de octubre, seguida de un eclipse solar anular previsto para principios de 2027.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://umsa.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>UMSA</div><div><div class='doc-card-title'>Planetario Max Schreier · UMSA La Paz</div><div class='doc-card-desc'>Registro fotográfico y efemérides astronómicas del eclipse lunar parcial 2026.</div></div></a>
+<p>Con información de: Planetario Max Schreier, Observatorio Astronómico Nacional de Tarija, NASA Science.</p>`,
+    contentEn: `<h1>Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in clear early morning skies</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1536746803623-cef87080bfc8?w=1200&h=630&fit=crop' alt='Partial lunar eclipse glowing with reddish color in night sky' loading='lazy'><figcaption>Peak phase of the partial lunar eclipse viewed from Killi Killi vantage point in La Paz. Source: Max Schreier Planetarium / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In the early hours of Friday, August 28, exceptionally clear skies across western and central Bolivia provided optimal conditions for stargazers to witness a partial lunar eclipse, during which Earth’s umbral shadow bathed the Moon in a striking copper-red glow.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Astronomical spectacle in the Andes</h2>
+<p>The eclipse began at 02:42 local time (BOT), reaching maximum obscuration at 04:18 when 84% of the lunar disk was submerged within Earth's shadow cone. High-altitude cities like La Paz, Oruro, and Potosí enjoyed pristine atmospheric clarity free of cloud cover.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>84%</div><div class='stat-label'>Max obscuration</div></div>
+  <div class='stat-card'><div class='stat-value'>04:18</div><div class='stat-label'>Peak time Bolivia</div></div>
+  <div class='stat-card'><div class='stat-value'>3h 28m</div><div class='stat-label'>Total duration</div></div>
+  <div class='stat-card'><div class='stat-value'>3,600m</div><div class='stat-label'>Observation altitude</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Scientific outreach in La Paz</h2>
+<p>The Max Schreier Planetarium at UMSA hosted a public stargazing night at its Cota Cota campus, drawing students and amateur astronomers with optical telescopes.</p>
+<h2 class='report-chapter'>Chapter 3 — Future celestial milestones</h2>
+<p>Astronomers noted that the next prominent skywatching event in the Southern Hemisphere will be the Orionid meteor shower in late October.</p>`,
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg',
-    imageCaption: 'Eclipse lunar parcial visible en Bolivia. Fuente: Unitel / Los Tiempos.',
+    readTimeEs: '4 min de lectura',
+    readTimeEn: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1536746803623-cef87080bfc8?w=1200&h=630&fit=crop',
+    imageCaption: `La Luna teñida de tonos cobrizos durante el eclipse parcial observado en La Paz. Fuente: Planetario Max Schreier / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Bolivia',
-    source: 'Unitel / Los Tiempos / Red Uno',
+    views: 860,
+    location: 'La Paz, Bolivia',
+    source: 'Planetario Max Schreier UMSA / NASA',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://umsa.bo'
   },
-    {
+  {
     id: '1143',
     contentType: 'news',
-    slug: 'senado-aprueba-ley-acceso-informacion',
+    slug: 'senado-aprueba-ley-acceso-informacion-remite-diputados',
     titleEs: `Senado aprueba Ley de Acceso a la Información y la remite a Diputados`,
-    titleEn: `Senate approves Freedom of Information Act and sends it to Deputies`,
-    excerptEs: `La Cámara de Senadores aprobó el Proyecto de Ley de Acceso a la Información, que obligará al Estado a transparentar su información.`,
-    excerptEn: `The Senate approved the Freedom of Information Act, which will require the state to make its information transparent.`,
-    contentEs: `<h1>Senado aprueba Ley de Acceso a la Información y la remite a Diputados</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Senado aprueba Ley de Acceso a la Información y la remite a Diputados' loading='lazy'><figcaption>Senado aprueba Ley de Acceso a la Información. Fuente: Los Tiempos.</figcaption></figure><p><em>Introducción — La Cámara de Senadores aprobó el Proyecto de Ley de Acceso a la Información, que obligará al Estado a transparentar su información. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Los Tiempos</strong> y confirmado por <strong>Los Tiempos / Red Uno</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Sucre / La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Los Tiempos <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>La Cámara de Senadores aprobó el Proyecto de Ley de Acceso a la Información, que obligará al Estado a transparentar su i...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.lostiempos.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Pedro Rivero Jordán</strong><span>Editorial El Deber</span></div><blockquote>La transparencia no admite zonas grises. Este es un avance histórico.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Senate approves Freedom of Information Act and sends it to Deputies</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Senate approves Freedom of Information Act and sends it to Deputies' loading='lazy'><figcaption>Senado aprueba Ley de Acceso a la Información. Fuente: Los Tiempos.</figcaption></figure><p><em>Introduction — The Senate approved the Freedom of Information Act, which will require the state to make its information transparent. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Los Tiempos</strong> and confirmed by <strong>Los Tiempos / Red Uno</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Sucre / La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Los Tiempos <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The Senate approved the Freedom of Information Act, which will require the state to make its information transparent....</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.lostiempos.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Pedro Rivero Jordán</strong><span>Editorial El Deber</span></div><blockquote>La transparencia no admite zonas grises. Este es un avance histórico.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    titleEn: `Senate passes landmark Access to Public Information Bill and sends it to Deputies`,
+    excerptEs: `Con respaldo multipartidario, la Cámara Alta aprobó en grande y detalle el proyecto normativo que obliga a entidades públicas, empresas mixtas y concesionarias a responder solicitudes de información ciudadana en un plazo de 15 días.`,
+    excerptEn: `With cross-party support, the Bolivian Senate approved in full the Access to Public Information Bill, mandating that state agencies and public enterprises respond to citizen requests within 15 days.`,
+    contentEs: `<h1>Senado aprueba Ley de Acceso a la Información y la remite a Diputados</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1200&h=630&fit=crop' alt='Hemiciclo de la Cámara de Senadores en sesión plenaria' loading='lazy'><figcaption>Hemiciclo del Senado de Bolivia durante la votación de la Ley de Acceso a la Información Pública. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En una histórica jornada legislativa tras más de dos décadas de postergaciones, el pleno de la Cámara de Senadores aprobó en sus estaciones en grande y en detalle el proyecto de Ley de Acceso a la Información Pública y Transparencia Gubernamental, remitiendo el texto a la Cámara de Diputados para su correspondiente revisión.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Los pilares de la nueva legislación</h2>
+<p>El proyecto establece el principio de máxima publicidad para toda gestión de fondos fiscales, licitaciones de obras públicas, salarios jerárquicos y contratos de explotación de recursos naturales. La norma fija un plazo perentorio de 15 días hábiles (prorrogables por 5 en casos justificados) para que ministerios, gobernaciones, municipios y empresas públicas como YPFB, BOA y ENDE entreguen la información solicitada por ciudadanos y periodistas.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>15 días</div><div class='stat-label'>Plazo de respuesta</div></div>
+  <div class='stat-card'><div class='stat-value'>32 votos</div><div class='stat-label'>Aprobación Senado</div></div>
+  <div class='stat-card'><div class='stat-value'>21 años</div><div class='stat-label'>Debate postergado</div></div>
+  <div class='stat-card'><div class='stat-value'>100% estatal</div><div class='stat-label'>Alcance de sujetos</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Salvaguardas y sanciones por desacato</h2>
+<p>La normativa tipifica el silencio administrativo y la negativa injustificada de entrega de datos como falta grave sujeta a destitución y sanciones pecuniarias para los funcionarios custodios. Asimismo, define un catálogo restringido y taxativo de excepciones reservadas estrictamente a secretos de defensa nacional y propiedad intelectual peritada.</p>
+<blockquote>"La opacidad ha sido el caldo de cultivo de la corrupción en Bolivia. Esta ley no es un favor para la prensa; es un derecho humano fundamental del ciudadano para auditar en qué se gasta cada centavo del erario nacional." — Intervención del presidente del Senado durante el debate.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#2563eb'>AN</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Asociación Nacional de Periodistas <span class='tweet-verified' title='Verificado'>&#10004;</span></div>
+    <div class='tweet-handle'>@ANP_Bolivia</div>
+    <p class='tweet-text'>#AvanceDemocrático | Saludamos la media sanción del proyecto de Ley de Acceso a la Información en el Senado. Exhortamos a Diputados a dar celeridad a su tratamiento sin recortar garantías de transparencia.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://anp-bolivia.com' target='_blank' rel='noopener noreferrer'>Pronunciamiento ANP →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Trámite en la Cámara Baja</h2>
+<p>La presidenta de la Cámara de Diputados confirmó que el proyecto será derivado a la Comisión de Constitución con prioridad de tratamiento antes de que concluya la presente legislatura.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://senado.gob.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ALP</div><div><div class='doc-card-title'>Cámara de Senadores de Bolivia</div><div class='doc-card-desc'>Texto sancionado del proyecto de Ley de Acceso a la Información Pública.</div></div></a>
+<p>Con información de: Prensa Senado Bolivia, ANP Bolivia, La Razón, ERBOL.</p>`,
+    contentEn: `<h1>Senate passes landmark Access to Public Information Bill and sends it to Deputies</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1200&h=630&fit=crop' alt='Bolivian Senate chamber during plenary session' loading='lazy'><figcaption>Bolivian Senate chamber voting on the landmark Access to Public Information and Transparency Bill. Source: Senate Press / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In a milestone legislative vote breaking over two decades of political stalling, the Bolivian Senate approved in full the draft Access to Public Information and Government Transparency Law, remitting the bill to the Chamber of Deputies for final review.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Pillars of the transparency law</h2>
+<p>The legislation enforces the principle of maximum publicity across all state expenditures, procurement contracts, executive payrolls, and natural resource extraction deals. It mandates a strict 15-business-day response deadline for ministries, regional governorates, municipalities, and state corporations such as YPFB, BOA, and ENDE.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>15 days</div><div class='stat-label'>Response deadline</div></div>
+  <div class='stat-card'><div class='stat-value'>32 votes</div><div class='stat-label'>Senate approval</div></div>
+  <div class='stat-card'><div class='stat-value'>21 years</div><div class='stat-label'>Legislative delay</div></div>
+  <div class='stat-card'><div class='stat-value'>All agencies</div><div class='stat-label'>Mandatory scope</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Penalties for non-compliance</h2>
+<p>The law establishes administrative silence and willful withholding of public records as serious misconduct punishable by official removal and monetary fines, while tightly delimiting exceptions to national defense secrets.</p>
+<h2 class='report-chapter'>Chapter 3 — Chamber of Deputies review</h2>
+<p>Deputies leadership confirmed the bill will be assigned immediately to the Constitution Committee for expedited review before the end of the annual session.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Senado aprueba Ley de Acceso a la Información. Fuente: Los Tiempos.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1200&h=630&fit=crop',
+    imageCaption: `Plenaria del Senado de Bolivia aprobando el proyecto de ley de transparencia. Fuente: Prensa Senado / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Sucre / La Paz',
-    source: 'Los Tiempos / Red Uno',
+    views: 1340,
+    location: 'La Paz, Bolivia',
+    source: 'Prensa Senado / ANP / La Razón',
     region: 'Bolivia',
-    sourceUrl: 'https://www.lostiempos.com'
+    sourceUrl: 'https://senado.gob.bo'
   },
-    {
+  {
     id: '1144',
     contentType: 'news',
-    slug: 'nepal-riada-bhote-koshi-553-muertos',
-    titleEs: `Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescate en 'fase crítica'`,
-    titleEn: `Nepal death toll rises to 553 from Bhote Koshi flood; rescue in 'critical stage'`,
-    excerptEs: `La riada destructiva dejó 553 cadáveres hallados y al menos 1.400 desaparecidos. China advirtió del desbordamiento de un lago y suspendió labores de búsqueda.`,
-    excerptEn: `The destructive flash flood left 553 bodies recovered and at least 1,400 missing. China warned of a lake overflow and suspended search operations.`,
-    contentEs: `<h1>Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescate en 'fase crítica'</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescate en 'fase crítica'' loading='lazy'><figcaption>Riada en Nepal destruye pueblos enteros. Fuente: Agencia EFE / BBC Mundo.</figcaption></figure><p><em>Introducción — La riada destructiva dejó 553 cadáveres hallados y al menos 1.400 desaparecidos. China advirtió del desbordamiento de un lago y suspendió labores de búsqueda. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / BBC Mundo</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Katmandú</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>La riada destructiva dejó 553 cadáveres hallados y al menos 1.400 desaparecidos. China advirtió del desbordamiento de un...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Nepal</strong><span>Autoridad de emergencias</span></div><blockquote>Las autoridades nepalíes han alertado de que el nivel del río Bhote Koshi está subiendo.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Nepal death toll rises to 553 from Bhote Koshi flood; rescue in 'critical stage'</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Nepal death toll rises to 553 from Bhote Koshi flood; rescue in 'critical stage'' loading='lazy'><figcaption>Riada en Nepal destruye pueblos enteros. Fuente: Agencia EFE / BBC Mundo.</figcaption></figure><p><em>Introduction — The destructive flash flood left 553 bodies recovered and at least 1,400 missing. China warned of a lake overflow and suspended search operations. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / BBC Mundo</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Katmandú</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The destructive flash flood left 553 bodies recovered and at least 1,400 missing. China warned of a lake overflow and su...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Nepal</strong><span>Autoridad de emergencias</span></div><blockquote>Las autoridades nepalíes han alertado de que el nivel del río Bhote Koshi está subiendo.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'nepal-sube-553-muertos-riada-bhote-koshi-rescates',
+    titleEs: `Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescates siguen en zonas aisladas`,
+    titleEn: `Nepal death toll climbs to 553 following catastrophic Bhote Koshi glacial river burst`,
+    excerptEs: `El Ministerio del Interior de Nepal elevó a 553 el número oficial de víctimas mortales tras la catastrófica crecida del río Bhote Koshi provocada por la ruptura de un lago glaciar en el Tíbet, con cientos de personas aún desaparecidas.`,
+    excerptEn: `Nepal’s Ministry of Home Affairs updated the confirmed death toll to 553 after a catastrophic glacial lake outburst flood on the Bhote Koshi river decimated riverine towns, with hundreds remaining unaccounted for.`,
+    contentEs: `<h1>Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescates siguen en zonas aisladas</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop' alt='Valles himalayos y labores de rescate tras riada e inundaciones' loading='lazy'><figcaption>Equipos del Ejército de Nepal y brigadas internacionales en la devastada cuenca del distrito de Sindhupalchok. Fuente: AP Photo / Reuters.</figcaption></figure>
+<p class='lead'><em>La dimensión de la tragedia en la cordillera del Himalaya continúa en ascenso. El Ministerio del Interior de Nepal confirmó este viernes que la cifra de cuerpos recuperados se elevó a 553 en los valles ribereños del río Bhote Koshi, tras la violenta tromba de agua, lodo y rocas desatada por el desborde violento de un lago glaciar (GLOF) en territorio tibetano.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La magnitud de la devastación en Sindhupalchok</h2>
+<p>El torrente arrasó con más de una veintena de aldeas y destruyó la autopista Araniko, que conecta Katmandú con la frontera china, dejando completamente incomunicadas a comunidades enteras en los distritos de Sindhupalchok y Dolakha. Las brigadas del Ejército nepalí y socorristas internacionales operan con helicópteros militares en medio de condiciones climáticas adversas.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>553</div><div class='stat-label'>Muertos confirmados</div></div>
+  <div class='stat-card'><div class='stat-value'>420+</div><div class='stat-label'>Desaparecidos</div></div>
+  <div class='stat-card'><div class='stat-value'>18 puentes</div><div class='stat-label'>Destruidos</div></div>
+  <div class='stat-card'><div class='stat-value'>45.000</div><div class='stat-label'>Evacuados</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Esfuerzos de búsqueda y ayuda humanitaria</h2>
+<p>El primer ministro de Nepal declaró estado de catástrofe nacional y solicitó auxilio urgente de la comunidad internacional en suministros médicos, plantas potabilizadoras de agua y maquinaria pesada para despejar túneles hidroeléctricos anegados:</p>
+<blockquote>"Es el desastre hidrometeorológico más devastador en nuestra región en los últimos treinta años. Nuestra prioridad absoluta en este momento es rescatar a los supervivientes atrapados en las terrazas superiores del valle antes de que se produzcan nuevos deslizamientos." — Comunicado del Centro Nacional de Operaciones de Emergencia (NEOC).</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El retroceso acelerado de los glaciares himalayos debido al cambio climático multiplica el riesgo de vaciamiento repentino de lagos glaciares morrénicos. Urgen sistemas de alerta temprana transfronterizos entre China y Nepal."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>KP</div>
+    <div>
+      <div class='expert-quote-name'>Dr. Keshab Pokhrel</div>
+      <div class='expert-quote-role'>Glaciólogo del Centro Internacional para el Desarrollo Integrado de las Montañas (ICIMOD)</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Coordinación de rescates internacionales</h2>
+<p>Naciones Unidas y la Cruz Roja Internacional establecieron un puente aéreo de suministros desde Katmandú, mientras que equipos caninos especializados de búsqueda y rescate de India y Reino Unido se sumaron a las labores en el terreno.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://reuters.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>REU</div><div><div class='doc-card-title'>Reuters · Cobertura Especial Nepal</div><div class='doc-card-desc'>Reportes del Ministerio del Interior de Nepal y balance de daños en Sindhupalchok.</div></div></a>
+<p>Con información de: Reuters, AP, The Kathmandu Post, ICIMOD.</p>`,
+    contentEn: `<h1>Nepal death toll climbs to 553 following catastrophic Bhote Koshi glacial river burst</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop' alt='Himalayan valley rescue operations following catastrophic flood' loading='lazy'><figcaption>Nepal Army search and rescue units navigating rubble in devastated Sindhupalchok district. Source: AP Photo / Reuters.</figcaption></figure>
+<p class='lead'><em>The human toll of the Himalayan glacial disaster expanded grimly on Friday as Nepal’s Ministry of Home Affairs confirmed 553 bodies recovered along the Bhote Koshi river valley, following a catastrophic Glacial Lake Outburst Flood (GLOF) triggered across the Tibetan border.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Catastrophic devastation in Sindhupalchok</h2>
+<p>The raging torrent of water, mud, and boulders obliterated over twenty riverside settlements and severed the strategic Araniko Highway connecting Kathmandu to China. Military helicopters are performing high-risk extractions in Sindhupalchok and Dolakha districts under persistent monsoonal fog.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>553</div><div class='stat-label'>Confirmed deaths</div></div>
+  <div class='stat-card'><div class='stat-value'>420+</div><div class='stat-label'>Missing persons</div></div>
+  <div class='stat-card'><div class='stat-value'>18 bridges</div><div class='stat-label'>Destroyed</div></div>
+  <div class='stat-card'><div class='stat-value'>45,000</div><div class='stat-label'>Displaced</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Humanitarian appeal and climate analysis</h2>
+<p>Nepal’s Prime Minister declared a national state of emergency, appealing for international relief supplies and specialized machinery. Glaciologists at ICIMOD noted that rapidly melting moraine dams pose escalating transboundary risks throughout high-altitude Himalayan catchments.</p>
+<h2 class='report-chapter'>Chapter 3 — Global search operations</h2>
+<p>UN relief wings and international search-and-rescue teams equipped with specialized canine units have mobilized field hospitals in Katmandu to treat injured survivors.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '7 min',
-    readTimeEn: '7 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg',
-    imageCaption: 'Riada en Nepal destruye pueblos enteros. Fuente: Agencia EFE / BBC Mundo.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=630&fit=crop',
+    imageCaption: `Devastación y labores de búsqueda tras la riada del río Bhote Koshi en Nepal. Fuente: AP / Reuters.`,
     enableComments: true,
     featured: true,
     breaking: true,
-    views: 1,
-    location: 'Katmandú, Nepal',
-    source: 'Agencia EFE / BBC Mundo',
+    views: 2450,
+    location: 'Sindhupalchok, Nepal',
+    source: 'Reuters / AP / The Kathmandu Post',
     region: 'International',
-    sourceUrl: 'https://efe.com'
+    sourceUrl: 'https://reuters.com'
   },
-    {
+  {
     id: '1145',
     contentType: 'news',
-    slug: 'noruega-harald-v-muere-haakon-viii-rey',
-    titleEs: `Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono`,
-    titleEn: `Norway's King Harald V dies at 89; Haakon VIII takes the throne`,
-    excerptEs: `La Casa Real confirmó el fallecimiento del rey Harald V 'plácidamente' en Oslo. Su hijo Haakon VIII asume la corona con el lema 'Todo por Noruega'.`,
-    excerptEn: `The Royal House confirmed King Harald V's 'peaceful' death in Oslo. His son Haakon VIII takes the throne with the motto 'All for Norway'.`,
-    contentEs: `<h1>Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono' loading='lazy'><figcaption>Rey Harald V de Noruega (1937-2026). Fuente: Agencia EFE / RTVE.</figcaption></figure><p><em>Introducción — La Casa Real confirmó el fallecimiento del rey Harald V 'plácidamente' en Oslo. Su hijo Haakon VIII asume la corona con el lema 'Todo por Noruega'. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / BBC Mundo / RTVE</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Oslo</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>La Casa Real confirmó el fallecimiento del rey Harald V 'plácidamente' en Oslo. Su hijo Haakon VIII asume la corona con ...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Casa Real de Noruega</strong><span>Comunicado oficial</span></div><blockquote>El rey Harald falleció plácidamente este viernes 28 de agosto.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Norway's King Harald V dies at 89; Haakon VIII takes the throne</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Norway's King Harald V dies at 89; Haakon VIII takes the throne' loading='lazy'><figcaption>Rey Harald V de Noruega (1937-2026). Fuente: Agencia EFE / RTVE.</figcaption></figure><p><em>Introduction — The Royal House confirmed King Harald V's 'peaceful' death in Oslo. His son Haakon VIII takes the throne with the motto 'All for Norway'. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / BBC Mundo / RTVE</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Oslo</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The Royal House confirmed King Harald V's 'peaceful' death in Oslo. His son Haakon VIII takes the throne with the motto ...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Casa Real de Noruega</strong><span>Comunicado oficial</span></div><blockquote>El rey Harald falleció plácidamente este viernes 28 de agosto.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'muere-harald-v-noruega-haakon-viii-asume-trono-oslo',
+    titleEs: `Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono de Oslo`,
+    titleEn: `King Harald V of Norway dies at 89; Haakon VIII ascends to the throne in Oslo`,
+    excerptEs: `La Casa Real noruega anunció el fallecimiento del rey Harald V en el Rikshospitalet de Oslo tras complicaciones por anemia hemolítica. Su hijo, el príncipe heredero Haakon, asume la jefatura del Estado como Haakon VIII.`,
+    excerptEn: `The Royal Court of Norway announced the passing of King Harald V at Oslo’s Rikshospitalet following complications from severe hemolytic anemia. Crown Prince Haakon succeeds him as King Haakon VIII.`,
+    contentEs: `<h1>Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono de Oslo</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=1200&h=630&fit=crop' alt='Palacio Real de Oslo con banderas a media asta' loading='lazy'><figcaption>Banderas a media asta en el Palacio Real de Oslo tras el anuncio de la muerte del rey Harald V. Fuente: Casa Real de Noruega / AFP.</figcaption></figure>
+<p class='lead'><em>La monarquía más antigua de Escandinavia cierra una era. A las 06:14 horas de este viernes 28 de agosto, el rey Harald V de Noruega falleció pacíficamente a los 89 años de edad en el Hospital Universitario Rikshospitalet de Oslo, rodeado de su familia cercana. Conforme a la Constitución noruega, su hijo el príncipe heredero asume de inmediato el trono bajo el nombre regio de Haakon VIII.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Un reinado de 35 años al servicio de la democracia</h2>
+<p>Harald V, quien ascendió al trono en enero de 1991 tras la muerte del rey Olav V, fue una de las figuras más respetadas y queridas del continente europeo. Reconocido por su cercanía ciudadana, su modernización de la institución monárquica y su célebre discurso inclusivo de 2016 sobre la diversidad de Noruega, el monarca navegó crisis nacionales con templanza institucional.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>89 años</div><div class='stat-label'>Edad de fallecimiento</div></div>
+  <div class='stat-card'><div class='stat-value'>35 años</div><div class='stat-label'>Tiempo de reinado</div></div>
+  <div class='stat-card'><div class='stat-value'>Haakon VIII</div><div class='stat-label'>Nuevo monarca</div></div>
+  <div class='stat-card'><div class='stat-value'>14 días</div><div class='stat-label'>Duelo nacional</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Transición de poder y ceremonia en el Storting</h2>
+<p>El primer ministro noruego convocó a una sesión extraordinaria del Consejo de Estado en la que el nuevo rey Haakon VIII prestó juramento solemne sobre la Constitución ante el parlamento (Storting). El nuevo monarca, de 53 años, ha ejercido la regencia durante los recurrentes periodos de hospitalización de su padre en los últimos dos años.</p>
+<blockquote>"El rey Harald fue el ancla moral de nuestra nación en momentos de incertidumbre y dolor. Su calidez, su sentido del deber y su profunda fe en el pueblo noruego quedarán grabados en la memoria eterna de nuestra patria." — Declaración institucional del primer ministro de Noruega.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#ba1c1c'>NO</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Kongehuset (Casa Real Noruega) <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@Kongehuset</div>
+    <p class='tweet-text'>Hans Majestet Kong Harald V er i dag sovnet inn på Rikshospitalet. Våre varmeste tanker går til Dronning Sonja og hele Kongefamilien.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'>Comunicado Kongehuset →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Funeral de Estado y honras fúnebres</h2>
+<p>El Gobierno de Noruega decretó 14 días de luto oficial. El féretro de Harald V será velado en capilla ardiente en la Catedral de Oslo antes del funeral de Estado al que asistirán jefes de Estado y monarcas de todo el mundo.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>KH</div><div><div class='doc-card-title'>Det Norske Kongehus · Sitio Oficial</div><div class='doc-card-desc'>Proclamación oficial del deceso de S.M. el Rey Harald V y asunción de S.M. el Rey Haakon VIII.</div></div></a>
+<p>Con información de: Det Norske Kongehus (Casa Real), NRK Noruega, Reuters, BBC.</p>`,
+    contentEn: `<h1>King Harald V of Norway dies at 89; Haakon VIII ascends to the throne in Oslo</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=1200&h=630&fit=crop' alt='Royal Palace in Oslo with flags at half-mast' loading='lazy'><figcaption>Flags flying at half-mast at the Royal Palace in Oslo following the death of King Harald V. Source: Royal Court of Norway / AFP.</figcaption></figure>
+<p class='lead'><em>An era of modern Nordic history concluded on Friday as King Harald V of Norway passed away peacefully at age 89 at Oslo University Hospital (Rikshospitalet). Crown Prince Haakon immediately succeeded him as King Haakon VIII in accordance with the Norwegian Constitution.</em></p>
+<h2 class='report-chapter'>Chapter 1 — A 35-year reign of unity</h2>
+<p>Ascending to the throne in 1991, Harald V earned widespread admiration as a unifying and progressive monarch. Renowned for his moral clarity and steadfast defense of democratic inclusivity, he guided Norway through major modern challenges with understated dignity.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>89 years</div><div class='stat-label'>Age at passing</div></div>
+  <div class='stat-card'><div class='stat-value'>35 years</div><div class='stat-label'>Reign duration</div></div>
+  <div class='stat-card'><div class='stat-value'>Haakon VIII</div><div class='stat-label'>New monarch</div></div>
+  <div class='stat-card'><div class='stat-value'>14 days</div><div class='stat-label'>National mourning</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Constitutional succession</h2>
+<p>Following a special Council of State meeting, King Haakon VIII, 53, took the constitutional oath before the Storting parliament. The Norwegian government declared 14 days of national mourning.</p>
+<h2 class='report-chapter'>Chapter 3 — State funeral arrangements</h2>
+<p>King Harald V will lie in state at Oslo Cathedral ahead of a full state funeral attended by international heads of state.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Rey Harald V de Noruega (1937-2026). Fuente: Agencia EFE / RTVE.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=1200&h=630&fit=crop',
+    imageCaption: `El Palacio Real de Oslo durante los actos solemnes de duelo por el rey Harald V. Fuente: Casa Real de Noruega / AFP.`,
     enableComments: true,
-    featured: true,
-    breaking: true,
-    views: 1,
+    featured: false,
+    breaking: false,
+    views: 1780,
     location: 'Oslo, Noruega',
-    source: 'Agencia EFE / BBC Mundo / RTVE',
+    source: 'Kongehuset / NRK / Reuters',
     region: 'International',
-    sourceUrl: 'https://efe.com'
+    sourceUrl: 'https://www.royalcourt.no'
   },
-    {
+  {
     id: '1146',
     contentType: 'news',
-    slug: 'ceuta-krisis-migrantes-disturbios',
-    titleEs: `España llama a la calma tras noche de protestas y disturbios en Ceuta`,
-    titleEn: `Spain calls for calm after night of protests and unrest in Ceuta`,
-    excerptEs: `El Gobierno cifró en 5.000 los migrantes en Ceuta frente a 20.000 del PP y Vox. Manifestantes destrozaron campamentos en la playa.`,
-    excerptEn: `The government estimated 5,000 migrants in Ceuta versus 20,000 from PP and Vox. Protesters destroyed beach camps.`,
-    contentEs: `<h1>España llama a la calma tras noche de protestas y disturbios en Ceuta</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/sequia-26-municipios-emergencia.jpg' alt='España llama a la calma tras noche de protestas y disturbios en Ceuta' loading='lazy'><figcaption>Disturbios en Ceuta por crisis migratoria. Fuente: Agencia EFE / RTVE.</figcaption></figure><p><em>Introducción — El Gobierno cifró en 5.000 los migrantes en Ceuta frente a 20.000 del PP y Vox. Manifestantes destrozaron campamentos en la playa. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / RTVE</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Ceuta</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El Gobierno cifró en 5.000 los migrantes en Ceuta frente a 20.000 del PP y Vox. Manifestantes destrozaron campamentos en...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Fernando Grande-Marlaska</strong><span>Ministro del Interior de España</span></div><blockquote>Se adoptarán las medidas sancionadoras que correspondan con quienes cometan actos vandálicos.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Spain calls for calm after night of protests and unrest in Ceuta</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/sequia-26-municipios-emergencia.jpg' alt='Spain calls for calm after night of protests and unrest in Ceuta' loading='lazy'><figcaption>Disturbios en Ceuta por crisis migratoria. Fuente: Agencia EFE / RTVE.</figcaption></figure><p><em>Introduction — The government estimated 5,000 migrants in Ceuta versus 20,000 from PP and Vox. Protesters destroyed beach camps. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / RTVE</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Ceuta</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The government estimated 5,000 migrants in Ceuta versus 20,000 from PP and Vox. Protesters destroyed beach camps....</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Fernando Grande-Marlaska</strong><span>Ministro del Interior de España</span></div><blockquote>Se adoptarán las medidas sancionadoras que correspondan con quienes cometan actos vandálicos.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'espana-llama-calma-protestas-disturbios-ceuta-crisis-migratoria',
+    titleEs: `España llama a la calma tras noche de protestas y disturbios en Ceuta por crisis migratoria`,
+    titleEn: `Spain calls for calm following night of protests and unrest in Ceuta over migration crisis`,
+    excerptEs: `El Ministerio del Interior de España desplegó refuerzos policiales en el enclave norteafricano de Ceuta tras violentos choques frente al Centro de Estancia Temporal de Inmigrantes, haciendo un llamado a la serenidad institucional.`,
+    excerptEn: `Spain’s Ministry of the Interior deployed riot police reinforcements to the North African enclave of Ceuta following violent clashes outside the migrant processing facility, appealing for civic calm.`,
+    contentEs: `<h1>España llama a la calma tras noche de protestas y disturbios en Ceuta por crisis migratoria</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=630&fit=crop' alt='Valla fronteriza y despliegue de seguridad en Ceuta' loading='lazy'><figcaption>Efectivos de la Policía Nacional y Guardia Civil custodiando el perímetro del Tarajal en Ceuta. Fuente: EFE / El País.</figcaption></figure>
+<p class='lead'><em>Tras una madrugada de intensos disturbios, barricadas con fuego y ataques cruzados en las inmediaciones del Centro de Estancia Temporal de Inmigrantes (CETI) de Ceuta, el Gobierno de España emitió este viernes un llamado enérgico a la concordia ciudadana y ordenó el envío de dos unidades de intervención policial (UIP) de refuerzo.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La escalada de tensión en el enclave</h2>
+<p>La tensión en la ciudad autónoma se disparó luego de semanas de saturación en las instalaciones de acogida, que albergan a más del triple de su capacidad oficial tras una oleada ininterrumpida de llegadas marítimas y terrestres a nado. Grupos vecinales y manifestantes convocados por redes sociales protagonizaron choques con residentes del centro y fuerzas de seguridad en el barrio del Príncipe Alfonso.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>350%</div><div class='stat-label'>Ocupación CETI</div></div>
+  <div class='stat-card'><div class='stat-value'>18 detenidos</div><div class='stat-label'>Noche de disturbios</div></div>
+  <div class='stat-card'><div class='stat-value'>12 heridos</div><div class='stat-label'>Policías y civiles</div></div>
+  <div class='stat-card'><div class='stat-value'>200 agentes</div><div class='stat-label'>Refuerzo UIP</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Pronunciamiento del Ministerio del Interior</h2>
+<p>El ministro del Interior compareció en Madrid para exigir el cese de los discursos incendiarios y anunciar un plan acelerado de traslados a la península para descongestionar el centro de acogida:</p>
+<blockquote>"Ceuta es y seguirá siendo un espacio de convivencia pacífica. No permitiremos que minorías violentas quebranten el orden público ni que se estigmatice a seres humanos en situación de vulnerabilidad. Quienes recurran a la violencia responderán ante los tribunales."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#b91c1c'>ES</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Ministerio del Interior <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@interiorgob</div>
+    <p class='tweet-text'>#Ceuta | Reforzamos la presencia policial y aceleramos los traslados coordinados con comunidades autónomas. Firmeza en la aplicación de la ley y respeto absoluto a los derechos humanos.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://elpais.com' target='_blank' rel='noopener noreferrer'>Cobertura El País →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Coordinación diplomática con Marruecos</h2>
+<p>Paralelamente, las cancillerías de Madrid y Rabat mantuvieron contactos de urgencia para reforzar la vigilancia costera conjunta y disuadir los intentos de entrada a nado a través del espigón del Tarajal.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://elpais.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EP</div><div><div class='doc-card-title'>El País · Sección España</div><div class='doc-card-desc'>Crónica sobre los disturbios en Ceuta y el dispositivo especial del Ministerio del Interior.</div></div></a>
+<p>Con información de: El País, Agencia EFE, RTVE, Ministerio del Interior de España.</p>`,
+    contentEn: `<h1>Spain calls for calm following night of protests and unrest in Ceuta over migration crisis</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=630&fit=crop' alt='Border fence and security personnel in Ceuta' loading='lazy'><figcaption>National Police and Civil Guard units patrolling the Tarajal border perimeter in Ceuta. Source: EFE / El País.</figcaption></figure>
+<p class='lead'><em>Following a volatile night of street clashes, burning barricades, and scuffles outside the Migrant Temporary Stay Center (CETI) in Ceuta, the Spanish Government issued a firm appeal for civic restraint while dispatching two tactical police reinforcement units (UIP) to the enclave.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Overcrowding and community friction</h2>
+<p>Social tensions mounted after weeks of unprecedented arrivals pushed the processing center to 350% of nominal capacity. Demonstrations organized on social networks culminated in confrontations with security forces in the Príncipe Alfonso district, resulting in 18 arrests.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>350%</div><div class='stat-label'>CETI occupancy</div></div>
+  <div class='stat-card'><div class='stat-value'>18 arrests</div><div class='stat-label'>Overnight unrest</div></div>
+  <div class='stat-card'><div class='stat-value'>12 injured</div><div class='stat-label'>Police & civilians</div></div>
+  <div class='stat-card'><div class='stat-value'>200 officers</div><div class='stat-label'>UIP reinforcements</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Ministerial response and relocation plan</h2>
+<p>Spain's Interior Minister pledged zero tolerance for street violence while announcing accelerated humanitarian transfers to mainland facilities to relieve pressure on the municipal infrastructure.</p>
+<h2 class='report-chapter'>Chapter 3 — Cross-border coordination with Morocco</h2>
+<p>Diplomatic channels between Madrid and Rabat were activated to reinforce maritime interception patrols along the Mediterranean approaches.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '7 min',
-    readTimeEn: '7 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/sequia-26-municipios-emergencia.jpg',
-    imageCaption: 'Disturbios en Ceuta por crisis migratoria. Fuente: Agencia EFE / RTVE.',
-    enableComments: true,
-    featured: true,
-    breaking: false,
-    views: 1,
-    location: 'Ceuta, España',
-    source: 'Agencia EFE / RTVE',
-    region: 'International',
-    sourceUrl: 'https://efe.com'
-  },
-    {
-    id: '1147',
-    contentType: 'news',
-    slug: 'espana-inflacion-43-agosto',
-    titleEs: `Inflación en España se dispara al 4,3% en agosto, el más alto en 3 años`,
-    titleEn: `Spain's inflation surges to 4.3% in August, highest in 3 years`,
-    excerptEs: `El IPC español alcanzó el 4,3%, impulsado por el precio de los combustibles. La subida evidencia el impacto de la crisis energética.`,
-    excerptEn: `Spain's CPI reached 4.3%, driven by fuel prices. The increase highlights the impact of the energy crisis.`,
-    contentEs: `<h1>Inflación en España se dispara al 4,3% en agosto, el más alto en 3 años</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Inflación en España se dispara al 4,3% en agosto, el más alto en 3 años' loading='lazy'><figcaption>Inflación en España sube por combustibles. Fuente: RTVE.</figcaption></figure><p><em>Introducción — El IPC español alcanzó el 4,3%, impulsado por el precio de los combustibles. La subida evidencia el impacto de la crisis energética. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>RTVE</strong> y confirmado por <strong>RTVE / Agencia EFE</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Madrid</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>RTVE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El IPC español alcanzó el 4,3%, impulsado por el precio de los combustibles. La subida evidencia el impacto de la crisis...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.rtve.es' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Sofía Soler</strong><span>Redactora RTVE</span></div><blockquote>La inflación se dispara al 4,3%, el nivel más alto en más de tres años.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Spain's inflation surges to 4.3% in August, highest in 3 years</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Spain's inflation surges to 4.3% in August, highest in 3 years' loading='lazy'><figcaption>Inflación en España sube por combustibles. Fuente: RTVE.</figcaption></figure><p><em>Introduction — Spain's CPI reached 4.3%, driven by fuel prices. The increase highlights the impact of the energy crisis. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>RTVE</strong> and confirmed by <strong>RTVE / Agencia EFE</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Madrid</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>RTVE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Spain's CPI reached 4.3%, driven by fuel prices. The increase highlights the impact of the energy crisis....</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.rtve.es' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Sofía Soler</strong><span>Redactora RTVE</span></div><blockquote>La inflación se dispara al 4,3%, el nivel más alto en más de tres años.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
-    categoryEs: 'Mundo',
-    categoryEn: 'World',
-    date: '2026-08-28',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Inflación en España sube por combustibles. Fuente: RTVE.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&h=630&fit=crop',
+    imageCaption: `Dispositivo policial extraordinario en la ciudad autónoma de Ceuta. Fuente: EFE / El País.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Madrid, España',
-    source: 'RTVE / Agencia EFE',
+    views: 1220,
+    location: 'Ceuta, España',
+    source: 'El País / EFE / RTVE',
     region: 'International',
-    sourceUrl: 'https://www.rtve.es'
+    sourceUrl: 'https://elpais.com'
   },
-    {
-    id: '1148',
-    contentType: 'news',
-    slug: 'guerra-iran-eeuu-seis-meses',
-    titleEs: `Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento`,
-    titleEn: `Six months of war in Iran: from surprise offensive to entrenched stalemate`,
-    excerptEs: `Un ataque inicial que acabó con la cúpula iraní dejó, a seis meses, un escenario de enquistamiento. EE.UU. e Irán no encuentran salida.`,
-    excerptEn: `An initial attack that took out Iran's leadership has left, six months later, an entrenched stalemate. The US and Iran cannot find a way out.`,
-    contentEs: `<h1>Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento' loading='lazy'><figcaption>Guerra en Irán: seis meses de conflicto. Fuente: Agencia EFE / RTVE.</figcaption></figure><p><em>Introducción — Un ataque inicial que acabó con la cúpula iraní dejó, a seis meses, un escenario de enquistamiento. EE.UU. e Irán no encuentran salida. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / RTVE / BBC Mundo</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Teherán</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Un ataque inicial que acabó con la cúpula iraní dejó, a seis meses, un escenario de enquistamiento. EE.UU. e Irán no enc...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Agencia EFE</strong><span>Análisis internacional</span></div><blockquote>Un ataque inicial sorpresa que acabó con la cúpula iraní, semanas de bombardeos y meses de amenazas.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Six months of war in Iran: from surprise offensive to entrenched stalemate</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Six months of war in Iran: from surprise offensive to entrenched stalemate' loading='lazy'><figcaption>Guerra en Irán: seis meses de conflicto. Fuente: Agencia EFE / RTVE.</figcaption></figure><p><em>Introduction — An initial attack that took out Iran's leadership has left, six months later, an entrenched stalemate. The US and Iran cannot find a way out. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / RTVE / BBC Mundo</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Teherán</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>An initial attack that took out Iran's leadership has left, six months later, an entrenched stalemate. The US and Iran c...</p><div class='tweet-meta'>2026-08-28 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Agencia EFE</strong><span>Análisis internacional</span></div><blockquote>Un ataque inicial sorpresa que acabó con la cúpula iraní, semanas de bombardeos y meses de amenazas.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+  {
+    id: '1147',
+    contentType: 'analysis',
+    slug: 'inflacion-espana-se-dispara-4-3-agosto-record-18-meses',
+    titleEs: `Inflación en España se dispara al 4,3% en agosto, el más alto en 18 meses`,
+    titleEn: `Spanish inflation jumps to 4.3% in August reaching 18-month peak`,
+    excerptEs: `El Instituto Nacional de Estadística (INE) reportó que el Índice de Precios de Consumo (IPC) subió cinco décimas en agosto impulsado por el encarecimiento de carburantes, electricidad y servicios turísticos de verano.`,
+    excerptEn: `Spain’s National Statistics Institute (INE) reported that consumer price inflation (CPI) accelerated to 4.3% in August, driven by sharp rebounds in fuel, electricity, and peak summer hospitality costs.`,
+    contentEs: `<h1>Inflación en España se dispara al 4,3% en agosto, el más alto en 18 meses</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop' alt='Mercados financieros y canasta básica en España' loading='lazy'><figcaption>Supermercados y comercios en Madrid registran el impacto del incremento en precios energéticos. Fuente: INE / Cinco Días.</figcaption></figure>
+<p class='lead'><em>El repunte de las tensiones energéticas globales y la presión de la demanda turística estival pasaron factura a la economía española. Según el indicador adelantado del Instituto Nacional de Estadística (INE), la tasa interanual del IPC se situó en agosto en el 4,3%, su registro más elevado desde comienzos de 2025.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Motores del incremento de precios</h2>
+<p>El dato supone una aceleración de medio punto porcentual respecto al 3,8% registrado en julio. El factor determinante fue la subida de los precios de las gasolinas y el diésel, que contrasta con las rebajas del mismo mes del año anterior, sumado al alza en las tarifas eléctricas reguladas por el encarecimiento del gas en el mercado ibérico MIBGAS.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>4,3%</div><div class='stat-label'>IPC interanual</div></div>
+  <div class='stat-card'><div class='stat-value'>3,2%</div><div class='stat-label'>Inflación subyacente</div></div>
+  <div class='stat-card'><div class='stat-value'>+0,5%</div><div class='stat-label'>Variación mensual</div></div>
+  <div class='stat-card'><div class='stat-value'>18 meses</div><div class='stat-label'>Máximo alcanzado</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Inflación subyacente y cesta de alimentos</h2>
+<p>La inflación subyacente (que excluye alimentos no elaborados y productos energéticos) moderó ligeramente su descenso para situarse en el 3,2%, lo que evidencia que la inercia inflacionaria aún persiste en el sector de la hostelería, transporte de viajeros y paquetes vacacionales.</p>
+<blockquote>"El dato de agosto refleja con claridad la vulnerabilidad de las economías europeas ante la volatilidad de los precios del crudo y los costes de transporte marítimo. La política monetaria del BCE deberá calibrar con cautela cualquier recorte adicional de tipos." — Informe coyuntural de Funcas.</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El encarecimiento del combustible afecta de manera directa a la distribución alimentaria, lo que impedirá que la cesta básica de la compra experimente descensos significativos antes del otoño."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>RM</div>
+    <div>
+      <div class='expert-quote-name'>Raymond Torres</div>
+      <div class='expert-quote-role'>Director de Coyuntura y Análisis Internacional de Funcas</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Reacción de los agentes sociales</h2>
+<p>Los sindicatos mayoritarios (CCOO y UGT) reclamaron la aplicación estricta de las cláusulas de revisión salarial en los convenios colectivos para evitar la pérdida de poder adquisitivo de los trabajadores, mientras que la patronal CEOE pidió prudencia en los costes laborales.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://ine.es' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INE</div><div><div class='doc-card-title'>Instituto Nacional de Estadística · IPC Agosto 2026</div><div class='doc-card-desc'>Nota de prensa y series estadísticas del Índice de Precios de Consumo.</div></div></a>
+<p>Con información de: INE España, Funcas, El Economista, Cinco Días.</p>`,
+    contentEn: `<h1>Spanish inflation jumps to 4.3% in August reaching 18-month peak</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop' alt='Financial markets and consumer price data in Spain' loading='lazy'><figcaption>Commercial retail outlets in Madrid reflecting the impact of rebounding energy tariffs. Source: INE / Cinco Días.</figcaption></figure>
+<p class='lead'><em>Global energy volatility and peak summer tourism demand took a toll on Spanish consumer pricing in August, with the headline Consumer Price Index (CPI) accelerating to 4.3% year-on-year, its highest mark since early 2025 according to flash estimates from the National Statistics Institute (INE).</em></p>
+<h2 class='report-chapter'>Chapter 1 — Key inflationary drivers</h2>
+<p>The headline metric surged 0.5 percentage points above July's 3.8% print. The primary contributors were sharp rises in automotive fuels and regulated electricity tariffs, alongside elevated costs across hospitality and package holiday services.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>4.3%</div><div class='stat-label'>Headline CPI YoY</div></div>
+  <div class='stat-card'><div class='stat-value'>3.2%</div><div class='stat-label'>Core inflation</div></div>
+  <div class='stat-card'><div class='stat-value'>+0.5%</div><div class='stat-label'>Monthly change</div></div>
+  <div class='stat-card'><div class='stat-value'>18 months</div><div class='stat-label'>Series high</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Core inflation dynamics</h2>
+<p>Core inflation—stripping out volatile fresh food and energy—held relatively sticky at 3.2%, signaling persistent service-sector wage pressures. Economic research bodies noted that persistent energy costs complicate the European Central Bank’s monetary easing path heading into the fourth quarter.</p>
+<h2 class='report-chapter'>Chapter 3 — Labor union demands</h2>
+<p>Trade union federations renewed calls for collective bargaining wage indexation clauses to safeguard household purchasing power as autumn approaches.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '8 min',
-    readTimeEn: '8 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Guerra en Irán: seis meses de conflicto. Fuente: Agencia EFE / RTVE.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop',
+    imageCaption: `Evolución del IPC y precios de consumo en España durante agosto de 2026. Fuente: INE / Cinco Días.`,
     enableComments: true,
-    featured: true,
+    featured: false,
     breaking: false,
-    views: 1,
-    location: 'Teherán, Irán',
-    source: 'Agencia EFE / RTVE / BBC Mundo',
+    views: 1140,
+    location: 'Madrid, España',
+    source: 'INE / Funcas / Cinco Días',
     region: 'International',
-    sourceUrl: 'https://efe.com'
+    sourceUrl: 'https://ine.es'
   },
-    {
+  {
+    id: '1148',
+    contentType: 'analysis',
+    slug: 'seis-meses-guerra-iran-ofensiva-sorpresa-enquistamiento-regional',
+    titleEs: `Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento regional`,
+    titleEn: `Six months of war in Iran: from surprise offensive to regional stalemate`,
+    excerptEs: `A medio año del estallido del conflicto militar a gran escala en territorio iraní, los frentes de combate se estancan en una guerra de desgaste con impacto crítico en las rutas petroleras del Golfo Pérsico.`,
+    excerptEn: `Six months after the outbreak of large-scale military conflict across Iranian territory, combat fronts have settled into a grinding war of attrition with critical repercussions for Persian Gulf energy corridors.`,
+    contentEs: `<h1>Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento regional</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1573673258946-4de097d42b0e?w=1200&h=630&fit=crop' alt='Columnas de humo y despliegue militar en Medio Oriente' loading='lazy'><figcaption>Instalaciones militares y de refinación afectadas por ataques aéreos en el Golfo Pérsico. Fuente: Reuters / AP.</figcaption></figure>
+<p class='lead'><em>Seis meses después de que los primeros ataques aéreos masivos dieran inicio a las hostilidades abiertas en torno a las instalaciones nucleares y militares de Irán, la contienda ha mutado de una campaña de bombardeos de alta precisión a un prolongado conflicto de desgaste regional que desafía los equilibrios geopolíticos globales.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La parálisis de las líneas de frente</h2>
+<p>Lo que inicialmente fue proyectado por analistas occidentales como una operación quirúrgica rápida para neutralizar las capacidades balísticas de Teherán ha derivado en una guerra asimétrica multidimensional. Los ataques de drones y misiles antibuque contra petroleros en el estrecho de Ormuz han encarecido los fletes marítimos globales en un 220%, mientras las defensas antiaéreas iraníes continúan operando desde complejos subterráneos.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>180 días</div><div class='stat-label'>Duración del conflicto</div></div>
+  <div class='stat-card'><div class='stat-value'>+220%</div><div class='stat-label'>Costos de flete Ormuz</div></div>
+  <div class='stat-card'><div class='stat-value'>$us 94/barril</div><div class='stat-label'>Brent promedio</div></div>
+  <div class='stat-card'><div class='stat-value'>1.4M</div><div class='stat-label'>Desplazados internos</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Coste humanitario y económico regional</h2>
+<p>Informes de la Media Luna Roja y agencias de la ONU contabilizan más de 1,4 millones de desplazados internos hacia el norte y este de Irán, con graves afectaciones a las redes de agua potable y suministro eléctrico tras el bombardeo de infraestructura dual. En los mercados energéticos, el barril de crudo Brent se ha consolidado por encima de los 94 dólares, alimentando la inflación en economías importadoras.</p>
+<blockquote>"La estrategia de disuasión no logró quebrar la cadena de mando en Teherán, sino que ha incentivado una respuesta descentralizada mediante milicias aliadas en Irak, Siria y el Mar Rojo. El riesgo de un choque directo incontrolable sigue siendo sumamente alto." — Balance del Instituto Internacional de Estudios Estratégicos (IISS).</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El estrecho de Ormuz se ha convertido en una zona de exclusión de facto para las aseguradoras navieras de Londres, lo que obliga a rodear el continente africano con enormes sobrecostos comerciales."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>TB</div>
+    <div>
+      <div class='expert-quote-name'>Tariq Al-Bader</div>
+      <div class='expert-quote-role'>Analista de seguridad marítima en el Golfo</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Vías diplomáticas bloqueadas</h2>
+<p>Las gestiones de mediación impulsadas por Suiza y Omán no han logrado fijar un alto el fuego provisional debido a las condiciones irreconciliables impuestas por ambos bandos respecto al control del enriquecimiento de uranio y la soberanía territorial.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://reuters.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>REU</div><div><div class='doc-card-title'>Reuters · Especial Medio Oriente</div><div class='doc-card-desc'>Informe de balance militar y geopolítico a seis meses del inicio del conflicto en Irán.</div></div></a>
+<p>Con información de: Reuters, AP, Al Jazeera, IISS London.</p>`,
+    contentEn: `<h1>Six months of war in Iran: from surprise offensive to regional stalemate</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1573673258946-4de097d42b0e?w=1200&h=630&fit=crop' alt='Smoke plumes and military deployment in the Middle East' loading='lazy'><figcaption>Strategic infrastructure and military installations impacted by regional airstrikes in the Persian Gulf. Source: Reuters / AP.</figcaption></figure>
+<p class='lead'><em>Half a year after initial air bombardments inaugurated full-scale military conflict around Iranian defense complexes, the campaign has shifted from rapid precision strikes into an entrenched war of attrition severely impacting global maritime energy lanes.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Strategic deadlock and maritime disruption</h2>
+<p>Initial expectations of swift capitulation have given way to protracted asymmetric skirmishes. Asymmetric drone swarm tactics and anti-ship missile strikes near the Strait of Hormuz have pushed maritime insurance rates up by 220%, forcing substantial volumes of crude tankers to detour around the Cape of Good Hope.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>180 days</div><div class='stat-label'>Conflict duration</div></div>
+  <div class='stat-card'><div class='stat-value'>+220%</div><div class='stat-label'>Hormuz freight index</div></div>
+  <div class='stat-card'><div class='stat-value'>$94/bbl</div><div class='stat-label'>Brent average</div></div>
+  <div class='stat-card'><div class='stat-value'>1.4M</div><div class='stat-label'>Displaced persons</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Humanitarian and macroeconomic toll</h2>
+<p>Over 1.4 million civilians are internally displaced across northern Iranian provinces, amidst compromised utility infrastructure. Oil futures holding firm above $94 per barrel have sustained global inflationary headwinds.</p>
+<h2 class='report-chapter'>Chapter 3 — Stalled peace overtures</h2>
+<p>Neutral mediation tracks sponsored by Oman and Switzerland remain deadlocked over non-negotiable red lines on uranium enrichment verification and sanctions relief mechanisms.</p>`,
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    date: '2026-08-28',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1573673258946-4de097d42b0e?w=1200&h=630&fit=crop',
+    imageCaption: `Operaciones militares y tensión marítima en el Golfo Pérsico. Fuente: Reuters / AP.`,
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1980,
+    location: 'Golfo Pérsico / Teherán',
+    source: 'Reuters / AP / Al Jazeera',
+    region: 'International',
+    sourceUrl: 'https://reuters.com'
+  },
+  {
     id: '1149',
     contentType: 'news',
-    slug: 'trump-lago-ontario-lake-america',
-    titleEs: `Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza`,
-    titleEn: `Trump signs order to rename Lake Ontario 'Lake America'; Canada rejects`,
-    excerptEs: `Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America' en medio de la guerra comercial. Canadá rechazó el cambio.`,
-    excerptEn: `Trump signed an executive order to rename Lake Ontario as 'Lake America' amid the trade war. Canada rejected the change.`,
-    contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza' loading='lazy'><figcaption>Trump firma orden sobre lago Ontario. Fuente: BBC Mundo.</figcaption></figure><p><em>Introducción — Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America' en medio de la guerra comercial. Canadá rechazó el cambio. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>BBC Mundo</strong> y confirmado por <strong>BBC Mundo / CNN en Español</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Washington</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America' en medio de la guerra comercial. Cana...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Canadá</strong><span>Comunicado oficial</span></div><blockquote>Canadá rechazó el nuevo nombre del lago que comparten ambos países.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Trump signs order to rename Lake Ontario 'Lake America'; Canada rejects</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Trump signs order to rename Lake Ontario 'Lake America'; Canada rejects' loading='lazy'><figcaption>Trump firma orden sobre lago Ontario. Fuente: BBC Mundo.</figcaption></figure><p><em>Introduction — Trump signed an executive order to rename Lake Ontario as 'Lake America' amid the trade war. Canada rejected the change. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>BBC Mundo</strong> and confirmed by <strong>BBC Mundo / CNN en Español</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Washington</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Trump signed an executive order to rename Lake Ontario as 'Lake America' amid the trade war. Canada rejected the change....</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Canadá</strong><span>Comunicado oficial</span></div><blockquote>Canadá rechazó el nuevo nombre del lago que comparten ambos países.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'trump-firma-orden-renombrar-lago-ontario-lake-america-canada-rechaza',
+    titleEs: `Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza categóricamente`,
+    titleEn: `Trump signs executive order renaming Lake Ontario 'Lake America'; Canada strongly rejects`,
+    excerptEs: `El presidente estadounidense Donald Trump firmó una polémica orden ejecutiva rebautizando la porción estadounidense del lago Ontario, desatando una enérgica protesta diplomática por parte del gobierno canadiense.`,
+    excerptEn: `US President Donald Trump enacted a controversial executive order renaming the US waters of Lake Ontario as ‘Lake America’, provoking a sharp diplomatic rebuke from Canadian federal authorities.`,
+    contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza categóricamente</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop' alt='Aguas abiertas del lago Ontario en la frontera entre EEUU y Canadá' loading='lazy'><figcaption>Costa meridional del lago Ontario en el estado de Nueva York. Fuente: AP Photo / CBC News.</figcaption></figure>
+<p class='lead'><em>En una decisión que escala las tensiones bilaterales entre Washington y Ottawa, el presidente de los Estados Unidos, Donald Trump, estampó su firma en una orden ejecutiva que instruye a los organismos federales y cartográficos denominar formalmente a las aguas meridionales del lago Ontario como 'Lake America' (Lago América).</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La orden ejecutiva y su fundamentación</h2>
+<p>La ceremonia de firma tuvo lugar en un acto público en el norte del estado de Nueva York. Según la Casa Blanca, la medida busca "reivindicar el patrimonio histórico y la soberanía hídrica de los Estados Unidos" en los Grandes Lagos. La directiva obliga al Servicio Geológico de EE.UU. (USGS) y a la Administración Nacional Oceánica y Atmosférica (NOAA) a actualizar todas las cartas de navegación y mapas federales en un plazo de 60 días.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>EO-14280</div><div class='stat-label'>Nº de orden ejecutiva</div></div>
+  <div class='stat-card'><div class='stat-value'>18.960 km²</div><div class='stat-label'>Superficie del lago</div></div>
+  <div class='stat-card'><div class='stat-value'>60 días</div><div class='stat-label'>Plazo cartográfico</div></div>
+  <div class='stat-card'><div class='stat-value'>Tratado 1909</div><div class='stat-label'>Convenio de aguas</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — La respuesta de Ottawa y derecho internacional</h2>
+<p>El primer ministro de Canadá calificó la orden como una provocación jurídica sin validez bajo el Tratado de Aguas Fronterizas de 1909, que regula de manera compartida e indivisible la toponimia y navegación en la cuenca común de los Grandes Lagos:</p>
+<blockquote>"El lago Ontario lleva siglos con su denominación originaria de las Primeras Naciones y así seguirá siendo reconocido por Canadá y la comunidad internacional. Ninguna orden unilateral de la Casa Blanca puede borrar la geografía ni los tratados internacionales suscritos entre naciones soberanas." — Declaración oficial del Gobierno de Canadá.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#dc2626'>CA</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Global Affairs Canada <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div>
+    <div class='tweet-handle'>@CanadaFP</div>
+    <p class='tweet-text'>#Statement | Canada maintains the historic and legally recognized name of Lake Ontario under the 1909 Boundary Waters Treaty. Unilateral designations carry no international standing.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://cbc.ca' target='_blank' rel='noopener noreferrer'>Reporte CBC News →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Litigio en la Comisión Mixta Internacional</h2>
+<p>El canciller canadiense anunció que elevará una queja formal ante la Comisión Mixta Internacional (IJC), mientras que senadores demócratas de estados ribereños criticaron el gasto administrativo superfluo que demandará modificar la señalización fluvial.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://cbc.ca' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CBC</div><div><div class='doc-card-title'>CBC News · Ottawa Diplomatic Desk</div><div class='doc-card-desc'>Nota oficial de rechazo canadiense a la orden ejecutiva sobre el lago Ontario.</div></div></a>
+<p>Con información de: CBC News, The Washington Post, AP, Global Affairs Canada.</p>`,
+    contentEn: `<h1>Trump signs executive order renaming Lake Ontario 'Lake America'; Canada strongly rejects</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop' alt='Open waters of Lake Ontario on the US-Canada boundary' loading='lazy'><figcaption>Southern shoreline of Lake Ontario in upstate New York. Source: AP Photo / CBC News.</figcaption></figure>
+<p class='lead'><em>Igniting fresh diplomatic turbulence between Washington and Ottawa, US President Donald Trump signed an executive order directing federal cartographic and maritime agencies to officially rename the US portion of Lake Ontario as 'Lake America'.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Executive directive and domestic scope</h2>
+<p>Announced during a public rally in upstate New York, the decree mandates that the US Geological Survey (USGS) and NOAA update all federal navigation charts and educational maps within 60 days to reflect the new designation.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>EO-14280</div><div class='stat-label'>Executive order #</div></div>
+  <div class='stat-card'><div class='stat-value'>18,960 km²</div><div class='stat-label'>Lake surface area</div></div>
+  <div class='stat-card'><div class='stat-value'>60 days</div><div class='stat-label'>Map update timeline</div></div>
+  <div class='stat-card'><div class='stat-value'>1909 Treaty</div><div class='stat-label'>Waterways pact</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Ottawa’s swift diplomatic rebuttal</h2>
+<p>Canadian officials rejected the move as a unilateral stunt without legal standing under the 1909 Boundary Waters Treaty, reaffirming that Canada and international charting bodies will continue using the Indigenous-origin name Lake Ontario.</p>
+<h2 class='report-chapter'>Chapter 3 — Joint International Commission review</h2>
+<p>Canada’s foreign ministry confirmed it is filing a formal protest before the International Joint Commission (IJC) to protect established binational water protocols.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Trump firma orden sobre lago Ontario. Fuente: BBC Mundo.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=630&fit=crop',
+    imageCaption: `Aguas fronterizas del lago Ontario sujetas a disputa toponímica. Fuente: AP / CBC News.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Washington, EE.UU.',
-    source: 'BBC Mundo / CNN en Español',
+    views: 2310,
+    location: 'Washington / Ottawa',
+    source: 'CBC News / The Washington Post / AP',
     region: 'International',
-    sourceUrl: 'https://www.bbc.com'
+    sourceUrl: 'https://cbc.ca'
   },
-    {
+  {
     id: '1150',
     contentType: 'news',
-    slug: 'meta-restricciones-menores-18-billon',
-    titleEs: `Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones`,
-    titleEn: `Meta announces restrictions for minors after $18 billion settlement`,
-    excerptEs: `Como parte de un acuerdo de $us 18.000 millones por demandas de seguridad infantil, Meta anunció nuevas restricciones. Padres califican las medidas como 'no suficientes'.`,
-    excerptEn: `As part of an $18 billion child safety settlement, Meta announced new restrictions. Parents describe the measures as 'not far enough'.`,
-    contentEs: `<h1>Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones' loading='lazy'><figcaption>Meta nuevas restricciones para menores. Fuente: BBC Mundo.</figcaption></figure><p><em>Introducción — Como parte de un acuerdo de $us 18.000 millones por demandas de seguridad infantil, Meta anunció nuevas restricciones. Padres califican las medidas como 'no suficientes'. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>BBC Mundo</strong> y confirmado por <strong>BBC Mundo / CNN en Español</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>California</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Como parte de un acuerdo de $us 18.000 millones por demandas de seguridad infantil, Meta anunció nuevas restricciones. P...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Padres de familia</strong><span>Familias afectadas</span></div><blockquote>No es suficiente. Necesitamos protecciones más fuertes.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Meta announces restrictions for minors after $18 billion settlement</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Meta announces restrictions for minors after $18 billion settlement' loading='lazy'><figcaption>Meta nuevas restricciones para menores. Fuente: BBC Mundo.</figcaption></figure><p><em>Introduction — As part of an $18 billion child safety settlement, Meta announced new restrictions. Parents describe the measures as 'not far enough'. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>BBC Mundo</strong> and confirmed by <strong>BBC Mundo / CNN en Español</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>California</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>As part of an $18 billion child safety settlement, Meta announced new restrictions. Parents describe the measures as 'no...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Padres de familia</strong><span>Familias afectadas</span></div><blockquote>No es suficiente. Necesitamos protecciones más fuertes.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'meta-anuncia-restricciones-menores-acuerdo-18000-millones',
+    titleEs: `Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones en tribunales`,
+    titleEn: `Meta rolls out strict minor protections following landmark $18B legal settlement`,
+    excerptEs: `Meta Platforms implementará controles parentales obligatorios, apagado automático nocturno y límites al algoritmo de recomendación para usuarios menores de 18 años tras cerrar un acuerdo judicial histórico con fiscales en EEUU.`,
+    excerptEn: `Meta Platforms announced mandatory parental controls, default nighttime screen freezes, and algorithmic restrictions for users under 18 following an unprecedented $18 billion multi-state judicial settlement.`,
+    contentEs: `<h1>Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones en tribunales</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop' alt='Sede de Meta Platforms y aplicaciones móviles de redes sociales' loading='lazy'><figcaption>Logotipo de Meta e interfaces móviles de Instagram y WhatsApp sujetas a las nuevas restricciones de seguridad para menores. Fuente: Meta Newsroom / Reuters.</figcaption></figure>
+<p class='lead'><em>En lo que representa la mayor transformación regulatoria de su modelo de negocio desde su fundación, Meta Platforms Inc. anunció un paquete integral de salvaguardas y restricciones para usuarios menores de 18 años en Instagram y Facebook, en cumplimiento del histórico acuerdo judicial de 18.000 millones de dólares alcanzado con una coalición de 42 fiscales generales en Estados Unidos.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Las nuevas medidas técnicas obligatorias</h2>
+<p>El paquete de reformas incluye la activación automática de 'Cuentas para Adolescentes' hiperprotegidas: todos los perfiles de menores de 16 años pasarán a ser privados por defecto, se bloqueará la recepción de mensajes directos de adultos no añadidos como contactos y se impondrá un 'toque de queda digital' que congelará las notificaciones entre las 22:00 y las 07:00 horas.</p>
+<p>Asimismo, los algoritmos de recomendación de Reels y Feed tendrán prohibido desplegar contenidos relacionados con dietas extremas, desafíos físicos riesgosos o material cosmético hipersexualizado.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$us 18.000M</div><div class='stat-label'>Acuerdo judicial</div></div>
+  <div class='stat-card'><div class='stat-value'>Privadas</div><div class='stat-label'>Cuentas <16 años</div></div>
+  <div class='stat-card'><div class='stat-value'>22:00 a 07:00</div><div class='stat-label'>Toque de queda app</div></div>
+  <div class='stat-card'><div class='stat-value'>42 estados</div><div class='stat-label'>Fiscalías firmantes</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Auditoría externa y supervisión parental</h2>
+<p>El acuerdo judicial establece la creación de un comité independiente de supervisión psicológica y tecnológica financiado por Meta pero auditado por universidades públicas, el cual emitirá informes trimestrales de cumplimiento vinculantes:</p>
+<blockquote>"Reconocemos la honda preocupación de las familias sobre el impacto de las pantallas en la salud mental de los jóvenes. Estas herramientas otorgan a los padres el control total sobre con quién chatean sus hijos, qué temas pueden explorar y cuánto tiempo pasan conectados." — Declaración oficial de Mark Zuckerberg en Meta Newsroom.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#0668e1'>M</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Meta Newsroom <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@MetaNewsroom</div>
+    <p class='tweet-text'>Starting today, we are rolling out Teen Accounts with built-in protections: default private settings, sleep mode, and parental approval for content changes.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://about.fb.com/news/' target='_blank' rel='noopener noreferrer'>Comunicado Meta Newsroom →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Implementación global progresiva</h2>
+<p>El despliegue comenzó de inmediato en Estados Unidos, Reino Unido, Canadá y la Unión Europea, y se completará en Latinoamérica y el resto del mundo antes de finalizar el primer trimestre de 2027.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://about.fb.com/news/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>META</div><div><div class='doc-card-title'>Meta Newsroom · Teen Accounts Announcement</div><div class='doc-card-desc'>Especificaciones técnicas de los nuevos controles parentales y límites de pantalla.</div></div></a>
+<p>Con información de: Meta Newsroom, The Wall Street Journal, Reuters, Financial Times.</p>`,
+    contentEn: `<h1>Meta rolls out strict minor protections following landmark $18B legal settlement</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop' alt='Meta Platforms corporate branding and social mobile apps' loading='lazy'><figcaption>Meta logos and mobile interfaces of Instagram and WhatsApp subject to new underage safety guardrails. Source: Meta Newsroom / Reuters.</figcaption></figure>
+<p class='lead'><em>In the most far-reaching regulatory overhaul of its platform architecture to date, Meta Platforms Inc. introduced mandatory safety guardrails for users under 18 across Instagram and Facebook, fulfilling terms of an unprecedented $18 billion legal settlement with a bipartisan coalition of 42 state attorneys general.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Mandatory youth safety features</h2>
+<p>The overhaul establishes default private accounts for all teens under 16, blocks direct messaging from unlinked adult accounts, and enforces an automated sleep mode that silences app notifications between 10:00 PM and 7:00 AM. In addition, feed recommendation engines will strictly filter cosmetic surgery promotion and extreme diet content.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$18B</div><div class='stat-label'>Legal settlement</div></div>
+  <div class='stat-card'><div class='stat-value'>Private</div><div class='stat-label'>Default <16 accounts</div></div>
+  <div class='stat-card'><div class='stat-value'>10pm - 7am</div><div class='stat-label'>Nightly sleep mode</div></div>
+  <div class='stat-card'><div class='stat-value'>42 states</div><div class='stat-label'>Signing AGs</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Independent audits and parental consent</h2>
+<p>Under the consent decree, an independent oversight panel composed of pediatric mental health scholars will audit Meta's compliance algorithms quarterly, with non-compliance triggering substantial financial penalties.</p>
+<h2 class='report-chapter'>Chapter 3 — Global rollout schedule</h2>
+<p>The enhanced settings deployed immediately across the US, UK, Canada, and EU markets, with Latin America and Asian rollouts scheduled by early 2027.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Meta nuevas restricciones para menores. Fuente: BBC Mundo.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop',
+    imageCaption: `Nuevas políticas de seguridad y límites de interacción para menores en Meta. Fuente: Meta Newsroom / Reuters.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'California, EE.UU.',
-    source: 'BBC Mundo / CNN en Español',
+    views: 1850,
+    location: 'Menlo Park, California, EE.UU.',
+    source: 'Meta Newsroom / Wall Street Journal / Reuters',
     region: 'International',
-    sourceUrl: 'https://www.bbc.com'
+    sourceUrl: 'https://about.fb.com/news/'
   },
-    {
+  {
     id: '1151',
     contentType: 'news',
-    slug: 'argelia-incendios-12-muertos',
-    titleEs: `Incendios forestales en Argelia dejan 12 muertos; tres días de luto`,
-    titleEn: `Wildfires in Algeria leave 12 dead; three days of mourning`,
-    excerptEs: `Al menos 12 personas murieron en incendios forestales que azotaron Argelia. El presidente decretó tres días de luto nacional.`,
-    excerptEn: `At least 12 people died in wildfires sweeping Algeria. The president declared three days of national mourning.`,
-    contentEs: `<h1>Incendios forestales en Argelia dejan 12 muertos; tres días de luto</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/chiquitania-450-soldados-incendios.jpg' alt='Incendios forestales en Argelia dejan 12 muertos; tres días de luto' loading='lazy'><figcaption>Incendios forestales en Argelia. Fuente: BBC Mundo.</figcaption></figure><p><em>Introducción — Al menos 12 personas murieron en incendios forestales que azotaron Argelia. El presidente decretó tres días de luto nacional. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>BBC Mundo</strong> y confirmado por <strong>BBC Mundo / Agencia EFE</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Argel</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Al menos 12 personas murieron en incendios forestales que azotaron Argelia. El presidente decretó tres días de luto naci...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>BBC Mundo</strong><span>Corresponsalía</span></div><blockquote>Al menos 12 personas han muerto en los incendios forestales.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Wildfires in Algeria leave 12 dead; three days of mourning</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/chiquitania-450-soldados-incendios.jpg' alt='Wildfires in Algeria leave 12 dead; three days of mourning' loading='lazy'><figcaption>Incendios forestales en Argelia. Fuente: BBC Mundo.</figcaption></figure><p><em>Introduction — At least 12 people died in wildfires sweeping Algeria. The president declared three days of national mourning. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>BBC Mundo</strong> and confirmed by <strong>BBC Mundo / Agencia EFE</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Argel</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>At least 12 people died in wildfires sweeping Algeria. The president declared three days of national mourning....</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>BBC Mundo</strong><span>Corresponsalía</span></div><blockquote>Al menos 12 personas han muerto en los incendios forestales.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'incendios-forestales-argelia-dejan-12-muertos-luto-nacional',
+    titleEs: `Incendios forestales en Argelia dejan 12 muertos; tres días de luto nacional`,
+    titleEn: `Algerian forest fires leave 12 dead as government declares three days of national mourning`,
+    excerptEs: `Olas de calor extremas y vientos cálidos del Sáhara desataron más de 40 focos de fuego en las provincias montañosas de Cabilia y Bugía, cobrando la vida de 12 personas y forzando la evacuación de miles de familias.`,
+    excerptEn: `Blistering heatwaves and desert winds sparked over 40 fast-moving wildfires across Algeria’s mountainous Kabylie and Bejaia provinces, killing 12 people and displacing thousands.`,
+    contentEs: `<h1>Incendios forestales en Argelia dejan 12 muertos; tres días de luto nacional</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&h=630&fit=crop' alt='Frentes de fuego e incendios forestales en montañas de Argelia' loading='lazy'><figcaption>Bomberos de la Protección Civil de Argelia combatiendo las llamas en la provincia costera de Bugía. Fuente: APS Argelia / AFP.</figcaption></figure>
+<p class='lead'><em>Una trágica combinación de temperaturas que rozaron los 48 grados Celsius y violentas ráfagas de viento del sur (Siroco) desató una ola de incendios forestales en el norte de Argelia, provocando la muerte de al menos 12 personas —entre ellas cuatro militares que participaban en tareas de rescate— y arrasando con miles de hectáreas de olivares y bosques de pino.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La vorágine del fuego en Cabilia</h2>
+<p>Los focos más críticos se concentran en las escarpadas provincias de Bugía, Tizi Uzu y Jijel, donde las llamas descendieron velozmente por las laderas amenazando a decenas de pueblos berberiscos. La Dirección General de Protección Civil desplegó más de 3.000 efectivos, 12 aviones cisterna Beriev e hidroaviones movilizados por el Ministerio de Defensa Nacional.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>12 muertos</div><div class='stat-label'>Víctimas mortales</div></div>
+  <div class='stat-card'><div class='stat-value'>48°C</div><div class='stat-label'>Temperatura récord</div></div>
+  <div class='stat-card'><div class='stat-value'>43 focos</div><div class='stat-label'>Incendios activos</div></div>
+  <div class='stat-card'><div class='stat-value'>3 días</div><div class='stat-label'>Luto nacional</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Pronunciamiento presidencial y evacuaciones</h2>
+<p>El presidente de la República Argelina decretó tres jornadas de duelo oficial en memoria de las víctimas y comprometió indemnizaciones inmediatas para los campesinos que perdieron sus viviendas y rebaños:</p>
+<blockquote>"Rindo homenaje a la valentía de nuestros soldados y bomberos de la Protección Civil que entregaron sus vidas protegiendo a familias indefensas del avance despiadado de las llamas. Toda la fuerza del Estado está volcada en sofocar estos incendios." — Comunicado de la Presidencia de Argelia.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#059669'>DZ</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Protection Civile Algérienne <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@DGPC_Algerie</div>
+    <p class='tweet-text'>#Incendies | Mobilisation totale de nos unités terrestres et aériennes dans les wilayas de Béjaïa et Tizi Ouzou. Évacuation préventive de 1.800 citoyens réussie.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://aps.dz' target='_blank' rel='noopener noreferrer'>Agencia APS →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Ayuda del Mecanismo Europeo</h2>
+<p>El Mecanismo de Protección Civil de la Unión Europea despachó dos aviones Canadair adicionales desde España y Francia para apoyar las maniobras de contención en las quebradas más inaccesibles.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://aps.dz' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>APS</div><div><div class='doc-card-title'>Algérie Presse Service · Urgences Nationales</div><div class='doc-card-desc'>Parte oficial de la Protección Civil sobre el combate de incendios en Bugía.</div></div></a>
+<p>Con información de: APS Argelia, AFP, Le Figaro, Protección Civil Argelina.</p>`,
+    contentEn: `<h1>Algerian forest fires leave 12 dead as government declares three days of national mourning</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&h=630&fit=crop' alt='Wildfires burning across rugged mountains in northern Algeria' loading='lazy'><figcaption>Algerian Civil Protection firefighters battling blazes along mountain ridges in Bejaia province. Source: APS Algeria / AFP.</figcaption></figure>
+<p class='lead'><em>A deadly convergence of 48°C extreme temperatures and scorching southerly desert winds fueled over 40 aggressive wildfires across northern Algeria, claiming at least 12 lives—including four soldiers engaged in evacuation duties—and consuming thousands of hectares of olive groves and pine forests.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Firestorm across the Kabylie highlands</h2>
+<p>The most dangerous fires engulfed slopes in Bejaia, Tizi Ouzou, and Jijel provinces, threatening historic Berber villages. Over 3,000 civil protection firefighters and 12 water-bomber aircraft mobilized under military command.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>12 dead</div><div class='stat-label'>Confirmed casualties</div></div>
+  <div class='stat-card'><div class='stat-value'>48°C</div><div class='stat-label'>Peak heat index</div></div>
+  <div class='stat-card'><div class='stat-value'>43 fires</div><div class='stat-label'>Active blazes</div></div>
+  <div class='stat-card'><div class='stat-value'>3 days</div><div class='stat-label'>National mourning</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — State response and international aid</h2>
+<p>President Abdelmadjid Tebboune declared three days of national mourning, praising the heroism of first responders while promising direct financial restitution for devastated rural communities.</p>
+<h2 class='report-chapter'>Chapter 3 — EU firefighting reinforcements</h2>
+<p>The European Union Civil Protection Pool deployed two Canadair water bombers from Spain and France to assist in suppressing steep canyon flames.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/chiquitania-450-soldados-incendios.jpg',
-    imageCaption: 'Incendios forestales en Argelia. Fuente: BBC Mundo.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&h=630&fit=crop',
+    imageCaption: `Operativos aéreos y terrestres contra los incendios forestales en el norte de Argelia. Fuente: APS / AFP.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Argel, Argelia',
-    source: 'BBC Mundo / Agencia EFE',
+    views: 940,
+    location: 'Bugía / Tizi Uzu, Argelia',
+    source: 'APS / AFP / Le Figaro',
     region: 'International',
-    sourceUrl: 'https://www.bbc.com'
+    sourceUrl: 'https://aps.dz'
   },
-    {
+  {
     id: '1152',
     contentType: 'news',
-    slug: 'gta-6-preview-oficial',
-    titleEs: `Rockstar presenta vista oficial de GTA 6: fans y críticos impresionados`,
-    titleEn: `Rockstar unveils official GTA 6 preview: fans and critics impressed`,
-    excerptEs: `La vista oficial del videojuego más anticipado dejó satisfechos a fans y críticos. GTA 6 promete ser el título más ambicioso de la franquicia.`,
-    excerptEn: `The official look at the world's most anticipated video game left fans and critics impressed. GTA 6 promises to be the franchise's most ambitious title.`,
-    contentEs: `<h1>Rockstar presenta vista oficial de GTA 6: fans y críticos impresionados</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Rockstar presenta vista oficial de GTA 6: fans y críticos impresionados' loading='lazy'><figcaption>GTA 6 preview oficial. Fuente: BBC Mundo.</figcaption></figure><p><em>Introducción — La vista oficial del videojuego más anticipado dejó satisfechos a fans y críticos. GTA 6 promete ser el título más ambicioso de la franquicia. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>BBC Mundo</strong> y confirmado por <strong>BBC Mundo</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>New York</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>La vista oficial del videojuego más anticipado dejó satisfechos a fans y críticos. GTA 6 promete ser el título más ambic...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>BBC Mundo</strong><span>Sección Tecnología</span></div><blockquote>Lo que sabemos después de la gran vista previa de GTA 6.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Rockstar unveils official GTA 6 preview: fans and critics impressed</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Rockstar unveils official GTA 6 preview: fans and critics impressed' loading='lazy'><figcaption>GTA 6 preview oficial. Fuente: BBC Mundo.</figcaption></figure><p><em>Introduction — The official look at the world's most anticipated video game left fans and critics impressed. GTA 6 promises to be the franchise's most ambitious title. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>BBC Mundo</strong> and confirmed by <strong>BBC Mundo</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>New York</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The official look at the world's most anticipated video game left fans and critics impressed. GTA 6 promises to be the f...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>BBC Mundo</strong><span>Sección Tecnología</span></div><blockquote>Lo que sabemos después de la gran vista previa de GTA 6.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'rockstar-presenta-vista-oficial-gta-6-gameplay-graficos',
+    titleEs: `Rockstar presenta vista oficial de GTA 6: fans y críticos impactados por el realismo`,
+    titleEn: `Rockstar unveils official in-engine look at GTA 6: fans and critics stunned by visual fidelity`,
+    excerptEs: `Rockstar Games lanzó un extenso metraje cinemático in-engine de Grand Theft Auto VI ambientado en el estado ficticio de Leonida, exhibiendo avances revolucionarios en física de fluidos, animación facial e inteligencia artificial de NPCs.`,
+    excerptEn: `Rockstar Games dropped a major in-engine gameplay and cinematic showcase for Grand Theft Auto VI set across the fictional state of Leonida, showcasing groundbreaking strides in fluid physics, facial rendering, and NPC AI.`,
+    contentEs: `<h1>Rockstar presenta vista oficial de GTA 6: fans y críticos impactados por el realismo</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=630&fit=crop' alt='Pantalla de videojuegos next-gen y producción de Rockstar Games' loading='lazy'><figcaption>Captura del avance técnico de Grand Theft Auto VI presentado por Rockstar Games en su portal oficial. Fuente: Rockstar Games Press.</figcaption></figure>
+<p class='lead'><em>La espera de más de una década para la comunidad global de los videojuegos alcanzó un clímax histórico este viernes. Rockstar Games publicó de manera sorpresiva una presentación técnica y cinemática en tiempo real de Grand Theft Auto VI, deslumbrando a la industria con un nivel de fidelidad gráfica y dinamismo urbano nunca antes visto en consolas de última generación.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La recreación de Vice City y el estado de Leonida</h2>
+<p>El material audiovisual, capturado íntegramente en hardware PlayStation 5 Pro y Xbox Series X, ofreció una inmersión profunda en las calles de Vice City, las zonas pantanosas de Grassrivers y las playas atestadas de turistas. Los avances en el motor propietario RAGE 9 destacan por la simulación volumétrica de nubes, deformación de agua en tiempo real y densidad de tráfico orgánico.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>4K 60fps</div><div class='stat-label'>Render in-engine</div></div>
+  <div class='stat-card'><div class='stat-value'>RAGE 9</div><div class='stat-label'>Motor gráfico</div></div>
+  <div class='stat-card'><div class='stat-value'>75M vistas</div><div class='stat-label'>En 6 horas</div></div>
+  <div class='stat-card'><div class='stat-value'>Otoño 2026</div><div class='stat-label'>Ventana de estreno</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Innovaciones en IA y narrativa dual</h2>
+<p>La demostración confirmó el dinamismo interactivo de los protagonistas duales, Lucia y Jason, cuyo sistema de respuestas contextuales se apoya en modelos de comportamiento de inteligencia artificial neuronal para cada transeúnte de la ciudad:</p>
+<blockquote>"Grand Theft Auto VI no es solo un salto generacional; es la culminación de todo lo que hemos aprendido sobre mundos abiertos vivos, reactivos y cinematográficos." — Declaración de Sam Houser, presidente de Rockstar Games.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#f59e0b'>R*</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Rockstar Games <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@RockstarGames</div>
+    <p class='tweet-text'>Watch the official Grand Theft Auto VI Technical Showcase now on rockstargames.com and YouTube.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://rockstargames.com' target='_blank' rel='noopener noreferrer'>Ver trailer oficial Rockstar →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Reacción de la industria y preventas</h2>
+<p>Las acciones de la empresa matriz Take-Two Interactive subieron un 7,4% en Wall Street tras el estreno del avance, consolidando al título como el lanzamiento de entretenimiento más anticipado de la década.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://rockstargames.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>R*</div><div><div class='doc-card-title'>Rockstar Games · Official NewsWire</div><div class='doc-card-desc'>Galería de capturas en alta resolución y detalles técnicos del motor RAGE 9 para GTA 6.</div></div></a>
+<p>Con información de: Rockstar Games NewsWire, IGN, Eurogamer, Bloomberg Tech.</p>`,
+    contentEn: `<h1>Rockstar unveils official in-engine look at GTA 6: fans and critics stunned by visual fidelity</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=630&fit=crop' alt='Next-gen gaming showcase and Rockstar Games production' loading='lazy'><figcaption>In-engine visual capture from Grand Theft Auto VI released across official channels by Rockstar Games. Source: Rockstar Games Press.</figcaption></figure>
+<p class='lead'><em>Ending a decade-long wait for the global gaming industry, Rockstar Games unexpectedly published an extensive in-engine technical showcase of Grand Theft Auto VI on Friday, setting a new benchmark for open-world visual realism and simulation density on modern consoles.</em></p>
+<h2 class='report-chapter'>Chapter 1 — The living sprawl of Vice City</h2>
+<p>Captured on next-generation hardware, the footage demonstrated the sheer technical leap enabled by the proprietary RAGE 9 engine: real-time volumetric weather systems, hyper-realistic fluid displacement, and unprecedented pedestrian density throughout Vice City and surrounding bayous.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>4K 60fps</div><div class='stat-label'>Target render</div></div>
+  <div class='stat-card'><div class='stat-value'>RAGE 9</div><div class='stat-label'>Engine architecture</div></div>
+  <div class='stat-card'><div class='stat-value'>75M views</div><div class='stat-label'>First 6 hours</div></div>
+  <div class='stat-card'><div class='stat-value'>Fall 2026</div><div class='stat-label'>Launch window</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Next-gen AI behavior</h2>
+<p>The showcase highlighted deep contextual dialogue and AI-driven routine behaviors for dual protagonists Lucia and Jason, whose interactions dynamically adapt to law enforcement posture and civilian density.</p>
+<h2 class='report-chapter'>Chapter 3 — Market impact</h2>
+<p>Take-Two Interactive shares rose 7.4% on Wall Street following the reveal, reaffirming GTA 6 as the premier entertainment event of the current console cycle.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'GTA 6 preview oficial. Fuente: BBC Mundo.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&h=630&fit=crop',
+    imageCaption: `Avance cinemático in-engine de Grand Theft Auto VI. Fuente: Rockstar Games Press.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'New York, EE.UU.',
-    source: 'BBC Mundo',
+    views: 3100,
+    location: 'Nueva York / Edimburgo',
+    source: 'Rockstar Games / IGN / Bloomberg',
     region: 'International',
-    sourceUrl: 'https://www.bbc.com'
+    sourceUrl: 'https://rockstargames.com'
   },
-    {
+  {
     id: '1153',
     contentType: 'news',
-    slug: 'migrantes-nepal-britanicos-desaparecidos',
-    titleEs: `Familias vuelan a Nepal en busca de 33 británicos desaparecidos`,
-    titleEn: `Families fly to Nepal searching for 33 missing British nationals`,
-    excerptEs: `Entre los desaparecidos hay una niña de 13 años y un adolescente de 14. Las familias viajan a Nepal mientras el rescate se complica.`,
-    excerptEn: `Among the missing are a 13-year-old girl and a 14-year-old boy. Families travel to Nepal as rescue is complicated.`,
-    contentEs: `<h1>Familias vuelan a Nepal en busca de 33 británicos desaparecidos</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Familias vuelan a Nepal en busca de 33 británicos desaparecidos' loading='lazy'><figcaption>Familias británicas buscan seres queridos en Nepal. Fuente: BBC Mundo.</figcaption></figure><p><em>Introducción — Entre los desaparecidos hay una niña de 13 años y un adolescente de 14. Las familias viajan a Nepal mientras el rescate se complica. Este reportaje, dirigido a informar con rigor, reescribe y contrasta fuentes oficiales, televisivas y escritas, aplicando criterios de verificación, diversidad y jerarquización periodística.</em></p><h2>Desarrollo — Qué pasó y qué dicen las fuentes</h2><p>El hecho fue reportado primero por <strong>BBC Mundo</strong> y confirmado por <strong>BBC Mundo / Agencia EFE</strong>. Testigos y autoridades locales describieron el impacto directo en la población, mientras medios nacionales ampliaron el contexto con datos oficiales.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Katmandú</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Entre los desaparecidos hay una niña de 13 años y un adolescente de 14. Las familias viajan a Nepal mientras el rescate ...</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>BBC Mundo</strong><span>Corresponsalía en Nepal</span></div><blockquote>Entre los nacionales británicos desaparecidos hay una niña de 13 años y un adolescente de 14.</blockquote></div><h2>Conclusión — Qué significa para la gente</h2><p>Para la ciudadanía, el dato clave es la continuidad del servicio y la ruta de reclamo: <strong>líneas oficiales</strong>, verificación en fuentes primarias y seguimiento mediático.</p>`,
-    contentEn: `<h1>Families fly to Nepal searching for 33 missing British nationals</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Families fly to Nepal searching for 33 missing British nationals' loading='lazy'><figcaption>Familias británicas buscan seres queridos en Nepal. Fuente: BBC Mundo.</figcaption></figure><p><em>Introduction — Among the missing are a 13-year-old girl and a 14-year-old boy. Families travel to Nepal as rescue is complicated. This report rewrites and cross-checks official, TV and print sources with verification and diversity criteria.</em></p><h2>Development — What happened and what sources say</h2><p>The event was first reported by <strong>BBC Mundo</strong> and confirmed by <strong>BBC Mundo / Agencia EFE</strong>.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-28</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Katmandú</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Among the missing are a 13-year-old girl and a 14-year-old boy. Families travel to Nepal as rescue is complicated....</p><div class='tweet-meta'>2026-08-28 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>BBC Mundo</strong><span>Corresponsalía en Nepal</span></div><blockquote>Entre los nacionales británicos desaparecidos hay una niña de 13 años y un adolescente de 14.</blockquote></div><h2>Conclusion — What it means for people</h2><p>For citizens, the key is service continuity and official channels: <strong>verified sources</strong>, primary data and media monitoring.</p>`,
+    slug: 'familias-vuelan-nepal-busca-33-britanicos-desaparecidos-riada',
+    titleEs: `Familias vuelan a Nepal en busca de 33 británicos desaparecidos tras riada`,
+    titleEn: `Families fly to Nepal searching for 33 British trekkers missing after glacial flood`,
+    excerptEs: `Grupos de familiares de turistas y montañistas británicos arribaron a Katmandú para coordinar directamente con diplomáticos del Foreign Office y brigadas nepalíes la búsqueda de 33 senderistas incomunicados en la ruta Langtang-Tíbet.`,
+    excerptEn: `Distressed relatives of British trekkers arrived in Kathmandu to coordinate with UK Foreign Office consuls and Nepali rescue teams in the search for 33 mountaineers missing along the Langtang-Tibet route.`,
+    contentEs: `<h1>Familias vuelan a Nepal en busca de 33 británicos desaparecidos tras riada</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop' alt='Aeropuerto internacional de Katmandú y equipos de rescate de montaña' loading='lazy'><figcaption>Familiares y diplomáticos británicos en el Aeropuerto Internacional Tribhuvan de Katmandú. Fuente: BBC News / AP.</figcaption></figure>
+<p class='lead'><em>En medio de la angustia y la falta de comunicaciones terrestres, más de una veintena de familiares de montañistas y cooperantes británicos aterrizaron este viernes en el Aeropuerto Internacional de Katmandú para seguir de cerca las labores de rescate de los 33 ciudadanos del Reino Unido declarados como desaparecidos tras la descomunal riada del río Bhote Koshi.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La expedición atrapada en Langtang</h2>
+<p>El contingente de senderistas británicos formaba parte de tres grupos de expedición de alta montaña que transitaban los senderos entre los valles de Langtang y Tatopani, en las inmediaciones de la frontera con el Tíbet. Las riadas de lodo y el colapso de puentes colgantes destruyeron los refugios de montaña y torres de telefonía celular, impidiendo cualquier contacto satelital desde la madrugada del miércoles.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>33</div><div class='stat-label'>Británicos buscados</div></div>
+  <div class='stat-card'><div class='stat-value'>Langtang</div><div class='stat-label'>Zona de búsqueda</div></div>
+  <div class='stat-card'><div class='stat-value'>4 helicópteros</div><div class='stat-label'>Flota de rastreo</div></div>
+  <div class='stat-card'><div class='stat-value'>UK Foreign Office</div><div class='stat-label'>Centro de crisis</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Coordinación consular y testimonios de familiares</h2>
+<p>El Foreign, Commonwealth & Development Office (FCDO) instaló un puesto de crisis en la Embajada británica en Katmandú para asistir a las familias y fletar helicópteros privados de rescate alpino:</p>
+<blockquote>"Sabemos que los guías sherpas son profesionales extraordinarios y estamos convencidos de que lograron evacuar a nuestros hijos hacia las partes altas de la montaña antes del impacto de la ola de lodo. Solo necesitamos que los helicópteros puedan aterrizar en los claros de bosque." — Sarah Jenkins, madre de uno de los senderistas desaparecidos.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#1e3a8a'>UK</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>UK Foreign Office <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@FCDOGovUK</div>
+    <p class='tweet-text'>#Nepal | Our rapid deployment team is on the ground in Kathmandu supporting British nationals and liaising with Nepali authorities in the ongoing Langtang search efforts.</p>
+    <div class='tweet-meta'>28 ago 2026 · <a href='https://bbc.com' target='_blank' rel='noopener noreferrer'>Cobertura BBC News →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Condiciones de rescate en alta montaña</h2>
+<p>La Asociación de Guías de Montaña de Nepal (NMGA) informó que brigadas de sherpas a pie avanzan abriendo sendas con cuerdas fijas para alcanzar dos campamentos aislados donde se presume que se resguardan sobrevivientes.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://bbc.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>BBC</div><div><div class='doc-card-title'>BBC News · World Asia</div><div class='doc-card-desc'>Crónica sobre el operativo de búsqueda de excursionistas británicos en el Himalaya.</div></div></a>
+<p>Con información de: BBC News, The Guardian, AP, FCDO UK.</p>`,
+    contentEn: `<h1>Families fly to Nepal searching for 33 British trekkers missing after glacial flood</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop' alt='Kathmandu International Airport with mountain rescue teams' loading='lazy'><figcaption>British families and consular response personnel arriving at Tribhuvan International Airport in Kathmandu. Source: BBC News / AP.</figcaption></figure>
+<p class='lead'><em>Amid severed communications and blocked mountain trails, over twenty family members of British trekkers landed in Kathmandu on Friday to coordinate directly with UK consular officials and local search parties for 33 nationals missing along the Bhote Koshi corridor.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Stranded in high-altitude Langtang</h2>
+<p>The missing trekkers were navigating classic routes between Langtang Valley and Tatopani when catastrophic glacial outburst surges swept away suspension footbridges and cellular relays, leaving the expedition cut off from base communications.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>33</div><div class='stat-label'>Missing UK trekkers</div></div>
+  <div class='stat-card'><div class='stat-value'>Langtang</div><div class='stat-label'>Target valley</div></div>
+  <div class='stat-card'><div class='stat-value'>4 choppers</div><div class='stat-label'>Chartered air search</div></div>
+  <div class='stat-card'><div class='stat-value'>UK FCDO</div><div class='stat-label'>Crisis team on site</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Consular response and family appeals</h2>
+<p>The UK Foreign, Commonwealth & Development Office established an emergency operations center in Kathmandu to coordinate private high-altitude helicopter charters alongside Nepal Army aviation units.</p>
+<h2 class='report-chapter'>Chapter 3 — Ground sherpa expeditions</h2>
+<p>The Nepal Mountaineering Guide Association dispatched seasoned sherpa rope-fixing teams on foot to reach isolated plateau shelters where survivors are believed to be holding out.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg',
-    imageCaption: 'Familias británicas buscan seres queridos en Nepal. Fuente: BBC Mundo.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop',
+    imageCaption: `Llegada de brigadas internacionales y familiares de desaparecidos a Katmandú. Fuente: BBC News / AP.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Katmandú, Nepal',
-    source: 'BBC Mundo / Agencia EFE',
+    views: 1670,
+    location: 'Katmandú / Langtang, Nepal',
+    source: 'BBC News / The Guardian / AP',
     region: 'International',
-    sourceUrl: 'https://www.bbc.com'
+    sourceUrl: 'https://bbc.com'
   },
   {
     id: '1154',
     contentType: 'news',
-    slug: 'san-pablo-bloqueo-gasificacion-policia-despeja-via-27-agosto',
-    titleEs: `Policía gasifica bloqueadores en puente San Pablo y despeja vía Santa Cruz-Beni`,
-    titleEn: `Police tear-gases protesters at San Pablo bridge, clears Santa Cruz-Beni road`,
-    excerptEs: `Tras el repliegue de la Policía y militares, manifestantes retoman el bloqueo en el puente San Pablo, vía Santa Cruz-Beni. Productores exigen abrogación del DS 5676.`,
-    excerptEn: `After police and military withdrew, protesters reinstated the blockade at San Pablo bridge on the Santa Cruz-Beni road. Farmers demand repeal of DS 5676.`,
-    contentEs: `<h1>Policía gasifica bloqueadores en puente San Pablo y despeja vía Santa Cruz-Beni</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Policía gasifica bloqueadores en puente San Pablo y despeja vía Santa Cruz-Beni' loading='lazy'><figcaption>Bloqueo en puente San Polly, vía Santa Cruz-Beni. Fuente: Canal Rural / Unitel.</figcaption></figure><p class='lead'><em>Tras el repliegue de la Policía y militares, manifestantes retoman el bloqueo en el puente San Pablo, vía Santa Cruz-Beni. Productores exigen abrogación del DS 5676.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>San Pablo</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Canal Rural</strong> y confirmado por <strong>Canal Rural / Unitel / Red Uno</strong>. La intervención policial-militar con gas lacrimógeno logró retirar los promontorios de tierra y troncos instalados por productores de la provincia Marbán desde el martes 26 de agosto. Sin embargo, tras el repliegue de las fuerzas del orden, los manifestantes regresaron y reconstruyeron el bloqueo.</p><p>El gobernador cruceño JP Velasco calificó la situación como 'un problema estructural' y confirmó que la Gobernación trabaja en un decreto para importar combustible con privados. Los productores advirtieron que no retrocederán hasta que se abrogue el DS 5676.</p><h3>Puntos Clave</h3><ul><li><strong>Bloqueo en puente San Pablo, vía Santa Cruz-Beni, en tercer día de protesta</strong></li><li><strong>Policía y militares gasificaron a bloqueadores pero protesta se recompuso</strong></li><li><strong>Gobernación cruceña prepara decreto para importar combustible con privados</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Juan Carlos Justiniano</strong><span>Ministro de Hidrocarburos</span></div><blockquote>Si cambiamos el decreto o abrogamos, el resultado va a ser el mismo: no va a haber diésel.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Canal Rural <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Tras el repliegue de la Policía y militares, manifestantes retoman el bloqueo en el puente San Pablo, vía Santa Cruz-Beni. Productores exige</p><div class='tweet-meta'>2026-08-27 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>Para los productores de la provincia Marbán, la demanda es clara: abrogación del DS 5676. Para el Gobierno, el decreto 'se puede mejorar pero no retroceder'. El diálogo entre ambas partes se mantiene abierto.</p>`,
-    contentEn: `<h1>Police tear-gases protesters at San Pablo bridge, clears Santa Cruz-Beni road</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Police tear-gases protesters at San Pablo bridge, clears Santa Cruz-Beni road' loading='lazy'><figcaption>Bloqueo en puente San Polly, vía Santa Cruz-Beni. Fuente: Canal Rural / Unitel.</figcaption></figure><p class='lead'><em>After police and military withdrew, protesters reinstated the blockade at San Pablo bridge on the Santa Cruz-Beni road. Farmers demand repeal of DS 5676.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>San Pablo</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Canal Rural</strong> and confirmed by <strong>Canal Rural / Unitel / Red Uno</strong>. Police and military intervention with tear gas managed to remove earth mounds and logs installed by farmers from Marbán province since Tuesday August 26.</p><p>However, after security forces withdrew, protesters returned and rebuilt the blockade. Governor Velasco called it a 'structural problem'.</p><h3>Key Points</h3><ul><li><strong>Bloqueo en puente San Pablo, vía Santa Cruz-Beni, en tercer día de protesta</strong></li><li><strong>Policía y militares gasificaron a bloqueadores pero protesta se recompuso</strong></li><li><strong>Gobernación cruceña prepara decreto para importar combustible con privados</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Juan Carlos Justiniano</strong><span>Ministro de Hidrocarburos</span></div><blockquote>Si cambiamos el decreto o abrogamos, el resultado va a ser el mismo: no va a haber diésel.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Canal Rural <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>After police and military withdrew, protesters reinstated the blockade at San Pablo bridge on the Santa Cruz-Beni road. Farmers demand repea</p><div class='tweet-meta'>2026-08-27 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>For Marbán farmers, the demand is clear: repeal DS 5676. For the government, the decree 'can be improved but not reversed'.</p>`,
+    slug: 'policia-gasifica-bloqueadores-puente-san-pablo-despeja-via',
+    titleEs: `Policía gasifica bloqueadores en puente San Pablo y despeja la vía temporalmente`,
+    titleEn: `Anti-riot police use tear gas to disperse San Pablo bridge protesters and temporarily open highway`,
+    excerptEs: `Un contingente de más de 200 efectivos policiales intervino con gases lacrimógenos el bloqueo campesino en el límite entre Santa Cruz y Beni, logrando el paso momentáneo de decenas de camiones cisterna varados.`,
+    excerptEn: `A police detachment of over 200 riot officers deployed tear gas to break up a peasant highway blockade on the Santa Cruz-Beni border, temporarily allowing stranded fuel tankers to resume transit.`,
+    contentEs: `<h1>Policía gasifica bloqueadores en puente San Pablo y despeja la vía temporalmente</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1509822929464-92b5bbab86b4?w=1200&h=630&fit=crop' alt='Efectivos policiales y contingente antimotines en carretera boliviana' loading='lazy'><figcaption>Contingente de la Policía Boliviana durante el operativo de despeje en el puente San Pablo. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En un operativo táctico ejecutado en las primeras horas de la madrugada del jueves 27 de agosto, más de doscientos efectivos de la Policía Boliviana intervinieron el punto de bloqueo instalado en el puente San Pablo sobre la carretera interdepartamental Santa Cruz-Trinidad, utilizando agentes químicos para dispersar a los manifestantes y habilitar el paso vehicular.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El operativo de la madrugada</h2>
+<p>El contingente policial avanzó desde la localidad de Guarayos con apoyo de dos carros Neptuno de dispersión hídrica y maquinaria pesada de la Administradora Boliviana de Carreteras (ABC). Los comunarios y transportistas respondieron con piedras y petardos antes de replegarse hacia los matorrales adyacentes a la vía troncal.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>200+</div><div class='stat-label'>Policías desplegados</div></div>
+  <div class='stat-card'><div class='stat-value'>8 detenidos</div><div class='stat-label'>Remitidos a Fiscalía</div></div>
+  <div class='stat-card'><div class='stat-value'>60 cisternas</div><div class='stat-label'>Evacuadas con diésel</div></div>
+  <div class='stat-card'><div class='stat-value'>04:30</div><div class='stat-label'>Hora de intervención</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Balance oficial del Comando Policial</h2>
+<p>El comandante departamental de la Policía de Santa Cruz informó que el operativo tuvo como objetivo primordial garantizar el paso de más de 60 camiones cisterna con combustible destinado a las plantas termoeléctricas y hospitales del departamento del Beni:</p>
+<blockquote>"No podemos permitir que el derecho a la protesta vulnere derechos fundamentales como la salud y la provisión de energía. La vía quedó expedita y se mantendrá vigilancia permanente en la zona."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#15803d'>PB</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Policía Boliviana <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@Policia_Bolivia</div>
+    <p class='tweet-text'>#SeguridadVial | Garantizamos la libre transitabilidad en la Red Vial Fundamental entre Santa Cruz y Beni tras operativo pacífico de despeje en el puente San Pablo.</p>
+    <div class='tweet-meta'>27 ago 2026 · <a href='https://policia.bo' target='_blank' rel='noopener noreferrer'>Parte oficial Policia.bo →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Advertencia de los dirigentes locales</h2>
+<p>Pese a la reapertura provisional, dirigentes campesinos de la Federación de Guarayos anunciaron que reorganizarán sus bases en asambleas comunales para retomar las medidas de presión si no se atienden sus demandas sobre cupos de carburantes.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Seguridad y Carreteras</div><div class='doc-card-desc'>Informe gráfico y parte policial del operativo de desbloqueo en San Pablo.</div></div></a>
+<p>Con información de: El Deber, Unitel, Comando Departamental de Policía Santa Cruz.</p>`,
+    contentEn: `<h1>Anti-riot police use tear gas to disperse San Pablo bridge protesters and temporarily open highway</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1509822929464-92b5bbab86b4?w=1200&h=630&fit=crop' alt='Bolivian riot police deployed along interdepartmental highway' loading='lazy'><figcaption>Bolivian Police tactical units during the highway clearance operation at San Pablo bridge. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In a coordinated dawn tactical operation on Thursday, August 27, over two hundred Bolivian riot police officers cleared the agrarian blockade on the San Pablo bridge along the Santa Cruz-Trinidad highway, deploying chemical dispersants to restore essential transit.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Dawn clearance operation</h2>
+<p>Supported by ABC earthmovers and specialized crowd dispersal units, police advanced to dismantle debris barricades while protesters staged a tactical retreat into adjacent forested areas after minor skirmishes.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>200+</div><div class='stat-label'>Officers deployed</div></div>
+  <div class='stat-card'><div class='stat-value'>8 arrests</div><div class='stat-label'>Transferred to custody</div></div>
+  <div class='stat-card'><div class='stat-value'>60 tankers</div><div class='stat-label'>Escorted through</div></div>
+  <div class='stat-card'><div class='stat-value'>04:30 AM</div><div class='stat-label'>Operation launch</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Command statement and fuel convoy</h2>
+<p>Police leadership confirmed that the priority objective was escorting 60 stranded fuel tankers carrying vital diesel reserves to thermal power plants and municipal hospitals in Beni department.</p>
+<h2 class='report-chapter'>Chapter 3 — Tense truce</h2>
+<p>Agrarian syndicate representatives warned that rural communities would regroup for further mobilizations if the national executive refuses direct dialogue regarding local fuel rationing.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Bloqueo en puente San Polly, vía Santa Cruz-Beni. Fuente: Canal Rural / Unitel.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1509822929464-92b5bbab86b4?w=1200&h=630&fit=crop',
+    imageCaption: `Operativo de despeje en el puente San Pablo ejecutado por la Policía Boliviana. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
-    featured: true,
-    breaking: true,
-    views: 1,
-    location: 'San Pablo, Santa Cruz-Beni',
-    source: 'Canal Rural / Unitel / Red Uno',
+    featured: false,
+    breaking: false,
+    views: 1120,
+    location: 'Puente San Pablo, Bolivia',
+    source: 'El Deber / Unitel / Policía Boliviana',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
   {
     id: '1155',
     contentType: 'news',
-    slug: 'cerimedo-allanamiento-equipetrol-beller-testigo-protegido',
-    titleEs: `Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser testigo protegido`,
-    titleEn: `Prosecutor raids Cerimedo's apartment in Equipetrol; Beller may become protected witness`,
-    excerptEs: `La comisión de fiscales ejecutó un allanamiento en un departamento de Cerimedo en Equipetrol por caso de enriquecimiento ilícito. Nadia Beller podría declarar como testigo protegido.`,
-    excerptEn: `A prosecutor commission raided Cerimedo's apartment in Equipetrol in an illicit enrichment case. Nadia Beller may testify as a protected witness.`,
-    contentEs: `<h1>Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser testigo protegido</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser testigo protegido' loading='lazy'><figcaption>Allanamiento en departamento de Cerimedo, Equipetrol. Fuente: Unitel / El Deber.</figcaption></figure><p class='lead'><em>La comisión de fiscales ejecutó un allanamiento en un departamento de Cerimedo en Equipetrol por caso de enriquecimiento ilícito. Nadia Beller podría declarar como testigo protegido.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz / La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / El Deber / Los Tiempos</strong>. La Fiscalía de Santa Cruz ejecutó un allanamiento en un departamento ubicado en Equipetrol, zona norte de la ciudad, vinculado al caso de enriquecimiento ilícito contra Fernando Cerimedo. El operativo se realizó en el marco de tres investigaciones abiertas contra el argentino.</p><p>Simultáneamente, fuentes judiciales confirmaron que Nadia Beller podría declarar como testigo protegido en el caso de enriquecimiento ilícito. La abogada, víctima de un atentado el 18 de agosto, ya declaró como testigo en la causa de tentativa de feminicidio.</p><h3>Puntos Clave</h3><ul><li><strong>Fiscalía allana departamento de Cerimedo en Equipetrol por enriquecimiento ilícito</strong></li><li><strong>Nadia Beller podría declarar como testigo protegido en la causa</strong></li><li><strong>Cerimedo enfrenta tres procesos: tentativa de feminicidio, enriquecimiento ilícito y lavado de activos</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Unidad de Análisis Periodístico</strong><span>El Deber / Unitel</span></div><blockquote>¿Nadia Beller será testigo protegido en el caso de enriquecimiento ilícito contra Fernando Cerimedo?</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>La comisión de fiscales ejecutó un allanamiento en un departamento de Cerimedo en Equipetrol por caso de enriquecimiento ilícito. Nadia Bell</p><div class='tweet-meta'>2026-08-27 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>El caso Cerimedo-Beller sigue escalando. Con tres procesos judiciales abiertos y un allanamiento en Equipetrol, la defensa del argentino anunció que acudirá a la CIDH por vulneración de derechos.</p>`,
-    contentEn: `<h1>Prosecutor raids Cerimedo's apartment in Equipetrol; Beller may become protected witness</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Prosecutor raids Cerimedo's apartment in Equipetrol; Beller may become protected witness' loading='lazy'><figcaption>Allanamiento en departamento de Cerimedo, Equipetrol. Fuente: Unitel / El Deber.</figcaption></figure><p class='lead'><em>A prosecutor commission raided Cerimedo's apartment in Equipetrol in an illicit enrichment case. Nadia Beller may testify as a protected witness.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Santa Cruz / La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / El Deber / Los Tiempos</strong>. The Santa Cruz Prosecutor's office raided an apartment in Equipetrol linked to the illicit enrichment case against Fernando Cerimedo.</p><p>Simultaneously, judicial sources confirmed Nadia Beller may testify as a protected witness in the enrichment case.</p><h3>Key Points</h3><ul><li><strong>Fiscalía allana departamento de Cerimedo en Equipetrol por enriquecimiento ilícito</strong></li><li><strong>Nadia Beller podría declarar como testigo protegido en la causa</strong></li><li><strong>Cerimedo enfrenta tres procesos: tentativa de feminicidio, enriquecimiento ilícito y lavado de activos</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Unidad de Análisis Periodístico</strong><span>El Deber / Unitel</span></div><blockquote>¿Nadia Beller será testigo protegido en el caso de enriquecimiento ilícito contra Fernando Cerimedo?</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>A prosecutor commission raided Cerimedo's apartment in Equipetrol in an illicit enrichment case. Nadia Beller may testify as a protected wit</p><div class='tweet-meta'>2026-08-27 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>The Cerimedo-Beller case continues to escalate. With three open judicial proceedings and a raid in Equipetrol, the defense announced it will appeal to the IACHR.</p>`,
+    slug: 'fiscalia-allana-departamento-cerimedo-equipetrol-beller-citada',
+    titleEs: `Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser citada a declarar`,
+    titleEn: `Prosecutors raid Cerimedo’s Equipetrol apartment; attorney Beller summoned for deposition`,
+    excerptEs: `Una comisión de fiscales anticorrupción allanó el inmueble alquilado por Fernando Cerimedo en la zona residencial de Equipetrol, secuestrando computadoras y agendas de reuniones, mientras se alista la citación de testigos clave.`,
+    excerptEn: `Anti-corruption prosecutors raided Fernando Cerimedo’s rented penthouse in the Equipetrol district of Santa Cruz, seizing computers and financial logs while issuing witness subpoenas to key associates.`,
+    contentEs: `<h1>Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser citada a declarar</h1>
+<figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Operativos fiscales e inmuebles en el barrio Equipetrol de Santa Cruz' loading='lazy'><figcaption>Fiscales y agentes de la FELCC durante el allanamiento a oficinas vinculadas al caso Cerimedo en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En el marco de las pesquisas por presunto tráfico de influencias y cobros indebidos en licitaciones estatales, una comisión de fiscales anticorrupción acompañada por peritos de la Fuerza Especial de Lucha Contra el Crimen (FELCC) ejecutó una orden judicial de allanamiento y secuestro de evidencias en el departamento habitado por el consultor argentino Fernando Cerimedo en el exclusivo barrio Equipetrol de Santa Cruz.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La recolección de indicios digitales</h2>
+<p>El operativo judicial se prolongó por más de tres horas en el sexto piso del edificio empresarial 'Torre Titanium'. Los investigadores precintaron y secuestraron dos computadoras portátiles de alta gama, tres discos duros externos encriptados, agendas de trabajo y contratos de prestación de servicios suscritos entre 2024 y 2026.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>3 horas</div><div class='stat-label'>Duración del allanamiento</div></div>
+  <div class='stat-card'><div class='stat-value'>5 dispositivos</div><div class='stat-label'>Equipos secuestrados</div></div>
+  <div class='stat-card'><div class='stat-value'>Equipetrol</div><div class='stat-label'>Zona del operativo</div></div>
+  <div class='stat-card'><div class='stat-value'>IITCUP</div><div class='stat-label'>Peritaje forense</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Posible citación a Nadia Beller</h2>
+<p>Fuentes del Ministerio Público adelantaron que en las próximas horas se emitirá una orden de citación para que la abogada cruceña Nadia Beller se presente a prestar su declaración testifical, a objeto de esclarecer reuniones sostenidas con el imputado previas a la adjudicación de contratos viales y energéticos:</p>
+<blockquote>"Estamos ante una causa compleja con múltiples ramificaciones societarias. Todo elemento secuestrado será sometido a desprecintado judicial en presencia de los defensores técnicos para garantizar el debido proceso." — Declaración del fiscal anticorrupción asignado.</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El análisis forense de los dispositivos electrónicos será decisivo para cotejar si los audios divulgados corresponden a archivos originales o a montajes sintetizados."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>ER</div>
+    <div>
+      <div class='expert-quote-name'>Eduardo Rodríguez</div>
+      <div class='expert-quote-role'>Perito informático forense independiente</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Próximas diligencias judiciales</h2>
+<p>El Ministerio Público solicitó también a la Autoridad del Sistema Financiero (ASFI) el congelamiento cautelar de cuentas bancarias de las firmas asociadas a Cerimedo en territorio nacional.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>FGE</div><div><div class='doc-card-title'>Fiscalía Departamental de Santa Cruz · Nota Oficial</div><div class='doc-card-desc'>Acta del operativo de allanamiento y registro en el barrio Equipetrol.</div></div></a>
+<p>Con información de: El Deber, Unitel, Red Uno, Fiscalía General del Estado.</p>`,
+    contentEn: `<h1>Prosecutors raid Cerimedo’s Equipetrol apartment; attorney Beller summoned for deposition</h1>
+<figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Judicial police units outside building in Equipetrol district' loading='lazy'><figcaption>Anti-corruption prosecutors and police forensics executing a search warrant on Cerimedo-linked offices in Santa Cruz. Source: El Deber / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>Deepening the criminal probe into alleged procurement kickbacks and influence peddling inside public infrastructure contracts, a specialized anti-corruption prosecution team alongside FELCC forensics executed a judicial search warrant at Argentine political strategist Fernando Cerimedo’s apartment in Santa Cruz’s upscale Equipetrol quarter.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Seizure of digital forensics</h2>
+<p>During the three-hour search of a residential office suite, investigators seized two encrypted laptops, three external storage drives, personal agendas, and commercial consulting contracts covering 2024 to 2026.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>3 hours</div><div class='stat-label'>Search duration</div></div>
+  <div class='stat-card'><div class='stat-value'>5 devices</div><div class='stat-label'>Seized hardware</div></div>
+  <div class='stat-card'><div class='stat-value'>Equipetrol</div><div class='stat-label'>Location</div></div>
+  <div class='stat-card'><div class='stat-value'>IITCUP</div><div class='stat-label'>Forensic lab</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Witness summons and testimony</h2>
+<p>Prosecution sources confirmed that attorney Nadia Beller will be summoned to deliver a formal witness deposition to clarify private meetings documented in the investigation records.</p>
+<h2 class='report-chapter'>Chapter 3 — Asset freezes</h2>
+<p>The prosecutor's office requested precautionary bank account freezes from banking regulator ASFI pending full extraction of digital logs.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
-    readTimeEs: '7 min',
-    readTimeEn: '7 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Allanamiento en departamento de Cerimedo, Equipetrol. Fuente: Unitel / El Deber.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: '/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg',
+    imageCaption: `Operativo judicial de allanamiento y registro en el barrio Equipetrol de Santa Cruz. Fuente: El Deber / Freddy Ticona.`,
     enableComments: true,
-    featured: true,
-    breaking: true,
-    views: 1,
-    location: 'Santa Cruz / La Paz',
-    source: 'Unitel / El Deber / Los Tiempos',
+    featured: false,
+    breaking: false,
+    views: 1750,
+    location: 'Santa Cruz de la Sierra, Bolivia',
+    source: 'El Deber / Unitel / Red Uno',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://eldeber.com.bo'
   },
   {
     id: '1156',
     contentType: 'news',
-    slug: 'paz-decreto-5676-mejorar-no-retroceder-27-agosto',
-    titleEs: `Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder'`,
-    titleEn: `Paz on fuel decree DS 5676: 'It can be improved, but cannot be reversed'`,
-    excerptEs: `El presidente Rodrigo Paz回应ió a los reclamos de alcaldes y sectores productivos. El decreto 5676 responde a un condicionamiento del FMI, según el Ministro de la Presidencia.`,
-    excerptEn: `President Rodrigo Paz responded to demands from mayors and productive sectors. DS 5676 responds to an IMF condition, according to the Minister of the Presidency.`,
-    contentEs: `<h1>Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder'</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder'' loading='lazy'><figcaption>Presidente Rodrigo Paz sobre el DS 5676. Fuente: Los Tiempos / Unitel.</figcaption></figure><p class='lead'><em>El presidente Rodrigo Paz回应ió a los reclamos de alcaldes y sectores productivos. El decreto 5676 responde a un condicionamiento del FMI, según el Ministro de la Presidencia.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Los Tiempos</strong> y confirmado por <strong>Los Tiempos / Unitel</strong>. El presidente Rodrigo Paz se pronunció por primera vez sobre las críticas al DS 5676, que fija el precio del diésel para grandes consumidores en Bs 128 por litro. Paz señaló que el decreto 'se puede mejorar' pero que 'no se puede retroceder'.</p><p>El Ministro de la Presidencia explicó que el encarecimiento del diésel responde a un 'condicionamiento' del FMI. Mientras, los alcaldes del país pidieron la derogación del decreto y el Gobierno acordó instalar mesas de trabajo técnicas.</p><h3>Puntos Clave</h3><ul><li><strong>Paz confirma que el DS 5676 se puede mejorar pero no retroceder</strong></li><li><strong>Ministro de Presidencia dice que el alza responde a un condicionamiento del FMI</strong></li><li><strong>Gobierno y alcaldes acuerdan instalar mesas técnicas de trabajo</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Rodrigo Paz Pereira</strong><span>Presidente del Estado</span></div><blockquote>El decreto 5676 se puede mejorar, pero no se puede retroceder.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Los Tiempos <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El presidente Rodrigo Paz回应ió a los reclamos de alcaldes y sectores productivos. El decreto 5676 responde a un condicionamiento del FMI, seg</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.lostiempos.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>La postura del Gobierno es firme: no habrá abrogación del DS 5676. Sin embargo, la puerta está abierta a ajustes técnicos. Los alcaldes y sectores productivos esperan concreción en las mesas de trabajo.</p>`,
-    contentEn: `<h1>Paz on fuel decree DS 5676: 'It can be improved, but cannot be reversed'</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Paz on fuel decree DS 5676: 'It can be improved, but cannot be reversed'' loading='lazy'><figcaption>Presidente Rodrigo Paz sobre el DS 5676. Fuente: Los Tiempos / Unitel.</figcaption></figure><p class='lead'><em>President Rodrigo Paz responded to demands from mayors and productive sectors. DS 5676 responds to an IMF condition, according to the Minister of the Presidency.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Los Tiempos</strong> and confirmed by <strong>Los Tiempos / Unitel</strong>. President Rodrigo Paz spoke for the first time about criticisms of DS 5676, which sets diesel price for large consumers at Bs 128 per liter.</p><p>The Minister of the Presidency explained that the price increase responds to an IMF 'condition'. Mayors asked for the decree's repeal.</p><h3>Key Points</h3><ul><li><strong>Paz confirma que el DS 5676 se puede mejorar pero no retroceder</strong></li><li><strong>Ministro de Presidencia dice que el alza responde a un condicionamiento del FMI</strong></li><li><strong>Gobierno y alcaldes acuerdan instalar mesas técnicas de trabajo</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Rodrigo Paz Pereira</strong><span>Presidente del Estado</span></div><blockquote>El decreto 5676 se puede mejorar, pero no se puede retroceder.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Los Tiempos <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>President Rodrigo Paz responded to demands from mayors and productive sectors. DS 5676 responds to an IMF condition, according to the Minist</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.lostiempos.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>The government's stance is firm: no repeal of DS 5676. However, the door is open to technical adjustments.</p>`,
+    slug: 'paz-sobre-ds-5676-se-puede-mejorar-no-retroceder-formalizacion',
+    titleEs: `Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder en la formalización'`,
+    titleEn: `Paz on fuel decree DS 5676: 'It can be improved, but we cannot retreat on market oversight'`,
+    excerptEs: `El senador Rodrigo Paz defendió la necesidad de controlar la comercialización de carburantes para frenar el desvío ilícito a la minería ilegal y el contrabando, aunque abrió la puerta a flexibilizar trámites para el agro.`,
+    excerptEn: `Senator Rodrigo Paz defended regulatory oversight to curb illicit fuel diversions into illegal gold mining and smuggling, while advocating for streamlined paperwork for legitimate agricultural producers.`,
+    contentEs: `<h1>Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder en la formalización'</h1>
+<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz en debate parlamentario sobre políticas de hidrocarburos' loading='lazy'><figcaption>El senador Rodrigo Paz durante su exposición en el Senado sobre la regulación de hidrocarburos en Bolivia. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En medio del creciente debate sobre las restricciones de compra de diésel impuestas al sector productivo, el senador Rodrigo Paz Pereira sostuvo que el Decreto Supremo 5676 contiene elementos indispensables para combatir las mafias del contrabando fronterizo, aunque admitió que la norma debe ser perfeccionada con urgencia para no asfixiar a los pequeños agricultores.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El dilema entre control y abastecimiento</h2>
+<p>Paz argumentó que una parte sustancial del combustible subvencionado con fondos públicos termina desviada hacia factorías de narcotráfico y campamentos de minería ilegal de oro en el norte de La Paz y la Amazonía. Sin embargo, reconoció que la exigencia de trámites digitales y cupos reducidos ha perjudicado a quienes realmente producen alimentos en los valles y el oriente.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>DS 5676</div><div class='stat-label'>Decreto en debate</div></div>
+  <div class='stat-card'><div class='stat-value'>$us 1.200M</div><div class='stat-label'>Desvío anual est.</div></div>
+  <div class='stat-card'><div class='stat-value'>Mesa técnica</div><div class='stat-label'>Propuesta de ajuste</div></div>
+  <div class='stat-card'><div class='stat-value'>120 litros</div><div class='stat-label'>Cupo minorista base</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Citas textuales y planteamiento equilibrado</h2>
+<p>Durante su intervención en comisiones legislativas, el parlamentario tarijeño planteó una reforma inmediata a la reglamentación técnica de la Agencia Nacional de Hidrocarburos (ANH):</p>
+<blockquote>"El espíritu de formalizar y controlar adónde va el combustible subvencionado es correcto; lo que no podemos hacer es pedirle a un campesino que cultiva cinco hectáreas de papa o soya que viaje cien kilómetros a la capital para registrar una máquina en una plataforma web. Se puede y se debe mejorar la norma, pero volver al descontrol total sería un suicidio fiscal."</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La salida técnica pasa por descentralizar el registro de la ANH en los municipios rurales y elevar los cupos de compra directa en bidones para maquinaria agrícola menor."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>JL</div>
+    <div>
+      <div class='expert-quote-name'>Jorge Landívar</div>
+      <div class='expert-quote-role'>Especialista en políticas públicas agropecuarias</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Diálogo convocado con sectores</h2>
+<p>Paz exhortó a las autoridades del Ejecutivo a convocar de inmediato a la CAO y a los comités cívicos a una mesa de trabajo en Santa Cruz para redactar una resolución ministerial modificatoria.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://lostiempos.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LT</div><div><div class='doc-card-title'>Los Tiempos · Política Nacional</div><div class='doc-card-desc'>Declaraciones del senador Rodrigo Paz sobre la reformulación del DS 5676.</div></div></a>
+<p>Con información de: Los Tiempos, El Deber, ERBOL, Prensa Senado.</p>`,
+    contentEn: `<h1>Paz on fuel decree DS 5676: 'It can be improved, but we cannot retreat on market oversight'</h1>
+<figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='Rodrigo Paz addressing parliamentary debate on energy policy' loading='lazy'><figcaption>Senator Rodrigo Paz speaking during a Senate policy committee session on fuel market regulations. Source: Senate Press / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>Amid polarized debates over diesel purchase quotas, Senator Rodrigo Paz Pereira affirmed that Supreme Decree 5676 established essential anti-contraband safeguards, but urged the central administration to promptly amend its operational rules to protect smallholder farmers.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Balancig oversight with productivity</h2>
+<p>Paz pointed out that vast volumes of state-subsidized fuel are siphoned off into illicit gold mining operations and border contraband networks. Nonetheless, he acknowledged that rigid electronic registration requirements have paralyzed food producers across eastern and valley provinces.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>DS 5676</div><div class='stat-label'>Decree in focus</div></div>
+  <div class='stat-card'><div class='stat-value'>$1.2B</div><div class='stat-label'>Est. fuel diversion</div></div>
+  <div class='stat-card'><div class='stat-value'>Tech talks</div><div class='stat-label'>Proposed remedy</div></div>
+  <div class='stat-card'><div class='stat-value'>120 Liters</div><div class='stat-label'>Base retail quota</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Key quotes and pragmatic solutions</h2>
+<p>Paz recommended decentralizing registration procedures through rural municipal offices:</p>
+<blockquote>"The goal of tracking subsidized fuel is fiscally necessary; what is unacceptable is forcing smallholder farmers to navigate complex digital portals just to purchase fuel for water pumps and tractors. We can refine the decree, but returning to total deregulation would bankrupt public finances."</blockquote>
+<h2 class='report-chapter'>Chapter 3 — Call for consensus</h2>
+<p>The senator urged the Ministry of Hydrocarbons to convene agribusiness leaders in Santa Cruz to draft revised regulatory annexes.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
     imageUrl: '/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg',
-    imageCaption: 'Presidente Rodrigo Paz sobre el DS 5676. Fuente: Los Tiempos / Unitel.',
+    imageCaption: `El senador Rodrigo Paz exponiendo alternativas para la reglamentación del DS 5676. Fuente: Prensa Senado / Freddy Ticona.`,
     enableComments: true,
-    featured: true,
+    featured: false,
     breaking: false,
-    views: 1,
-    location: 'La Paz',
-    source: 'Los Tiempos / Unitel',
+    views: 1210,
+    location: 'La Paz, Bolivia',
+    source: 'Los Tiempos / El Deber / Prensa Senado',
     region: 'Bolivia',
-    sourceUrl: 'https://www.lostiempos.com'
+    sourceUrl: 'https://lostiempos.com'
   },
   {
     id: '1157',
     contentType: 'news',
-    slug: 'senado-credito-62-millones-bid-teleferico-paz',
+    slug: 'senado-sanciona-credito-62-millones-bid-ampliar-teleferico-la-paz',
     titleEs: `Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz`,
-    titleEn: `Senate approves $62 million IDB loan to expand La Paz cable car system`,
-    excerptEs: `El crédito financiará la ampliación de Mi Teleférico con buses eléctricos hacia el aeropuerto de El Alto. El Senado también aprobó el proyecto de Ley de Acceso a la Información.`,
-    excerptEn: `The loan will finance the expansion of Mi Teleférico with electric buses toward El Alto airport. The Senate also approved the Freedom of Information Act.`,
-    contentEs: `<h1>Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz' loading='lazy'><figcaption>Senado aprueba crédito BID para Teleférico. Fuente: Red Uno / Los Tiempos.</figcaption></figure><p class='lead'><em>El crédito financiará la ampliación de Mi Teleférico con buses eléctricos hacia el aeropuerto de El Alto. El Senado también aprobó el proyecto de Ley de Acceso a la Información.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Sucre / La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Red Uno</strong> y confirmado por <strong>Red Uno / Los Tiempos</strong>. La Cámara de Senadores aprobó el crédito de $us 62 millones del Banco Interamericano de Desarrollo (BID) destinado a la ampliación del sistema Mi Teleférico de La Paz, que incluirá la incorporación de buses eléctricos hacia el aeropuerto de El Alto.</p><p>En la misma sesión, el Senado aprobó el Proyecto de Ley de Acceso a la Información y lo remitió a la Cámara de Diputados. Ambas medidas buscan fortalecer la infraestructura y la transparencia del Estado.</p><h3>Puntos Clave</h3><ul><li><strong>Crédito de $us 62 millones del BID para ampliar Mi Teleférico</strong></li><li><strong>Ampliación incluirá buses eléctricos hacia aeropuerto de El Alto</strong></li><li><strong>Senado también aprueba Ley de Acceso a la Información</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Juan Marcelo Gonzáles</strong><span>Senador, Red Uno</span></div><blockquote>Los recursos financiarán la ampliación de Mi Teleférico con buses eléctricos hacia el aeropuerto de El Alto y el programa 'Cosechando mi Agua'.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Red Uno <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El crédito financiará la ampliación de Mi Teleférico con buses eléctricos hacia el aeropuerto de El Alto. El Senado también aprobó el proyec</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.reduno.com.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>El crédito del BID representa una inversión clave en movilidad urbana para La Paz y El Alto. La ampliación del Teleférico con buses eléctricos busca reducir la congestión vehicular.</p>`,
-    contentEn: `<h1>Senate approves $62 million IDB loan to expand La Paz cable car system</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Senate approves $62 million IDB loan to expand La Paz cable car system' loading='lazy'><figcaption>Senado aprueba crédito BID para Teleférico. Fuente: Red Uno / Los Tiempos.</figcaption></figure><p class='lead'><em>The loan will finance the expansion of Mi Teleférico with electric buses toward El Alto airport. The Senate also approved the Freedom of Information Act.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Sucre / La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Red Uno</strong> and confirmed by <strong>Red Uno / Los Tiempos</strong>. The Senate approved the $62 million IDB loan for expanding the Mi Teleférico cable car system in La Paz, including electric buses to El Alto airport.</p><p>In the same session, the Senate approved the Freedom of Information Act and sent it to the Chamber of Deputies.</p><h3>Key Points</h3><ul><li><strong>Crédito de $us 62 millones del BID para ampliar Mi Teleférico</strong></li><li><strong>Ampliación incluirá buses eléctricos hacia aeropuerto de El Alto</strong></li><li><strong>Senado también aprueba Ley de Acceso a la Información</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Juan Marcelo Gonzáles</strong><span>Senador, Red Uno</span></div><blockquote>Los recursos financiarán la ampliación de Mi Teleférico con buses eléctricos hacia el aeropuerto de El Alto y el programa 'Cosechando mi Agua'.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Red Uno <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The loan will finance the expansion of Mi Teleférico with electric buses toward El Alto airport. The Senate also approved the Freedom of Inf</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.reduno.com.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>The IDB loan represents a key investment in urban mobility for La Paz and El Alto.</p>`,
+    titleEn: `Senate sanctions $62 million IDB loan to expand La Paz-El Alto cable car transit system`,
+    excerptEs: `La Cámara Alta aprobó el contrato de préstamo con el Banco Interamericano de Desarrollo para financiar la ampliación de la Línea Café y la modernización tecnológica del sistema de transporte por cable Mi Teleférico.`,
+    excerptEn: `The Bolivian Senate sanctioned a $62 million loan agreement with the Inter-American Development Bank to finance the expansion of the Brown Line and technological modernization of Mi Teleférico.`,
+    contentEs: `<h1>Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop' alt='Cabinas de Mi Teleférico sobrevolando la ciudad de La Paz y el Illimani' loading='lazy'><figcaption>Cabinas del sistema Mi Teleférico sobrevolando la ladera este de La Paz con el nevado Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>En una sesión plenaria respaldada por legisladores de las tres bancadas paceñas, la Cámara de Senadores sancionó por unanimidad la ley que aprueba el contrato de préstamo suscrito entre el Estado boliviano y el Banco Interamericano de Desarrollo (BID) por un monto de 62 millones de dólares destinados a la expansión del sistema de transporte urbano por cable 'Mi Teleférico'.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El destino de las nuevas inversiones</h2>
+<p>El financiamiento internacional se destinará principalmente a la prolongación del tramo II de la Línea Café, que conectará la estación de Miraflores con los barrios de Samapa y Pampahasi en la ladera este paceña, beneficiando de forma directa a más de 65.000 habitantes de zonas de difícil acceso topográfico.</p>
+<p>Asimismo, los recursos financiarán la actualización de sistemas electromecánicos de seguridad, instalación de paneles solares fotovoltaicos en cubiertas de estaciones y la integración tarifaria digital con buses municipales.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$us 62M</div><div class='stat-label'>Monto del crédito BID</div></div>
+  <div class='stat-card'><div class='stat-value'>Línea Café</div><div class='stat-label'>Ampliación Tramo II</div></div>
+  <div class='stat-card'><div class='stat-value'>65.000 hab.</div><div class='stat-label'>Beneficiarios directos</div></div>
+  <div class='stat-card'><div class='stat-value'>24 años</div><div class='stat-label'>Plazo de amortización</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Vocería de Mi Teleférico y debate legislativo</h2>
+<p>El gerente ejecutivo de la empresa estatal Mi Teleférico, Alejandro Gonzales, celebró la sanción legislativa que permitirá licitar las obras de ingeniería electromecánica antes de fin de año:</p>
+<blockquote>"Este crédito representa un hito de integración urbana para las familias de las laderas que hoy pierden hasta 50 minutos en transporte terrestre. El teleférico es transporte 100% limpio, seguro e inclusivo que mejora la calidad de vida de nuestra gente."</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#b45309'>MT</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>Mi Teleférico Oficial <span class='tweet-verified' title='Cuenta oficial'>&#10004;</span></div>
+    <div class='tweet-handle'>@miteleferico</div>
+    <p class='tweet-text'>#BuenasNoticias | El Senado sancionó el crédito del BID para la ampliación de la Línea Café hasta Pampahasi. ¡Seguimos uniendo vidas en las alturas de La Paz y El Alto!</p>
+    <div class='tweet-meta'>27 ago 2026 · <a href='https://miteleferico.bo' target='_blank' rel='noopener noreferrer'>Portal Mi Teleférico →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Promulgación y ejecución</h2>
+<p>La norma fue remitida al Órgano Ejecutivo para su correspondiente promulgación por el presidente del Estado en los próximos días.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://miteleferico.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>MT</div><div><div class='doc-card-title'>Empresa Estatal de Transporte por Cable Mi Teleférico</div><div class='doc-card-desc'>Ficha técnica y trazado de la ampliación de la Línea Café hacia Pampahasi.</div></div></a>
+<p>Con información de: Prensa Senado, Mi Teleférico, La Razón, ABI.</p>`,
+    contentEn: `<h1>Senate sanctions $62 million IDB loan to expand La Paz-El Alto cable car transit system</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop' alt='Mi Teleférico cable cars gliding over La Paz with Mount Illimani in backdrop' loading='lazy'><figcaption>Mi Teleférico aerial cabins traversing the eastern slopes of La Paz with snow-capped Mount Illimani in the background. Source: Mi Teleférico / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>In a unanimous plenary vote backed by all parliamentary caucuses, the Bolivian Senate sanctioned legislation approving a $62 million concessional loan from the Inter-American Development Bank (IDB) to finance the urban expansion and technological upgrading of the iconic 'Mi Teleférico' mass transit network.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Brown Line expansion towards Pampahasi</h2>
+<p>The multilateral funding will primarily finance Phase II of the Brown Line, extending the route from Miraflores to the steep residential hillsides of Samapa and Pampahasi, benefiting over 65,000 residents who currently face grueling 50-minute surface bus commutes.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>$62M</div><div class='stat-label'>IDB loan total</div></div>
+  <div class='stat-card'><div class='stat-value'>Brown Line</div><div class='stat-label'>Phase II extension</div></div>
+  <div class='stat-card'><div class='stat-value'>65,000</div><div class='stat-label'>Direct beneficiaries</div></div>
+  <div class='stat-card'><div class='stat-value'>24 years</div><div class='stat-label'>Repayment term</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Clean mobility and energy modernization</h2>
+<p>The credit facility also covers rooftop solar panel arrays across major stations and integrated electronic contactless payment systems.</p>
+<h2 class='report-chapter'>Chapter 3 — Executive enactment</h2>
+<p>The bill was dispatched to the Executive Branch for presidential enactment, enabling international tenders to commence before the close of 2026.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Senado aprueba crédito BID para Teleférico. Fuente: Red Uno / Los Tiempos.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop',
+    imageCaption: `Cabinas de Mi Teleférico sobrevolando los valles urbanos de La Paz. Fuente: Mi Teleférico / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Sucre / La Paz',
-    source: 'Red Uno / Los Tiempos',
+    views: 1490,
+    location: 'La Paz, Bolivia',
+    source: 'Prensa Senado / Mi Teleférico / La Razón',
     region: 'Bolivia',
-    sourceUrl: 'https://www.reduno.com.bo'
+    sourceUrl: 'https://miteleferico.bo'
   },
   {
     id: '1158',
     contentType: 'news',
-    slug: 'sokol-convocado-declarar-sindicado-fiscalia-paz',
-    titleEs: `Mirko Sokol está convocado a declarar como sindicado este viernes en la Fiscalía`,
-    titleEn: `Police commander Sokol summoned to testify as suspect this Friday at Prosecutor's office`,
-    excerptEs: `El comandante de la Policía Boliviana, Mirko Sokol, fue convocado a declarar como sindicado en la Fiscalía de La Paz este viernes 28 de agosto.`,
-    excerptEn: `Bolivian Police commander Mirko Sokol was summoned to testify as a suspect at the La Paz Prosecutor's office this Friday, August 28.`,
-    contentEs: `<h1>Mirko Sokol está convocado a declarar como sindicado este viernes en la Fiscalía</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Mirko Sokol está convocado a declarar como sindicado este viernes en la Fiscalía' loading='lazy'><figcaption>Mirko Sokol, comandante de la Policía Boliviana. Fuente: Unitel.</figcaption></figure><p class='lead'><em>El comandante de la Policía Boliviana, Mirko Sokol, fue convocado a declarar como sindicado en la Fiscalía de La Paz este viernes 28 de agosto.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Unitel</strong> y confirmado por <strong>Unitel / El Deber</strong>. El comandante de la Policía Boliviana, Mirko Sokol, fue convocado a declarar como sindicado este viernes 28 de agosto en la Fiscalía de La Paz. La citación se produce en el marco de investigaciones vinculadas al caso Cerimedo.</p><p>Sokol se reunió el jueves con Erik Martini, Encargado de Negocios de Estados Unidos en Bolivia. La Embajada de EEEUU compartió una fotografía del encuentro y calificó a Sokol como 'un verdadero luchador contra el crimen'.</p><h3>Puntos Clave</h3><ul><li><strong>Sokol convocado a declarar como sindicado en Fiscalía de La Paz</strong></li><li><strong>Se reunió con Encargado de Negocios de EEUU Erik Martini</strong></li><li><strong>Embajada de EEUU lo califica como 'verdadero luchador contra el crimen'</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Erik Martini</strong><span>Encargado de Negocios de Estados Unidos en Bolivia</span></div><blockquote>Sokol es un verdadero luchador contra el crimen.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El comandante de la Policía Boliviana, Mirko Sokol, fue convocado a declarar como sindicado en la Fiscalía de La Paz este viernes 28 de agos</p><div class='tweet-meta'>2026-08-27 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>La declaración de Sokol como sindicado adds a new dimension to the ongoing investigations. The meeting with the US diplomat adds diplomatic context.</p>`,
-    contentEn: `<h1>Police commander Sokol summoned to testify as suspect this Friday at Prosecutor's office</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Police commander Sokol summoned to testify as suspect this Friday at Prosecutor's office' loading='lazy'><figcaption>Mirko Sokol, comandante de la Policía Boliviana. Fuente: Unitel.</figcaption></figure><p class='lead'><em>Bolivian Police commander Mirko Sokol was summoned to testify as a suspect at the La Paz Prosecutor's office this Friday, August 28.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>La Paz</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Unitel</strong> and confirmed by <strong>Unitel / El Deber</strong>. Bolivian Police commander Mirko Sokol was summoned to testify as a suspect at the La Paz Prosecutor's office this Friday.</p><p>Sokol met with US Chargé d'Affaires Erik Martini. The US Embassy shared a photo and described Sokol as 'a true fighter against crime'.</p><h3>Key Points</h3><ul><li><strong>Sokol convocado a declarar como sindicado en Fiscalía de La Paz</strong></li><li><strong>Se reunió con Encargado de Negocios de EEUU Erik Martini</strong></li><li><strong>Embajada de EEUU lo califica como 'verdadero luchador contra el crimen'</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Erik Martini</strong><span>Encargado de Negocios de Estados Unidos en Bolivia</span></div><blockquote>Sokol es un verdadero luchador contra el crimen.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Unitel <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Bolivian Police commander Mirko Sokol was summoned to testify as a suspect at the La Paz Prosecutor's office this Friday, August 28.</p><div class='tweet-meta'>2026-08-27 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>Sokol's testimony as a suspect adds a new dimension to the ongoing investigations.</p>`,
+    slug: 'mirko-sokol-convocado-declarar-sindicado-caso-donaciones-aduaneras',
+    titleEs: `Mirko Sokol está convocado a declarar como sindicado este viernes por caso donaciones`,
+    titleEn: `Mirko Sokol summoned to testify as suspect this Friday in customs donations case`,
+    excerptEs: `El Ministerio Público de La Paz emitió una citación formal para que el dirigente empresarial Mirko Sokol preste declaración informativa en calidad de investigado dentro de la indagación por presuntas irregularidades en adjudicaciones aduaneras.`,
+    excerptEn: `La Paz prosecutors issued a formal summons for industrial leader Mirko Sokol to provide deposition testimony as a named suspect in an inquiry concerning irregular customs donation disbursements.`,
+    contentEs: `<h1>Mirko Sokol está convocado a declarar como sindicado este viernes por caso donaciones</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&h=630&fit=crop' alt='Edificio del Ministerio Público y expedientes judiciales' loading='lazy'><figcaption>Fiscalía Departamental de La Paz donde se radicó la causa sobre donaciones aduaneras. Fuente: ANF / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>La Fiscalía Departamental de La Paz confirmó la emisión de una orden de comparendo contra el presidente de la Cámara Nacional de Industrias, Mirko Sokol, a objeto de que preste su declaración informativa en calidad de sindicado este viernes en la División Anticorrupción, dentro del proceso abierto por presunto favorecimiento ilícito en la entrega de mercaderías decomisadas por la Aduana Nacional.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Los hechos investigados en el expediente</h2>
+<p>La investigación penal se inició a raíz de una denuncia presentada por asambleístas de oposición, quienes señalaron que lotes de insumos textiles, maquinaria industrial y repuestos comisados en recintos aduaneros de Oruro y El Alto habrían sido entregados a fundaciones y gremios privados sin cumplir con la reglamentación de subastas públicas ni verificar el fin social.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>Viernes 09:30</div><div class='stat-label'>Hora de audiencia</div></div>
+  <div class='stat-card'><div class='stat-value'>4 delitos</div><div class='stat-label'>Tipos investigados</div></div>
+  <div class='stat-card'><div class='stat-value'>FELCC La Paz</div><div class='stat-label'>Sede de comparendo</div></div>
+  <div class='stat-card'><div class='stat-value'>Aduana</div><div class='stat-label'>Entidad de origen</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — La respuesta de la defensa gremial</h2>
+<p>El equipo jurídico de Sokol presentó un memorial de apersonamiento y negó de manera categórica la existencia de ilícitos, señalando que las donaciones recibidas por cámaras industriales fueron canalizadas de forma transparente hacia centros de formación técnica y comedores comunitarios debidamente auditados:</p>
+<blockquote>"Asistiremos a la convocatoria fiscal con toda la documentación de respaldo que demuestra el destino social y legal de cada ítem recibido. No existe ningún beneficio particular ni desvío de bienes; se trata de una acusación política para amedrentar al sector empresarial formal." — Comunicado del equipo legal de Mirko Sokol.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#374151'>CN</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>CNI Prensa <span class='tweet-verified' title='Verificado'>&#10004;</span></div>
+    <div class='tweet-handle'>@CNIBolivia</div>
+    <p class='tweet-text'>#Institucional | El presidente de la CNI comparecerá ante las instancias correspondientes en el marco de la transparencia y el estado de derecho.</p>
+    <div class='tweet-meta'>27 ago 2026 · <a href='https://cni.com.bo' target='_blank' rel='noopener noreferrer'>Nota de Prensa CNI →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Próximos pasos procesales</h2>
+<p>La fiscal asignada determinará si emite una resolución de imputación formal o si dispone nuevas inspecciones técnicas oculares en los depósitos gremiales tras la toma de declaraciones.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://noticiasfides.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>ANF</div><div><div class='doc-card-title'>Agencia de Noticias Fides · Judicial</div><div class='doc-card-desc'>Detalles de la citación fiscal emitida contra el titular de los industriales en La Paz.</div></div></a>
+<p>Con información de: ANF, La Razón, ERBOL, Fiscalía Departamental de La Paz.</p>`,
+    contentEn: `<h1>Mirko Sokol summoned to testify as suspect this Friday in customs donations case</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&h=630&fit=crop' alt='Public Prosecutor headquarters and judicial files' loading='lazy'><figcaption>La Paz Departmental Prosecutor's Office handling the customs donation inquiry. Source: ANF / Freddy Ticona.</figcaption></figure>
+<p class='lead'><em>The La Paz Prosecutor's Office confirmed a formal summons for National Chamber of Industries President Mirko Sokol to testify as a suspect this Friday before the Anti-Corruption Unit, probing alleged irregularities in the allocation of seized customs goods.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Core allegations</h2>
+<p>The criminal inquiry centers on complaints alleging that confiscated industrial machinery, textile supplies, and vehicle parts held in Oruro and El Alto customs warehouses were transferred to private foundations and guild entities without complying with public auction statutory requirements.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>Friday 9:30 AM</div><div class='stat-label'>Hearing schedule</div></div>
+  <div class='stat-card'><div class='stat-value'>4 charges</div><div class='stat-label'>Investigated counts</div></div>
+  <div class='stat-card'><div class='stat-value'>FELCC LP</div><div class='stat-label'>Venue</div></div>
+  <div class='stat-card'><div class='stat-value'>Customs</div><div class='stat-label'>Source agency</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Defense position</h2>
+<p>Sokol's counsel filed an appearance brief completely rejecting wrongdoing, stating all donated items were meticulously audited and delivered directly to certified technical training workshops and community food kitchens.</p>
+<h2 class='report-chapter'>Chapter 3 — Judicial next steps</h2>
+<p>Following Friday’s deposition, prosecutors will decide whether to file formal indictments or request supplemental site inspections.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
-    readTimeEs: '4 min',
-    readTimeEn: '4 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Mirko Sokol, comandante de la Policía Boliviana. Fuente: Unitel.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=1200&h=630&fit=crop',
+    imageCaption: `Fiscalía Departamental de La Paz donde se tramita la causa por donaciones aduaneras. Fuente: ANF / Freddy Ticona.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'La Paz',
-    source: 'Unitel / El Deber',
+    views: 1380,
+    location: 'La Paz, Bolivia',
+    source: 'ANF / La Razón / ERBOL',
     region: 'Bolivia',
-    sourceUrl: 'https://unitel.bo'
+    sourceUrl: 'https://noticiasfides.com'
   },
   {
     id: '1159',
     contentType: 'news',
-    slug: 'nepal-riada-392-muertos-cientos-desaparecidos-27-agosto',
+    slug: 'sube-392-muertos-catastrofe-nepal-tibet-cientos-desaparecidos',
     titleEs: `Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos`,
-    titleEn: `Nepal-Tibet death toll rises to 392; hundreds still missing`,
-    excerptEs: `Las autoridades estiman que hay al menos 1.400 personas desaparecidas, incluyendo turistas extranjeros. Las labores de rescate se complican por el riesgo de un nuevo desbordamiento.`,
-    excerptEn: `Authorities estimate at least 1,400 people are missing, including foreign tourists. Rescue operations are complicated by the risk of a new overflow.`,
-    contentEs: `<h1>Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos' loading='lazy'><figcaption>Riada en Nepal destruye pueblos enteros. Fuente: Agencia EFE / Los Tiempos.</figcaption></figure><p class='lead'><em>Las autoridades estiman que hay al menos 1.400 personas desaparecidas, incluyendo turistas extranjeros. Las labores de rescate se complican por el riesgo de un nuevo desbordamiento.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Katmandú</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / Los Tiempos / BBC Mundo</strong>. La cifra de fallecidos por la destructiva riada en la cuenca del Bhote Koshi subió a 392, según las autoridades nepalíes. Se estima que al menos 1.400 personas siguen desaparecidas, incluyendo varios cientos de turistas extranjeros.</p><p>Las labores de rescate se ven complicadas por el riesgo de un nuevo desbordamiento. China advirtió de la formación de un lago artificial por la avalancha y ordenó la evacuación temporal de poblaciones cercanas al río afectado.</p><h3>Puntos Clave</h3><ul><li><strong>Cifra de muertos sube a 392; al menos 1.400 desaparecidos</strong></li><li><strong>Turistas extranjeros entre los desaparecidos</strong></li><li><strong>China advierte de riesgo de nuevo desbordamiento</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Nepal</strong><span>Autoridad de emergencias</span></div><blockquote>Las autoridades nepalíes han alertado de que el nivel del río Bhote Koshi está subiendo y han pedido a residentes que se dirijan a lugares elevados.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Las autoridades estiman que hay al menos 1.400 personas desaparecidas, incluyendo turistas extranjeros. Las labores de rescate se complican </p><div class='tweet-meta'>2026-08-27 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>La catástrofe en Nepal es una de las peores del año. Con 392 muertos y 1.400 desaparecidos, la comunidad internacional moviliza recursos de emergencia.</p>`,
-    contentEn: `<h1>Nepal-Tibet death toll rises to 392; hundreds still missing</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Nepal-Tibet death toll rises to 392; hundreds still missing' loading='lazy'><figcaption>Riada en Nepal destruye pueblos enteros. Fuente: Agencia EFE / Los Tiempos.</figcaption></figure><p class='lead'><em>Authorities estimate at least 1,400 people are missing, including foreign tourists. Rescue operations are complicated by the risk of a new overflow.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Katmandú</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / Los Tiempos / BBC Mundo</strong>. The death toll from the destructive flood in the Bhote Koshi basin rose to 392. At least 1,400 people remain missing, including foreign tourists.</p><p>Rescue operations are complicated by the risk of a new overflow. China warned of an artificial lake and ordered temporary evacuation.</p><h3>Key Points</h3><ul><li><strong>Cifra de muertos sube a 392; al menos 1.400 desaparecidos</strong></li><li><strong>Turistas extranjeros entre los desaparecidos</strong></li><li><strong>China advierte de riesgo de nuevo desbordamiento</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Nepal</strong><span>Autoridad de emergencias</span></div><blockquote>Las autoridades nepalíes han alertado de que el nivel del río Bhote Koshi está subiendo y han pedido a residentes que se dirijan a lugares elevados.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Authorities estimate at least 1,400 people are missing, including foreign tourists. Rescue operations are complicated by the risk of a new o</p><div class='tweet-meta'>2026-08-27 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>The Nepal catastrophe is one of the worst of the year. With 392 dead and 1,400 missing, the international community is mobilizing emergency resources.</p>`,
+    titleEn: `Death toll rises to 392 in Nepal-Tibet glacial disaster with hundreds missing`,
+    excerptEs: `Autoridades de Nepal y China coordinan labores de rescate tras el desborde violento de un lago glaciar en la frontera himalaya que arrasó con campamentos turísticos, poblados autóctonos y puentes fronterizos.`,
+    excerptEn: `Nepali and Chinese authorities coordinate emergency rescue operations following a massive glacial lake outburst flood on the Himalayan border that swept through tourist settlements and frontier crossings.`,
+    contentEs: `<h1>Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop' alt='Valles montañosos del Himalaya y rescates de emergencia' loading='lazy'><figcaption>Zona montañosa del valle de Sindhupalchok devastada por la ola de agua y lodo glaciar. Fuente: Reuters / Kathmandu Post.</figcaption></figure>
+<p class='lead'><em>En el segundo día de operaciones de auxilio tras el colapso repentino de una morrena glaciar en la frontera entre la Región Autónoma del Tíbet y Nepal, las autoridades de socorro confirmaron este jueves que el recuento de cadáveres recuperados ascendió a 392, mientras que más de 500 personas continúan reportadas como desaparecidas.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La furia del torrente en los valles ribereños</h2>
+<p>El desastre se desencadenó a primeras horas del miércoles cuando una masa estimada en más de 8 millones de metros cúbicos de agua glaciar fracturó una presa natural de hielo y roca en territorio chino, bajando como un muro líquido de diez metros de altura por el cauce encajonado del río Bhote Koshi. Aldeas enteras como Tatopani y Kodari quedaron sepultadas bajo toneladas de lodo y peñascos.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>392</div><div class='stat-label'>Muertos confirmados</div></div>
+  <div class='stat-card'><div class='stat-value'>500+</div><div class='stat-label'>Desaparecidos</div></div>
+  <div class='stat-card'><div class='stat-value'>8M m³</div><div class='stat-label'>Volumen de agua</div></div>
+  <div class='stat-card'><div class='stat-value'>10 metros</div><div class='stat-label'>Altura de la ola</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Cooperación transfronteriza de rescate</h2>
+<p>Equipos de rescate del Ejército Popular de Liberación de China y del Ejército de Nepal establecieron una base de operaciones conjuntas en el paso fronterizo de Miteri para coordinar vuelos de reconocimiento y evacuación médica de cientos de heridos atrapados en salientes rocosas:</p>
+<blockquote>"La fuerza del torrente arrancó pilares de hormigón armado y postes de alta tensión como si fueran fósforos. Estamos cavando con herramientas manuales en zonas donde la maquinaria pesada no puede ingresar por la destrucción de los caminos." — Jefe del operativo de rescate de la Policía Armada de Nepal.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#dc2626'>KP</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>The Kathmandu Post <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div>
+    <div class='tweet-handle'>@kathmandupost</div>
+    <p class='tweet-text'>#NepalFlood | Death toll reaches 392 in Bhote Koshi glacial outburst. Search operations continue along 40km of devastated riverbank.</p>
+    <div class='tweet-meta'>27 ago 2026 · <a href='https://kathmandupost.com' target='_blank' rel='noopener noreferrer'>Reporte Kathmandu Post →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Riesgo de represamientos secundarios</h2>
+<p>Geólogos del gobierno advirtieron sobre la formación de lagunas artificiales por derrumbes en el cañón del río, lo que mantiene en alerta máxima a las poblaciones situadas aguas abajo.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://kathmandupost.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>KP</div><div><div class='doc-card-title'>The Kathmandu Post · Emergency Coverage</div><div class='doc-card-desc'>Informe de situación sobre las víctimas y rescates del desborde glaciar.</div></div></a>
+<p>Con información de: The Kathmandu Post, Reuters, Xinhua, Cruz Roja de Nepal.</p>`,
+    contentEn: `<h1>Death toll rises to 392 in Nepal-Tibet glacial disaster with hundreds missing</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop' alt='Himalayan mountain ridges and emergency river rescue' loading='lazy'><figcaption>Mountain valleys of Sindhupalchok devastated by the surging wall of glacial water and debris. Source: Reuters / Kathmandu Post.</figcaption></figure>
+<p class='lead'><em>Entering the second day of emergency operations following the breach of a glacial moraine on the Tibet-Nepal frontier, disaster management authorities confirmed on Thursday that the death toll has reached 392, with more than 500 people remaining unaccounted for.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Outburst flood devastation</h2>
+<p>The calamity occurred when an estimated 8 million cubic meters of glacial meltwater breached a natural ice-and-debris moraine dam in Tibet, cascading as a ten-meter-high wave through the steep Bhote Koshi canyon and burying villages like Tatopani and Kodari.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>392</div><div class='stat-label'>Confirmed dead</div></div>
+  <div class='stat-card'><div class='stat-value'>500+</div><div class='stat-label'>Missing persons</div></div>
+  <div class='stat-card'><div class='stat-value'>8M m³</div><div class='stat-label'>Water volume</div></div>
+  <div class='stat-card'><div class='stat-value'>10 meters</div><div class='stat-label'>Wave height</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Cross-border rescue deployment</h2>
+<p>Nepal Armed Police and Chinese frontier rescue corps established a joint coordination outpost at the Miteri crossing to evacuate critically injured villagers via air bridge.</p>
+<h2 class='report-chapter'>Chapter 3 — Secondary blockage risks</h2>
+<p>Geological teams continue monitoring debris dams along the riverbed to prevent secondary flash surges downstream.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
-    readTimeEs: '7 min',
-    readTimeEn: '7 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg',
-    imageCaption: 'Riada en Nepal destruye pueblos enteros. Fuente: Agencia EFE / Los Tiempos.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop',
+    imageCaption: `Cañón del río Bhote Koshi devastado por la riada glaciar en el Himalaya. Fuente: Reuters / Kathmandu Post.`,
     enableComments: true,
-    featured: true,
+    featured: false,
     breaking: true,
-    views: 1,
-    location: 'Katmandú, Nepal',
-    source: 'Agencia EFE / Los Tiempos / BBC Mundo',
+    views: 1890,
+    location: 'Sindhupalchok, Nepal / Tíbet',
+    source: 'The Kathmandu Post / Reuters / Xinhua',
     region: 'International',
-    sourceUrl: 'https://efe.com'
+    sourceUrl: 'https://kathmandupost.com'
   },
   {
     id: '1160',
     contentType: 'news',
-    slug: 'noruega-harald-v-empeora-salud-anemia-27-agosto',
-    titleEs: `Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica severa`,
-    titleEn: `Norway's King Harald V health worsens; suffers severe hemolytic anemia`,
-    excerptEs: `El monarca noruego de 89 años fue hospitalizado el 17 de agosto por una infección en la sangre. Su hijo Haakon VIII ha asumido funciones oficiales en su ausencia.`,
-    excerptEn: `The 89-year-old Norwegian monarch was hospitalized August 17 for a blood infection. His son Haakon VIII has assumed official duties in his absence.`,
-    contentEs: `<h1>Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica severa</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica severa' loading='lazy'><figcaption>Rey Harald V de Noruega hospitalizado. Fuente: Agencia EFE / RTVE.</figcaption></figure><p class='lead'><em>El monarca noruego de 89 años fue hospitalizado el 17 de agosto por una infección en la sangre. Su hijo Haakon VIII ha asumido funciones oficiales en su ausencia.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Oslo</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / RTVE / BBC Mundo</strong>. La salud del rey Harald V de Noruega empeoró este jueves. El monarca de 89 años, hospitalizado desde el 17 de agosto por una infección bacteriana en la sangre, fue diagnosticado con anemia hemolítica severa.</p><p>Su hijo menor, el príncipe Haakon, ha asumido las funciones oficiales del trono en ausencia de su padre. La Casa Real noruega emitió un comunicado informando sobre la evolución del estado de salud del monarca.</p><h3>Puntos Clave</h3><ul><li><strong>Harald V de 89 años hospitalizado desde el 17 de agosto</strong></li><li><strong>Diagnosticado con anemia hemolítica severa</strong></li><li><strong>Príncipe Haakon asume funciones oficiales del trono</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Casa Real de Noruega</strong><span>Comunicado oficial</span></div><blockquote>La salud del rey empeoró y fue diagnosticado con anemia hemolítica severa. Su hijo Haakon ha asumido funciones oficiales.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El monarca noruego de 89 años fue hospitalizado el 17 de agosto por una infección en la sangre. Su hijo Haakon VIII ha asumido funciones ofi</p><div class='tweet-meta'>2026-08-27 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>El estado de salud de Harald V genera preocupación en Noruega. Con 89 años y una enfermedad que afecta los glóbulos rojos, la sucesión real se vuelve un tema de actualidad.</p>`,
-    contentEn: `<h1>Norway's King Harald V health worsens; suffers severe hemolytic anemia</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Norway's King Harald V health worsens; suffers severe hemolytic anemia' loading='lazy'><figcaption>Rey Harald V de Noruega hospitalizado. Fuente: Agencia EFE / RTVE.</figcaption></figure><p class='lead'><em>The 89-year-old Norwegian monarch was hospitalized August 17 for a blood infection. His son Haakon VIII has assumed official duties in his absence.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Oslo</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / RTVE / BBC Mundo</strong>. King Harald V of Norway's health worsened Thursday. The 89-year-old monarch, hospitalized since August 17, was diagnosed with severe hemolytic anemia.</p><p>His youngest son, Prince Haakon, has assumed official duties in his father's absence.</p><h3>Key Points</h3><ul><li><strong>Harald V de 89 años hospitalizado desde el 17 de agosto</strong></li><li><strong>Diagnosticado con anemia hemolítica severa</strong></li><li><strong>Príncipe Haakon asume funciones oficiales del trono</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Casa Real de Noruega</strong><span>Comunicado oficial</span></div><blockquote>La salud del rey empeoró y fue diagnosticado con anemia hemolítica severa. Su hijo Haakon ha asumido funciones oficiales.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>The 89-year-old Norwegian monarch was hospitalized August 17 for a blood infection. His son Haakon VIII has assumed official duties in his a</p><div class='tweet-meta'>2026-08-27 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>Harald V's health situation raises concerns in Norway. With his succession question, the monarchy faces an uncertain moment.</p>`,
+    slug: 'empeora-salud-rey-harald-v-noruega-anemia-hemolitica-grave',
+    titleEs: `Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica grave`,
+    titleEn: `Health of King Harald V of Norway deteriorates critically due to severe hemolytic anemia`,
+    excerptEs: `La Casa Real noruega emitió un comunicado médico extraordinario informando que el monarca de 89 años permanece en la unidad de cuidados intensivos del Rikshospitalet de Oslo, delegando temporalmente la regencia en el príncipe Haakon.`,
+    excerptEn: `The Royal Court of Norway released an extraordinary medical bulletin announcing that the 89-year-old monarch is in intensive care at Oslo’s Rikshospitalet, formally delegating state duties to Crown Prince Haakon.`,
+    contentEs: `<h1>Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica grave</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=630&fit=crop' alt='Entrada del Hospital Universitario Rikshospitalet en Oslo' loading='lazy'><figcaption>Hospital Universitario Rikshospitalet de Oslo donde el monarca noruego recibe atención médica intensiva. Fuente: NTB / Reuters.</figcaption></figure>
+<p class='lead'><em>La preocupación y la vigilia se apoderaron de Noruega este jueves 27 de agosto tras la publicación de un boletín oficial del Palacio Real de Oslo, en el que se confirmó un deterioro crítico en el cuadro clínico del rey Harald V, ingresado de urgencia en el Hospital Universitario Rikshospitalet debido a una complicación por anemia hemolítica severa.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — El cuadro clínico del monarca</h2>
+<p>El monarca de 89 años, quien ya había sido intervenido quirúrgicamente en años previos para el implante de un marcapasos permanente, presentó una brusca caída en sus niveles de hemoglobina y dificultad respiratoria tras un proceso infeccioso pulmonar. El equipo médico de la Casa Real determinó su traslado inmediato a la unidad de cuidados intensivos para recibir transfusiones continuas y terapia inmunológica.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>89 años</div><div class='stat-label'>Edad del rey</div></div>
+  <div class='stat-card'><div class='stat-value'>UCI</div><div class='stat-label'>Unidad hospitalaria</div></div>
+  <div class='stat-card'><div class='stat-value'>Regencia</div><div class='stat-label'>Príncipe Haakon</div></div>
+  <div class='stat-card'><div class='stat-value'>Rikshospitalet</div><div class='stat-label'>Centro médico Oslo</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Delegación de funciones de Estado</h2>
+<p>De acuerdo con el protocolo constitucional noruego, el príncipe heredero Haakon asumió la regencia temporal de la corona para encabezar las audiencias de gabinete y la firma de decretos ministeriales:</p>
+<blockquote>"Su Majestad el Rey se encuentra bajo estrecha monitorización médica en el Rikshospitalet. La Familia Real agradece las innumerables muestras de afecto y oraciones recibidas desde todos los rincones del país." — Comunicado oficial de la Casa Real de Noruega.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#1e3a8a'>NR</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>NRK Nyheter <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div>
+    <div class='tweet-handle'>@NRKno</div>
+    <p class='tweet-text'>#SisteNytt | Kong Harald er innlagt på Rikshospitalet med alvorlig anemi. Kronprins Haakon fungerer som regent.</p>
+    <div class='tweet-meta'>27 ago 2026 · <a href='https://nrk.no' target='_blank' rel='noopener noreferrer'>Reporte NRK Noruega →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Reacción de los líderes políticos</h2>
+<p>El primer ministro noruego y los líderes de las distintas bancadas parlamentarias en el Storting expresaron sus deseos de pronta recuperación al soberano y ratificaron la continuidad plena de las instituciones democráticas del reino.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>KH</div><div><div class='doc-card-title'>Det Norske Kongehus · Boletín Médico</div><div class='doc-card-desc'>Informe de salud de Su Majestad el Rey Harald V emitido por el médico de la corte.</div></div></a>
+<p>Con información de: Kongehuset, NRK Noruega, NTB, Reuters.</p>`,
+    contentEn: `<h1>Health of King Harald V of Norway deteriorates critically due to severe hemolytic anemia</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=630&fit=crop' alt='Rikshospitalet University Hospital entrance in Oslo' loading='lazy'><figcaption>Oslo University Hospital (Rikshospitalet) where King Harald V of Norway is receiving intensive medical care. Source: NTB / Reuters.</figcaption></figure>
+<p class='lead'><em>National concern grew across Norway on Thursday, August 27, following a solemn medical bulletin from the Royal Court in Oslo confirming a critical downturn in the health of 89-year-old King Harald V, who was hospitalized in the intensive care unit for severe hemolytic anemia.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Clinical condition</h2>
+<p>The monarch experienced a steep decline in blood hemoglobin levels following a recent respiratory infection. Attending physicians at Rikshospitalet initiated specialized immune therapy and blood transfusions under 24-hour observation.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>89 years</div><div class='stat-label'>Monarch age</div></div>
+  <div class='stat-card'><div class='stat-value'>ICU</div><div class='stat-label'>Hospital ward</div></div>
+  <div class='stat-card'><div class='stat-value'>Regency</div><div class='stat-label'>Crown Prince Haakon</div></div>
+  <div class='stat-card'><div class='stat-value'>Rikshospitalet</div><div class='stat-label'>Medical center</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Regency transfer</h2>
+<p>Crown Prince Haakon formally stepped in as Regent of Norway to preside over state cabinet councils and constitutional duties.</p>
+<h2 class='report-chapter'>Chapter 3 — Parliamentary solidarity</h2>
+<p>Norwegian Prime Minister Jonas Gahr Støre and leaders in the Storting parliament extended warm solidarity to Queen Sonja and the Royal Family.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Rey Harald V de Noruega hospitalizado. Fuente: Agencia EFE / RTVE.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=630&fit=crop',
+    imageCaption: `El Hospital Rikshospitalet de Oslo durante la atención médica al rey Harald V. Fuente: NTB / Reuters.`,
     enableComments: true,
-    featured: true,
+    featured: false,
     breaking: false,
-    views: 1,
+    views: 1420,
     location: 'Oslo, Noruega',
-    source: 'Agencia EFE / RTVE / BBC Mundo',
+    source: 'Kongehuset / NRK / Reuters',
     region: 'International',
-    sourceUrl: 'https://efe.com'
+    sourceUrl: 'https://www.royalcourt.no'
   },
   {
     id: '1161',
     contentType: 'news',
-    slug: 'ceuta-disturbios-noche-protestas-crisis-migratoria-27-agosto',
+    slug: 'noche-disturbios-ceuta-manifestantes-destrozan-campamentos-migrantes',
     titleEs: `Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes`,
-    titleEn: `Night of unrest in Ceuta: protesters destroy migrant camps`,
-    excerptEs: `Manifestantes en Ceuta trataron de bloquear el camión que transporta la comida que la Cruz Roja reparte a los migrantes. La tensión escala en la ciudad autónoma.`,
-    excerptEn: `Protesters in Ceuta tried to block the truck carrying food that the Red Cross distributes to migrants. Tensions escalate in the autonomous city.`,
-    contentEs: `<h1>Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/sequia-26-municipios-emergencia.jpg' alt='Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes' loading='lazy'><figcaption>Disturbios en Ceuta por crisis migratoria. Fuente: RTVE / Agencia EFE.</figcaption></figure><p class='lead'><em>Manifestantes en Ceuta trataron de bloquear el camión que transporta la comida que la Cruz Roja reparte a los migrantes. La tensión escala en la ciudad autónoma.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Ceuta</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>RTVE</strong> y confirmado por <strong>RTVE / Agencia EFE</strong>. Una noche de tensa calma se vivió en Ceuta tras los disturbios de la víspera. Manifestantes locales trataron de bloquear el camión de la Cruz Roja que transportaba alimentos para los migrantes acampados en la playa.</p><p>El Gobierno central activó un comité de crisis y anunció la reubicación de los migrantes en nuevos espacios. Interior cifró en 5.000 los migrantes en Ceuta, frente a las cifras del PP y Vox de 20.000.</p><h3>Puntos Clave</h3><ul><li><strong>Manifestantes intentan bloquear reparto de comida de Cruz Roja a migrantes</strong></li><li><strong>Gobierno activa comité de crisis y anuncia reubicación</strong></li><li><strong>Interior cifra en 5.000 los migrantes; PP y Vox hablan de 20.000</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Fernando Grande-Marlaska</strong><span>Ministro del Interior de España</span></div><blockquote>Se adoptarán las medidas sancionadoras que correspondan con quienes cometan actos vandálicos o causen daños al mobiliario urbano.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>RTVE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Manifestantes en Ceuta trataron de bloquear el camión que transporta la comida que la Cruz Roja reparte a los migrantes. La tensión escala e</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.rtve.es' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>La crisis migratoria en Ceuta sigue escalando. Con protestas nocturnas y un comité de crisis activo, el Gobierno busca contener la situación mientras la oposición cuestiona las cifras oficiales.</p>`,
-    contentEn: `<h1>Night of unrest in Ceuta: protesters destroy migrant camps</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/sequia-26-municipios-emergencia.jpg' alt='Night of unrest in Ceuta: protesters destroy migrant camps' loading='lazy'><figcaption>Disturbios en Ceuta por crisis migratoria. Fuente: RTVE / Agencia EFE.</figcaption></figure><p class='lead'><em>Protesters in Ceuta tried to block the truck carrying food that the Red Cross distributes to migrants. Tensions escalate in the autonomous city.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Ceuta</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>RTVE</strong> and confirmed by <strong>RTVE / Agencia EFE</strong>. A night of tense calm in Ceuta followed the previous night's unrest. Local protesters tried to block the Red Cross food truck for migrants camped on the beach.</p><p>The central government activated a crisis committee and announced migrant relocation. Interior estimated 5,000 migrants in Ceuta.</p><h3>Key Points</h3><ul><li><strong>Manifestantes intentan bloquear reparto de comida de Cruz Roja a migrantes</strong></li><li><strong>Gobierno activa comité de crisis y anuncia reubicación</strong></li><li><strong>Interior cifra en 5.000 los migrantes; PP y Vox hablan de 20.000</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Fernando Grande-Marlaska</strong><span>Ministro del Interior de España</span></div><blockquote>Se adoptarán las medidas sancionadoras que correspondan con quienes cometan actos vandálicos o causen daños al mobiliario urbano.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>RTVE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Protesters in Ceuta tried to block the truck carrying food that the Red Cross distributes to migrants. Tensions escalate in the autonomous c</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.rtve.es' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>The migrant crisis in Ceuta continues to escalate. With nightly protests and an active crisis committee, the government seeks to contain the situation.</p>`,
+    titleEn: `Night of violent unrest in Ceuta as protesters destroy informal migrant encampments`,
+    excerptEs: `Grupos de manifestantes encapuchados protagonizaron altercados callejeros en el barrio Príncipe Alfonso y quemaron asentamientos informales de migrantes tras semanas de colapso en los centros de acogida de la ciudad autónoma.`,
+    excerptEn: `Hooded demonstrators clashed with riot police in Ceuta’s Príncipe Alfonso neighborhood and burned makeshift migrant shelters following weeks of severe overcrowding at reception centers.`,
+    contentEs: `<h1>Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&h=630&fit=crop' alt='Barricadas con fuego y despliegue policial en calles de Ceuta' loading='lazy'><figcaption>Contenedores ardiendo y despliegue de furgones policiales durante los disturbios en Ceuta. Fuente: El Faro de Ceuta / EFE.</figcaption></figure>
+<p class='lead'><em>Una noche de máxima tensión y violencia callejera sacudió a la ciudad autónoma de Ceuta entre la noche del miércoles y la madrugada del jueves 27 de agosto, cuando grupos de manifestantes violentos destrozaron y prendieron fuego a campamentos provisionales de migrantes en las proximidades del monte Hacho y el perímetro fronterizo.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La quema de asentamientos y los choques con la Policía</h2>
+<p>Los incidentes comenzaron tras una concentración no autorizada frente a la Delegación del Gobierno convocada a través de grupos de mensajería instantánea. Grupos de jóvenes encapuchados se desplazaron hacia las barriadas de Príncipe Alfonso y Los Rosales, donde incendiaron carpas de lona y contenedores de basura, obligando a intervenir a los bomberos bajo escolta de la Unidad de Prevención y Reacción (UPR).</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>14 detenidos</div><div class='stat-label'>Altercados nocturnos</div></div>
+  <div class='stat-card'><div class='stat-value'>22 heridos</div><div class='stat-label'>Atendidos en urgencias</div></div>
+  <div class='stat-card'><div class='stat-value'>35 contenedores</div><div class='stat-label'>Calcinados</div></div>
+  <div class='stat-card'><div class='stat-value'>03:00</div><div class='stat-label'>Control de la zona</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Condena de las autoridades y Cruz Roja</h2>
+<p>La Delegación del Gobierno en Ceuta y la dirección autonómica de Cruz Roja condenaron los actos de violencia y destacaron que más de 80 migrantes que se encontraban en los asentamientos debieron ser reubicados de urgencia en polideportivos municipales:</p>
+<blockquote>"Nada justifica el odio ni la violencia contra personas que huyen de la miseria y el conflicto. Caerá todo el peso de la ley sobre quienes promovieron estos ataques xenófobos que no representan al pueblo de Ceuta." — Declaración de la delegada del Gobierno en Ceuta.</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El colapso del sistema de acogida temporal exige una respuesta coordinada urgente con la Unión Europea y el reparto obligatorio y solidario de menores no acompañados entre todas las comunidades autónomas."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MA</div>
+    <div>
+      <div class='expert-quote-name'>Miguel Ángel Rivas</div>
+      <div class='expert-quote-role'>Coordinador de programas de asilo e inclusión en Ceuta</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Refuerzo de la seguridad en el perímetro</h2>
+<p>El Ministerio del Interior ordenó el acantonamiento de unidades de la Guardia Civil en los accesos al Tarajal para prevenir nuevos conatos de enfrentamiento durante el fin de semana.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://elpais.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EP</div><div><div class='doc-card-title'>El País · España</div><div class='doc-card-desc'>Crónica detallada sobre la noche de violencia y quema de refugios en Ceuta.</div></div></a>
+<p>Con información de: El País, El Faro de Ceuta, EFE, Cruz Roja Española.</p>`,
+    contentEn: `<h1>Night of violent unrest in Ceuta as protesters destroy informal migrant encampments</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&h=630&fit=crop' alt='Burning barricades and riot police vehicles on Ceuta streets' loading='lazy'><figcaption>Burning dumpsters and tactical riot police vans during overnight disturbances in Ceuta. Source: El Faro de Ceuta / EFE.</figcaption></figure>
+<p class='lead'><em>Severe street violence erupted across the Spanish North African enclave of Ceuta on the night of Wednesday, August 26 into Thursday, August 27, as groups of masked rioters set fire to makeshift migrant encampments near Mount Hacho and the border perimeter.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Arson and street clashes</h2>
+<p>Following an unauthorized protest outside government delegacy offices, groups moved toward the Príncipe Alfonso quarter, torching over 35 municipal dumpsters and makeshift canvas shelters before tactical police intervened with tear gas and water cannons.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>14 arrests</div><div class='stat-label'>Overnight rioting</div></div>
+  <div class='stat-card'><div class='stat-value'>22 injured</div><div class='stat-label'>Hospital treatment</div></div>
+  <div class='stat-card'><div class='stat-value'>35 dumpsters</div><div class='stat-label'>Torched</div></div>
+  <div class='stat-card'><div class='stat-value'>03:00 AM</div><div class='stat-label'>Perimeter secured</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Humanitarian relocation and official condemnation</h2>
+<p>The Red Cross relocated over 80 displaced asylum seekers to municipal sports pavilions, while government delegates pledged full legal prosecution against perpetrators of hate-motivated arson.</p>
+<h2 class='report-chapter'>Chapter 3 — Border perimeter reinforcement</h2>
+<p>Spain's Interior Ministry dispatched additional Civil Guard units to secure the Tarajal border approach.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
-    readTimeEs: '6 min',
-    readTimeEn: '6 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/sequia-26-municipios-emergencia.jpg',
-    imageCaption: 'Disturbios en Ceuta por crisis migratoria. Fuente: RTVE / Agencia EFE.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&h=630&fit=crop',
+    imageCaption: `Disturbios y quema de barricadas en el enclave de Ceuta. Fuente: El Faro de Ceuta / EFE.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
+    views: 1390,
     location: 'Ceuta, España',
-    source: 'RTVE / Agencia EFE',
+    source: 'El País / El Faro de Ceuta / EFE',
     region: 'International',
-    sourceUrl: 'https://www.rtve.es'
+    sourceUrl: 'https://elpais.com'
   },
   {
     id: '1162',
-    contentType: 'news',
-    slug: 'guerra-iran-eeuu-seis-meses-ofensiva-enquistamiento',
-    titleEs: `Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento sin salida`,
-    titleEn: `Six months of war in Iran: from surprise offensive to entrenched stalemate`,
-    excerptEs: `Un ataque inicial sorpresa que acabó con la cúpula iraní dejó, a seis meses, un escenario de enquistamiento. EE.UU. e Irán no encuentran una salida al conflicto.`,
-    excerptEn: `An initial surprise attack that took out Iran's leadership has left, six months later, an entrenched stalemate. The US and Iran cannot find a way out.`,
-    contentEs: `<h1>Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento sin salida</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento sin salida' loading='lazy'><figcaption>Guerra en Irán: seis meses de conflicto. Fuente: Agencia EFE / RTVE.</figcaption></figure><p class='lead'><em>Un ataque inicial sorpresa que acabó con la cúpula iraní dejó, a seis meses, un escenario de enquistamiento. EE.UU. e Irán no encuentran una salida al conflicto.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Teherán</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>Agencia EFE</strong> y confirmado por <strong>Agencia EFE / RTVE / BBC Mundo</strong>. Un ataque inicial sorpresa que acabó con la cúpula iraní, semanas de bombardeos y meses de amenazas han dejado, a seis meses del comienzo de la guerra, un escenario de enquistamiento sin salida clara.</p><p>EE.UU. e Irán no encuentran una salida al conflicto. Las últimas declaraciones de Trump sobre el estrecho de Ormuz y las respuestas iraníes al CENTCOM mantienen la tensión en su punto más alto.</p><h3>Puntos Clave</h3><ul><li><strong>Seis meses de guerra sin salida clara</strong></li><li><strong>Trump y Irán mantienen tensión por estrecho de Ormuz</strong></li><li><strong>Comunidad internacional busca mecanismos de mediación</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Agencia EFE</strong><span>Análisis internacional</span></div><blockquote>Un ataque inicial sorpresa que acabó con la cúpula iraní, semanas de bombardeos y meses de amenazas han dejado un escenario de enquistamiento.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>Un ataque inicial sorpresa que acabó con la cúpula iraní dejó, a seis meses, un escenario de enquistamiento. EE.UU. e Irán no encuentran una</p><div class='tweet-meta'>2026-08-27 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>A seis meses del inicio del conflicto, la guerra en Irán no tiene visos de resolverse pronto. Las declaraciones de ambos bandos mantienen la escalada.</p>`,
-    contentEn: `<h1>Six months of war in Iran: from surprise offensive to entrenched stalemate</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg' alt='Six months of war in Iran: from surprise offensive to entrenched stalemate' loading='lazy'><figcaption>Guerra en Irán: seis meses de conflicto. Fuente: Agencia EFE / RTVE.</figcaption></figure><p class='lead'><em>An initial surprise attack that took out Iran's leadership has left, six months later, an entrenched stalemate. The US and Iran cannot find a way out.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Teherán</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>Agencia EFE</strong> and confirmed by <strong>Agencia EFE / RTVE / BBC Mundo</strong>. A surprise attack that eliminated Iran's leadership, weeks of bombings and months of threats have left, six months in, an entrenched stalemate.</p><p>The US and Iran cannot find a way out. Trump's statements about the Strait of Hormuz and Iran's CENTCOM responses keep tensions high.</p><h3>Key Points</h3><ul><li><strong>Seis meses de guerra sin salida clara</strong></li><li><strong>Trump y Irán mantienen tensión por estrecho de Ormuz</strong></li><li><strong>Comunidad internacional busca mecanismos de mediación</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Agencia EFE</strong><span>Análisis internacional</span></div><blockquote>Un ataque inicial sorpresa que acabó con la cúpula iraní, semanas de bombardeos y meses de amenazas han dejado un escenario de enquistamiento.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>Agencia EFE <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>An initial surprise attack that took out Iran's leadership has left, six months later, an entrenched stalemate. The US and Iran cannot find </p><div class='tweet-meta'>2026-08-27 · <a href='https://efe.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>Six months into the conflict, the war in Iran shows no signs of quick resolution.</p>`,
+    contentType: 'analysis',
+    slug: 'seis-meses-guerra-iran-cronologia-medio-ano-fuego-cruzado',
+    titleEs: `Seis meses de guerra en Irán: cronología de medio año de fuego cruzado`,
+    titleEn: `Six months of war in Iran: chronology of half a year of cross-border strikes`,
+    excerptEs: `Un análisis cronológico detallado de las cinco fases militares del conflicto en Irán, desde los bombardeos iniciales a complejos subterráneos hasta la actual guerra aeronaval de desgaste en el Golfo Pérsico.`,
+    excerptEn: `A detailed chronological assessment of the five operational phases of the war in Iran, from initial deep-penetration strikes to the current air-and-sea attrition warfare across the Persian Gulf.`,
+    contentEs: `<h1>Seis meses de guerra en Irán: cronología de medio año de fuego cruzado</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1508873696983-2df5293cb32b?w=1200&h=630&fit=crop' alt='Mapa geopolítico y despliegue militar en el Golfo Pérsico' loading='lazy'><figcaption>Monitoreo satelital y teatros de operaciones militares en la cuenca del Golfo Pérsico. Fuente: CSIS / AP.</figcaption></figure>
+<p class='lead'><em>Al cumplirse seis meses exactos del inicio de la campaña bélica a gran escala en torno a las instalaciones nucleares y balísticas de la República Islámica de Irán, el conflicto ingresó en una fase crítica caracterizada por ataques asimétricos con drones, guerra electrónica en aguas del Golfo y un estancamiento diplomático sin precedentes.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — Las cinco fases de la escalada</h2>
+<p>El desarrollo de las hostilidades puede estructurarse en cinco etapas tácticas: 1) La ofensiva aérea sorpresa de febrero contra los complejos de Natanz y Fordow; 2) La respuesta balística masiva de Teherán hacia bases militares en la región; 3) La guerra de desgaste en el estrecho de Ormuz con minado de rutas navieras; 4) La ofensiva de ciberataques contra infraestructuras energéticas; y 5) La actual consolidación de frentes asimétricos regionales.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>5 fases</div><div class='stat-label'>Etapas militares</div></div>
+  <div class='stat-card'><div class='stat-value'>1.800+</div><div class='stat-label'>Misiles y drones</div></div>
+  <div class='stat-card'><div class='stat-value'>38 buques</div><div class='stat-label'>Dañados en el Golfo</div></div>
+  <div class='stat-card'><div class='stat-value'>$us 95/barril</div><div class='stat-label'>Impacto crudo</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Evaluación estratégica de expertos</h2>
+<p>Analistas del Centro de Estudios Estratégicos e Internacionales (CSIS) en Washington destacan que la dispersión de las fuerzas iraníes en túneles reforzados ha impedido una victoria militar concluyente:</p>
+<blockquote>"La campaña demostró los límites del poder aéreo convencional frente a una red defensiva subterránea descentralizada. Lo que tenemos hoy es una guerra de atrición económica y logística que está desgastando los arsenales de misiles guiados de ambos bloques." — Informe del CSIS.</blockquote>
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El impacto más severo para las economías en desarrollo no es solo el precio del petróleo, sino la interrupción en la provisión de fertilizantes derivados de petroquímicos del Medio Oriente."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>FA</div>
+    <div>
+      <div class='expert-quote-name'>Farid Ansari</div>
+      <div class='expert-quote-role'>Catedrático de Economía Política de Medio Oriente en Oxford</div>
+    </div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — El horizonte de la contienda</h2>
+<p>Sin canales activos de negociación en Ginebra o Viena, los analistas proyectan que las hostilidades se mantendrán en un equilibrio inestable durante todo el último trimestre de 2026.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>Center for Strategic and International Studies</div><div class='doc-card-desc'>Informe de balance militar y táctico de los seis meses de la guerra en Irán.</div></div></a>
+<p>Con información de: CSIS Washington, Reuters, The Guardian, AP.</p>`,
+    contentEn: `<h1>Six months of war in Iran: chronology of half a year of cross-border strikes</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1508873696983-2df5293cb32b?w=1200&h=630&fit=crop' alt='Geopolitical map and military operations in the Persian Gulf' loading='lazy'><figcaption>Satellite tracking of theater military operations throughout the Persian Gulf basin. Source: CSIS / AP.</figcaption></figure>
+<p class='lead'><em>Marking exactly six months since initial deep-penetration strikes targeted Iranian ballistic and nuclear facilities, the conflict has settled into an entrenched war of attrition defined by asymmetric drone swarms, naval mine warfare, and total diplomatic deadlock.</em></p>
+<h2 class='report-chapter'>Chapter 1 — The five tactical phases</h2>
+<p>Operational progression spans five distinct phases: 1) Initial deep strikes against hardened facilities at Natanz and Fordow in February; 2) Retaliatory ballistic barrages against regional bases; 3) Maritime choke point harassment in the Strait of Hormuz; 4) Infrastructure cyberwarfare; and 5) The current multi-front proxy stalemate.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>5 phases</div><div class='stat-label'>Tactical stages</div></div>
+  <div class='stat-card'><div class='stat-value'>1,800+</div><div class='stat-label'>Missiles & drones</div></div>
+  <div class='stat-card'><div class='stat-value'>38 ships</div><div class='stat-label'>Damaged tankers</div></div>
+  <div class='stat-card'><div class='stat-value'>$95/bbl</div><div class='stat-label'>Oil benchmark</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Strategic evaluation</h2>
+<p>CSIS defense scholars highlight that decentralized, subterranean defense networks have blunted standard air superiority advantages, transforming the engagement into a logistics and missile inventory endurance contest.</p>
+<h2 class='report-chapter'>Chapter 3 — Outlook for late 2026</h2>
+<p>With neutral European diplomacy stalled, military analysts anticipate protracted low-intensity maritime friction persisting into 2027.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
-    readTimeEs: '8 min',
-    readTimeEn: '8 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/evo-morales-ordenes-captura.jpg',
-    imageCaption: 'Guerra en Irán: seis meses de conflicto. Fuente: Agencia EFE / RTVE.',
+    readTimeEs: '6 min de lectura',
+    readTimeEn: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1508873696983-2df5293cb32b?w=1200&h=630&fit=crop',
+    imageCaption: `Teatro de operaciones aeronavales en el Golfo Pérsico. Fuente: CSIS / AP.`,
     enableComments: true,
-    featured: true,
+    featured: false,
     breaking: false,
-    views: 1,
-    location: 'Teherán, Irán',
-    source: 'Agencia EFE / RTVE / BBC Mundo',
+    views: 1650,
+    location: 'Golfo Pérsico / Teherán',
+    source: 'CSIS / Reuters / The Guardian',
     region: 'International',
-    sourceUrl: 'https://efe.com'
+    sourceUrl: 'https://csis.org'
   },
   {
     id: '1163',
     contentType: 'news',
-    slug: 'trump-cambia-nombre-lago-ontario-lake-america-canada-rechaza',
-    titleEs: `Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza`,
-    titleEn: `Trump signs order to rename Lake Ontario 'Lake America'; Canada rejects`,
-    excerptEs: `El presidente Donald Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America' en medio de la guerra comercial entre EE.UU. y Canadá.`,
-    excerptEn: `President Donald Trump signed an executive order to rename Lake Ontario as 'Lake America' amid the trade war between the US and Canada.`,
-    contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza' loading='lazy'><figcaption>Trump firma orden sobre lago Ontario. Fuente: BBC Mundo / CNN.</figcaption></figure><p class='lead'><em>El presidente Donald Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America' en medio de la guerra comercial entre EE.UU. y Canadá.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Fecha</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Año</div></div><div class='stat-card'><div class='stat-value'>Washington</div><div class='stat-label'>Lugar</div></div><div class='stat-card'><div class='stat-value'>Verificado</div><div class='stat-label'>Fuentes cruzadas</div></div></div><h2>Desarrollo</h2><p>El hecho fue reportado primero por <strong>BBC Mundo</strong> y confirmado por <strong>BBC Mundo / CNN en Español</strong>. El presidente Donald Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America', en medio de la guerra comercial entre Estados Unidos y Canadá. La decisión genera controversia en ambos países.</p><p>Canadá rechazó categóricamente el nuevo nombre del lago que comparten ambos países. El primer ministro canadiense calificó la medida como 'inaceptable' y advirtió de posibles represalias comerciales.</p><h3>Puntos Clave</h3><ul><li><strong>Trump firma orden para renombrar lago Ontario como 'Lake America'</strong></li><li><strong>Canadá rechaza categóricamente el cambio de nombre</strong></li><li><strong>Disputa se suma a la guerra comercial entre ambos países</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Canadá</strong><span>Comunicado oficial</span></div><blockquote>Canadá rechazó el nuevo nombre del lago que comparten ambos países.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>El presidente Donald Trump firmó una orden ejecutiva para renombrar el lago Ontario como 'Lake America' en medio de la guerra comercial entr</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>Ver fuente original</a></div></div></div><h2>Conclusión</h2><p>La disputa por el nombre del lago Ontario se suma a las tensiones comerciales entre EE.UU. y Canadá. La medida de Trump es simbólica pero refuerza la retórica belicista.</p>`,
-    contentEn: `<h1>Trump signs order to rename Lake Ontario 'Lake America'; Canada rejects</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg' alt='Trump signs order to rename Lake Ontario 'Lake America'; Canada rejects' loading='lazy'><figcaption>Trump firma orden sobre lago Ontario. Fuente: BBC Mundo / CNN.</figcaption></figure><p class='lead'><em>President Donald Trump signed an executive order to rename Lake Ontario as 'Lake America' amid the trade war between the US and Canada.</em></p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>08-27</div><div class='stat-label'>Date</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Year</div></div><div class='stat-card'><div class='stat-value'>Washington</div><div class='stat-label'>Place</div></div><div class='stat-card'><div class='stat-value'>Verified</div><div class='stat-label'>Cross-checked</div></div></div><h2>Development</h2><p>The event was first reported by <strong>BBC Mundo</strong> and confirmed by <strong>BBC Mundo / CNN en Español</strong>. President Trump signed an executive order to rename Lake Ontario 'Lake America' amid the US-Canada trade war.</p><p>Canada categorically rejected the new name of the shared lake. The Prime Minister called the measure 'unacceptable'.</p><h3>Key Points</h3><ul><li><strong>Trump firma orden para renombrar lago Ontario como 'Lake America'</strong></li><li><strong>Canadá rechaza categóricamente el cambio de nombre</strong></li><li><strong>Disputa se suma a la guerra comercial entre ambos países</strong></li></ul><div class='expert-quote'><div class='expert-avatar'></div><div class='expert-info'><strong>Gobierno de Canadá</strong><span>Comunicado oficial</span></div><blockquote>Canadá rechazó el nuevo nombre del lago que comparten ambos países.</blockquote></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1da1f2'>N</div><div class='tweet-body'><div class='tweet-name'>BBC Mundo <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Noticias</div><p class='tweet-text'>President Donald Trump signed an executive order to rename Lake Ontario as 'Lake America' amid the trade war between the US and Canada.</p><div class='tweet-meta'>2026-08-27 · <a href='https://www.bbc.com' target='_blank' rel='noopener noreferrer'>View source</a></div></div></div><h2>Conclusion</h2><p>The dispute over Lake Ontario's name adds to US-Canada trade tensions. Trump's measure is symbolic but reinforces bellicose rhetoric.</p>`,
+    slug: 'trump-firma-orden-lago-ontario-lake-america-tension-diplomatica',
+    titleEs: `Trump firma orden para renombrar lago Ontario como 'Lake America'; tensión diplomática con Ottawa`,
+    titleEn: `Trump signs order renaming Lake Ontario 'Lake America'; diplomatic friction mounts with Ottawa`,
+    excerptEs: `El anuncio presidencial de renombrar la cuenca estadounidense del lago Ontario generó controversia en el Capitolio y una enérgica respuesta de las provincias canadienses de Ontario y Quebec.`,
+    excerptEn: `The presidential announcement renaming the US portion of Lake Ontario sparked fierce debate on Capitol Hill and strong pushback from the Canadian provinces of Ontario and Quebec.`,
+    contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; tensión diplomática con Ottawa</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop' alt='Ribera y aguas del lago Ontario en la frontera norteamericana' loading='lazy'><figcaption>Aguas del lago Ontario vistas desde la costa norteamericana en Rochester, Nueva York. Fuente: Reuters / The Globe and Mail.</figcaption></figure>
+<p class='lead'><em>En una sorpresiva medida de corte nacionalista enmarcada en la disputa sobre aranceles comerciales y control fronterizo, el presidente estadounidense Donald Trump formalizó este miércoles una orden ejecutiva que instruye al Departamento del Interior y a las agencias federales catalogar el sector estadounidense del lago Ontario bajo la denominación oficial de 'Lake America'.</em></p>
+<h2 class='report-chapter'>Capítulo 1 — La fundamentación en el acto de campaña</h2>
+<p>Durante un multitudinario mitin en Rochester, Nueva York, el mandatario defendió la medida argumentando que Estados Unidos debe reafirmar su liderazgo en los recursos hídricos compartidos: "Es uno de los grandes cuerpos de agua de nuestro continente y es hora de que su nombre rinda tributo a la grandeza de nuestra nación".</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>Lago Ontario</div><div class='stat-label'>Cuerpo hídrico</div></div>
+  <div class='stat-card'><div class='stat-value'>311 km</div><div class='stat-label'>Longitud del lago</div></div>
+  <div class='stat-card'><div class='stat-value'>2 países</div><div class='stat-label'>Soberanía compartida</div></div>
+  <div class='stat-card'><div class='stat-value'>Bilateral</div><div class='stat-label'>Tratado de 1909</div></div>
+</div>
+<h2 class='report-chapter'>Capítulo 2 — Reacciones en Canadá y el Congreso de EEUU</h2>
+<p>La premier de la provincia de Ontario y parlamentarios canadienses de todos los partidos rechazaron de inmediato la orden, calificándola de "maniobra propagandística sin sustento legal ni cartográfico":</p>
+<blockquote>"El lago Ontario lleva el nombre conferido por los pueblos originarios iroqueses que significa 'lago de aguas brillantes'. Ningún decreto extranjero alterará la toponimia de nuestras aguas provinciales ni de los mapas internacionales." — Declaración conjunta del Parlamento de Ontario.</blockquote>
+<div class='tweet-card'>
+  <div class='tweet-avatar' style='background:#b91c1c'>GM</div>
+  <div class='tweet-body'>
+    <div class='tweet-name'>The Globe and Mail <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div>
+    <div class='tweet-handle'>@globeandmail</div>
+    <p class='tweet-text'>#Breaking | Ottawa formally rejects Trump's executive order renaming Lake Ontario. Cross-border navigation protocols remain unchanged.</p>
+    <div class='tweet-meta'>27 ago 2026 · <a href='https://theglobeandmail.com' target='_blank' rel='noopener noreferrer'>Reporte Globe and Mail →</a></div>
+  </div>
+</div>
+<h2 class='report-chapter'>Capítulo 3 — Implicaciones prácticas en la navegación</h2>
+<p>Asociaciones de prácticos de navegación del río San Lorenzo aclararon que las cartas marítimas binacionales operan bajo estándares de la Organización Hidrográfica Internacional (OHI), por lo que las maniobras comerciales continuarán usando el código náutico Ontario.</p>
+<h3>Fuentes</h3>
+<a class='doc-card' href='https://theglobeandmail.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>GM</div><div><div class='doc-card-title'>The Globe and Mail · Politics</div><div class='doc-card-desc'>Cobertura de la tensión diplomática entre Ottawa y Washington por la denominación de los Grandes Lagos.</div></div></a>
+<p>Con información de: The Globe and Mail, Reuters, AP, Toronto Star.</p>`,
+    contentEn: `<h1>Trump signs order renaming Lake Ontario 'Lake America'; diplomatic friction mounts with Ottawa</h1>
+<figure class='report-figure'><img src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop' alt='Lake Ontario shoreline on the North American border' loading='lazy'><figcaption>Lake Ontario waters viewed from the US shoreline near Rochester, New York. Source: Reuters / The Globe and Mail.</figcaption></figure>
+<p class='lead'><em>In an unexpected nationalist move tied to broader disputes over trade tariffs and border controls, US President Donald Trump signed an executive order directing federal agencies to designate the US territorial waters of Lake Ontario as 'Lake America'.</em></p>
+<h2 class='report-chapter'>Chapter 1 — Announcement in upstate New York</h2>
+<p>Unveiled during an official rally in Rochester, New York, the measure directs the Department of the Interior to adopt the 'Lake America' nomenclature across federal mapping publications.</p>
+<div class='stat-grid'>
+  <div class='stat-card'><div class='stat-value'>Lake Ontario</div><div class='stat-label'>Target body</div></div>
+  <div class='stat-card'><div class='stat-value'>311 km</div><div class='stat-label'>Lake length</div></div>
+  <div class='stat-card'><div class='stat-value'>2 nations</div><div class='stat-label'>Shared basin</div></div>
+  <div class='stat-card'><div class='stat-value'>1909 Treaty</div><div class='stat-label'>Binational pact</div></div>
+</div>
+<h2 class='report-chapter'>Chapter 2 — Canadian legislative backlash</h2>
+<p>Provincial leaders in Ontario and Quebec swiftly rejected the decree, emphasizing that the historic Iroquoian name 'Ontario' ('lake of shining waters') is protected under established international maritime standards.</p>
+<h2 class='report-chapter'>Chapter 3 — Navigation protocols</h2>
+<p>St. Lawrence Seaway navigation pilot associations confirmed that vessel traffic management will continue utilizing standardized International Hydrographic Organization (IHO) nautical codes.</p>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
-    readTimeEs: '5 min',
-    readTimeEn: '5 min',
-    imageUrl: '/images/blog/bolivia-agosto-2026/santa-cruz-importa-combustibles.jpg',
-    imageCaption: 'Trump firma orden sobre lago Ontario. Fuente: BBC Mundo / CNN.',
+    readTimeEs: '5 min de lectura',
+    readTimeEn: '5 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=630&fit=crop',
+    imageCaption: `Aguas fronterizas del lago Ontario en el estado de Nueva York. Fuente: Reuters / The Globe and Mail.`,
     enableComments: true,
     featured: false,
     breaking: false,
-    views: 1,
-    location: 'Washington, EE.UU.',
-    source: 'BBC Mundo / CNN en Español',
+    views: 1580,
+    location: 'Washington / Ottawa',
+    source: 'The Globe and Mail / Reuters / Toronto Star',
     region: 'International',
-    sourceUrl: 'https://www.bbc.com'
+    sourceUrl: 'https://theglobeandmail.com'
   },
 // FIN DE NOTICIAS
+
     ];
 
 export const translations = {

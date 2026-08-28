@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://freddydev.net/noticias/pakistan-inundaciones-monzon-2026-muertos-ndma</loc>
+    <loc>https://freddydev.net/noticias/santa-cruz-comite-pro-abroga-ds-5676-plazo-domingo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -11,13 +11,125 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Pakistán: las inundaciones de monzón de 2026 superan las 159 víctimas mortales</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cerimedo-palmasola-niega-poder-demanda-200m</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta demanda por $us 200M</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/paz-reconoce-ineficiencia-respalda-velasco-diesel</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para libre importación de diésel</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/paz-duplica-presupuesto-ypfb-subvencion-combustible</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reinstalan-bloqueo-puente-san-pablo-exigen-transporte</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Reinstalan bloqueo en puente San Pablo tras gasificación; exigen atención a demandas de transporte</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/gobernacion-crucena-decreto-importar-combustible-privados</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Gobernación cruceña alista decreto para importar combustible con privados ante crisis</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/sokol-reune-encargado-negocios-eeuu-bolivia-cooperacion</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia para tratar cooperación bilateral</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fuertes-vientos-derriban-arboles-santa-cruz-cortes-luz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan cortes de luz</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eclipse-lunar-parcial-bolivia-luna-de-sangre-madrugada</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en una madrugada despejada</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/japon-terremoto-kumamoto-2026-respuesta-takaichi</loc>
+    <loc>https://freddydev.net/noticias/senado-aprueba-ley-acceso-informacion-remite-diputados</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -25,13 +137,27 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Japón: Takaichi encabeza la respuesta tras el terremoto de Kumamoto y los lanzamientos de Corea del Norte</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Senado aprueba Ley de Acceso a la Información y la remite a Diputados</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nepal-sube-553-muertos-riada-bhote-koshi-rescates</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescates siguen en zonas aisladas</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/union-europea-ia-ley-entra-en-vigor-2-agosto-2026</loc>
+    <loc>https://freddydev.net/noticias/muere-harald-v-noruega-haakon-viii-asume-trono-oslo</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -39,41 +165,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>La ley de IA de la UE alcanza su mayor hito de aplicación el 2 de agosto de 2026</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/nvidia-resultados-trimestre-26-agosto-2026-inteligencia-artificial</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Nvidia presenta resultados el 26 de agosto: Wall Street espera un BPA de unos 2,06 dólares</news:title>
-      <news:keywords>Economía</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/migrantes-mediterraneo-muertes-aumentan-2026-omi</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>ONU: las muertes de migrantes en el Mediterráneo se duplican y triplican en 2026</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono de Oslo</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/eeuu-canada-nuevos-aranceles-trump-25-agosto-2026</loc>
+    <loc>https://freddydev.net/noticias/espana-llama-calma-protestas-disturbios-ceuta-crisis-migratoria</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -81,27 +179,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Trump amenaza con nuevos aranceles a Canadá en medio de tensión política interna en EE. UU.</news:title>
-      <news:keywords>Economía</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/reino-unido-chagos-burnham-primer-ministro-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Reino Unido: Burnham asume como primer ministro y hereda el conflicto de Chagos</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>España llama a la calma tras noche de protestas y disturbios en Ceuta por crisis migratoria</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/espana-campeon-mundial-futbol-2026-final-argentina</loc>
+    <loc>https://freddydev.net/noticias/inflacion-espana-se-dispara-4-3-agosto-record-18-meses</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -109,27 +193,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>España se corona campeona del mundo al batir a Argentina en la final de 2026</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/venezuela-terremotos-junio-2026-catia-la-mar</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Venezuela: un par de terremotos derriba más de 100 edificios en Catia La Mar</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Inflación en España se dispara al 4,3% en agosto, el más alto en 18 meses</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/costa-rica-terremoto-m5-25-agosto-2026-sismos-globales</loc>
+    <loc>https://freddydev.net/noticias/seis-meses-guerra-iran-ofensiva-sorpresa-enquistamiento-regional</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -137,13 +207,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Sismos globales del 25 de agosto: M5,0 en Costa Rica y réplicas en México, Japón y California</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento regional</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/israel-turquia-tensiones-conflicto-2026</loc>
+    <loc>https://freddydev.net/noticias/trump-firma-orden-renombrar-lago-ontario-lake-america-canada-rechaza</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -151,13 +221,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Crecen las tensiones entre Israel y Turquía y podrían estallar en guerra abierta</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza categóricamente</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/yemen-houthi-58-muertos-pacto-saudi-turquia-pakistan</loc>
+    <loc>https://freddydev.net/noticias/meta-anuncia-restricciones-menores-acuerdo-18000-millones</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -165,13 +235,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Yemen: ataques Houthi dejan 58 muertos y se firma un pacto militar saudí-turco-paquistaní</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones en tribunales</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/eclipse-solar-total-12-agosto-2026-groenlandia-islandia</loc>
+    <loc>https://freddydev.net/noticias/incendios-forestales-argelia-dejan-12-muertos-luto-nacional</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -179,41 +249,13 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Eclipse solar total del 12 de agosto de 2026 sobre Groenlandia e Islandia</news:title>
-      <news:keywords>Ciencia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/deportes-2026-sinner-wimbledon-pogacar-tour-francia</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Sinner retiene Wimbledon y Pogacar gana su quinto Tour de Francia en 2026</news:title>
-      <news:keywords>Deportes</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/papa-leon-xiv-lampedusa-migrantes-2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>El papa León XIV visita Lampedusa y recuerda a los migrantes desaparecidos en el mar</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Incendios forestales en Argelia dejan 12 muertos; tres días de luto nacional</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/jefe-inteligencia-eeuu-ratcliffe-moscu-2026</loc>
+    <loc>https://freddydev.net/noticias/rockstar-presenta-vista-oficial-gta-6-gameplay-graficos</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <news:news>
@@ -221,8 +263,162 @@
         <news:name>FreddyDev</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>Reportaje especial | El jefe de inteligencia de EE. UU. en Moscú: el viaje secreto de Ratcliffe a Rusia</news:title>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Rockstar presenta vista oficial de GTA 6: fans y críticos impactados por el realismo</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/familias-vuelan-nepal-busca-33-britanicos-desaparecidos-riada</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Familias vuelan a Nepal en busca de 33 británicos desaparecidos tras riada</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/policia-gasifica-bloqueadores-puente-san-pablo-despeja-via</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Policía gasifica bloqueadores en puente San Pablo y despeja la vía temporalmente</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fiscalia-allana-departamento-cerimedo-equipetrol-beller-citada</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser citada a declarar</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/paz-sobre-ds-5676-se-puede-mejorar-no-retroceder-formalizacion</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder en la formalización'</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/senado-sanciona-credito-62-millones-bid-ampliar-teleferico-la-paz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/mirko-sokol-convocado-declarar-sindicado-caso-donaciones-aduaneras</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Mirko Sokol está convocado a declarar como sindicado este viernes por caso donaciones</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/sube-392-muertos-catastrofe-nepal-tibet-cientos-desaparecidos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/empeora-salud-rey-harald-v-noruega-anemia-hemolitica-grave</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica grave</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/noche-disturbios-ceuta-manifestantes-destrozan-campamentos-migrantes</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/seis-meses-guerra-iran-cronologia-medio-ano-fuego-cruzado</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Seis meses de guerra en Irán: cronología de medio año de fuego cruzado</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/trump-firma-orden-lago-ontario-lake-america-tension-diplomatica</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Trump firma orden para renombrar lago Ontario como 'Lake America'; tensión diplomática con Ottawa</news:title>
       <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
