@@ -47,7 +47,8 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
-import { injectStructuredData } from '../lib/structuredData';
+import { injectStructuredData, generateNewsArticleStructuredData } from '../lib/structuredData';
+import { IMAGE_DIMENSIONS } from '../lib/imageDimensions';
 import TrustIndicators from './TrustIndicators';
 
 interface BlogDetailProps {
@@ -214,26 +215,27 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     const category = lang === 'es' ? post.categoryEs : post.categoryEn;
     const shareUrl = window.location.href;
 
-    // Inyectar NewsArticle JSON-LD
-    injectStructuredData({
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      headline: title,
-      description: lang === 'es' ? post.excerptEs : post.excerptEn,
-      image: post.imageUrl,
-      author: { '@type': 'Person', name: 'Freddy Ticona Guzmán' },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Freddy Ticona - Servicios Audiovisuales',
-        logo: { '@type': 'ImageObject', url: 'https://freddydev.net/favicon.ico' }
-      },
-      datePublished: post.date,
-      dateModified: post.date,
-      mainEntityOfPage: { '@type': 'WebPage', '@id': shareUrl },
-      articleSection: category,
-      keywords: [category, post.source].filter(Boolean).join(', '),
-      dateline: post.location || 'La Paz, Bolivia',
-    });
+    // Inyectar NewsArticle JSON-LD con publisher NewsMediaOrganization
+    // (identidad propia de la sección de noticias, no el schema Person del portafolio)
+    const dims = post.imageUrl ? IMAGE_DIMENSIONS[post.imageUrl] : undefined;
+    injectStructuredData(
+      generateNewsArticleStructuredData({
+        title,
+        description: lang === 'es' ? post.excerptEs : post.excerptEn,
+        publishDate: post.date,
+        publishedAt: post.publishedAt,
+        modifiedDate: post.dateModified,
+        image: post.imageUrl,
+        imageCaption: post.imageCaption,
+        imageWidth: dims?.width,
+        imageHeight: dims?.height,
+        url: shareUrl,
+        category,
+        keywords: [category, post.source].filter(Boolean) as string[],
+        dateline: post.location || 'La Paz, Bolivia',
+        slug: post.slug,
+      })
+    );
 
     // Meta tags OG para artículo
     const setMeta = (prop: string, val: string) => {

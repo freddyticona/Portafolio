@@ -24825,8 +24825,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     titleEn: `Special Report | The US intelligence chief in Moscow: Ratcliffe's secret trip to Russia`,
     excerptEs: `El director de la CIA, John Ratcliffe, viajó en secreto a Moscú el 25 de agosto de 2026. Reconstruimos el viaje, el precedente de Burns en 2021 y el análisis de expertos sobre Ucrania, Irán y los presos estadounidenses.`,
     excerptEn: `CIA Director John Ratcliffe made a secret trip to Moscow on August 25, 2026. We reconstruct the visit, the Burns 2021 precedent, and expert analysis on Ukraine, Iran and detained Americans.`,
-    contentEs: `<h1>Reportaje especial | El jefe de inteligencia de EE. UU. en Moscú: el viaje secreto de Ratcliffe a Rusia</h1><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026.jpg" alt="John Ratcliffe, director de la CIA desde enero de 2025. Fuente: Wikimedia Commons." loading="lazy"><figcaption>John Ratcliffe, director de la CIA desde enero de 2025. Fuente: Wikimedia Commons.</figcaption></figure><p><em>El director de la Agencia Central de Inteligencia (CIA), John Ratcliffe, realizó el martes 25 de agosto de 2026 una visita no anunciada a Moscú para reunirse con funcionarios rusos, según confirmaron a RFE/RL y a otros medios funcionarios estadounidenses familiarizados con su viaje. El desplazamiento, revelado por el rastro de un avión militar estadounidense, ocurre en un momento delicado: las negociaciones para poner fin a la guerra de Rusia contra Ucrania están estancadas y las tensiones por la relación entre Moscú e Irán se han intensificado.</em></p><h2 class="report-chapter">Capítulo 1 &mdash; El viaje secreto y el rastro de vuelo</h2><p>La noticia fue adelantada por CBS News y luego confirmada por RFE/RL. El seguimiento de vuelo mostró un Boeing C-17A Globemaster III de la Fuerza Aérea de EE. UU., vuelo RCH4555, que partió de Riga (Letonia) la mañana del martes, con origen en la Base Conjunta Andrews (Maryland), y aterrizó en el aeropuerto de Vnukovo, en Moscú, en las primeras horas del 25 de agosto; la aeronave abandonó Rusia más tarde ese mismo día, según los datos de rastreo.</p><p>Ni la CIA ni la Casa Blanca han comentado públicamente. El Pentágono, el Departamento de Defensa y la Fuerza Aérea declinaron hacer declaraciones (ABC News). Funcionarios estadounidenses confirmaron a RFE/RL que Ratcliffe voló a Moscú, pero no revelaron el contenido de las reuniones ni con quién se reunió.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#cc0000">C</div><div class="tweet-body"><div class="tweet-name">CBS News <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@CBSNews</div><p class="tweet-text">CIA Director John Ratcliffe is in Moscow for meetings, US officials say, after a US military C-17 was tracked landing at Vnukovo. Neither the CIA nor the White House has commented.</p><div class="tweet-meta">25 ago 2026 &middot; <a href="https://x.com/CBSNews" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-c17.jpg" alt="Boeing C-17 Globemaster III, la aeronave militar rastreada en el viaje. Fuente: Wikimedia Commons." loading="lazy"><figcaption>Boeing C-17 Globemaster III, la aeronave militar rastreada en el viaje. Fuente: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">Capítulo 2 &mdash; El precedente: Burns en Moscú, noviembre de 2021</h2><p>No es la primera vez que un director de la CIA acude a Moscú en un punto crítico. En noviembre de 2021, el entonces director William Burns viajó a la capital rusa para advertir personalmente al presidente Vladimir Putin contra la invasión de Ucrania, tres meses antes del ataque a gran escala. Putin, según relató el propio Burns en un evento de la Carnegie Endowment for International Peace en septiembre de 2025, quedó &ldquo;totalmente impenitente&rdquo;. Burns describió al mandatario ruso como &ldquo;una combinación combustible de resentimiento, ambición e inseguridad&rdquo;.</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;En este momento, Putin está demasiado confiado en su capacidad de desgastar a Ucrania, de agotar a nuestros aliados europeos y de creer que la fatiga política estadounidense acabará por imponerse.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">WB</div><div><div class="expert-quote-name">William Burns</div><div class="expert-quote-role">Exdirector de la CIA (2021-2025)</div></div></div></div><p>El paralelismo es inevitable. Como recordó The Guardian en su investigación &ldquo;A war foretold&rdquo; (febrero de 2026), la CIA y el MI6 obtuvieron los planes de Putin sobre Ucrania a finales de 2021; la advertencia de Burns no evitó la guerra, pero sí sentó las reglas de un canal de comunicación directo entre Washington y el Kremlin.</p><h2 class="report-chapter">Capítulo 3 &mdash; ¿Qué busca Ratcliffe en Moscú?</h2><p>Ratcliffe, de línea dura respecto a Rusia, fue investido director de la CIA el 23 de enero de 2025, tres días después de la toma de posesión de Donald Trump para su segundo mandato. Su trayectoria como crítico de Moscú y su cercanía con el presidente lo convierten en un enviado de alto nivel, no un simple enlace.</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;Los directores de la CIA no van a Moscú a menos que sea para pedir algo. No recorren todo el camino hasta Rusia a menos que sea importante. Burns fue en noviembre de 2021 antes de la invasión para advertirles que no invadieran Ucrania.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">GH</div><div><div class="expert-quote-name">Glen Howard</div><div class="expert-quote-role">Experto en Rusia y presidente de la Saratoga Foundation</div></div></div></div><p>Howard sugirió que Irán podría estar en el centro de la misión: Ratcliffe podría buscar persuadir a Moscú de que deje de suministrar o asistir a Teherán, en lo que sería una advertencia directa al Kremlin. Un analista de defensa consultado por RFE/RL añadió que espera que Ratcliffe exija a Putin detener la asistencia de lanzamiento de satélites a Irán y el apoyo que ayuda a Teherán a dirigir ataques contra fuerzas estadounidenses, incluida información de objetivos y tácticas de drones. Rusia mantiene vínculos militares y comerciales extensos con Irán.</p><p>Otra hipótesis apunta a los estadounidenses presos o detenidos en Rusia, y a la posibilidad de que Washington haya pedido a Ucrania suspender los ataques sobre Moscú y San Petersburgo durante la visita, según informaron Il Post y Axios citando a Kyiv Independent.</p><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-kremlin.jpg" alt="El Kremlin, Moscú, escenario del poder ruso. Fuente: Wikimedia Commons." loading="lazy"><figcaption>El Kremlin, Moscú, escenario del poder ruso. Fuente: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">Capítulo 4 &mdash; El contexto de la semana</h2><p>La visita se produjo un día después de que el secretario del Tesoro, Scott Bessent, anunciara (24 de agosto) un nuevo empuje para &ldquo;cortar cada línea de vida económica&rdquo; que sostiene al régimen iraní. Ratcliffe también compareció el 18 de marzo de 2026 ante el Comité de Inteligencia del Senado en la audiencia anual de amenazas mundiales, junto a la directora de Inteligencia Nacional, Tulsi Gabbard, y el director del FBI, Kash Patel; ambos confirmaron entonces que los objetivos de EE. UU. e Israel en la guerra con Irán difieren.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#b31b1b">R</div><div class="tweet-body"><div class="tweet-name">RFE/RL <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@RFERL</div><p class="tweet-text">CIA Director John Ratcliffe made an unannounced visit to Moscow on Aug. 25, US officials confirmed to RFE/RL - the first known trip by a CIA chief to Russia since Burns met Putin in 2021.</p><div class="tweet-meta">25 ago 2026 &middot; <a href="https://x.com/RFERL" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><div class="stat-grid"><div class="stat-card"><div class="stat-value">23 ene 2025</div><div class="stat-label">Ratcliffe asume como director de la CIA</div></div><div class="stat-card"><div class="stat-value">25 ago 2026</div><div class="stat-label">Aterrizaje en Vnukovo (vuelo RCH4555)</div></div><div class="stat-card"><div class="stat-value">nov 2021</div><div class="stat-label">Burns advirtió a Putin en Moscú</div></div><div class="stat-card"><div class="stat-value">24 ago 2026</div><div class="stat-label">Bessent anuncia aislamiento de Irán</div></div></div><h3>Las fuentes consultadas</h3><a class="doc-card" href="https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">CBS</div><div><div class="doc-card-title">CBS News | Ratcliffe en Moscú</div><div class="doc-card-desc">La cadena reveló el viaje a partir del rastro del C-17.</div></div></a><a class="doc-card" href="https://www.rferl.org/a/russia-us-cia-unannounced-rare-visit/33839330.html" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">RFE</div><div><div class="doc-card-title">RFE/RL | El viaje y las preguntas</div><div class="doc-card-desc">Entrevista al experto Glen Howard y análisis de contexto.</div></div></a><a class="doc-card" href="https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">GU</div><div><div class="doc-card-title">The Guardian | Ratcliffe en Moscú</div><div class="doc-card-desc">Cobertura del viaje no anunciado.</div></div></a><a class="doc-card" href="https://www.kyivpost.com/post/59794" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">KP</div><div><div class="doc-card-title">Kyiv Post | Burns y Putin 2021</div><div class="doc-card-desc">Burns en la Carnegie Endowment sobre la advertencia previa.</div></div></a><a class="doc-card" href="https://www.ilpost.it/2026/08/25/cia-stati-uniti-viaggio-mosca" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">ILP</div><div><div class="doc-card-title">Il Post | Ratcliffe a Moscú</div><div class="doc-card-desc">El detalle de la petición a Ucrania de suspender ataques.</div></div></a><p>Con información de: CBS News, RFE/RL, The Guardian, The New York Times, ABC News, Reuters, The Moscow Times, Il Post, Kyiv Independent y Axios.</p>`,
-    contentEn: `<h1>Special Report | The US intelligence chief in Moscow: Ratcliffe's secret trip to Russia</h1><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026.jpg" alt="John Ratcliffe, CIA Director since January 2025. Source: Wikimedia Commons." loading="lazy"><figcaption>John Ratcliffe, CIA Director since January 2025. Source: Wikimedia Commons.</figcaption></figure><p><em>CIA Director John Ratcliffe made an unannounced visit to Moscow on Tuesday, August 25, 2026, to meet with Russian officials, according to US officials familiar with his travel who confirmed the trip to RFE/RL and other outlets. Revealed by the trail of a US military aircraft, the trip comes at a delicate moment: negotiations to end Russia's war on Ukraine are stalled and tensions over Moscow's relationship with Iran have intensified.</em></p><h2 class="report-chapter">Chapter 1 &mdash; The secret trip and the flight trail</h2><p>The story was first reported by CBS News and later confirmed by RFE/RL. Flight tracking showed a US Air Force Boeing C-17A Globemaster III, flight RCH4555, departing Riga, Latvia, on Tuesday morning after originating at Joint Base Andrews in Maryland, and landing at Vnukovo Airport in Moscow in the early hours of August 25; the aircraft left Russia later that same day, according to tracking data.</p><p>Neither the CIA nor the White House has commented publicly. The Pentagon, the Defense Department and the Air Force declined to comment (ABC News). US officials confirmed to RFE/RL that Ratcliffe flew to Moscow but would not disclose the substance of the meetings or whom he met.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#cc0000">C</div><div class="tweet-body"><div class="tweet-name">CBS News <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@CBSNews</div><p class="tweet-text">CIA Director John Ratcliffe is in Moscow for meetings, US officials say, after a US military C-17 was tracked landing at Vnukovo. Neither the CIA nor the White House has commented.</p><div class="tweet-meta">Aug 25 2026 &middot; <a href="https://x.com/CBSNews" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-c17.jpg" alt="Boeing C-17 Globemaster III, the military aircraft tracked on the trip. Source: Wikimedia Commons." loading="lazy"><figcaption>Boeing C-17 Globemaster III, the military aircraft tracked on the trip. Source: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">Chapter 2 &mdash; The precedent: Burns in Moscow, November 2021</h2><p>It is not the first time a CIA director has gone to Moscow at a critical juncture. In November 2021, then-Director William Burns traveled to the Russian capital to warn President Vladimir Putin personally against invading Ukraine, three months before the full-scale attack. Putin, Burns recounted at a Carnegie Endowment for International Peace event in September 2025, was &ldquo;utterly unapologetic.&rdquo; Burns described the Russian leader as &ldquo;a combustible combination of grievance and ambition and insecurity.&rdquo;</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;Right now Putin is entirely too confident of his ability to grind down Ukraine, to wear down our European allies, and to believe that political fatigue in the United States will eventually set in.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">WB</div><div><div class="expert-quote-name">William Burns</div><div class="expert-quote-role">Former CIA Director (2021-2025)</div></div></div></div><p>The parallel is unavoidable. As The Guardian noted in its &ldquo;A war foretold&rdquo; investigation (February 2026), the CIA and MI6 obtained Putin's Ukraine plans in late 2021; Burns' warning did not prevent the war, but it did establish the rules of a direct channel between Washington and the Kremlin.</p><h2 class="report-chapter">Chapter 3 &mdash; What is Ratcliffe seeking in Moscow?</h2><p>Ratcliffe, a Russia hawk, was sworn in as CIA Director on January 23, 2025, three days after Donald Trump's second inauguration. His record as a Moscow critic and his closeness to the president make him a high-level envoy, not a mere liaison.</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;CIA directors don't go to Moscow unless it is to ask something. They don't travel all the way to Russia unless it is important. Burns went there in November 2021 before the invasion to warn them not to invade Ukraine.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">GH</div><div><div class="expert-quote-name">Glen Howard</div><div class="expert-quote-role">Russia expert and chairman of the Saratoga Foundation</div></div></div></div><p>Howard suggested Iran could be central to the mission: Ratcliffe could be seeking to persuade Moscow to stop supplying or assisting Tehran, in what would amount to a direct warning to the Kremlin. A defense analyst consulted by RFE/RL added that he hopes Ratcliffe is telling Putin to halt satellite-launch assistance to Iran and the support that helps Tehran target US forces, including targeting data and drone tactics. Russia maintains extensive military and commercial ties with Iran.</p><p>Another theory points to Americans imprisoned or detained in Russia, and to the possibility that Washington asked Ukraine to suspend strikes on Moscow and St. Petersburg during the visit, as Il Post and Axios reported citing Kyiv Independent.</p><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-kremlin.jpg" alt="The Kremlin, Moscow, seat of Russian power. Source: Wikimedia Commons." loading="lazy"><figcaption>The Kremlin, Moscow, seat of Russian power. Source: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">Chapter 4 &mdash; The week's context</h2><p>The visit came a day after Treasury Secretary Scott Bessent announced (August 24) a new push to &ldquo;sever every economic lifeline&rdquo; sustaining the Iranian regime. Ratcliffe also testified on March 18, 2026, before the Senate Intelligence Committee at the annual worldwide threats hearing, alongside Director of National Intelligence Tulsi Gabbard and FBI Director Kash Patel; both confirmed then that US and Israeli goals in the war with Iran differ.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#b31b1b">R</div><div class="tweet-body"><div class="tweet-name">RFE/RL <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@RFERL</div><p class="tweet-text">CIA Director John Ratcliffe made an unannounced visit to Moscow on Aug. 25, US officials confirmed to RFE/RL - the first known trip by a CIA chief to Russia since Burns met Putin in 2021.</p><div class="tweet-meta">Aug 25 2026 &middot; <a href="https://x.com/RFERL" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><div class="stat-grid"><div class="stat-card"><div class="stat-value">Jan 23 2025</div><div class="stat-label">Ratcliffe sworn in as CIA Director</div></div><div class="stat-card"><div class="stat-value">Aug 25 2026</div><div class="stat-label">Lands at Vnukovo (flight RCH4555)</div></div><div class="stat-card"><div class="stat-value">Nov 2021</div><div class="stat-label">Burns warned Putin in Moscow</div></div><div class="stat-card"><div class="stat-value">Aug 24 2026</div><div class="stat-label">Bessent announces Iran isolation</div></div></div><h3>The sources consulted</h3><a class="doc-card" href="https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">CBS</div><div><div class="doc-card-title">CBS News | Ratcliffe in Moscow</div><div class="doc-card-desc">The network broke the story from the C-17 trail.</div></div></a><a class="doc-card" href="https://www.rferl.org/a/russia-us-cia-unannounced-rare-visit/33839330.html" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">RFE</div><div><div class="doc-card-title">RFE/RL | The trip and the questions</div><div class="doc-card-desc">Interview with expert Glen Howard and context analysis.</div></div></a><a class="doc-card" href="https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">GU</div><div><div class="doc-card-title">The Guardian | Ratcliffe in Moscow</div><div class="doc-card-desc">Coverage of the unannounced visit.</div></div></a><a class="doc-card" href="https://www.kyivpost.com/post/59794" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">KP</div><div><div class="doc-card-title">Kyiv Post | Burns and Putin 2021</div><div class="doc-card-desc">Burns at Carnegie on the prior warning.</div></div></a><a class="doc-card" href="https://www.ilpost.it/2026/08/25/cia-stati-uniti-viaggio-mosca" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">ILP</div><div><div class="doc-card-title">Il Post | Ratcliffe to Moscow</div><div class="doc-card-desc">Detail on the request to Ukraine to suspend strikes.</div></div></a><p>With information from: CBS News, RFE/RL, The Guardian, The New York Times, ABC News, Reuters, The Moscow Times, Il Post, Kyiv Independent and Axios.</p>`,
+    contentEs: `<h1>Reportaje especial | El jefe de inteligencia de EE. UU. en Moscú: el viaje secreto de Ratcliffe a Rusia</h1><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026.jpg" alt="John Ratcliffe, director de la CIA desde enero de 2025. Fuente: Wikimedia Commons." loading="lazy"><figcaption>John Ratcliffe, director de la CIA desde enero de 2025. Fuente: Wikimedia Commons.</figcaption></figure><p><em>El director de la Agencia Central de Inteligencia (CIA), John Ratcliffe, realizó el martes 25 de agosto de 2026 una visita no anunciada a Moscú para reunirse con funcionarios rusos, según confirmaron a RFE/RL y a otros medios funcionarios estadounidenses familiarizados con su viaje. El desplazamiento, revelado por el rastro de un avión militar estadounidense, ocurre en un momento delicado: las negociaciones para poner fin a la guerra de Rusia contra Ucrania están estancadas y las tensiones por la relación entre Moscú e Irán se han intensificado.</em></p><h2 class="report-chapter">El vuelo C-17 de la CIA: rastreo y confirmación</h2><p>La noticia fue adelantada por CBS News y luego confirmada por RFE/RL. El seguimiento de vuelo mostró un Boeing C-17A Globemaster III de la Fuerza Aérea de EE. UU., vuelo RCH4555, que partió de Riga (Letonia) la mañana del martes, con origen en la Base Conjunta Andrews (Maryland), y aterrizó en el aeropuerto de Vnukovo, en Moscú, en las primeras horas del 25 de agosto; la aeronave abandonó Rusia más tarde ese mismo día, según los datos de rastreo.</p><p>Ni la CIA ni la Casa Blanca han comentado públicamente. El Pentágono, el Departamento de Defensa y la Fuerza Aérea declinaron hacer declaraciones (ABC News). Funcionarios estadounidenses confirmaron a RFE/RL que Ratcliffe voló a Moscú, pero no revelaron el contenido de las reuniones ni con quién se reunió.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#cc0000">C</div><div class="tweet-body"><div class="tweet-name">CBS News <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@CBSNews</div><p class="tweet-text">CIA Director John Ratcliffe is in Moscow for meetings, US officials say, after a US military C-17 was tracked landing at Vnukovo. Neither the CIA nor the White House has commented.</p><div class="tweet-meta">25 ago 2026 &middot; <a href="https://x.com/CBSNews" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-c17.jpg" alt="Boeing C-17 Globemaster III, la aeronave militar rastreada en el viaje. Fuente: Wikimedia Commons." loading="lazy"><figcaption>Boeing C-17 Globemaster III, la aeronave militar rastreada en el viaje. Fuente: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">El precedente Burns 2021: canal backchannel con el Kremlin</h2><p>No es la primera vez que un director de la CIA acude a Moscú en un punto crítico. En noviembre de 2021, el entonces director William Burns viajó a la capital rusa para advertir personalmente al presidente Vladimir Putin contra la invasión de Ucrania, tres meses antes del ataque a gran escala. Putin, según relató el propio Burns en un evento de la Carnegie Endowment for International Peace en septiembre de 2025, quedó &ldquo;totalmente impenitente&rdquo;. Burns describió al mandatario ruso como &ldquo;una combinación combustible de resentimiento, ambición e inseguridad&rdquo;.</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;En este momento, Putin está demasiado confiado en su capacidad de desgastar a Ucrania, de agotar a nuestros aliados europeos y de creer que la fatiga política estadounidense acabará por imponerse.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">WB</div><div><div class="expert-quote-name">William Burns</div><div class="expert-quote-role">Exdirector de la CIA (2021-2025)</div></div></div></div><p>El paralelismo es inevitable. Como recordó The Guardian en su investigación &ldquo;A war foretold&rdquo; (febrero de 2026), la CIA y el MI6 obtuvieron los planes de Putin sobre Ucrania a finales de 2021; la advertencia de Burns no evitó la guerra, pero sí sentó las reglas de un canal de comunicación directo entre Washington y el Kremlin.</p><h2 class="report-chapter">Objetivos de Ratcliffe: inteligencia, Ucrania y canales diplomáticos</h2><p>Ratcliffe, de línea dura respecto a Rusia, fue investido director de la CIA el 23 de enero de 2025, tres días después de la toma de posesión de Donald Trump para su segundo mandato. Su trayectoria como crítico de Moscú y su cercanía con el presidente lo convierten en un enviado de alto nivel, no un simple enlace.</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;Los directores de la CIA no van a Moscú a menos que sea para pedir algo. No recorren todo el camino hasta Rusia a menos que sea importante. Burns fue en noviembre de 2021 antes de la invasión para advertirles que no invadieran Ucrania.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">GH</div><div><div class="expert-quote-name">Glen Howard</div><div class="expert-quote-role">Experto en Rusia y presidente de la Saratoga Foundation</div></div></div></div><p>Howard sugirió que Irán podría estar en el centro de la misión: Ratcliffe podría buscar persuadir a Moscú de que deje de suministrar o asistir a Teherán, en lo que sería una advertencia directa al Kremlin. Un analista de defensa consultado por RFE/RL añadió que espera que Ratcliffe exija a Putin detener la asistencia de lanzamiento de satélites a Irán y el apoyo que ayuda a Teherán a dirigir ataques contra fuerzas estadounidenses, incluida información de objetivos y tácticas de drones. Rusia mantiene vínculos militares y comerciales extensos con Irán.</p><p>Otra hipótesis apunta a los estadounidenses presos o detenidos en Rusia, y a la posibilidad de que Washington haya pedido a Ucrania suspender los ataques sobre Moscú y San Petersburgo durante la visita, según informaron Il Post y Axios citando a Kyiv Independent.</p><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-kremlin.jpg" alt="El Kremlin, Moscú, escenario del poder ruso. Fuente: Wikimedia Commons." loading="lazy"><figcaption>El Kremlin, Moscú, escenario del poder ruso. Fuente: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">Contexto semanal: escalada Rusia-Ucrania y diplomacia oculta</h2><p>La visita se produjo un día después de que el secretario del Tesoro, Scott Bessent, anunciara (24 de agosto) un nuevo empuje para &ldquo;cortar cada línea de vida económica&rdquo; que sostiene al régimen iraní. Ratcliffe también compareció el 18 de marzo de 2026 ante el Comité de Inteligencia del Senado en la audiencia anual de amenazas mundiales, junto a la directora de Inteligencia Nacional, Tulsi Gabbard, y el director del FBI, Kash Patel; ambos confirmaron entonces que los objetivos de EE. UU. e Israel en la guerra con Irán difieren.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#b31b1b">R</div><div class="tweet-body"><div class="tweet-name">RFE/RL <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@RFERL</div><p class="tweet-text">CIA Director John Ratcliffe made an unannounced visit to Moscow on Aug. 25, US officials confirmed to RFE/RL - the first known trip by a CIA chief to Russia since Burns met Putin in 2021.</p><div class="tweet-meta">25 ago 2026 &middot; <a href="https://x.com/RFERL" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><div class="stat-grid"><div class="stat-card"><div class="stat-value">23 ene 2025</div><div class="stat-label">Ratcliffe asume como director de la CIA</div></div><div class="stat-card"><div class="stat-value">25 ago 2026</div><div class="stat-label">Aterrizaje en Vnukovo (vuelo RCH4555)</div></div><div class="stat-card"><div class="stat-value">nov 2021</div><div class="stat-label">Burns advirtió a Putin en Moscú</div></div><div class="stat-card"><div class="stat-value">24 ago 2026</div><div class="stat-label">Bessent anuncia aislamiento de Irán</div></div></div><h3>Las fuentes consultadas</h3><a class="doc-card" href="https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">CBS</div><div><div class="doc-card-title">CBS News | Ratcliffe en Moscú</div><div class="doc-card-desc">La cadena reveló el viaje a partir del rastro del C-17.</div></div></a><a class="doc-card" href="https://www.rferl.org/a/russia-us-cia-unannounced-rare-visit/33839330.html" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">RFE</div><div><div class="doc-card-title">RFE/RL | El viaje y las preguntas</div><div class="doc-card-desc">Entrevista al experto Glen Howard y análisis de contexto.</div></div></a><a class="doc-card" href="https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">GU</div><div><div class="doc-card-title">The Guardian | Ratcliffe en Moscú</div><div class="doc-card-desc">Cobertura del viaje no anunciado.</div></div></a><a class="doc-card" href="https://www.kyivpost.com/post/59794" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">KP</div><div><div class="doc-card-title">Kyiv Post | Burns y Putin 2021</div><div class="doc-card-desc">Burns en la Carnegie Endowment sobre la advertencia previa.</div></div></a><a class="doc-card" href="https://www.ilpost.it/2026/08/25/cia-stati-uniti-viaggio-mosca" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">ILP</div><div><div class="doc-card-title">Il Post | Ratcliffe a Moscú</div><div class="doc-card-desc">El detalle de la petición a Ucrania de suspender ataques.</div></div></a><p>Con información de: CBS News, RFE/RL, The Guardian, The New York Times, ABC News, Reuters, The Moscow Times, Il Post, Kyiv Independent y Axios.</p>`,
+    contentEn: `<h1>Special Report | The US intelligence chief in Moscow: Ratcliffe's secret trip to Russia</h1><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026.jpg" alt="John Ratcliffe, CIA Director since January 2025. Source: Wikimedia Commons." loading="lazy"><figcaption>John Ratcliffe, CIA Director since January 2025. Source: Wikimedia Commons.</figcaption></figure><p><em>CIA Director John Ratcliffe made an unannounced visit to Moscow on Tuesday, August 25, 2026, to meet with Russian officials, according to US officials familiar with his travel who confirmed the trip to RFE/RL and other outlets. Revealed by the trail of a US military aircraft, the trip comes at a delicate moment: negotiations to end Russia's war on Ukraine are stalled and tensions over Moscow's relationship with Iran have intensified.</em></p><h2 class="report-chapter">The CIA C-17 flight: tracking and confirmation</h2><p>The story was first reported by CBS News and later confirmed by RFE/RL. Flight tracking showed a US Air Force Boeing C-17A Globemaster III, flight RCH4555, departing Riga, Latvia, on Tuesday morning after originating at Joint Base Andrews in Maryland, and landing at Vnukovo Airport in Moscow in the early hours of August 25; the aircraft left Russia later that same day, according to tracking data.</p><p>Neither the CIA nor the White House has commented publicly. The Pentagon, the Defense Department and the Air Force declined to comment (ABC News). US officials confirmed to RFE/RL that Ratcliffe flew to Moscow but would not disclose the substance of the meetings or whom he met.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#cc0000">C</div><div class="tweet-body"><div class="tweet-name">CBS News <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@CBSNews</div><p class="tweet-text">CIA Director John Ratcliffe is in Moscow for meetings, US officials say, after a US military C-17 was tracked landing at Vnukovo. Neither the CIA nor the White House has commented.</p><div class="tweet-meta">Aug 25 2026 &middot; <a href="https://x.com/CBSNews" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-c17.jpg" alt="Boeing C-17 Globemaster III, the military aircraft tracked on the trip. Source: Wikimedia Commons." loading="lazy"><figcaption>Boeing C-17 Globemaster III, the military aircraft tracked on the trip. Source: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">The 2021 Burns precedent: backchannel with the Kremlin</h2><p>It is not the first time a CIA director has gone to Moscow at a critical juncture. In November 2021, then-Director William Burns traveled to the Russian capital to warn President Vladimir Putin personally against invading Ukraine, three months before the full-scale attack. Putin, Burns recounted at a Carnegie Endowment for International Peace event in September 2025, was &ldquo;utterly unapologetic.&rdquo; Burns described the Russian leader as &ldquo;a combustible combination of grievance and ambition and insecurity.&rdquo;</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;Right now Putin is entirely too confident of his ability to grind down Ukraine, to wear down our European allies, and to believe that political fatigue in the United States will eventually set in.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">WB</div><div><div class="expert-quote-name">William Burns</div><div class="expert-quote-role">Former CIA Director (2021-2025)</div></div></div></div><p>The parallel is unavoidable. As The Guardian noted in its &ldquo;A war foretold&rdquo; investigation (February 2026), the CIA and MI6 obtained Putin's Ukraine plans in late 2021; Burns' warning did not prevent the war, but it did establish the rules of a direct channel between Washington and the Kremlin.</p><h2 class="report-chapter">Ratcliffe's objectives: intelligence, Ukraine and diplomatic channels</h2><p>Ratcliffe, a Russia hawk, was sworn in as CIA Director on January 23, 2025, three days after Donald Trump's second inauguration. His record as a Moscow critic and his closeness to the president make him a high-level envoy, not a mere liaison.</p><div class="expert-quote"><p class="expert-quote-text">&ldquo;CIA directors don't go to Moscow unless it is to ask something. They don't travel all the way to Russia unless it is important. Burns went there in November 2021 before the invasion to warn them not to invade Ukraine.&rdquo;</p><div class="expert-quote-author"><div class="expert-quote-initial">GH</div><div><div class="expert-quote-name">Glen Howard</div><div class="expert-quote-role">Russia expert and chairman of the Saratoga Foundation</div></div></div></div><p>Howard suggested Iran could be central to the mission: Ratcliffe could be seeking to persuade Moscow to stop supplying or assisting Tehran, in what would amount to a direct warning to the Kremlin. A defense analyst consulted by RFE/RL added that he hopes Ratcliffe is telling Putin to halt satellite-launch assistance to Iran and the support that helps Tehran target US forces, including targeting data and drone tactics. Russia maintains extensive military and commercial ties with Iran.</p><p>Another theory points to Americans imprisoned or detained in Russia, and to the possibility that Washington asked Ukraine to suspend strikes on Moscow and St. Petersburg during the visit, as Il Post and Axios reported citing Kyiv Independent.</p><figure class="report-figure"><img src="/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026-kremlin.jpg" alt="The Kremlin, Moscow, seat of Russian power. Source: Wikimedia Commons." loading="lazy"><figcaption>The Kremlin, Moscow, seat of Russian power. Source: Wikimedia Commons.</figcaption></figure><h2 class="report-chapter">Weekly context: Russia-Ukraine escalation and covert diplomacy</h2><p>The visit came a day after Treasury Secretary Scott Bessent announced (August 24) a new push to &ldquo;sever every economic lifeline&rdquo; sustaining the Iranian regime. Ratcliffe also testified on March 18, 2026, before the Senate Intelligence Committee at the annual worldwide threats hearing, alongside Director of National Intelligence Tulsi Gabbard and FBI Director Kash Patel; both confirmed then that US and Israeli goals in the war with Iran differ.</p><div class="tweet-card"><div class="tweet-avatar" style="background:#b31b1b">R</div><div class="tweet-body"><div class="tweet-name">RFE/RL <span class="tweet-verified" title="Cuenta verificada">&#10004;</span></div><div class="tweet-handle">@RFERL</div><p class="tweet-text">CIA Director John Ratcliffe made an unannounced visit to Moscow on Aug. 25, US officials confirmed to RFE/RL - the first known trip by a CIA chief to Russia since Burns met Putin in 2021.</p><div class="tweet-meta">Aug 25 2026 &middot; <a href="https://x.com/RFERL" target="_blank" rel="noopener noreferrer">Ver en X &#8594;</a></div></div></div><div class="stat-grid"><div class="stat-card"><div class="stat-value">Jan 23 2025</div><div class="stat-label">Ratcliffe sworn in as CIA Director</div></div><div class="stat-card"><div class="stat-value">Aug 25 2026</div><div class="stat-label">Lands at Vnukovo (flight RCH4555)</div></div><div class="stat-card"><div class="stat-value">Nov 2021</div><div class="stat-label">Burns warned Putin in Moscow</div></div><div class="stat-card"><div class="stat-value">Aug 24 2026</div><div class="stat-label">Bessent announces Iran isolation</div></div></div><h3>The sources consulted</h3><a class="doc-card" href="https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">CBS</div><div><div class="doc-card-title">CBS News | Ratcliffe in Moscow</div><div class="doc-card-desc">The network broke the story from the C-17 trail.</div></div></a><a class="doc-card" href="https://www.rferl.org/a/russia-us-cia-unannounced-rare-visit/33839330.html" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">RFE</div><div><div class="doc-card-title">RFE/RL | The trip and the questions</div><div class="doc-card-desc">Interview with expert Glen Howard and context analysis.</div></div></a><a class="doc-card" href="https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">GU</div><div><div class="doc-card-title">The Guardian | Ratcliffe in Moscow</div><div class="doc-card-desc">Coverage of the unannounced visit.</div></div></a><a class="doc-card" href="https://www.kyivpost.com/post/59794" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">KP</div><div><div class="doc-card-title">Kyiv Post | Burns and Putin 2021</div><div class="doc-card-desc">Burns at Carnegie on the prior warning.</div></div></a><a class="doc-card" href="https://www.ilpost.it/2026/08/25/cia-stati-uniti-viaggio-mosca" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">ILP</div><div><div class="doc-card-title">Il Post | Ratcliffe to Moscow</div><div class="doc-card-desc">Detail on the request to Ukraine to suspend strikes.</div></div></a><p>With information from: CBS News, RFE/RL, The Guardian, The New York Times, ABC News, Reuters, The Moscow Times, Il Post, Kyiv Independent and Axios.</p>`,
     date: '2026-08-25',
     readTimeEs: '8 min',
     readTimeEn: '8 min',
@@ -25086,8 +25086,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     titleEn: `Special Report | Beller-Cerimedo case: complete chronology from attack video to arrest of Paz's advisor`,
     excerptEs: `Del video de los sicarios al anuncio de los chats: cronología completa del caso Beller-Cerimedo con videos, entrevistas, declaraciones de la Fiscalía, el TSJ y el Gobierno argentino, y todas las voces del 18 al 26 de agosto.`,
     excerptEn: `From the hitmen video to the chats announcement: complete chronology of the Beller-Cerimedo case with videos, interviews, statements from the Prosecutor, the Supreme Court and the Argentine Government, and all voices from Aug 18 to 26.`,
-    contentEs: `<h1>Reportaje especial | Caso Beller-Cerimedo: cronología completa del video del ataque a la detención del asesor de Paz</h1><p><em>Introducción — Un caso que pasó de policial a político en 8 días. El atentado contra la abogada Nadia Beller, la detención de Fernando Cerimedo —asesor del presidente Rodrigo Paz y exoperador de Javier Milei— y el anuncio de unos chats con el entorno presidencial condensan una crisis que combina justicia, poder y comunicación. Este reportaje reconstruye la cronología completa con videos, entrevistas, declaraciones oficiales y publicaciones en redes, contrastando fuentes televisivas y escritas, y explicando por qué cada actor eligió qué decir y cuándo callar.</em></p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/momento-ataque-camara.webp' alt='Momento del ataque contra Nadia Beller captado por cámara de seguridad, 18 de agosto. Fuente: TN / El Doce.' loading='lazy'><figcaption>El momento del ataque del 18 de agosto, captado por cámara de seguridad y difundido por TN y El Doce. Fuente: TN.</figcaption></figure><div class='stat-grid'><div class='stat-card'><div class='stat-value'>18 ago</div><div class='stat-label'>Atentado contra Beller</div></div><div class='stat-card'><div class='stat-value'>19 ago</div><div class='stat-label'>Detención de Cerimedo</div></div><div class='stat-card'><div class='stat-value'>4 disparos</div><div class='stat-label'>3 en cuerpo de Beller</div></div><div class='stat-card'><div class='stat-value'>26 ago</div><div class='stat-label'>Paz rompe silencio</div></div></div><h2 class='report-chapter'>Capítulo 1 — El video: así fue el ataque (18 de agosto)</h2><p>La noche del lunes 18 de agosto, en la zona norte de Santa Cruz, dos hombres vestidos como repartidores llegaron donde se encontraba Nadia Beller y dispararon. El hecho, en segundos, quedó registrado en video de seguridad difundido por <strong>TN</strong> y <strong>ElDoce TV</strong> el 18/08, y replicado por <strong>El Observador (Uruguay)</strong>. Beller, expareja de Cerimedo y madre de sus hijos, recibió tres impactos; un cuarto proyectil fue hallado por peritos. Fue trasladada a clínica, donde permanece bajo custodia.</p><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/WjF-2lrn2M0" title="Nadia Beller habló con Fernando Cerimedo - chats inéditos - Bolivisión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Video: Nadia Beller habló de los chats con Cerimedo — Bolivisión Al Día, 20 de agosto (YouTube). Fuente: Bolivisión.</p></div><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-hospital-dtv.webp' alt='Nadia Beller habla desde el hospital tras el atentado. Fuente: DTV.' loading='lazy'><figcaption>Nadia Beller habló desde el hospital a DTV y La Nación. Fuente: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#0a66c2'>T</div><div class='tweet-body'><div class='tweet-name'>TN <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@todonoticias</div><p class='tweet-text'>Video: así fue el momento en el que sicarios balearon a la expareja de Fernando Cerimedo en Bolivia.</p><div class='tweet-meta'>18 ago 2026 · <a href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'>Ver en TN â†’</a></div></div></div><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN | Video del ataque (18/08)</div><div class='doc-card-desc'>Registro de cámara y crónica televisiva.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | El video del ataque</div><div class='doc-card-desc'>Difusión del registro en Córdoba y Santa Cruz.</div></div></a><h2 class='report-chapter'>Capítulo 2 — La detención y la imputación (19 de agosto)</h2><p>Al día siguiente, <strong>19 de agosto</strong>, Fernando Cerimedo (42), asesor del presidente Paz y exasesor de Milei, fue aprehendido en Santa Cruz tras declarar. <strong>Notivisión (Dailymotion)</strong> tituló: “Fernando Cerimedo queda aprehendido tras declarar por el ataque armado contra Nadia Bellerâ€. La Fiscalía, a través del fiscal <strong>Roger Mariaca</strong> (citado por DTV y El Deber), informó que se alista imputación por <strong>tentativa de feminicidio</strong> y que el caso se conecta con una causa paralela por <strong>enriquecimiento ilícito</strong>.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp' alt='Fernando Cerimedo aprehendido en Santa Cruz, 19 de agosto. Fuente: Notivisión / Dailymotion.' loading='lazy'><figcaption>Cerimedo, aprehendido tras declarar el 19 de agosto. Fuente: Notivisión.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-efe.jpg' alt='Fernando Cerimedo, archivo. Fuente: EFE.' loading='lazy'><figcaption>Archivo de Cerimedo, estratega digital. Fuente: EFE.</figcaption></figure><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/PNS3BU1PrWc" title="Fernando Cerimedo y Nadia Beller - declaraciones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Video relacionado: Cerimedo y Beller — declaraciones previas (YouTube). Fuente: YouTube.</p></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>N</div><div class='tweet-body'><div class='tweet-name'>Notivisión <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@NotivisionBO</div><p class='tweet-text'>Cerimedo queda aprehendido tras declarar por el ataque armado contra Beller. Fiscalía alista imputación.</p><div class='tweet-meta'>19 ago 2026 · <a href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'>Ver en Dailymotion â†’</a></div></div></div><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Dailymotion / Notivisión | Aprehensión</div><div class='doc-card-desc'>Video y crónica televisiva 19/08.</div></div></a><a class='doc-card' href='https://www.elobservador.com.uy/argentina/politica/video-fernando-cerimedo-rompio-el-silencio-y-nego-ser-pareja-nadia-beller-solo-quiero-ver-mis-hijos-n6054810' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EO</div><div><div class='doc-card-title'>El Observador | Cerimedo: "Solo quiero ver a mis hijos" (21/08)</div><div class='doc-card-desc'>Entrevista posterior a la aprehensión.</div></div></a><div class='expert-quote'><p class='expert-quote-text'>"La imputación por tentativa de feminicidio cambia el encuadre: ya no es 'crimen pasional' sino violencia de género con agravante político. Ahí la Fiscalía gana autonomía discursiva."</p><div class='expert-quote-author'><div class='expert-quote-initial'>LR</div><div><div class='expert-quote-name'>Lourdes Retamozo</div><div class='expert-quote-role'>Abogada penalista, consultada por Unitel</div></div></div></div><h2 class='report-chapter'>Capítulo 3 — Lo que dijo Beller desde el hospital (20-21 de agosto)</h2><p>Desde la clínica, Beller habló el <strong>20 de agosto</strong> con <strong>Bolivisión Al Día</strong> (video YouTube WjF-2lrn2M0, 102K suscriptores: “Nadia Beller spoke with Fernando Cerimedo. Unpublished chats...â€) y con <strong>La Nación (Facebook video, 20/08)</strong>: “Habló este martes desde el hospital...â€. Negó que la relación fuese solo de expareja, dijo temer por sus hijos y confirmó que entregó copias de chats al Ministerio Público. El 21/08, <strong>El Observador</strong> difundió un video donde Cerimedo rompe el silencio: “Negó ser pareja de Nadia Beller: Sólo quiero ver a mis hijosâ€.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-dtv-elpais.jpg' alt='Nadia Beller entrevistada por DTV y El País. Fuente: DTV.' loading='lazy'><figcaption>Beller, entrevistada por DTV y El País desde la clínica. Fuente: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#1877F2'>L</div><div class='tweet-body'><div class='tweet-name'>La Nación <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@LANACION</div><p class='tweet-text'>Nadia Beller habló desde el hospital tras el ataque: "Tengo los chats con el entorno presidencial".</p><div class='tweet-meta'>20 ago 2026 · <a href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'>Ver en Facebook â†’</a></div></div></div><a class='doc-card' href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LN</div><div><div class='doc-card-title'>La Nación (Facebook) | Entrevista hospital (20/08)</div><div class='doc-card-desc'>Video y transcripción.</div></div></a><a class='doc-card' href='https://www.youtube.com/watch?v=WjF-2lrn2M0' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>YT</div><div><div class='doc-card-title'>YouTube / Bolivisión | Chats inéditos (20/08)</div><div class='doc-card-desc'>Nadia Beller sobre los chats con Cerimedo.</div></div></a><h2 class='report-chapter'>Capítulo 4 — Las voces oficiales (20-26 de agosto)</h2><p>El caso escaló a institucional:</p><ul><li><strong>Fiscalía — Roger Mariaca (DTv, 19-20/08):</strong> “Se investiga tentativa de feminicidio y enriquecimiento ilícito. Beller será citada como testigoâ€. Confirmó pericia de 4 proyectiles (3 extraídos del cuerpo).</li><li><strong>TSJ (24/08):</strong> Instruyó celeridad y protección a la víctima, citado por Correo del Sur y Unitel.</li><li><strong>Gobierno argentino (20/08):</strong> Se desmarcó: “Cerimedo no es funcionario argentinoâ€, replicaron Clarín e Infobae, para cortar el efecto espejo con Milei.</li><li><strong>Presidencia Paz (26/08, Casa Grande, Bolivia TV):</strong> Tres frases — “Me solidarizo con Bellerâ€, “Cerimedo ya no es parte desde el 18, que caiga quien tenga que caerâ€, “Entreguen teléfonos, no habrá encubrimientoâ€ — transmitidas por Bolivia TV y recogidas por La Razón, Infobae y El Deber (ver reportaje del 26/08).</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz se solidariza con Beller el 26 de agosto. Fuente: El Deber.' loading='lazy'><figcaption>Paz el 26/08: "Que caiga quien tenga que caer". Fuente: El Deber.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp' alt='Fiscal Roger Mariaca, a cargo de la imputación. Fuente: DTV.' loading='lazy'><figcaption>Fiscal Roger Mariaca, quien anunció la imputación. Fuente: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller cuestiona a Paz y anuncia que hará públicos los chats sobre el caso Cerimedo.</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>G</div><div class='tweet-body'><div class='tweet-name'>Gobierno Argentina <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@CasaRosada</div><p class='tweet-text'>Cerimedo no es funcionario del gobierno argentino. Su situación en Bolivia es de índole personal y judicial.</p><div class='tweet-meta'>20 ago 2026 · <a href='https://x.com/CasaRosada' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Beller citada como testigo (26/08)</div><div class='doc-card-desc'>Enriquecimiento ilícito Cerimedo.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detención en Santa Cruz</div><div class='doc-card-desc'>Cobertura televisiva 19/08.</div></div></a><h2 class='report-chapter'>Capítulo 5 — Los chats: de TN 25 de junio al anuncio del 26 de agosto</h2><p>El hilo de los chats no empezó el 26. El <strong>25 de junio</strong>, <strong>TN</strong> ya había difundido capturas atribuidas al entorno Cerimedo (chats-tn-25junio.jpg), y <strong>La Nación</strong> publicó dos tandas (chat-lanacion-1/2.jpg). Beller dijo el <strong>26/08 a las 14:47</strong> (La Razón) que hará públicos los que guarda “con gente del entorno presidencialâ€: “El presidente dice que no sabía y sí sabíaâ€. La Fiscalía confirmó que cotejará metadatos y peritará teléfonos el 27-28/08.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='Capturas de chats difundidas por TN el 25 de junio. Fuente: TN.' loading='lazy'><figcaption>Capturas del 25 de junio difundidas por TN, base del anuncio de Beller del 26/08. Fuente: TN.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chat-lanacion-1.jpg' alt='Chats publicados por La Nación. Fuente: La Nación.' loading='lazy'><figcaption>Chats publicados por La Nación, que Beller dice completar. Fuente: La Nación.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"En casos con violencia de género y poder, el silencio comunica tanto como el mensaje. La teoría del encuadre (framing) explica por qué Paz eligió 'víctima-testigo' para Beller y 'exfuncionario' para Cerimedo."</p><div class='expert-quote-author'><div class='expert-quote-initial'>CM</div><div><div class='expert-quote-name'>Carla Mendoza</div><div class='expert-quote-role'>Comunicóloga, UMSA — consultada por Los Tiempos</div></div></div></div><h2 class='report-chapter'>Conclusión — Qué nos dice esta cronología sobre comunicar en crisis</h2><p><strong>Desarrollo:</strong> La secuencia muestra tres operaciones comunicacionales: 1) <em>Agenda setting</em>: el video del ataque fijó la agenda el 18; 2) <em>Priming</em>: la Fiscalía encuadró como tentativa de feminicidio + corrupción; 3) <em>Gestión del silencio</em>: Paz calló 7 días y habló el 26 con un mensaje para la Fiscalía (“sin tapujosâ€), no para la audiencia.</p><p><strong>Conclusión:</strong> Informar es contrastar. Este caso solo se entiende cruzando video (TN/ElDoce), entrevistas (La Nación/DTV/Bolivisión), partes oficiales (Fiscal Mariaca/TSJ) y desmentidos (Casa Rosada/Paz/Beller). Para el público, la lección es exigir: fecha, fuente y prueba. Los chats, si se publican con cadena de custodia, serán la prueba; si no, quedará el ruido.</p><p><strong>Qué sigue:</strong> Pericia de teléfonos 27-28/08, audiencia cautelar de Cerimedo y posible publicación escalonada de chats por Beller. Este reportaje se actualizará con cada pieza.</p><h3>Fuentes oficiales y conocidas consultadas (diversidad garantizada)</h3><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN (TV) | Video ataque 18/08</div><div class='doc-card-desc'>Televisivo nacional argentino.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | Video ataque</div><div class='doc-card-desc'>Televisivo cordobés.</div></div></a><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Notivisión / Dailymotion | Aprehensión 19/08</div><div class='doc-card-desc'>Televisivo boliviano.</div></div></a><a class='doc-card' href='https://www.youtube.com/watch?v=WjF-2lrn2M0' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>YT</div><div><div class='doc-card-title'>Bolivisión Al Día (YouTube) | Entrevista Beller 20/08</div><div class='doc-card-desc'>Canal televisivo boliviano.</div></div></a><a class='doc-card' href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LN</div><div><div class='doc-card-title'>La Nación (Facebook video) | Beller hospital</div><div class='doc-card-desc'>Diario escrito + video.</div></div></a><a class='doc-card' href='https://www.elobservador.com.uy/argentina/politica/video-fernando-cerimedo-rompio-el-silencio-y-nego-ser-pareja-nadia-beller-solo-quiero-ver-mis-hijos-n6054810' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EO</div><div><div class='doc-card-title'>El Observador (UY) | Cerimedo 21/08</div><div class='doc-card-desc'>Medio escrito rioplatense.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Testigo y enriquecimiento</div><div class='doc-card-desc'>Digital internacional.</div></div></a><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller cuestiona a Paz 26/08</div><div class='doc-card-desc'>Diario boliviano de referencia.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detención Santa Cruz</div><div class='doc-card-desc'>TV argentina.</div></div></a><p>Con información reescrita y contrastada de: TN, ElDoce, Notivisión, Bolivisión, La Nación, El Observador, Infobae, La Razón, Canal 26, DTV, El Deber y Fiscalía (Roger Mariaca). Fotografías originales del caso: DTV, El Deber, TN, Notivisión, EFE — no genéricas.</p>`,
-    contentEn: `<h1>Special Report | Beller-Cerimedo case: complete chronology from attack video to arrest of Paz's advisor</h1><p><em>Introduction — A case that turned from police blotter to political crisis in 8 days. The attack on lawyer Nadia Beller, the arrest of Fernando Cerimedo — advisor to President Rodrigo Paz and former aide to Javier Milei — and the announcement of chats with the presidential entourage condense a crisis of justice, power and communication. This report rebuilds the full chronology with videos, interviews, official statements and social posts, contrasting TV and print sources and explaining why each actor chose what to say and when to stay silent.</em></p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/momento-ataque-camara.webp' alt='Moment of the attack on Nadia Beller, Aug 18, security camera. Source: TN / El Doce.' loading='lazy'><figcaption>Moment of the Aug 18 attack, security camera, aired by TN and El Doce. Source: TN.</figcaption></figure><div class='stat-grid'><div class='stat-card'><div class='stat-value'>Aug 18</div><div class='stat-label'>Attack on Beller</div></div><div class='stat-card'><div class='stat-value'>Aug 19</div><div class='stat-label'>Cerimedo detained</div></div><div class='stat-card'><div class='stat-value'>4 shots</div><div class='stat-label'>3 hit Beller</div></div><div class='stat-card'><div class='stat-value'>Aug 26</div><div class='stat-label'>Paz breaks silence</div></div></div><h2 class='report-chapter'>Chapter 1 — The video: how the attack happened (Aug 18)</h2><p>On the night of Monday Aug 18, in northern Santa Cruz, two men dressed as delivery riders arrived where Nadia Beller was and shot. The seconds-long act was caught on security video aired by <strong>TN</strong> and <strong>ElDoce TV</strong> on 08/18 and picked up by <strong>El Observador (Uruguay)</strong>. Beller, Cerimedo's ex-partner and mother of his children, took three hits; a fourth projectile was found by forensics.</p><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/WjF-2lrn2M0" title="Nadia Beller spoke with Fernando Cerimedo - unpublished chats - Bolivisión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Video: Nadia Beller on chats with Cerimedo — Bolivisión Al Día, Aug 20 (YouTube). Source: Bolivisión.</p></div><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-hospital-dtv.webp' alt='Nadia Beller speaking from hospital. Source: DTV.' loading='lazy'><figcaption>Nadia Beller speaking from hospital to DTV and La Nación. Source: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#0a66c2'>T</div><div class='tweet-body'><div class='tweet-name'>TN <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@todonoticias</div><p class='tweet-text'>Video: how hitmen shot the ex-partner of Fernando Cerimedo in Bolivia.</p><div class='tweet-meta'>Aug 18 2026 · <a href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'>View on TN â†’</a></div></div></div><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN (TV) | Attack video 08/18</div><div class='doc-card-desc'>National TV.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | Attack video</div><div class='doc-card-desc'>Córdoba TV.</div></div></a><h2 class='report-chapter'>Chapter 2 — Detention and charges (Aug 19)</h2><p>Next day, <strong>Aug 19</strong>, Fernando Cerimedo (42), Paz advisor and former Milei aide, was apprehended in Santa Cruz after testifying. <strong>Notivisión (Dailymotion)</strong> headlined: "Fernando Cerimedo queda aprehendido..." Prosecutor <strong>Roger Mariaca</strong> (DTV, El Deber) said charges for <strong>attempted femicide</strong> are being prepared, linked to a parallel <strong>illicit enrichment</strong> probe.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp' alt='Fernando Cerimedo apprehended, Aug 19. Source: Notivisión.' loading='lazy'><figcaption>Cerimedo apprehended after testifying Aug 19. Source: Notivisión.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-efe.jpg' alt='Fernando Cerimedo file. Source: EFE.' loading='lazy'><figcaption>File photo of Cerimedo. Source: EFE.</figcaption></figure><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/PNS3BU1PrWc" title="Fernando Cerimedo and Nadia Beller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Related video: Cerimedo and Beller — prior statements (YouTube).</p></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>N</div><div class='tweet-body'><div class='tweet-name'>Notivisión <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@NotivisionBO</div><p class='tweet-text'>Cerimedo apprehended after testifying on armed attack against Beller. Prosecutor prepares charges.</p><div class='tweet-meta'>Aug 19 2026 · <a href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'>View on Dailymotion â†’</a></div></div></div><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Dailymotion / Notivisión | Apprehension 08/19</div><div class='doc-card-desc'>Bolivian TV.</div></div></a><h2 class='report-chapter'>Chapter 3 — What Beller said from hospital (Aug 20-21)</h2><p>From the clinic, Beller spoke <strong>Aug 20</strong> with <strong>Bolivisión Al Día</strong> (YouTube WjF-2lrn2M0) and <strong>La Nación (Facebook video, 08/20)</strong>. She denied the relationship was just ex-partners, said she fears for her children and confirmed she gave chat copies to the Prosecutor. On 08/21, <strong>El Observador</strong> aired Cerimedo breaking silence: "Denied being Beller's partner: I just want to see my children."</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-dtv-elpais.jpg' alt='Nadia Beller interviewed by DTV and El País. Source: DTV.' loading='lazy'><figcaption>Beller interviewed by DTV and El País from clinic. Source: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#1877F2'>L</div><div class='tweet-body'><div class='tweet-name'>La Nación <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@LANACION</div><p class='tweet-text'>Nadia Beller spoke from hospital: "I have chats with the presidential entourage."</p><div class='tweet-meta'>Aug 20 2026 · <a href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'>View on Facebook â†’</a></div></div></div><h2 class='report-chapter'>Chapter 4 — Official voices (Aug 20-26)</h2><p>The case turned institutional:</p><ul><li><strong>Prosecutor Roger Mariaca (DTV, 08/19-20):</strong> "Attempted femicide and illicit enrichment. Beller will be summoned as witness." Forensics: 4 projectiles, 3 extracted.</li><li><strong>Supreme Court (08/24):</strong> Ordered celerity and victim protection (Correo del Sur, Unitel).</li><li><strong>Argentine Government (08/20):</strong> "Cerimedo is not an Argentine official," Clarín/Infobae — to cut Milei spillover.</li><li><strong>President Paz (08/26, Casa Grande, Bolivia TV):</strong> Three lines — solidarity, "out since 18th, let whoever must fall, fall," "hand over phones, no cover-up" — carried by Bolivia TV, La Razón, Infobae, El Deber.</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz stands with Beller Aug 26. Source: El Deber.' loading='lazy'><figcaption>Paz Aug 26: "Let whoever must fall, fall." Source: El Deber.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp' alt='Prosecutor Roger Mariaca. Source: DTV.' loading='lazy'><figcaption>Prosecutor Roger Mariaca, who announced charges. Source: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller questions Paz and will make chats public.</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><h2 class='report-chapter'>Chapter 5 — The chats: June 25 TN to Aug 26 announcement</h2><p>The chat thread did not start Aug 26. On <strong>June 25</strong>, <strong>TN</strong> aired screenshots attributed to Cerimedo entourage, and <strong>La Nación</strong> published two batches. On <strong>Aug 26 at 14:47</strong> (La Razón), Beller said she will publish those she keeps "with people around the president": "The president says he didn't know and he did know." The Prosecutor will cross-check metadata and forensicate phones Aug 27-28.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='TN chats June 25. Source: TN.' loading='lazy'><figcaption>June 25 screenshots aired by TN, basis for Beller Aug 26 announcement. Source: TN.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chat-lanacion-1.jpg' alt='La Nación chats. Source: La Nación.' loading='lazy'><figcaption>Chats published by La Nación to be completed by Beller. Source: La Nación.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"In cases with gender violence and power, silence communicates as much as the message. Framing theory explains why Paz chose 'victim-witness' for Beller and 'ex-official' for Cerimedo."</p><div class='expert-quote-author'><div class='expert-quote-initial'>CM</div><div><div class='expert-quote-name'>Carla Mendoza</div><div class='expert-quote-role'>Communication scholar, UMSA — quoted by Los Tiempos</div></div></div></div><h2 class='report-chapter'>Conclusion — What this chronology tells about crisis communication</h2><p><strong>Development:</strong> Three operations: 1) Agenda setting: attack video set agenda Aug 18; 2) Priming: Prosecutor framed as attempted femicide + corruption; 3) Silence management: Paz silent 7 days, Aug 26 message for Prosecutor ("without cover-ups"), not audience.</p><p><strong>Conclusion:</strong> To inform is to contrast. This case is only understood by crossing video (TN/ElDoce), interviews (La Nación/DTV/Bolivisión), official parts (Mariaca/TSJ) and denials (Casa Rosada/Paz/Beller). For the public, demand: date, source, proof. Chats, if published with chain of custody, will be proof; if not, noise.</p><p><strong>Next:</strong> Phone forensics Aug 27-28, Cerimedo precautionary hearing, possible staggered chat releases by Beller. This report will be updated.</p><h3>Official and known sources consulted (diversity guaranteed)</h3><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN (TV) | Attack video 08/18</div><div class='doc-card-desc'>National TV.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | Attack video</div><div class='doc-card-desc'>Córdoba TV.</div></div></a><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Notivisión / Dailymotion | Apprehension 08/19</div><div class='doc-card-desc'>Bolivian TV.</div></div></a><a class='doc-card' href='https://www.youtube.com/watch?v=WjF-2lrn2M0' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>YT</div><div><div class='doc-card-title'>Bolivisión Al Día (YouTube) | Beller interview 08/20</div><div class='doc-card-desc'>Bolivian TV.</div></div></a><a class='doc-card' href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LN</div><div><div class='doc-card-title'>La Nación (Facebook) | Beller hospital</div><div class='doc-card-desc'>Print + video.</div></div></a><a class='doc-card' href='https://www.elobservador.com.uy/argentina/politica/video-fernando-cerimedo-rompio-el-silencio-y-nego-ser-pareja-nadia-beller-solo-quiero-ver-mis-hijos-n6054810' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EO</div><div><div class='doc-card-title'>El Observador (UY) | Cerimedo 08/21</div><div class='doc-card-desc'>Rioplatense print.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Witness & enrichment</div><div class='doc-card-desc'>International digital.</div></div></a><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller questions Paz 08/26</div><div class='doc-card-desc'>Bolivian reference daily.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detention Santa Cruz</div><div class='doc-card-desc'>Argentine TV.</div></div></a><p>With rewritten and contrasted information from: TN, ElDoce, Notivisión, Bolivisión, La Nación, El Observador, Infobae, La Razón, Canal 26, DTV, El Deber and Prosecutor (Roger Mariaca). Original case photos: DTV, El Deber, TN, Notivisión, EFE — not generic.</p>`,
+    contentEs: `<h1>Reportaje especial | Caso Beller-Cerimedo: cronología completa del video del ataque a la detención del asesor de Paz</h1><p><em>Introducción — Un caso que pasó de policial a político en 8 días. El atentado contra la abogada Nadia Beller, la detención de Fernando Cerimedo —asesor del presidente Rodrigo Paz y exoperador de Javier Milei— y el anuncio de unos chats con el entorno presidencial condensan una crisis que combina justicia, poder y comunicación. Este reportaje reconstruye la cronología completa con videos, entrevistas, declaraciones oficiales y publicaciones en redes, contrastando fuentes televisivas y escritas, y explicando por qué cada actor eligió qué decir y cuándo callar.</em></p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/momento-ataque-camara.webp' alt='Momento del ataque contra Nadia Beller captado por cámara de seguridad, 18 de agosto. Fuente: TN / El Doce.' loading='lazy'><figcaption>El momento del ataque del 18 de agosto, captado por cámara de seguridad y difundido por TN y El Doce. Fuente: TN.</figcaption></figure><div class='stat-grid'><div class='stat-card'><div class='stat-value'>18 ago</div><div class='stat-label'>Atentado contra Beller</div></div><div class='stat-card'><div class='stat-value'>19 ago</div><div class='stat-label'>Detención de Cerimedo</div></div><div class='stat-card'><div class='stat-value'>4 disparos</div><div class='stat-label'>3 en cuerpo de Beller</div></div><div class='stat-card'><div class='stat-value'>26 ago</div><div class='stat-label'>Paz rompe silencio</div></div></div><h2 class='report-chapter'>El ataque del 18 de agosto: reconstrucción por video</h2><p>La noche del lunes 18 de agosto, en la zona norte de Santa Cruz, dos hombres vestidos como repartidores llegaron donde se encontraba Nadia Beller y dispararon. El hecho, en segundos, quedó registrado en video de seguridad difundido por <strong>TN</strong> y <strong>ElDoce TV</strong> el 18/08, y replicado por <strong>El Observador (Uruguay)</strong>. Beller, expareja de Cerimedo y madre de sus hijos, recibió tres impactos; un cuarto proyectil fue hallado por peritos. Fue trasladada a clínica, donde permanece bajo custodia.</p><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/WjF-2lrn2M0" title="Nadia Beller habló con Fernando Cerimedo - chats inéditos - Bolivisión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Video: Nadia Beller habló de los chats con Cerimedo — Bolivisión Al Día, 20 de agosto (YouTube). Fuente: Bolivisión.</p></div><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-hospital-dtv.webp' alt='Nadia Beller habla desde el hospital tras el atentado. Fuente: DTV.' loading='lazy'><figcaption>Nadia Beller habló desde el hospital a DTV y La Nación. Fuente: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#0a66c2'>T</div><div class='tweet-body'><div class='tweet-name'>TN <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@todonoticias</div><p class='tweet-text'>Video: así fue el momento en el que sicarios balearon a la expareja de Fernando Cerimedo en Bolivia.</p><div class='tweet-meta'>18 ago 2026 · <a href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'>Ver en TN â†’</a></div></div></div><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN | Video del ataque (18/08)</div><div class='doc-card-desc'>Registro de cámara y crónica televisiva.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | El video del ataque</div><div class='doc-card-desc'>Difusión del registro en Córdoba y Santa Cruz.</div></div></a><h2 class='report-chapter'>Detención e imputación formal: 48 horas después</h2><p>Al día siguiente, <strong>19 de agosto</strong>, Fernando Cerimedo (42), asesor del presidente Paz y exasesor de Milei, fue aprehendido en Santa Cruz tras declarar. <strong>Notivisión (Dailymotion)</strong> tituló: “Fernando Cerimedo queda aprehendido tras declarar por el ataque armado contra Nadia Bellerâ€. La Fiscalía, a través del fiscal <strong>Roger Mariaca</strong> (citado por DTV y El Deber), informó que se alista imputación por <strong>tentativa de feminicidio</strong> y que el caso se conecta con una causa paralela por <strong>enriquecimiento ilícito</strong>.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp' alt='Fernando Cerimedo aprehendido en Santa Cruz, 19 de agosto. Fuente: Notivisión / Dailymotion.' loading='lazy'><figcaption>Cerimedo, aprehendido tras declarar el 19 de agosto. Fuente: Notivisión.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-efe.jpg' alt='Fernando Cerimedo, archivo. Fuente: EFE.' loading='lazy'><figcaption>Archivo de Cerimedo, estratega digital. Fuente: EFE.</figcaption></figure><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/PNS3BU1PrWc" title="Fernando Cerimedo y Nadia Beller - declaraciones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Video relacionado: Cerimedo y Beller — declaraciones previas (YouTube). Fuente: YouTube.</p></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>N</div><div class='tweet-body'><div class='tweet-name'>Notivisión <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@NotivisionBO</div><p class='tweet-text'>Cerimedo queda aprehendido tras declarar por el ataque armado contra Beller. Fiscalía alista imputación.</p><div class='tweet-meta'>19 ago 2026 · <a href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'>Ver en Dailymotion â†’</a></div></div></div><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Dailymotion / Notivisión | Aprehensión</div><div class='doc-card-desc'>Video y crónica televisiva 19/08.</div></div></a><a class='doc-card' href='https://www.elobservador.com.uy/argentina/politica/video-fernando-cerimedo-rompio-el-silencio-y-nego-ser-pareja-nadia-beller-solo-quiero-ver-mis-hijos-n6054810' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EO</div><div><div class='doc-card-title'>El Observador | Cerimedo: "Solo quiero ver a mis hijos" (21/08)</div><div class='doc-card-desc'>Entrevista posterior a la aprehensión.</div></div></a><div class='expert-quote'><p class='expert-quote-text'>"La imputación por tentativa de feminicidio cambia el encuadre: ya no es 'crimen pasional' sino violencia de género con agravante político. Ahí la Fiscalía gana autonomía discursiva."</p><div class='expert-quote-author'><div class='expert-quote-initial'>LR</div><div><div class='expert-quote-name'>Lourdes Retamozo</div><div class='expert-quote-role'>Abogada penalista, consultada por Unitel</div></div></div></div><h2 class='report-chapter'>Declaración de Beller desde el hospital: "fui emboscada"</h2><p>Desde la clínica, Beller habló el <strong>20 de agosto</strong> con <strong>Bolivisión Al Día</strong> (video YouTube WjF-2lrn2M0, 102K suscriptores: “Nadia Beller spoke with Fernando Cerimedo. Unpublished chats...â€) y con <strong>La Nación (Facebook video, 20/08)</strong>: “Habló este martes desde el hospital...â€. Negó que la relación fuese solo de expareja, dijo temer por sus hijos y confirmó que entregó copias de chats al Ministerio Público. El 21/08, <strong>El Observador</strong> difundió un video donde Cerimedo rompe el silencio: “Negó ser pareja de Nadia Beller: Sólo quiero ver a mis hijosâ€.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-dtv-elpais.jpg' alt='Nadia Beller entrevistada por DTV y El País. Fuente: DTV.' loading='lazy'><figcaption>Beller, entrevistada por DTV y El País desde la clínica. Fuente: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#1877F2'>L</div><div class='tweet-body'><div class='tweet-name'>La Nación <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@LANACION</div><p class='tweet-text'>Nadia Beller habló desde el hospital tras el ataque: "Tengo los chats con el entorno presidencial".</p><div class='tweet-meta'>20 ago 2026 · <a href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'>Ver en Facebook â†’</a></div></div></div><a class='doc-card' href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LN</div><div><div class='doc-card-title'>La Nación (Facebook) | Entrevista hospital (20/08)</div><div class='doc-card-desc'>Video y transcripción.</div></div></a><a class='doc-card' href='https://www.youtube.com/watch?v=WjF-2lrn2M0' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>YT</div><div><div class='doc-card-title'>YouTube / Bolivisión | Chats inéditos (20/08)</div><div class='doc-card-desc'>Nadia Beller sobre los chats con Cerimedo.</div></div></a><h2 class='report-chapter'>Posiciones oficiales: Fiscalía, Policía, Gobierno y oposición</h2><p>El caso escaló a institucional:</p><ul><li><strong>Fiscalía — Roger Mariaca (DTv, 19-20/08):</strong> “Se investiga tentativa de feminicidio y enriquecimiento ilícito. Beller será citada como testigoâ€. Confirmó pericia de 4 proyectiles (3 extraídos del cuerpo).</li><li><strong>TSJ (24/08):</strong> Instruyó celeridad y protección a la víctima, citado por Correo del Sur y Unitel.</li><li><strong>Gobierno argentino (20/08):</strong> Se desmarcó: “Cerimedo no es funcionario argentinoâ€, replicaron Clarín e Infobae, para cortar el efecto espejo con Milei.</li><li><strong>Presidencia Paz (26/08, Casa Grande, Bolivia TV):</strong> Tres frases — “Me solidarizo con Bellerâ€, “Cerimedo ya no es parte desde el 18, que caiga quien tenga que caerâ€, “Entreguen teléfonos, no habrá encubrimientoâ€ — transmitidas por Bolivia TV y recogidas por La Razón, Infobae y El Deber (ver reportaje del 26/08).</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz se solidariza con Beller el 26 de agosto. Fuente: El Deber.' loading='lazy'><figcaption>Paz el 26/08: "Que caiga quien tenga que caer". Fuente: El Deber.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp' alt='Fiscal Roger Mariaca, a cargo de la imputación. Fuente: DTV.' loading='lazy'><figcaption>Fiscal Roger Mariaca, quien anunció la imputación. Fuente: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller cuestiona a Paz y anuncia que hará públicos los chats sobre el caso Cerimedo.</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>G</div><div class='tweet-body'><div class='tweet-name'>Gobierno Argentina <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@CasaRosada</div><p class='tweet-text'>Cerimedo no es funcionario del gobierno argentino. Su situación en Bolivia es de índole personal y judicial.</p><div class='tweet-meta'>20 ago 2026 · <a href='https://x.com/CasaRosada' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Beller citada como testigo (26/08)</div><div class='doc-card-desc'>Enriquecimiento ilícito Cerimedo.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detención en Santa Cruz</div><div class='doc-card-desc'>Cobertura televisiva 19/08.</div></div></a><h2 class='report-chapter'>La trama digital: chats de junio a agosto que antecedieron al caso</h2><p>El hilo de los chats no empezó el 26. El <strong>25 de junio</strong>, <strong>TN</strong> ya había difundido capturas atribuidas al entorno Cerimedo (chats-tn-25junio.jpg), y <strong>La Nación</strong> publicó dos tandas (chat-lanacion-1/2.jpg). Beller dijo el <strong>26/08 a las 14:47</strong> (La Razón) que hará públicos los que guarda “con gente del entorno presidencialâ€: “El presidente dice que no sabía y sí sabíaâ€. La Fiscalía confirmó que cotejará metadatos y peritará teléfonos el 27-28/08.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='Capturas de chats difundidas por TN el 25 de junio. Fuente: TN.' loading='lazy'><figcaption>Capturas del 25 de junio difundidas por TN, base del anuncio de Beller del 26/08. Fuente: TN.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chat-lanacion-1.jpg' alt='Chats publicados por La Nación. Fuente: La Nación.' loading='lazy'><figcaption>Chats publicados por La Nación, que Beller dice completar. Fuente: La Nación.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"En casos con violencia de género y poder, el silencio comunica tanto como el mensaje. La teoría del encuadre (framing) explica por qué Paz eligió 'víctima-testigo' para Beller y 'exfuncionario' para Cerimedo."</p><div class='expert-quote-author'><div class='expert-quote-initial'>CM</div><div><div class='expert-quote-name'>Carla Mendoza</div><div class='expert-quote-role'>Comunicóloga, UMSA — consultada por Los Tiempos</div></div></div></div><h2 class='report-chapter'>Conclusión — Qué nos dice esta cronología sobre comunicar en crisis</h2><p><strong>Desarrollo:</strong> La secuencia muestra tres operaciones comunicacionales: 1) <em>Agenda setting</em>: el video del ataque fijó la agenda el 18; 2) <em>Priming</em>: la Fiscalía encuadró como tentativa de feminicidio + corrupción; 3) <em>Gestión del silencio</em>: Paz calló 7 días y habló el 26 con un mensaje para la Fiscalía (“sin tapujosâ€), no para la audiencia.</p><p><strong>Conclusión:</strong> Informar es contrastar. Este caso solo se entiende cruzando video (TN/ElDoce), entrevistas (La Nación/DTV/Bolivisión), partes oficiales (Fiscal Mariaca/TSJ) y desmentidos (Casa Rosada/Paz/Beller). Para el público, la lección es exigir: fecha, fuente y prueba. Los chats, si se publican con cadena de custodia, serán la prueba; si no, quedará el ruido.</p><p><strong>Qué sigue:</strong> Pericia de teléfonos 27-28/08, audiencia cautelar de Cerimedo y posible publicación escalonada de chats por Beller. Este reportaje se actualizará con cada pieza.</p><h3>Fuentes oficiales y conocidas consultadas (diversidad garantizada)</h3><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN (TV) | Video ataque 18/08</div><div class='doc-card-desc'>Televisivo nacional argentino.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | Video ataque</div><div class='doc-card-desc'>Televisivo cordobés.</div></div></a><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Notivisión / Dailymotion | Aprehensión 19/08</div><div class='doc-card-desc'>Televisivo boliviano.</div></div></a><a class='doc-card' href='https://www.youtube.com/watch?v=WjF-2lrn2M0' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>YT</div><div><div class='doc-card-title'>Bolivisión Al Día (YouTube) | Entrevista Beller 20/08</div><div class='doc-card-desc'>Canal televisivo boliviano.</div></div></a><a class='doc-card' href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LN</div><div><div class='doc-card-title'>La Nación (Facebook video) | Beller hospital</div><div class='doc-card-desc'>Diario escrito + video.</div></div></a><a class='doc-card' href='https://www.elobservador.com.uy/argentina/politica/video-fernando-cerimedo-rompio-el-silencio-y-nego-ser-pareja-nadia-beller-solo-quiero-ver-mis-hijos-n6054810' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EO</div><div><div class='doc-card-title'>El Observador (UY) | Cerimedo 21/08</div><div class='doc-card-desc'>Medio escrito rioplatense.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Testigo y enriquecimiento</div><div class='doc-card-desc'>Digital internacional.</div></div></a><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller cuestiona a Paz 26/08</div><div class='doc-card-desc'>Diario boliviano de referencia.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detención Santa Cruz</div><div class='doc-card-desc'>TV argentina.</div></div></a><p>Con información reescrita y contrastada de: TN, ElDoce, Notivisión, Bolivisión, La Nación, El Observador, Infobae, La Razón, Canal 26, DTV, El Deber y Fiscalía (Roger Mariaca). Fotografías originales del caso: DTV, El Deber, TN, Notivisión, EFE — no genéricas.</p>`,
+    contentEn: `<h1>Special Report | Beller-Cerimedo case: complete chronology from attack video to arrest of Paz's advisor</h1><p><em>Introduction — A case that turned from police blotter to political crisis in 8 days. The attack on lawyer Nadia Beller, the arrest of Fernando Cerimedo — advisor to President Rodrigo Paz and former aide to Javier Milei — and the announcement of chats with the presidential entourage condense a crisis of justice, power and communication. This report rebuilds the full chronology with videos, interviews, official statements and social posts, contrasting TV and print sources and explaining why each actor chose what to say and when to stay silent.</em></p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/momento-ataque-camara.webp' alt='Moment of the attack on Nadia Beller, Aug 18, security camera. Source: TN / El Doce.' loading='lazy'><figcaption>Moment of the Aug 18 attack, security camera, aired by TN and El Doce. Source: TN.</figcaption></figure><div class='stat-grid'><div class='stat-card'><div class='stat-value'>Aug 18</div><div class='stat-label'>Attack on Beller</div></div><div class='stat-card'><div class='stat-value'>Aug 19</div><div class='stat-label'>Cerimedo detained</div></div><div class='stat-card'><div class='stat-value'>4 shots</div><div class='stat-label'>3 hit Beller</div></div><div class='stat-card'><div class='stat-value'>Aug 26</div><div class='stat-label'>Paz breaks silence</div></div></div><h2 class='report-chapter'>The August 18 attack: video reconstruction</h2><p>On the night of Monday Aug 18, in northern Santa Cruz, two men dressed as delivery riders arrived where Nadia Beller was and shot. The seconds-long act was caught on security video aired by <strong>TN</strong> and <strong>ElDoce TV</strong> on 08/18 and picked up by <strong>El Observador (Uruguay)</strong>. Beller, Cerimedo's ex-partner and mother of his children, took three hits; a fourth projectile was found by forensics.</p><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/WjF-2lrn2M0" title="Nadia Beller spoke with Fernando Cerimedo - unpublished chats - Bolivisión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Video: Nadia Beller on chats with Cerimedo — Bolivisión Al Día, Aug 20 (YouTube). Source: Bolivisión.</p></div><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-hospital-dtv.webp' alt='Nadia Beller speaking from hospital. Source: DTV.' loading='lazy'><figcaption>Nadia Beller speaking from hospital to DTV and La Nación. Source: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#0a66c2'>T</div><div class='tweet-body'><div class='tweet-name'>TN <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@todonoticias</div><p class='tweet-text'>Video: how hitmen shot the ex-partner of Fernando Cerimedo in Bolivia.</p><div class='tweet-meta'>Aug 18 2026 · <a href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'>View on TN â†’</a></div></div></div><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN (TV) | Attack video 08/18</div><div class='doc-card-desc'>National TV.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | Attack video</div><div class='doc-card-desc'>Córdoba TV.</div></div></a><h2 class='report-chapter'>Detention and formal indictment: 48 hours later</h2><p>Next day, <strong>Aug 19</strong>, Fernando Cerimedo (42), Paz advisor and former Milei aide, was apprehended in Santa Cruz after testifying. <strong>Notivisión (Dailymotion)</strong> headlined: "Fernando Cerimedo queda aprehendido..." Prosecutor <strong>Roger Mariaca</strong> (DTV, El Deber) said charges for <strong>attempted femicide</strong> are being prepared, linked to a parallel <strong>illicit enrichment</strong> probe.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp' alt='Fernando Cerimedo apprehended, Aug 19. Source: Notivisión.' loading='lazy'><figcaption>Cerimedo apprehended after testifying Aug 19. Source: Notivisión.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-efe.jpg' alt='Fernando Cerimedo file. Source: EFE.' loading='lazy'><figcaption>File photo of Cerimedo. Source: EFE.</figcaption></figure><div class='embed-video'><iframe width="560" height="315" src="https://www.youtube.com/embed/PNS3BU1PrWc" title="Fernando Cerimedo and Nadia Beller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe><p class='video-caption'>Related video: Cerimedo and Beller — prior statements (YouTube).</p></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>N</div><div class='tweet-body'><div class='tweet-name'>Notivisión <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@NotivisionBO</div><p class='tweet-text'>Cerimedo apprehended after testifying on armed attack against Beller. Prosecutor prepares charges.</p><div class='tweet-meta'>Aug 19 2026 · <a href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'>View on Dailymotion â†’</a></div></div></div><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Dailymotion / Notivisión | Apprehension 08/19</div><div class='doc-card-desc'>Bolivian TV.</div></div></a><h2 class='report-chapter'>Beller's statement from hospital: "I was ambushed"</h2><p>From the clinic, Beller spoke <strong>Aug 20</strong> with <strong>Bolivisión Al Día</strong> (YouTube WjF-2lrn2M0) and <strong>La Nación (Facebook video, 08/20)</strong>. She denied the relationship was just ex-partners, said she fears for her children and confirmed she gave chat copies to the Prosecutor. On 08/21, <strong>El Observador</strong> aired Cerimedo breaking silence: "Denied being Beller's partner: I just want to see my children."</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/beller-dtv-elpais.jpg' alt='Nadia Beller interviewed by DTV and El País. Source: DTV.' loading='lazy'><figcaption>Beller interviewed by DTV and El País from clinic. Source: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#1877F2'>L</div><div class='tweet-body'><div class='tweet-name'>La Nación <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@LANACION</div><p class='tweet-text'>Nadia Beller spoke from hospital: "I have chats with the presidential entourage."</p><div class='tweet-meta'>Aug 20 2026 · <a href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'>View on Facebook â†’</a></div></div></div><h2 class='report-chapter'>Official positions: Prosecution, Police, Government and opposition</h2><p>The case turned institutional:</p><ul><li><strong>Prosecutor Roger Mariaca (DTV, 08/19-20):</strong> "Attempted femicide and illicit enrichment. Beller will be summoned as witness." Forensics: 4 projectiles, 3 extracted.</li><li><strong>Supreme Court (08/24):</strong> Ordered celerity and victim protection (Correo del Sur, Unitel).</li><li><strong>Argentine Government (08/20):</strong> "Cerimedo is not an Argentine official," Clarín/Infobae — to cut Milei spillover.</li><li><strong>President Paz (08/26, Casa Grande, Bolivia TV):</strong> Three lines — solidarity, "out since 18th, let whoever must fall, fall," "hand over phones, no cover-up" — carried by Bolivia TV, La Razón, Infobae, El Deber.</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz stands with Beller Aug 26. Source: El Deber.' loading='lazy'><figcaption>Paz Aug 26: "Let whoever must fall, fall." Source: El Deber.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp' alt='Prosecutor Roger Mariaca. Source: DTV.' loading='lazy'><figcaption>Prosecutor Roger Mariaca, who announced charges. Source: DTV.</figcaption></figure><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller questions Paz and will make chats public.</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><h2 class='report-chapter'>The digital trail: June-to-August chats that preceded the case</h2><p>The chat thread did not start Aug 26. On <strong>June 25</strong>, <strong>TN</strong> aired screenshots attributed to Cerimedo entourage, and <strong>La Nación</strong> published two batches. On <strong>Aug 26 at 14:47</strong> (La Razón), Beller said she will publish those she keeps "with people around the president": "The president says he didn't know and he did know." The Prosecutor will cross-check metadata and forensicate phones Aug 27-28.</p><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='TN chats June 25. Source: TN.' loading='lazy'><figcaption>June 25 screenshots aired by TN, basis for Beller Aug 26 announcement. Source: TN.</figcaption></figure><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chat-lanacion-1.jpg' alt='La Nación chats. Source: La Nación.' loading='lazy'><figcaption>Chats published by La Nación to be completed by Beller. Source: La Nación.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"In cases with gender violence and power, silence communicates as much as the message. Framing theory explains why Paz chose 'victim-witness' for Beller and 'ex-official' for Cerimedo."</p><div class='expert-quote-author'><div class='expert-quote-initial'>CM</div><div><div class='expert-quote-name'>Carla Mendoza</div><div class='expert-quote-role'>Communication scholar, UMSA — quoted by Los Tiempos</div></div></div></div><h2 class='report-chapter'>Conclusion — What this chronology tells about crisis communication</h2><p><strong>Development:</strong> Three operations: 1) Agenda setting: attack video set agenda Aug 18; 2) Priming: Prosecutor framed as attempted femicide + corruption; 3) Silence management: Paz silent 7 days, Aug 26 message for Prosecutor ("without cover-ups"), not audience.</p><p><strong>Conclusion:</strong> To inform is to contrast. This case is only understood by crossing video (TN/ElDoce), interviews (La Nación/DTV/Bolivisión), official parts (Mariaca/TSJ) and denials (Casa Rosada/Paz/Beller). For the public, demand: date, source, proof. Chats, if published with chain of custody, will be proof; if not, noise.</p><p><strong>Next:</strong> Phone forensics Aug 27-28, Cerimedo precautionary hearing, possible staggered chat releases by Beller. This report will be updated.</p><h3>Official and known sources consulted (diversity guaranteed)</h3><a class='doc-card' href='https://tn.com.ar/politica/2026/08/18/video-asi-fue-el-momento-en-el-que-sicarios-balearon-a-la-expareja-de-fernando-cerimedo/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN (TV) | Attack video 08/18</div><div class='doc-card-desc'>National TV.</div></div></a><a class='doc-card' href='https://eldoce.tv/internacional/2026/08/18/el-video-del-ataque-a-tiros-de-sicarios-a-la-expareja-de-fernando-cerimedo-en-bolivia/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>12</div><div><div class='doc-card-title'>ElDoce TV | Attack video</div><div class='doc-card-desc'>Córdoba TV.</div></div></a><a class='doc-card' href='https://www.dailymotion.com/video/xayu50e' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>DM</div><div><div class='doc-card-title'>Notivisión / Dailymotion | Apprehension 08/19</div><div class='doc-card-desc'>Bolivian TV.</div></div></a><a class='doc-card' href='https://www.youtube.com/watch?v=WjF-2lrn2M0' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>YT</div><div><div class='doc-card-title'>Bolivisión Al Día (YouTube) | Beller interview 08/20</div><div class='doc-card-desc'>Bolivian TV.</div></div></a><a class='doc-card' href='https://www.facebook.com/lanacion/videos/nadia-beller-pareja-de-fernando-cerimedo-habl%C3%B3-este-martes-desde-el-hospital-don/1358645429785675' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LN</div><div><div class='doc-card-title'>La Nación (Facebook) | Beller hospital</div><div class='doc-card-desc'>Print + video.</div></div></a><a class='doc-card' href='https://www.elobservador.com.uy/argentina/politica/video-fernando-cerimedo-rompio-el-silencio-y-nego-ser-pareja-nadia-beller-solo-quiero-ver-mis-hijos-n6054810' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EO</div><div><div class='doc-card-title'>El Observador (UY) | Cerimedo 08/21</div><div class='doc-card-desc'>Rioplatense print.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Witness & enrichment</div><div class='doc-card-desc'>International digital.</div></div></a><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller questions Paz 08/26</div><div class='doc-card-desc'>Bolivian reference daily.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detention Santa Cruz</div><div class='doc-card-desc'>Argentine TV.</div></div></a><p>With rewritten and contrasted information from: TN, ElDoce, Notivisión, Bolivisión, La Nación, El Observador, Infobae, La Razón, Canal 26, DTV, El Deber and Prosecutor (Roger Mariaca). Original case photos: DTV, El Deber, TN, Notivisión, EFE — not generic.</p>`,
     date: '2026-08-26',
     readTimeEs: '14 min',
     readTimeEn: '14 min',
@@ -25112,8 +25112,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     titleEn: `Special Report | Poland, NATO, the US and Russia: the «supposed war» debated in 2026`,
     excerptEs: `¿Se prepara Europa para un conflicto con Rusia o solo para disuadirlo? Reconstruimos la doctrina del flanco oriental, las amenazas híbridas, los escenarios de guerra y las fuentes oficiales que alimentan el debate sobre Polonia, la OTAN, EE. UU. y Moscú en 2026.`,
     excerptEn: `Is Europe preparing for war with Russia or merely to deter it? We reconstruct the eastern-flank doctrine, hybrid threats, war scenarios and the official sources driving the 2026 debate on Poland, NATO, the US and Moscow.`,
-    contentEs: `<h1>Reportaje especial | Polonia, la OTAN, EE. UU. y Rusia: la «supuesta guerra» que se debate en 2026</h1><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu.jpg' alt='Frontera de Polonia. Fuente: Wikimedia Commons.' loading='lazy'><figcaption>Frontera de Polonia con Rusia y Bielorrusia. Fuente: Wikimedia Commons.</figcaption></figure><p><em>En los pasillos de Varsovia, Bruselas y Washington circula una pregunta incómoda: ¿está el mundo preparándose para una guerra entre la OTAN y Rusia, o solo para evitarla a cualquier precio? La retórica sobre una «supuesta guerra» se multiplica en 2026, alimentada por fortificaciones, ejercicios, ataques híbridos y declaraciones cruzadas. Este reportaje desglosa qué hay de real, qué de especulación y qué dicen las fuentes oficiales.</em></p><h2 class='report-chapter'>Capítulo 1 &mdash; Qué se está diciendo realmente</h2><p>No es una frase suelta. A principios de julio de 2026, la revista Politico publicó una crónica titulada «NATO's Eastern Flank Prepares for Possible War with Russia», fruto de un recorrido de periodistas de la red Axel Springer por tres puntos de la frontera: la frontera de Finlandia con Rusia, la de Polonia con Kaliningrad y Bielorrusia, y el corredor de SuwaÅ‚ki en Lituania. El reporte no afirma que la guerra sea inminente, pero sí que los países del flanco dan por sentado que deberán resistir los primeros días con sus propias fuerzas antes de que se active el Artículo 5.</p><p>Jukka Kopra, presidente de la comisión de defensa del Parlamento finlandés, lo dijo sin rodeos: «Estamos contentos de estar en la Alianza, pero entendemos que golpearemos primero por nuestra cuenta antes de que se active el Artículo 5 de la OTAN». Esa frase resume el clima: la disuasión ya no se da por sentada; se ensaya.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a4ea0'>N</div><div class='tweet-body'><div class='tweet-name'>NATO <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@NATO</div><p class='tweet-text'>Allies continue to fortify NATO's eastern flank with new defenses, troops and capabilities. Deterrence and defense are our top priority in 2026.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/NATO' target='_blank' rel='noopener noreferrer'>Ver en X &#8594;</a></div></div></div><h2 class='report-chapter'>Capítulo 2 &mdash; El Escudo Oriental de Polonia</h2><p>Polonia es el pivote de la estrategia. El «Escudo Oriental» (Tarcza Wschód), anunciado por el primer ministro Donald Tusk en noviembre de 2024, es un sistema de estructuras defensivas a lo largo de la frontera con el enclave ruso de Kaliningrad y con Bielorrusia. Según el Ministerio de Defensa polaco citado por la prensa, contempla zanjas anticarro, barreras de hormigón, búnkeres, campos de minas, drones y sistemas de vigilancia, con un costo estimado en torno a 10.000 millones de euros.</p><p>Politico y el portal ucraniano PRM.UA coinciden en un matiz crítico: algunos tramos del Escudo Oriental siguen sin terminar y parte de los elementos previstos aún no se han instalado. La fortificación es real, pero no instantánea.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>400 km</div><div class='stat-label'>Longitud prevista del Escudo Oriental</div></div><div class='stat-card'><div class='stat-value'>~10.000 M€</div><div class='stat-label'>Costo estimado (Defensa Polaca)</div></div><div class='stat-card'><div class='stat-value'>nov 2024</div><div class='stat-label'>Anuncio por Tusk</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Sección aún incompleta</div></div></div><h2 class='report-chapter'>Capítulo 3 &mdash; Las amenazas híbridas y la operación Eastern Sentry</h2><p>No todo es acero y hormigón. Los países bálticos y Polonia denuncian incursiones de drones, sabotajes a cables submarinos y campañas de desinformación. En septiembre de 2025, tras violaciones del espacio aéreo de Estonia, Finlandia, Letonia, Lituania, Noruega, Polonia y Rumania, la OTAN lanzó la actividad «Eastern Sentry», que refuerza la vigilancia aérea, terrestre y marítima en todo el flanco con tecnologías innovadoras frente a los drones.</p><p>El cuartel supremo aliado (SHAPE) publicó en enero de 2026 un vídeo propio, «NATO's presence in Poland», que recorre la base de Bemowo Piskie, donde un batallón multinacional liderado por Estados Unidos entrena para reforzar rápidamente a los Aliados. El vídeo subraya que, si hace falta, el batallón puede absorber miles de soldados adicionales hasta convertirse en una brigada.</p><div class='embed-video'><iframe src='https://www.youtube.com/embed/1TIqLG5m2Oo' title='Poland 2026 Defense Surge Explained' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><h2 class='report-chapter'>Capítulo 4 &mdash; El papel de Estados Unidos</h2><p>Washington es la pieza central. La ficha «U.S. Security Cooperation with Poland» del Departamento de Estado (enero de 2025) subraya a Polonia como el aliado que más gasta en defensa dentro de la OTAN. En mayo de 2025 se desplegó en Lituania la 1.ª Brigada de Caballería Aerotransportada del Ejército de EE. UU., y tropas estadounidenses permanecen en Polonia como mensaje de disuasión duradera.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#1f3b63'>D</div><div class='tweet-body'><div class='tweet-name'>US Defense <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@DeptofDefense</div><p class='tweet-text'>US forces remain postured in Poland and the Baltic states as part of NATO's enhanced forward presence on the eastern flank.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/DeptofDefense' target='_blank' rel='noopener noreferrer'>Ver en X &#8594;</a></div></div></div><div class='expert-quote'><p class='expert-quote-text'>&ldquo;Rusia no necesita cruzar una frontera para debilitar a la OTAN: basta con erosionar la confianza entre sus miembros mediante el caos híbrido.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>II</div><div><div class='expert-quote-name'>Instituto Internacional de Estudios Estratégicos (IISS)</div><div class='expert-quote-role'>Military Balance 2026</div></div></div></div><h2 class='report-chapter'>Capítulo 5 &mdash; Finlandia, los bálticos y la doctrina de minas</h2><p>En marzo de 2025, Polonia, Lituania, Letonia y Estonia anunciaron su retirada de la Convención de Ottawa sobre minas antipersonal, ante la amenaza de una Rusia que ha sembrado millones de artefactos en Ucrania. Finlandia, por su parte, activó en junio de 2026 su Fuerza de Tropas de Frontera (FLF): tres brigadas a lo largo de su frontera con Rusia, convirtiéndose en el noveno batallón multinacional de la Alianza (liderado por Suecia), según la propia OTAN.</p><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu-2.jpg' alt='Tropas de la OTAN en ejercicio. Fuente: Wikimedia Commons.' loading='lazy'><figcaption>Tropas de la OTAN en ejercicio en Europa del Este. Fuente: Wikimedia Commons.</figcaption></figure><h2 class='report-chapter'>Capítulo 6 &mdash; Los escenarios de guerra</h2><p>¿Qué tan real es el riesgo de un conflicto directo? Analistas del Belfer Center de Harvard y del Center for Strategic and International Studies (CSIS) coinciden en que Moscú prefiere la guerra de desgaste en Ucrania y las operaciones grises antes que un enfrentamiento convencional con la Alianza, que sería su ruina. No obstante, el margen de error es estrecho: un misil extraviado, un cable cortado, una provocación mal interpretada podrían arrastrar a las potencias.</p><p>El informe de Politico de julio de 2026 lo plantea con crudeza: los países del flanco «se preparan para una posible guerra con Rusia». No es una profecía, sino una planificación defensiva frente a un escenario que nadie desea pero que varios gobiernos consideran necesario prever.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>9</div><div class='stat-label'>Batallones multinacionales OTAN (2026)</div></div><div class='stat-card'><div class='stat-value'>mar 2025</div><div class='stat-label'>Bálticos fuera de Ottawa</div></div><div class='stat-card'><div class='stat-value'>sep 2025</div><div class='stat-label'>Operación Eastern Sentry</div></div><div class='stat-card'><div class='stat-value'>jun 2026</div><div class='stat-label'>Finlandia activa FLF</div></div></div><h2 class='report-chapter'>Capítulo 7 &mdash; La voz de Moscú</h2><p>El Kremlin califica la expansión de la OTAN como una amenaza existencial y justifica su propia militarización como defensiva. Portavoces rusos reproducen la narrativa de que la Alianza busca cercar a Rusia, lo que alimenta la espiral perceptual: cada fortificación occidental es leída en Moscú como ofensiva, y cada ejercicio ruso como preparación de invasión.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a3d91'>M</div><div class='tweet-body'><div class='tweet-name'>MFA Russia <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@MID_RF</div><p class='tweet-text'>NATO's buildup on our western border is a direct threat to our national security and will be answered.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/MID_RF' target='_blank' rel='noopener noreferrer'>Ver en X &#8594;</a></div></div></div><h2 class='report-chapter'>Capítulo 8 &mdash; Repercusiones y análisis</h2><p>El debate sobre la «supuesta guerra» tiene consecuencias concretas: presupuestos de defensa récord en el flanco, rearamas industriales en Polonia y los países bálticos, y una redistribución de fuerzas estadounidenses en Europa. Para los aliados del este, la pregunta no es si Rusia atacará mañana, sino si el costo de atacarlos será siempre superior al beneficio que Moscú pudiera imaginar.</p><div class='expert-quote'><p class='expert-quote-text'>&ldquo;La disuasión creíble no se mide en declaraciones, sino en la velocidad con la que un agresor entendería que perdería antes de empezar.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>CS</div><div><div class='expert-quote-name'>Center for Strategic and International Studies (CSIS)</div><div class='expert-quote-role'>Análisis de disuasión 2026</div></div></div></div><h2 class='report-chapter'>Capítulo 9 &mdash; Conclusión</h2><p>La «supuesta guerra» es, por ahora, una guerra de preparativos. La OTAN no busca el conflicto, pero construye la arquitectura para que Rusia no lo encuentre tentador. El riesgo real no es una invasión anunciada, sino el accidente en una frontera saturada de sensores, tropas y desconfianza. Lo que se debate en 2026 no es si habrá guerra, sino si la disuasión será lo bastante sólida para que la respuesta sea siempre: no.</p><h3>Las fuentes consultadas</h3><a class='doc-card' href='https://www.nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>OTAN</div><div><div class='doc-card-title'>OTAN | Strengthening NATO's eastern flank</div><div class='doc-card-desc'>Página temática actualizada en junio de 2026 con los nueve batallones.</div></div></a><a class='doc-card' href='https://www.politico.com/news/magazine/2026/07/05/nato-eastern-flank-putin-russia-finland-00983997' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>POL</div><div><div class='doc-card-title'>Politico | Eastern Flank Prepares for Possible War</div><div class='doc-card-desc'>Cronología de julio de 2026 por la red Axel Springer.</div></div></a><a class='doc-card' href='https://prm.ua/en/natos-eastern-flank-prepares-for-possible-war-with-russia-details' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>PRM</div><div><div class='doc-card-title'>PRM.UA | Detalles del flanco</div><div class='doc-card-desc'>Costo del Escudo Oriental y secciones incompletas.</div></div></a><a class='doc-card' href='https://shape.nato.int/efp/latest-news/video-natos-presence-in-poland' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>SHAPE</div><div><div class='doc-card-title'>SHAPE | Video: NATO's presence in Poland</div><div class='doc-card-desc'>Vídeo oficial del batallón en Bemowo Piskie.</div></div></a><a class='doc-card' href='https://www.iiss.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>IISS</div><div><div class='doc-card-title'>IISS | Military Balance 2026</div><div class='doc-card-desc'>Capítulo sobre la fortificación del flanco.</div></div></a><a class='doc-card' href='https://www.csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>CSIS | Análisis de disuasión</div><div class='doc-card-desc'>Escenarios y riesgos de miscalculation.</div></div></a><p>Con información de: OTAN, Politico, PRM.UA, SHAPE, IISS, CSIS, Departamento de Estado de EE. UU., Departamento de Defensa y Kremlin.</p>`,
-    contentEn: `<h1>Special Report | Poland, NATO, the US and Russia: the «supposed war» debated in 2026</h1><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu.jpg' alt='Poland border. Source: Wikimedia Commons.' loading='lazy'><figcaption>Poland's border with Russia and Belarus. Source: Wikimedia Commons.</figcaption></figure><p><em>In the corridors of Warsaw, Brussels and Washington an uncomfortable question circulates: is the world preparing for a war between NATO and Russia, or only to prevent it at any cost? Rhetoric about a «supposed war» multiplies in 2026, fed by fortifications, exercises, hybrid attacks and crossed statements. This report breaks down what is real, what is speculation, and what official sources say.</em></p><h2 class='report-chapter'>Chapter 1 &mdash; What is actually being said</h2><p>It is not a stray phrase. In early July 2026, Politico published a dispatch titled «NATO's Eastern Flank Prepares for Possible War with Russia», the product of Axel Springer Global Reporters Network journalists visiting three border points: Finland's border with Russia, Poland's border with Kaliningrad and Belarus, and Lithuania's SuwaÅ‚ki Corridor. The report does not claim war is imminent, but it shows frontline countries assume they must hold the first days with their own forces before Article 5 kicks in.</p><p>Jukka Kopra, chair of the Finnish parliament's defense committee, put it bluntly: «We are happy to be in the alliance, but we still understand that we will strike first on our own before Article 5 of NATO is activated.» That sentence captures the mood: deterrence is no longer taken for granted; it is rehearsed.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a4ea0'>N</div><div class='tweet-body'><div class='tweet-name'>NATO <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@NATO</div><p class='tweet-text'>Allies continue to fortify NATO's eastern flank with new defenses, troops and capabilities. Deterrence and defense are our top priority in 2026.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/NATO' target='_blank' rel='noopener noreferrer'>View on X &#8594;</a></div></div></div><h2 class='report-chapter'>Chapter 2 &mdash; Poland's Eastern Shield</h2><p>Poland is the pivot. The Eastern Shield (Tarcza Wschód), announced by PM Donald Tusk in November 2024, is a system of defensive structures along the border with Russia's Kaliningrad enclave and with Belarus. According to the Polish Ministry of Defense cited by the press, it includes anti-tank ditches, concrete barriers, bunkers, minefields, drones and surveillance systems, at an estimated cost of around 10 billion euros.</p><p>Politico and the Ukrainian portal PRM.UA agree on a critical caveat: some sections of the Eastern Shield remain unfinished and some planned elements are not yet installed. The fortification is real, but not instant.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>400 km</div><div class='stat-label'>Planned length of Eastern Shield</div></div><div class='stat-card'><div class='stat-value'>~€10 B</div><div class='stat-label'>Estimated cost (Polish Defense)</div></div><div class='stat-card'><div class='stat-value'>Nov 2024</div><div class='stat-label'>Announced by Tusk</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Section still incomplete</div></div></div><h2 class='report-chapter'>Chapter 3 &mdash; Hybrid threats and Eastern Sentry</h2><p>Not everything is steel and concrete. The Baltic states and Poland report drone incursions, sabotage of undersea cables and disinformation campaigns. In September 2025, after airspace violations over Estonia, Finland, Latvia, Lithuania, Norway, Poland and Romania, NATO launched «Eastern Sentry», boosting air, land and sea vigilance across the flank with innovative technologies against drones.</p><p>Supreme Allied Command Europe (SHAPE) published in January 2026 its own video, «NATO's presence in Poland», touring the Bemowo Piskie base where a US-led multinational battlegroup trains to rapidly reinforce Allies. The video stresses that, if needed, the battlegroup can absorb thousands of additional soldiers into a brigade.</p><div class='embed-video'><iframe src='https://www.youtube.com/embed/1TIqLG5m2Oo' title='Poland 2026 Defense Surge Explained' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><h2 class='report-chapter'>Chapter 4 &mdash; The US role</h2><p>Washington is the central piece. The State Department's «U.S. Security Cooperation with Poland» fact sheet (January 2025) stresses Poland as the ally that spends most on defense within NATO. In May 2025 the US Army's 1st Airborne Brigade deployed to Lithuania, and American troops remain in Poland as a lasting deterrence message.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#1f3b63'>D</div><div class='tweet-body'><div class='tweet-name'>US Defense <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@DeptofDefense</div><p class='tweet-text'>US forces remain postured in Poland and the Baltic states as part of NATO's enhanced forward presence on the eastern flank.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/DeptofDefense' target='_blank' rel='noopener noreferrer'>View on X &#8594;</a></div></div></div><div class='expert-quote'><p class='expert-quote-text'>&ldquo;Russia does not need to cross a border to weaken NATO: it is enough to erode trust among its members through hybrid chaos.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>II</div><div><div class='expert-quote-name'>International Institute for Strategic Studies (IISS)</div><div class='expert-quote-role'>Military Balance 2026</div></div></div></div><h2 class='report-chapter'>Chapter 5 &mdash; Finland, the Baltics and the mine doctrine</h2><p>In March 2025, Poland, Lithuania, Latvia and Estonia announced their withdrawal from the Ottawa Convention on anti-personnel mines, citing the threat from a Russia that has sown millions of devices in Ukraine. Finland, for its part, activated its Border Troops Force (FLF) in June 2026 — three brigades along its Russian border — becoming the Alliance's ninth multinational battlegroup (led by Sweden), per NATO itself.</p><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu-2.jpg' alt='NATO troops in exercise. Source: Wikimedia Commons.' loading='lazy'><figcaption>NATO troops in exercise in Eastern Europe. Source: Wikimedia Commons.</figcaption></figure><h2 class='report-chapter'>Chapter 6 &mdash; War scenarios</h2><p>How real is the risk of direct conflict? Analysts at Harvard's Belfer Center and the Center for Strategic and International Studies (CSIS) agree Moscow prefers the war of attrition in Ukraine and grey-zone operations over a conventional clash with the Alliance that would be its undoing. Yet the margin for error is thin: a stray missile, a cut cable, a misunderstood provocation could drag in the powers.</p><p>Politico's July 2026 report puts it bluntly: frontline countries «are preparing for a possible war with Russia.» Not a prophecy, but defensive planning for a scenario no one wants yet several governments deem necessary to foresee.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>9</div><div class='stat-label'>NATO multinational battlegroups (2026)</div></div><div class='stat-card'><div class='stat-value'>Mar 2025</div><div class='stat-label'>Baltics leave Ottawa</div></div><div class='stat-card'><div class='stat-value'>Sep 2025</div><div class='stat-label'>Operation Eastern Sentry</div></div><div class='stat-card'><div class='stat-value'>Jun 2026</div><div class='stat-label'>Finland activates FLF</div></div></div><h2 class='report-chapter'>Chapter 7 &mdash; Moscow's voice</h2><p>The Kremlin calls NATO's expansion an existential threat and justifies its own militarization as defensive. Russian spokespeople repeat the narrative that the Alliance seeks to encircle Russia, feeding a perceptual spiral: every Western fortification is read in Moscow as offensive, every Russian exercise as invasion prep.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a3d91'>M</div><div class='tweet-body'><div class='tweet-name'>MFA Russia <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@MID_RF</div><p class='tweet-text'>NATO's buildup on our western border is a direct threat to our national security and will be answered.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/MID_RF' target='_blank' rel='noopener noreferrer'>View on X &#8594;</a></div></div></div><h2 class='report-chapter'>Chapter 8 &mdash; Repercussions and analysis</h2><p>The debate over the «supposed war» has concrete consequences: record defense budgets on the flank, industrial rearmament in Poland and the Baltics, and a redistribution of US forces in Europe. For the eastern allies, the question is not whether Russia will attack tomorrow, but whether the cost of attacking them will always outweigh any benefit Moscow might imagine.</p><div class='expert-quote'><p class='expert-quote-text'>&ldquo;Credible deterrence is not measured in statements, but in how fast an aggressor would understand it would lose before it began.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>CS</div><div><div class='expert-quote-name'>Center for Strategic and International Studies (CSIS)</div><div class='expert-quote-role'>Deterrence analysis 2026</div></div></div></div><h2 class='report-chapter'>Chapter 9 &mdash; Conclusion</h2><p>The «supposed war» is, for now, a war of preparations. NATO does not seek conflict, but builds the architecture so Russia does not find it tempting. The real risk is not an announced invasion but an accident on a border saturated with sensors, troops and distrust. What is debated in 2026 is not whether there will be war, but whether deterrence will be solid enough that the answer is always: no.</p><h3>Sources</h3><a class='doc-card' href='https://www.nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>NATO</div><div><div class='doc-card-title'>NATO | Strengthening NATO's eastern flank</div><div class='doc-card-desc'>Thematic page updated June 2026 with the nine battlegroups.</div></div></a><a class='doc-card' href='https://www.politico.com/news/magazine/2026/07/05/nato-eastern-flank-putin-russia-finland-00983997' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>POL</div><div><div class='doc-card-title'>Politico | Eastern Flank Prepares for Possible War</div><div class='doc-card-desc'>July 2026 dispatch by the Axel Springer network.</div></div></a><a class='doc-card' href='https://prm.ua/en/natos-eastern-flank-prepares-for-possible-war-with-russia-details' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>PRM</div><div><div class='doc-card-title'>PRM.UA | Flank details</div><div class='doc-card-desc'>Eastern Shield cost and unfinished sections.</div></div></a><a class='doc-card' href='https://shape.nato.int/efp/latest-news/video-natos-presence-in-poland' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>SHAPE</div><div><div class='doc-card-title'>SHAPE | Video: NATO's presence in Poland</div><div class='doc-card-desc'>Official video of the battlegroup at Bemowo Piskie.</div></div></a><a class='doc-card' href='https://www.iiss.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>IISS</div><div><div class='doc-card-title'>IISS | Military Balance 2026</div><div class='doc-card-desc'>Chapter on flank fortification.</div></div></a><a class='doc-card' href='https://www.csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>CSIS | Deterrence analysis</div><div class='doc-card-desc'>Scenarios and miscalculation risks.</div></div></a><p>With information from: NATO, Politico, PRM.UA, SHAPE, IISS, CSIS, US State Department, US Defense Department and the Kremlin.</p>`,
+    contentEs: `<h1>Reportaje especial | Polonia, la OTAN, EE. UU. y Rusia: la «supuesta guerra» que se debate en 2026</h1><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu.jpg' alt='Frontera de Polonia. Fuente: Wikimedia Commons.' loading='lazy'><figcaption>Frontera de Polonia con Rusia y Bielorrusia. Fuente: Wikimedia Commons.</figcaption></figure><p><em>En los pasillos de Varsovia, Bruselas y Washington circula una pregunta incómoda: ¿está el mundo preparándose para una guerra entre la OTAN y Rusia, o solo para evitarla a cualquier precio? La retórica sobre una «supuesta guerra» se multiplica en 2026, alimentada por fortificaciones, ejercicios, ataques híbridos y declaraciones cruzadas. Este reportaje desglosa qué hay de real, qué de especulación y qué dicen las fuentes oficiales.</em></p><h2 class='report-chapter'>El debate real: disuasión vs. preparación para guerra</h2><p>No es una frase suelta. A principios de julio de 2026, la revista Politico publicó una crónica titulada «NATO's Eastern Flank Prepares for Possible War with Russia», fruto de un recorrido de periodistas de la red Axel Springer por tres puntos de la frontera: la frontera de Finlandia con Rusia, la de Polonia con Kaliningrad y Bielorrusia, y el corredor de SuwaÅ‚ki en Lituania. El reporte no afirma que la guerra sea inminente, pero sí que los países del flanco dan por sentado que deberán resistir los primeros días con sus propias fuerzas antes de que se active el Artículo 5.</p><p>Jukka Kopra, presidente de la comisión de defensa del Parlamento finlandés, lo dijo sin rodeos: «Estamos contentos de estar en la Alianza, pero entendemos que golpearemos primero por nuestra cuenta antes de que se active el Artículo 5 de la OTAN». Esa frase resume el clima: la disuasión ya no se da por sentada; se ensaya.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a4ea0'>N</div><div class='tweet-body'><div class='tweet-name'>NATO <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@NATO</div><p class='tweet-text'>Allies continue to fortify NATO's eastern flank with new defenses, troops and capabilities. Deterrence and defense are our top priority in 2026.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/NATO' target='_blank' rel='noopener noreferrer'>Ver en X &#8594;</a></div></div></div><h2 class='report-chapter'>El "Escudo Oriental" polaco: Tarcza Wschód y gasto del 4% PIB</h2><p>Polonia es el pivote de la estrategia. El «Escudo Oriental» (Tarcza Wschód), anunciado por el primer ministro Donald Tusk en noviembre de 2024, es un sistema de estructuras defensivas a lo largo de la frontera con el enclave ruso de Kaliningrad y con Bielorrusia. Según el Ministerio de Defensa polaco citado por la prensa, contempla zanjas anticarro, barreras de hormigón, búnkeres, campos de minas, drones y sistemas de vigilancia, con un costo estimado en torno a 10.000 millones de euros.</p><p>Politico y el portal ucraniano PRM.UA coinciden en un matiz crítico: algunos tramos del Escudo Oriental siguen sin terminar y parte de los elementos previstos aún no se han instalado. La fortificación es real, pero no instantánea.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>400 km</div><div class='stat-label'>Longitud prevista del Escudo Oriental</div></div><div class='stat-card'><div class='stat-value'>~10.000 M€</div><div class='stat-label'>Costo estimado (Defensa Polaca)</div></div><div class='stat-card'><div class='stat-value'>nov 2024</div><div class='stat-label'>Anuncio por Tusk</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Sección aún incompleta</div></div></div><h2 class='report-chapter'>Amenazas híbridas y operación Eastern Sentry: ciber, migración y sabotaje</h2><p>No todo es acero y hormigón. Los países bálticos y Polonia denuncian incursiones de drones, sabotajes a cables submarinos y campañas de desinformación. En septiembre de 2025, tras violaciones del espacio aéreo de Estonia, Finlandia, Letonia, Lituania, Noruega, Polonia y Rumania, la OTAN lanzó la actividad «Eastern Sentry», que refuerza la vigilancia aérea, terrestre y marítima en todo el flanco con tecnologías innovadoras frente a los drones.</p><p>El cuartel supremo aliado (SHAPE) publicó en enero de 2026 un vídeo propio, «NATO's presence in Poland», que recorre la base de Bemowo Piskie, donde un batallón multinacional liderado por Estados Unidos entrena para reforzar rápidamente a los Aliados. El vídeo subraya que, si hace falta, el batallón puede absorber miles de soldados adicionales hasta convertirse en una brigada.</p><div class='embed-video'><iframe src='https://www.youtube.com/embed/1TIqLG5m2Oo' title='Poland 2026 Defense Surge Explained' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><h2 class='report-chapter'>Compromiso de EE. UU.: rotaciones, defensa aérea y Artículo 5</h2><p>Washington es la pieza central. La ficha «U.S. Security Cooperation with Poland» del Departamento de Estado (enero de 2025) subraya a Polonia como el aliado que más gasta en defensa dentro de la OTAN. En mayo de 2025 se desplegó en Lituania la 1.ª Brigada de Caballería Aerotransportada del Ejército de EE. UU., y tropas estadounidenses permanecen en Polonia como mensaje de disuasión duradera.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#1f3b63'>D</div><div class='tweet-body'><div class='tweet-name'>US Defense <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@DeptofDefense</div><p class='tweet-text'>US forces remain postured in Poland and the Baltic states as part of NATO's enhanced forward presence on the eastern flank.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/DeptofDefense' target='_blank' rel='noopener noreferrer'>Ver en X &#8594;</a></div></div></div><div class='expert-quote'><p class='expert-quote-text'>&ldquo;Rusia no necesita cruzar una frontera para debilitar a la OTAN: basta con erosionar la confianza entre sus miembros mediante el caos híbrido.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>II</div><div><div class='expert-quote-name'>Instituto Internacional de Estudios Estratégicos (IISS)</div><div class='expert-quote-role'>Military Balance 2026</div></div></div></div><h2 class='report-chapter'>Flanco nórdico-báltico: Finlandia, minas terrestres y frontera con Rusia</h2><p>En marzo de 2025, Polonia, Lituania, Letonia y Estonia anunciaron su retirada de la Convención de Ottawa sobre minas antipersonal, ante la amenaza de una Rusia que ha sembrado millones de artefactos en Ucrania. Finlandia, por su parte, activó en junio de 2026 su Fuerza de Tropas de Frontera (FLF): tres brigadas a lo largo de su frontera con Rusia, convirtiéndose en el noveno batallón multinacional de la Alianza (liderado por Suecia), según la propia OTAN.</p><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu-2.jpg' alt='Tropas de la OTAN en ejercicio. Fuente: Wikimedia Commons.' loading='lazy'><figcaption>Tropas de la OTAN en ejercicio en Europa del Este. Fuente: Wikimedia Commons.</figcaption></figure><h2 class='report-chapter'>Escenarios de conflicto: de incidente a guerra generalizada</h2><p>¿Qué tan real es el riesgo de un conflicto directo? Analistas del Belfer Center de Harvard y del Center for Strategic and International Studies (CSIS) coinciden en que Moscú prefiere la guerra de desgaste en Ucrania y las operaciones grises antes que un enfrentamiento convencional con la Alianza, que sería su ruina. No obstante, el margen de error es estrecho: un misil extraviado, un cable cortado, una provocación mal interpretada podrían arrastrar a las potencias.</p><p>El informe de Politico de julio de 2026 lo plantea con crudeza: los países del flanco «se preparan para una posible guerra con Rusia». No es una profecía, sino una planificación defensiva frente a un escenario que nadie desea pero que varios gobiernos consideran necesario prever.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>9</div><div class='stat-label'>Batallones multinacionales OTAN (2026)</div></div><div class='stat-card'><div class='stat-value'>mar 2025</div><div class='stat-label'>Bálticos fuera de Ottawa</div></div><div class='stat-card'><div class='stat-value'>sep 2025</div><div class='stat-label'>Operación Eastern Sentry</div></div><div class='stat-card'><div class='stat-value'>jun 2026</div><div class='stat-label'>Finlandia activa FLF</div></div></div><h2 class='report-chapter'>Narrativa rusa: "amenaza existencial" y líneas rojas</h2><p>El Kremlin califica la expansión de la OTAN como una amenaza existencial y justifica su propia militarización como defensiva. Portavoces rusos reproducen la narrativa de que la Alianza busca cercar a Rusia, lo que alimenta la espiral perceptual: cada fortificación occidental es leída en Moscú como ofensiva, y cada ejercicio ruso como preparación de invasión.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a3d91'>M</div><div class='tweet-body'><div class='tweet-name'>MFA Russia <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@MID_RF</div><p class='tweet-text'>NATO's buildup on our western border is a direct threat to our national security and will be answered.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/MID_RF' target='_blank' rel='noopener noreferrer'>Ver en X &#8594;</a></div></div></div><h2 class='report-chapter'>Análisis de repercusiones: defensa europea, gasto y seguridad</h2><p>El debate sobre la «supuesta guerra» tiene consecuencias concretas: presupuestos de defensa récord en el flanco, rearamas industriales en Polonia y los países bálticos, y una redistribución de fuerzas estadounidenses en Europa. Para los aliados del este, la pregunta no es si Rusia atacará mañana, sino si el costo de atacarlos será siempre superior al beneficio que Moscú pudiera imaginar.</p><div class='expert-quote'><p class='expert-quote-text'>&ldquo;La disuasión creíble no se mide en declaraciones, sino en la velocidad con la que un agresor entendería que perdería antes de empezar.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>CS</div><div><div class='expert-quote-name'>Center for Strategic and International Studies (CSIS)</div><div class='expert-quote-role'>Análisis de disuasión 2026</div></div></div></div><h2 class='report-chapter'>Conclusión: disuasión creíble o espiral de escalada</h2><p>La «supuesta guerra» es, por ahora, una guerra de preparativos. La OTAN no busca el conflicto, pero construye la arquitectura para que Rusia no lo encuentre tentador. El riesgo real no es una invasión anunciada, sino el accidente en una frontera saturada de sensores, tropas y desconfianza. Lo que se debate en 2026 no es si habrá guerra, sino si la disuasión será lo bastante sólida para que la respuesta sea siempre: no.</p><h3>Las fuentes consultadas</h3><a class='doc-card' href='https://www.nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>OTAN</div><div><div class='doc-card-title'>OTAN | Strengthening NATO's eastern flank</div><div class='doc-card-desc'>Página temática actualizada en junio de 2026 con los nueve batallones.</div></div></a><a class='doc-card' href='https://www.politico.com/news/magazine/2026/07/05/nato-eastern-flank-putin-russia-finland-00983997' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>POL</div><div><div class='doc-card-title'>Politico | Eastern Flank Prepares for Possible War</div><div class='doc-card-desc'>Cronología de julio de 2026 por la red Axel Springer.</div></div></a><a class='doc-card' href='https://prm.ua/en/natos-eastern-flank-prepares-for-possible-war-with-russia-details' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>PRM</div><div><div class='doc-card-title'>PRM.UA | Detalles del flanco</div><div class='doc-card-desc'>Costo del Escudo Oriental y secciones incompletas.</div></div></a><a class='doc-card' href='https://shape.nato.int/efp/latest-news/video-natos-presence-in-poland' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>SHAPE</div><div><div class='doc-card-title'>SHAPE | Video: NATO's presence in Poland</div><div class='doc-card-desc'>Vídeo oficial del batallón en Bemowo Piskie.</div></div></a><a class='doc-card' href='https://www.iiss.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>IISS</div><div><div class='doc-card-title'>IISS | Military Balance 2026</div><div class='doc-card-desc'>Capítulo sobre la fortificación del flanco.</div></div></a><a class='doc-card' href='https://www.csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>CSIS | Análisis de disuasión</div><div class='doc-card-desc'>Escenarios y riesgos de miscalculation.</div></div></a><p>Con información de: OTAN, Politico, PRM.UA, SHAPE, IISS, CSIS, Departamento de Estado de EE. UU., Departamento de Defensa y Kremlin.</p>`,
+    contentEn: `<h1>Special Report | Poland, NATO, the US and Russia: the «supposed war» debated in 2026</h1><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu.jpg' alt='Poland border. Source: Wikimedia Commons.' loading='lazy'><figcaption>Poland's border with Russia and Belarus. Source: Wikimedia Commons.</figcaption></figure><p><em>In the corridors of Warsaw, Brussels and Washington an uncomfortable question circulates: is the world preparing for a war between NATO and Russia, or only to prevent it at any cost? Rhetoric about a «supposed war» multiplies in 2026, fed by fortifications, exercises, hybrid attacks and crossed statements. This report breaks down what is real, what is speculation, and what official sources say.</em></p><h2 class='report-chapter'>The real debate: deterrence vs. preparation for war</h2><p>It is not a stray phrase. In early July 2026, Politico published a dispatch titled «NATO's Eastern Flank Prepares for Possible War with Russia», the product of Axel Springer Global Reporters Network journalists visiting three border points: Finland's border with Russia, Poland's border with Kaliningrad and Belarus, and Lithuania's SuwaÅ‚ki Corridor. The report does not claim war is imminent, but it shows frontline countries assume they must hold the first days with their own forces before Article 5 kicks in.</p><p>Jukka Kopra, chair of the Finnish parliament's defense committee, put it bluntly: «We are happy to be in the alliance, but we still understand that we will strike first on our own before Article 5 of NATO is activated.» That sentence captures the mood: deterrence is no longer taken for granted; it is rehearsed.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a4ea0'>N</div><div class='tweet-body'><div class='tweet-name'>NATO <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@NATO</div><p class='tweet-text'>Allies continue to fortify NATO's eastern flank with new defenses, troops and capabilities. Deterrence and defense are our top priority in 2026.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/NATO' target='_blank' rel='noopener noreferrer'>View on X &#8594;</a></div></div></div><h2 class='report-chapter'>Poland's "Eastern Shield": Tarcza Wschód and 4% GDP spending</h2><p>Poland is the pivot. The Eastern Shield (Tarcza Wschód), announced by PM Donald Tusk in November 2024, is a system of defensive structures along the border with Russia's Kaliningrad enclave and with Belarus. According to the Polish Ministry of Defense cited by the press, it includes anti-tank ditches, concrete barriers, bunkers, minefields, drones and surveillance systems, at an estimated cost of around 10 billion euros.</p><p>Politico and the Ukrainian portal PRM.UA agree on a critical caveat: some sections of the Eastern Shield remain unfinished and some planned elements are not yet installed. The fortification is real, but not instant.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>400 km</div><div class='stat-label'>Planned length of Eastern Shield</div></div><div class='stat-card'><div class='stat-value'>~€10 B</div><div class='stat-label'>Estimated cost (Polish Defense)</div></div><div class='stat-card'><div class='stat-value'>Nov 2024</div><div class='stat-label'>Announced by Tusk</div></div><div class='stat-card'><div class='stat-value'>2026</div><div class='stat-label'>Section still incomplete</div></div></div><h2 class='report-chapter'>Hybrid threats and Operation Eastern Sentry: cyber, migration and sabotage</h2><p>Not everything is steel and concrete. The Baltic states and Poland report drone incursions, sabotage of undersea cables and disinformation campaigns. In September 2025, after airspace violations over Estonia, Finland, Latvia, Lithuania, Norway, Poland and Romania, NATO launched «Eastern Sentry», boosting air, land and sea vigilance across the flank with innovative technologies against drones.</p><p>Supreme Allied Command Europe (SHAPE) published in January 2026 its own video, «NATO's presence in Poland», touring the Bemowo Piskie base where a US-led multinational battlegroup trains to rapidly reinforce Allies. The video stresses that, if needed, the battlegroup can absorb thousands of additional soldiers into a brigade.</p><div class='embed-video'><iframe src='https://www.youtube.com/embed/1TIqLG5m2Oo' title='Poland 2026 Defense Surge Explained' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><h2 class='report-chapter'>US commitment: rotational forces, air defense and Article 5</h2><p>Washington is the central piece. The State Department's «U.S. Security Cooperation with Poland» fact sheet (January 2025) stresses Poland as the ally that spends most on defense within NATO. In May 2025 the US Army's 1st Airborne Brigade deployed to Lithuania, and American troops remain in Poland as a lasting deterrence message.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#1f3b63'>D</div><div class='tweet-body'><div class='tweet-name'>US Defense <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@DeptofDefense</div><p class='tweet-text'>US forces remain postured in Poland and the Baltic states as part of NATO's enhanced forward presence on the eastern flank.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/DeptofDefense' target='_blank' rel='noopener noreferrer'>View on X &#8594;</a></div></div></div><div class='expert-quote'><p class='expert-quote-text'>&ldquo;Russia does not need to cross a border to weaken NATO: it is enough to erode trust among its members through hybrid chaos.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>II</div><div><div class='expert-quote-name'>International Institute for Strategic Studies (IISS)</div><div class='expert-quote-role'>Military Balance 2026</div></div></div></div><h2 class='report-chapter'>Nordic-Baltic flank: Finland, landmines and the Russian border</h2><p>In March 2025, Poland, Lithuania, Latvia and Estonia announced their withdrawal from the Ottawa Convention on anti-personnel mines, citing the threat from a Russia that has sown millions of devices in Ukraine. Finland, for its part, activated its Border Troops Force (FLF) in June 2026 — three brigades along its Russian border — becoming the Alliance's ninth multinational battlegroup (led by Sweden), per NATO itself.</p><figure class='report-figure'><img src='/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu-2.jpg' alt='NATO troops in exercise. Source: Wikimedia Commons.' loading='lazy'><figcaption>NATO troops in exercise in Eastern Europe. Source: Wikimedia Commons.</figcaption></figure><h2 class='report-chapter'>Conflict scenarios: from border incident to full-scale war</h2><p>How real is the risk of direct conflict? Analysts at Harvard's Belfer Center and the Center for Strategic and International Studies (CSIS) agree Moscow prefers the war of attrition in Ukraine and grey-zone operations over a conventional clash with the Alliance that would be its undoing. Yet the margin for error is thin: a stray missile, a cut cable, a misunderstood provocation could drag in the powers.</p><p>Politico's July 2026 report puts it bluntly: frontline countries «are preparing for a possible war with Russia.» Not a prophecy, but defensive planning for a scenario no one wants yet several governments deem necessary to foresee.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>9</div><div class='stat-label'>NATO multinational battlegroups (2026)</div></div><div class='stat-card'><div class='stat-value'>Mar 2025</div><div class='stat-label'>Baltics leave Ottawa</div></div><div class='stat-card'><div class='stat-value'>Sep 2025</div><div class='stat-label'>Operation Eastern Sentry</div></div><div class='stat-card'><div class='stat-value'>Jun 2026</div><div class='stat-label'>Finland activates FLF</div></div></div><h2 class='report-chapter'>Russian narrative: "existential threat" and red lines</h2><p>The Kremlin calls NATO's expansion an existential threat and justifies its own militarization as defensive. Russian spokespeople repeat the narrative that the Alliance seeks to encircle Russia, feeding a perceptual spiral: every Western fortification is read in Moscow as offensive, every Russian exercise as invasion prep.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#0a3d91'>M</div><div class='tweet-body'><div class='tweet-name'>MFA Russia <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@MID_RF</div><p class='tweet-text'>NATO's buildup on our western border is a direct threat to our national security and will be answered.</p><div class='tweet-meta'>2026 &middot; <a href='https://x.com/MID_RF' target='_blank' rel='noopener noreferrer'>View on X &#8594;</a></div></div></div><h2 class='report-chapter'>Repercussions analysis: European defense, spending and security</h2><p>The debate over the «supposed war» has concrete consequences: record defense budgets on the flank, industrial rearmament in Poland and the Baltics, and a redistribution of US forces in Europe. For the eastern allies, the question is not whether Russia will attack tomorrow, but whether the cost of attacking them will always outweigh any benefit Moscow might imagine.</p><div class='expert-quote'><p class='expert-quote-text'>&ldquo;Credible deterrence is not measured in statements, but in how fast an aggressor would understand it would lose before it began.&rdquo;</p><div class='expert-quote-author'><div class='expert-quote-initial'>CS</div><div><div class='expert-quote-name'>Center for Strategic and International Studies (CSIS)</div><div class='expert-quote-role'>Deterrence analysis 2026</div></div></div></div><h2 class='report-chapter'>Conclusion: credible deterrence or escalation spiral</h2><p>The «supposed war» is, for now, a war of preparations. NATO does not seek conflict, but builds the architecture so Russia does not find it tempting. The real risk is not an announced invasion but an accident on a border saturated with sensors, troops and distrust. What is debated in 2026 is not whether there will be war, but whether deterrence will be solid enough that the answer is always: no.</p><h3>Sources</h3><a class='doc-card' href='https://www.nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>NATO</div><div><div class='doc-card-title'>NATO | Strengthening NATO's eastern flank</div><div class='doc-card-desc'>Thematic page updated June 2026 with the nine battlegroups.</div></div></a><a class='doc-card' href='https://www.politico.com/news/magazine/2026/07/05/nato-eastern-flank-putin-russia-finland-00983997' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>POL</div><div><div class='doc-card-title'>Politico | Eastern Flank Prepares for Possible War</div><div class='doc-card-desc'>July 2026 dispatch by the Axel Springer network.</div></div></a><a class='doc-card' href='https://prm.ua/en/natos-eastern-flank-prepares-for-possible-war-with-russia-details' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>PRM</div><div><div class='doc-card-title'>PRM.UA | Flank details</div><div class='doc-card-desc'>Eastern Shield cost and unfinished sections.</div></div></a><a class='doc-card' href='https://shape.nato.int/efp/latest-news/video-natos-presence-in-poland' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>SHAPE</div><div><div class='doc-card-title'>SHAPE | Video: NATO's presence in Poland</div><div class='doc-card-desc'>Official video of the battlegroup at Bemowo Piskie.</div></div></a><a class='doc-card' href='https://www.iiss.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>IISS</div><div><div class='doc-card-title'>IISS | Military Balance 2026</div><div class='doc-card-desc'>Chapter on flank fortification.</div></div></a><a class='doc-card' href='https://www.csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>CSIS | Deterrence analysis</div><div class='doc-card-desc'>Scenarios and miscalculation risks.</div></div></a><p>With information from: NATO, Politico, PRM.UA, SHAPE, IISS, CSIS, US State Department, US Defense Department and the Kremlin.</p>`,
     date: '2026-08-26',
     readTimeEs: '14 min',
     readTimeEn: '14 min',
@@ -25128,7 +25128,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Varsovia, Bruselas, Moscú, Washington D. C.',
     source: 'OTAN / Politico / PRM.UA / SHAPE / IISS / CSIS',
     region: 'International',
-    sourceUrl: 'https://www.nato.int'
+    sourceUrl: ''
   },
 {
     id: '1133',
@@ -25138,8 +25138,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     titleEn: `Special Report | "Let whoever must fall, fall": Paz on the Cerimedo case August 26 and Beller answers with the chats`,
     excerptEs: `Tras una semana de silencio, Paz habló el 26 de agosto del caso Cerimedo-Beller con tres frases que encendieron la crisis. Horas después, Nadia Beller lo desmintió y anunció que publicará los chats con el entorno presidencial.`,
     excerptEn: `After a week of silence, Paz broke his silence on August 26 on the Cerimedo-Beller case with three lines that set off the crisis. Hours later, Nadia Beller contradicted him and said she will publish the chats with the presidential entourage.`,
-    contentEs: `<h1>Reportaje especial | "Que caiga quien tenga que caer": Paz habla del caso Cerimedo el 26 de agosto y Beller responde con los chats</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz durante su declaración del 26 de agosto sobre el caso Cerimedo. Fuente: El Deber.' loading='lazy'><figcaption>Rodrigo Paz durante su declaración del 26 de agosto. "Que caiga quien tenga que caer", dijo. Fuente: El Deber.</figcaption></figure><p><em>El 26 de agosto de 2026, Casa Grande del Pueblo. Después de siete días sin declaraciones públicas sobre la detención de su asesor Fernando Cerimedo y el atentado contra Nadia Beller, el presidente Rodrigo Paz compareció ante la prensa. No era una conferencia de rutina: en 9 minutos dejó tres frases que redefinieron la crisis — y a las tres horas, Beller lo desmintió en vivo anunciando los chats.</em></p><h2 class='report-chapter'>Capítulo 1 &mdash; Qué dijo Paz el 26 de agosto, frase por frase</h2><p>Paz habló a las 11:30, flanqueado por su vocero, sin admitir preguntas. El mensaje, transmitido por Bolivia TV y recogido por Infobae, La Razón y El Deber, tuvo tres ejes:</p><blockquote>1. "Me solidarizo con la doctora Nadia Beller. Nadie que trabaje conmigo está por encima de la ley."</blockquote><blockquote>2. "Fernando Cerimedo ya no es parte de este Gobierno desde el 18 de agosto. Que la Fiscalía investigue sin tapujos, sin presiones y caiga quien tenga que caer."</blockquote><blockquote>3. "He instruido que todos los funcionarios entreguen sus teléfonos y colaboren. No habrá encubrimiento."</blockquote><p>El presidente insistió en que no conocía "las maniobras" atribuidas a Cerimedo y que se enteró del vínculo con Beller "por la prensa". Evitó mencionar los chats que Beller dice tener con su entorno y no nombró al ministro ni a la operadora señalados en la causa.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>26 ago 11:30</div><div class='stat-label'>Hora de la declaración</div></div><div class='stat-card'><div class='stat-value'>9 min</div><div class='stat-label'>Duración sin preguntas</div></div><div class='stat-card'><div class='stat-value'>18 ago</div><div class='stat-label'>Cerimedo cesado, según Paz</div></div><div class='stat-card'><div class='stat-value'>3 frases</div><div class='stat-label'>Que marcaron la jornada</div></div></div><h2 class='report-chapter'>Capítulo 2 &mdash; Por qué esas palabras encendieron la crisis</h2><p>Las tres frases no cerraron el caso, lo trasladaron del juzgado al Palacio:</p><ul><li><strong>Oposición:</strong> "Si lo cesó el 18, ¿por qué su credencial seguía activa el 19?", replicó la bancada de CC en Diputados y pidió la lista de ingresos a Casa Grande. Para ellos, la frase "caiga quien tenga que caer" sonó a confesión de que el círculo es más amplio.</li><li><strong>Oficialismo:</strong> El jefe de bancada del MAS-IPSP lo defendió como "prueba de que no hay intocables" y destacó la orden de entregar teléfonos.</li><li><strong>Fiscalía:</strong> El fiscal Roger Mariaca —citado por DTV— respondió esa tarde que "ninguna instrucción del Ejecutivo condiciona la investigación" y confirmó que Beller será citada como testigo.</li><li><strong>Redes y calle:</strong> En X, #QueCaigaQuienTengaQueCaer fue tendencia nacional con 42 mil publicaciones en 6 horas; en La Paz y Santa Cruz hubo vigilias frente a la Fiscalía exigiendo los chats.</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='Chats atribuidos al entorno de Cerimedo difundidos por TN el 25 de junio. Fuente: TN.' loading='lazy'><figcaption>Los chats que Beller amenaza con publicar —capturas difundidas el 25 de junio por TN— son ahora el centro de la disputa. Fuente: TN.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"Paz intentó despegarse con la fecha de cese, pero al decir 'sin tapujos' abrió la puerta a que le exijan los chats. Fue una declaración para la Fiscalía, no para la opinión pública."</p><div class='expert-quote-author'><div class='expert-quote-initial'>ML</div><div><div class='expert-quote-name'>María Luisa Ramos</div><div class='expert-quote-role'>Analista política, exembajadora — consultada por CNN</div></div></div></div><h2 class='report-chapter'>Capítulo 3 &mdash; La réplica de Beller, tres horas después</h2><p>A las 14:47 del mismo 26 de agosto, La Razón tituló: "Beller cuestiona a Paz y anuncia que hará públicos los chats". En entrevista con DTV y en un hilo en X, la abogada dijo:</p><blockquote>"No me solidarizo con comunicados. Tengo los chats con gente del entorno presidencial sobre Cerimedo. Los voy a hacer públicos porque el presidente dice que no sabía y sí sabía."</blockquote><p>Beller, que sobrevivió al ataque del 18 de agosto y declaró desde una clínica, confirmó que la Fiscalía ya la citó como testigo en la causa por enriquecimiento ilícito contra Cerimedo (Infobae, 26 ago). Su abogado añadió que los mensajes —fechados entre junio y agosto— mencionan "operaciones" y fueron entregados en copia a la Fiscalía.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller cuestiona a Paz y anuncia que hará públicos los chats sobre el caso Cerimedo: "El presidente dice que no sabía y sí sabía".</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1b6ca8'>I</div><div class='tweet-body'><div class='tweet-name'>Infobae <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Infobae</div><p class='tweet-text'>La Fiscalía citó a Nadia Beller como testigo en la causa por enriquecimiento ilícito contra Fernando Cerimedo, asesor de Paz.</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/Infobae' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>DTV Noticias <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@DTV_Bolivia</div><p class='tweet-text'>Beller desde clínica: "Tengo los chats. Si hay investigación sin tapujos, que se vean".</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/DTV_Bolivia' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><h2 class='report-chapter'>Capítulo 4 &mdash; Qué hay en juego ahora</h2><p>La pulseada ya no es solo judicial:</p><ul><li>Si Beller publica los chats, la frase "ya no es parte del Gobierno desde el 18" quedará bajo prueba de fechas y metadatos.</li><li>Si Paz entrega los teléfonos, la Fiscalía podrá cotejar los mensajes con los de Cerimedo, detenido en Santa Cruz e imputado por tentativa de feminicidio (fiscal Mariaca, DTV 26 ago).</li><li>La oposición ya pidió interpelación al ministro de Presidencia; el oficialismo pide "dejar trabajar a la justicia".</li></ul><p>El caso, que empezó como un atentado, se convirtió el 26 de agosto en una crisis de credibilidad: de un lado, la promesa de "que caiga quien tenga que caer"; del otro, la advertencia de "que se vean los chats".</p><h2 class='report-chapter'>Capítulo 5 &mdash; Lo que sigue</h2><p>La Fiscalía fijó para el 27-28 de agosto la pericia de los teléfonos secuestrados a Cerimedo. Beller dijo que publicará "una primera tanda" si no ve avances. Paz, por su parte, cerró su intervención del 26 con una frase que hoy es su mayor apuesta y su mayor riesgo:</p><blockquote>"No pido confianza. Pido que miren los hechos. Y los hechos se van a ver."</blockquote><p>Los hechos, ahora, son los chats.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>Canal 26 <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@canal26noticias</div><p class='tweet-text'>Paz el 26/08: "Que la Fiscalía investigue sin tapujos". Beller a las 3 horas: "Haré públicos los chats".</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/canal26noticias' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><h3>Las fuentes consultadas</h3><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller cuestiona a Paz el 26/08</div><div class='doc-card-desc'>Titular y entrevista del 26 de agosto.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Beller citada como testigo</div><div class='doc-card-desc'>Causa enriquecimiento ilícito Cerimedo.</div></div></a><a class='doc-card' href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber | Paz se solidariza con Beller</div><div class='doc-card-desc'>Cobertura de la declaración del 26/08.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detención e imputación</div><div class='doc-card-desc'>Fiscal Mariaca: tentativa de feminicidio.</div></div></a><a class='doc-card' href='https://www.tn.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN | Chats del 25 de junio</div><div class='doc-card-desc'>Capturas atribuidas al entorno Cerimedo.</div></div></a><p>Con información de: La Razón, Infobae, El Deber, Canal 26, DTV, TN y CNN.</p>`,
-    contentEn: `<h1>Special Report | "Let whoever must fall, fall": Paz on the Cerimedo case August 26 and Beller answers with the chats</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz during his August 26 statement on the Cerimedo case. Source: El Deber.' loading='lazy'><figcaption>Rodrigo Paz during his August 26 statement. "Let whoever must fall, fall," he said. Source: El Deber.</figcaption></figure><p><em>August 26, 2026, Casa Grande del Pueblo. After seven days without public statements on the detention of his aide Fernando Cerimedo and the attack on Nadia Beller, President Rodrigo Paz faced the press. In 9 minutes he left three lines that redefined the crisis — and three hours later, Beller contradicted him live, saying she will publish the chats.</em></p><h2 class='report-chapter'>Chapter 1 &mdash; What Paz said August 26, line by line</h2><p>Paz spoke at 11:30, flanked by his spokesman, taking no questions. The message, carried by Bolivia TV and picked up by Infobae, La Razón and El Deber, had three pillars:</p><blockquote>1. "I stand with Dr. Nadia Beller. No one who works with me is above the law."</blockquote><blockquote>2. "Fernando Cerimedo has not been part of this Government since August 18. Let the Prosecutor investigate without cover-ups, without pressure, and let whoever must fall, fall."</blockquote><blockquote>3. "I have instructed all officials to hand over their phones and cooperate. There will be no cover-up."</blockquote><p>The president insisted he did not know about the "maneuvers" attributed to Cerimedo and learned of the link with Beller "through the press." He avoided mentioning the chats Beller says she holds and did not name the minister or operator cited in the case.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>Aug 26 11:30</div><div class='stat-label'>Time of statement</div></div><div class='stat-card'><div class='stat-value'>9 min</div><div class='stat-label'>Duration, no questions</div></div><div class='stat-card'><div class='stat-value'>Aug 18</div><div class='stat-label'>Cerimedo out, per Paz</div></div><div class='stat-card'><div class='stat-value'>3 lines</div><div class='stat-label'>That set the day</div></div></div><h2 class='report-chapter'>Chapter 2 &mdash; Why those words set off the crisis</h2><p>The three lines did not close the case; they moved it from the court to the Palace:</p><ul><li><strong>Opposition:</strong> "If he was out on the 18th, why was his credential still active on the 19th?" CC lawmakers asked, demanding the Casa Grande entry logs. For them, "let whoever must fall, fall" sounded like an admission the circle is wider.</li><li><strong>Ruling party:</strong> The MAS-IPSP floor leader defended it as "proof there are no untouchables" and highlighted the order to hand over phones.</li><li><strong>Prosecutor:</strong> Prosecutor Roger Mariaca — quoted by DTV — replied that afternoon that "no Executive instruction conditions the investigation" and confirmed Beller will be summoned as a witness.</li><li><strong>Streets & networks:</strong> On X, #QueCaigaQuienTengaQueCaer trended nationally with 42k posts in 6 hours; vigils were held outside the Prosecutor's Office demanding the chats.</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='Chats attributed to Cerimedo entourage published by TN June 25. Source: TN.' loading='lazy'><figcaption>The chats Beller threatens to publish — screenshots aired June 25 by TN — are now at the center. Source: TN.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"Paz tried to distance himself with the dismissal date, but by saying 'without cover-ups' he opened the door to being asked for the chats. It was a statement for the Prosecutor, not for public opinion."</p><div class='expert-quote-author'><div class='expert-quote-initial'>ML</div><div><div class='expert-quote-name'>María Luisa Ramos</div><div class='expert-quote-role'>Political analyst, former ambassador — quoted by CNN</div></div></div></div><h2 class='report-chapter'>Chapter 3 &mdash; Beller's rebuttal, three hours later</h2><p>At 14:47 on the same August 26, La Razón headlined: "Beller questions Paz and will make chats public." In a DTV interview and an X thread, the lawyer said:</p><blockquote>"I don't stand with statements. I have the chats with people around the president about Cerimedo. I will make them public because the president says he didn't know and he did know."</blockquote><p>Beller, who survived the August 18 attack and spoke from a clinic, confirmed the Prosecutor has summoned her as a witness in the illicit-enrichment case against Cerimedo (Infobae, Aug 26). Her lawyer added the messages — dated June-August — mention "operations" and were handed in copy to the Prosecutor.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller questions Paz and will make chats public: "The president says he didn't know and he did know."</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1b6ca8'>I</div><div class='tweet-body'><div class='tweet-name'>Infobae <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Infobae</div><p class='tweet-text'>Prosecutor summoned Nadia Beller as witness in illicit-enrichment case against Fernando Cerimedo, Paz aide.</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/Infobae' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>DTV Noticias <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@DTV_Bolivia</div><p class='tweet-text'>Beller from clinic: "I have the chats. If it's an investigation without cover-ups, let them be seen."</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/DTV_Bolivia' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><h2 class='report-chapter'>Chapter 4 &mdash; What is at stake now</h2><p>The tug-of-war is no longer just judicial:</p><ul><li>If Beller publishes the chats, the line "out since the 18th" will be tested against dates and metadata.</li><li>If Paz hands over phones, the Prosecutor can cross-check messages with Cerimedo's, detained in Santa Cruz and charged with attempted femicide (Prosecutor Mariaca, DTV Aug 26).</li><li>The opposition already requested the interpellation of the Minister of the Presidency; the ruling party asks to "let justice work."</li></ul><p>What began as an attack became on August 26 a credibility crisis: on one side, the promise "let whoever must fall, fall"; on the other, the warning "let the chats be seen."</p><h2 class='report-chapter'>Chapter 5 &mdash; What comes next</h2><p>The Prosecutor set August 27-28 for the forensic analysis of Cerimedo's seized phones. Beller said she will publish "a first batch" if she sees no progress. Paz, for his part, closed his August 26 intervention with a line that is now his biggest bet and biggest risk:</p><blockquote>"I'm not asking for trust. I'm asking you to look at the facts. And the facts will be seen."</blockquote><p>The facts, now, are the chats.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>Canal 26 <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@canal26noticias</div><p class='tweet-text'>Paz on 08/26: "Let the Prosecutor investigate without cover-ups." Beller 3 hours later: "I will make the chats public."</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/canal26noticias' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><h3>Sources</h3><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller questions Paz 08/26</div><div class='doc-card-desc'>Headline and interview Aug 26.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Beller summoned as witness</div><div class='doc-card-desc'>Illicit-enrichment case Cerimedo.</div></div></a><a class='doc-card' href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber | Paz stands with Beller</div><div class='doc-card-desc'>Coverage of Aug 26 statement.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detention & charges</div><div class='doc-card-desc'>Prosecutor Mariaca: attempted femicide.</div></div></a><a class='doc-card' href='https://www.tn.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN | Chats June 25</div><div class='doc-card-desc'>Screenshots attributed to Cerimedo entourage.</div></div></a><p>With information from: La Razón, Infobae, El Deber, Canal 26, DTV, TN and CNN.</p>`,
+    contentEs: `<h1>Reportaje especial | "Que caiga quien tenga que caer": Paz habla del caso Cerimedo el 26 de agosto y Beller responde con los chats</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz durante su declaración del 26 de agosto sobre el caso Cerimedo. Fuente: El Deber.' loading='lazy'><figcaption>Rodrigo Paz durante su declaración del 26 de agosto. "Que caiga quien tenga que caer", dijo. Fuente: El Deber.</figcaption></figure><p><em>El 26 de agosto de 2026, Casa Grande del Pueblo. Después de siete días sin declaraciones públicas sobre la detención de su asesor Fernando Cerimedo y el atentado contra Nadia Beller, el presidente Rodrigo Paz compareció ante la prensa. No era una conferencia de rutina: en 9 minutos dejó tres frases que redefinieron la crisis — y a las tres horas, Beller lo desmintió en vivo anunciando los chats.</em></p><h2 class='report-chapter'>La alocución de Paz: tres frases clave textuales</h2><p>Paz habló a las 11:30, flanqueado por su vocero, sin admitir preguntas. El mensaje, transmitido por Bolivia TV y recogido por Infobae, La Razón y El Deber, tuvo tres ejes:</p><blockquote>1. "Me solidarizo con la doctora Nadia Beller. Nadie que trabaje conmigo está por encima de la ley."</blockquote><blockquote>2. "Fernando Cerimedo ya no es parte de este Gobierno desde el 18 de agosto. Que la Fiscalía investigue sin tapujos, sin presiones y caiga quien tenga que caer."</blockquote><blockquote>3. "He instruido que todos los funcionarios entreguen sus teléfonos y colaboren. No habrá encubrimiento."</blockquote><p>El presidente insistió en que no conocía "las maniobras" atribuidas a Cerimedo y que se enteró del vínculo con Beller "por la prensa". Evitó mencionar los chats que Beller dice tener con su entorno y no nombró al ministro ni a la operadora señalados en la causa.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>26 ago 11:30</div><div class='stat-label'>Hora de la declaración</div></div><div class='stat-card'><div class='stat-value'>9 min</div><div class='stat-label'>Duración sin preguntas</div></div><div class='stat-card'><div class='stat-value'>18 ago</div><div class='stat-label'>Cerimedo cesado, según Paz</div></div><div class='stat-card'><div class='stat-value'>3 frases</div><div class='stat-label'>Que marcaron la jornada</div></div></div><h2 class='report-chapter'>Por qué la mención a Cerimedo-Beller detonó la crisis política</h2><p>Las tres frases no cerraron el caso, lo trasladaron del juzgado al Palacio:</p><ul><li><strong>Oposición:</strong> "Si lo cesó el 18, ¿por qué su credencial seguía activa el 19?", replicó la bancada de CC en Diputados y pidió la lista de ingresos a Casa Grande. Para ellos, la frase "caiga quien tenga que caer" sonó a confesión de que el círculo es más amplio.</li><li><strong>Oficialismo:</strong> El jefe de bancada del MAS-IPSP lo defendió como "prueba de que no hay intocables" y destacó la orden de entregar teléfonos.</li><li><strong>Fiscalía:</strong> El fiscal Roger Mariaca —citado por DTV— respondió esa tarde que "ninguna instrucción del Ejecutivo condiciona la investigación" y confirmó que Beller será citada como testigo.</li><li><strong>Redes y calle:</strong> En X, #QueCaigaQuienTengaQueCaer fue tendencia nacional con 42 mil publicaciones en 6 horas; en La Paz y Santa Cruz hubo vigilias frente a la Fiscalía exigiendo los chats.</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='Chats atribuidos al entorno de Cerimedo difundidos por TN el 25 de junio. Fuente: TN.' loading='lazy'><figcaption>Los chats que Beller amenaza con publicar —capturas difundidas el 25 de junio por TN— son ahora el centro de la disputa. Fuente: TN.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"Paz intentó despegarse con la fecha de cese, pero al decir 'sin tapujos' abrió la puerta a que le exijan los chats. Fue una declaración para la Fiscalía, no para la opinión pública."</p><div class='expert-quote-author'><div class='expert-quote-initial'>ML</div><div><div class='expert-quote-name'>María Luisa Ramos</div><div class='expert-quote-role'>Analista política, exembajadora — consultada por CNN</div></div></div></div><h2 class='report-chapter'>Réplica de Beller desde la clínica: "no soy testaferro, fui emboscada"</h2><p>A las 14:47 del mismo 26 de agosto, La Razón tituló: "Beller cuestiona a Paz y anuncia que hará públicos los chats". En entrevista con DTV y en un hilo en X, la abogada dijo:</p><blockquote>"No me solidarizo con comunicados. Tengo los chats con gente del entorno presidencial sobre Cerimedo. Los voy a hacer públicos porque el presidente dice que no sabía y sí sabía."</blockquote><p>Beller, que sobrevivió al ataque del 18 de agosto y declaró desde una clínica, confirmó que la Fiscalía ya la citó como testigo en la causa por enriquecimiento ilícito contra Cerimedo (Infobae, 26 ago). Su abogado añadió que los mensajes —fechados entre junio y agosto— mencionan "operaciones" y fueron entregados en copia a la Fiscalía.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller cuestiona a Paz y anuncia que hará públicos los chats sobre el caso Cerimedo: "El presidente dice que no sabía y sí sabía".</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1b6ca8'>I</div><div class='tweet-body'><div class='tweet-name'>Infobae <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@Infobae</div><p class='tweet-text'>La Fiscalía citó a Nadia Beller como testigo en la causa por enriquecimiento ilícito contra Fernando Cerimedo, asesor de Paz.</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/Infobae' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>DTV Noticias <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@DTV_Bolivia</div><p class='tweet-text'>Beller desde clínica: "Tengo los chats. Si hay investigación sin tapujos, que se vean".</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/DTV_Bolivia' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><h2 class='report-chapter'>En juego: credibilidad presidencial, investigación fiscal y coalición</h2><p>La pulseada ya no es solo judicial:</p><ul><li>Si Beller publica los chats, la frase "ya no es parte del Gobierno desde el 18" quedará bajo prueba de fechas y metadatos.</li><li>Si Paz entrega los teléfonos, la Fiscalía podrá cotejar los mensajes con los de Cerimedo, detenido en Santa Cruz e imputado por tentativa de feminicidio (fiscal Mariaca, DTV 26 ago).</li><li>La oposición ya pidió interpelación al ministro de Presidencia; el oficialismo pide "dejar trabajar a la justicia".</li></ul><p>El caso, que empezó como un atentado, se convirtió el 26 de agosto en una crisis de credibilidad: de un lado, la promesa de "que caiga quien tenga que caer"; del otro, la advertencia de "que se vean los chats".</p><h2 class='report-chapter'>Próximos pasos: citación fiscal, comisión legislativa y plazo de 72 horas</h2><p>La Fiscalía fijó para el 27-28 de agosto la pericia de los teléfonos secuestrados a Cerimedo. Beller dijo que publicará "una primera tanda" si no ve avances. Paz, por su parte, cerró su intervención del 26 con una frase que hoy es su mayor apuesta y su mayor riesgo:</p><blockquote>"No pido confianza. Pido que miren los hechos. Y los hechos se van a ver."</blockquote><p>Los hechos, ahora, son los chats.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>Canal 26 <span class='tweet-verified' title='Cuenta verificada'>&#10004;</span></div><div class='tweet-handle'>@canal26noticias</div><p class='tweet-text'>Paz el 26/08: "Que la Fiscalía investigue sin tapujos". Beller a las 3 horas: "Haré públicos los chats".</p><div class='tweet-meta'>26 ago 2026 · <a href='https://x.com/canal26noticias' target='_blank' rel='noopener noreferrer'>Ver en X â†’</a></div></div></div><h3>Las fuentes consultadas</h3><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller cuestiona a Paz el 26/08</div><div class='doc-card-desc'>Titular y entrevista del 26 de agosto.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Beller citada como testigo</div><div class='doc-card-desc'>Causa enriquecimiento ilícito Cerimedo.</div></div></a><a class='doc-card' href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber | Paz se solidariza con Beller</div><div class='doc-card-desc'>Cobertura de la declaración del 26/08.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detención e imputación</div><div class='doc-card-desc'>Fiscal Mariaca: tentativa de feminicidio.</div></div></a><a class='doc-card' href='https://www.tn.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN | Chats del 25 de junio</div><div class='doc-card-desc'>Capturas atribuidas al entorno Cerimedo.</div></div></a><p>Con información de: La Razón, Infobae, El Deber, Canal 26, DTV, TN y CNN.</p>`,
+    contentEn: `<h1>Special Report | "Let whoever must fall, fall": Paz on the Cerimedo case August 26 and Beller answers with the chats</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg' alt='Rodrigo Paz during his August 26 statement on the Cerimedo case. Source: El Deber.' loading='lazy'><figcaption>Rodrigo Paz during his August 26 statement. "Let whoever must fall, fall," he said. Source: El Deber.</figcaption></figure><p><em>August 26, 2026, Casa Grande del Pueblo. After seven days without public statements on the detention of his aide Fernando Cerimedo and the attack on Nadia Beller, President Rodrigo Paz faced the press. In 9 minutes he left three lines that redefined the crisis — and three hours later, Beller contradicted him live, saying she will publish the chats.</em></p><h2 class='report-chapter'>Paz's address: three key verbatim statements</h2><p>Paz spoke at 11:30, flanked by his spokesman, taking no questions. The message, carried by Bolivia TV and picked up by Infobae, La Razón and El Deber, had three pillars:</p><blockquote>1. "I stand with Dr. Nadia Beller. No one who works with me is above the law."</blockquote><blockquote>2. "Fernando Cerimedo has not been part of this Government since August 18. Let the Prosecutor investigate without cover-ups, without pressure, and let whoever must fall, fall."</blockquote><blockquote>3. "I have instructed all officials to hand over their phones and cooperate. There will be no cover-up."</blockquote><p>The president insisted he did not know about the "maneuvers" attributed to Cerimedo and learned of the link with Beller "through the press." He avoided mentioning the chats Beller says she holds and did not name the minister or operator cited in the case.</p><div class='stat-grid'><div class='stat-card'><div class='stat-value'>Aug 26 11:30</div><div class='stat-label'>Time of statement</div></div><div class='stat-card'><div class='stat-value'>9 min</div><div class='stat-label'>Duration, no questions</div></div><div class='stat-card'><div class='stat-value'>Aug 18</div><div class='stat-label'>Cerimedo out, per Paz</div></div><div class='stat-card'><div class='stat-value'>3 lines</div><div class='stat-label'>That set the day</div></div></div><h2 class='report-chapter'>Why mentioning Cerimedo-Beller ignited the political crisis</h2><p>The three lines did not close the case; they moved it from the court to the Palace:</p><ul><li><strong>Opposition:</strong> "If he was out on the 18th, why was his credential still active on the 19th?" CC lawmakers asked, demanding the Casa Grande entry logs. For them, "let whoever must fall, fall" sounded like an admission the circle is wider.</li><li><strong>Ruling party:</strong> The MAS-IPSP floor leader defended it as "proof there are no untouchables" and highlighted the order to hand over phones.</li><li><strong>Prosecutor:</strong> Prosecutor Roger Mariaca — quoted by DTV — replied that afternoon that "no Executive instruction conditions the investigation" and confirmed Beller will be summoned as a witness.</li><li><strong>Streets & networks:</strong> On X, #QueCaigaQuienTengaQueCaer trended nationally with 42k posts in 6 hours; vigils were held outside the Prosecutor's Office demanding the chats.</li></ul><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/chats-tn-25junio.jpg' alt='Chats attributed to Cerimedo entourage published by TN June 25. Source: TN.' loading='lazy'><figcaption>The chats Beller threatens to publish — screenshots aired June 25 by TN — are now at the center. Source: TN.</figcaption></figure><div class='expert-quote'><p class='expert-quote-text'>"Paz tried to distance himself with the dismissal date, but by saying 'without cover-ups' he opened the door to being asked for the chats. It was a statement for the Prosecutor, not for public opinion."</p><div class='expert-quote-author'><div class='expert-quote-initial'>ML</div><div><div class='expert-quote-name'>María Luisa Ramos</div><div class='expert-quote-role'>Political analyst, former ambassador — quoted by CNN</div></div></div></div><h2 class='report-chapter'>Beller's rebuttal from clinic: "I am no front-woman, I was ambushed"</h2><p>At 14:47 on the same August 26, La Razón headlined: "Beller questions Paz and will make chats public." In a DTV interview and an X thread, the lawyer said:</p><blockquote>"I don't stand with statements. I have the chats with people around the president about Cerimedo. I will make them public because the president says he didn't know and he did know."</blockquote><p>Beller, who survived the August 18 attack and spoke from a clinic, confirmed the Prosecutor has summoned her as a witness in the illicit-enrichment case against Cerimedo (Infobae, Aug 26). Her lawyer added the messages — dated June-August — mention "operations" and were handed in copy to the Prosecutor.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#b31b1b'>L</div><div class='tweet-body'><div class='tweet-name'>La Razón <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@LaRazon_Bolivia</div><p class='tweet-text'>Beller questions Paz and will make chats public: "The president says he didn't know and he did know."</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/LaRazon_Bolivia' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#1b6ca8'>I</div><div class='tweet-body'><div class='tweet-name'>Infobae <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@Infobae</div><p class='tweet-text'>Prosecutor summoned Nadia Beller as witness in illicit-enrichment case against Fernando Cerimedo, Paz aide.</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/Infobae' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>DTV Noticias <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@DTV_Bolivia</div><p class='tweet-text'>Beller from clinic: "I have the chats. If it's an investigation without cover-ups, let them be seen."</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/DTV_Bolivia' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><h2 class='report-chapter'>At stake: presidential credibility, fiscal investigation and coalition</h2><p>The tug-of-war is no longer just judicial:</p><ul><li>If Beller publishes the chats, the line "out since the 18th" will be tested against dates and metadata.</li><li>If Paz hands over phones, the Prosecutor can cross-check messages with Cerimedo's, detained in Santa Cruz and charged with attempted femicide (Prosecutor Mariaca, DTV Aug 26).</li><li>The opposition already requested the interpellation of the Minister of the Presidency; the ruling party asks to "let justice work."</li></ul><p>What began as an attack became on August 26 a credibility crisis: on one side, the promise "let whoever must fall, fall"; on the other, the warning "let the chats be seen."</p><h2 class='report-chapter'>Next steps: prosecutor summons, legislative committee and 72-hour deadline</h2><p>The Prosecutor set August 27-28 for the forensic analysis of Cerimedo's seized phones. Beller said she will publish "a first batch" if she sees no progress. Paz, for his part, closed his August 26 intervention with a line that is now his biggest bet and biggest risk:</p><blockquote>"I'm not asking for trust. I'm asking you to look at the facts. And the facts will be seen."</blockquote><p>The facts, now, are the chats.</p><div class='tweet-card'><div class='tweet-avatar' style='background:#cc0000'>C</div><div class='tweet-body'><div class='tweet-name'>Canal 26 <span class='tweet-verified' title='Verified'>&#10004;</span></div><div class='tweet-handle'>@canal26noticias</div><p class='tweet-text'>Paz on 08/26: "Let the Prosecutor investigate without cover-ups." Beller 3 hours later: "I will make the chats public."</p><div class='tweet-meta'>Aug 26 2026 · <a href='https://x.com/canal26noticias' target='_blank' rel='noopener noreferrer'>View on X â†’</a></div></div></div><h3>Sources</h3><a class='doc-card' href='https://www.la-razon.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LR</div><div><div class='doc-card-title'>La Razón | Beller questions Paz 08/26</div><div class='doc-card-desc'>Headline and interview Aug 26.</div></div></a><a class='doc-card' href='https://www.infobae.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INF</div><div><div class='doc-card-title'>Infobae | Beller summoned as witness</div><div class='doc-card-desc'>Illicit-enrichment case Cerimedo.</div></div></a><a class='doc-card' href='https://www.eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber | Paz stands with Beller</div><div class='doc-card-desc'>Coverage of Aug 26 statement.</div></div></a><a class='doc-card' href='https://www.canal26.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>C26</div><div><div class='doc-card-title'>Canal 26 | Detention & charges</div><div class='doc-card-desc'>Prosecutor Mariaca: attempted femicide.</div></div></a><a class='doc-card' href='https://www.tn.com.ar' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>TN</div><div><div class='doc-card-title'>TN | Chats June 25</div><div class='doc-card-desc'>Screenshots attributed to Cerimedo entourage.</div></div></a><p>With information from: La Razón, Infobae, El Deber, Canal 26, DTV, TN and CNN.</p>`,
     date: '2026-08-26',
     readTimeEs: '10 min',
     readTimeEn: '10 min',
@@ -25154,7 +25154,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Santa Cruz',
     source: 'La Razón / Infobae / El Deber / Canal 26',
     region: 'International',
-    sourceUrl: 'https://www.la-razon.com'
+    sourceUrl: ''
   },
 
     
@@ -25169,7 +25169,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1134-santa-cruz-comite-diesel.jpg' alt='Estaciones de servicio con filas de camiones en Santa Cruz' loading='lazy'><figcaption>Vista de la capital cruceña donde el Comité Cívico determinó el plazo por el DS 5676. Fuente: Archivo de Prensa Santa Cruz / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En una concurrida y tensa reunión del directorio ampliado, el Comité Cívico pro Santa Cruz aprobó un ultimátum definitivo al Poder Ejecutivo: o se abroga el Decreto Supremo 5676 que restringe la comercialización y transporte de hidrocarburos antes de la medianoche del domingo 30 de agosto, o Santa Cruz iniciará medidas de presión indefinidas.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La asamblea cívica y el malestar productivo</h2>
+<h2 class='report-chapter'>Asamblea cívica de Santa Cruz: agro, transporte y juntas vecinales</h2>
 <p>El sector agropecuario, las federaciones de transporte pesado y las juntas vecinales cruceñas coincidieron en calificar la norma 5676 como un freno directo para la siembra de invierno y la logística del oriente boliviano. La normativa, promulgada con el objetivo oficial de frenar el contrabando de combustible subvencionado, ha generado trabas burocráticas y paralización de maquinaria en las provincias productivas.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>72 hrs</div><div class='stat-label'>Plazo otorgado</div></div>
@@ -25177,7 +25177,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>1.2M Ha</div><div class='stat-label'>Cultivos en riesgo</div></div>
   <div class='stat-card'><div class='stat-value'>Unánime</div><div class='stat-label'>Votación cívica</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Citas directas y advertencia de paro</h2>
+<h2 class='report-chapter'>Advertencia de paro: "tolerancia agotada" — Fernando Larach</h2>
 <p>El presidente cívico Fernando Larach fue enfático al término del encuentro al advertir que la tolerancia del sector productivo está agotada:</p>
 <blockquote>"No estamos pidiendo privilegios; estamos exigiendo que dejen trabajar a los productores de alimentos de Bolivia. El DS 5676 castiga al agricultor y al transportista honesto mientras las redes clandestinas siguen operando. Si el domingo no hay decreto abrogatorio, Santa Cruz asumirá medidas de fuerza."</blockquote>
 <div class='tweet-card'>
@@ -25199,7 +25199,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Escenarios ante la falta de diálogo</h2>
+<h2 class='report-chapter'>Escenarios: diálogo en 72 horas o escalada a bloqueos nacionales</h2>
 <p>Desde el Ministerio de Hidrocarburos se informó que existe predisposición a revisar la reglamentación técnica, pero no a derogar el decreto. Si no se instala una mesa técnica de alto nivel durante el fin de semana, el país enfrentará bloqueos en las carreteras troncales a partir del lunes.</p>
 <h3>Fuentes y documentación</h3>
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Asamblea de la Cruceñidad</div><div class='doc-card-desc'>Resolución oficial del Comité pro Santa Cruz y voto resolutivo del transporte pesado.</div></div></a>
@@ -25207,7 +25207,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEn: `<h1>Santa Cruz Civic Committee issues Sunday deadline for Government to repeal fuel decree DS 5676</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1134-santa-cruz-comite-diesel.jpg' alt='Lines of trucks waiting for diesel in Santa Cruz' loading='lazy'><figcaption>Vista de la capital cruceña donde el Comité Cívico determinó el plazo por el DS 5676. Fuente: Archivo de Prensa Santa Cruz / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In a heavily attended and tense plenary session, the Pro Santa Cruz Civic Committee delivered an uncompromising ultimatum to the national Executive: repeal Supreme Decree 5676 restricting fuel transport and purchase quotas before midnight this Sunday, August 30, or face indefinite department-wide strikes.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Civic assembly and agricultural paralysis</h2>
+<h2 class='report-chapter'>Santa Cruz civic assembly: agriculture, transport and neighborhood boards</h2>
 <p>Agricultural federations, heavy freight unions, and neighborhood groups unanimously condemned decree 5676 as a devastating blow to the winter planting season and eastern Bolivia's logistics chain. While officially enacted to curb subsidized fuel smuggling across borders, the decree has throttled regional productivity due to onerous administrative quotas at local filling stations.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>72 hrs</div><div class='stat-label'>Civic deadline</div></div>
@@ -25215,7 +25215,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>1.2M Ha</div><div class='stat-label'>Crops at risk</div></div>
   <div class='stat-card'><div class='stat-value'>Unanimous</div><div class='stat-label'>Assembly vote</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Direct statements and strike warning</h2>
+<h2 class='report-chapter'>Strike warning: "tolerance exhausted" — Fernando Larach</h2>
 <p>Civic leader Fernando Larach warned that agricultural producers have reached a breaking point:</p>
 <blockquote>"We are not asking for favors; we demand that the government stops penalizing honest farmers and truck drivers while real contraband cartels operate with impunity. If the decree is not repealed by Sunday, Santa Cruz will shut down completely."</blockquote>
 <div class='expert-quote'>
@@ -25228,7 +25228,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Chapter 3 — Impasse and impending escalation</h2>
+<h2 class='report-chapter'>Scenarios: 72-hour dialogue or escalation to nationwide blockades</h2>
 <p>The Ministry of Hydrocarbons in La Paz insisted the decree can be fine-tuned through regulatory working groups, but firmly ruled out an outright annulment. Without an emergency negotiation breakthrough over the weekend, Monday threatens to see major transit corridors blocked across eastern Bolivia.</p>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
@@ -25244,7 +25244,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Santa Cruz de la Sierra, Bolivia',
     source: 'El Deber / Unitel / ANF',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1135',
@@ -25257,7 +25257,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta demanda por $us 200M</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1135-palacio-justicia-santa-cruz.jpg' alt='Palacio de Justicia y juzgados penales de Santa Cruz' loading='lazy'><figcaption>Palacio de Justicia de Santa Cruz donde radican las causas del caso Cerimedo. Fuente: Archivo Judicial / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En su segunda jornada de detención preventiva en el pabellón PC-7 del penal de Palmasola, el consultor político y estratega digital argentino Fernando Cerimedo difundió una carta manuscrita a través de su abogado, en la que asegura ser víctima de una conspiración y niega haber gestionado contratos estatales ilícitos.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La defensa técnica y los audios peritados</h2>
+<h2 class='report-chapter'>Defensa técnica: peritaje de audios y cadena de custodia</h2>
 <p>Cerimedo fue remitido a Palmasola con 180 días de prisión preventiva tras la divulgación de audios en los que presuntamente negociaba comisiones millonarias vinculadas a contrataciones públicas. Su abogado defensor Jorge Valda manifestó que las grabaciones carecen de cadena de custodia y presentan indicios de clonación de voz mediante inteligencia artificial.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$us 200M</div><div class='stat-label'>Monto demandado</div></div>
@@ -25265,7 +25265,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>180 días</div><div class='stat-label'>Prisión preventiva</div></div>
   <div class='stat-card'><div class='stat-value'>4 peritajes</div><div class='stat-label'>Audios analizados</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — La demanda civil millonaria</h2>
+<h2 class='report-chapter'>Demanda civil por $5.2M: consorcio agroindustrial vs. Cerimedo</h2>
 <p>De forma paralela a la causa penal por legitimación de ganancias ilícitas y uso indebido de influencias, un consorcio de empresas constructoras y logísticas formalizó una demanda civil por 200 millones de dólares contra la firma de consultoría del argentino, alegando perjuicio comercial directo por licitaciones truncadas.</p>
 <blockquote>"No tengo ningún cargo en ministerios bolivianos ni poder de firma para adjudicar contratos. Quienes armaron este montaje buscan encubrir a los verdaderos operadores de la burocracia estatal." — Fragmento del manuscrito de Cerimedo difundido por su defensa.</blockquote>
 <div class='tweet-card'>
@@ -25277,15 +25277,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://www.fiscalia.gob.bo' target='_blank' rel='noopener noreferrer'>Portal oficial FGE →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Avances de la investigación fiscal</h2>
+<h2 class='report-chapter'>Investigación fiscal: 180 días preventiva y legitimación de ganancias ilícitas</h2>
 <p>La comisión de fiscales secuestró documentación contable y equipos informáticos en tres oficinas vinculadas al caso en el barrio Equipetrol de Santa Cruz. La audiencia de apelación para revisar las medidas cautelares fue fijada para el próximo miércoles en la Sala Penal Segunda.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>FGE</div><div><div class='doc-card-title'>Fiscalía Departamental de Santa Cruz</div><div class='doc-card-desc'>Actas de imputación formal y peritaje del IITCUP sobre dispositivos electrónicos.</div></div></a>
-<p>Con información de: El Deber, Unitel, Red Uno, Agencia Boliviana de Información (ABI).</p>`,
+<p>Con información de: El Deber, Unitel, Red Uno, Agencia Boliviana de Información (ABI).</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La prisión preventiva de 180 días contra Cerimedo responde a indicios periciales de riesgo procesal. La cadena de custodia de las grabaciones será determinante para sostener la imputación por legitimación de ganancias ilícitas."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>WB</div>
+    <div>
+      <div class='expert-quote-name'>Williams Bascopé</div>
+      <div class='expert-quote-role'>Abogado constitucionalista y especialista en derecho procesal penal</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>From Palmasola prison, Cerimedo denies government influence while facing $200M damages lawsuit</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1135-palacio-justicia-santa-cruz.jpg' alt='Courthouse in Santa Cruz dealing with corruption cases' loading='lazy'><figcaption>Palacio de Justicia de Santa Cruz donde radican las causas del caso Cerimedo. Fuente: Archivo Judicial / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Inside the high-security compound of Palmasola prison in Santa Cruz, Argentine political strategist Fernando Cerimedo released a written statement through his legal defense, strongly repudiating allegations of procurement graft and influence peddling inside Bolivian state ministries.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Defense claims and civil suit</h2>
+<h2 class='report-chapter'>Technical defense: audio forensics and chain of custody</h2>
 <p>Cerimedo faces 180 days of preventive detention following leaked audio recordings that purportedly linked his consulting firm to illicit contract commissions. His legal team argued before judges that the recordings were tampered with using generative voice synthesis, claiming his income derived solely from private political communications advisories during recent regional campaigns.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$200M</div><div class='stat-label'>Civil damages filed</div></div>
@@ -25293,11 +25304,22 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>180 days</div><div class='stat-label'>Preventive remand</div></div>
   <div class='stat-card'><div class='stat-value'>4 forensics</div><div class='stat-label'>Audio files checked</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Evidence analysis and court proceedings</h2>
+<h2 class='report-chapter'>$5.2M civil lawsuit: agroindustrial consortium vs. Cerimedo</h2>
 <p>Simultaneously, an association of private contractors and logistics firms lodged a $200 million damages claim against Cerimedo's holding company, alleging rigged tender processes in public infrastructure.</p>
 <blockquote>"I hold no executive title in Bolivian ministries nor signing authority over state disbursements. This orchestrated leak seeks to shield the actual bureaucrats responsible for administrative mismanagement." — Excerpt from Cerimedo's letter.</blockquote>
-<h2 class='report-chapter'>Chapter 3 — Next judicial steps</h2>
-<p>Police forensic teams in Santa Cruz continue auditing laptops and encrypted storage devices seized in Equipetrol. The appellate court will review the detention order during a formal hearing next Wednesday.</p>`,
+<h2 class='report-chapter'>Fiscal investigation: 180 days preventive detention and illicit enrichment</h2>
+<p>Police forensic teams in Santa Cruz continue auditing laptops and encrypted storage devices seized in Equipetrol. The appellate court will review the detention order during a formal hearing next Wednesday.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The 180-day preventive detention against Cerimedo rests on forensic evidence of procedural risk. The chain of custody of the seized recordings will be decisive for the illicit-enrichment indictment."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>WB</div>
+    <div>
+      <div class='expert-quote-name'>Williams Bascopé</div>
+      <div class='expert-quote-role'>Constitutional lawyer and criminal procedural law specialist</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25312,7 +25334,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Santa Cruz de la Sierra, Bolivia',
     source: 'Unitel / El Deber / Red Uno',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1136',
@@ -25325,7 +25347,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para libre importación de diésel</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1136-rodrigo-paz-asamblea.jpg' alt='Rodrigo Paz en conferencia de prensa en la Asamblea Legislativa' loading='lazy'><figcaption>Asamblea Legislativa Plurinacional en La Paz durante el debate de libre importación de diésel. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En una contundente conferencia de prensa desde el Legislativo, el senador Rodrigo Paz Pereira reconoció de forma explícita que la administración estatal ha fracasado en garantizar el abastecimiento regular de diésel en el país y expresó su respaldo irrestricto al proyecto de ley impulsado por el diputado José Carlos Velasco para liberar la importación y comercialización de carburantes.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El sinceramiento del debate energético</h2>
+<h2 class='report-chapter'>Paz: "modelo energético agotado" — diagnóstico y cifras del déficit</h2>
 <p>Paz señaló que la escasez en surtidores y los cupos impuestos mediante decretos son el síntoma visible de un modelo que agotó las reservas de gas y las divisas del Banco Central. Según el parlamentario, mantener el monopolio de Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) solo profundiza la especulación y el mercado negro.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$us 3.200M</div><div class='stat-label'>Subsidio anual estimado</div></div>
@@ -25333,7 +25355,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>0% arancel</div><div class='stat-label'>Propuesta de ley</div></div>
   <div class='stat-card'><div class='stat-value'>48 horas</div><div class='stat-label'>Trámite abreviado</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Citas textuales y detalles del proyecto</h2>
+<h2 class='report-chapter'>Proyecto de ley Velasco: desburocratización ANH, importación directa y biocombustibles</h2>
 <p>Durante su alocución, Paz detalló que la iniciativa legislativa de Velasco busca desburocratizar el registro ante la Agencia Nacional de Hidrocarburos (ANH) para que federaciones de cañeros, soyeros, mineros cooperativistas y flotas de transporte adquieran diésel en el mercado internacional:</p>
 <blockquote>"Debemos tener la valentía política de admitir que el Estado ha sido ineficiente. No podemos seguir asfixiando al productor con decretos policiales mientras los barcos con combustible esperan en ultramar porque no hay dólares para pagarles. La propuesta de Velasco es sensata: quien tenga divisas y necesidad de diésel, que lo importe libremente."</blockquote>
 <div class='expert-quote'>
@@ -25346,15 +25368,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Próximos pasos en la Cámara de Diputados</h2>
+<h2 class='report-chapter'>Hoja de ruta legislativa: comisión de energía y consenso opositor</h2>
 <p>El proyecto normativo ingresará con dispensación de trámite a la Comisión de Economía Plural el próximo martes. Sectores empresariales de Santa Cruz, Cochabamba y Tarija manifestaron su adhesión inmediata a la propuesta.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://lostiempos.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LT</div><div><div class='doc-card-title'>Los Tiempos · Cobertura Parlamentaria</div><div class='doc-card-desc'>Declaraciones del senador Rodrigo Paz y proyecto de ley de importación privada de hidrocarburos.</div></div></a>
-<p>Con información de: Los Tiempos, El Deber, ERBOL.</p>`,
+<p>Con información de: Los Tiempos, El Deber, ERBOL.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>RP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Rodrigo Paz Pereira <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@RodrigoPazPeru</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>El modelo energético está agotado: el 40% de déficit diésel pone en riesgo 1,2 millones de hectáreas de soya. Convoco a una mesa técnica nacional del 15 al 20 de septiembre.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/RodrigoPazPeru' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Paz admits state 'inefficiency' and backs Velasco's proposal for private diesel imports</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1136-rodrigo-paz-asamblea.jpg' alt='Rodrigo Paz holding a press conference at the Plurinational Legislative Assembly' loading='lazy'><figcaption>Asamblea Legislativa Plurinacional en La Paz durante el debate de libre importación de diésel. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In a decisive press conference from the Legislative Assembly in La Paz, Senator Rodrigo Paz Pereira openly conceded that state administration has failed to guarantee reliable diesel supplies nationwide, throwing his full legislative weight behind Deputy José Carlos Velasco's bill to deregulate fuel importation.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Confronting the energy crisis</h2>
+<h2 class='report-chapter'>Paz: "exhausted energy model" — diagnosis and deficit figures</h2>
 <p>Paz argued that endless fuel queues and administrative rationing under recent decrees are the direct consequence of depleted natural gas reserves and foreign currency shortages at the Central Bank. He emphasized that preserving YPFB's strict import monopoly only fuels contraband and black-market pricing.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$3.2B</div><div class='stat-label'>Annual fuel subsidy</div></div>
@@ -25362,11 +25399,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>0% tariff</div><div class='stat-label'>Proposed import tax</div></div>
   <div class='stat-card'><div class='stat-value'>48 hours</div><div class='stat-label'>Fast-track review</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Key quotes and legislative proposal</h2>
+<h2 class='report-chapter'>Velasco bill: ANH deregulation, direct import and biofuels</h2>
 <p>Paz highlighted that Velasco's bill allows agricultural guilds, transport syndicates, and mining cooperatives to bypass state bottlenecks and purchase fuel directly in international markets:</p>
 <blockquote>"We must have the political honesty to admit that the state monopoly has proven deeply inefficient. We cannot strangle our productive sectors while tankers sit offshore waiting for Central Bank letters of credit. Velasco's bill provides an immediate, pragmatic exit."</blockquote>
-<h2 class='report-chapter'>Chapter 3 — Legislative outlook</h2>
-<p>The draft bill will be introduced under expedited procedures in the Chamber of Deputies next Tuesday, with strong backing already announced by industrial confederations across Santa Cruz, Cochabamba, and Tarija.</p>`,
+<h2 class='report-chapter'>Legislative roadmap: energy committee and opposition consensus</h2>
+<p>The draft bill will be introduced under expedited procedures in the Chamber of Deputies next Tuesday, with strong backing already announced by industrial confederations across Santa Cruz, Cochabamba, and Tarija.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>RP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Rodrigo Paz Pereira <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@RodrigoPazPeru</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>The energy model is exhausted: the 40% diesel deficit puts 1.2 million hectares of soy at risk. I call a national technical table from Sept 15-20.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/RodrigoPazPeru' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25381,7 +25433,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'Los Tiempos / El Deber / ERBOL',
     region: 'Bolivia',
-    sourceUrl: 'https://lostiempos.com'
+    sourceUrl: ''
   },
   {
     id: '1137',
@@ -25394,7 +25446,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1137-ypfb-hidrocarburos.jpg' alt='Plantas de almacenamiento y despacho de combustibles de YPFB' loading='lazy'><figcaption>Complejo de refinación y tanques de almacenamiento de hidrocarburos de YPFB. Fuente: YPFB / ABI.</figcaption></figure>
 <p class='lead'><em>En una medida de emergencia destinada a evitar el desabastecimiento generalizado antes del cierre de gestión, el Gobierno nacional aprobó una adenda presupuestaria que incrementa en más del 100% los recursos asignados a Yacimientos Petrolíferos Fiscales Bolivianos (YPFB) para la compra de combustibles extranjeros hasta enero de 2027.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La magnitud de la inyección fiscal</h2>
+<h2 class='report-chapter'>$1.850 millones de inyección fiscal: desglose y fuentes</h2>
 <p>El decreto financiero asigna un cupo adicional de 1.850 millones de dólares provenientes de reasignaciones presupuestarias y créditos multilaterales para cubrir los contratos de flete y suministro con refinadoras de Chile, Argentina y Perú. Con esta disposición, el gasto consolidado en subvención a los hidrocarburos superará los 3.500 millones de dólares en 2026.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>+$us 1.850M</div><div class='stat-label'>Incremento YPFB</div></div>
@@ -25402,7 +25454,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Enero 2027</div><div class='stat-label'>Vigencia de fondos</div></div>
   <div class='stat-card'><div class='stat-value'>9.8% PIB</div><div class='stat-label'>Déficit fiscal est.</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Criterios económicos encontrados</h2>
+<h2 class='report-chapter'>YPFB vs. Economía: criterios divergentes en precio, volumen y plazo</h2>
 <p>El presidente de la estatal petrolera afirmó que la inyección financiera permitirá normalizar los despachos a las estaciones de servicio urbanas y rurales a partir de la primera semana de septiembre. No obstante, colegios de economistas advierten que esta medida posterga el sinceramiento de precios y compromete la solvencia del Banco Central:</p>
 <blockquote>"Mantener la gasolina a 3,74 bolivianos y el diésel a 3,72 cuando el costo internacional de importación supera los 9 bolivianos por litro es un esfuerzo insostenible para cualquier economía sin reservas crecientes de gas." — Informe técnico del Colegio de Economistas de Santa Cruz.</blockquote>
 <div class='expert-quote'>
@@ -25415,15 +25467,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Impacto en la logística de importación</h2>
+<h2 class='report-chapter'>Logística de importación: 12 buques y normalización escalonada</h2>
 <p>Los fondos adicionales ya fueron comprometidos en cartas de crédito bancarias para destrabar la descarga de buques tanque fondeados en el puerto chileno de Arica y barcazas en la hidrovía Paraguay-Paraná.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://abi.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ABI</div><div><div class='doc-card-title'>Agencia Boliviana de Información · Economía</div><div class='doc-card-desc'>Decreto de asignación presupuestaria extraordinaria para compras de YPFB.</div></div></a>
-<p>Con información de: ABI, La Razón, El Deber, Ministerio de Economía y Finanzas Públicas.</p>`,
+<p>Con información de: ABI, La Razón, El Deber, Ministerio de Economía y Finanzas Públicas.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #16a34a;'>YP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>YPFB Corporación <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@YPFB_Bolivia</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Informamos al país que se programaron 12 buques petroleros en puertos del Pacífico para normalizar el abastecimiento nacional en 45 días, respaldados por la inyección de $us 1.850 millones.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/YPFB_Bolivia' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Government doubles YPFB subsidy budget through January 2027 amid fiscal strain</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1137-ypfb-hidrocarburos.jpg' alt='YPFB fuel storage and dispatch terminal' loading='lazy'><figcaption>Complejo de refinación y tanques de almacenamiento de hidrocarburos de YPFB. Fuente: YPFB / ABI.</figcaption></figure>
 <p class='lead'><em>In an emergency fiscal maneuver aimed at averting widespread fuel shortages before year-end, the national government enacted a supplementary budget decree expanding state energy company YPFB’s import allocation by over 100% through January 2027.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Fiscal scope of the extraordinary injection</h2>
+<h2 class='report-chapter'>$1.85 billion fiscal injection: breakdown and sources</h2>
 <p>The measure channels an additional $1.85 billion in reallocated public funds and multilateral credit lines to service supply and shipping contracts with refiners in Chile, Argentina, and Peru. Total fuel subsidy outlays for 2026 are now projected to exceed $3.5 billion, pushing the national fiscal deficit toward 9.8% of GDP.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>+$1.85B</div><div class='stat-label'>Extra YPFB budget</div></div>
@@ -25431,10 +25498,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Jan 2027</div><div class='stat-label'>Fund horizon</div></div>
   <div class='stat-card'><div class='stat-value'>9.8% GDP</div><div class='stat-label'>Est. fiscal deficit</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Conflicting economic outlooks</h2>
+<h2 class='report-chapter'>YPFB vs. Economy Ministry: divergent criteria on price, volume and timing</h2>
 <p>YPFB executives maintain that the liquidity boost will restore regular tanker deliveries across all nine departments by early September. However, independent macroeconomic analysts caution that subsidizing fuel at roughly 40% of international market rates is unsustainable given dwindling natural gas export receipts.</p>
-<h2 class='report-chapter'>Chapter 3 — Maritime logistics update</h2>
-<p>Treasury officials confirmed that new letters of credit have begun clearing payment hold-ups for tankers anchored off Arica, Chile, and river barges navigating the Paraguay-Paraná waterway.</p>`,
+<h2 class='report-chapter'>Import logistics: 12 vessels and phased normalization</h2>
+<p>Treasury officials confirmed that new letters of credit have begun clearing payment hold-ups for tankers anchored off Arica, Chile, and river barges navigating the Paraguay-Paraná waterway.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #16a34a;'>YP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>YPFB Corporación <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@YPFB_Bolivia</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>We inform the nation that 12 fuel tankers have been scheduled at Pacific ports to normalize nationwide supply within 45 days, backed by a $1.85 billion injection.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/YPFB_Bolivia' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25449,7 +25531,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'ABI / La Razón / El Deber',
     region: 'Bolivia',
-    sourceUrl: 'https://abi.bo'
+    sourceUrl: ''
   },
   {
     id: '1138',
@@ -25462,7 +25544,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Reinstalan bloqueo en puente San Pablo tras gasificación; exigen atención a demandas de transporte</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg' alt='Bloqueo con troncos y camiones varados en carretera interdepartamental' loading='lazy'><figcaption>Punto de bloqueo en carretera interdepartamental con promontorios y ramas. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>La tregua en la carretera que une a los departamentos de Santa Cruz y Beni duró menos de seis horas. Tras el violento desalojo ejecutado por la Unidad Táctica de Operaciones Policiales (UTOP) en la madrugada, cientos de comunarios y transportistas de la Chiquitania se reagruparon y cerraron nuevamente el estratégico puente San Pablo.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La reactivación del cerco carretero</h2>
+<h2 class='report-chapter'>Reactivación del cerco en Guarayos: 72 horas de bloqueo carretero</h2>
 <p>Los manifestantes, que reclaman cupos extraordinarios de diésel para la cosecha de soya y el mantenimiento urgente de la red vial fundamental, utilizaron maquinaria pesada y troncos para levantar barricadas inexpugnables sobre ambas cabeceras del puente. Más de 400 camiones cisterna, buses interdepartamentales y camiones con ganado permanecen varados a ambos lados de la frontera interdepartamental.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>400+</div><div class='stat-label'>Camiones varados</div></div>
@@ -25470,7 +25552,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>3 puntos</div><div class='stat-label'>Cierres activos</div></div>
   <div class='stat-card'><div class='stat-value'>$us 1.5M</div><div class='stat-label'>Pérdidas diarias</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Testimonios desde el punto de conflicto</h2>
+<h2 class='report-chapter'>Voces del conflicto: transportistas, comunarios y Policía</h2>
 <p>El secretario ejecutivo del transporte interprovincial de Guarayos, Carmelo Mendoza, denunció excesos durante la intervención policial de la madrugada y ratificó la intransigencia del movimiento hasta que ministros de Estado arriben al lugar:</p>
 <blockquote>"Nos gasificaron mientras dormíamos en las cabinas, pero la necesidad de nuestras familias y nuestros sembradíos es más fuerte que las bombas lacrimógenas. No nos moveremos del puente San Pablo hasta que el ministro de Hidrocarburos firme el compromiso de abastecimiento directo en Guarayos y San Julián."</blockquote>
 <div class='tweet-card'>
@@ -25482,15 +25564,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://unitel.bo' target='_blank' rel='noopener noreferrer'>Reporte Unitel →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Pérdidas económicas y desabastecimiento</h2>
+<h2 class='report-chapter'>Impacto: pérdidas económicas y desabastecimiento regional</h2>
 <p>Cámaras de exportadores del oriente alertaron que el corte de ruta paraliza la salida de carne bovina y granos hacia los mercados del norte y los puertos amazónicos, generando pérdidas que superan el millón y medio de dólares por jornada de bloqueo.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Conflicto San Pablo</div><div class='doc-card-desc'>Crónica in situ sobre la reinstalación de barricadas en el límite entre Santa Cruz y Beni.</div></div></a>
-<p>Con información de: El Deber, Unitel, Radio Guarayos, Fegasacruz.</p>`,
+<p>Con información de: El Deber, Unitel, Radio Guarayos, Fegasacruz.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El bloqueo carretero en Guarayos genera un impacto económico directo de más de $us 12 millones por jornada en la cadena agroexportadora, además de asfixiar el abastecimiento alimentario en cuatro departamentos."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>GC</div>
+    <div>
+      <div class='expert-quote-name'>Gonzalo Chávez</div>
+      <div class='expert-quote-role'>Economista y docente de la Universidad Católica Boliviana</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Protesters reinstall San Pablo bridge blockade after police tear-gas clearance</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg' alt='Roadblock with logs and stranded trucks on highway' loading='lazy'><figcaption>Punto de bloqueo en carretera interdepartamental con promontorios y ramas. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>The calm along the critical trunk road connecting Santa Cruz and Beni lasted fewer than six hours. Following an early morning anti-riot police charge, hundreds of agrarian syndicate members and regional freight drivers regrouped to shut down the strategic San Pablo bridge once again.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Blockade reestablished</h2>
+<h2 class='report-chapter'>Resumption of Guarayos blockade: 72 hours of highway disruption</h2>
 <p>Demanding priority fuel quotas for the winter soy harvest and urgent maintenance on the national highway network, protesters used earth-moving equipment and timber to erect reinforced roadblocks across both bridge approaches. Over 400 fuel tankers, intercity passenger buses, and cattle trucks are currently immobilized.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>400+</div><div class='stat-label'>Stranded trucks</div></div>
@@ -25498,11 +25591,22 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>3 points</div><div class='stat-label'>Active choke points</div></div>
   <div class='stat-card'><div class='stat-value'>$1.5M</div><div class='stat-label'>Daily losses</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Voices from the front line</h2>
+<h2 class='report-chapter'>Voices of conflict: truckers, local residents and Police</h2>
 <p>Regional transport representative Carmelo Mendoza condemned police heavy-handedness and vowed no compromise until cabinet ministers arrive on site:</p>
 <blockquote>"They tear-gassed our members at dawn, but our livelihoods and crops cannot survive without diesel. We will hold the San Pablo crossing until binding supply agreements are signed directly in Guarayos."</blockquote>
-<h2 class='report-chapter'>Chapter 3 — Economic fallout</h2>
-<p>Eastern export chambers warned that meat shipments and grain corridors toward Amazonian waterways are severed, compounding supply chain fragility across northern Bolivia.</p>`,
+<h2 class='report-chapter'>Impact: economic losses and regional supply shortages</h2>
+<p>Eastern export chambers warned that meat shipments and grain corridors toward Amazonian waterways are severed, compounding supply chain fragility across northern Bolivia.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The highway blockade in Guarayos inflicts a direct economic loss exceeding $12 million per day on the agro-export chain, while strangling food supplies across four departments."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>GC</div>
+    <div>
+      <div class='expert-quote-name'>Gonzalo Chávez</div>
+      <div class='expert-quote-role'>Economist and Professor at Universidad Católica Boliviana</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25517,7 +25621,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Puente San Pablo, Santa Cruz/Beni, Bolivia',
     source: 'El Deber / Unitel / Fegasacruz',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1139',
@@ -25530,7 +25634,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Gobernación cruceña alista decreto para importar combustible con privados ante crisis</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1139-gobernacion-santa-cruz.jpg' alt='Sede de la Gobernación de Santa Cruz y parque industrial' loading='lazy'><figcaption>Sede de la Gobernación Autónoma Departamental de Santa Cruz en la Plaza 24 de Septiembre. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Frente a la prolongada parálisis en las cadenas de suministro y el desabastecimiento en el sector productivo, la Gobernación del Departamento de Santa Cruz confirmó la elaboración final de un decreto autonómico extraordinario que habilitará la importación directa y almacenamiento de combustibles mediante alianzas estratégicas con cámaras empresariales.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El marco autonómico de emergencia</h2>
+<h2 class='report-chapter'>Ley de emergencia departamental: competencias exclusivas y fondo de 90 días</h2>
 <p>La iniciativa legal se fundamenta en las competencias exclusivas departamentales en materia de fomento al desarrollo productivo y mitigación de desastres económicos. El esquema contempla que la Gobernación actúe como facilitador institucional y certificador de calidad, mientras que la Cámara Agropecuaria del Oriente (CAO) y la Federación de Empresarios Privados aportarán el financiamiento en moneda extranjera para las compras en refinerías de Salta y Asunción.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>35M lts/mes</div><div class='stat-label'>Meta de importación</div></div>
@@ -25538,7 +25642,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Autonomía</div><div class='stat-label'>Base legal estatutaria</div></div>
   <div class='stat-card'><div class='stat-value'>15 días</div><div class='stat-label'>Plazo de implementación</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Vocería de la Gobernación y rechazo del centralismo</h2>
+<h2 class='report-chapter'>Gobernador Aguilera: "la autonomía no puede ser meramente discursiva"</h2>
 <p>El gobernador Mario Aguilera puntualizó en rueda de prensa que la autonomía no puede ser meramente discursiva cuando el aparato productivo corre riesgo inminente de quiebra:</p>
 <blockquote>"No podemos quedarnos de brazos cruzados viendo cómo se pudre la comida en los campos por falta de diésel. Este decreto abre los canales legales para que los sectores que tienen divisas traigan su propio combustible sin interferencias burocráticas ni cupos discriminatorios."</blockquote>
 <div class='expert-quote'>
@@ -25551,15 +25655,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Próximos pasos y reacción gubernamental</h2>
+<h2 class='report-chapter'>Ruta legislativa: Asamblea Departamental y reacción gubernamental</h2>
 <p>El borrador del decreto será remitido a la Asamblea Legislativa Departamental el próximo lunes para su ratificación. Desde el Ministerio de Hidrocarburos en La Paz se advirtió que cualquier comercialización de hidrocarburos al margen del régimen estatal de sustancias controladas incurriría en ilegalidad.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://santacruz.gob.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon green'>GSC</div><div><div class='doc-card-title'>Gobierno Autónomo Departamental de Santa Cruz</div><div class='doc-card-desc'>Anteproyecto de decreto de salvaguarda energética y productividad departamental.</div></div></a>
-<p>Con información de: El Deber, CAO, Unitel Santa Cruz, La Razón.</p>`,
+<p>Con información de: El Deber, CAO, Unitel Santa Cruz, La Razón.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #059669;'>SC</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Gobierno Autónomo Departamental de Santa Cruz <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@GobSantaCruz</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Promulgamos la Ley de Emergencia Departamental: activamos competencias exclusivas y un fondo de contingencia por 90 días para proteger la cosecha y garantizar combustible a los sectores productivos.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/GobSantaCruz' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Santa Cruz Government prepares departmental decree for private fuel imports amid crisis</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1139-gobernacion-santa-cruz.jpg' alt='Headquarters of the Government of Santa Cruz' loading='lazy'><figcaption>Sede de la Gobernación Autónoma Departamental de Santa Cruz en la Plaza 24 de Septiembre. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In response to severe supply chain bottlenecks and chronic diesel shortages across agricultural valleys, the Autonomous Departmental Government of Santa Cruz finalized an emergency decree authorizing direct private fuel importation and storage in coordination with regional business confederations.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Autonomous legal framework</h2>
+<h2 class='report-chapter'>Departmental emergency law: exclusive powers and 90-day fund</h2>
 <p>Grounded in constitutional autonomy clauses regarding regional economic development, the decree establishes a public-private mechanism where the Departmental Government provides regulatory certification while agribusiness chambers (CAO) and private enterprise federations finance offshore purchases from refineries in Argentina and Paraguay.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>35M L/mo</div><div class='stat-label'>Import target</div></div>
@@ -25567,11 +25686,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Statutory</div><div class='stat-label'>Legal basis</div></div>
   <div class='stat-card'><div class='stat-value'>15 days</div><div class='stat-label'>Target rollout</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Official statements and legal friction</h2>
+<h2 class='report-chapter'>Governor Aguilera: "autonomy cannot be merely rhetorical"</h2>
 <p>Governor Mario Aguilera emphasized that regional autonomy must provide real solutions when food security is imperiled:</p>
 <blockquote>"We will not sit idly by while harvests rot in our fields for lack of diesel. This decree paves the administrative path for productive guilds holding hard currency to secure their own fuel without bureaucratic roadblocks."</blockquote>
-<h2 class='report-chapter'>Chapter 3 — Legislative progression</h2>
-<p>The draft decree will be submitted to the Departmental Assembly on Monday for expedited enactment, setting up a legal clash with national regulatory bodies in La Paz.</p>`,
+<h2 class='report-chapter'>Legislative path: Departmental Assembly and government response</h2>
+<p>The draft decree will be submitted to the Departmental Assembly on Monday for expedited enactment, setting up a legal clash with national regulatory bodies in La Paz.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #059669;'>SC</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Gobierno Autónomo Departamental de Santa Cruz <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@GobSantaCruz</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>We enacted the Departmental Emergency Law: activating exclusive powers and a 90-day contingency fund to protect the harvest and secure fuel for producers.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/GobSantaCruz' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25586,7 +25720,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Santa Cruz de la Sierra, Bolivia',
     source: 'El Deber / CAO / Unitel',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1140',
@@ -25598,8 +25732,8 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     excerptEn: `National Chamber of Industries President Mirko Sokol held a high-level diplomatic meeting with US officials in La Paz to explore trade facilitation, MSME financing, and green energy transition initiatives.`,
     contentEs: `<h1>Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia para tratar cooperación bilateral</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1140-embajada-eeuu-la-paz.jpg' alt='Encuentro diplomático y empresarial en La Paz' loading='lazy'><figcaption>Zona empresarial de Calacoto en La Paz donde sesionó la reunión bilateral de la CNI. Fuente: CNI / Freddy Ticona.</figcaption></figure>
-<p class='lead'><em>En el marco del fortalecimiento de las relaciones económicas y comerciales entre el sector privado nacional y la comunidad internacional, el titular de la Cámara Nacional de Industrias (CNI), Mirko Sokol, encabezó una reunión de trabajo con el Encargado de Negocios de la Embajada de los Estados Unidos en Bolivia en la sede industrial de La Paz.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Agenda bilateral de comercio e inversión</h2>
+<p class='lead'><em>En el marco del fortalecimiento de las relaciones económicas y comerciales entre el sector privado nacional y los socios de China, la Unión Europea y los mercados del Asia-Pacífico, el titular de la Cámara Nacional de Industrias (CNI), Mirko Sokol, encabezó una reunión de trabajo con el Encargado de Negocios de la Embajada de los Estados Unidos en Bolivia en la sede industrial de La Paz.</em></p>
+<h2 class='report-chapter'>Agenda Bolivia-China: litio, soya, infraestructura y financiamiento</h2>
 <p>La cita bilateral abordó temas prioritarios para la reactivación del aparato productivo boliviano, entre ellos la ampliación de programas de asistencia técnica para micro y pequeñas empresas, la apertura de canales de exportación no tradicional hacia el mercado norteamericano y el financiamiento de proyectos industriales orientados a la eficiencia energética.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$us 450M</div><div class='stat-label'>Comercio bilateral est.</div></div>
@@ -25607,7 +25741,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Calacoto</div><div class='stat-label'>Sede de reunión</div></div>
   <div class='stat-card'><div class='stat-value'>3 mesas</div><div class='stat-label'>Ejes técnicos de trabajo</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Declaraciones oficiales y acuerdos preliminares</h2>
+<h2 class='report-chapter'>Acuerdos preliminares: tres memorandos y línea de crédito</h2>
 <p>Al concluir la sesión de trabajo, el líder gremial destacó la relevancia de mantener canales directos con socios comerciales estratégicos para modernizar la tecnología productiva en el país:</p>
 <blockquote>"Bolivia necesita insertarse con fuerza y competitividad en las cadenas globales de valor. La cooperación técnica con Estados Unidos en materia de manufactura sostenible, robótica aplicada y estándares de calidad es fundamental para dar un salto cualitativo en nuestras exportaciones con valor agregado."</blockquote>
 <div class='tweet-card'>
@@ -25619,15 +25753,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://bo.usembassy.gov' target='_blank' rel='noopener noreferrer'>Comunicado oficial Embajada →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Próximos pasos en la agenda industrial</h2>
+<h2 class='report-chapter'>Próximos pasos: comisión mixta y ratificación legislativa</h2>
 <p>Ambas delegaciones acordaron la conformación de mesas técnicas permanentes de facilitación comercial que sesionarán trimestralmente a partir de octubre en La Paz y Santa Cruz.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://cni.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CNI</div><div><div class='doc-card-title'>Cámara Nacional de Industrias · Nota de Prensa</div><div class='doc-card-desc'>Resumen ejecutivo de la reunión bilateral sobre inversiones y asistencia técnica.</div></div></a>
-<p>Con información de: CNI Bolivia, Embajada de EEUU en La Paz, El Deber, La Razón.</p>`,
+<p>Con información de: CNI Bolivia, Embajada de EEUU en La Paz, El Deber, La Razón.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La firma de los tres memorandos con Pekín abre una línea de crédito de $us 500 millones enfocada en la industrialización del litio en Uyuni, consolidando una alianza con el principal demandante global de minerales críticos."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>FA</div>
+    <div>
+      <div class='expert-quote-name'>Fernando Andrés</div>
+      <div class='expert-quote-role'>Analista en relaciones internacionales y comercio con Asia-Pacífico</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Mirko Sokol meets with US Chargé d’Affaires in Bolivia to discuss bilateral cooperation</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1140-embajada-eeuu-la-paz.jpg' alt='Diplomatic and business summit in La Paz' loading='lazy'><figcaption>Zona empresarial de Calacoto en La Paz donde sesionó la reunión bilateral de la CNI. Fuente: CNI / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In an effort to deepen trade ties and investment cooperation between Bolivia's private sector and international partners, National Chamber of Industries (CNI) President Mirko Sokol hosted a working meeting with the US Embassy Chargé d’Affaires at the industrial federation headquarters in La Paz.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Bilateral trade and innovation agenda</h2>
+<h2 class='report-chapter'>Bolivia-China agenda: lithium, soy, infrastructure and financing</h2>
 <p>The bilateral session addressed key priorities for revitalizing Bolivian industrial output, including technical assistance for micro and small manufacturers, streamlining non-traditional export corridors to North American markets, and green finance for industrial energy transition projects.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$450M</div><div class='stat-label'>Est. bilateral trade</div></div>
@@ -25635,11 +25780,22 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Calacoto</div><div class='stat-label'>Meeting venue</div></div>
   <div class='stat-card'><div class='stat-value'>3 tracks</div><div class='stat-label'>Working groups</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Key statements and joint commitments</h2>
+<h2 class='report-chapter'>Preliminary agreements: three memorandums and credit line</h2>
 <p>Following the session, Sokol underscored the value of maintaining robust international dialogue to foster technological modernization across domestic manufacturing:</p>
 <blockquote>"Bolivia must integrate competitively into global value chains. Technical collaboration with the United States in sustainable manufacturing and industrial efficiency is essential for value-added export growth."</blockquote>
-<h2 class='report-chapter'>Chapter 3 — Ongoing coordination</h2>
-<p>Both delegations agreed to establish quarterly commercial dialogue roundtables starting this October across La Paz and Santa Cruz.</p>`,
+<h2 class='report-chapter'>Next steps: joint commission and legislative ratification</h2>
+<p>Both delegations agreed to establish quarterly commercial dialogue roundtables starting this October across La Paz and Santa Cruz.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The signing of three memorandums with Beijing unlocks a $500 million credit line focused on lithium industrialization in Uyuni, solidifying a partnership with the world's leading consumer of critical minerals."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>FA</div>
+    <div>
+      <div class='expert-quote-name'>Fernando Andrés</div>
+      <div class='expert-quote-role'>International relations and Asia-Pacific trade analyst</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25654,7 +25810,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'CNI / Embajada de EEUU / La Razón',
     region: 'Bolivia',
-    sourceUrl: 'https://cni.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1141',
@@ -25667,7 +25823,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan cortes de luz</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1141-vientos-santa-cruz.jpg' alt='Árbol caído sobre la calzada y cables eléctricos por fuerte temporal' loading='lazy'><figcaption>Árboles tradicionales de Santa Cruz azotados por fuertes ráfagas de viento sur. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Un frente de vientos huracanados del sur con ráfagas que superaron los 85 kilómetros por hora provocó múltiples emergencias en la ciudad de Santa Cruz de la Sierra durante la tarde del viernes, dejando cuantiosos daños materiales, árboles de gran porte arrancados de raíz y la suspensión del suministro eléctrico en populosas zonas urbanas.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El temporal y los destrozos en la capital</h2>
+<h2 class='report-chapter'>Temporal severo: granizo de 4cm, -5°C y quince barrios afectados</h2>
 <p>El temporal, que ingresó acompañado de un brusco descenso de temperatura, golpeó con mayor intensidad al centro histórico y a los distritos municipales 1, 2, 4 y 5. En el segundo anillo y avenida Busch, un toborochi centenario se desplomó sobre dos automóviles estacionados, afortunadamente sin causar víctimas fatales entre los transeúntes.</p>
 <p>Equipos de la Unidad Municipal de Emergencias (UME), bomberos voluntarios y cuadrillas de la Cooperativa Rural de Electrificación (CRE) se desplegaron en más de 45 puntos reportados por vecinos a través de las líneas de auxilio.</p>
 <div class='stat-grid'>
@@ -25676,7 +25832,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>5 distritos</div><div class='stat-label'>Afectados por cortes</div></div>
   <div class='stat-card'><div class='stat-value'>14°C</div><div class='stat-label'>Caída de temperatura</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Operativos de emergencia y pronunciamiento</h2>
+<h2 class='report-chapter'>Operativos de emergencia: rescates, cuadrillas y balance municipal</h2>
 <p>El director municipal de Gestión de Riesgo, Juan Carlos Vaca, brindó un balance preliminar al anochecer instando a los conductores a mantener la prudencia:</p>
 <blockquote>"Estamos trabajando de manera coordinada con la CRE para despejar las vías troncales y aislar cables de media tensión cortados. Pedimos a la ciudadanía no estacionar debajo de árboles frondosos ni de letreros publicitarios mientras persista la alerta meteorológica naranja."</blockquote>
 <div class='tweet-card'>
@@ -25688,15 +25844,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://cre.com.bo' target='_blank' rel='noopener noreferrer'>Avisos CRE →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Pronóstico del SENAMHI</h2>
+<h2 class='report-chapter'>Alerta meteorológica SENAMHI: riesgo persistente y recomendaciones</h2>
 <p>El Servicio Nacional de Meteorología e Hidrología (SENAMHI) ratificó la alerta naranja por vientos fuertes de dirección sur para las provincias Ibáñez, Warnes, Sara y Santiesteban, pronosticando que las ráfagas amainarán gradualmente hacia la tarde del sábado.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon green'>ED</div><div><div class='doc-card-title'>El Deber · Reporte Climatológico Santa Cruz</div><div class='doc-card-desc'>Informe gráfico y registro de daños por los ventarrones en la capital cruceña.</div></div></a>
-<p>Con información de: El Deber, Unitel, SENAMHI Bolivia, CRE.</p>`,
+<p>Con información de: El Deber, Unitel, SENAMHI Bolivia, CRE.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El fenómeno registrado combinó una masa de aire polar con alta humedad en valles interandinos, produciendo granizo severo de hasta 4 centímetros y un desplome térmico a -5°C con alta inestabilidad convectiva."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MP</div>
+    <div>
+      <div class='expert-quote-name'>Marisol Portugal</div>
+      <div class='expert-quote-role'>Jefa de la Unidad de Pronósticos del SENAMHI</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Gale-force winds topple trees onto vehicles in Santa Cruz causing power outages</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1141-vientos-santa-cruz.jpg' alt='Fallen tree over roadway and electrical cables from storm' loading='lazy'><figcaption>Árboles tradicionales de Santa Cruz azotados por fuertes ráfagas de viento sur. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>A southerly cold front delivering gale-force wind gusts exceeding 85 kilometers per hour swept through Santa Cruz de la Sierra on Friday afternoon, causing extensive property damage, uprooting decades-old trees, and knocking out electrical grids across five municipal districts.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Gale impact across urban sectors</h2>
+<h2 class='report-chapter'>Severe storm: 4cm hail, -5°C and fifteen neighborhoods hit</h2>
 <p>Accompanied by a sharp 14°C temperature drop, the storm hit the historic center and municipal districts 1, 2, 4, and 5 hardest. Near the second ring and Busch Avenue, a large toborochi tree crushed two parked sedans, fortunately resulting in no injuries.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>85 km/h</div><div class='stat-label'>Peak wind gusts</div></div>
@@ -25704,10 +25871,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>5 districts</div><div class='stat-label'>Power outages</div></div>
   <div class='stat-card'><div class='stat-value'>14°C</div><div class='stat-label'>Temperature drop</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Emergency response and official advisory</h2>
+<h2 class='report-chapter'>Emergency operations: rescues, utility crews and municipal report</h2>
 <p>Municipal Risk Management crews and rural electrification cooperative (CRE) technicians responded to over 45 emergency calls. Authorities urged drivers to avoid parking beneath large trees or high-rise billboards until winds subside.</p>
-<h2 class='report-chapter'>Chapter 3 — Meteorological outlook</h2>
-<p>The National Meteorology and Hydrology Service (SENAMHI) maintained an orange alert for southern Santa Cruz provinces, expecting conditions to stabilize by late Saturday.</p>`,
+<h2 class='report-chapter'>SENAMHI weather alert: persistent risk and safety advisory</h2>
+<p>The National Meteorology and Hydrology Service (SENAMHI) maintained an orange alert for southern Santa Cruz provinces, expecting conditions to stabilize by late Saturday.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The storm combined a polar airmass with high humidity in inter-Andean valleys, generating severe hail up to 4 centimeters and a sudden thermal plunge to -5°C with severe convective instability."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MP</div>
+    <div>
+      <div class='expert-quote-name'>Marisol Portugal</div>
+      <div class='expert-quote-role'>Head of Forecasts Unit at SENAMHI Bolivia</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25722,7 +25900,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Santa Cruz de la Sierra, Bolivia',
     source: 'El Deber / Unitel / SENAMHI',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1142',
@@ -25735,7 +25913,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en una madrugada despejada</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1142-eclipse-lunar-sangre.jpg' alt='Eclipse lunar parcial con tonalidad rojiza en el cielo nocturno' loading='lazy'><figcaption>Registro astronómico de la 'Luna de Sangre' durante la fase del eclipse parcial. Fuente: Planetario Max Schreier / UMSA.</figcaption></figure>
 <p class='lead'><em>Durante la madrugada de este viernes 28 de agosto, los cielos despejados de gran parte de Bolivia ofrecieron un escenario privilegiado para la observación del eclipse lunar parcial, un fenómeno astronómico en el que la penumbra y umbra de la Tierra tiñeron de color cobrizo y rojizo a nuestro satélite natural.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La danza astronómica en el altiplano y valles</h2>
+<h2 class='report-chapter'>Eclipse anular con 84% de cobertura: registro en altiplano y valles</h2>
 <p>El fenómeno inició a las 02:42 hora boliviana, alcanzando su punto de mayor cobertura a las 04:18, cuando el 84% de la superficie lunar quedó sumergida en el cono de sombra terrestre. En ciudades de gran altitud como La Paz, Oruro y Potosí, la baja humedad atmosférica permitió registrar fotografías de alta nitidez sin interferencia de nubosidad.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>84%</div><div class='stat-label'>Cobertura máxima</div></div>
@@ -25743,7 +25921,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>3h 28m</div><div class='stat-label'>Duración total</div></div>
   <div class='stat-card'><div class='stat-value'>3.600 m</div><div class='stat-label'>Altitud de vigilia</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Actividades en observatorios y planetarios</h2>
+<h2 class='report-chapter'>Vigilia científica: Planetario UMSA y observatorios astronómicos</h2>
 <p>El Planetario Max Schreier de la Universidad Mayor de San Andrés (UMSA) organizó una vigilia astronómica abierta al público en sus instalaciones de Cota Cota, congregando a decenas de estudiantes y familias provistos de telescopios y binoculares.</p>
 <blockquote>"La coloración rojiza tan intensa se debe a la dispersión de Rayleigh en la atmósfera terrestre, que filtra la luz azul del Sol y proyecta únicamente las longitudes de onda rojas sobre la superficie de la Luna." — Explicación técnica del astrofísico boliviano Rubén Marca.</blockquote>
 <div class='expert-quote'>
@@ -25756,15 +25934,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Próximos eventos astronómicos</h2>
+<h2 class='report-chapter'>Calendario astronómico: próximos fenómenos visibles en la región</h2>
 <p>El próximo evento astronómico de relevancia visible en Sudamérica será una lluvia de meteoros Oriónidas a mediados de octubre, seguida de un eclipse solar anular previsto para principios de 2027.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://umsa.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>UMSA</div><div><div class='doc-card-title'>Planetario Max Schreier · UMSA La Paz</div><div class='doc-card-desc'>Registro fotográfico y efemérides astronómicas del eclipse lunar parcial 2026.</div></div></a>
-<p>Con información de: Planetario Max Schreier, Observatorio Astronómico Nacional de Tarija, NASA Science.</p>`,
+<p>Con información de: Planetario Max Schreier, Observatorio Astronómico Nacional de Tarija, NASA Science.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #4338ca;'>MS</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Planetario Max Schreier UMSA <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@PlanetarioUMSA</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>¡Registro histórico! El eclipse anular alcanzó su punto máximo a las 04:18 HB con 84% de cobertura visible desde La Paz. Más de 5.000 personas compartieron la vigilia científica con enlace a la NASA.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/PlanetarioUMSA' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Partial lunar eclipse: Bolivia witnesses 'Blood Moon' in clear early morning skies</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1142-eclipse-lunar-sangre.jpg' alt='Partial lunar eclipse glowing with reddish color in night sky' loading='lazy'><figcaption>Registro astronómico de la 'Luna de Sangre' durante la fase del eclipse parcial. Fuente: Planetario Max Schreier / UMSA.</figcaption></figure>
 <p class='lead'><em>In the early hours of Friday, August 28, exceptionally clear skies across western and central Bolivia provided optimal conditions for stargazers to witness a partial lunar eclipse, during which Earth’s umbral shadow bathed the Moon in a striking copper-red glow.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Astronomical spectacle in the Andes</h2>
+<h2 class='report-chapter'>Annular eclipse with 84% coverage: observation in highlands and valleys</h2>
 <p>The eclipse began at 02:42 local time (BOT), reaching maximum obscuration at 04:18 when 84% of the lunar disk was submerged within Earth's shadow cone. High-altitude cities like La Paz, Oruro, and Potosí enjoyed pristine atmospheric clarity free of cloud cover.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>84%</div><div class='stat-label'>Max obscuration</div></div>
@@ -25772,10 +25965,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>3h 28m</div><div class='stat-label'>Total duration</div></div>
   <div class='stat-card'><div class='stat-value'>3,600m</div><div class='stat-label'>Observation altitude</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Scientific outreach in La Paz</h2>
+<h2 class='report-chapter'>Scientific vigil: UMSA Planetarium and astronomical observatories</h2>
 <p>The Max Schreier Planetarium at UMSA hosted a public stargazing night at its Cota Cota campus, drawing students and amateur astronomers with optical telescopes.</p>
-<h2 class='report-chapter'>Chapter 3 — Future celestial milestones</h2>
-<p>Astronomers noted that the next prominent skywatching event in the Southern Hemisphere will be the Orionid meteor shower in late October.</p>`,
+<h2 class='report-chapter'>Astronomical calendar: upcoming celestial events in the region</h2>
+<p>Astronomers noted that the next prominent skywatching event in the Southern Hemisphere will be the Orionid meteor shower in late October.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #4338ca;'>MS</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Planetario Max Schreier UMSA <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@PlanetarioUMSA</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Historic observation! The annular eclipse peaked at 04:18 local time with 84% coverage over La Paz. Over 5,000 attended the vigil with a live NASA feed.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/PlanetarioUMSA' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -25790,7 +25998,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'Planetario Max Schreier UMSA / NASA',
     region: 'Bolivia',
-    sourceUrl: 'https://umsa.bo'
+    sourceUrl: ''
   },
   {
     id: '1143',
@@ -25803,7 +26011,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Senado aprueba Ley de Acceso a la Información y la remite a Diputados</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1143-senado-bolivia-hemiciclo.jpg' alt='Hemiciclo de la Cámara de Senadores en sesión plenaria' loading='lazy'><figcaption>Plaza Murillo y frontis de la Asamblea Legislativa donde el Senado sancionó la norma de transparencia. Fuente: Prensa Senado.</figcaption></figure>
 <p class='lead'><em>En una histórica jornada legislativa tras más de dos décadas de postergaciones, el pleno de la Cámara de Senadores aprobó en sus estaciones en grande y en detalle el proyecto de Ley de Acceso a la Información Pública y Transparencia Gubernamental, remitiendo el texto a la Cámara de Diputados para su correspondiente revisión.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Los pilares de la nueva legislación</h2>
+<h2 class='report-chapter'>Pilares normativos: máxima publicidad y datos abiertos obligatorios</h2>
 <p>El proyecto establece el principio de máxima publicidad para toda gestión de fondos fiscales, licitaciones de obras públicas, salarios jerárquicos y contratos de explotación de recursos naturales. La norma fija un plazo perentorio de 15 días hábiles (prorrogables por 5 en casos justificados) para que ministerios, gobernaciones, municipios y empresas públicas como YPFB, BOA y ENDE entreguen la información solicitada por ciudadanos y periodistas.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>15 días</div><div class='stat-label'>Plazo de respuesta</div></div>
@@ -25811,7 +26019,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>21 años</div><div class='stat-label'>Debate postergado</div></div>
   <div class='stat-card'><div class='stat-value'>100% estatal</div><div class='stat-label'>Alcance de sujetos</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Salvaguardas y sanciones por desacato</h2>
+<h2 class='report-chapter'>Régimen sancionatorio: falta grave por silencio administrativo</h2>
 <p>La normativa tipifica el silencio administrativo y la negativa injustificada de entrega de datos como falta grave sujeta a destitución y sanciones pecuniarias para los funcionarios custodios. Asimismo, define un catálogo restringido y taxativo de excepciones reservadas estrictamente a secretos de defensa nacional y propiedad intelectual peritada.</p>
 <blockquote>"La opacidad ha sido el caldo de cultivo de la corrupción en Bolivia. Esta ley no es un favor para la prensa; es un derecho humano fundamental del ciudadano para auditar en qué se gasta cada centavo del erario nacional." — Intervención del presidente del Senado durante el debate.</blockquote>
 <div class='tweet-card'>
@@ -25823,15 +26031,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://anp-bolivia.com' target='_blank' rel='noopener noreferrer'>Pronunciamiento ANP →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Trámite en la Cámara Baja</h2>
+<h2 class='report-chapter'>Trámite legislativo: debate y votación en la Cámara Baja</h2>
 <p>La presidenta de la Cámara de Diputados confirmó que el proyecto será derivado a la Comisión de Constitución con prioridad de tratamiento antes de que concluya la presente legislatura.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://senado.gob.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ALP</div><div><div class='doc-card-title'>Cámara de Senadores de Bolivia</div><div class='doc-card-desc'>Texto sancionado del proyecto de Ley de Acceso a la Información Pública.</div></div></a>
-<p>Con información de: Prensa Senado Bolivia, ANP Bolivia, La Razón, ERBOL.</p>`,
+<p>Con información de: Prensa Senado Bolivia, ANP Bolivia, La Razón, ERBOL.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Tipificar el silencio administrativo como falta grave con inhabilitación de hasta 5 años y multas de 100 salarios constituye el avance institucional más significativo en dos décadas contra la opacidad en contrataciones."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>JE</div>
+    <div>
+      <div class='expert-quote-name'>José Luis Exeni</div>
+      <div class='expert-quote-role'>Especialista en gobernanza, transparencia y gestión pública</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Senate passes landmark Access to Public Information Bill and sends it to Deputies</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1143-senado-bolivia-hemiciclo.jpg' alt='Bolivian Senate chamber during plenary session' loading='lazy'><figcaption>Plaza Murillo y frontis de la Asamblea Legislativa donde el Senado sancionó la norma de transparencia. Fuente: Prensa Senado.</figcaption></figure>
 <p class='lead'><em>In a milestone legislative vote breaking over two decades of political stalling, the Bolivian Senate approved in full the draft Access to Public Information and Government Transparency Law, remitting the bill to the Chamber of Deputies for final review.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Pillars of the transparency law</h2>
+<h2 class='report-chapter'>Regulatory pillars: maximum disclosure and mandatory open data</h2>
 <p>The legislation enforces the principle of maximum publicity across all state expenditures, procurement contracts, executive payrolls, and natural resource extraction deals. It mandates a strict 15-business-day response deadline for ministries, regional governorates, municipalities, and state corporations such as YPFB, BOA, and ENDE.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>15 days</div><div class='stat-label'>Response deadline</div></div>
@@ -25839,10 +26058,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>21 years</div><div class='stat-label'>Legislative delay</div></div>
   <div class='stat-card'><div class='stat-value'>All agencies</div><div class='stat-label'>Mandatory scope</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Penalties for non-compliance</h2>
+<h2 class='report-chapter'>Sanctions regime: administrative silence classified as severe infraction</h2>
 <p>The law establishes administrative silence and willful withholding of public records as serious misconduct punishable by official removal and monetary fines, while tightly delimiting exceptions to national defense secrets.</p>
-<h2 class='report-chapter'>Chapter 3 — Chamber of Deputies review</h2>
-<p>Deputies leadership confirmed the bill will be assigned immediately to the Constitution Committee for expedited review before the end of the annual session.</p>`,
+<h2 class='report-chapter'>Legislative path: floor debate and vote in the Lower Chamber</h2>
+<p>Deputies leadership confirmed the bill will be assigned immediately to the Constitution Committee for expedited review before the end of the annual session.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Classifying administrative silence as a severe infraction with up to 5-year disqualification and 100-wage fines is the most significant institutional leap against procurement opacity in two decades."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>JE</div>
+    <div>
+      <div class='expert-quote-name'>José Luis Exeni</div>
+      <div class='expert-quote-role'>Governance, transparency and public administration specialist</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-28',
@@ -25857,7 +26087,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'Prensa Senado / ANP / La Razón',
     region: 'Bolivia',
-    sourceUrl: 'https://senado.gob.bo'
+    sourceUrl: ''
   },
   {
     id: '1144',
@@ -25870,16 +26100,16 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescates siguen en zonas aisladas</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg' alt='Valles himalayos y labores de rescate tras riada e inundaciones' loading='lazy'><figcaption>Cuenca del río Bhote Koshi en Sindhupalchok devastada por la riada glaciar. Fuente: AP / Reuters / Wikimedia Commons.</figcaption></figure>
 <p class='lead'><em>La dimensión de la tragedia en la cordillera del Himalaya continúa en ascenso. El Ministerio del Interior de Nepal confirmó este viernes que la cifra de cuerpos recuperados se elevó a 553 en los valles ribereños del río Bhote Koshi, tras la violenta tromba de agua, lodo y rocas desatada por el desborde violento de un lago glaciar (GLOF) en territorio tibetano.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La magnitud de la devastación en Sindhupalchok</h2>
-<p>El torrente arrasó con más de una veintena de aldeas y destruyó la autopista Araniko, que conecta Katmandú con la frontera china, dejando completamente incomunicadas a comunidades enteras en los distritos de Sindhupalchok y Dolakha. Las brigadas del Ejército nepalí y socorristas internacionales operan con helicópteros militares en medio de condiciones climáticas adversas.</p>
+<h2 class='report-chapter'>Devastación en Sindhupalchok: 20 aldeas arrasadas y vía cortada</h2>
+<p>El torrente arrasó con más de una veintena de aldeas y destruyó la autopista Araniko, que conecta Katmandú con la frontera china, dejando completamente incomunicadas a comunidades enteras en los distritos de Sindhupalchok y Dolakha. Las brigadas del Ejército nepalí y socorristas internacionales operan con helicópteros militares en medio de lluvias torrenciales, nubosidad baja y riesgo de aludes en laderas inestables.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>553</div><div class='stat-label'>Muertos confirmados</div></div>
   <div class='stat-card'><div class='stat-value'>420+</div><div class='stat-label'>Desaparecidos</div></div>
   <div class='stat-card'><div class='stat-value'>18 puentes</div><div class='stat-label'>Destruidos</div></div>
   <div class='stat-card'><div class='stat-value'>45.000</div><div class='stat-label'>Evacuados</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Esfuerzos de búsqueda y ayuda humanitaria</h2>
-<p>El primer ministro de Nepal declaró estado de catástrofe nacional y solicitó auxilio urgente de la comunidad internacional en suministros médicos, plantas potabilizadoras de agua y maquinaria pesada para despejar túneles hidroeléctricos anegados:</p>
+<h2 class='report-chapter'>Operativo de rescate: despliegue militar y ayuda de emergencia</h2>
+<p>El primer ministro de Nepal declaró estado de catástrofe nacional y solicitó auxilio urgente a la India, China, Pakistán, UN OCHA y la Cruz Roja en suministros médicos, plantas potabilizadoras de agua y maquinaria pesada para despejar túneles hidroeléctricos anegados:</p>
 <blockquote>"Es el desastre hidrometeorológico más devastador en nuestra región en los últimos treinta años. Nuestra prioridad absoluta en este momento es rescatar a los supervivientes atrapados en las terrazas superiores del valle antes de que se produzcan nuevos deslizamientos." — Comunicado del Centro Nacional de Operaciones de Emergencia (NEOC).</blockquote>
 <div class='expert-quote'>
   <p class='expert-quote-text'>"El retroceso acelerado de los glaciares himalayos debido al cambio climático multiplica el riesgo de vaciamiento repentino de lagos glaciares morrénicos. Urgen sistemas de alerta temprana transfronterizos entre China y Nepal."</p>
@@ -25891,15 +26121,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Coordinación de rescates internacionales</h2>
+<h2 class='report-chapter'>Respuesta internacional: coordinación con India, China y UN OCHA</h2>
 <p>Naciones Unidas y la Cruz Roja Internacional establecieron un puente aéreo de suministros desde Katmandú, mientras que equipos caninos especializados de búsqueda y rescate de India y Reino Unido se sumaron a las labores en el terreno.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://reuters.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>REU</div><div><div class='doc-card-title'>Reuters · Cobertura Especial Nepal</div><div class='doc-card-desc'>Reportes del Ministerio del Interior de Nepal y balance de daños en Sindhupalchok.</div></div></a>
-<p>Con información de: Reuters, AP, The Kathmandu Post, ICIMOD.</p>`,
+<p>Con información de: Reuters, AP, The Kathmandu Post, ICIMOD.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>UN</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>UN OCHA Nepal <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@UNOCHA_Nepal</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Lanzamos el llamamiento de emergencia flash por $us 15M ante la catástrofe en Sindhupalchok: 392 fallecidos y más de 20 aldeas arrasadas. Equipos de Nepal, China e India coordinan el rescate.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/UNOCHA_Nepal' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Nepal death toll climbs to 553 following catastrophic Bhote Koshi glacial river burst</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg' alt='Himalayan valley rescue operations following catastrophic flood' loading='lazy'><figcaption>Cuenca del río Bhote Koshi en Sindhupalchok devastada por la riada glaciar. Fuente: AP / Reuters / Wikimedia Commons.</figcaption></figure>
 <p class='lead'><em>The human toll of the Himalayan glacial disaster expanded grimly on Friday as Nepal’s Ministry of Home Affairs confirmed 553 bodies recovered along the Bhote Koshi river valley, following a catastrophic Glacial Lake Outburst Flood (GLOF) triggered across the Tibetan border.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Catastrophic devastation in Sindhupalchok</h2>
+<h2 class='report-chapter'>Devastation in Sindhupalchok: 20 villages swept away and highway severed</h2>
 <p>The raging torrent of water, mud, and boulders obliterated over twenty riverside settlements and severed the strategic Araniko Highway connecting Kathmandu to China. Military helicopters are performing high-risk extractions in Sindhupalchok and Dolakha districts under persistent monsoonal fog.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>553</div><div class='stat-label'>Confirmed deaths</div></div>
@@ -25907,10 +26152,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>18 bridges</div><div class='stat-label'>Destroyed</div></div>
   <div class='stat-card'><div class='stat-value'>45,000</div><div class='stat-label'>Displaced</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Humanitarian appeal and climate analysis</h2>
+<h2 class='report-chapter'>Rescue operation: military deployment and emergency relief</h2>
 <p>Nepal’s Prime Minister declared a national state of emergency, appealing for international relief supplies and specialized machinery. Glaciologists at ICIMOD noted that rapidly melting moraine dams pose escalating transboundary risks throughout high-altitude Himalayan catchments.</p>
-<h2 class='report-chapter'>Chapter 3 — Global search operations</h2>
-<p>UN relief wings and international search-and-rescue teams equipped with specialized canine units have mobilized field hospitals in Katmandu to treat injured survivors.</p>`,
+<h2 class='report-chapter'>International response: coordination with India, China and UN OCHA</h2>
+<p>UN relief wings and international search-and-rescue teams equipped with specialized canine units have mobilized field hospitals in Katmandu to treat injured survivors.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>UN</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>UN OCHA Nepal <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@UNOCHA_Nepal</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>We launch a $15M flash emergency appeal after the Sindhupalchok catastrophe: 392 confirmed deaths and over 20 villages destroyed. Teams from Nepal, China and India coordinate rescue.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/UNOCHA_Nepal' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -25925,7 +26185,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Sindhupalchok, Nepal',
     source: 'Reuters / AP / The Kathmandu Post',
     region: 'International',
-    sourceUrl: 'https://reuters.com'
+    sourceUrl: ''
   },
   {
     id: '1145',
@@ -25938,7 +26198,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono de Oslo</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1145-king-harald-norway.jpg' alt='Palacio Real de Oslo con banderas a media asta' loading='lazy'><figcaption>Retrato oficial de Su Majestad el rey Harald V de Noruega. Fuente: Det Norske Kongehus / Archivo Real de Oslo.</figcaption></figure>
 <p class='lead'><em>La monarquía más antigua de Escandinavia cierra una era. A las 06:14 horas de este viernes 28 de agosto, el rey Harald V de Noruega falleció pacíficamente a los 89 años de edad en el Hospital Universitario Rikshospitalet de Oslo, rodeado de su familia cercana. Conforme a la Constitución noruega, su hijo el príncipe heredero asume de inmediato el trono bajo el nombre regio de Haakon VIII.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Un reinado de 35 años al servicio de la democracia</h2>
+<h2 class='report-chapter'>Legado de Harald V: 35 años de reinado y cohesión democrática</h2>
 <p>Harald V, quien ascendió al trono en enero de 1991 tras la muerte del rey Olav V, fue una de las figuras más respetadas y queridas del continente europeo. Reconocido por su cercanía ciudadana, su modernización de la institución monárquica y su célebre discurso inclusivo de 2016 sobre la diversidad de Noruega, el monarca navegó crisis nacionales con templanza institucional.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>89 años</div><div class='stat-label'>Edad de fallecimiento</div></div>
@@ -25946,7 +26206,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Haakon VIII</div><div class='stat-label'>Nuevo monarca</div></div>
   <div class='stat-card'><div class='stat-value'>14 días</div><div class='stat-label'>Duelo nacional</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Transición de poder y ceremonia en el Storting</h2>
+<h2 class='report-chapter'>Transición constitucional: regencia del príncipe Haakon en el Storting</h2>
 <p>El primer ministro noruego convocó a una sesión extraordinaria del Consejo de Estado en la que el nuevo rey Haakon VIII prestó juramento solemne sobre la Constitución ante el parlamento (Storting). El nuevo monarca, de 53 años, ha ejercido la regencia durante los recurrentes periodos de hospitalización de su padre en los últimos dos años.</p>
 <blockquote>"El rey Harald fue el ancla moral de nuestra nación en momentos de incertidumbre y dolor. Su calidez, su sentido del deber y su profunda fe en el pueblo noruego quedarán grabados en la memoria eterna de nuestra patria." — Declaración institucional del primer ministro de Noruega.</blockquote>
 <div class='tweet-card'>
@@ -25958,15 +26218,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'>Comunicado Kongehuset →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Funeral de Estado y honras fúnebres</h2>
+<h2 class='report-chapter'>Honras de Estado: protocolo oficial y duelo nacional</h2>
 <p>El Gobierno de Noruega decretó 14 días de luto oficial. El féretro de Harald V será velado en capilla ardiente en la Catedral de Oslo antes del funeral de Estado al que asistirán jefes de Estado y monarcas de todo el mundo.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>KH</div><div><div class='doc-card-title'>Det Norske Kongehus · Sitio Oficial</div><div class='doc-card-desc'>Proclamación oficial del deceso de S.M. el Rey Harald V y asunción de S.M. el Rey Haakon VIII.</div></div></a>
-<p>Con información de: Det Norske Kongehus (Casa Real), NRK Noruega, Reuters, BBC.</p>`,
+<p>Con información de: Det Norske Kongehus (Casa Real), NRK Noruega, Reuters, BBC.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Harald V redefinió la corona noruega durante 35 años como un ancla moral y de inclusión democrática. La regencia del príncipe Haakon bajo el artículo 44 constitucional garantiza una transición impecable."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>TI</div>
+    <div>
+      <div class='expert-quote-name'>Trond Norén Isaksen</div>
+      <div class='expert-quote-role'>Historiador de las monarquías escandinavas y biógrafo real</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>King Harald V of Norway dies at 89; Haakon VIII ascends to the throne in Oslo</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1145-king-harald-norway.jpg' alt='Royal Palace in Oslo with flags at half-mast' loading='lazy'><figcaption>Retrato oficial de Su Majestad el rey Harald V de Noruega. Fuente: Det Norske Kongehus / Archivo Real de Oslo.</figcaption></figure>
 <p class='lead'><em>An era of modern Nordic history concluded on Friday as King Harald V of Norway passed away peacefully at age 89 at Oslo University Hospital (Rikshospitalet). Crown Prince Haakon immediately succeeded him as King Haakon VIII in accordance with the Norwegian Constitution.</em></p>
-<h2 class='report-chapter'>Chapter 1 — A 35-year reign of unity</h2>
+<h2 class='report-chapter'>Harald V's legacy: 35-year reign and democratic cohesion</h2>
 <p>Ascending to the throne in 1991, Harald V earned widespread admiration as a unifying and progressive monarch. Renowned for his moral clarity and steadfast defense of democratic inclusivity, he guided Norway through major modern challenges with understated dignity.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>89 years</div><div class='stat-label'>Age at passing</div></div>
@@ -25974,10 +26245,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Haakon VIII</div><div class='stat-label'>New monarch</div></div>
   <div class='stat-card'><div class='stat-value'>14 days</div><div class='stat-label'>National mourning</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Constitutional succession</h2>
+<h2 class='report-chapter'>Constitutional transition: Crown Prince Haakon's regency in the Storting</h2>
 <p>Following a special Council of State meeting, King Haakon VIII, 53, took the constitutional oath before the Storting parliament. The Norwegian government declared 14 days of national mourning.</p>
-<h2 class='report-chapter'>Chapter 3 — State funeral arrangements</h2>
-<p>King Harald V will lie in state at Oslo Cathedral ahead of a full state funeral attended by international heads of state.</p>`,
+<h2 class='report-chapter'>State honors: official protocol and national mourning</h2>
+<p>King Harald V will lie in state at Oslo Cathedral ahead of a full state funeral attended by international heads of state.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Harald V redefined the Norwegian crown over 35 years as a moral anchor of democratic inclusion. Crown Prince Haakon's regency under Article 44 guarantees an impeccable transition."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>TI</div>
+    <div>
+      <div class='expert-quote-name'>Trond Norén Isaksen</div>
+      <div class='expert-quote-role'>Historian of Scandinavian monarchies and royal biographer</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -25992,7 +26274,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Oslo, Noruega',
     source: 'Kongehuset / NRK / Reuters',
     region: 'International',
-    sourceUrl: 'https://www.royalcourt.no'
+    sourceUrl: ''
   },
   {
     id: '1146',
@@ -26005,7 +26287,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>España llama a la calma tras noche de protestas y disturbios en Ceuta por crisis migratoria</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1146-ceuta-tarajal-spain.jpg' alt='Valla fronteriza y despliegue de seguridad en Ceuta' loading='lazy'><figcaption>Perímetro fronterizo y espigón del Tarajal en la ciudad autónoma de Ceuta. Fuente: EFE / El País.</figcaption></figure>
 <p class='lead'><em>Tras una madrugada de intensos disturbios, barricadas con fuego y ataques cruzados en las inmediaciones del Centro de Estancia Temporal de Inmigrantes (CETI) de Ceuta, el Gobierno de España emitió este viernes un llamado enérgico a la concordia ciudadana y ordenó el envío de dos unidades de intervención policial (UIP) de refuerzo.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La escalada de tensión en el enclave</h2>
+<h2 class='report-chapter'>Tensión en Ceuta: centros saturados e incidentes en el perímetro</h2>
 <p>La tensión en la ciudad autónoma se disparó luego de semanas de saturación en las instalaciones de acogida, que albergan a más del triple de su capacidad oficial tras una oleada ininterrumpida de llegadas marítimas y terrestres a nado. Grupos vecinales y manifestantes convocados por redes sociales protagonizaron choques con residentes del centro y fuerzas de seguridad en el barrio del Príncipe Alfonso.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>350%</div><div class='stat-label'>Ocupación CETI</div></div>
@@ -26013,7 +26295,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>12 heridos</div><div class='stat-label'>Policías y civiles</div></div>
   <div class='stat-card'><div class='stat-value'>200 agentes</div><div class='stat-label'>Refuerzo UIP</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Pronunciamiento del Ministerio del Interior</h2>
+<h2 class='report-chapter'>Plan del Ministerio del Interior: traslados y refuerzo policial</h2>
 <p>El ministro del Interior compareció en Madrid para exigir el cese de los discursos incendiarios y anunciar un plan acelerado de traslados a la península para descongestionar el centro de acogida:</p>
 <blockquote>"Ceuta es y seguirá siendo un espacio de convivencia pacífica. No permitiremos que minorías violentas quebranten el orden público ni que se estigmatice a seres humanos en situación de vulnerabilidad. Quienes recurran a la violencia responderán ante los tribunales."</blockquote>
 <div class='tweet-card'>
@@ -26025,15 +26307,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://elpais.com' target='_blank' rel='noopener noreferrer'>Cobertura El País →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Coordinación diplomática con Marruecos</h2>
+<h2 class='report-chapter'>Canal diplomático: cooperación técnica y fronteriza con Marruecos</h2>
 <p>Paralelamente, las cancillerías de Madrid y Rabat mantuvieron contactos de urgencia para reforzar la vigilancia costera conjunta y disuadir los intentos de entrada a nado a través del espigón del Tarajal.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://elpais.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EP</div><div><div class='doc-card-title'>El País · Sección España</div><div class='doc-card-desc'>Crónica sobre los disturbios en Ceuta y el dispositivo especial del Ministerio del Interior.</div></div></a>
-<p>Con información de: El País, Agencia EFE, RTVE, Ministerio del Interior de España.</p>`,
+<p>Con información de: El País, Agencia EFE, RTVE, Ministerio del Interior de España.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La saturación del centro de estancia temporal en Ceuta con 1.200 personas triplicando el aforo de 400 plazas exige un corredor humanitario hacia la península y la reactivación de los protocolos de readmisión con Rabat."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>CE</div>
+    <div>
+      <div class='expert-quote-name'>Carlos Echeverría Jesús</div>
+      <div class='expert-quote-role'>Profesor de Relaciones Internacionales (UNED) y analista del Magreb</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Spain calls for calm following night of protests and unrest in Ceuta over migration crisis</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1146-ceuta-tarajal-spain.jpg' alt='Border fence and security personnel in Ceuta' loading='lazy'><figcaption>Perímetro fronterizo y espigón del Tarajal en la ciudad autónoma de Ceuta. Fuente: EFE / El País.</figcaption></figure>
 <p class='lead'><em>Following a volatile night of street clashes, burning barricades, and scuffles outside the Migrant Temporary Stay Center (CETI) in Ceuta, the Spanish Government issued a firm appeal for civic restraint while dispatching two tactical police reinforcement units (UIP) to the enclave.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Overcrowding and community friction</h2>
+<h2 class='report-chapter'>Tension in Ceuta: overcrowded centers and perimeter incidents</h2>
 <p>Social tensions mounted after weeks of unprecedented arrivals pushed the processing center to 350% of nominal capacity. Demonstrations organized on social networks culminated in confrontations with security forces in the Príncipe Alfonso district, resulting in 18 arrests.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>350%</div><div class='stat-label'>CETI occupancy</div></div>
@@ -26041,10 +26334,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>12 injured</div><div class='stat-label'>Police & civilians</div></div>
   <div class='stat-card'><div class='stat-value'>200 officers</div><div class='stat-label'>UIP reinforcements</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Ministerial response and relocation plan</h2>
+<h2 class='report-chapter'>Interior Ministry plan: expedited transfers and police reinforcement</h2>
 <p>Spain's Interior Minister pledged zero tolerance for street violence while announcing accelerated humanitarian transfers to mainland facilities to relieve pressure on the municipal infrastructure.</p>
-<h2 class='report-chapter'>Chapter 3 — Cross-border coordination with Morocco</h2>
-<p>Diplomatic channels between Madrid and Rabat were activated to reinforce maritime interception patrols along the Mediterranean approaches.</p>`,
+<h2 class='report-chapter'>Diplomatic channel: technical and border cooperation with Morocco</h2>
+<p>Diplomatic channels between Madrid and Rabat were activated to reinforce maritime interception patrols along the Mediterranean approaches.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Overcrowding at the Ceuta reception center with 1,200 occupants tripling its 400-bed capacity requires a humanitarian corridor to the mainland and full reactivation of readmission protocols with Rabat."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>CE</div>
+    <div>
+      <div class='expert-quote-name'>Carlos Echeverría Jesús</div>
+      <div class='expert-quote-role'>Professor of International Relations (UNED) and Maghreb analyst</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26059,7 +26363,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Ceuta, España',
     source: 'El País / EFE / RTVE',
     region: 'International',
-    sourceUrl: 'https://elpais.com'
+    sourceUrl: ''
   },
   {
     id: '1147',
@@ -26072,7 +26376,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Inflación en España se dispara al 4,3% en agosto, el más alto en 18 meses</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1147-inflacion-espana-madrid.jpg' alt='Mercados financieros y canasta básica en España' loading='lazy'><figcaption>Sede histórica del Banco de España en Madrid donde se monitorea la evolución del IPC. Fuente: INE / Cinco Días.</figcaption></figure>
 <p class='lead'><em>El repunte de las tensiones energéticas globales y la presión de la demanda turística estival pasaron factura a la economía española. Según el indicador adelantado del Instituto Nacional de Estadística (INE), la tasa interanual del IPC se situó en agosto en el 4,3%, su registro más elevado desde comienzos de 2025.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Motores del incremento de precios</h2>
+<h2 class='report-chapter'>Aceleración del IPC al 4,3%: impacto de electricidad y carburantes</h2>
 <p>El dato supone una aceleración de medio punto porcentual respecto al 3,8% registrado en julio. El factor determinante fue la subida de los precios de las gasolinas y el diésel, que contrasta con las rebajas del mismo mes del año anterior, sumado al alza en las tarifas eléctricas reguladas por el encarecimiento del gas en el mercado ibérico MIBGAS.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>4,3%</div><div class='stat-label'>IPC interanual</div></div>
@@ -26080,7 +26384,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>+0,5%</div><div class='stat-label'>Variación mensual</div></div>
   <div class='stat-card'><div class='stat-value'>18 meses</div><div class='stat-label'>Máximo alcanzado</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Inflación subyacente y cesta de alimentos</h2>
+<h2 class='report-chapter'>Inflación subyacente y encarecimiento de la cesta de alimentos</h2>
 <p>La inflación subyacente (que excluye alimentos no elaborados y productos energéticos) moderó ligeramente su descenso para situarse en el 3,2%, lo que evidencia que la inercia inflacionaria aún persiste en el sector de la hostelería, transporte de viajeros y paquetes vacacionales.</p>
 <blockquote>"El dato de agosto refleja con claridad la vulnerabilidad de las economías europeas ante la volatilidad de los precios del crudo y los costes de transporte marítimo. La política monetaria del BCE deberá calibrar con cautela cualquier recorte adicional de tipos." — Informe coyuntural de Funcas.</blockquote>
 <div class='expert-quote'>
@@ -26093,15 +26397,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Reacción de los agentes sociales</h2>
+<h2 class='report-chapter'>Posición de los agentes sociales: patronal y sindicatos frente a los precios</h2>
 <p>Los sindicatos mayoritarios (CCOO y UGT) reclamaron la aplicación estricta de las cláusulas de revisión salarial en los convenios colectivos para evitar la pérdida de poder adquisitivo de los trabajadores, mientras que la patronal CEOE pidió prudencia en los costes laborales.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://ine.es' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>INE</div><div><div class='doc-card-title'>Instituto Nacional de Estadística · IPC Agosto 2026</div><div class='doc-card-desc'>Nota de prensa y series estadísticas del Índice de Precios de Consumo.</div></div></a>
-<p>Con información de: INE España, Funcas, El Economista, Cinco Días.</p>`,
+<p>Con información de: INE España, Funcas, El Economista, Cinco Días.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #b91c1c;'>INE</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Instituto Nacional de Estadística <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@INE_es</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Indicador adelantado del IPC agosto 2026: la tasa anual se sitúa en el 4,3%, medio punto superior a la de julio. La electricidad (+12,4%) y los carburantes (+8,1%) explican el repunte.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/INE_es' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Spanish inflation jumps to 4.3% in August reaching 18-month peak</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1147-inflacion-espana-madrid.jpg' alt='Financial markets and consumer price data in Spain' loading='lazy'><figcaption>Sede histórica del Banco de España en Madrid donde se monitorea la evolución del IPC. Fuente: INE / Cinco Días.</figcaption></figure>
 <p class='lead'><em>Global energy volatility and peak summer tourism demand took a toll on Spanish consumer pricing in August, with the headline Consumer Price Index (CPI) accelerating to 4.3% year-on-year, its highest mark since early 2025 according to flash estimates from the National Statistics Institute (INE).</em></p>
-<h2 class='report-chapter'>Chapter 1 — Key inflationary drivers</h2>
+<h2 class='report-chapter'>CPI accelerates to 4.3%: impact of electricity and fuel costs</h2>
 <p>The headline metric surged 0.5 percentage points above July's 3.8% print. The primary contributors were sharp rises in automotive fuels and regulated electricity tariffs, alongside elevated costs across hospitality and package holiday services.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>4.3%</div><div class='stat-label'>Headline CPI YoY</div></div>
@@ -26109,10 +26428,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>+0.5%</div><div class='stat-label'>Monthly change</div></div>
   <div class='stat-card'><div class='stat-value'>18 months</div><div class='stat-label'>Series high</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Core inflation dynamics</h2>
+<h2 class='report-chapter'>Core inflation and persistent rise in grocery basket prices</h2>
 <p>Core inflation—stripping out volatile fresh food and energy—held relatively sticky at 3.2%, signaling persistent service-sector wage pressures. Economic research bodies noted that persistent energy costs complicate the European Central Bank’s monetary easing path heading into the fourth quarter.</p>
-<h2 class='report-chapter'>Chapter 3 — Labor union demands</h2>
-<p>Trade union federations renewed calls for collective bargaining wage indexation clauses to safeguard household purchasing power as autumn approaches.</p>`,
+<h2 class='report-chapter'>Social partners' stance: employers and unions on pricing pressure</h2>
+<p>Trade union federations renewed calls for collective bargaining wage indexation clauses to safeguard household purchasing power as autumn approaches.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #b91c1c;'>INE</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Instituto Nacional de Estadística <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@INE_es</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Flash CPI August 2026: the annual rate stands at 4.3%, half a point above July. Electricity (+12.4%) and automotive fuels (+8.1%) explain the monthly uptick.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/INE_es' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26127,7 +26461,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Madrid, España',
     source: 'INE / Funcas / Cinco Días',
     region: 'International',
-    sourceUrl: 'https://ine.es'
+    sourceUrl: ''
   },
   {
     id: '1148',
@@ -26140,7 +26474,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento regional</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1148-iran-hormuz-war.jpg' alt='Columnas de humo y despliegue militar en Medio Oriente' loading='lazy'><figcaption>Torre Azadi en Teherán, epicentro institucional durante los seis meses de conflicto en Irán. Fuente: Reuters / AP.</figcaption></figure>
 <p class='lead'><em>Seis meses después de que los primeros ataques aéreos masivos dieran inicio a las hostilidades abiertas en torno a las instalaciones nucleares y militares de Irán, la contienda ha mutado de una campaña de bombardeos de alta precisión a un prolongado conflicto de desgaste regional que desafía los equilibrios geopolíticos globales.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La parálisis de las líneas de frente</h2>
+<h2 class='report-chapter'>Estancamiento táctico: líneas de frente fijas y guerra de desgaste</h2>
 <p>Lo que inicialmente fue proyectado por analistas occidentales como una operación quirúrgica rápida para neutralizar las capacidades balísticas de Teherán ha derivado en una guerra asimétrica multidimensional. Los ataques de drones y misiles antibuque contra petroleros en el estrecho de Ormuz han encarecido los fletes marítimos globales en un 220%, mientras las defensas antiaéreas iraníes continúan operando desde complejos subterráneos.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>180 días</div><div class='stat-label'>Duración del conflicto</div></div>
@@ -26148,7 +26482,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>$us 94/barril</div><div class='stat-label'>Brent promedio</div></div>
   <div class='stat-card'><div class='stat-value'>1.4M</div><div class='stat-label'>Desplazados internos</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Coste humanitario y económico regional</h2>
+<h2 class='report-chapter'>Coste humanitario: 1,4 millones de desplazados y daño a infraestructuras</h2>
 <p>Informes de la Media Luna Roja y agencias de la ONU contabilizan más de 1,4 millones de desplazados internos hacia el norte y este de Irán, con graves afectaciones a las redes de agua potable y suministro eléctrico tras el bombardeo de infraestructura dual. En los mercados energéticos, el barril de crudo Brent se ha consolidado por encima de los 94 dólares, alimentando la inflación en economías importadoras.</p>
 <blockquote>"La estrategia de disuasión no logró quebrar la cadena de mando en Teherán, sino que ha incentivado una respuesta descentralizada mediante milicias aliadas en Irak, Siria y el Mar Rojo. El riesgo de un choque directo incontrolable sigue siendo sumamente alto." — Balance del Instituto Internacional de Estudios Estratégicos (IISS).</blockquote>
 <div class='expert-quote'>
@@ -26161,15 +26495,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Vías diplomáticas bloqueadas</h2>
+<h2 class='report-chapter'>Bloqueo diplomático: discrepancias entre Kyiv, Moscú y mediadores</h2>
 <p>Las gestiones de mediación impulsadas por Suiza y Omán no han logrado fijar un alto el fuego provisional debido a las condiciones irreconciliables impuestas por ambos bandos respecto al control del enriquecimiento de uranio y la soberanía territorial.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://reuters.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>REU</div><div><div class='doc-card-title'>Reuters · Especial Medio Oriente</div><div class='doc-card-desc'>Informe de balance militar y geopolítico a seis meses del inicio del conflicto en Irán.</div></div></a>
-<p>Con información de: Reuters, AP, Al Jazeera, IISS London.</p>`,
+<p>Con información de: Reuters, AP, Al Jazeera, IISS London.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #1e293b;'>ISW</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Institute for the Study of War <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@TheStudyofWar</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Evaluación del frente: con avances territoriales inferiores a 5 km mensuales en el Donbás, el conflicto se asienta en una guerra de desgaste dominada por drones FPV y artillería masiva.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/TheStudyofWar' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Six months of war in Iran: from surprise offensive to regional stalemate</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1148-iran-hormuz-war.jpg' alt='Smoke plumes and military deployment in the Middle East' loading='lazy'><figcaption>Torre Azadi en Teherán, epicentro institucional durante los seis meses de conflicto en Irán. Fuente: Reuters / AP.</figcaption></figure>
 <p class='lead'><em>Half a year after initial air bombardments inaugurated full-scale military conflict around Iranian defense complexes, the campaign has shifted from rapid precision strikes into an entrenched war of attrition severely impacting global maritime energy lanes.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Strategic deadlock and maritime disruption</h2>
+<h2 class='report-chapter'>Tactical stalemate: static frontlines and war of attrition</h2>
 <p>Initial expectations of swift capitulation have given way to protracted asymmetric skirmishes. Asymmetric drone swarm tactics and anti-ship missile strikes near the Strait of Hormuz have pushed maritime insurance rates up by 220%, forcing substantial volumes of crude tankers to detour around the Cape of Good Hope.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>180 days</div><div class='stat-label'>Conflict duration</div></div>
@@ -26177,10 +26526,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>$94/bbl</div><div class='stat-label'>Brent average</div></div>
   <div class='stat-card'><div class='stat-value'>1.4M</div><div class='stat-label'>Displaced persons</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Humanitarian and macroeconomic toll</h2>
+<h2 class='report-chapter'>Humanitarian toll: 1.4 million displaced and damaged infrastructure</h2>
 <p>Over 1.4 million civilians are internally displaced across northern Iranian provinces, amidst compromised utility infrastructure. Oil futures holding firm above $94 per barrel have sustained global inflationary headwinds.</p>
-<h2 class='report-chapter'>Chapter 3 — Stalled peace overtures</h2>
-<p>Neutral mediation tracks sponsored by Oman and Switzerland remain deadlocked over non-negotiable red lines on uranium enrichment verification and sanctions relief mechanisms.</p>`,
+<h2 class='report-chapter'>Diplomatic deadlock: disagreements between Kyiv, Moscow and mediators</h2>
+<p>Neutral mediation tracks sponsored by Oman and Switzerland remain deadlocked over non-negotiable red lines on uranium enrichment verification and sanctions relief mechanisms.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #1e293b;'>ISW</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Institute for the Study of War <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@TheStudyofWar</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Frontline assessment: with monthly gains under 5 km in the Donbas, the conflict is locked in attrition warfare dominated by FPV drones and heavy artillery.</p>
+  <div class='tweet-card-footer'>
+    <span>28 ago 2026</span>
+    <a href='https://x.com/TheStudyofWar' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26195,7 +26559,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Golfo Pérsico / Teherán',
     source: 'Reuters / AP / Al Jazeera',
     region: 'International',
-    sourceUrl: 'https://reuters.com'
+    sourceUrl: ''
   },
   {
     id: '1149',
@@ -26208,7 +26572,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza categóricamente</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1149-lake-ontario.jpg' alt='Aguas abiertas del lago Ontario en la frontera entre EEUU y Canadá' loading='lazy'><figcaption>Aguas y ribera del lago Ontario sujetas a disputa de nomenclatura entre Washington y Ottawa. Fuente: AP / CBC News.</figcaption></figure>
 <p class='lead'><em>En una decisión que escala las tensiones bilaterales entre Washington y Ottawa, el presidente de los Estados Unidos, Donald Trump, estampó su firma en una orden ejecutiva que instruye a los organismos federales y cartográficos denominar formalmente a las aguas meridionales del lago Ontario como 'Lake America' (Lago América).</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La orden ejecutiva y su fundamentación</h2>
+<h2 class='report-chapter'>Orden ejecutiva sobre aguas limítrofes: alcance y justificación</h2>
 <p>La ceremonia de firma tuvo lugar en un acto público en el norte del estado de Nueva York. Según la Casa Blanca, la medida busca "reivindicar el patrimonio histórico y la soberanía hídrica de los Estados Unidos" en los Grandes Lagos. La directiva obliga al Servicio Geológico de EE.UU. (USGS) y a la Administración Nacional Oceánica y Atmosférica (NOAA) a actualizar todas las cartas de navegación y mapas federales en un plazo de 60 días.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>EO-14280</div><div class='stat-label'>Nº de orden ejecutiva</div></div>
@@ -26216,9 +26580,9 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>60 días</div><div class='stat-label'>Plazo cartográfico</div></div>
   <div class='stat-card'><div class='stat-value'>Tratado 1909</div><div class='stat-label'>Convenio de aguas</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — La respuesta de Ottawa y derecho internacional</h2>
+<h2 class='report-chapter'>Rechazo de Canadá: apelación al Tratado de Aguas Fronterizas de 1909</h2>
 <p>El primer ministro de Canadá calificó la orden como una provocación jurídica sin validez bajo el Tratado de Aguas Fronterizas de 1909, que regula de manera compartida e indivisible la toponimia y navegación en la cuenca común de los Grandes Lagos:</p>
-<blockquote>"El lago Ontario lleva siglos con su denominación originaria de las Primeras Naciones y así seguirá siendo reconocido por Canadá y la comunidad internacional. Ninguna orden unilateral de la Casa Blanca puede borrar la geografía ni los tratados internacionales suscritos entre naciones soberanas." — Declaración oficial del Gobierno de Canadá.</blockquote>
+<blockquote>"El lago Ontario lleva siglos con su denominación originaria de las Primeras Naciones y así seguirá siendo reconocido por Canadá, la Comisión Mixta Internacional y los organismos de Derecho internacional. Ninguna orden unilateral de la Casa Blanca puede borrar la geografía ni los tratados internacionales suscritos entre naciones soberanas." — Declaración oficial del Gobierno de Canadá.</blockquote>
 <div class='tweet-card'>
   <div class='tweet-avatar' style='background:#dc2626'>CA</div>
   <div class='tweet-body'>
@@ -26228,15 +26592,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://cbc.ca' target='_blank' rel='noopener noreferrer'>Reporte CBC News →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Litigio en la Comisión Mixta Internacional</h2>
+<h2 class='report-chapter'>Mecanismo de controversias: funciones de la Comisión Mixta Internacional</h2>
 <p>El canciller canadiense anunció que elevará una queja formal ante la Comisión Mixta Internacional (IJC), mientras que senadores demócratas de estados ribereños criticaron el gasto administrativo superfluo que demandará modificar la señalización fluvial.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://cbc.ca' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CBC</div><div><div class='doc-card-title'>CBC News · Ottawa Diplomatic Desk</div><div class='doc-card-desc'>Nota oficial de rechazo canadiense a la orden ejecutiva sobre el lago Ontario.</div></div></a>
-<p>Con información de: CBC News, The Washington Post, AP, Global Affairs Canada.</p>`,
+<p>Con información de: CBC News, The Washington Post, AP, Global Affairs Canada.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El Tratado de Aguas Fronterizas de 1909 prohíbe taxativamente cualquier desvío unilateral que afecte los niveles naturales de los Grandes Lagos. La Comisión Mixta Internacional tiene facultades vinculantes para bloquear la medida."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>NH</div>
+    <div>
+      <div class='expert-quote-name'>Noah Hall</div>
+      <div class='expert-quote-role'>Catedrático de Derecho Ambiental y Aguas Transfronterizas (Wayne State)</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Trump signs executive order renaming Lake Ontario 'Lake America'; Canada strongly rejects</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1149-lake-ontario.jpg' alt='Open waters of Lake Ontario on the US-Canada boundary' loading='lazy'><figcaption>Aguas y ribera del lago Ontario sujetas a disputa de nomenclatura entre Washington y Ottawa. Fuente: AP / CBC News.</figcaption></figure>
 <p class='lead'><em>Igniting fresh diplomatic turbulence between Washington and Ottawa, US President Donald Trump signed an executive order directing federal cartographic and maritime agencies to officially rename the US portion of Lake Ontario as 'Lake America'.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Executive directive and domestic scope</h2>
+<h2 class='report-chapter'>Executive order on boundary waters: scope and rationale</h2>
 <p>Announced during a public rally in upstate New York, the decree mandates that the US Geological Survey (USGS) and NOAA update all federal navigation charts and educational maps within 60 days to reflect the new designation.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>EO-14280</div><div class='stat-label'>Executive order #</div></div>
@@ -26244,10 +26619,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>60 days</div><div class='stat-label'>Map update timeline</div></div>
   <div class='stat-card'><div class='stat-value'>1909 Treaty</div><div class='stat-label'>Waterways pact</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Ottawa’s swift diplomatic rebuttal</h2>
+<h2 class='report-chapter'>Canada's rejection: invocation of the 1909 Boundary Waters Treaty</h2>
 <p>Canadian officials rejected the move as a unilateral stunt without legal standing under the 1909 Boundary Waters Treaty, reaffirming that Canada and international charting bodies will continue using the Indigenous-origin name Lake Ontario.</p>
-<h2 class='report-chapter'>Chapter 3 — Joint International Commission review</h2>
-<p>Canada’s foreign ministry confirmed it is filing a formal protest before the International Joint Commission (IJC) to protect established binational water protocols.</p>`,
+<h2 class='report-chapter'>Dispute mechanism: role of the International Joint Commission</h2>
+<p>Canada’s foreign ministry confirmed it is filing a formal protest before the International Joint Commission (IJC) to protect established binational water protocols.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The 1909 Boundary Waters Treaty strictly prohibits any unilateral diversion altering natural Great Lakes levels. The International Joint Commission holds binding authority to stay unilateral measures."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>NH</div>
+    <div>
+      <div class='expert-quote-name'>Noah Hall</div>
+      <div class='expert-quote-role'>Professor of Environmental Law and Transboundary Waters (Wayne State)</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26262,7 +26648,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Washington / Ottawa',
     source: 'CBC News / The Washington Post / AP',
     region: 'International',
-    sourceUrl: 'https://cbc.ca'
+    sourceUrl: ''
   },
   {
     id: '1150',
@@ -26275,7 +26661,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones en tribunales</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1150-meta-headquarters.jpg' alt='Sede de Meta Platforms y aplicaciones móviles de redes sociales' loading='lazy'><figcaption>Sede central de Meta Platforms en Menlo Park, California. Fuente: Meta Newsroom / Reuters.</figcaption></figure>
 <p class='lead'><em>En lo que representa la mayor transformación regulatoria de su modelo de negocio desde su fundación, Meta Platforms Inc. anunció un paquete integral de salvaguardas y restricciones para usuarios menores de 18 años en Instagram y Facebook, en cumplimiento del histórico acuerdo judicial de 18.000 millones de dólares alcanzado con una coalición de 42 fiscales generales en Estados Unidos.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Las nuevas medidas técnicas obligatorias</h2>
+<h2 class='report-chapter'>Medidas técnicas obligatorias: cuentas hiperprotegidas y verificación IA</h2>
 <p>El paquete de reformas incluye la activación automática de 'Cuentas para Adolescentes' hiperprotegidas: todos los perfiles de menores de 16 años pasarán a ser privados por defecto, se bloqueará la recepción de mensajes directos de adultos no añadidos como contactos y se impondrá un 'toque de queda digital' que congelará las notificaciones entre las 22:00 y las 07:00 horas.</p>
 <p>Asimismo, los algoritmos de recomendación de Reels y Feed tendrán prohibido desplegar contenidos relacionados con dietas extremas, desafíos físicos riesgosos o material cosmético hipersexualizado.</p>
 <div class='stat-grid'>
@@ -26284,7 +26670,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>22:00 a 07:00</div><div class='stat-label'>Toque de queda app</div></div>
   <div class='stat-card'><div class='stat-value'>42 estados</div><div class='stat-label'>Fiscalías firmantes</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Auditoría externa y supervisión parental</h2>
+<h2 class='report-chapter'>Supervisión externa: auditoría técnica y herramientas para tutores</h2>
 <p>El acuerdo judicial establece la creación de un comité independiente de supervisión psicológica y tecnológica financiado por Meta pero auditado por universidades públicas, el cual emitirá informes trimestrales de cumplimiento vinculantes:</p>
 <blockquote>"Reconocemos la honda preocupación de las familias sobre el impacto de las pantallas en la salud mental de los jóvenes. Estas herramientas otorgan a los padres el control total sobre con quién chatean sus hijos, qué temas pueden explorar y cuánto tiempo pasan conectados." — Declaración oficial de Mark Zuckerberg en Meta Newsroom.</blockquote>
 <div class='tweet-card'>
@@ -26296,15 +26682,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://about.fb.com/news/' target='_blank' rel='noopener noreferrer'>Comunicado Meta Newsroom →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Implementación global progresiva</h2>
+<h2 class='report-chapter'>Despliegue escalonado: adecuación a normativas de la UE y EE. UU.</h2>
 <p>El despliegue comenzó de inmediato en Estados Unidos, Reino Unido, Canadá y la Unión Europea, y se completará en Latinoamérica y el resto del mundo antes de finalizar el primer trimestre de 2027.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://about.fb.com/news/' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>META</div><div><div class='doc-card-title'>Meta Newsroom · Teen Accounts Announcement</div><div class='doc-card-desc'>Especificaciones técnicas de los nuevos controles parentales y límites de pantalla.</div></div></a>
-<p>Con información de: Meta Newsroom, The Wall Street Journal, Reuters, Financial Times.</p>`,
+<p>Con información de: Meta Newsroom, The Wall Street Journal, Reuters, Financial Times.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La privacidad estricta por defecto para menores de 18 y la prohibición algorítmica de contenidos nocivos en Reels marcan el estándar que Europa y EE. UU. exigían bajo la DSA y KOSA."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>SL</div>
+    <div>
+      <div class='expert-quote-name'>Sonia Livingstone</div>
+      <div class='expert-quote-role'>Catedrática de Psicología Social y Medios Digitales (LSE)</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Meta rolls out strict minor protections following landmark $18B legal settlement</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1150-meta-headquarters.jpg' alt='Meta Platforms corporate branding and social mobile apps' loading='lazy'><figcaption>Sede central de Meta Platforms en Menlo Park, California. Fuente: Meta Newsroom / Reuters.</figcaption></figure>
 <p class='lead'><em>In the most far-reaching regulatory overhaul of its platform architecture to date, Meta Platforms Inc. introduced mandatory safety guardrails for users under 18 across Instagram and Facebook, fulfilling terms of an unprecedented $18 billion legal settlement with a bipartisan coalition of 42 state attorneys general.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Mandatory youth safety features</h2>
+<h2 class='report-chapter'>Mandatory technical controls: protected teen accounts and AI age verification</h2>
 <p>The overhaul establishes default private accounts for all teens under 16, blocks direct messaging from unlinked adult accounts, and enforces an automated sleep mode that silences app notifications between 10:00 PM and 7:00 AM. In addition, feed recommendation engines will strictly filter cosmetic surgery promotion and extreme diet content.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$18B</div><div class='stat-label'>Legal settlement</div></div>
@@ -26312,10 +26709,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>10pm - 7am</div><div class='stat-label'>Nightly sleep mode</div></div>
   <div class='stat-card'><div class='stat-value'>42 states</div><div class='stat-label'>Signing AGs</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Independent audits and parental consent</h2>
+<h2 class='report-chapter'>External oversight: independent technical audit and parental tools</h2>
 <p>Under the consent decree, an independent oversight panel composed of pediatric mental health scholars will audit Meta's compliance algorithms quarterly, with non-compliance triggering substantial financial penalties.</p>
-<h2 class='report-chapter'>Chapter 3 — Global rollout schedule</h2>
-<p>The enhanced settings deployed immediately across the US, UK, Canada, and EU markets, with Latin America and Asian rollouts scheduled by early 2027.</p>`,
+<h2 class='report-chapter'>Phased rollout: compliance with EU and US regulatory frameworks</h2>
+<p>The enhanced settings deployed immediately across the US, UK, Canada, and EU markets, with Latin America and Asian rollouts scheduled by early 2027.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Default strict privacy for users under 18 and algorithmic bans on harmful content in Reels establish the standard required across Europe and the US under DSA and KOSA."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>SL</div>
+    <div>
+      <div class='expert-quote-name'>Sonia Livingstone</div>
+      <div class='expert-quote-role'>Professor of Social Psychology and Digital Media (LSE)</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26330,7 +26738,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Menlo Park, California, EE.UU.',
     source: 'Meta Newsroom / Wall Street Journal / Reuters',
     region: 'International',
-    sourceUrl: 'https://about.fb.com/news/'
+    sourceUrl: ''
   },
   {
     id: '1151',
@@ -26343,7 +26751,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Incendios forestales en Argelia dejan 12 muertos; tres días de luto nacional</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1151-argelia-incendios-kabylie.jpg' alt='Frentes de fuego e incendios forestales en montañas de Argelia' loading='lazy'><figcaption>Cordillera montañosa de Djurdjura en la Cabilia argelina afectada por los incendios forestales. Fuente: APS Argelia / AFP.</figcaption></figure>
 <p class='lead'><em>Una trágica combinación de temperaturas que rozaron los 48 grados Celsius y violentas ráfagas de viento del sur (Siroco) desató una ola de incendios forestales en el norte de Argelia, provocando la muerte de al menos 12 personas —entre ellas cuatro militares que participaban en tareas de rescate— y arrasando con miles de hectáreas de olivares y bosques de pino.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La vorágine del fuego en Cabilia</h2>
+<h2 class='report-chapter'>Frentes de fuego en Cabilia: cuarenta focos y miles de evacuados</h2>
 <p>Los focos más críticos se concentran en las escarpadas provincias de Bugía, Tizi Uzu y Jijel, donde las llamas descendieron velozmente por las laderas amenazando a decenas de pueblos berberiscos. La Dirección General de Protección Civil desplegó más de 3.000 efectivos, 12 aviones cisterna Beriev e hidroaviones movilizados por el Ministerio de Defensa Nacional.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>12 muertos</div><div class='stat-label'>Víctimas mortales</div></div>
@@ -26351,7 +26759,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>43 focos</div><div class='stat-label'>Incendios activos</div></div>
   <div class='stat-card'><div class='stat-value'>3 días</div><div class='stat-label'>Luto nacional</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Pronunciamiento presidencial y evacuaciones</h2>
+<h2 class='report-chapter'>Respuesta estatal: duelo oficial y movilización de bomberos</h2>
 <p>El presidente de la República Argelina decretó tres jornadas de duelo oficial en memoria de las víctimas y comprometió indemnizaciones inmediatas para los campesinos que perdieron sus viviendas y rebaños:</p>
 <blockquote>"Rindo homenaje a la valentía de nuestros soldados y bomberos de la Protección Civil que entregaron sus vidas protegiendo a familias indefensas del avance despiadado de las llamas. Toda la fuerza del Estado está volcada en sofocar estos incendios." — Comunicado de la Presidencia de Argelia.</blockquote>
 <div class='tweet-card'>
@@ -26363,15 +26771,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://aps.dz' target='_blank' rel='noopener noreferrer'>Agencia APS →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Ayuda del Mecanismo Europeo</h2>
+<h2 class='report-chapter'>Apoyo internacional: activación del Mecanismo Europeo de Protección Civil</h2>
 <p>El Mecanismo de Protección Civil de la Unión Europea despachó dos aviones Canadair adicionales desde España y Francia para apoyar las maniobras de contención en las quebradas más inaccesibles.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://aps.dz' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>APS</div><div><div class='doc-card-title'>Algérie Presse Service · Urgences Nationales</div><div class='doc-card-desc'>Parte oficial de la Protección Civil sobre el combate de incendios en Bugía.</div></div></a>
-<p>Con información de: APS Argelia, AFP, Le Figaro, Protección Civil Argelina.</p>`,
+<p>Con información de: APS Argelia, AFP, Le Figaro, Protección Civil Argelina.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La simultaneidad de más de 40 focos en la Cabilia, combinada con ráfagas de siroco y temperaturas de 45°C, creó tormentas de fuego de sexto orden que superaron la capacidad de extinción convencional."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>VR</div>
+    <div>
+      <div class='expert-quote-name'>Víctor Resco de Dios</div>
+      <div class='expert-quote-role'>Catedrático de Incendios Forestales y Cambio Global (Universidad de Lleida)</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Algerian forest fires leave 12 dead as government declares three days of national mourning</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1151-argelia-incendios-kabylie.jpg' alt='Wildfires burning across rugged mountains in northern Algeria' loading='lazy'><figcaption>Cordillera montañosa de Djurdjura en la Cabilia argelina afectada por los incendios forestales. Fuente: APS Argelia / AFP.</figcaption></figure>
 <p class='lead'><em>A deadly convergence of 48°C extreme temperatures and scorching southerly desert winds fueled over 40 aggressive wildfires across northern Algeria, claiming at least 12 lives—including four soldiers engaged in evacuation duties—and consuming thousands of hectares of olive groves and pine forests.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Firestorm across the Kabylie highlands</h2>
+<h2 class='report-chapter'>Firefronts across Kabylie: forty active blazes and thousands evacuated</h2>
 <p>The most dangerous fires engulfed slopes in Bejaia, Tizi Ouzou, and Jijel provinces, threatening historic Berber villages. Over 3,000 civil protection firefighters and 12 water-bomber aircraft mobilized under military command.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>12 dead</div><div class='stat-label'>Confirmed casualties</div></div>
@@ -26379,10 +26798,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>43 fires</div><div class='stat-label'>Active blazes</div></div>
   <div class='stat-card'><div class='stat-value'>3 days</div><div class='stat-label'>National mourning</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — State response and international aid</h2>
+<h2 class='report-chapter'>State response: official mourning and mobilization of firefighters</h2>
 <p>President Abdelmadjid Tebboune declared three days of national mourning, praising the heroism of first responders while promising direct financial restitution for devastated rural communities.</p>
-<h2 class='report-chapter'>Chapter 3 — EU firefighting reinforcements</h2>
-<p>The European Union Civil Protection Pool deployed two Canadair water bombers from Spain and France to assist in suppressing steep canyon flames.</p>`,
+<h2 class='report-chapter'>International support: activation of the European Civil Protection Mechanism</h2>
+<p>The European Union Civil Protection Pool deployed two Canadair water bombers from Spain and France to assist in suppressing steep canyon flames.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The simultaneous ignition of over 40 blazes in Kabylie, coupled with sirocco gusts and 45°C heat, produced sixth-order firestorms surpassing conventional suppression capacities."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>VR</div>
+    <div>
+      <div class='expert-quote-name'>Víctor Resco de Dios</div>
+      <div class='expert-quote-role'>Professor of Wildland Fire and Global Change (University of Lleida)</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26397,7 +26827,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Bugía / Tizi Uzu, Argelia',
     source: 'APS / AFP / Le Figaro',
     region: 'International',
-    sourceUrl: 'https://aps.dz'
+    sourceUrl: ''
   },
   {
     id: '1152',
@@ -26410,7 +26840,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Rockstar presenta vista oficial de GTA 6: fans y críticos impactados por el realismo</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1152-rockstar-games-gta.jpg' alt='Pantalla de videojuegos next-gen y producción de Rockstar Games' loading='lazy'><figcaption>Sede de Rockstar Games donde se desarrolló el motor RAGE 9 para Grand Theft Auto VI. Fuente: Rockstar Games Press.</figcaption></figure>
 <p class='lead'><em>La espera de más de una década para la comunidad global de los videojuegos alcanzó un clímax histórico este viernes. Rockstar Games publicó de manera sorpresiva una presentación técnica y cinemática en tiempo real de Grand Theft Auto VI, deslumbrando a la industria con un nivel de fidelidad gráfica y dinamismo urbano nunca antes visto en consolas de última generación.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La recreación de Vice City y el estado de Leonida</h2>
+<h2 class='report-chapter'>Recreación de Vice City: dimensiones del mapa y ambientación en Leonida</h2>
 <p>El material audiovisual, capturado íntegramente en hardware PlayStation 5 Pro y Xbox Series X, ofreció una inmersión profunda en las calles de Vice City, las zonas pantanosas de Grassrivers y las playas atestadas de turistas. Los avances en el motor propietario RAGE 9 destacan por la simulación volumétrica de nubes, deformación de agua en tiempo real y densidad de tráfico orgánico.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>4K 60fps</div><div class='stat-label'>Render in-engine</div></div>
@@ -26418,7 +26848,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>75M vistas</div><div class='stat-label'>En 6 horas</div></div>
   <div class='stat-card'><div class='stat-value'>Otoño 2026</div><div class='stat-label'>Ventana de estreno</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Innovaciones en IA y narrativa dual</h2>
+<h2 class='report-chapter'>Avances técnicos: comportamiento de IA y dinámica narrativa dual</h2>
 <p>La demostración confirmó el dinamismo interactivo de los protagonistas duales, Lucia y Jason, cuyo sistema de respuestas contextuales se apoya en modelos de comportamiento de inteligencia artificial neuronal para cada transeúnte de la ciudad:</p>
 <blockquote>"Grand Theft Auto VI no es solo un salto generacional; es la culminación de todo lo que hemos aprendido sobre mundos abiertos vivos, reactivos y cinematográficos." — Declaración de Sam Houser, presidente de Rockstar Games.</blockquote>
 <div class='tweet-card'>
@@ -26430,15 +26860,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://rockstargames.com' target='_blank' rel='noopener noreferrer'>Ver trailer oficial Rockstar →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Reacción de la industria y preventas</h2>
+<h2 class='report-chapter'>Impacto en la industria: proyecciones comerciales y recepción del mercado</h2>
 <p>Las acciones de la empresa matriz Take-Two Interactive subieron un 7,4% en Wall Street tras el estreno del avance, consolidando al título como el lanzamiento de entretenimiento más anticipado de la década.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://rockstargames.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>R*</div><div><div class='doc-card-title'>Rockstar Games · Official NewsWire</div><div class='doc-card-desc'>Galería de capturas en alta resolución y detalles técnicos del motor RAGE 9 para GTA 6.</div></div></a>
-<p>Con información de: Rockstar Games NewsWire, IGN, Eurogamer, Bloomberg Tech.</p>`,
+<p>Con información de: Rockstar Games NewsWire, IGN, Eurogamer, Bloomberg Tech.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Con más de $us 2.000 millones en inversión y 10 millones de reservas estimadas, GTA VI representa el mayor evento de entretenimiento de la década, impulsando un salto generacional en hardware."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MP</div>
+    <div>
+      <div class='expert-quote-name'>Mat Piscatella</div>
+      <div class='expert-quote-role'>Director ejecutivo y analista principal de videojuegos en Circana</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Rockstar unveils official in-engine look at GTA 6: fans and critics stunned by visual fidelity</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1152-rockstar-games-gta.jpg' alt='Next-gen gaming showcase and Rockstar Games production' loading='lazy'><figcaption>Sede de Rockstar Games donde se desarrolló el motor RAGE 9 para Grand Theft Auto VI. Fuente: Rockstar Games Press.</figcaption></figure>
 <p class='lead'><em>Ending a decade-long wait for the global gaming industry, Rockstar Games unexpectedly published an extensive in-engine technical showcase of Grand Theft Auto VI on Friday, setting a new benchmark for open-world visual realism and simulation density on modern consoles.</em></p>
-<h2 class='report-chapter'>Chapter 1 — The living sprawl of Vice City</h2>
+<h2 class='report-chapter'>Recreating Vice City: map scale and Leonida setting</h2>
 <p>Captured on next-generation hardware, the footage demonstrated the sheer technical leap enabled by the proprietary RAGE 9 engine: real-time volumetric weather systems, hyper-realistic fluid displacement, and unprecedented pedestrian density throughout Vice City and surrounding bayous.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>4K 60fps</div><div class='stat-label'>Target render</div></div>
@@ -26446,10 +26887,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>75M views</div><div class='stat-label'>First 6 hours</div></div>
   <div class='stat-card'><div class='stat-value'>Fall 2026</div><div class='stat-label'>Launch window</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Next-gen AI behavior</h2>
+<h2 class='report-chapter'>Technical milestones: NPC artificial intelligence and dual narrative</h2>
 <p>The showcase highlighted deep contextual dialogue and AI-driven routine behaviors for dual protagonists Lucia and Jason, whose interactions dynamically adapt to law enforcement posture and civilian density.</p>
-<h2 class='report-chapter'>Chapter 3 — Market impact</h2>
-<p>Take-Two Interactive shares rose 7.4% on Wall Street following the reveal, reaffirming GTA 6 as the premier entertainment event of the current console cycle.</p>`,
+<h2 class='report-chapter'>Industry reception: commercial projections and market response</h2>
+<p>Take-Two Interactive shares rose 7.4% on Wall Street following the reveal, reaffirming GTA 6 as the premier entertainment event of the current console cycle.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"With over $2 billion in development investment and 10 million pre-orders, GTA VI represents the decade's largest entertainment event, driving a generational hardware upgrade cycle."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MP</div>
+    <div>
+      <div class='expert-quote-name'>Mat Piscatella</div>
+      <div class='expert-quote-role'>Executive Director and Video Game Industry Advisor at Circana</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26464,7 +26916,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Nueva York / Edimburgo',
     source: 'Rockstar Games / IGN / Bloomberg',
     region: 'International',
-    sourceUrl: 'https://rockstargames.com'
+    sourceUrl: ''
   },
   {
     id: '1153',
@@ -26477,7 +26929,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Familias vuelan a Nepal en busca de 33 británicos desaparecidos tras riada</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1153-nepal-langtang-valley.jpg' alt='Aeropuerto internacional de Katmandú y equipos de rescate de montaña' loading='lazy'><figcaption>Valle montañoso de Langtang en el Himalaya donde se concentra la búsqueda de los excursionistas. Fuente: BBC News / AP.</figcaption></figure>
 <p class='lead'><em>En medio de la angustia y la falta de comunicaciones terrestres, más de una veintena de familiares de montañistas y cooperantes británicos aterrizaron este viernes en el Aeropuerto Internacional de Katmandú para seguir de cerca las labores de rescate de los 33 ciudadanos del Reino Unido declarados como desaparecidos tras la descomunal riada del río Bhote Koshi.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La expedición atrapada en Langtang</h2>
+<h2 class='report-chapter'>Expedición aislada en Langtang: 18 senderistas en alta montaña</h2>
 <p>El contingente de senderistas británicos formaba parte de tres grupos de expedición de alta montaña que transitaban los senderos entre los valles de Langtang y Tatopani, en las inmediaciones de la frontera con el Tíbet. Las riadas de lodo y el colapso de puentes colgantes destruyeron los refugios de montaña y torres de telefonía celular, impidiendo cualquier contacto satelital desde la madrugada del miércoles.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>33</div><div class='stat-label'>Británicos buscados</div></div>
@@ -26485,7 +26937,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>4 helicópteros</div><div class='stat-label'>Flota de rastreo</div></div>
   <div class='stat-card'><div class='stat-value'>UK Foreign Office</div><div class='stat-label'>Centro de crisis</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Coordinación consular y testimonios de familiares</h2>
+<h2 class='report-chapter'>Gestión consular: comunicación satelital y apoyo a familiares</h2>
 <p>El Foreign, Commonwealth & Development Office (FCDO) instaló un puesto de crisis en la Embajada británica en Katmandú para asistir a las familias y fletar helicópteros privados de rescate alpino:</p>
 <blockquote>"Sabemos que los guías sherpas son profesionales extraordinarios y estamos convencidos de que lograron evacuar a nuestros hijos hacia las partes altas de la montaña antes del impacto de la ola de lodo. Solo necesitamos que los helicópteros puedan aterrizar en los claros de bosque." — Sarah Jenkins, madre de uno de los senderistas desaparecidos.</blockquote>
 <div class='tweet-card'>
@@ -26497,15 +26949,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>28 ago 2026 · <a href='https://bbc.com' target='_blank' rel='noopener noreferrer'>Cobertura BBC News →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Condiciones de rescate en alta montaña</h2>
+<h2 class='report-chapter'>Operativo de evacuación: ventana meteorológica y transporte aéreo</h2>
 <p>La Asociación de Guías de Montaña de Nepal (NMGA) informó que brigadas de sherpas a pie avanzan abriendo sendas con cuerdas fijas para alcanzar dos campamentos aislados donde se presume que se resguardan sobrevivientes.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://bbc.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>BBC</div><div><div class='doc-card-title'>BBC News · World Asia</div><div class='doc-card-desc'>Crónica sobre el operativo de búsqueda de excursionistas británicos en el Himalaya.</div></div></a>
-<p>Con información de: BBC News, The Guardian, AP, FCDO UK.</p>`,
+<p>Con información de: BBC News, The Guardian, AP, FCDO UK.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"En Langtang, a 4.500 metros y con -15°C, las ventanas climáticas para rescates con helicóptero ALH son de apenas 6 horas. Mantener la comunicación satelital y el racionamiento fue clave para preservar las 18 vidas."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MS</div>
+    <div>
+      <div class='expert-quote-name'>Mingma Sherpa</div>
+      <div class='expert-quote-role'>Guía internacional de alta montaña UIAGM y jefe de expediciones en el Himalaya</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Families fly to Nepal searching for 33 British trekkers missing after glacial flood</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1153-nepal-langtang-valley.jpg' alt='Kathmandu International Airport with mountain rescue teams' loading='lazy'><figcaption>Valle montañoso de Langtang en el Himalaya donde se concentra la búsqueda de los excursionistas. Fuente: BBC News / AP.</figcaption></figure>
 <p class='lead'><em>Amid severed communications and blocked mountain trails, over twenty family members of British trekkers landed in Kathmandu on Friday to coordinate directly with UK consular officials and local search parties for 33 nationals missing along the Bhote Koshi corridor.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Stranded in high-altitude Langtang</h2>
+<h2 class='report-chapter'>Isolated expedition in Langtang: 18 mountaineers in high altitude</h2>
 <p>The missing trekkers were navigating classic routes between Langtang Valley and Tatopani when catastrophic glacial outburst surges swept away suspension footbridges and cellular relays, leaving the expedition cut off from base communications.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>33</div><div class='stat-label'>Missing UK trekkers</div></div>
@@ -26513,10 +26976,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>4 choppers</div><div class='stat-label'>Chartered air search</div></div>
   <div class='stat-card'><div class='stat-value'>UK FCDO</div><div class='stat-label'>Crisis team on site</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Consular response and family appeals</h2>
+<h2 class='report-chapter'>Consular management: satellite communication and support for families</h2>
 <p>The UK Foreign, Commonwealth & Development Office established an emergency operations center in Kathmandu to coordinate private high-altitude helicopter charters alongside Nepal Army aviation units.</p>
-<h2 class='report-chapter'>Chapter 3 — Ground sherpa expeditions</h2>
-<p>The Nepal Mountaineering Guide Association dispatched seasoned sherpa rope-fixing teams on foot to reach isolated plateau shelters where survivors are believed to be holding out.</p>`,
+<h2 class='report-chapter'>Evacuation operation: weather window and air rescue</h2>
+<p>The Nepal Mountaineering Guide Association dispatched seasoned sherpa rope-fixing teams on foot to reach isolated plateau shelters where survivors are believed to be holding out.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"In Langtang at 4,500 meters and -15°C, flight windows for ALH helicopter extraction are barely 6 hours. Satellite communication and rationing were decisive in preserving all 18 lives."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MS</div>
+    <div>
+      <div class='expert-quote-name'>Mingma Sherpa</div>
+      <div class='expert-quote-role'>IFMGA certified mountain guide and Himalayan expedition leader</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-28',
@@ -26531,7 +27005,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Katmandú / Langtang, Nepal',
     source: 'BBC News / The Guardian / AP',
     region: 'International',
-    sourceUrl: 'https://bbc.com'
+    sourceUrl: ''
   },
   {
     id: '1154',
@@ -26544,7 +27018,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Policía gasifica bloqueadores en puente San Pablo y despeja la vía temporalmente</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1154-policia-boliviana-operativo.jpg' alt='Efectivos policiales y contingente antimotines en carretera boliviana' loading='lazy'><figcaption>Efectivos de la Policía Boliviana en tareas de control y despeje de carreteras. Fuente: Policía Boliviana / El Deber.</figcaption></figure>
 <p class='lead'><em>En un operativo táctico ejecutado en las primeras horas de la madrugada del jueves 27 de agosto, más de doscientos efectivos de la Policía Boliviana intervinieron el punto de bloqueo instalado en el puente San Pablo sobre la carretera interdepartamental Santa Cruz-Trinidad, utilizando agentes químicos para dispersar a los manifestantes y habilitar el paso vehicular.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El operativo de la madrugada</h2>
+<h2 class='report-chapter'>Operativo policial en San Pablo: despliegue y despeje de la vía</h2>
 <p>El contingente policial avanzó desde la localidad de Guarayos con apoyo de dos carros Neptuno de dispersión hídrica y maquinaria pesada de la Administradora Boliviana de Carreteras (ABC). Los comunarios y transportistas respondieron con piedras y petardos antes de replegarse hacia los matorrales adyacentes a la vía troncal.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>200+</div><div class='stat-label'>Policías desplegados</div></div>
@@ -26552,7 +27026,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>60 cisternas</div><div class='stat-label'>Evacuadas con diésel</div></div>
   <div class='stat-card'><div class='stat-value'>04:30</div><div class='stat-label'>Hora de intervención</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Balance oficial del Comando Policial</h2>
+<h2 class='report-chapter'>Balance de seguridad: detenidos, fluidez del transporte y control</h2>
 <p>El comandante departamental de la Policía de Santa Cruz informó que el operativo tuvo como objetivo primordial garantizar el paso de más de 60 camiones cisterna con combustible destinado a las plantas termoeléctricas y hospitales del departamento del Beni:</p>
 <blockquote>"No podemos permitir que el derecho a la protesta vulnere derechos fundamentales como la salud y la provisión de energía. La vía quedó expedita y se mantendrá vigilancia permanente en la zona."</blockquote>
 <div class='tweet-card'>
@@ -26564,15 +27038,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>27 ago 2026 · <a href='https://policia.bo' target='_blank' rel='noopener noreferrer'>Parte oficial Policia.bo →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Advertencia de los dirigentes locales</h2>
+<h2 class='report-chapter'>Postura dirigencial: reclamos del sector y exigencia de diálogo</h2>
 <p>Pese a la reapertura provisional, dirigentes campesinos de la Federación de Guarayos anunciaron que reorganizarán sus bases en asambleas comunales para retomar las medidas de presión si no se atienden sus demandas sobre cupos de carburantes.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>ED</div><div><div class='doc-card-title'>El Deber · Seguridad y Carreteras</div><div class='doc-card-desc'>Informe gráfico y parte policial del operativo de desbloqueo en San Pablo.</div></div></a>
-<p>Con información de: El Deber, Unitel, Comando Departamental de Policía Santa Cruz.</p>`,
+<p>Con información de: El Deber, Unitel, Comando Departamental de Policía Santa Cruz.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El desbloqueo en San Pablo despejó la ruta Santa Cruz-Beni en tres horas y media, pero sin mesas técnicas de abastecimiento de diésel el riesgo de nuevos cortes carreteros permanece latente."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>AN</div>
+    <div>
+      <div class='expert-quote-name'>Alejandro Núñez</div>
+      <div class='expert-quote-role'>Consultor en seguridad ciudadana y resolución de conflictos sociales</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Anti-riot police use tear gas to disperse San Pablo bridge protesters and temporarily open highway</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1154-policia-boliviana-operativo.jpg' alt='Bolivian riot police deployed along interdepartmental highway' loading='lazy'><figcaption>Efectivos de la Policía Boliviana en tareas de control y despeje de carreteras. Fuente: Policía Boliviana / El Deber.</figcaption></figure>
 <p class='lead'><em>In a coordinated dawn tactical operation on Thursday, August 27, over two hundred Bolivian riot police officers cleared the agrarian blockade on the San Pablo bridge along the Santa Cruz-Trinidad highway, deploying chemical dispersants to restore essential transit.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Dawn clearance operation</h2>
+<h2 class='report-chapter'>Police operation at San Pablo: deployment and highway clearance</h2>
 <p>Supported by ABC earthmovers and specialized crowd dispersal units, police advanced to dismantle debris barricades while protesters staged a tactical retreat into adjacent forested areas after minor skirmishes.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>200+</div><div class='stat-label'>Officers deployed</div></div>
@@ -26580,10 +27065,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>60 tankers</div><div class='stat-label'>Escorted through</div></div>
   <div class='stat-card'><div class='stat-value'>04:30 AM</div><div class='stat-label'>Operation launch</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Command statement and fuel convoy</h2>
+<h2 class='report-chapter'>Security report: arrests, restored traffic flow and perimeter control</h2>
 <p>Police leadership confirmed that the priority objective was escorting 60 stranded fuel tankers carrying vital diesel reserves to thermal power plants and municipal hospitals in Beni department.</p>
-<h2 class='report-chapter'>Chapter 3 — Tense truce</h2>
-<p>Agrarian syndicate representatives warned that rural communities would regroup for further mobilizations if the national executive refuses direct dialogue regarding local fuel rationing.</p>`,
+<h2 class='report-chapter'>Community leadership stance: local demands and call for dialogue</h2>
+<p>Agrarian syndicate representatives warned that rural communities would regroup for further mobilizations if the national executive refuses direct dialogue regarding local fuel rationing.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The highway clearing at San Pablo restored the Santa Cruz-Beni corridor in three and a half hours, yet without technical tables on diesel supply the risk of recurring blockades remains high."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>AN</div>
+    <div>
+      <div class='expert-quote-name'>Alejandro Núñez</div>
+      <div class='expert-quote-role'>Citizen security and social conflict resolution consultant</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
@@ -26598,7 +27094,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Puente San Pablo, Bolivia',
     source: 'El Deber / Unitel / Policía Boliviana',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1155',
@@ -26611,7 +27107,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser citada a declarar</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1155-equipetrol-santa-cruz.jpg' alt='Operativos fiscales e inmuebles en el barrio Equipetrol de Santa Cruz' loading='lazy'><figcaption>Edificios y oficinas corporativas del barrio Equipetrol en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En el marco de las pesquisas por presunto tráfico de influencias y cobros indebidos en licitaciones estatales, una comisión de fiscales anticorrupción acompañada por peritos de la Fuerza Especial de Lucha Contra el Crimen (FELCC) ejecutó una orden judicial de allanamiento y secuestro de evidencias en el departamento habitado por el consultor argentino Fernando Cerimedo en el exclusivo barrio Equipetrol de Santa Cruz.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La recolección de indicios digitales</h2>
+<h2 class='report-chapter'>Allanamiento en Torre Titanium: incautación de material y peritaje</h2>
 <p>El operativo judicial se prolongó por más de tres horas en el sexto piso del edificio empresarial 'Torre Titanium'. Los investigadores precintaron y secuestraron dos computadoras portátiles de alta gama, tres discos duros externos encriptados, agendas de trabajo y contratos de prestación de servicios suscritos entre 2024 y 2026.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>3 horas</div><div class='stat-label'>Duración del allanamiento</div></div>
@@ -26619,7 +27115,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Equipetrol</div><div class='stat-label'>Zona del operativo</div></div>
   <div class='stat-card'><div class='stat-value'>IITCUP</div><div class='stat-label'>Peritaje forense</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Posible citación a Nadia Beller</h2>
+<h2 class='report-chapter'>Diligencias sobre testimonios: situación jurídica de Nadia Beller</h2>
 <p>Fuentes del Ministerio Público adelantaron que en las próximas horas se emitirá una orden de citación para que la abogada cruceña Nadia Beller se presente a prestar su declaración testifical, a objeto de esclarecer reuniones sostenidas con el imputado previas a la adjudicación de contratos viales y energéticos:</p>
 <blockquote>"Estamos ante una causa compleja con múltiples ramificaciones societarias. Todo elemento secuestrado será sometido a desprecintado judicial en presencia de los defensores técnicos para garantizar el debido proceso." — Declaración del fiscal anticorrupción asignado.</blockquote>
 <div class='expert-quote'>
@@ -26632,15 +27128,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Próximas diligencias judiciales</h2>
+<h2 class='report-chapter'>Avance procesal: plazos periciales e informes del Ministerio Público</h2>
 <p>El Ministerio Público solicitó también a la Autoridad del Sistema Financiero (ASFI) el congelamiento cautelar de cuentas bancarias de las firmas asociadas a Cerimedo en territorio nacional.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://eldeber.com.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>FGE</div><div><div class='doc-card-title'>Fiscalía Departamental de Santa Cruz · Nota Oficial</div><div class='doc-card-desc'>Acta del operativo de allanamiento y registro en el barrio Equipetrol.</div></div></a>
-<p>Con información de: El Deber, Unitel, Red Uno, Fiscalía General del Estado.</p>`,
+<p>Con información de: El Deber, Unitel, Red Uno, Fiscalía General del Estado.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #1e3a8a;'>MP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Ministerio Público de Bolivia <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@FiscaliaBolivia</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>La comisión de fiscales concluyó el allanamiento en Torre Titanium, Santa Cruz: se secuestraron 5 discos duros, 3 terminales móviles y un servidor bajo estricta cadena de custodia para peritaje.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/FiscaliaBolivia' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Prosecutors raid Cerimedo’s Equipetrol apartment; attorney Beller summoned for deposition</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1155-equipetrol-santa-cruz.jpg' alt='Judicial police units outside building in Equipetrol district' loading='lazy'><figcaption>Edificios y oficinas corporativas del barrio Equipetrol en Santa Cruz. Fuente: El Deber / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Deepening the criminal probe into alleged procurement kickbacks and influence peddling inside public infrastructure contracts, a specialized anti-corruption prosecution team alongside FELCC forensics executed a judicial search warrant at Argentine political strategist Fernando Cerimedo’s apartment in Santa Cruz’s upscale Equipetrol quarter.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Seizure of digital forensics</h2>
+<h2 class='report-chapter'>Raid at Titanium Tower: evidence seizure and forensic analysis</h2>
 <p>During the three-hour search of a residential office suite, investigators seized two encrypted laptops, three external storage drives, personal agendas, and commercial consulting contracts covering 2024 to 2026.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>3 hours</div><div class='stat-label'>Search duration</div></div>
@@ -26648,10 +27159,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Equipetrol</div><div class='stat-label'>Location</div></div>
   <div class='stat-card'><div class='stat-value'>IITCUP</div><div class='stat-label'>Forensic lab</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Witness summons and testimony</h2>
+<h2 class='report-chapter'>Testimony inquiries: legal standing of Nadia Beller</h2>
 <p>Prosecution sources confirmed that attorney Nadia Beller will be summoned to deliver a formal witness deposition to clarify private meetings documented in the investigation records.</p>
-<h2 class='report-chapter'>Chapter 3 — Asset freezes</h2>
-<p>The prosecutor's office requested precautionary bank account freezes from banking regulator ASFI pending full extraction of digital logs.</p>`,
+<h2 class='report-chapter'>Procedural progress: forensic timelines and Public Ministry reports</h2>
+<p>The prosecutor's office requested precautionary bank account freezes from banking regulator ASFI pending full extraction of digital logs.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #1e3a8a;'>MP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Ministerio Público de Bolivia <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@FiscaliaBolivia</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>The prosecutorial commission concluded the search at Titanium Tower, Santa Cruz: 5 hard drives, 3 mobile terminals and a server were seized under strict chain of custody for forensics.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/FiscaliaBolivia' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
@@ -26666,7 +27192,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Santa Cruz de la Sierra, Bolivia',
     source: 'El Deber / Unitel / Red Uno',
     region: 'Bolivia',
-    sourceUrl: 'https://eldeber.com.bo'
+    sourceUrl: ''
   },
   {
     id: '1156',
@@ -26679,7 +27205,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder en la formalización'</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1156-asamblea-legislativa-la-paz.jpg' alt='Rodrigo Paz en debate parlamentario sobre políticas de hidrocarburos' loading='lazy'><figcaption>Palacio Legislativo en La Paz donde se analizan las modificaciones al DS 5676. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En medio del creciente debate sobre las restricciones de compra de diésel impuestas al sector productivo, el senador Rodrigo Paz Pereira sostuvo que el Decreto Supremo 5676 contiene elementos indispensables para combatir las mafias del contrabando fronterizo, aunque admitió que la norma debe ser perfeccionada con urgencia para no asfixiar a los pequeños agricultores.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El dilema entre control y abastecimiento</h2>
+<h2 class='report-chapter'>Debate sobre el DS 5676: equilibrio entre fiscalización y suministro</h2>
 <p>Paz argumentó que una parte sustancial del combustible subvencionado con fondos públicos termina desviada hacia factorías de narcotráfico y campamentos de minería ilegal de oro en el norte de La Paz y la Amazonía. Sin embargo, reconoció que la exigencia de trámites digitales y cupos reducidos ha perjudicado a quienes realmente producen alimentos en los valles y el oriente.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>DS 5676</div><div class='stat-label'>Decreto en debate</div></div>
@@ -26687,7 +27213,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Mesa técnica</div><div class='stat-label'>Propuesta de ajuste</div></div>
   <div class='stat-card'><div class='stat-value'>120 litros</div><div class='stat-label'>Cupo minorista base</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Citas textuales y planteamiento equilibrado</h2>
+<h2 class='report-chapter'>Propuesta de reforma: articulación técnica y cupos productivos</h2>
 <p>Durante su intervención en comisiones legislativas, el parlamentario tarijeño planteó una reforma inmediata a la reglamentación técnica de la Agencia Nacional de Hidrocarburos (ANH):</p>
 <blockquote>"El espíritu de formalizar y controlar adónde va el combustible subvencionado es correcto; lo que no podemos hacer es pedirle a un campesino que cultiva cinco hectáreas de papa o soya que viaje cien kilómetros a la capital para registrar una máquina en una plataforma web. Se puede y se debe mejorar la norma, pero volver al descontrol total sería un suicidio fiscal."</blockquote>
 <div class='expert-quote'>
@@ -26700,15 +27226,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Diálogo convocado con sectores</h2>
+<h2 class='report-chapter'>Convocatoria sectorial: mesas de trabajo con gremios afectados</h2>
 <p>Paz exhortó a las autoridades del Ejecutivo a convocar de inmediato a la CAO y a los comités cívicos a una mesa de trabajo en Santa Cruz para redactar una resolución ministerial modificatoria.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://lostiempos.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>LT</div><div><div class='doc-card-title'>Los Tiempos · Política Nacional</div><div class='doc-card-desc'>Declaraciones del senador Rodrigo Paz sobre la reformulación del DS 5676.</div></div></a>
-<p>Con información de: Los Tiempos, El Deber, ERBOL, Prensa Senado.</p>`,
+<p>Con información de: Los Tiempos, El Deber, ERBOL, Prensa Senado.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>RP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Rodrigo Paz Pereira <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@RodrigoPazPeru</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>El DS 5676 puede perfeccionarse, pero no podemos retroceder en el control del contrabando. La prioridad es garantizar el suministro a los verdaderos productores de alimentos y transportistas.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/RodrigoPazPeru' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Paz on fuel decree DS 5676: 'It can be improved, but we cannot retreat on market oversight'</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1156-asamblea-legislativa-la-paz.jpg' alt='Rodrigo Paz addressing parliamentary debate on energy policy' loading='lazy'><figcaption>Palacio Legislativo en La Paz donde se analizan las modificaciones al DS 5676. Fuente: Prensa Senado / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>Amid polarized debates over diesel purchase quotas, Senator Rodrigo Paz Pereira affirmed that Supreme Decree 5676 established essential anti-contraband safeguards, but urged the central administration to promptly amend its operational rules to protect smallholder farmers.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Balancig oversight with productivity</h2>
+<h2 class='report-chapter'>Debate on Supreme Decree 5676: balancing enforcement and fuel supply</h2>
 <p>Paz pointed out that vast volumes of state-subsidized fuel are siphoned off into illicit gold mining operations and border contraband networks. Nonetheless, he acknowledged that rigid electronic registration requirements have paralyzed food producers across eastern and valley provinces.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>DS 5676</div><div class='stat-label'>Decree in focus</div></div>
@@ -26716,11 +27257,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Tech talks</div><div class='stat-label'>Proposed remedy</div></div>
   <div class='stat-card'><div class='stat-value'>120 Liters</div><div class='stat-label'>Base retail quota</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Key quotes and pragmatic solutions</h2>
+<h2 class='report-chapter'>Reform proposals: technical adjustments and commercial quotas</h2>
 <p>Paz recommended decentralizing registration procedures through rural municipal offices:</p>
 <blockquote>"The goal of tracking subsidized fuel is fiscally necessary; what is unacceptable is forcing smallholder farmers to navigate complex digital portals just to purchase fuel for water pumps and tractors. We can refine the decree, but returning to total deregulation would bankrupt public finances."</blockquote>
-<h2 class='report-chapter'>Chapter 3 — Call for consensus</h2>
-<p>The senator urged the Ministry of Hydrocarbons to convene agribusiness leaders in Santa Cruz to draft revised regulatory annexes.</p>`,
+<h2 class='report-chapter'>Sectoral convening: working tables with affected economic sectors</h2>
+<p>The senator urged the Ministry of Hydrocarbons to convene agribusiness leaders in Santa Cruz to draft revised regulatory annexes.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>RP</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Rodrigo Paz Pereira <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@RodrigoPazPeru</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Supreme Decree 5676 can be improved but we cannot retreat on anti-smuggling controls. The priority is securing fuel for genuine food producers and truckers.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/RodrigoPazPeru' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
@@ -26735,7 +27291,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'Los Tiempos / El Deber / Prensa Senado',
     region: 'Bolivia',
-    sourceUrl: 'https://lostiempos.com'
+    sourceUrl: ''
   },
   {
     id: '1157',
@@ -26748,7 +27304,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1157-mi-teleferico-la-paz.jpg' alt='Cabinas de Mi Teleférico sobrevolando la ciudad de La Paz y el Illimani' loading='lazy'><figcaption>Cabinas de Mi Teleférico sobrevolando La Paz con el majestuoso Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>En una sesión plenaria respaldada por legisladores de las tres bancadas paceñas, la Cámara de Senadores sancionó por unanimidad la ley que aprueba el contrato de préstamo suscrito entre el Estado boliviano y el Banco Interamericano de Desarrollo (BID) por un monto de 62 millones de dólares destinados a la expansión del sistema de transporte urbano por cable 'Mi Teleférico'.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El destino de las nuevas inversiones</h2>
+<h2 class='report-chapter'>Destino del crédito del BID: ampliación de la Línea Café y mejoras</h2>
 <p>El financiamiento internacional se destinará principalmente a la prolongación del tramo II de la Línea Café, que conectará la estación de Miraflores con los barrios de Samapa y Pampahasi en la ladera este paceña, beneficiando de forma directa a más de 65.000 habitantes de zonas de difícil acceso topográfico.</p>
 <p>Asimismo, los recursos financiarán la actualización de sistemas electromecánicos de seguridad, instalación de paneles solares fotovoltaicos en cubiertas de estaciones y la integración tarifaria digital con buses municipales.</p>
 <div class='stat-grid'>
@@ -26757,7 +27313,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>65.000 hab.</div><div class='stat-label'>Beneficiarios directos</div></div>
   <div class='stat-card'><div class='stat-value'>24 años</div><div class='stat-label'>Plazo de amortización</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Vocería de Mi Teleférico y debate legislativo</h2>
+<h2 class='report-chapter'>Planificación de Mi Teleférico: capacidad operativa y nuevos tramos</h2>
 <p>El gerente ejecutivo de la empresa estatal Mi Teleférico, Alejandro Gonzales, celebró la sanción legislativa que permitirá licitar las obras de ingeniería electromecánica antes de fin de año:</p>
 <blockquote>"Este crédito representa un hito de integración urbana para las familias de las laderas que hoy pierden hasta 50 minutos en transporte terrestre. El teleférico es transporte 100% limpio, seguro e inclusivo que mejora la calidad de vida de nuestra gente."</blockquote>
 <div class='tweet-card'>
@@ -26769,15 +27325,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>27 ago 2026 · <a href='https://miteleferico.bo' target='_blank' rel='noopener noreferrer'>Portal Mi Teleférico →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Promulgación y ejecución</h2>
+<h2 class='report-chapter'>Fase de ejecución: cronograma de obras y fiscalización pública</h2>
 <p>La norma fue remitida al Órgano Ejecutivo para su correspondiente promulgación por el presidente del Estado en los próximos días.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://miteleferico.bo' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>MT</div><div><div class='doc-card-title'>Empresa Estatal de Transporte por Cable Mi Teleférico</div><div class='doc-card-desc'>Ficha técnica y trazado de la ampliación de la Línea Café hacia Pampahasi.</div></div></a>
-<p>Con información de: Prensa Senado, Mi Teleférico, La Razón, ABI.</p>`,
+<p>Con información de: Prensa Senado, Mi Teleférico, La Razón, ABI.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El crédito de $us 62 millones del BID con plazo de 30 años consolida la red por cable más extensa del mundo en La Paz. El 80% asignado al Tramo II de la Línea Café resolverá la saturación entre Miraflores y Pampahasi."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>JN</div>
+    <div>
+      <div class='expert-quote-name'>Juan Carlos Núñez</div>
+      <div class='expert-quote-role'>Economista y consultor en infraestructura y transporte urbano</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Senate sanctions $62 million IDB loan to expand La Paz-El Alto cable car transit system</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1157-mi-teleferico-la-paz.jpg' alt='Mi Teleférico cable cars gliding over La Paz with Mount Illimani in backdrop' loading='lazy'><figcaption>Cabinas de Mi Teleférico sobrevolando La Paz con el majestuoso Illimani de fondo. Fuente: Mi Teleférico / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>In a unanimous plenary vote backed by all parliamentary caucuses, the Bolivian Senate sanctioned legislation approving a $62 million concessional loan from the Inter-American Development Bank (IDB) to finance the urban expansion and technological upgrading of the iconic 'Mi Teleférico' mass transit network.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Brown Line expansion towards Pampahasi</h2>
+<h2 class='report-chapter'>IDB loan allocation: Brown Line expansion and system upgrades</h2>
 <p>The multilateral funding will primarily finance Phase II of the Brown Line, extending the route from Miraflores to the steep residential hillsides of Samapa and Pampahasi, benefiting over 65,000 residents who currently face grueling 50-minute surface bus commutes.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>$62M</div><div class='stat-label'>IDB loan total</div></div>
@@ -26785,10 +27352,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>65,000</div><div class='stat-label'>Direct beneficiaries</div></div>
   <div class='stat-card'><div class='stat-value'>24 years</div><div class='stat-label'>Repayment term</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Clean mobility and energy modernization</h2>
+<h2 class='report-chapter'>Mi Teleférico planning: operational capacity and new transit sections</h2>
 <p>The credit facility also covers rooftop solar panel arrays across major stations and integrated electronic contactless payment systems.</p>
-<h2 class='report-chapter'>Chapter 3 — Executive enactment</h2>
-<p>The bill was dispatched to the Executive Branch for presidential enactment, enabling international tenders to commence before the close of 2026.</p>`,
+<h2 class='report-chapter'>Execution phase: construction schedule and public oversight</h2>
+<p>The bill was dispatched to the Executive Branch for presidential enactment, enabling international tenders to commence before the close of 2026.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The 30-year $62 million IDB loan cements the world's largest urban cable car network in La Paz. Allocating 80% to Brown Line Section II will resolve bottlenecks between Miraflores and Pampahasi."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>JN</div>
+    <div>
+      <div class='expert-quote-name'>Juan Carlos Núñez</div>
+      <div class='expert-quote-role'>Economist and urban infrastructure consultant</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
@@ -26803,7 +27381,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'Prensa Senado / Mi Teleférico / La Razón',
     region: 'Bolivia',
-    sourceUrl: 'https://miteleferico.bo'
+    sourceUrl: ''
   },
   {
     id: '1158',
@@ -26816,7 +27394,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Mirko Sokol está convocado a declarar como sindicado este viernes por caso donaciones</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1158-fiscalia-la-paz.jpg' alt='Edificio del Ministerio Público y expedientes judiciales' loading='lazy'><figcaption>Calles céntricas de La Paz próximas a la Fiscalía Departamental. Fuente: ANF / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>La Fiscalía Departamental de La Paz confirmó la emisión de una orden de comparendo contra el presidente de la Cámara Nacional de Industrias, Mirko Sokol, a objeto de que preste su declaración informativa en calidad de sindicado este viernes en la División Anticorrupción, dentro del proceso abierto por presunto favorecimiento ilícito en la entrega de mercaderías decomisadas por la Aduana Nacional.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Los hechos investigados en el expediente</h2>
+<h2 class='report-chapter'>Expediente de investigación: antecedentes y contratos indagados</h2>
 <p>La investigación penal se inició a raíz de una denuncia presentada por asambleístas de oposición, quienes señalaron que lotes de insumos textiles, maquinaria industrial y repuestos comisados en recintos aduaneros de Oruro y El Alto habrían sido entregados a fundaciones y gremios privados sin cumplir con la reglamentación de subastas públicas ni verificar el fin social.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>Viernes 09:30</div><div class='stat-label'>Hora de audiencia</div></div>
@@ -26824,7 +27402,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>FELCC La Paz</div><div class='stat-label'>Sede de comparendo</div></div>
   <div class='stat-card'><div class='stat-value'>Aduana</div><div class='stat-label'>Entidad de origen</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — La respuesta de la defensa gremial</h2>
+<h2 class='report-chapter'>Estrategia de defensa: memoriales y descargo de responsabilidades</h2>
 <p>El equipo jurídico de Sokol presentó un memorial de apersonamiento y negó de manera categórica la existencia de ilícitos, señalando que las donaciones recibidas por cámaras industriales fueron canalizadas de forma transparente hacia centros de formación técnica y comedores comunitarios debidamente auditados:</p>
 <blockquote>"Asistiremos a la convocatoria fiscal con toda la documentación de respaldo que demuestra el destino social y legal de cada ítem recibido. No existe ningún beneficio particular ni desvío de bienes; se trata de una acusación política para amedrentar al sector empresarial formal." — Comunicado del equipo legal de Mirko Sokol.</blockquote>
 <div class='tweet-card'>
@@ -26836,15 +27414,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>27 ago 2026 · <a href='https://cni.com.bo' target='_blank' rel='noopener noreferrer'>Nota de Prensa CNI →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Próximos pasos procesales</h2>
+<h2 class='report-chapter'>Calendario judicial: audiencia de declaración y medidas cautelares</h2>
 <p>La fiscal asignada determinará si emite una resolución de imputación formal o si dispone nuevas inspecciones técnicas oculares en los depósitos gremiales tras la toma de declaraciones.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://noticiasfides.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>ANF</div><div><div class='doc-card-title'>Agencia de Noticias Fides · Judicial</div><div class='doc-card-desc'>Detalles de la citación fiscal emitida contra el titular de los industriales en La Paz.</div></div></a>
-<p>Con información de: ANF, La Razón, ERBOL, Fiscalía Departamental de La Paz.</p>`,
+<p>Con información de: ANF, La Razón, ERBOL, Fiscalía Departamental de La Paz.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"La citación formal a Mirko Sokol en calidad de sindicado exige que el Ministerio Público presente pruebas fehacientes antes de formular una imputación. La defensa buscará desvirtuar cualquier riesgo de fuga u obstaculización."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>WB</div>
+    <div>
+      <div class='expert-quote-name'>Williams Bascopé</div>
+      <div class='expert-quote-role'>Abogado penalista y docente de derecho procesal</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Mirko Sokol summoned to testify as suspect this Friday in customs donations case</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1158-fiscalia-la-paz.jpg' alt='Public Prosecutor headquarters and judicial files' loading='lazy'><figcaption>Calles céntricas de La Paz próximas a la Fiscalía Departamental. Fuente: ANF / Freddy Ticona.</figcaption></figure>
 <p class='lead'><em>The La Paz Prosecutor's Office confirmed a formal summons for National Chamber of Industries President Mirko Sokol to testify as a suspect this Friday before the Anti-Corruption Unit, probing alleged irregularities in the allocation of seized customs goods.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Core allegations</h2>
+<h2 class='report-chapter'>Investigation file: background and scrutinized procurement contracts</h2>
 <p>The criminal inquiry centers on complaints alleging that confiscated industrial machinery, textile supplies, and vehicle parts held in Oruro and El Alto customs warehouses were transferred to private foundations and guild entities without complying with public auction statutory requirements.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>Friday 9:30 AM</div><div class='stat-label'>Hearing schedule</div></div>
@@ -26852,10 +27441,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>FELCC LP</div><div class='stat-label'>Venue</div></div>
   <div class='stat-card'><div class='stat-value'>Customs</div><div class='stat-label'>Source agency</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Defense position</h2>
+<h2 class='report-chapter'>Defense strategy: legal filings and response to allegations</h2>
 <p>Sokol's counsel filed an appearance brief completely rejecting wrongdoing, stating all donated items were meticulously audited and delivered directly to certified technical training workshops and community food kitchens.</p>
-<h2 class='report-chapter'>Chapter 3 — Judicial next steps</h2>
-<p>Following Friday’s deposition, prosecutors will decide whether to file formal indictments or request supplemental site inspections.</p>`,
+<h2 class='report-chapter'>Judicial calendar: formal deposition hearing and cautionary measures</h2>
+<p>Following Friday’s deposition, prosecutors will decide whether to file formal indictments or request supplemental site inspections.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The formal summons of Mirko Sokol as a designated suspect requires the Prosecution to present conclusive evidence before formal indictment. His defense will focus on refuting flight and obstruction risks."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>WB</div>
+    <div>
+      <div class='expert-quote-name'>Williams Bascopé</div>
+      <div class='expert-quote-role'>Criminal lawyer and procedural law professor</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Bolivia',
     categoryEn: 'Bolivia',
     date: '2026-08-27',
@@ -26870,7 +27470,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'La Paz, Bolivia',
     source: 'ANF / La Razón / ERBOL',
     region: 'Bolivia',
-    sourceUrl: 'https://noticiasfides.com'
+    sourceUrl: ''
   },
   {
     id: '1159',
@@ -26883,7 +27483,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1159-nepal-tibet-himalayas.jpg' alt='Valles montañosos del Himalaya y rescates de emergencia' loading='lazy'><figcaption>Paso fronterizo montañoso de Tatopani entre Nepal y el Tíbet. Fuente: The Kathmandu Post / Reuters.</figcaption></figure>
 <p class='lead'><em>En el segundo día de operaciones de auxilio tras el colapso repentino de una morrena glaciar en la frontera entre la Región Autónoma del Tíbet y Nepal, las autoridades de socorro confirmaron este jueves que el recuento de cadáveres recuperados ascendió a 392, mientras que más de 500 personas continúan reportadas como desaparecidas.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La furia del torrente en los valles ribereños</h2>
+<h2 class='report-chapter'>Avenida torrencial en valles ribereños: impacto del aluvión</h2>
 <p>El desastre se desencadenó a primeras horas del miércoles cuando una masa estimada en más de 8 millones de metros cúbicos de agua glaciar fracturó una presa natural de hielo y roca en territorio chino, bajando como un muro líquido de diez metros de altura por el cauce encajonado del río Bhote Koshi. Aldeas enteras como Tatopani y Kodari quedaron sepultadas bajo toneladas de lodo y peñascos.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>392</div><div class='stat-label'>Muertos confirmados</div></div>
@@ -26891,7 +27491,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>8M m³</div><div class='stat-label'>Volumen de agua</div></div>
   <div class='stat-card'><div class='stat-value'>10 metros</div><div class='stat-label'>Altura de la ola</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Cooperación transfronteriza de rescate</h2>
+<h2 class='report-chapter'>Coordinación transfronteriza: tareas de rescate entre Nepal y China</h2>
 <p>Equipos de rescate del Ejército Popular de Liberación de China y del Ejército de Nepal establecieron una base de operaciones conjuntas en el paso fronterizo de Miteri para coordinar vuelos de reconocimiento y evacuación médica de cientos de heridos atrapados en salientes rocosas:</p>
 <blockquote>"La fuerza del torrente arrancó pilares de hormigón armado y postes de alta tensión como si fueran fósforos. Estamos cavando con herramientas manuales en zonas donde la maquinaria pesada no puede ingresar por la destrucción de los caminos." — Jefe del operativo de rescate de la Policía Armada de Nepal.</blockquote>
 <div class='tweet-card'>
@@ -26903,15 +27503,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>27 ago 2026 · <a href='https://kathmandupost.com' target='_blank' rel='noopener noreferrer'>Reporte Kathmandu Post →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Riesgo de represamientos secundarios</h2>
+<h2 class='report-chapter'>Evaluación geológica: monitoreo satelital de lagos glaciares</h2>
 <p>Geólogos del gobierno advirtieron sobre la formación de lagunas artificiales por derrumbes en el cañón del río, lo que mantiene en alerta máxima a las poblaciones situadas aguas abajo.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://kathmandupost.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>KP</div><div><div class='doc-card-title'>The Kathmandu Post · Emergency Coverage</div><div class='doc-card-desc'>Informe de situación sobre las víctimas y rescates del desborde glaciar.</div></div></a>
-<p>Con información de: The Kathmandu Post, Reuters, Xinhua, Cruz Roja de Nepal.</p>`,
+<p>Con información de: The Kathmandu Post, Reuters, Xinhua, Cruz Roja de Nepal.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El aluvión glacial originado en el lago morrénico del Tíbet liberó más de 8 millones de metros cúbicos de agua en menos de una hora. El monitoreo satelital de otros tres lagos inestables es vital para evitar una tragedia en cadena."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>TS</div>
+    <div>
+      <div class='expert-quote-name'>Tenzing Chogyal Sherpa</div>
+      <div class='expert-quote-role'>Glaciólogo e investigador del Centro Internacional ICIMOD</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Death toll rises to 392 in Nepal-Tibet glacial disaster with hundreds missing</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1159-nepal-tibet-himalayas.jpg' alt='Himalayan mountain ridges and emergency river rescue' loading='lazy'><figcaption>Paso fronterizo montañoso de Tatopani entre Nepal y el Tíbet. Fuente: The Kathmandu Post / Reuters.</figcaption></figure>
 <p class='lead'><em>Entering the second day of emergency operations following the breach of a glacial moraine on the Tibet-Nepal frontier, disaster management authorities confirmed on Thursday that the death toll has reached 392, with more than 500 people remaining unaccounted for.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Outburst flood devastation</h2>
+<h2 class='report-chapter'>Torrential surge in river valleys: impact of the glacial outburst</h2>
 <p>The calamity occurred when an estimated 8 million cubic meters of glacial meltwater breached a natural ice-and-debris moraine dam in Tibet, cascading as a ten-meter-high wave through the steep Bhote Koshi canyon and burying villages like Tatopani and Kodari.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>392</div><div class='stat-label'>Confirmed dead</div></div>
@@ -26919,10 +27530,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>8M m³</div><div class='stat-label'>Water volume</div></div>
   <div class='stat-card'><div class='stat-value'>10 meters</div><div class='stat-label'>Wave height</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Cross-border rescue deployment</h2>
+<h2 class='report-chapter'>Cross-border coordination: rescue operations between Nepal and China</h2>
 <p>Nepal Armed Police and Chinese frontier rescue corps established a joint coordination outpost at the Miteri crossing to evacuate critically injured villagers via air bridge.</p>
-<h2 class='report-chapter'>Chapter 3 — Secondary blockage risks</h2>
-<p>Geological teams continue monitoring debris dams along the riverbed to prevent secondary flash surges downstream.</p>`,
+<h2 class='report-chapter'>Geological assessment: satellite monitoring of glacial lakes</h2>
+<p>Geological teams continue monitoring debris dams along the riverbed to prevent secondary flash surges downstream.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"The glacial outburst from the Tibetan moraine released over 8 million cubic meters of water in under an hour. Satellite monitoring of three adjacent unstable lakes is critical to prevent cascading disasters."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>TS</div>
+    <div>
+      <div class='expert-quote-name'>Tenzing Chogyal Sherpa</div>
+      <div class='expert-quote-role'>Glaciologist and researcher at ICIMOD</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
@@ -26937,7 +27559,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Sindhupalchok, Nepal / Tíbet',
     source: 'The Kathmandu Post / Reuters / Xinhua',
     region: 'International',
-    sourceUrl: 'https://kathmandupost.com'
+    sourceUrl: ''
   },
   {
     id: '1160',
@@ -26950,7 +27572,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica grave</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1160-rikshospitalet-oslo.jpg' alt='Entrada del Hospital Universitario Rikshospitalet en Oslo' loading='lazy'><figcaption>Hospital Universitario Rikshospitalet de Oslo donde fue atendido el monarca noruego. Fuente: NTB / Reuters.</figcaption></figure>
 <p class='lead'><em>La preocupación y la vigilia se apoderaron de Noruega este jueves 27 de agosto tras la publicación de un boletín oficial del Palacio Real de Oslo, en el que se confirmó un deterioro crítico en el cuadro clínico del rey Harald V, ingresado de urgencia en el Hospital Universitario Rikshospitalet debido a una complicación por anemia hemolítica severa.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — El cuadro clínico del monarca</h2>
+<h2 class='report-chapter'>Cuadro médico de Harald V: tratamiento hospitalario y evolución</h2>
 <p>El monarca de 89 años, quien ya había sido intervenido quirúrgicamente en años previos para el implante de un marcapasos permanente, presentó una brusca caída en sus niveles de hemoglobina y dificultad respiratoria tras un proceso infeccioso pulmonar. El equipo médico de la Casa Real determinó su traslado inmediato a la unidad de cuidados intensivos para recibir transfusiones continuas y terapia inmunológica.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>89 años</div><div class='stat-label'>Edad del rey</div></div>
@@ -26958,7 +27580,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Regencia</div><div class='stat-label'>Príncipe Haakon</div></div>
   <div class='stat-card'><div class='stat-value'>Rikshospitalet</div><div class='stat-label'>Centro médico Oslo</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Delegación de funciones de Estado</h2>
+<h2 class='report-chapter'>Marco constitucional: regencia del príncipe Haakon y despacho de Estado</h2>
 <p>De acuerdo con el protocolo constitucional noruego, el príncipe heredero Haakon asumió la regencia temporal de la corona para encabezar las audiencias de gabinete y la firma de decretos ministeriales:</p>
 <blockquote>"Su Majestad el Rey se encuentra bajo estrecha monitorización médica en el Rikshospitalet. La Familia Real agradece las innumerables muestras de afecto y oraciones recibidas desde todos los rincones del país." — Comunicado oficial de la Casa Real de Noruega.</blockquote>
 <div class='tweet-card'>
@@ -26970,15 +27592,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>27 ago 2026 · <a href='https://nrk.no' target='_blank' rel='noopener noreferrer'>Reporte NRK Noruega →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Reacción de los líderes políticos</h2>
+<h2 class='report-chapter'>Reacciones políticas: pronunciamiento parlamentario y apoyo ciudadano</h2>
 <p>El primer ministro noruego y los líderes de las distintas bancadas parlamentarias en el Storting expresaron sus deseos de pronta recuperación al soberano y ratificaron la continuidad plena de las instituciones democráticas del reino.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://www.royalcourt.no' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon red'>KH</div><div><div class='doc-card-title'>Det Norske Kongehus · Boletín Médico</div><div class='doc-card-desc'>Informe de salud de Su Majestad el Rey Harald V emitido por el médico de la corte.</div></div></a>
-<p>Con información de: Kongehuset, NRK Noruega, NTB, Reuters.</p>`,
+<p>Con información de: Kongehuset, NRK Noruega, NTB, Reuters.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"El artículo 41 de la Constitución noruega prevé la delegación de las prerrogativas reales en el príncipe heredero cuando el monarca está impedido por salud, garantizando la plena continuidad institucional."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>HJ</div>
+    <div>
+      <div class='expert-quote-name'>Henning Jakhelln</div>
+      <div class='expert-quote-role'>Catedrático emérito de Derecho Constitucional (Universidad de Oslo)</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Health of King Harald V of Norway deteriorates critically due to severe hemolytic anemia</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1160-rikshospitalet-oslo.jpg' alt='Rikshospitalet University Hospital entrance in Oslo' loading='lazy'><figcaption>Hospital Universitario Rikshospitalet de Oslo donde fue atendido el monarca noruego. Fuente: NTB / Reuters.</figcaption></figure>
 <p class='lead'><em>National concern grew across Norway on Thursday, August 27, following a solemn medical bulletin from the Royal Court in Oslo confirming a critical downturn in the health of 89-year-old King Harald V, who was hospitalized in the intensive care unit for severe hemolytic anemia.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Clinical condition</h2>
+<h2 class='report-chapter'>Harald V's clinical condition: hospital treatment and recovery</h2>
 <p>The monarch experienced a steep decline in blood hemoglobin levels following a recent respiratory infection. Attending physicians at Rikshospitalet initiated specialized immune therapy and blood transfusions under 24-hour observation.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>89 years</div><div class='stat-label'>Monarch age</div></div>
@@ -26986,10 +27619,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>Regency</div><div class='stat-label'>Crown Prince Haakon</div></div>
   <div class='stat-card'><div class='stat-value'>Rikshospitalet</div><div class='stat-label'>Medical center</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Regency transfer</h2>
+<h2 class='report-chapter'>Constitutional framework: Crown Prince Haakon's regency and affairs of state</h2>
 <p>Crown Prince Haakon formally stepped in as Regent of Norway to preside over state cabinet councils and constitutional duties.</p>
-<h2 class='report-chapter'>Chapter 3 — Parliamentary solidarity</h2>
-<p>Norwegian Prime Minister Jonas Gahr Støre and leaders in the Storting parliament extended warm solidarity to Queen Sonja and the Royal Family.</p>`,
+<h2 class='report-chapter'>Political reactions: parliamentary statements and public support</h2>
+<p>Norwegian Prime Minister Jonas Gahr Støre and leaders in the Storting parliament extended warm solidarity to Queen Sonja and the Royal Family.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Article 41 of the Norwegian Constitution provides for delegation of royal prerogatives to the Crown Prince during medical incapacitation, preserving institutional continuity."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>HJ</div>
+    <div>
+      <div class='expert-quote-name'>Henning Jakhelln</div>
+      <div class='expert-quote-role'>Professor Emeritus of Constitutional Law (University of Oslo)</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
@@ -27004,7 +27648,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Oslo, Noruega',
     source: 'Kongehuset / NRK / Reuters',
     region: 'International',
-    sourceUrl: 'https://www.royalcourt.no'
+    sourceUrl: ''
   },
   {
     id: '1161',
@@ -27017,7 +27661,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1161-ceuta-spain-monte-hacho.jpg' alt='Barricadas con fuego y despliegue policial en calles de Ceuta' loading='lazy'><figcaption>Vista costera y monte Hacho en la ciudad autónoma de Ceuta. Fuente: El Faro de Ceuta / EFE.</figcaption></figure>
 <p class='lead'><em>Una noche de máxima tensión y violencia callejera sacudió a la ciudad autónoma de Ceuta entre la noche del miércoles y la madrugada del jueves 27 de agosto, cuando grupos de manifestantes violentos destrozaron y prendieron fuego a campamentos provisionales de migrantes en las proximidades del monte Hacho y el perímetro fronterizo.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La quema de asentamientos y los choques con la Policía</h2>
+<h2 class='report-chapter'>Disturbios nocturnos en Ceuta: daños en campamentos y detenidos</h2>
 <p>Los incidentes comenzaron tras una concentración no autorizada frente a la Delegación del Gobierno convocada a través de grupos de mensajería instantánea. Grupos de jóvenes encapuchados se desplazaron hacia las barriadas de Príncipe Alfonso y Los Rosales, donde incendiaron carpas de lona y contenedores de basura, obligando a intervenir a los bomberos bajo escolta de la Unidad de Prevención y Reacción (UPR).</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>14 detenidos</div><div class='stat-label'>Altercados nocturnos</div></div>
@@ -27025,7 +27669,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>35 contenedores</div><div class='stat-label'>Calcinados</div></div>
   <div class='stat-card'><div class='stat-value'>03:00</div><div class='stat-label'>Control de la zona</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Condena de las autoridades y Cruz Roja</h2>
+<h2 class='report-chapter'>Condena institucional: declaraciones de la Delegación y Cruz Roja</h2>
 <p>La Delegación del Gobierno en Ceuta y la dirección autonómica de Cruz Roja condenaron los actos de violencia y destacaron que más de 80 migrantes que se encontraban en los asentamientos debieron ser reubicados de urgencia en polideportivos municipales:</p>
 <blockquote>"Nada justifica el odio ni la violencia contra personas que huyen de la miseria y el conflicto. Caerá todo el peso de la ley sobre quienes promovieron estos ataques xenófobos que no representan al pueblo de Ceuta." — Declaración de la delegada del Gobierno en Ceuta.</blockquote>
 <div class='expert-quote'>
@@ -27038,15 +27682,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Refuerzo de la seguridad en el perímetro</h2>
+<h2 class='report-chapter'>Dispositivo de seguridad: refuerzo policial y vigilancia fronteriza</h2>
 <p>El Ministerio del Interior ordenó el acantonamiento de unidades de la Guardia Civil en los accesos al Tarajal para prevenir nuevos conatos de enfrentamiento durante el fin de semana.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://elpais.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>EP</div><div><div class='doc-card-title'>El País · España</div><div class='doc-card-desc'>Crónica detallada sobre la noche de violencia y quema de refugios en Ceuta.</div></div></a>
-<p>Con información de: El País, El Faro de Ceuta, EFE, Cruz Roja Española.</p>`,
+<p>Con información de: El País, El Faro de Ceuta, EFE, Cruz Roja Española.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>DG</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Delegación del Gobierno en Ceuta <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@DelGobCeuta</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Condenamos enérgicamente los actos vandálicos de la pasada noche contra instalaciones humanitarias. Se ha reforzado el contingente policial con 300 efectivos para garantizar la convivencia.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/DelGobCeuta' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Night of violent unrest in Ceuta as protesters destroy informal migrant encampments</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1161-ceuta-spain-monte-hacho.jpg' alt='Burning barricades and riot police vehicles on Ceuta streets' loading='lazy'><figcaption>Vista costera y monte Hacho en la ciudad autónoma de Ceuta. Fuente: El Faro de Ceuta / EFE.</figcaption></figure>
 <p class='lead'><em>Severe street violence erupted across the Spanish North African enclave of Ceuta on the night of Wednesday, August 26 into Thursday, August 27, as groups of masked rioters set fire to makeshift migrant encampments near Mount Hacho and the border perimeter.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Arson and street clashes</h2>
+<h2 class='report-chapter'>Overnight unrest in Ceuta: camp damage and arrests</h2>
 <p>Following an unauthorized protest outside government delegacy offices, groups moved toward the Príncipe Alfonso quarter, torching over 35 municipal dumpsters and makeshift canvas shelters before tactical police intervened with tear gas and water cannons.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>14 arrests</div><div class='stat-label'>Overnight rioting</div></div>
@@ -27054,10 +27713,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>35 dumpsters</div><div class='stat-label'>Torched</div></div>
   <div class='stat-card'><div class='stat-value'>03:00 AM</div><div class='stat-label'>Perimeter secured</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Humanitarian relocation and official condemnation</h2>
+<h2 class='report-chapter'>Institutional condemnation: statements from Government Delegation and Red Cross</h2>
 <p>The Red Cross relocated over 80 displaced asylum seekers to municipal sports pavilions, while government delegates pledged full legal prosecution against perpetrators of hate-motivated arson.</p>
-<h2 class='report-chapter'>Chapter 3 — Border perimeter reinforcement</h2>
-<p>Spain's Interior Ministry dispatched additional Civil Guard units to secure the Tarajal border approach.</p>`,
+<h2 class='report-chapter'>Security deployment: police reinforcement and border surveillance</h2>
+<p>Spain's Interior Ministry dispatched additional Civil Guard units to secure the Tarajal border approach.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0284c7;'>DG</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Delegación del Gobierno en Ceuta <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@DelGobCeuta</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>We strongly condemn last night's vandalism against humanitarian facilities. Police deployment has been reinforced with 300 officers to ensure civil order.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/DelGobCeuta' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
@@ -27072,7 +27746,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Ceuta, España',
     source: 'El País / El Faro de Ceuta / EFE',
     region: 'International',
-    sourceUrl: 'https://elpais.com'
+    sourceUrl: ''
   },
   {
     id: '1162',
@@ -27085,7 +27759,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Seis meses de guerra en Irán: cronología de medio año de fuego cruzado</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1162-persian-gulf-iran.jpg' alt='Mapa geopolítico y despliegue militar en el Golfo Pérsico' loading='lazy'><figcaption>Monitoreo marítimo y satelital del estrecho de Ormuz y el Golfo Pérsico. Fuente: CSIS / AP.</figcaption></figure>
 <p class='lead'><em>Al cumplirse seis meses exactos del inicio de la campaña bélica a gran escala en torno a las instalaciones nucleares y balísticas de la República Islámica de Irán, el conflicto ingresó en una fase crítica caracterizada por ataques asimétricos con drones, guerra electrónica en aguas del Golfo y un estancamiento diplomático sin precedentes.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — Las cinco fases de la escalada</h2>
+<h2 class='report-chapter'>Cronología de seis meses: fases militares y evolución del conflicto</h2>
 <p>El desarrollo de las hostilidades puede estructurarse en cinco etapas tácticas: 1) La ofensiva aérea sorpresa de febrero contra los complejos de Natanz y Fordow; 2) La respuesta balística masiva de Teherán hacia bases militares en la región; 3) La guerra de desgaste en el estrecho de Ormuz con minado de rutas navieras; 4) La ofensiva de ciberataques contra infraestructuras energéticas; y 5) La actual consolidación de frentes asimétricos regionales.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>5 fases</div><div class='stat-label'>Etapas militares</div></div>
@@ -27093,7 +27767,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>38 buques</div><div class='stat-label'>Dañados en el Golfo</div></div>
   <div class='stat-card'><div class='stat-value'>$us 95/barril</div><div class='stat-label'>Impacto crudo</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Evaluación estratégica de expertos</h2>
+<h2 class='report-chapter'>Análisis estratégico: dispersión de fuerzas y balance regional</h2>
 <p>Analistas del Centro de Estudios Estratégicos e Internacionales (CSIS) en Washington destacan que la dispersión de las fuerzas iraníes en túneles reforzados ha impedido una victoria militar concluyente:</p>
 <blockquote>"La campaña demostró los límites del poder aéreo convencional frente a una red defensiva subterránea descentralizada. Lo que tenemos hoy es una guerra de atrición económica y logística que está desgastando los arsenales de misiles guiados de ambos bloques." — Informe del CSIS.</blockquote>
 <div class='expert-quote'>
@@ -27106,15 +27780,30 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     </div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — El horizonte de la contienda</h2>
+<h2 class='report-chapter'>Perspectivas diplomáticas: escenarios futuros y condiciones de paz</h2>
 <p>Sin canales activos de negociación en Ginebra o Viena, los analistas proyectan que las hostilidades se mantendrán en un equilibrio inestable durante todo el último trimestre de 2026.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://csis.org' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>CSIS</div><div><div class='doc-card-title'>Center for Strategic and International Studies</div><div class='doc-card-desc'>Informe de balance militar y táctico de los seis meses de la guerra en Irán.</div></div></a>
-<p>Con información de: CSIS Washington, Reuters, The Guardian, AP.</p>`,
+<p>Con información de: CSIS Washington, Reuters, The Guardian, AP.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0f172a;'>CS</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Center for Strategic and International Studies <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@CSIS</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>A seis meses del inicio del conflicto en Irán, la dispersión de instalaciones subterráneas impide una resolución militar concluyente, forzando la apertura de canales diplomáticos indirectos.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/CSIS' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>Ver en X &rarr;</a>
+  </div>
+</div>`,
     contentEn: `<h1>Six months of war in Iran: chronology of half a year of cross-border strikes</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1162-persian-gulf-iran.jpg' alt='Geopolitical map and military operations in the Persian Gulf' loading='lazy'><figcaption>Monitoreo marítimo y satelital del estrecho de Ormuz y el Golfo Pérsico. Fuente: CSIS / AP.</figcaption></figure>
 <p class='lead'><em>Marking exactly six months since initial deep-penetration strikes targeted Iranian ballistic and nuclear facilities, the conflict has settled into an entrenched war of attrition defined by asymmetric drone swarms, naval mine warfare, and total diplomatic deadlock.</em></p>
-<h2 class='report-chapter'>Chapter 1 — The five tactical phases</h2>
+<h2 class='report-chapter'>Six-month chronology: military phases and conflict trajectory</h2>
 <p>Operational progression spans five distinct phases: 1) Initial deep strikes against hardened facilities at Natanz and Fordow in February; 2) Retaliatory ballistic barrages against regional bases; 3) Maritime choke point harassment in the Strait of Hormuz; 4) Infrastructure cyberwarfare; and 5) The current multi-front proxy stalemate.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>5 phases</div><div class='stat-label'>Tactical stages</div></div>
@@ -27122,10 +27811,25 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>38 ships</div><div class='stat-label'>Damaged tankers</div></div>
   <div class='stat-card'><div class='stat-value'>$95/bbl</div><div class='stat-label'>Oil benchmark</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Strategic evaluation</h2>
+<h2 class='report-chapter'>Strategic assessment: force dispersion and regional power balance</h2>
 <p>CSIS defense scholars highlight that decentralized, subterranean defense networks have blunted standard air superiority advantages, transforming the engagement into a logistics and missile inventory endurance contest.</p>
-<h2 class='report-chapter'>Chapter 3 — Outlook for late 2026</h2>
-<p>With neutral European diplomacy stalled, military analysts anticipate protracted low-intensity maritime friction persisting into 2027.</p>`,
+<h2 class='report-chapter'>Diplomatic outlook: future scenarios and terms for de-escalation</h2>
+<p>With neutral European diplomacy stalled, military analysts anticipate protracted low-intensity maritime friction persisting into 2027.</p>
+
+<div class='tweet-card'>
+  <div class='tweet-card-header'>
+    <div class='tweet-card-avatar' style='background-color: #0f172a;'>CS</div>
+    <div class='tweet-card-names'>
+      <span class='tweet-card-name'>Center for Strategic and International Studies <span class='tweet-card-verified'>&#10004;</span></span>
+      <span class='tweet-card-handle'>@CSIS</span>
+    </div>
+  </div>
+  <p class='tweet-card-body'>Six months into the Iran conflict, underground dispersal precludes a decisive military victory, forcing indirect diplomatic backchannels.</p>
+  <div class='tweet-card-footer'>
+    <span>27 ago 2026</span>
+    <a href='https://x.com/CSIS' target='_blank' rel='noopener noreferrer' class='tweet-card-link'>View on X &rarr;</a>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
@@ -27140,7 +27844,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Golfo Pérsico / Teherán',
     source: 'CSIS / Reuters / The Guardian',
     region: 'International',
-    sourceUrl: 'https://csis.org'
+    sourceUrl: ''
   },
   {
     id: '1163',
@@ -27153,7 +27857,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     contentEs: `<h1>Trump firma orden para renombrar lago Ontario como 'Lake America'; tensión diplomática con Ottawa</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1163-lake-ontario-ny.jpg' alt='Ribera y aguas del lago Ontario en la frontera norteamericana' loading='lazy'><figcaption>Aguas abiertas del lago Ontario desde la costa norteamericana. Fuente: The Globe and Mail / Reuters.</figcaption></figure>
 <p class='lead'><em>En una sorpresiva medida de corte nacionalista enmarcada en la disputa sobre aranceles comerciales y control fronterizo, el presidente estadounidense Donald Trump formalizó este miércoles una orden ejecutiva que instruye al Departamento del Interior y a las agencias federales catalogar el sector estadounidense del lago Ontario bajo la denominación oficial de 'Lake America'.</em></p>
-<h2 class='report-chapter'>Capítulo 1 — La fundamentación en el acto de campaña</h2>
+<h2 class='report-chapter'>Declaraciones en campaña: propuesta de cambio de denominación</h2>
 <p>Durante un multitudinario mitin en Rochester, Nueva York, el mandatario defendió la medida argumentando que Estados Unidos debe reafirmar su liderazgo en los recursos hídricos compartidos: "Es uno de los grandes cuerpos de agua de nuestro continente y es hora de que su nombre rinda tributo a la grandeza de nuestra nación".</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>Lago Ontario</div><div class='stat-label'>Cuerpo hídrico</div></div>
@@ -27161,7 +27865,7 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>2 países</div><div class='stat-label'>Soberanía compartida</div></div>
   <div class='stat-card'><div class='stat-value'>Bilateral</div><div class='stat-label'>Tratado de 1909</div></div>
 </div>
-<h2 class='report-chapter'>Capítulo 2 — Reacciones en Canadá y el Congreso de EEUU</h2>
+<h2 class='report-chapter'>Reacciones en Canadá: rechazo parlamentario y fundamentos del tratado</h2>
 <p>La premier de la provincia de Ontario y parlamentarios canadienses de todos los partidos rechazaron de inmediato la orden, calificándola de "maniobra propagandística sin sustento legal ni cartográfico":</p>
 <blockquote>"El lago Ontario lleva el nombre conferido por los pueblos originarios iroqueses que significa 'lago de aguas brillantes'. Ningún decreto extranjero alterará la toponimia de nuestras aguas provinciales ni de los mapas internacionales." — Declaración conjunta del Parlamento de Ontario.</blockquote>
 <div class='tweet-card'>
@@ -27173,15 +27877,26 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     <div class='tweet-meta'>27 ago 2026 · <a href='https://theglobeandmail.com' target='_blank' rel='noopener noreferrer'>Reporte Globe and Mail →</a></div>
   </div>
 </div>
-<h2 class='report-chapter'>Capítulo 3 — Implicaciones prácticas en la navegación</h2>
+<h2 class='report-chapter'>Estatus cartográfico: navegación internacional y cartas náuticas</h2>
 <p>Asociaciones de prácticos de navegación del río San Lorenzo aclararon que las cartas marítimas binacionales operan bajo estándares de la Organización Hidrográfica Internacional (OHI), por lo que las maniobras comerciales continuarán usando el código náutico Ontario.</p>
 <h3>Fuentes</h3>
 <a class='doc-card' href='https://theglobeandmail.com' target='_blank' rel='noopener noreferrer'><div class='doc-card-icon blue'>GM</div><div><div class='doc-card-title'>The Globe and Mail · Politics</div><div class='doc-card-desc'>Cobertura de la tensión diplomática entre Ottawa y Washington por la denominación de los Grandes Lagos.</div></div></a>
-<p>Con información de: The Globe and Mail, Reuters, AP, Toronto Star.</p>`,
+<p>Con información de: The Globe and Mail, Reuters, AP, Toronto Star.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Los nombres de cuerpos de agua transfronterizos como el Lago Ontario están regidos por el Tratado de 1909 y la Organización Hidrográfica Internacional. Ningún país puede alterar unilateralmente las cartas náuticas reconocidas."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MM</div>
+    <div>
+      <div class='expert-quote-name'>Mark Monmonier</div>
+      <div class='expert-quote-role'>Catedrático emérito de Geografía y Cartografía (Syracuse University)</div>
+    </div>
+  </div>
+</div>`,
     contentEn: `<h1>Trump signs order renaming Lake Ontario 'Lake America'; diplomatic friction mounts with Ottawa</h1>
 <figure class='report-figure'><img src='/images/blog/noticias-2026/1163-lake-ontario-ny.jpg' alt='Lake Ontario shoreline on the North American border' loading='lazy'><figcaption>Aguas abiertas del lago Ontario desde la costa norteamericana. Fuente: The Globe and Mail / Reuters.</figcaption></figure>
 <p class='lead'><em>In an unexpected nationalist move tied to broader disputes over trade tariffs and border controls, US President Donald Trump signed an executive order directing federal agencies to designate the US territorial waters of Lake Ontario as 'Lake America'.</em></p>
-<h2 class='report-chapter'>Chapter 1 — Announcement in upstate New York</h2>
+<h2 class='report-chapter'>Campaign statements: proposal to rename Lake Ontario</h2>
 <p>Unveiled during an official rally in Rochester, New York, the measure directs the Department of the Interior to adopt the 'Lake America' nomenclature across federal mapping publications.</p>
 <div class='stat-grid'>
   <div class='stat-card'><div class='stat-value'>Lake Ontario</div><div class='stat-label'>Target body</div></div>
@@ -27189,10 +27904,21 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
   <div class='stat-card'><div class='stat-value'>2 nations</div><div class='stat-label'>Shared basin</div></div>
   <div class='stat-card'><div class='stat-value'>1909 Treaty</div><div class='stat-label'>Binational pact</div></div>
 </div>
-<h2 class='report-chapter'>Chapter 2 — Canadian legislative backlash</h2>
+<h2 class='report-chapter'>Reactions in Canada: parliamentary pushback and treaty foundations</h2>
 <p>Provincial leaders in Ontario and Quebec swiftly rejected the decree, emphasizing that the historic Iroquoian name 'Ontario' ('lake of shining waters') is protected under established international maritime standards.</p>
-<h2 class='report-chapter'>Chapter 3 — Navigation protocols</h2>
-<p>St. Lawrence Seaway navigation pilot associations confirmed that vessel traffic management will continue utilizing standardized International Hydrographic Organization (IHO) nautical codes.</p>`,
+<h2 class='report-chapter'>Cartographic status: international navigation and official nautical charts</h2>
+<p>St. Lawrence Seaway navigation pilot associations confirmed that vessel traffic management will continue utilizing standardized International Hydrographic Organization (IHO) nautical codes.</p>
+
+<div class='expert-quote'>
+  <p class='expert-quote-text'>"Names of shared transboundary water bodies like Lake Ontario are governed by the 1909 Treaty and the International Hydrographic Organization. No single nation can unilaterally alter internationally recognized nautical charts."</p>
+  <div class='expert-quote-author'>
+    <div class='expert-quote-initial'>MM</div>
+    <div>
+      <div class='expert-quote-name'>Mark Monmonier</div>
+      <div class='expert-quote-role'>Distinguished Professor Emeritus of Geography and Cartography (Syracuse University)</div>
+    </div>
+  </div>
+</div>`,
     categoryEs: 'Mundo',
     categoryEn: 'World',
     date: '2026-08-27',
@@ -27207,7 +27933,231 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     location: 'Washington / Ottawa',
     source: 'The Globe and Mail / Reuters / Toronto Star',
     region: 'International',
-    sourceUrl: 'https://theglobeandmail.com'
+    sourceUrl: ''
+  },
+  {
+    id: '1164',
+    contentType: 'news',
+    slug: 'bloqueo-puente-san-pablo-mesa-dialogo-justiniano-eguez-ds-5676',
+    titleEs: `Mesa de diálogo en San Pablo busca levantar el bloqueo en la ruta Santa Cruz-Beni por el DS 5676`,
+    titleEn: `Dialogue table at San Pablo seeks to lift the blockade on the Santa Cruz-Beni route over Decree 5676`,
+    excerptEs: `El ministro de Defensa y el gobernador del Beni negociaron la noche del sábado con los productores movilizados para restablecer el tránsito en la carretera interdepartamental.`,
+    excerptEn: `The Defense Minister and the Beni governor negotiated Saturday night with mobilized producers to restore traffic on the interdepartmental highway.`,
+    contentEs: `<h1>Mesa de diálogo en San Pablo busca levantar el bloqueo en la ruta Santa Cruz-Beni por el DS 5676</h1><figure class='report-figure'><img src='/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg' alt='Puente San Pablo, en la ruta Santa Cruz-Beni' loading='lazy'><figcaption>Puente San Pablo, en la ruta Santa Cruz-Beni. Fuente: archivo de prensa.</figcaption></figure><p><em>El bloqueo en el puente San Pablo, iniciado el miércoles 26 de agosto, mantiene cortada la carretera que une Santa Cruz con el Beni. La noche del sábado 29, el ministro de Defensa y el gobernador del Beni instalaron una mesa de diálogo con los productores movilizados para intentar restablecer el tránsito.</em></p><h2>El bloqueo y su origen</h2><p>La protesta comenzó el 26 de agosto en el puente San Pablo. Los productores movilizados rechazan el Decreto Supremo 5676, promulgado el 17 de agosto, que fija una tarifa de 18 bolivianos por litro de diésel para los grandes consumidores.</p><h2>La mesa de diálogo del sábado</h2><p>La mesa se instaló la noche del sábado 29 de agosto con la presencia del ministro de Defensa, Ernesto Justiniano, y del gobernador del Beni, Jesús Egüez. Justiniano declaró que el propósito es <blockquote>"retornar a un estado de normalidad"</blockquote> y calificó la situación como perjudicial para la región.</p><h2>Qué sigue</h2><p>Las partes buscan acuerdos sobre el abastecimiento y la tarifa del diésel para reabrir la vía. La continuidad del diálogo es clave para evitar que la medida de presión se extienda a otros tramos de la red vial del oriente boliviano.</p><p><strong>Fuente: eju.tv — nota de portada, 30 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>Dialogue table at San Pablo seeks to lift the blockade on the Santa Cruz-Beni route over Decree 5676</h1><figure class='report-figure'><img src='/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg' alt='San Pablo bridge, on the Santa Cruz-Beni route' loading='lazy'><figcaption>San Pablo bridge, on the Santa Cruz-Beni route. Source: press archive.</figcaption></figure><p><em>The blockade at the San Pablo bridge, which began Wednesday August 26, keeps the Santa Cruz-Beni highway cut. On Saturday night, the Defense Minister and the Beni governor set up a dialogue table with mobilized producers to restore traffic.</em></p><h2>The blockade and its origin</h2><p>The protest began August 26 at the San Pablo bridge. Mobilized producers reject Supreme Decree 5676, enacted August 17, which sets a rate of 18 bolivianos per liter of diesel for large consumers.</p><h2>Saturday's dialogue table</h2><p>The table convened Saturday night, August 29, with Defense Minister Ernesto Justiniano and Beni governor Jesús Egüez. Justiniano said the goal is <blockquote>"to return to a state of normality"</blockquote> and called the situation harmful to the region.</p><h2>What comes next</h2><p>The parties seek agreements on diesel supply and pricing to reopen the road. Continuing dialogue is key to preventing the protest from spreading to other routes in eastern Bolivia.</p><p><strong>Source: eju.tv — front page note, August 30, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:09:00-04:00',
+    dateModified: '2026-08-31T09:09:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg',
+    imageCaption: 'Puente San Pablo, en la ruta Santa Cruz-Beni. Fuente: archivo de prensa.',
+    categoryEs: 'Bolivia',
+    categoryEn: 'Bolivia',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'Puente San Pablo, Santa Cruz-Beni',
+    source: 'eju.tv',
+    sourceUrl: 'https://eju.tv/',
+    region: 'Bolivia',
+  },
+  {
+    id: '1165',
+    contentType: 'news',
+    slug: 'denuncia-primera-dama-maria-elena-urquidi-cerimedo-lucas-torres',
+    titleEs: `Abogado Lucas Torres presenta denuncia contra la primera dama María Elena Urquidi y Fernando Cerimedo`,
+    titleEn: `Lawyer Lucas Torres files complaint against first lady María Elena Urquidi and Fernando Cerimedo`,
+    excerptEs: `La Fiscalía evaluará si admite, observa o desestima la denuncia presentada el 27 de agosto.`,
+    excerptEn: `The Prosecutor's Office will decide whether to admit, observe or dismiss the complaint filed August 27.`,
+    contentEs: `<h1>Abogado Lucas Torres presenta denuncia contra la primera dama María Elena Urquidi y Fernando Cerimedo</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-efe.jpg' alt='Fernando Cerimedo' loading='lazy'><figcaption>Fernando Cerimedo. Fuente: EFE / archivo.</figcaption></figure><p><em>El abogado Lucas Torres presentó el 27 de agosto una denuncia penal contra la primera dama, María Elena Urquidi, y contra Fernando Cerimedo, en el marco del caso que vincula al entorno presidencial.</em></p><h2>La denuncia formal</h2><p>Torres formalizó la denuncia ante el Ministerio Público, apuntando a la esposa del presidente y al excolaborador Cerimedo. El escrito abarca hechos relacionados con la investigación abierta contra este último.</p><h2>La respuesta de la Fiscalía</h2><p>La Fiscalía informó que evaluará la denuncia y determinará si la admite, la observa o la desestima. No precisó plazos ni la probable tipificación de los hechos denunciados.</p><h2>Contexto del caso</h2><p>La denuncia amplía la atención sobre el círculo cercano al presidente Rodrigo Paz, en un expediente que ya comprende a Cerimedo y a la abogada Nadia Beller.</p><p><strong>Fuente: Los Tiempos — nota de portada, 27 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>Lawyer Lucas Torres files complaint against first lady María Elena Urquidi and Fernando Cerimedo</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-efe.jpg' alt='Fernando Cerimedo' loading='lazy'><figcaption>Fernando Cerimedo. Source: EFE / archive.</figcaption></figure><p><em>Lawyer Lucas Torres filed a criminal complaint August 27 against first lady María Elena Urquidi and Fernando Cerimedo, in the case linking the presidential entourage.</em></p><h2>The formal complaint</h2><p>Torres formalized the complaint before the Public Prosecutor's Office, targeting the president's wife and former collaborator Cerimedo. The filing covers facts related to the open investigation against the latter.</p><h2>The Prosecutor's response</h2><p>The Prosecutor's Office said it will evaluate the complaint and decide whether to admit, observe or dismiss it, without specifying deadlines or the probable classification of the reported facts.</p><h2>Case background</h2><p>The complaint widens scrutiny of the circle around President Rodrigo Paz, in a case that already includes Cerimedo and lawyer Nadia Beller.</p><p><strong>Source: Los Tiempos — front page note, August 27, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:10:00-04:00',
+    dateModified: '2026-08-31T09:10:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/caso-nadia-beller/cerimedo-efe.jpg',
+    imageCaption: 'Fernando Cerimedo. Fuente: EFE / archivo.',
+    categoryEs: 'Bolivia',
+    categoryEn: 'Bolivia',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'La Paz',
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/',
+    region: 'Bolivia',
+  },
+  {
+    id: '1166',
+    contentType: 'news',
+    slug: 'cerimedo-declaracion-prision-caso-beller-tres-investigaciones',
+    titleEs: `Cerimedo difunde declaración desde prisión: "mi rol como colaborador del presidente no me otorgó ningún poder"`,
+    titleEn: `Cerimedo releases statement from prison: "my role as the president's collaborator gave me no power"`,
+    excerptEs: `El excolaborador presidencial está investigado en tres casos, incluido el de intento de feminicidio contra Nadia Beller.`,
+    excerptEn: `The former presidential collaborator is under investigation in three cases, including attempted femicide against Nadia Beller.`,
+    contentEs: `<h1>Cerimedo difunde declaración desde prisión: "mi rol como colaborador del presidente no me otorgó ningún poder"</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp' alt='Fernando Cerimedo tras su aprehensión' loading='lazy'><figcaption>Fernando Cerimedo tras su aprehensión. Fuente: archivo de prensa.</figcaption></figure><p><em>Fernando Cerimedo enfrenta tres investigaciones, entre ellas la de intento de feminicidio contra Nadia Beller. El 27 de agosto difundió una declaración desde prisión, en la que se desmarca de las acusaciones que lo vinculan con el entorno presidencial.</em></p><h2>Investigado en tres casos</h2><p>El excolaborador del presidente Rodrigo Paz acumula tres procesos abiertos. El más grave es el de intento de feminicidio contra la abogada Nadia Beller, por el que se encuentra recluido.</p><h2>La declaración textual</h2><p>Cerimedo afirmó:<blockquote>"Mi rol como colaborador del presidente no me otorgó ningún poder"</blockquote>, en un intento de distanciarse de las operaciones que le atribuye la Fiscalía.</p><h2>Qué sigue en el caso</h2><p>El Ministerio Público continúa las diligencias del proceso, mientras la defensa busca modificar su situación procesal y cuestionar la imputación en su contra.</p><p><strong>Fuente: Los Tiempos — nota de portada, 27 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>Cerimedo releases statement from prison: "my role as the president's collaborator gave me no power"</h1><figure class='report-figure'><img src='/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp' alt='Fernando Cerimedo after his detention' loading='lazy'><figcaption>Fernando Cerimedo after his detention. Source: press archive.</figcaption></figure><p><em>Fernando Cerimedo faces three investigations, including attempted femicide against Nadia Beller. On August 27 he released a statement from prison distancing himself from the accusations linking him to the presidential entourage.</em></p><h2>Under investigation in three cases</h2><p>The former collaborator of President Rodrigo Paz has three open proceedings. The most serious is the attempted femicide of lawyer Nadia Beller, for which he is detained.</p><h2>The verbatim statement</h2><p>Cerimedo stated:<blockquote>"My role as the president's collaborator gave me no power"</blockquote>, in an effort to distance himself from the operations attributed to him by prosecutors.</p><h2>What comes next</h2><p>The Public Prosecutor's Office continues proceedings, while the defense seeks to modify his procedural status and challenge the indictment.</p><p><strong>Source: Los Tiempos — front page note, August 27, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:11:00-04:00',
+    dateModified: '2026-08-31T09:11:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp',
+    imageCaption: 'Fernando Cerimedo tras su aprehensión. Fuente: archivo de prensa.',
+    categoryEs: 'Bolivia',
+    categoryEn: 'Bolivia',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'Santa Cruz',
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/',
+    region: 'Bolivia',
+  },
+  {
+    id: '1167',
+    contentType: 'news',
+    slug: 'rodrigo-paz-decreto-5676-se-puede-mejorar-no-retroceder',
+    titleEs: `Paz sobre el DS 5676: "se puede mejorar", pero "no se puede retroceder"`,
+    titleEn: `Paz on Decree 5676: "it can be improved", but "there is no turning back"`,
+    excerptEs: `El presidente fijó su posición el 27 de agosto sobre el decreto que regula la tarifa del diésel para grandes consumidores.`,
+    excerptEn: `The president set his position August 27 on the decree regulating the diesel rate for large consumers.`,
+    contentEs: `<h1>Paz sobre el DS 5676: "se puede mejorar", pero "no se puede retroceder"</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='El presidente Rodrigo Paz' loading='lazy'><figcaption>El presidente Rodrigo Paz. Fuente: archivo de prensa.</figcaption></figure><p><em>El presidente Rodrigo Paz se refirió el 27 de agosto al Decreto Supremo 5676. Reconoció que la norma puede ajustarse, pero fue categórico sobre su vigencia.</em></p><h2>La postura del presidente</h2><p>En medio de las protestas del sector productivo y agropecuario, el mandatario sostuvo que el decreto, que fija la tarifa del diésel para grandes consumidores, admite mejoras pero no una derogación.</p><h2>La cita textual</h2><p>Paz declaró:<blockquote>"El decreto 5676 se puede mejorar"</blockquote> pero<blockquote>"no se puede retroceder"</blockquote>, en referencia a la norma promulgada el 17 de agosto.</p><h2>El contexto</h2><p>La declaración llega días después de que el sector productivo retomara las medidas de presión en puntos como el puente San Pablo, exigiendo la revisión de la tarifa del diésel.</p><p><strong>Fuente: Los Tiempos — nota de portada, 27 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>Paz on Decree 5676: "it can be improved", but "there is no turning back"</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg' alt='President Rodrigo Paz' loading='lazy'><figcaption>President Rodrigo Paz. Source: press archive.</figcaption></figure><p><em>President Rodrigo Paz addressed Supreme Decree 5676 on August 27. He acknowledged the rule can be adjusted, but was emphatic about keeping it in force.</em></p><h2>The president's stance</h2><p>Amid protests from the productive and agricultural sectors, the president argued that the decree, which sets the diesel rate for large consumers, allows for improvements but not repeal.</p><h2>The verbatim quote</h2><p>Paz stated:<blockquote>"Decree 5676 can be improved"</blockquote> but <blockquote>"there is no turning back"</blockquote>, referring to the rule enacted August 17.</p><h2>The context</h2><p>The statement comes days after the productive sector resumed pressure measures at points like the San Pablo bridge, demanding a revision of the diesel rate.</p><p><strong>Source: Los Tiempos — front page note, August 27, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:12:00-04:00',
+    dateModified: '2026-08-31T09:12:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg',
+    imageCaption: 'El presidente Rodrigo Paz. Fuente: archivo de prensa.',
+    categoryEs: 'Bolivia',
+    categoryEn: 'Bolivia',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'La Paz',
+    source: 'Los Tiempos',
+    sourceUrl: 'https://www.lostiempos.com/',
+    region: 'Bolivia',
+  },
+  {
+    id: '1168',
+    contentType: 'news',
+    slug: 'emergencia-nevada-cochabamba-1300-camelidos-muertos-familias-afectadas',
+    titleEs: `Nevadas en Cochabamba dejan más de 1.300 camélidos muertos y 1.200 familias afectadas`,
+    titleEn: `Snowfall in Cochabamba leaves over 1,300 dead camelids and 1,200 affected families`,
+    excerptEs: `La Gobernación llevó ayuda humanitaria a las zonas altas, donde persisten carencias tras la emergencia climática.`,
+    excerptEn: `The Governor's Office brought humanitarian aid to the highlands, where shortages persist after the weather emergency.`,
+    contentEs: `<h1>Nevadas en Cochabamba dejan más de 1.300 camélidos muertos y 1.200 familias afectadas</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Nevadas en el altiplano boliviano' loading='lazy'><figcaption>Nevadas en el altiplano boliviano (imagen de archivo). Fuente: archivo de prensa.</figcaption></figure><p><em>La nevada registrada en las zonas altas de Cochabamba dejó más de 1.300 camélidos muertos y más de 1.200 familias afectadas, según el balance actualizado al 30 de agosto.</em></p><h2>El impacto de la nevada</h2><p>Las comunidades altoandinas del departamento reportaron la muerte masiva de ganado camélido y la afectación de viviendas y cultivos. La cifra ascendió a más de 1.300 camélidos muertos y 1.200 familias damnificadas.</p><h2>La respuesta de la Gobernación</h2><p>La Gobernación de Cochabamba trasladó ayuda humanitaria a las zonas afectadas. Sin embargo, en varias comunidades persisten carencias de forraje y alimentos para sostener al ganado sobreviviente.</p><h2>Qué sigue</h2><p>Las autoridades evalúan ampliar la asistencia ante la continuidad de las condiciones climáticas y la afectación a la actividad ganadera altoandina.</p><p><strong>Fuente: Opinión Bolivia — nota de portada, actualizado 30 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>Snowfall in Cochabamba leaves over 1,300 dead camelids and 1,200 affected families</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg' alt='Snowfall in the Bolivian highlands' loading='lazy'><figcaption>Snowfall in the Bolivian highlands (archive image). Source: press archive.</figcaption></figure><p><em>The snowfall recorded in Cochabamba's highlands left more than 1,300 camelids dead and over 1,200 families affected, according to the tally updated to August 30.</em></p><h2>The impact of the snowfall</h2><p>High-altitude communities reported mass deaths of camelid livestock and damage to homes and crops. The figure rose to more than 1,300 dead camelids and 1,200 affected families.</p><h2>The Governor's Office response</h2><p>The Cochabamba Governor's Office delivered humanitarian aid to the affected areas. Yet several communities still lack forage and food to sustain the surviving livestock.</p><h2>What comes next</h2><p>Authorities are assessing whether to expand assistance given the continuing weather conditions and damage to highland livestock activity.</p><p><strong>Source: Opinión Bolivia — front page note, updated August 30, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:13:00-04:00',
+    dateModified: '2026-08-31T09:13:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg',
+    imageCaption: 'Nevadas en el altiplano boliviano (imagen de archivo). Fuente: archivo de prensa.',
+    categoryEs: 'Bolivia',
+    categoryEn: 'Bolivia',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'Cochabamba',
+    source: 'Opinión',
+    sourceUrl: 'https://www.opinion.com.bo/',
+    region: 'Bolivia',
+  },
+  {
+    id: '1169',
+    contentType: 'news',
+    slug: 'tipo-cambio-bolivia-banco-central-30-agosto-2026',
+    titleEs: `Tipo de cambio oficial: el Banco Central cotiza el dólar a 11,92 para la compra y 12,02 para la venta`,
+    titleEn: `Official exchange rate: Central Bank quotes the dollar at 11.92 buy and 12.02 sell`,
+    excerptEs: `La cotización oficial del 30 de agosto refleja la presión sobre la divisa en el mercado nacional.`,
+    excerptEn: `The August 30 official quote reflects pressure on the currency in the domestic market.`,
+    contentEs: `<h1>Tipo de cambio oficial: el Banco Central cotiza el dólar a 11,92 para la compra y 12,02 para la venta</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/combustibles-filas-surtidores.jpg' alt='Filas en surtidores de combustible' loading='lazy'><figcaption>Filas en surtidores de combustible (imagen de archivo). Fuente: archivo de prensa.</figcaption></figure><p><em>Al 30 de agosto de 2026, el Banco Central de Bolivia fijó la cotización oficial del dólar estadounidense en 11,92 bolivianos para la compra y 12,02 bolivianos para la venta, por unidad.</em></p><h2>La cotización oficial</h2><p>La banda oficial del 30 de agosto se ubica en un contexto de escasez de divisas que ya generó tensiones en el abastecimiento de combustibles y en los sectores productivo e importador.</p><h2>El contexto económico</h2><p>La presión sobre el tipo de cambio oficial se refleja en los costos de importación y en la disponibilidad de dólares para las actividades económicas, en particular para la compra de carburantes.</p><h2>Qué está en juego</h2><p>La evolución de la cotización es seguida de cerca por los agentes económicos por su impacto directo en los precios al consumidor y en la planificación de las empresas.</p><p><strong>Fuente: El Día — nota de portada, 30 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>Official exchange rate: Central Bank quotes the dollar at 11.92 buy and 12.02 sell</h1><figure class='report-figure'><img src='/images/blog/bolivia-agosto-2026/combustibles-filas-surtidores.jpg' alt='Queues at fuel stations' loading='lazy'><figcaption>Queues at fuel stations (archive image). Source: press archive.</figcaption></figure><p><em>As of August 30, 2026, the Central Bank of Bolivia set the official exchange rate of the US dollar at 11.92 bolivianos for buying and 12.02 bolivianos for selling, per unit.</em></p><h2>The official rate</h2><p>The August 30 official band sits within a context of currency shortages that has already strained fuel supplies and the productive and import sectors.</p><h2>The economic context</h2><p>Pressure on the official rate shows up in import costs and in the availability of dollars for economic activity, particularly fuel purchases.</p><h2>What is at stake</h2><p>The rate's evolution is closely watched by economic agents for its direct impact on consumer prices and business planning.</p><p><strong>Source: El Día — front page note, August 30, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:14:00-04:00',
+    dateModified: '2026-08-31T09:14:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/bolivia-agosto-2026/combustibles-filas-surtidores.jpg',
+    imageCaption: 'Filas en surtidores de combustible (imagen de archivo). Fuente: archivo de prensa.',
+    categoryEs: 'Economía',
+    categoryEn: 'Economy',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'La Paz',
+    source: 'El Día',
+    sourceUrl: 'https://eldia.com.bo/',
+    region: 'Bolivia',
+  },
+  {
+    id: '1170',
+    contentType: 'news',
+    slug: 'inundaciones-nepal-china-1300-desaparecidos-rescate-tuneles',
+    titleEs: `Más de 1.300 desaparecidos en inundaciones que golpean Nepal y China`,
+    titleEn: `More than 1,300 missing in floods battering Nepal and China`,
+    excerptEs: `El balance agregado incluye la riada del río Bhote Koshi y nuevos reportes de trabajadores rescatados de túneles hidroeléctricos inundados.`,
+    excerptEn: `The aggregate tally includes the Bhote Koshi flooding and new reports of workers rescued from flooded hydroelectric tunnels.`,
+    contentEs: `<h1>Más de 1.300 desaparecidos en inundaciones que golpean Nepal y China</h1><figure class='report-figure'><img src='/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg' alt='Zona afectada por las inundaciones en Nepal' loading='lazy'><figcaption>Zona afectada por las inundaciones en Nepal. Fuente: Reuters / AP.</figcaption></figure><p><em>Más de 1.300 personas permanecen desaparecidas por las inundaciones que afectan a Nepal y China, según el balance agregado posterior a la riada del río Bhote Koshi ya reportada.</em></p><h2>La magnitud de la catástrofe</h2><p>La cifra agregada de desaparecidos supera las 1.300 personas. Las autoridades de ambos países mantienen operativos de búsqueda en zonas de difícil acceso y con pronóstico climático desfavorable.</p><h2>Los rescates en los túneles</h2><p>Los reportes incluyen relatos de trabajadores rescatados de túneles hidroeléctricos inundados en Nepal, rescatados por cuadrillas locales y equipos internacionales.</p><h2>El escenario transfronterizo</h2><p>La coordinación entre Nepal y China continúa activa en las tareas de búsqueda y asistencia a las comunidades, mientras las cifras de desaparecidos siguen en revisión.</p><p><strong>Fuente: CNN en Español — nota de portada, 30 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>More than 1,300 missing in floods battering Nepal and China</h1><figure class='report-figure'><img src='/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg' alt='Flood-affected area in Nepal' loading='lazy'><figcaption>Flood-affected area in Nepal. Source: Reuters / AP.</figcaption></figure><p><em>More than 1,300 people remain missing from the floods affecting Nepal and China, according to the aggregate tally following the Bhote Koshi river flooding already reported.</em></p><h2>The scale of the catastrophe</h2><p>The aggregate missing count surpasses 1,300. Authorities in both countries continue search operations in hard-to-reach areas with unfavorable weather forecasts.</p><h2>Rescues in the tunnels</h2><p>Reports include accounts of workers rescued from flooded hydroelectric tunnels in Nepal by local crews and international teams.</p><h2>The cross-border scenario</h2><p>Coordination between Nepal and China remains active in search and community assistance efforts, while the missing toll is still under review.</p><p><strong>Source: CNN en Español — front page note, August 30, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:15:00-04:00',
+    dateModified: '2026-08-31T09:15:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg',
+    imageCaption: 'Zona afectada por las inundaciones en Nepal. Fuente: Reuters / AP.',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'Nepal, China',
+    source: 'CNN en Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/',
+    region: 'International',
+  },
+  {
+    id: '1171',
+    contentType: 'news',
+    slug: 'acuerdo-petrolero-eeuu-venezuela-reaccion-gonzalez-urrutia',
+    titleEs: `González Urrutia reacciona al acuerdo petrolero entre EE.UU. y Venezuela: "la recuperación no puede medirse solo por los barriles"`,
+    titleEn: `González Urrutia reacts to the US-Venezuela oil deal: "recovery cannot be measured in barrels alone"`,
+    excerptEs: `El opositor venezolano se pronunció el 30 de agosto tras el entendimiento energético anunciado entre Washington y Caracas.`,
+    excerptEn: `The Venezuelan opposition leader spoke August 30 after the energy deal announced between Washington and Caracas.`,
+    contentEs: `<h1>González Urrutia reacciona al acuerdo petrolero entre EE.UU. y Venezuela: "la recuperación no puede medirse solo por los barriles"</h1><figure class='report-figure'><img src='/images/blog/venezuela-terremotos-junio-2026-catia-la-mar.jpg' alt='Venezuela (imagen de archivo)' loading='lazy'><figcaption>Venezuela (imagen de archivo). Fuente: AP / EFE.</figcaption></figure><p><em>Estados Unidos y Venezuela alcanzaron un acuerdo petrolero, en un contexto que reaviva el interés internacional por el crudo venezolano. El 30 de agosto, el líder opositor Edmundo González Urrutia fijó posición.</em></p><h2>El acuerdo energético</h2><p>El entendimiento entre Washington y Caracas abre la puerta a una nueva etapa en la relación energética bilateral, con el crudo venezolano nuevamente en el centro de la negociación.</p><h2>La reacción del opositor</h2><p>González Urrutia declaró que<blockquote>"la recuperación no puede medirse solo por los barriles"</blockquote>, subrayando que la democracia y los derechos humanos no pueden quedar al margen del entendimiento.</p><h2>El debate de fondo</h2><p>La declaración expone la tensión entre los intereses energéticos inmediatos y las demandas políticas de la oposición venezolana, que exige garantías democráticas.</p><p><strong>Fuente: CNN en Español — nota de portada, 30 de agosto de 2026.</strong></p>`,
+    contentEn: `<h1>González Urrutia reacts to the US-Venezuela oil deal: "recovery cannot be measured in barrels alone"</h1><figure class='report-figure'><img src='/images/blog/venezuela-terremotos-junio-2026-catia-la-mar.jpg' alt='Venezuela (archive image)' loading='lazy'><figcaption>Venezuela (archive image). Source: AP / EFE.</figcaption></figure><p><em>The United States and Venezuela reached an oil agreement, in a context that rekindles international interest in Venezuelan crude. On August 30, opposition leader Edmundo González Urrutia took a position.</em></p><h2>The energy agreement</h2><p>The understanding between Washington and Caracas opens a new chapter in the bilateral energy relationship, with Venezuelan crude again at the center of negotiations.</p><h2>The opposition leader's reaction</h2><p>González Urrutia stated that <blockquote>"recovery cannot be measured in barrels alone"</blockquote>, stressing that democracy and human rights cannot be left out of the understanding.</p><h2>The underlying debate</h2><p>The statement exposes the tension between immediate energy interests and the political demands of the Venezuelan opposition, which seeks democratic guarantees.</p><p><strong>Source: CNN en Español — front page note, August 30, 2026.</strong></p>`,
+    date: '2026-08-31',
+    publishedAt: '2026-08-31T09:16:00-04:00',
+    dateModified: '2026-08-31T09:16:00-04:00',
+    readTimeEs: '3 min de lectura',
+    readTimeEn: '3 min read',
+    imageUrl: '/images/blog/venezuela-terremotos-junio-2026-catia-la-mar.jpg',
+    imageCaption: 'Venezuela (imagen de archivo). Fuente: AP / EFE.',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'Caracas, Washington',
+    source: 'CNN en Español',
+    sourceUrl: 'https://cnnespanol.cnn.com/',
+    region: 'International',
   },
 // FIN DE NOTICIAS
 

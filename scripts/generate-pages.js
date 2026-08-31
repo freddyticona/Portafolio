@@ -108,6 +108,8 @@ const articles = _rawArticles.map(a => ({
   titleEn: a.titleEn || '',
   desc: a.excerpt,
   date: a.date || '',
+  publishedAt: a.publishedAt || '',
+  dateModified: a.dateModified || '',
   imageUrl: a.imageUrl || '',
   source: a.source || '',
   sourceUrl: a.sourceUrl || '',
@@ -122,6 +124,46 @@ if (!fs.existsSync(distDir)) {
 }
 
 const indexHtml = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');
+
+// Identidad editorial de la sección de noticias (debe coincidir con
+// src/lib/structuredData.ts para que el HTML estático que lee Googlebot
+// sea idéntico al schema inyectado en cliente).
+const NEWS_PUBLICATION_NAME = 'FreddyDev Noticias';
+const NEWS_ORGANIZATION_LOGO = 'https://freddydev.net/images/news-logo.png';
+const NEWS_LOGO_WIDTH = 600;
+const NEWS_LOGO_HEIGHT = 60;
+
+// Mapa de dimensiones reales de las imágenes (públicas, generadas por
+// generate-image-dimensions.mjs antes del build).
+const imageDimsPath = path.join(__dirname, 'image-dimensions.json');
+const IMAGE_DIMENSIONS = fs.existsSync(imageDimsPath)
+  ? JSON.parse(fs.readFileSync(imageDimsPath, 'utf-8'))
+  : {};
+
+/** Hash determinista (djb2) para derivar hora estable por artículo del slug. */
+function slugHash(str) {
+  let h = 5381;
+  for (let i = 0; i < str.length; i++) {
+    h = ((h << 5) + h + str.charCodeAt(i)) >>> 0;
+  }
+  return h;
+}
+
+/** Deriva HH:mm:ss entre 08:00:00 y 19:59:59 a partir del slug. */
+function deriveTimeFromSlug(slug) {
+  const SECONDS = 12 * 3600;
+  const offset = slugHash(slug || '') % SECONDS;
+  const total = 8 * 3600 + offset;
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${pad(Math.floor(total / 3600))}:${pad(Math.floor((total % 3600) / 60))}:${pad(total % 60)}`;
+}
+
+/** Convierte a datetime ISO 8601 completo (usa publishedAt si existe). */
+function toFullIsoDateTime(date, slug) {
+  if (!date) return '';
+  if (/\d{4}-\d{2}-\d{2}T/.test(date)) return date;
+  return `${date}T${deriveTimeFromSlug(slug)}-04:00`;
+}
 
 // Eliminar el schema original (Person, LocalBusiness, VideoObject, Article, BreadcrumbList)
 // para que las páginas de artículos no hereden VideoObject de contenido no visible en esas URLs.
@@ -210,7 +252,7 @@ for (const [key, meta] of Object.entries(pages)) {
       "name": "Freddy Ticona Guzmán - Showreel Audiovisual 2026",
       "description": "Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia.",
       "thumbnailUrl": "https://img.youtube.com/vi/MK4au-qQcsw/hqdefault.jpg",
-      "uploadDate": "2026-07-01",
+      "uploadDate": "2026-07-01T12:00:00-04:00",
       "embedUrl": "https://www.youtube.com/embed/MK4au-qQcsw",
       "contentUrl": "https://www.youtube.com/watch?v=MK4au-qQcsw",
       "author": {
@@ -278,41 +320,60 @@ for (const article of articles) {
   html = html.replace(/<meta name="keywords" content=".*?"/, `<meta name="keywords" content="${escapeAttr(keywords)}"`);
   // Twitter image alt para consistencia con og:image:alt
   html = html.replace(/<meta name="twitter:image:alt" content=".*?"/, `<meta name="twitter:image:alt" content="${imgAlt}"`);
-  // Article structured data (con dateModified y mainEntityOfPage para rich results)
-  const articleDate = article.date || TODAY;
-  const articleSchema = `{
-      "@context": "https://schema.org",
-      "@type": "${articleType}",
-      "headline": "${article.title.replace(/"/g, '\\"')}",
-      "description": "${(article.desc || '').replace(/"/g, '\\"')}",
-      "image": "${imgUrl}",
-      "url": "${articleUrl}",
-      "datePublished": "${articleDate}",
-      "dateModified": "${articleDate}",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "${articleUrl}"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Freddy Ticona Guzmán"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Freddy Ticona - Servicios Audiovisuales",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://freddydev.net/favicon.ico"
-        }
-      }
-      ${article.categoryEs ? `,
-      "articleSection": "${article.categoryEs.replace(/"/g, '\\"')}"` : ''}
-    }`;
+  // Article structured data (datePublished con hora, dateModified real, ImageObject con dimensiones)
+  const dims = article.imageUrl ? IMAGE_DIMENSIONS[article.imageUrl] : undefined;
+  const published = toFullIsoDateTime(article.publishedAt || article.date, article.slug);
+  const modified = toFullIsoDateTime(article.dateModified || article.publishedAt || article.date, article.slug);
+
+  // Construir el schema como objeto y serializar (evita problemas de escape).
+  const schemaObj = {
+    '@context': 'https://schema.org',
+    '@type': articleType,
+    headline: article.title,
+    description: article.desc || '',
+    image: {
+      '@type': 'ImageObject',
+      url: imgUrl,
+      ...(article.imageCaption ? { caption: article.imageCaption } : {}),
+      ...(dims?.width ? { width: dims.width } : {}),
+      ...(dims?.height ? { height: dims.height } : {}),
+    },
+    url: articleUrl,
+    datePublished: published,
+    dateModified: modified,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+    author: {
+      '@type': 'Person',
+      '@id': `${SITE}/#person`,
+      name: 'Freddy Ticona Guzmán',
+      jobTitle: 'Camarógrafo y Realizador Audiovisual',
+      url: SITE,
+    },
+    publisher:
+      route === 'noticias'
+        ? {
+            '@type': 'NewsMediaOrganization',
+            '@id': `${SITE}/#news-organization`,
+            name: NEWS_PUBLICATION_NAME,
+            url: `${SITE}/noticias`,
+            description: 'Redacción de noticias de FreddyDev especializada en actualidad boliviana, cobertura internacional y análisis de medios. Contenido verificado, con atribución transparente de fuentes.',
+            logo: { '@type': 'ImageObject', url: NEWS_ORGANIZATION_LOGO, width: NEWS_LOGO_WIDTH, height: NEWS_LOGO_HEIGHT },
+          }
+        : {
+            '@type': 'Organization',
+            name: 'Freddy Ticona - Servicios Audiovisuales',
+            logo: { '@type': 'ImageObject', url: NEWS_ORGANIZATION_LOGO, width: NEWS_LOGO_WIDTH, height: NEWS_LOGO_HEIGHT },
+          },
+    ...(article.categoryEs ? { articleSection: article.categoryEs } : {}),
+    ...(route === 'noticias' ? { dateline: 'La Paz, Bolivia', inLanguage: 'es' } : {}),
+  };
+
+  const articleSchema = JSON.stringify(schemaObj);
   html = html.replace('</head>', `    <script type="application/ld+json">${articleSchema}</script>\n  </head>`);
   // Meta tags de artículo (Google News, Facebook, X leen HTML estático)
   const articleMeta = `
-    <meta property="article:published_time" content="${articleDate}" />
-    <meta property="article:modified_time" content="${articleDate}" />
+    <meta property="article:published_time" content="${published}" />
+    <meta property="article:modified_time" content="${modified}" />
     ${article.categoryEs ? `<meta property="article:section" content="${article.categoryEs.replace(/"/g, '&quot;')}" />` : ''}
   `;
   html = html.replace('</head>', `${articleMeta}\n  </head>`);

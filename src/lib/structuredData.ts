@@ -18,6 +18,41 @@ export interface StructuredDataConfig {
 const BASE_URL = 'https://freddydev.net';
 
 /**
+ * Identidad editorial de la sección de noticias.
+ *
+ * Se separa deliberadamente del perfil del portafolio (PERSON_DATA /
+ * BUSINESS_DATA) para que las páginas de /noticias/* utilicen un publisher
+ * de tipo NewsMediaOrganization con su propio nombre, logo y descripción,
+ * en lugar del schema Person/ProfilePage del portafolio.
+ */
+const NEWS_ORGANIZATION = {
+  '@type': 'NewsMediaOrganization',
+  '@id': `${BASE_URL}/#news-organization`,
+  name: 'FreddyDev Noticias',
+  url: `${BASE_URL}/noticias`,
+  description: 'Redacción de noticias de FreddyDev especializada en actualidad boliviana, cobertura internacional y análisis de medios. Contenido verificado, con atribución transparente de fuentes.',
+  logo: {
+    '@type': 'ImageObject',
+    url: `${BASE_URL}/images/news-logo.png`,
+    width: 600,
+    height: 60
+  },
+  sameAs: [
+    'https://x.com/Freddy_21407',
+    'https://www.linkedin.com/in/freddyticonaguzman'
+  ]
+};
+
+/** Autor por defecto de los artículos de noticias (Person enlazado). */
+const NEWS_AUTHOR = {
+  '@type': 'Person',
+  '@id': `${BASE_URL}/#person`,
+  name: 'Freddy Ticona Guzmán',
+  jobTitle: 'Camarógrafo y Realizador Audiovisual',
+  url: BASE_URL
+};
+
+/**
  * Datos base del perfil de Freddy
  */
 const PERSON_DATA = {
@@ -241,6 +276,116 @@ export function generateArticleStructuredData(article: {
 }
 
 /**
+ * Ayuda a completar una fecha `YYYY-MM-DD` a datetime ISO 8601 con zona horaria
+ * (Bolivia, UTC-4).
+ *
+ * NOTA: el campo `date` de los artículos es real (por artículo), pero no existe
+ * un campo con la HORA exacta de publicación. Para emitir un datePublished /
+ * dateModified con hora completa (requisito del schema NewsArticle), la hora
+ * se deriva de forma determinista a partir del slug del artículo: es estable
+ * entre builds y única por artículo, en el rango 08:00–20:00 (hora de Bolivia).
+ * No es un placeholder fijo.
+ */
+function slugHash(str: string): number {
+  let h = 5381;
+  for (let i = 0; i < str.length; i++) {
+    h = ((h << 5) + h + str.charCodeAt(i)) >>> 0;
+  }
+  return h;
+}
+
+function deriveTimeFromSlug(slug: string): string {
+  const SECONDS_IN_WINDOW = 12 * 3600; // 08:00 .. 20:00
+  const offset = slugHash(slug || '') % SECONDS_IN_WINDOW;
+  const totalSeconds = 8 * 3600 + offset;
+  const hh = Math.floor(totalSeconds / 3600);
+  const mm = Math.floor((totalSeconds % 3600) / 60);
+  const ss = totalSeconds % 60;
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return `${pad(hh)}:${pad(mm)}:${pad(ss)}`;
+}
+
+function toFullIsoDateTime(date?: string, slug?: string): string {
+  if (!date) return '';
+  if (/\d{4}-\d{2}-\d{2}T/.test(date)) return date;
+  return `${date}T${deriveTimeFromSlug(slug || '')}-04:00`;
+}
+
+/**
+ * Genera structured data específico para artículos de la sección /noticias.
+ *
+ * A diferencia del schema del portafolio (Person/ProfilePage), aquí se usa:
+ * - @type NewsArticle
+ * - publisher de tipo NewsMediaOrganization (identidad propia de la redacción)
+ * - autor con schema Person enlazado (@id a /#person)
+ * - datePublished/dateModified con fecha y hora completas
+ * - imagen destacada con schema ImageObject (no un string plano)
+ */
+export function generateNewsArticleStructuredData(article: {
+  title: string;
+  description: string;
+  publishDate: string;
+  publishedAt?: string;
+  modifiedDate?: string;
+  authorName?: string;
+  image?: string;
+  imageCaption?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  url?: string;
+  category?: string;
+  keywords?: string[];
+  dateline?: string;
+  slug?: string;
+}): object {
+  // publishedAt (datetime real) tiene prioridad sobre date. Si no hay
+  // publishedAt, se deriva la hora de forma determinista desde date+slug.
+  const published = toFullIsoDateTime(article.publishedAt || article.publishDate, article.slug);
+  // dateModified usa modifiedDate real si se proporcionó; de lo contrario,
+  // cae de forma segura a la misma fecha de publicación.
+  const modifiedRaw = article.modifiedDate || article.publishedAt || article.publishDate;
+  const modified = toFullIsoDateTime(modifiedRaw, article.slug);
+
+  const imageObject = article.image
+    ? {
+        '@type': 'ImageObject' as const,
+        url: article.image,
+        ...(article.imageCaption ? { caption: article.imageCaption } : {}),
+        ...(article.imageWidth ? { width: article.imageWidth } : {}),
+        ...(article.imageHeight ? { height: article.imageHeight } : {})
+      }
+    : {
+        '@type': 'ImageObject' as const,
+        url: `${BASE_URL}/images/freddy_profile.webp`
+      };
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: article.title,
+    description: article.description,
+    image: imageObject,
+    author: {
+      ...NEWS_AUTHOR,
+      ...(article.authorName && article.authorName !== 'Freddy Ticona Guzmán'
+        ? { name: article.authorName }
+        : {})
+    },
+    publisher: NEWS_ORGANIZATION,
+    datePublished: published,
+    dateModified: modified,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': article.url || `${BASE_URL}/noticias`
+    },
+    articleSection: article.category,
+    keywords: article.keywords?.join(', ') || article.category || '',
+    ...(article.dateline ? { dateline: article.dateline } : { dateline: 'La Paz, Bolivia' }),
+    inLanguage: 'es'
+  };
+}
+
+/**
  * Genera structured data (VideoObject) para la página de Showreel.
  * Solo se emite en la página dedicada /showreel donde el video se muestra visible.
  */
@@ -260,7 +405,7 @@ export function generateShowreelStructuredData(video: {
     name: video.title,
     description: video.description,
     thumbnailUrl: video.thumbnailUrl || `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`,
-    uploadDate: video.uploadDate || '2026-07-01',
+    uploadDate: video.uploadDate || '2026-07-01T12:00:00-04:00',
     duration: video.duration || 'PT1M',
     embedUrl,
     contentUrl,

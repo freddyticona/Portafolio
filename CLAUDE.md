@@ -20,7 +20,7 @@
 1. `generate-icons` — genera favicons y PWA icons
 2. `generate-rss` — genera public/rss.xml (89 artículos)
 3. `generate-sitemap` — genera public/sitemap.xml (197 URLs)
-4. `generate-news-sitemap` — genera public/news-sitemap.xml
+4. `generate-news-sitemap` — genera public/sitemap-news.xml
 5. `vite build` — compila el bundle
 6. `generate-pages` — pre-renderiza páginas HTML estáticas en dist/
 

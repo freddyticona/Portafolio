@@ -81,7 +81,9 @@ export interface BlogPost {
   excerptEn: string;
   contentEs: string; // Markdown or HTML representation
   contentEn: string;
-  date: string;
+  date: string; // Fecha de publicación (YYYY-MM-DD)
+  publishedAt?: string; // Datetime real de publicación (ISO 8601 con zona horaria). Opcional: si falta, se deriva de `date`.
+  dateModified?: string; // Datetime de la última corrección/edición (ISO 8601). Si falta, se usa `date` en el schema.
   readTimeEs: string;
   readTimeEn: string;
   imageUrl: string;

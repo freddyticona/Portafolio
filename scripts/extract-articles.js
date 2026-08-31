@@ -159,6 +159,12 @@ export function extractArticles() {
       pending.date = date;
     }
 
+    const publishedAt = extractField(line, 'publishedAt');
+    if (publishedAt !== null) pending.publishedAt = publishedAt;
+
+    const dateModified = extractField(line, 'dateModified');
+    if (dateModified !== null) pending.dateModified = dateModified;
+
     const imageUrl = extractField(line, 'imageUrl');
     if (imageUrl !== null) pending.imageUrl = imageUrl;
 
@@ -182,6 +188,8 @@ export function extractArticles() {
         titleEn: pending.titleEn || pending.titleEs || pending.slug,
         excerpt: pending.excerpt || '',
         date: pending.date || '',
+        publishedAt: pending.publishedAt || '',
+        dateModified: pending.dateModified || '',
         imageUrl: pending.imageUrl || '',
         categoryEs: pending.categoryEs || '',
         source: pending.source || '',

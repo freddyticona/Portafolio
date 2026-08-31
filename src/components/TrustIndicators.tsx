@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BlogPost } from '../types';
-import { User, Shield, Scale, FileText, ExternalLink, Quote, X } from 'lucide-react';
+import { User, Shield, Scale, FileText, ExternalLink, Quote, X, Newspaper, CheckCircle2 } from 'lucide-react';
 
 interface TrustIndicatorsProps {
   post: BlogPost;
@@ -41,7 +41,19 @@ const contentTypeConfig: Record<string, { labelEs: string; labelEn: string; icon
   }
 };
 
-function CorrectionsModal({ lang, t, onClose }: { lang: 'es' | 'en'; t: any; onClose: () => void }) {
+const NEWS_PUBLICATION = 'FreddyDev Noticias';
+
+type TabId = 'estandares' | 'correcciones' | 'quienes';
+
+function EditorialModal({ lang, initialTab, onClose }: { lang: 'es' | 'en'; initialTab: TabId; onClose: () => void }) {
+  const [tab, setTab] = useState<TabId>(initialTab);
+
+  const tabs: { id: TabId; es: string; en: string }[] = [
+    { id: 'estandares', es: 'Política editorial', en: 'Editorial policy' },
+    { id: 'correcciones', es: 'Correcciones', en: 'Corrections' },
+    { id: 'quienes', es: 'Quiénes somos', en: 'About us' }
+  ];
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={onClose}>
       <div
@@ -50,43 +62,101 @@ function CorrectionsModal({ lang, t, onClose }: { lang: 'es' | 'en'; t: any; onC
       >
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-lg font-bold text-white font-display flex items-center gap-2">
-            <Shield className="w-5 h-5 text-gold" />
-            {lang === 'es' ? 'Política de Correcciones' : 'Corrections Policy'}
+            <Newspaper className="w-5 h-5 text-gold" />
+            {lang === 'es' ? `Estándares de ${NEWS_PUBLICATION}` : `${NEWS_PUBLICATION} standards`}
           </h2>
           <button onClick={onClose} className="p-2 hover:bg-white/5 rounded-sm transition-colors cursor-pointer" aria-label="Cerrar">
             <X className="w-4 h-4 text-stone-400" />
           </button>
         </div>
 
+        <div className="flex flex-wrap gap-2 mb-6">
+          {tabs.map((tb) => (
+            <button
+              key={tb.id}
+              onClick={() => setTab(tb.id)}
+              className={`px-3 py-1.5 rounded-sm text-xs font-mono font-bold uppercase tracking-wider transition-colors cursor-pointer ${
+                tab === tb.id ? 'bg-gold text-black' : 'bg-white/5 text-stone-300 hover:bg-white/10'
+              }`}
+            >
+              {lang === 'es' ? tb.es : tb.en}
+            </button>
+          ))}
+        </div>
+
         <div className="space-y-4 text-sm text-stone-300 leading-relaxed">
-          {lang === 'es' ? (
-            <>
-              <p>En <strong className="text-white">FreddyDev.net</strong> estamos comprometidos con la precisión y la transparencia informativa, siguiendo los estándares de <strong className="text-white">The Trust Project</strong>.</p>
-              <h3 className="text-base font-bold text-white font-display mt-6">Cómo manejamos las correcciones</h3>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>Si identificamos un error factual en un artículo, lo corregimos y añadimos una nota al final explicando el cambio realizado.</li>
-                <li>Si un lector reporta un error, lo verificamos con fuentes primarias y, de confirmarse, lo corregimos en un plazo máximo de 48 horas hábiles.</li>
-                <li>Las correcciones importantes se anuncian en una nota visible al inicio del artículo: <em className="text-stone-400">"Este artículo fue corregido el [fecha] para reflejar [detalle del cambio]"</em>.</li>
-                <li>No alteramos el contenido editorial sin dejar registro del cambio. La transparencia es nuestro principio rector.</li>
-              </ul>
-              <h3 className="text-base font-bold text-white font-display mt-6">Reportar un error</h3>
-              <p>Si encuentras un error en alguno de nuestros artículos, por favor repórtalo a través de la sección de comentarios del artículo o escribiendo a <a href="mailto:freddy@freddydev.net" className="text-gold hover:underline">freddy@freddydev.net</a>.</p>
-              <p className="text-stone-500 text-xs mt-6">Actualizado: julio 2026</p>
-            </>
-          ) : (
-            <>
-              <p>At <strong className="text-white">FreddyDev.net</strong>, we are committed to accuracy and transparency in our reporting, following <strong className="text-white">The Trust Project</strong> standards.</p>
-              <h3 className="text-base font-bold text-white font-display mt-6">How we handle corrections</h3>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>If we identify a factual error in an article, we correct it and add a note at the end explaining the change made.</li>
-                <li>If a reader reports an error, we verify it against primary sources and, if confirmed, correct it within 48 business hours.</li>
-                <li>Important corrections are announced in a visible note at the top of the article: <em className="text-stone-400">"This article was corrected on [date] to reflect [change detail]"</em>.</li>
-                <li>We do not alter editorial content without leaving a record of the change. Transparency is our guiding principle.</li>
-              </ul>
-              <h3 className="text-base font-bold text-white font-display mt-6">Report an error</h3>
-              <p>If you find an error in any of our articles, please report it through the article's comment section or by emailing <a href="mailto:freddy@freddydev.net" className="text-gold hover:underline">freddy@freddydev.net</a>.</p>
-              <p className="text-stone-500 text-xs mt-6">Updated: July 2026</p>
-            </>
+          {tab === 'estandares' && (
+            lang === 'es' ? (
+              <>
+                <p><strong className="text-white">{NEWS_PUBLICATION}</strong> es la redacción de noticias de FreddyDev.net. Nuestra política editorial se rige por la verificación de datos, la atribución transparente de fuentes y la separación clara entre información y opinión.</p>
+                <h3 className="text-base font-bold text-white font-display mt-5">Principios editoriales</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li><strong className="text-white">Precisión:</strong> contrastamos los hechos con fuentes primarias y oficiales antes de publicar.</li>
+                  <li><strong className="text-white">Atribución:</strong> toda información proveniente de terceros se cita con el medio y, cuando está disponible, el enlace al artículo original.</li>
+                  <li><strong className="text-white">Independencia:</strong> no publicamos contenido patrocinado presentado como información editorial.</li>
+                  <li><strong className="text-white">Separación:</strong> las notas informativas, los análisis y las columnas de opinión se identifican con etiquetas distintas.</li>
+                </ul>
+              </>
+            ) : (
+              <>
+                <p><strong className="text-white">{NEWS_PUBLICATION}</strong> is the newsroom of FreddyDev.net. Our editorial policy is guided by fact-checking, transparent source attribution and a clear separation between reporting and opinion.</p>
+                <h3 className="text-base font-bold text-white font-display mt-5">Editorial principles</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li><strong className="text-white">Accuracy:</strong> we cross-check facts against primary and official sources before publishing.</li>
+                  <li><strong className="text-white">Attribution:</strong> third-party information is credited with the outlet and, when available, a link to the original article.</li>
+                  <li><strong className="text-white">Independence:</strong> we do not publish sponsored content presented as journalism.</li>
+                  <li><strong className="text-white">Separation:</strong> news, analysis and opinion pieces are labeled distinctly.</li>
+                </ul>
+              </>
+            )
+          )}
+
+          {tab === 'correcciones' && (
+            lang === 'es' ? (
+              <>
+                <p>En <strong className="text-white">{NEWS_PUBLICATION}</strong> estamos comprometidos con la precisión y la transparencia informativa, siguiendo los estándares de <strong className="text-white">The Trust Project</strong>.</p>
+                <h3 className="text-base font-bold text-white font-display mt-5">Cómo manejamos las correcciones</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Si identificamos un error factual, lo corregimos y añadimos una nota al final explicando el cambio.</li>
+                  <li>Si un lector reporta un error, lo verificamos con fuentes primarias y, de confirmarse, lo corregimos en un plazo máximo de 48 horas hábiles.</li>
+                  <li>Las correcciones importantes se anuncian en una nota visible al inicio del artículo.</li>
+                  <li>No alteramos el contenido editorial sin dejar registro del cambio.</li>
+                </ul>
+                <h3 className="text-base font-bold text-white font-display mt-5">Reportar un error</h3>
+                <p>Escribe a <a href="mailto:freddy@freddydev.net" className="text-gold hover:underline">freddy@freddydev.net</a>.</p>
+              </>
+            ) : (
+              <>
+                <p>At <strong className="text-white">{NEWS_PUBLICATION}</strong> we are committed to accuracy and transparency, following <strong className="text-white">The Trust Project</strong> standards.</p>
+                <h3 className="text-base font-bold text-white font-display mt-5">How we handle corrections</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>If we identify a factual error, we correct it and add a note explaining the change.</li>
+                  <li>If a reader reports an error, we verify it and, if confirmed, correct it within 48 business hours.</li>
+                  <li>Important corrections are announced in a visible note at the top of the article.</li>
+                  <li>We do not alter editorial content without leaving a record of the change.</li>
+                </ul>
+                <h3 className="text-base font-bold text-white font-display mt-5">Report an error</h3>
+                <p>Email <a href="mailto:freddy@freddydev.net" className="text-gold hover:underline">freddy@freddydev.net</a>.</p>
+              </>
+            )
+          )}
+
+          {tab === 'quienes' && (
+            lang === 'es' ? (
+              <>
+                <p><strong className="text-white">{NEWS_PUBLICATION}</strong> es una redacción independiente de noticias integrada al sitio de Freddy Ticona Guzmán. Cubre actualidad boliviana, política, economía, ciencia y sucesos internacionales.</p>
+                <h3 className="text-base font-bold text-white font-display mt-5">Nuestra redacción</h3>
+                <p>Fundada y dirigida por <strong className="text-white">Freddy Ticona Guzmán</strong>, camarógrafo y realizador audiovisual con más de 15 años de experiencia en televisión boliviana (Bolivia TV, Red Uno, RTP), la sección de noticias busca acercar información verificada con estándares periodísticos profesionales.</p>
+                <p className="text-stone-500 text-xs mt-6">Esta sección es distinta de la página personal «Sobre mí» del portafolio.</p>
+              </>
+            ) : (
+              <>
+                <p><strong className="text-white">{NEWS_PUBLICATION}</strong> is an independent newsroom within Freddy Ticona Guzmán's site, covering Bolivian current affairs, politics, economics, science and international news.</p>
+                <h3 className="text-base font-bold text-white font-display mt-5">Our newsroom</h3>
+                <p>Founded and led by <strong className="text-white">Freddy Ticona Guzmán</strong>, cameraperson and audiovisual producer with 15+ years in Bolivian television (Bolivia TV, Red Uno, RTP), the news section brings verified information with professional journalistic standards.</p>
+                <p className="text-stone-500 text-xs mt-6">This section is distinct from the personal «About me» portfolio page.</p>
+              </>
+            )
           )}
         </div>
       </div>
@@ -95,7 +165,7 @@ function CorrectionsModal({ lang, t, onClose }: { lang: 'es' | 'en'; t: any; onC
 }
 
 export default function TrustIndicators({ post, lang, t }: TrustIndicatorsProps) {
-  const [showCorrections, setShowCorrections] = useState(false);
+  const [openTab, setOpenTab] = useState<TabId | null>(null);
   const ct = post.contentType ? contentTypeConfig[post.contentType] : null;
 
   return (
@@ -135,17 +205,24 @@ export default function TrustIndicators({ post, lang, t }: TrustIndicatorsProps)
           </span>
         </div>
 
-        <button
-          onClick={() => setShowCorrections(true)}
-          className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-400 hover:text-gold transition-colors underline underline-offset-2 cursor-pointer"
-        >
-          <ExternalLink className="w-3 h-3" />
-          {lang === 'es' ? 'Política de correcciones' : 'Corrections policy'}
-        </button>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+          <button onClick={() => setOpenTab('estandares')} className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-400 hover:text-gold transition-colors underline underline-offset-2 cursor-pointer">
+            <CheckCircle2 className="w-3 h-3" />
+            {lang === 'es' ? 'Política editorial' : 'Editorial policy'}
+          </button>
+          <button onClick={() => setOpenTab('correcciones')} className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-400 hover:text-gold transition-colors underline underline-offset-2 cursor-pointer">
+            <ExternalLink className="w-3 h-3" />
+            {lang === 'es' ? 'Política de correcciones' : 'Corrections policy'}
+          </button>
+          <button onClick={() => setOpenTab('quienes')} className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-400 hover:text-gold transition-colors underline underline-offset-2 cursor-pointer">
+            <Newspaper className="w-3 h-3" />
+            {lang === 'es' ? 'Quiénes somos' : 'About us'}
+          </button>
+        </div>
       </div>
 
-      {showCorrections && (
-        <CorrectionsModal lang={lang} t={t} onClose={() => setShowCorrections(false)} />
+      {openTab && (
+        <EditorialModal lang={lang} initialTab={openTab} onClose={() => setOpenTab(null)} />
       )}
     </>
   );

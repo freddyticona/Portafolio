@@ -25,11 +25,16 @@ Allow: /*.svg
 
 # Sitemap
 Sitemap: https://freddydev.net/sitemap.xml
-Sitemap: https://freddydev.net/news-sitemap.xml
+Sitemap: https://freddydev.net/sitemap-news.xml
 
 # Configuración específica para crawlers importantes
 User-agent: Googlebot
 Allow: /
+
+# Google News: rastreador específico de noticias (no bloqueado en /noticias/)
+User-agent: Googlebot-News
+Allow: /
+Allow: /noticias/
 
 User-agent: Bingbot
 Allow: /

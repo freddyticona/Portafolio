@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://freddydev.net/noticias/bloqueo-puente-san-pablo-mesa-dialogo-justiniano-eguez-ds-5676</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:09:00-04:00</news:publication_date>
+      <news:title>Mesa de diálogo en San Pablo busca levantar el bloqueo en la ruta Santa Cruz-Beni por el DS 5676</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/denuncia-primera-dama-maria-elena-urquidi-cerimedo-lucas-torres</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:10:00-04:00</news:publication_date>
+      <news:title>Abogado Lucas Torres presenta denuncia contra la primera dama María Elena Urquidi y Fernando Cerimedo</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cerimedo-declaracion-prision-caso-beller-tres-investigaciones</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:11:00-04:00</news:publication_date>
+      <news:title>Cerimedo difunde declaración desde prisión: &quot;mi rol como colaborador del presidente no me otorgó ningún poder&quot;</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rodrigo-paz-decreto-5676-se-puede-mejorar-no-retroceder</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:12:00-04:00</news:publication_date>
+      <news:title>Paz sobre el DS 5676: &quot;se puede mejorar&quot;, pero &quot;no se puede retroceder&quot;</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/emergencia-nevada-cochabamba-1300-camelidos-muertos-familias-afectadas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:13:00-04:00</news:publication_date>
+      <news:title>Nevadas en Cochabamba dejan más de 1.300 camélidos muertos y 1.200 familias afectadas</news:title>
+      <news:keywords>Bolivia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tipo-cambio-bolivia-banco-central-30-agosto-2026</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:14:00-04:00</news:publication_date>
+      <news:title>Tipo de cambio oficial: el Banco Central cotiza el dólar a 11,92 para la compra y 12,02 para la venta</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/inundaciones-nepal-china-1300-desaparecidos-rescate-tuneles</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:15:00-04:00</news:publication_date>
+      <news:title>Más de 1.300 desaparecidos en inundaciones que golpean Nepal y China</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/acuerdo-petrolero-eeuu-venezuela-reaccion-gonzalez-urrutia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T09:16:00-04:00</news:publication_date>
+      <news:title>González Urrutia reacciona al acuerdo petrolero entre EE.UU. y Venezuela: &quot;la recuperación no puede medirse solo por los barriles&quot;</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+</urlset>

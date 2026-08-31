@@ -216,7 +216,7 @@ export default function App() {
               description:
                 'Showreel profesional de Freddy Ticona Guzmán. Documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación y edición.',
               videoId: YOUTUBE_VIDEOS.showreel,
-              uploadDate: '2026-07-01',
+              uploadDate: '2026-07-01T12:00:00-04:00',
             },
           }
         : undefined;
