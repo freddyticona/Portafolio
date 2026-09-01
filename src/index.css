@@ -1105,3 +1105,167 @@ blockquote.twitter-tweet a:hover {
   border-color: rgba(212, 175, 55, 0.2);
 }
 
+
+/* ==========================================
+   ESPECIAL MESSI — EDICIÓN CONMEMORATIVA
+   Diseño único, distinto del blog estándar.
+   Paleta albiceleste (celeste #75AADB / blanco) + dorado sobre fondo editorial.
+   ========================================== */
+
+/* Tipografía serif editorial para titulares del especial */
+.font-serif-editorial {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+/* Paleta albiceleste */
+.celeste { color: #75AADB; }
+.bg-celeste-grad { background: linear-gradient(135deg, #4b7ba8 0%, #75AADB 50%, #a8cbe8 100%); }
+.border-celeste { border-color: rgba(117, 170, 219, 0.4); }
+
+/* Fondo editorial oscuro con sutil textura de césped/estadio */
+.messi-hero-bg {
+  background:
+    radial-gradient(ellipse at 50% -10%, rgba(117, 170, 219, 0.18) 0%, transparent 55%),
+    radial-gradient(ellipse at 50% 120%, rgba(212, 175, 55, 0.10) 0%, transparent 50%),
+    linear-gradient(180deg, #05060a 0%, #0a0b10 45%, #05060a 100%);
+}
+.messi-grass-texture {
+  background-image:
+    repeating-linear-gradient(90deg, rgba(117, 170, 219, 0.02) 0px, rgba(117, 170, 219, 0.02) 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0px, rgba(255,255,255,0.012) 2px, transparent 2px, transparent 5px);
+}
+
+/* Carta manuscrita — textura de papel y efecto de despliegue */
+.letter-paper {
+  position: relative;
+  background:
+    linear-gradient(180deg, #faf6e9 0%, #f3edda 60%, #efe7d0 100%);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.012) 0px, rgba(0,0,0,0.012) 1px, transparent 1px, transparent 28px);
+  color: #2b2b2b;
+  border-radius: 3px;
+  box-shadow: 0 30px 60px -20px rgba(0,0,0,0.8), 0 0 0 1px rgba(0,0,0,0.3);
+  transform-origin: top center;
+  overflow: hidden;
+}
+.letter-paper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 10%, rgba(255,255,255,0.6) 0%, transparent 60%);
+  pointer-events: none;
+}
+.letter-unfold {
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 1s ease;
+  transform: rotateX(-18deg) translateY(-2%);
+  opacity: 0.96;
+}
+.letter-unfold.is-open {
+  transform: rotateX(0deg) translateY(0);
+  opacity: 1;
+}
+
+/* Scrollytelling — revelado por scroll */
+.scrolly-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.scrolly-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Cabecera tipo "portada de revista" */
+.cover-kicker {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+}
+.cover-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.06;
+}
+.cover-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212,175,55,0.6), transparent);
+}
+
+/* Timeline interactiva vertical con hitos clicables */
+.messi-timeline-marker {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 1px solid rgba(117, 170, 219, 0.25);
+}
+.messi-timeline-dot {
+  position: absolute;
+  left: -5px;
+  top: 0.2rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 9999px;
+  background: #D4AF37;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+}
+.messi-timeline-dot.celeste-dot {
+  background: #75AADB;
+  box-shadow: 0 0 0 3px rgba(117, 170, 219, 0.15);
+}
+.messi-timeline-item {
+  cursor: pointer;
+  opacity: 0.55;
+  transform: translateX(0);
+  transition: opacity 0.35s ease, transform 0.35s ease, background 0.35s ease;
+  border-radius: 6px;
+  padding: 0.75rem 0.9rem;
+}
+.messi-timeline-item:hover,
+.messi-timeline-item.is-active {
+  opacity: 1;
+  background: rgba(117, 170, 219, 0.06);
+  transform: translateX(6px);
+}
+
+/* Modo homenaje */
+.messi-homenaje {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(212,175,55,0.12) 0%, transparent 50%),
+    rgba(255,255,255,0.015);
+}
+
+/* Bloque de cita clave extraída */
+.messi-pullquote {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #f3edda;
+  text-align: center;
+  position: relative;
+  padding: 1.5rem 0;
+}
+.messi-pullquote::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  line-height: 1;
+  color: rgba(212,175,55,0.35);
+  font-family: Georgia, serif;
+}
+
+/* Efecto "carta que se despliega" al click */
+@media (prefers-reduced-motion: reduce) {
+  .scrolly-reveal,
+  .letter-unfold {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

@@ -11,7 +11,7 @@ import http from 'http';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const distDir = join(__dirname, '..', 'dist');
-const ROUTES = ['/', '/sobre-mi', '/portafolio', '/cv', '/blog', '/noticias', '/guias', '/galeria', '/showreel', '/contacto', '/reservas', '/servicios', '/admin', '/eclipse-2026'];
+const ROUTES = ['/', '/sobre-mi', '/portafolio', '/cv', '/blog', '/noticias', '/guias', '/galeria', '/showreel', '/contacto', '/reservas', '/servicios', '/admin', '/eclipse-2026', '/messi-adios-seleccion'];
 const PORT = 4173;
 const BASE = `http://localhost:${PORT}`;
 

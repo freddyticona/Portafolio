@@ -76,6 +76,12 @@ const pages = {
     ogTitle: 'Especial Eclipse Solar Total 2026 | 10 Noticias y Galería',
     path: '/eclipse-2026'
   },
+  'messi-adios-seleccion': {
+    title: 'El adiós de Messi a la Selección Argentina | Edición Conmemorativa',
+    desc: 'Reportaje especial sobre el retiro de Lionel Messi de la Selección Argentina (31 de agosto de 2026). Su carta, la decisión del 21 de julio, la cronología 2005-2026 y su palmarés.',
+    ogTitle: 'El adiós de Messi a la Selección | Reportaje Especial',
+    path: '/messi-adios-seleccion'
+  },
   'showreel': {
     title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
     desc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación 4K.',
