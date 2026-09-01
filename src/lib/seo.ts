@@ -171,22 +171,7 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
       ogImage: 'https://img.youtube.com/vi/MK4au-qQcsw/hqdefault.jpg',
     }
   },
-  'messi-adios-seleccion': {
-    es: {
-      title: 'El adiós de Messi a la Selección Argentina | Edición Conmemorativa',
-      description: 'Reportaje especial sobre el retiro de Lionel Messi de la Selección Argentina (31 de agosto de 2026). Su carta, la decisión del 21 de julio, la cronología 2005-2026 y su palmarés.',
-      keywords: ['Messi retiro', 'Messi Selección Argentina', 'Messi adiós selección', 'Lionel Messi 2026', 'Messi Inter Miami'],
-      ogType: 'article',
-      ogImage: 'https://freddydev.net/og-image.jpg',
-    },
-    en: {
-      title: 'Messi\'s farewell to Argentina | Commemorative Edition',
-      description: 'Special report on Lionel Messi\'s retirement from the Argentina national team (August 31, 2026). His letter, the July 21 decision, the 2005-2026 timeline and his trophy cabinet.',
-      keywords: ['Messi retirement', 'Messi Argentina', 'Lionel Messi 2026', 'Messi farewell', 'Messi Inter Miami'],
-      ogType: 'article',
-      ogImage: 'https://freddydev.net/og-image.jpg',
-    }
-  }
+
 };
 
 /**

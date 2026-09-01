@@ -2,99 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/bloqueo-puente-san-pablo-mesa-dialogo-justiniano-eguez-ds-5676</loc>
+    <loc>https://freddydev.net/noticias/bolivia-cerimedo-detencion-asesor-paz</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:09:00-04:00</news:publication_date>
-      <news:title>Mesa de diálogo en San Pablo busca levantar el bloqueo en la ruta Santa Cruz-Beni por el DS 5676</news:title>
+      <news:publication_date>2026-08-26T12:17:28-04:00</news:publication_date>
+      <news:title>Reportaje especial | Caso Beller-Cerimedo: cronología completa del video del ataque a la detención del asesor de Paz</news:title>
       <news:keywords>Bolivia</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/denuncia-primera-dama-maria-elena-urquidi-cerimedo-lucas-torres</loc>
+    <loc>https://freddydev.net/noticias/otan-rusia-guerra-supuesta-polonia-eeuu</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:10:00-04:00</news:publication_date>
-      <news:title>Abogado Lucas Torres presenta denuncia contra la primera dama María Elena Urquidi y Fernando Cerimedo</news:title>
+      <news:publication_date>2026-08-26T15:57:54-04:00</news:publication_date>
+      <news:title>Reportaje especial | Polonia, la OTAN, EE. UU. y Rusia: la «supuesta guerra» que se debate en 2026</news:title>
+      <news:keywords>Análisis</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rodrigo-paz-caso-cerimedo-declaraciones</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26T18:07:17-04:00</news:publication_date>
+      <news:title>Reportaje especial | &quot;Que caiga quien tenga que caer&quot;: Paz habla del caso Cerimedo el 26 de agosto y Beller responde con los chats</news:title>
       <news:keywords>Bolivia</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/cerimedo-declaracion-prision-caso-beller-tres-investigaciones</loc>
+    <loc>https://freddydev.net/noticias/pakistan-inundaciones-monzon-2026-muertos-ndma</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:11:00-04:00</news:publication_date>
-      <news:title>Cerimedo difunde declaración desde prisión: &quot;mi rol como colaborador del presidente no me otorgó ningún poder&quot;</news:title>
-      <news:keywords>Bolivia</news:keywords>
+      <news:publication_date>2026-08-25T14:04:11-04:00</news:publication_date>
+      <news:title>Pakistán: las inundaciones de monzón de 2026 superan las 159 víctimas mortales</news:title>
+      <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/rodrigo-paz-decreto-5676-se-puede-mejorar-no-retroceder</loc>
+    <loc>https://freddydev.net/noticias/japon-terremoto-kumamoto-2026-respuesta-takaichi</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:12:00-04:00</news:publication_date>
-      <news:title>Paz sobre el DS 5676: &quot;se puede mejorar&quot;, pero &quot;no se puede retroceder&quot;</news:title>
-      <news:keywords>Bolivia</news:keywords>
+      <news:publication_date>2026-08-25T13:16:00-04:00</news:publication_date>
+      <news:title>Japón: Takaichi encabeza la respuesta tras el terremoto de Kumamoto y los lanzamientos de Corea del Norte</news:title>
+      <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/emergencia-nevada-cochabamba-1300-camelidos-muertos-familias-afectadas</loc>
+    <loc>https://freddydev.net/noticias/union-europea-ia-ley-entra-en-vigor-2-agosto-2026</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:13:00-04:00</news:publication_date>
-      <news:title>Nevadas en Cochabamba dejan más de 1.300 camélidos muertos y 1.200 familias afectadas</news:title>
-      <news:keywords>Bolivia</news:keywords>
+      <news:publication_date>2026-08-25T19:45:41-04:00</news:publication_date>
+      <news:title>La ley de IA de la UE alcanza su mayor hito de aplicación el 2 de agosto de 2026</news:title>
+      <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/tipo-cambio-bolivia-banco-central-30-agosto-2026</loc>
+    <loc>https://freddydev.net/noticias/nvidia-resultados-trimestre-26-agosto-2026-inteligencia-artificial</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:14:00-04:00</news:publication_date>
-      <news:title>Tipo de cambio oficial: el Banco Central cotiza el dólar a 11,92 para la compra y 12,02 para la venta</news:title>
+      <news:publication_date>2026-08-25T17:50:27-04:00</news:publication_date>
+      <news:title>Nvidia presenta resultados el 26 de agosto: Wall Street espera un BPA de unos 2,06 dólares</news:title>
       <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/inundaciones-nepal-china-1300-desaparecidos-rescate-tuneles</loc>
+    <loc>https://freddydev.net/noticias/migrantes-mediterraneo-muertes-aumentan-2026-omi</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:15:00-04:00</news:publication_date>
-      <news:title>Más de 1.300 desaparecidos en inundaciones que golpean Nepal y China</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-25T11:57:48-04:00</news:publication_date>
+      <news:title>ONU: las muertes de migrantes en el Mediterráneo se duplican y triplican en 2026</news:title>
+      <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/acuerdo-petrolero-eeuu-venezuela-reaccion-gonzalez-urrutia</loc>
+    <loc>https://freddydev.net/noticias/eeuu-canada-nuevos-aranceles-trump-25-agosto-2026</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-31T09:16:00-04:00</news:publication_date>
-      <news:title>González Urrutia reacciona al acuerdo petrolero entre EE.UU. y Venezuela: &quot;la recuperación no puede medirse solo por los barriles&quot;</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-08-25T18:29:36-04:00</news:publication_date>
+      <news:title>Trump amenaza con nuevos aranceles a Canadá en medio de tensión política interna en EE. UU.</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/reino-unido-chagos-burnham-primer-ministro-2026</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25T10:04:15-04:00</news:publication_date>
+      <news:title>Reino Unido: Burnham asume como primer ministro y hereda el conflicto de Chagos</news:title>
+      <news:keywords>Mundo</news:keywords>
     </news:news>
   </url>
 </urlset>

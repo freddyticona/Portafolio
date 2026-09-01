@@ -50,7 +50,7 @@ const GuiasPage = lazy(() => import('./pages/GuiasPage'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const ShowreelPage = lazy(() => import('./pages/ShowreelPage'));
 const Eclipse2026Page = lazy(() => import('./pages/Eclipse2026Page'));
-const MessiEspecialPage = lazy(() => import('./pages/MessiEspecialPage'));
+
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
 const ServicesPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ServicesPage })));
@@ -173,7 +173,7 @@ export default function App() {
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
         'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
-        'eclipse-2026', 'messi-adios-seleccion',
+        'eclipse-2026',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);

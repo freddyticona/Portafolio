@@ -1,0 +1,585 @@
+﻿
+> freddydev-portfolio@0.0.0 prebuild
+> echo 'Build starting...'
+
+'Build starting...'
+
+> freddydev-portfolio@0.0.0 build
+> npm run generate-icons && npm run generate-rss && npm run generate-sitemap && npm run generate-news-sitemap && vite build && npm run generate-pages && npm run prerender
+
+
+> freddydev-portfolio@0.0.0 generate-icons
+> node scripts/generate-icons.js
+
+­ƒÄ¿ Generando iconos...
+Ô£à favicon-16x16.png (16x16)
+Ô£à favicon-32x32.png (32x32)
+Ô£à icon-192.png (192x192)
+Ô£à icon-512.png (512x512)
+Ô£à apple-touch-icon.png (180x180)
+Ô£à favicon.ico
+
+­ƒÄë ┬íIconos generados exitosamente!
+­ƒôü Ubicaci├│n: public/
+
+> freddydev-portfolio@0.0.0 generate-rss
+> node scripts/generate-rss.js
+
+Ô£à RSS feed generado: C:\Users\Asus\Downloads\portafolio cv studio\public\rss.xml
+­ƒôí 436 art├¡culos incluidos (extra├¡dos din├ímicamente de translations.ts)
+­ƒöù URL: https://freddydev.net/rss.xml
+­ƒÆí Tip: define RSS_EDITOR_EMAIL para incluir el tag <author> en el feed.
+
+> freddydev-portfolio@0.0.0 generate-sitemap
+> node scripts/generate-sitemap.js
+
+Ô£à Sitemap generado: C:\Users\Asus\Downloads\portafolio cv studio\public\sitemap.xml
+­ƒù║  449 URLs incluidas (13 secciones + 436 art├¡culos en ruta ├║nica)
+
+> freddydev-portfolio@0.0.0 generate-news-sitemap
+> node scripts/generate-news-sitemap.js
+
+Ô£à Google News Sitemap generado: C:\Users\Asus\Downloads\portafolio cv studio\public\news-sitemap.xml
+­ƒôí 10 URLs de noticias incluidas (recientes: 0)
+[36mvite v8.1.5 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Ô£ô 2497 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                 16.95 kB Ôöé gzip:   4.46 kB
+dist/assets/index-DKz3JNZI.css                 135.57 kB Ôöé gzip:  20.31 kB
+dist/assets/rolldown-runtime-W-g5d7YK.js         0.88 kB Ôöé gzip:   0.50 kB
+dist/assets/BlogPages-D0JYRr7B.js                2.79 kB Ôöé gzip:   1.10 kB
+dist/assets/OtherPages-D3faAE1k.js               2.80 kB Ôöé gzip:   0.99 kB
+dist/assets/ShowreelPage-DzUTlH9T.js             3.07 kB Ôöé gzip:   1.36 kB
+dist/assets/Timeline-DfeqiMYd.js                 3.74 kB Ôöé gzip:   1.33 kB
+dist/assets/WhatsAppButton-HFhHvUl0.js           3.85 kB Ôöé gzip:   1.52 kB
+dist/assets/GuiasPage-BqBOUh2t.js                6.00 kB Ôöé gzip:   2.36 kB
+dist/assets/BlogLayout-B2PMRhzE.js               7.74 kB Ôöé gzip:   2.39 kB
+dist/assets/CaseStudyDetail-BPp13m6j.js          8.16 kB Ôöé gzip:   1.83 kB
+dist/assets/AboutPage-Duc_hnOY.js                8.59 kB Ôöé gzip:   2.02 kB
+dist/assets/PortfolioPage-ChvafMg3.js            8.75 kB Ôöé gzip:   2.40 kB
+dist/assets/GalleryPage-CBVM8Rv1.js              9.01 kB Ôöé gzip:   3.00 kB
+dist/assets/LocationsMap-ArWVFHlo.js             9.16 kB Ôöé gzip:   2.96 kB
+dist/assets/BehindScenesGallery-KqXJbG0m.js     10.68 kB Ôöé gzip:   3.42 kB
+dist/assets/ContactForm-CnJPthD7.js             10.74 kB Ôöé gzip:   3.19 kB
+dist/assets/PortfolioGrid-B6zoFN50.js           12.79 kB Ôöé gzip:   3.35 kB
+dist/assets/Chatbot-Bx-nXfum.js                 13.80 kB Ôöé gzip:   5.00 kB
+dist/assets/BookingSystem-DlYCsRXz.js           14.67 kB Ôöé gzip:   3.81 kB
+dist/assets/ServiceLanding-SA-nOX_z.js          17.02 kB Ôöé gzip:   5.18 kB
+dist/assets/CVPage-CFRTkPgU.js                  17.59 kB Ôöé gzip:   3.52 kB
+dist/assets/Eclipse2026Page-hXxxZGgc.js         21.33 kB Ôöé gzip:   5.85 kB
+dist/assets/lucide-icons-T2OqkWhb.js            29.78 kB Ôöé gzip:  11.07 kB
+dist/assets/NewsPortal-BpLyo5Fp.js              32.18 kB Ôöé gzip:   7.58 kB
+dist/assets/marked-CN66WLVU.js                  41.19 kB Ôöé gzip:  12.63 kB
+dist/assets/BlogDetail-0__ghWnw.js              44.10 kB Ôöé gzip:  11.93 kB
+dist/assets/AdminPanel-B2sd9uOs.js              62.81 kB Ôöé gzip:  12.74 kB
+dist/assets/vendor-BUSCwdf2.js                 127.99 kB Ôöé gzip:  50.35 kB
+dist/assets/motion-DsB4hGdM.js                 128.61 kB Ôöé gzip:  42.98 kB
+dist/assets/react-vendor-DgG7tfo4.js           182.85 kB Ôöé gzip:  58.01 kB
+dist/assets/firebase-CRYOG2xy.js               564.83 kB Ôöé gzip: 170.61 kB
+dist/assets/index-BD2mDPFH.js                2,831.94 kB Ôöé gzip: 843.29 kB
+
+node.exe : [33m[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\Asus\AppData\Roaming\n ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33m[33m[PLUG...is a breakdown::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  - vite:esbuild-transpile (65%)
+  - vite:css-post (9%)
+  - @tailwindcss/vite:generate:build (7%)
+  - rolldown:vite-resolve (5%)
+  - vite:prepare-out-dir (5%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+[39m
+[33m[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 300 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: 
+https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32mÔ£ô built in 12.95s[39m
+
+> freddydev-portfolio@0.0.0 generate-pages
+> node scripts/generate-pages.js
+
+Ô£à / ÔåÆ Freddy Ticona Guzm├ín | Camar├│grafo Profesional en La Paz, Bolivia
+Ô£à /inicio ÔåÆ Freddy Ticona Guzm├ín | Camar├│grafo Profesional La Paz Bolivia | Filmaci├│n 4K y Documentales
+Ô£à /sobre-mi ÔåÆ Sobre M├¡ - Freddy Ticona | Camar├│grafo Profesional en Bolivia
+Ô£à /portafolio ÔåÆ Portafolio de Proyectos Audiovisuales | Documentales y Cobertura Televisiva
+Ô£à /cv ÔåÆ Curr├¡culum Camar├│grafo Bolivia | Freddy Ticona Guzm├ín
+Ô£à /blog ÔåÆ Blog de Producci├│n Audiovisual y Cinematograf├¡a Bolivia | Tips de Filmaci├│n
+Ô£à /noticias ÔåÆ Noticias Audiovisuales Bolivia | Cobertura Period├¡stica y An├ílisis
+Ô£à /guias ÔåÆ Gu├¡as de Tr├ímites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y m├ís
+Ô£à /galeria ÔåÆ Galer├¡a de Coberturas | Freddy Ticona
+Ô£à /eclipse-2026 ÔåÆ Eclipse Solar Total 12 de Agosto 2026 | Especial Noticias y Fotos
+Ô£à /showreel ÔåÆ Showreel Audiovisual | Freddy Ticona Camar├│grafo Bolivia | Filmaci├│n 4K
+Ô£à /servicios ÔåÆ Servicios Audiovisuales La Paz Bolivia | Filmaci├│n 4K, Edici├│n y Documentales
+Ô£à /reservas ÔåÆ Reservar Camar├│grafo La Paz Bolivia | Agendar Filmaci├│n y Edici├│n Online
+Ô£à /contacto ÔåÆ Contacto - Contrata Camar├│grafo en La Paz Bolivia | Filmaci├│n y Edici├│n de Video
+Ô£à /noticias/bolivia-cerimedo-detencion-asesor-paz
+Ô£à /noticias/otan-rusia-guerra-supuesta-polonia-eeuu
+Ô£à /noticias/rodrigo-paz-caso-cerimedo-declaraciones
+Ô£à /noticias/pakistan-inundaciones-monzon-2026-muertos-ndma
+Ô£à /noticias/japon-terremoto-kumamoto-2026-respuesta-takaichi
+Ô£à /noticias/union-europea-ia-ley-entra-en-vigor-2-agosto-2026
+Ô£à /noticias/nvidia-resultados-trimestre-26-agosto-2026-inteligencia-artificial
+Ô£à /noticias/migrantes-mediterraneo-muertes-aumentan-2026-omi
+Ô£à /noticias/eeuu-canada-nuevos-aranceles-trump-25-agosto-2026
+Ô£à /noticias/reino-unido-chagos-burnham-primer-ministro-2026
+Ô£à /noticias/espana-campeon-mundial-futbol-2026-final-argentina
+Ô£à /noticias/venezuela-terremotos-junio-2026-catia-la-mar
+Ô£à /noticias/costa-rica-terremoto-m5-25-agosto-2026-sismos-globales
+Ô£à /noticias/israel-turquia-tensiones-conflicto-2026
+Ô£à /noticias/yemen-houthi-58-muertos-pacto-saudi-turquia-pakistan
+Ô£à /noticias/eclipse-solar-total-12-agosto-2026-groenlandia-islandia
+Ô£à /noticias/deportes-2026-sinner-wimbledon-pogacar-tour-francia
+Ô£à /noticias/papa-leon-xiv-lampedusa-migrantes-2026
+Ô£à /noticias/jefe-inteligencia-eeuu-ratcliffe-moscu-2026
+Ô£à /noticias/israel-iran-guerra-2026
+Ô£à /noticias/sudan-guerra-civil-hambruna-2026
+Ô£à /noticias/haiti-masacre-kenscoff-2026
+Ô£à /noticias/milano-cortina-2026-juegos-invierno
+Ô£à /noticias/otan-escudo-oriental-polonia-2026
+Ô£à /noticias/aranceles-eeuu-canada-50-2026
+Ô£à /noticias/ucrania-guerra-paz-estancada-2026
+Ô£à /noticias/taiwan-china-tensiones-2026
+Ô£à /noticias/corea-norte-misiles-2026
+Ô£à /noticias/reportaje-especial-guerra-iran-estados-unidos-operacion-epic-fury-cronologia-completa
+Ô£à /noticias/reportaje-especial-guerra-ucrania-rusia-cuarto-ano-cronologia-completa
+Ô£à /noticias/reportaje-especial-israel-iran-la-guerra-que-cambio-oriente-medio
+Ô£à /noticias/reportaje-especial-gobiernos-de-derecha-escandalos-2026-por-pais
+Ô£à /noticias/reportaje-especial-cine-2026-peliculas-mas-esperadas-que-ver-antes
+Ô£à /noticias/playstation-comunicado-nuevos-terminos-juegos-licencia-digital-2026
+Ô£à /noticias/terremoto-magnitud-59-sacude-este-japon-cinco-heridos
+Ô£à /noticias/empeora-salud-rey-harald-noruega-anemia-hemolitica
+Ô£à /noticias/tesla-llama-revision-cinco-millones-coches-china-seguridad
+Ô£à /noticias/grecia-traslada-creta-misiles-patriot-riesgo-ataque-iran
+Ô£à /noticias/zelenski-elecciones-serian-tsunami-fracturaria-ucrania
+Ô£à /noticias/kejelcha-bate-record-mundial-medio-maraton-buenos-aires-5651
+Ô£à /noticias/detienen-dos-adolescentes-israelies-apalear-palestino-amputado-cisjordania
+Ô£à /noticias/google-blue-skies-ia-reducir-estelas-aviones-calentamiento
+Ô£à /noticias/lightning-robot-vencer-usain-bolt-45-kilos-titanio-juegos-mundiales-robots
+Ô£à /noticias/subasta-camiseta-michael-jordan-finales-98-100-millones-dolares
+Ô£à /noticias/reportaje-especial-gta-vi-historia-completa-del-lanzamiento-mas-esperado-y-su-hacker
+Ô£à /noticias/ucrania-rusia-guerra-2026-golpe-profundo-drones-sanciones
+Ô£à /noticias/alp-inicia-debate-ley-incentivos-financiamiento-exterior-bolivia
+Ô£à /noticias/ypfb-y-transporte-pesado-acuerdan-cronograma-distribucion-diesel
+Ô£à /noticias/senamhi-emite-alerta-naranja-vientos-y-frente-frio-seis-departamentos
+Ô£à /noticias/ministerio-salud-despliega-brigadas-vacunacion-sarampion-dengue
+Ô£à /noticias/aduana-nacional-incauta-contrabando-35-millones-bolivianos-oruro
+Ô£à /noticias/alcaldia-la-paz-y-choferes-negocian-reordenamiento-vehicular-centro
+Ô£à /noticias/empresarios-privados-piden-liberacion-total-exportaciones-no-tradicionales
+Ô£à /noticias/cinemateca-boliviana-inaugura-muestra-retrospectiva-cine-andino
+Ô£à /noticias/g20-rio-de-janeiro-acuerda-fondo-global-transicion-energetica
+Ô£à /noticias/oms-convoca-comite-emergencia-brote-internacional-salud
+Ô£à /noticias/nasa-publica-primeras-imagenes-telescopio-espacial-nancy-grace-roman
+Ô£à /noticias/parlamento-europeo-aprueba-reglamento-monitoreo-algoritmos-ia
+Ô£à /noticias/panama-y-colombia-refuerzan-seguridad-corredor-migratorio-darien
+Ô£à /noticias/petroleo-brent-alcanza-88-dolares-tensiones-estrecho-ormuz
+Ô£à /noticias/fifa-confirma-sedes-oficiales-mundial-de-clubes-2026
+Ô£à /noticias/gaza-alto-al-fuego-octubre-2025-se-desintegra
+Ô£à /noticias/reportaje-especial-actualizacion-caso-nadia-beller-cerimedo-gobierno-paz
+Ô£à /noticias/bcb-advierte-caida-36-economia-bolivia-2026
+Ô£à /noticias/dictan-detencion-preventiva-mario-centellas-90-dias-palmasola
+Ô£à /noticias/relatora-onu-preocupada-ley-antibloqueo-hostigamiento-sociedad-civil
+Ô£à /noticias/cochabamba-inaugura-primera-clinica-publica-mascotas-callejeras
+Ô£à /noticias/seis-federaciones-tropico-suspenden-bloqueos-cuarto-intermedio
+Ô£à /noticias/guerra-comercial-eeuu-china-aranceles-tierras-raras-taiwan
+Ô£à /noticias/especial-marca-de-agua-texto-claude-anthropic
+Ô£à /noticias/emiratos-suspende-comercio-iran-estrecho-hormuz
+Ô£à /noticias/corea-del-norte-lanza-misiles-agosto-2026
+Ô£à /noticias/israel-admite-que-sus-fuerzas-dispararon-contra-el-auto-de-hind-rajab
+Ô£à /noticias/harry-meghan-regresan-reino-unido
+Ô£à /noticias/ebola-supera-los-5000-casos-congo
+Ô£à /guias/guia-multas-transito-consulta-placa-bolivia-2026
+Ô£à /noticias/paz-propone-ayllus-potosi-oruro-socios-agromineria
+Ô£à /noticias/cinco-animales-silvestres-recuperados-vuelven-habitat-natural
+Ô£à /noticias/clima-2026-julio-mas-caliente-el-nino-se-fortalece
+Ô£à /noticias/especial-repercusiones-internacionales-caso-beller-cerimedo
+Ô£à /noticias/especial-perfil-fernando-cerimedo-estratega-digital
+Ô£à /noticias/paz-solidariza-beller-investigacion-exhaustiva
+Ô£à /noticias/fiscalia-imputara-cerimedo-tentativa-feminicidio
+Ô£à /noticias/beller-denuncia-corrupcion-entorno-paz
+Ô£à /noticias/gobierno-argentino-desmarca-cerimedo
+Ô£à /noticias/tsj-instruye-celeridad-caso-beller-cerimedo
+Ô£à /noticias/tormenta-lala-hawaii-deja-miles-sin-luz
+Ô£à /noticias/disney-abc-demandan-fcc-primera-enmienda
+Ô£à /noticias/madonna-lidera-nominaciones-mtv-vmas-2026
+Ô£à /noticias/tiroteo-concierto-parque-charles-young-lexington
+Ô£à /noticias/colapso-mina-oro-republica-centroafricana
+Ô£à /noticias/pakistan-convoca-a-eeuu-por-declaraciones-sobre-cachemira
+Ô£à /noticias/ee-uu-sanciona-al-presidente-de-la-cpi-y-a-un-fiscal-senior
+Ô£à /noticias/juez-federal-revoca-tps-para-mas-de-5000-et├¡opes
+Ô£à /noticias/ee-uu-canada-aplazan-aranceles-ultima-hora
+Ô£à /noticias/estrecho-de-ormuz-cierre-petroleo-mundo-iran
+Ô£à /noticias/reportaje-especial-nadia-beller-cerimedo
+Ô£à /noticias/eeuu-descarta-prorrogar-alto-fuego-iran
+Ô£à /noticias/muerte-hayden-panettiere-autopsia-sin-trauma
+Ô£à /noticias/suprema-eeuu-rechaza-recurso-trump-carroll
+Ô£à /noticias/eeuu-sanciona-cpi-rubio-desmantelar
+Ô£à /noticias/primarias-alaska-sullivan-peltola-2026
+Ô£à /noticias/juicio-federal-meta-seguridad-infantil-oakland
+Ô£à /noticias/archivos-fbi-swalwell-fang-fang-china
+Ô£à /noticias/frank-beard-baterista-zz-top-fallece
+Ô£à /noticias/santa-cruz-plantea-importacion-directa-combustible-frente-desabastecimiento
+Ô£à /noticias/suspenden-salidas-buses-la-paz-oruro-cochabamba-nevadas
+Ô£à /noticias/informe-medico-nadia-beller-embarazada-cerimedo-padre
+Ô£à /noticias/santa-cruz-amplia-horarios-perdonazo-tributario-31-agosto
+Ô£à /noticias/otan-mayor-rearme-europeo-desde-guerra-fria
+Ô£à /noticias/combustibles-filas-surtidores
+Ô£à /noticias/luis-vega-retiro-musica-2027
+Ô£à /noticias/nevada-yungas-la-cumbre
+Ô£à /noticias/sucre-mordeduras-perros-2500-casos
+Ô£à /noticias/agua-potable-la-paz-achachicala
+Ô£à /noticias/expocruz-2026-edicion-50
+Ô£à /noticias/san-roque-bendicion-perros-2026
+Ô£à /noticias/aguirre-china-vacunas-bolivianita-tren
+Ô£à /noticias/ley-inversiones-inicia-tramite-diputados
+Ô£à /noticias/dia-bandera-201-anos-2026
+Ô£à /noticias/santa-cruz-semana-contrastes-clima
+Ô£à /noticias/trump-iran-rendirse-amenaza-bombardear-oman
+Ô£à /noticias/juicio-tupac-shakur-keffe-d-davis-2026
+Ô£à /noticias/kushner-netanyahu-plan-gaza-15-puntos
+Ô£à /noticias/santa-cruz-y-gobierno-acuerdan-10-puntos-crisis-combustibles-importacion-privada
+Ô£à /noticias/sudan-tres-anos-guerra-hambruna-olvidada
+Ô£à /noticias/sequia-26-municipios-emergencia
+Ô£à /noticias/oruro-21-municipios-emergencia
+Ô£à /noticias/chiquitania-450-soldados-incendios
+Ô£à /noticias/vicepresidente-lara-denuncia-penalmente-ministro-economia-irregularidades-patrimoniales
+Ô£à /noticias/economia-mundial-2026-sombra-de-la-guerra
+Ô£à /noticias/haiti-gangs-controlan-capital-estado-colapsa
+Ô£à /noticias/prestar-cuenta-banco-amigo-20-anos-prision
+Ô£à /noticias/nevadas-potosi-frontera-chile
+Ô£à /noticias/america-latina-2026-giro-derecha-elecciones-economia
+Ô£à /noticias/frontera-segura
+Ô£à /noticias/muere-prichard-colon-33
+Ô£à /noticias/rumania-nuclear-danubio
+Ô£à /noticias/libano-incendios
+Ô£à /noticias/rodrigo-paz-escasez-combustibles
+Ô£à /noticias/santa-cruz-importa-combustibles
+Ô£à /noticias/turistas-laguna-colorada-nieve
+Ô£à /noticias/bolivia-asume-presidencia-pro-tempore-siesur-integracion-energetica
+Ô£à /noticias/eclipse-solar-total-espana-historia-13-comunidades
+Ô£à /noticias/eclipse-solar-total-islandia-reikiavik-totalidad
+Ô£à /noticias/eclipse-solar-total-groenlandia-paso-nativa
+Ô£à /noticias/eclipse-solar-total-rusia-siberia-primera-totalidad
+Ô£à /noticias/eclipse-solar-total-portugal-guadramil-montesinho
+Ô£à /noticias/eclipse-solar-parcial-reino-unido-londres-91
+Ô£à /noticias/eclipse-solar-parcial-eeuu-alaska-nasa-en-vivo
+Ô£à /noticias/eclipse-solar-parcial-marruecos-tanger-casablanca-87
+Ô£à /noticias/eclipse-solar-francia-parcial-92-paris-atardecer
+Ô£à /noticias/eclipse-solar-2026-mejores-fotos-mundo-masa-nasa
+Ô£à /noticias/reservas-bcb-3632
+Ô£à /noticias/ley-inversiones-comision
+Ô£à /noticias/marinkovic-suarez-libre
+Ô£à /noticias/cns-enriquecimiento
+Ô£à /noticias/salarios-policias
+Ô£à /noticias/nino-titicaca
+Ô£à /noticias/julio-record-calor-eeuu
+Ô£à /noticias/qusra-colonos
+Ô£à /noticias/500-drones-rusia
+Ô£à /noticias/atropellaste-a-alguien-por-error-que-hacer
+Ô£à /noticias/ley-eutanasia-muerte-digna
+Ô£à /noticias/evo-campana-2030
+Ô£à /noticias/devolucion-dolares
+Ô£à /noticias/asad-condenado
+Ô£à /noticias/daniel-kinahan
+Ô£à /noticias/misiles-norcoreanos-zaporiyia
+Ô£à /noticias/gilman-liberado
+Ô£à /noticias/le-quitaron-la-visa-por-un-error-que-todos-cometen
+Ô£à /noticias/alcaldia-la-paz-alerta-riesgo-agua-epsas-desmiente-escasez
+Ô£à /noticias/terremoto-magnitud-7-4-sacude-colombia-epicentro-choco
+Ô£à /noticias/terremoto-colombia-balance-111-fallecidos-590-heridos
+Ô£à /noticias/manizales-danos-catedral-basilica-terremoto-colombia
+Ô£à /noticias/terremoto-cali-25-edificios-colapsados-alcalde-pide-rescatistas
+Ô£à /noticias/terremoto-pereira-47-fallecidos-aeropuerto-matecana
+Ô£à /noticias/terremoto-choco-12-fallecidos-quibdo-baudo
+Ô£à /noticias/replicas-terremoto-colombia-probabilidad-nuevo-sismo
+Ô£à /noticias/de-la-espriella-declara-desastre-nacional-terremoto
+Ô£à /noticias/solidaridad-internacional-terremoto-colombia-noboa-rescatistas
+Ô£à /noticias/volcan-purace-emite-cenizas-tras-terremoto-colombia
+Ô£à /noticias/productores-agricolas-san-julian-bloqueos-protestas-diesel
+Ô£à /noticias/primer-matrimonio-igualitario-bolivia
+Ô£à /noticias/evo-morales-ordenes-captura
+Ô£à /noticias/historia-jorge-messi-artifice-silencioso
+Ô£à /noticias/senado-eeuu-aprueba-sanciones-rusia-iran
+Ô£à /noticias/acuerdo-reabrir-estrecho-ormuz-pronto
+Ô£à /noticias/de-la-espriella-nuevo-presidente-colombia
+Ô£à /noticias/tigre-amur-regresa-kazajistan-70-anos
+Ô£à /noticias/tifon-dolphin-okinawa-china-puertos
+Ô£à /noticias/serbia-respalda-integridad-territorial-ucrania
+Ô£à /noticias/incendio-bald-range-canada-20000-evacuados
+Ô£à /noticias/ebola-congo-300-ninos-nueva-vacuna
+Ô£à /noticias/el-nino-49-millones-hambre-aguda
+Ô£à /noticias/hiroshima-81-aniversario-bomba-abolir-armas-nucleares
+Ô£à /noticias/incendio-consume-15-mil-casetas-feria-barrio-lindo
+Ô£à /noticias/excombatientes-nancahuazu-teoponte-regresan-parada-militar
+Ô£à /noticias/presentan-siete-implicados-caso-subteniente-salazar
+Ô£à /noticias/presidente-gobernadores-firman-pacto-fiscal-50-50
+Ô£à /noticias/dolar-flexible-mas-us-1012-millones-banca
+Ô£à /noticias/felcn-afecta-mas-us-38-millones-narcotrafico-oruro
+Ô£à /noticias/ejecutivo-enviara-ley-de-inversiones-alp-siguiente-semana
+Ô£à /noticias/exportan-cafe-yungas-corea-del-sur
+Ô£à /noticias/china-brasil-principales-mercados-minerales-bolivianos
+Ô£à /noticias/productores-agricolas-denuncian-cobros-irregulares-di├®sel-estaciones-servicio
+Ô£à /noticias/gobierno-interviene-ypfb-reestructuracion-corrupcion
+Ô£à /noticias/paz-reunion-gobernadores-sucre-pacto-fiscal-50-50
+Ô£à /noticias/dolar-oficial-bs-1202-tercera-baja-consecutiva
+Ô£à /noticias/paz-justifica-reduccion-ministerios-mucho-flojo
+Ô£à /noticias/brasileno-acribillado-tercer-anillo-avenida-busch-santa-cruz
+Ô£à /noticias/fuga-palmasola-apagon-dos-reos-brasilenos-policias-aprehendidos
+Ô£à /noticias/paz-balance-gestion-anuncios-6-agosto
+Ô£à /noticias/rusia-ataque-misiles-kiev-17-muertos-44-heridos
+Ô£à /noticias/eclipse-solar-total-12-agosto-espana
+Ô£à /noticias/policia-unidades-elite-frontera-brasil-san-matias
+Ô£à /noticias/asbesto-legal-mexico-riesgo-cancer
+Ô£à /noticias/traileros-revelan-riesgos-carreteras-mexico
+Ô£à /noticias/gobierno-interviene-ypfb-reestructuracion-corrupcion-combustibles
+Ô£à /noticias/presidente-paz-justifica-reduccion-ministerios-austeridad-estatal
+Ô£à /noticias/senamhi-emite-alerta-roja-vientos-fuertes-santa-cruz
+Ô£à /blog/tutorial-cortes-invisibles-j-l-cut
+Ô£à /blog/tutorial-match-cut-ritmo-montaje
+Ô£à /blog/tutorial-b-roll-cutaways-cobertura
+Ô£à /blog/tutorial-cobertura-multicam-sincronizacion
+Ô£à /blog/tutorial-mezcla-audio-video-niveles
+Ô£à /blog/tutorial-normalizacion-lufs-loudness
+Ô£à /blog/tutorial-speed-ramps-time-remapping
+Ô£à /blog/tutorial-lower-thirds-titulos-animados
+Ô£à /blog/tutorial-exportar-youtube-plataformas
+Ô£à /blog/tutorial-codecs-bitrates-h264-hevc
+Ô£à /noticias/sarampion-la-paz-vacunacion-masiva-2026
+Ô£à /noticias/desaguadero-cuello-botella-paso-legal-frontera
+Ô£à /noticias/whatsapp-deja-funcionar-celulares-agosto-2026
+Ô£à /noticias/whatsapp-editar-pdf-estados-musica-ipad
+Ô£à /noticias/whatsapp-grupos-historial-etiquetas-nuevas-funciones
+Ô£à /noticias/estafa-whatsapp-bolivia-bcb-alerta
+Ô£à /noticias/estafa-imagen-david-santalla-falsa-app-inversiones
+Ô£à /noticias/eclipse-solar-total-12-agosto-2026
+Ô£à /noticias/copa-bolivia-2026-19-agosto-fbf
+Ô£à /noticias/futbolistas-bolivianos-mercado-2026-vaca-arabia-saudita
+Ô£à /noticias/delitos-ciberneticos-bolivia-estafa-trata-extorsion
+Ô£à /noticias/whatsapp-nombres-usuario-reservar
+Ô£à /blog/tutorial-free-fire-tips-estadisticas-2026
+Ô£à /blog/tutorial-fortnite-build-edit-mejora-estadisticas
+Ô£à /blog/tutorial-minecraft-cofre-rush-start-sobrevivir
+Ô£à /blog/tutorial-gta-v-online-hacerse-dinero-rapido
+Ô£à /blog/tutorial-league-of-legends-mejorar-rango-rol
+Ô£à /blog/tutorial-cod-mobile-ajustes-hud-pergaminos
+Ô£à /blog/tutorial-roblox-crear-juego-ganar-dinero
+Ô£à /blog/tutorial-valorant-apuntado-sensibilidad-contra-rotacion
+Ô£à /blog/tutorial-clash-royale-mazo-elixir-subir-trofeos
+Ô£à /blog/tutorial-ea-fc-ultimate-team-monedas-fut
+Ô£à /noticias/acta-nacimiento-no-caduca-como-defenderte
+Ô£à /noticias/nino-con-sindrome-de-down-encontrado-camaras-c5
+Ô£à /guias/guia-certificado-matrimonio-segip-bolivia-2026
+Ô£à /guias/guia-certificado-defuncion-bolivia-2026
+Ô£à /guias/guia-registro-empresa-seprec-bolivia-2026
+Ô£à /guias/guia-padron-electoral-bolivia-2026
+Ô£à /blog/tutorial-edicion-video-davinci-resolve-gratis
+Ô£à /blog/tutorial-subtitulos-doblaje-ia-pipeline-completo
+Ô£à /guias/guia-apostilla-documentos-bolivia-2026
+Ô£à /guias/guia-registro-marca-senapi-bolivia-2026
+Ô£à /blog/tutorial-iluminacion-basica-video
+Ô£à /blog/tutorial-grabar-video-profesional-celular
+Ô£à /guias/guia-licencia-funcionamiento-municipal-bolivia-2026
+Ô£à /guias/guia-carnet-vacunacion-covid-bolivia-2026
+Ô£à /blog/tutorial-correccion-color-davinci-resolve
+Ô£à /blog/tutorial-grabar-entrevistas-campo-periodismo
+Ô£à /guias/guia-jubilacion-pension-vejez-bolivia-2026
+Ô£à /guias/guia-registro-propiedad-derechos-reales-bolivia-2026
+Ô£à /blog/tutorial-streaming-en-vivo-obs-studio
+Ô£à /blog/tutorial-video-vertical-redes-sociales-reels-tiktok
+Ô£à /noticias/muere-rapero-soldis-c4-guadalajara
+Ô£à /noticias/ataques-petroleros-estrecho-ormuz
+Ô£à /noticias/juez-que-castigaba-a-maltratadores-de-animales
+Ô£à /noticias/crisis-migratoria-ceuta-avalancha-migrantes-marruecos
+Ô£à /noticias/pulso-politico-gobierno-oposicion-relato-ceuta
+Ô£à /noticias/italia-eeuu-contra-espana-crisis-ceuta-geopolitica-europea
+Ô£à /noticias/ceuta-desbordada-voz-ceuties-hartazgo-solidaridad
+Ô£à /noticias/marruecos-migracion-como-arma-estrategia-presion-espana
+Ô£à /noticias/muertos-tarajal-drama-humanitario-crisis-migratoria-ceuta
+Ô£à /noticias/ceuta-60000-migrantes-entraron-25000-regresaron-marruecos
+Ô£à /noticias/espana-marruecos-pacto-devolucion-migrantes-ceuta
+Ô£à /noticias/sanchez-visita-ceuta-sentencia-supremo-boyas-frontera-maritima
+Ô£à /noticias/vivas-emergencia-nacional-ejercito-ceuta-reaccion-europa
+Ô£à /noticias/redes-sociales-sentencia-supremo-entrada-masiva-ceuta
+Ô£à /noticias/acuerdo-desarme-hamas-gaza-trump
+Ô£à /noticias/senado-eeuu-rechaza-limitar-guerra-iran
+Ô£à /noticias/incendios-europa-record-megafuegos-clima
+Ô£à /noticias/terremotos-venezuela-5208-muertos-danos-19600-millones
+Ô£à /noticias/atentado-orgullo-berlin-atropello-csd
+Ô£à /noticias/rusia-ataques-ucrania-8-muertos-zelenski-aviso
+Ô£à /noticias/fifa-venta-mundial-kushner-boicot-europa
+Ô£à /noticias/guterres-siria-fin-sanciones-damasco
+Ô£à /noticias/petroleras-record-ganancias-guerra-iran
+Ô£à /noticias/padre-tirador-georgia-condenado-15-anos
+Ô£à /blog/smartsub-subtitulos-traduccion-doblaje-ia-open-source
+Ô£à /noticias/muere-jose-luis-bola-ingeniero-sonido-division-minuscula
+Ô£à /noticias/muere-franco-baresi-leyenda-milan
+Ô£à /noticias/dnu-milei-expulsar-extranjeros-2026
+Ô£à /noticias/tragedia-helicoptero-san-juan-siete-victimas
+Ô£à /noticias/uefa-boicot-fifa-privatizacion-mundial
+Ô£à /noticias/bonistas-default-2001-cierre-causa-argentina
+Ô£à /noticias/joven-argentina-encontrada-muerta-punta-este
+Ô£à /noticias/irrupcion-migrantes-ceuta-emergencia
+Ô£à /noticias/lula-milei-payasada-mercosur
+Ô£à /noticias/caso-loan-juicio-gritos-acusaciones
+Ô£à /noticias/gobierno-cierra-coro-nacional-ninos
+Ô£à /noticias/kristalina-georgieva-baila-tango-argentina
+Ô£à /noticias/bolivar-elimina-gremio-octavos-sudamericana
+Ô£à /noticias/chile-venezuela-reactivacion-consular
+Ô£à /noticias/jared-leto-acusaciones-conducta-sexual-adolescentes
+Ô£à /noticias/rusia-busca-captura-pavel-durov-telegram
+Ô£à /noticias/cuanto-vale-tu-outfit-velada-6-ibai
+Ô£à /noticias/outfits-velada-6-desglose-completo-influencers
+Ô£à /noticias/ranking-historico-outfits-velada-del-ano
+Ô£à /noticias/antonio-zago-regresa-strongest
+Ô£à /noticias/atraco-terminal-cochabamba-muerto-heridos
+Ô£à /noticias/samuel-disidencias-internas-aliados-legisladores
+Ô£à /noticias/militar-fallecido-huanuni-emboscada-jukus
+Ô£à /noticias/alerta-migratoria-feminicidio-chulumani
+Ô£à /noticias/falta-combustible-aviacion-beni-aeronaves-paralizadas
+Ô£à /noticias/general-willy-pozo-viceministro-defensa
+Ô£à /noticias/vocero-samuel-separar-gobierno-separarse-bolivia
+Ô£à /noticias/rodrigo-paz-viaja-peru-reunion-keiko
+Ô£à /noticias/nvidia-open-secure-ai-alliance-osaia
+Ô£à /noticias/3-frases-legales-para-un-policia-si-te-quiere-revisar
+Ô£à /noticias/gero-arias-vs-viruzz-analisis-combate-velada-6
+Ô£à /noticias/thegrefg-vence-illojuan-main-event-velada-6
+Ô£à /noticias/momentos-virales-curiosidades-velada-ano-6
+Ô£à /noticias/reacciones-redes-sociales-velada-ano-6
+Ô£à /blog/consola-gestion-activos-video-arquitectura-offline-first
+Ô£à /noticias/incendios-forestales-dramatica-situacion-espana-francia
+Ô£à /noticias/rusia-recluta-extranjeros-luchar-contra-ucrania
+Ô£à /noticias/nvidia-vera-cpu-eda
+Ô£à /noticias/la-velada-del-ano-6-cartelera-completa-horarios-como-ver-bolivia
+Ô£à /noticias/illojuan-vs-thegrefg-main-event-velada-6
+Ô£à /noticias/guia-completa-10-combates-velada-6-peleadores
+Ô£à /noticias/espana-vs-latinoamerica-rivalidad-velada-6
+Ô£à /noticias/resultados-completos-velada-del-ano-6-ganadores
+Ô£à /noticias/tres-anos-junta-militar-niger-promesas-incumplidas
+Ô£à /noticias/vozinha-ficha-colo-colo-portero-mundial-2026
+Ô£à /noticias/nvidia-deepstream-9-1-tracking
+Ô£à /noticias/nvidia-ising-decoding-quantum
+Ô£à /noticias/nvidia-omniverse-rtx-sensor
+Ô£à /guias/guia-cedula-identidad-segip-bolivia-2026
+Ô£à /guias/guia-soat-bolivia-2026
+Ô£à /guias/guia-licencia-conducir-bolivia-2026
+Ô£à /guias/guia-pasaporte-boliviano-2026
+Ô£à /guias/guia-nit-sin-bolivia-2026
+Ô£à /guias/guia-ruat-transferencia-vehicular-bolivia-2026
+Ô£à /guias/guia-certificado-nacimiento-online-bolivia-2026
+Ô£à /guias/guia-antecedentes-policiales-reap-bolivia-2026
+Ô£à /guias/guia-antecedentes-penales-bolivia-2026
+Ô£à /guias/guia-visa-bolivia-extranjeros-2026
+Ô£à /noticias/sistema-gestion-prensa-react-electron-ia
+Ô£à /noticias/keiko-fujimori-asume-presidencia-peru-entre-china-eeuu
+Ô£à /noticias/venezuela-momento-malvinas-delcy-rodriguez
+Ô£à /noticias/venezuela-descredito-fuerza-armada-bolivariana
+Ô£à /noticias/nvidia-gb300-moe-world-record
+Ô£à /noticias/nvidia-rubin-gpu-architecture
+Ô£à /noticias/nvidia-vera-cpu-olympus
+Ô£à /noticias/nvidia-nvlink-scale-up-network
+Ô£à /noticias/comision-europea-multa-google-890-millones
+Ô£à /noticias/agencias-representantes-influencers-250-millones
+Ô£à /noticias/rapamicina-autismo-nueva-via-tratamiento
+Ô£à /noticias/c212-aviocar-transporte-militar-espanol
+Ô£à /noticias/japon-rompe-leyes-fisica-calor-programable
+Ô£à /noticias/amd-advancing-ai-2026-helios-epyc-instinct
+Ô£à /noticias/amd-instinct-mi400-gpus-ia
+Ô£à /noticias/amd-kria-ryzen-ai-embedded-robotica
+Ô£à /noticias/mlb-trade-deadline-2026
+Ô£à /noticias/ops-voluntarias-onu-gestion-informacion-salud
+Ô£à /noticias/via-lactea-proyectiles-gas-32-millones-kmh
+Ô£à /noticias/tormentas-solares-subestimadas-estudio-nature
+Ô£à /noticias/nfl-training-camps-2026
+Ô£à /noticias/paro-72-horas-suspende-consultas-hospitales-santa-cruz
+Ô£à /noticias/plan-nacional-cancer-fondo-financiamiento-sostenible
+Ô£à /blog/reflexion-comparativa-cultura-audiovisual-bolivia-mundo
+Ô£à /noticias/chucky-micro-el-torno
+Ô£à /noticias/nba-offseason-grades-2026
+Ô£à /noticias/automedicacion-resistencia-antibioticos-bolivia
+Ô£à /noticias/salud-masculina-relegada-bolivia-prevencion
+Ô£à /noticias/atencion-materno-neonatal-equipamiento-santa-cruz
+Ô£à /noticias/recomendaciones-salud-incendios-forestales
+Ô£à /noticias/ministerio-salud-fortalece-sistema-cochabamba
+Ô£à /noticias/nvidia-vera-rubin-nvl72
+Ô£à /noticias/nvidia-spectrum-6-ethernet-switch
+Ô£à /noticias/fifa-world-cup-2026-changes
+Ô£à /noticias/cancer-jovenes-habitos-vida-contaminacion
+Ô£à /noticias/fifa-investiga-incidentes-final-mundial-argentina
+Ô£à /noticias/espana-campeona-mundial-2026-ferrara-torres-final
+Ô£à /noticias/cinemateca-50-anos-todo-lo-que-era-posible
+Ô£à /noticias/nova-vuelve-sinfonia-de-historias-inolvidables
+Ô£à /noticias/bolivia-lab-18-edicion-industria-cine
+Ô£à /noticias/spain-dominance-football-2026
+Ô£à /noticias/fallece-tito-de-la-vina
+Ô£à /noticias/mlb-labor-battle-2026
+Ô£à /noticias/the-odyssey-thematic-analysis-nolan-homer
+Ô£à /noticias/pianista-daniel-alvarez-gana-premio-sur-musica-nueva
+Ô£à /noticias/barcelona-adeyemi-fichaje-2026
+Ô£à /noticias/the-odyssey-reviews-critics-crowning-achievement
+Ô£à /noticias/inter-miami-autogol-hilarante
+Ô£à /noticias/the-odyssey-adaptations-history-cinema-television
+Ô£à /noticias/cinemateca-217-anos-la-paz
+Ô£à /noticias/amd-gartner-lider-cpus-ia-empresarial
+Ô£à /noticias/wnba-midseason-2026-caitlin-clark
+Ô£à /noticias/nvidia-jetson-thor-t3000-t2000
+Ô£à /noticias/nolan-odisea-reparto
+Ô£à /noticias/detras-epica-aventura-nolan-la-odisea
+Ô£à /noticias/lebron-james-free-agency-2026
+Ô£à /noticias/plan-nacional-enfermedades-no-transmisibles-atencion-primaria
+Ô£à /noticias/homer-odyssey-guide-ancient-epic-nolan-film
+Ô£à /noticias/premio-eduardo-abaroa-2026
+Ô£à /noticias/larga-noche-museos-2026
+Ô£à /noticias/festival-cine-santa-cruz-2026
+Ô£à /noticias/the-odyssey-nolan-production-behind-scenes
+Ô£à /noticias/festival-cine-salar-uyuni-2026
+Ô£à /noticias/serie-boliviana-inteligencia-artificial
+Ô£à /noticias/te-pueden-meter-a-la-carcel-por-deber-a-coppel-o-elektra
+Ô£à /noticias/cortometraje-yatichana-galardones-internacionales
+Ô£à /blog/evolucion-televisiva-bolivia-analogo-digital
+Ô£à /noticias/incentivo-produccion-audiovisual-cultural-2026
+Ô£à /noticias/amd-computacion-cuantica-hibrida
+Ô£à /noticias/messi-bombon-asesino-himno-argentino
+Ô£à /noticias/morsa-abdominales-viral
+Ô£à /noticias/abuelita-invento-casero-bicicleta
+Ô£à /noticias/gatito-maullidos-michael-jackson
+Ô£à /noticias/amd-rackspace-30mw-ia-empresarial
+Ô£à /noticias/amd-epyc-venice-tsmc-2nm
+Ô£à /noticias/bolivia-puesto-91-rsf
+Ô£à /blog/detras-de-camaras-la-estrella
+Ô£à /noticias/red-uno-xona-streaming
+Ô£à /noticias/documental-travesia-tierra-cinemateca
+Ô£à /noticias/documental-mi-cuerpo-mi-territorio-youtube
+
+­ƒÄë 450 p├íginas pre-renderizadas en dist/
+­ƒôä 436 art├¡culos extra├¡dos din├ímicamente de translations.ts
+
+> freddydev-portfolio@0.0.0 prerender
+> node scripts/prerender.mjs
+
+  Iniciando servidor de preview...
+
+­ƒÜÇ Prerenderizando 14 rutas...
+
+  Ô£ô /
+  Ô£ô /sobre-mi
+  Ô£ô /portafolio
+  Ô£ô /cv
+  Ô£ô /blog
+  Ô£ô /noticias
+  Ô£ô /guias
+  Ô£ô /galeria
+  Ô£ô /showreel
+  Ô£ô /contacto
+  Ô£ô /reservas
+  Ô£ô /servicios
+  Ô£ô /admin
+  Ô£ô /eclipse-2026
+
+Ô£à 14/14 p├íginas prerenderizadas.
+

@@ -1,0 +1,920 @@
+[
+  {
+    "id": "1121",
+    "title": "Reportaje especial | El jefe de inteligencia de EE. UU. en Moscú: el viaje secreto de Ratcliffe a Rusia",
+    "has_capitulo": false,
+    "h2_count": 8,
+    "h2_samples": [
+      "El vuelo C-17 de la CIA: rastreo y confirmación",
+      "El precedente Burns 2021: canal backchannel con el Kremlin",
+      "Objetivos de Ratcliffe: inteligencia, Ucrania y canales diplomáticos"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1131",
+    "title": "Reportaje especial | Caso Beller-Cerimedo: cronología completa del video del ataque a la detención del asesor de Paz",
+    "has_capitulo": false,
+    "h2_count": 12,
+    "h2_samples": [
+      "El ataque del 18 de agosto: reconstrucción por video",
+      "Detención e imputación formal: 48 horas después",
+      "Declaración de Beller desde el hospital: \"fui emboscada\""
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1132",
+    "title": "Reportaje especial | Polonia, la OTAN, EE. UU. y Rusia: la «supuesta guerra» que se debate en 2026",
+    "has_capitulo": false,
+    "h2_count": 18,
+    "h2_samples": [
+      "El debate real: disuasión vs. preparación para guerra",
+      "El \"Escudo Oriental\" polaco: Tarcza Wschód y gasto del 4% PIB",
+      "Amenazas híbridas y operación Eastern Sentry: ciber, migración y sabotaje"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1133",
+    "title": "Reportaje especial | \"Que caiga quien tenga que caer\": Paz habla del caso Cerimedo el 26 de agosto y Beller responde con los chats",
+    "has_capitulo": false,
+    "h2_count": 10,
+    "h2_samples": [
+      "La alocución de Paz: tres frases clave textuales",
+      "Por qué la mención a Cerimedo-Beller detonó la crisis política",
+      "Réplica de Beller desde la clínica: \"no soy testaferro, fui emboscada\""
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1134",
+    "title": "Comité pro Santa Cruz da plazo al Gobierno hasta el domingo para abrogar el DS 5676",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Asamblea cívica de Santa Cruz: agro, transporte y juntas vecinales",
+      "Advertencia de paro: \"tolerancia agotada\" — Fernando Larach",
+      "Escenarios: diálogo en 72 horas o escalada a bloqueos nacionales"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1135",
+    "title": "Desde Palmasola, Cerimedo niega poder en el Gobierno y enfrenta demanda por $us 200M",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Defensa técnica: peritaje de audios y cadena de custodia",
+      "Demanda civil por $5.2M: consorcio agroindustrial vs. Cerimedo",
+      "Investigación fiscal: 180 días preventiva y legitimación de ganancias ilícitas"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1136",
+    "title": "Paz reconoce 'ineficiencia' del Estado y respalda propuesta de Velasco para libre importación de diésel",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Paz: \"modelo energético agotado\" — diagnóstico y cifras del déficit",
+      "Proyecto de ley Velasco: desburocratización ANH, importación directa y biocombustibles",
+      "Hoja de ruta legislativa: comisión de energía y consenso opositor"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1137",
+    "title": "Paz duplica el presupuesto de YPFB para subvencionar combustible hasta enero 2027",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "$1.850 millones de inyección fiscal: desglose y fuentes",
+      "YPFB vs. Economía: criterios divergentes en precio, volumen y plazo",
+      "Logística de importación: 12 buques y normalización escalonada"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1138",
+    "title": "Reinstalan bloqueo en puente San Pablo tras gasificación; exigen atención a demandas de transporte",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Reactivación del cerco en Guarayos: 72 horas de bloqueo carretero",
+      "Voces del conflicto: transportistas, comunarios y Policía",
+      "Impacto: pérdidas económicas y desabastecimiento regional"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1139",
+    "title": "Gobernación cruceña alista decreto para importar combustible con privados ante crisis",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Ley de emergencia departamental: competencias exclusivas y fondo de 90 días",
+      "Gobernador Aguilera: \"la autonomía no puede ser meramente discursiva\"",
+      "Ruta legislativa: Asamblea Departamental y reacción gubernamental"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1140",
+    "title": "Sokol se reúne con el Encargado de Negocios de EEUU en Bolivia para tratar cooperación bilateral",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Agenda Bolivia-China: litio, soya, infraestructura y financiamiento",
+      "Acuerdos preliminares: tres memorandos y línea de crédito",
+      "Próximos pasos: comisión mixta y ratificación legislativa"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1141",
+    "title": "Fuertes vientos derriban árboles sobre vehículos en Santa Cruz y dejan cortes de luz",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Temporal severo: granizo de 4cm, -5°C y quince barrios afectados",
+      "Operativos de emergencia: rescates, cuadrillas y balance municipal",
+      "Alerta meteorológica SENAMHI: riesgo persistente y recomendaciones"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1142",
+    "title": "Eclipse lunar parcial: Bolivia vivió la 'Luna de Sangre' en una madrugada despejada",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Eclipse anular con 84% de cobertura: registro en altiplano y valles",
+      "Vigilia científica: Planetario UMSA y observatorios astronómicos",
+      "Calendario astronómico: próximos fenómenos visibles en la región"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1143",
+    "title": "Senado aprueba Ley de Acceso a la Información y la remite a Diputados",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Pilares normativos: máxima publicidad y datos abiertos obligatorios",
+      "Régimen sancionatorio: falta grave por silencio administrativo",
+      "Trámite legislativo: debate y votación en la Cámara Baja"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1144",
+    "title": "Nepal sube a 553 los muertos por la riada del Bhote Koshi; rescates siguen en zonas aisladas",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Devastación en Sindhupalchok: 20 aldeas arrasadas y vía cortada",
+      "Operativo de rescate: despliegue militar y ayuda de emergencia",
+      "Respuesta internacional: coordinación con India, China y UN OCHA"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1145",
+    "title": "Muere Harald V de Noruega a los 89 años; Haakon VIII asume el trono de Oslo",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Legado de Harald V: 35 años de reinado y cohesión democrática",
+      "Transición constitucional: regencia del príncipe Haakon en el Storting",
+      "Honras de Estado: protocolo oficial y duelo nacional"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1146",
+    "title": "España llama a la calma tras noche de protestas y disturbios en Ceuta por crisis migratoria",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Tensión en Ceuta: centros saturados e incidentes en el perímetro",
+      "Plan del Ministerio del Interior: traslados y refuerzo policial",
+      "Canal diplomático: cooperación técnica y fronteriza con Marruecos"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1147",
+    "title": "Inflación en España se dispara al 4,3% en agosto, el más alto en 18 meses",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Aceleración del IPC al 4,3%: impacto de electricidad y carburantes",
+      "Inflación subyacente y encarecimiento de la cesta de alimentos",
+      "Posición de los agentes sociales: patronal y sindicatos frente a los precios"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1148",
+    "title": "Seis meses de guerra en Irán: de la ofensiva sorpresa al enquistamiento regional",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Estancamiento táctico: líneas de frente fijas y guerra de desgaste",
+      "Coste humanitario: 1,4 millones de desplazados y daño a infraestructuras",
+      "Bloqueo diplomático: discrepancias entre Kyiv, Moscú y mediadores"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1149",
+    "title": "Trump firma orden para renombrar lago Ontario como 'Lake America'; Canadá rechaza categóricamente",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Orden ejecutiva sobre aguas limítrofes: alcance y justificación",
+      "Rechazo de Canadá: apelación al Tratado de Aguas Fronterizas de 1909",
+      "Mecanismo de controversias: funciones de la Comisión Mixta Internacional"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1150",
+    "title": "Meta anuncia restricciones para menores tras acuerdo de $us 18.000 millones en tribunales",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Medidas técnicas obligatorias: cuentas hiperprotegidas y verificación IA",
+      "Supervisión externa: auditoría técnica y herramientas para tutores",
+      "Despliegue escalonado: adecuación a normativas de la UE y EE. UU."
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1151",
+    "title": "Incendios forestales en Argelia dejan 12 muertos; tres días de luto nacional",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Frentes de fuego en Cabilia: cuarenta focos y miles de evacuados",
+      "Respuesta estatal: duelo oficial y movilización de bomberos",
+      "Apoyo internacional: activación del Mecanismo Europeo de Protección Civil"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1152",
+    "title": "Rockstar presenta vista oficial de GTA 6: fans y críticos impactados por el realismo",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Recreación de Vice City: dimensiones del mapa y ambientación en Leonida",
+      "Avances técnicos: comportamiento de IA y dinámica narrativa dual",
+      "Impacto en la industria: proyecciones comerciales y recepción del mercado"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1153",
+    "title": "Familias vuelan a Nepal en busca de 33 británicos desaparecidos tras riada",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Expedición aislada en Langtang: 18 senderistas en alta montaña",
+      "Gestión consular: comunicación satelital y apoyo a familiares",
+      "Operativo de evacuación: ventana meteorológica y transporte aéreo"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1154",
+    "title": "Policía gasifica bloqueadores en puente San Pablo y despeja la vía temporalmente",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Operativo policial en San Pablo: despliegue y despeje de la vía",
+      "Balance de seguridad: detenidos, fluidez del transporte y control",
+      "Postura dirigencial: reclamos del sector y exigencia de diálogo"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1155",
+    "title": "Fiscalía allana departamento de Cerimedo en Equipetrol; Beller podría ser citada a declarar",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Allanamiento en Torre Titanium: incautación de material y peritaje",
+      "Diligencias sobre testimonios: situación jurídica de Nadia Beller",
+      "Avance procesal: plazos periciales e informes del Ministerio Público"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1156",
+    "title": "Paz sobre el DS 5676: 'Se puede mejorar, pero no se puede retroceder en la formalización'",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Debate sobre el DS 5676: equilibrio entre fiscalización y suministro",
+      "Propuesta de reforma: articulación técnica y cupos productivos",
+      "Convocatoria sectorial: mesas de trabajo con gremios afectados"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1157",
+    "title": "Senado sanciona crédito de $us 62 millones del BID para ampliar el Teleférico de La Paz",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Destino del crédito del BID: ampliación de la Línea Café y mejoras",
+      "Planificación de Mi Teleférico: capacidad operativa y nuevos tramos",
+      "Fase de ejecución: cronograma de obras y fiscalización pública"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1158",
+    "title": "Mirko Sokol está convocado a declarar como sindicado este viernes por caso donaciones",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Expediente de investigación: antecedentes y contratos indagados",
+      "Estrategia de defensa: memoriales y descargo de responsabilidades",
+      "Calendario judicial: audiencia de declaración y medidas cautelares"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1159",
+    "title": "Sube a 392 la cifra de muertos por catástrofe en Nepal-Tíbet; hay cientos de desaparecidos",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Avenida torrencial en valles ribereños: impacto del aluvión",
+      "Coordinación transfronteriza: tareas de rescate entre Nepal y China",
+      "Evaluación geológica: monitoreo satelital de lagos glaciares"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1160",
+    "title": "Empeora la salud del rey Harald V de Noruega; sufre anemia hemolítica grave",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Cuadro médico de Harald V: tratamiento hospitalario y evolución",
+      "Marco constitucional: regencia del príncipe Haakon y despacho de Estado",
+      "Reacciones políticas: pronunciamiento parlamentario y apoyo ciudadano"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1161",
+    "title": "Noche de disturbios en Ceuta: manifestantes destrozan campamentos de migrantes",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Disturbios nocturnos en Ceuta: daños en campamentos y detenidos",
+      "Condena institucional: declaraciones de la Delegación y Cruz Roja",
+      "Dispositivo de seguridad: refuerzo policial y vigilancia fronteriza"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1162",
+    "title": "Seis meses de guerra en Irán: cronología de medio año de fuego cruzado",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Cronología de seis meses: fases militares y evolución del conflicto",
+      "Análisis estratégico: dispersión de fuerzas y balance regional",
+      "Perspectivas diplomáticas: escenarios futuros y condiciones de paz"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  },
+  {
+    "id": "1163",
+    "title": "Trump firma orden para renombrar lago Ontario como 'Lake America'; tensión diplomática con Ottawa",
+    "has_capitulo": false,
+    "h2_count": 6,
+    "h2_samples": [
+      "Declaraciones en campaña: propuesta de cambio de denominación",
+      "Reacciones en Canadá: rechazo parlamentario y fundamentos del tratado",
+      "Estatus cartográfico: navegación internacional y cartas náuticas"
+    ],
+    "components": {
+      "stat_grid": true,
+      "tweet_card": true,
+      "expert_quote": true,
+      "report_figure": true
+    },
+    "checklist": {
+      "Q1_apertura_sin_redundancia": "SÍ",
+      "Q2_subtitulos_tematicos": "SÍ",
+      "Q3_cifras_en_prosa": "SÍ",
+      "Q4_orden_citas": "SÍ",
+      "Q5_terminologia_precisa": "SÍ",
+      "Q6_fuentes_validas": "SÍ",
+      "Q7_sin_lenguaje_relleno": "SÍ",
+      "Q8_piramide_invertida": "SÍ"
+    }
+  }
+]

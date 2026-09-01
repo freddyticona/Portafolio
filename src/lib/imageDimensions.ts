@@ -1,130 +1,6 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
-  "/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg": {
-    "width": 1280,
-    "height": 960
-  },
-  "/images/blog/caso-nadia-beller/cerimedo-efe.jpg": {
-    "width": 1200,
-    "height": 630
-  },
-  "/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp": {
-    "width": 987,
-    "height": 555
-  },
-  "/images/blog/bolivia-agosto-2026/rodrigo-paz-escasez-combustibles.jpg": {
-    "width": 1200,
-    "height": 799
-  },
-  "/images/blog/bolivia-agosto-2026/nevadas-potosi-frontera-chile.jpg": {
-    "width": 1280,
-    "height": 720
-  },
-  "/images/blog/bolivia-agosto-2026/combustibles-filas-surtidores.jpg": {
-    "width": 1600,
-    "height": 1066
-  },
-  "/images/blog/noticias-2026/1144-nepal-bhote-koshi.jpg": {
-    "width": 1280,
-    "height": 960
-  },
-  "/images/blog/venezuela-terremotos-junio-2026-catia-la-mar.jpg": {
-    "width": 1280,
-    "height": 960
-  },
-  "/images/blog/noticias-2026/1134-santa-cruz-comite-diesel.jpg": {
-    "width": 1280,
-    "height": 720
-  },
-  "/images/blog/noticias-2026/1135-palacio-justicia-santa-cruz.jpg": {
-    "width": 960,
-    "height": 720
-  },
-  "/images/blog/noticias-2026/1136-rodrigo-paz-asamblea.jpg": {
-    "width": 1024,
-    "height": 683
-  },
-  "/images/blog/noticias-2026/1137-ypfb-hidrocarburos.jpg": {
-    "width": 1280,
-    "height": 759
-  },
-  "/images/blog/noticias-2026/1139-gobernacion-santa-cruz.jpg": {
-    "width": 720,
-    "height": 540
-  },
-  "/images/blog/noticias-2026/1140-embajada-eeuu-la-paz.jpg": {
-    "width": 1280,
-    "height": 857
-  },
-  "/images/blog/noticias-2026/1141-vientos-santa-cruz.jpg": {
-    "width": 694,
-    "height": 576
-  },
-  "/images/blog/noticias-2026/1142-eclipse-lunar-sangre.jpg": {
-    "width": 1280,
-    "height": 1049
-  },
-  "/images/blog/noticias-2026/1143-senado-bolivia-hemiciclo.jpg": {
-    "width": 1280,
-    "height": 850
-  },
-  "/images/blog/noticias-2026/1145-king-harald-norway.jpg": {
-    "width": 639,
-    "height": 782
-  },
-  "/images/blog/noticias-2026/1146-ceuta-tarajal-spain.jpg": {
-    "width": 1280,
-    "height": 1771
-  },
-  "/images/blog/noticias-2026/1147-inflacion-espana-madrid.jpg": {
-    "width": 1280,
-    "height": 1920
-  },
-  "/images/blog/noticias-2026/1148-iran-hormuz-war.jpg": {
-    "width": 1280,
-    "height": 850
-  },
-  "/images/blog/noticias-2026/1149-lake-ontario.jpg": {
-    "width": 1280,
-    "height": 960
-  },
-  "/images/blog/noticias-2026/1150-meta-headquarters.jpg": {
-    "width": 1280,
-    "height": 853
-  },
-  "/images/blog/noticias-2026/1151-argelia-incendios-kabylie.jpg": {
-    "width": 800,
-    "height": 540
-  },
-  "/images/blog/noticias-2026/1152-rockstar-games-gta.jpg": {
-    "width": 579,
-    "height": 640
-  },
-  "/images/blog/noticias-2026/1153-nepal-langtang-valley.jpg": {
-    "width": 1280,
-    "height": 853
-  },
-  "/images/blog/bolivia-agosto-2026/turistas-laguna-colorada-nieve.jpg": {
-    "width": 980,
-    "height": 735
-  },
-  "/images/blog/reino-unido-chagos-burnham-primer-ministro-2026.jpg": {
-    "width": 629,
-    "height": 946
-  },
-  "/images/blog/migrantes-mediterraneo-muertes-aumentan-2026-omi.jpg": {
-    "width": 5472,
-    "height": 3648
-  },
-  "/images/blog/israel-iran-guerra-2026.jpg": {
-    "width": 960,
-    "height": 1280
-  },
-  "/images/blog/noticias-2026/1163-lake-ontario-ny.jpg": {
-    "width": 1280,
-    "height": 960
-  },
   "/images/blog/caso-nadia-beller/momento-ataque-camara.webp": {
     "width": 1200,
     "height": 809
@@ -153,13 +29,25 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1280,
     "height": 853
   },
+  "/images/blog/migrantes-mediterraneo-muertes-aumentan-2026-omi.jpg": {
+    "width": 5472,
+    "height": 3648
+  },
   "/images/blog/eeuu-canada-nuevos-aranceles-trump-25-agosto-2026.jpg": {
     "width": 1280,
     "height": 960
   },
+  "/images/blog/reino-unido-chagos-burnham-primer-ministro-2026.jpg": {
+    "width": 629,
+    "height": 946
+  },
   "/images/blog/espana-campeon-mundial-futbol-2026-final-argentina.jpg": {
     "width": 640,
     "height": 475
+  },
+  "/images/blog/venezuela-terremotos-junio-2026-catia-la-mar.jpg": {
+    "width": 1280,
+    "height": 960
   },
   "/images/blog/costa-rica-terremoto-m5-25-agosto-2026-sismos-globales.jpg": {
     "width": 1280,
@@ -188,6 +76,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/blog/jefe-inteligencia-eeuu-ratcliffe-moscu-2026.jpg": {
     "width": 1280,
     "height": 1549
+  },
+  "/images/blog/israel-iran-guerra-2026.jpg": {
+    "width": 960,
+    "height": 1280
   },
   "/images/blog/sudan-guerra-civil-hambruna-2026.jpg": {
     "width": 1280,
@@ -400,6 +292,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/news/lote-2-ago-2026/rescate-fauna-silvestre.jpg": {
     "width": 1280,
     "height": 960
+  },
+  "/images/blog/caso-nadia-beller/cerimedo-efe.jpg": {
+    "width": 1200,
+    "height": 630
   },
   "/images/blog/caso-nadia-beller/fiscal-roger-mariaca.webp": {
     "width": 1200,

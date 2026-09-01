@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "1121",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1  El viaje secreto y el rastro de vuelo"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2  El precedente: Burns en Moscú, noviembre de 2021"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3  ¿Qué busca Ratcliffe en Moscú?"
+      },
+      {
+        "num": 4,
+        "original": "Capítulo 4  El contexto de la semana"
+      }
+    ],
+    "paragraphs_sample": [
+      "La noticia fue adelantada por CBS News y luego confirmada por RFE/RL. El seguimiento de vuelo mostró un Boeing C-17A Globemaster III de la Fuerza Aérea de EE. UU., vuelo RCH4555, que partió de Riga (L",
+      "Ni la CIA ni la Casa Blanca han comentado públicamente. El Pentágono, el Departamento de Defensa y la Fuerza Aérea declinaron hacer declaraciones (ABC News). Funcionarios estadounidenses confirmaron a"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1131",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El video: así fue el ataque (18 de agosto)"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — La detención y la imputación (19 de agosto)"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Lo que dijo Beller desde el hospital (20-21 de agosto)"
+      },
+      {
+        "num": 4,
+        "original": "Capítulo 4 — Las voces oficiales (20-26 de agosto)"
+      },
+      {
+        "num": 5,
+        "original": "Capítulo 5 — Los chats: de TN 25 de junio al anuncio del 26 de agosto"
+      }
+    ],
+    "paragraphs_sample": [],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": true
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1132",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1  Qué se está diciendo realmente"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2  El Escudo Oriental de Polonia"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3  Las amenazas híbridas y la operación Eastern Sentry"
+      },
+      {
+        "num": 4,
+        "original": "Capítulo 4  El papel de Estados Unidos"
+      },
+      {
+        "num": 5,
+        "original": "Capítulo 5  Finlandia, los bálticos y la doctrina de minas"
+      },
+      {
+        "num": 6,
+        "original": "Capítulo 6  Los escenarios de guerra"
+      },
+      {
+        "num": 7,
+        "original": "Capítulo 7  La voz de Moscú"
+      },
+      {
+        "num": 8,
+        "original": "Capítulo 8  Repercusiones y análisis"
+      },
+      {
+        "num": 9,
+        "original": "Capítulo 9  Conclusión"
+      }
+    ],
+    "paragraphs_sample": [
+      "No es una frase suelta. A principios de julio de 2026, la revista Politico publicó una crónica titulada «NATO's Eastern Flank Prepares for Possible War with Russia», fruto de un recorrido de periodist",
+      "Jukka Kopra, presidente de la comisión de defensa del Parlamento finlandés, lo dijo sin rodeos: «Estamos contentos de estar en la Alianza, pero entendemos que golpearemos primero por nuestra cuenta an",
+      "Polonia es el pivote de la estrategia. El «Escudo Oriental» (Tarcza Wschód), anunciado por el primer ministro Donald Tusk en noviembre de 2024, es un sistema de estructuras defensivas a lo largo de la"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": true
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1133",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1  Qué dijo Paz el 26 de agosto, frase por frase"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2  Por qué esas palabras encendieron la crisis"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3  La réplica de Beller, tres horas después"
+      },
+      {
+        "num": 4,
+        "original": "Capítulo 4  Qué hay en juego ahora"
+      },
+      {
+        "num": 5,
+        "original": "Capítulo 5  Lo que sigue"
+      }
+    ],
+    "paragraphs_sample": [
+      "Paz habló a las 11:30, flanqueado por su vocero, sin admitir preguntas. El mensaje, transmitido por Bolivia TV y recogido por Infobae, La Razón y El Deber, tuvo tres ejes:",
+      "El presidente insistió en que no conocía \"las maniobras\" atribuidas a Cerimedo y que se enteró del vínculo con Beller \"por la prensa\". Evitó mencionar los chats que Beller dice tener con su entorno y ",
+      "Las tres frases no cerraron el caso, lo trasladaron del juzgado al Palacio:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1134",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La asamblea cívica y el malestar productivo"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Citas directas y advertencia de paro"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Escenarios ante la falta de diálogo"
+      }
+    ],
+    "paragraphs_sample": [
+      "El sector agropecuario, las federaciones de transporte pesado y las juntas vecinales cruceñas coincidieron en calificar la norma 5676 como un freno directo para la siembra de invierno y la logística d",
+      "El presidente cívico Fernando Larach fue enfático al término del encuentro al advertir que la tolerancia del sector productivo está agotada:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1135",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La defensa técnica y los audios peritados"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — La demanda civil millonaria"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Avances de la investigación fiscal"
+      }
+    ],
+    "paragraphs_sample": [
+      "Cerimedo fue remitido a Palmasola con 180 días de prisión preventiva tras la divulgación de audios en los que presuntamente negociaba comisiones millonarias vinculadas a contrataciones públicas. Su ab",
+      "De forma paralela a la causa penal por legitimación de ganancias ilícitas y uso indebido de influencias, un consorcio de empresas constructoras y logísticas formalizó una demanda civil por 200 millone"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1136",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El sinceramiento del debate energético"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Citas textuales y detalles del proyecto"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Próximos pasos en la Cámara de Diputados"
+      }
+    ],
+    "paragraphs_sample": [
+      "Paz señaló que la escasez en surtidores y los cupos impuestos mediante decretos son el síntoma visible de un modelo que agotó las reservas de gas y las divisas del Banco Central. Según el parlamentari",
+      "Durante su alocución, Paz detalló que la iniciativa legislativa de Velasco busca desburocratizar el registro ante la Agencia Nacional de Hidrocarburos (ANH) para que federaciones de cañeros, soyeros, "
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1137",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La magnitud de la inyección fiscal"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Criterios económicos encontrados"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Impacto en la logística de importación"
+      }
+    ],
+    "paragraphs_sample": [
+      "El decreto financiero asigna un cupo adicional de 1.850 millones de dólares provenientes de reasignaciones presupuestarias y créditos multilaterales para cubrir los contratos de flete y suministro con",
+      "El presidente de la estatal petrolera afirmó que la inyección financiera permitirá normalizar los despachos a las estaciones de servicio urbanas y rurales a partir de la primera semana de septiembre. "
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1138",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La reactivación del cerco carretero"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Testimonios desde el punto de conflicto"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Pérdidas económicas y desabastecimiento"
+      }
+    ],
+    "paragraphs_sample": [
+      "Los manifestantes, que reclaman cupos extraordinarios de diésel para la cosecha de soya y el mantenimiento urgente de la red vial fundamental, utilizaron maquinaria pesada y troncos para levantar barr",
+      "El secretario ejecutivo del transporte interprovincial de Guarayos, Carmelo Mendoza, denunció excesos durante la intervención policial de la madrugada y ratificó la intransigencia del movimiento hasta"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1139",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El marco autonómico de emergencia"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Vocería de la Gobernación y rechazo del centralismo"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Próximos pasos y reacción gubernamental"
+      }
+    ],
+    "paragraphs_sample": [
+      "La iniciativa legal se fundamenta en las competencias exclusivas departamentales en materia de fomento al desarrollo productivo y mitigación de desastres económicos. El esquema contempla que la Gobern",
+      "El gobernador Mario Aguilera puntualizó en rueda de prensa que la autonomía no puede ser meramente discursiva cuando el aparato productivo corre riesgo inminente de quiebra:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1140",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Agenda bilateral de comercio e inversión"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Declaraciones oficiales y acuerdos preliminares"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Próximos pasos en la agenda industrial"
+      }
+    ],
+    "paragraphs_sample": [
+      "La cita bilateral abordó temas prioritarios para la reactivación del aparato productivo boliviano, entre ellos la ampliación de programas de asistencia técnica para micro y pequeñas empresas, la apert",
+      "Al concluir la sesión de trabajo, el líder gremial destacó la relevancia de mantener canales directos con socios comerciales estratégicos para modernizar la tecnología productiva en el país:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": true
+    }
+  },
+  {
+    "id": "1141",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El temporal y los destrozos en la capital"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Operativos de emergencia y pronunciamiento"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Pronóstico del SENAMHI"
+      }
+    ],
+    "paragraphs_sample": [
+      "El temporal, que ingresó acompañado de un brusco descenso de temperatura, golpeó con mayor intensidad al centro histórico y a los distritos municipales 1, 2, 4 y 5. En el segundo anillo y avenida Busc",
+      "Equipos de la Unidad Municipal de Emergencias (UME), bomberos voluntarios y cuadrillas de la Cooperativa Rural de Electrificación (CRE) se desplegaron en más de 45 puntos reportados por vecinos a trav",
+      "El director municipal de Gestión de Riesgo, Juan Carlos Vaca, brindó un balance preliminar al anochecer instando a los conductores a mantener la prudencia:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1142",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La danza astronómica en el altiplano y valles"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Actividades en observatorios y planetarios"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Próximos eventos astronómicos"
+      }
+    ],
+    "paragraphs_sample": [
+      "El fenómeno inició a las 02:42 hora boliviana, alcanzando su punto de mayor cobertura a las 04:18, cuando el 84% de la superficie lunar quedó sumergida en el cono de sombra terrestre. En ciudades de g",
+      "El Planetario Max Schreier de la Universidad Mayor de San Andrés (UMSA) organizó una vigilia astronómica abierta al público en sus instalaciones de Cota Cota, congregando a decenas de estudiantes y fa"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1143",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Los pilares de la nueva legislación"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Salvaguardas y sanciones por desacato"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Trámite en la Cámara Baja"
+      }
+    ],
+    "paragraphs_sample": [
+      "El proyecto establece el principio de máxima publicidad para toda gestión de fondos fiscales, licitaciones de obras públicas, salarios jerárquicos y contratos de explotación de recursos naturales. La ",
+      "La normativa tipifica el silencio administrativo y la negativa injustificada de entrega de datos como falta grave sujeta a destitución y sanciones pecuniarias para los funcionarios custodios. Asimismo"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1144",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La magnitud de la devastación en Sindhupalchok"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Esfuerzos de búsqueda y ayuda humanitaria"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Coordinación de rescates internacionales"
+      }
+    ],
+    "paragraphs_sample": [
+      "El torrente arrasó con más de una veintena de aldeas y destruyó la autopista Araniko, que conecta Katmandú con la frontera china, dejando completamente incomunicadas a comunidades enteras en los distr",
+      "El primer ministro de Nepal declaró estado de catástrofe nacional y solicitó auxilio urgente de la comunidad internacional en suministros médicos, plantas potabilizadoras de agua y maquinaria pesada p"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": true
+    }
+  },
+  {
+    "id": "1145",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Un reinado de 35 años al servicio de la democracia"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Transición de poder y ceremonia en el Storting"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Funeral de Estado y honras fúnebres"
+      }
+    ],
+    "paragraphs_sample": [
+      "Harald V, quien ascendió al trono en enero de 1991 tras la muerte del rey Olav V, fue una de las figuras más respetadas y queridas del continente europeo. Reconocido por su cercanía ciudadana, su mode",
+      "El primer ministro noruego convocó a una sesión extraordinaria del Consejo de Estado en la que el nuevo rey Haakon VIII prestó juramento solemne sobre la Constitución ante el parlamento (Storting). El"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1146",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La escalada de tensión en el enclave"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Pronunciamiento del Ministerio del Interior"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Coordinación diplomática con Marruecos"
+      }
+    ],
+    "paragraphs_sample": [
+      "La tensión en la ciudad autónoma se disparó luego de semanas de saturación en las instalaciones de acogida, que albergan a más del triple de su capacidad oficial tras una oleada ininterrumpida de lleg",
+      "El ministro del Interior compareció en Madrid para exigir el cese de los discursos incendiarios y anunciar un plan acelerado de traslados a la península para descongestionar el centro de acogida:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1147",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Motores del incremento de precios"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Inflación subyacente y cesta de alimentos"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Reacción de los agentes sociales"
+      }
+    ],
+    "paragraphs_sample": [
+      "El dato supone una aceleración de medio punto porcentual respecto al 3,8% registrado en julio. El factor determinante fue la subida de los precios de las gasolinas y el diésel, que contrasta con las r",
+      "La inflación subyacente (que excluye alimentos no elaborados y productos energéticos) moderó ligeramente su descenso para situarse en el 3,2%, lo que evidencia que la inercia inflacionaria aún persist"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1148",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La parálisis de las líneas de frente"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Coste humanitario y económico regional"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Vías diplomáticas bloqueadas"
+      }
+    ],
+    "paragraphs_sample": [
+      "Lo que inicialmente fue proyectado por analistas occidentales como una operación quirúrgica rápida para neutralizar las capacidades balísticas de Teherán ha derivado en una guerra asimétrica multidime",
+      "Informes de la Media Luna Roja y agencias de la ONU contabilizan más de 1,4 millones de desplazados internos hacia el norte y este de Irán, con graves afectaciones a las redes de agua potable y sumini"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1149",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La orden ejecutiva y su fundamentación"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — La respuesta de Ottawa y derecho internacional"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Litigio en la Comisión Mixta Internacional"
+      }
+    ],
+    "paragraphs_sample": [
+      "La ceremonia de firma tuvo lugar en un acto público en el norte del estado de Nueva York. Según la Casa Blanca, la medida busca \"reivindicar el patrimonio histórico y la soberanía hídrica de los Estad",
+      "El primer ministro de Canadá calificó la orden como una provocación jurídica sin validez bajo el Tratado de Aguas Fronterizas de 1909, que regula de manera compartida e indivisible la toponimia y nave"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": true
+    }
+  },
+  {
+    "id": "1150",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Las nuevas medidas técnicas obligatorias"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Auditoría externa y supervisión parental"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Implementación global progresiva"
+      }
+    ],
+    "paragraphs_sample": [
+      "El paquete de reformas incluye la activación automática de 'Cuentas para Adolescentes' hiperprotegidas: todos los perfiles de menores de 16 años pasarán a ser privados por defecto, se bloqueará la rec",
+      "Asimismo, los algoritmos de recomendación de Reels y Feed tendrán prohibido desplegar contenidos relacionados con dietas extremas, desafíos físicos riesgosos o material cosmético hipersexualizado.",
+      "El acuerdo judicial establece la creación de un comité independiente de supervisión psicológica y tecnológica financiado por Meta pero auditado por universidades públicas, el cual emitirá informes tri"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1151",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La vorágine del fuego en Cabilia"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Pronunciamiento presidencial y evacuaciones"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Ayuda del Mecanismo Europeo"
+      }
+    ],
+    "paragraphs_sample": [
+      "Los focos más críticos se concentran en las escarpadas provincias de Bugía, Tizi Uzu y Jijel, donde las llamas descendieron velozmente por las laderas amenazando a decenas de pueblos berberiscos. La D",
+      "El presidente de la República Argelina decretó tres jornadas de duelo oficial en memoria de las víctimas y comprometió indemnizaciones inmediatas para los campesinos que perdieron sus viviendas y reba"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1152",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La recreación de Vice City y el estado de Leonida"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Innovaciones en IA y narrativa dual"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Reacción de la industria y preventas"
+      }
+    ],
+    "paragraphs_sample": [
+      "El material audiovisual, capturado íntegramente en hardware PlayStation 5 Pro y Xbox Series X, ofreció una inmersión profunda en las calles de Vice City, las zonas pantanosas de Grassrivers y las play",
+      "La demostración confirmó el dinamismo interactivo de los protagonistas duales, Lucia y Jason, cuyo sistema de respuestas contextuales se apoya en modelos de comportamiento de inteligencia artificial n"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1153",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La expedición atrapada en Langtang"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Coordinación consular y testimonios de familiares"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Condiciones de rescate en alta montaña"
+      }
+    ],
+    "paragraphs_sample": [
+      "El contingente de senderistas británicos formaba parte de tres grupos de expedición de alta montaña que transitaban los senderos entre los valles de Langtang y Tatopani, en las inmediaciones de la fro",
+      "El Foreign, Commonwealth & Development Office (FCDO) instaló un puesto de crisis en la Embajada británica en Katmandú para asistir a las familias y fletar helicópteros privados de rescate alpino:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1154",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El operativo de la madrugada"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Balance oficial del Comando Policial"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Advertencia de los dirigentes locales"
+      }
+    ],
+    "paragraphs_sample": [
+      "El contingente policial avanzó desde la localidad de Guarayos con apoyo de dos carros Neptuno de dispersión hídrica y maquinaria pesada de la Administradora Boliviana de Carreteras (ABC). Los comunari",
+      "El comandante departamental de la Policía de Santa Cruz informó que el operativo tuvo como objetivo primordial garantizar el paso de más de 60 camiones cisterna con combustible destinado a las plantas"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1155",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La recolección de indicios digitales"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Posible citación a Nadia Beller"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Próximas diligencias judiciales"
+      }
+    ],
+    "paragraphs_sample": [
+      "El operativo judicial se prolongó por más de tres horas en el sexto piso del edificio empresarial 'Torre Titanium'. Los investigadores precintaron y secuestraron dos computadoras portátiles de alta ga",
+      "Fuentes del Ministerio Público adelantaron que en las próximas horas se emitirá una orden de citación para que la abogada cruceña Nadia Beller se presente a prestar su declaración testifical, a objeto"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1156",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El dilema entre control y abastecimiento"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Citas textuales y planteamiento equilibrado"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Diálogo convocado con sectores"
+      }
+    ],
+    "paragraphs_sample": [
+      "Paz argumentó que una parte sustancial del combustible subvencionado con fondos públicos termina desviada hacia factorías de narcotráfico y campamentos de minería ilegal de oro en el norte de La Paz y",
+      "Durante su intervención en comisiones legislativas, el parlamentario tarijeño planteó una reforma inmediata a la reglamentación técnica de la Agencia Nacional de Hidrocarburos (ANH):"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1157",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El destino de las nuevas inversiones"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Vocería de Mi Teleférico y debate legislativo"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Promulgación y ejecución"
+      }
+    ],
+    "paragraphs_sample": [
+      "El financiamiento internacional se destinará principalmente a la prolongación del tramo II de la Línea Café, que conectará la estación de Miraflores con los barrios de Samapa y Pampahasi en la ladera ",
+      "Asimismo, los recursos financiarán la actualización de sistemas electromecánicos de seguridad, instalación de paneles solares fotovoltaicos en cubiertas de estaciones y la integración tarifaria digita",
+      "El gerente ejecutivo de la empresa estatal Mi Teleférico, Alejandro Gonzales, celebró la sanción legislativa que permitirá licitar las obras de ingeniería electromecánica antes de fin de año:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1158",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Los hechos investigados en el expediente"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — La respuesta de la defensa gremial"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Próximos pasos procesales"
+      }
+    ],
+    "paragraphs_sample": [
+      "La investigación penal se inició a raíz de una denuncia presentada por asambleístas de oposición, quienes señalaron que lotes de insumos textiles, maquinaria industrial y repuestos comisados en recint",
+      "El equipo jurídico de Sokol presentó un memorial de apersonamiento y negó de manera categórica la existencia de ilícitos, señalando que las donaciones recibidas por cámaras industriales fueron canaliz"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1159",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La furia del torrente en los valles ribereños"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Cooperación transfronteriza de rescate"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Riesgo de represamientos secundarios"
+      }
+    ],
+    "paragraphs_sample": [
+      "El desastre se desencadenó a primeras horas del miércoles cuando una masa estimada en más de 8 millones de metros cúbicos de agua glaciar fracturó una presa natural de hielo y roca en territorio chino",
+      "Equipos de rescate del Ejército Popular de Liberación de China y del Ejército de Nepal establecieron una base de operaciones conjuntas en el paso fronterizo de Miteri para coordinar vuelos de reconoci"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1160",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — El cuadro clínico del monarca"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Delegación de funciones de Estado"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Reacción de los líderes políticos"
+      }
+    ],
+    "paragraphs_sample": [
+      "El monarca de 89 años, quien ya había sido intervenido quirúrgicamente en años previos para el implante de un marcapasos permanente, presentó una brusca caída en sus niveles de hemoglobina y dificulta",
+      "De acuerdo con el protocolo constitucional noruego, el príncipe heredero Haakon asumió la regencia temporal de la corona para encabezar las audiencias de gabinete y la firma de decretos ministeriales:"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1161",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La quema de asentamientos y los choques con la Policía"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Condena de las autoridades y Cruz Roja"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Refuerzo de la seguridad en el perímetro"
+      }
+    ],
+    "paragraphs_sample": [
+      "Los incidentes comenzaron tras una concentración no autorizada frente a la Delegación del Gobierno convocada a través de grupos de mensajería instantánea. Grupos de jóvenes encapuchados se desplazaron",
+      "La Delegación del Gobierno en Ceuta y la dirección autonómica de Cruz Roja condenaron los actos de violencia y destacaron que más de 80 migrantes que se encontraban en los asentamientos debieron ser r"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1162",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — Las cinco fases de la escalada"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Evaluación estratégica de expertos"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — El horizonte de la contienda"
+      }
+    ],
+    "paragraphs_sample": [
+      "El desarrollo de las hostilidades puede estructurarse en cinco etapas tácticas: 1) La ofensiva aérea sorpresa de febrero contra los complejos de Natanz y Fordow; 2) La respuesta balística masiva de Te",
+      "Analistas del Centro de Estudios Estratégicos e Internacionales (CSIS) en Washington destacan que la dispersión de las fuerzas iraníes en túneles reforzados ha impedido una victoria militar concluyent"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": false,
+      "expert-quote": true,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  },
+  {
+    "id": "1163",
+    "title": "N/A",
+    "excerpt": "N/A",
+    "capitulos": [
+      {
+        "num": 1,
+        "original": "Capítulo 1 — La fundamentación en el acto de campaña"
+      },
+      {
+        "num": 2,
+        "original": "Capítulo 2 — Reacciones en Canadá y el Congreso de EEUU"
+      },
+      {
+        "num": 3,
+        "original": "Capítulo 3 — Implicaciones prácticas en la navegación"
+      }
+    ],
+    "paragraphs_sample": [
+      "Durante un multitudinario mitin en Rochester, Nueva York, el mandatario defendió la medida argumentando que Estados Unidos debe reafirmar su liderazgo en los recursos hídricos compartidos: \"Es uno de ",
+      "La premier de la provincia de Ontario y parlamentarios canadienses de todos los partidos rechazaron de inmediato la orden, calificándola de \"maniobra propagandística sin sustento legal ni cartográfico"
+    ],
+    "components": {
+      "stat-grid": true,
+      "tweet-card": true,
+      "expert-quote": false,
+      "report-figure": true,
+      "conclusion": false
+    },
+    "issues": {
+      "reu": false,
+      "filler": false
+    }
+  }
+]
