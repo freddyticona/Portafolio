@@ -333,13 +333,6 @@ export default function App() {
               onBackToNews={() => handleNavToTab('noticias')}
             />
           );
-        case 'messi-adios-seleccion':
-          return (
-            <MessiEspecialPage
-              lang={lang}
-              onBackToNews={() => handleNavToTab('noticias')}
-            />
-          );
         case 'showreel':
           return <ShowreelPage lang={lang} t={t} handleNavToTab={handleNavToTab} />;
         case 'contacto':

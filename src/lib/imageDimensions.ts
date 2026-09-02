@@ -1,6 +1,22 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/blog/noticias-2026/venezuela-maiquetia.jpg": {
+    "width": 590,
+    "height": 347
+  },
+  "/images/blog/noticias-2026/rusia-drones-kiev.jpg": {
+    "width": 1024,
+    "height": 768
+  },
+  "/images/blog/noticias-2026/felipe-vi-ceuta.jpg": {
+    "width": 314,
+    "height": 444
+  },
+  "/images/blog/noticias-2026/maradona-juicio.jpg": {
+    "width": 1361,
+    "height": 1995
+  },
   "/images/blog/caso-nadia-beller/momento-ataque-camara.webp": {
     "width": 1200,
     "height": 809

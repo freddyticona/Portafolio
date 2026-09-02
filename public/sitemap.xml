@@ -6,25 +6,25 @@
   <!-- Secciones Principales -->
   <url>
     <loc>https://freddydev.net</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://freddydev.net/sobre-mi</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/portafolio</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/cv</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://freddydev.net/noticias</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -48,48 +48,84 @@
   </url>
   <url>
     <loc>https://freddydev.net/galeria</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/eclipse-2026</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/messi-adios-seleccion</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/showreel</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/servicios</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/reservas</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/contacto</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Artículos (cada uno en su ruta primaria) -->
+  <url>
+    <loc>https://freddydev.net/noticias/venezuela-reactiva-aeropuerto-maiquetia-vuelos-terremoto</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rusia-drones-reaccion-kiev-asedio-aereo-septiembre-2026</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rusia-espana-injerencia-ceuta-pruebas-exteriores</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/felipe-vi-visita-ceuta-melilla-anuncio-sanchez</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/juicio-muerte-maradona-nueva-audiencia-septiembre-2026</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ucrania-interceptores-drones-shahed-reaccion-pruebas</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://freddydev.net/noticias/bolivia-cerimedo-detencion-asesor-paz</loc>
     <lastmod>2026-08-26</lastmod>
