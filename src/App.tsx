@@ -311,6 +311,7 @@ export default function App() {
               setActiveBlogPostId={setActiveBlogPostId}
               handleArticleClick={handleArticleClick}
               onInicioSpecial={() => handleNavToTab('eclipse-2026')}
+              onSpecialNavigate={(p) => handleNavToTab(p)}
             />
           );
         case 'guias':
