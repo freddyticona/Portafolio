@@ -50,6 +50,7 @@ const GuiasPage = lazy(() => import('./pages/GuiasPage'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const ShowreelPage = lazy(() => import('./pages/ShowreelPage'));
 const Eclipse2026Page = lazy(() => import('./pages/Eclipse2026Page'));
+const IranReportPage = lazy(() => import('./pages/IranReportPage'));
 
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
@@ -173,7 +174,7 @@ export default function App() {
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
         'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
-        'eclipse-2026',
+        'eclipse-2026', 'reportaje-iran-furia-epica',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
@@ -330,6 +331,13 @@ export default function App() {
               t={t}
               blogPosts={blogPosts}
               handleArticleClick={handleArticleClick}
+              onBackToNews={() => handleNavToTab('noticias')}
+            />
+          );
+        case 'reportaje-iran-furia-epica':
+          return (
+            <IranReportPage
+              lang={lang}
               onBackToNews={() => handleNavToTab('noticias')}
             />
           );
