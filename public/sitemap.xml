@@ -91,6 +91,18 @@
 
   <!-- Artículos (cada uno en su ruta primaria) -->
   <url>
+    <loc>https://freddydev.net/noticias/eeuu-ataca-guardia-revolucionaria-iran-respuesta-jordania-eau</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/xi-jinping-visita-egipto-primera-decada</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/explosion-estacion-augsburgo-cierre-segundo-objeto</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -109,26 +121,32 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/eeuu-ataca-guardia-revolucionaria-iran-respuesta-jordania-eau</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/xi-jinping-visita-egipto-primera-decada</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://freddydev.net/noticias/liga-marroqui-ddhh-protesta-rabat-ceuta</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://freddydev.net/noticias/pp-vox-protesta-parlamento-europeo-ceuta</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/foro-economico-oriental-vladivostok-2026</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tiroteo-rave-argovia-suiza-detenido</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/crudo-90-dolares-chevron-venezuela-exportaciones-117-millones</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

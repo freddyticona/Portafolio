@@ -76,6 +76,24 @@ const pages = {
     ogTitle: 'Especial Eclipse Solar Total 2026 | 10 Noticias y Galería',
     path: '/eclipse-2026'
   },
+  'reportaje-iran-furia-epica': {
+    title: 'Reportaje Especial: Operación Furia Épica | Irán 2026',
+    desc: 'Reportaje especial sobre la Operación Furia Épica (Irán): cronología, actores y consecuencias del conflicto que reconfiguró Oriente Medio.',
+    ogTitle: 'Operación Furia Épica | Reportaje Especial Irán',
+    path: '/reportaje-iran-furia-epica'
+  },
+  'reportaje-gaza-desarme': {
+    title: 'Reportaje Especial: Gaza, alto el fuego frágil y desarme en disputa',
+    desc: 'Reportaje especial sobre el estancamiento de la segunda fase de la tregua en Gaza: desarme de Hamás, retirada israelí y el Consejo de Paz.',
+    ogTitle: 'Gaza: Desarme en Disputa | Reportaje Especial',
+    path: '/reportaje-gaza-desarme'
+  },
+  'reportaje-ucrania-estancamiento': {
+    title: 'Reportaje Especial: Ucrania, negociaciones estancadas y escalada militar',
+    desc: 'Reportaje especial sobre el estancamiento de las negociaciones Rusia-Ucrania y la escalada militar del verano 2026.',
+    ogTitle: 'Ucrania: Negociaciones Estancadas | Reportaje Especial',
+    path: '/reportaje-ucrania-estancamiento'
+  },
   'showreel': {
     title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
     desc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación 4K.',

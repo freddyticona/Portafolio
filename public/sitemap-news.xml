@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://freddydev.net/noticias/eeuu-ataca-guardia-revolucionaria-iran-respuesta-jordania-eau</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>EE. UU. ataca posiciones de la Guardia Revolucionaria en Irán; Teherán responde con misiles y drones</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/xi-jinping-visita-egipto-primera-decada</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>Xi Jinping inicia una histórica visita de Estado a Egipto para afianzar la alianza estratégica y comercial</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/explosion-estacion-augsburgo-cierre-segundo-objeto</loc>
     <news:news>
       <news:publication>
@@ -9,8 +33,8 @@
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
-      <news:title>Explosión en la estación de tren de Augsburgo — cierre total tras hallar segundo objeto</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:title>Explosión en la estación central de Augsburgo: operativo policial y cierre preventivo del tráfico ferroviario</news:title>
+      <news:keywords>Seguridad</news:keywords>
     </news:news>
   </url>
   <url>
@@ -21,7 +45,7 @@
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
-      <news:title>Ministros de Defensa de la UE se reúnen en Irlanda por apoyo militar a Ucrania</news:title>
+      <news:title>Ministros de Defensa de la Unión Europea se reúnen en Dublín para coordinar el apoyo militar a Ucrania</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
@@ -33,8 +57,68 @@
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
-      <news:title>Festival de Venecia: 83ª edición con León de Oro honorífico a George Clooney</news:title>
+      <news:title>El Festival de Cine de Venecia inaugura su 83ª edición otorgando el León de Oro honorífico a George Clooney</news:title>
+      <news:keywords>Cultura</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/liga-marroqui-ddhh-protesta-rabat-ceuta</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>La Liga Marroquí de Derechos Humanos protesta en Rabat exigiendo protección a migrantes en la frontera de Ceuta</news:title>
       <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/pp-vox-protesta-parlamento-europeo-ceuta</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>Eurodiputados del PP y Vox protestan ante el Parlamento Europeo exigiendo apoyo comunitario para Ceuta y Melilla</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/foro-economico-oriental-vladivostok-2026</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:30:00-04:00</news:publication_date>
+      <news:title>Arranca en Vladivostok la 11ª edición del Foro Económico Oriental enfocada en el comercio con Asia</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/tiroteo-rave-argovia-suiza-detenido</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:30:00-04:00</news:publication_date>
+      <news:title>Conmoción en Suiza por tiroteo en una fiesta rave en Argovia: la policía detiene al presunto atacante</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/crudo-90-dolares-chevron-venezuela-exportaciones-117-millones</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02T21:30:00-04:00</news:publication_date>
+      <news:title>El petróleo supera los 90 dólares mientras Chevron acelera millonaria inversión en la Faja del Orinoco</news:title>
+      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
 </urlset>
