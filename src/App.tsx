@@ -341,6 +341,7 @@ export default function App() {
             <IranReportPage
               lang={lang}
               onBackToNews={() => handleNavToTab('noticias')}
+              onNavigate={(p) => handleNavToTab(p)}
             />
           );
         case 'reportaje-gaza-desarme':
@@ -348,6 +349,7 @@ export default function App() {
             <GazaReportPage
               lang={lang}
               onBackToNews={() => handleNavToTab('noticias')}
+              onNavigate={(p) => handleNavToTab(p)}
             />
           );
         case 'reportaje-ucrania-estancamiento':
@@ -355,6 +357,7 @@ export default function App() {
             <UkraineReportPage
               lang={lang}
               onBackToNews={() => handleNavToTab('noticias')}
+              onNavigate={(p) => handleNavToTab(p)}
             />
           );
         case 'showreel':

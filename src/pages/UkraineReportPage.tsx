@@ -8,9 +8,10 @@
 interface UkraineReportPageProps {
   lang: 'es' | 'en';
   onBackToNews: () => void;
+  onNavigate: (page: 'reportaje-iran-furia-epica' | 'reportaje-gaza-desarme' | 'reportaje-ucrania-estancamiento') => void;
 }
 
-export default function UkraineReportPage({ lang, onBackToNews }: UkraineReportPageProps) {
+export default function UkraineReportPage({ lang, onBackToNews, onNavigate }: UkraineReportPageProps) {
   const L = (es: string, en: string) => lang === 'es' ? es : en;
 
   return (
@@ -25,6 +26,11 @@ export default function UkraineReportPage({ lang, onBackToNews }: UkraineReportP
             {L('Negociaciones estancadas, escalada militar', 'Stalled talks, military escalation')}<br/>
             <span className="text-2xl md:text-3xl font-normal text-white/80">{L('Dos años y medio de guerra sin fin a la vista', 'Two and a half years of war with no end in sight')}</span>
           </h1>
+          <div className="flex gap-2 mt-6 text-xs">
+            <button onClick={() => onNavigate('reportaje-iran-furia-epica')} className="px-3 py-1 bg-white/10 text-white/80 rounded hover:bg-white/20">{L('← Irán', '← Iran')}</button>
+            <button onClick={() => onNavigate('reportaje-gaza-desarme')} className="px-3 py-1 bg-white/10 text-white/80 rounded hover:bg-white/20">{L('← Gaza', '← Gaza')}</button>
+            <span className="px-3 py-1 bg-sky-500/20 text-sky-300 rounded">{L('Capítulo actual', 'Current')}</span>
+          </div>
           <p className="text-white/60 text-sm mt-4">2 de septiembre de 2026 — Fuentes: El Comercio Perú (EFE), Infobae</p>
         </div>
       </div>
@@ -152,6 +158,10 @@ export default function UkraineReportPage({ lang, onBackToNews }: UkraineReportP
         <button onClick={onBackToNews} className="px-6 py-3 bg-[#0a0a0f] text-white rounded hover:bg-black">
           {L('Volver a Noticias', 'Back to News')}
         </button>
+        <div className="flex gap-3 justify-center mt-4">
+          <button onClick={() => onNavigate('reportaje-iran-furia-epica')} className="px-4 py-2 border border-stone-300 rounded hover:bg-stone-100 text-sm">{L('← Irán', '← Iran')}</button>
+          <button onClick={() => onNavigate('reportaje-gaza-desarme')} className="px-4 py-2 border border-stone-300 rounded hover:bg-stone-100 text-sm">{L('← Gaza', '← Gaza')}</button>
+        </div>
         <div className="text-xs text-stone-400 mt-3">Reportaje especial completo — capítulos 1 (Irán), 2 (Gaza) y 3 (Ucrania).</div>
       </div>
     </div>
