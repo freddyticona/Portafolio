@@ -2,62 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/venezuela-reactiva-aeropuerto-maiquetia-vuelos-terremoto</loc>
+    <loc>https://freddydev.net/noticias/explosion-estacion-augsburgo-cierre-segundo-objeto</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-02T18:30:00-04:00</news:publication_date>
-      <news:title>Venezuela reactiva el aeropuerto de Maiquetía tras más de dos meses cerrado</news:title>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>Explosión en la estación de tren de Augsburgo — cierre total tras hallar segundo objeto</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/rusia-drones-reaccion-kiev-asedio-aereo-septiembre-2026</loc>
+    <loc>https://freddydev.net/noticias/ministros-defensa-ue-irlanda-apoyo-ucrania</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-02T18:30:00-04:00</news:publication_date>
-      <news:title>Rusia intensifica sus ataques con drones a reacción y pone a Kiev bajo asedio aéreo</news:title>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>Ministros de Defensa de la UE se reúnen en Irlanda por apoyo militar a Ucrania</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/rusia-espana-injerencia-ceuta-pruebas-exteriores</loc>
+    <loc>https://freddydev.net/noticias/festival-venecia-83-leon-oro-george-clooney</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-02T18:30:00-04:00</news:publication_date>
-      <news:title>Rusia pide a España pruebas sobre su supuesta injerencia en la crisis migratoria de Ceuta</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/felipe-vi-visita-ceuta-melilla-anuncio-sanchez</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T18:30:00-04:00</news:publication_date>
-      <news:title>Felipe VI visitará Ceuta y Melilla por primera vez, según anunció Pedro Sánchez</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/juicio-muerte-maradona-nueva-audiencia-septiembre-2026</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T18:30:00-04:00</news:publication_date>
-      <news:title>Comienza una nueva audiencia en el juicio por la muerte de Diego Maradona</news:title>
+      <news:publication_date>2026-09-02T21:00:00-04:00</news:publication_date>
+      <news:title>Festival de Venecia: 83ª edición con León de Oro honorífico a George Clooney</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
