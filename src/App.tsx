@@ -52,6 +52,7 @@ const ShowreelPage = lazy(() => import('./pages/ShowreelPage'));
 const Eclipse2026Page = lazy(() => import('./pages/Eclipse2026Page'));
 const IranReportPage = lazy(() => import('./pages/IranReportPage'));
 const GazaReportPage = lazy(() => import('./pages/GazaReportPage'));
+const UkraineReportPage = lazy(() => import('./pages/UkraineReportPage'));
 
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
@@ -175,7 +176,7 @@ export default function App() {
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
         'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
-        'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme',
+        'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
@@ -345,6 +346,13 @@ export default function App() {
         case 'reportaje-gaza-desarme':
           return (
             <GazaReportPage
+              lang={lang}
+              onBackToNews={() => handleNavToTab('noticias')}
+            />
+          );
+        case 'reportaje-ucrania-estancamiento':
+          return (
+            <UkraineReportPage
               lang={lang}
               onBackToNews={() => handleNavToTab('noticias')}
             />
