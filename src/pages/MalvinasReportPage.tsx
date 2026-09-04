@@ -38,6 +38,14 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
         </div>
       </div>
 
+      {/* Hero image */}
+      <div className="relative">
+        <img src="/images/report/malvinas/stanley-falklands.jpg" alt={L('Vista de Puerto Stanley, Islas Malvinas. Fuente: Liam Quinn / Wikimedia Commons (CC BY-SA 2.0).', 'View of Port Stanley, Falkland Islands. Source: Liam Quinn / Wikimedia Commons (CC BY-SA 2.0).')} className="w-full h-64 md:h-80 object-cover" loading="eager" />
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+          <p className="text-white/80 text-xs max-w-3xl mx-auto font-sans">{L('Vista de Puerto Stanley, capital de las Islas Malvinas. Fuente: Liam Quinn / Wikimedia Commons (CC BY-SA 2.0).', 'View of Port Stanley, capital of the Falkland Islands. Source: Liam Quinn / Wikimedia Commons (CC BY-SA 2.0).')}</p>
+        </div>
+      </div>
+
       {/* Resumen ejecutivo */}
       <section className="max-w-3xl mx-auto px-6 py-10">
         <div className="prose prose-lg prose-stone max-w-none font-serif">

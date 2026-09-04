@@ -37,6 +37,14 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
         </div>
       </div>
 
+      {/* Hero image */}
+      <div className="relative">
+        <img src="/images/report/gaza/gaza-damage.jpg" alt={L('Destrucción en el barrio de El-Remal, Gaza City, tras un ataque aéreo israelí el 9 de octubre de 2023. Fuente: WAFA / Wikimedia Commons (CC BY-SA 3.0).', 'Destruction in the El-Remal neighborhood, Gaza City, following an Israeli airstrike on October 9, 2023. Source: WAFA / Wikimedia Commons (CC BY-SA 3.0).')} className="w-full h-64 md:h-80 object-cover" loading="eager" />
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+          <p className="text-white/80 text-xs max-w-3xl mx-auto font-sans">{L('Destrucción en el barrio de El-Remal, Gaza City, tras un ataque aéreo israelí el 9 de octubre de 2023. Fuente: WAFA / Wikimedia Commons (CC BY-SA 3.0).', 'Destruction in the El-Remal neighborhood, Gaza City, following an Israeli airstrike on October 9, 2023. Source: WAFA / Wikimedia Commons (CC BY-SA 3.0).')}</p>
+        </div>
+      </div>
+
       <section className="max-w-3xl mx-auto px-6 py-10">
         <p className="text-xl text-stone-700 border-l-4 border-emerald-500 pl-6 italic font-serif">
           {L(

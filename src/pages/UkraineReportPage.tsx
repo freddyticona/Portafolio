@@ -35,6 +35,14 @@ export default function UkraineReportPage({ lang, onBackToNews, onNavigate }: Uk
         </div>
       </div>
 
+      {/* Hero image */}
+      <div className="relative">
+        <img src="/images/report/ukraine/kyiv-damage-2024.jpg" alt={L('Destrucciones en Kiev tras un ataque con drones rusos en la noche del 29 de agosto de 2024. Fuente: Policía Nacional de Ucrania / Wikimedia Commons (CC BY 4.0).', 'Destruction in Kyiv following a Russian drone attack on the night of August 29, 2024. Source: National Police of Ukraine / Wikimedia Commons (CC BY 4.0).')} className="w-full h-64 md:h-80 object-cover" loading="eager" />
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+          <p className="text-white/80 text-xs max-w-3xl mx-auto font-sans">{L('Destrucciones en Kiev tras un ataque con drones rusos en la noche del 29 de agosto de 2024. Fuente: Policía Nacional de Ucrania / Wikimedia Commons (CC BY 4.0).', 'Destruction in Kyiv following a Russian drone attack on the night of August 29, 2024. Source: National Police of Ukraine / Wikimedia Commons (CC BY 4.0).')}</p>
+        </div>
+      </div>
+
       <section className="max-w-3xl mx-auto px-6 py-10">
         <p className="text-xl text-stone-700 border-l-4 border-sky-500 pl-6 italic font-serif">
           {L(
@@ -53,13 +61,10 @@ export default function UkraineReportPage({ lang, onBackToNews, onNavigate }: Uk
           <div className="bg-sky-50 border-l-4 border-sky-500 p-4 my-6 text-sm">
             <strong>📌 Dato clave:</strong> La última ronda de negociaciones directas entre Rusia y Ucrania tuvo lugar en febrero de 2026, en Estambul, pero no se firmó ningún acuerdo.
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">EMBED YOUTUBE — PESKOV 30 AGO 2026</div>
-            <div className="bg-white border border-stone-200 rounded p-4 text-sm text-stone-500">
-              [Declaraciones Peskov — canal oficial Kremlin]<br/>
-              <span className="text-xs">Si no existe, se omite. Embed vía iframe oficial.</span>
-            </div>
-          </div>
+          <figure className="my-8">
+            <img src="/images/report/ukraine/kyiv-tv-tower-2022.jpg" alt={L('Bombardeo ruso de antenas de telecomunicaciones en Kiev, 1 de marzo de 2022. Fuente: Ministerio del Interior de Ucrania / Wikimedia Commons (CC BY 4.0).', 'Russian bombardment of telecommunications antennas in Kyiv, March 1, 2022. Source: Ministry of Internal Affairs of Ukraine / Wikimedia Commons (CC BY 4.0).')} className="w-full rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Bombardeo ruso de la torre de telecomunicaciones en Kiev, marzo de 2022. Fuente: MVS de Ucrania / Wikimedia Commons (CC BY 4.0).', 'Russian bombardment of the Kyiv TV Tower, March 2022. Source: MVS Ukraine / Wikimedia Commons (CC BY 4.0).')}</figcaption>
+          </figure>
         </div>
       </section>
 

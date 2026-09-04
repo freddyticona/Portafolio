@@ -37,6 +37,14 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
         </div>
       </div>
 
+      {/* Hero image */}
+      <div className="relative">
+        <img src="/images/report/iran/centcom-mine-clearance.jpg" alt={L('Fuerzas estadounidenses en operación de desminado en el Estrecho de Ormuz, abril de 2026. Fuente: CENTCOM / Wikimedia Commons (dominio público).', 'US forces conducting mine clearance operations in the Strait of Hormuz, April 2026. Source: CENTCOM / Wikimedia Commons (public domain).')} className="w-full h-64 md:h-80 object-cover" loading="eager" />
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+          <p className="text-white/80 text-xs max-w-3xl mx-auto font-sans">{L('Fuerzas estadounidenses en operación de desminado en el Estrecho de Ormuz, abril de 2026. Fuente: CENTCOM / Wikimedia Commons (dominio público).', 'US forces conducting mine clearance operations in the Strait of Hormuz, April 2026. Source: CENTCOM / Wikimedia Commons (public domain).')}</p>
+        </div>
+      </div>
+
       {/* Resumen ejecutivo */}
       <section className="max-w-3xl mx-auto px-6 py-10">
         <div className="prose prose-lg prose-stone max-w-none font-serif">
@@ -99,6 +107,10 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
           <div className="bg-amber-50 border-l-4 border-amber-500 p-4 my-6 text-sm">
             <strong>📌 Dato clave:</strong> El cierre de Ormuz no fue total durante todo el periodo, pero sí intermitente y suficientemente efectivo como para reducir el tráfico marítimo en más de un 60% durante los meses de mayor conflicto, según reportes de la Agencia Internacional de la Energía.
           </div>
+          <figure className="my-8">
+            <img src="/images/report/iran/hormuz-map.jpg" alt={L('Mapa del Estrecho de Ormuz, paso marítimo estratégico entre Irán y Omán por donde transita el 25% del petróleo mundial. Fuente: Perry-Castañeda Library / Wikimedia Commons (dominio público).', 'Map of the Strait of Hormuz, the strategic maritime passage between Iran and Oman through which 25% of world oil transits. Source: Perry-Castañeda Library / Wikimedia Commons (public domain).')} className="w-full rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Mapa del Estrecho de Ormuz. Fuente: Perry-Castañeda Library, University of Texas / Wikimedia Commons (dominio público).', 'Map of the Strait of Hormuz. Source: Perry-Castañeda Library, University of Texas / Wikimedia Commons (public domain).')}</figcaption>
+          </figure>
           {/* Gráfico de evolución del petróleo Brent */}
           <div className="bg-stone-900 text-white rounded-lg p-6 my-8 shadow-sm">
             <div className="text-xs font-mono tracking-widest text-amber-400 mb-2 uppercase">EVOLUCIÓN DEL PRECIO DEL PETRÓLEO BRENT (USD / BARRIL)</div>
