@@ -81,9 +81,26 @@ export default function UkraineReportPage({ lang, onBackToNews, onNavigate }: Uk
             <img src="/images/report/maps/ukraine-orthographic.png" alt={L('Mapa de Ucrania. Fuente: Wikimedia Commons (dominio público).', 'Map of Ukraine. Source: Wikimedia Commons (public domain).')} className="mx-auto max-w-sm rounded-lg shadow-sm" loading="lazy" />
             <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Mapa de Ucrania. Fuente: Wikimedia Commons (dominio público).', 'Map of Ukraine. Source: Wikimedia Commons (public domain).')}</figcaption>
           </figure>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">GRÁFICO — DRONES RUSOS 2024-2026</div>
-            <div className="h-48 bg-stone-200 rounded flex items-center justify-center text-stone-500">Chart.js — 2024 inicio, 2025 pico, 2026 intensificación</div>
+          <div className="bg-stone-100 rounded-lg p-6 my-8">
+            <div className="text-xs tracking-widest text-stone-500 mb-4 text-center font-sans">GRÁFICO — DRONES DE ATAQUE RUSOS SOBRE UCRANIA (ESCALA RELATIVA)</div>
+            <div className="flex items-end justify-center gap-4 sm:gap-8 h-56">
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-stone-600 font-sans">base</div>
+                <div className="w-14 sm:w-20 bg-stone-300 rounded-t" style={{height: '30%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2024</div>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-stone-600 font-sans">x2</div>
+                <div className="w-14 sm:w-20 bg-amber-400 rounded-t" style={{height: '60%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2025</div>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-rose-600 font-sans">1.500 / 4d</div>
+                <div className="w-14 sm:w-20 bg-rose-500 rounded-t" style={{height: '100%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2026</div>
+              </div>
+            </div>
+            <p className="text-xs text-stone-400 mt-4 text-center font-sans">{L('Según Zelenski (31 ago 2026), Rusia lanzó 1.500 drones en 4 días sobre Kiev, marcando una intensificación sin precedentes respecto a los años anteriores. Barras en escala relativa (ilustrativo).', 'Per Zelensky (Aug 31, 2026), Russia launched 1,500 drones in 4 days over Kyiv, marking an unprecedented escalation over previous years. Bars in relative scale (illustrative).')}</p>
           </div>
         </div>
       </section>

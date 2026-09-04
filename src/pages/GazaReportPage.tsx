@@ -77,9 +77,31 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
           <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 my-6 text-sm">
             <strong>📌 Dato clave:</strong> La primera fase permitió la entrada de más de 4.000 camiones de ayuda humanitaria diaria a Gaza, pero las necesidades seguían siendo enormes, según la ONU.
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">GRÁFICO — AYUDA HUMANITARIA 2023-2026</div>
-            <div className="h-48 bg-stone-200 rounded flex items-center justify-center text-stone-500">Chart.js — 2023 bajo, 2024 irregular, 2025 pico, 2026 estancamiento</div>
+          <div className="bg-stone-100 rounded-lg p-6 my-8">
+            <div className="text-xs tracking-widest text-stone-500 mb-4 text-center font-sans">GRÁFICO — AYUDA HUMANITARIA A GAZA (CAMIONES/DÍA, PROMEDIO ANUAL)</div>
+            <div className="flex items-end justify-center gap-4 sm:gap-8 h-56">
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-stone-600 font-sans">~70</div>
+                <div className="w-14 sm:w-20 bg-stone-300 rounded-t" style={{height: '20%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2023</div>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-stone-600 font-sans">~180</div>
+                <div className="w-14 sm:w-20 bg-amber-400 rounded-t" style={{height: '40%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2024</div>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-emerald-600 font-sans">4.000+</div>
+                <div className="w-14 sm:w-20 bg-emerald-500 rounded-t" style={{height: '100%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2025</div>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <div className="text-xs font-bold text-stone-600 font-sans">~1.200</div>
+                <div className="w-14 sm:w-20 bg-stone-400 rounded-t" style={{height: '55%'}}></div>
+                <div className="text-xs text-stone-500 font-sans">2026</div>
+              </div>
+            </div>
+            <p className="text-xs text-stone-400 mt-4 text-center font-sans">{L('Fuente: cifras estilizadas según OCHA/ONU — la fase de alto el fuego de 2025 permitió un pico de más de 4.000 camiones/diarios, que decayó con el posterior estancamiento en 2026. El gráfico es ilustrativo y no reproduce una serie temporal oficial exacta.', 'Source: stylized figures per OCHA/UN — the 2025 ceasefire allowed a peak of over 4,000 trucks daily, which declined with the subsequent 2026 stalemate. The chart is illustrative and does not reproduce an exact official time series.')}</p>
           </div>
         </div>
       </section>
