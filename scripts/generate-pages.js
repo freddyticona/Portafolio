@@ -94,6 +94,12 @@ const pages = {
     ogTitle: 'Ucrania: Negociaciones Estancadas | Reportaje Especial',
     path: '/reportaje-ucrania-estancamiento'
   },
+  'reportaje-malvinas-historia': {
+    title: 'Reportaje Especial: Malvinas, 192 años de disputa por la soberanía',
+    desc: 'Reportaje especial sobre la historia de la disputa por las Islas Malvinas: de la ocupación británica de 1833 a la base naval anunciada por Milei en 2026.',
+    ogTitle: 'Malvinas: 192 Años de Disputa | Reportaje Especial',
+    path: '/reportaje-malvinas-historia'
+  },
   'showreel': {
     title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
     desc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación 4K.',

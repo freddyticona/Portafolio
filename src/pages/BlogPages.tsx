@@ -158,7 +158,7 @@ export function NoticiasPage({
           </h2>
           <span className="h-px flex-1 bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
           <button
             onClick={() => onSpecialNavigate?.('reportaje-iran-furia-epica')}
             className="group text-left bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/40 transition-colors"
@@ -167,7 +167,7 @@ export function NoticiasPage({
               <span className="text-3xl">⚡</span>
             </div>
             <div className="p-4">
-              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 1 / 3' : 'CHAPTER 1 / 3'}</div>
+              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 1 / 4' : 'CHAPTER 1 / 4'}</div>
               <div className="font-display font-semibold text-white group-hover:text-gold transition-colors">{lang === 'es' ? 'Operación Furia Épica — Irán' : 'Operation Epic Fury — Iran'}</div>
               <div className="text-xs text-stone-400 mt-1">{lang === 'es' ? 'El conflicto que reconfiguró Oriente Medio.' : 'The conflict that reshaped the Middle East.'}</div>
             </div>
@@ -180,9 +180,9 @@ export function NoticiasPage({
               <span className="text-3xl">🕊️</span>
             </div>
             <div className="p-4">
-              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 2 / 3' : 'CHAPTER 2 / 3'}</div>
+              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 2 / 4' : 'CHAPTER 2 / 4'}</div>
               <div className="font-display font-semibold text-white group-hover:text-gold transition-colors">{lang === 'es' ? 'Gaza: desarme en disputa' : 'Gaza: disarmament in dispute'}</div>
-              <div className="text-xs text-stone-400 mt-1">{lang === 'es' ? 'Alto el fuego frágil y el futuro de la Franja.' : 'Fragile ceasefire and the Strip’s future.'}</div>
+              <div className="text-xs text-stone-400 mt-1">{lang === 'es' ? 'Alto el fuego frágil y el futuro de la Franja.' : 'Fragile ceasefire and the Strip\'s future.'}</div>
             </div>
           </button>
           <button
@@ -193,9 +193,22 @@ export function NoticiasPage({
               <span className="text-3xl">🌊</span>
             </div>
             <div className="p-4">
-              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 3 / 3' : 'CHAPTER 3 / 3'}</div>
+              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 3 / 4' : 'CHAPTER 3 / 4'}</div>
               <div className="font-display font-semibold text-white group-hover:text-gold transition-colors">{lang === 'es' ? 'Ucrania: negociaciones estancadas' : 'Ukraine: stalled talks'}</div>
               <div className="text-xs text-stone-400 mt-1">{lang === 'es' ? 'Escalada militar sin fin a la vista.' : 'Military escalation with no end in sight.'}</div>
+            </div>
+          </button>
+          <button
+            onClick={() => onSpecialNavigate?.('reportaje-malvinas-historia')}
+            className="group text-left bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/40 transition-colors"
+          >
+            <div className="aspect-[16/9] bg-gradient-to-br from-[#123a3a] to-[#0a0a0f] flex items-center justify-center">
+              <span className="text-3xl">🏝️</span>
+            </div>
+            <div className="p-4">
+              <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 4 / 4' : 'CHAPTER 4 / 4'}</div>
+              <div className="font-display font-semibold text-white group-hover:text-gold transition-colors">{lang === 'es' ? 'Malvinas: 192 años de disputa' : 'Falklands: 192 years of dispute'}</div>
+              <div className="text-xs text-stone-400 mt-1">{lang === 'es' ? 'Del despojo de 1833 a la base naval anunciada por Milei.' : 'From 1833 dispossession to Milei\'s naval base announcement.'}</div>
             </div>
           </button>
         </div>

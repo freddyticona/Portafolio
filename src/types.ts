@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'noticias' | 'guias' | 'galeria' | 'showreel' | 'contacto' | 'reservas' | 'servicios' | 'admin' | 'eclipse-2026' | 'reportaje-iran-furia-epica' | 'reportaje-gaza-desarme' | 'reportaje-ucrania-estancamiento';
+export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'noticias' | 'guias' | 'galeria' | 'showreel' | 'contacto' | 'reservas' | 'servicios' | 'admin' | 'eclipse-2026' | 'reportaje-iran-furia-epica' | 'reportaje-gaza-desarme' | 'reportaje-ucrania-estancamiento' | 'reportaje-malvinas-historia';
 
 export interface PortfolioItem {
   id: string;

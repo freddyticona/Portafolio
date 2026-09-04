@@ -53,6 +53,7 @@ const Eclipse2026Page = lazy(() => import('./pages/Eclipse2026Page'));
 const IranReportPage = lazy(() => import('./pages/IranReportPage'));
 const GazaReportPage = lazy(() => import('./pages/GazaReportPage'));
 const UkraineReportPage = lazy(() => import('./pages/UkraineReportPage'));
+const MalvinasReportPage = lazy(() => import('./pages/MalvinasReportPage'));
 
 const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ContactPage })));
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
@@ -176,7 +177,7 @@ export default function App() {
       const validPages: PageId[] = [
         'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
         'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
-        'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento',
+        'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento', 'reportaje-malvinas-historia',
       ];
       if (validPages.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
@@ -356,6 +357,14 @@ export default function App() {
         case 'reportaje-ucrania-estancamiento':
           return (
             <UkraineReportPage
+              lang={lang}
+              onBackToNews={() => handleNavToTab('noticias')}
+              onNavigate={(p) => handleNavToTab(p)}
+            />
+          );
+        case 'reportaje-malvinas-historia':
+          return (
+            <MalvinasReportPage
               lang={lang}
               onBackToNews={() => handleNavToTab('noticias')}
               onNavigate={(p) => handleNavToTab(p)}
