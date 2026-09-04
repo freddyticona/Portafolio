@@ -241,6 +241,10 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
             </p>
           </div>
           <p>El general de brigada <strong>Hosein Mohebi</strong>, portavoz del IRGC, advirtió públicamente que «un castigo riguroso espera a quienes vulneren la soberanía iraní». Desde Washington, el presidente Donald Trump ratificó la política de firmeza para mantener abiertos los corredores marítimos globales.</p>
+          <figure className="my-8">
+            <img src="/images/report/politicians/trump.jpg" alt={L('Donald Trump, presidente de Estados Unidos. Fuente: Wikimedia Commons (dominio público).', 'Donald Trump, President of the United States. Source: Wikimedia Commons (public domain).')} className="mx-auto max-w-sm rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Donald Trump, presidente de EE.UU., impulsor de la postura de firmeza ante Irán. Fuente: Wikimedia Commons (dominio público).', 'Donald Trump, US President, driver of the firm stance toward Iran. Source: Wikimedia Commons (public domain).')}</figcaption>
+          </figure>
         </div>
       </section>
 

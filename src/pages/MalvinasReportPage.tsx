@@ -112,6 +112,10 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
       <section className="max-w-3xl mx-auto px-6 py-8 border-t border-stone-200">
         <h2 className="text-2xl font-serif font-bold mb-6">2. {L('La guerra de 1982 — 74 días que marcaron a una generación', 'The 1982 war — 74 days that marked a generation')}</h2>
         <div className="prose prose-stone max-w-none font-serif">
+          <figure className="my-8">
+            <img src="/images/report/maps/falklands-location.png" alt={L('Mapa de ubicación de las Islas Malvinas en el Atlántico Sur. Fuente: Wikimedia Commons (CC BY-SA 3.0).', 'Location map of the Falkland Islands in the South Atlantic. Source: Wikimedia Commons (CC BY-SA 3.0).')} className="mx-auto max-w-sm rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Ubicación de las Islas Malvinas en el Atlántico Sur. Fuente: Wikimedia Commons (CC BY-SA 3.0).', 'Location of the Falkland Islands in the South Atlantic. Source: Wikimedia Commons (CC BY-SA 3.0).')}</figcaption>
+          </figure>
           <p>El <strong>2 de abril de 1982</strong>, la Junta Militar argentina ordenó el desembarco anfibio en Puerto Argentino (Port Stanley), iniciando la <strong>Guerra de las Malvinas</strong>. Durante 74 días, las fuerzas argentinas —con escasa preparación logística y equipamiento inferior— enfrentaron a la Fuerza de Tareas británica, una de las flotas más poderosas del momento.</p>
           <p>El <strong>14 de junio de 1982</strong>, el general Mario Menéndez firmó la rendición incondicional. El saldo fue devastador: <strong>649 soldados argentinos y 255 británicos fallecidos</strong>, miles de heridos, y un trauma colectivo que perdura en la memoria argentina.</p>
           <p>La guerra tuvo consecuencias políticas inmediatas: en Argentina, precipitó la caída de la dictadura militar y el retorno a la democracia en 1983; en Reino Unido, consolidó el gobierno de Margaret Thatcher.</p>
@@ -196,6 +200,10 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
       <section className="max-w-3xl mx-auto px-6 py-8 border-t border-stone-200">
         <h2 className="text-2xl font-serif font-bold mb-6">5. {L('El anuncio de Milei — base naval, sanciones y ley al Congreso', 'Milei\'s announcement — naval base, sanctions and bill to Congress')}</h2>
         <div className="prose prose-stone max-w-none font-serif">
+          <figure className="my-8">
+            <img src="/images/report/politicians/milei.jpg" alt={L('Javier Milei, presidente de Argentina. Fuente: Wikimedia Commons (CC BY 4.0).', 'Javier Milei, President of Argentina. Source: Wikimedia Commons (CC BY 4.0).')} className="mx-auto max-w-sm rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Javier Milei, presidente de Argentina, autor del anuncio del 3 de septiembre de 2026. Fuente: Wikimedia Commons (CC BY 4.0).', 'Javier Milei, President of Argentina, author of the September 3, 2026 announcement. Source: Wikimedia Commons (CC BY 4.0).')}</figcaption>
+          </figure>
           <p>En su cadena nacional del <strong>3 de septiembre de 2026</strong>, Milei presentó un paquete de tres medidas concretas:</p>
           <ol className="list-decimal list-inside space-y-3">
             <li><strong>Decreto de sanciones:</strong> Celeridad para sancionar a empresas que operen en Malvinas —incluidas accionistas, directivos y proveedores— que no podrán operar en territorio continental argentino y enfrentarán juicios en ausencia.</li>
@@ -234,6 +242,24 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
             <li><strong>Internacional:</strong> El Foreign Office británico reiteró que "la soberanía de las islas no está en discusión" y que los isleños "tienen derecho a la autodeterminación" (referéndum 2013: 99,8% votaron por permanecer británicos).</li>
           </ul>
           <p>La convocatoria de Milei al Congreso y a "toda la dirigencia política, económica y social" busca construir un <strong>consenso transversal</strong>, aunque no se precisó cronograma legislativo ni de construcción de la base.</p>
+          <div className="my-8">
+            <div className="text-xs tracking-widest text-stone-500 mb-4 font-sans">ACTORES CLAVE — FOTOS ARCHIVO (WIKIMEDIA COMMONS)</div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <figure className="text-center">
+                <img src="/images/report/politicians/milei.jpg" alt="Javier Milei" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Javier Milei<br/><span className="text-stone-400">Presidente de Argentina</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/trump.jpg" alt="Donald Trump" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Donald Trump<br/><span className="text-stone-400">Presidente de EE.UU.</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/bullrich.jpg" alt="Patricia Bullrich" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Patricia Bullrich<br/><span className="text-stone-400">Senadora oficialista</span></figcaption>
+              </figure>
+            </div>
+            <p className="text-xs text-stone-400 mt-2 text-center font-sans">{L('Fotos: Wikimedia Commons — licencias libres (CC / dominio público).', 'Photos: Wikimedia Commons — free licenses (CC / public domain).')}</p>
+          </div>
         </div>
       </section>
 

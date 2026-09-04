@@ -77,10 +77,10 @@ export default function UkraineReportPage({ lang, onBackToNews, onNavigate }: Uk
           <div className="bg-sky-50 border-l-4 border-sky-500 p-4 my-6 text-sm">
             <strong>📌 Dato clave:</strong> Los drones Geran son baratos y difíciles de interceptar, lo que ha convertido esta táctica en una de las más efectivas de Rusia para desgastar la defensa aérea ucraniana.
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">MAPA — LÍNEAS DEL FRENTE SEP 2026</div>
-            <div className="h-64 bg-stone-200 rounded flex items-center justify-center text-stone-500">Donbás, Crimea, Zaporiyia, Jersón — avances ucranianos (Leaflet/SVG)</div>
-          </div>
+          <figure className="my-8">
+            <img src="/images/report/maps/ukraine-orthographic.png" alt={L('Mapa de Ucrania. Fuente: Wikimedia Commons (dominio público).', 'Map of Ukraine. Source: Wikimedia Commons (public domain).')} className="mx-auto max-w-sm rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Mapa de Ucrania. Fuente: Wikimedia Commons (dominio público).', 'Map of Ukraine. Source: Wikimedia Commons (public domain).')}</figcaption>
+          </figure>
           <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
             <div className="text-xs tracking-widest text-stone-500 mb-2">GRÁFICO — DRONES RUSOS 2024-2026</div>
             <div className="h-48 bg-stone-200 rounded flex items-center justify-center text-stone-500">Chart.js — 2024 inicio, 2025 pico, 2026 intensificación</div>
@@ -114,16 +114,31 @@ export default function UkraineReportPage({ lang, onBackToNews, onNavigate }: Uk
               ))}
             </div>
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">FOTOS ARCHIVO — WIKIMEDIA COMMONS (CC)</div>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-xs">
-              <div className="bg-white p-3 rounded">Putin</div>
-              <div className="bg-white p-3 rounded">Zelenski</div>
-              <div className="bg-white p-3 rounded">Trump</div>
-              <div className="bg-white p-3 rounded">Rubio</div>
-              <div className="bg-white p-3 rounded">Kushner</div>
+          <div className="my-8">
+            <div className="text-xs tracking-widest text-stone-500 mb-4 font-sans">ACTORES CLAVE — FOTOS ARCHIVO (WIKIMEDIA COMMONS)</div>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              <figure className="text-center">
+                <img src="/images/report/politicians/putin.jpg" alt="Vladimir Putin" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Vladimir Putin<br/><span className="text-stone-400">Presidente de Rusia</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/zelenski.jpg" alt="Volodímir Zelenski" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Volodímir Zelenski<br/><span className="text-stone-400">Presidente de Ucrania</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/trump.jpg" alt="Donald Trump" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Donald Trump<br/><span className="text-stone-400">Presidente de EE.UU.</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/rubio.jpg" alt="Marco Rubio" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Marco Rubio<br/><span className="text-stone-400">Secretario de Estado</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/kushner.jpg" alt="Jared Kushner" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Jared Kushner<br/><span className="text-stone-400">Enviado especial EE.UU.</span></figcaption>
+              </figure>
             </div>
-            <div className="text-xs text-stone-400 mt-2">Licencias libres — atribución al pie</div>
+            <p className="text-xs text-stone-400 mt-2 text-center font-sans">{L('Fotos: Wikimedia Commons — licencias libres (CC / dominio público).', 'Photos: Wikimedia Commons — free licenses (CC / public domain).')}</p>
           </div>
         </div>
       </section>

@@ -62,11 +62,10 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
           <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 my-6 text-sm">
             <strong>📌 Dato clave:</strong> Más de 2 millones de gazatíes fueron desplazados internamente, y más del 60% de las viviendas resultaron dañadas o destruidas, según OCHA.
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">MAPA — FRANJA DE GAZA 2026</div>
-            <div className="h-64 bg-stone-200 rounded flex items-center justify-center text-stone-500">Puntos de control, áreas bajo control israelí y zonas de Hamás (Leaflet/SVG)</div>
-            <div className="text-xs text-stone-400 mt-2">Elaboración propia — datos ONU/OCHA</div>
-          </div>
+          <figure className="my-8">
+            <img src="/images/report/maps/gaza-strip.png" alt={L('Mapa de la Franja de Gaza mostrando las principales ciudades y zonas de control. Fuente: Wikimedia Commons (CC BY-SA 3.0).', 'Map of the Gaza Strip showing major cities and areas of control. Source: Wikimedia Commons (CC BY-SA 3.0).')} className="mx-auto max-w-md rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Mapa de la Franja de Gaza. Fuente: Wikimedia Commons (CC BY-SA 3.0).', 'Map of the Gaza Strip. Source: Wikimedia Commons (CC BY-SA 3.0).')}</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -114,13 +113,10 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
           <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 my-6 text-sm">
             <strong>📌 Dato clave:</strong> La disputa refleja la desconfianza mutua acumulada durante 20 meses de guerra. Israel teme que Hamás se rearme si se retira antes; Hamás teme que Israel nunca se vaya si se desarma antes.
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">EMBED YOUTUBE — NETANYAHU DESARME HAMÁS</div>
-            <div className="bg-white border border-stone-200 rounded p-4 text-sm text-stone-500">
-              [Rueda de prensa Netanyahu — canal oficial gobierno israelí]<br/>
-              <span className="text-xs">Si no existe, se omite. Embed vía iframe oficial.</span>
-            </div>
-          </div>
+          <figure className="my-8">
+            <img src="/images/report/politicians/netanyahu.jpg" alt={L('Benjamin Netanyahu, primer ministro de Israel, durante una rueda de prensa en Jerusalén. Fuente: Wikimedia Commons (dominio público).', 'Benjamin Netanyahu, Prime Minister of Israel, during a press conference in Jerusalem. Source: Wikimedia Commons (public domain).')} className="w-full max-w-sm mx-auto rounded-lg shadow-sm" loading="lazy" />
+            <figcaption className="text-xs text-stone-500 mt-2 text-center font-sans">{L('Benjamin Netanyahu, primer ministro de Israel. Fuente: Wikimedia Commons (dominio público).', 'Benjamin Netanyahu, Prime Minister of Israel. Source: Wikimedia Commons (public domain).')}</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -139,15 +135,27 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
               ))}
             </div>
           </div>
-          <div className="bg-stone-100 rounded-lg p-6 my-8 text-center">
-            <div className="text-xs tracking-widest text-stone-500 mb-2">FOTOS ARCHIVO — WIKIMEDIA COMMONS (CC)</div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs">
-              <div className="bg-white p-3 rounded">Netanyahu</div>
-              <div className="bg-white p-3 rounded">Trump</div>
-              <div className="bg-white p-3 rounded">Kushner</div>
-              <div className="bg-white p-3 rounded">Al-Hayya</div>
+          <div className="my-8">
+            <div className="text-xs tracking-widest text-stone-500 mb-4 font-sans">ACTORES CLAVE — FOTOS ARCHIVO (WIKIMEDIA COMMONS)</div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <figure className="text-center">
+                <img src="/images/report/politicians/netanyahu.jpg" alt="Benjamin Netanyahu" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Benjamin Netanyahu<br/><span className="text-stone-400">Primer Ministro de Israel</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/trump.jpg" alt="Donald Trump" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Donald Trump<br/><span className="text-stone-400">Presidente de EE.UU.</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/kushner.jpg" alt="Jared Kushner" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Jared Kushner<br/><span className="text-stone-400">Enviado especial EE.UU.</span></figcaption>
+              </figure>
+              <figure className="text-center">
+                <img src="/images/report/politicians/al-hayya.jpg" alt="Khalil al-Hayya" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
+                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Khalil al-Hayya<br/><span className="text-stone-400">Líder de Hamás</span></figcaption>
+              </figure>
             </div>
-            <div className="text-xs text-stone-400 mt-2">Licencias libres — atribución al pie</div>
+            <p className="text-xs text-stone-400 mt-2 text-center font-sans">{L('Fotos: Wikimedia Commons — licencias libres (CC / dominio público).', 'Photos: Wikimedia Commons — free licenses (CC / public domain).')}</p>
           </div>
         </div>
       </section>
