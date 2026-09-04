@@ -145,10 +145,86 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
       <section className="max-w-3xl mx-auto px-6 py-8 border-t border-stone-200">
         <h2 className="text-2xl font-serif font-bold mb-6">5. {L('Actores clave y declaraciones', 'Key actors and statements')}</h2>
         <div className="prose prose-stone max-w-none font-serif">
-          <blockquote>“Apoyamos la hoja de ruta del Consejo de Paz, pero la retirada israelí debe ser simultánea al desarme. No aceptaremos que Israel use el desarme como excusa para perpetuar la ocupación”.<br/>— <strong>Khalil al-Hayya</strong>, líder de Hamás.</blockquote>
-          <blockquote>“No pondremos en riesgo la seguridad de Israel. Hamás debe desarmarse completamente y de manera verificable antes de que Israel se retire”.<br/>— <strong>Benjamin Netanyahu</strong>, primer ministro israelí.</blockquote>
-          <blockquote>“Ambas partes están cerca de un acuerdo histórico. Necesitamos un poco más de flexibilidad para salvar las diferencias”.<br/>— <strong>Jared Kushner</strong>, enviado especial de EE.UU.</blockquote>
-          <p><strong>Actores clave:</strong> Donald Trump (creador del Consejo de Paz), Benjamin Netanyahu (elecciones oct 2026), Jared Kushner, Khalil al-Hayya, Ismaïl al-Thawabta (director de medios de Hamás). Mediadores: Qatar y Egipto.</p>
+          <p className="text-stone-600">{L(
+            'El estancamiento de la segunda fase del alto el fuego no depende solo de los documentos y la hoja de ruta, sino de los intereses y la confianza (o desconfianza) de los líderes que la negocian. A continuación, las posturas públicas de los tres protagonistas centrales de la disputa, junto con el resto de actores que intervienen en el proceso.',
+            'The stalemate in the second phase of the ceasefire rests not only on documents and the roadmap, but on the interests and trust (or distrust) of the leaders negotiating it. Below are the public positions of the three central protagonists of the dispute, along with the other actors involved in the process.'
+          )}</p>
+
+          <div className="grid grid-cols-1 gap-6 my-8">
+            {/* Khalil al-Hayya */}
+            <div className="bg-white border border-stone-200 rounded-xl overflow-hidden shadow-sm flex flex-col sm:flex-row">
+              <div className="sm:w-40 shrink-0">
+                <img src="/images/report/politicians/al-hayya.jpg" alt="Khalil al-Hayya" className="w-full h-44 sm:h-full object-cover" loading="lazy" />
+              </div>
+              <div className="p-5">
+                <p className="font-sans font-bold text-stone-900">Khalil al-Hayya</p>
+                <p className="font-sans text-xs text-rose-600 mb-3">Líder de Hamás en Gaza</p>
+                <p className="text-stone-700 italic border-l-4 border-rose-400 pl-3 font-serif">“Apoyamos la hoja de ruta del Consejo de Paz, pero la retirada israelí debe ser simultánea al desarme. No aceptaremos que Israel use el desarme como excusa para perpetuar la ocupación”.</p>
+              </div>
+            </div>
+
+            {/* Netanyahu */}
+            <div className="bg-white border border-stone-200 rounded-xl overflow-hidden shadow-sm flex flex-col sm:flex-row">
+              <div className="sm:w-40 shrink-0">
+                <img src="/images/report/politicians/netanyahu.jpg" alt="Benjamin Netanyahu" className="w-full h-44 sm:h-full object-cover" loading="lazy" />
+              </div>
+              <div className="p-5">
+                <p className="font-sans font-bold text-stone-900">Benjamin Netanyahu</p>
+                <p className="font-sans text-xs text-sky-600 mb-3">Primer Ministro de Israel</p>
+                <p className="text-stone-700 italic border-l-4 border-sky-400 pl-3 font-serif">“No pondremos en riesgo la seguridad de Israel. Hamás debe desarmarse completamente y de manera verificable antes de que Israel se retire”.</p>
+              </div>
+            </div>
+
+            {/* Kushner */}
+            <div className="bg-white border border-stone-200 rounded-xl overflow-hidden shadow-sm flex flex-col sm:flex-row">
+              <div className="sm:w-40 shrink-0">
+                <img src="/images/report/politicians/kushner.jpg" alt="Jared Kushner" className="w-full h-44 sm:h-full object-cover" loading="lazy" />
+              </div>
+              <div className="p-5">
+                <p className="font-sans font-bold text-stone-900">Jared Kushner</p>
+                <p className="font-sans text-xs text-stone-500 mb-3">Enviado especial de EE.UU.</p>
+                <p className="text-stone-700 italic border-l-4 border-stone-400 pl-3 font-serif">“Ambas partes están cerca de un acuerdo histórico. Necesitamos un poco más de flexibilidad para salvar las diferencias”.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-stone-100 rounded-lg p-6 my-8 border border-stone-200">
+            <div className="text-xs tracking-widest text-stone-500 mb-4 font-sans">QUIÉN ES QUIÉN EN LAS NEGOCIACIONES</div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="bg-white p-3 rounded text-center">
+                <img src="/images/report/politicians/trump.jpg" alt="Donald Trump" className="w-24 h-24 object-cover rounded-full mx-auto mb-2" loading="lazy" />
+                <p className="text-sm font-bold text-stone-800 font-sans">{L('Donald Trump', 'Donald Trump')}</p>
+                <p className="text-xs text-stone-500 font-sans">{L('Presidente de EE.UU. — creó el Consejo de Paz', 'US President — created the Peace Council')}</p>
+              </div>
+              <div className="bg-white p-3 rounded text-center">
+                <img src="/images/report/politicians/netanyahu.jpg" alt="Benjamin Netanyahu" className="w-24 h-24 object-cover rounded-full mx-auto mb-2" loading="lazy" />
+                <p className="text-sm font-bold text-stone-800 font-sans">{L('Benjamin Netanyahu', 'Benjamin Netanyahu')}</p>
+                <p className="text-xs text-stone-500 font-sans">{L('Primer Ministro de Israel — elecciones oct 2026', 'Israeli PM — Oct 2026 elections')}</p>
+              </div>
+              <div className="bg-white p-3 rounded text-center">
+                <img src="/images/report/politicians/kushner.jpg" alt="Jared Kushner" className="w-24 h-24 object-cover rounded-full mx-auto mb-2" loading="lazy" />
+                <p className="text-sm font-bold text-stone-800 font-sans">{L('Jared Kushner', 'Jared Kushner')}</p>
+                <p className="text-xs text-stone-500 font-sans">{L('Enviado especial de EE.UU.', 'US special envoy')}</p>
+              </div>
+              <div className="bg-white p-3 rounded text-center">
+                <img src="/images/report/politicians/al-hayya.jpg" alt="Khalil al-Hayya" className="w-24 h-24 object-cover rounded-full mx-auto mb-2" loading="lazy" />
+                <p className="text-sm font-bold text-stone-800 font-sans">{L('Khalil al-Hayya', 'Khalil al-Hayya')}</p>
+                <p className="text-xs text-stone-500 font-sans">{L('Líder de Hamás en Gaza', 'Hamas leader in Gaza')}</p>
+              </div>
+              <div className="bg-white p-3 rounded text-center">
+                <div className="w-24 h-24 rounded-full mx-auto mb-2 bg-stone-200 flex items-center justify-center text-stone-400 font-sans">?</div>
+                <p className="text-sm font-bold text-stone-800 font-sans">Ismaïl al-Thawabta</p>
+                <p className="text-xs text-stone-500 font-sans">{L('Director de medios de Hamás', 'Hamas media director')}</p>
+              </div>
+              <div className="bg-white p-3 rounded text-center">
+                <div className="w-24 h-24 rounded-full mx-auto mb-2 bg-emerald-100 flex items-center justify-center text-emerald-600 font-sans">⚖</div>
+                <p className="text-sm font-bold text-stone-800 font-sans">{L('Qatar y Egipto', 'Qatar and Egypt')}</p>
+                <p className="text-xs text-stone-500 font-sans">{L('Mediadores del alto el fuego', 'Ceasefire mediators')}</p>
+              </div>
+            </div>
+            <p className="text-xs text-stone-400 mt-3 text-center font-sans">{L('Fotos: Wikimedia Commons — licencias libres (CC / dominio público).', 'Photos: Wikimedia Commons — free licenses (CC / public domain).')}</p>
+          </div>
+
           <div className="bg-stone-100 rounded-lg p-6 my-8">
             <div className="text-xs tracking-widest text-stone-500 mb-4">LÍNEA DE TIEMPO — OCT 2023 → AGO 2026</div>
             <div className="flex gap-2 overflow-x-auto pb-2">
@@ -156,28 +232,6 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
                 <div key={i} className="min-w-[110px] bg-white border border-stone-200 rounded p-3 text-center text-xs whitespace-pre">{h}</div>
               ))}
             </div>
-          </div>
-          <div className="my-8">
-            <div className="text-xs tracking-widest text-stone-500 mb-4 font-sans">ACTORES CLAVE — FOTOS ARCHIVO (WIKIMEDIA COMMONS)</div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <figure className="text-center">
-                <img src="/images/report/politicians/netanyahu.jpg" alt="Benjamin Netanyahu" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
-                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Benjamin Netanyahu<br/><span className="text-stone-400">Primer Ministro de Israel</span></figcaption>
-              </figure>
-              <figure className="text-center">
-                <img src="/images/report/politicians/trump.jpg" alt="Donald Trump" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
-                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Donald Trump<br/><span className="text-stone-400">Presidente de EE.UU.</span></figcaption>
-              </figure>
-              <figure className="text-center">
-                <img src="/images/report/politicians/kushner.jpg" alt="Jared Kushner" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
-                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Jared Kushner<br/><span className="text-stone-400">Enviado especial EE.UU.</span></figcaption>
-              </figure>
-              <figure className="text-center">
-                <img src="/images/report/politicians/al-hayya.jpg" alt="Khalil al-Hayya" className="w-full h-40 object-cover rounded-lg shadow-sm" loading="lazy" />
-                <figcaption className="text-xs text-stone-500 mt-1 font-sans">Khalil al-Hayya<br/><span className="text-stone-400">Líder de Hamás</span></figcaption>
-              </figure>
-            </div>
-            <p className="text-xs text-stone-400 mt-2 text-center font-sans">{L('Fotos: Wikimedia Commons — licencias libres (CC / dominio público).', 'Photos: Wikimedia Commons — free licenses (CC / public domain).')}</p>
           </div>
         </div>
       </section>
