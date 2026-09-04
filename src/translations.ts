@@ -25130,7 +25130,6 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     region: 'International',
     sourceUrl: 'https://www.infobae.com/politica/2026/09/04/milei-enviara-al-congreso-un-paquete-de-proyectos-para-resguardar-la-soberania-de-la-argentina-en-las-islas-malvinas/'
   },
-,
 
 
 
