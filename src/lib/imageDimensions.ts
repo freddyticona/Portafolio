@@ -1,6 +1,10 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/blog/caso-nadia-beller/momento-ataque-camara.webp": {
     "width": 1200,
     "height": 809
@@ -8,10 +12,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/blog/otan-rusia-guerra-supuesta-polonia-eeuu.jpg": {
     "width": 1280,
     "height": 853
-  },
-  "/images/blog/caso-nadia-beller/paz-solidariza-beller-eldeber.jpg": {
-    "width": 1200,
-    "height": 630
   },
   "/images/blog/pakistan-inundaciones-monzon-2026-muertos-ndma.jpg": {
     "width": 1280,

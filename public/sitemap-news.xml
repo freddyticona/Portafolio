@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://freddydev.net/noticias/especial-investigacion-caso-cerimedo-impacto-gobierno-rodrigo-paz</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05T14:00:00-04:00</news:publication_date>
+      <news:title>Reportaje de investigación | El caso Cerimedo: cómo un asesor externo desató el terremoto político que sacude al gobierno de Rodrigo Paz Pereira</news:title>
+      <news:keywords>Reportaje</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/milei-cadena-nacional-malvinas-base-naval-sanciones-petroleras</loc>
     <news:news>
       <news:publication>
