@@ -26,6 +26,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/especial-analisis-estado-excepcion-bolivia-ampliacion</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05T16:46:57-04:00</news:publication_date>
+      <news:title>Reportaje de análisis | Estado de excepción en Bolivia: 90 días que dividen al país y una ampliación que reaviva el debate regional</news:title>
+      <news:keywords>Reportaje</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/milei-cadena-nacional-malvinas-base-naval-sanciones-petroleras</loc>
     <news:news>
       <news:publication>

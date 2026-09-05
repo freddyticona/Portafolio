@@ -9,6 +9,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 987,
     "height": 555
   },
+  "/images/blog/noticias-2026/1138-puente-san-pablo-bloqueo.jpg": {
+    "width": 1280,
+    "height": 960
+  },
   "/images/blog/caso-nadia-beller/momento-ataque-camara.webp": {
     "width": 1200,
     "height": 809
