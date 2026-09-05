@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://freddydev.net/noticias/especial-investigacion-caso-cerimedo-repercusiones-internacionales</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05T19:58:11-04:00</news:publication_date>
+      <news:title>Reportaje de investigación | Caso Cerimedo: cómo la detención de un consultor argentino puso en el banquillo a nueve gobiernos de América Latina</news:title>
+      <news:keywords>Reportaje</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/milei-cadena-nacional-malvinas-base-naval-sanciones-petroleras</loc>
     <news:news>
       <news:publication>

@@ -5,6 +5,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1200,
     "height": 630
   },
+  "/images/blog/caso-nadia-beller/cerimedo-aprehendido.webp": {
+    "width": 987,
+    "height": 555
+  },
   "/images/blog/caso-nadia-beller/momento-ataque-camara.webp": {
     "width": 1200,
     "height": 809
