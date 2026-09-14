@@ -1,6 +1,90 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-09-14/openai-anthropic-frenar-ia.jpg": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/news/2026-09-14/musk-openai-anthropic-frenar-ia.webp": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/news/2026-09-14/anthropic-informe-uso-indebido-ia.jpg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/news/2026-09-14/anthropic-escenarios-economicos-ia.jpg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/news/2026-09-14/nasa-ibm-modelo-lunar.jpg": {
+    "width": 2560,
+    "height": 1440
+  },
+  "/images/news/2026-09-14/pisa-schleicher-ia-educacion.jpg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/news/2026-09-14/putin-ucrania-ataques-europa.jpg": {
+    "width": 992,
+    "height": 558
+  },
+  "/images/news/2026-09-14/ormuz-oleoducto-arabia-saudita-petroleo.jpg": {
+    "width": 1080,
+    "height": 608
+  },
+  "/images/news/2026-09-14/arabia-saudita-hutis-amenazas-iran.jpg": {
+    "width": 992,
+    "height": 558
+  },
+  "/images/news/2026-09-14/lil-durk-absuelto-juicio.jpg": {
+    "width": 992,
+    "height": 558
+  },
+  "/images/news/2026-09-14/trump-irlanda-dublin-irish-open.jpg": {
+    "width": 992,
+    "height": 558
+  },
+  "/images/news/2026-09-12/brics-cumbre-nueva-delhi.jpg": {
+    "width": 940,
+    "height": 529
+  },
+  "/images/news/2026-09-12/israel-libano-tunel-ali-taher.png": {
+    "width": 1200,
+    "height": 633
+  },
+  "/images/news/2026-09-12/corea-del-sur-protestas-ormuz.jpg": {
+    "width": 1140,
+    "height": 750
+  },
+  "/images/news/2026-09-12/palawan-incendio-ferry.jpg": {
+    "width": 800,
+    "height": 533
+  },
+  "/images/news/2026-09-12/birmania-min-aung-hlaing-camboya.png": {
+    "width": 827,
+    "height": 570
+  },
+  "/images/news/2026-09-12/cuba-demanda-migratorio.jpg": {
+    "width": 800,
+    "height": 450
+  },
+  "/images/news/2026-09-12/brasil-augusto-cury.webp": {
+    "width": 1170,
+    "height": 700
+  },
+  "/images/news/2026-09-12/cilia-flores-prision-domiciliaria.jpg": {
+    "width": 800,
+    "height": 450
+  },
+  "/images/news/2026-09-12/ia-congreso-salvaguardas.jpg": {
+    "width": 860,
+    "height": 573
+  },
+  "/images/news/2026-09-12/chile-aniversario-golpe.jpg": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/news/2026-09-07/miami-avion-carga-amazon.webp": {
     "width": 2048,
     "height": 1280

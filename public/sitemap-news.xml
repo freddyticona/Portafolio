@@ -2,123 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/accidente-avion-carga-amazon-miami-quiebrapista-5-muertos</loc>
+    <loc>https://freddydev.net/noticias/altman-amodei-musk-frenar-ritmo-ia-openai-ipo</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-07T10:00:00-04:00</news:publication_date>
-      <news:title>Accidente de avión de carga de Amazon en Miami: un Boeing 767 se deslizó de la pista, cruzó una avenida y dejó 5 muertos</news:title>
-      <news:keywords>EE.UU.</news:keywords>
+      <news:publication_date>2026-09-14T12:45:00-04:00</news:publication_date>
+      <news:title>Altman, Amodei y Musk coinciden en frenar el ritmo de la IA: OpenAI congela su salida a bolsa</news:title>
+      <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/aeropuerto-miami-caos-aereo-cancelaciones-demoras-accidente</loc>
+    <loc>https://freddydev.net/noticias/musk-openai-anthropic-coxon-frenar-superinteligencia</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-07T10:15:00-04:00</news:publication_date>
-      <news:title>Caos aéreo en Miami: un centenar de vuelos cancelados y cientos de demoras tras el accidente en el aeropuerto</news:title>
-      <news:keywords>EE.UU.</news:keywords>
+      <news:publication_date>2026-09-14T12:46:00-04:00</news:publication_date>
+      <news:title>Musk apoya frenar la IA junto a OpenAI y Anthropic tras la dimisión de un investigador de seguridad</news:title>
+      <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/kushner-witkoff-moscu-rusia-ucrania-paz-primera-visita-kiev</loc>
+    <loc>https://freddydev.net/noticias/anthropic-informe-ia-ciberataques-armas-biologicas</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-07T11:00:00-04:00</news:publication_date>
-      <news:title>Kushner y Witkoff se reúnen con Putin en Moscú y viajan a Kiev en la primera visita de enviados de EE.UU. a Ucrania desde el inicio de la guerra</news:title>
+      <news:publication_date>2026-09-14T12:47:00-04:00</news:publication_date>
+      <news:title>Anthropic afirma haber frenado usos indebidos de la IA en ciberataques y armas biológicas</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/anthropic-escenarios-economicos-ia-2030-desempleo</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14T12:48:00-04:00</news:publication_date>
+      <news:title>Anthropic modela el impacto económico de la IA: crecimiento del 15% y desempleo masivo en 2030</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nasa-ibm-modelo-fundacional-lunar-codigo-abierto</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14T12:49:00-04:00</news:publication_date>
+      <news:title>La NASA e IBM lanzan un modelo de IA de código abierto para desentrañar los secretos de la Luna</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/pisa-schleicher-ia-erosiona-capacidades-jovenes</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14T12:50:00-04:00</news:publication_date>
+      <news:title>El fundador de PISA advierte que la IA &quot;vacía&quot; las capacidades que la juventud necesita</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/putin-europa-tropas-guerra-ucrania</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14T13:00:00-04:00</news:publication_date>
+      <news:title>Putin advierte que enviar tropas europeas a Ucrania significaría &quot;una guerra con Rusia&quot;</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/nepal-rescate-dos-obreros-tunel-trishuli-despues-riada</loc>
+    <loc>https://freddydev.net/noticias/oleoducto-arabia-saudita-ataques-ormuz-petroleo</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-07T11:30:00-04:00</news:publication_date>
-      <news:title>Milagro en el Himalaya: dos obreros rescatados con vida tras 10 días atrapados en un túnel hidroeléctrico en Nepal</news:title>
-      <news:keywords>Catástrofes</news:keywords>
+      <news:publication_date>2026-09-14T13:02:00-04:00</news:publication_date>
+      <news:title>La guerra se extiende: ataques en Ormuz y Arabia Saudita agravan la disrupción del petróleo</news:title>
+      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/cumbre-quibdo-empresarios-reconstruccion-choco-hoy</loc>
+    <loc>https://freddydev.net/noticias/arabia-saudita-pocas-opciones-amenazas-iran-hutis</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-07T12:00:00-04:00</news:publication_date>
-      <news:title>Cumbre por el Chocó: el presidente reúne en Quibdó a empresarios, gobernadores y su gabinete para reconstruir las 6.000 viviendas destruidas</news:title>
-      <news:keywords>América Latina</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/lenin-moreno-audiencia-suspension-condicional-pena-sinohydro</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T13:00:00-04:00</news:publication_date>
-      <news:title>Lenín Moreno enfrenta hoy la audiencia de suspensión condicional de su pena por el caso Sinohydro</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/juicio-muerte-federico-aramburu-cuatro-acusados-paris</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T13:30:00-04:00</news:publication_date>
-      <news:title>Comienza el juicio por la muerte de Federico Martín Aramburú: cuatro acusados se sientan ante el tribunal de París</news:title>
-      <news:keywords>Justicia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/afd-victoria-sajonia-anhalt-2026-roza-mayoria-absoluta</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T10:45:00-04:00</news:publication_date>
-      <news:title>Histórico en Alemania: AfD vence en Sajonia-Anhalt y se queda a tres escaños de la mayoría absoluta</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/israel-bombardeos-libano-tres-muertos-despues-dron-hezbola</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T09:00:00-04:00</news:publication_date>
-      <news:title>Israel bombardea cinco localidades en el sur del Líbano y el valle de la Becá tras el lanzamiento de un dron de Hezbolá</news:title>
+      <news:publication_date>2026-09-14T13:04:00-04:00</news:publication_date>
+      <news:title>Arabia Saudita, con pocas opciones ante las amenazas de Irán y sus aliados</news:title>
       <news:keywords>Oriente Medio</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/sanchez-reune-bancada-socialista-ceuta-presupuestos</loc>
+    <loc>https://freddydev.net/noticias/lil-durk-absuelto-asesinato-por-encargo</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-07T12:30:00-04:00</news:publication_date>
-      <news:title>Sánchez reúne a su bancada este lunes: Ceuta y los presupuestos marcan la agenda de un año crucial</news:title>
-      <news:keywords>Política</news:keywords>
+      <news:publication_date>2026-09-14T13:06:00-04:00</news:publication_date>
+      <news:title>El rapero Lil Durk es absuelto del asesinato por encargo en Los Ángeles</news:title>
+      <news:keywords>Espectáculos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/trump-irlanda-island-unificada-irish-open</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14T13:08:00-04:00</news:publication_date>
+      <news:title>Trump dice que &quot;adoraría ver&quot; una Irlanda unificada durante su visita a Dublín</news:title>
+      <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
 </urlset>

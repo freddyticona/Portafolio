@@ -9,7 +9,154 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Tue, 08 Sep 2026 13:39:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 23:15:54 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Altman, Amodei y Musk coinciden en frenar el ritmo de la IA: OpenAI congela su salida a bolsa]]></title>
+      <link>https://freddydev.net/noticias/altman-amodei-musk-frenar-ritmo-ia-openai-ipo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/altman-amodei-musk-frenar-ritmo-ia-openai-ipo</guid>
+      <description><![CDATA[Los tres nombres más influyentes de la industria respaldaron moderar el desarrollo de la frontera tecnológica. Amodei comprometió evaluadores externos con acceso "a nivel de empleado", Altman dijo que hará lo mismo y Musk lo resumió con un "Dario tiene razón".]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Musk apoya frenar la IA junto a OpenAI y Anthropic tras la dimisión de un investigador de seguridad]]></title>
+      <link>https://freddydev.net/noticias/musk-openai-anthropic-coxon-frenar-superinteligencia</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/musk-openai-anthropic-coxon-frenar-superinteligencia</guid>
+      <description><![CDATA[El dueño de xAI respaldó el giro de ambas compañías hacia un desarrollo "más pausado" el mismo fin de semana en que Jacob Coxon, investigador que pasó por las dos firmas, renunció advirtiendo que "están corriendo directamente hacia una superinteligencia auto-mejorante".]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Anthropic afirma haber frenado usos indebidos de la IA en ciberataques y armas biológicas]]></title>
+      <link>https://freddydev.net/noticias/anthropic-informe-ia-ciberataques-armas-biologicas</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/anthropic-informe-ia-ciberataques-armas-biologicas</guid>
+      <description><![CDATA[En su tercer informe sobre usos indebidos, la empresa reveló intentos de actores maliciosos de emplear sus modelos en ciberataques, vigilancia, propaganda y una investigación con el virus chikungunya que buscaba hacerlo más peligroso.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Anthropic modela el impacto económico de la IA: crecimiento del 15% y desempleo masivo en 2030]]></title>
+      <link>https://freddydev.net/noticias/anthropic-escenarios-economicos-ia-2030-desempleo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/anthropic-escenarios-economicos-ia-2030-desempleo</guid>
+      <description><![CDATA[El equipo económico de la empresa publicó tres escenarios para la economía de EE.UU. hasta 2030. En el extremo, el PIB crece un 15,4% anual y el empleo cognitivo cae un 21,5%, mientras la renta del trabajo baja del 60% al 45,2%.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La NASA e IBM lanzan un modelo de IA de código abierto para desentrañar los secretos de la Luna]]></title>
+      <link>https://freddydev.net/noticias/nasa-ibm-modelo-fundacional-lunar-codigo-abierto</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/nasa-ibm-modelo-fundacional-lunar-codigo-abierto</guid>
+      <description><![CDATA[El NASA-IBM Lunar Foundation Model se entrenó con datos del Lunar Reconnaissance Orbiter, la misión GRAIL y la sonda japonesa SELENE/Kaguya. Identifica cráteres, estudia la historia volcánica y busca depósitos de hielo, y ya está disponible en Hugging Face.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El fundador de PISA advierte que la IA "vacía" las capacidades que la juventud necesita]]></title>
+      <link>https://freddydev.net/noticias/pisa-schleicher-ia-erosiona-capacidades-jovenes</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/pisa-schleicher-ia-erosiona-capacidades-jovenes</guid>
+      <description><![CDATA[Andreas Schleicher, creador de las pruebas de la OCDE, advierte que el rendimiento en lectura y matemáticas cayó a mínimos históricos y vincula el uso de la IA con un círculo vicioso: "no te pones en forma viendo deporte".]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Putin advierte que enviar tropas europeas a Ucrania significaría "una guerra con Rusia"]]></title>
+      <link>https://freddydev.net/noticias/putin-europa-tropas-guerra-ucrania</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/putin-europa-tropas-guerra-ucrania</guid>
+      <description><![CDATA[Los ataques rusos mataron a ocho civiles en Ucrania en 24 horas, mientras Putin advirtió, desde la cumbre de los BRICS en India, que enviar tropas europeas al país significaría "una guerra con Rusia".]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La guerra se extiende: ataques en Ormuz y Arabia Saudita agravan la disrupción del petróleo]]></title>
+      <link>https://freddydev.net/noticias/oleoducto-arabia-saudita-ataques-ormuz-petroleo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/oleoducto-arabia-saudita-ataques-ormuz-petroleo</guid>
+      <description><![CDATA[La agencia de seguridad marítima británica reportó que un proyectil alcanzó un buque en el estrecho de Ormuz, mientras el oleoducto saudí Este-Oeste sigue cerrado tras un ataque con drones que pone en riesgo hasta el 4% del suministro mundial de crudo.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Arabia Saudita, con pocas opciones ante las amenazas de Irán y sus aliados]]></title>
+      <link>https://freddydev.net/noticias/arabia-saudita-pocas-opciones-amenazas-iran-hutis</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/arabia-saudita-pocas-opciones-amenazas-iran-hutis</guid>
+      <description><![CDATA[El avance relámpago de los hutíes en Yemen amenaza una ruta comercial clave del mar Rojo, los ataques atribuidos a milicias iraquíes cerraron un oleoducto mayor e Irán sigue presionando Ormuz. Riad enfrenta un escenario de pesadilla con pocas opciones.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El rapero Lil Durk es absuelto del asesinato por encargo en Los Ángeles]]></title>
+      <link>https://freddydev.net/noticias/lil-durk-absuelto-asesinato-por-encargo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/lil-durk-absuelto-asesinato-por-encargo</guid>
+      <description><![CDATA[Un jurado federal absolvió al rapero Lil Durk del intento de asesinato por encargo del rapero rival Quando Rondo, un tiroteo que mató al primo de Rondo. Dos coacusados fueron condenados, pero Durk aún enfrenta un segundo juicio por extorsión.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Trump dice que "adoraría ver" una Irlanda unificada durante su visita a Dublín]]></title>
+      <link>https://freddydev.net/noticias/trump-irlanda-island-unificada-irish-open</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/trump-irlanda-island-unificada-irish-open</guid>
+      <description><![CDATA[Trump dijo que le "encantaría ver" una Irlanda unificada durante su visita a Dublín, un comentario rechazado por los líderes unionistas. La visita coincide con el Irish Open en su resort Trump International Doonbeg.]]></description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Putin llega a Nueva Delhi para la cumbre BRICS: Xi, Pezeshkian y la guerra con Irán marcan la agenda]]></title>
+      <link>https://freddydev.net/noticias/brics-2026-cumbre-nueva-delhi-putin-xi</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/brics-2026-cumbre-nueva-delhi-putin-xi</guid>
+      <description><![CDATA[El presidente ruso aterrizó el viernes en la capital india para la XVIII cumbre del bloque, cuyo día central es este sábado. Xi Jinping confirmó su presencia por primera vez desde 2019 y la guerra con Irán se perfila como la prueba de cohesión del grupo.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Israel entra en Rosh Hashaná con bombardeos en Gaza y la destrucción de los túneles de Hezbolá]]></title>
+      <link>https://freddydev.net/noticias/israel-rosh-hashana-gaza-libano-tunel-ali-taher</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/israel-rosh-hashana-gaza-libano-tunel-ali-taher</guid>
+      <description><![CDATA[El año nuevo judío 5787 comenzó con las FDI bombardeando Gaza, abatiendo a comandantes de Hamás y detonando un complejo subterráneo de Hezbolá en la cresta Ali Taher, en el sur del Líbano, con una explosión equivalente a un sismo de 4,1.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Corea del Sur: protestas contra un posible despliegue militar en el estrecho de Ormuz]]></title>
+      <link>https://freddydev.net/noticias/corea-del-sur-protestas-ormuz-despliegue-militar</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/corea-del-sur-protestas-ormuz-despliegue-militar</guid>
+      <description><![CDATA[Decenas de manifestantes se concentraron frente a la embajada de EE.UU. en Seúl mientras el Gobierno estudia una contribución a la seguridad del estrecho. Irán advirtió que un despliegue se considerará apoyo directo a la agresión.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Incendio de un ferry en Filipinas deja decenas de muertos y desaparecidos; la búsqueda del capitán se reanuda]]></title>
+      <link>https://freddydev.net/noticias/filipinas-incendio-ferry-palawan-desaparecidos</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/filipinas-incendio-ferry-palawan-desaparecidos</guid>
+      <description><![CDATA[El MV June Aster ardió el 9 de septiembre frente a Palawan con 134 personas a bordo. El balance supera los 80 muertos y desaparecidos y la guardia costera reanudó la búsqueda del capitán entre los restos del barco.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Min Aung Hlaing visita Camboya en su apuesta por reconstruir relaciones con el Asean]]></title>
+      <link>https://freddydev.net/noticias/birmania-min-aung-hlaing-camboya-asean</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/birmania-min-aung-hlaing-camboya-asean</guid>
+      <description><![CDATA[El jefe de la junta militar birmana realiza una visita de dos días a Phnom Penh, el cuarto país del bloque que recorre en su ofensiva diplomática. Se esperan cuatro acuerdos bilaterales y el rechazo de organizaciones de derechos humanos.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Un tribunal de EE.UU. avanza con la demanda de casi 1.000 cubanos para regularizar su estatus migratorio]]></title>
+      <link>https://freddydev.net/noticias/cuba-jueza-demanda-migratorio-estatus</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/cuba-jueza-demanda-migratorio-estatus</guid>
+      <description><![CDATA[La jueza federal Jacqueline Becerra declaró jurisdicción y rechazó la desestimación del caso presentado por 992 cubanos beneficiados por la Ley de Ajuste Cubano. Aún falta confirmar si el proceso sigue como demanda colectiva.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Augusto Cury, el psicoterapeuta y escritor que se presenta a presidente de Brasil como pacificador]]></title>
+      <link>https://freddydev.net/noticias/brasil-augusto-cury-candidato-pacificador-analisis</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/brasil-augusto-cury-candidato-pacificador-analisis</guid>
+      <description><![CDATA[El autor, que supera los 35 millones de libros vendidos, lanza su candidatura bajo el eslogan mente capitalista, corazón social. Analistas explican el perfil que busca diferenciarse de un escenario político marcado por la crisis del STF y las investigaciones a Lula.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Cilia Flores pide arresto domiciliario por razones de salud en su causa por narcotráfico]]></title>
+      <link>https://freddydev.net/noticias/cilia-flores-arresto-domiciliario-salud</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/cilia-flores-arresto-domiciliario-salud</guid>
+      <description><![CDATA[Los abogados de la esposa de Nicolás Maduro presentaron un escrito ante la corte federal de Brooklyn para que cumpla el resto de su detención bajo arresto domiciliario, alegando arritmias y una pérdida de peso de más de 11 kilos. El juicio comienza en junio de 2027.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Diputados demócratas exigen a Johnson cancelar el receso para aprobar salvaguardas de la IA]]></title>
+      <link>https://freddydev.net/noticias/ia-diputados-democratas-johnson-receso-congreso</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/ia-diputados-democratas-johnson-receso-congreso</guid>
+      <description><![CDATA[Cuatro congresistas demócratas enviaron un memorando al presidente de la Cámara alertando sobre el riesgo catastrófico de la inteligencia artificial, con base en un informe de Anthropic sobre armas biológicas, ciberataques y nuevos métodos de ataque.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Chile conmemora 53 años del golpe sin acto oficial por primera vez en democracia]]></title>
+      <link>https://freddydev.net/noticias/chile-53-aniversario-golpe-sin-acto-oficial</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/chile-53-aniversario-golpe-sin-acto-oficial</guid>
+      <description><![CDATA[La jornada transcurrió entre marchas masivas, flores en el monumento a Allende y un Gobierno que se limitó a respetar las sensibilidades. La memoria sigue viva: cerca de 40.000 víctimas, más de 3.000 asesinados y 1.469 detenidos desaparecidos.]]></description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[Accidente de avión de carga de Amazon en Miami: un Boeing 767 se deslizó de la pista, cruzó una avenida y dejó 5 muertos]]></title>
       <link>https://freddydev.net/noticias/accidente-avion-carga-amazon-miami-quiebrapista-5-muertos</link>
