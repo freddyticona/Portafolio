@@ -6,25 +6,25 @@
   <!-- Secciones Principales -->
   <url>
     <loc>https://freddydev.net</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://freddydev.net/sobre-mi</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/portafolio</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/cv</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://freddydev.net/noticias</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -48,48 +48,108 @@
   </url>
   <url>
     <loc>https://freddydev.net/galeria</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/eclipse-2026</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/messi-adios-seleccion</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/showreel</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/servicios</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://freddydev.net/reservas</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://freddydev.net/contacto</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Artículos (cada uno en su ruta primaria) -->
+  <url>
+    <loc>https://freddydev.net/noticias/onu-informe-riesgos-guerra-2026</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/helicoptero-noticias-los-angeles-chatsworth-tres-muertos</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/emmy-2026-widows-bay-record-14-premios-pitt-drama</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/corte-suprema-rechaza-restricciones-voto-correo-usps</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/kennedy-center-cierra-renovacion-dos-anos-juez-trump</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/mcconnell-regresa-senado-tres-meses-caida</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eeuu-confirma-armas-orbita-space-force</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eeuu-sanciona-banco-vtb-rusia-lazos-iran</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/fbi-frustra-atentado-isis-pensilvania-kramer</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/trump-tacha-hoax-temores-ia-jensen-huang</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://freddydev.net/noticias/altman-amodei-musk-frenar-ritmo-ia-openai-ipo</loc>
     <lastmod>2026-09-14</lastmod>
