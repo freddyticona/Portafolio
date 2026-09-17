@@ -2,123 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/onu-informe-riesgos-guerra-2026</loc>
+    <loc>https://freddydev.net/noticias/sudafrica-novena-mujer-ekurhuleni</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-15T14:05:00-04:00</news:publication_date>
-      <news:title>La guerra a gran escala se convierte en el mayor miedo global, según el nuevo informe de riesgos de la ONU</news:title>
+      <news:publication_date>2026-09-17T09:10:00-04:00</news:publication_date>
+      <news:title>Sudáfrica: hallan el cadáver de una novena mujer en la serie de feminicidios de Ekurhuleni</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/helicoptero-noticias-los-angeles-chatsworth-tres-muertos</loc>
+    <loc>https://freddydev.net/noticias/hegseth-evita-impeachment-receso-camara</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-15T22:20:00-04:00</news:publication_date>
-      <news:title>Tres muertos tras estrellarse un helicóptero de noticias en Los Ángeles</news:title>
-      <news:keywords>Sociedad</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/emmy-2026-widows-bay-record-14-premios-pitt-drama</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T23:10:00-04:00</news:publication_date>
-      <news:title>‘Widow’s Bay’ impone récord con 14 premios Emmy y ‘The Pitt’ es elegida mejor serie dramática</news:title>
-      <news:keywords>Espectáculos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/corte-suprema-rechaza-restricciones-voto-correo-usps</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T11:45:00-04:00</news:publication_date>
-      <news:title>La Corte Suprema de EE.UU. rechaza por ahora las restricciones al voto por correo del USPS</news:title>
+      <news:publication_date>2026-09-16T18:34:00-04:00</news:publication_date>
+      <news:title>Hegseth evita, por ahora, un voto de destitución tras el receso anticipado de la Cámara</news:title>
       <news:keywords>Política</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/kennedy-center-cierra-renovacion-dos-anos-juez-trump</loc>
+    <loc>https://freddydev.net/noticias/fed-sube-tasas-primera-vez-2023-warsh</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-15T16:30:00-04:00</news:publication_date>
-      <news:title>El Kennedy Center cierra de inmediato para renovarse dos años y un juez bloquea el nombre de Trump</news:title>
-      <news:keywords>Cultura</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/mcconnell-regresa-senado-tres-meses-caida</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T13:20:00-04:00</news:publication_date>
-      <news:title>McConnell regresa al Senado tras tres meses ausente por una caída</news:title>
-      <news:keywords>Política</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/eeuu-confirma-armas-orbita-space-force</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T15:10:00-04:00</news:publication_date>
-      <news:title>EE.UU. confirma por primera vez que tiene armas de control orbital desplegadas en el espacio</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/eeuu-sanciona-banco-vtb-rusia-lazos-iran</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T07:15:00-04:00</news:publication_date>
-      <news:title>EE.UU. sanciona al banco ruso VTB por ayudar a Irán a eludir restricciones</news:title>
+      <news:publication_date>2026-09-16T17:45:00-04:00</news:publication_date>
+      <news:title>La Fed sube las tasas por primera vez desde 2023, hasta el 3,75 %-4 %, bajo la batuta de Warsh</news:title>
       <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/fbi-frustra-atentado-isis-pensilvania-kramer</loc>
+    <loc>https://freddydev.net/noticias/ratepayer-protection-centros-datos-red</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-15T09:30:00-04:00</news:publication_date>
-      <news:title>El FBI frustra un presunto ataque inspirado en ISIS planeado en Pensilvania</news:title>
-      <news:keywords>Seguridad</news:keywords>
+      <news:publication_date>2026-09-16T17:10:00-04:00</news:publication_date>
+      <news:title>La Cámara aprueba por 417-3 que los centros de datos paguen el costo de la red eléctrica</news:title>
+      <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/trump-tacha-hoax-temores-ia-jensen-huang</loc>
+    <loc>https://freddydev.net/noticias/sf-opera-orquesta-huelga-2026</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-15T21:40:00-04:00</news:publication_date>
-      <news:title>Trump tacha de &quot;hoax&quot; los temores sobre la IA en una llamada sorpresa a Jensen Huang</news:title>
-      <news:keywords>Tecnología</news:keywords>
+      <news:publication_date>2026-09-16T16:20:00-04:00</news:publication_date>
+      <news:title>La huelga de la orquesta obliga a cancelar varias funciones en la Ópera de San Francisco</news:title>
+      <news:keywords>Cultura</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ed-sheeran-macklemore-gira-acts-abandonan</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T15:30:00-04:00</news:publication_date>
+      <news:title>Finneas, Lukas Graham y otros actos abandonan la gira de Ed Sheeran tras la salida de Macklemore</news:title>
+      <news:keywords>Espectáculos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/kim-kardashian-1-euro-corte-paris</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T14:45:00-04:00</news:publication_date>
+      <news:title>Un tribunal de París concede 1 euro de indemnización a Kim Kardashian por el robo de 2016</news:title>
+      <news:keywords>Espectáculos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eeuu-acusados-planes-asesinato-disidentes-rusos</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T13:55:00-04:00</news:publication_date>
+      <news:title>EE.UU. acusa a cinco personas de tramar asesinatos de disidentes rusos en Washington y Lituania</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/mahsa-amini-4-anos-mujer-vida-libertad</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T12:40:00-04:00</news:publication_date>
+      <news:title>Cuatro años de Mahsa Amini: la llama de &quot;Mujer, Vida, Libertad&quot; sigue viva pese a la represión</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/susie-wiles-libre-cancer-casa-blanca</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T18:43:00-04:00</news:publication_date>
+      <news:title>Susie Wiles, jefa de Gabinete de la Casa Blanca, anuncia que está libre de cáncer</news:title>
+      <news:keywords>Política</news:keywords>
     </news:news>
   </url>
 </urlset>
