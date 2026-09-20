@@ -2,123 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/sudafrica-novena-mujer-ekurhuleni</loc>
+    <loc>https://freddydev.net/noticias/groenlandia-acuerdo-seguridad-eeuu-dinamarca</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-17T09:10:00-04:00</news:publication_date>
-      <news:title>Sudáfrica: hallan el cadáver de una novena mujer en la serie de feminicidios de Ekurhuleni</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/hegseth-evita-impeachment-receso-camara</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T18:34:00-04:00</news:publication_date>
-      <news:title>Hegseth evita, por ahora, un voto de destitución tras el receso anticipado de la Cámara</news:title>
+      <news:publication_date>2026-09-19T10:15:00-04:00</news:publication_date>
+      <news:title>Trump anuncia un acuerdo &quot;vitalicio&quot; con Dinamarca para el control de la seguridad en Groenlandia</news:title>
       <news:keywords>Política</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/fed-sube-tasas-primera-vez-2023-warsh</loc>
+    <loc>https://freddydev.net/noticias/onu-informe-crimenes-guerra-iran</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-16T17:45:00-04:00</news:publication_date>
-      <news:title>La Fed sube las tasas por primera vez desde 2023, hasta el 3,75 %-4 %, bajo la batuta de Warsh</news:title>
-      <news:keywords>Economía</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/ratepayer-protection-centros-datos-red</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T17:10:00-04:00</news:publication_date>
-      <news:title>La Cámara aprueba por 417-3 que los centros de datos paguen el costo de la red eléctrica</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/sf-opera-orquesta-huelga-2026</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T16:20:00-04:00</news:publication_date>
-      <news:title>La huelga de la orquesta obliga a cancelar varias funciones en la Ópera de San Francisco</news:title>
-      <news:keywords>Cultura</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/ed-sheeran-macklemore-gira-acts-abandonan</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T15:30:00-04:00</news:publication_date>
-      <news:title>Finneas, Lukas Graham y otros actos abandonan la gira de Ed Sheeran tras la salida de Macklemore</news:title>
-      <news:keywords>Espectáculos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/kim-kardashian-1-euro-corte-paris</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T14:45:00-04:00</news:publication_date>
-      <news:title>Un tribunal de París concede 1 euro de indemnización a Kim Kardashian por el robo de 2016</news:title>
-      <news:keywords>Espectáculos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/eeuu-acusados-planes-asesinato-disidentes-rusos</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T13:55:00-04:00</news:publication_date>
-      <news:title>EE.UU. acusa a cinco personas de tramar asesinatos de disidentes rusos en Washington y Lituania</news:title>
+      <news:publication_date>2026-09-19T10:30:00-04:00</news:publication_date>
+      <news:title>Una misión de la ONU halla &quot;motivos razonables&quot; para creer que EE.UU. cometió crímenes de guerra en Irán</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/mahsa-amini-4-anos-mujer-vida-libertad</loc>
+    <loc>https://freddydev.net/noticias/irgc-ataque-petroleros-estrecho-ormuz</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-16T12:40:00-04:00</news:publication_date>
-      <news:title>Cuatro años de Mahsa Amini: la llama de &quot;Mujer, Vida, Libertad&quot; sigue viva pese a la represión</news:title>
+      <news:publication_date>2026-09-19T10:45:00-04:00</news:publication_date>
+      <news:title>La Guardia Revolucionaria de Irán ataca tres petroleros en el estrecho de Ormuz y advierte de &quot;destrucción&quot;</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/susie-wiles-libre-cancer-casa-blanca</loc>
+    <loc>https://freddydev.net/noticias/ue-sanciones-rusia-estancadas-usmanov-fridman</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-16T18:43:00-04:00</news:publication_date>
-      <news:title>Susie Wiles, jefa de Gabinete de la Casa Blanca, anuncia que está libre de cáncer</news:title>
-      <news:keywords>Política</news:keywords>
+      <news:publication_date>2026-09-19T11:00:00-04:00</news:publication_date>
+      <news:title>La UE intensifica su bloqueo para renovar las sanciones contra Rusia tras la exigencia de Luxemburgo</news:title>
+      <news:keywords>Europa</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/wuppertal-sinagoga-orden-arresto-afgano</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T11:15:00-04:00</news:publication_date>
+      <news:title>Alemania detiene a un afgano de 37 años por intentar incendiar la sinagoga de Wuppertal</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rusia-ucrania-mar-negro-polonia-alerta</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T11:30:00-04:00</news:publication_date>
+      <news:title>Rusia mata a ocho personas en Ucrania, ataca dos buques en el mar Negro y mantiene a Polonia en alerta máxima</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/nigeria-37-mineria-ilegal-muertes-custodia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T11:45:00-04:00</news:publication_date>
+      <news:title>Nigeria investiga la muerte de 37 presuntos mineros ilegales detenidos bajo custodia</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/sudan-sistema-humanitario-colapso-onu</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T12:00:00-04:00</news:publication_date>
+      <news:title>La ONU advierte que el sistema humanitario en Sudán &quot;podría colapsar en semanas&quot;</news:title>
+      <news:keywords>Sociedad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/moscu-350-drones-elecciones-rusia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T12:15:00-04:00</news:publication_date>
+      <news:title>Ucrania lanza más de 350 drones contra Moscú mientras Rusia celebra sus primeras elecciones parlamentarias desde la invasión</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/alemania-recibe-primer-f35-lockheed</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T12:30:00-04:00</news:publication_date>
+      <news:title>Alemania recibe su primer caza F-35 en pleno rearme europeo de la OTAN</news:title>
+      <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
 </urlset>
