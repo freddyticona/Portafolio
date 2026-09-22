@@ -1,6 +1,22 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-09-22/moscu-mayor-ataque-drones-refineria.jpg": {
+    "width": 940,
+    "height": 529
+  },
+  "/images/news/2026-09-22/region-kiev-madre-hijos-dron.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/news/2026-09-22/ucrania-interceptor-geran5-sting-s.jpg": {
+    "width": 1200,
+    "height": 706
+  },
+  "/images/news/2026-09-22/geran-2-shahed-136-alabuga.jpg": {
+    "width": 1280,
+    "height": 720
+  },
   "/images/news/2026-09-19/groenlandia-acuerdo-seguridad-dinamarca.jpg": {
     "width": 940,
     "height": 529
