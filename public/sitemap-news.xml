@@ -49,4 +49,40 @@
       <news:keywords>Conflictos</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/noticias/japan-elites-estrategicos-nucleares-encuesta-csis</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T07:00:00-04:00</news:publication_date>
+      <news:title>La élite estratégica de Japón rechaza las armas nucleares, pero el escenario podría girar, según CSIS</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/cumbre-trump-xi-demasiado-grande-para-fallar-csis</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T07:30:00-04:00</news:publication_date>
+      <news:title>La cumbre Trump-Xi: demasiado importante (y demasiado pequeña) para fracasar</news:title>
+      <news:keywords>Política Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/no-frenar-ia-acelerar-evaluacion-benchmarks-csis</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T08:00:00-04:00</news:publication_date>
+      <news:title>No frenar la inteligencia artificial: acelerar su evaluación con benchmarks, propone CSIS</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
 </urlset>
