@@ -29,6 +29,46 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 2080,
     "height": 1170
   },
+  "/images/news/2026-09-22/guterres-canyons-cuatro-pruebas-poder.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-22/trump-onu-iran-venezuela-superinteligencia.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-22/macron-orden-internacional-leon-selva.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-22/emir-qatar-crisis-golfo.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-22/onu-solucion-dos-estados-tiempo-agotandose.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-22/presidente-asamblea-verdades-duras.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-22/ninos-voz-ia-preguntenos-primero.jpg": {
+    "width": 772,
+    "height": 420
+  },
+  "/images/news/2026-09-22/turquia-onu-mision-erdogan.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-22/estados-insulares-nivel-mar-tuvalu.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-22/el-nino-prueba-adaptacion-clima.jpg": {
+    "width": 770,
+    "height": 420
+  },
   "/images/news/2026-09-19/groenlandia-acuerdo-seguridad-dinamarca.jpg": {
     "width": 940,
     "height": 529

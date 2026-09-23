@@ -85,4 +85,124 @@
       <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://freddydev.net/noticias/guterres-grietas-canyons-cuatro-pruebas-de-poder</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T06:00:00-04:00</news:publication_date>
+      <news:title>Guterres: &quot;Las grietas se han vuelto cañones&quot; mientras el mundo enfrenta cuatro pruebas de poder</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/trump-onu-defiende-accion-militar-iran-venezuela-superinteligencia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T06:30:00-04:00</news:publication_date>
+      <news:title>Trump defiende en la ONU la acción militar contra Irán y Venezuela y rebautiza la IA como &quot;superinteligencia&quot;</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/macron-orden-internacional-no-ley-de-la-selva</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T07:00:00-04:00</news:publication_date>
+      <news:title>Macron: elegir el orden internacional antes que la &quot;ley de la selva&quot;</news:title>
+      <news:keywords>Política Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/emir-qatar-ausencia-seguridad-colectiva-crisis-golfo</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T07:30:00-04:00</news:publication_date>
+      <news:title>El Emir de Qatar: la ausencia de seguridad colectiva en la región agrava la crisis del Golfo</news:title>
+      <news:keywords>Política Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/guterres-tiempo-se-agota-solucion-dos-estados</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T08:00:00-04:00</news:publication_date>
+      <news:title>&quot;El tiempo se agota&quot; para la solución de dos Estados, advierte Guterres</news:title>
+      <news:keywords>Política Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/presidente-asamblea-general-verdades-duras-confianza</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T08:30:00-04:00</news:publication_date>
+      <news:title>Tiempo de aceptar &quot;verdades duras&quot; para reconstruir la confianza: el Presidente de la Asamblea General</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ninos-exigen-voz-futuro-ia-preguntenos-primero</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T09:00:00-04:00</news:publication_date>
+      <news:title>&quot;Pregúntenos primero&quot;: los niños exigen voz en el futuro de la IA</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/erdogan-onu-incapacitada-cumplir-mision</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T09:30:00-04:00</news:publication_date>
+      <news:title>Erdogan lamenta ante los líderes que la ONU &quot;ha quedado incapacitada&quot; para cumplir su misión</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/estados-insulares-bajo-agua-lucha-futuro-tuvalu</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T10:00:00-04:00</news:publication_date>
+      <news:title>Cuando un país queda bajo el agua: los Estados insulares luchan por su futuro</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/el-nino-prueba-adaptacion-clima-cambiante</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T10:30:00-04:00</news:publication_date>
+      <news:title>El Niño, una prueba de si el mundo puede adaptarse a un clima cambiante</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
 </urlset>
