@@ -2,206 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/ucrania-mayor-ataque-drones-moscu-refineria</loc>
+    <loc>https://freddydev.net/noticias/zelenskyy-onu-presion-rusia-guerra-impacto</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T08:00:00-04:00</news:publication_date>
-      <news:title>Ucrania lanza su mayor ataque con drones contra Moscú y golpea la refinería petrolera de la capital</news:title>
+      <news:publication_date>2026-09-23T06:00:00-04:00</news:publication_date>
+      <news:title>Zelenskyy pide más presión sobre Rusia y advierte que el impacto de la guerra se extiende más allá de Ucrania</news:title>
       <news:keywords>Conflictos</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/rusia-dron-mata-madre-dos-hijos-region-kiev</loc>
+    <loc>https://freddydev.net/noticias/al-sharaa-siria-nueva-fase-revival-onu</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T08:15:00-04:00</news:publication_date>
-      <news:title>Rusia mata a una madre y a sus dos hijos de tres años con un dron en la región de Kiev</news:title>
-      <news:keywords>Conflictos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/ucrania-interceptor-sting-s-derriba-geran-5</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T08:30:00-04:00</news:publication_date>
-      <news:title>Ucrania derriba con su nuevo dron interceptor al Geran-5, la munición a reacción más rápida de Rusia</news:title>
-      <news:keywords>Conflictos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/especial-guerra-drones-geran-2-shahed-136</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T09:00:00-04:00</news:publication_date>
-      <news:title>La guerra de los drones: el Geran-2 de 70.000 dólares que cruza el cielo de Moscú y de Kiev</news:title>
-      <news:keywords>Conflictos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/japan-elites-estrategicos-nucleares-encuesta-csis</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T07:00:00-04:00</news:publication_date>
-      <news:title>La élite estratégica de Japón rechaza las armas nucleares, pero el escenario podría girar, según CSIS</news:title>
+      <news:publication_date>2026-09-23T06:30:00-04:00</news:publication_date>
+      <news:title>Siria inicia una &quot;nueva fase de renacimiento&quot;, dice el presidente Al-Sharaa ante la Asamblea General</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/cumbre-trump-xi-demasiado-grande-para-fallar-csis</loc>
+    <loc>https://freddydev.net/noticias/pezeshkian-iran-devuelve-acusaciones-terrorismo</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T07:30:00-04:00</news:publication_date>
-      <news:title>La cumbre Trump-Xi: demasiado importante (y demasiado pequeña) para fracasar</news:title>
+      <news:publication_date>2026-09-23T07:00:00-04:00</news:publication_date>
+      <news:title>Pezeshkian devuelve a los críticos de Irán la acusación de terrorismo en la ONU</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/milei-pacto-sagrado-roto-onu-malvinas-ia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T07:30:00-04:00</news:publication_date>
+      <news:title>Milei: el &quot;pacto sagrado&quot; de la ONU &quot;ha sido roto&quot;</news:title>
       <news:keywords>Política Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/no-frenar-ia-acelerar-evaluacion-benchmarks-csis</loc>
+    <loc>https://freddydev.net/noticias/ruto-kenia-igualdad-termina-puertas-consejo-seguridad</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T08:00:00-04:00</news:publication_date>
-      <news:title>No frenar la inteligencia artificial: acelerar su evaluación con benchmarks, propone CSIS</news:title>
+      <news:publication_date>2026-09-23T08:00:00-04:00</news:publication_date>
+      <news:title>&quot;La igualdad termina en las puertas del Consejo de Seguridad&quot;, dice el presidente de Kenia, Ruto</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/delcy-rodriguez-venezuela-rebirth-crisis-terremotos</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:30:00-04:00</news:publication_date>
+      <news:title>Venezuela busca renacer tras la crisis política y los devastadores terremotos, dice la presidenta encargada</news:title>
+      <news:keywords>Mundo</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/guterres-transicion-combustibles-fosiles-timelines</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T09:00:00-04:00</news:publication_date>
+      <news:title>Guterres pide a los países fijar plazos claros para la transición fuera de los combustibles fósiles</news:title>
+      <news:keywords>Medio Ambiente</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/openai-anthropic-consejo-seguridad-amenaza-ia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T09:30:00-04:00</news:publication_date>
+      <news:title>OpenAI y Anthropic exponen ante el Consejo de Seguridad la amenaza &quot;real e inminente&quot; de una IA fuera de control</news:title>
       <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/guterres-grietas-canyons-cuatro-pruebas-de-poder</loc>
+    <loc>https://freddydev.net/noticias/reino-unido-desinformacion-estandares-globales-ia</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T06:00:00-04:00</news:publication_date>
-      <news:title>Guterres: &quot;Las grietas se han vuelto cañones&quot; mientras el mundo enfrenta cuatro pruebas de poder</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-09-23T10:00:00-04:00</news:publication_date>
+      <news:title>Reino Unido anuncia acción contra la desinformación y estándares globales para la IA</news:title>
+      <news:keywords>Europa</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/trump-onu-defiende-accion-militar-iran-venezuela-superinteligencia</loc>
+    <loc>https://freddydev.net/noticias/derecho-al-desarrollo-blueprint-onu</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T06:30:00-04:00</news:publication_date>
-      <news:title>Trump defiende en la ONU la acción militar contra Irán y Venezuela y rebautiza la IA como &quot;superinteligencia&quot;</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/macron-orden-internacional-no-ley-de-la-selva</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T07:00:00-04:00</news:publication_date>
-      <news:title>Macron: elegir el orden internacional antes que la &quot;ley de la selva&quot;</news:title>
-      <news:keywords>Política Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/emir-qatar-ausencia-seguridad-colectiva-crisis-golfo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T07:30:00-04:00</news:publication_date>
-      <news:title>El Emir de Qatar: la ausencia de seguridad colectiva en la región agrava la crisis del Golfo</news:title>
-      <news:keywords>Política Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/guterres-tiempo-se-agota-solucion-dos-estados</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T08:00:00-04:00</news:publication_date>
-      <news:title>&quot;El tiempo se agota&quot; para la solución de dos Estados, advierte Guterres</news:title>
-      <news:keywords>Política Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/presidente-asamblea-general-verdades-duras-confianza</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T08:30:00-04:00</news:publication_date>
-      <news:title>Tiempo de aceptar &quot;verdades duras&quot; para reconstruir la confianza: el Presidente de la Asamblea General</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/ninos-exigen-voz-futuro-ia-preguntenos-primero</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T09:00:00-04:00</news:publication_date>
-      <news:title>&quot;Pregúntenos primero&quot;: los niños exigen voz en el futuro de la IA</news:title>
-      <news:keywords>Tecnología</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/erdogan-onu-incapacitada-cumplir-mision</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T09:30:00-04:00</news:publication_date>
-      <news:title>Erdogan lamenta ante los líderes que la ONU &quot;ha quedado incapacitada&quot; para cumplir su misión</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/estados-insulares-bajo-agua-lucha-futuro-tuvalu</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T10:00:00-04:00</news:publication_date>
-      <news:title>Cuando un país queda bajo el agua: los Estados insulares luchan por su futuro</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/el-nino-prueba-adaptacion-clima-cambiante</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T10:30:00-04:00</news:publication_date>
-      <news:title>El Niño, una prueba de si el mundo puede adaptarse a un clima cambiante</news:title>
+      <news:publication_date>2026-09-23T10:30:00-04:00</news:publication_date>
+      <news:title>Derecho al desarrollo: un plan para las promesas incumplidas</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>

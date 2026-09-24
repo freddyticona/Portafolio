@@ -1,6 +1,46 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-09-23/zelenskyy-onu-presion-rusia-guerra.jpg": {
+    "width": 772,
+    "height": 420
+  },
+  "/images/news/2026-09-23/al-sharaa-siria-nueva-fase-revival.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-23/pezeshkian-iran-acusaciones-terrorismo.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-23/milei-argentina-pacto-sagrado.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-23/ruto-kenia-igualdad-consejo-seguridad.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-23/delcy-rodriguez-venezuela-rebirth-crisis-terremotos.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-23/guterres-transicion-combustibles-fosiles.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-23/openai-anthropic-consejo-seguridad-ia.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-23/reino-unido-desinformacion-estandares-ia.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-23/derecho-al-desarrollo-blueprint-onu.jpg": {
+    "width": 770,
+    "height": 420
+  },
   "/images/news/2026-09-22/moscu-mayor-ataque-drones-refineria.jpg": {
     "width": 940,
     "height": 529
