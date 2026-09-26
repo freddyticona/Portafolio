@@ -2,123 +2,183 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/zelenskyy-onu-presion-rusia-guerra-impacto</loc>
+    <loc>https://freddydev.net/noticias/lavrov-arquitectura-seguridad-eurasia</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T06:00:00-04:00</news:publication_date>
-      <news:title>Zelenskyy pide más presión sobre Rusia y advierte que el impacto de la guerra se extiende más allá de Ucrania</news:title>
-      <news:keywords>Conflictos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/al-sharaa-siria-nueva-fase-revival-onu</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T06:30:00-04:00</news:publication_date>
-      <news:title>Siria inicia una &quot;nueva fase de renacimiento&quot;, dice el presidente Al-Sharaa ante la Asamblea General</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/pezeshkian-iran-devuelve-acusaciones-terrorismo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T07:00:00-04:00</news:publication_date>
-      <news:title>Pezeshkian devuelve a los críticos de Irán la acusación de terrorismo en la ONU</news:title>
-      <news:keywords>Internacional</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://freddydev.net/noticias/milei-pacto-sagrado-roto-onu-malvinas-ia</loc>
-    <news:news>
-      <news:publication>
-        <news:name>FreddyDev Noticias</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T07:30:00-04:00</news:publication_date>
-      <news:title>Milei: el &quot;pacto sagrado&quot; de la ONU &quot;ha sido roto&quot;</news:title>
+      <news:publication_date>2026-09-26T06:00:00-04:00</news:publication_date>
+      <news:title>Lavrov propone una nueva “arquitectura de seguridad” euroasiática y carga contra Occidente</news:title>
       <news:keywords>Política Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/ruto-kenia-igualdad-termina-puertas-consejo-seguridad</loc>
+    <loc>https://freddydev.net/noticias/china-resguardar-orden-posguerra-multilateralismo</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T08:00:00-04:00</news:publication_date>
-      <news:title>&quot;La igualdad termina en las puertas del Consejo de Seguridad&quot;, dice el presidente de Kenia, Ruto</news:title>
+      <news:publication_date>2026-09-26T06:30:00-04:00</news:publication_date>
+      <news:title>China pide “resguardar el orden de posguerra” y defender un multilateralismo centrado en la ONU</news:title>
       <news:keywords>Internacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/delcy-rodriguez-venezuela-rebirth-crisis-terremotos</loc>
+    <loc>https://freddydev.net/noticias/plan-global-crimen-digital-abu-dabi</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T08:30:00-04:00</news:publication_date>
-      <news:title>Venezuela busca renacer tras la crisis política y los devastadores terremotos, dice la presidenta encargada</news:title>
-      <news:keywords>Mundo</news:keywords>
+      <news:publication_date>2026-09-26T07:00:00-04:00</news:publication_date>
+      <news:title>Los países adoptan un plan global contra la ciberdelincuencia y la evolución del crimen digital</news:title>
+      <news:keywords>Seguridad</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/guterres-transicion-combustibles-fosiles-timelines</loc>
+    <loc>https://freddydev.net/noticias/cuba-bloqueo-energetico-acto-de-guerra</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T09:00:00-04:00</news:publication_date>
-      <news:title>Guterres pide a los países fijar plazos claros para la transición fuera de los combustibles fósiles</news:title>
-      <news:keywords>Medio Ambiente</news:keywords>
+      <news:publication_date>2026-09-26T07:30:00-04:00</news:publication_date>
+      <news:title>Cuba denuncia ante la ONU el “bloqueo energético” como un “acto de guerra”</news:title>
+      <news:keywords>América</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/openai-anthropic-consejo-seguridad-amenaza-ia</loc>
+    <loc>https://freddydev.net/noticias/takeaway-asamblea-general-dia-4</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T09:30:00-04:00</news:publication_date>
-      <news:title>OpenAI y Anthropic exponen ante el Consejo de Seguridad la amenaza &quot;real e inminente&quot; de una IA fuera de control</news:title>
+      <news:publication_date>2026-09-26T08:00:00-04:00</news:publication_date>
+      <news:title>Clima y océanos en el centro del cuarto día del debate general de la ONU</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/seis-anos-covid-mundo-preparado-proxima-pandemia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T06:00:00-04:00</news:publication_date>
+      <news:title>Seis años después de la COVID-19: ¿está el mundo preparado para la próxima pandemia?</news:title>
+      <news:keywords>Salud</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/australia-cooperacion-global-clima-ia-derecho-internacional</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T06:30:00-04:00</news:publication_date>
+      <news:title>Australia pide cooperación global frente al clima, la IA y el quiebre de las normas internacionales</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/yemen-violencia-agrava-hambre-infantil</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T07:00:00-04:00</news:publication_date>
+      <news:title>La violencia en Yemen agrava el hambre infantil: “solo un vistazo de lo devastadora que es la situación”</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/consejo-seguridad-desplazamiento-forzado-acnur</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T07:30:00-04:00</news:publication_date>
+      <news:title>El Consejo de Seguridad examina la ola global del desplazamiento forzado</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/agricultores-sudan-inversion-retorno-campos</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:00:00-04:00</news:publication_date>
+      <news:title>Los agricultores de Sudán están listos para volver al campo y la inversión privada puede llevarlos de regreso</news:title>
+      <news:keywords>Economía</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/africa-soluciones-ia-propias-no-prestadas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:30:00-04:00</news:publication_date>
+      <news:title>África necesita soluciones de inteligencia artificial propias, no prestadas</news:title>
       <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/reino-unido-desinformacion-estandares-globales-ia</loc>
+    <loc>https://freddydev.net/noticias/nepal-justicia-climatica-tsunami-himalaya</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T10:00:00-04:00</news:publication_date>
-      <news:title>Reino Unido anuncia acción contra la desinformación y estándares globales para la IA</news:title>
-      <news:keywords>Europa</news:keywords>
+      <news:publication_date>2026-09-25T09:00:00-04:00</news:publication_date>
+      <news:title>El primer ministro de Nepal clama justicia climática tras el “tsunami del Himalaya”</news:title>
+      <news:keywords>Medio Ambiente</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/derecho-al-desarrollo-blueprint-onu</loc>
+    <loc>https://freddydev.net/noticias/libano-autoridad-estado-pm-salam-onu</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-09-23T10:30:00-04:00</news:publication_date>
-      <news:title>Derecho al desarrollo: un plan para las promesas incumplidas</news:title>
-      <news:keywords>Internacional</news:keywords>
+      <news:publication_date>2026-09-25T09:30:00-04:00</news:publication_date>
+      <news:title>“Nadie habla por el Líbano”: el primer ministro Salam reafirma la autoridad del Estado ante la ONU</news:title>
+      <news:keywords>Política Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/onu-preocupacion-combates-norte-etiopia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T10:00:00-04:00</news:publication_date>
+      <news:title>La ONU expresa su grave preocupación por la expansión de los combates en el norte de Etiopía</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/pakistan-agua-indus-acto-de-guerra</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T10:30:00-04:00</news:publication_date>
+      <news:title>Sharif advierte ante la ONU: cualquier desvío del agua del Indo será “tratado como un acto de guerra”</news:title>
+      <news:keywords>Política Internacional</news:keywords>
     </news:news>
   </url>
 </urlset>
