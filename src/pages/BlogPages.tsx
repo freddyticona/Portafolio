@@ -163,8 +163,8 @@ export function NoticiasPage({
             onClick={() => onSpecialNavigate?.('reportaje-iran-furia-epica')}
             className="group text-left bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/40 transition-colors"
           >
-            <div className="aspect-[16/9] bg-gradient-to-br from-[#3a1c1c] to-[#0a0a0f] flex items-center justify-center">
-              <span className="text-3xl">⚡</span>
+            <div className="aspect-[16/9] overflow-hidden">
+              <img src="/images/report/iran/tehran-destruction.jpg" alt={lang === 'es' ? 'Operación Furia Épica — Irán' : 'Operation Epic Fury — Iran'} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             </div>
             <div className="p-4">
               <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 1 / 4' : 'CHAPTER 1 / 4'}</div>
@@ -176,8 +176,8 @@ export function NoticiasPage({
             onClick={() => onSpecialNavigate?.('reportaje-gaza-desarme')}
             className="group text-left bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/40 transition-colors"
           >
-            <div className="aspect-[16/9] bg-gradient-to-br from-[#123a2a] to-[#0a0a0f] flex items-center justify-center">
-              <span className="text-3xl">🕊️</span>
+            <div className="aspect-[16/9] overflow-hidden">
+              <img src="/images/report/gaza/gaza-damage.jpg" alt={lang === 'es' ? 'Gaza: desarme en disputa' : 'Gaza: disarmament in dispute'} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             </div>
             <div className="p-4">
               <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 2 / 4' : 'CHAPTER 2 / 4'}</div>
@@ -189,8 +189,8 @@ export function NoticiasPage({
             onClick={() => onSpecialNavigate?.('reportaje-ucrania-estancamiento')}
             className="group text-left bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/40 transition-colors"
           >
-            <div className="aspect-[16/9] bg-gradient-to-br from-[#12283a] to-[#0a0a0f] flex items-center justify-center">
-              <span className="text-3xl">🌊</span>
+            <div className="aspect-[16/9] overflow-hidden">
+              <img src="/images/report/ukraine/kyiv-wide-destruction.jpg" alt={lang === 'es' ? 'Ucrania: negociaciones estancadas' : 'Ukraine: stalled talks'} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             </div>
             <div className="p-4">
               <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 3 / 4' : 'CHAPTER 3 / 4'}</div>
@@ -202,8 +202,8 @@ export function NoticiasPage({
             onClick={() => onSpecialNavigate?.('reportaje-malvinas-historia')}
             className="group text-left bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/40 transition-colors"
           >
-            <div className="aspect-[16/9] bg-gradient-to-br from-[#123a3a] to-[#0a0a0f] flex items-center justify-center">
-              <span className="text-3xl">🏝️</span>
+            <div className="aspect-[16/9] overflow-hidden">
+              <img src="/images/report/malvinas/stanley-falklands.jpg" alt={lang === 'es' ? 'Malvinas: 192 años de disputa' : 'Falklands: 192 years of dispute'} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             </div>
             <div className="p-4">
               <div className="text-[11px] tracking-widest text-gold/70 mb-1">{lang === 'es' ? 'CAPÍTULO 4 / 4' : 'CHAPTER 4 / 4'}</div>
