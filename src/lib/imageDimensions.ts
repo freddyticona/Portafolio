@@ -1,6 +1,10 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-09-27/takeaway-asamblea-general-dia-5.jpg": {
+    "width": 771,
+    "height": 420
+  },
   "/images/news/2026-09-26/lavrov-arquitectura-seguridad-eurasia.jpg": {
     "width": 771,
     "height": 420
@@ -19,6 +23,22 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   },
   "/images/news/2026-09-26/takeaway-asamblea-general-dia-4.jpg": {
     "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-27/nicaragua-narcotrafico-crimen-organizado-terrorismo.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-27/canada-orden-global-ruptura-autonomia-estrategica.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-27/india-precio-guerras-ajenas-desarrollo.jpg": {
+    "width": 770,
+    "height": 420
+  },
+  "/images/news/2026-09-27/arabia-saudita-seguridad-golfo-estabilidad-global.jpg": {
+    "width": 772,
     "height": 420
   },
   "/images/news/2026-09-25/seis-anos-covid-mundo-preparado-proxima-pandemia.jpg": {
@@ -58,6 +78,26 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "height": 420
   },
   "/images/news/2026-09-25/pakistan-agua-indus-acto-de-guerra.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-27/guatemala-mujer-latinoamericana-secretaria-general.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-27/mexico-tiempo-de-mujeres-politica-exterior-soberana.jpg": {
+    "width": 771,
+    "height": 420
+  },
+  "/images/news/2026-09-27/haiti-pm-momento-culminante-seguridad-elecciones.jpg": {
+    "width": 772,
+    "height": 420
+  },
+  "/images/news/2026-09-27/tuvalu-mar-subida-nivel-realidad-presente.jpg": {
+    "width": 772,
+    "height": 420
+  },
+  "/images/news/2026-09-27/irak-invertir-irak-nueva-economia.jpg": {
     "width": 771,
     "height": 420
   },
