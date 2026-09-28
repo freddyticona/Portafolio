@@ -62,7 +62,7 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
             <button onClick={() => onNavigate('reportaje-gaza-desarme')} className="px-3 py-1 bg-white/10 text-white/80 rounded hover:bg-white/20">{L('Gaza →', 'Gaza →')}</button>
             <button onClick={() => onNavigate('reportaje-ucrania-estancamiento')} className="px-3 py-1 bg-white/10 text-white/80 rounded hover:bg-white/20">{L('Ucrania →', 'Ukraine →')}</button>
           </div>
-          <p className="text-white/50 text-sm mt-5">{L('Freddy Ticona — 2 de septiembre de 2026 · Análisis de datos militares, energéticos y geopolíticos', 'Freddy Ticona — September 2, 2026 · An analysis of military, energy and geopolitical data')}</p>
+          <p className="text-white/50 text-sm mt-5">{L('Freddy Ticona — 27 de septiembre de 2026 · Análisis de datos militares, energéticos y geopolíticos', 'Freddy Ticona — September 27, 2026 · An analysis of military, energy and geopolitical data')}</p>
         </div>
       </div>
 
@@ -79,10 +79,10 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
         <div className="bg-stone-900 text-white rounded-lg p-6 border-l-4 border-amber-500">
           <div className="text-xs font-mono tracking-widest text-amber-400 mb-3 uppercase">TL;DR — {L('Resumen Ejecutivo', 'Executive Summary')}</div>
           <ul className="space-y-2 text-sm text-stone-200 list-none">
-            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('El 28 de febrero de 2026, Washington y Tel Aviv lanzaron la Operación Furia Épica contra Irán, rompiendo un alto el fuego de ocho meses con B-2, F-35 y guerra electrónica.', 'On February 28, 2026, Washington and Tel Aviv launched Operation Epic Fury against Iran, breaking an eight-month ceasefire with B-2s, F-35s and electronic warfare.')}</li>
-            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('La respuesta iraní cerró de facto el estrecho de Ormuz (25% del crudo mundial) y disparó el Brent a 110 dólares.', 'Iran\'s response closed the Strait of Hormuz de facto (25% of world crude) and pushed Brent to US$110.')}</li>
-            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('Drones y misiles definieron el conflicto: una guerra de saturación contra Patriot, SAMP/T e Iron Dome.', 'Drones and missiles defined the conflict: a saturation war against Patriot, SAMP/T and Iron Dome.')}</li>
-            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('La escalada del 1-2 de septiembre extendió el frente a Jordania y los EAU; el control de las rutas energéticas reconfigura hoy la balanza de poder.', 'The September 1-2 escalation extended the front to Jordan and the UAE; control of energy routes is reshaping the balance of power.')}</li>
+            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('El 28 de febrero de 2026, Washington y Tel Aviv lanzaron la Operación Furia Épica contra Irán, con B-2, F-35 y guerra electrónica.', 'On February 28, 2026, Washington and Tel Aviv launched Operation Epic Fury against Iran, with B-2s, F-35s and electronic warfare.')}</li>
+            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('Un memorando de entendimiento firmado en junio prometió una tregua interina, pero el diálogo colapsó y en septiembre los ataques se reanudaron en el estrecho de Ormuz (25% del crudo mundial).', 'A memorandum of understanding signed in June promised an interim truce, but talks collapsed and in September strikes resumed in the Strait of Hormuz (25% of world crude).')}</li>
+            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('El tráfico por Ormuz cayó dos tercios (de 35 a 12 buques en un fin de semana) y Teherán mantiene el cierre de facto mientras EE.UU. no cumpla lo pactado en junio.', 'Hormuz traffic fell by two-thirds (from 35 to 12 vessels in a weekend) and Tehran keeps the de facto closure as long as the US fails to deliver on June\'s commitments.')}</li>
+            <li className="flex gap-2"><span className="text-amber-400">▸</span>{L('Trump rechazó el 26 de septiembre la hoja de ruta de siete días de Irán, rebautizó el estrecho "Trump Strait" y espera retomar las negociaciones esta semana; EE.UU., Reino Unido, Francia y Alemania buscan remitir el caso al Consejo de Seguridad.', 'Trump rejected Iran\'s seven-day roadmap on September 26, rebranded the strait "Trump Strait" and expects talks to resume this week; the US, UK, France and Germany seek to refer the case to the Security Council.')}</li>
           </ul>
         </div>
       </div>
@@ -233,7 +233,7 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
               <div className="bg-white/5 p-3 rounded border border-amber-500/30 bg-amber-500/10">
                 <div className="text-amber-300 text-xs">Sep 2026</div>
                 <div className="text-lg font-bold text-amber-400">$91.50</div>
-                <div className="text-[10px] text-amber-200">{L('Rebrote de tensión', 'Tension resurging')}</div>
+                <div className="text-[10px] text-amber-200">{L('Cierre Ormuz sostenido', 'Hormuz closure sustained')}</div>
               </div>
             </div>
             <div className="text-[11px] text-stone-400 text-center">Fuente: ICE Brent / Bloomberg.</div>
@@ -286,7 +286,7 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
 
       {/* Sección: La escalada de septiembre */}
       <section className="max-w-3xl mx-auto px-6 py-8 border-t border-stone-200">
-        <h2 className="text-2xl font-serif font-bold mb-6">{L('La escalada del 1 y 2 de septiembre', 'The September 1-2 escalation')}</h2>
+        <h2 className="text-2xl font-serif font-bold mb-6">{L('La escalada de septiembre y el colapso del diálogo', 'September escalation and the collapse of dialogue')}</h2>
         <div className="prose prose-stone max-w-none font-serif">
           <p>El fin de semana del <strong>31 de agosto</strong>, EE.UU. ejecutó un bombardeo selectivo sobre la <strong>isla iraní de Larak</strong>, en el estrecho de Ormuz, con el fin de neutralizar baterías de lanzacohetes. Al día siguiente, <strong>1 de septiembre</strong>, el Pentágono extendió las operaciones contra instalaciones de mando del IRGC y centros de control de drones, ejecutadas a las 12:00 hora de Washington.</p>
 
@@ -297,6 +297,12 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
             <li>Reportes de detonaciones y actividad defensiva en <strong>Bandar Abás</strong> y la <strong>isla de Qeshm</strong>.</li>
           </ul>
 
+          <div className="my-6">
+            <h3 className="text-lg font-serif font-bold mb-2">{L('Actualización a 27 de septiembre', 'Update as of September 27')}</h3>
+            <p>La tregua interina prometida en el memorando de entendimiento de <strong>junio</strong> no se consolidó. La última semana de septiembre encontró el estrecho cerrado de facto: entre el 19 y el 20 de septiembre solo <strong>12 buques de carga</strong> lo transitaron, frente a los 35 del fin de semana anterior, y el presidente del Parlamento iraní, Mohammad Bagher Ghalibaf, condicionó la reapertura al cumplimiento estadounidense del acuerdo: <em>"el estrecho permanecerá cerrado hasta que EE.UU. cumpla sus compromisos"</em>.</p>
+            <p>El <strong>26 de septiembre</strong>, Trump rechazó la <strong>hoja de ruta de siete días</strong> presentada por Teherán para reabrir el estrecho y poner fin a la guerra, y en su red social rebautizó la vía como <strong>"Trump Strait"</strong>. Un día después dijo a Axios que espera que las conversaciones se reanuden esta semana, porque Irán "quiere un acuerdo", aunque "no el acuerdo que yo quiero". Los diplomáticos occidentales, mientras tanto, avanzan en una referencia de Irán al <strong>Consejo de Seguridad</strong> por sus obligaciones de no proliferación nuclear, y Teherán acusa a Washington de un doble juego entre sanciones y negociación.</p>
+          </div>
+
           <div className="bg-stone-900 text-white rounded-lg p-5 my-6 border-l-4 border-amber-500 font-sans">
             <div className="text-xs font-mono text-amber-400 font-bold uppercase mb-1">COMUNICADO OFICIAL — CENTCOM</div>
             <p className="text-sm text-stone-300 italic mb-0">«Fuerzas estadounidenses ejecutaron ataques de precisión para neutralizar amenazas inmediatas contra la libre navegación en el estrecho de Ormuz y salvaguardar al personal militar desplegado en la región.»</p>
@@ -304,13 +310,15 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
 
           <div className="bg-stone-900 text-white rounded-lg p-6 my-8">
             <div className="text-xs font-mono tracking-widest text-amber-400 mb-4 uppercase">{L('CRONOLOGÍA DE HITOS CRÍTICOS (2026)', 'CRITICAL MILESTONES TIMELINE (2026)')}</div>
-            <div className="grid grid-cols-2 sm:grid-cols-6 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
               <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">28 Feb</div><div className="text-[10px] text-stone-300 mt-1">{L('Inicio Furia Épica', 'Epic Fury starts')}</div></div>
               <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">2 Mar</div><div className="text-[10px] text-stone-300 mt-1">{L('Cierre Ormuz', 'Hormuz closure')}</div></div>
               <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">Abril</div><div className="text-[10px] text-stone-300 mt-1">{L('Frente Bab al-Mandeb', 'Bab al-Mandeb front')}</div></div>
+              <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">Jun</div><div className="text-[10px] text-stone-300 mt-1">{L('MoU tregua interina', 'Interim truce MoU')}</div></div>
               <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">17 Ago</div><div className="text-[10px] text-stone-300 mt-1">{L('Mediación Omán', 'Oman mediation')}</div></div>
               <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">31 Ago</div><div className="text-[10px] text-stone-300 mt-1">{L('Ataque Larak', 'Larak attack')}</div></div>
-              <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center border-amber-500/50 bg-amber-500/20"><div className="font-bold text-amber-300 text-xs">1-2 Sep</div><div className="text-[10px] text-stone-200 mt-1">{L('CENTCOM y respuesta', 'CENTCOM response')}</div></div>
+              <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center"><div className="font-bold text-amber-300 text-xs">1-2 Sep</div><div className="text-[10px] text-stone-300 mt-1">{L('CENTCOM y respuesta', 'CENTCOM response')}</div></div>
+              <div className="bg-white/10 border border-white/10 rounded p-2.5 text-center border-amber-500/50 bg-amber-500/20"><div className="font-bold text-amber-300 text-xs">26 Sep</div><div className="text-[10px] text-stone-200 mt-1">{L('Roadmap rechazado', 'Roadmap rejected')}</div></div>
             </div>
           </div>
 
@@ -337,6 +345,7 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
             <tbody className="text-stone-700">
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Donald Trump</td><td className="p-2">{L('Presidente de EE.UU.', 'US President')}</td><td className="p-2">{L('Ordenó la ofensiva; ratifica la política de firmeza', 'Ordered the offensive; maintains the firm-policy stance')}</td><td className="p-2">{L('Define la presión sobre Irán', 'Sets pressure policy toward Iran')}</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">{L('Líder supremo de Irán', 'Supreme Leader of Iran')}</td><td className="p-2">{L('Autoridad máxima', 'Supreme authority')}</td><td className="p-2">{L('Autoriza el cierre de Ormuz y la respuesta de misiles', 'Authorizes Hormuz closure and missile response')}</td><td className="p-2">{L('Define estrategia nuclear y naval', 'Sets nuclear and naval strategy')}</td></tr>
+              <tr className="border-b border-stone-200"><td className="p-2 font-medium">Masoud Pezeshkian</td><td className="p-2">{L('Presidente de Irán', 'President of Iran')}</td><td className="p-2">{L('Constata en la ONU que "ya no confía" en las negociaciones con EE.UU.', 'States at the UN he "no longer trusts" negotiations with the US')}</td><td className="p-2">{L('Vocero del colapso del diálogo', 'Voice of the collapsed dialogue')}</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">{L('Guardia Revolucionaria (IRGC)', 'Revolutionary Guard (IRGC)')}</td><td className="p-2">{L('Fuerzas de élite', 'Elite forces')}</td><td className="p-2">{L('Lanza misiles y drones a aliados de EE.UU.', 'Fires missiles and drones at US allies')}</td><td className="p-2">{L('Ejecuta la saturación', 'Executes saturation warfare')}</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Hosein Mohebi</td><td className="p-2">{L('Portavoz del IRGC', 'IRGC spokesman')}</td><td className="p-2">{L('Amenaza con castigo a quien vulnere la soberanía', 'Threatens reprisal for sovereignty violations')}</td><td className="p-2">{L('Vocero de la respuesta iraní', 'Voice of the Iranian response')}</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Benjamín Netanyahu</td><td className="p-2">{L('Primer ministro de Israel', 'Prime Minister of Israel')}</td><td className="p-2">{L('Ejecuta la vertiente aérea conjunta', 'Leads the joint aerial component')}</td><td className="p-2">{L('Bloque agresivo occidental', 'Aggressive Western bloc')}</td></tr>
@@ -350,7 +359,9 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
       <section className="max-w-3xl mx-auto px-6 py-8 border-t border-stone-200">
         <h2 className="text-2xl font-serif font-bold mb-6">{L('¿Qué viene después?', 'What comes next?')}</h2>
         <div className="prose prose-stone max-w-none font-serif">
-          <p>El futuro inmediato se juega entre tres escenarios. <strong>Escalada</strong>: una expansión del ataque estadounidense a instalaciones nucleares iraníes desencadenaría una respuesta regional en cadena. <strong>Negociación</strong>: la dependencia energética de China, India y Europa actúa como freno, y la mediación de Omán y Catar ya abre canales. <strong>Guerra de desgaste</strong>: la más probable a seis meses del inicio, con ataques intermitentes que mantienen la presión sin cruzar la línea roja nuclear.</p>
+          <p>El futuro inmediato se juega entre tres escenarios, ahora con la mesa de negociación otra vez abierta: Trump confirmó el 27 de septiembre que espera retomar las conversaciones "esta semana", mientras la referencia al Consejo de Seguridad y la reapertura final del estrecho siguen sobre la mesa. <strong>Escalada</strong>: una expansión del ataque estadounidense a instalaciones nucleares iraníes (sobre la que Trump mantiene la ambigüedad: "siempre lo estoy considerando") desencadenaría una respuesta regional en cadena. <strong>Negociación</strong>: la dependencia energética de China, India y Europa actúa como freno, y la propia oferta de Teherán de reabrir el estrecho en siete días sugiere que busca salida. <strong>Guerra de fricción</strong>: la más probable a los siete meses del inicio, con ataques intermitentes, un Ormuz cerrado a medias y un precio del crudo instalado cerca de los 90 dólares que mantiene la presión sin cruzar la línea roja nuclear.</p>
+
+          <p>La semana del 25 de septiembre dejó una pista de hacia dónde va el tablero. El rechazo de la hoja de ruta iraní no implicó un corte de canales: Teherán asegura "esperar la respuesta oficial a través de los mediadores" y Washington sostiene que la pelota está en Teherán. En paralelo, Pezeshkian declaró en Nueva York que su gobierno "ya no confía" en las negociaciones, después de que a rondas pasadas siguieran bombardeos y nuevas sanciones. Sobre ese fondo de desconfianza recíproca, el cierre parcial del estrecho se ha convertido en la principal moneda de cambio de Irán: mientras no haya avance, el mercado energético mundial seguirá pagando el precio de la incertidumbre.</p>
 
           <p>Furia Épica deja tres lecciones. Para la <strong>OTAN</strong>: la defensa concentrada en interceptores caros es vulnerable a la saturación con drones baratos, y exige repensar la relación coste-eficacia. Para los <strong>aliados de Estados Unidos</strong>: el control de los estrechos y de las rutas energéticas es el nuevo campo de la disuasión, más decisivo que la superioridad aérea tradicional. Para la <strong>seguridad energética global</strong>: ninguna economía puede asumir la fragilidad de Ormuz sin acelerar reservas estratégicas, diversificación de proveedores y transición hacia renovables.</p>
 

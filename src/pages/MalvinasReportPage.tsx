@@ -34,7 +34,7 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
             <button onClick={() => onNavigate('reportaje-ucrania-estancamiento')} className="px-3 py-1 bg-white/10 text-white/80 rounded hover:bg-white/20">{L('← Ucrania', '← Ukraine')}</button>
             <span className="px-3 py-1 bg-sky-500/20 text-sky-300 rounded">{L('Capítulo actual', 'Current')}</span>
           </div>
-          <p className="text-white/60 text-sm mt-4">4 de septiembre de 2026 — Reportaje de análisis internacional</p>
+          <p className="text-white/60 text-sm mt-4">27 de septiembre de 2026 — Reportaje de análisis internacional</p>
         </div>
       </div>
 
@@ -55,6 +55,7 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
             <li className="flex gap-2"><span className="text-emerald-600">▸</span>{L('La disputa arrastra 192 años: la ocupación británica de 1833, la guerra de 1982 (649 muertos argentinos, 255 británicos) y una larga posguerra.', 'The dispute spans 192 years: the 1833 British occupation, the 1982 war (649 Argentine and 255 British dead) and a long post-war.')}</li>
             <li className="flex gap-2"><span className="text-emerald-600">▸</span>{L('El proyecto petrolero Sea Lion (~300 millones de barriles) explica por qué Londres no cede un centímetro en el Atlántico Sur.', 'The Sea Lion oil project (~300 million barrels) explains why London refuses to yield an inch in the South Atlantic.')}</li>
             <li className="flex gap-2"><span className="text-emerald-600">▸</span>{L('Las elecciones de noviembre de 2026 en EE.UU. pueden ser más decisivas para el archipiélago que cualquier gesto argentino.', 'The November 2026 US elections may prove more decisive for the archipelago than any Argentine gesture.')}</li>
+            <li className="flex gap-2"><span className="text-emerald-600">▸</span>{L('A fin de septiembre, el Sea Lion sigue adelante: perforación prevista para los próximos meses y primer crudo en torno a 2028, pese a la demanda de veteranos del 2 de septiembre y a la respuesta del ministro de Defensa británico, Wes Streeting: el compromiso de Londres es "absoluto e inquebrantable".', 'By late September, Sea Lion moves ahead: drilling is expected in the coming months with first oil around 2028, despite the veterans\' lawsuit of September 2 and the response of UK Defence Secretary Wes Streeting: London\'s commitment is "absolute and unshakeable".')}</li>
           </ul>
         </div>
       </section>
@@ -211,6 +212,8 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
             "Esta base nos convertirá en el polo logístico más importante del Atlántico Sur y será fundamental para la proyección geopolítica de la Argentina."
           </blockquote>
           <p>Las reacciones no se hicieron esperar. La senadora oficialista Patricia Bullrich lo celebró como <em>"el paso más importante de nuestra historia"</em>; la oposición lo comparó con un <em>"Galtieri devaluado"</em>. El Foreign Office británico reiteró que la soberanía <em>"no está en discusión"</em>.</p>
+          <h3 className="text-lg font-serif font-bold mb-2 mt-8">{L('Actualización a 27 de septiembre', 'Update as of September 27')}</h3>
+          <p>El órdago de Milei no detuvo el reloj de la disputa. El <strong>2 de septiembre</strong>, veteranos de guerra y abogados ambientalistas presentaron una demanda para frenar el desarrollo petrolero; días después, el ministro de Defensa británico, <strong>Wes Streeting</strong>, respondió al plan de sanciones con una advertencia: la defensa de las islas es un compromiso <em>"absoluto e inquebrantable"</em>. En el frente petrolero, mientras tanto, el calendario avanza: la perforación en el bloque <strong>Sea Lion</strong>, a unos <strong>220 kilómetros al norte de las islas</strong>, está prevista para los próximos meses y el primer crudo llegaría en torno a <strong>2028</strong>, de la mano del operador Navitas con Rockhopper como socio. Y el factor Trump sigue sin definirse: entrevistado en <strong>GB News</strong>, el presidente estadounidense esquivó responder si EE.UU. auxiliaría a Reino Unido en un conflicto por las islas —una respuesta que Buenos Aires leyó como una baza a su favor. Milei necesita esa carta: su aprobación cae y las islas se convirtieron ya en su bandera de campaña para la reelección.</p>
         </div>
       </section>
 
@@ -231,6 +234,7 @@ export default function MalvinasReportPage({ lang, onBackToNews, onNavigate }: M
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Javier Milei</td><td className="p-2">Presidente de Argentina</td><td className="p-2">Anuncia base naval y sanciones a petroleras</td><td className="p-2">Define la nueva estrategia ofensiva</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Donald Trump</td><td className="p-2">Presidente de EE.UU.</td><td className="p-2">Ofrece "revisar" la neutralidad; decepcionado con Londres</td><td className="p-2">Puede cambiar el equilibrio de poder regional</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Reino Unido</td><td className="p-2">Gobierno británico</td><td className="p-2">Rechaza discutir soberanía; defiende autodeterminación</td><td className="p-2">Defiende los recursos y la administración</td></tr>
+              <tr className="border-b border-stone-200"><td className="p-2 font-medium">Wes Streeting</td><td className="p-2">Ministro de Defensa de Reino Unido</td><td className="p-2">Compromiso con las islas "absoluto e inquebrantable"</td><td className="p-2">Responde al órdago de Milei en septiembre</td></tr>
               <tr className="border-b border-stone-200"><td className="p-2 font-medium">Patricia Bullrich</td><td className="p-2">Senadora oficialista</td><td className="p-2">Apoya y difunde el anuncio de Milei</td><td className="p-2">Apuntala el consenso transversal</td></tr>
               <tr><td className="p-2 font-medium">Kelpers</td><td className="p-2">Población de las islas</td><td className="p-2">99,8% votaron seguir británicos</td><td className="p-2">Factor humano y jurídico clave</td></tr>
             </tbody>
