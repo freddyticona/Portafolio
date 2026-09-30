@@ -1,6 +1,46 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-09-29/irak-salida-tropas-eeuu-dos-decadas-iran.jpg": {
+    "width": 2000,
+    "height": 1331
+  },
+  "/images/news/2026-09-29/haiti-onu-renueva-mandato-fuerza-supresion-bandas.jpg": {
+    "width": 1170,
+    "height": 531
+  },
+  "/images/news/2026-09-29/yemen-escalada-colera-sarampion-oms.jpg": {
+    "width": 1170,
+    "height": 530
+  },
+  "/images/news/2026-09-29/rd-congo-ebola-8000-casos-oxigeno-oms.jpg": {
+    "width": 1170,
+    "height": 530
+  },
+  "/images/news/2026-09-29/eeuu-iran-negociaciones-estrecho-hormuz.jpg": {
+    "width": 1920,
+    "height": 1080
+  },
+  "/images/news/2026-09-29/ucrania-ataque-drones-academia-ciencias-kiiv.jpg": {
+    "width": 1920,
+    "height": 1080
+  },
+  "/images/news/2026-09-29/openai-cancela-gpt-6-1-astra-seguridad.jpg": {
+    "width": 1920,
+    "height": 1080
+  },
+  "/images/news/2026-09-29/acnur-recortes-financiamiento-83-millones-refugiados.jpg": {
+    "width": 1170,
+    "height": 530
+  },
+  "/images/news/2026-09-29/acuerdo-groenlandia-trump-anexacion-bases.jpg": {
+    "width": 1920,
+    "height": 1080
+  },
+  "/images/news/2026-09-29/eeuu-normas-ahorro-combustible-35-mpg.jpg": {
+    "width": 1920,
+    "height": 1440
+  },
   "/images/news/2026-09-27/takeaway-asamblea-general-dia-5.jpg": {
     "width": 771,
     "height": 420
