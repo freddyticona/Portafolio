@@ -29113,10 +29113,803 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     sourceUrl: 'https://www.democracynow.org/2026/9/29/headlines/trump_administration_slashes_biden_era_fuel_economy_standards'
   },
 
-
-
-
-
+{
+    id: '1309',
+    contentType: 'news',
+    slug: 'mariaca-declaracion-juez-cantumarca-potosi',
+    publishedAt: '2026-10-04T20:43:00-04:00',
+    titleEs: 'Mariaca al juez: “dejó mi vida en sus manos” y “no soy traficante”',
+    titleEn: 'Mariaca to the judge: “I leave my life in your hands” and “I am not a trafficker”',
+    excerptEs:
+      'El ex Fiscal General Roger Mariaca declaró ante el juez que “no soy traficante y no soy asesino ni violador”. Pidió revisar su lugar de detención por tener hijos menores y hipertensión.',
+    excerptEn:
+      'Former Attorney General Roger Mariaca told the judge he is “not a trafficker, nor a murderer or a rapist” and asked for his place of detention to be reviewed.',
+    contentEs: `<h1>Mariaca al juez: “dejó mi vida en sus manos” y “no soy traficante”</h1>` +
+    `<p class="lead"><em>El ex Fiscal General Roger Mariaca declaró este domingo ante el juez que lleva la audiencia de medidas cautelares en La Paz. Sostuvo que “no soy traficante y no soy asesino ni violador”, y pidió que se reconsiderara el lugar donde cumplirá la detención porque tiene hijos menores de edad y sufre de hipertensión.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/mariaca-declaracion-juez-cantumarca.jpg" alt="Fachada del Palacio de Justicia" loading="lazy">` +
+    `<figcaption>Fachada del Palacio de Justicia en La Paz. Foto: Alhen / Wikimedia Commons, CC BY-SA 3.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>6 meses</strong><span>de detención preventiva dictada el 3 de octubre</span></div>` +
+    `<div class="stat-card"><strong>4</strong><span>implicados con detención preventiva</span></div>` +
+    `<div class="stat-card"><strong>30 sept.</strong><span>fecha de la aprehensión en Viru Viru</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Lo que declaró</h2>` +
+    `<p>“Yo no soy traficante y yo no soy asesino ni violador”. Con esa frase el ex Fiscal General respondió al juez que lo interrogó sobre su situación procesal. El ex Fiscal insistió en que “dejo mi vida en manos de usted, señor juez, con todo el respeto que se merece”.</p>` +
+    `<p>Según el relato publicado por ERBOL, el juez le preguntó por qué solicitaba que se reconsiderara el lugar de la detención. Mariaca argumentó que tiene hijos menores de edad y que sufre de hipertensión.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Yo no soy traficante y yo no soy asesino ni violador”` +
+    `<cite>Roger Mariaca, ex Fiscal General, ante el juez</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La defensa y el pulso con el juez</h2>` +
+    `<p>El abogado de Mariaca pidió que se dejara constancia de que el juez no le había permitido acceder al material de defensa, conforme al artículo 8 del Código de Procedimiento Penal, garantía vinculada al derecho a conocer los cargos.</p>` +
+    `<p>La defensa también pidió que se reconsiderara el lugar de la detención. Según el relato, Mariaca no rebatía la necesidad de la detención preventiva, sino el lugar concreto en el que se cumpliría.</p>` +
+    `<h2 class="report-chapter">El expediente judicial</h2>` +
+    `<p>Mariaca fue aprehendido el 30 de septiembre en el aeropuerto de Viru Viru, en Santa Cruz. El 3 de octubre, en la audiencia de medidas cautelares, el juez dispuso seis meses de detención preventiva en el penal de Cantumarca, en Potosí.</p>` +
+    `<p>Ese mismo día se dictó detención preventiva para Alberto Zeballos, fiscal departamental de Santa Cruz; para Rubén Aparicio, mayor de la Policía; y para Martín Irusta, fiscal superior. Los cuatro están implicados en una investigación por supuesta organización criminal vinculada al narcoatráfico.</p>` +
+    `<p>Hasta el cierre de esta edición, Mariaca seguía recluido en las instalaciones de la FELCC en El Alto, a la espera del traslado definitivo al penal potosino.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las declaraciones del ex Fiscal General forman parte de un testimonio ante el juez. Ninguno de los cuatro implicados ha sido condenado, y todas las imputaciones provienen de la Fiscalía y deben ser contrastadas en juicio.</p>` +
+    `<p>Con información de <a href="https://www.opinion.com.bo/pais/mariaca-juez-dejo-vida-manos-soy-narcotraficante/20261004204341997146.html" target="_blank" rel="noopener noreferrer">ERBOL / Opinión Bolivia</a>.</p>`,
+    contentEn: `<h1>Mariaca to the judge: “I leave my life in your hands” and “I am not a trafficker”</h1>` +
+    `<p class="lead"><em>Former Attorney General Roger Mariaca appeared before the judge handling the bail hearing in La Paz on Sunday. He said he was “not a trafficker and I am not a murderer or a rapist”, and asked for his place of detention to be reconsidered because he has minor children and suffers from hypertension.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/mariaca-declaracion-juez-cantumarca.jpg" alt="Facade of the Palace of Justice" loading="lazy">` +
+    `<figcaption>Fachada del Palacio de Justicia en La Paz. Foto: Alhen / Wikimedia Commons, CC BY-SA 3.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>6 months</strong><span>of preventive detention ordered on 3 October</span></div>` +
+    `<div class="stat-card"><strong>4</strong><span>people placed under preventive detention</span></div>` +
+    `<div class="stat-card"><strong>30 Sept</strong><span>date of the arrest at Viru Viru</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">What he told the court</h2>` +
+    `<p>“I am not a trafficker and I am not a murderer or a rapist.” That was former Attorney General Mariaca’s answer to the judge who questioned him on his legal situation. He insisted that he “leaves my life in your hands, your honour, with all the respect you deserve”.</p>` +
+    `<p>According to the report published by ERBOL, the judge asked why he was seeking a reconsideration of the place of detention. Mariaca argued that he has minor children and that he suffers from hypertension.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“I am not a trafficker and I am not a murderer or a rapist”` +
+    `<cite>Roger Mariaca, former Attorney General, before the judge</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The defence and the clash with the judge</h2>` +
+    `<p>Mariaca’s lawyer asked that it be recorded that the judge had not allowed him to access the case file, in line with article 8 of the Code of Criminal Procedure, a guarantee tied to the right to know the charges.</p>` +
+    `<p>The defence also asked for the place of detention to be reconsidered. According to the account, Mariaca was not disputing the need for preventive detention, but the specific place where it would be served.</p>` +
+    `<h2 class="report-chapter">The court record</h2>` +
+    `<p>Mariaca was arrested on 30 September at Viru Viru airport in Santa Cruz. On 3 October, at the bail hearing, the judge ordered six months of preventive detention at the Cantumarca penal in Potosi.</p>` +
+    `<p>On the same day, preventive detention was ordered for Alberto Zeballos, the departmental prosecutor of Santa Cruz; for Ruben Aparicio, the police chief; and for Martin Irusta, a superior prosecutor. All four are implicated in an investigation into an alleged criminal network linked to drug trafficking.</p>` +
+    `<p>At the time of publication, Mariaca was still held at the FELCC facilities in El Alto, awaiting the final transfer to the Potosi prison.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The former Attorney General’s statements form part of a declaration before the judge. None of the four has been convicted, and all the allegations come from the Attorney General’s Office and have to be tested in court.</p>` +
+    `<p>With information from <a href="https://www.opinion.com.bo/pais/mariaca-juez-dejo-vida-manos-soy-narcotraficante/20261004204341997146.html" target="_blank" rel="noopener noreferrer">ERBOL / Opinion Bolivia</a>.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-04/mariaca-declaracion-juez-cantumarca.jpg',
+    imageCaption:
+      'Fachada del Palacio de Justicia de La Paz, uno de los escenarios de las audiencias del caso. Foto: Alhen / Wikimedia Commons, CC BY-SA 3.0',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'La Paz, Bolivia',
+    source: 'ERBOL',
+    region: 'Bolivia',
+    sourceUrl: 'https://www.opinion.com.bo/pais/mariaca-juez-dejo-vida-manos-soy-narcotraficante/20261004204341997146.html'
+  },
+{
+    id: '1310',
+    contentType: 'news',
+    slug: 'segunda-detencion-preventiva-mariaca-legitimacion-ganancias',
+    publishedAt: '2026-10-04T18:25:00-04:00',
+    titleEs: 'Justicia dicta segunda detención preventiva para Mariaca por legitimación de ganancias',
+    titleEn: 'Court Orders Second Preventive Detention for Mariaca Over Money Laundering',
+    excerptEs:
+      'La justicia dictó seis meses de segunda detención preventiva para el ex Fiscal General por legitimación de ganancias. El expediente registra Bs 3,5 millones y USD 10.000 en efectivo.',
+    excerptEn:
+      'The court ordered a second six-month preventive detention for the former Attorney General over money laundering. The file records BOB 3.5 million and USD 10,000 in cash.',
+    contentEs: `<h1>Justicia dicta segunda detención preventiva para Mariaca por legitimación de ganancias</h1>` +
+    `<p class="lead"><em>La justicia boliviana dictó este domingo una segunda detención preventiva de seis meses para el ex Fiscal General Roger Mariaca, esta vez por el delito de legitimación de ganancias. A un mes de su aprehensión en el aeropuerto de Viru Viru, el ex Fiscal acumula dos procesos con cargos formales.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/segunda-detencion-legitimacion-ganancias.jpg" alt="Billete de 500 bolivianos" loading="lazy">` +
+    `<figcaption>Billete de 500 bolivianos. Foto: Banco Central de Bolivia / Wikimedia Commons, dominio público</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>6 meses</strong><span>de nueva detención preventiva</span></div>` +
+    `<div class="stat-card"><strong>Bs 3,5 M</strong><span>en efectivo hallado</span></div>` +
+    `<div class="stat-card"><strong>USD 10.000</strong><span>en efectivo hallado</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La medida</h2>` +
+    `<p>Según el auto judicial, la nueva medida fue dictada este domingo en el marco de una segunda investigación formal por legitimación de ganancias. Con esta decisión, Mariaca suma un segundo proceso con cargos formales en su contra.</p>` +
+    `<h2 class="report-chapter">Los montos del inventario</h2>` +
+    `<p>El expediente policial que sustentó la medida describe un operativo en el que se halló un total de Bs 3.500.000 en efectivo dentro de una ambulancia que salía del condominio donde vive el ex Fiscal. En el mismo lugar se encontraron USD 10.000.</p>` +
+    `<p>Según el reporte, el dinero fue encontrado durante un registro posterior a la aceptación de la denuncia formal que dio origen a la primera detención preventiva, dictada el 3 de octubre en el penal de Cantumarca, en Potosí.</p>` +
+    `<h2 class="report-chapter">Un expediente en expansión</h2>` +
+    `<p>La legitimación de ganancias se suma a la investigación por supuesta organización criminal vinculada al narcoatráfico, en la que también están implicados el fiscal departamental de Santa Cruz, Alberto Zeballos; el mayor de la Policía, Rubén Aparicio; y el fiscal superior Martín Irusta.</p>` +
+    `<p>Según la información publicada, la Fiscalía también investiga el origen del efectivo. No existe sentencia que establezca la culpabilidad de ninguno de los implicados.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cantidades citadas proceden de registros policiales y de autos de detención preventiva. Son hallazgos relacionados con la investigación y no constituyen una condena. Mariaca y los demás implicados no han sido declarados responsables y deben ser escuchados en juicio.</p>` +
+    `<p>Con información de <a href="https://www.opinion.com.bo/pais/justicia-dicta-segunda-detencion-preventiva-mariaca-caso-legitimacion-ganancias/20261004182511997140.html" target="_blank" rel="noopener noreferrer">Opinión Bolivia</a>.</p>`,
+    contentEn: `<h1>Court Orders a Second Preventive Detention for Mariaca Over Money Laundering</h1>` +
+    `<p class="lead"><em>Bolivian justice ordered a second six-month preventive detention for former Attorney General Roger Mariaca on Sunday, this time for money laundering. One month after his arrest at Viru Viru airport, the former prosecutor now faces two cases with formal charges.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/segunda-detencion-legitimacion-ganancias.jpg" alt="500 boliviano banknote" loading="lazy">` +
+    `<figcaption>500 boliviano banknote. Photo: Central Bank of Bolivia / Wikimedia Commons, public domain</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>6 months</strong><span>of new preventive detention</span></div>` +
+    `<div class="stat-card"><strong>BOB 3.5M</strong><span>in cash seized</span></div>` +
+    `<div class="stat-card"><strong>USD 10,000</strong><span>in cash seized</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The measure</h2>` +
+    `<p>According to the court order, the new measure was issued on Sunday within a second formal investigation into money laundering. With this decision, Mariaca faces a second case with formal charges against him.</p>` +
+    `<h2 class="report-chapter">The amounts on the inventory</h2>` +
+    `<p>The police file supporting the measure describes an operation in which a total of BOB 3,500,000 in cash was found inside an ambulance leaving the condominium where the former prosecutor lives. USD 10,000 was found in the same place.</p>` +
+    `<p>According to the report, the money was found during a search carried out after the formal complaint that gave rise to the first preventive detention, ordered on 3 October at the Cantumarca penal in Potosi.</p>` +
+    `<h2 class="report-chapter">An expanding case file</h2>` +
+    `<p>The money laundering investigation is added to the inquiry into an alleged criminal network linked to drug trafficking, in which Santa Cruz departmental prosecutor Alberto Zeballos, police chief Ruben Aparicio and superior prosecutor Martin Irusta are also implicated.</p>` +
+    `<p>Prosecutors are also examining the origin of the cash. No ruling establishes the guilt of any of those involved.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The figures cited come from police records and detention orders. They are findings tied to the investigation and do not amount to a conviction. Mariaca and the other suspects have not been found responsible and must be heard in court.</p>` +
+    `<p>With information from <a href="https://www.opinion.com.bo/pais/justicia-dicta-segunda-detencion-preventiva-mariaca-caso-legitimacion-ganancias/20261004182511997140.html" target="_blank" rel="noopener noreferrer">Opinion Bolivia</a>.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-04/segunda-detencion-legitimacion-ganancias.jpg',
+    imageCaption:
+      'Billete boliviano de 500 bolivianos. El nuevo proceso se apoya en dinero en efectivo. Foto: Banco Central de Bolivia / Wikimedia Commons, dominio público',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'El Alto, Bolivia',
+    source: 'ERBOL',
+    region: 'Bolivia',
+    sourceUrl: 'https://www.opinion.com.bo/pais/justicia-dicta-segunda-detencion-preventiva-mariaca-caso-legitimacion-ganancias/20261004182511997140.html'
+  },
+{
+    id: '1311',
+    contentType: 'news',
+    slug: 'traslado-zeballos-irusta-aparicio-carceles',
+    publishedAt: '2026-10-04T16:11:00-04:00',
+    titleEs: 'Zeballos, Irusta y Aparicio ya fueron trasladados a cárceles de La Paz y Cochabamba',
+    titleEn: 'Zeballos, Irusta and Aparicio Transferred to Jails in La Paz and Cochabamba',
+    excerptEs:
+      'El mayor de la Policía Rubén Aparicio fue enviado a Chonchocoro y el fiscal superior Martín Irusta a Patacamaya, ambos en La Paz. Zeballos llegó a El Abra, en Cochabamba.',
+    excerptEn:
+      'Police chief Ruben Aparicio was sent to Chonchocoro and superior prosecutor Martin Irusta to Patacamaya, both in La Paz. Zeballos arrived at El Abra in Cochabamba.',
+    contentEs: `<h1>Zeballos, Irusta y Aparicio ya fueron trasladados a cárceles de La Paz y Cochabamba</h1>` +
+    `<p class="lead"><em>Tras pasar la noche en celdas policiales y ser sometidos a una audiencia de medidas cautelares, tres de los cuatro implicados en la investigación contra la red del ex Fiscal General Roger Mariaca fueron trasladados a distintos centros de detención. El ex Fiscal permanece en El Alto.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/traslados-carceles-eldestino.jpg" alt="Interior de un centro de detención" loading="lazy">` +
+    `<figcaption>Imagen ilustrativa de un centro de detención. Foto: Dudva / Wikimedia Commons, CC BY-SA 3.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>Chonchocoro</strong><span>Rubén Aparicio, en Viacha</span></div>` +
+    `<div class="stat-card"><strong>Patacamaya</strong><span>Martín Irusta, en La Paz</span></div>` +
+    `<div class="stat-card"><strong>El Abra</strong><span>Alberto Zeballos, en Cochabamba</span></div>` +
+    `<div class="stat-card"><strong>El Alto</strong><span>Mariaca sigue en la FELCC</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">A dónde fue cada uno</h2>` +
+    `<p>El mayor de la Policía Rubén Aparicio fue trasladado a la cárcel de Chonchocoro, en el municipio de Viacha, en La Paz. El fiscal superior Martín Irusta llegó a Patacamaya, también en el departamento de La Paz.</p>` +
+    `<p>El fiscal departamental de Santa Cruz, Alberto Zeballos, fue conducido al penal de El Abra, en Cochabamba. Los tres ingresaron a sus centros de destino tras la audiencia de medidas cautelares.</p>` +
+    `<h2 class="report-chapter">Mariaca sigue en El Alto</h2>` +
+    `<p>Roger Mariaca no fue trasladado este domingo. El ex Fiscal General permanece en las instalaciones de la FELCC en El Alto mientras se define el destino de su detención preventiva, que fuera dictada a razón del penal de Cantumarca, en Potosí.</p>` +
+    `<h2 class="report-chapter">La imputación</h2>` +
+    `<p>Los cuatro están implicados por los delitos de legitimación de ganancias y organización criminal. Según la Fiscalía, habrían recibido sumas de dinero a cambio de actos en favor de una estructura dedicada al tráfico de drogas.</p>` +
+    `<p>Estas acusaciones son objeto de investigación y ningún tribunal ha emitido condena contra ninguno de los implicados. La defensa de los trasladados podrá presentar los descargos correspondientes dentro del proceso.</p>` +
+    `<h2 class="report-chapter">El contexto</h2>` +
+    `<p>Los traslados se producen poco más de una semana después de que el Departamento de Estado de Estados Unidos revocara el visado de casi 30 funcionarios latinoamericanos, entre ellos Mariaca e Irusta.</p>` +
+    `<p>Con información de <a href="https://www.opinion.com.bo/pais/zeballos-irusta-aparicio-fueron-trasladados-carceles-paz-cochabamba/20261004161100997138.html" target="_blank" rel="noopener noreferrer">URGENTE.BO / Opinión Bolivia</a>.</p>`,
+    contentEn: `<h1>Zeballos, Irusta and Aparicio Transferred to Jails in La Paz and Cochabamba</h1>` +
+    `<p class="lead"><em>After spending the night in police cells and facing a bail hearing, three of the four people implicated in the investigation into the network of former Attorney General Roger Mariaca were transferred to different detention centres. The former prosecutor remains in El Alto.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/traslados-carceles-eldestino.jpg" alt="Interior of a detention centre" loading="lazy">` +
+    `<figcaption>Illustrative image of a detention centre. Photo: Dudva / Wikimedia Commons, CC BY-SA 3.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>Chonchocoro</strong><span>Ruben Aparicio, in Viacha</span></div>` +
+    `<div class="stat-card"><strong>Patacamaya</strong><span>Martin Irusta, in La Paz</span></div>` +
+    `<div class="stat-card"><strong>El Abra</strong><span>Alberto Zeballos, in Cochabamba</span></div>` +
+    `<div class="stat-card"><strong>El Alto</strong><span>Mariaca stays at FELCC</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Where each one went</h2>` +
+    `<p>Police chief Ruben Aparicio was moved to the Chonchocoro jail, in the municipality of Viacha, La Paz. Superior prosecutor Martin Irusta arrived at Patacamaya, also in the department of La Paz.</p>` +
+    `<p>Santa Cruz departmental prosecutor Alberto Zeballos was taken to the El Abra penal in Cochabamba. All three entered their destination centres after the bail hearing.</p>` +
+    `<h2 class="report-chapter">Mariaca stays in El Alto</h2>` +
+    `<p>Roger Mariaca was not transferred on Sunday. The former Attorney General remains at the FELCC facilities in El Alto while the destination of his preventive detention is decided; the measure had been ordered for the Cantumarca penal in Potosi.</p>` +
+    `<h2 class="report-chapter">The charges</h2>` +
+    `<p>All four are charged with money laundering and criminal association. According to the prosecution, they received sums of money in exchange for acts on behalf of a structure dedicated to drug trafficking.</p>` +
+    `<p>These allegations are under investigation and no court has convicted any of those involved. The defence of those transferred will be able to present its exculpatory evidence within the case.</p>` +
+    `<h2 class="report-chapter">The context</h2>` +
+    `<p>The transfers come just over a week after the US State Department revoked the visas of almost 30 Latin American officials, among them Mariaca and Irusta.</p>` +
+    `<p>With information from <a href="https://www.opinion.com.bo/pais/zeballos-irusta-aparicio-fueron-trasladados-carceles-paz-cochabamba/20261004161100997138.html" target="_blank" rel="noopener noreferrer">URGENTE.BO / Opinion Bolivia</a>.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-04/traslados-carceles-eldestino.jpg',
+    imageCaption:
+      'Imagen ilustrativa de un centro de detención. Foto: Dudva / Wikimedia Commons, CC BY-SA 3.0',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'La Paz, Bolivia',
+    source: 'URGENTE.BO',
+    region: 'Bolivia',
+    sourceUrl: 'https://www.opinion.com.bo/pais/zeballos-irusta-aparicio-fueron-trasladados-carceles-paz-cochabamba/20261004161100997138.html'
+  },
+{
+    id: '1312',
+    contentType: 'news',
+    slug: 'inventario-lujo-iphones-rolex-joyas',
+    publishedAt: '2026-10-04T14:07:00-04:00',
+    titleEs: 'iPhone, Rolex, joyas y efectivo: el inventario del caso Mariaca',
+    titleEn: 'iPhone, a Rolex, Jewellery and Cash: The Inventory in the Mariaca Case',
+    excerptEs:
+      'La Policía dio a conocer el inventario de objetos de valor de los cuatro implicados. Mariaca: Bs 19.850 y US$2.100; Zeballos: un Rolex y una laptop.',
+    excerptEn:
+      'Police listed the high-value items linked to the four people implicated. Mariaca: BOB 19,850 and USD 2,100; Zeballos: a Rolex and a laptop.',
+    contentEs: `<h1>iPhones, Rolex, joyas y efectivo: el inventario del caso Mariaca</h1>` +
+    `<p class="lead"><em>El inventario remitido por la Policía en el marco de la investigación contra el ex Fiscal General Roger Mariaca y otros tres implicados enumera teléfonos móviles, relojes de alta gama, joyas y dinero en efectivo.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/inventario-lujo-iphones-rolex-joyas.jpg" alt="Reloj de pulsera de gama alta" loading="lazy">` +
+    `<figcaption>Reloj de pulsera de gama alta. Foto: Jovonni Pharr / Wikimedia Commons, CC BY 3.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>4</strong><span>inmuebles registrados</span></div>` +
+    `<div class="stat-card"><strong>Bs 3,5 M</strong><span>en efectivo, en una ambulancia</span></div>` +
+    `<div class="stat-card"><strong>USD 10.000</strong><span>en efectivo</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Los objetos asegurados</h2>` +
+    `<p>Según el documento, los registros se realizaron en cuatro inmuebles.</p>` +
+    `<p>Entre los bienes asegurados figuran varios teléfonos móviles de gama alta y otros dispositivos electrónicos.</p>` +
+    `<p>En el caso de Mariaca se consignan Bs 19.850 y US$2.100 en efectivo.</p>` +
+    `<p>A Alberto Zeballos se le atribuyen un Rolex y una computadora portátil.</p>` +
+    `<p>Para Rubén Aparicio figuran cadenas y pulseras de oro.</p>` +
+    `<p>El dinero fue hallado dentro de una ambulancia que salía del condominio del ex Fiscal.</p>` +
+    `<h2 class="report-chapter">Cómo se usó el inventario</h2>` +
+    `<p>Según la Fiscalía, el inventario sirve para sustentar la acusación por legitimación de ganancias, que sustenta la segunda detención preventiva dictada el domingo 4 de octubre.</p>` +
+    `<p>La defensa de los implicados puede rebatir el origen de los bienes y pedir su devolución.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La tenencia de un objeto de valor no prueba por sí sola un ilícito. Las imputaciones siguen en fase de investigación y ninguno de los implicados ha sido condenado.</p>` +
+    `<p>Con información de <a href="https://www.opinion.com.bo/pais/iphones-reloj-rolex-joyas-inventario-lujo-secuestrado-mariaca-otros-tres-implicados/20261004140704997136.html" target="_blank" rel="noopener noreferrer">Opinión Bolivia</a>.</p>`,
+    contentEn: `<h1>iPhones, a Rolex, Jewellery and Cash: The Inventory in the Mariaca Case</h1>` +
+    `<p class="lead"><em>The inventory sent by the police in the investigation into former Attorney General Roger Mariaca and three other suspects lists mobile phones, high-end watches, jewellery and cash. The items were seized during searches carried out at four properties.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/inventario-lujo-iphones-rolex-joyas.jpg" alt="Luxury wristwatch" loading="lazy">` +
+    `<figcaption>Luxury wristwatch. Photo: Jovonni Pharr / Wikimedia Commons, CC BY 3.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>4</strong><span>properties searched</span></div>` +
+    `<div class="stat-card"><strong>BOB 3.5M</strong><span>in cash, inside an ambulance</span></div>` +
+    `<div class="stat-card"><strong>USD 10,000</strong><span>in cash</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The items on the inventory</h2>` +
+    `<p>According to the document, the searches were carried out at four properties.</p>` +
+    `<p>Among the seized items are several high-end mobile phones and other electronic devices.</p>` +
+    `<p>In Mariaca’s case, BOB 19,850 and USD 2,100 in cash are listed.</p>` +
+    `<p>A Rolex watch and a laptop are attributed to Alberto Zeballos.</p>` +
+    `<p>Gold chains and bracelets are listed for Ruben Aparicio.</p>` +
+    `<p>The money was found inside an ambulance leaving the former prosecutor’s condominium.</p>` +
+    `<h2 class="report-chapter">How the inventory is used</h2>` +
+    `<p>According to the Attorney General’s Office, the inventory supports the money laundering charge, which in turn supports the second preventive detention ordered on Sunday 4 October.</p>` +
+    `<p>The defence of those implicated can challenge where the goods came from and request their return.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Owning a high-value item does not by itself prove wrongdoing. The charges remain at the investigation stage and none of those implicated has been convicted.</p>` +
+    `<p>With information from <a href="https://www.opinion.com.bo/pais/iphones-reloj-rolex-joyas-inventario-lujo-secuestrado-mariaca-otros-tres-implicados/20261004140704997136.html" target="_blank" rel="noopener noreferrer">Opinion Bolivia</a>.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-04/inventario-lujo-iphones-rolex-joyas.jpg',
+    imageCaption:
+      'Primer plano de un reloj de pulsera. Foto: Jovonni Pharr / Wikimedia Commons, CC BY 3.0',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Bolivia',
+    source: 'URGENTE.BO',
+    region: 'Bolivia',
+    sourceUrl: 'https://www.opinion.com.bo/pais/iphones-reloj-rolex-joyas-inventario-lujo-secuestrado-mariaca-otros-tres-implicados/20261004140704997136.html'
+  },
+{
+    id: '1313',
+    contentType: 'news',
+    slug: 'terremoto-judicial-bolivia-fiscal-general',
+    publishedAt: '2026-10-04T20:51:00-04:00',
+    titleEs: 'De la lista negra a un nuevo Fiscal General: el terremoto judicial en Bolivia',
+    titleEn: 'From a Blacklist to a New Attorney General: How Judicial Crisis Unfolded in Bolivia',
+    excerptEs:
+      'Cronología de nueve días: desde la revocatoria de visados de Estados Unidos el 28 de septiembre hasta la segunda detención preventiva del domingo 4 de octubre.',
+    excerptEn:
+      'A nine-day timeline from the US visa revocations of 28 September to the second preventive detention order on Sunday 4 October.',
+    contentEs: `<h1>De una lista negra a un nuevo Fiscal General: así ocurrió el terremoto judicial</h1>` +
+    `<p class="lead"><em>En nueve días, Bolivia pasó de la revocatoria de visas de casi 30 funcionarios latinoamericanos a la remoción del Fiscal General de la Nación. Este es el registro cronológico de lo ocurrido.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/terremoto-judicial-fiscal-general.jpg" alt="Palacio Legislativo de La Paz" loading="lazy">` +
+    `<figcaption>Palacio Legislativo de La Paz. Foto: LBM1948 / Wikimedia Commons, CC BY-SA 4.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>9</strong><span>días de crisis</span></div>` +
+    `<div class="stat-card"><strong>4</strong><span>con preventiva dictada</span></div>` +
+    `<div class="stat-card"><strong>30</strong><span>visas revocadas</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Lunes 28 de septiembre</h2>` +
+    `<p>El Departamento de Estado de Estados Unidos revocó el visado de casi 30 funcionarios latinoamericanos. Entre los nombres citados estaba el de Roger Mariaca, acusado de corrupción y de recibir sobornos para favorecer el tráfico de drogas.</p>` +
+    `<h2 class="report-chapter">Miércoles 30 de septiembre</h2>` +
+    `<p>Mariaca fue aprehendido en el aeropuerto de Viru Viru, en Santa Cruz, junto con el fiscal departamental Alberto Zeballos.</p>` +
+    `<p>Según la Policía, la operación fue parte de una investigación sobre una red dedicada al tráfico de drogas.</p>` +
+    `<h2 class="report-chapter">Jueves 1 de octubre</h2>` +
+    `<p>El Gobierno, a través del ministro deéjecutivo Marco Antonio Oviedo, afirmó que se había desmontado una organización criminal. Un vídeo relacionado con el caso se hizo viral en redes sociales.</p>` +
+    `<h2 class="report-chapter">Viernes 2 de octubre</h2>` +
+    `<p>Fue rechazado el habeas corpus presentado a favor de Mariaca y de Zeballos por el abogado Wilmer Vásquez, en nombre del Comité Popular.</p>` +
+    `<p>La Asamblea Legislativa Popular cambió el mando de la institución: el titular fue sustituido y en su lugar asumió el Interim de turno.</p>` +
+    `<h2 class="report-chapter">Sábado 3 de octubre</h2>` +
+    `<p>El juez de Investigación dictó seis meses de detención preventiva contra Mariaca en el penal de Cantumarca, en Potosí. En la misma audiencia se dictó la medida contra Zeballos, Rubén Aparicio y Martín Irusta.</p>` +
+    `<h2 class="report-chapter">Domingo 4 de octubre</h2>` +
+    `<p>Mariaca recibió una segunda detención preventiva por legitimación de ganancias. Zeballos fue trasladado al penal de El Abra, en Cochabamba; Aparicio a Chonchocoro; e Irusta a Patacamaya.</p>` +
+    `<h2 class="report-chapter">Lo que dejó la crisis</h2>` +
+    `<p>El caso dejó cuatro implicados con detención preventiva, un Fiscal General removido por la Asamblea Legislativa Popular y una investigación policial abierta sobre una supuesta red criminal. Ninguno de los implicados ha sido condenado.</p>` +
+    `<p>Con información de <a href="https://www.opinion.com.bo/pais/lista-negra-nuevo-fiscal-general-asi-ocurrio-terremoto-judicial-bolivia/20261004205155997148.html" target="_blank" rel="noopener noreferrer">Opinión Bolivia</a>.</p>`,
+    contentEn: `<h1>From a Blacklist to a New Attorney General: How the Judicial Earthquake Unfolded</h1>` +
+    `<p class="lead"><em>In nine days, Bolivia went from the revocation of the visas of almost 30 Latin American officials to the removal of the Attorney General of the Nation. This is the chronological record.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/terremoto-judicial-fiscal-general.jpg" alt="Palacio Legislativo in La Paz" loading="lazy">` +
+    `<figcaption>Palacio Legislativo in La Paz. Photo: LBM1948 / Wikimedia Commons, CC BY-SA 4.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>9</strong><span>days of crisis</span></div>` +
+    `<div class="stat-card"><strong>4</strong><span>under preventive detention</span></div>` +
+    `<div class="stat-card"><strong>30</strong><span>visas revoked</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Monday 28 September</h2>` +
+    `<p>The US State Department revoked the visas of almost 30 Latin American officials. Among the names cited was that of Roger Mariaca, accused of corruption and of taking bribes to favour drug trafficking.</p>` +
+    `<h2 class="report-chapter">Wednesday 30 September</h2>` +
+    `<p>Mariaca was arrested at Viru Viru airport in Santa Cruz, together with the departmental prosecutor Alberto Zeballos.</p>` +
+    `<p>According to the police, the operation was part of an investigation into a network dedicated to drug trafficking.</p>` +
+    `<h2 class="report-chapter">Thursday 1 October</h2>` +
+    `<p>The government, through executive minister Marco Antonio Oviedo, said an alleged criminal organisation had been dismantled. A video connected to the case went viral on social media.</p>` +
+    `<h2 class="report-chapter">Friday 2 October</h2>` +
+    `<p>The habeas corpus appeal filed for Mariaca and Zeballos by lawyer Wilmer Vasquez, on behalf of the Popular Committee, was rejected.</p>` +
+    `<p>The Popular Legislative Assembly changed the leadership of the institution: the sitting official was replaced.</p>` +
+    `<h2 class="report-chapter">Saturday 3 October</h2>` +
+    `<p>The investigating judge ordered six months of preventive detention for Mariaca at the Cantumarca penal in Potosi. At the same hearing the measure was ordered for Zeballos, Ruben Aparicio and Martin Irusta.</p>` +
+    `<h2 class="report-chapter">Sunday 4 October</h2>` +
+    `<p>Mariaca received a second preventive detention order over money laundering. Zeballos was transferred to the El Abra penal in Cochabamba, Aparicio to Chonchocoro and Irusta to Patacamaya.</p>` +
+    `<h2 class="report-chapter">What the crisis left behind</h2>` +
+    `<p>The case left four people under preventive detention, an Attorney General removed by the legislature and an open police investigation into an alleged criminal network. None of those implicated has been convicted.</p>` +
+    `<p>With information from <a href="https://www.opinion.com.bo/pais/lista-negra-nuevo-fiscal-general-asi-ocurrio-terremoto-judicial-bolivia/20261004205155997148.html" target="_blank" rel="noopener noreferrer">Opinion Bolivia</a>.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-04/terremoto-judicial-fiscal-general.jpg',
+    imageCaption:
+      'Palacio Legislativo de Bolivia en La Paz, sede de la sesion que elegio al Fiscal General interino. Foto: LBM1948 / Wikimedia Commons, CC BY-SA 4.0',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'La Paz, Bolivia',
+    source: 'URGENTE.BO',
+    region: 'Bolivia',
+    sourceUrl: 'https://www.opinion.com.bo/pais/lista-negra-nuevo-fiscal-general-asi-ocurrio-terremoto-judicial-bolivia/20261004205155997148.html'
+  },
+{
+    id: '1314',
+    contentType: 'news',
+    slug: 'feminicidios-cochabamba-13-igualan-2025',
+    publishedAt: '2026-10-04T03:28:00-04:00',
+    titleEs: 'Los feminicidios en Cochabamba llegan a 13 y ya igualan el total de 2025',
+    titleEn: 'Cochabamba Reaches 13 Femicides and Matches the Whole of 2025',
+    excerptEs:
+      'Cochabamba registra 13 feminicidios en 2026, la misma cifra de todo 2025. El último caso es el de Teodocia C. R., de 57 años; su pareja fue enviada a El Abra con detención preventiva.',
+    excerptEn:
+      'The department has recorded 13 victims up to 2 October, with almost three months still to go. The latest case is that of Teodocia C. R., 57, whose partner was sent to El Abra under preventive detention.',
+    contentEs: `<h1>Los feminicidios en Cochabamba llegan a 13 y ya igualan el total de 2025</h1>` +
+    `<p class="lead"><em>Cochabamba registra 13 feminicidios en lo que va de 2026, la misma cantidad con la que cerró toda la gestión 2025, cuando todavía faltan casi tres meses para concluir el año. El último caso corresponde a Teodocia C. R., de 57 años, víctima de violencia la madrugada del 1 de octubre en Montecillos, Tiquipaya. Su pareja, Pascual Q. A., de 61 años, fue enviado el 2 de octubre al penal de El Abra con detención preventiva.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/feminicidios-cochabamba-13.jpg" alt="Panorámica de la ciudad de Cochabamba" loading="lazy">` +
+    `<figcaption>Imagen de la ciudad de Cochabamba. Foto: Alfredovasquezm / Wikimedia Commons, CC BY-SA 2.5</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>13</strong><span>feminicidios en 2026, hasta el 2 de octubre</span></div>` +
+    `<div class="stat-card"><strong>13</strong><span>feminicidios en toda la gestión 2025</span></div>` +
+    `<div class="stat-card"><strong>10</strong><span>casos registrados hasta el 10 de octubre de 2025</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">El último caso</h2>` +
+    `<p>Pascual Q. A. declaró inicialmente que Teodocia había sufrido una caída y se había golpeado contra una parte de la cama. Sin embargo, la mujer presentaba varias lesiones de violencia y la valoración médico-forense estableció inicialmente como causa de muerte una asfixia mecánica por estrangulación asociada a politraumatismo.</p>` +
+    `<p>Mientras se desarrollaba la audiencia, familiares y amistades de Teodocia permanecieron en los exteriores del juzgado y exigieron justicia antes de trasladar sus restos al cementerio de Tiquipaya.</p>` +
+    `<h2 class="report-chapter">Un año en retrospectiva</h2>` +
+    `<p>El primero de los casos de 2026 ocurrió el 18 de enero en El Abra, Sacaba. Ingrid Liliana Céspedes Condori, de 30 años, murió asfixiada. Su pareja, Omar Mauricio Alvis Rodríguez, de 43 años, se sometió a un procedimiento abreviado y recibió 30 años de prisión. El crimen dejó a dos hijos, de 10 y 6 años. El hombre también es investigado por la desaparición de otra pareja.</p>` +
+    `<p>Los casos registrados durante 2026 son los siguientes:</p>` +
+    `<ul>` +
+    `<li><strong>2 de febrero</strong> — Luana Natalia Téllez Rocha, 30 años, en Cercado. El principal investigado es un hombre de nacionalidad brasileña que permanece prófugo.</li>` +
+    `<li><strong>26 de abril</strong> — Elizabeth Sheila Villa Jiménez, 29 años, en Cercado. El acusado cumple detención preventiva. Dejó seis hijos de entre 11 años y 18 meses.</li>` +
+    `<li><strong>26 de mayo</strong> — Sofía Vásquez Jiménez, 56 años, en Tarata. El principal investigado es su yerno y permanece prófugo.</li>` +
+    `<li><strong>31 de mayo</strong> — Máxima Álvarez Gutiérrez, 27 años. Fue atacada por su expareja mientras realizaba una transmisión en vivo en redes sociales.</li>` +
+    `<li><strong>18 de junio</strong> — Jhoselyn B. Ch. C., 17 años, encontrada sin vida en un lote baldío de Puntiti, en Sacaba.</li>` +
+    `<li><strong>8 de julio</strong> — Key Romina Lobo Guarachi, 26 años, en el Trópico. Murió tras permanecer 15 días internada en terapia intensiva.</li>` +
+    `<li><strong>10 de julio</strong> — María Isabel Tudela Molina, 31 años, en Tamborada B, Cercado.</li>` +
+    `<li><strong>13 de septiembre</strong> — Kelly Nicol Jaita Claure, 26 años, en Sacaba, por un disparo de arma de fuego.</li>` +
+    `<li><strong>18 de septiembre</strong> — Dos asesinatos en un taller mecánico de Quillacollo: Yoselin Quispe Tintaya, de 22 años, y Elizabeth López Velasco, de 24. Dos hombres de 22 años cumplen detención preventiva: uno en El Abra y el otro en San Pablo de Quillacollo.</li>` +
+    `<li><strong>Sin fecha informada</strong> — Paulina Iriarte Escobar, 58 años, en Cliza. El principal responsable fue identificado como su esposo, de 72 años, quien se suicidó después del hecho.</li>` +
+    `</ul>` +
+    `<h2 class="report-chapter">Lo que revela el registro</h2>` +
+    `<p>De los casos registrados en lo que va del año, al menos uno implica a un investigado que se encuentra en el exterior esperando su traslado a Bolivia y al menos dos de los implicados siguen prófugos. Las causas correspondientes permanecen abiertas en la etapa investigativa de la Fiscalía.</p>` +
+    `<p>El dato que más llama la atención es la velocidad de la curva. Cochabamba igualó el total del año pasado en los primeros días de octubre, cuando en 2025 ese mismo total se completó recién al cierre del año. La consecuencia práctica es que las familias de las víctimas y sus hijos han atravesado el año sin que la mayoría de los casos haya llegado a sentencia firme.</p>`,
+    contentEn: `<h1>Cochabamba Reaches 13 Femicides and Matches the Whole of 2025</h1>` +
+    `<p class="lead"><em>Cochabamba has recorded 13 femicides so far in 2026, the same number with which it closed the whole of 2025, when almost three months remained to run. The latest case is that of Teodocia C. R., 57, who was attacked in the early hours of 1 October in Montecillos, Tiquipaya. Her partner, Pascual Q. A., 61, was sent to the El Abra penal on 2 October under preventive detention.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/feminicidios-cochabamba-13.jpg" alt="View of the city of Cochabamba" loading="lazy">` +
+    `<figcaption>Image of the city of Cochabamba. Photo: Alfredovasquezm / Wikimedia Commons, CC BY-SA 2.5</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>13</strong><span>femicides in 2026, up to 2 October</span></div>` +
+    `<div class="stat-card"><strong>13</strong><span>femicides in the whole of 2025</span></div>` +
+    `<div class="stat-card"><strong>10</strong><span>cases recorded up to 10 October 2025</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The latest case</h2>` +
+    `<p>Pascual Q. A. initially stated that Teodocia had fallen and struck part of the bed. However, the woman presented several injuries consistent with violence, and the forensic assessment initially established the cause of death as mechanical asphyxiation by strangulation associated with polytrauma.</p>` +
+    `<p>While the hearing was under way, relatives and friends of Teodocia remained outside the courthouse and demanded justice before taking her remains to the cemetery in Tiquipaya.</p>` +
+    `<h2 class="report-chapter">A year in review</h2>` +
+    `<p>The first of the 2026 cases occurred on 18 January in El Abra, Sacaba. Ingrid Liliana Cespedes Condori, 30, died by asphyxiation. Her partner, Omar Mauricio Alvis Rodriguez, 43, agreed to an abbreviated procedure and received a 30-year prison sentence. The crime left two children, aged 10 and 6. The man is also investigated over the disappearance of another partner.</p>` +
+    `<p>The cases recorded during 2026 are the following:</p>` +
+    `<ul>` +
+    `<li><strong>2 February</strong> — Luana Natalia Tellez Rocha, 30, in Cercado. The main suspect is a Brazilian national who remains a fugitive.</li>` +
+    `<li><strong>26 April</strong> — Elizabeth Sheila Villa Jimenez, 29, in Cercado. The accused is under preventive detention. She left six children aged between 11 years and 18 months.</li>` +
+    `<li><strong>26 May</strong> — Sofia Vasquez Jimenez, 56, in Tarata. The main suspect is her son-in-law and he remains a fugitive.</li>` +
+    `<li><strong>31 May</strong> — Maxima Alvarez Gutierrez, 27. She was attacked by her former partner while broadcasting live on social media.</li>` +
+    `<li><strong>18 June</strong> — Jhoselyn B. Ch. C., 17, found dead in a vacant lot in Puntiti, Sacaba.</li>` +
+    `<li><strong>8 July</strong> — Key Romina Lobo Guarachi, 26, in the Tropico. She died after 15 days in intensive care.</li>` +
+    `<li><strong>10 July</strong> — Maria Isabel Tudela Molina, 31, in Tamborada B, Cercado.</li>` +
+    `<li><strong>13 September</strong> — Kelly Nicol Jaita Claure, 26, in Sacaba, from a gunshot.</li>` +
+    `<li><strong>18 September</strong> — Two killings in a mechanic's workshop in Quillacollo: Yoselin Quispe Tintaya, 22, and Elizabeth Lopez Velasco, 24. Two men aged 22 are under preventive detention, one at El Abra and the other at San Pablo de Quillacollo.</li>` +
+    `<li><strong>No date reported</strong> — Paulina Iriarte Escobar, 58, in Cliza. The person identified as responsible was her husband, 72, who took his own life afterwards.</li>` +
+    `</ul>` +
+    `<h2 class="report-chapter">What the record shows</h2>` +
+    `<p>Of the cases recorded so far this year, at least one involves a suspect who is abroad awaiting transfer to Bolivia, and at least two of those involved remain fugitives. The corresponding cases remain open at the investigation stage.</p>` +
+    `<p>The most striking figure is the speed of the curve. Cochabamba matched the previous year's total in the first days of October, when in 2025 that same total was only completed at the end of the year. The practical consequence is that the families of the victims and their children have spent the year without most of the cases reaching a final conviction.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-04/feminicidios-cochabamba-13.jpg',
+    imageCaption:
+      'Panorámica de la ciudad de Cochabamba. Foto: Alfredovasquezm / Wikimedia Commons, CC BY-SA 2.5',
+    categoryEs: 'Sociedad',
+    categoryEn: 'Society',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Cochabamba, Bolivia',
+    source: 'Opinión Bolivia',
+    region: 'Bolivia',
+    sourceUrl: 'https://www.opinion.com.bo/policial/feminicidios-cochabamba-llegan-13-igualan-total-2025/20261004032852997090.html'
+  },
+{
+    id: '1315',
+    contentType: 'news',
+    slug: 'violencia-adultos-mayores-1061-denuncias-bolivia',
+    publishedAt: '2026-10-04T03:28:00-04:00',
+    titleEs: 'Cada cuatro horas Bolivia registra un caso de violencia contra un adulto mayor',
+    titleEn: 'Bolivia Records a Case of Violence Against an Elderly Person Every Four Hours',
+    excerptEs:
+      'Un análisis del Observatorio de Salud y Cambio Climático sobre datos policiales calcula 1.061 denuncias hasta junio de 2026. El 80,5 % se concentra en La Paz, Santa Cruz y Cochabamba.',
+    excerptEn:
+      'An Observatory of Health and Climate Change analysis of police data counts 1,061 complaints up to June 2026. Some 80.5% is concentrated in La Paz, Santa Cruz and Cochabamba.',
+    contentEs: `<h1>Cada cuatro horas Bolivia registra un caso de violencia contra un adulto mayor</h1>` +
+    `<p class="lead"><em>Un análisis del Observatorio de Salud y Cambio Climático sobre datos de la Policía Boliviana calcula 1.061 denuncias de violencia contra personas mayores de 60 años registradas en el país hasta junio de 2026. El ritmo equivale a casi seis casos por día y a uno cada cuatro horas con cuatro minutos.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/violencia-adultos-mayores-1061-casos.jpg" alt="Retrato de una mujer mayor" loading="lazy">` +
+    `<figcaption>Imagen ilustrativa de una persona mayor. Foto: Ferdinand Reus / Wikimedia Commons, CC BY-SA 2.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>1.061</strong><span>denuncias hasta junio de 2026</span></div>` +
+    `<div class="stat-card"><strong>5,9</strong><span>casos por día, en promedio</span></div>` +
+    `<div class="stat-card"><strong>58 %</strong><span>de tipo físico</span></div>` +
+    `<div class="stat-card"><strong>42 %</strong><span>de tipo psicológico</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">De dónde salen los números</h2>` +
+    `<p>El cálculo no proviene de una encuesta sino del cruzamiento de los registros de denuncias de la Policía Boliviana con los datos del Observatorio de Salud y Cambio Climático, actualizados en junio de este año. Eso significa que la cifra mide lo que se denuncia, no lo que ocurre.</p>` +
+    `<p>La distinción entre violencia física y psicológica se mantiene en todo el territorio: el 58 % de los casos reportados corresponde a violencia física y el 42 % a violencia psicológica, una proporción sostenida en los últimos años.</p>` +
+    `<h2 class="report-chapter">La concentración geográfica</h2>` +
+    `<p>Los tres departamentos con mayor número de denuncias concentran 854 de los 1.061 casos, es decir, el 80,5 % del total nacional:</p>` +
+    `<ul>` +
+    `<li><strong>La Paz</strong> — 346 denuncias: 196 por violencia física y 150 por violencia psicológica.</li>` +
+    `<li><strong>Santa Cruz</strong> — 300 denuncias: 156 físicas y 144 psicológicas.</li>` +
+    `<li><strong>Cochabamba</strong> — 208 denuncias: 131 físicas y 77 psicológicas.</li>` +
+    `</ul>` +
+    `<p>En el resto del país el registro es mucho menor: Tarija 70, Chuquisaca 49, Potosí 47, Beni 20, Oruro 18 y Pando 3.</p>` +
+    `<h2 class="report-chapter">Quiénes son las víctimas</h2>` +
+    `<p>El patrón por edad más claro es que el fenómeno se concentra en la franja de 60 a 69 años, con 617 casos. Las personas de 70 años o más suman 444 registros. En conjunto, prácticamente la totalidad de las 1.061 denuncias involucran a mayores de 60 años, lo que confirma que el fenómeno no es exclusivo de la tercera edad avanzada sino de toda la población jubilatoria.</p>` +
+    `<h2 class="report-chapter">Lo que estos datos no dicen</h2>` +
+    `<p>La principal limitación de este tipo de estimación es la subnotificación. La mayoría de las víctimas son personas dependientes, con movilidad reducida o con deterioro cognitivo, y en muchos casos no llegan a denunciar porque conviven con el agresor o dependen de él. El informe advierte que la diferencia entre el número de denuncias y el número real de hechos suele ser amplia y que no puede estimarse con los datos disponibles.</p>` +
+    `<p>Otro factor es el acceso: la cobertura policial y el registro administrativo identifican de forma desigual según el departamento, de modo que las cifras de Pando, Beni u Oruro pueden reflejar menos el nivel de violencia y más el nivel de registro.</p>` +
+    `<p>Los datos proceden del Informe preparado por el Observatorio de Salud y Cambio Climático y de la Policía Boliviana, y fueron recogidos por Opinión Bolivia.</p>`,
+    contentEn: `<h1>Bolivia Records a Case of Violence Against an Elderly Person Every Four Hours</h1>` +
+    `<p class="lead"><em>An analysis by the Observatory of Health and Climate Change using Bolivian Police data counts 1,061 complaints of violence against people over 60 recorded nationwide up to June 2026. That pace is close to six cases a day, or one every four hours and four minutes.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/violencia-adultos-mayores-1061-casos.jpg" alt="Portrait of an elderly woman" loading="lazy">` +
+    `<figcaption>Illustrative image of an elderly person. Photo: Ferdinand Reus / Wikimedia Commons, CC BY-SA 2.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>1,061</strong><span>complaints up to June 2026</span></div>` +
+    `<div class="stat-card"><strong>5.9</strong><span>cases per day on average</span></div>` +
+    `<div class="stat-card"><strong>58%</strong><span>of a physical nature</span></div>` +
+    `<div class="stat-card"><strong>42%</strong><span>of a psychological nature</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Where the numbers come from</h2>` +
+    `<p>The calculation does not come from a survey. It comes from cross-referencing the complaint records of the Bolivian Police with data from the Observatory of Health and Climate Change, updated in June this year. In other words, the figure measures what is reported, not what happens.</p>` +
+    `<p>The distinction between physical and psychological violence holds across the country: 58% of reported cases involve physical violence and 42% involve psychological violence, a proportion that has remained steady in recent years.</p>` +
+    `<h2 class="report-chapter">Geographic concentration</h2>` +
+    `<p>The three departments with the highest number of complaints account for 854 of the 1,061 cases, or 80.5% of the national total:</p>` +
+    `<ul>` +
+    `<li><strong>La Paz</strong> — 346 complaints: 196 for physical violence and 150 for psychological violence.</li>` +
+    `<li><strong>Santa Cruz</strong> — 300 complaints: 156 physical and 144 psychological.</li>` +
+    `<li><strong>Cochabamba</strong> — 208 complaints: 131 physical and 77 psychological.</li>` +
+    `</ul>` +
+    `<p>Elsewhere in the country the record is far lower: Tarija 70, Chuquisaca 49, Potosi 47, Beni 20, Oruro 18 and Pando 3.</p>` +
+    `<h2 class="report-chapter">Who the victims are</h2>` +
+    `<p>The clearest pattern by age is that the phenomenon concentrates in the 60 to 69 bracket, with 617 cases. People aged 70 or over add 444 records. Taken together, practically all of the 1,061 complaints involve people over 60, which confirms that the phenomenon is not exclusive to the oldest age group but spans the whole retired population.</p>` +
+    `<h2 class="report-chapter">What these figures do not show</h2>` +
+    `<p>The main limitation of this kind of estimate is underreporting. Most victims are dependent people with reduced mobility or cognitive decline, and in many cases they never file a complaint because they live with the abuser or depend on them. The report warns that the gap between the number of complaints and the actual number of events is usually wide, and that it cannot be quantified with the available data.</p>` +
+    `<p>Another factor is access. Police coverage and administrative recording are uneven across departments, so the figures for Pando, Beni or Oruro may reflect less the level of violence and more the level of recording.</p>` +
+    `<p>The data come from a report prepared by the Observatory of Health and Climate Change and the Bolivian Police, and were collected by Opinion Bolivia.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-04/violencia-adultos-mayores-1061-casos.jpg',
+    imageCaption:
+      'Imagen ilustrativa de una persona mayor. Foto: Ferdinand Reus / Wikimedia Commons, CC BY-SA 2.0',
+    categoryEs: 'Sociedad',
+    categoryEn: 'Society',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Bolivia',
+    source: 'Opinión Bolivia',
+    region: 'Bolivia',
+    sourceUrl:
+      'https://www.opinion.com.bo/policial/denuncia-cada-cuatro-horas-bolivia-registra-1061-casos-violencia-personas-adultas-mayores/20261004032825997092.html'
+  },
+{
+    id: '1316',
+    contentType: 'news',
+    slug: 'veterinaria-secuestrada-encontrada-con-vida-montero',
+    publishedAt: '2026-10-04T12:25:00-04:00',
+    titleEs: 'Encuentran con vida a la veterinaria secuestrada en Montero',
+    titleEn: 'Veterinarian Found Alive After Days of Terror in Montero',
+    excerptEs:
+      'Cuatro hombres armados y encapuchados secuestraron a una veterinaria en Montero y exigieron 500.000 dólares. Fue encontrada con vida tras varios días en cautiverio.',
+    excerptEn:
+      'Four armed and masked men kidnapped a veterinarian in Montero and demanded 500,000 dollars. She was found alive after several days in captivity.',
+    contentEs: `<h1>Encuentran con vida a la veterinaria secuestrada en Montero</h1>` +
+    `<p class="lead"><em>La veterinaria Vania R. F. fue encontrada con vida la madrugada del domingo en una plaza pública del municipio de General Saavedra, en Santa Cruz, tras varios días de secuestro. Cuatro hombres armados y encapuchados la interceptaron y exigieron 500.000 dólares para su rescate.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/veterinaria-secuestrada-montero.jpg" alt="Veterinaria atendiendo a un perro" loading="lazy">` +
+    `<figcaption>Imagen ilustrativa de una atención veterinaria. Foto: U.S. Army / dominio público</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>4</strong><span>hombres armados y encapuchados</span></div>` +
+    `<div class="stat-card"><strong>USD 500.000</strong><span>rescate exigido</span></div>` +
+    `<div class="stat-card"><strong>USD 20.000</strong><span>recaudado por la familia</span></div>` +
+    `<div class="stat-card"><strong>0</strong><span>detenidos confirmados</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Cómo ocurrió el secuestro</h2>` +
+    `<p>La profesional fue interceptada la noche del 1 de octubre en el barrio 24 de Noviembre, en el municipio de Montero. Los hombres armados y encapuchados la trasladaron a un lugar desconocido.</p>` +
+    `<p>La familia recibió varias llamadas y mensajes en los que los captores exigían el pago de 500.000 dólares. Las amenazas constantes tensaron la negociación durante varios días, mientras la familia intentaba reunir el dinero.</p>` +
+    `<h2 class="report-chapter">El rescate</h2>` +
+    `<p>Según el reporte, la veterinaria fue localizada con vida la madrugada del domingo en una plaza pública del municipio de General Saavedra. La liberación se produjo tras la gestión de los familiares.</p>` +
+    `<p>Durante el secuestro se difundieron audios en los que los captores conversaban con el esposo de la víctima. En esas comunicaciones amenazaban con hacer daño a la mujer si el dinero no era entregado.</p>` +
+    `<h2 class="report-chapter">Lo que sigue</h2>` +
+    `<p>Hasta el momento de la publicación no se confirma la detención de los responsables. La investigación del caso sigue a cargo de la Fiscalía y de la Policía de Santa Cruz.</p>` +
+    `<p>La familia publicó un pedido de ayuda para reunir el rescate y agradeció la solidaridad recibida durante los días de espera. El caso recuerda el riesgo que enfrentan los profesionales de la salud que atienden a domicilio en zonas urbanas.</p>` +
+    `<p>Con información de Opinión Bolivia y reportes policiales de Santa Cruz.</p>`,
+    contentEn: `<h1>Veterinarian Found Alive After Days of Terror in Montero</h1>` +
+    `<p class="lead"><em>Veterinarian Vania R. F. was found alive in the early hours of Sunday in a public square in the municipality of General Saavedra, Santa Cruz, after several days in captivity. Four armed and masked men intercepted her and demanded 500,000 dollars for her release.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/veterinaria-secuestrada-montero.jpg" alt="A veterinarian treating a dog" loading="lazy">` +
+    `<figcaption>Illustrative image of veterinary care. Photo: U.S. Army / public domain</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>4</strong><span>armed and masked men</span></div>` +
+    `<div class="stat-card"><strong>USD 500,000</strong><span>ransom demanded</span></div>` +
+    `<div class="stat-card"><strong>USD 20,000</strong><span>raised by the family</span></div>` +
+    `<div class="stat-card"><strong>0</strong><span>confirmed arrests</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">How the kidnapping happened</h2>` +
+    `<p>The professional was intercepted on the night of 1 October in the 24 de Noviembre neighbourhood, in the municipality of Montero. The armed and masked men took her to an unknown location.</p>` +
+    `<p>The family received several calls and messages in which the captors demanded 500,000 dollars. The constant threats put the negotiation under strain for several days while the family tried to raise the money.</p>` +
+    `<h2 class="report-chapter">The rescue</h2>` +
+    `<p>According to the report, the veterinarian was located alive in the early hours of Sunday in a public square in the municipality of General Saavedra. Her release followed efforts by the family.</p>` +
+    `<p>During the kidnapping, audio recordings were circulated in which the captors spoke with the victim’s husband. In those communications they threatened to harm the woman if the money was not handed over.</p>` +
+    `<h2 class="report-chapter">What comes next</h2>` +
+    `<p>As of publication, no arrest of those responsible has been confirmed. The investigation is handled by the Attorney General’s Office and the Santa Cruz Police.</p>` +
+    `<p>The family issued a public appeal to raise the ransom and thanked the solidarity received during the days of waiting. The case is a reminder of the risks faced by health professionals who carry out home visits in urban areas.</p>` +
+    `<p>With information from Opinion Bolivia and Santa Cruz police reports.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-04/veterinaria-secuestrada-montero.jpg',
+    imageCaption:
+      'Imagen ilustrativa de una atención veterinaria. Foto: U.S. Army / dominio público',
+    categoryEs: 'Seguridad',
+    categoryEn: 'Security',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Montero, Santa Cruz, Bolivia',
+    source: 'Opinión Bolivia',
+    region: 'Bolivia',
+    sourceUrl:
+      'https://www.opinion.com.bo/policial/dias-terror-encuentran-vida-veterinaria-secuestrada-montero/20261004122542997126.html'
+  },
+{
+    id: '1317',
+    contentType: 'news',
+    slug: 'brasil-vota-encuesta-lula-flavio-bolsonaro',
+    publishedAt: '2026-10-04T10:26:00-04:00',
+    titleEs:
+      'Brasil vota hoy y los últimos sondeos reducen a tres puntos la distancia entre Lula y Flávio Bolsonaro',
+    titleEn: 'Brazil Votes Today and the Latest Polls Narrow the Gap to Three Points',
+    excerptEs:
+      'Datafolha mide 45 % para Lula y 42 % para Flávio Bolsonaro. El balotaje, previsto para el 25 de octubre, también se proyecta como muy parejo.',
+    excerptEn:
+      'Datafolha puts Lula at 45% and Flavio Bolsonaro at 42%. The runoff, expected on 25 October, is also projected to be extremely tight.',
+    contentEs: `<h1>Brasil vota hoy y los últimos sondeos reducen a tres puntos la distancia entre Lula y Flávio Bolsonaro</h1>` +
+    `<p class="lead"><em>Brasil celebra este domingo la primera ronda de sus elecciones generales con unos 160 millones de votantes habilitados. Las últimas encuestas acortaron la diferencia entre el candidato del Partido de los Trabajadores y el hijo del presidente Donald Bolsonaro: el instituto Datafolha registró el sábado 45 % contra 42 %.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/brasil-votacion-lula-bolsonaro.jpg" alt="Luiz Inácio Lula da Silva en un acto oficial" loading="lazy">` +
+    `<figcaption>Imagen de referencia de Luiz Inácio Lula da Silva. Foto: The White House / dominio público</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>45 %</strong><span>Lula, según Datafolha</span></div>` +
+    `<div class="stat-card"><strong>42 %</strong><span>Flávio Bolsonaro, según Datafolha</span></div>` +
+    `<div class="stat-card"><strong>3</strong><span>puntos de diferencia</span></div>` +
+    `<div class="stat-card"><strong>25 oct.</strong><span>fecha prevista del balotaje</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Los números de la última semana</h2>` +
+    `<p>El instituto Datafolha publicó el sábado una medición en la que Lula aparezca con 45 % de intención de voto y Flávio Bolsonaro con 42 %. Dos días antes la brecha era de cinco puntos, de modo que la ventaja se redujo a tres en apenas 48 horas.</p>` +
+    `<p>El segundo instituto medido, PoderData, también cerró el sábado con una distancia mínima: 45 % frente a 43 % en la primera ronda, con una diferencia de apenas dos puntos.</p>` +
+    `<h2 class="report-chapter">El cierre de las campañas</h2>` +
+    `<p>Las campañas cerraron la víspera con actos en el interior del estado de San Paulo. Lula tuvo su acto final en la Avenida Paulista, la avenida más concurrida de la ciudad. Allí afirmó que de un lado está la democracia y del otro la barbarie.</p>` +
+    `<p>Flávio Bolsonaro, en cambio, realizó un desfile en motocicleta por las calles de Santa Bárbara d’Oeste, en la región de Sorocaba. La imagen buscó acercar el candidato a un electorado joven y periférico.</p>` +
+    `<h2 class="report-chapter">Qué dicen las encuestas sobre el balotaje</h2>` +
+    `<p>Las proyecciones para una eventual segunda vuelta son igualmente estrechas. Datafolha estima un balotaje de 47 % para Lula frente a 46 % de Flávio Bolsonaro, es decir, una ventaja de apenas un punto. PoderData, en cambio, proyecta un empate técnico de 45 % para ambos.</p>` +
+    `<p>La implicancia práctica es que la elección de hoy podría quedar definida por muy pocos votos, o incluso no resolverse en la primera ronda.</p>` +
+    `<h2 class="report-chapter">Qué está en juego</h2>` +
+    `<p>Flávio Bolsonaro, de 31 años, hijo del presidente Jair Bolsonaro, disputa su primera elección presidencial. No debe confundirse con su padre, quien cumple pena privativa de libertad en Brasilia.</p>` +
+    `<p>Lula, por su parte, busca un cuarto mandato no consecutivo. Fue elegido en 2002 y 2006, perdió en 2018 y gobierna desde 2023.</p>` +
+    `<p>Con información de Opinión Bolivia, Datafolha, PoderData y la prensa brasileña.</p>`,
+    contentEn: `<h1>Brazil Votes Today and the Latest Polls Narrow the Gap to Three Points</h1>` +
+    `<p class="lead"><em>Brazil holds the first round of its general election on Sunday with around 160 million eligible voters. The latest polls have narrowed the gap between the Workers’ Party candidate and the son of President Donald Bolsonaro: Datafolha put the result at 45% against 42% on Saturday.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/brasil-votacion-lula-bolsonaro.jpg" alt="Luiz Inacio Lula da Silva at an official event" loading="lazy">` +
+    `<figcaption>Reference image of Luiz Inacio Lula da Silva. Photo: The White House / public domain</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>45%</strong><span>Lula, according to Datafolha</span></div>` +
+    `<div class="stat-card"><strong>42%</strong><span>Flavio Bolsonaro, according to Datafolha</span></div>` +
+    `<div class="stat-card"><strong>3</strong><span>points of difference</span></div>` +
+    `<div class="stat-card"><strong>Oct 25</strong><span>expected date of the runoff</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The final week of numbers</h2>` +
+    `<p>Datafolha published a poll on Saturday in which Lula appears with 45% of voting intention and Flavio Bolsonaro with 42%. Two days earlier the gap was five points, so the lead was cut to three in just 48 hours.</p>` +
+    `<p>The second pollster measured, PoderData, also closed Saturday with the narrowest margin: 45% against 43% in the first round, a difference of just two points.</p>` +
+    `<h2 class="report-chapter">The campaigns close</h2>` +
+    `<p>The campaigns wrapped up on Saturday with events in the interior of the state of São Paulo. Lula held his final rally on Avenida Paulista, the city’s most crowded avenue. There he said that on one side there is democracy and on the other barbarism.</p>` +
+    `<p>Flavio Bolsonaro, by contrast, held a motorcycle parade through the streets of Santa Barbara d’Oeste, in the Sorocaba region. The image was aimed at bringing the candidate closer to a younger, peripheral electorate.</p>` +
+    `<h2 class="report-chapter">What the polls say about a runoff</h2>` +
+    `<p>Projections for a possible second round are equally tight. Datafolha estimates a runoff of 47% for Lula against 46% for Flavio Bolsonaro, a lead of just one point. PoderData, in turn, projects a 45% technical tie for both.</p>` +
+    `<p>The practical implication is that today’s election could be decided by very few votes, or may not even be resolved in the first round.</p>` +
+    `<h2 class="report-chapter">What is at stake</h2>` +
+    `<p>Flavio Bolsonaro, 31, son of President Jair Bolsonaro, is contesting his first presidential election. He should not be confused with his father, who is serving a prison sentence in Brasilia.</p>` +
+    `<p>Lula, for his part, is seeking a fourth non-consecutive term. He was first elected in 2002 and 2006, lost in 2018, and has governed since 2023.</p>` +
+    `<p>With information from Opinion Bolivia, Datafolha, PoderData and the Brazilian press.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-04/brasil-votacion-lula-bolsonaro.jpg',
+    imageCaption:
+      'Imagen de referencia de Luiz Inácio Lula da Silva. Foto: The White House / dominio público',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Brasilia, Brazil',
+    source: 'Opinión Bolivia',
+    region: 'International',
+    sourceUrl:
+      'https://www.opinion.com.bo/mundo/brasil-vota-domingo-ultimos-sondeos-reducen-minimo-diferencia-entre-lula-bolsonaro/20261004102603997117.html'
+  },
+{
+    id: '1318',
+    contentType: 'news',
+    slug: 'eeuu-desestima-inmunidad-maduro',
+    publishedAt: '2026-10-04T10:16:00-04:00',
+    titleEs: 'EE. UU. desestima la inmunidad de Maduro al considerarlo solo un ciudadano',
+    titleEn: 'US Dismisses Maduro’s Immunity Claim and Treats Him as a Plain Citizen',
+    excerptEs:
+      'La Cancillería estadounidense rechaza la inmunidad de Maduro y de Cilia Flores porque no los reconoce como jefe de Estado y primera dama. Ambos siguen bajo juicio en Nueva York.',
+    excerptEn:
+      'The State Department rejects the immunity claimed by Maduro and Cilia Flores because it does not recognise them as head of state and first lady. Both remain on trial in New York.',
+    contentEs: `<h1>EE. UU. desestima la inmunidad de Maduro al considerarlo solo un ciudadano</h1>` +
+    `<p class="lead"><em>El Departamento de Estado de Estados Unidos rechazó la apelación de inmunidad presentada por Nicolás Maduro y por Cilia Flores. Según Washington, el gobierno no reconoce a ninguno de los dos como jefe de Estado y primera dama, por lo que no corresponde aplicarles la cláusula de inmunidad que corresponde a los líderes de Estado.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/eeuu-inmunidad-maduro.jpg" alt="Retrato de Nicolás Maduro" loading="lazy">` +
+    `<figcaption>Imagen de referencia de Nicolás Maduro. Foto: Cancillería del Ecuador / CC BY-SA 2.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>2019</strong><span>último año en que Washington reconoció a Maduro</span></div>` +
+    `<div class="stat-card"><strong>2020</strong><span>año de la acusación formal en Nueva York</span></div>` +
+    `<div class="stat-card"><strong>Nueva York</strong><span>distrito donde se sigue el caso</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">El argumento de Washington</h2>` +
+    `<p>Según el informe citado, la Cancillería estadounidense sostuvo que no corresponde aplicar la cláusula de inmunidad de jefe de Estado porque el gobierno no reconoce a Maduro como tal. Esa postura se mantiene desde 2019, cuando Estados Unidos dejó de reconocer al gobierno chavista tras las elecciones de ese año.</p>` +
+    `<p>La misma decisión alcanza a Cilia Flores, que es investigada por la misma causa. Según el documento, el Departamento de Estado tampoco la reconoce como primera dama.</p>` +
+    `<h2 class="report-chapter">El proceso en Nueva York</h2>` +
+    `<p>Maduro y Cilia Flores soportan un juicio en el Distrito Sur de Nueva York, a cargo del juez Alvin Hellerstein. Los fiscales los acusan de narcoterrorismo, tráfico de drogas y tenencia de armas.</p>` +
+    `<p>La acusación se presentó originalmente en 2020. Desde entonces el proceso ha pasado por distintas fases y resoluciones. En su primera audiencia, Maduro declaró ser inocente de los cargos.</p>` +
+    `<h2 class="report-chapter">El origen del caso</h2>` +
+    `<p>El estallido processal se produjo tras la detención de Maduro en Miraflores el 3 de enero de 2026, durante una operación militar llevada a cabo por Washington. Según el reporte citado, la operación dejó más de cien personas muertas.</p>` +
+    `<p>Desde entonces Maduro permanece detenido en el Centro de Detención de Manhattan. Delcy Rodríguez ha ejercido desde la detención las funciones de la presidencia.</p>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>La decisión no se pronuncia sobre el mérito del caso, sino sobre una cuestión preliminar: quién puede reclamar las inmunidades del cargo. Si Washington no reconoce a Maduro como jefe de Estado, la defensa pierde el argumento jurídico más fuerte para evitar el juicio.</p>` +
+    `<p>Con información de Europa Press, ERBOL y Opinión Bolivia.</p>`,
+    contentEn: `<h1>US Dismisses Maduro’s Immunity Claim and Treats Him as a Plain Citizen</h1>` +
+    `<p class="lead"><em>The US State Department rejected the immunity appeal filed by Nicolas Maduro and by Cilia Flores. According to Washington, the government does not recognise either of them as head of state and first lady, so the immunity clause reserved for heads of state does not apply to them.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-04/eeuu-inmunidad-maduro.jpg" alt="Portrait of Nicolas Maduro" loading="lazy">` +
+    `<figcaption>Reference image of Nicolas Maduro. Photo: Ecuador Foreign Ministry / CC BY-SA 2.0</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><strong>2019</strong><span>last year Washington recognised Maduro</span></div>` +
+    `<div class="stat-card"><strong>2020</strong><span>year of the formal charges in New York</span></div>` +
+    `<div class="stat-card"><strong>New York</strong><span>district where the case is heard</span></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The argument from Washington</h2>` +
+    `<p>According to the report, the State Department argued that the head-of-state immunity clause does not apply because the government does not recognise Maduro as such. That position has held since 2019, when the United States stopped recognising the Chavista government after that year’s elections.</p>` +
+    `<p>The same decision covers Cilia Flores, who is being investigated in the same case. According to the document, the State Department does not recognise her as first lady either.</p>` +
+    `<h2 class="report-chapter">The case in New York</h2>` +
+    `<p>Maduro and Cilia Flores are standing trial in the Southern District of New York, before Judge Alvin Hellerstein. Prosecutors accuse them of narco-terrorism, cocaine trafficking and weapons offences.</p>` +
+    `<p>The charges were originally filed in 2020. Since then the case has gone through different stages and rulings. At his first hearing, Maduro declared himself innocent of the charges.</p>` +
+    `<h2 class="report-chapter">How the case escalated</h2>` +
+    `<p>The case escalated after Maduro was detained at Miraflores on 3 January 2026, during a military operation carried out by Washington. According to the cited report, the operation left more than a hundred people dead.</p>` +
+    `<p>Maduro has since remained detained at the Metropolitan Detention Center in Manhattan. Delcy Rodriguez has exercised the functions of the presidency since his detention.</p>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>The decision does not rule on the merits of the case. It settles a preliminary question: who can claim the immunities attached to an office. If Washington does not recognise Maduro as head of state, the defence loses the strongest legal argument available to it to avoid the trial.</p>` +
+    `<p>With information from Europa Press, ERBOL and Opinion Bolivia.</p>`,
+    date: '2026-10-04',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-04/eeuu-inmunidad-maduro.jpg',
+    imageCaption:
+      'Imagen de referencia de Nicolás Maduro. Foto: Cancillería del Ecuador / CC BY-SA 2.0',
+    categoryEs: 'Mundo',
+    categoryEn: 'World',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Washington, United States',
+    source: 'Europa Press',
+    region: 'International',
+    sourceUrl:
+      'https://www.opinion.com.bo/mundo/eeuu-desestima-inmunidad-maduro-porque-considera-presidente-venezuela/20261004101608997115.html'
+  },
 
 ];
 
