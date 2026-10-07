@@ -1,6 +1,10 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/reportajes/messi-final-mundial-2026.jpg": {
+    "width": 1920,
+    "height": 1280
+  },
   "/images/news/2026-10-04/mariaca-declaracion-juez-cantumarca.jpg": {
     "width": 1920,
     "height": 1440
