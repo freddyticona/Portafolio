@@ -2,15 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/reportaje-especial-despedida-messi-3-0-benin-monumental</loc>
+    <loc>https://freddydev.net/noticias/ucrania-misil-ruso-pryluky-22-muertos-cinco-ninos</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T23:15:00-03:00</news:publication_date>
-      <news:title>Reportaje especial | La despedida de Messi: 3-0 ante Benín, un gol, dos asistencias y 85.000 en el Monumental</news:title>
-      <news:keywords>Especial</news:keywords>
+      <news:publication_date>2026-10-08T14:00:00-04:00</news:publication_date>
+      <news:title>Ataque ruso deja al menos 22 muertos, entre ellos cinco niños, en la ciudad ucraniana de Pryluky</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/huties-atacan-aeropuertos-arabia-saudita-petrolero-catar</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T10:00:00-04:00</news:publication_date>
+      <news:title>Hutíes atacan dos aeropuertos de Arabia Saudita y un petrolero es alcanzado al norte de Catar</news:title>
+      <news:keywords>Oriente Medio</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/huracan-isaias-primer-huracan-atlantico-temporada</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T09:30:00-04:00</news:publication_date>
+      <news:title>Isaias se convierte en el primer huracán del Atlántico de la temporada y apunta a Luisiana y Florida</news:title>
+      <news:keywords>Clima</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/eeuu-imputa-maduro-cilia-flores-tortura</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T12:00:00-04:00</news:publication_date>
+      <news:title>Estados Unidos imputa a Maduro y a Cilia Flores por conspiración para cometer tortura</news:title>
+      <news:keywords>Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/brasil-orden-captura-eduardo-bolsonaro-balotaje</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T16:59:00-03:00</news:publication_date>
+      <news:title>Juez brasileño ordena la captura de Eduardo Bolsonaro a tres semanas del balotaje</news:title>
+      <news:keywords>Política Internacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/etiopia-acusa-eritrea-invasion-total-tigray</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T18:00:00-04:00</news:publication_date>
+      <news:title>Etiopía acusa a Eritrea de “invasión total” de Tigray y advierte que se defenderá</news:title>
+      <news:keywords>Conflictos</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/espana-muere-maricarmen-desalojo-protestas-vivienda</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T11:00:00+02:00</news:publication_date>
+      <news:title>Muere Maricarmen, la mujer de 87 años cuyo desalojo desató protestas por la vivienda en España</news:title>
+      <news:keywords>Europa</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/rusia-niega-segundo-caso-peste-irkutsk-oms</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T11:30:00+03:00</news:publication_date>
+      <news:title>La OMS exige respuestas a Rusia por el caso de peste neumónica en un laboratorio de Siberia</news:title>
+      <news:keywords>Salud</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/paraguay-desmantela-red-precursores-marset-bolivia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T09:00:00-04:00</news:publication_date>
+      <news:title>Paraguay desmantela la red de precursores químicos que abastecía a la organización de Marset en Bolivia</news:title>
+      <news:keywords>Seguridad</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/ia-openai-anthropic-preparan-reaccion-evento-catastrofico</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T19:00:00-04:00</news:publication_date>
+      <news:title>Empresas de IA se preparan en privado para la reacción pública tras un incidente catastrófico</news:title>
+      <news:keywords>Tecnología</news:keywords>
     </news:news>
   </url>
 </urlset>
