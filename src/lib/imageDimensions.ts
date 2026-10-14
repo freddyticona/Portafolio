@@ -1,6 +1,46 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-10-13/papa-leon-xiv-gemelli.jpg": {
+    "width": 1400,
+    "height": 788
+  },
+  "/images/news/2026-10-13/yemen-huties-saudi.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-13/yibuti-naufragio-migrantes.jpg": {
+    "width": 1600,
+    "height": 2400
+  },
+  "/images/news/2026-10-13/iran-petrolero-ormuz.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-13/ucrania-bulgaria-drones.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-13/omar-redada-dhs.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-13/musk-donante-republicano.jpg": {
+    "width": 1920,
+    "height": 1440
+  },
+  "/images/news/2026-10-13/israel-redada-ong-ramallah.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-13/corea-incheon-apunalado.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/news/2026-10-13/bolivia-evo-marcha-la-paz.jpg": {
+    "width": 1300,
+    "height": 1053
+  },
   "/images/news/2026-10-08/ucrania-pryluky-edificio.jpg": {
     "width": 1600,
     "height": 1067

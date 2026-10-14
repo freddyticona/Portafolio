@@ -30820,6 +30820,777 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     region: 'US',
     sourceUrl: 'https://www.thenews.com.pk/latest/1419313-openai-anthropic-prepare-for-public-backlash-after-catastrophic-ai-event-report'
   },
+{
+    id: '1330',
+    contentType: 'news',
+    slug: 'papa-leon-xiv-cancer-pulmon-cirugia-gemelli',
+    publishedAt: '2026-10-13T10:00:00-04:00',
+    titleEs: 'El papa León XIV tiene cáncer de pulmón: le extirpan el lóbulo inferior del pulmón derecho',
+    titleEn: 'Pope Leo XIV has lung cancer: lower lobe of his right lung removed',
+    excerptEs:
+      'El Vaticano confirmó que el papa León XIV, de 71 años, tiene un adenocarcinoma de pulmón. La cirugía para extirpar el lóbulo inferior del pulmón derecho fue exitosa y sin complicaciones.',
+    excerptEn:
+      'The Vatican confirmed that 71-year-old Pope Leo XIV has lung adenocarcinoma. The surgery to remove the lower lobe of his right lung was successful and without complications.',
+    contentEs: `<h1>El papa León XIV tiene cáncer de pulmón: le extirpan el lóbulo inferior del pulmón derecho</h1>` +
+    `<p class="lead"><em>El Vaticano anunció este martes 13 de octubre que el papa León XIV, de 71 años, tiene un adenocarcinoma de pulmón. El pontífice fue operado en la policlínica Agostino Gemelli, en Roma, donde se le extirpó el lóbulo inferior del pulmón derecho. La operación fue exitosa, sin complicaciones, y su recuperación está prevista en alrededor de una semana.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/papa-leon-xiv-gemelli.jpg" alt="El papa León XIV llega a la policlínica Agostino Gemelli en Roma" loading="lazy">` +
+    `<figcaption>El papa León XIV llega a la policlínica Agostino Gemelli, en Roma, el martes 13 de octubre de 2026. Foto: AP / Alessandra Tarantino</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">71 años</div><div class="stat-label">Edad del pontífice</div></div>` +
+    `<div class="stat-card"><div class="stat-value">90 minutos</div><div class="stat-label">Duración de la cirugía</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1 semana</div><div class="stat-label">Recuperación posoperatoria prevista</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Lo que confirmó el Vaticano</h2>` +
+    `<p>El parte médico difundido por la Santa Sede precisó que la intervención se realizó con una técnica videoasistida y que un examen histológico intraoperatorio confirmó el diagnóstico que ya se sospechaba antes de la cirugía. El texto oficial señaló que la resección fue radical y que no se registraron complicaciones.</p>` +
+    `<p>Los médicos no ofrecieron por ahora mayores detalles sobre el estadio del tumor ni sobre tratamientos posteriores. La operación se prolongó durante aproximadamente hora y media, aunque el pontífice permaneció en el quirófano alrededor de tres horas, según los reportes.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“La examinación histológica intraoperatoria confirmó el diagnóstico de adenocarcinoma de pulmón, como se sospechaba por los exámenes preoperatorios.”` +
+    `<cite>Boletín médico de la Santa Sede, 13 de octubre de 2026</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">El anuncio del domingo</h2>` +
+    `<p>El propio León XIV había adelantado el cuadro dos días antes. Tras el rezo del Ángelus del domingo 11 de octubre, contó a los fieles que unos exámenes recientes habían detectado un nódulo “localizado” en el pulmón, “en una etapa muy temprana y bien delimitado”. Dijo que los médicos le recomendaron operarse y que él seguiría ese consejo.</p>` +
+    `<p>La Santa Sede había informado entonces que la intervención estaba prevista para “los primeros días de esta semana” y que el tiempo estimado de recuperación rondaría la semana.</p>` +
+    `<h2 class="report-chapter">Una agenda internacional en suspenso</h2>` +
+    `<p>El diagnóstico llega en un momento de intensa actividad diplomática para el Vaticano. El pontífice tenía previstos viajes a Uruguay, Argentina y Perú para el próximo mes, según reportes de prensa, además de su agenda habitual de audiencias y celebraciones.</p>` +
+    `<p>Por el momento, el Vaticano no anunció cambios en esos planes. La evolución de su recuperación y los resultados del análisis definitivo del tejido extirpado marcarán los siguientes pasos.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La información procede del parte médico oficial de la Santa Sede y de reportes de agencias. El pronóstico posterior dependerá de los estudios anatomopatológicos y del criterio del equipo médico, que hasta el cierre de esta edición no había detallado el alcance de la enfermedad.</p>` +
+    `<p>Con información del <a href="https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-undergo-surgery-remove-nodule-lung.html" target="_blank" rel="noopener noreferrer">Vaticano</a> y de <a href="https://www.npr.org/2026/10/13/g-s1-147968/pope-leo-has-lung-cancer-vatican-announces" target="_blank" rel="noopener noreferrer">NPR / AP</a>.</p>`,
+    contentEn: `<h1>Pope Leo XIV has lung cancer: lower lobe of his right lung removed</h1>` +
+    `<p class="lead"><em>The Vatican announced on Tuesday, October 13, that 71-year-old Pope Leo XIV has lung adenocarcinoma. The pontiff underwent surgery at the Agostino Gemelli Polyclinic in Rome, where the lower lobe of his right lung was removed. The operation was successful, with no complications, and his recovery is expected to take about a week.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/papa-leon-xiv-gemelli.jpg" alt="Pope Leo XIV arriving at the Agostino Gemelli Polyclinic in Rome" loading="lazy">` +
+    `<figcaption>Pope Leo XIV arrives at the Agostino Gemelli Polyclinic in Rome on Tuesday, October 13, 2026. Photo: AP / Alessandra Tarantino</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">71 years</div><div class="stat-label">Age of the pontiff</div></div>` +
+    `<div class="stat-card"><div class="stat-value">90 minutes</div><div class="stat-label">Length of the surgery</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1 week</div><div class="stat-label">Expected post-operative recovery</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">What the Vatican confirmed</h2>` +
+    `<p>The medical bulletin released by the Holy See said the procedure was performed with a video-assisted technique and that an intraoperative histological examination confirmed the diagnosis already suspected before surgery. The official text said the resection was radical and that there were no complications.</p>` +
+    `<p>Doctors did not immediately provide further details on the stage of the tumor or on follow-up treatments. The operation lasted about an hour and a half, although the pontiff was in the operating room for around three hours, according to the reports.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“The intraoperative histological examination confirmed the diagnosis of lung adenocarcinoma, as suspected from the preoperative examinations.”` +
+    `<cite>Medical bulletin of the Holy See, October 13, 2026</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Sunday’s announcement</h2>` +
+    `<p>Leo XIV himself had disclosed the condition two days earlier. After the Angelus prayer on Sunday, October 11, he told the faithful that recent medical tests had found a “localized” nodule in his lung, “detected at a very early stage and well-defined.” He said doctors had recommended surgery and that he would follow their advice.</p>` +
+    `<p>The Holy See had then said the operation was scheduled for “the first days of this week” and that the estimated recovery time would be about a week.</p>` +
+    `<h2 class="report-chapter">An international agenda on hold</h2>` +
+    `<p>The diagnosis comes at a time of intense diplomatic activity for the Vatican. The pontiff had planned trips to Uruguay, Argentina and Peru next month, according to press reports, in addition to his usual schedule of audiences and celebrations.</p>` +
+    `<p>For now, the Vatican has not announced changes to those plans. The course of his recovery and the final analysis of the removed tissue will shape the next steps.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The information comes from the Holy See’s official medical bulletin and agency reports. The subsequent prognosis will depend on the pathology studies and the medical team’s judgment, which as of publication had not detailed the extent of the disease.</p>` +
+    `<p>With information from <a href="https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-undergo-surgery-remove-nodule-lung.html" target="_blank" rel="noopener noreferrer">Vatican News</a> and <a href="https://www.npr.org/2026/10/13/g-s1-147968/pope-leo-has-lung-cancer-vatican-announces" target="_blank" rel="noopener noreferrer">NPR / AP</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/papa-leon-xiv-gemelli.jpg',
+    imageCaption:
+      'El papa León XIV llega a la policlínica Agostino Gemelli, en Roma, el 13 de octubre de 2026. Foto: AP / Alessandra Tarantino',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: true,
+    breaking: true,
+    views: 1,
+    location: 'Roma, Italia',
+    source: 'Vaticano / AP vía NPR',
+    region: 'International',
+    sourceUrl: 'https://www.npr.org/2026/10/13/g-s1-147968/pope-leo-has-lung-cancer-vatican-announces'
+  },
+{
+    id: '1331',
+    contentType: 'news',
+    slug: 'yemen-guerra-civil-huties-arabia-saudita-tregua',
+    publishedAt: '2026-10-13T08:30:00-04:00',
+    titleEs: 'Yemen vuelve a la “guerra civil a gran escala”: hutíes y Arabia Saudita se intercambian ataques',
+    titleEn: 'Yemen plunges back into “full-scale civil war” as Houthis and Saudi Arabia trade strikes',
+    excerptEs:
+      'Los hutíes advirtieron a Estados Unidos con una respuesta “rápida y dolorosa” si se suma a la ofensiva saudí. Ataques recientes dejaron 18 muertos en el aeropuerto de Riad y más de 300 heridos.',
+    excerptEn:
+      'The Houthis warned the United States of a “swift and painful” response if it joins the Saudi offensive. Recent attacks killed 18 people at Riyadh’s airport and wounded more than 300.',
+    contentEs: `<h1>Yemen vuelve a la “guerra civil a gran escala”: hutíes y Arabia Saudita se intercambian ataques</h1>` +
+    `<p class="lead"><em>Yemen parece haber vuelto a una “guerra civil a gran escala”. Un líder del movimiento hutí advirtió este lunes que Estados Unidos enfrentará una respuesta “rápida y dolorosa” si se suma a los ataques de Arabia Saudita contra el territorio controlado por los rebeldes. La advertencia llegó después de que el presidente Donald Trump dijera que evalúa unirse a la contraofensiva liderada por Riad para expulsar a los hutíes de la costa del mar Rojo y del estratégico estrecho de Bab al-Mandab.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/yemen-huties-saudi.jpg" alt="Fuerzas y equipos militares en Yemen" loading="lazy">` +
+    `<figcaption>La escalada de ataques cruzados entre los hutíes y la coalición saudí reactivó el conflicto. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">18 muertos</div><div class="stat-label">En el aeropuerto Rey Khalid de Riad</div></div>` +
+    `<div class="stat-card"><div class="stat-value">300+</div><div class="stat-label">Heridos en esos ataques</div></div>` +
+    `<div class="stat-card"><div class="stat-value">217.000</div><div class="stat-label">Desplazados por la escalada en la costa oeste</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La advertencia a Estados Unidos</h2>` +
+    `<p>El mensaje hutí fue directo. Un dirigente del movimiento sostuvo que si Washington interviene junto a la coalición saudí, la respuesta será “rápida y dolorosa”. El aviso se produjo el mismo día en que Trump dijo que consideraba sumarse a la ofensiva para expulsar a los rebeldes de la costa del mar Rojo y del estrecho de Bab al-Mandab, una de las rutas marítimas más sensibles del mundo.</p>` +
+    `<h2 class="report-chapter">Los ataques cruzados</h2>` +
+    `<p>El gobierno yemení reconocido internacionalmente y respaldado por Arabia Saudita informó que los ataques hutíes de las últimas 24 horas mataron al menos a cinco civiles y dejaron a más de una decena de heridos. Entre los blancos figuró un hospital de Taiz, la tercera ciudad del país, rodeada por los rebeldes.</p>` +
+    `<p>La coalición liderada por Arabia Saudita, por su parte, aseguró haber interceptado misiles hutíes dirigidos al suroeste del reino y a la capital, Riad, donde ataques rebeldes contra el aeropuerto internacional Rey Khalid mataron en días recientes a 18 personas y dejaron más de 300 heridas.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Desde que los combates se intensificaron en la costa oeste de Yemen, más de 217.000 personas han sido desplazadas de sus hogares.”` +
+    `<cite>Stéphane Dujarric, portavoz de la ONU</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Taiz, al borde del desastre humanitario</h2>` +
+    `<p>En Taiz, los residentes racionan alimentos y productos básicos en medio de advertencias crecientes de una catástrofe humanitaria. La ciudad, cercada por los hutíes, se ha convertido en un símbolo del costo civil de la reanudación de los combates.</p>` +
+    `<p>En paralelo, la embajada de Estados Unidos en Riad informó que ciudadanos estadounidenses fueron detenidos por tomar fotografías de los hechos recientes en Arabia Saudita, aunque no precisó cuántas personas están bajo custodia.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de víctimas y desplazados provienen de las partes en conflicto y de Naciones Unidas, y no han podido verificarse de forma independiente en su totalidad. La situación es cambiante y varias zonas del país siguen sin acceso para la prensa.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> y reportes de agencias.</p>`,
+    contentEn: `<h1>Yemen plunges back into “full-scale civil war” as Houthis and Saudi Arabia trade strikes</h1>` +
+    `<p class="lead"><em>Yemen appears to have returned to “full-scale civil war.” A leader of the Houthi movement warned on Monday that the United States will face a “swift and painful” response if it joins Saudi Arabia’s attacks on Houthi-controlled territory. The warning came after President Donald Trump said he was considering joining the Saudi-led counteroffensive to push the Houthis out of Yemen’s Red Sea coast and the strategic Bab al-Mandab Strait.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/yemen-huties-saudi.jpg" alt="Military forces and equipment in Yemen" loading="lazy">` +
+    `<figcaption>The escalation of cross-border strikes between the Houthis and the Saudi-led coalition reignited the conflict. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">18 killed</div><div class="stat-label">At Riyadh’s King Khalid airport</div></div>` +
+    `<div class="stat-card"><div class="stat-value">300+</div><div class="stat-label">Wounded in those attacks</div></div>` +
+    `<div class="stat-card"><div class="stat-value">217,000</div><div class="stat-label">Displaced by the escalation on the west coast</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The warning to the United States</h2>` +
+    `<p>The Houthi message was blunt. A leader of the movement said that if Washington intervenes alongside the Saudi-led coalition, the response will be “swift and painful.” The warning came the same day Trump said he was considering joining the offensive to push the rebels out of the Red Sea coast and the Bab al-Mandab Strait, one of the world’s most sensitive shipping routes.</p>` +
+    `<h2 class="report-chapter">The cross-border strikes</h2>` +
+    `<p>Yemen’s internationally recognized, Saudi-backed government said Houthi strikes over the past 24 hours killed at least five civilians and left more than a dozen wounded. The targets included a hospital in Taiz, the country’s third-largest city, which is encircled by the rebels.</p>` +
+    `<p>The Saudi-led coalition, for its part, said it intercepted Houthi missiles fired toward southwestern Saudi Arabia and the capital, Riyadh, where rebel attacks on King Khalid International Airport in recent days killed 18 people and wounded more than 300.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Since the fighting escalated on Yemen’s west coast, more than 217,000 people have been displaced from their homes.”` +
+    `<cite>Stéphane Dujarric, UN spokesperson</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Taiz, on the edge of a humanitarian disaster</h2>` +
+    `<p>In Taiz, residents are rationing food and essential goods amid growing warnings of a humanitarian disaster. The city, besieged by the Houthis, has become a symbol of the civilian cost of the renewed fighting.</p>` +
+    `<p>Meanwhile, the U.S. Embassy in Riyadh said U.S. citizens had been arrested for taking photographs of recent events in Saudi Arabia, though it did not specify how many people are in custody.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The casualty and displacement figures come from the parties to the conflict and from the United Nations, and have not been fully independently verified. The situation is changing, and several parts of the country remain inaccessible to the press.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> and agency reports.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/yemen-huties-saudi.jpg',
+    imageCaption:
+      'La escalada de ataques cruzados entre los hutíes y la coalición saudí reactivó el conflicto en Yemen. Foto: Democracy Now!',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Saná, Yemen',
+    source: 'Democracy Now! / AP',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/13/headlines'
+  },
+{
+    id: '1332',
+    contentType: 'news',
+    slug: 'naufragio-yibuti-yemen-139-muertos-desaparecidos',
+    publishedAt: '2026-10-13T09:15:00-04:00',
+    titleEs: 'Naufragio frente a Yibuti: al menos 139 migrantes muertos y 84 desaparecidos',
+    titleEn: 'Shipwreck off Djibouti: at least 139 migrants dead and 84 missing',
+    excerptEs:
+      'Una embarcación con 305 personas que viajaba de Yibuti a Yemen naufragó cerca de Obock. La OIM reporta 139 muertos, entre ellos 15 niños, y 84 desaparecidos. Fue uno de los peores siniestros de la ruta del este.',
+    excerptEn:
+      'A boat carrying 305 people from Djibouti to Yemen capsized near Obock. The IOM reports 139 dead, including 15 children, and 84 missing. It was one of the deadliest disasters on the Eastern Route.',
+    contentEs: `<h1>Naufragio frente a Yibuti: al menos 139 migrantes muertos y 84 desaparecidos</h1>` +
+    `<p class="lead"><em>Al menos 139 migrantes murieron y 84 permanecen desaparecidos después de que una embarcación sobrecargada que viajaba de Yibuti hacia Yemen naufragara frente a la costa de ese país, informó la Organización Internacional para las Migraciones (OIM). El bote transportaba a unas 305 personas y se hundió durante la noche, cerca de Guehere, al norte de Obock. Unos 82 sobrevivientes, todos de nacionalidad etíope, fueron rescatados.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/yibuti-naufragio-migrantes.jpg" alt="Operativo de búsqueda y rescate de migrantes frente a la costa de Yibuti" loading="lazy">` +
+    `<figcaption>Operativo de búsqueda y recuperación de cuerpos frente a la costa de Yibuti tras el naufragio. Foto: AP vía CNN</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">139</div><div class="stat-label">Muertos confirmados</div></div>` +
+    `<div class="stat-card"><div class="stat-value">84</div><div class="stat-label">Personas desaparecidas</div></div>` +
+    `<div class="stat-card"><div class="stat-value">305</div><div class="stat-label">Personas a bordo de la embarcación</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Una de las rutas más mortales</h2>` +
+    `<p>La OIM describió el siniestro como uno de los más mortales registrados en la llamada Ruta del Este, que va del Cuerno de África a la península arábiga. El número de víctimas subió de 109 a 139 a medida que se recuperaban más cuerpos; entre los fallecidos hay al menos 15 niños. Las autoridades de Yibuti continúan las tareas de búsqueda y recuperación.</p>` +
+    `<p>El bote partió de Yibuti con destino a Yemen. Los sobrevivientes relataron que la embarcación viajaba con exceso de pasajeros, una constante en esta travesía de alto riesgo.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Nadie sube a un bote así a menos que crea que no hay otra forma segura. No podemos seguir tratando estas muertes como algo normal.”` +
+    `<cite>Amy Pope, directora general de la OIM</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Emergencias superpuestas</h2>` +
+    `<p>Según la OIM, desde el 10 de septiembre se registraron más de 20.000 movimientos hacia Yibuti provenientes de Etiopía, pese a la reanudación de los combates en Yemen. En el mismo periodo llegaron más de 3.700 refugiados procedentes de Yemen y 539 migrantes etíopes retornaron desde allí.</p>` +
+    `<p>El jefe de misión de la OIM en Yibuti, Alexandre Coissac, advirtió que el país enfrenta “emergencias superpuestas”, con personas que llegan y salen en ambas direcciones y miles de migrantes varados sin acceso a servicios básicos.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de víctimas y supervivientes corresponden a los reportes de la OIM y de agencias humanitarias. Debido a que el balance todavía es preliminar, los números pueden variar en las próximas horas.</p>` +
+    `<p>Con información de <a href="https://news.un.org/en/story/2026/10/1168573" target="_blank" rel="noopener noreferrer">ONU Noticias / OIM</a> y de <a href="https://www.cnn.com/2026/10/11/africa/djibouti-boat-capsize-dead-latam-intl" target="_blank" rel="noopener noreferrer">AP vía CNN</a>.</p>`,
+    contentEn: `<h1>Shipwreck off Djibouti: at least 139 migrants dead and 84 missing</h1>` +
+    `<p class="lead"><em>At least 139 migrants died and 84 remain missing after an overcrowded boat sailing from Djibouti to Yemen capsized off that country’s coast, the International Organization for Migration (IOM) said. The boat was carrying about 305 people and went down overnight near Guehere, north of Obock. About 82 survivors, all Ethiopian nationals, were rescued.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/yibuti-naufragio-migrantes.jpg" alt="Search and recovery operation for migrants off the coast of Djibouti" loading="lazy">` +
+    `<figcaption>Search and recovery operation off the coast of Djibouti after the shipwreck. Photo: AP via CNN</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">139</div><div class="stat-label">Confirmed dead</div></div>` +
+    `<div class="stat-card"><div class="stat-value">84</div><div class="stat-label">People still missing</div></div>` +
+    `<div class="stat-card"><div class="stat-value">305</div><div class="stat-label">People on board the boat</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">One of the deadliest routes</h2>` +
+    `<p>The IOM described the disaster as one of the deadliest recorded on the so-called Eastern Route, which runs from the Horn of Africa to the Arabian Peninsula. The death toll rose from 109 to 139 as more bodies were recovered; among the dead are at least 15 children. Djiboutian authorities are continuing search and recovery efforts.</p>` +
+    `<p>The boat set out from Djibouti bound for Yemen. Survivors said the vessel was heavily overloaded, a constant on this high-risk crossing.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“No one gets into a boat like that unless they believe there is no other safe way. We cannot keep treating these deaths as normal.”` +
+    `<cite>Amy Pope, IOM Director General</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Overlapping emergencies</h2>` +
+    `<p>According to the IOM, more than 20,000 movements into Djibouti from Ethiopia have been recorded since September 10, despite the resumption of fighting in Yemen. Over the same period, more than 3,700 refugees arrived from Yemen and 539 Ethiopian migrants returned from there.</p>` +
+    `<p>The IOM’s chief of mission in Djibouti, Alexandre Coissac, warned that the country faces “overlapping emergencies,” with people arriving and leaving in both directions and thousands of migrants stranded without access to basic services.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The death and survivor figures come from IOM and humanitarian agency reports. Because the toll is still preliminary, the numbers may change in the coming hours.</p>` +
+    `<p>With information from <a href="https://news.un.org/en/story/2026/10/1168573" target="_blank" rel="noopener noreferrer">UN News / IOM</a> and <a href="https://www.cnn.com/2026/10/11/africa/djibouti-boat-capsize-dead-latam-intl" target="_blank" rel="noopener noreferrer">AP via CNN</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/yibuti-naufragio-migrantes.jpg',
+    imageCaption:
+      'Operativo de búsqueda y recuperación de cuerpos frente a la costa de Yibuti tras el naufragio. Foto: AP vía CNN',
+    categoryEs: 'Migración',
+    categoryEn: 'Migration',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Obock, Yibuti',
+    source: 'ONU (OIM) / AP',
+    region: 'International',
+    sourceUrl: 'https://news.un.org/en/story/2026/10/1168573'
+  },
+{
+    id: '1333',
+    contentType: 'news',
+    slug: 'iran-tercer-petrolero-atacado-ormuz',
+    publishedAt: '2026-10-13T11:30:00-04:00',
+    titleEs: 'Irán denuncia el tercer petrolero atacado en dos días en el estrecho de Ormuz',
+    titleEn: 'Iran reports third oil tanker attacked in two days in the Strait of Hormuz',
+    excerptEs:
+      'La Guardia Revolucionaria iraní afirmó que un tercer buque cisterna fue alcanzado por una mina naval en Ormuz, con un incendio en la sala de máquinas. La marina británica reportó un proyectil contra un petrolero que salía del estrecho.',
+    excerptEn:
+      'Iran’s Revolutionary Guard said a third tanker was hit by a naval mine in Hormuz, sparking a fire in its engine room. Britain’s maritime agency reported a projectile hitting a tanker as it exited the strait.',
+    contentEs: `<h1>Irán denuncia el tercer petrolero atacado en dos días en el estrecho de Ormuz</h1>` +
+    `<p class="lead"><em>La Guardia Revolucionaria de Irán (IRGC) afirmó este martes que un tercer buque cisterna fue alcanzado por una mina naval en el estrecho de Ormuz, lo que provocó un incendio en la sala de máquinas. El anuncio se produjo un día después de que la agencia marítima británica UKMTO reportara que un petrolero fue impactado por un proyectil cuando salía del estrecho, en medio de una serie de ataques que han vuelto a sacudir una de las rutas energéticas más importantes del mundo.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/iran-petrolero-ormuz.jpg" alt="Buque cisterna navegando en aguas del estrecho de Ormuz" loading="lazy">` +
+    `<figcaption>El estrecho de Ormuz, por donde circula una quinta parte del petróleo mundial, vuelve a ser escenario de ataques. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Petroleros atacados en dos días</div></div>` +
+    `<div class="stat-card"><div class="stat-value">750.000</div><div class="stat-label">Barriles de capacidad del buque lanzadera</div></div>` +
+    `<div class="stat-card"><div class="stat-value">18</div><div class="stat-label">Ataques registrados desde octubre</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">El incidente más reciente</h2>` +
+    `<p>Según el IRGC, el buque era un petrolero lanzadera con capacidad para 750.000 barriles de crudo. La explosión de una mina naval habría dañado la sala de máquinas y desatado un incendio. La Guardia Revolucionaria no precisó el origen de la mina ni la nacionalidad del buque.</p>` +
+    `<p>Un día antes, la UKMTO, dependiente de la marina británica, había informado que un proyectil impactó a un petrolero en el momento en que abandonaba el estrecho. En los días previos también se reportaron otros dos ataques contra embarcaciones en la zona.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“El estrecho de Ormuz es el punto de estrangulamiento energético más importante del planeta. Cualquier interrupción sostenida se siente de inmediato en los precios globales.”` +
+    `<cite>Analistas de seguridad marítima, citados por medios internacionales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Por qué importa Ormuz</h2>` +
+    `<p>Por el estrecho de Ormuz transita aproximadamente una quinta parte del petróleo que se consume en el mundo. La acumulación de incidentes en apenas dos días elevó la preocupación de los mercados y de las navieras, que ya venían ajustando sus rutas y sus seguros ante el aumento del riesgo.</p>` +
+    `<p>La secuencia de ataques, sin reivindicación clara hasta el momento, reavivó los temores de una escalada más amplia en el golfo Pérsico, en un contexto regional ya tenso.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La información se basa en los comunicados de la Guardia Revolucionaria iraní y de la agencia marítima británica UKMTO. Las responsabilidades de los ataques no han sido establecidas de manera independiente y las versiones de las partes difieren.</p>` +
+    `<p>Con información de <a href="https://en.mehrnews.com/news/248502/Third-oil-tanker-catches-fire-in-Strait-of-Hormuz" target="_blank" rel="noopener noreferrer">Mehr News (IRGC)</a> y de <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Iran reports third oil tanker attacked in two days in the Strait of Hormuz</h1>` +
+    `<p class="lead"><em>Iran’s Revolutionary Guard (IRGC) said on Tuesday that a third tanker was hit by a naval mine in the Strait of Hormuz, sparking a fire in its engine room. The announcement came a day after Britain’s maritime agency, UKMTO, reported that a tanker was struck by a projectile as it exited the strait, amid a series of attacks that have once again shaken one of the world’s most important energy routes.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/iran-petrolero-ormuz.jpg" alt="Oil tanker sailing in the waters of the Strait of Hormuz" loading="lazy">` +
+    `<figcaption>The Strait of Hormuz, through which about a fifth of the world’s oil flows, is once again the scene of attacks. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Tankers attacked in two days</div></div>` +
+    `<div class="stat-card"><div class="stat-value">750,000</div><div class="stat-label">Barrel capacity of the shuttle tanker</div></div>` +
+    `<div class="stat-card"><div class="stat-value">18</div><div class="stat-label">Attacks recorded since October</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The latest incident</h2>` +
+    `<p>According to the IRGC, the vessel was a shuttle tanker with a capacity of 750,000 barrels of crude. A naval mine explosion reportedly damaged the engine room and triggered a fire. The Revolutionary Guard did not specify the origin of the mine or the nationality of the vessel.</p>` +
+    `<p>A day earlier, UKMTO, which operates under the British navy, had reported that a projectile struck a tanker as it was leaving the strait. In the preceding days, two other attacks on vessels in the area were also reported.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“The Strait of Hormuz is the most important energy chokepoint on the planet. Any sustained disruption is felt immediately in global prices.”` +
+    `<cite>Maritime security analysts, quoted by international media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Why Hormuz matters</h2>` +
+    `<p>About a fifth of the world’s oil passes through the Strait of Hormuz. The buildup of incidents in just two days raised concern among markets and shipping companies, which had already been adjusting their routes and insurance amid rising risk.</p>` +
+    `<p>The sequence of attacks, with no clear claim of responsibility so far, revived fears of a broader escalation in the Persian Gulf, in an already tense regional context.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The information is based on statements from Iran’s Revolutionary Guard and Britain’s maritime agency, UKMTO. Responsibility for the attacks has not been independently established and the parties’ accounts differ.</p>` +
+    `<p>With information from <a href="https://en.mehrnews.com/news/248502/Third-oil-tanker-catches-fire-in-Strait-of-Hormuz" target="_blank" rel="noopener noreferrer">Mehr News (IRGC)</a> and <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-13/iran-petrolero-ormuz.jpg',
+    imageCaption:
+      'El estrecho de Ormuz, por donde circula una quinta parte del petróleo mundial, vuelve a ser escenario de ataques. Foto: Democracy Now!',
+    categoryEs: 'Energía',
+    categoryEn: 'Energy',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Estrecho de Ormuz, Irán',
+    source: 'Mehr News (IRGC) / UKMTO',
+    region: 'International',
+    sourceUrl: 'https://en.mehrnews.com/news/248502/Third-oil-tanker-catches-fire-in-Strait-of-Hormuz'
+  },
+{
+    id: '1334',
+    contentType: 'news',
+    slug: 'rusia-bombardea-ucrania-drones-cargueros-bulgaria',
+    publishedAt: '2026-10-13T12:45:00-04:00',
+    titleEs: 'Rusia bombardea Ucrania y drones hunden cargueros frente a Bulgaria: 11 marinos desaparecidos',
+    titleEn: 'Russia bombs Ukraine as drones sink cargo ships off Bulgaria: 11 sailors missing',
+    excerptEs:
+      'Un ataque ruso contra un edificio residencial en un suburbio de Kiev mató a dos personas. En el mar Negro, drones impactaron dos cargueros frente a la costa búlgara; uno se hundió y hay 11 marinos desaparecidos. Bulgaria convocó al embajador ruso.',
+    excerptEn:
+      'A Russian strike on a residential building in a Kyiv suburb killed two people. In the Black Sea, drones hit two cargo ships off Bulgaria’s coast; one sank and 11 sailors are missing. Bulgaria summoned Russia’s ambassador.',
+    contentEs: `<h1>Rusia bombardea Ucrania y drones hunden cargueros frente a Bulgaria: 11 marinos desaparecidos</h1>` +
+    `<p class="lead"><em>Rusia intensificó los ataques contra Ucrania con un bombardeo que mató al menos a dos personas e hirió a tres más en un edificio residencial de un suburbio de Kiev, mientras que otros seis civiles murieron en distintas regiones del país. En paralelo, en el mar Negro, drones desconocidos dañaron dos buques de carga frente a la costa de Bulgaria; uno se hundió, hay 11 marinos desaparecidos y el gobierno búlgaro convocó a consultas al embajador ruso.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/ucrania-bulgaria-drones.jpg" alt="Edificio residencial dañado por un ataque aéreo en Ucrania" loading="lazy">` +
+    `<figcaption>Un edificio residencial dañado por un ataque ruso en Ucrania. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">8</div><div class="stat-label">Civiles muertos en Ucrania</div></div>` +
+    `<div class="stat-card"><div class="stat-value">11</div><div class="stat-label">Marinos desaparecidos en el mar Negro</div></div>` +
+    `<div class="stat-card"><div class="stat-value">600.000</div><div class="stat-label">Hogares sin electricidad</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Ataque en el mar Negro</h2>` +
+    `<p>Dos buques de carga de gran tamaño fueron objeto de una embarcación no tripulada frente a la costa búlgara, confirmó el primer ministro de Bulgaria, Rumen Radev. Uno de los cargueros se hundió y 11 integrantes de su tripulación permanecen desaparecidos. El país convocó al embajador de Rusia por lo ocurrido.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Convoqué al embajador de Rusia. Un buque se hundió y hay 11 marinos desaparecidos. No vamos a tolerar que nuestro mar se convierta en un campo de batalla.”` +
+    `<cite>Rumen Radev, primer ministro de Bulgaria</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La ofensiva en Ucrania</h2>` +
+    `<p>El ataque contra la torre residencial en un suburbio de la capital fue el más letal de la jornada: mató a dos personas e hirió a otras tres. Otros ataques rusos en el resto del territorio ucraniano dejaron seis civiles muertos, con lo que el balance de la jornada ascendió a ocho fallecidos.</p>` +
+    `<p>El bombardeo también dañó infraestructura energética. Cerca de 600.000 hogares quedaron sin electricidad, según reportes, en una nueva embestida contra el sistema eléctrico de cara al invierno.</p>` +
+    `<h2 class="report-chapter">El alto el fuego que nunca fue</h2>` +
+    `<p>El presidente de Estados Unidos, Donald Trump, había afirmado el sábado que había pactado un alto el fuego en materia energética entre las partes. Sin embargo, tanto Ucrania como Rusia lo negaron, y los ataques continuaron, dejando la iniciativa sin efecto.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Los balances de víctimas corresponden a fuentes ucranianas y al reporte del primer ministro búlgaro, y no han sido verificados de forma independiente. La autoría de los ataques con drones en el mar Negro no fue reivindicada hasta el cierre de esta edición.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> y <a href="https://www.dw.com/en/ukraine-russia-war-live-updates/live-74514270" target="_blank" rel="noopener noreferrer">DW</a>.</p>`,
+    contentEn: `<h1>Russia bombs Ukraine as drones sink cargo ships off Bulgaria: 11 sailors missing</h1>` +
+    `<p class="lead"><em>Russia stepped up attacks on Ukraine with a bombardment that killed at least two people and wounded three others at a residential building in a Kyiv suburb, while six other civilians died in different parts of the country. At the same time, in the Black Sea, unidentified drones damaged two cargo ships off Bulgaria’s coast; one sank, 11 sailors are missing and the Bulgarian government summoned Russia’s ambassador.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/ucrania-bulgaria-drones.jpg" alt="Residential building damaged by an airstrike in Ukraine" loading="lazy">` +
+    `<figcaption>A residential building damaged by a Russian strike in Ukraine. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">8</div><div class="stat-label">Civilians killed in Ukraine</div></div>` +
+    `<div class="stat-card"><div class="stat-value">11</div><div class="stat-label">Sailors missing in the Black Sea</div></div>` +
+    `<div class="stat-card"><div class="stat-value">600,000</div><div class="stat-label">Homes without electricity</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Attack in the Black Sea</h2>` +
+    `<p>Two large cargo ships were targeted by an uncrewed vessel off Bulgaria’s coast, Prime Minister Rumen Radev confirmed. One of the cargo ships sank and 11 members of its crew remain missing. The country summoned Russia’s ambassador over the incident.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“I summoned Russia’s ambassador. A ship sank and 11 sailors are missing. We will not tolerate our sea turning into a battlefield.”` +
+    `<cite>Rumen Radev, Prime Minister of Bulgaria</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The offensive in Ukraine</h2>` +
+    `<p>The strike on the residential tower in a suburb of the capital was the deadliest of the day: it killed two people and wounded three others. Other Russian attacks elsewhere in Ukraine killed six civilians, bringing the day’s toll to eight.</p>` +
+    `<p>The bombardment also damaged energy infrastructure. Nearly 600,000 homes were left without electricity, according to reports, in a fresh assault on the power grid ahead of winter.</p>` +
+    `<h2 class="report-chapter">The ceasefire that never was</h2>` +
+    `<p>U.S. President Donald Trump had said on Saturday that he had secured an energy ceasefire between the parties. However, both Ukraine and Russia denied it, and the attacks continued, leaving the initiative without effect.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The casualty figures come from Ukrainian sources and from the Bulgarian prime minister’s report, and have not been independently verified. No party claimed responsibility for the drone attacks in the Black Sea as of publication.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> and <a href="https://www.dw.com/en/ukraine-russia-war-live-updates/live-74514270" target="_blank" rel="noopener noreferrer">DW</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/ucrania-bulgaria-drones.jpg',
+    imageCaption:
+      'Un edificio residencial dañado por un ataque ruso en Ucrania. Foto: Democracy Now!',
+    categoryEs: 'Europa',
+    categoryEn: 'Europe',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Kiev, Ucrania',
+    source: 'Democracy Now! / DW',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/13/headlines'
+  },
+{
+    id: '1335',
+    contentType: 'news',
+    slug: 'agentes-federales-allanan-casa-ilhan-omar',
+    publishedAt: '2026-10-13T13:20:00-04:00',
+    titleEs: 'Agentes federales allanan la casa de la congresista Ilhan Omar en una pesquisa criminal',
+    titleEn: 'Federal agents raid Congresswoman Ilhan Omar’s home in criminal probe',
+    excerptEs:
+      'El Departamento de Seguridad Nacional ejecutó una orden judicial en la vivienda de Omar en Washington. La pesquisa indaga presuntas irregularidades en papeleo migratorio. Omar denunció una “intimidación política” a semanas de las elecciones de medio término.',
+    excerptEn:
+      'The Department of Homeland Security executed a warrant at Omar’s Washington home. The probe examines alleged irregularities in immigration paperwork. Omar denounced “political intimidation” weeks before the midterm elections.',
+    contentEs: `<h1>Agentes federales allanan la casa de la congresista Ilhan Omar en una pesquisa criminal</h1>` +
+    `<p class="lead"><em>Agentes federales allanaron este lunes la vivienda de la congresista demócrata Ilhan Omar en Washington en el marco de una investigación criminal sobre presuntas irregularidades en papeleo migratorio. El operativo, ejecutado por Investigaciones de Seguridad Nacional (HSI) del Departamento de Seguridad Nacional, ocurrió a solo tres semanas de las elecciones de medio término y desató acusaciones cruzadas de persecución política.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/omar-redada-dhs.jpg" alt="Agentes federales frente a la vivienda de Ilhan Omar" loading="lazy">` +
+    `<figcaption>Agentes federales se presentaron en la vivienda de la congresista Ilhan Omar en Washington. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">22 días</div><div class="stat-label">Para las elecciones de medio término</div></div>` +
+    `<div class="stat-card"><div class="stat-value">HSI / DHS</div><div class="stat-label">Agencia que ejecutó la orden</div></div>` +
+    `<div class="stat-card"><div class="stat-value">60 días</div><div class="stat-label">Ventana preelectoral de la pesquisa</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La orden judicial</h2>` +
+    `<p>El Departamento de Justicia confirmó que el registro se realizó con una orden autorizada judicialmente, un requisito que las autoridades subrayaron para diferenciar el operativo de una acción arbitraria. HSI, la agencia que investiga delitos relacionados con la inmigración, lideró la diligencia.</p>` +
+    `<p>La pesquisa se centra en presunto papeleo irregular relacionado con trámites migratorios, según las versiones oficiales difundidas hasta ahora.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“No me van a silenciar. Esto no se trata de mí, se trata de enviar un mensaje a cualquiera que se atreva a alzar la voz.”` +
+    `<cite>Ilhan Omar, congresista demócrata por Minnesota</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La reacción política</h2>` +
+    `<p>Omar calificó el operativo como una “intimidación política” y vinculó la pesquisa con su actividad legislativa y sus críticas al gobierno. La congresista Rashida Tlaib fue más dura y habló de un “estado policial fascista” en referencia al accionar federal.</p>` +
+    `<p>Desde el lado republicano, el presidente Donald Trump y el vicepresidente JD Vance respaldaron la investigación y cuestionaron a la legisladora, en un intercambio que reflejó la polarización del momento.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El Departamento de Justicia confirmó la existencia de una orden judicial, pero no detalló los cargos ni las pruebas. Las acusaciones de motivación política provienen de la propia Omar y de legisladores aliados, y no han sido validadas judicialmente. La investigación está en curso y rige la presunción de inocencia.</p>` +
+    `<p>Con información de <a href="https://www.pressdemocrat.com/2026/10/12/ilhan-omar-home-searched-investigation/" target="_blank" rel="noopener noreferrer">AP vía The Press Democrat</a> y <a href="https://www.politico.com/news/2026/10/12/ilhan-omar-home-searched" target="_blank" rel="noopener noreferrer">Politico</a>.</p>`,
+    contentEn: `<h1>Federal agents raid Congresswoman Ilhan Omar’s home in criminal probe</h1>` +
+    `<p class="lead"><em>Federal agents raided Democratic Congresswoman Ilhan Omar’s Washington home on Monday as part of a criminal investigation into alleged irregularities in immigration paperwork. The operation, carried out by Homeland Security Investigations (HSI) of the Department of Homeland Security, came just three weeks before the midterm elections and triggered cross-accusations of political persecution.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/omar-redada-dhs.jpg" alt="Federal agents outside Ilhan Omar’s home" loading="lazy">` +
+    `<figcaption>Federal agents appeared at Congresswoman Ilhan Omar’s Washington home. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">22 days</div><div class="stat-label">Until the midterm elections</div></div>` +
+    `<div class="stat-card"><div class="stat-value">HSI / DHS</div><div class="stat-label">Agency that executed the warrant</div></div>` +
+    `<div class="stat-card"><div class="stat-value">60 days</div><div class="stat-label">Pre-election window of the probe</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The warrant</h2>` +
+    `<p>The Justice Department confirmed the search was carried out with a judicially authorized warrant, a requirement authorities stressed to distinguish the operation from an arbitrary action. HSI, the agency that investigates immigration-related crimes, led the search.</p>` +
+    `<p>The probe focuses on alleged irregular paperwork related to immigration matters, according to the official accounts released so far.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“They will not silence me. This is not about me, it is about sending a message to anyone who dares to speak up.”` +
+    `<cite>Ilhan Omar, Democratic congresswoman from Minnesota</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The political reaction</h2>` +
+    `<p>Omar called the operation “political intimidation” and linked the probe to her legislative work and her criticism of the government. Congresswoman Rashida Tlaib went further and spoke of a “fascist police state” in reference to the federal action.</p>` +
+    `<p>On the Republican side, President Donald Trump and Vice President JD Vance backed the investigation and questioned the lawmaker, in an exchange that reflected the polarization of the moment.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The Justice Department confirmed the existence of a warrant but did not detail the charges or the evidence. The accusations of political motivation come from Omar herself and allied lawmakers, and have not been validated in court. The investigation is ongoing and the presumption of innocence applies.</p>` +
+    `<p>With information from <a href="https://www.pressdemocrat.com/2026/10/12/ilhan-omar-home-searched-investigation/" target="_blank" rel="noopener noreferrer">AP via The Press Democrat</a> and <a href="https://www.politico.com/news/2026/10/12/ilhan-omar-home-searched" target="_blank" rel="noopener noreferrer">Politico</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/omar-redada-dhs.jpg',
+    imageCaption:
+      'Agentes federales se presentaron en la vivienda de la congresista Ilhan Omar en Washington. Foto: Democracy Now!',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Washington D.C., EE.UU.',
+    source: 'AP / Politico',
+    region: 'US',
+    sourceUrl: 'https://www.pressdemocrat.com/2026/10/12/ilhan-omar-home-searched-investigation/'
+  },
+{
+    id: '1336',
+    contentType: 'news',
+    slug: 'musk-366-millones-republicanos-elecciones-medio-termino',
+    publishedAt: '2026-10-13T14:10:00-04:00',
+    titleEs: 'Musk gastó 366 millones de dólares para que los republicanos retengan el Congreso',
+    titleEn: 'Musk spent $366 million to help Republicans keep control of Congress',
+    excerptEs:
+      'El empresario Elon Musk destinó unos 366 millones de dólares al ciclo electoral de 2026, la cifra más alta registrada hasta ahora. Solo desde julio desembolsó 276 millones, incluidos 158 millones para el Senate Leadership Fund.',
+    excerptEn:
+      'Businessman Elon Musk directed about $366 million into the 2026 election cycle, the highest figure recorded so far. Since July alone he spent $276 million, including $158 million for the Senate Leadership Fund.',
+    contentEs: `<h1>Musk gastó 366 millones de dólares para que los republicanos retengan el Congreso</h1>` +
+    `<p class="lead"><em>El empresario Elon Musk gastó alrededor de 366 millones de dólares para ayudar a los republicanos a mantener el control del Congreso en las elecciones de medio término de noviembre, según cifras de financiamiento de campaña. Solo desde julio desembolsó unos 276 millones de dólares, un ritmo de gasto sin precedentes para una persona en un ciclo electoral estadounidense.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/musk-donante-republicano.jpg" alt="El empresario Elon Musk" loading="lazy">` +
+    `<figcaption>Elon Musk se ha convertido en uno de los mayores donantes individuales de la política estadounidense. Foto: Reuters vía Al Jazeera</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">US$366M</div><div class="stat-label">Gasto total en el ciclo 2026</div></div>` +
+    `<div class="stat-card"><div class="stat-value">US$276M</div><div class="stat-label">Desembolsado desde julio</div></div>` +
+    `<div class="stat-card"><div class="stat-value">US$158M</div><div class="stat-label">Al Senate Leadership Fund</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">A dónde fue el dinero</h2>` +
+    `<p>Del total, unos 158 millones de dólares fueron a parar al Senate Leadership Fund, el principal comité vinculado al liderazgo republicano en el Senado. Más de 76 millones se dirigieron a America PAC, el comité de acción política que Musk impulsó en ciclos anteriores. Otras donaciones se repartieron entre candidatos y organizaciones afines.</p>` +
+    `<p>El asesor republicano Andrew Romeo confirmó las cifras. El diario The New York Times las había revelado primero, en base a los reportes presentados ante la Comisión Federal de Elecciones (FEC).</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Nunca antes una sola persona había inyectado un volumen semejante de dinero en un ciclo de medio término. Esto reconfigura la forma en que se financia la política estadounidense.”` +
+    `<cite>Analistas de financiamiento de campañas, citados por medios internacionales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Un donante decisivo</h2>` +
+    `<p>La cifra de Musk se suma a los más de 210 millones de dólares que, según el grupo Public Citizen, otros grandes donantes dirigieron al super PAC MAGA Inc. El volumen total de dinero en el ciclo 2026 ya supera los registros previos y convirtió a las elecciones de medio término del 3 de noviembre en una de las más caras de la historia.</p>` +
+    `<p>El gasto refleja también el peso creciente de los donantes individuales y de los super PAC en un sistema donde los límites de aporte son cada vez más elusivos.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras provienen de los reportes ante la Comisión Federal de Elecciones y de las revelaciones periodísticas de The New York Times, confirmadas por un asesor republicano. Los montos definitivos pueden actualizarse cuando se cierren los reportes finales del ciclo.</p>` +
+    `<p>Con información de <a href="https://www.reuters.com/3fec1b0a85a0/business/media-telecom/musk-has-spent-366-million-help-republicans-retain-control-congress-2026-10-12/" target="_blank" rel="noopener noreferrer">Reuters</a> y <a href="https://www.nytimes.com/2026/10/12/us/politics/elon-musk-republicans-midterms.html" target="_blank" rel="noopener noreferrer">The New York Times</a>.</p>`,
+    contentEn: `<h1>Musk spent $366 million to help Republicans keep control of Congress</h1>` +
+    `<p class="lead"><em>Businessman Elon Musk spent about $366 million to help Republicans keep control of Congress in the November midterm elections, according to campaign finance figures. Since July alone he spent about $276 million, an unprecedented pace of spending for one person in a U.S. election cycle.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/musk-donante-republicano.jpg" alt="Businessman Elon Musk" loading="lazy">` +
+    `<figcaption>Elon Musk has become one of the largest individual donors in U.S. politics. Photo: Reuters via Al Jazeera</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">$366M</div><div class="stat-label">Total spending in the 2026 cycle</div></div>` +
+    `<div class="stat-card"><div class="stat-value">$276M</div><div class="stat-label">Spent since July</div></div>` +
+    `<div class="stat-card"><div class="stat-value">$158M</div><div class="stat-label">To the Senate Leadership Fund</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Where the money went</h2>` +
+    `<p>Of the total, about $158 million went to the Senate Leadership Fund, the main committee tied to Republican Senate leadership. More than $76 million went to America PAC, the political action committee Musk promoted in earlier cycles. Other donations were spread among allied candidates and organizations.</p>` +
+    `<p>Republican adviser Andrew Romeo confirmed the figures. The New York Times had first reported them, based on filings with the Federal Election Commission (FEC).</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Never before has a single person injected such a volume of money into a midterm cycle. This reshapes the way American politics is financed.”` +
+    `<cite>Campaign finance analysts, quoted by international media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">A decisive donor</h2>` +
+    `<p>Musk’s figure adds to the more than $210 million that, according to the group Public Citizen, other major donors directed to the MAGA Inc. super PAC. The total amount of money in the 2026 cycle already exceeds previous records and made the November 3 midterms one of the most expensive in history.</p>` +
+    `<p>The spending also reflects the growing weight of individual donors and super PACs in a system where contribution limits are increasingly elusive.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The figures come from Federal Election Commission filings and from reporting by The New York Times, confirmed by a Republican adviser. The final amounts may be updated when the cycle’s final reports close.</p>` +
+    `<p>With information from <a href="https://www.reuters.com/3fec1b0a85a0/business/media-telecom/musk-has-spent-366-million-help-republicans-retain-control-congress-2026-10-12/" target="_blank" rel="noopener noreferrer">Reuters</a> and <a href="https://www.nytimes.com/2026/10/12/us/politics/elon-musk-republicans-midterms.html" target="_blank" rel="noopener noreferrer">The New York Times</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/musk-donante-republicano.jpg',
+    imageCaption:
+      'Elon Musk se ha convertido en uno de los mayores donantes individuales de la política estadounidense. Foto: Reuters vía Al Jazeera',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Washington D.C., EE.UU.',
+    source: 'Reuters / The New York Times',
+    region: 'US',
+    sourceUrl: 'https://www.reuters.com/3fec1b0a85a0/business/media-telecom/musk-has-spent-366-million-help-republicans-retain-control-congress-2026-10-12/'
+  },
+{
+    id: '1337',
+    contentType: 'news',
+    slug: 'israel-allana-ong-palestinas-ramallah-francotiradores-hospital',
+    publishedAt: '2026-10-13T15:00:00-04:00',
+    titleEs: 'Israel allana oficinas de ONG palestinas en Ramallah y despliega francotiradores junto a un hospital',
+    titleEn: 'Israel raids Palestinian NGO offices in Ramallah and deploys snipers near a hospital',
+    excerptEs:
+      'Soldados israelíes irrumpieron en las sedes de Addameer y de la Unión de Comités de Mujeres Palestinas, y en el Complejo Médico de Palestina. En Gaza murieron cuatro personas, entre ellas un niño de cuatro años. Netanyahu ordenó identificar a soldados del documental NAZA.',
+    excerptEn:
+      'Israeli soldiers stormed the offices of Addameer and the Union of Palestinian Women’s Committees, and the Palestine Medical Complex. Four people were killed in Gaza, including a four-year-old child. Netanyahu ordered IDF soldiers in the NAZA documentary to be identified.',
+    contentEs: `<h1>Israel allana oficinas de ONG palestinas en Ramallah y despliega francotiradores junto a un hospital</h1>` +
+    `<p class="lead"><em>Fuerzas israelíes allanaron este martes las oficinas de dos organizaciones palestinas de derechos humanos en Ramallah, en la Cisjordania ocupada, y desplegaron francotiradores en el patio del Complejo Médico de Palestina, donde lanzaron granadas aturdidoras. En paralelo, en Gaza murieron cuatro personas, entre ellas un niño de cuatro años, y el primer ministro Benjamin Netanyahu ordenó identificar y procesar a los soldados que aparecen en el documental NAZA.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/israel-redada-ong-ramallah.jpg" alt="Soldados israelíes durante una redada en Ramallah, Cisjordania" loading="lazy">` +
+    `<figcaption>Soldados israelíes durante el operativo en Ramallah, en la Cisjordania ocupada. Foto: Reuters / Ali Sawafta vía Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">ONG palestinas allanadas</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1.400+</div><div class="stat-label">Muertos en Gaza desde el alto el fuego</div></div>` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Muertos en Gaza, incluido un niño de 4 años</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La redada en Ramallah</h2>` +
+    `<p>Los soldados irrumpieron en las sedes de Addameer, una organización que documenta la situación de los presos palestinos, y de la Unión de Comités de Mujeres Palestinas. Las fuerzas también ingresaron al patio del Complejo Médico de Palestina, el principal hospital de la ciudad, donde desplegaron francotiradores y detonaron granadas aturdidoras, según reportes y videos difundidos por medios locales.</p>` +
+    `<p>Las organizaciones denunciaron que el operativo forma parte de una campaña sostenida contra el trabajo de derechos humanos en Cisjordania.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Irumpir en oficinas de derechos humanos y apostar francotiradores en un hospital no es una operación de seguridad, es una señal de que ninguna institución palestina está a salvo.”` +
+    `<cite>Organizaciones palestinas de derechos humanos, en un comunicado conjunto</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Gaza y el documental NAZA</h2>` +
+    `<p>En Gaza, cuatro personas murieron, entre ellas un niño de cuatro años, con lo que el número de fallecidos desde la tregua supera los 1.400, según el recuento de medios y organismos humanitarios. La cifra ilustra una violencia que persiste pese a los acuerdos.</p>` +
+    `<p>Además, Netanyahu ordenó identificar y procesar a los soldados de las Fuerzas de Defensa de Israel (IDF) que aparecen en el documental NAZA, y dirigió amenazas a los realizadores Yuval Abraham y Rachel Szor. El diario israelí Haaretz informó que tras los ataques del 7 de octubre de 2023 se relajaron las reglas de enfrentamiento, lo que habría ampliado el margen de acción de las tropas.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las versiones del operativo en Ramallah provienen de testigos, organizaciones palestinas y medios locales; las Fuerzas de Defensa de Israel no detallaron hasta el cierre de esta edición los objetivos de la redada. Las cifras de muertos en Gaza corresponden a recuentos de organismos humanitarios y no han sido verificadas de forma independiente.</p>` +
+    `<p>Con información de <a href="https://www.aljazeera.com/video/newsfeed/2026/10/13/israels-military-raids-ngo-offices-in-ramallah" target="_blank" rel="noopener noreferrer">Al Jazeera</a>, <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> y WAFA.</p>`,
+    contentEn: `<h1>Israel raids Palestinian NGO offices in Ramallah and deploys snipers near a hospital</h1>` +
+    `<p class="lead"><em>Israeli forces on Tuesday raided the offices of two Palestinian human rights organizations in Ramallah, in the occupied West Bank, and deployed snipers in the courtyard of the Palestine Medical Complex, where they fired stun grenades. At the same time, four people were killed in Gaza, including a four-year-old child, and Prime Minister Benjamin Netanyahu ordered the soldiers who appear in the NAZA documentary to be identified and prosecuted.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/israel-redada-ong-ramallah.jpg" alt="Israeli soldiers during a raid in Ramallah, West Bank" loading="lazy">` +
+    `<figcaption>Israeli soldiers during the operation in Ramallah, in the occupied West Bank. Photo: Reuters / Ali Sawafta via Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Palestinian NGOs raided</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1,400+</div><div class="stat-label">Killed in Gaza since the ceasefire</div></div>` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Killed in Gaza, including a 4-year-old child</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The Ramallah raid</h2>` +
+    `<p>Soldiers stormed the headquarters of Addameer, an organization that documents the situation of Palestinian prisoners, and the Union of Palestinian Women’s Committees. The forces also entered the courtyard of the Palestine Medical Complex, the city’s main hospital, where they deployed snipers and detonated stun grenades, according to reports and videos circulated by local media.</p>` +
+    `<p>The organizations said the operation is part of a sustained campaign against human rights work in the West Bank.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Storming human rights offices and posting snipers at a hospital is not a security operation, it is a signal that no Palestinian institution is safe.”` +
+    `<cite>Palestinian human rights organizations, in a joint statement</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Gaza and the NAZA documentary</h2>` +
+    `<p>In Gaza, four people were killed, including a four-year-old child, bringing the death toll since the truce to more than 1,400, according to tallies by media and humanitarian agencies. The figure illustrates violence that persists despite the agreements.</p>` +
+    `<p>In addition, Netanyahu ordered the identification and prosecution of the Israeli Defense Forces (IDF) soldiers who appear in the NAZA documentary, and directed threats at its filmmakers, Yuval Abraham and Rachel Szor. The Israeli newspaper Haaretz reported that after the October 7, 2023 attacks, rules of engagement were relaxed, which would have widened the troops’ margin for action.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The accounts of the Ramallah operation come from witnesses, Palestinian organizations and local media; the Israeli Defense Forces had not detailed the aims of the raid as of publication. The death toll figures in Gaza come from humanitarian agency tallies and have not been independently verified.</p>` +
+    `<p>With information from <a href="https://www.aljazeera.com/video/newsfeed/2026/10/13/israels-military-raids-ngo-offices-in-ramallah" target="_blank" rel="noopener noreferrer">Al Jazeera</a>, <a href="https://www.democracynow.org/2026/10/13/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> and WAFA.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/israel-redada-ong-ramallah.jpg',
+    imageCaption:
+      'Soldados israelíes durante el operativo en Ramallah, en la Cisjordania ocupada. Foto: Reuters / Ali Sawafta vía Democracy Now!',
+    categoryEs: 'Oriente Medio',
+    categoryEn: 'Middle East',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Ramallah, Cisjordania',
+    source: 'Al Jazeera / Democracy Now! / WAFA',
+    region: 'International',
+    sourceUrl: 'https://www.aljazeera.com/video/newsfeed/2026/10/13/israels-military-raids-ngo-offices-in-ramallah'
+  },
+{
+    id: '1338',
+    contentType: 'news',
+    slug: 'corea-del-sur-apunalado-centro-comercial-incheon',
+    publishedAt: '2026-10-13T16:00:00-04:00',
+    titleEs: 'Apuñalamiento en un centro comercial de Incheon, Corea del Sur: al menos diez heridos',
+    titleEn: 'Stabbing at a shopping mall in Incheon, South Korea: at least ten wounded',
+    excerptEs:
+      'Un hombre de 59 años apuñaló al menos a diez personas en el sótano de una tienda de descuento en el distrito de Namdong, Incheon. Una mujer en sus veinte sufrió un paro cardíaco. El sospechoso tenía una condena previa por intento de asesinato.',
+    excerptEn:
+      'A 59-year-old man stabbed at least ten people in the basement of a discount store in Incheon’s Namdong district. A woman in her twenties went into cardiac arrest. The suspect had a prior conviction for attempted murder.',
+    contentEs: `<h1>Apuñalamiento en un centro comercial de Incheon, Corea del Sur: al menos diez heridos</h1>` +
+    `<p class="lead"><em>Un hombre de 59 años apuñaló al menos a diez personas este martes en el sótano de una tienda de descuento en el distrito de Namdong, en Incheon, Corea del Sur, según la policía. Una mujer en sus veinte años sufrió un paro cardíaco y fue sometida a una cirugía de emergencia. El sospechoso, con una condena previa por intento de asesinato, fue detenido en el lugar.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/corea-incheon-apunalado.jpg" alt="Policía en la escena del apuñalamiento en Incheon, Corea del Sur" loading="lazy">` +
+    `<figcaption>Fuerzas de seguridad acordonan la zona tras el apuñalamiento múltiple en Incheon. Foto: AP / Im Sun-suk vía ABC News</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">10</div><div class="stat-label">Personas heridas por arma blanca</div></div>` +
+    `<div class="stat-card"><div class="stat-value">59</div><div class="stat-label">Edad del sospechoso</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2015</div><div class="stat-label">Condena previa por intento de asesinato</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Los hechos</h2>` +
+    `<p>El ataque ocurrió durante la jornada en el nivel sótano de una tienda de descuento del distrito de Namdong. El agresor, de nacionalidad surcoreana, hirió con un arma blanca a al menos diez personas antes de que la policía lo redujera y lo detuviera.</p>` +
+    `<p>Una de las víctimas, una mujer en sus veinte años, entró en paro cardíaco y fue trasladada de urgencia a un hospital, donde fue operada. Las demás personas heridas recibían atención médica al cierre de esta edición.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Pido disculpas a las víctimas y sus familias por no haber podido prevenir este hecho, pese a que el agresor estaba bajo vigilancia.”` +
+    `<cite>Representante del Ministerio de Justicia de Corea del Sur</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Un historial de violencia</h2>` +
+    `<p>Según las autoridades, el sospechoso fue condenado en 2015 por intento de asesinato y cumplió una pena de cuatro años de prisión. Desde 2019 estaba sujeto a monitoreo electrónico tras salir en libertad. El caso reavivó el debate en Corea del Sur sobre el seguimiento de personas con antecedentes graves.</p>` +
+    `<p>El Ministerio de Justicia pidió disculpas públicas. Perfiladores criminales de la policía interrogarán al detenido para determinar el móvil del ataque, que hasta el momento no fue esclarecido.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El número de heridos varió entre ocho y diez según los reportes iniciales; este artículo toma la cifra más reciente difundida por las autoridades. El móvil del ataque permanece bajo investigación y el detenido goza de la presunción de inocencia.</p>` +
+    `<p>Con información de <a href="https://apnews.com/article/south-korea-incheon-stabbing-mall-60dac2103a752add0499a4c540b61585" target="_blank" rel="noopener noreferrer">AP vía ABC News</a> y <a href="https://www.koreatimes.co.kr/www/nation/2026/10/113_391459.html" target="_blank" rel="noopener noreferrer">The Korea Times</a>.</p>`,
+    contentEn: `<h1>Stabbing at a shopping mall in Incheon, South Korea: at least ten wounded</h1>` +
+    `<p class="lead"><em>A 59-year-old man stabbed at least ten people on Tuesday in the basement of a discount store in Incheon’s Namdong district, South Korea, according to police. A woman in her twenties went into cardiac arrest and underwent emergency surgery. The suspect, with a prior conviction for attempted murder, was detained at the scene.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/corea-incheon-apunalado.jpg" alt="Police at the scene of the stabbing in Incheon, South Korea" loading="lazy">` +
+    `<figcaption>Security forces cordon off the area after the mass stabbing in Incheon. Photo: AP / Im Sun-suk via ABC News</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">10</div><div class="stat-label">People wounded by a bladed weapon</div></div>` +
+    `<div class="stat-card"><div class="stat-value">59</div><div class="stat-label">Age of the suspect</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2015</div><div class="stat-label">Prior conviction for attempted murder</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The facts</h2>` +
+    `<p>The attack took place during the day on the basement level of a discount store in the Namdong district. The assailant, a South Korean national, wounded at least ten people with a bladed weapon before police subdued and detained him.</p>` +
+    `<p>One of the victims, a woman in her twenties, went into cardiac arrest and was rushed to a hospital, where she underwent surgery. The other wounded were receiving medical care as of publication.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“I apologize to the victims and their families for not having been able to prevent this, even though the assailant was under monitoring.”` +
+    `<cite>A representative of South Korea’s Ministry of Justice</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">A history of violence</h2>` +
+    `<p>According to authorities, the suspect was convicted in 2015 of attempted murder and served a four-year prison sentence. Since 2019 he had been subject to electronic monitoring after his release. The case revived debate in South Korea about the monitoring of people with serious criminal records.</p>` +
+    `<p>The Ministry of Justice issued a public apology. Police criminal profilers will question the detainee to determine the motive for the attack, which has not yet been established.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The number of wounded ranged from eight to ten in initial reports; this article uses the most recent figure released by authorities. The motive remains under investigation and the detainee is presumed innocent.</p>` +
+    `<p>With information from <a href="https://apnews.com/article/south-korea-incheon-stabbing-mall-60dac2103a752add0499a4c540b61585" target="_blank" rel="noopener noreferrer">AP via ABC News</a> and <a href="https://www.koreatimes.co.kr/www/nation/2026/10/113_391459.html" target="_blank" rel="noopener noreferrer">The Korea Times</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-13/corea-incheon-apunalado.jpg',
+    imageCaption:
+      'Fuerzas de seguridad acordonan la zona tras el apuñalamiento múltiple en Incheon. Foto: AP / Im Sun-suk vía ABC News',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Incheon, Corea del Sur',
+    source: 'AP / The Korea Times',
+    region: 'International',
+    sourceUrl: 'https://apnews.com/article/south-korea-incheon-stabbing-mall-60dac2103a752add0499a4c540b61585'
+  },
+{
+    id: '1339',
+    contentType: 'news',
+    slug: 'evismo-marcha-la-paz-estado-excepcion-diesel',
+    publishedAt: '2026-10-13T17:00:00-04:00',
+    titleEs: 'El evismo arranca una marcha hacia La Paz bajo estado de excepción',
+    titleEn: 'Evo Morales supporters launch a march on La Paz under a state of exception',
+    excerptEs:
+      'Seguidores de Evo Morales iniciaron movilizaciones y una marcha hacia La Paz contra la eliminación del subsidio al diésel y el cierre de empresas estatales, pese al estado de excepción vigente. La Policía se desplegó en puntos clave de Cochabamba.',
+    excerptEn:
+      'Supporters of Evo Morales began protests and a march toward La Paz against the removal of the diesel subsidy and the closure of state companies, despite an ongoing state of exception. Police deployed to key points in Cochabamba.',
+    contentEs: `<h1>El evismo arranca una marcha hacia La Paz bajo estado de excepción</h1>` +
+    `<p class="lead"><em>Seguidores del expresidente Evo Morales iniciaron este martes movilizaciones y una marcha hacia La Paz en rechazo a la eliminación del subsidio al diésel y al cierre o venta de empresas estatales, desafiando el estado de excepción vigente. La Policía desplegó efectivos en puntos estratégicos de Cochabamba, entre ellos Parotani, Suticollo, Vacas y Huayllani, para evitar bloqueos en la ruta hacia la sede de gobierno.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/bolivia-evo-marcha-la-paz.jpg" alt="Movilización de seguidores de Evo Morales en Bolivia" loading="lazy">` +
+    `<figcaption>Seguidores del evismo se movilizan en Bolivia en rechazo a las medidas económicas del gobierno. Foto: La Patria (Bolivia)</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">90 días</div><div class="stat-label">Prórroga del estado de excepción</div></div>` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Puntos desplegados por la Policía en Cochabamba</div></div>` +
+    `<div class="stat-card"><div class="stat-value">15 oct.</div><div class="stat-label">Cita nacional de la COB</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">El reclamo</h2>` +
+    `<p>Los sectores afines a Morales rechazan dos medidas centrales del gobierno: la eliminación del subsidio a los hidrocarburos, en particular al diésel, y el cierre o la venta de empresas estatales. Los dirigentes advirtieron que la marcha no se detendrá aunque se mantenga la medida excepcional.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“El que quiere bloquear, quiere muerte. Vamos a hacer cumplir la ley, pero sin caer en provocaciones.”` +
+    `<cite>Autoridades del gobierno boliviano, sobre las movilizaciones</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Tensión en Cochabamba</h2>` +
+    `<p>Voceros del evismo, como Gerson Murillo y Franco García, confirmaron la movilización y señalaron posibles puntos de concentración, entre ellos Caracollo, Patacamaya y La Huachaca. La Policía anticipó un despliegue preventivo y advirtió que no permitirá bloqueos en la vía que conecta Cochabamba con La Paz.</p>` +
+    `<p>La Central Obrera Boliviana (COB) convocó a su propia cita nacional para el 15 de octubre, lo que anticipa una semana de alta tensión social. El gobierno, por su parte, insistió en que las medidas económicas son necesarias para estabilizar las cuentas fiscales.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El alcance de las movilizaciones, el número de participantes y los puntos de bloqueo pueden variar en las próximas horas. Las declaraciones de dirigentes y autoridades reflejan sus posiciones; los hechos en terreno son cambiantes y no pudieron verificarse de forma independiente en todos los casos.</p>` +
+    `<p>Con información de <a href="https://larazon.bo/nacional/2026/10/10/el-evismo-activa-protestas-desde-el-13-de-octubre-y-anuncia-una-marcha-hacia-la-paz/" target="_blank" rel="noopener noreferrer">La Razón</a> y <a href="https://lapatria.bo/" target="_blank" rel="noopener noreferrer">La Patria</a>.</p>`,
+    contentEn: `<h1>Evo Morales supporters launch a march on La Paz under a state of exception</h1>` +
+    `<p class="lead"><em>Supporters of former President Evo Morales began protests on Tuesday and launched a march toward La Paz in rejection of the removal of the diesel subsidy and the closure or sale of state companies, defying the ongoing state of exception. Police deployed officers to strategic points in Cochabamba, including Parotani, Suticollo, Vacas and Huayllani, to prevent blockades on the route to the seat of government.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-13/bolivia-evo-marcha-la-paz.jpg" alt="Mobilization of Evo Morales supporters in Bolivia" loading="lazy">` +
+    `<figcaption>Supporters of the Evo Morales movement take to the streets in Bolivia against the government’s economic measures. Photo: La Patria (Bolivia)</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">90 days</div><div class="stat-label">Extension of the state of exception</div></div>` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Points where police deployed in Cochabamba</div></div>` +
+    `<div class="stat-card"><div class="stat-value">Oct 15</div><div class="stat-label">National COB gathering</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The grievance</h2>` +
+    `<p>The sectors aligned with Morales oppose two central government measures: the removal of the fuel subsidy, particularly for diesel, and the closure or sale of state companies. Leaders warned the march will not stop even if the emergency measure remains in place.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Those who want to blockade want death. We will enforce the law, but without falling into provocations.”` +
+    `<cite>Bolivian government authorities, on the protests</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Tension in Cochabamba</h2>` +
+    `<p>Spokespeople for the Evo Morales movement, such as Gerson Murillo and Franco García, confirmed the mobilization and pointed to possible gathering points, including Caracollo, Patacamaya and La Huachaca. Police announced a preventive deployment and warned they will not allow blockades on the road linking Cochabamba and La Paz.</p>` +
+    `<p>The Bolivian Workers’ Central (COB) called its own national gathering for October 15, anticipating a week of high social tension. The government, for its part, insisted the economic measures are needed to stabilize public finances.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The scale of the protests, the number of participants and the blockade points may change in the coming hours. Statements from leaders and authorities reflect their positions; conditions on the ground are fluid and could not be independently verified in every case.</p>` +
+    `<p>With information from <a href="https://larazon.bo/nacional/2026/10/10/el-evismo-activa-protestas-desde-el-13-de-octubre-y-anuncia-una-marcha-hacia-la-paz/" target="_blank" rel="noopener noreferrer">La Razón</a> and <a href="https://lapatria.bo/" target="_blank" rel="noopener noreferrer">La Patria</a>.</p>`,
+    date: '2026-10-13',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-13/bolivia-evo-marcha-la-paz.jpg',
+    imageCaption:
+      'Seguidores del evismo se movilizan en Bolivia en rechazo a las medidas económicas del gobierno. Foto: La Patria (Bolivia)',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'La Paz, Bolivia',
+    source: 'La Razón / La Patria',
+    region: 'Bolivia',
+    sourceUrl: 'https://larazon.bo/nacional/2026/10/10/el-evismo-activa-protestas-desde-el-13-de-octubre-y-anuncia-una-marcha-hacia-la-paz/'
+  },
+
 ];
 
 export const translations = {
