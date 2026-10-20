@@ -356,28 +356,6 @@ export const portfolioItems: PortfolioItem[] = [
     techDetailsEn: ['Sony FX9 Camera', 'Prime Lenses', 'Ambient and Lavalier Microphones', 'International Field Production']
   },
   {
-    id: 'intento-golpe-estado-bolivia-2024',
-    title: 'Intento de Golpe de Estado en Bolivia 2024 — Toma de la Plaza Murillo',
-    titleEn: 'Coup Attempt in Bolivia 2024 — Plaza Murillo Takeover',
-    category: 'politica',
-    categoryLabelEs: 'Política',
-    categoryLabelEn: 'Politics',
-    roleEs: 'Editor de Video Post Productor',
-    roleEn: 'Video Editor Post Producer',
-    year: '2024',
-    clientEs: 'Empresa Estatal de Televisión Bolivia TV',
-    clientEn: 'Empresa Estatal de Televisión Bolivia TV',
-    descriptionEs: 'Cobertura del intento de golpe de Estado en Bolivia del 26 de junio de 2024, cuando un grupo de miembros de las Fuerzas Armadas de Bolivia, liderados por el entonces comandante general del Ejército, Juan José Zúñiga, tomaron la Plaza Murillo, plaza principal de la ciudad de La Paz donde se encuentra el palacio Quemado, antigua sede del gobierno boliviano. Registro en primera línea del despliegue militar, la represión y la respuesta ciudadana.',
-    descriptionEn: 'Coverage of the June 26, 2024 coup attempt in Bolivia, when a group of Armed Forces members led by then Army commander Juan José Zúñiga took over Plaza Murillo, the main square in La Paz where the Quemado Palace, former seat of the Bolivian government, is located. Frontline recording of the military deployment, repression, and citizen response.',
-    imageUrl: 'https://img.youtube.com/vi/INagReojtOM/hqdefault.jpg',
-    images: [
-      'https://img.youtube.com/vi/INagReojtOM/hqdefault.jpg'
-    ],
-    videoUrl: 'https://www.youtube.com/embed/INagReojtOM',
-    techDetailsEs: ['Cámara Sony FX9', 'Lente Zoom Gran Angular', 'Micrófono de Ambiente', 'Transmisión IP en Vivo', 'Equipo de Protección Personal'],
-    techDetailsEn: ['Sony FX9 Camera', 'Wide-Angle Zoom Lens', 'Ambient Microphone', 'Live IP Transmission', 'Personal Protective Equipment']
-  },
-  {
     id: 'documental-tipnis',
     title: 'Documental en el TIPNIS: Médico "Mi Salud"',
     titleEn: 'TIPNIS Documentary: "Mi Salud" Doctor',
@@ -31591,6 +31569,722 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     sourceUrl: 'https://larazon.bo/nacional/2026/10/10/el-evismo-activa-protestas-desde-el-13-de-octubre-y-anuncia-una-marcha-hacia-la-paz/'
   },
 
+{
+    id: '1340',
+    contentType: 'news',
+    slug: 'francia-toques-de-queda-disturbios-macron-louvre',
+    publishedAt: '2026-10-19T10:00:00-04:00',
+    titleEs: 'Francia decreta toques de queda y bloquea el Louvre tras una ola de disturbios',
+    titleEn: 'France imposes curfews and shuts the Louvre after a wave of riots',
+    excerptEs:
+      'El primer ministro Sébastien Lecornu anunció toques de queda parciales en París, Lille y Lyon tras un fin de semana de violencia. Hubo más de 2.500 detenidos, casi 1.000 policías heridos y al menos 3.000 comercios dañados.',
+    excerptEn:
+      'Prime Minister Sébastien Lecornu announced partial curfews in Paris, Lille and Lyon after a weekend of violence. More than 2,500 people were arrested, nearly 1,000 officers injured and at least 3,000 shops damaged.',
+    contentEs: `<h1>Francia decreta toques de queda y bloquea el Louvre tras una ola de disturbios</h1>` +
+    `<p class="lead"><em>Francia anunció toques de queda parciales en París y otras ciudades este lunes 19 de octubre, después de que las protestas por el alto costo de vida del fin de semana derivaran en algunos de los peores episodios de violencia callejera en años. El primer ministro Sébastien Lecornu no descartó imponer un estado de emergencia, mientras estudiantes bloqueaban la entrada del Museo del Louvre y el gobierno intentaba contener el malestar social.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/francia-protestas-curfews.jpg" alt="Protestas por el costo de vida en Francia" loading="lazy">` +
+    `<figcaption>Las protestas por el costo de vida derivaron en disturbios en París y otras ciudades francesas. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">2.500+</div><div class="stat-label">Personas detenidas</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1.000</div><div class="stat-label">Policías heridos</div></div>` +
+    `<div class="stat-card"><div class="stat-value">3.000</div><div class="stat-label">Comercios dañados</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Toques de queda y museos cerrados</h2>` +
+    `<p>Las autoridades informaron que los toques de queda parciales regirán desde la noche del lunes hasta la mañana del martes en varias ciudades, entre ellas París, Lille y Lyon, con el fin de proteger los comercios. En la capital se ordenó un toque de queda a partir de las 23:00 y se prohibieron las manifestaciones desde las 20:00. En Marsella se vetaron las concentraciones públicas entre el mediodía y las 20:00.</p>` +
+    `<p>El Museo del Louvre permaneció cerrado porque un grupo de estudiantes bloqueó su entrada. La embajada de Estados Unidos en París pidió a sus ciudadanos evitar las manifestaciones.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Estoy absolutamente decidido a restablecer el orden público.”` +
+    `<cite>Sébastien Lecornu, primer ministro de Francia</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">El fin de semana más violento</h2>` +
+    `<p>Unas 500.000 personas se movilizaron en todo el país el sábado para denunciar el alza del costo de vida, el punto culminante de cuatro semanas de protestas que comenzaron con estudiantes que exigían mejores condiciones en los colegios. La jornada derivó en saqueos, incendios de autos y vidrieras destrozadas.</p>` +
+    `<p>Las autoridades reportaron más de 2.500 detenidos y casi 1.000 miembros de las fuerzas de seguridad heridos. También hubo manifestantes lesionados: a uno le estalló la mano por una granada de control de multitudes de la policía. Al menos 3.000 comercios fueron dañados, con pérdidas de cientos de millones de euros.</p>` +
+    `<h2 class="report-chapter">Presión sobre el gobierno</h2>` +
+    `<p>El ministro del Interior, Laurent Nuñez, admitió que la policía había “perdido el control” y ofreció su renuncia, que el presidente Emmanuel Macron rechazó. Macron, que se encuentra en una gira por Estados de Medio Oriente, condenó el domingo la violencia “desenfrenada” y la atribuyó a “grupos de ultraizquierda” infiltrados. La oposición le criticó que viajara al exterior en medio de la crisis interna.</p>` +
+    `<p>Los organizadores convocaron a una nueva jornada de protestas para el 24 de octubre. Los disturbios estallan a seis meses de las elecciones que definirán al sucesor de Macron tras una década de gobierno centrista. La Unión Europea calificó la violencia de “inaceptable”, pero advirtió que el derecho a la protesta pacífica “debe protegerse”; Alemania actualizó sus recomendaciones de viaje.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de detenidos, heridos y daños materiales provienen de las autoridades francesas y de estimaciones de prensa, y pueden variar. La situación en las ciudades es cambiante y las medidas de toque de queda podrían ampliarse en los próximos días.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>, <a href="https://www.lemonde.fr/en/france/article/2026/10/19/prime-minister-calls-for-local-curfews-as-france-grapples-with-unrest_6758795_8.html" target="_blank" rel="noopener noreferrer">Le Monde</a> y AFP.</p>`,
+    contentEn: `<h1>France imposes curfews and shuts the Louvre after a wave of riots</h1>` +
+    `<p class="lead"><em>France announced partial curfews in Paris and other cities on Monday, October 19, after weekend protests over the high cost of living degenerated into some of the worst street violence in years. Prime Minister Sébastien Lecornu did not rule out imposing a state of emergency, as students blocked the entrance to the Louvre Museum and the government tried to contain the social unrest.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/francia-protestas-curfews.jpg" alt="Protests over the cost of living in France" loading="lazy">` +
+    `<figcaption>Protests over the cost of living turned into riots in Paris and other French cities. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">2,500+</div><div class="stat-label">People arrested</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1,000</div><div class="stat-label">Officers injured</div></div>` +
+    `<div class="stat-card"><div class="stat-value">3,000</div><div class="stat-label">Shops damaged</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Curfews and closed museums</h2>` +
+    `<p>Authorities said the partial curfews would run from Monday evening to Tuesday morning in several cities, including Paris, Lille and Lyon, to protect businesses. In the capital, a curfew was ordered from 11 p.m. and demonstrations were banned from 8 p.m. In Marseille, public gatherings were banned from noon to 8 p.m.</p>` +
+    `<p>The Louvre Museum remained closed because a group of students blocked its entrance. The U.S. Embassy in Paris urged its citizens to avoid the demonstrations.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“I am absolutely determined to restore public order.”` +
+    `<cite>Sébastien Lecornu, Prime Minister of France</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The most violent weekend</h2>` +
+    `<p>Some 500,000 people took to the streets across the country on Saturday to denounce the rising cost of living, the culmination of four weeks of protests that began with students demanding better conditions in high schools. The day descended into looting, burned-out cars and smashed store windows.</p>` +
+    `<p>Authorities reported more than 2,500 arrests and nearly 1,000 members of the security forces injured. There were also injured protesters: one had a hand blown off by a police crowd-control grenade. At least 3,000 shops were damaged, with losses running into the hundreds of millions of euros.</p>` +
+    `<h2 class="report-chapter">Pressure on the government</h2>` +
+    `<p>Interior Minister Laurent Nuñez admitted that police had “lost control” and offered his resignation, which President Emmanuel Macron refused. Macron, who is on a tour of Middle Eastern states, condemned the “unbridled” violence on Sunday and blamed it on infiltrated “far-left groups.” The opposition criticized him for traveling abroad amid the domestic crisis.</p>` +
+    `<p>Organizers called a new day of protests for October 24. The unrest erupts six months before elections that will decide Macron’s successor after a decade of centrist rule. The European Union called the violence “unacceptable” but warned that the right to peaceful protest “must be protected”; Germany updated its travel advice.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The figures on arrests, injuries and material damage come from French authorities and press estimates, and may vary. The situation in the cities is changing and curfew measures could be expanded in the coming days.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>, <a href="https://www.lemonde.fr/en/france/article/2026/10/19/prime-minister-calls-for-local-curfews-as-france-grapples-with-unrest_6758795_8.html" target="_blank" rel="noopener noreferrer">Le Monde</a> and AFP.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-19/francia-protestas-curfews.jpg',
+    imageCaption:
+      'Las protestas por el costo de vida derivaron en disturbios en París y otras ciudades francesas. Foto: Democracy Now!',
+    categoryEs: 'Europa',
+    categoryEn: 'Europe',
+    enableComments: true,
+    featured: true,
+    breaking: true,
+    views: 1,
+    location: 'París, Francia',
+    source: 'Democracy Now! / Le Monde / AFP',
+    region: 'International',
+    sourceUrl: 'https://www.lemonde.fr/en/france/article/2026/10/19/prime-minister-calls-for-local-curfews-as-france-grapples-with-unrest_6758795_8.html'
+  },
+{
+    id: '1341',
+    contentType: 'news',
+    slug: 'eeuu-millones-protestas-no-kings-elecciones-legislativas',
+    publishedAt: '2026-10-19T09:30:00-04:00',
+    titleEs: 'EE.UU.: millones marchan en las protestas “No Kings” antes de las elecciones legislativas',
+    titleEn: 'US: millions march in “No Kings” protests ahead of the midterms',
+    excerptEs:
+      'Las manifestaciones “No Kings” se realizaron en más de 3.000 puntos de los 50 estados. La coalición busca movilizar votantes y denunció el cierre temporal de su cuenta de Instagram, que Meta atribuyó a un “error”.',
+    excerptEn:
+      'The “No Kings” demonstrations took place at more than 3,000 locations across all 50 states. The coalition seeks to mobilize voters and denounced the temporary shutdown of its Instagram account, which Meta attributed to an “error.”',
+    contentEs: `<h1>EE.UU.: millones marchan en las protestas “No Kings” antes de las elecciones legislativas</h1>` +
+    `<p class="lead"><em>Millones de personas salieron a las calles en más de 3.000 puntos de los 50 estados de Estados Unidos este sábado para participar en una nueva jornada de protestas “No Kings”, convocada a menos de tres semanas de las elecciones legislativas de medio mandato. La coalición organizadora denunció que su cuenta de Instagram fue bloqueada temporalmente y presentó el cierre como un obstáculo a la movilización electoral.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/eeuu-no-kings-protestas.jpg" alt="Protestas No Kings en Estados Unidos" loading="lazy">` +
+    `<figcaption>Manifestantes participan en una marcha “No Kings” en Estados Unidos. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Una movilización con mirada electoral</h2>` +
+    `<p>Las protestas, coordinadas bajo el lema “No Kings”, combinaron la marcha con tareas de defensa del voto y monitoreo de elecciones. Los organizadores dijeron que el objetivo central es movilizar a los votantes antes de los comicios del 3 de noviembre y contrarrestar la influencia política que atribuyen al presidente Donald Trump.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“No es solo una protesta, es una forma de votar con el cuerpo antes de votar con la papeleta.”` +
+    `<cite>Olivia Pope, vocera de la organización en Seattle</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">El cierre de la cuenta de Instagram</h2>` +
+    `<p>La coalición No Kings denunció que su cuenta de Instagram permaneció desactivada durante varias horas en plena campaña. Meta respondió que se trató de un “error” y que la restauración ya se había completado, según reportes de medios estadounidenses.</p>` +
+    `<p>Los organizadores exigieron una explicación formal y advirtieron que limitar la comunicación sobre el proceso electoral en medio de una contienda “no es aceptable”. La empresa no detalló la causa del bloqueo ni si afectó a otras cuentas.</p>` +
+    `<h2 class="report-chapter">Un movimiento que se repite</h2>` +
+    `<p>Las marchas “No Kings” se han convertido en una de las mayores expresiones de oposición desde el inicio de la segunda administración de Trump. Según la coalición, las convocatorias anteriores reunieron a millones de personas en todo el país y esta edición buscó consolidar una estructura de voluntarios para el día de la votación.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El alcance de la asistencia corresponde a estimaciones de los organizadores y de la prensa; no existen conteos oficiales de manifestantes. La versión de Meta sobre el bloqueo de la cuenta es la posición de la empresa y no ha sido confirmada de forma independiente.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>US: millions march in “No Kings” protests ahead of the midterms</h1>` +
+    `<p class="lead"><em>Millions of people took to the streets at more than 3,000 locations across all 50 US states on Saturday for a new round of “No Kings” protests, called less than three weeks before the midterm congressional elections. The organizing coalition said its Instagram account was temporarily shut down and framed the shutdown as an obstacle to electoral mobilization.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/eeuu-no-kings-protestas.jpg" alt="No Kings protests in the United States" loading="lazy">` +
+    `<figcaption>Demonstrators take part in a “No Kings” march in the United States. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">A mobilization with an eye on the ballot</h2>` +
+    `<p>The protests, coordinated under the slogan “No Kings,” combined marching with election-defense and poll-monitoring work. Organizers said the central goal is to mobilize voters ahead of the November 3 election and counter the political influence they attribute to President Donald Trump.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“This is not just a protest, it is a way of voting with your body before you vote with a ballot.”` +
+    `<cite>Olivia Pope, organizing spokesperson in Seattle</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The Instagram shutdown</h2>` +
+    `<p>The No Kings coalition said its Instagram account remained deactivated for several hours in the middle of the campaign. Meta responded that it was an “error” and that the account had already been restored, according to US media reports.</p>` +
+    `<p>Organizers demanded a formal explanation and warned that limiting communication about the electoral process in the middle of a race “is not acceptable.” The company did not detail the cause of the shutdown or whether other accounts were affected.</p>` +
+    `<h2 class="report-chapter">A movement that keeps returning</h2>` +
+    `<p>The “No Kings” marches have become one of the largest expressions of opposition since the start of Trump’s second administration. According to the coalition, earlier rallies drew millions of people nationwide, and this edition sought to consolidate a volunteer structure for voting day.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Attendance figures are estimates from organizers and the press; there are no official counts of protesters. Meta’s version of the account shutdown is the company’s position and has not been independently confirmed.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/eeuu-no-kings-protestas.jpg',
+    imageCaption:
+      'Manifestantes participan en una marcha “No Kings” en Estados Unidos. Foto: Democracy Now!',
+    categoryEs: 'Política',
+    categoryEn: 'Politics',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Estados Unidos',
+    source: 'Democracy Now!',
+    region: 'US',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
+{
+    id: '1342',
+    contentType: 'news',
+    slug: 'guatemala-asesinan-exfiscal-solorzano-foppa-anticorrupcion',
+    publishedAt: '2026-10-19T09:00:00-04:00',
+    titleEs: 'Guatemala: asesinan al exfiscal Juan Francisco Solórzano Foppa, azote de la corrupción',
+    titleEn: 'Guatemala: former prosecutor Juan Francisco Solórzano Foppa, a scourge of corruption, is assassinated',
+    excerptEs:
+      'El abogado y exjefe de la Superintendencia de Administración Tributaria fue baleado el sábado mientras jugaba fútbol en Ciudad de Guatemala. Otra persona murió y cinco resultaron heridas; la policía detuvo a dos sospechosos y el presidente Bernardo Arévalo condenó el crimen.',
+    excerptEn:
+      'The lawyer and former head of the tax authority was shot on Saturday while playing football in Guatemala City. Another person died and five were wounded; police detained two suspects and President Bernardo Arévalo condemned the killing.',
+    contentEs: `<h1>Guatemala: asesinan al exfiscal Juan Francisco Solórzano Foppa, azote de la corrupción</h1>` +
+    `<p class="lead"><em>El abogado y exfiscal Juan Francisco Solórzano Foppa, quien desde distintos cargos públicos combatió a las pandillas y a las redes de corrupción, fue asesinado a tiros el sábado 17 de octubre mientras jugaba fútbol en un campo de Ciudad de Guatemala. En el ataque murió otra persona y cinco resultaron heridas. El crimen conmocionó al país y llevó al presidente Bernardo Arévalo a exigir una investigación a fondo.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/guatemala-abogado-antricorrupcion.jpg" alt="Reacciones tras el asesinato del exfiscal en Guatemala" loading="lazy">` +
+    `<figcaption>El asesinato del exfiscal Juan Francisco Solórzano Foppa ocurrió el sábado en un campo de fútbol de la capital guatemalteca. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Quién era Solórzano Foppa</h2>` +
+    `<p>Solórzano Foppa, de 43 años, era abogado y egresado de la Universidad Rafael Landívar. Trabajó más de una década en el Ministerio Público, donde llegó a dirigir unidades de combate contra el crimen organizado, y entre 2016 y 2018 encabezó la Superintendencia de Administración Tributaria (SAT) durante el gobierno de Jimmy Morales.</p>` +
+    `<p>Tras dejar el cargo se convirtió en una voz crítica de las estructuras que él mismo denunciaba: cuestionó la gestión de la fiscal general Consuelo Porras, al expresidente Alejandro Giammattei y a sectores que describía como un “pacto corrupto”. Defendió públicamente al periodista José Rubén Zamora, condenado durante ese periodo.</p>` +
+    `<h2 class="report-chapter">El ataque</h2>` +
+    `<p>Según los primeros reportes, Solórzano Foppa fue atacado a balazos en la mañana del sábado mientras jugaba fútbol en el campo Marte, en la zona 5 de Ciudad de Guatemala, en compañía de familiares y amigos. En el ataque murió Gustavo Aguilar Gamarro y cinco personas más quedaron heridas.</p>` +
+    `<p>La Policía Nacional Civil informó la detención de dos sospechosos, señalados como hermanos, uno de ellos con formación militar de tipo kaibil. Días antes, el crimen motivó que las autoridades anunciaran la revisión de protocolos de seguridad y el uso de cámaras corporales en los agentes.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Guatemala no puede seguir siendo un país donde matar a quien denuncia sale barato. Vamos a llegar hasta el fondo.”` +
+    `<cite>Bernardo Arévalo, presidente de Guatemala</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Reacciones y contexto</h2>` +
+    `<p>El velorio se realizó el lunes 19 de octubre. La embajada de Estados Unidos condenó el asesinato y pidió que se esclarezca. Organizaciones de derechos humanos advirtieron sobre el riesgo que enfrenta el periodismo y la defensa anticorrupción en el país.</p>` +
+    `<p>El crimen ocurrió en un momento de fuerte tensión: apenas días antes habían trascendido versiones sobre la posible participación de la CIA en una operación en Huité, Zacapa, en la que murieron ocho civiles a fines de septiembre. El gobierno no ha vinculado ambos hechos.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El número y la identidad de los detenidos, así como el móvil del crimen, no han sido confirmados oficialmente. Las versiones sobre una presunta implicación de agencias extranjeras en el caso de Huité provienen de reportes de prensa y no cuentan con confirmación de las autoridades guatemaltecas.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>, <a href="https://www.dw.com/es/exfiscal-juan-francisco-sol%C3%B3rzano-foppa-es-asesinado-en-guatemala-en-un-campo-de-f%C3%BAtbol/a-79689750" target="_blank" rel="noopener noreferrer">DW</a> y AP.</p>`,
+    contentEn: `<h1>Guatemala: former prosecutor Juan Francisco Solórzano Foppa, a scourge of corruption, is assassinated</h1>` +
+    `<p class="lead"><em>Lawyer and former prosecutor Juan Francisco Solórzano Foppa, who fought gangs and corruption networks from various public posts, was shot dead on Saturday, October 17, while playing football on a field in Guatemala City. Another person died in the attack and five were wounded. The killing shocked the country and prompted President Bernardo Arévalo to demand a thorough investigation.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/guatemala-abogado-antricorrupcion.jpg" alt="Reaction after the former prosecutor's assassination in Guatemala" loading="lazy">` +
+    `<figcaption>The assassination of former prosecutor Juan Francisco Solórzano Foppa took place on Saturday on a football field in the Guatemalan capital. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Who Solórzano Foppa was</h2>` +
+    `<p>Solórzano Foppa, 43, was a lawyer and a graduate of Rafael Landívar University. He worked for more than a decade in the Attorney General’s Office, where he came to lead units fighting organized crime, and from 2016 to 2018 he headed the tax authority (SAT) during the government of Jimmy Morales.</p>` +
+    `<p>After leaving office he became a critic of the very structures he had denounced: he questioned the management of Attorney General Consuelo Porras, former president Alejandro Giammattei and the sectors he described as a “corrupt pact.” He publicly defended journalist José Rubén Zamora, convicted during that period.</p>` +
+    `<h2 class="report-chapter">The attack</h2>` +
+    `<p>According to early reports, Solórzano Foppa was shot on Saturday morning while playing football at Campo Marte, in zone 5 of Guatemala City, in the company of relatives and friends. Gustavo Aguilar Gamarro died in the attack and five other people were wounded.</p>` +
+    `<p>The National Civil Police reported the arrest of two suspects, described as brothers, one of them with kaibil-type military training. Days after the killing, authorities announced a review of security protocols and the use of body cameras by officers.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Guatemala cannot remain a country where killing those who speak out comes cheap. We will get to the bottom of this.”` +
+    `<cite>Bernardo Arévalo, President of Guatemala</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Reactions and context</h2>` +
+    `<p>The wake was held on Monday, October 19. The U.S. Embassy condemned the killing and called for it to be solved. Human rights organizations warned about the risk facing journalism and anti-corruption work in the country.</p>` +
+    `<p>The killing occurred at a moment of high tension: only days earlier, reports had emerged about a possible CIA role in an operation in Huité, Zacapa, in which eight civilians died in late September. The government has not linked the two events.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The number and identity of the detainees, as well as the motive, have not been officially confirmed. Claims of possible foreign agency involvement in the Huité case come from press reports and have no confirmation from Guatemalan authorities.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>, <a href="https://www.dw.com/es/exfiscal-juan-francisco-sol%C3%B3rzano-foppa-es-asesinado-en-guatemala-en-un-campo-de-f%C3%BAtbol/a-79689750" target="_blank" rel="noopener noreferrer">DW</a> and AP.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-19/guatemala-abogado-antricorrupcion.jpg',
+    imageCaption:
+      'El asesinato del exfiscal Juan Francisco Solórzano Foppa ocurrió el sábado en un campo de fútbol de la capital guatemalteca. Foto: Democracy Now!',
+    categoryEs: 'América Latina',
+    categoryEn: 'Latin America',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Ciudad de Guatemala, Guatemala',
+    source: 'Democracy Now! / DW / AP',
+    region: 'International',
+    sourceUrl: 'https://www.dw.com/es/exfiscal-juan-francisco-sol%C3%B3rzano-foppa-es-asesinado-en-guatemala-en-un-campo-de-f%C3%BAtbol/a-79689750'
+  },
+{
+    id: '1343',
+    contentType: 'news',
+    slug: 'cisjordania-colonos-ataque-cosecha-olivos-periodista-wapo',
+    publishedAt: '2026-10-19T08:30:00-04:00',
+    titleEs: 'Cisjordania: colonos atacan la cosecha de olivos y golpean a una fotoperiodista del Washington Post',
+    titleEn: 'West Bank: settlers attack the olive harvest and beat a Washington Post photojournalist',
+    excerptEs:
+      'Decenas de colonos enmascarados agredieron a palestinos durante la cosecha de olivos y atacaron a la fotoperiodista Heidi Levine y a diplomáticos europeos. El embajador de EE.UU., Mike Huckabee, calificó la agresión de “terrorismo”.',
+    excerptEn:
+      'Dozens of masked settlers assaulted Palestinians during the olive harvest and attacked photojournalist Heidi Levine and European diplomats. U.S. Ambassador Mike Huckabee called the assault “terrorism.”',
+    contentEs: `<h1>Cisjordania: colonos atacan la cosecha de olivos y golpean a una fotoperiodista del Washington Post</h1>` +
+    `<p class="lead"><em>Decenas de colonos israelíes, muchos de ellos enmascarados, atacaron durante el fin de semana la cosecha de olivos en aldeas palestinas de Cisjordania y agredieron a periodistas y diplomáticos, en una escalada de violencia coordinada que dejó decenas de palestinos heridos. La fotoperiodista del Washington Post Heidi Levine fue golpeada durante más de diez minutos y permanece hospitalizada.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/cisjordania-colonos-periodista.jpg" alt="Colonos israelíes durante un ataque en Cisjordania" loading="lazy">` +
+    `<figcaption>Colonos israelíes atacaron la cosecha de olivos en aldeas palestinas de Cisjordania. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">La agresión a la prensa</h2>` +
+    `<p>El viernes, en la aldea de Abu Falah, al menos 80 colonos enmascarados arremetieron contra campesinos y voluntarios que participaban en la cosecha de olivos. Entre los agredidos estaba Heidi Levine, fotoperiodista del Washington Post, a quien los atacantes golpearon durante más de diez minutos. Le robaron el pasaporte, el teléfono, la cartera y parte del equipo fotográfico, y fue hospitalizada con heridas graves, entre ellas una lesión por arma blanca.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Vinieron directamente a por mí. Nunca en veinte años de cobertura había vivido algo así.”` +
+    `<cite>Heidi Levine, fotoperiodista del Washington Post, desde un hospital de Ramala</cite>` +
+    `</blockquote>` +
+    `<p>El embajador de Estados Unidos en Israel, Mike Huckabee, calificó la agresión de “terrorismo” y pidió que los responsables sean procesados. La policía israelí informó después que había detenido a diez sospechosos en relación con los hechos.</p>` +
+    `<h2 class="report-chapter">Diplomáticos también agredidos</h2>` +
+    `<p>El sábado, en otra zona de Cisjordania, colonos atacaron a diplomáticos de Bélgica, Francia y Polonia junto a un alcalde francés que acompañaban tareas de observación.</p>` +
+    `<p>Según testimonios recogidos por medios internacionales, las fuerzas israelíes presentes se pusieron del lado de los colonos y lanzaron gases lacrimógenos contra los palestinos que intentaban defenderse.</p>` +
+    `<h2 class="report-chapter">Negación y contexto electoral</h2>` +
+    `<p>El primer ministro israelí, Benjamin Netanyahu, minimizó los hechos y los atribuyó a “titulares sensacionalistas”, mientras avanzan los preparativos para las elecciones legislativas del 27 de octubre, en las que el presidente estadounidense Donald Trump respaldó a Netanyahu el domingo.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La identidad y la cifra de detenidos, así como la calificación de las agresiones, no han sido confirmadas de forma independiente por las autoridades israelíes. El estado de salud de la periodista puede variar; la información disponible proviene de colegas y del propio diario.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>West Bank: settlers attack the olive harvest and beat a Washington Post photojournalist</h1>` +
+    `<p class="lead"><em>Dozens of Israeli settlers, many of them masked, attacked the olive harvest in Palestinian villages in the West Bank over the weekend and assaulted journalists and diplomats, in a coordinated escalation of violence that left dozens of Palestinians wounded. Washington Post photojournalist Heidi Levine was beaten for more than ten minutes and remains hospitalized.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/cisjordania-colonos-periodista.jpg" alt="Israeli settlers during an attack in the West Bank" loading="lazy">` +
+    `<figcaption>Israeli settlers attacked the olive harvest in Palestinian villages in the West Bank. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The assault on the press</h2>` +
+    `<p>On Friday, in the village of Abu Falah, at least 80 masked settlers attacked farmers and volunteers taking part in the olive harvest. Among those assaulted was Washington Post photojournalist Heidi Levine, whom the attackers beat for more than ten minutes. They stole her passport, phone, wallet and some of her camera gear; she was hospitalized with serious injuries, including a stab wound.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“They came straight for me. In twenty years of covering the region I had never experienced anything like this.”` +
+    `<cite>Heidi Levine, Washington Post photojournalist, from a hospital in Ramallah</cite>` +
+    `</blockquote>` +
+    `<p>U.S. Ambassador to Israel Mike Huckabee called the assault “terrorism” and called for those responsible to be prosecuted. Israeli police later said they had detained ten suspects in connection with the events.</p>` +
+    `<h2 class="report-chapter">Diplomats attacked as well</h2>` +
+    `<p>On Saturday, in another part of the West Bank, settlers attacked diplomats from Belgium, France and Poland along with a French mayor who were accompanying monitoring work.</p>` +
+    `<p>According to testimony gathered by international media, Israeli forces present sided with the settlers and fired tear gas at Palestinians trying to defend themselves.</p>` +
+    `<h2 class="report-chapter">Denial and electoral context</h2>` +
+    `<p>Israeli Prime Minister Benjamin Netanyahu played down the events and attributed them to “sensational headlines,” as preparations advance for the October 27 parliamentary elections, in which U.S. President Donald Trump endorsed Netanyahu on Sunday.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The identity and number of detainees, as well as the characterization of the assaults, have not been independently confirmed by Israeli authorities. The journalist’s health may change; available information comes from colleagues and from the newspaper itself.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/cisjordania-colonos-periodista.jpg',
+    imageCaption:
+      'Colonos israelíes atacaron la cosecha de olivos en aldeas palestinas de Cisjordania. Foto: Democracy Now!',
+    categoryEs: 'Oriente Medio',
+    categoryEn: 'Middle East',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Cisjordania',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
+{
+    id: '1344',
+    contentType: 'news',
+    slug: 'gaza-entierro-masivo-cuerpos-escombros-onu-recorta-ayuda',
+    publishedAt: '2026-10-19T08:00:00-04:00',
+    titleEs: 'Gaza: entierro masivo de 75 cuerpos hallados entre los escombros y la ONU recorta la ayuda alimentaria',
+    titleEn: 'Gaza: mass burial for 75 bodies found in the rubble as the UN cuts food aid',
+    excerptEs:
+      'Los restos de 75 palestinos fueron sepultados en una ceremonia colectiva mientras las familias siguen buscando a sus desaparecidos bajo los escombros. El Programa Mundial de Alimentos anunció recortes que reducen la asistencia mensual de 1,6 a 1,1 millones de personas.',
+    excerptEn:
+      'The remains of 75 Palestinians were buried in a collective ceremony while families keep searching for the missing under the rubble. The World Food Programme announced cuts that reduce monthly assistance from 1.6 million to 1.1 million people.',
+    contentEs: `<h1>Gaza: entierro masivo de 75 cuerpos hallados entre los escombros y la ONU recorta la ayuda alimentaria</h1>` +
+    `<p class="lead"><em>Los restos de 75 palestinos recuperados entre los escombros fueron sepultados este domingo 18 de octubre en una ceremonia colectiva en Gaza, en medio del dolor de familias que siguen buscando a sus desaparecidos. Al mismo tiempo, Naciones Unidas anunció un recorte drástico de la ayuda alimentaria por falta de fondos, una decisión que afectará a cientos de miles de personas.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/gaza-funeral-masivo-escombros.jpg" alt="Entierro colectivo en Gaza" loading="lazy">` +
+    `<figcaption>Familias palestinas sepultan a víctimas recuperadas entre los escombros en Gaza. Foto: Anadolu vía Reuters Connect / Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">La búsqueda de los desaparecidos</h2>` +
+    `<p>Los cuerpos fueron exhumados durante los trabajos de remoción de escombros de edificios destruidos. Decenas de familias acudieron al entierro colectivo, muchas de ellas sin haber logrado identificar plenamente a sus parientes ni conocer la suerte de otros familiares aún no localizados.</p>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">75</div><div class="stat-label">Cuerpos sepultados</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1,6 M</div><div class="stat-label">Personas asistidas al mes</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1,1 M</div><div class="stat-label">Asistencia tras el recorte</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Recorte de la ayuda alimentaria</h2>` +
+    `<p>El Programa Mundial de Alimentos (PMA) informó que reducirá sus operaciones en Gaza debido a un déficit de financiamiento. La asistencia mensual bajará de 1,6 millones de beneficiarios a cerca de 1,1 millones, según la agencia.</p>` +
+    `<p>La ONU advirtió que dos tercios de la población de Gaza se encuentra en niveles de crisis de inseguridad alimentaria, con acceso limitado a alimentos frescos, agua potable y atención médica.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Cada recorte en la ayuda se traduce directamente en familias que comen una vez al día o menos.”` +
+    `<cite>Funcionario humanitario del PMA en Gaza</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Un contexto humanitario crítico</h2>` +
+    `<p>La ceremonia se produjo mientras continúan las tareas de remoción de escombros y la atención a los heridos, en un territorio con infraestructura sanitaria y habitacional gravemente dañada.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de víctimas y de personas desplazadas o desaparecidas varían según las fuentes y suelen actualizarse a medida que avanzan las labores de rescate. Los datos del recorte corresponden a lo informado por el PMA y la ONU.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Gaza: mass burial for 75 bodies found in the rubble as the UN cuts food aid</h1>` +
+    `<p class="lead"><em>The remains of 75 Palestinians recovered from the rubble were buried this Sunday, October 18, in a collective ceremony in Gaza, amid the grief of families still searching for the missing. At the same time, the United Nations announced a drastic cut in food aid due to a funding shortfall, a decision that will affect hundreds of thousands of people.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/gaza-funeral-masivo-escombros.jpg" alt="Collective burial in Gaza" loading="lazy">` +
+    `<figcaption>Palestinian families bury victims recovered from the rubble in Gaza. Photo: Anadolu via Reuters Connect / Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The search for the missing</h2>` +
+    `<p>The bodies were exhumed during rubble-removal work on destroyed buildings. Dozens of families attended the collective burial, many of them without having fully identified their relatives or learned the fate of other family members still unaccounted for.</p>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">75</div><div class="stat-label">Bodies buried</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1.6 M</div><div class="stat-label">People assisted monthly</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1.1 M</div><div class="stat-label">Assistance after cuts</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">Cut to food aid</h2>` +
+    `<p>The World Food Programme (WFP) said it will scale back its operations in Gaza because of a funding deficit. Monthly assistance will fall from 1.6 million beneficiaries to about 1.1 million, according to the agency.</p>` +
+    `<p>The UN warned that two-thirds of Gaza’s population is at crisis levels of food insecurity, with limited access to fresh food, clean water and medical care.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Every cut to aid translates directly into families eating once a day or less.”` +
+    `<cite>A WFP humanitarian official in Gaza</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">A critical humanitarian context</h2>` +
+    `<p>The ceremony took place as rubble-removal work and care for the wounded continue, in a territory whose health and housing infrastructure has been severely damaged.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Casualty, displacement and missing-person figures vary by source and are often updated as rescue work advances. The figures on the cuts are those reported by the WFP and the UN.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/gaza-funeral-masivo-escombros.jpg',
+    imageCaption:
+      'Familias palestinas sepultan a víctimas recuperadas entre los escombros en Gaza. Foto: Anadolu vía Reuters Connect / Democracy Now!',
+    categoryEs: 'Oriente Medio',
+    categoryEn: 'Middle East',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Gaza',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
+{
+    id: '1345',
+    contentType: 'news',
+    slug: 'ucrania-rusia-ataques-exencion-sanciones-trump',
+    publishedAt: '2026-10-19T07:30:00-04:00',
+    titleEs: 'Ucrania y Rusia intercambian ataques masivos tras la exención de sanciones de Trump a Moscú',
+    titleEn: 'Ukraine and Russia trade massive attacks after Trump waives sanctions on Moscow',
+    excerptEs:
+      'Ucrania lanzó más de 1.000 drones contra 15 regiones rusas y Moscú respondió con una ofensiva que dejó al menos una muerta y más de 500.000 hogares sin electricidad en Kyiv. La exención de sanciones ordenada por Trump dividió al Senado.',
+    excerptEn:
+      'Ukraine launched more than 1,000 drones against 15 Russian regions and Moscow responded with an offensive that left at least one woman dead and more than 500,000 households without power in Kyiv. Trump’s waiver divided the Senate.',
+    contentEs: `<h1>Ucrania y Rusia intercambian ataques masivos tras la exención de sanciones de Trump a Moscú</h1>` +
+    `<p class="lead"><em>Ucrania y Rusia intercambiaron ataques a gran escala durante el fin de semana, con drones ucranianos sobre 15 regiones rusas y una ofensiva rusa contra Kyiv que dejó al menos una persona muerta y más de 500.000 hogares sin electricidad. Los bombardeos se produjeron dos días después de que el presidente estadounidense Donald Trump eximiera a Moscú de las sanciones previstas en una ley aprobada por el Congreso.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/ucrania-rusia-ataques-drones.jpg" alt="Ataques con drones entre Ucrania y Rusia" loading="lazy">` +
+    `<figcaption>Ucrania lanzó más de mil drones contra territorio ruso y Moscú respondió atacando infraestructura energética ucraniana. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">La ofensiva ucraniana</h2>` +
+    `<p>Según las autoridades rusas, Ucrania lanzó más de 1.000 drones contra 15 regiones del país, incluido un ataque que provocó un incendio en una terminal petrolera de San Petersburgo y dejó a miles de personas sin electricidad. Entre los objetivos reportados figuraban un centro logístico de una gran cadena minorista y un centro de datos de la mayor plataforma de redes sociales rusa. El ataque dejó al menos un muerto y cinco heridos.</p>` +
+    `<h2 class="report-chapter">La respuesta rusa</h2>` +
+    `<p>Rusia respondió con un ataque aéreo nocturno de gran escala contra Kyiv. Según las autoridades ucranianas, una mujer de 21 años murió y más de 500.000 hogares quedaron sin electricidad. El bombardeo alcanzó al menos diez instalaciones energéticas, una clínica, una escuela, una estación de metro y viviendas.</p>` +
+    `<p>El presidente Volodímir Zelenski afirmó que las fuerzas ucranianas no recibieron avisos previos de la inteligencia occidental sobre el ataque.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Eximir a Rusia de las sanciones justo cuando más las necesita es un regalo que el Kremlin no tuvo que pedir dos veces.”` +
+    `<cite>Thom Tillis, senador republicano</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La decisión de Trump</h2>` +
+    `<p>Trump firmó la exención de sanciones dos días antes de que debiera entrar en vigor la Ley de Sanción a Rusia e Irán, impulsada por el senador Lindsey Graham. El presidente justificó la medida diciendo que buscaría un acuerdo con Vladímir Putin para que Estados Unidos compre diésel ruso.</p>` +
+    `<p>La decisión generó críticas bipartidistas en el Senado, donde legisladores de ambos partidos cuestionaron que se debilite la presión económica sobre Moscú en plena escalada militar.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de drones, víctimas y daños materiales provienen de fuentes oficiales de ambos países en conflicto y no pueden verificarse de forma independiente. La descripción del acuerdo sobre diésel corresponde a declaraciones del propio Trump.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Ukraine and Russia trade massive attacks after Trump waives sanctions on Moscow</h1>` +
+    `<p class="lead"><em>Ukraine and Russia exchanged large-scale attacks over the weekend, with Ukrainian drones hitting 15 Russian regions and a Russian offensive on Kyiv that left at least one person dead and more than 500,000 households without power. The strikes came two days after U.S. President Donald Trump waived sanctions on Moscow provided for in a law passed by Congress.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/ucrania-rusia-ataques-drones.jpg" alt="Drone attacks between Ukraine and Russia" loading="lazy">` +
+    `<figcaption>Ukraine launched more than a thousand drones at Russian territory and Moscow responded by striking Ukrainian energy infrastructure. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The Ukrainian offensive</h2>` +
+    `<p>According to Russian authorities, Ukraine launched more than 1,000 drones at 15 regions of the country, including a strike that set an oil terminal in St. Petersburg on fire and left thousands of people without power. Reported targets included a logistics center of a major retail chain and a data center of Russia’s largest social media platform. The attack left at least one dead and five wounded.</p>` +
+    `<h2 class="report-chapter">The Russian response</h2>` +
+    `<p>Russia responded with a large-scale overnight air attack on Kyiv. According to Ukrainian authorities, a 21-year-old woman was killed and more than 500,000 households lost power. The strike hit at least ten energy facilities, a clinic, a school, a metro station and homes.</p>` +
+    `<p>President Volodymyr Zelensky said Ukrainian forces received no advance warnings from Western intelligence about the attack.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Waiving sanctions on Russia just when it needs them most is a gift the Kremlin did not have to ask for twice.”` +
+    `<cite>Thom Tillis, Republican senator</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Trump’s decision</h2>` +
+    `<p>Trump signed the sanctions waiver two days before the Sanctioning Russia and Iran Act, championed by Senator Lindsey Graham, was due to take effect. The president justified the move by saying he would seek a deal with Vladimir Putin for the United States to buy Russian diesel.</p>` +
+    `<p>The decision drew bipartisan criticism in the Senate, where lawmakers from both parties questioned weakening economic pressure on Moscow in the middle of a military escalation.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Figures on drones, casualties and material damage come from official sources of the two countries at war and cannot be independently verified. The description of the diesel deal comes from Trump’s own statements.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/ucrania-rusia-ataques-drones.jpg',
+    imageCaption:
+      'Ucrania lanzó más de mil drones contra territorio ruso y Moscú respondió atacando infraestructura energética ucraniana. Foto: Democracy Now!',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Ucrania / Rusia',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
+{
+    id: '1346',
+    contentType: 'news',
+    slug: 'brasil-lula-flavio-bolsonaro-debate-balotaje',
+    publishedAt: '2026-10-19T07:00:00-04:00',
+    titleEs: 'Brasil: Lula y Flávio Bolsonaro se enfrentan en su único debate antes del balotaje',
+    titleEn: 'Brazil: Lula and Flávio Bolsonaro face off in their only debate before the runoff',
+    excerptEs:
+      'A una semana de la segunda vuelta, el expresidente y el senador chocaron por la salud pública y la gestión de la pandemia. Flávio Bolsonaro llegó al debate dos puntos arriba en la primera vuelta, con los sondeos cada vez más ajustados.',
+    excerptEn:
+      'One week before the runoff, the former president and the senator clashed over public health and the pandemic response. Flávio Bolsonaro arrived at the debate two points ahead from the first round, with polls tightening.',
+    contentEs: `<h1>Brasil: Lula y Flávio Bolsonaro se enfrentan en su único debate antes del balotaje</h1>` +
+    `<p class="lead"><em>El expresidente Luiz Inácio Lula da Silva y el senador Flávio Bolsonaro se enfrentaron este domingo 18 de octubre en el único debate televisado antes de la segunda vuelta, a una semana de la votación definitiva. El intercambio, centrado en la salud pública y la gestión de la pandemia, reflejó el empate técnico que muestran las encuestas más recientes.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/brasil-debate-lula-bolsonaro.jpg" alt="Debate entre Lula y Flávio Bolsonaro en Brasil" loading="lazy">` +
+    `<figcaption>Luiz Inácio Lula da Silva y Flávio Bolsonaro discutieron sobre salud pública y gestión de la pandemia. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">El choque por la salud</h2>` +
+    `<p>Flávio Bolsonaro, hijo del expresidente Jair Bolsonaro, abrió el cruce con críticas a los gobiernos del Partido de los Trabajadores y a la situación del sistema sanitario. Lula le respondió recordando las más de 700.000 muertes por la COVID-19 registradas durante la administración de su padre y cuestionó el manejo que hizo su gobierno de la crisis sanitaria.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“En su gobierno se murió de COVID más gente que en muchos países juntos. Eso no se borra con un titular.”` +
+    `<cite>Luiz Inácio Lula da Silva</cite>` +
+    `</blockquote>` +
+    `<blockquote class="expert-quote">` +
+    `“El pueblo brasileño quiere hablar de futuro, no de las peleas de hace cuatro años.”` +
+    `<cite>Flávio Bolsonaro</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Una segunda vuelta ajustada</h2>` +
+    `<p>Flávio Bolsonaro llegó a la primera vuelta apenas dos puntos por delante de Lula y, desde entonces, los sondeos han mostrado un panorama cada vez más cerrado. El único debate de esta fase concentró la atención del electorado que definirá la Presidencia el próximo domingo.</p>` +
+    `<h2 class="report-chapter">Qué se juega el país</h2>` +
+    `<p>La segunda vuelta decide si Brasil mantiene el giro hacia políticas de centroizquierda de los últimos años o retorna a un proyecto de derecha liderado por el bolsonarismo, en un contexto regional de creciente polarización.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las citas corresponden a versiones difundidas por medios brasileños y pueden variar en la traducción. Las cifras de la pandemia provienen de registros oficiales brasileños.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Brazil: Lula and Flávio Bolsonaro face off in their only debate before the runoff</h1>` +
+    `<p class="lead"><em>Former president Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro faced off this Sunday, October 18, in the only televised debate ahead of the runoff, one week before the decisive vote. The exchange, focused on public health and the pandemic response, reflected the technical tie shown by the most recent polls.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/brasil-debate-lula-bolsonaro.jpg" alt="Debate between Lula and Flávio Bolsonaro in Brazil" loading="lazy">` +
+    `<figcaption>Luiz Inácio Lula da Silva and Flávio Bolsonaro discussed public health and the pandemic response. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The clash over health</h2>` +
+    `<p>Flávio Bolsonaro, son of former president Jair Bolsonaro, opened the exchange with criticism of Workers’ Party governments and the state of the health system. Lula responded by recalling the more than 700,000 COVID-19 deaths recorded during his father’s administration and questioned its handling of the health crisis.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“More people died of COVID in his government than in many countries put together. That is not erased by a headline.”` +
+    `<cite>Luiz Inácio Lula da Silva</cite>` +
+    `</blockquote>` +
+    `<blockquote class="expert-quote">` +
+    `“The Brazilian people want to talk about the future, not about the fights of four years ago.”` +
+    `<cite>Flávio Bolsonaro</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">A tight runoff</h2>` +
+    `<p>Flávio Bolsonaro entered the first round only two points ahead of Lula and, since then, polls have shown an increasingly close race. The single debate of this phase focused the attention of an electorate that will decide the presidency next Sunday.</p>` +
+    `<h2 class="report-chapter">What is at stake</h2>` +
+    `<p>The runoff decides whether Brazil keeps the shift toward center-left policies of recent years or returns to a right-wing project led by Bolsonarism, in a regional context of growing polarization.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The quotes come from versions circulated by Brazilian media and may vary in translation. The pandemic figures come from official Brazilian records.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/brasil-debate-lula-bolsonaro.jpg',
+    imageCaption:
+      'Luiz Inácio Lula da Silva y Flávio Bolsonaro discutieron sobre salud pública y gestión de la pandemia. Foto: Democracy Now!',
+    categoryEs: 'América Latina',
+    categoryEn: 'Latin America',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Brasil',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
+{
+    id: '1347',
+    contentType: 'news',
+    slug: 'tunez-miles-marchan-contra-saied-protesta',
+    publishedAt: '2026-10-19T06:30:00-04:00',
+    titleEs: 'Túnez: miles marchan contra el presidente Kaïs Saïed en la mayor protesta en años',
+    titleEn: 'Tunisia: thousands march against President Kaïs Saïed in the biggest protest in years',
+    excerptEs:
+      'La marcha, convocada por la central sindical y partidos opositores, exigió la liberación de los críticos encarcelados. Los manifestantes acusan a Saïed de concentrar el poder y silenciar a la disidencia desde 2021.',
+    excerptEn:
+      'The march, called by the main trade union and opposition parties, demanded the release of jailed critics. Demonstrators accuse Saïed of concentrating power and silencing dissent since 2021.',
+    contentEs: `<h1>Túnez: miles marchan contra el presidente Kaïs Saïed en la mayor protesta en años</h1>` +
+    `<p class="lead"><em>Miles de tunecinos se manifestaron este sábado 17 de octubre en el centro de Túnez en la mayor protesta contra el presidente Kaïs Saïed en años, convocada por la central sindical, partidos opositores y organizaciones de la sociedad civil. Los manifestantes exigieron la liberación de los críticos encarcelados y denunciaron el deterioro del espacio democrático.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/tunez-protestas-saied.jpg" alt="Protestas contra el presidente Saïed en Túnez" loading="lazy">` +
+    `<figcaption>Miles de personas marcharon en Túnez contra el presidente Kaïs Saïed. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Una movilización unitaria</h2>` +
+    `<p>La protesta reunió a la Unión General Tunecina del Trabajo, la principal central sindical del país, junto a formaciones de oposición y activistas de derechos humanos. Los convocantes coincidieron en un reclamo central: la libertad de los detenidos por expresar opiniones políticas.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Este régimen ha convertido la crítica en un delito. Estamos aquí para decir que el país no es de una sola persona.”` +
+    `<cite>Jamaleddine Sebaa, vicepresidente de la Liga Tunecina de Derechos Humanos</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Cinco años de concentración del poder</h2>` +
+    `<p>Desde 2021, Saïed disolvió el Parlamento, destituyó a decenas de jueces y gobierna en gran medida por decreto. Organizaciones internacionales han advertido sobre el uso de la justicia para perseguir a opositores, periodistas y empresarios críticos.</p>` +
+    `<p>La jornada transcurrió sin incidentes graves reportados, aunque hubo un fuerte despliegue de las fuerzas de seguridad en torno a la principal avenida de la capital.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La cifra de asistentes corresponde a estimaciones de los organizadores y de la prensa, y no existen conteos oficiales independientes. La situación de los detenidos mencionados no ha sido confirmada en todos los casos por las autoridades tunecinas.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Tunisia: thousands march against President Kaïs Saïed in the biggest protest in years</h1>` +
+    `<p class="lead"><em>Thousands of Tunisians demonstrated this Saturday, October 17, in central Tunis in the biggest protest against President Kaïs Saïed in years, called by the main trade union, opposition parties and civil society organizations. Demonstrators demanded the release of jailed critics and denounced the erosion of democratic space.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/tunez-protestas-saied.jpg" alt="Protests against President Saïed in Tunisia" loading="lazy">` +
+    `<figcaption>Thousands of people marched in Tunis against President Kaïs Saïed. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">A united mobilization</h2>` +
+    `<p>The protest brought together the Tunisian General Labour Union, the country’s main trade union, along with opposition groups and human rights activists. Organizers agreed on one central demand: freedom for those detained for expressing political opinions.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“This regime has turned criticism into a crime. We are here to say the country does not belong to one person.”` +
+    `<cite>Jamaleddine Sebaa, vice president of the Tunisian Human Rights League</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Five years of concentrated power</h2>` +
+    `<p>Since 2021, Saïed has dissolved Parliament, dismissed dozens of judges and largely governs by decree. International organizations have warned about the use of the judiciary to pursue opponents, journalists and critical businesspeople.</p>` +
+    `<p>The day passed without serious reported incidents, though there was a heavy security presence around the capital’s main avenue.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The attendance figure comes from estimates by organizers and the press, and there are no independent official counts. The status of the detainees mentioned has not been confirmed in every case by Tunisian authorities.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/tunez-protestas-saied.jpg',
+    imageCaption:
+      'Miles de personas marcharon en Túnez contra el presidente Kaïs Saïed. Foto: Democracy Now!',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Túnez, Túnez',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
+{
+    id: '1348',
+    contentType: 'news',
+    slug: 'bolivia-condori-detencion-preventiva-san-pedro-evo',
+    publishedAt: '2026-10-19T12:00:00-04:00',
+    titleEs: 'Bolivia: envían seis meses a prisión al senador Nilton Condori y la causa apunta a Evo Morales',
+    titleEn: 'Bolivia: Senator Nilton Condori is sent to prison for six months and the case points to Evo Morales',
+    excerptEs:
+      'El senador suplente suspendido fue trasladado a la cárcel de San Pedro con detención preventiva por instigación pública a delinquir y terrorismo, a raíz de una denuncia por sus declaraciones en un ampliado del evismo. La defensa anunció que apelará y el TSE deberá evaluar la pérdida de su curul.',
+    excerptEn:
+      'The suspended substitute senator was taken to San Pedro prison with pretrial detention on charges of public incitement and terrorism, following a complaint over his remarks at an evista rally. The defense said it will appeal and the TSE must assess the loss of his seat.',
+    contentEs: `<h1>Bolivia: envían seis meses a prisión al senador Nilton Condori y la causa apunta a Evo Morales</h1>` +
+    `<p class="lead"><em>El senador suplente suspendido Nilton Condori fue trasladado este lunes 19 de octubre a la cárcel de San Pedro, en La Paz, con seis meses de detención preventiva por los delitos de instigación pública a delinquir y terrorismo. La medida surge de una denuncia en su contra por declaraciones realizadas en un ampliado del evismo, en un caso que también involucra al expresidente Evo Morales.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/bolivia-condori-detencion-san-pedro.jpg" alt="Traslado del senador Nilton Condori" loading="lazy">` +
+    `<figcaption>El senador suplente suspendido Nilton Condori fue trasladado a un recinto penitenciario. Foto: Urgente.bo</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">La detención</h2>` +
+    `<p>Condori fue aprehendido el domingo en El Alto, cerca del mercado campesino de Santa Rosa, por policías que, según su defensa, actuaron sin identificarse. Fue conducido a dependencias de la Fuerza Especial de Lucha Contra el Crimen (FELCC) y este lunes un juez determinó su detención preventiva por seis meses.</p>` +
+    `<p>El senador se acogió a su derecho al silencio y no prestó declaración. Su abogado, Giaco Conde, anunció que apelará la medida por considerar que se vulneraron derechos constitucionales.</p>` +
+    `<h2 class="report-chapter">El origen del caso</h2>` +
+    `<p>La investigación se abrió a partir de una denuncia del diputado Manolo Rojas, quien señaló a Condori por una frase pronunciada el 26 de septiembre en un ampliado del evismo en Lauca Ñ, en el trópico de Cochabamba. Según la acusación, el senador afirmó: “Si no fusilamos a estos ladrones, Bolivia no va a tener futuro”.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Se está usando el aparato penal para hacer política. Vamos a agotar todas las instancias.”` +
+    `<cite>Giaco Conde, abogado defensor de Nilton Condori</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Un caso que toca al evismo</h2>` +
+    `<p>La causa no se limita a Condori: la investigación incluiría también a Evo Morales, al dirigente Román Gutiérrez y a la exdiputada Rosario Vargas, y explora la presunta organización de medidas de presión, como un eventual cerco a la ciudad de La Paz.</p>` +
+    `<p>El senador había sido suspendido de sus funciones en agosto, sin goce de haberes. Tras la detención, el Tribunal Supremo Electoral fue consultado para evaluar la pérdida definitiva de su curul.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Existe discrepancia entre fuentes sobre el recinto penitenciario de destino, mencionado como San Pedro y también como Chonchocoro. La frase atribuida a Condori proviene de la denuncia y de versiones de prensa; la defensa la considera parte de un discurso político y no una amenaza concreta. Los demás nombres mencionados en la investigación no han sido declarados responsables.</p>` +
+    `<p>Con información de <a href="https://elpais.bo/seguridad/20261020_condori-recibe-seis-meses-de-detencion-preventiva.html" target="_blank" rel="noopener noreferrer">El País (Bolivia)</a> y <a href="https://www.urgente.bo/noticia/nilton-condori-se-acoge-al-silencio-y-no-declara-tras-su-aprehension" target="_blank" rel="noopener noreferrer">Urgente.bo</a>.</p>`,
+    contentEn: `<h1>Bolivia: Senator Nilton Condori is sent to prison for six months and the case points to Evo Morales</h1>` +
+    `<p class="lead"><em>Suspended substitute senator Nilton Condori was transferred this Monday, October 19, to San Pedro prison in La Paz with six months of pretrial detention on charges of public incitement and terrorism. The measure stems from a complaint over remarks he made at an evista rally, in a case that also involves former president Evo Morales.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/bolivia-condori-detencion-san-pedro.jpg" alt="Transfer of Senator Nilton Condori" loading="lazy">` +
+    `<figcaption>Suspended substitute senator Nilton Condori was transferred to a penitentiary facility. Photo: Urgente.bo</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The detention</h2>` +
+    `<p>Condori was apprehended on Sunday in El Alto, near the Santa Rosa farmers’ market, by officers who, according to his defense, acted without identifying themselves. He was taken to the offices of the Special Force Against Crime (FELCC) and on Monday a judge ordered six months of pretrial detention.</p>` +
+    `<p>The senator invoked his right to remain silent and gave no statement. His lawyer, Giaco Conde, said he will appeal the measure, arguing constitutional rights were violated.</p>` +
+    `<h2 class="report-chapter">The origin of the case</h2>` +
+    `<p>The investigation opened after a complaint by lawmaker Manolo Rojas, who accused Condori over a phrase spoken on September 26 at an evista rally in Lauca Ñ, in the Cochabamba tropics. According to the accusation, the senator said: “If we do not shoot these thieves, Bolivia will have no future.”</p>` +
+    `<blockquote class="expert-quote">` +
+    `“The penal system is being used to do politics. We will exhaust every avenue.”` +
+    `<cite>Giaco Conde, defense lawyer for Nilton Condori</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">A case that touches evismo</h2>` +
+    `<p>The case is not limited to Condori: the investigation would also include Evo Morales, leader Román Gutiérrez and former lawmaker Rosario Vargas, and explores the alleged organization of pressure measures, such as a possible siege of the city of La Paz.</p>` +
+    `<p>The senator had been suspended from his duties in August without pay. After the detention, the Supreme Electoral Tribunal was asked to assess the permanent loss of his seat.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Sources differ on the prison destination, cited as both San Pedro and Chonchocoro. The phrase attributed to Condori comes from the complaint and press accounts; the defense considers it part of a political speech and not a concrete threat. The other names mentioned in the investigation have not been found responsible.</p>` +
+    `<p>With information from <a href="https://elpais.bo/seguridad/20261020_condori-recibe-seis-meses-de-detencion-preventiva.html" target="_blank" rel="noopener noreferrer">El País (Bolivia)</a> and <a href="https://www.urgente.bo/noticia/nilton-condori-se-acoge-al-silencio-y-no-declara-tras-su-aprehension" target="_blank" rel="noopener noreferrer">Urgente.bo</a>.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-19/bolivia-condori-detencion-san-pedro.jpg',
+    imageCaption:
+      'El senador suplente suspendido Nilton Condori fue trasladado a un recinto penitenciario. Foto: Urgente.bo',
+    categoryEs: 'País',
+    categoryEn: 'Nation',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'La Paz, Bolivia',
+    source: 'El País (Bolivia) / Urgente.bo',
+    region: 'Bolivia',
+    sourceUrl: 'https://elpais.bo/seguridad/20261020_condori-recibe-seis-meses-de-detencion-preventiva.html'
+  },
+{
+    id: '1349',
+    contentType: 'news',
+    slug: 'yemen-huties-ataque-campo-entrenamiento-emiratos',
+    publishedAt: '2026-10-19T06:00:00-04:00',
+    titleEs: 'Yemen: los hutíes atacan un campo de entrenamiento militar mientras los Emiratos vuelven al conflicto',
+    titleEn: 'Yemen: Houthis strike a military training camp as the Emirates return to the conflict',
+    excerptEs:
+      'El ataque contra una instalación de las fuerzas del gobierno en la provincia de Shabwa dejó al menos 18 muertos. Emiratos Árabes Unidos acordó con Arabia Saudita reanudar el financiamiento a algunas fuerzas gubernamentales.',
+    excerptEn:
+      'The attack on a government forces facility in Shabwa province left at least 18 dead. The United Arab Emirates agreed with Saudi Arabia to resume funding for some government forces.',
+    contentEs: `<h1>Yemen: los hutíes atacan un campo de entrenamiento militar mientras los Emiratos vuelven al conflicto</h1>` +
+    `<p class="lead"><em>Las fuerzas hutíes atacaron un campo de entrenamiento militar de las fuerzas gubernamentales en la provincia yemení de Shabwa, en un ataque que dejó al menos 18 muertos. El hecho coincidió con el acuerdo entre Emiratos Árabes Unidos y Arabia Saudita para reanudar la financiación de algunas fuerzas del gobierno yemení, un movimiento que reactiva su participación directa en la guerra.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/yemen-huties-campo-entrenamiento.jpg" alt="Consecuencias de un ataque en Yemen" loading="lazy">` +
+    `<figcaption>Las fuerzas hutíes atacaron una instalación militar del gobierno yemení en Shabwa. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">El ataque en Shabwa</h2>` +
+    `<p>El bombardeo alcanzó un campo de entrenamiento de las fuerzas leales al gobierno internacionalmente reconocido. El balance reportado fue de al menos 18 combatientes muertos y varios heridos, según fuentes militares yemeníes citadas por medios internacionales.</p>` +
+    `<h2 class="report-chapter">El regreso de los Emiratos</h2>` +
+    `<p>Emiratos Árabes Unidos, que había reducido su involucramiento en los últimos años, acordó con Arabia Saudita retomar los pagos a determinadas fuerzas del gobierno yemení. La decisión sugiere una nueva fase de implicación en el conflicto por parte de la coalición que intervino desde 2015.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Cada nuevo financiamiento militar prolonga una guerra que ya ha costado cientos de miles de vidas y una de las peores crisis humanitarias del mundo.”` +
+    `<cite>Analista de un centro de estudios sobre el conflicto yemení</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Apoyo externo a los hutíes</h2>` +
+    `<p>Según información difundida por el Wall Street Journal, Irán habría proporcionado a los hutíes entrenamiento, inteligencia y orientación táctica para sus operaciones contra Arabia Saudita y las fuerzas del gobierno yemení. Teherán no ha confirmado esos reportes.</p>` +
+    `<p>El conflicto, que lleva más de una década, mantiene a Yemen sumido en una crisis humanitaria con millones de personas dependientes de la ayuda internacional.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de víctimas provienen de fuentes militares yemeníes y de la prensa, y no han sido verificadas de forma independiente. La información sobre el apoyo iraní a los hutíes corresponde a un reporte periodístico basado en fuentes no identificadas y no ha sido confirmada por Teherán ni por terceros.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> y The Wall Street Journal.</p>`,
+    contentEn: `<h1>Yemen: Houthis strike a military training camp as the Emirates return to the conflict</h1>` +
+    `<p class="lead"><em>Houthi forces attacked a military training camp of government forces in Yemen’s Shabwa province, in an attack that left at least 18 dead. The incident coincided with an agreement between the United Arab Emirates and Saudi Arabia to resume funding for some Yemeni government forces, a move that reactivates their direct involvement in the war.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-19/yemen-huties-campo-entrenamiento.jpg" alt="Aftermath of an attack in Yemen" loading="lazy">` +
+    `<figcaption>Houthi forces attacked a Yemeni government military facility in Shabwa. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The attack in Shabwa</h2>` +
+    `<p>The strike hit a training camp of forces loyal to the internationally recognized government. The reported toll was at least 18 fighters killed and several wounded, according to Yemeni military sources cited by international media.</p>` +
+    `<h2 class="report-chapter">The Emirates' return</h2>` +
+    `<p>The United Arab Emirates, which had scaled back its involvement in recent years, agreed with Saudi Arabia to resume payments to certain Yemeni government forces. The decision suggests a new phase of involvement in the conflict by the coalition that intervened from 2015 onward.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Every new round of military funding prolongs a war that has already cost hundreds of thousands of lives and one of the world’s worst humanitarian crises.”` +
+    `<cite>Analyst at a think tank on the Yemeni conflict</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">External support for the Houthis</h2>` +
+    `<p>According to information circulated by The Wall Street Journal, Iran is said to have provided the Houthis with training, intelligence and tactical guidance for operations against Saudi Arabia and Yemeni government forces. Tehran has not confirmed those reports.</p>` +
+    `<p>The conflict, now more than a decade old, has left Yemen mired in a humanitarian crisis with millions of people dependent on international aid.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Casualty figures come from Yemeni military sources and the press, and have not been independently verified. The information about Iranian support for the Houthis comes from a news report based on unidentified sources and has not been confirmed by Tehran or by third parties.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/19/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> and The Wall Street Journal.</p>`,
+    date: '2026-10-19',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-19/yemen-huties-campo-entrenamiento.jpg',
+    imageCaption:
+      'Las fuerzas hutíes atacaron una instalación militar del gobierno yemení en Shabwa. Foto: Democracy Now!',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Shabwa, Yemen',
+    source: 'Democracy Now! / WSJ',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
+  },
 ];
 
 export const translations = {
