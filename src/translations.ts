@@ -32285,6 +32285,752 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     region: 'International',
     sourceUrl: 'https://www.democracynow.org/2026/10/19/headlines'
   },
+{
+    id: '1350',
+    contentType: 'news',
+    slug: 'eeuu-israel-preparan-ataques-iran-elecciones',
+    publishedAt: '2026-10-22T11:00:00-04:00',
+    titleEs: 'EE.UU. e Israel preparan nuevos ataques contra Irán después de las elecciones legislativas',
+    titleEn: 'US and Israel prepare new strikes on Iran after the midterm elections',
+    excerptEs:
+      'La Guardia Revolucionaria iraní aseguró haber incendiado cuatro buques en el norte del Golfo Pérsico y tres más chocaron con minas en Ormuz. El New York Times reportó que el Pentágono y el ejército israelí ya tienen planes específicos para reanudar los bombardeos tras los comicios de noviembre.',
+    excerptEn:
+      'Iran’s Revolutionary Guard said it set fire to four vessels in the northern Persian Gulf and that three more hit mines in Hormuz. The New York Times reported that the Pentagon and the Israeli military already have specific plans to resume bombing after the November elections.',
+    contentEs: `<h1>EE.UU. e Israel preparan nuevos ataques contra Irán después de las elecciones legislativas</h1>` +
+    `<p class="lead"><em>La tensión en el Golfo Pérsico volvió a escalar este jueves 22 de octubre después de que la Guardia Revolucionaria iraní afirmara que atacó e incendió cuatro buques que transferían petróleo de barco a barco en el norte del golfo, mientras otras tres embarcaciones chocaban con minas en el estrecho de Ormuz. En paralelo, el diario The New York Times informó que el Pentágono y el ejército israelí elaboraron planes específicos para reanudar los ataques contra Irán una vez concluidas las elecciones legislativas de Estados Unidos.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/iran-eeuu-israel-planes-ataques.jpg" alt="Operativo militar en el Golfo Pérsico" loading="lazy">` +
+    `<figcaption>La escalada en el Golfo Pérsico coincide con ejercicios aéreos israelíes cerca de la frontera occidental de Irán. Foto: Pentágono / Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Ataques en el golfo y en Ormuz</h2>` +
+    `<p>Según el comunicado de la Guardia Revolucionaria, los cuatro buques incendiados participaban en operaciones de transbordo de crudo en el norte del Golfo Pérsico, una práctica que Teherán considera una vía para evadir controles sobre sus exportaciones. Las otras tres naves habrían resultado dañadas por minas en el estrecho de Ormuz, una de las rutas marítimas más sensibles del mundo para el comercio de hidrocarburos.</p>` +
+    `<p>Las autoridades iraníes no detallaron la nacionalidad de las embarcaciones ni el número de víctimas. El estrecho de Ormuz concentra cerca de una quinta parte del petróleo que se comercia por vía marítima a nivel global.</p>` +
+    `<h2 class="report-chapter">Ejercicios israelíes y explosiones</h2>` +
+    `<p>El anuncio coincidió con maniobras de decenas de cazas israelíes a lo largo de la frontera occidental de Irán y con reportes de múltiples explosiones en la ciudad portuaria de Sirik. Las autoridades iraníes no confirmaron de inmediato las causas de las detonaciones.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Cada nueva ronda de ataques no elimina el programa nuclear, pero sí acerca a la región a una guerra abierta que nadie puede controlar.”` +
+    `<cite>Analista de seguridad regional citado por medios internacionales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Planes militares y calendario electoral</h2>` +
+    `<p>De acuerdo con The New York Times, el Pentágono y las fuerzas israelíes habrían desarrollado opciones concretas de bombardeo que se activarían después de los comicios legislativos del 3 de noviembre. La Casa Blanca no confirmó esos planes y el Departamento de Defensa no se pronunció públicamente.</p>` +
+    `<p>La publicación sugiere que Washington busca evitar una escalada militar en plena campaña electoral, pero mantiene la preparación operativa para una nueva fase de confrontación.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La información sobre los ataques a buques proviene de la versión oficial iraní y no ha sido verificada de forma independiente. Los detalles sobre los planes militares estadounidenses e israelíes corresponden a un reporte periodístico basado en fuentes no identificadas y no fueron confirmados por los gobiernos involucrados.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> y The New York Times.</p>`,
+    contentEn: `<h1>US and Israel prepare new strikes on Iran after the midterm elections</h1>` +
+    `<p class="lead"><em>Tensions in the Persian Gulf escalated again this Thursday, October 22, after Iran’s Revolutionary Guard claimed it attacked and set fire to four vessels transferring oil ship-to-ship in the northern Gulf, while three other ships hit mines in the Strait of Hormuz. In parallel, The New York Times reported that the Pentagon and the Israeli military have drawn up specific plans to resume strikes on Iran once the US midterm elections are over.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/iran-eeuu-israel-planes-ataques.jpg" alt="Military operation in the Persian Gulf" loading="lazy">` +
+    `<figcaption>The Gulf escalation coincides with Israeli air exercises near Iran’s western border. Photo: Pentagon / Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Attacks in the Gulf and Hormuz</h2>` +
+    `<p>According to the Revolutionary Guard’s statement, the four burned vessels were involved in crude oil transshipment operations in the northern Persian Gulf, a practice Tehran views as a way to evade controls on its exports. The other three ships were reportedly damaged by mines in the Strait of Hormuz, one of the world’s most sensitive maritime routes for hydrocarbon trade.</p>` +
+    `<p>Iranian authorities did not detail the nationality of the vessels or the number of casualties. The Strait of Hormuz carries about a fifth of the oil traded by sea globally.</p>` +
+    `<h2 class="report-chapter">Israeli exercises and explosions</h2>` +
+    `<p>The announcement coincided with maneuvers by dozens of Israeli fighter jets along Iran’s western border and with reports of multiple explosions in the port city of Sirik. Iranian authorities did not immediately confirm the cause of the blasts.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Each new round of strikes does not eliminate the nuclear program, but it does bring the region closer to an open war that no one can control.”` +
+    `<cite>Regional security analyst cited by international media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Military plans and the electoral calendar</h2>` +
+    `<p>According to The New York Times, the Pentagon and Israeli forces have developed concrete bombing options that would be activated after the November 3 midterm elections. The White House did not confirm those plans and the Defense Department made no public comment.</p>` +
+    `<p>The report suggests Washington seeks to avoid a military escalation in the middle of an election campaign, but maintains operational readiness for a new phase of confrontation.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Information about the attacks on vessels comes from the official Iranian account and has not been independently verified. Details about US and Israeli military plans come from a news report based on unidentified sources and were not confirmed by the governments involved.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> and The New York Times.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '4 min',
+    readTimeEn: '4 min',
+    imageUrl: '/images/news/2026-10-22/iran-eeuu-israel-planes-ataques.jpg',
+    imageCaption:
+      'La escalada en el Golfo Pérsico coincide con ejercicios aéreos israelíes cerca de la frontera occidental de Irán. Foto: Pentágono / Democracy Now!',
+    categoryEs: 'Política Internacional',
+    categoryEn: 'International Politics',
+    enableComments: true,
+    featured: true,
+    breaking: true,
+    views: 1,
+    location: 'Golfo Pérsico / Irán',
+    source: 'Democracy Now! / The New York Times',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1351',
+    contentType: 'news',
+    slug: 'huties-atacan-aeropuerto-rey-fahd-campo-petrolero',
+    publishedAt: '2026-10-22T10:30:00-04:00',
+    titleEs: 'Hutíes atacan el aeropuerto Rey Fahd y un campo petrolero; EE.UU. evacúa su misión en Arabia Saudita',
+    titleEn: 'Houthis strike King Fahd Airport and an oil field; US evacuates its mission in Saudi Arabia',
+    excerptEs:
+      'Al menos cuatro personas murieron en los ataques contra el aeropuerto internacional y una instalación petrolera saudí. El Departamento de Estado ordenó la salida de diplomáticos y sus familias por la escalada de los hutíes.',
+    excerptEn:
+      'At least four people were killed in the attacks on the international airport and a Saudi oil facility. The State Department ordered diplomats and their families to leave because of the Houthi escalation.',
+    contentEs: `<h1>Hutíes atacan el aeropuerto Rey Fahd y un campo petrolero; EE.UU. evacúa su misión en Arabia Saudita</h1>` +
+    `<p class="lead"><em>Al menos cuatro personas murieron en una serie de ataques atribuidos al movimiento hutí contra el aeropuerto internacional Rey Fahd y un campo petrolero en Arabia Saudita, en una escalada que llevó al Departamento de Estado de Estados Unidos a ordenar la evacuación de diplomáticos y sus familias de sus misiones en el país.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/arabia-saudita-huties-aeropuerto.jpg" alt="Destrozos tras un ataque en Arabia Saudita" loading="lazy">` +
+    `<figcaption>Los ataques hutíes alcanzaron el aeropuerto Rey Fahd y una instalación petrolera saudí. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Muertos reportados</div></div>` +
+    `<div class="stat-card"><div class="stat-value">8</div><div class="stat-label">Heridos en el aeropuerto</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Frentes de ataque</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">El ataque al aeropuerto</h2>` +
+    `<p>El impacto contra el aeropuerto internacional Rey Fahd, uno de los principales hubs aéreos del este de Arabia Saudita, dejó al menos dos muertos y ocho heridos el miércoles. Fue la más reciente de una serie de agresiones mortales contra aeropuertos saudíes atribuidas a Ansar Allah, el movimiento conocido como los hutíes.</p>` +
+    `<p>En paralelo, un ataque con drones contra un campo petrolero saudí habría causado otras dos víctimas mortales, según reportes preliminares. Las autoridades saudíes no precisaron de inmediato la magnitud de los daños en las instalaciones energéticas.</p>` +
+    `<h2 class="report-chapter">Evacuación diplomática</h2>` +
+    `<p>El Departamento de Estado estadounidense ordenó a los diplomáticos y a sus familiares abandonar las misiones en Arabia Saudita debido a la continuidad de los ataques hutíes. La medida refleja el deterioro de la seguridad para el personal extranjero en el reino.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“La región está entrando en una fase en la que los aeropuertos y la infraestructura energética dejan de ser objetivos teóricos y se convierten en blancos recurrentes.”` +
+    `<cite>Analista de seguridad del Golfo citado por medios internacionales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Un conflicto que se expande</h2>` +
+    `<p>Los hutíes han intensificado sus operaciones contra Arabia Saudita en las últimas semanas, en un contexto de reconfiguración de alianzas regionales y de mayor involucramiento de actores externos en Yemen. Los ataques a instalaciones civiles y energéticas elevan el riesgo de una respuesta militar saudí de mayor escala.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de víctimas varían entre la información de titulares y los reportes posteriores, y no han sido confirmadas de forma independiente. La responsabilidad de los ataques fue atribuida a los hutíes por fuentes saudíes y estadounidenses, sin una reivindicación detallada verificable.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Houthis strike King Fahd Airport and an oil field; US evacuates its mission in Saudi Arabia</h1>` +
+    `<p class="lead"><em>At least four people were killed in a series of attacks attributed to the Houthi movement on King Fahd International Airport and an oil field in Saudi Arabia, in an escalation that led the US State Department to order the evacuation of diplomats and their families from its missions in the country.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/arabia-saudita-huties-aeropuerto.jpg" alt="Damage after an attack in Saudi Arabia" loading="lazy">` +
+    `<figcaption>The Houthi attacks hit King Fahd Airport and a Saudi oil facility. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Reported dead</div></div>` +
+    `<div class="stat-card"><div class="stat-value">8</div><div class="stat-label">Wounded at the airport</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Attack fronts</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The airport attack</h2>` +
+    `<p>The strike on King Fahd International Airport, one of eastern Saudi Arabia’s main air hubs, left at least two dead and eight wounded on Wednesday. It was the latest in a series of deadly attacks on Saudi airports attributed to Ansar Allah, the movement known as the Houthis.</p>` +
+    `<p>In parallel, a drone attack on a Saudi oil field reportedly caused two more deaths. Saudi authorities did not immediately specify the extent of the damage to energy facilities.</p>` +
+    `<h2 class="report-chapter">Diplomatic evacuation</h2>` +
+    `<p>The US State Department ordered diplomats and their families to leave its missions in Saudi Arabia due to the continuing Houthi attacks. The measure reflects the deteriorating security situation for foreign personnel in the kingdom.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“The region is entering a phase in which airports and energy infrastructure stop being theoretical targets and become recurring ones.”` +
+    `<cite>Gulf security analyst cited by international media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">A widening conflict</h2>` +
+    `<p>The Houthis have intensified operations against Saudi Arabia in recent weeks, in a context of shifting regional alliances and greater involvement by outside actors in Yemen. Attacks on civilian and energy facilities raise the risk of a larger-scale Saudi military response.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Casualty figures vary between headline reporting and later accounts, and have not been independently confirmed. Responsibility for the attacks was attributed to the Houthis by Saudi and US sources, without a detailed, verifiable claim.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/arabia-saudita-huties-aeropuerto.jpg',
+    imageCaption:
+      'Los ataques hutíes alcanzaron el aeropuerto Rey Fahd y una instalación petrolera saudí. Foto: Democracy Now!',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Arabia Saudita / Yemen',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1352',
+    contentType: 'news',
+    slug: 'rusia-bombardea-ucrania-witkoff-putin-humanitario',
+    publishedAt: '2026-10-22T10:00:00-04:00',
+    titleEs: 'Rusia bombardea 12 regiones de Ucrania mientras el enviado de Trump llama “humanitario” a Putin',
+    titleEn: 'Russia bombs 12 Ukrainian regions as Trump envoy calls Putin a “humanitarian”',
+    excerptEs:
+      'Drones y misiles balísticos rusos mataron a dos personas y dejaron 22 heridos en Kyiv. El enviado Steve Witkoff elogió a Vladimir Putin como “humanitario” en el Kremlin, lo que desató indignación bipartidista en el Senado.',
+    excerptEn:
+      'Russian drones and ballistic missiles killed two people and wounded 22 in Kyiv. Envoy Steve Witkoff praised Vladimir Putin as a “humanitarian” at the Kremlin, drawing bipartisan outrage in the Senate.',
+    contentEs: `<h1>Rusia bombardea 12 regiones de Ucrania mientras el enviado de Trump llama “humanitario” a Putin</h1>` +
+    `<p class="lead"><em>Rusia lanzó drones y misiles balísticos contra 12 regiones de Ucrania durante la madrugada de este jueves 22 de octubre, incluida la capital, donde al menos dos personas murieron y 22 resultaron heridas. La ofensiva coincidió con la visita del enviado de Estados Unidos Steve Witkoff al Kremlin, que elogió a Vladimir Putin como “humanitario” y desató una ola de críticas bipartidistas.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/ucrania-rusia-ataques-witkoff.jpg" alt="Daños tras un bombardeo ruso en Ucrania" loading="lazy">` +
+    `<figcaption>Rusia atacó con drones y misiles 12 regiones ucranianas, incluida Kyiv. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">12</div><div class="stat-label">Regiones atacadas</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Muertos en Kyiv</div></div>` +
+    `<div class="stat-card"><div class="stat-value">22</div><div class="stat-label">Heridos en la capital</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La ofensiva nocturna</h2>` +
+    `<p>Según las autoridades ucranianas, la oleada de ataques con drones y misiles alcanzó al menos 12 regiones, con impacto directo en Kyiv. En la capital murieron dos personas y otras 22 fueron hospitalizadas. Las fuerzas rusas reportaron a su vez que dos personas resultaron heridas por cientos de drones ucranianos lanzados contra Moscú y otras regiones rusas.</p>` +
+    `<h2 class="report-chapter">El elogio a Putin</h2>` +
+    `<p>Witkoff se reunió con Putin en el Kremlin y, ante las cámaras, afirmó que el mandatario ruso también era un “humanitario”. Sus palabras generaron rechazo en ambos partidos en el Senado estadounidense.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Deberías volver a Ucrania y preguntar a las familias de los niños que Putin secuestró y asesinó si aceptan que tu amigo Putin es un humanitario.”` +
+    `<cite>Thom Tillis, senador republicano</cite>` +
+    `</blockquote>` +
+    `<p>Tillis calificó el comentario de “vergonzoso y escandaloso”. La Casa Blanca no aclaró si respaldaba las palabras de su enviado.</p>` +
+    `<h2 class="report-chapter">Reanudación de conversaciones</h2>` +
+    `<p>Tras el encuentro, funcionarios del Kremlin dijeron que aceptarían retomar en noviembre las conversaciones mediadas por Estados Unidos para poner fin a la guerra, las primeras desde febrero. Ucrania no confirmó de inmediato su participación ni las condiciones de la negociación.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras de víctimas y de regiones atacadas provienen de fuentes oficiales ucranianas y rusas y no pueden verificarse de forma independiente. La traducción de la cita de Witkoff se basa en la transcripción difundida por medios estadounidenses.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Russia bombs 12 Ukrainian regions as Trump envoy calls Putin a “humanitarian”</h1>` +
+    `<p class="lead"><em>Russia launched drones and ballistic missiles at 12 regions of Ukraine overnight into this Thursday, October 22, including the capital, where at least two people were killed and 22 wounded. The offensive coincided with US envoy Steve Witkoff’s visit to the Kremlin, where he praised Vladimir Putin as a “humanitarian,” triggering bipartisan criticism.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/ucrania-rusia-ataques-witkoff.jpg" alt="Damage after a Russian strike in Ukraine" loading="lazy">` +
+    `<figcaption>Russia struck 12 Ukrainian regions with drones and missiles, including Kyiv. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">12</div><div class="stat-label">Regions attacked</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Killed in Kyiv</div></div>` +
+    `<div class="stat-card"><div class="stat-value">22</div><div class="stat-label">Wounded in the capital</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The overnight offensive</h2>` +
+    `<p>According to Ukrainian authorities, the wave of drone and missile attacks hit at least 12 regions, with a direct impact in Kyiv. Two people died in the capital and 22 others were hospitalized. Russian forces in turn reported two people wounded by hundreds of Ukrainian drones launched at Moscow and other Russian regions.</p>` +
+    `<h2 class="report-chapter">The praise for Putin</h2>` +
+    `<p>Witkoff met Putin at the Kremlin and, on camera, said the Russian leader was also a “humanitarian.” His words drew rejection from both parties in the US Senate.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“You should go back to Ukraine and ask the families of the children Putin kidnapped and murdered whether they agree your friend Putin is a humanitarian.”` +
+    `<cite>Thom Tillis, Republican senator</cite>` +
+    `</blockquote>` +
+    `<p>Tillis called the comment “embarrassing and outrageous.” The White House did not clarify whether it endorsed its envoy’s words.</p>` +
+    `<h2 class="report-chapter">Talks to resume</h2>` +
+    `<p>After the meeting, Kremlin officials said they would agree to resume US-brokered talks in November to end the war, the first since February. Ukraine did not immediately confirm its participation or the terms of the negotiation.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Casualty and regional figures come from official Ukrainian and Russian sources and cannot be independently verified. The translation of Witkoff’s quote is based on the transcript circulated by US media.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/ucrania-rusia-ataques-witkoff.jpg',
+    imageCaption:
+      'Rusia atacó con drones y misiles 12 regiones ucranianas, incluida Kyiv. Foto: Democracy Now!',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Kyiv, Ucrania',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1353',
+    contentType: 'news',
+    slug: 'nigeria-primer-caso-ebola-decada-abuja',
+    publishedAt: '2026-10-22T09:30:00-04:00',
+    titleEs: 'Nigeria reporta su primer caso de ébola en más de una década',
+    titleEn: 'Nigeria reports its first Ebola case in more than a decade',
+    excerptEs:
+      'Una paciente que llegó en vuelo desde Etiopía tras viajar a la República Democrática del Congo está internada en Abuya. El brote, el de propagación más rápida registrado, ya mató a más de 4.600 personas y enfermó a casi 10.000.',
+    excerptEn:
+      'A patient who arrived on a flight from Ethiopia after traveling to the Democratic Republic of the Congo is hospitalized in Abuja. The outbreak, the fastest-spreading on record, has already killed more than 4,600 people and sickened nearly 10,000.',
+    contentEs: `<h1>Nigeria reporta su primer caso de ébola en más de una década</h1>` +
+    `<p class="lead"><em>Nigeria confirmó su primer caso de ébola en más de una década, convirtiéndose en el cuarto país africano afectado por un brote que ya mató a más de 4.600 personas y enfermó a cerca de 10.000. La paciente está internada en un hospital de Abuya, la capital, y llegó en un vuelo procedente de Etiopía tras haber viajado a la República Democrática del Congo.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/nigeria-ebola-primer-caso.jpg" alt="Personal de salud durante la respuesta al ébola" loading="lazy">` +
+    `<figcaption>La paciente con ébola está internada en un hospital de Abuya, Nigeria. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">4.600+</div><div class="stat-label">Muertos en el brote</div></div>` +
+    `<div class="stat-card"><div class="stat-value">10.000</div><div class="stat-label">Contagiados</div></div>` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Países africanos afectados</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La ruta del contagio</h2>` +
+    `<p>Según las autoridades sanitarias, la paciente llegó a Nigeria en un vuelo desde Etiopía a principios de octubre. Antes de ese viaje había estado en la República Democrática del Congo (RDC), epicentro del brote actual y escenario del contagio más rápido registrado desde que se tiene memoria de la enfermedad.</p>` +
+    `<p>El caso activó protocolos de rastreo de contactos en el aeropuerto y en el hospital donde recibe atención, aunque las autoridades no divulgaron de inmediato el número de personas bajo vigilancia.</p>` +
+    `<h2 class="report-chapter">Una crisis regional</h2>` +
+    `<p>Nigeria se suma a otros tres países africanos que ya registraron casos en este brote. La Organización Mundial de la Salud ha advertido que la movilidad regional y las deficiencias en los sistemas de vigilancia facilitan la expansión del virus hacia zonas densamente pobladas.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“El ébola no respeta fronteras. La única forma de contenerlo es reforzar la detección temprana y el aislamiento en cada país de la región, no solo en el epicentro.”` +
+    `<cite>Especialista en salud pública citado por medios internacionales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Qué se sabe del virus</h2>` +
+    `<p>El ébola se transmite por contacto directo con fluidos corporales de personas o animales infectados y puede tener una tasa de letalidad de entre el 25% y el 90%, según la cepa y la calidad de la atención. Los síntomas iniciales —fiebre, fatiga, dolor muscular y de garganta— se confunden con otras enfermedades, lo que retrasa el diagnóstico.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las cifras del brote corresponden a los reportes difundidos por medios internacionales y organismos sanitarios, y suelen actualizarse. La identidad y el estado clínico de la paciente no fueron divulgados por privacidad.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Nigeria reports its first Ebola case in more than a decade</h1>` +
+    `<p class="lead"><em>Nigeria confirmed its first Ebola case in more than a decade, becoming the fourth African country affected by an outbreak that has already killed more than 4,600 people and sickened nearly 10,000. The patient is hospitalized in Abuja, the capital, and arrived on a flight from Ethiopia after traveling to the Democratic Republic of the Congo.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/nigeria-ebola-primer-caso.jpg" alt="Health workers during the Ebola response" loading="lazy">` +
+    `<figcaption>The Ebola patient is hospitalized in Abuja, Nigeria. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">4,600+</div><div class="stat-label">Dead in the outbreak</div></div>` +
+    `<div class="stat-card"><div class="stat-value">10,000</div><div class="stat-label">Infected</div></div>` +
+    `<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">African countries affected</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The route of infection</h2>` +
+    `<p>According to health authorities, the patient arrived in Nigeria on a flight from Ethiopia in early October. Before that trip she had been in the Democratic Republic of the Congo (DRC), the epicenter of the current outbreak and the scene of the fastest-spreading contagion on record.</p>` +
+    `<p>The case activated contact-tracing protocols at the airport and at the hospital where she is being treated, although authorities did not immediately disclose how many people are under surveillance.</p>` +
+    `<h2 class="report-chapter">A regional crisis</h2>` +
+    `<p>Nigeria joins three other African countries that have already recorded cases in this outbreak. The World Health Organization has warned that regional mobility and weak surveillance systems make it easier for the virus to spread into densely populated areas.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Ebola does not respect borders. The only way to contain it is to strengthen early detection and isolation in every country in the region, not just at the epicenter.”` +
+    `<cite>Public health specialist cited by international media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">What is known about the virus</h2>` +
+    `<p>Ebola spreads through direct contact with the bodily fluids of infected people or animals and can have a fatality rate of between 25% and 90%, depending on the strain and the quality of care. Early symptoms — fever, fatigue, muscle and sore throat pain — are confused with other diseases, delaying diagnosis.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Outbreak figures correspond to reports circulated by international media and health agencies, and are often updated. The patient’s identity and clinical status were not disclosed for privacy reasons.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/nigeria-ebola-primer-caso.jpg',
+    imageCaption:
+      'La paciente con ébola está internada en un hospital de Abuya, Nigeria. Foto: Democracy Now!',
+    categoryEs: 'Salud',
+    categoryEn: 'Health',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Abuya, Nigeria',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1354',
+    contentType: 'news',
+    slug: 'onu-mundo-perdio-objetivo-15-grados-calentamiento',
+    publishedAt: '2026-10-22T09:00:00-04:00',
+    titleEs: 'La ONU advierte que el mundo perdió la oportunidad de limitar el calentamiento a 1,5 °C',
+    titleEn: 'UN warns the world has lost the chance to limit global heating to 1.5°C',
+    excerptEs:
+      'El Informe anual sobre la Brecha de Emisiones concluye que el objetivo del Acuerdo de París ya no es alcanzable, aunque recortes profundos aún podrían reducir la duración y la severidad del “sobrepaso”. El secretario general pide actuar “mucho más lejos y mucho más rápido”.',
+    excerptEn:
+      'The annual Emissions Gap Report concludes that the Paris Agreement target is no longer achievable, though deep cuts could still reduce the length and severity of the “overshoot.” The secretary-general calls for acting “much further and much faster.”',
+    contentEs: `<h1>La ONU advierte que el mundo perdió la oportunidad de limitar el calentamiento a 1,5 °C</h1>` +
+    `<p class="lead"><em>Naciones Unidas afirmó este jueves 22 de octubre que el mundo ya perdió la oportunidad de limitar el calentamiento global a 1,5 °C por encima de los niveles preindustriales, el objetivo central del Acuerdo de París de 2015. Sin embargo, el Informe sobre la Brecha de Emisiones publicado el miércoles sostiene que recortes drásticos de la deforestación y de la contaminación por gases de efecto invernadero todavía pueden reducir la duración y la gravedad del “sobrepaso”.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/onu-15-grados-calentamiento.jpg" alt="Impactos del calentamiento global" loading="lazy">` +
+    `<figcaption>El informe de la ONU advierte que el objetivo de 1,5 °C ya no es alcanzable. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Qué dice el informe</h2>` +
+    `<p>El documento anual, elaborado por el Programa de las Naciones Unidas para el Medio Ambiente, evalúa la distancia entre las emisiones proyectadas y las necesarias para contener el aumento de la temperatura. Su conclusión principal es que el umbral de 1,5 °C se superará, pero que la magnitud y la duración de ese exceso dependen de las decisiones que se tomen en esta década.</p>` +
+    `<p>Los autores señalan que frenar la deforestación y aplicar recortes profundos a los combustibles fósiles permitiría que las temperaturas vuelvan a situarse por debajo de 1,5 °C antes de finales del siglo XXI.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“El sobrepaso no es una rendición. Podemos mantenerlo tan pequeño y tan corto como sea posible y volver a bajar de 1,5 grados antes de que termine el siglo.”` +
+    `<cite>Stéphane Dujarric, portavoz de la ONU</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La advertencia del secretario general</h2>` +
+    `<p>Dujarric transmitió el mensaje del secretario general, quien advirtió que “el mundo se está quedando sin tiempo” y que los gobiernos deben ir “mucho más lejos y mucho más rápido”. El informe se publica a semanas de una nueva ronda de negociaciones climáticas internacionales.</p>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>Cada décima de grado adicional incrementa la frecuencia e intensidad de olas de calor, sequías, inundaciones y fenómenos extremos que ya afectan a millones de personas. El “sobrepaso” implica además riesgos de daños irreversibles en ecosistemas como los arrecifes de coral, los glaciares y la Amazonía.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Las proyecciones climáticas son estimaciones científicas sujetas a incertidumbre y dependen de los escenarios de emisiones utilizados. Las citas corresponden a la conferencia de prensa de la ONU y a la síntesis difundida por medios internacionales.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> y el Programa de la ONU para el Medio Ambiente.</p>`,
+    contentEn: `<h1>UN warns the world has lost the chance to limit global heating to 1.5°C</h1>` +
+    `<p class="lead"><em>The United Nations said this Thursday, October 22, that the world has already lost the chance to limit global heating to 1.5°C above pre-industrial levels, the central goal of the 2015 Paris Agreement. However, the Emissions Gap Report published on Wednesday argues that drastic cuts to deforestation and greenhouse gas pollution can still reduce the length and severity of the “overshoot.”</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/onu-15-grados-calentamiento.jpg" alt="Impacts of global heating" loading="lazy">` +
+    `<figcaption>The UN report warns that the 1.5°C target is no longer achievable. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">What the report says</h2>` +
+    `<p>The annual document, produced by the UN Environment Programme, assesses the gap between projected emissions and those needed to contain temperature rise. Its main conclusion is that the 1.5°C threshold will be exceeded, but that the magnitude and duration of that excess depend on decisions taken this decade.</p>` +
+    `<p>The authors say halting deforestation and making deep cuts to fossil fuels would allow temperatures to fall back below 1.5°C before the end of the 21st century.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Overshoot is not surrender. We can still keep it as small and as short as possible and bring temperatures back down below 1.5 degrees before the end of the century.”` +
+    `<cite>Stéphane Dujarric, UN spokesperson</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The secretary-general’s warning</h2>` +
+    `<p>Dujarric relayed the secretary-general’s message, warning that “the world is running out of time” and that governments must go “much further and much faster.” The report is published weeks before a new round of international climate negotiations.</p>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>Every additional tenth of a degree increases the frequency and intensity of heat waves, droughts, floods and extreme events already affecting millions of people. The “overshoot” also carries risks of irreversible damage to ecosystems such as coral reefs, glaciers and the Amazon.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Climate projections are scientific estimates subject to uncertainty and depend on the emissions scenarios used. The quotes come from the UN press conference and the summary circulated by international media.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a> and the UN Environment Programme.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/onu-15-grados-calentamiento.jpg',
+    imageCaption:
+      'El informe de la ONU advierte que el objetivo de 1,5 °C ya no es alcanzable. Foto: Democracy Now!',
+    categoryEs: 'Clima',
+    categoryEn: 'Climate',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Naciones Unidas',
+    source: 'Democracy Now! / PNUMA',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1355',
+    contentType: 'news',
+    slug: 'reino-unido-aprueba-gas-mar-norte-jackdaw-rosebank',
+    publishedAt: '2026-10-22T08:30:00-04:00',
+    titleEs: 'Reino Unido aprueba extraer gas del Mar del Norte pese a sus promesas climáticas',
+    titleEn: 'UK approves North Sea gas extraction despite its climate pledges',
+    excerptEs:
+      'El primer ministro Andy Burnham calificó la medida de “pragmática” para la independencia energética, pero ambientalistas la denunciaron como una traición. Las protestas se concentraron frente al ministerio de Energía por los yacimientos Jackdaw y Rosebank.',
+    excerptEn:
+      'Prime Minister Andy Burnham called the move “pragmatic” for energy independence, but environmentalists denounced it as a betrayal. Protests focused outside the Energy Ministry over the Jackdaw and Rosebank fields.',
+    contentEs: `<h1>Reino Unido aprueba extraer gas del Mar del Norte pese a sus promesas climáticas</h1>` +
+    `<p class="lead"><em>El gobierno británico aprobó este jueves 22 de octubre los planes para extraer gas natural de un enorme yacimiento en el Mar del Norte, una decisión que el primer ministro Andy Burnham defendió como un paso “pragmático” hacia la independencia energética y que organizaciones ambientales calificaron como una traición a los compromisos climáticos del país.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/reino-unido-gas-mar-norte.jpg" alt="Protesta frente al ministerio de Energía británico" loading="lazy">` +
+    `<figcaption>Ambientalistas protestaron frente al ministerio de Energía británico contra los proyectos Jackdaw y Rosebank. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">La decisión del gobierno</h2>` +
+    `<p>La autorización permitirá desarrollar un depósito de gas de gran escala en el Mar del Norte. Burnham sostuvo que la medida responde a la necesidad de garantizar suministro y reducir la dependencia de importaciones, en un contexto de precios volátiles de la energía.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Una y otra vez vemos que los primeros ministros eligen a las petroleras por encima de la gente, y está claro que lo están haciendo con Jackdaw.”` +
+    `<cite>Robin Wells, directora de Fossil Free London</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La protesta</h2>` +
+    `<p>El miércoles, manifestantes se concentraron frente al Departamento de Seguridad Energética y Net Zero para exigir que se reviertan los planes de perforación en el yacimiento Jackdaw y que se rechace la propuesta de desarrollar el campo petrolero Rosebank, aún mayor.</p>` +
+    `<p>Las organizaciones climáticas recordaron que Burnham había firmado el Tratado de No Proliferación de Combustibles Fósiles y que su gestión en Manchester había generado expectativas positivas, lo que hace más dura la contradicción.</p>` +
+    `<h2 class="report-chapter">El contexto energético y climático</h2>` +
+    `<p>El Reino Unido enfrenta una doble presión: la necesidad de asegurar energía asequible y la obligación de reducir emisiones para cumplir sus metas climáticas. Los críticos sostienen que nuevos proyectos de gas y petróleo prolongan la dependencia de los combustibles fósiles y complican el cumplimiento de esos objetivos.</p>` +
+    `<p>La decisión se produce semanas después de que la ONU advirtiera que el mundo ya perdió la oportunidad de limitar el calentamiento a 1,5 °C.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Los detalles técnicos y la producción estimada de los yacimientos no fueron precisados en el anuncio. Las citas corresponden a declaraciones recogidas por medios internacionales y pueden variar en la traducción.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>UK approves North Sea gas extraction despite its climate pledges</h1>` +
+    `<p class="lead"><em>The British government approved plans this Thursday, October 22, to extract natural gas from a massive North Sea deposit, a decision Prime Minister Andy Burnham defended as a “pragmatic” step toward energy independence and that environmental groups called a betrayal of the country’s climate commitments.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/reino-unido-gas-mar-norte.jpg" alt="Protest outside the UK Energy Ministry" loading="lazy">` +
+    `<figcaption>Environmentalists protested outside the UK Energy Ministry against the Jackdaw and Rosebank projects. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The government’s decision</h2>` +
+    `<p>The authorization will allow the development of a large-scale gas deposit in the North Sea. Burnham argued that the measure responds to the need to guarantee supply and reduce dependence on imports, in a context of volatile energy prices.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Time and time again, we see prime ministers choose oil companies over people, and it is clear they are doing this on Jackdaw.”` +
+    `<cite>Robin Wells, director of Fossil Free London</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The protest</h2>` +
+    `<p>On Wednesday, demonstrators gathered outside the Department for Energy Security and Net Zero to demand that the Jackdaw drilling plans be reversed and that the proposal to develop the even larger Rosebank oil field be rejected.</p>` +
+    `<p>Climate organizations recalled that Burnham had signed the Fossil Fuel Non-Proliferation Treaty and that his record in Manchester had raised positive expectations, making the contradiction sharper.</p>` +
+    `<h2 class="report-chapter">The energy and climate context</h2>` +
+    `<p>The UK faces a double pressure: the need to secure affordable energy and the obligation to cut emissions to meet its climate targets. Critics argue that new gas and oil projects prolong dependence on fossil fuels and complicate meeting those goals.</p>` +
+    `<p>The decision comes weeks after the UN warned that the world has already lost the chance to limit heating to 1.5°C.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Technical details and estimated production from the fields were not specified in the announcement. The quotes come from statements reported by international media and may vary in translation.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/reino-unido-gas-mar-norte.jpg',
+    imageCaption:
+      'Ambientalistas protestaron frente al ministerio de Energía británico contra los proyectos Jackdaw y Rosebank. Foto: Democracy Now!',
+    categoryEs: 'Europa',
+    categoryEn: 'Europe',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Londres, Reino Unido',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1356',
+    contentType: 'news',
+    slug: 'ohio-fuga-quimica-evacua-300-personas-toledo',
+    publishedAt: '2026-10-22T08:00:00-04:00',
+    titleEs: 'Fuga química en Ohio obliga a evacuar a casi 300 personas',
+    titleEn: 'Chemical leak in Ohio forces nearly 300 people to evacuate',
+    excerptEs:
+      'Sesenta personas están siendo evaluadas por síntomas tras la fuga de un tanque de sustancias peligrosas en Toledo. Casi 300 residentes de un radio de medio kilómetro fueron evacuados; la liberación se habría producido por un “error” durante el transporte del material.',
+    excerptEn:
+      'Sixty people are being evaluated for symptoms after a hazardous tank leak in Toledo. Nearly 300 residents within a half-mile radius were evacuated; the release was reportedly caused by an “error” during transport.',
+    contentEs: `<h1>Fuga química en Ohio obliga a evacuar a casi 300 personas</h1>` +
+    `<p class="lead"><em>Una fuga de sustancias peligrosas desde un tanque químico en Toledo, Ohio, obligó a evacuar a casi 300 personas en un radio de medio kilómetro y a evaluar a 60 por síntomas de exposición, según informaron las autoridades este jueves 22 de octubre. La liberación se habría producido por un “error” durante el transporte del material.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/ohio-fuga-quimica-evacuacion.jpg" alt="Respuesta de emergencia por fuga química en Ohio" loading="lazy">` +
+    `<figcaption>Equipos de emergencia evacuaron a casi 300 personas tras la fuga de un tanque químico en Toledo. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">60</div><div class="stat-label">Personas evaluadas</div></div>` +
+    `<div class="stat-card"><div class="stat-value">300</div><div class="stat-label">Evacuados</div></div>` +
+    `<div class="stat-card"><div class="stat-value">0,8 km</div><div class="stat-label">Radio de evacuación</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">La evacuación</h2>` +
+    `<p>Las autoridades ordenaron la salida de residentes y trabajadores en un radio de media milla (unos 800 metros) alrededor del lugar de la fuga. Equipos de emergencia y especialistas en materiales peligrosos trabajaron durante horas para contener la liberación y ventilar la zona.</p>` +
+    `<p>Sesenta personas fueron evaluadas por posibles síntomas de exposición, aunque no se informó de inmediato cuántas requirieron atención hospitalaria.</p>` +
+    `<h2 class="report-chapter">La causa</h2>` +
+    `<p>Según las primeras versiones, el escape se produjo por un “error” ocurrido mientras el material era transportado. Las autoridades no identificaron de inmediato la sustancia involucrada ni la empresa responsable, y anunciaron una investigación para determinar si hubo negligencia.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Las fugas de este tipo demuestran que el riesgo químico no está solo en las grandes plantas industriales, sino también en la logística que atraviesa barrios residenciales.”` +
+    `<cite>Especialista en seguridad industrial citado por medios locales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Antecedentes</h2>` +
+    `<p>El incidente se produce en un país donde los accidentes con materiales peligrosos, especialmente los vinculados al transporte ferroviario y por carretera, han generado debate sobre la regulación y la transparencia de las empresas químicas.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La identidad de la sustancia, la empresa responsable y el número exacto de afectados no fueron confirmados oficialmente al momento de la publicación. La calificación de “error” proviene de las primeras declaraciones de las autoridades y está sujeta a la investigación en curso.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Chemical leak in Ohio forces nearly 300 people to evacuate</h1>` +
+    `<p class="lead"><em>A hazardous leak from a chemical tank in Toledo, Ohio, forced nearly 300 people within a half-mile radius to evacuate and 60 people to be evaluated for symptoms of exposure, authorities said this Thursday, October 22. The release was reportedly caused by an “error” during transport of the material.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/ohio-fuga-quimica-evacuacion.jpg" alt="Emergency response to a chemical leak in Ohio" loading="lazy">` +
+    `<figcaption>Emergency teams evacuated nearly 300 people after a chemical tank leak in Toledo. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">60</div><div class="stat-label">People evaluated</div></div>` +
+    `<div class="stat-card"><div class="stat-value">300</div><div class="stat-label">Evacuated</div></div>` +
+    `<div class="stat-card"><div class="stat-value">0.5 mi</div><div class="stat-label">Evacuation radius</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The evacuation</h2>` +
+    `<p>Authorities ordered residents and workers to leave within a half-mile (about 800 meters) radius of the leak site. Emergency teams and hazardous materials specialists worked for hours to contain the release and ventilate the area.</p>` +
+    `<p>Sixty people were evaluated for possible exposure symptoms, although it was not immediately clear how many required hospital care.</p>` +
+    `<h2 class="report-chapter">The cause</h2>` +
+    `<p>According to early accounts, the spill was caused by an “error” that occurred while the material was being transported. Authorities did not immediately identify the substance involved or the company responsible, and announced an investigation to determine whether there was negligence.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Leaks like this show that chemical risk is not only in large industrial plants, but also in the logistics that run through residential neighborhoods.”` +
+    `<cite>Industrial safety specialist cited by local media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Background</h2>` +
+    `<p>The incident occurs in a country where accidents involving hazardous materials, especially those linked to rail and road transport, have fueled debate over regulation and corporate transparency.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The identity of the substance, the company responsible and the exact number of people affected were not officially confirmed at the time of publication. The “error” characterization comes from initial statements by authorities and is subject to the ongoing investigation.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '2 min',
+    readTimeEn: '2 min',
+    imageUrl: '/images/news/2026-10-22/ohio-fuga-quimica-evacuacion.jpg',
+    imageCaption:
+      'Equipos de emergencia evacuaron a casi 300 personas tras la fuga de un tanque químico en Toledo. Foto: Democracy Now!',
+    categoryEs: 'Seguridad',
+    categoryEn: 'Safety',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Toledo, Ohio, EE.UU.',
+    source: 'Democracy Now!',
+    region: 'US',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1357',
+    contentType: 'news',
+    slug: 'corte-suprema-eeuu-frena-veda-atencion-trans-reclusos',
+    publishedAt: '2026-10-22T07:30:00-04:00',
+    titleEs: 'La Corte Suprema de EE.UU. impide negar atención de afirmación de género a reclusos',
+    titleEn: 'US Supreme Court bars denying gender-affirming care to prisoners',
+    excerptEs:
+      'El máximo tribunal dejó vigente una decisión de instancia inferior que impide al Buró Federal de Prisiones suspender la terapia hormonal y otros tratamientos para personas transgénero. La ACLU estima que unas 2.000 personas bajo custodia federal se identifican como trans.',
+    excerptEn:
+      'The high court left in place a lower court ruling barring the Federal Bureau of Prisons from ending hormone therapy and other treatments for transgender people. The ACLU estimates about 2,000 people in federal custody identify as transgender.',
+    contentEs: `<h1>La Corte Suprema de EE.UU. impide negar atención de afirmación de género a reclusos</h1>` +
+    `<p class="lead"><em>La Corte Suprema de Estados Unidos dejó vigente este jueves 22 de octubre una decisión de un tribunal inferior que impide al Buró Federal de Prisiones suspender la terapia hormonal y otros tratamientos de afirmación de género para reclusos transgénero. En la práctica, la administración de Donald Trump deberá continuar brindando esa atención en las cárceles federales.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/corte-suprema-reclusos-trans.jpg" alt="Edificio de la Corte Suprema de Estados Unidos" loading="lazy">` +
+    `<figcaption>La Corte Suprema dejó en pie la decisión que obliga al Buró Federal de Prisiones a mantener la atención de afirmación de género. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">Qué decidió el tribunal</h2>` +
+    `<p>Sin emitir un fallo de fondo, la Corte rechazó la solicitud del gobierno de bloquear la decisión de una instancia inferior mientras el caso sigue su curso. Esa decisión sostiene que la política del Buró Federal de Prisiones no puede terminar con la terapia hormonal y otros tratamientos indicados para personas transgénero bajo custodia federal.</p>` +
+    `<p>La Unión Estadounidense por las Libertades Civiles (ACLU) calcula que alrededor de 2.000 personas privadas de libertad en el sistema federal se identifican como transgénero.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Negar atención médica que ya está indicada no es una política penitenciaria: es un castigo adicional impuesto por identidad.”` +
+    `<cite>Abogada de derechos civiles citada por medios estadounidenses</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">El contexto político</h2>` +
+    `<p>La decisión representa un revés para la administración, que había intentado restringir los tratamientos de afirmación de género en el sistema penitenciario federal. Organizaciones de derechos humanos celebraron la medida como una protección mínima de la salud de un grupo especialmente vulnerable.</p>` +
+    `<p>El caso continúa en tribunales inferiores y podría volver a la Corte Suprema en una etapa posterior.</p>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>La interrupción de tratamientos hormonales puede provocar efectos físicos y psicológicos graves. La decisión garantiza, por ahora, la continuidad de la atención para las personas trans encarceladas, un colectivo con altas tasas de violencia y problemas de salud mental.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La Corte no se pronunció sobre el fondo del caso, por lo que la situación jurídica podría cambiar. La cifra de reclusos transgénero es una estimación de la ACLU y no un dato oficial del sistema penitenciario.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>US Supreme Court bars denying gender-affirming care to prisoners</h1>` +
+    `<p class="lead"><em>The US Supreme Court left in place this Thursday, October 22, a lower court ruling that bars the Federal Bureau of Prisons from ending hormone therapy and other gender-affirming treatments for transgender inmates. In practice, the administration of Donald Trump must continue providing that care in federal prisons.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/corte-suprema-reclusos-trans.jpg" alt="US Supreme Court building" loading="lazy">` +
+    `<figcaption>The Supreme Court left standing the ruling requiring the Federal Bureau of Prisons to maintain gender-affirming care. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">What the court decided</h2>` +
+    `<p>Without issuing a ruling on the merits, the Court declined the government’s request to block the lower court decision while the case proceeds. That decision holds that the Federal Bureau of Prisons’ policy cannot terminate hormone therapy and other treatments indicated for transgender people in federal custody.</p>` +
+    `<p>The American Civil Liberties Union (ACLU) estimates that about 2,000 people in federal custody identify as transgender.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Denying medical care that is already indicated is not a prison policy: it is additional punishment imposed for identity.”` +
+    `<cite>Civil rights lawyer cited by US media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">The political context</h2>` +
+    `<p>The decision represents a setback for the administration, which had sought to restrict gender-affirming treatments in the federal prison system. Human rights organizations welcomed the measure as a minimum protection for the health of an especially vulnerable group.</p>` +
+    `<p>The case continues in lower courts and could return to the Supreme Court at a later stage.</p>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>Interrupting hormone treatments can cause serious physical and psychological effects. The decision guarantees, for now, continuity of care for incarcerated transgender people, a group with high rates of violence and mental health problems.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The Court did not rule on the merits of the case, so the legal situation could change. The number of transgender inmates is an ACLU estimate, not official prison system data.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/corte-suprema-reclusos-trans.jpg',
+    imageCaption:
+      'La Corte Suprema dejó en pie la decisión que obliga al Buró Federal de Prisiones a mantener la atención de afirmación de género. Foto: Democracy Now!',
+    categoryEs: 'Justicia',
+    categoryEn: 'Justice',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Washington D.C., EE.UU.',
+    source: 'Democracy Now!',
+    region: 'US',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1358',
+    contentType: 'news',
+    slug: 'falla-critica-php-millones-sitios-web-vulnerables',
+    publishedAt: '2026-10-22T07:00:00-04:00',
+    titleEs: 'Falla crítica en PHP deja expuestos a millones de sitios web en todo el mundo',
+    titleEn: 'Critical PHP flaw leaves millions of websites worldwide exposed',
+    excerptEs:
+      'La vulnerabilidad, hallada con herramientas de inteligencia artificial, permite a atacantes no autenticados tomar el control de servidores y robar contraseñas. Wikipedia, la BBC y portales gubernamentales quedaron parcialmente fuera de línea mientras los programadores aplicaban parches.',
+    excerptEn:
+      'The vulnerability, found with artificial intelligence tools, allows unauthenticated attackers to take control of servers and steal passwords. Wikipedia, the BBC and government portals were partially offline as programmers raced to patch it.',
+    contentEs: `<h1>Falla crítica en PHP deja expuestos a millones de sitios web en todo el mundo</h1>` +
+    `<p class="lead"><em>Expertos en ciberseguridad advirtieron este jueves 22 de octubre que millones de sitios web necesitan con urgencia un parche de seguridad tras el descubrimiento de fallas críticas en PHP, el lenguaje de programación que sostiene a la mayoría de las páginas de internet. La vulnerabilidad permite a atacantes no autenticados tomar el control de servidores y robar datos sensibles, incluidas contraseñas.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/php-falla-critica-sitios-web.jpg" alt="Código de programación en una pantalla" loading="lazy">` +
+    `<figcaption>La falla en PHP obligó a parchear servidores en todo el mundo. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">El hallazgo</h2>` +
+    `<p>La falla fue descubierta el martes por investigadores de la firma Calif utilizando herramientas de inteligencia artificial. Según los análisis preliminares, un atacante sin credenciales podría ejecutar código en el servidor, tomar el control de la máquina y acceder a bases de datos con información confidencial.</p>` +
+    `<p>Algunos investigadores la describieron como la vulnerabilidad más grave que haya afectado a internet, por la enorme base de sitios construidos sobre PHP.</p>` +
+    `<h2 class="report-chapter">Sitios afectados</h2>` +
+    `<p>El miércoles, sitios de gran tráfico quedaron fuera de línea mientras los equipos técnicos corrían para aplicar los parches. Entre ellos se reportaron secciones de Wikipedia, la BBC y varios portales gubernamentales nacionales.</p>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">Millones</div><div class="stat-label">Sitios afectados</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1</div><div class="stat-label">Día para el hallazgo</div></div>` +
+    `<div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Autenticación requerida</div></div>` +
+    `</div>` +
+    `<blockquote class="expert-quote">` +
+    `“La velocidad con la que se encontró esta falla usando IA muestra que la misma tecnología que ayuda a defender también acelera la detección de errores explotables.”` +
+    `<cite>Investigador de seguridad citado por medios internacionales</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Qué deben hacer los administradores</h2>` +
+    `<p>Los especialistas recomendaron actualizar PHP a la versión parcheada, revisar los registros de acceso en busca de actividad sospechosa y rotar credenciales y claves de acceso. También pidieron a los proveedores de alojamiento que verifiquen si sus clientes usan versiones vulnerables.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La gravedad y el alcance exacto de la vulnerabilidad siguen siendo evaluados. La identificación de la firma descubridora y la lista de sitios afectados corresponden a reportes de prensa y pueden actualizarse. No se ha confirmado públicamente un incidente masivo de robo de datos.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Critical PHP flaw leaves millions of websites worldwide exposed</h1>` +
+    `<p class="lead"><em>Cybersecurity experts warned this Thursday, October 22, that millions of websites urgently need a security patch after critical flaws were discovered in PHP, the programming language that powers most of the internet’s pages. The vulnerability allows unauthenticated attackers to take control of servers and steal sensitive data, including passwords.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/php-falla-critica-sitios-web.jpg" alt="Programming code on a screen" loading="lazy">` +
+    `<figcaption>The PHP flaw forced servers around the world to be patched. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<h2 class="report-chapter">The discovery</h2>` +
+    `<p>The flaw was discovered on Tuesday by researchers at the firm Calif using artificial intelligence tools. According to preliminary analyses, an attacker without credentials could execute code on the server, take control of the machine and access databases with confidential information.</p>` +
+    `<p>Some researchers described it as the most serious vulnerability ever to affect the internet, given the enormous base of sites built on PHP.</p>` +
+    `<h2 class="report-chapter">Affected sites</h2>` +
+    `<p>On Wednesday, high-traffic sites went offline as technical teams raced to apply patches. Among them were sections of Wikipedia, the BBC and several national government portals.</p>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">Millions</div><div class="stat-label">Sites affected</div></div>` +
+    `<div class="stat-card"><div class="stat-value">1</div><div class="stat-label">Day to discovery</div></div>` +
+    `<div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Authentication required</div></div>` +
+    `</div>` +
+    `<blockquote class="expert-quote">` +
+    `“The speed at which this flaw was found using AI shows that the same technology that helps defend also accelerates the discovery of exploitable errors.”` +
+    `<cite>Security researcher cited by international media</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">What administrators should do</h2>` +
+    `<p>Experts recommended updating PHP to the patched version, reviewing access logs for suspicious activity and rotating credentials and access keys. They also urged hosting providers to check whether their customers use vulnerable versions.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The exact severity and scope of the vulnerability are still being assessed. The identification of the discovering firm and the list of affected sites come from press reports and may be updated. No massive data theft incident has been publicly confirmed.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/php-falla-critica-sitios-web.jpg',
+    imageCaption:
+      'La falla en PHP obligó a parchear servidores en todo el mundo. Foto: Democracy Now!',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Internet',
+    source: 'Democracy Now!',
+    region: 'International',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
+{
+    id: '1359',
+    contentType: 'news',
+    slug: 'meta-multa-25-mil-millones-nuevo-mexico-datos',
+    publishedAt: '2026-10-22T06:30:00-04:00',
+    titleEs: 'Meta condenada a pagar US$25.000 millones por engañar a los usuarios sobre sus datos',
+    titleEn: 'Meta ordered to pay $25 billion for misleading users about their data',
+    excerptEs:
+      'Un juez de Nuevo México impuso la mayor multa en la historia de la compañía tras concluir que mintió durante años sobre el uso de los datos de Facebook. El monto es solo una fracción de los casi US$220.000 millones que corresponderían por ley.',
+    excerptEn:
+      'A New Mexico judge imposed the largest fine in the company’s history after concluding it lied for years about its use of Facebook data. The amount is only a fraction of the nearly $220 billion that would be warranted under the law.',
+    contentEs: `<h1>Meta condenada a pagar US$25.000 millones por engañar a los usuarios sobre sus datos</h1>` +
+    `<p class="lead"><em>Un juez de Nuevo México condenó a Meta a pagar una multa de 25.000 millones de dólares tras un juicio que concluyó que la empresa mintió durante años sobre el uso de los datos de los usuarios de Facebook. Se trata de la sanción más alta impuesta a la compañía, aunque representa solo una fracción de los casi 220.000 millones de dólares que, según la ley, corresponderían.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/meta-multa-25-mil-millones.jpg" alt="Mark Zuckerberg, director ejecutivo de Meta" loading="lazy">` +
+    `<figcaption>Un juez de Nuevo México impuso a Meta su multa más alta hasta la fecha. Foto: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">US$25.000 M</div><div class="stat-label">Multa impuesta</div></div>` +
+    `<div class="stat-card"><div class="stat-value">US$220.000 M</div><div class="stat-label">Monto máximo legal</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2021</div><div class="stat-label">Año de la demanda</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">El caso</h2>` +
+    `<p>La demanda fue presentada en 2021 por Nuevo México a raíz del escándalo de Cambridge Analytica, en el que datos de millones de usuarios de Facebook fueron utilizados sin su consentimiento con fines de perfilado político. El juicio concluyó que la empresa engañó a los consumidores sobre qué ocurría con su información personal.</p>` +
+    `<p>El fallo impone la mayor multa en la historia de Meta por prácticas comerciales engañosas, pero queda muy por debajo del máximo previsto por la legislación estatal.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“Este caso siempre se trató de algo más que una empresa o un escándalo. Se trata de si las corporaciones pueden engañar a los consumidores sobre lo que pasa con su información personal sin enfrentar consecuencias reales.”` +
+    `<cite>Raúl Torrez, fiscal general de Nuevo México</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">La reacción de Meta</h2>` +
+    `<p>La empresa no se pronunció de inmediato sobre la sentencia y se espera que apele. Meta ha sostenido en el pasado que sus prácticas de privacidad cumplen con la ley y que ha reforzado sus controles tras el caso Cambridge Analytica.</p>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>La decisión sienta un precedente sobre la responsabilidad de las plataformas digitales frente a la privacidad de sus usuarios y podría influir en otros litigios en Estados Unidos y en el debate regulatorio internacional sobre el uso de datos personales.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El monto final podría cambiar si la empresa apela y si el tribunal revisa la sanción. La comparación con el máximo legal proviene de lo señalado por la fiscalía y por medios estadounidenses.</p>` +
+    `<p>Con información de <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    contentEn: `<h1>Meta ordered to pay $25 billion for misleading users about their data</h1>` +
+    `<p class="lead"><em>A New Mexico judge ordered Meta to pay a $25 billion fine after a trial concluded that the company lied for years about its use of Facebook users’ data. It is the largest penalty ever imposed on the company, though it represents only a fraction of the nearly $220 billion that would be warranted under the law.</em></p>` +
+    `<figure class="report-figure">` +
+    `<img src="/images/news/2026-10-22/meta-multa-25-mil-millones.jpg" alt="Mark Zuckerberg, Meta chief executive" loading="lazy">` +
+    `<figcaption>A New Mexico judge imposed Meta’s largest fine to date. Photo: Democracy Now!</figcaption>` +
+    `</figure>` +
+    `<div class="stat-grid">` +
+    `<div class="stat-card"><div class="stat-value">$25 B</div><div class="stat-label">Fine imposed</div></div>` +
+    `<div class="stat-card"><div class="stat-value">$220 B</div><div class="stat-label">Legal maximum</div></div>` +
+    `<div class="stat-card"><div class="stat-value">2021</div><div class="stat-label">Year sued</div></div>` +
+    `</div>` +
+    `<h2 class="report-chapter">The case</h2>` +
+    `<p>The lawsuit was filed in 2021 by New Mexico in the wake of the Cambridge Analytica scandal, in which data from millions of Facebook users was used without consent for political profiling. The trial concluded that the company misled consumers about what happened to their personal information.</p>` +
+    `<p>The ruling imposes the largest fine in Meta’s history for deceptive business practices, but it falls far below the maximum allowed under state law.</p>` +
+    `<blockquote class="expert-quote">` +
+    `“This case has always been about more than one company or one scandal. It is about whether corporations can mislead consumers about what happens to their personal information without facing meaningful consequences.”` +
+    `<cite>Raúl Torrez, New Mexico attorney general</cite>` +
+    `</blockquote>` +
+    `<h2 class="report-chapter">Meta’s response</h2>` +
+    `<p>The company did not immediately comment on the ruling and is expected to appeal. Meta has said in the past that its privacy practices comply with the law and that it strengthened its controls after the Cambridge Analytica case.</p>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>The decision sets a precedent on the responsibility of digital platforms for users’ privacy and could influence other litigation in the United States and the international regulatory debate over personal data.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The final amount could change if the company appeals and the court reviews the penalty. The comparison with the legal maximum comes from what the attorney general’s office and US media have reported.</p>` +
+    `<p>With information from <a href="https://www.democracynow.org/2026/10/22/headlines" target="_blank" rel="noopener noreferrer">Democracy Now!</a>.</p>`,
+    date: '2026-10-22',
+    readTimeEs: '3 min',
+    readTimeEn: '3 min',
+    imageUrl: '/images/news/2026-10-22/meta-multa-25-mil-millones.jpg',
+    imageCaption:
+      'Un juez de Nuevo México impuso a Meta su multa más alta hasta la fecha. Foto: Democracy Now!',
+    categoryEs: 'Tecnología',
+    categoryEn: 'Technology',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Nuevo México, EE.UU.',
+    source: 'Democracy Now!',
+    region: 'US',
+    sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
+  },
 ];
 
 export const translations = {

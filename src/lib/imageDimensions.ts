@@ -1,6 +1,46 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-10-22/iran-eeuu-israel-planes-ataques.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/arabia-saudita-huties-aeropuerto.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/ucrania-rusia-ataques-witkoff.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/nigeria-ebola-primer-caso.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/onu-15-grados-calentamiento.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/reino-unido-gas-mar-norte.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/ohio-fuga-quimica-evacuacion.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/corte-suprema-reclusos-trans.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/php-falla-critica-sitios-web.jpg": {
+    "width": 960,
+    "height": 540
+  },
+  "/images/news/2026-10-22/meta-multa-25-mil-millones.jpg": {
+    "width": 960,
+    "height": 540
+  },
   "/images/news/2026-10-19/francia-protestas-curfews.jpg": {
     "width": 960,
     "height": 540
