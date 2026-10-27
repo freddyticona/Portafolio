@@ -33031,6 +33031,614 @@ Sources: [Bolivian Police — DNFR](https://policiadnfr.gob.bo) · [RUAT](https:
     region: 'US',
     sourceUrl: 'https://www.democracynow.org/2026/10/22/headlines'
   },
+  {
+    id: '1360',
+    contentType: 'news',
+    slug: 'israel-elecciones-2026-netanyahu-referendum',
+    publishedAt: '2026-10-26T22:30:00+02:00',
+    titleEs: 'Israel vota: un referéndum sobre Netanyahu',
+    titleEn: 'Israel votes: a referendum on Netanyahu',
+    excerptEs: 'Los israelíes votan en las primeras elecciones generales desde 2023, marcadas por la guerra en Gaza, los rehenes y el juicio al primer ministro.',
+    excerptEn: 'Israelis are voting in the first general election since 2023, shaped by the war in Gaza, the hostages and the prime minister’s corruption trial.',
+    contentEs: `<h1>Israel vota: un referéndum sobre Netanyahu</h1>` +
+    `<p class="lead"><em>Los israelíes acuden este 26 de octubre a las urnas en las primeras elecciones generales desde los ataques del 7 de octubre de 2023. La jornada, que se extiende hasta la noche, está dominada por la guerra en Gaza, la suerte de los rehenes, el costo de vida y el juicio por corrupción del primer ministro Benjamin Netanyahu. El resultado decidirá si el país mantiene el rumbo de la coalición más derechista de su historia o gira hacia un gobierno de unidad.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/israel-elecciones-2026-netanyahu-referendum.jpg" alt="Votantes en un colegio electoral de Jerusalén" loading="lazy"><figcaption>Imagen ilustrativa de la Knéset, sede del Parlamento israelí, en Jerusalén. Foto: Gary Todd / Wikimedia Commons, CC0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">120</div><div class="stat-label">Escaños en la Knéset</div></div><div class="stat-card"><div class="stat-value">61</div><div class="stat-label">Umbral de mayoría</div></div><div class="stat-card"><div class="stat-value">2023</div><div class="stat-label">Última elección general</div></div></div>` +
+    `<h2 class="report-chapter">Una campaña marcada por la guerra</h2>` +
+    `<p>La contienda llega después de casi tres años de conflicto y de sucesivas crisis de coalición. Según la BBC, los principales bloques compitieron por presentarse como la fuerza capaz de cerrar un acuerdo que devuelva a los rehenes aún retenidos en Gaza, reconstruir las comunidades del sur y restablecer la confianza en las instituciones.</p>` +
+    `<p>Los partidos de la oposición centraron su mensaje en la responsabilidad política del 7 de octubre y en la necesidad de una comisión de investigación independiente. La coalición gobernante defendió su gestión de seguridad y advirtió que un cambio de gobierno pondría en riesgo los acuerdos alcanzados con Estados Unidos y los países de la región.</p>` +
+    `<h2 class="report-chapter">Los bloques y el factor Netanyahu</h2>` +
+    `<p>Las encuestas difundidas en la última semana mostraron una contienda reñida, con el campo opositor ligeramente por delante en escaños pero sin garantías de alcanzar los 61 necesarios para formar gobierno. El primer ministro concentró buena parte del debate: para sus críticos, la elección es una oportunidad de cerrar un ciclo; para sus aliados, una defensa de la continuidad frente a lo que describen como un frente externo e interno coordinado.</p>` +
+    `<blockquote class="expert-quote">“Esta elección no se define solo por la seguridad o por la economía. Se define por la confianza: si los ciudadanos creen que el Estado puede explicar lo que ocurrió y garantizar que no vuelva a ocurrir.”<cite>Analista político israelí citado por BBC News</cite></blockquote>` +
+    `<h2 class="report-chapter">El juicio que sobrevuela la votación</h2>` +
+    `<p>Netanyahu enfrenta un proceso judicial por cargos de fraude, soborno y abuso de confianza, que él niega. El caso, abierto antes de la guerra, volvió al centro de la campaña por la discusión sobre posibles reformas al sistema judicial y por el efecto que un nuevo gobierno podría tener sobre el calendario del proceso.</p>` +
+    `<a class="doc-card" href="https://main.knesset.gov.il/EN/Pages/default.aspx" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">KNÉSET</div><div><div class="doc-card-title">Resultados y composición del Parlamento israelí</div><div class="doc-card-desc">El sitio oficial de la Knéset publica el escrutinio, la asignación de escaños y el calendario de consultas para formar gobierno.</div></div></a>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>El nuevo gobierno deberá decidir sobre la continuidad de la ofensiva en Gaza, la reconstrucción del sur, el servicio militar de los ultraortodoxos y la relación con Washington. Un ejecutivo débil o una coalición dependiente de partidos pequeños podría alargar la incertidumbre en un momento de alta tensión regional.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Los sondeos citados son estimaciones y no sustituyen el escrutinio oficial. Las cifras de participación y la asignación definitiva de escaños se conocerán a lo largo de la madrugada. Las declaraciones atribuidas a analistas provienen de medios internacionales y no de entrevistas propias de esta redacción.</p>` +
+    `<p>Con información de <a href="https://www.bbc.com/news/world/middle_east" target="_blank" rel="noopener noreferrer">BBC News</a> y <a href="https://www.reuters.com/world/middle-east/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    contentEn: `<h1>Israel votes: a referendum on Netanyahu</h1>` +
+    `<p class="lead"><em>Israelis go to the polls on October 26 in the first general election since the October 7, 2023 attacks. The vote, which runs into the night, is dominated by the war in Gaza, the fate of the hostages, the cost of living and Prime Minister Benjamin Netanyahu’s corruption trial. The result will decide whether the country keeps the course of its most right-wing coalition or turns toward a unity government.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/israel-elecciones-2026-netanyahu-referendum.jpg" alt="Voters at a polling station in Jerusalem" loading="lazy"><figcaption>Illustrative image of the Knesset, the Israeli parliament, in Jerusalem. Photo: Gary Todd / Wikimedia Commons, CC0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">120</div><div class="stat-label">Knesset seats</div></div><div class="stat-card"><div class="stat-value">61</div><div class="stat-label">Majority threshold</div></div><div class="stat-card"><div class="stat-value">2023</div><div class="stat-label">Last general election</div></div></div>` +
+    `<h2 class="report-chapter">A campaign shaped by war</h2>` +
+    `<p>The race comes after nearly three years of conflict and repeated coalition crises. According to the BBC, the main blocs competed to present themselves as the force capable of closing a deal to bring home the hostages still held in Gaza, rebuilding southern communities and restoring trust in institutions.</p>` +
+    `<p>Opposition parties focused their message on political responsibility for October 7 and on the need for an independent commission of inquiry. The governing coalition defended its security record and warned that a change of government would put at risk the arrangements reached with the United States and regional countries.</p>` +
+    `<h2 class="report-chapter">The blocs and the Netanyahu factor</h2>` +
+    `<p>Polls published in the final week showed a tight race, with the opposition camp slightly ahead in seats but without a guarantee of reaching the 61 needed to form a government. The prime minister dominated much of the debate: for his critics, the election is a chance to close a chapter; for his allies, a defense of continuity against what they describe as a coordinated external and internal front.</p>` +
+    `<blockquote class="expert-quote">“This election is not defined only by security or the economy. It is defined by trust: whether citizens believe the state can explain what happened and guarantee it will not happen again.”<cite>Israeli political analyst quoted by BBC News</cite></blockquote>` +
+    `<h2 class="report-chapter">The trial hanging over the vote</h2>` +
+    `<p>Netanyahu faces trial on charges of fraud, bribery and breach of trust, which he denies. The case, opened before the war, returned to the center of the campaign because of the debate over judicial overhaul and the effect a new government could have on the timetable of the proceedings.</p>` +
+    `<a class="doc-card" href="https://main.knesset.gov.il/EN/Pages/default.aspx" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">KNESSET</div><div><div class="doc-card-title">Results and composition of the Israeli Parliament</div><div class="doc-card-desc">The Knesset’s official site publishes the count, the allocation of seats and the calendar of consultations to form a government.</div></div></a>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>The next government will have to decide on the continuation of the Gaza offensive, the reconstruction of the south, ultra-Orthodox military service and relations with Washington. A weak executive or a coalition dependent on small parties could prolong uncertainty at a moment of high regional tension.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The polls cited are estimates and do not replace the official count. Turnout figures and the final allocation of seats will emerge through the night. Statements attributed to analysts come from international media and not from interviews conducted by this newsroom.</p>` +
+    `<p>With information from <a href="https://www.bbc.com/news/world/middle_east" target="_blank" rel="noopener noreferrer">BBC News</a> and <a href="https://www.reuters.com/world/middle-east/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '7 min',
+    readTimeEn: '7 min',
+    imageUrl: '/images/news/2026-10-26/israel-elecciones-2026-netanyahu-referendum.jpg',
+    imageCaption: 'Imagen ilustrativa de la Knéset, sede del Parlamento israelí, en Jerusalén. Foto: Gary Todd / Wikimedia Commons, CC0',
+    categoryEs: 'Internacional',
+    categoryEn: 'International',
+    enableComments: true,
+    featured: true,
+    breaking: false,
+    views: 1,
+    location: 'Jerusalén, Israel',
+    source: 'BBC News',
+    region: 'International',
+    sourceUrl: 'https://www.bbc.com/news/world/middle_east'
+  },
+  {
+    id: '1361',
+    contentType: 'news',
+    slug: 'brasil-lula-gana-segunda-vuelta-bolsonaro-rechaza-resultados',
+    publishedAt: '2026-10-26T21:00:00-03:00',
+    titleEs: 'Brasil: Lula gana la segunda vuelta y Bolsonaro la rechaza',
+    titleEn: 'Brazil: Lula wins the runoff and Bolsonaro rejects it',
+    excerptEs: 'El Tribunal Superior Electoral proclamó la victoria de Lula da Silva en un balotaje muy ajustado, mientras Jair Bolsonaro desconoció el resultado.',
+    excerptEn: 'Brazil’s Superior Electoral Court certified Lula da Silva’s victory in a tight runoff, while Jair Bolsonaro refused to recognize the result.',
+    contentEs: `<h1>Brasil: Lula gana la segunda vuelta y Bolsonaro la rechaza</h1>` +
+    `<p class="lead"><em>Luiz Inácio Lula da Silva ganó este 26 de octubre la segunda vuelta de las elecciones presidenciales de Brasil, según el escrutinio difundido por el Tribunal Superior Electoral (TSE). El expresidente, de 81 años, regresará al poder para un tercer mandato no consecutivo. Su rival, Jair Bolsonaro, desconoció el resultado y denunció un supuesto fraude sin aportar pruebas, en una jornada que terminó con tensión en Brasilia y celebraciones en São Paulo.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/brasil-lula-gana-segunda-vuelta-bolsonaro-rechaza-resultados.jpg" alt="Seguidores de Lula da Silva celebran el resultado electoral" loading="lazy"><figcaption>Imagen ilustrativa del presidente Luiz Inácio Lula da Silva. Foto: Vice-Presidência da República / Wikimedia Commons, CC BY 2.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2003</div><div class="stat-label">Primer mandato de Lula</div></div><div class="stat-card"><div class="stat-value">2011</div><div class="stat-label">Fin de su segundo mandato</div></div><div class="stat-card"><div class="stat-value">2027</div><div class="stat-label">Inicio del nuevo periodo</div></div></div>` +
+    `<h2 class="report-chapter">Un resultado ajustado</h2>` +
+    `<p>De acuerdo con Reuters, la diferencia entre ambos candidatos fue estrecha y el resultado se definió con el conteo de las últimas secciones del interior del país. El TSE declaró la elección válida y pidió a las fuerzas políticas respetar el resultado, mientras la policía federal reforzaba la seguridad en los alrededores de la sede del tribunal y en el palacio presidencial.</p>` +
+    `<p>Lula compareció pasada la medianoche acompañado por dirigentes de su coalición. Prometió un gobierno de “reconciliación y reconstrucción”, con prioridad en salud, empleo, seguridad pública y la protección de la Amazonía. También anunció que buscará recomponer los canales de diálogo con el Congreso, donde su bloque no tendrá mayoría propia.</p>` +
+    `<h2 class="report-chapter">El rechazo de Bolsonaro</h2>` +
+    `<p>El expresidente Jair Bolsonaro, que no pudo presentarse por la inhabilitación impuesta por el TSE, rechazó los resultados en una transmisión en vivo y afirmó, sin presentar evidencias, que hubo irregularidades en el conteo. Sus abogados anunciaron que solicitarán una revisión, aunque el tribunal ya descartó de manera preliminar las denuncias por falta de sustento.</p>` +
+    `<p>Los gobernadores de varios estados y líderes del Congreso reconocieron la victoria de Lula. La comunidad internacional, incluidos Estados Unidos, la Unión Europea y los países del Mercosur, felicitó al presidente electo y llamó a mantener la institucionalidad.</p>` +
+    `<blockquote class="expert-quote">“La democracia brasileña ya demostró que sabe resistir presiones. La prueba ahora no es solo electoral: es la capacidad de las instituciones de hacer cumplir el resultado sin excepciones.”<cite>Analista político brasileño citado por Reuters</cite></blockquote>` +
+    `<h2 class="report-chapter">Qué sigue</h2>` +
+    `<p>Lula asumirá el 1 de enero de 2027 en un país profundamente polarizado y con un Congreso fragmentado. Su agenda económica deberá equilibrar el gasto social con la presión fiscal, mientras la oposición bolsonarista controla una parte importante de los gobiernos estatales y del Legislativo.</p>` +
+    `<a class="doc-card" href="https://www.tse.jus.br/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">TSE</div><div><div class="doc-card-title">Resultados oficiales del Tribunal Superior Electoral</div><div class="doc-card-desc">Actas, boletines de urna y cómputo definitivo de la segunda vuelta presidencial brasileña.</div></div></a>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Los porcentajes definitivos pueden variar mientras concluye la totalización de actas en las zonas remotas. La denuncia de fraude de Bolsonaro no ha sido respaldada por evidencia verificable. Este artículo se actualizará cuando el TSE publique el cómputo final.</p>` +
+    `<p>Con información de <a href="https://www.reuters.com/world/americas/" target="_blank" rel="noopener noreferrer">Reuters</a> y <a href="https://www.tse.jus.br/" target="_blank" rel="noopener noreferrer">Tribunal Superior Electoral de Brasil</a>.</p>`,
+    contentEn: `<h1>Brazil: Lula wins the runoff and Bolsonaro rejects it</h1>` +
+    `<p class="lead"><em>Luiz Inácio Lula da Silva won Brazil’s presidential runoff on October 26, according to the count released by the Superior Electoral Court (TSE). The 81-year-old former president will return to power for a third non-consecutive term. His rival, Jair Bolsonaro, refused to recognize the result and alleged fraud without providing evidence, on a day that ended with tension in Brasilia and celebrations in São Paulo.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/brasil-lula-gana-segunda-vuelta-bolsonaro-rechaza-resultados.jpg" alt="Lula da Silva supporters celebrate the election result" loading="lazy"><figcaption>Illustrative image of President Luiz Inácio Lula da Silva. Photo: Vice-Presidência da República / Wikimedia Commons, CC BY 2.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2003</div><div class="stat-label">Lula’s first term</div></div><div class="stat-card"><div class="stat-value">2011</div><div class="stat-label">End of his second term</div></div><div class="stat-card"><div class="stat-value">2027</div><div class="stat-label">Start of the new term</div></div></div>` +
+    `<h2 class="report-chapter">A tight result</h2>` +
+    `<p>According to Reuters, the margin between the two candidates was narrow and the outcome was decided as the last polling stations in the interior were counted. The TSE declared the election valid and urged political forces to respect the result, while federal police reinforced security around the court and the presidential palace.</p>` +
+    `<p>Lula appeared after midnight alongside leaders of his coalition. He promised a government of “reconciliation and reconstruction,” prioritizing health, jobs, public security and protection of the Amazon. He also said he would rebuild channels of dialogue with Congress, where his bloc will not have its own majority.</p>` +
+    `<h2 class="report-chapter">Bolsonaro’s rejection</h2>` +
+    `<p>Former president Jair Bolsonaro, who could not run because of a disqualification imposed by the TSE, rejected the results in a live broadcast and claimed, without evidence, that there were irregularities in the count. His lawyers said they would request a review, although the court has already preliminarily dismissed the complaints for lack of support.</p>` +
+    `<p>Several state governors and congressional leaders recognized Lula’s victory. The international community, including the United States, the European Union and Mercosur countries, congratulated the president-elect and called for respect for democratic institutions.</p>` +
+    `<blockquote class="expert-quote">“Brazilian democracy has already shown it can resist pressure. The test now is not only electoral: it is the ability of institutions to enforce the result without exceptions.”<cite>Brazilian political analyst quoted by Reuters</cite></blockquote>` +
+    `<h2 class="report-chapter">What comes next</h2>` +
+    `<p>Lula will take office on January 1, 2027, in a deeply polarized country with a fragmented Congress. His economic agenda will have to balance social spending with fiscal pressure, while the Bolsonarist opposition controls a significant share of state governments and the legislature.</p>` +
+    `<a class="doc-card" href="https://www.tse.jus.br/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">TSE</div><div><div class="doc-card-title">Official results from the Superior Electoral Court</div><div class="doc-card-desc">Minutes, polling-station reports and the final count of Brazil’s presidential runoff.</div></div></a>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Final percentages may change while ballot totals from remote areas are completed. Bolsonaro’s fraud claim has not been supported by verifiable evidence. This article will be updated when the TSE publishes the final count.</p>` +
+    `<p>With information from <a href="https://www.reuters.com/world/americas/" target="_blank" rel="noopener noreferrer">Reuters</a> and <a href="https://www.tse.jus.br/" target="_blank" rel="noopener noreferrer">Brazil’s Superior Electoral Court</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '6 min',
+    readTimeEn: '6 min',
+    imageUrl: '/images/news/2026-10-26/brasil-lula-gana-segunda-vuelta-bolsonaro-rechaza-resultados.jpg',
+    imageCaption: 'Imagen ilustrativa del presidente Luiz Inácio Lula da Silva. Foto: Vice-Presidência da República / Wikimedia Commons, CC BY 2.0',
+    categoryEs: 'América',
+    categoryEn: 'Americas',
+    enableComments: true,
+    featured: true,
+    breaking: true,
+    views: 1,
+    location: 'Brasilia, Brasil',
+    source: 'Reuters',
+    region: 'International',
+    sourceUrl: 'https://www.reuters.com/world/americas/'
+  },
+  {
+    id: '1362',
+    contentType: 'news',
+    slug: 'serbia-vucic-concede-derrota-movimiento-estudiantil',
+    publishedAt: '2026-10-26T19:30:00+02:00',
+    titleEs: 'Serbia: Vučić reconoce la derrota ante los estudiantes',
+    titleEn: 'Serbia: Vučić concedes defeat to the student movement',
+    excerptEs: 'El presidente serbio admitió la victoria de la oposición estudiantil en las elecciones anticipadas, tras casi dos años de protestas ciudadanas.',
+    excerptEn: 'Serbia’s president acknowledged the victory of the student-led opposition in snap elections, after nearly two years of mass street protests.',
+    contentEs: `<h1>Serbia: Vučić reconoce su derrota ante el movimiento estudiantil</h1>` +
+    `<p class="lead"><em>El presidente de Serbia, Aleksandar Vučić, reconoció este 26 de octubre la derrota de su coalición en las elecciones anticipadas frente a una alianza encabezada por el movimiento estudiantil que durante casi dos años exigió responsabilidades por el derrumbe de la marquesina de la estación de Novi Sad. El anuncio, transmitido en cadena nacional, abre una etapa de transición tras más de una década de dominio del Partido Progresista Serbio (SNS).</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/serbia-vucic-concede-derrota-movimiento-estudiantil.jpg" alt="Manifestantes celebran en Belgrado tras las elecciones" loading="lazy"><figcaption>Imagen ilustrativa de una protesta estudiantil en Belgrado. Foto: Karadan1804 / Wikimedia Commons, CC0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2024</div><div class="stat-label">Inicio de las protestas</div></div><div class="stat-card"><div class="stat-value">16</div><div class="stat-label">Víctimas del derrumbe</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Elecciones anticipadas</div></div></div>` +
+    `<h2 class="report-chapter">De la plaza a las urnas</h2>` +
+    `<p>Las protestas comenzaron en noviembre de 2024, después de que el colapso de la marquesina de la estación de tren de Novi Sad causara 16 muertos. Lo que empezó como una demanda de investigación y dimisiones se transformó en un movimiento descentralizado, con asambleas estudiantiles, bloqueos de facultades y marchas en decenas de ciudades.</p>` +
+    `<p>Según Euronews, la alianza opositora articuló una campaña breve y de bajo costo, apoyada en voluntarios y en redes sociales, y logró movilizar a un electorado joven que se mantenía al margen de la política. Su programa se centró en la independencia judicial, la lucha contra la corrupción y la rendición de cuentas por la tragedia de Novi Sad.</p>` +
+    `<h2 class="report-chapter">El reconocimiento</h2>` +
+    `<p>Vučić, que había anticipado una victoria cómoda, compareció pasada la medianoche y admitió que su coalición no alcanzó la mayoría. “El pueblo ha hablado y respetaremos su decisión”, dijo, y pidió a sus seguidores evitar confrontaciones. El SNS conserve una parte importante de escaños y controla varias alcaldías, lo que anticipa una transición negociada.</p>` +
+    `<blockquote class="expert-quote">“El movimiento estudiantil demostró que una demanda de justicia puede convertirse en una fuerza electoral. El desafío será transformar esa energía en instituciones que funcionen.”<cite>Analista balcánico citado por Euronews</cite></blockquote>` +
+    `<h2 class="report-chapter">Reacción internacional</h2>` +
+    `<p>La Unión Europea saludó la jornada electoral y pidió que los resultados se apliquen con transparencia. Bruselas condiciona el avance de la candidatura serbia a reformas en el Estado de derecho, la libertad de prensa y la lucha contra el crimen organizado, capítulos en los que el gobierno saliente fue criticado.</p>` +
+    `<a class="doc-card" href="https://www.rik.parlament.gov.rs/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">RIK</div><div><div class="doc-card-title">Resultados de la Comisión Electoral de Serbia</div><div class="doc-card-desc">Actas por circunscripción, participación y reparto de escaños de las elecciones anticipadas.</div></div></a>` +
+    `<h2 class="report-chapter">Qué se juega el país</h2>` +
+    `<p>Serbia es candidata a la adhesión europea y mantiene un equilibrio delicado entre Bruselas, Moscú y Pekín. El nuevo gobierno deberá definir su política exterior, resolver la crisis energética y responder a las demandas de los familiares de las víctimas de Novi Sad, que exigen una investigación independiente.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Los resultados definitivos serán proclamados por la Comisión Electoral en los próximos días. Las cifras de escaños citadas son preliminares. La cifra de 16 víctimas del derrumbe corresponde al balance oficial difundido por las autoridades serbias.</p>` +
+    `<p>Con información de <a href="https://www.euronews.com/" target="_blank" rel="noopener noreferrer">Euronews</a> y <a href="https://www.bbc.com/news/world/europe" target="_blank" rel="noopener noreferrer">BBC News</a>.</p>`,
+    contentEn: `<h1>Serbia: Vučić concedes defeat to the student movement</h1>` +
+    `<p class="lead"><em>Serbian President Aleksandar Vučić on October 26 acknowledged his coalition’s defeat in snap elections to an alliance led by the student movement that spent nearly two years demanding accountability for the collapse of the Novi Sad railway station canopy. The announcement, broadcast nationwide, opens a transition after more than a decade of dominance by the Serbian Progressive Party (SNS).</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/serbia-vucic-concede-derrota-movimiento-estudiantil.jpg" alt="Protesters celebrate in Belgrade after the elections" loading="lazy"><figcaption>Illustrative image of a student protest in Belgrade. Photo: Karadan1804 / Wikimedia Commons, CC0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2024</div><div class="stat-label">Protests begin</div></div><div class="stat-card"><div class="stat-value">16</div><div class="stat-label">Victims of the collapse</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Snap elections</div></div></div>` +
+    `<h2 class="report-chapter">From the square to the ballot box</h2>` +
+    `<p>The protests began in November 2024, after the collapse of the canopy at Novi Sad’s railway station killed 16 people. What started as a demand for an investigation and resignations became a decentralized movement, with student assemblies, faculty blockades and marches in dozens of cities.</p>` +
+    `<p>According to Euronews, the opposition alliance ran a short, low-cost campaign powered by volunteers and social media, and mobilized a young electorate that had stayed on the sidelines of politics. Its platform focused on judicial independence, the fight against corruption and accountability for the Novi Sad tragedy.</p>` +
+    `<h2 class="report-chapter">The concession</h2>` +
+    `<p>Vučić, who had anticipated a comfortable victory, appeared after midnight and admitted his coalition had not secured a majority. “The people have spoken and we will respect their decision,” he said, urging supporters to avoid confrontations. The SNS retains a significant share of seats and controls several municipalities, pointing to a negotiated transition.</p>` +
+    `<blockquote class="expert-quote">“The student movement showed that a demand for justice can become an electoral force. The challenge will be turning that energy into institutions that work.”<cite>Balkan analyst quoted by Euronews</cite></blockquote>` +
+    `<h2 class="report-chapter">International reaction</h2>` +
+    `<p>The European Union welcomed the vote and urged that the results be implemented transparently. Brussels ties the progress of Serbia’s membership bid to reforms in the rule of law, press freedom and the fight against organized crime — areas in which the outgoing government was criticized.</p>` +
+    `<a class="doc-card" href="https://www.rik.parlament.gov.rs/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">RIK</div><div><div class="doc-card-title">Results from Serbia’s Electoral Commission</div><div class="doc-card-desc">Constituency minutes, turnout and seat allocation from the snap elections.</div></div></a>` +
+    `<h2 class="report-chapter">What is at stake</h2>` +
+    `<p>Serbia is an EU membership candidate and maintains a delicate balance between Brussels, Moscow and Beijing. The new government will have to define its foreign policy, address the energy crisis and respond to the demands of the families of the Novi Sad victims, who are calling for an independent investigation.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Final results will be certified by the Electoral Commission in the coming days. Seat figures cited here are preliminary. The toll of 16 deaths from the collapse matches the official figure released by Serbian authorities.</p>` +
+    `<p>With information from <a href="https://www.euronews.com/" target="_blank" rel="noopener noreferrer">Euronews</a> and <a href="https://www.bbc.com/news/world/europe" target="_blank" rel="noopener noreferrer">BBC News</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '6 min',
+    readTimeEn: '6 min',
+    imageUrl: '/images/news/2026-10-26/serbia-vucic-concede-derrota-movimiento-estudiantil.jpg',
+    imageCaption: 'Imagen ilustrativa de una protesta estudiantil en Belgrado. Foto: Karadan1804 / Wikimedia Commons, CC0',
+    categoryEs: 'Europa',
+    categoryEn: 'Europe',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Belgrado, Serbia',
+    source: 'Euronews',
+    region: 'International',
+    sourceUrl: 'https://www.euronews.com/'
+  },
+  {
+    id: '1363',
+    contentType: 'news',
+    slug: 'ucrania-alto-fuego-oleshky-mediacion-eeuu',
+    publishedAt: '2026-10-26T18:00:00+03:00',
+    titleEs: 'Ucrania: entra en vigor un alto el fuego local en Oleshky',
+    titleEn: 'Ukraine: a local ceasefire takes effect in Oleshky',
+    excerptEs: 'Ucrania y Rusia aceptaron una tregua limitada en torno a Oleshky, mediada por Estados Unidos, para evacuar civiles y reparar servicios básicos.',
+    excerptEn: 'Ukraine and Russia have accepted a US-mediated limited truce around Oleshky aimed at evacuating civilians and repairing damaged basic services.',
+    contentEs: `<h1>Ucrania: entra en vigor un alto el fuego local en Oleshky</h1>` +
+    `<p class="lead"><em>Un alto el fuego limitado entró en vigor este 26 de octubre en torno a Oleshky, en la orilla ocupada del río Dniéper, tras una mediación de Estados Unidos aceptada por Ucrania y Rusia. El acuerdo, de alcance local y duración inicial de 72 horas, busca permitir la evacuación de civiles, la entrega de ayuda humanitaria y la reparación de servicios básicos en una de las zonas más castigadas por los combates en el sur del país.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/ucrania-alto-fuego-oleshky-mediacion-eeuu.jpg" alt="Edificios dañados en la región de Jersón" loading="lazy"><figcaption>Imagen ilustrativa de un edificio destruido por la guerra en la región de Jórson. Foto: Дмитрий Калинюк / Wikimedia Commons, CC BY 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">72 h</div><div class="stat-label">Duración inicial</div></div><div class="stat-card"><div class="stat-value">2022</div><div class="stat-label">Oleshky bajo ocupación</div></div><div class="stat-card"><div class="stat-value">1</div><div class="stat-label">Corredor humanitario</div></div></div>` +
+    `<h2 class="report-chapter">Qué contempla el acuerdo</h2>` +
+    `<p>Según Reuters, el entendimiento fue anunciado por mediadores estadounidenses y contempla la suspensión de los ataques con drones y artillería en un perímetro acordado, la apertura de un corredor para la salida de civiles y el ingreso de camiones con agua, alimentos y medicamentos. También prevé el acceso de técnicos para restablecer la electricidad y las comunicaciones.</p>` +
+    `<p>Ambas partes se comprometieron a no aprovechar la pausa para reforzar posiciones, aunque no se divulgó el mecanismo de verificación. Observadores internacionales y organizaciones humanitarias pidieron garantías de que la tregua no se utilice con fines militares.</p>` +
+    `<h2 class="report-chapter">Una tregua frágil</h2>` +
+    `<p>Horas antes de la entrada en vigor, se reportaron combates en localidades cercanas y acusaciones cruzadas de violaciones. El ejército ucraniano afirmó que mantiene sus posiciones defensivas; las autoridades instaladas por Moscú en la región dijeron que la tregua es “una oportunidad para los residentes” y negaron despliegues adicionales.</p>` +
+    `<blockquote class="expert-quote">“Los alto el fuego locales salvan vidas, pero no sustituyen una solución política. Su valor depende de que haya monitoreo creíble y de que ambas partes paguen un costo si los violan.”<cite>Investigador de conflictos citado por medios internacionales</cite></blockquote>` +
+    `<h2 class="report-chapter">El contexto</h2>` +
+    `<p>Oleshky quedó bajo control ruso en 2022, al inicio de la invasión a gran escala, y su población civil ha sufrido años de combates, inundaciones tras la destrucción de la represa de Kajovka y restricciones de acceso. La zona es estratégica por su cercanía a Jersón y por las rutas que conectan la margen izquierda del Dniéper con Crimea.</p>` +
+    `<p>La mediación estadounidense se produce en un momento de estancamiento en las conversaciones más amplias sobre un cese de hostilidades. Washington ha insistido en que cualquier acuerdo debe respetar la integridad territorial de Ucrania, mientras Moscú mantiene sus exigencias sobre los territorios que reclama como propios.</p>` +
+    `<a class="doc-card" href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">ONU</div><div><div class="doc-card-title">Informes humanitarios de Naciones Unidas sobre Ucrania</div><div class="doc-card-desc">Evaluaciones de acceso, desplazamiento y necesidades básicas en las regiones del sur y el este del país.</div></div></a>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>La duración y el alcance exacto de la tregua pueden cambiar. No se divulgó el texto completo del acuerdo ni el mecanismo de verificación. Las cifras de población afectada varían según la fuente y no pudieron confirmarse de forma independiente.</p>` +
+    `<p>Con información de <a href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener noreferrer">Reuters</a> y <a href="https://www.aljazeera.com/" target="_blank" rel="noopener noreferrer">Al Jazeera</a>.</p>`,
+    contentEn: `<h1>Ukraine: a local ceasefire takes effect in Oleshky</h1>` +
+    `<p class="lead"><em>A limited ceasefire around Oleshky, on the occupied bank of the Dnipro River, took effect on October 26 after US mediation accepted by Ukraine and Russia. The locally scoped deal, initially lasting 72 hours, is meant to allow the evacuation of civilians, the delivery of aid and repairs to basic services in one of the areas hardest hit by fighting in southern Ukraine.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/ucrania-alto-fuego-oleshky-mediacion-eeuu.jpg" alt="Damaged buildings in the Kherson region" loading="lazy"><figcaption>Illustrative image of a war-damaged building in the Kherson region. Photo: Дмитрий Калинюк / Wikimedia Commons, CC BY 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">72 h</div><div class="stat-label">Initial duration</div></div><div class="stat-card"><div class="stat-value">2022</div><div class="stat-label">Oleshky occupied</div></div><div class="stat-card"><div class="stat-value">1</div><div class="stat-label">Humanitarian corridor</div></div></div>` +
+    `<h2 class="report-chapter">What the deal covers</h2>` +
+    `<p>According to Reuters, the arrangement was announced by US mediators and provides for a halt to drone and artillery attacks within an agreed perimeter, the opening of a corridor for civilians to leave and the entry of trucks carrying water, food and medicine. It also allows technicians in to restore electricity and communications.</p>` +
+    `<p>Both sides pledged not to use the pause to reinforce positions, although the verification mechanism was not disclosed. International observers and aid groups called for guarantees that the truce would not be used for military purposes.</p>` +
+    `<h2 class="report-chapter">A fragile truce</h2>` +
+    `<p>Hours before it took effect, fighting was reported in nearby towns and the sides traded accusations of violations. Ukraine’s army said it was maintaining defensive positions; the Moscow-installed authorities in the region called the truce “an opportunity for residents” and denied additional deployments.</p>` +
+    `<blockquote class="expert-quote">“Local ceasefires save lives, but they do not replace a political solution. Their value depends on credible monitoring and on both sides paying a price if they violate it.”<cite>Conflict researcher quoted by international media</cite></blockquote>` +
+    `<h2 class="report-chapter">The context</h2>` +
+    `<p>Oleshky fell under Russian control in 2022, at the start of the full-scale invasion, and its civilian population has endured years of fighting, flooding after the destruction of the Kakhovka dam and restricted access. The area is strategic because of its proximity to Kherson and the routes linking the left bank of the Dnipro to Crimea.</p>` +
+    `<p>The US mediation comes amid a stalemate in broader talks on a cessation of hostilities. Washington insists any deal must respect Ukraine’s territorial integrity, while Moscow maintains its claims over territories it says are its own.</p>` +
+    `<a class="doc-card" href="https://www.ochaopt.org/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">UN</div><div><div class="doc-card-title">United Nations humanitarian reports on Ukraine</div><div class="doc-card-desc">Assessments of access, displacement and basic needs in the country’s southern and eastern regions.</div></div></a>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The duration and exact scope of the truce may change. The full text of the agreement and the verification mechanism were not released. Figures on the affected population vary by source and could not be independently confirmed.</p>` +
+    `<p>With information from <a href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener noreferrer">Reuters</a> and <a href="https://www.aljazeera.com/" target="_blank" rel="noopener noreferrer">Al Jazeera</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '6 min',
+    readTimeEn: '6 min',
+    imageUrl: '/images/news/2026-10-26/ucrania-alto-fuego-oleshky-mediacion-eeuu.jpg',
+    imageCaption: 'Imagen ilustrativa de un edificio destruido por la guerra en la región de Jórson. Foto: Дмитрий Калинюк / Wikimedia Commons, CC BY 3.0',
+    categoryEs: 'Conflictos',
+    categoryEn: 'Conflicts',
+    enableComments: true,
+    featured: false,
+    breaking: true,
+    views: 1,
+    location: 'Oleshky, Ucrania',
+    source: 'Reuters',
+    region: 'International',
+    sourceUrl: 'https://www.reuters.com/world/europe/'
+  },
+  {
+    id: '1364',
+    contentType: 'news',
+    slug: 'jordania-ataque-iglesia-karak-detenciones',
+    publishedAt: '2026-10-26T16:30:00+03:00',
+    titleEs: 'Jordania detiene a sospechosos por el ataque en Karak',
+    titleEn: 'Jordan arrests suspects over church attack in Karak',
+    excerptEs: 'Las autoridades jordanas detuvieron a varios sospechosos tras el ataque armado contra una iglesia en Karak, que dejó víctimas mortales y heridos.',
+    excerptEn: 'Jordanian authorities have arrested several suspects after the armed attack on a church in Karak during Sunday service, which left people dead and wounded.',
+    contentEs: `<h1>Jordania detiene a sospechosos por el ataque a una iglesia en Karak</h1>` +
+    `<p class="lead"><em>Las fuerzas de seguridad de Jordania detuvieron a varios sospechosos por el ataque armado contra una iglesia en la ciudad de Karak, a unos 120 kilómetros al sur de Amán, ocurrido durante la jornada del domingo. El Ministerio del Interior confirmó las detenciones y aseguró que la investigación sigue abierta, mientras las autoridades reforzaban la seguridad en templos y espacios públicos de todo el país.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/jordania-ataque-iglesia-karak-detenciones.jpg" alt="Fuerzas de seguridad en las inmediaciones de la iglesia atacada en Karak" loading="lazy"><figcaption>Imagen ilustrativa del castillo de Karak, en Jordania. Foto: Zairon / Wikimedia Commons, CC BY-SA 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">120 km</div><div class="stat-label">Distancia a Amán</div></div><div class="stat-card"><div class="stat-value">Karak</div><div class="stat-label">Ciudad del ataque</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Año del atentado</div></div></div>` +
+    `<h2 class="report-chapter">Los hechos</h2>` +
+    `<p>De acuerdo con Al Jazeera, el atacante abrió fuego contra los fieles durante una ceremonia religiosa y luego huyó del lugar. Las fuerzas de seguridad acordonaron el área, evacuaron a los heridos a hospitales de Karak y Amán y desplegaron unidades antiterroristas. El balance de víctimas no ha sido unificado por las autoridades.</p>` +
+    `<p>La iglesia atacada forma parte de una comunidad cristiana históricamente presente en la región, que representa una minoría pequeña pero arraigada en Jordania. Líderes religiosos musulmanes y cristianos condenaron el ataque y llamaron a preservar la convivencia.</p>` +
+    `<h2 class="report-chapter">Las detenciones</h2>` +
+    `<p>El Ministerio del Interior informó de la detención de varias personas vinculadas a la investigación, entre ellas supuestos colaboradores, y no descartó que el ataque haya sido planificado con antelación. Las autoridades no confirmaron la identidad ni la afiliación de los detenidos, y pidieron no difundir información no verificada.</p>` +
+    `<blockquote class="expert-quote">“Jordania ha sido durante décadas un espacio de estabilidad relativa en una región convulsa. Un ataque contra un lugar de culto busca precisamente romper ese equilibrio y alimentar la división sectaria.”<cite>Analista de seguridad regional citado por medios internacionales</cite></blockquote>` +
+    `<h2 class="report-chapter">Reacciones</h2>` +
+    `<p>El rey Abdalá II expresó sus condolencias a las familias de las víctimas y ordenó acelerar la investigación. El gobierno declaró que responderá con “todo el peso de la ley” y reforzó la vigilancia en iglesias, mezquitas y edificios oficiales. Varios países de la región y organizaciones internacionales ofrecieron asistencia para las pesquisas.</p>` +
+    `<a class="doc-card" href="https://www.moi.gov.jo/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">INTERIOR</div><div><div class="doc-card-title">Comunicados del Ministerio del Interior de Jordania</div><div class="doc-card-desc">Partes oficiales sobre la investigación, las detenciones y las medidas de seguridad adoptadas tras el ataque.</div></div></a>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>Jordania es un socio clave de Estados Unidos y de la Unión Europea en la región y acoge a una gran población de refugiados palestinos y sirios. Un atentado de este tipo puede tensar el debate interno sobre seguridad, libertad de culto y el papel de los grupos extremistas, en un contexto de creciente polarización por la guerra en Gaza.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El número de víctimas mortales y heridos difiere entre fuentes oficiales y medios locales; este artículo no adopta una cifra definitiva. La identidad y los motivos de los detenidos no han sido confirmados por las autoridades. Se actualizará cuando el Ministerio del Interior publique un parte oficial.</p>` +
+    `<p>Con información de <a href="https://www.aljazeera.com/" target="_blank" rel="noopener noreferrer">Al Jazeera</a> y <a href="https://www.reuters.com/world/middle-east/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    contentEn: `<h1>Jordan arrests suspects over church attack in Karak</h1>` +
+    `<p class="lead"><em>Jordanian security forces arrested several suspects over the armed attack on a church in the city of Karak, about 120 kilometers south of Amman, during Sunday’s service. The Interior Ministry confirmed the arrests and said the investigation remains open, while authorities stepped up security at places of worship and public spaces across the country.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/jordania-ataque-iglesia-karak-detenciones.jpg" alt="Security forces near the attacked church in Karak" loading="lazy"><figcaption>Illustrative image of Karak Castle in Jordan. Photo: Zairon / Wikimedia Commons, CC BY-SA 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">120 km</div><div class="stat-label">Distance to Amman</div></div><div class="stat-card"><div class="stat-value">Karak</div><div class="stat-label">City of the attack</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Year of the attack</div></div></div>` +
+    `<h2 class="report-chapter">What happened</h2>` +
+    `<p>According to Al Jazeera, the attacker opened fire on worshippers during a religious service and then fled. Security forces cordoned off the area, evacuated the wounded to hospitals in Karak and Amman and deployed counterterrorism units. Authorities have not issued a unified casualty toll.</p>` +
+    `<p>The church belongs to a Christian community long present in the region, a small but rooted minority in Jordan. Muslim and Christian religious leaders condemned the attack and called for preserving coexistence.</p>` +
+    `<h2 class="report-chapter">The arrests</h2>` +
+    `<p>The Interior Ministry reported the arrest of several people linked to the investigation, including alleged accomplices, and did not rule out that the attack had been planned in advance. Authorities did not confirm the identity or affiliation of those detained and urged the public not to spread unverified information.</p>` +
+    `<blockquote class="expert-quote">“Jordan has for decades been a space of relative stability in a turbulent region. An attack on a place of worship seeks precisely to break that balance and fuel sectarian division.”<cite>Regional security analyst quoted by international media</cite></blockquote>` +
+    `<h2 class="report-chapter">Reactions</h2>` +
+    `<p>King Abdullah II expressed condolences to the victims’ families and ordered the investigation accelerated. The government said it would respond with “the full force of the law” and tightened surveillance at churches, mosques and official buildings. Several countries in the region and international organizations offered assistance with the inquiry.</p>` +
+    `<a class="doc-card" href="https://www.moi.gov.jo/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">INTERIOR</div><div><div class="doc-card-title">Statements from Jordan’s Interior Ministry</div><div class="doc-card-desc">Official updates on the investigation, the arrests and the security measures taken after the attack.</div></div></a>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>Jordan is a key partner of the United States and the European Union in the region and hosts a large population of Palestinian and Syrian refugees. An attack of this kind can strain the domestic debate over security, freedom of worship and the role of extremist groups, in a context of growing polarization over the war in Gaza.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The number of dead and wounded differs between official sources and local media; this article does not adopt a definitive figure. The identity and motives of those detained have not been confirmed by authorities. The story will be updated when the Interior Ministry issues an official statement.</p>` +
+    `<p>With information from <a href="https://www.aljazeera.com/" target="_blank" rel="noopener noreferrer">Al Jazeera</a> and <a href="https://www.reuters.com/world/middle-east/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-26/jordania-ataque-iglesia-karak-detenciones.jpg',
+    imageCaption: 'Imagen ilustrativa del castillo de Karak, en Jordania. Foto: Zairon / Wikimedia Commons, CC BY-SA 3.0',
+    categoryEs: 'Seguridad',
+    categoryEn: 'Security',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Karak, Jordania',
+    source: 'Al Jazeera',
+    region: 'International',
+    sourceUrl: 'https://www.aljazeera.com/'
+  },
+  {
+    id: '1365',
+    contentType: 'news',
+    slug: 'tifon-champi-debilita-japon-alertas',
+    publishedAt: '2026-10-26T15:00:00+09:00',
+    titleEs: 'El tifón Champi se debilita pero Japón mantiene las alertas',
+    titleEn: 'Typhoon Champi weakens but Japan keeps its alerts',
+    excerptEs: 'Champi bajó a tormenta tropical tras azotar el suroeste de Japón, pero las autoridades mantienen evacuaciones y avisos por lluvias intensas.',
+    excerptEn: 'Champi weakened to a tropical storm after hitting southwestern Japan, but authorities kept evacuations and heavy-rain warnings in place across the region.',
+    contentEs: `<h1>El tifón Champi se debilita pero Japón mantiene las alertas</h1>` +
+    `<p class="lead"><em>El tifón Champi se degradó este 26 de octubre a tormenta tropical tras atravesar el suroeste de Japón con vientos intensos y lluvias torrenciales. Aunque perdió fuerza al avanzar sobre el mar, la Agencia Meteorológica de Japón (JMA) mantuvo avisos por deslizamientos, crecidas de ríos e inundaciones en Okinawa, Kyushu y partes de Honshu, y las autoridades pidieron a decenas de miles de personas que no regresaran aún a sus hogares.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/tifon-champi-debilita-japon-alertas.jpg" alt="Calle inundada en el suroeste de Japón" loading="lazy"><figcaption>Imagen satelital ilustrativa de un tifón sobre Japón. Foto: NASA / dominio público</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">Tormenta</div><div class="stat-label">Categoría tras debilitarse</div></div><div class="stat-card"><div class="stat-value">Okinawa</div><div class="stat-label">Primera zona afectada</div></div><div class="stat-card"><div class="stat-value">Pacífico</div><div class="stat-label">Trayectoria posterior</div></div></div>` +
+    `<h2 class="report-chapter">El paso del ciclón</h2>` +
+    `<p>Según NHK World, Champi se aproximó al archipiélago con vientos sostenidos que obligaron a cancelar vuelos, suspender ferris y detener temporalmente algunos tramos ferroviarios. Las prefecturas del sur activaron refugios y emitieron órdenes de evacuación preventiva para las zonas costeras y de montaña más expuestas.</p>` +
+    `<p>Al tocar tierra, el sistema perdió organización y se desplazó hacia el este-noreste sobre aguas más frías. Aun así, las bandas nubosas siguieron descargando agua sobre cuencas ya saturadas, lo que elevó el riesgo de crecidas repentinas y deslizamientos durante las próximas horas.</p>` +
+    `<h2 class="report-chapter">Impacto y servicios</h2>` +
+    `<p>Las cadenas japonesas reportaron cortes de electricidad en varias localidades, carreteras bloqueadas por árboles caídos y retrasos en el transporte aéreo. Los servicios de emergencia atendieron a personas con heridas leves y a residentes que quedaron aislados por el agua. Hasta el momento, las autoridades no han confirmado víctimas mortales.</p>` +
+    `<blockquote class="expert-quote">“El debilitamiento de un tifón no significa que el peligro haya terminado. La mayor parte de los daños suele ocurrir después del paso del centro, cuando el suelo ya está saturado.”<cite>Meteorólogo citado por medios japoneses</cite></blockquote>` +
+    `<h2 class="report-chapter">La respuesta oficial</h2>` +
+    `<p>El gobierno central activó un centro de coordinación y ofreció apoyo a las prefecturas afectadas. La JMA advirtió que las lluvias podrían prolongarse y pidió a la población revisar los mapas de riesgo y las rutas de evacuación. Las escuelas de las zonas más golpeadas suspendieron clases.</p>` +
+    `<a class="doc-card" href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">JMA</div><div><div class="doc-card-title">Avisos meteorológicos oficiales de Japón</div><div class="doc-card-desc">Trayectoria, intensidad y alertas por lluvia, viento y deslizamientos actualizadas en tiempo real.</div></div></a>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>Japón enfrenta cada año una temporada de tifones que pone a prueba su infraestructura y sus protocolos de evacuación. El país ha invertido en diques, sistemas de alerta temprana y simulacros comunitarios, pero el envejecimiento de la población y la concentración urbana complican la respuesta en las zonas rurales.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El número de evacuados y los daños materiales son estimaciones preliminares que pueden variar. La cifra de víctimas se actualizará cuando las autoridades publiquen un balance consolidado. Las declaraciones del meteorólogo provienen de medios japoneses.</p>` +
+    `<p>Con información de <a href="https://www3.nhk.or.jp/nhkworld/en/news/" target="_blank" rel="noopener noreferrer">NHK World</a> y <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener noreferrer">Agencia Meteorológica de Japón</a>.</p>`,
+    contentEn: `<h1>Typhoon Champi weakens but Japan keeps its alerts</h1>` +
+    `<p class="lead"><em>Typhoon Champi weakened into a tropical storm on October 26 after crossing southwestern Japan with strong winds and torrential rain. Although it lost strength as it moved over the sea, the Japan Meteorological Agency (JMA) kept warnings for landslides, river flooding and inundation in Okinawa, Kyushu and parts of Honshu, and authorities urged tens of thousands of people not to return home yet.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/tifon-champi-debilita-japon-alertas.jpg" alt="Flooded street in southwestern Japan" loading="lazy"><figcaption>Illustrative satellite image of a typhoon over Japan. Photo: NASA / public domain</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">Tropical storm</div><div class="stat-label">Category after weakening</div></div><div class="stat-card"><div class="stat-value">Okinawa</div><div class="stat-label">First area hit</div></div><div class="stat-card"><div class="stat-value">Pacific</div><div class="stat-label">Later track</div></div></div>` +
+    `<h2 class="report-chapter">The storm’s passage</h2>` +
+    `<p>According to NHK World, Champi approached the archipelago with sustained winds that forced flight cancellations, ferry suspensions and temporary halts on some rail lines. Southern prefectures opened shelters and issued preventive evacuation orders for the most exposed coastal and mountain areas.</p>` +
+    `<p>After landfall, the system lost organization and moved east-northeast over cooler waters. Even so, its rainbands kept dumping water on already saturated basins, raising the risk of flash floods and landslides in the following hours.</p>` +
+    `<h2 class="report-chapter">Impact and services</h2>` +
+    `<p>Japanese broadcasters reported power outages in several communities, roads blocked by fallen trees and delays in air transport. Emergency services treated people with minor injuries and residents isolated by floodwater. So far, authorities have not confirmed any deaths.</p>` +
+    `<blockquote class="expert-quote">“A weakening typhoon does not mean the danger is over. Most damage often occurs after the center has passed, when the ground is already saturated.”<cite>Meteorologist quoted by Japanese media</cite></blockquote>` +
+    `<h2 class="report-chapter">The official response</h2>` +
+    `<p>The central government activated a coordination center and offered support to affected prefectures. The JMA warned that rain could persist and urged the public to check risk maps and evacuation routes. Schools in the hardest-hit areas suspended classes.</p>` +
+    `<a class="doc-card" href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">JMA</div><div><div class="doc-card-title">Official Japanese weather warnings</div><div class="doc-card-desc">Track, intensity and alerts for rain, wind and landslides updated in real time.</div></div></a>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>Japan faces a typhoon season every year that tests its infrastructure and evacuation protocols. The country has invested in levees, early-warning systems and community drills, but an aging population and urban concentration complicate the response in rural areas.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The number of evacuees and material damage are preliminary estimates that may change. The death toll will be updated when authorities publish a consolidated assessment. The meteorologist’s remarks come from Japanese media.</p>` +
+    `<p>With information from <a href="https://www3.nhk.or.jp/nhkworld/en/news/" target="_blank" rel="noopener noreferrer">NHK World</a> and <a href="https://www.jma.go.jp/bosai/" target="_blank" rel="noopener noreferrer">Japan Meteorological Agency</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-26/tifon-champi-debilita-japon-alertas.jpg',
+    imageCaption: 'Imagen satelital ilustrativa de un tifón sobre Japón. Foto: NASA / dominio público',
+    categoryEs: 'Clima',
+    categoryEn: 'Climate',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Okinawa, Japón',
+    source: 'NHK World',
+    region: 'International',
+    sourceUrl: 'https://www3.nhk.or.jp/nhkworld/en/news/'
+  },
+  {
+    id: '1366',
+    contentType: 'news',
+    slug: 'ue-frontex-amplia-poderes-deportaciones-exterior',
+    publishedAt: '2026-10-26T13:30:00+02:00',
+    titleEs: 'La UE amplía los poderes de Frontex y las deportaciones',
+    titleEn: 'The EU expands Frontex powers and deportation rules',
+    excerptEs: 'El Consejo y el Parlamento acordaron un reglamento que amplía las competencias de Frontex en retornos y refuerza los acuerdos con terceros países.',
+    excerptEn: 'The Council of the EU and the European Parliament agreed a regulation that expands Frontex’s role in deportations and strengthens deals with third countries.',
+    contentEs: `<h1>La UE amplía los poderes de Frontex y las deportaciones</h1>` +
+    `<p class="lead"><em>El Consejo de la Unión Europea y el Parlamento Europeo alcanzaron este 26 de octubre un acuerdo político para reformar la agencia Frontex y el sistema común de retornos. El nuevo reglamento permitirá a la agencia financiar, organizar y supervisar operaciones de deportación, ampliar los acuerdos con terceros países y crear una red de centros de retorno en el exterior, en un paso que Bruselas presenta como parte de su “enfoque integral” de migración y que organizaciones de derechos humanos cuestionan.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/ue-frontex-amplia-poderes-deportaciones-exterior.jpg" alt="Patrullera de Frontex en el Mediterráneo" loading="lazy"><figcaption>Imagen ilustrativa de una patrullera durante una operación en el Mediterráneo. Foto: Irish Defence Forces / Wikimedia Commons, CC BY 2.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2004</div><div class="stat-label">Creación de Frontex</div></div><div class="stat-card"><div class="stat-value">27</div><div class="stat-label">Estados miembros</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Acuerdo de reforma</div></div></div>` +
+    `<h2 class="report-chapter">Qué cambia</h2>` +
+    `<p>Según Euronews, el texto convierte a Frontex en un actor central de la política de retornos: podrá contratar vuelos charter, coordinar escortas y operar centros de retorno en países socios, siempre con el consentimiento de esos gobiernos. También refuerza el intercambio de datos biométricos y crea un mecanismo de evaluación para medir la cooperación de los países de origen.</p>` +
+    `<p>El acuerdo mantiene la posibilidad de que los Estados miembros apliquen sus propios procedimientos, pero establece estándares mínimos comunes y obliga a registrar cada decisión de retorno en una base de datos europea. Los detalles técnicos deberán cerrarse en las próximas semanas antes de la votación formal.</p>` +
+    `<h2 class="report-chapter">El debate político</h2>` +
+    `<p>Los gobiernos que impulsaron la reforma sostienen que la falta de retornos efectivos debilita la confianza en el sistema de asilo y alimenta el discurso antiinmigración. Argumentan que los acuerdos con terceros países pueden ofrecer alternativas legales y combatir las redes de trata.</p>` +
+    `<p>Organizaciones de derechos humanos advirtieron que la externalización de fronteras ya ha producido abusos en países socios y que ampliar las competencias de Frontex sin un control judicial suficiente podría agravar esa situación. También pidieron garantías para los menores no acompañados y para las personas que necesitan protección internacional.</p>` +
+    `<blockquote class="expert-quote">“La eficacia de una política de retornos no se mide solo por cuántas personas salen, sino por la calidad de los procedimientos y por el respeto de los derechos fundamentales en cada etapa.”<cite>Investigadora de políticas migratorias citada por Euronews</cite></blockquote>` +
+    `<h2 class="report-chapter">Reacción de los Estados</h2>` +
+    `<p>Alemania, Francia e Italia respaldaron el acuerdo y pidieron una aplicación rápida. Países del sur de Europa, en cambio, insistieron en que la solidaridad no puede limitarse a financiar deportaciones y exigieron más reubicaciones y recursos para los sistemas de acogida. Hungría y Polonia mantuvieron sus reservas sobre cualquier reparto obligatorio.</p>` +
+    `<a class="doc-card" href="https://www.consilium.europa.eu/en/policies/eu-migration-policy/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">CONSEJO</div><div><div class="doc-card-title">Política migratoria y de retornos de la UE</div><div class="doc-card-desc">Documentos oficiales del Consejo sobre el pacto migratorio, Frontex y los acuerdos con terceros países.</div></div></a>` +
+    `<h2 class="report-chapter">Qué sigue</h2>` +
+    `<p>El acuerdo debe ser ratificado por el Parlamento y el Consejo, y después traducido en reglamentos operativos. La Comisión Europea publicará un calendario de aplicación y revisará los primeros resultados en 2027. Mientras tanto, los Estados seguirán aplicando las normas actuales.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El acuerdo es político y no definitivo: el texto final puede cambiar antes de la votación. Las cifras de retornos y de personas acogidas varían según la fuente. Las declaraciones atribuidas a la investigadora provienen de medios europeos y no de una entrevista propia.</p>` +
+    `<p>Con información de <a href="https://www.euronews.com/my-europe" target="_blank" rel="noopener noreferrer">Euronews</a> y <a href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    contentEn: `<h1>The EU expands Frontex powers and deportation rules</h1>` +
+    `<p class="lead"><em>The Council of the European Union and the European Parliament reached a political agreement on October 26 to reform the Frontex agency and the common returns system. The new regulation will allow the agency to fund, organize and oversee deportation operations, expand deals with third countries and set up a network of return centers abroad — a step Brussels presents as part of its “comprehensive approach” to migration and that human rights groups question.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/ue-frontex-amplia-poderes-deportaciones-exterior.jpg" alt="Frontex patrol boat in the Mediterranean" loading="lazy"><figcaption>Illustrative image of a patrol vessel during an operation in the Mediterranean. Photo: Irish Defence Forces / Wikimedia Commons, CC BY 2.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2004</div><div class="stat-label">Frontex founded</div></div><div class="stat-card"><div class="stat-value">27</div><div class="stat-label">Member states</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Reform agreement</div></div></div>` +
+    `<h2 class="report-chapter">What changes</h2>` +
+    `<p>According to Euronews, the text makes Frontex a central player in returns policy: it will be able to charter flights, coordinate escorts and operate return centers in partner countries, always with those governments’ consent. It also strengthens biometric data sharing and creates an assessment mechanism to measure cooperation by countries of origin.</p>` +
+    `<p>The deal preserves the ability of member states to apply their own procedures but sets common minimum standards and requires every return decision to be recorded in a European database. Technical details must be finalized in the coming weeks before a formal vote.</p>` +
+    `<h2 class="report-chapter">The political debate</h2>` +
+    `<p>Governments that pushed the reform argue that ineffective returns undermine confidence in the asylum system and feed anti-immigrant sentiment. They say deals with third countries can offer legal alternatives and help dismantle trafficking networks.</p>` +
+    `<p>Human rights groups warned that the outsourcing of borders has already led to abuses in partner countries and that expanding Frontex’s powers without sufficient judicial oversight could make that worse. They also called for safeguards for unaccompanied minors and for people in need of international protection.</p>` +
+    `<blockquote class="expert-quote">“The effectiveness of a returns policy is not measured only by how many people leave, but by the quality of the procedures and respect for fundamental rights at every stage.”<cite>Migration policy researcher quoted by Euronews</cite></blockquote>` +
+    `<h2 class="report-chapter">How states reacted</h2>` +
+    `<p>Germany, France and Italy backed the deal and called for rapid implementation. Southern European countries insisted that solidarity cannot be limited to funding deportations and demanded more relocations and resources for reception systems. Hungary and Poland maintained reservations about any mandatory redistribution.</p>` +
+    `<a class="doc-card" href="https://www.consilium.europa.eu/en/policies/eu-migration-policy/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">COUNCIL</div><div><div class="doc-card-title">EU migration and returns policy</div><div class="doc-card-desc">Official Council documents on the migration pact, Frontex and agreements with third countries.</div></div></a>` +
+    `<h2 class="report-chapter">What comes next</h2>` +
+    `<p>The agreement must be ratified by Parliament and the Council and then translated into operational rules. The European Commission will publish an implementation timetable and review initial results in 2027. In the meantime, states will continue to apply current rules.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The agreement is political, not final: the text may change before the vote. Figures on returns and people receiving protection vary by source. Remarks attributed to the researcher come from European media, not from an interview conducted by this newsroom.</p>` +
+    `<p>With information from <a href="https://www.euronews.com/my-europe" target="_blank" rel="noopener noreferrer">Euronews</a> and <a href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '6 min',
+    readTimeEn: '6 min',
+    imageUrl: '/images/news/2026-10-26/ue-frontex-amplia-poderes-deportaciones-exterior.jpg',
+    imageCaption: 'Imagen ilustrativa de una patrullera durante una operación en el Mediterráneo. Foto: Irish Defence Forces / Wikimedia Commons, CC BY 2.0',
+    categoryEs: 'Europa',
+    categoryEn: 'Europe',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Bruselas, Bélgica',
+    source: 'Euronews',
+    region: 'International',
+    sourceUrl: 'https://www.euronews.com/my-europe'
+  },
+  {
+    id: '1367',
+    contentType: 'news',
+    slug: 'eeuu-venezuela-descarta-elecciones-momento',
+    publishedAt: '2026-10-26T11:00:00-04:00',
+    titleEs: 'EE.UU. descarta por ahora unas elecciones en Venezuela',
+    titleEn: 'US rules out Venezuela elections for now',
+    excerptEs: 'Washington afirmó que no existen condiciones para nuevos comicios en Venezuela y condicionó el diálogo a cambios creíbles en el sistema electoral.',
+    excerptEn: 'Washington said conditions do not exist for new elections in Venezuela and tied dialogue to credible electoral changes and the release of political prisoners.',
+    contentEs: `<h1>EE.UU. descarta por ahora unas elecciones en Venezuela</h1>` +
+    `<p class="lead"><em>El gobierno de Estados Unidos afirmó este 26 de octubre que no ve condiciones para celebrar elecciones presidenciales en Venezuela en el corto plazo y condicionó cualquier avance del diálogo a cambios verificables en el sistema electoral, la liberación de presos políticos y el respeto a la oposición. La declaración, difundida por el Departamento de Estado, enfrió las expectativas de una salida rápida a la crisis política venezolana y provocó reacciones encontradas en Caracas y en la región.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/eeuu-venezuela-descarta-elecciones-momento.jpg" alt="El Palacio de Miraflores en Caracas" loading="lazy"><figcaption>Imagen ilustrativa del Palacio de Miraflores, sede del gobierno venezolano. Foto: Prensa Presidencial / Wikimedia Commons, CC BY 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2024</div><div class="stat-label">Última presidencial</div></div><div class="stat-card"><div class="stat-value">2014</div><div class="stat-label">Primeras sanciones de EE.UU.</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Sin calendario electoral</div></div></div>` +
+    `<h2 class="report-chapter">La posición de Washington</h2>` +
+    `<p>Según Bloomberg, un portavoz del Departamento de Estado señaló que Estados Unidos sigue comprometido con una “transición democrática negociada”, pero que no apoyará un proceso que no incluya observación internacional creíble, un registro electoral transparente y la participación de todos los candidatos. La misma fuente descartó que Washington esté trabajando en un calendario electoral inmediato.</p>` +
+    `<p>La postura refleja la frustración de la Casa Blanca tras meses de conversaciones indirectas y de un escenario humanitario y económico que sigue deteriorándose. Funcionarios citados por el medio estadounidense indicaron que las sanciones se mantendrán y que se evaluarán nuevas medidas sectoriales si no hay gestos concretos.</p>` +
+    `<h2 class="report-chapter">La reacción en Caracas</h2>` +
+    `<p>El gobierno de Nicolás Maduro rechazó las declaraciones y las calificó de “injerencia”. Insistió en que cualquier elección debe realizarse bajo el marco institucional vigente y acusó a Washington de financiar a la oposición. Dirigentes opositores, en cambio, pidieron no convertir la falta de calendario en una excusa para postergar la presión internacional.</p>` +
+    `<blockquote class="expert-quote">“El problema no es solo la fecha de una elección. Es si existen reglas que permitan competir y si el resultado va a ser respetado. Sin esas condiciones, votar sería un ejercicio simbólico.”<cite>Analista latinoamericano citado por Bloomberg</cite></blockquote>` +
+    `<h2 class="report-chapter">El contexto regional</h2>` +
+    `<p>Varios países de América Latina, incluidos Brasil, Colombia y México, han impulsado una mediación que evite una escalada y permita una salida electoral. La Unión Europea mantiene su propia misión de observación a la espera de una convocatoria oficial, mientras organismos humanitarios advierten sobre el aumento de la migración y el deterioro de los servicios básicos.</p>` +
+    `<a class="doc-card" href="https://www.state.gov/countries-areas/venezuela/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">EE.UU.</div><div><div class="doc-card-title">Declaraciones oficiales sobre Venezuela</div><div class="doc-card-desc">Comunicados del Departamento de Estado, sanciones vigentes y posición sobre el proceso electoral.</div></div></a>` +
+    `<h2 class="report-chapter">Por qué importa</h2>` +
+    `<p>Venezuela atraviesa una crisis económica y política prolongada, con millones de personas que han emigrado en la última década. La falta de un calendario electoral creíble complica la cooperación regional, mantiene la presión migratoria y deja sin respuesta a los sectores que esperaban una transición negociada.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>No existe una convocatoria electoral oficial ni un calendario confirmado. Las declaraciones citadas corresponden a funcionarios estadounidenses y a medios internacionales; este artículo no pudo verificar de forma independiente las conversaciones diplomáticas en curso. Se actualizará si hay anuncios oficiales.</p>` +
+    `<p>Con información de <a href="https://www.bloomberg.com/politics" target="_blank" rel="noopener noreferrer">Bloomberg</a> y <a href="https://www.reuters.com/world/americas/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    contentEn: `<h1>US rules out Venezuela elections for now</h1>` +
+    `<p class="lead"><em>The US government said on October 26 that it does not see conditions for holding presidential elections in Venezuela in the near term and tied any progress in dialogue to verifiable changes in the electoral system, the release of political prisoners and respect for the opposition. The statement, released by the State Department, dampened expectations of a quick exit from Venezuela’s political crisis and drew mixed reactions in Caracas and across the region.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/eeuu-venezuela-descarta-elecciones-momento.jpg" alt="Miraflores Palace in Caracas" loading="lazy"><figcaption>Illustrative image of Miraflores Palace, seat of the Venezuelan government. Photo: Prensa Presidencial / Wikimedia Commons, CC BY 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">2024</div><div class="stat-label">Last presidential vote</div></div><div class="stat-card"><div class="stat-value">2014</div><div class="stat-label">First US sanctions</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">No election calendar</div></div></div>` +
+    `<h2 class="report-chapter">Washington’s position</h2>` +
+    `<p>According to Bloomberg, a State Department spokesperson said the United States remains committed to a “negotiated democratic transition” but will not support a process that lacks credible international observation, a transparent electoral registry and the participation of all candidates. The same source ruled out that Washington is working on an immediate election timetable.</p>` +
+    `<p>The stance reflects the White House’s frustration after months of indirect talks and a humanitarian and economic situation that continues to deteriorate. Officials cited by the US outlet indicated that sanctions will remain and that new sectoral measures will be considered if there are no concrete gestures.</p>` +
+    `<h2 class="report-chapter">Reaction in Caracas</h2>` +
+    `<p>Nicolás Maduro’s government rejected the statements as “interference.” It insisted that any election must be held under the current institutional framework and accused Washington of funding the opposition. Opposition leaders, by contrast, urged that the absence of a calendar not become an excuse to postpone international pressure.</p>` +
+    `<blockquote class="expert-quote">“The problem is not only the date of an election. It is whether rules exist that allow people to compete and whether the result will be respected. Without those conditions, voting would be a symbolic exercise.”<cite>Latin American analyst quoted by Bloomberg</cite></blockquote>` +
+    `<h2 class="report-chapter">The regional context</h2>` +
+    `<p>Several Latin American countries, including Brazil, Colombia and Mexico, have pushed for mediation to prevent escalation and allow an electoral exit. The European Union is keeping its own observation mission ready pending an official call, while humanitarian agencies warn of rising migration and the deterioration of basic services.</p>` +
+    `<a class="doc-card" href="https://www.state.gov/countries-areas/venezuela/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">US</div><div><div class="doc-card-title">Official statements on Venezuela</div><div class="doc-card-desc">State Department releases, sanctions in force and the US position on the electoral process.</div></div></a>` +
+    `<h2 class="report-chapter">Why it matters</h2>` +
+    `<p>Venezuela is going through a prolonged economic and political crisis, with millions of people having emigrated over the past decade. The lack of a credible election calendar complicates regional cooperation, sustains migration pressure and leaves unanswered those who had hoped for a negotiated transition.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>There is no official election call or confirmed calendar. The statements cited come from US officials and international media; this article could not independently verify the diplomatic talks under way. It will be updated if official announcements are made.</p>` +
+    `<p>With information from <a href="https://www.bloomberg.com/politics" target="_blank" rel="noopener noreferrer">Bloomberg</a> and <a href="https://www.reuters.com/world/americas/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-26/eeuu-venezuela-descarta-elecciones-momento.jpg',
+    imageCaption: 'Imagen ilustrativa del Palacio de Miraflores, sede del gobierno venezolano. Foto: Prensa Presidencial / Wikimedia Commons, CC BY 3.0',
+    categoryEs: 'América',
+    categoryEn: 'Americas',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Washington, EE.UU.',
+    source: 'Bloomberg',
+    region: 'International',
+    sourceUrl: 'https://www.bloomberg.com/politics'
+  },
+  {
+    id: '1368',
+    contentType: 'news',
+    slug: 'china-deja-emitir-laliga-mbappe-mao-zedong',
+    publishedAt: '2026-10-26T09:30:00+08:00',
+    titleEs: 'China suspende la emisión de LaLiga por dichos sobre Mao',
+    titleEn: 'China suspends LaLiga broadcasts over Mao remarks',
+    excerptEs: 'Las principales plataformas chinas dejaron de emitir partidos de LaLiga después de unas declaraciones del delantero Kylian Mbappé sobre Mao Zedong.',
+    excerptEn: 'China’s main streaming platforms stopped broadcasting LaLiga matches after comments about Mao Zedong attributed to French striker Kylian Mbappé.',
+    contentEs: `<h1>China suspende la emisión de LaLiga por dichos sobre Mao</h1>` +
+    `<p class="lead"><em>Las principales plataformas de streaming de China suspendieron este 26 de octubre la emisión de los partidos de LaLiga después de que circularan declaraciones del delantero francés Kylian Mbappé sobre Mao Zedong, informó la agencia AFP. La decisión afecta a millones de aficionados en el país asiático y reaviva la tensión entre el fútbol europeo y uno de sus mercados más importantes, en un momento de creciente sensibilidad política en Pekín.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/china-deja-emitir-laliga-mbappe-mao-zedong.jpg" alt="Vista del estadio Santiago Bernabéu" loading="lazy"><figcaption>Imagen ilustrativa del estadio Santiago Bernabéu, del Real Madrid. Foto: Luis García (Zaqarbal) / Wikimedia Commons, CC BY-SA 4.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Partidos emitidos tras la medida</div></div><div class="stat-card"><div class="stat-value">LaLiga</div><div class="stat-label">Competición afectada</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Temporada en curso</div></div></div>` +
+    `<h2 class="report-chapter">Qué ocurrió</h2>` +
+    `<p>Según AFP, las declaraciones atribuidas a Mbappé se difundieron en redes sociales y fueron ampliamente compartidas en China, donde la figura de Mao Zedong está protegida por normas que penalizan su ridiculización o cuestionamiento. Las plataformas que tienen los derechos de LaLiga en el país suspendieron las transmisiones sin ofrecer detalles sobre la duración de la medida.</p>` +
+    `<p>LaLiga no se pronunció de inmediato sobre la suspensión. El Real Madrid, club de Mbappé, tampoco emitió un comunicado oficial. Medios deportivos españoles señalaron que la liga evalúa la situación y busca contactos con sus socios chinos para aclarar el alcance de la decisión.</p>` +
+    `<h2 class="report-chapter">La relación con el mercado chino</h2>` +
+    `<p>China es uno de los mercados internacionales más importantes para el fútbol europeo por su volumen de audiencia y por los acuerdos de derechos de transmisión. La Premier League, la NBA y otras competiciones han enfrentado episodios similares en el pasado, con suspensiones temporales y exigencias de disculpas que afectaron su imagen entre los aficionados locales.</p>` +
+    `<blockquote class="expert-quote">“Las ligas europeas dependen cada vez más de ingresos internacionales, pero también operan en entornos donde una declaración puede convertirse en un problema diplomático. El equilibrio es cada vez más difícil.”<cite>Analista de industria deportiva citado por AFP</cite></blockquote>` +
+    `<h2 class="report-chapter">Reacciones</h2>` +
+    `<p>En redes sociales, aficionados chinos lamentaron la pérdida de las transmisiones y algunos criticaron la decisión de las plataformas. Organizaciones de libertad de expresión advirtieron sobre el efecto disuasorio de estas medidas. El ministerio de Asuntos Exteriores chino no se había pronunciado públicamente al cierre de esta edición.</p>` +
+    `<a class="doc-card" href="https://www.laliga.com/en-GB" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">LALIGA</div><div><div class="doc-card-title">Comunicados y calendario oficial de LaLiga</div><div class="doc-card-desc">Posición de la competición, horarios de los partidos y acuerdos internacionales de derechos audiovisuales.</div></div></a>` +
+    `<h2 class="report-chapter">Qué puede pasar</h2>` +
+    `<p>La suspensión podría ser temporal si media una aclaración o una disculpa, como ocurrió en episodios anteriores. Si se prolonga, los clubes y la liga podrían perder ingresos por publicidad y derechos, y los aficionados chinos buscarían alternativas no oficiales para seguir los partidos. La pelota, por ahora, está fuera del campo.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>El contenido exacto y la autoría de las declaraciones atribuidas a Mbappé no pudieron verificarse de forma independiente. Las plataformas no confirmaron la duración de la suspensión. Este artículo se basa en el reporte de AFP y se actualizará con las posiciones oficiales de LaLiga, el club y el jugador.</p>` +
+    `<p>Con información de <a href="https://www.afp.com/en" target="_blank" rel="noopener noreferrer">AFP</a> y <a href="https://www.reuters.com/sports/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    contentEn: `<h1>China suspends LaLiga broadcasts over Mao remarks</h1>` +
+    `<p class="lead"><em>China’s main streaming platforms suspended broadcasts of LaLiga matches on October 26 after comments about Mao Zedong attributed to French striker Kylian Mbappé circulated online, Agence France-Presse reported. The decision affects millions of fans in the Asian country and revives tension between European football and one of its most important markets, at a time of growing political sensitivity in Beijing.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/china-deja-emitir-laliga-mbappe-mao-zedong.jpg" alt="View of the Santiago Bernabéu stadium" loading="lazy"><figcaption>Illustrative image of the Santiago Bernabéu stadium, home of Real Madrid. Photo: Luis García (Zaqarbal) / Wikimedia Commons, CC BY-SA 4.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Matches aired after the move</div></div><div class="stat-card"><div class="stat-value">LaLiga</div><div class="stat-label">Competition affected</div></div><div class="stat-card"><div class="stat-value">2026</div><div class="stat-label">Current season</div></div></div>` +
+    `<h2 class="report-chapter">What happened</h2>` +
+    `<p>According to AFP, the remarks attributed to Mbappé spread on social media and were widely shared in China, where Mao Zedong is protected by rules that penalize ridiculing or questioning him. Platforms holding LaLiga rights in the country suspended broadcasts without giving details on how long the measure would last.</p>` +
+    `<p>LaLiga did not immediately comment on the suspension. Real Madrid, Mbappé’s club, also issued no official statement. Spanish sports media said the league is assessing the situation and seeking contact with its Chinese partners to clarify the scope of the decision.</p>` +
+    `<h2 class="report-chapter">The relationship with the Chinese market</h2>` +
+    `<p>China is one of the most important international markets for European football because of its audience size and broadcasting rights deals. The Premier League, the NBA and other competitions have faced similar episodes in the past, with temporary suspensions and demands for apologies that damaged their image among local fans.</p>` +
+    `<blockquote class="expert-quote">“European leagues depend more and more on international revenue, but they also operate in environments where a single statement can become a diplomatic problem. The balance is increasingly difficult.”<cite>Sports industry analyst quoted by AFP</cite></blockquote>` +
+    `<h2 class="report-chapter">Reactions</h2>` +
+    `<p>On social media, Chinese fans lamented the loss of broadcasts and some criticized the platforms’ decision. Free-expression groups warned about the chilling effect of such measures. China’s foreign ministry had not commented publicly by the time this edition closed.</p>` +
+    `<a class="doc-card" href="https://www.laliga.com/en-GB" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon green">LALIGA</div><div><div class="doc-card-title">LaLiga official statements and schedule</div><div class="doc-card-desc">The competition’s position, match times and international audiovisual rights agreements.</div></div></a>` +
+    `<h2 class="report-chapter">What may happen next</h2>` +
+    `<p>The suspension could be temporary if a clarification or apology follows, as in previous episodes. If it drags on, clubs and the league could lose advertising and rights revenue, and Chinese fans would look for unofficial alternatives to follow matches. For now, the ball is off the pitch.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>The exact content and authorship of the remarks attributed to Mbappé could not be independently verified. The platforms did not confirm how long the suspension would last. This article is based on AFP’s reporting and will be updated with official positions from LaLiga, the club and the player.</p>` +
+    `<p>With information from <a href="https://www.afp.com/en" target="_blank" rel="noopener noreferrer">AFP</a> and <a href="https://www.reuters.com/sports/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '5 min',
+    readTimeEn: '5 min',
+    imageUrl: '/images/news/2026-10-26/china-deja-emitir-laliga-mbappe-mao-zedong.jpg',
+    imageCaption: 'Imagen ilustrativa del estadio Santiago Bernabéu, del Real Madrid. Foto: Luis García (Zaqarbal) / Wikimedia Commons, CC BY-SA 4.0',
+    categoryEs: 'Deportes',
+    categoryEn: 'Sports',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Pekín, China',
+    source: 'AFP',
+    region: 'International',
+    sourceUrl: 'https://www.afp.com/en'
+  },
+  {
+    id: '1369',
+    contentType: 'news',
+    slug: 'petroleo-116-dolares-negociaciones-iran-escalada',
+    publishedAt: '2026-10-26T08:00:00-04:00',
+    titleEs: 'El petróleo supera los US$116 por la tensión con Irán',
+    titleEn: 'Oil tops $116 as Iran tensions escalate',
+    excerptEs: 'El crudo Brent superó los US$116 por barril ante el estancamiento de las negociaciones nucleares con Irán y el riesgo para el estrecho de Ormuz.',
+    excerptEn: 'Brent crude topped $116 a barrel as nuclear talks with Iran stalled, adding to risks for the Strait of Hormuz and tightening global inventories.',
+    contentEs: `<h1>El petróleo supera los US$116 por la tensión con Irán</h1>` +
+    `<p class="lead"><em>El precio del crudo Brent superó este 26 de octubre los 116 dólares por barril, su nivel más alto en meses, impulsado por el estancamiento de las negociaciones nucleares con Irán, las advertencias sobre la navegación en el estrecho de Ormuz y la reducción de los inventarios globales. El repunte presiona al alza la inflación en las economías importadoras, encarece el transporte y complica las decisiones de los bancos centrales.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/petroleo-116-dolares-negociaciones-iran-escalada.jpg" alt="Bomba de extracción de petróleo en un yacimiento" loading="lazy"><figcaption>Imagen ilustrativa de una bomba de extracción de petróleo. Foto: Sanjay Acharya / Wikimedia Commons, CC BY-SA 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">US$116</div><div class="stat-label">Barril de Brent</div></div><div class="stat-card"><div class="stat-value">20%</div><div class="stat-label">Crudo mundial vía Ormuz</div></div><div class="stat-card"><div class="stat-value">OPEP+</div><div class="stat-label">Productores bajo presión</div></div></div>` +
+    `<h2 class="report-chapter">La escalada</h2>` +
+    `<p>Según Bloomberg, el mercado reaccionó a la falta de avances en las conversaciones entre Irán y las potencias occidentales, así como a informes sobre incidentes marítimos y ejercicios militares en la zona del Golfo. El estrecho de Ormuz, por donde transita cerca de una quinta parte del petróleo mundial, es el principal punto de riesgo para los operadores.</p>` +
+    `<p>Los inventarios en los principales centros de almacenamiento han caído por debajo del promedio de los últimos cinco años, lo que reduce el margen de maniobra ante cualquier interrupción. Las primas de riesgo de las aseguradoras marítimas también aumentaron en las últimas jornadas.</p>` +
+    `<h2 class="report-chapter">Efecto en la economía</h2>` +
+    `<p>El encarecimiento del crudo se traslada a los combustibles, la aviación, el transporte de mercancías y la producción de alimentos. En la eurozona y en varias economías emergentes, los gobiernos evalúan subsidios temporales para contener el impacto social, mientras los bancos centrales enfrentan un dilema: subir tasas para frenar la inflación o mantenerlas para no ahogar el crecimiento.</p>` +
+    `<blockquote class="expert-quote">“No estamos ante un choque de oferta clásico, sino ante una prima de riesgo geopolítico. Si la tensión se desactiva, el precio puede corregirse rápido; si se prolonga, el daño a la actividad será acumulativo.”<cite>Analista de energía citado por Bloomberg</cite></blockquote>` +
+    `<h2 class="report-chapter">Quién gana y quién pierde</h2>` +
+    `<p>Los países exportadores de petróleo aumentan sus ingresos fiscales, mientras las economías importadoras ven deteriorarse su balanza comercial. Las aerolíneas y las empresas de transporte ya advirtieron sobre mayores costos, y los hogares de menores ingresos son los más expuestos al alza de la energía y los alimentos.</p>` +
+    `<a class="doc-card" href="https://www.eia.gov/outlooks/steo/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">EIA</div><div><div class="doc-card-title">Informe mensual de perspectivas energéticas</div><div class="doc-card-desc">Previsiones de precios, oferta y demanda de crudo de la Agencia de Información Energética de Estados Unidos.</div></div></a>` +
+    `<h2 class="report-chapter">Qué vigilar</h2>` +
+    `<p>El mercado seguirá de cerca las conversaciones diplomáticas, las decisiones de producción de la OPEP+ y los datos de inventarios semanales. Una señal de distensión podría provocar una corrección brusca; una nueva interrupción en Ormuz llevaría el precio a un territorio no visto desde hace años.</p>` +
+    `<h2 class="report-chapter">Nota editorial</h2>` +
+    `<p>Los precios citados corresponden a la cotización del Brent al cierre de la sesión europea y pueden variar. Las cifras sobre inventarios y tránsito marítimo provienen de organismos y medios especializados; este artículo no realizó mediciones propias. Las declaraciones del analista fueron difundidas por Bloomberg.</p>` +
+    `<p>Con información de <a href="https://www.bloomberg.com/energy" target="_blank" rel="noopener noreferrer">Bloomberg</a> y <a href="https://www.reuters.com/business/energy/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    contentEn: `<h1>Oil tops $116 as Iran tensions escalate</h1>` +
+    `<p class="lead"><em>Brent crude rose above $116 a barrel on October 26, its highest level in months, driven by stalled nuclear talks with Iran, warnings over navigation in the Strait of Hormuz and falling global inventories. The surge pushes inflation higher in importing economies, raises transport costs and complicates central banks’ decisions.</em></p>` +
+    `<figure class="report-figure"><img src="/images/news/2026-10-26/petroleo-116-dolares-negociaciones-iran-escalada.jpg" alt="Oil pumpjack at an oil field" loading="lazy"><figcaption>Illustrative image of an oil pumpjack. Photo: Sanjay Acharya / Wikimedia Commons, CC BY-SA 3.0</figcaption></figure>` +
+    `<div class="stat-grid"><div class="stat-card"><div class="stat-value">$116</div><div class="stat-label">Brent barrel</div></div><div class="stat-card"><div class="stat-value">20%</div><div class="stat-label">World oil via Hormuz</div></div><div class="stat-card"><div class="stat-value">OPEC+</div><div class="stat-label">Producers under pressure</div></div></div>` +
+    `<h2 class="report-chapter">The escalation</h2>` +
+    `<p>According to Bloomberg, the market reacted to the lack of progress in talks between Iran and Western powers, as well as to reports of maritime incidents and military exercises in the Gulf. The Strait of Hormuz, through which about a fifth of the world’s oil passes, is the main risk point for traders.</p>` +
+    `<p>Inventories at major storage hubs have fallen below the five-year average, reducing room to maneuver in the event of a disruption. Maritime insurers’ risk premiums have also risen in recent sessions.</p>` +
+    `<h2 class="report-chapter">Economic impact</h2>` +
+    `<p>Higher crude prices feed through to fuel, aviation, freight and food production. In the eurozone and several emerging economies, governments are weighing temporary subsidies to contain the social impact, while central banks face a dilemma: raise rates to curb inflation or hold them to avoid choking growth.</p>` +
+    `<blockquote class="expert-quote">“This is not a classic supply shock but a geopolitical risk premium. If tensions ease, prices can correct quickly; if they persist, the damage to activity will accumulate.”<cite>Energy analyst quoted by Bloomberg</cite></blockquote>` +
+    `<h2 class="report-chapter">Winners and losers</h2>` +
+    `<p>Oil-exporting countries see fiscal revenue rise, while importing economies watch their trade balances deteriorate. Airlines and transport companies have already warned of higher costs, and lower-income households are the most exposed to costlier energy and food.</p>` +
+    `<a class="doc-card" href="https://www.eia.gov/outlooks/steo/" target="_blank" rel="noopener noreferrer"><div class="doc-card-icon blue">EIA</div><div><div class="doc-card-title">Monthly energy outlook</div><div class="doc-card-desc">US Energy Information Administration forecasts for crude prices, supply and demand.</div></div></a>` +
+    `<h2 class="report-chapter">What to watch</h2>` +
+    `<p>The market will closely follow diplomatic talks, OPEC+ production decisions and weekly inventory data. A sign of de-escalation could trigger a sharp correction; a new disruption in Hormuz would push prices to levels not seen in years.</p>` +
+    `<h2 class="report-chapter">Editorial note</h2>` +
+    `<p>Prices cited are for Brent at the close of the European session and may change. Inventory and shipping figures come from specialized agencies and media; this article did not carry out its own measurements. The analyst’s remarks were reported by Bloomberg.</p>` +
+    `<p>With information from <a href="https://www.bloomberg.com/energy" target="_blank" rel="noopener noreferrer">Bloomberg</a> and <a href="https://www.reuters.com/business/energy/" target="_blank" rel="noopener noreferrer">Reuters</a>.</p>`,
+    date: '2026-10-26',
+    readTimeEs: '6 min',
+    readTimeEn: '6 min',
+    imageUrl: '/images/news/2026-10-26/petroleo-116-dolares-negociaciones-iran-escalada.jpg',
+    imageCaption: 'Imagen ilustrativa de una bomba de extracción de petróleo. Foto: Sanjay Acharya / Wikimedia Commons, CC BY-SA 3.0',
+    categoryEs: 'Economía',
+    categoryEn: 'Economy',
+    enableComments: true,
+    featured: false,
+    breaking: false,
+    views: 1,
+    location: 'Nueva York, EE.UU.',
+    source: 'Bloomberg',
+    region: 'International',
+    sourceUrl: 'https://www.bloomberg.com/energy'
+  },
 ];
 
 export const translations = {
