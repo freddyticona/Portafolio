@@ -7,7 +7,7 @@
  * slugs/títulos/fechas en cada script.
  *
  * Parsea el array `export const blogPosts: BlogPost[] = [...]` del archivo
- * translations.ts con un parser ligero línea-por-línea (sin ejecutar TS).
+ * src/data/blogPosts.ts con un parser ligero línea-por-línea (sin ejecutar TS).
  */
 
 import fs from 'fs';
@@ -17,17 +17,17 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const TRANSLATIONS_PATH = path.join(__dirname, '..', 'src', 'translations.ts');
+const TRANSLATIONS_PATH = path.join(__dirname, '..', 'src', 'data', 'blogPosts.ts');
 
 /**
- * Lee el fuente de translations.ts y devuelve el bloque del array blogPosts.
+ * Lee el fuente de blogPosts.ts y devuelve el bloque del array blogPosts.
  * @returns {string} texto crudo dentro del array
  */
 function readBlogPostsBlock() {
   const src = fs.readFileSync(TRANSLATIONS_PATH, 'utf-8');
   const match = src.match(/export const blogPosts:\s*BlogPost\[\]\s*=\s*\[([\s\S]*?)\];/);
   if (!match) {
-    throw new Error('No se pudo encontrar `export const blogPosts: BlogPost[]` en src/translations.ts');
+    throw new Error('No se pudo encontrar `export const blogPosts: BlogPost[]` en src/data/blogPosts.ts');
   }
   return match[1];
 }

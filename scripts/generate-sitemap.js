@@ -1,7 +1,7 @@
 /**
  * generate-sitemap.js
  *
- * Genera public/sitemap.xml dinámicamente desde src/translations.ts.
+ * Genera public/sitemap.xml dinámicamente desde src/data/blogPosts.ts.
  * Las secciones estáticas siguen definidas aquí; los slugs de artículos
  * se extraen automáticamente con extract-articles.js.
  */

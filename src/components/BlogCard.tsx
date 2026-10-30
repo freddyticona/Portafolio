@@ -7,6 +7,7 @@ import React from 'react';
 import { BlogPost, ContentType } from '../types';
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react';
 import LazyImage from './LazyImage';
+import { formatPostDate, isRecentPostDate } from '../lib/date';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -17,7 +18,7 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
-  const isNew = (Date.now() - new Date(post.date).getTime()) / (1000 * 60 * 60) < 48;
+  const isNew = isRecentPostDate(post.date, 48);
 
   const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
     news: { es: 'NOTICIA', en: 'NEWS' },

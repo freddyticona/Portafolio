@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { BlogPost } from '../types';
 import { Search, Calendar, ArrowRight, Tag, Mail, Send, TrendingUp } from 'lucide-react';
 import BlogCard from './BlogCard';
+import { formatPostDate, postDateTimestamp } from '../lib/date';
 
 interface BlogLayoutProps {
   posts: BlogPost[];
@@ -40,7 +41,7 @@ export default function BlogLayout({ posts, lang, t, onArticleClick, title, subt
   }, [posts, searchTerm, selectedCategory, lang]);
 
   const recentPosts = useMemo(() => {
-    return [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 4);
+    return [...posts].sort((a, b) => postDateTimestamp(b.date) - postDateTimestamp(a.date)).slice(0, 4);
   }, [posts]);
 
   const allTags = useMemo(() => {
@@ -180,7 +181,7 @@ export default function BlogLayout({ posts, lang, t, onArticleClick, title, subt
                         </p>
                         <span className="text-[9px] font-mono text-stone-500 flex items-center gap-1">
                           <Calendar className="w-3 h-3" />
-                          {new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                          {formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                         </span>
                       </div>
                     </button>

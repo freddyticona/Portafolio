@@ -50,6 +50,7 @@ import CommentSystem from './CommentSystem';
 import { injectStructuredData, generateNewsArticleStructuredData } from '../lib/structuredData';
 import { IMAGE_DIMENSIONS } from '../lib/imageDimensions';
 import TrustIndicators from './TrustIndicators';
+import { formatPostDate } from '../lib/date';
 
 interface BlogDetailProps {
   post: BlogPost;
@@ -135,6 +136,10 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   const htmlContent = useMemo(() => {
     const parsed = marked.parse(rawContent, { breaks: true });
     let html = typeof parsed === 'string' ? parsed : '';
+    // El título ya se renderiza como <h1> en el header: se elimina el H1
+    // inicial del contenido para no duplicarlo y se degradan los restantes.
+    html = html.replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\s*/i, '');
+    html = html.replace(/<(\/?)h1(\s[^>]*)?>/gi, '<$1h2$2>');
     // Mejorar IDs para TOC con contenido limpio
     let idx = 0;
     html = html.replace(/<h2[^>]*>(.*?)<\/h2>/gi, (_match, p1) => {
@@ -420,7 +425,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           </span>
           <span className="flex items-center gap-1.5">
             <Calendar className="w-3.5 h-3.5" />
-            {new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+            {formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {
               year: 'numeric',
               month: 'long',
               day: 'numeric'
@@ -437,7 +442,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           {(post.views || 0) > 0 && (
             <span className="flex items-center gap-1.5">
               <Eye className="w-3.5 h-3.5" />
-              {post.views} {lang === 'es' ? 'lecturas' : 'reads'}
+              {post.views} {lang === 'es' ? (post.views === 1 ? 'lectura' : 'lecturas') : (post.views === 1 ? 'read' : 'reads')}
             </span>
           )}
           {post.source && (
@@ -620,7 +625,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
             <span className="text-stone-600">·</span>
             <span className="text-[10px] font-mono text-stone-500">
               {lang === 'es' ? 'Actualizado: ' : 'Updated: '}
-              {new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+              {formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {
                 year: 'numeric', month: 'long', day: 'numeric'
               })}
             </span>
@@ -677,7 +682,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                       </h4>
                       <span className="flex items-center gap-1 text-[9px] font-mono text-stone-500">
                         <Flame className="w-3 h-3 text-red-500/80" />
-                        {tp.views || 0} {lang === 'es' ? 'lecturas' : 'reads'}
+                        {tp.views || 0} {lang === 'es' ? ((tp.views || 0) === 1 ? 'lectura' : 'lecturas') : ((tp.views || 0) === 1 ? 'read' : 'reads')}
                       </span>
                     </div>
                   </div>
@@ -725,7 +730,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                     </p>
                     <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500 pt-1">
                       <Calendar className="w-3 h-3" />
-                      {new Date(rp.date).toLocaleDateString('es-ES', { month: 'short', day: 'numeric' })}
+                      {formatPostDate(rp.date, 'es-ES', { month: 'short', day: 'numeric' })}
                       <Eye className="w-3 h-3" />
                       {rp.views || 0}
                     </div>

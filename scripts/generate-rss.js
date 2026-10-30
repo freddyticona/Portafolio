@@ -4,7 +4,7 @@
  *
  * generate-rss.js
  *
- * Genera public/rss.xml dinámicamente desde src/translations.ts
+ * Genera public/rss.xml dinámicamente desde src/data/blogPosts.ts
  * (No más slugs hardcodeados — el conteo se calcula en runtime).
  *
  * Email del editor: se lee desde env var RSS_EDITOR_EMAIL si existe;
@@ -79,7 +79,7 @@ const rssPath = path.join(__dirname, '../public/rss.xml');
 fs.writeFileSync(rssPath, rss, 'utf-8');
 
 console.log('✅ RSS feed generado:', rssPath);
-console.log(`📡 ${blogPosts.length} artículos incluidos (extraídos dinámicamente de translations.ts)`);
+console.log(`📡 ${blogPosts.length} artículos incluidos (extraídos dinámicamente de blogPosts.ts)`);
 console.log(`🔗 URL: ${siteConfig.url}/rss.xml`);
 if (!siteConfig.author.email) {
   console.log('💡 Tip: define RSS_EDITOR_EMAIL para incluir el tag <author> en el feed.');

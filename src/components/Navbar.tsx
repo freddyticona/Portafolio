@@ -81,7 +81,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-2" role="menubar">
+          <div className="hidden xl:flex items-center space-x-1" role="menubar">
             {navItems.map((item) => {
               const isActive = activePage === item.id;
               return (
@@ -92,7 +92,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
                   role="menuitem"
                   aria-current={isActive ? 'page' : undefined}
                   aria-label={item.label}
-                  className={`px-3.5 py-1.5 rounded-sm text-xs font-semibold uppercase tracking-widest transition-all duration-300 relative ${
+                  className={`px-2.5 py-1.5 rounded-sm text-[11px] font-semibold uppercase tracking-wider transition-all duration-300 relative ${
                     isActive
                       ? 'text-gold bg-white/5 font-bold'
                       : 'text-stone-400 hover:text-gold hover:bg-white/5'
@@ -108,7 +108,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
           </div>
 
           {/* Language Switcher and Actions */}
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden xl:flex items-center gap-2">
             <button
               onClick={() => setDimmed?.(!dimmed)}
               id="dimming-toggle-desktop"
@@ -133,7 +133,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex md:hidden items-center gap-2">
+          <div className="flex xl:hidden items-center gap-2">
             <button
               onClick={() => setDimmed?.(!dimmed)}
               id="dimming-toggle-mobile"
@@ -173,7 +173,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
       {mobileMenuOpen && (
         <div
           id="mobile-menu"
-          className="md:hidden bg-[#050505] border-b border-white/5 py-3 px-4 animate-fadeIn"
+          className="xl:hidden bg-[#050505] border-b border-white/5 py-3 px-4 animate-fadeIn"
           role="menu"
           aria-label={lang === 'es' ? 'Menú de navegación móvil' : 'Mobile navigation menu'}
         >

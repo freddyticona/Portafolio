@@ -4,6 +4,7 @@ import NewsCard from './NewsCard';
 import { TrendingUp, Flame, Search, SlidersHorizontal, ChevronDown, List, Sparkles, Newspaper, Eye, Mail, Sun } from 'lucide-react';
 import { TranslationT } from '../types.translation';
 import NewsPortalFilters from './NewsPortalFilters';
+import { formatPostDate } from '../lib/date';
 
 interface NewsPortalProps {
   posts: BlogPost[];
@@ -400,7 +401,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick, onSpecialCl
             <div key={group.date}>
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-xs font-mono font-bold uppercase tracking-widest text-gold bg-gold/10 border border-gold/20 px-3 py-1 rounded-sm">
-                  {new Date(group.date + 'T12:00:00').toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+                  {formatPostDate(group.date, lang === 'es' ? 'es-BO' : 'en-US', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric'
@@ -487,7 +488,7 @@ export default function NewsPortal({ posts, lang, t, onArticleClick, onSpecialCl
                   </h4>
                   <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
                     <Flame className="w-3 h-3 text-red-500/80" />
-                    {post.views || 0} {lang === 'es' ? 'lecturas' : 'reads'}
+                    {post.views || 0} {lang === 'es' ? ((post.views || 0) === 1 ? 'lectura' : 'lecturas') : ((post.views || 0) === 1 ? 'read' : 'reads')}
                   </div>
                 </div>
               </div>

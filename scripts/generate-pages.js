@@ -124,7 +124,7 @@ const pages = {
   }
 };
 
-// Artículos del blog y noticias — extraídos dinámicamente de src/translations.ts
+// Artículos del blog y noticias — extraídos dinámicamente de src/data/blogPosts.ts
 const _rawArticles = extractArticles();
 const articles = _rawArticles.map(a => ({
   slug: a.slug,
@@ -422,4 +422,4 @@ for (const article of articles) {
 
 const total = Object.keys(pages).length + articles.length;
 console.log(`\n🎉 ${total} páginas pre-renderizadas en dist/`);
-console.log(`📄 ${articles.length} artículos extraídos dinámicamente de translations.ts`);
+console.log(`📄 ${articles.length} artículos extraídos dinámicamente de blogPosts.ts`);

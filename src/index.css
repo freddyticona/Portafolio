@@ -110,6 +110,12 @@ html {
   scroll-behavior: smooth;
   background-color: #050505;
   color: #d4d4d4; /* Mejorado de #e0e0e0 para mejor contraste WCAG AA (4.5:1) */
+  /* Evita scroll horizontal por elementos que sobresalen (menú, decoraciones) */
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
 }
 
 /* Reveal Animations - Industrial standard */

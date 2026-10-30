@@ -9,6 +9,7 @@ import React from 'react';
 import { BlogPost, ContentType } from '../types';
 import { Calendar, Clock, ArrowRight, MapPin, Eye, TrendingUp, Flame } from 'lucide-react';
 import LazyImage from './LazyImage';
+import { formatPostDate, isRecentPostDate } from '../lib/date';
 
 interface NewsCardProps {
   key?: string | number;
@@ -31,7 +32,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
   const category = lang === 'es' ? post.categoryEs : post.categoryEn;
   const readTime = lang === 'es' ? post.readTimeEs : post.readTimeEn;
 
-  const isNew = (Date.now() - new Date(post.date).getTime()) / (1000 * 60 * 60) < 48;
+  const isNew = isRecentPostDate(post.date, 48);
   const isPopular = (post.views || 0) >= 1000;
 
   const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
@@ -51,7 +52,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
     culture: 'text-teal-400 border-teal-500/30 bg-teal-500/10'
   };
 
-  const formattedDate = new Date(post.date).toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', {
+  const formattedDate = formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {
     year: 'numeric',
     month: 'short',
     day: 'numeric'
@@ -133,7 +134,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             {(post.views || 0) > 0 && (
               <span className="flex items-center gap-1 text-stone-400">
                 <Eye className="w-3 h-3 text-gold" />
-                {post.views} {lang === 'es' ? 'lecturas' : 'views'}
+                {post.views} {lang === 'es' ? (post.views === 1 ? 'lectura' : 'lecturas') : 'views'}
               </span>
             )}
             {post.source && (

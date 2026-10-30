@@ -19,7 +19,8 @@
 
 import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { PageId, BlogPost, PortfolioItem } from './types';
-import { blogPosts as defaultBlogPosts, portfolioItems, translations } from './translations';
+import { portfolioItems, translations } from './translations';
+import { loadBlogPosts } from './data/loader';
 import type { FilterState } from './components/PortfolioFilters';
 
 import { Analytics } from '@vercel/analytics/react';
@@ -135,8 +136,9 @@ export default function App() {
   const [reelPlaying, setReelPlaying] = useState(false);
   const [reelMuted, setReelMuted] = useState(true);
 
-  // Posts del blog (mergeados con Firebase al cargar)
-  const [blogPosts, setBlogPosts] = useState<BlogPost[]>(defaultBlogPosts);
+  // Posts del blog — se cargan en un chunk aparte para no bloquear el primer render
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
+  const [postsReady, setPostsReady] = useState(false);
 
   // Filtros del portafolio
   const [portfolioFilters, setPortfolioFilters] = useState<FilterState>({
@@ -151,6 +153,26 @@ export default function App() {
   // Ref para el handler de popstate (evita stale closure)
   const blogPostsRef = useRef(blogPosts);
   blogPostsRef.current = blogPosts;
+
+  // ─── Carga diferida del contenido editorial (624 artículos) ───────────────
+  useEffect(() => {
+    let alive = true;
+
+    const load = async () => {
+      try {
+        const posts = await loadBlogPosts();
+        if (!alive) return;
+        setBlogPosts(posts);
+      } catch (err) {
+        console.error('No se pudo cargar la base de artículos', err);
+      }
+      if (alive) setPostsReady(true);
+    };
+
+    load();
+
+    return () => { alive = false; };
+  }, []);
 
   // ─── Persistir idioma en localStorage ─────────────────────────────────────
   const handleSetLang = (next: 'es' | 'en') => {
@@ -189,7 +211,7 @@ export default function App() {
     handlePopState();
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
+  }, [postsReady]);
 
   // ─── Accesibilidad: sincronizar lang con el documento ────────────────────
   useEffect(() => {
@@ -421,7 +443,9 @@ export default function App() {
       {/* Main Page Area */}
       <main id="main-content" className="flex-grow" tabIndex={-1}>
         <Suspense fallback={<PageSkeleton variant={pageSkeleton} />}>
-          {renderPage()}
+          {!postsReady && (activePage === 'blog' || activePage === 'noticias' || activePage === 'guias')
+            ? <PageSkeleton variant="blog" />
+            : renderPage()}
         </Suspense>
       </main>
 
