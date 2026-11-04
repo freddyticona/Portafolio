@@ -179,11 +179,13 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     html = html.replace(/<(\/?)h1(\s[^>]*)?>/gi, '<$1h2$2>');
     // Mejorar IDs para TOC con contenido limpio
     let idx = 0;
-    html = html.replace(/<h2[^>]*>(.*?)<\/h2>/gi, (_match, p1) => {
+    html = html.replace(/<h2([^>]*)>(.*?)<\/h2>/gi, (_match, attrs, p1) => {
       const cleanText = stripHtml(p1).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
       const id = `section-${idx++}`;
+      const classMatch = attrs.match(/\bclass="([^"]*)"/i);
+      const className = classMatch ? ` class="${classMatch[1]}"` : '';
       tocRefs.current[id] = null; // Se asignará en useEffect
-      return `<h2 id="${id}">${p1}</h2>`;
+      return `<h2 id="${id}"${className}>${p1}</h2>`;
     });
     return html;
   }, [rawContent]);
