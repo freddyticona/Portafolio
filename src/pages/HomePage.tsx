@@ -191,47 +191,6 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* 3.5. BANDA EDITORIAL — imagen a sangre + cita serif */}
-      <section className="relative overflow-hidden gsap-fade animate-fade-in-up">
-        <div className="relative h-[60vh] min-h-[380px] w-full">
-          <img
-            src="/images/behind-scenes/DSC_3001.webp"
-            alt={lang === 'es' ? 'Freddy Ticona durante una grabación en exteriores' : 'Freddy Ticona during an outdoor shoot'}
-            className="absolute inset-0 w-full h-full object-cover"
-            loading="lazy"
-            decoding="async"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/80 to-[#050505]/20" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
-
-          <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-            <div className="max-w-2xl space-y-6">
-              <span className="text-gold font-mono text-[11px] font-bold uppercase tracking-[0.3em] block">
-                {lang === 'es' ? 'Detrás de la cámara' : 'Behind the camera'}
-              </span>
-              <blockquote className="font-serif text-2xl sm:text-3xl md:text-4xl leading-snug text-white">
-                {lang === 'es'
-                  ? '«No filmo lo que pasa: filmo lo que queda cuando todo lo demás se apaga.»'
-                  : '“I don’t film what happens: I film what remains when everything else fades.”'}
-              </blockquote>
-              <div className="h-px w-16 bg-gold" aria-hidden="true" />
-              <p className="text-stone-400 text-sm md:text-base leading-relaxed font-light max-w-md">
-                {lang === 'es'
-                  ? 'Quince años en el terreno, del Altiplano a la selva, enseñan que la imagen sólo importa cuando hay una historia humana detrás.'
-                  : 'Fifteen years in the field, from the high plains to the rainforest, teach that an image only matters when there is a human story behind it.'}
-              </p>
-              <button
-                onClick={() => handleNavToTab('galeria')}
-                className="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-gold hover:text-white transition-colors group"
-              >
-                {lang === 'es' ? 'Ver galería de rodaje' : 'View behind-the-scenes gallery'}
-                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* 4. PREVIEW OF LATEST BLOG POSTS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 gsap-fade">
         <div className="text-center space-y-3 animate-fade-in-up">
