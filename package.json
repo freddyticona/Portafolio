@@ -16,6 +16,8 @@
     "generate-rss": "node scripts/generate-rss.js",
     "generate-news-sitemap": "node scripts/generate-news-sitemap.js",
     "generate-image-dimensions": "node scripts/generate-image-dimensions.mjs",
+    "chunk-content": "node scripts/chunk-content.mjs",
+    "split-content": "node scripts/split-content.mjs && node scripts/chunk-content.mjs",
     "prebuild": "echo 'Build starting...'",
     "optimize-images": "node scripts/optimize-images.js",
     "optimize-images:watch": "nodemon --watch public/images --exec 'npm run optimize-images'",

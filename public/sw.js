@@ -6,7 +6,7 @@
 // Service Worker para Portafolio Freddy Ticona - PWA v2.0
 // Proporciona funcionalidad offline, caché inteligente y sincronización
 
-const CACHE_VERSION = '3.3.1';
+const CACHE_VERSION = '3.4.0';
 const CACHE_NAME = `freddy-ticona-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `freddy-ticono-runtime-${CACHE_VERSION}`;
 const IMAGE_CACHE = `freddy-ticono-images-${CACHE_VERSION}`;
@@ -100,7 +100,7 @@ self.addEventListener('fetch', (event) => {
   // Para archivos HTML - Network First con fallback a cache
   if (request.mode === 'navigate') {
     event.respondWith(
-      fetch(request)
+      fetch(request, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error('Network response was not ok');
           const responseClone = response.clone();

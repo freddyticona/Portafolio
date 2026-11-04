@@ -3,7 +3,7 @@
  *
  * Helper compartido por los scripts de build (generate-rss, generate-sitemap,
  * generate-pages, generate-news-sitemap) para extraer dinámicamente los
- * artículos desde src/translations.ts sin tener que sincronizar a mano los
+ * artículos desde src/data/blogPosts.ts sin tener que sincronizar a mano los
  * slugs/títulos/fechas en cada script.
  *
  * Parsea el array `export const blogPosts: BlogPost[] = [...]` del archivo
@@ -82,8 +82,9 @@ function escapeXml(s) {
 function extractField(line, key) {
   // Soporta strings simples, dobles y template literals multilínea (en ese caso
   // solo captura hasta el primer cierre en la misma línea).
+  // Acepta claves entrecomilladas ("id":) o como identificador (id:).
   // (?:\\\\.|[^\\\\]) captura escapes (ej: \' \" \\ \`) sin cortar en ellos.
-  const re = new RegExp(`^\\s*${key}:\\s*(['"\`])((?:\\\\.|[^\\\\])*?)\\1`);
+  const re = new RegExp(`^\\s*["']?${key}["']?:\\s*(['"\`])((?:\\\\.|[^\\\\])*?)\\1`);
   const m = line.match(re);
   if (!m) return null;
   return parseStringLiteral(m[1] + m[2] + m[1]);

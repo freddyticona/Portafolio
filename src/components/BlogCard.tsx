@@ -29,12 +29,12 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
     culture: { es: 'CULTURA', en: 'CULTURE' }
   };
   const contentTypeColors: Record<ContentType, string> = {
-    news: 'text-blue-400 border-blue-500/30 bg-blue-500/10',
-    analysis: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
-    opinion: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
-    reportage: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
-    'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10',
-    culture: 'text-teal-400 border-teal-500/30 bg-teal-500/10'
+    news: 'text-gold border-gold/30 bg-gold/10',
+    analysis: 'text-gold border-gold/30 bg-gold/10',
+    opinion: 'text-gold border-gold/30 bg-gold/10',
+    reportage: 'text-gold border-gold/30 bg-gold/10',
+    'behind-scenes': 'text-gold border-gold/30 bg-gold/10',
+    culture: 'text-gold border-gold/30 bg-gold/10'
   };
 
   return (
@@ -56,17 +56,17 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
             className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
           />
           <div className="absolute top-3 left-3 flex gap-1.5">
-            <span className="bg-[#050505]/90 backdrop-blur-sm border border-white/10 text-[9px] font-mono tracking-wider font-bold uppercase text-gold px-2.5 py-1 rounded-sm">
+            <span className="bg-[#050505]/90 backdrop-blur-sm border border-white/10 text-[11px] font-mono tracking-wider font-bold uppercase text-gold px-2.5 py-1 rounded-sm">
               {lang === 'es' ? post.categoryEs : post.categoryEn}
             </span>
             {post.contentType && (
-              <span className={`bg-[#050505]/90 backdrop-blur-sm text-[9px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm border ${contentTypeColors[post.contentType]}`}>
+              <span className={`bg-[#050505]/90 backdrop-blur-sm text-[11px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm border ${contentTypeColors[post.contentType]}`}>
                 {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
               </span>
             )}
           </div>
           {isNew && (
-            <span className="absolute top-3 right-3 bg-emerald-500 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md">
+            <span className="absolute top-3 right-3 bg-gold text-black text-[11px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md">
               {lang === 'es' ? 'NUEVO' : 'NEW'}
             </span>
           )}
@@ -75,7 +75,7 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
         {/* Post content */}
         <div className="px-5 text-left space-y-2">
           {/* Metadata */}
-          <div className="flex items-center gap-4 text-[10px] font-mono text-stone-500">
+          <div className="flex items-center gap-4 text-[11px] font-mono text-stone-500">
             <span className="flex items-center gap-1">
               <Calendar className="w-3.5 h-3.5" />
               {post.date}

@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { PageId } from '../types';
-import { Video, Menu, X, Globe, Film } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 
 interface NavbarProps {
   activePage: PageId;
@@ -20,6 +20,8 @@ interface NavbarProps {
 export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, dimmed, setDimmed }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [contentOpen, setContentOpen] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -27,28 +29,64 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const navItems: { id: PageId; label: string }[] = [
+  // Cerrar el desplegable al navegar, con Escape o al hacer clic fuera.
+  useEffect(() => setContentOpen(false), [activePage]);
+
+  useEffect(() => {
+    if (!contentOpen) return;
+    const onPointerDown = (e: MouseEvent) => {
+      if (contentRef.current && !contentRef.current.contains(e.target as Node)) {
+        setContentOpen(false);
+      }
+    };
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setContentOpen(false);
+    };
+    document.addEventListener('mousedown', onPointerDown);
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', onPointerDown);
+      document.removeEventListener('keydown', onKeyDown);
+    };
+  }, [contentOpen]);
+
+  const primaryItems: { id: PageId; label: string }[] = [
     { id: 'inicio', label: t.navHome },
     { id: 'sobre-mi', label: t.navAbout },
     { id: 'portafolio', label: t.navPortfolio },
     { id: 'cv', label: t.navCv },
+  ];
+
+  const contentItems: { id: PageId; label: string }[] = [
     { id: 'noticias', label: t.navNews },
     { id: 'blog', label: t.navBlog },
     { id: 'guias', label: t.navGuides },
+  ];
+
+  const secondaryItems: { id: PageId; label: string }[] = [
     { id: 'servicios', label: lang === 'es' ? 'Servicios' : 'Services' },
     { id: 'reservas', label: lang === 'es' ? 'Reservas' : 'Booking' },
     { id: 'contacto', label: t.navContact },
   ];
 
+  const navItems = [...primaryItems, ...contentItems, ...secondaryItems];
+  const contentActive = contentItems.some((item) => item.id === activePage);
+
   const handleNavClick = (pageId: PageId) => {
     handleNavToTab(pageId);
     setMobileMenuOpen(false);
+    setContentOpen(false);
   };
 
   const toggleLanguage = () => {
     const nextLang = lang === 'es' ? 'en' : 'es';
     setLang(nextLang);
   };
+
+  const desktopItemClass = (isActive: boolean) =>
+    `px-2.5 py-1.5 rounded-sm text-[11px] font-semibold uppercase tracking-wider transition-all duration-300 relative ${
+      isActive ? 'text-gold bg-white/5 font-bold' : 'text-stone-400 hover:text-gold hover:bg-white/5'
+    }`;
 
   return (
     <nav className={`sticky top-0 z-50 bg-[#050505]/90 border-b border-white/5 backdrop-blur-md transition-all duration-300 ${scrolled ? 'shadow-lg shadow-black/20' : ''}`} role="navigation" aria-label={lang === 'es' ? 'Navegación principal' : 'Main navigation'}>
@@ -71,18 +109,18 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
               FT
             </div>
             <div className="leading-none">
-              <span className={`font-display font-bold tracking-widest text-white uppercase block transition-all duration-300 ${scrolled ? 'text-xs' : 'text-sm sm:text-base'}`}>
-                Guzmán
+              <span className={`font-display font-bold tracking-[0.12em] text-white uppercase block transition-all duration-300 ${scrolled ? 'text-xs' : 'text-sm sm:text-base'}`}>
+                Freddy Ticona
               </span>
-              <span className={`font-mono text-gold/80 tracking-[0.15em] block uppercase font-bold transition-all duration-300 ${scrolled ? 'text-[7px]' : 'text-[9px]'}`}>
-                {lang === 'es' ? 'Realizador Audiovisual' : 'Audiovisual Realizer'}
+              <span className={`font-mono text-gold/80 tracking-[0.12em] block uppercase font-bold transition-all duration-300 ${scrolled ? 'text-[9px]' : 'text-[11px]'}`}>
+                {lang === 'es' ? 'Realizador Audiovisual' : 'Filmmaker & Cinematographer'}
               </span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden xl:flex items-center space-x-1" role="menubar">
-            {navItems.map((item) => {
+            {primaryItems.map((item) => {
               const isActive = activePage === item.id;
               return (
                 <button
@@ -92,11 +130,74 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
                   role="menuitem"
                   aria-current={isActive ? 'page' : undefined}
                   aria-label={item.label}
-                  className={`px-2.5 py-1.5 rounded-sm text-[11px] font-semibold uppercase tracking-wider transition-all duration-300 relative ${
-                    isActive
-                      ? 'text-gold bg-white/5 font-bold'
-                      : 'text-stone-400 hover:text-gold hover:bg-white/5'
-                  }`}
+                  className={desktopItemClass(isActive)}
+                >
+                  {item.label}
+                  {isActive && (
+                    <span className="absolute bottom-[-10px] left-0 right-0 h-[1px] bg-gold" aria-hidden="true" />
+                  )}
+                </button>
+              );
+            })}
+
+            {/* Desplegable: Noticias / Blog / Guías */}
+            <div className="relative" ref={contentRef}>
+              <button
+                id="nav-content-toggle"
+                onClick={() => setContentOpen((v) => !v)}
+                aria-haspopup="menu"
+                aria-expanded={contentOpen}
+                aria-controls="nav-content-menu"
+                aria-label={lang === 'es' ? 'Contenido: noticias, blog y guías' : 'Content: news, blog and guides'}
+                className={`${desktopItemClass(contentActive || contentOpen)} inline-flex items-center gap-1`}
+              >
+                {lang === 'es' ? 'Contenido' : 'Content'}
+                <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${contentOpen ? 'rotate-180' : ''}`} aria-hidden="true" />
+                {contentActive && (
+                  <span className="absolute bottom-[-10px] left-0 right-0 h-[1px] bg-gold" aria-hidden="true" />
+                )}
+              </button>
+
+              {contentOpen && (
+                <div
+                  id="nav-content-menu"
+                  role="menu"
+                  aria-label={lang === 'es' ? 'Contenido' : 'Content'}
+                  className="absolute left-0 top-full mt-3 w-48 rounded-sm border border-white/10 bg-[#0a0a0a] shadow-2xl shadow-black/60 p-1.5 animate-fadeIn"
+                >
+                  {contentItems.map((item) => {
+                    const isActive = activePage === item.id;
+                    return (
+                      <button
+                        key={item.id}
+                        id={`nav-item-${item.id}`}
+                        onClick={() => handleNavClick(item.id)}
+                        role="menuitem"
+                        aria-current={isActive ? 'page' : undefined}
+                        className={`w-full flex items-center justify-between px-3 py-2 rounded-sm text-[11px] font-semibold uppercase tracking-wider text-left transition-colors ${
+                          isActive ? 'text-gold bg-gold/10' : 'text-stone-300 hover:text-gold hover:bg-white/5'
+                        }`}
+                      >
+                        <span>{item.label}</span>
+                        {isActive && <span className="w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+
+            {secondaryItems.map((item) => {
+              const isActive = activePage === item.id;
+              return (
+                <button
+                  key={item.id}
+                  id={`nav-item-${item.id}`}
+                  onClick={() => handleNavClick(item.id)}
+                  role="menuitem"
+                  aria-current={isActive ? 'page' : undefined}
+                  aria-label={item.label}
+                  className={desktopItemClass(isActive)}
                 >
                   {item.label}
                   {isActive && (
@@ -180,22 +281,29 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
           <div className="space-y-1.5">
             {navItems.map((item) => {
               const isActive = activePage === item.id;
+              const isContentItem = contentItems.some((c) => c.id === item.id);
               return (
-                <button
-                  key={item.id}
-                  id={`nav-item-mobile-${item.id}`}
-                  onClick={() => handleNavClick(item.id)}
-                  role="menuitem"
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`w-full text-left px-4 py-3 rounded-sm text-sm uppercase tracking-widest font-semibold transition-colors flex items-center justify-between ${
-                    isActive
-                      ? 'text-gold bg-white/5 font-bold border-l-2 border-gold'
-                      : 'text-stone-300 hover:text-gold hover:bg-white/5'
-                  }`}
-                >
-                  <span>{item.label}</span>
-                  {isActive && <div className="w-1.5 h-1.5 bg-gold rounded-full" aria-hidden="true" />}
-                </button>
+                <React.Fragment key={item.id}>
+                  {isContentItem && item.id === 'noticias' && (
+                    <p className="px-4 pt-3 pb-1 text-[11px] font-mono font-bold uppercase tracking-[0.2em] text-stone-500">
+                      {lang === 'es' ? 'Contenido' : 'Content'}
+                    </p>
+                  )}
+                  <button
+                    id={`nav-item-mobile-${item.id}`}
+                    onClick={() => handleNavClick(item.id)}
+                    role="menuitem"
+                    aria-current={isActive ? 'page' : undefined}
+                    className={`w-full text-left px-4 py-3 rounded-sm text-sm uppercase tracking-widest font-semibold transition-colors flex items-center justify-between ${
+                      isActive
+                        ? 'text-gold bg-white/5 font-bold border-l-2 border-gold'
+                        : 'text-stone-300 hover:text-gold hover:bg-white/5'
+                    }`}
+                  >
+                    <span>{item.label}</span>
+                    {isActive && <div className="w-1.5 h-1.5 bg-gold rounded-full" aria-hidden="true" />}
+                  </button>
+                </React.Fragment>
               );
             })}
           </div>

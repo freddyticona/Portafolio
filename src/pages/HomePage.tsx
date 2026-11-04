@@ -103,7 +103,7 @@ export default function HomePage({
 
           {/* Showreel - Right (2 cols) */}
           <div className="lg:col-span-2 bento-card p-4 md:p-6 reveal reveal-right">
-            <div className="flex items-center justify-between text-[10px] font-mono text-stone-500 mb-3 px-2">
+            <div className="flex items-center justify-between text-[11px] font-mono text-stone-500 mb-3 px-2">
               <span className="flex items-center gap-1.5 uppercase font-bold text-gold/90 tracking-widest">
                 <Film className="w-3.5 h-3.5" />
                 <span>{t.heroShowreelTitle}</span>
@@ -151,7 +151,7 @@ export default function HomePage({
               )}
             </div>
             <div className="flex items-center justify-between mt-3 px-2">
-              <span className="text-[10px] font-mono text-stone-500 uppercase tracking-widest">
+              <span className="text-[11px] font-mono text-stone-500 uppercase tracking-widest">
                 {lang === 'es' ? 'Página dedicada con el video completo' : 'Dedicated page with the full video'}
               </span>
               <button
@@ -186,6 +186,47 @@ export default function HomePage({
             <div className="space-y-1">
               <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">2017</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statAwards}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3.5. BANDA EDITORIAL — imagen a sangre + cita serif */}
+      <section className="relative overflow-hidden gsap-fade animate-fade-in-up">
+        <div className="relative h-[60vh] min-h-[380px] w-full">
+          <img
+            src="/images/behind-scenes/DSC_3001.webp"
+            alt={lang === 'es' ? 'Freddy Ticona durante una grabación en exteriores' : 'Freddy Ticona during an outdoor shoot'}
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/80 to-[#050505]/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
+
+          <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
+            <div className="max-w-2xl space-y-6">
+              <span className="text-gold font-mono text-[11px] font-bold uppercase tracking-[0.3em] block">
+                {lang === 'es' ? 'Detrás de la cámara' : 'Behind the camera'}
+              </span>
+              <blockquote className="font-serif text-2xl sm:text-3xl md:text-4xl leading-snug text-white">
+                {lang === 'es'
+                  ? '«No filmo lo que pasa: filmo lo que queda cuando todo lo demás se apaga.»'
+                  : '“I don’t film what happens: I film what remains when everything else fades.”'}
+              </blockquote>
+              <div className="h-px w-16 bg-gold" aria-hidden="true" />
+              <p className="text-stone-400 text-sm md:text-base leading-relaxed font-light max-w-md">
+                {lang === 'es'
+                  ? 'Quince años en el terreno, del Altiplano a la selva, enseñan que la imagen sólo importa cuando hay una historia humana detrás.'
+                  : 'Fifteen years in the field, from the high plains to the rainforest, teach that an image only matters when there is a human story behind it.'}
+              </p>
+              <button
+                onClick={() => handleNavToTab('galeria')}
+                className="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-gold hover:text-white transition-colors group"
+              >
+                {lang === 'es' ? 'Ver galería de rodaje' : 'View behind-the-scenes gallery'}
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
             </div>
           </div>
         </div>
@@ -262,13 +303,13 @@ export default function HomePage({
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                 />
                 {item.isCaseStudy && (
-                  <span className="absolute top-2 left-2 bg-gold text-black text-[8px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">
+                  <span className="absolute top-2 left-2 bg-gold text-black text-[11px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">
                     {lang === 'es' ? 'CASO DE ESTUDIO' : 'CASE STUDY'}
                   </span>
                 )}
               </div>
               <div className="p-4 space-y-2">
-                <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
+                <div className="flex items-center gap-2 text-[11px] font-mono text-stone-500">
                   <span>{item.year}</span>
                   <span>•</span>
                   <span>{lang === 'es' ? item.categoryLabelEs : item.categoryLabelEn}</span>
@@ -298,7 +339,7 @@ export default function HomePage({
             <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl pointer-events-none" />
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="space-y-6">
-                <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold/10 border border-gold/20 rounded-sm text-gold text-[10px] font-mono font-bold uppercase tracking-widest">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold/10 border border-gold/20 rounded-sm text-gold text-[11px] font-mono font-bold uppercase tracking-widest">
                   <Newspaper className="w-3.5 h-3.5" />
                   {lang === 'es' ? 'Corresponsal de Prensa Independiente' : 'Independent Press Correspondent'}
                 </div>
@@ -360,7 +401,7 @@ export default function HomePage({
             {t.newsHomeSubtitle}
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {newsPosts.slice(0, 4).map((post) => (
             <div
               key={post.id}
@@ -370,7 +411,7 @@ export default function HomePage({
               onKeyDown={(e) => { if (e.key === 'Enter') handleNavToTab('noticias'); }}
               className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 tilt-card"
             >
-              <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
+              <div className="aspect-[16/10] overflow-hidden bg-[#0a0a0a] relative">
                 <img
                   src={post.imageUrl}
                   alt={lang === 'es' ? post.titleEs : post.titleEn}
@@ -379,20 +420,20 @@ export default function HomePage({
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 {post.breaking && (
-                  <span className="absolute top-2 left-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">
+                  <span className="absolute top-2 left-2 bg-red-600 text-white text-[11px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">
                     {t.newsBreaking}
                   </span>
                 )}
               </div>
               <div className="p-4 space-y-2">
-                <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
+                <div className="flex items-center gap-2 text-[11px] font-mono text-stone-500">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {post.date}
                   </span>
                   <span>{lang === 'es' ? post.categoryEs : post.categoryEn}</span>
                 </div>
-                <h3 className="text-sm font-bold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors">
+                <h3 className="text-base md:text-lg font-bold text-white leading-snug line-clamp-2 group-hover:text-gold transition-colors font-display">
                   {lang === 'es' ? post.titleEs : post.titleEn}
                 </h3>
               </div>

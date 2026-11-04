@@ -72,7 +72,12 @@ async function prerender() {
       try {
         await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded', timeout: 15000 });
         await new Promise(r => setTimeout(r, 2000));
-        const html = await page.content();
+        // page.content() serializa el DOM vivo: Vite inyecta <link rel="modulepreload">
+        // absolutos con el host del preview (localhost:4173). En producción esas
+        // URLs rompen y ensucian la consola, así que las dejamos relativas.
+        const html = (await page.content())
+          .replaceAll(`http://localhost:${PORT}`, '')
+          .replaceAll(`http://127.0.0.1:${PORT}`, '');
         const out = join(distDir, route === '/' ? 'index.html' : `${route.slice(1)}/index.html`);
         mkdirSync(dirname(out), { recursive: true });
         writeFileSync(out, html);

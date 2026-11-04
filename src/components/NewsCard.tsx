@@ -44,12 +44,12 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
     culture: { es: 'CULTURA', en: 'CULTURE' }
   };
   const contentTypeColors: Record<ContentType, string> = {
-    news: 'text-blue-400 border-blue-500/30 bg-blue-500/10',
-    analysis: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
-    opinion: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
-    reportage: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
-    'behind-scenes': 'text-rose-400 border-rose-500/30 bg-rose-500/10',
-    culture: 'text-teal-400 border-teal-500/30 bg-teal-500/10'
+    news: 'text-gold border-gold/30 bg-gold/10',
+    analysis: 'text-gold border-gold/30 bg-gold/10',
+    opinion: 'text-gold border-gold/30 bg-gold/10',
+    reportage: 'text-gold border-gold/30 bg-gold/10',
+    'behind-scenes': 'text-gold border-gold/30 bg-gold/10',
+    culture: 'text-gold border-gold/30 bg-gold/10'
   };
 
   const formattedDate = formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {
@@ -80,17 +80,17 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
 
         {/* Badges */}
         {post.breaking && (
-          <span className="absolute top-4 left-4 bg-red-600 text-white text-[10px] font-mono font-bold uppercase tracking-widest px-3 py-1 rounded-sm z-10 animate-pulse shadow-lg">
+          <span className="absolute top-4 left-4 bg-red-600 text-white text-[11px] font-mono font-bold uppercase tracking-widest px-3 py-1 rounded-sm z-10 animate-pulse shadow-lg">
             {lang === 'es' ? '🚨 ÚLTIMA HORA' : '🚨 BREAKING'}
           </span>
         )}
         {!post.breaking && isNew && (
-          <span className="absolute top-4 right-4 bg-emerald-500 text-white text-[9px] font-mono font-bold uppercase tracking-widest px-2.5 py-1 rounded-sm z-10 shadow-lg">
+          <span className="absolute top-4 right-4 bg-gold text-black text-[11px] font-mono font-bold uppercase tracking-widest px-2.5 py-1 rounded-sm z-10 shadow-lg">
             {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
         {isPopular && !post.breaking && (
-          <span className="absolute top-4 right-4 bg-pink-600/80 text-white text-[9px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm z-10 shadow-lg">
+          <span className="absolute top-4 right-4 bg-black/70 border border-gold/30 text-gold text-[11px] font-mono font-bold uppercase tracking-widest px-2.5 py-1 rounded-sm z-10 shadow-lg backdrop-blur-sm">
             <TrendingUp className="w-3 h-3 inline mr-0.5" />
             {lang === 'es' ? 'TRENDING' : 'TRENDING'}
           </span>
@@ -98,16 +98,16 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
 
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 space-y-3 z-10">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-2.5 py-1 rounded-sm backdrop-blur-sm">
+            <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-2.5 py-1 rounded-sm backdrop-blur-sm">
               {category}
             </span>
             {post.contentType && (
-              <span className={`text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm border backdrop-blur-sm ${contentTypeColors[post.contentType]}`}>
+              <span className={`text-[11px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm border backdrop-blur-sm ${contentTypeColors[post.contentType]}`}>
                 {lang === 'es' ? contentTypeLabels[post.contentType].es : contentTypeLabels[post.contentType].en}
               </span>
             )}
             {post.location && (
-              <span className="text-[10px] font-mono text-stone-300 bg-black/60 border border-white/10 px-2 py-0.5 rounded-sm flex items-center gap-1 backdrop-blur-sm">
+              <span className="text-[11px] font-mono text-stone-300 bg-black/60 border border-white/10 px-2 py-0.5 rounded-sm flex items-center gap-1 backdrop-blur-sm">
                 <MapPin className="w-3 h-3 text-gold" />
                 {post.location}
               </span>
@@ -122,7 +122,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
             {excerpt}
           </p>
 
-          <div className="flex items-center gap-4 text-[10px] font-mono text-stone-400 pt-1 flex-wrap">
+          <div className="flex items-center gap-4 text-[11px] font-mono text-stone-400 pt-1 flex-wrap">
             <span className="flex items-center gap-1">
               <Calendar className="w-3 h-3 text-gold" />
               {formattedDate}
@@ -138,7 +138,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
               </span>
             )}
             {post.source && (
-              <span className="text-[9px] text-stone-400 bg-white/10 px-2 py-0.5 rounded-sm font-semibold">
+              <span className="text-[11px] text-stone-400 bg-white/10 px-2 py-0.5 rounded-sm font-semibold">
                 {post.source}
               </span>
             )}
@@ -166,19 +166,19 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           />
         </div>
         <div className="flex-1 min-w-0 space-y-1">
-          <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-gold">
+          <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-gold">
             {category}
           </span>
           <h4 className="text-xs font-semibold text-white leading-tight line-clamp-2 group-hover:text-gold transition-colors font-display">
             {title}
           </h4>
-          <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500">
+          <div className="flex items-center gap-2 text-[11px] font-mono text-stone-500">
             <span className="flex items-center gap-1">
               <Calendar className="w-3 h-3" />
               {formattedDate}
             </span>
             {post.source && (
-              <span className="text-[8px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm">
+              <span className="text-[11px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm">
                 {post.source}
               </span>
             )}
@@ -197,27 +197,27 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
       tabIndex={0}
       aria-label={`Noticia: ${title}`}
     >
-      <div className="aspect-video overflow-hidden bg-[#0a0a0a] relative">
+      <div className="aspect-[16/10] overflow-hidden bg-[#0a0a0a] relative">
         <LazyImage
           src={post.imageUrl}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <span className="absolute top-2 left-2 text-[8px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-1.5 py-0.5 rounded-sm">
+        <span className="absolute top-2 left-2 text-[11px] font-mono font-bold uppercase tracking-wider text-gold bg-gold/10 border border-gold/20 px-1.5 py-0.5 rounded-sm">
           {category}
         </span>
         {post.breaking && (
-          <span className="absolute top-2 right-2 bg-red-600 text-white text-[8px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md animate-pulse">
+          <span className="absolute top-2 right-2 bg-red-600 text-white text-[11px] font-mono font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm shadow-md animate-pulse">
             {lang === 'es' ? 'ÚLTIMA HORA' : 'BREAKING'}
           </span>
         )}
         {!post.breaking && isNew && (
-          <span className="absolute top-2 right-2 bg-emerald-500 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
+          <span className="absolute top-2 right-2 bg-gold text-black text-[11px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
             {lang === 'es' ? 'NUEVO' : 'NEW'}
           </span>
         )}
         {!post.breaking && isPopular && (
-          <span className="absolute bottom-2 right-2 bg-pink-600/80 text-white text-[7px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
+          <span className="absolute bottom-2 right-2 bg-black/70 border border-gold/30 text-gold text-[11px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm shadow-md">
             <Flame className="w-3 h-3 inline mr-0.5" />
             {lang === 'es' ? 'TRENDING' : 'TRENDING'}
           </span>
@@ -226,7 +226,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
 
       <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
         <div className="space-y-2">
-          <div className="flex items-center gap-2 text-[9px] font-mono text-stone-500 flex-wrap">
+          <div className="flex items-center gap-2 text-[11px] font-mono text-stone-500 flex-wrap">
             <span className="flex items-center gap-1">
               <Calendar className="w-3 h-3 text-gold" />
               {formattedDate}
@@ -242,7 +242,7 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
               </span>
             )}
             {post.source && (
-              <span className="text-[8px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm font-mono">
+              <span className="text-[11px] text-stone-400 bg-white/5 px-1.5 py-0.5 rounded-sm font-mono">
                 {post.source}
               </span>
             )}
@@ -257,13 +257,13 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
           </p>
         </div>
 
-        <div className="flex items-center justify-between pt-2 border-t border-white/5 text-[10px] font-mono font-bold text-gold">
+        <div className="flex items-center justify-between pt-2 border-t border-white/5 text-[11px] font-mono font-bold text-gold">
           <span className="inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
             <span>{lang === 'es' ? 'Leer artículo' : 'Read article'}</span>
             <ArrowRight className="w-3 h-3" />
           </span>
           {post.views !== undefined && (
-            <span className="text-[9px] text-stone-500 font-normal flex items-center gap-1">
+            <span className="text-[11px] text-stone-500 font-normal flex items-center gap-1">
               <Eye className="w-3 h-3 text-stone-500" />
               {post.views}
             </span>

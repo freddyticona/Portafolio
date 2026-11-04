@@ -107,17 +107,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/30 via-transparent to-[#050505]/80" />
 
-        {/* Efecto de viñeta dinámica */}
-        <div
-          className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#050505_70%)]"
-          style={{
-            opacity: 0.3 + scrollY * 0.001
-          }}
-        />
-
-        {/* Grid overlay cinematográfico */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(212,175,55,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(212,175,55,0.03)_1px,transparent_1px)] bg-[size:100px_100px]" />
-
       </div>
 
       {/* Hero Content */}
@@ -173,7 +162,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
             animationDelay: '1.2s'
           }}
         >
-          <span className="text-[10px] font-mono tracking-widest text-stone-500 uppercase">{lang === 'es' ? 'Certificado por' : 'Certified by'}</span>
+          <span className="text-[11px] font-mono tracking-widest text-stone-500 uppercase">{lang === 'es' ? 'Certificado por' : 'Certified by'}</span>
           <img src="/images/cisco-logo.svg" alt="Cisco" className="h-6 brightness-0 invert" />
           <img src="/images/alura-logo.svg" alt="Alura Latam" className="h-5" />
           <img src="/images/google-activate-logo.svg" alt="Google Actívate" className="h-5 brightness-0 invert" />
@@ -231,7 +220,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
           animationDelay: '1.5s'
         }}
       >
-        <span className="text-[10px] font-mono tracking-widest text-stone-500 uppercase">
+        <span className="text-[11px] font-mono tracking-widest text-stone-500 uppercase">
           {content.explore}
         </span>
         <div className="relative w-6 h-10 border-2 border-gold/30 rounded-full flex justify-center pt-2">

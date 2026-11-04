@@ -51,6 +51,7 @@ import { injectStructuredData, generateNewsArticleStructuredData } from '../lib/
 import { IMAGE_DIMENSIONS } from '../lib/imageDimensions';
 import TrustIndicators from './TrustIndicators';
 import { formatPostDate } from '../lib/date';
+import { loadBlogContent } from '../data/loader';
 
 interface BlogDetailProps {
   post: BlogPost;
@@ -81,6 +82,41 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   const tocRefs = useRef<Record<string, HTMLElement>>({});
   const [activeGalleryImage, setActiveGalleryImage] = useState<string | null>(null);
   const progressRef = useRef<HTMLDivElement>(null);
+
+  // ─── Contenido bajo demanda ─────────────────────────────────────────
+  // Los metadatos (lista) ya no incluyen contentEs/contentEn: al abrir un
+  // artículo se pide el cuerpo completo en su propio chunk.
+  const [loadedContent, setLoadedContent] = useState<{ es: string; en: string } | null>(null);
+  const [contentReady, setContentReady] = useState(Boolean(post.contentEs || post.contentEn));
+  const [contentError, setContentError] = useState(false);
+
+  useEffect(() => {
+    if (post.contentEs || post.contentEn) {
+      setLoadedContent({ es: post.contentEs ?? '', en: post.contentEn ?? '' });
+      setContentReady(true);
+      setContentError(false);
+      return;
+    }
+
+    let alive = true;
+    setContentReady(false);
+    setContentError(false);
+
+    loadBlogContent(post.id)
+      .then((entry) => {
+        if (!alive) return;
+        setLoadedContent({ es: entry?.es ?? '', en: entry?.en ?? '' });
+        setContentReady(true);
+      })
+      .catch((err) => {
+        console.error('No se pudo cargar el contenido del artículo', err);
+        if (!alive) return;
+        setContentError(true);
+        setContentReady(true);
+      });
+
+    return () => { alive = false; };
+  }, [post.id, post.contentEs, post.contentEn]);
 
   // ─── Scroll Progress + Back to Top ──────────────────────────────────
   // Optimizado con rAF + ref directa para no re-renderizar en cada pixel de scroll
@@ -131,9 +167,10 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   };
 
   // ─── Contenido HTML ─────────────────────────────────────────────────
-  const rawContent = lang === 'es' ? post.contentEs : post.contentEn;
+  const rawContent = loadedContent ? loadedContent[lang] : '';
 
   const htmlContent = useMemo(() => {
+    if (!rawContent) return '';
     const parsed = marked.parse(rawContent, { breaks: true });
     let html = typeof parsed === 'string' ? parsed : '';
     // El título ya se renderiza como <h1> en el header: se elimina el H1
@@ -266,7 +303,10 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
   }, [post, lang]);
 
   // ─── Tiempo de lectura dinámico ─────────────────────────────────────
-  const dynamicReadTime = useMemo(() => calculateReadTime(rawContent), [rawContent]);
+  const dynamicReadTime = useMemo(
+    () => (rawContent ? calculateReadTime(rawContent) : (lang === 'es' ? post.readTimeEs : post.readTimeEn)),
+    [rawContent, lang, post.readTimeEs, post.readTimeEn]
+  );
 
   // ─── Tabla de Contenidos con scrollspy ─────────────────────────────────
   const tocItems = useMemo(() => {
@@ -529,10 +569,35 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
       <TrustIndicators post={post} lang={lang} t={t} />
 
       {/* Article Content */}
-      <div
-        className="article-content leading-relaxed prose prose-invert max-w-none"
-        dangerouslySetInnerHTML={{ __html: htmlContent }}
-      />
+      {!contentReady ? (
+        <div className="space-y-4 animate-pulse" role="status" aria-label={lang === 'es' ? 'Cargando artículo...' : 'Loading article...'}>
+          <div className="skeleton h-6 w-2/3 rounded" />
+          <div className="skeleton h-4 w-full rounded" />
+          <div className="skeleton h-4 w-11/12 rounded" />
+          <div className="skeleton h-4 w-10/12 rounded" />
+          <div className="skeleton h-4 w-full rounded" />
+          <div className="skeleton h-6 w-1/2 rounded mt-8" />
+          <div className="skeleton h-4 w-full rounded" />
+          <div className="skeleton h-4 w-9/12 rounded" />
+        </div>
+      ) : contentError || !rawContent ? (
+        <div className="bg-white/[0.02] border border-white/5 rounded-sm p-8 text-center space-y-2">
+          <p className="text-stone-300 text-sm font-semibold">
+            {lang === 'es' ? 'No se pudo cargar el contenido de este artículo.' : 'This article’s content could not be loaded.'}
+          </p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 mt-2 bg-gold/10 border border-gold/30 text-gold rounded-sm text-xs font-mono font-bold uppercase tracking-wider hover:bg-gold hover:text-black transition-colors"
+          >
+            {lang === 'es' ? 'Reintentar' : 'Retry'}
+          </button>
+        </div>
+      ) : (
+        <div
+          className="article-content leading-relaxed prose prose-invert max-w-none"
+          dangerouslySetInnerHTML={{ __html: htmlContent }}
+        />
+      )}
 
       {/* Photo Gallery — imágenes adicionales del artículo */}
       {post.images && post.images.length > 0 && (
