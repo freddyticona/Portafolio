@@ -41,7 +41,8 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
     opinion: { es: 'OPINIÓN', en: 'OPINION' },
     reportage: { es: 'REPORTAJE', en: 'REPORTAGE' },
     'behind-scenes': { es: 'DETRÁS DE CÁMARAS', en: 'BEHIND THE SCENES' },
-    culture: { es: 'CULTURA', en: 'CULTURE' }
+    culture: { es: 'CULTURA', en: 'CULTURE' },
+    blog: { es: 'BLOG', en: 'BLOG' }
   };
   const contentTypeColors: Record<ContentType, string> = {
     news: 'text-gold border-gold/30 bg-gold/10',
@@ -49,7 +50,8 @@ export default function NewsCard({ post, lang, onClick, variant = 'default' }: N
     opinion: 'text-gold border-gold/30 bg-gold/10',
     reportage: 'text-gold border-gold/30 bg-gold/10',
     'behind-scenes': 'text-gold border-gold/30 bg-gold/10',
-    culture: 'text-gold border-gold/30 bg-gold/10'
+    culture: 'text-gold border-gold/30 bg-gold/10',
+    blog: 'text-gold border-gold/30 bg-gold/10'
   };
 
   const formattedDate = formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {

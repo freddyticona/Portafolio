@@ -86,39 +86,123 @@
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/trump-eeuu-fin-aid-israel-4000-millones-2027</loc>
+    <loc>https://freddydev.net/blog/artcraft-estudio-ia-guia-completa</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-03T18:30:00-05:00</news:publication_date>
-      <news:title>Trump anuncia el fin de la ayuda militar de US$4.000 millones anuales a Israel</news:title>
-      <news:keywords>Oriente Medio</news:keywords>
+      <news:publication_date>2026-11-04T06:00:00-04:00</news:publication_date>
+      <news:title>ArtCraft: la suite de IA que cabe en tu escritorio y no te cobra por abrirla</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/ciclon-murasu-andhra-pradesh-2026</loc>
+    <loc>https://freddydev.net/blog/instalar-artcraft-launcher-apps-clon-adobe-windows</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-03T13:00:00+05:30</news:publication_date>
-      <news:title>El ciclón Murasu deja dos muertos y arrasa 52.459 hectáreas de cultivos en India</news:title>
-      <news:keywords>Catástrofes</news:keywords>
+      <news:publication_date>2026-11-04T07:00:00-04:00</news:publication_date>
+      <news:title>Cómo instalar ArtCraft Launcher y las 16 apps en Windows sin romper nada</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/espana-ministro-transporte-dimite-accidente-ferroviario</loc>
+    <loc>https://freddydev.net/blog/photocraft-vs-photoshop-editar-imagenes-ia</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-03T20:30:00+01:00</news:publication_date>
-      <news:title>Dimite el ministro de Transporte de España tras el accidente ferroviario que dejó 69 muertos</news:title>
-      <news:keywords>Europa</news:keywords>
+      <news:publication_date>2026-11-04T08:00:00-04:00</news:publication_date>
+      <news:title>PhotoCraft: editar un PSD como en Photoshop, sin suscripción y con IA al lado</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/filmcraft-editor-video-clon-premiere-gratis</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T09:00:00-04:00</news:publication_date>
+      <news:title>FilmCraft: montar video como en Premiere, con códecs propios y sin cuota mensual</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/effectcraft-motion-graphics-vfx-clon-after-effects</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T10:00:00-04:00</news:publication_date>
+      <news:title>EffectCraft: motion graphics y VFX en Rust, con 259 efectos y cámaras 3D</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/vectorcraft-designcraft-storyboards-graficos-ia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T11:00:00-04:00</news:publication_date>
+      <news:title>VectorCraft y DesignCraft: del boceto al PDF maquetado sin salir del ecosistema</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/artcraft-canvas-2d-editor-3d-componer-escenas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T12:00:00-04:00</news:publication_date>
+      <news:title>El canvas 2D y el editor 3D de ArtCraft: cómo dirigir la IA en vez de pedirle suerte</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/higgsfield-soul-cinema-soul-id-personajes-consistentes</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T13:00:00-04:00</news:publication_date>
+      <news:title>Higgsfield Soul Cinema y Soul ID: personajes que no cambian de cara entre tomas</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/higgsfield-cinema-studio-dop-camara-lente-movimiento</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T14:00:00-04:00</news:publication_date>
+      <news:title>Cinema Studio 4.0 y DoP: cámara, lente y movimiento sin adivinar</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/higgsfield-seedance-kling-veo-generacion-video</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T15:00:00-04:00</news:publication_date>
+      <news:title>Seedance, Kling y Veo: qué modelo elegir y cómo cerrar un video de 30 segundos</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
 </urlset>

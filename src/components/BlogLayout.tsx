@@ -30,14 +30,16 @@ export default function BlogLayout({ posts, lang, t, onArticleClick, title, subt
   }, [posts, lang]);
 
   const filteredPosts = useMemo(() => {
-    return posts.filter(p => {
-      const title = (lang === 'es' ? p.titleEs : p.titleEn).toLowerCase();
-      const excerpt = (lang === 'es' ? p.excerptEs : p.excerptEn).toLowerCase();
-      const cat = lang === 'es' ? p.categoryEs : p.categoryEn;
-      const matchesSearch = !searchTerm || title.includes(searchTerm.toLowerCase()) || excerpt.includes(searchTerm.toLowerCase());
-      const matchesCategory = selectedCategory === 'all' || cat === selectedCategory;
-      return matchesSearch && matchesCategory;
-    });
+    return posts
+      .filter(p => {
+        const title = (lang === 'es' ? p.titleEs : p.titleEn).toLowerCase();
+        const excerpt = (lang === 'es' ? p.excerptEs : p.excerptEn).toLowerCase();
+        const cat = lang === 'es' ? p.categoryEs : p.categoryEn;
+        const matchesSearch = !searchTerm || title.includes(searchTerm.toLowerCase()) || excerpt.includes(searchTerm.toLowerCase());
+        const matchesCategory = selectedCategory === 'all' || cat === selectedCategory;
+        return matchesSearch && matchesCategory;
+      })
+      .sort((a, b) => postDateTimestamp(b.date) - postDateTimestamp(a.date));
   }, [posts, searchTerm, selectedCategory, lang]);
 
   const recentPosts = useMemo(() => {

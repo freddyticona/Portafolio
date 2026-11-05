@@ -115,8 +115,8 @@ export function NoticiasPage({
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
     : null;
 
-  // Excluir guías de trámites (tienen su propia sección)
-  const newsPosts = blogPosts.filter(p => p.categoryEs !== 'Guías y Trámites');
+  // Excluir guías de trámites (tienen su propia sección) y artículos de blog
+  const newsPosts = blogPosts.filter(p => p.categoryEs !== 'Guías y Trámites' && p.contentType !== 'blog');
 
   useEffect(() => {
     if (activePost) {

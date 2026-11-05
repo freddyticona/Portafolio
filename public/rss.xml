@@ -9,7 +9,7 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Wed, 04 Nov 2026 15:15:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 13:18:21 GMT</lastBuildDate>
     <item>
       <title><![CDATA[Los demócratas recuperan la Cámara y el Senado en un golpe histórico a Trump]]></title>
       <link>https://freddydev.net/noticias/eeuu-democratas-camara-senado-midterms-2026</link>
@@ -57,6 +57,76 @@
       <link>https://freddydev.net/noticias/ciberataque-neveras-supermercados-europa</link>
       <guid isPermaLink="true">https://freddydev.net/noticias/ciberataque-neveras-supermercados-europa</guid>
       <description><![CDATA[Los atacantes pusieron los evaporadores en modo descongelación y elevaron la temperatura de congeladores hasta 50 °C. Delhaize, ICA, SuperValu y Carrefour sufrieron pérdidas millonarias en plena ola de ataques a la industria alimentaria.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[ArtCraft: la suite de IA que cabe en tu escritorio y no te cobra por abrirla]]></title>
+      <link>https://freddydev.net/blog/artcraft-estudio-ia-guia-completa</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/artcraft-estudio-ia-guia-completa</guid>
+      <description><![CDATA[ArtCraft Studio y las 16 Crafting Apps son dos productos distintos que se complementan: una cabina de generación con canvas 2D y escenas 3D, y una colección de clones open source de Photoshop, Premiere, After Effects e Illustrator escritos en Rust. Esta guía explica qué hace cada uno, cuánto cuesta y por dónde empezar.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Cómo instalar ArtCraft Launcher y las 16 apps en Windows sin romper nada]]></title>
+      <link>https://freddydev.net/blog/instalar-artcraft-launcher-apps-clon-adobe-windows</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/instalar-artcraft-launcher-apps-clon-adobe-windows</guid>
+      <description><![CDATA[El Launcher es la puerta de entrada a PhotoCraft, FilmCraft, EffectCraft y las demás Crafting Apps. Esta guía cubre requisitos, descarga, instalación, primer arranque, actualizaciones y los problemas típicos de Windows: SmartScreen, permisos, GPU y espacio en disco.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[PhotoCraft: editar un PSD como en Photoshop, sin suscripción y con IA al lado]]></title>
+      <link>https://freddydev.net/blog/photocraft-vs-photoshop-editar-imagenes-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/photocraft-vs-photoshop-editar-imagenes-ia</guid>
+      <description><![CDATA[PhotoCraft abre PSD y PSB, trabaja con capas, máscaras, 16 capas de ajuste y más de 70 filtros, y está escrito en Rust. Esta guía explica cómo retocar un retrato paso a paso, cómo hacer el ida y vuelta con el inpaint de ArtCraft Studio y en qué se diferencia todavía de Photoshop.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[FilmCraft: montar video como en Premiere, con códecs propios y sin cuota mensual]]></title>
+      <link>https://freddydev.net/blog/filmcraft-editor-video-clon-premiere-gratis</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/filmcraft-editor-video-clon-premiere-gratis</guid>
+      <description><![CDATA[FilmCraft es el editor de video de ArtCraft: monitores de fuente y programa, timeline, todos los modos de recorte, atajos J/K/L, 55 efectos, 30 transiciones y normalización EBU R128. Esta guía recorre un montaje completo y explica dónde todavía no llega.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[EffectCraft: motion graphics y VFX en Rust, con 259 efectos y cámaras 3D]]></title>
+      <link>https://freddydev.net/blog/effectcraft-motion-graphics-vfx-clon-after-effects</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/effectcraft-motion-graphics-vfx-clon-after-effects</guid>
+      <description><![CDATA[EffectCraft es el compositor de ArtCraft: composiciones, capas, keyframes, expresiones, 259 efectos, cámaras y luces 3D, cola de render y exportación Lottie. Esta guía explica cómo construir un lower third animado y cómo pensar la animación sin depender de plugins.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[VectorCraft y DesignCraft: del boceto al PDF maquetado sin salir del ecosistema]]></title>
+      <link>https://freddydev.net/blog/vectorcraft-designcraft-storyboards-graficos-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/vectorcraft-designcraft-storyboards-graficos-ia</guid>
+      <description><![CDATA[VectorCraft cubre ilustración vectorial, trazado de imágenes, SVG/PDF y automatización por MCP; DesignCraft resuelve la maquetación editorial de varias páginas. Juntas permiten convertir un render de IA en un storyboard limpio y un dossier listo para imprimir, sin pasar por Illustrator ni InDesign.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El canvas 2D y el editor 3D de ArtCraft: cómo dirigir la IA en vez de pedirle suerte]]></title>
+      <link>https://freddydev.net/blog/artcraft-canvas-2d-editor-3d-componer-escenas</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/artcraft-canvas-2d-editor-3d-componer-escenas</guid>
+      <description><![CDATA[La diferencia entre una imagen aceptable y una imagen útil suele estar antes del prompt: en la composición. El canvas 2D permite dibujar y enmascarar; el editor 3D permite colocar cámara, sujeto y luces. Esta guía muestra un flujo de tres planos con Image to Location, Image to 3D Mesh y Mixed Assets.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Higgsfield Soul Cinema y Soul ID: personajes que no cambian de cara entre tomas]]></title>
+      <link>https://freddydev.net/blog/higgsfield-soul-cinema-soul-id-personajes-consistentes</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/higgsfield-soul-cinema-soul-id-personajes-consistentes</guid>
+      <description><![CDATA[Soul Cinema aporta textura cinematográfica; Soul ID entrena una identidad con 20 a 80 fotos para que el mismo rostro aparezca en cada generación; Soul HEX fija la paleta de marca. Esta guía explica cómo entrenar el personaje, generar keyframes coherentes y animarlos sin perder la cara.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Cinema Studio 4.0 y DoP: cámara, lente y movimiento sin adivinar]]></title>
+      <link>https://freddydev.net/blog/higgsfield-cinema-studio-dop-camara-lente-movimiento</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/higgsfield-cinema-studio-dop-camara-lente-movimiento</guid>
+      <description><![CDATA[Cinema Studio 4.0 lleva a Higgsfield a clips de hasta 60 segundos y 4K, con AI Cast, localizaciones, 50 referencias y audio nativo. DoP sigue siendo la vía rápida para animar una imagen con un preset de cámara. Esta guía explica qué controla cada uno y cómo escribir un movimiento que no cambie en cada intento.]]></description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Seedance, Kling y Veo: qué modelo elegir y cómo cerrar un video de 30 segundos]]></title>
+      <link>https://freddydev.net/blog/higgsfield-seedance-kling-veo-generacion-video</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/higgsfield-seedance-kling-veo-generacion-video</guid>
+      <description><![CDATA[Seedance 2.5 apuesta por clips largos y multi-shot con audio; Kling 3.0 y 4.0 por duración y referencias; Veo 3.1 por realismo y sonido. Esta guía compara los modelos de Higgsfield, explica cuál usar en cada escena y cierra un flujo completo de 30 segundos con presupuesto de créditos.]]></description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
