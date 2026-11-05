@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://freddydev.net/guias/facturacion-electronica-bolivia-2026-siat-que-cambio</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T07:30:00-04:00</news:publication_date>
+      <news:title>Facturación electrónica en Bolivia 2026: qué cambió el 30 de septiembre y cómo cumple tu NIT</news:title>
+      <news:keywords>Guías y Trámites</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://freddydev.net/noticias/eeuu-democratas-camara-senado-midterms-2026</loc>
     <news:news>
       <news:publication>

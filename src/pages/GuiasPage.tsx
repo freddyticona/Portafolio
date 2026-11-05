@@ -31,7 +31,9 @@ export default function GuiasPage({
   setActiveBlogPostId,
   handleArticleClick,
 }: GuiasPageProps) {
-  const guiasPosts = blogPosts.filter(p => p.categoryEs === 'Guías y Trámites');
+  const guiasPosts = blogPosts
+    .filter(p => p.categoryEs === 'Guías y Trámites')
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   const activePost = activeBlogPostId
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
@@ -41,14 +43,20 @@ export default function GuiasPage({
   const groups = useMemo(() => {
     const groups: { title: string; posts: BlogPost[] }[] = [];
     const groupTitle = (post: BlogPost): string => {
-      const title = lang === 'es' ? post.titleEs : post.titleEn;
-      const lower = title.toLowerCase();
-      if (lower.includes('segip') || lower.includes('cédula') || lower.includes('cedula')) return lang === 'es' ? 'SEGIP · Identidad' : 'SEGIP · Identity';
-      if (lower.includes('soat') || lower.includes('ruat') || lower.includes('licencia de conducir') || lower.includes('vehicular') || lower.includes('tránsito') || lower.includes('transito') || lower.includes('multa') || lower.includes('placa')) return lang === 'es' ? 'Vehículos y Tránsito' : 'Vehicles & Traffic';
-      if (lower.includes('pasaporte') || lower.includes('visa') || lower.includes('apostilla') || lower.includes('extranjero')) return lang === 'es' ? 'Migración y Documentos Internacionales' : 'Migration & International Documents';
-      if (lower.includes('antecedente') || lower.includes('penal') || lower.includes('policial')) return lang === 'es' ? 'Antecedentes y Seguridad' : 'Background Checks & Safety';
-      if (lower.includes('matrimonio') || lower.includes('defunción') || lower.includes('defuncion') || lower.includes('nacimiento')) return lang === 'es' ? 'Registro Civil (SERECÍ)' : 'Civil Registry (SERECÍ)';
-      if (lower.includes('empresa') || lower.includes('nit') || lower.includes('marca') || lower.includes('senapi') || lower.includes('funcionamiento') || lower.includes('sep-re')) return lang === 'es' ? 'Negocios y Tributación' : 'Business & Taxation';
+      // Se comparan ambos idiomas para que el agrupamiento sea idéntico en ES y EN.
+      const lower = `${post.titleEs} ${post.titleEn}`.toLowerCase();
+      const has = (...terms: string[]) => terms.some(term => lower.includes(term));
+      const hasWord = (word: string) => new RegExp(`\\b${word}\\b`).test(lower);
+      if (has('bono', 'bonus', 'subsidio', 'subsidy', 'prenatal', 'azurduy', 'juancito')) return lang === 'es' ? 'Bonos y Subsidios' : 'Bonuses & Subsidies';
+      if (has('segip', 'cédula', 'cedula', 'identity card', 'id card')) return lang === 'es' ? 'SEGIP · Identidad' : 'SEGIP · Identity';
+      if (has('soat', 'ruat', 'licencia de conducir', 'vehicular', 'tránsito', 'transito', 'multa', 'placa', 'driver', 'traffic', 'vehicle', 'license plate')) return lang === 'es' ? 'Vehículos y Tránsito' : 'Vehicles & Traffic';
+      if (has('pasaporte', 'visa', 'apostilla', 'extranjero', 'passport', 'apostille', 'foreign')) return lang === 'es' ? 'Migración y Documentos Internacionales' : 'Migration & International Documents';
+      if (has('antecedente', 'penal', 'policial', 'background check', 'criminal record', 'police record')) return lang === 'es' ? 'Antecedentes y Seguridad' : 'Background Checks & Safety';
+      if (has('matrimonio', 'defunción', 'defuncion', 'nacimiento', 'marriage', 'birth', 'death certificate', 'civil registry')) return lang === 'es' ? 'Registro Civil (SERECÍ)' : 'Civil Registry (SERECÍ)';
+      if (has('gestora', 'aporte', 'pensión', 'pension', 'jubilación', 'jubilacion', 'contribution', 'retirement')) return lang === 'es' ? 'Pensiones y Aportes' : 'Pensions & Contributions';
+      if (has('discapacidad', 'salud', 'disability', 'health')) return lang === 'es' ? 'Salud y Discapacidad' : 'Health & Disability';
+      if (has('empresa', 'marca', 'senapi', 'funcionamiento', 'sep-re', 're-iva', 'impuesto', 'company', 'trademark', 'business license', 'tax') || hasWord('nit')) return lang === 'es' ? 'Negocios y Tributación' : 'Business & Taxation';
+      if (has('firma digital', 'facturación electrónica', 'facturacion electronica', 'adsib', 'digital signature', 'electronic invoic')) return lang === 'es' ? 'Trámites Digitales' : 'Digital Procedures';
       return lang === 'es' ? 'Otros trámites' : 'Other procedures';
     };
     for (const post of guiasPosts) {

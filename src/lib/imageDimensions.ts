@@ -1,6 +1,10 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/guia/facturacion-electronica-siat-2026.jpg": {
+    "width": 900,
+    "height": 599
+  },
   "/images/news/2026-11-04/eeuu-democratas-camara-senado-midterms-2026.jpg": {
     "width": 1800,
     "height": 1200
@@ -81,6 +85,14 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1800,
     "height": 298
   },
+  "/images/guia/firma-digital-adsib-2026.jpg": {
+    "width": 1600,
+    "height": 480
+  },
+  "/images/guia/subsidio-prenatal-2026.jpg": {
+    "width": 719,
+    "height": 569
+  },
   "/images/news/2026-10-26/israel-elecciones-2026-netanyahu-referendum.jpg": {
     "width": 1200,
     "height": 800
@@ -120,6 +132,14 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/news/2026-10-26/petroleo-116-dolares-negociaciones-iran-escalada.jpg": {
     "width": 1200,
     "height": 960
+  },
+  "/images/guia/bono-juancito-pinto-2026.jpg": {
+    "width": 1024,
+    "height": 815
+  },
+  "/images/guia/bono-juana-azurduy-2026.jpg": {
+    "width": 720,
+    "height": 540
   },
   "/images/news/2026-10-22/iran-eeuu-israel-planes-ataques.jpg": {
     "width": 960,
@@ -200,6 +220,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/news/2026-10-19/yemen-huties-campo-entrenamiento.jpg": {
     "width": 960,
     "height": 540
+  },
+  "/images/guia/matrimonio-civil-2026.jpg": {
+    "width": 1200,
+    "height": 900
   },
   "/images/news/2026-10-13/papa-leon-xiv-gemelli.jpg": {
     "width": 1400,
@@ -285,6 +309,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1600,
     "height": 1067
   },
+  "/images/guia/correccion-acta-nacimiento-2026.jpg": {
+    "width": 1600,
+    "height": 900
+  },
   "/images/news/2026-10-04/mariaca-declaracion-juez-cantumarca.jpg": {
     "width": 1920,
     "height": 1440
@@ -368,6 +396,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/news/2026-09-27/takeaway-asamblea-general-dia-5.jpg": {
     "width": 771,
     "height": 420
+  },
+  "/images/guia/carnet-discapacidad-2026.jpg": {
+    "width": 720,
+    "height": 461
   },
   "/images/news/2026-09-26/lavrov-arquitectura-seguridad-eurasia.jpg": {
     "width": 771,
@@ -613,6 +645,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1920,
     "height": 1440
   },
+  "/images/guia/certificado-aportes-gestora-2026.jpg": {
+    "width": 1280,
+    "height": 720
+  },
   "/images/news/2026-09-16/sudafrica-novena-mujer-ekurhuleni.jpg": {
     "width": 1600,
     "height": 900
@@ -776,6 +812,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/news/2026-09-12/chile-aniversario-golpe.jpg": {
     "width": 1200,
     "height": 630
+  },
+  "/images/guia/re-iva-2026.jpg": {
+    "width": 1521,
+    "height": 833
   },
   "/images/news/2026-09-07/miami-avion-carga-amazon.webp": {
     "width": 2048,
