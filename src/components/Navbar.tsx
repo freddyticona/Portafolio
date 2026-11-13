@@ -119,7 +119,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden xl:flex items-center space-x-1" role="menubar">
+          <div className="hidden xl:flex items-center space-x-1">
             {primaryItems.map((item) => {
               const isActive = activePage === item.id;
               return (
@@ -127,7 +127,6 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
                   key={item.id}
                   id={`nav-item-${item.id}`}
                   onClick={() => handleNavClick(item.id)}
-                  role="menuitem"
                   aria-current={isActive ? 'page' : undefined}
                   aria-label={item.label}
                   className={desktopItemClass(isActive)}
@@ -194,7 +193,6 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
                   key={item.id}
                   id={`nav-item-${item.id}`}
                   onClick={() => handleNavClick(item.id)}
-                  role="menuitem"
                   aria-current={isActive ? 'page' : undefined}
                   aria-label={item.label}
                   className={desktopItemClass(isActive)}

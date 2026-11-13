@@ -329,6 +329,15 @@ export const certificates: Certificate[] = [
     issuer: 'Coursera',
     year: '2020',
     isPrimary: false
+  },
+  {
+    id: '19',
+    titleEs: 'AI Agent Manager (AIAM™) — Certificación Profesional',
+    titleEn: 'AI Agent Manager (AIAM™) — Professional Certification',
+    issuer: 'Certiprof® (ID CP934708090)',
+    year: '2026',
+    isPrimary: true,
+    credentialUrl: '/certificados/aiam-certiprof-2026.pdf'
   }
 ];
 

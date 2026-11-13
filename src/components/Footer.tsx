@@ -145,7 +145,7 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div className="text-center sm:text-left space-y-1">
             <p>{t.footerCopyright}</p>
-            <p className="text-stone-500 font-mono">
+            <p className="text-stone-400 font-mono">
               {lang === 'es'
                 ? 'Desarrollado con alto estándar estético en React.'
                 : 'Crafted with premium styling in React.'}
@@ -182,7 +182,7 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
               <p className="text-[11px] font-bold text-emerald-300 font-display tracking-wide leading-tight">
                 {lang === 'es' ? 'Conexión Segura' : 'Secure Connection'}
               </p>
-              <p className="text-[9px] font-mono text-emerald-500/70 leading-tight">
+              <p className="text-[9px] font-mono text-emerald-400/90 leading-tight">
                 SSL/TLS · Let's Encrypt · 256-bit
               </p>
             </div>
@@ -190,17 +190,17 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
         </div>
 
         {/* Compliance badges */}
-        <div className="pt-5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[10px] text-stone-500 font-mono">
+        <div className="pt-5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[10px] text-stone-400 font-mono">
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
             {lang === 'es' ? 'GDPR Compliant' : 'GDPR Compliant'}
           </span>
-          <span className="text-stone-700">|</span>
+          <span className="text-stone-500" aria-hidden="true">|</span>
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
             {lang === 'es' ? 'Ley N° 164 Bolivia' : 'Law N° 164 Bolivia'}
           </span>
-          <span className="text-stone-700">|</span>
+          <span className="text-stone-500" aria-hidden="true">|</span>
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
             {lang === 'es' ? 'Datos protegidos' : 'Data protected'}
@@ -211,7 +211,7 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
         <div className="pt-4 text-center">
           <button
             onClick={() => onOpenPrivacy?.()}
-            className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-500 hover:text-gold transition-colors cursor-pointer"
+            className="inline-flex items-center gap-1.5 text-[10px] font-mono text-stone-400 hover:text-gold transition-colors cursor-pointer"
           >
             <FileText className="w-3 h-3" />
             {lang === 'es' ? 'Política de Privacidad y Cookies' : 'Privacy & Cookies Policy'}
@@ -222,7 +222,7 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
         <div className="pt-4 text-center">
           <button
             onClick={() => handleNavToTab('admin')}
-            className="text-stone-700 hover:text-stone-500 text-[10px] font-mono transition-colors cursor-pointer"
+            className="text-stone-400 hover:text-stone-300 text-[10px] font-mono transition-colors cursor-pointer"
           >
             Admin
           </button>

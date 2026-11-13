@@ -6,7 +6,7 @@
 import React, { Suspense, lazy } from 'react';
 import { TranslationT } from '../types.translation';
 import { timelineEvents, testimonials } from '../translations';
-import { Film, Monitor, ShieldCheck } from 'lucide-react';
+import { Film, Monitor, ShieldCheck, BadgeCheck } from 'lucide-react';
 
 const Timeline = lazy(() => import('../components/Timeline'));
 const BehindScenesGallery = lazy(() => import('../components/BehindScenesGallery'));
@@ -118,6 +118,104 @@ export default function AboutPage({ lang, t }: AboutPageProps) {
             </div>
             <h3 className="text-base font-bold text-white tracking-tight font-display">{t.specTechTitle}</h3>
             <p className="text-stone-400 text-xs leading-relaxed font-light">{t.specTechDesc}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 2.5. LATEST CERTIFICATION — AIAM Certiprof */}
+      <section className="space-y-10">
+        <div className="text-center space-y-3 animate-fade-in-up">
+          <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
+            {lang === 'es' ? 'Certificación Reciente' : 'Latest Certification'}
+          </span>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight font-display">
+            {lang === 'es' ? 'AI Agent Manager (AIAM™)' : 'AI Agent Manager (AIAM™)'}
+          </h2>
+          <p className="max-w-2xl mx-auto text-xs text-stone-400 leading-relaxed font-light">
+            {lang === 'es'
+              ? 'Certificación profesional de Certiprof® en gestión de agentes de IA: diseño, supervisión y orquestación de asistentes autónomos con protocolos como MCP, aplicados a la producción audiovisual.'
+              : 'Certiprof® professional certification in AI agent management: designing, supervising and orchestrating autonomous assistants with protocols like MCP, applied to audiovisual production.'}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          {/* Certificate image (clickable, opens PDF) */}
+          <a
+            href="/certificados/aiam-certiprof-2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block group"
+            aria-label={lang === 'es' ? 'Abrir certificado AIAM en PDF' : 'Open AIAM certificate PDF'}
+          >
+            <div className="rounded-sm overflow-hidden border border-white/5 bg-[#020202] shadow-2xl group-hover:border-gold/40 transition-all duration-300">
+              <img
+                src="/images/certificados/aiam-certiprof-2026.webp"
+                alt="Certificado AI Agent Manager (AIAM™) de Certiprof emitido a Freddy Ticona Guzmán"
+                className="w-full h-auto group-hover:scale-102 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          </a>
+
+          {/* Details */}
+          <div className="space-y-5">
+            <div className="p-6 bg-white/[0.02] border border-white/5 rounded-sm space-y-5">
+              <div className="flex items-center gap-3 pb-4 border-b border-white/5">
+                <div className="w-10 h-10 bg-gold/10 rounded-sm flex items-center justify-center border border-gold/20 text-gold shrink-0">
+                  <BadgeCheck className="w-5 h-5" />
+                </div>
+                <span className="text-xs font-mono text-stone-300 font-bold uppercase tracking-widest">
+                  {lang === 'es' ? 'Certificación Profesional Vigente' : 'Active Professional Certification'}
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                <div className="space-y-1">
+                  <div className="font-mono text-[10px] text-stone-400 uppercase tracking-widest">{lang === 'es' ? 'Emisor' : 'Issuer'}</div>
+                  <div className="text-stone-200 font-bold">Certiprof®</div>
+                </div>
+                <div className="space-y-1">
+                  <div className="font-mono text-[10px] text-stone-400 uppercase tracking-widest">{lang === 'es' ? 'Fecha de emisión' : 'Issued'}</div>
+                  <div className="text-stone-200 font-bold">{lang === 'es' ? '13 de noviembre de 2026' : 'November 13, 2026'}</div>
+                </div>
+                <div className="space-y-1">
+                  <div className="font-mono text-[10px] text-stone-400 uppercase tracking-widest">{lang === 'es' ? 'ID de credencial' : 'Credential ID'}</div>
+                  <div className="text-stone-200 font-bold font-mono">CP934708090</div>
+                </div>
+                <div className="space-y-1">
+                  <div className="font-mono text-[10px] text-stone-400 uppercase tracking-widest">{lang === 'es' ? 'Vigente hasta' : 'Valid until'}</div>
+                  <div className="text-stone-200 font-bold">{lang === 'es' ? '13 de noviembre de 2029' : 'November 13, 2029'}</div>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-3 pt-4 border-t border-white/5">
+                <a
+                  href="/certificados/aiam-certiprof-2026.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 bg-gold hover:bg-gold-hover text-black font-mono font-bold uppercase text-[10px] tracking-wider rounded-sm transition-colors"
+                >
+                  {lang === 'es' ? 'Ver certificado (PDF)' : 'View certificate (PDF)'}
+                </a>
+                <a
+                  href="/cv"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.history.pushState(null, '', '/cv');
+                    window.dispatchEvent(new PopStateEvent('popstate'));
+                  }}
+                  className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 rounded-sm text-xs font-mono font-bold tracking-widest uppercase text-stone-300 hover:text-white transition-colors"
+                >
+                  {lang === 'es' ? 'Ver trayectoria completa' : 'View full trajectory'}
+                </a>
+              </div>
+            </div>
+
+            <p className="text-[10px] text-stone-400 font-mono leading-relaxed px-1">
+              {lang === 'es'
+                ? 'La credencial se verifica en el sitio de Certiprof con el código CP934708090.'
+                : 'The credential can be verified on the Certiprof website using code CP934708090.'}
+            </p>
           </div>
         </div>
       </section>
