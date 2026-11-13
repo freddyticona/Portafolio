@@ -9,12 +9,292 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Thu, 05 Nov 2026 14:24:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 05:19:23 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Rusia y Ucrania sostienen en Abu Dabi sus primeras conversaciones mediadas por EE.UU. en nueve meses]]></title>
+      <link>https://freddydev.net/noticias/rusia-ucrania-conversaciones-abu-dabi-primer-dia</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/rusia-ucrania-conversaciones-abu-dabi-primer-dia</guid>
+      <description><![CDATA[Las delegaciones conversaron cerca de cuatro horas este martes, con Kushner y Witkoff por Washington. Zelenski calificó la jornada de "constructiva" y Rubio de "muy productiva". La segunda ronda se inicia este miércoles con Europa en la sala.]]></description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Novaya Gazeta cierra tras más de 30 años: las luces se apagan en el último gran periódico independiente de Rusia]]></title>
+      <link>https://freddydev.net/noticias/novaya-gazeta-cierra-tras-mas-de-30-anos</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/novaya-gazeta-cierra-tras-mas-de-30-anos</guid>
+      <description><![CDATA[El diario cerró sus oficinas de Moscú el lunes tras que el propietario del edificio no renovara el arriendo y los bancos dejaran de procesar sus pagos. Etiquetado "agente extranjero", el medio del Nobel Dmitri Murátov terminó sus operaciones tras décadas de presión estatal.]]></description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La OMS lanza "Juntos por la Ciencia y la Salud", un movimiento global con más de 240 organizaciones contra la desinformación]]></title>
+      <link>https://freddydev.net/noticias/oms-lanza-movimiento-juntos-ciencia-y-salud</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/oms-lanza-movimiento-juntos-ciencia-y-salud</guid>
+      <description><![CDATA[La iniciativa, liderada por Tedros Adhanom Ghebreyesus y Emmanuel Macron, busca acercar la ciencia a la sociedad, fortalecer el uso de evidencia en políticas de salud y mejorar su comunicación, en un contexto de rápido cambio tecnológico e irrupción de la IA.]]></description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Seguridad con MCP: inyección de prompts, permisos mínimos y el arte de no dar tu NAS al asistente]]></title>
+      <link>https://freddydev.net/blog/seguridad-mcp-prompt-injection-permisos-minimos</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/seguridad-mcp-prompt-injection-permisos-minimos</guid>
+      <description><![CDATA[Conectar un asistente a tus discos y a tus herramientas multiplica lo que puede salir mal si algo falla. Las reglas de seguridad que importan en edición de video: inyección de prompts por el material, permisos mínimos por servidor y registro de cada acción.]]></description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Construye tu primer servidor MCP de video en una tarde: SDK, Inspector y una tool que lee metadatos]]></title>
+      <link>https://freddydev.net/blog/construir-primer-servidor-mcp-video-tarde</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/construir-primer-servidor-mcp-video-tarde</guid>
+      <description><![CDATA[Con los SDK oficiales de TypeScript o Python, un servidor MCP mínimo es cuestión de horas: una tool de lectura de metadatos con FFprobe, ejecución local por stdio y pruebas con el Inspector. La receta completa, con las decisiones de diseño explicadas.]]></description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El pipeline completo: del metraje al master con MCP, sin perder el control]]></title>
+      <link>https://freddydev.net/blog/pipeline-completo-mcp-metraje-master-auditable</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/pipeline-completo-mcp-metraje-master-auditable</guid>
+      <description><![CDATA[Cierre de la serie: un pipeline de edición completo orquestado con MCP —ingesta, proxies, corte preliminar, subtítulos, revisión y entrega—, con los puntos donde el humano decide, qué queda registrado y cómo medir si de verdad ahorra tiempo.]]></description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La Policía arresta a más de 30 maestros y estudiantes de un instituto técnico en La Paz durante las protestas del magisterio]]></title>
+      <link>https://freddydev.net/noticias/intervencion-policial-arrestos-instituto-pedro-domingo-murillo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/intervencion-policial-arrestos-instituto-pedro-domingo-murillo</guid>
+      <description><![CDATA[La intervención al Instituto Técnico Pedro Domingo Murillo dejó al menos 15 arrestados, según la Policía, y una vigilia de padres frente a la FELCC. Los docentes rechazan la transferencia de los institutos técnicos a gobernaciones y municipios.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Potosí lidera las exportaciones de Bolivia con $us 4.011 millones y un crecimiento del 65,5%]]></title>
+      <link>https://freddydev.net/noticias/potosi-lidera-exportaciones-bolivia-4011-millones-2026</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/potosi-lidera-exportaciones-bolivia-4011-millones-2026</guid>
+      <description><![CDATA[El departamento concentró el 38,8% de las ventas externas entre enero y septiembre de 2026, según el INE, impulsado por la minería. China, Japón y Bélgica-Luxemburgo fueron los principales destinos. La Paz creció 143,5% y Santa Cruz se ubicó tercera.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Caso Mariaca: la Fiscalía secuestra $us 375.000 y una caja fuerte en un inmueble del mayor Aparicio]]></title>
+      <link>https://freddydev.net/noticias/caso-mariaca-secuestran-375000-dolares-inmueble-mayor-aparicio</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/caso-mariaca-secuestran-375000-dolares-inmueble-mayor-aparicio</guid>
+      <description><![CDATA[Tras dos allanamientos, la Policía secuestró el dinero en un inmueble del mayor de Policía Rubén Aparicio, detenido preventivamente junto al exfiscal Alberto Zeballos y el exfiscal superior Martín Irusta. La DEA apoya la investigación, según el Ministerio Público.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Waskiri-Sat: Bolivia presenta su primer nanosatélite universitario, con lanzamiento previsto para 2028]]></title>
+      <link>https://freddydev.net/noticias/waskiri-sat-primer-nanosatelite-boliviano-ucb-abe</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/waskiri-sat-primer-nanosatelite-boliviano-ucb-abe</guid>
+      <description><![CDATA[Estudiantes y docentes de la Universidad Católica Boliviana desarrollan el Waskiri-Sat junto a la Agencia Boliviana Espacial. Obtendrá imágenes de la Tierra para investigación ambiental y prevención de desastres, y las Naciones Unidas financiarán su lanzamiento.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[USD Mint: diputados conocen una propuesta de "dólar digital" con ingreso básico universal que aún no tiene proyecto de ley]]></title>
+      <link>https://freddydev.net/noticias/usd-mint-propuesta-moneda-digital-ingreso-basico-bolivia</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/usd-mint-propuesta-moneda-digital-ingreso-basico-bolivia</guid>
+      <description><![CDATA[La diputada Sonia Siñani (PDC) socializó la iniciativa USD Mint, que plantea distribuir dólares digitales bajo un modelo de ingreso básico universal. La propuesta se presentó como insumo para un eventual proyecto de ley y abre un debate técnico y regulatorio.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Nvidia abre una investigación independiente sobre su CEO Jensen Huang tras el escándalo de espionaje, y sus acciones caen]]></title>
+      <link>https://freddydev.net/noticias/nvidia-investigacion-independiente-junta-jensen-huang</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/nvidia-investigacion-independiente-junta-jensen-huang</guid>
+      <description><![CDATA[La junta directiva investiga si el CEO fue objetivo de un esfuerzo de inteligencia extranjera por su relación con Alice Huang, una empresaria señalada como espía china. Trump confirmó que el FBI también indaga el caso. Las acciones cayeron más del 4% el lunes.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La Cámara de EE.UU. bloquea el juicio político contra Hegseth por la guerra de Irán: 211 votos contra 204]]></title>
+      <link>https://freddydev.net/noticias/camara-bloquea-juicio-politico-hegseth-211-204</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/camara-bloquea-juicio-politico-hegseth-211-204</guid>
+      <description><![CDATA[Los republicanos frenaron el impulso del representante Thomas Massie de someter a juicio político al secretario de Defensa por hostilidades militares no autorizadas en Irán, Venezuela y Yemen. Con los demócratas controlando la Cámara desde enero, el frente podría reabrirse.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Qué es MCP y por qué debería importarte si editas video: la guía sin humo]]></title>
+      <link>https://freddydev.net/blog/que-es-mcp-editores-de-video-guia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/que-es-mcp-editores-de-video-guia</guid>
+      <description><![CDATA[El Model Context Protocol estandariza cómo un asistente de IA se conecta a herramientas y datos. Para un editor de video eso significa poder pedir, con controles, tareas concretas: proxies, cortes, subtítulos, entregas. Explicamos qué es, qué no es y por dónde empezar.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Arquitectura MCP para video: host, clientes, servidores y las tres primitivas que debes dominar]]></title>
+      <link>https://freddydev.net/blog/arquitectura-servidor-mcp-video-host-cliente-primitivas</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/arquitectura-servidor-mcp-video-host-cliente-primitivas</guid>
+      <description><![CDATA[Antes de instalar nada conviene entender el mapa: qué es el host, por qué existe un cliente por servidor, qué diferencia hay entre tools, resources y prompts y cuándo usar stdio o HTTP. Un recorrido por la arquitectura con ejemplos de un estudio de edición.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[MCP y FFmpeg: proxies, normalización de audio y entregas sin vivir en la terminal]]></title>
+      <link>https://freddydev.net/blog/mcp-ffmpeg-proxies-normalizacion-entregas-automaticas</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/mcp-ffmpeg-proxies-normalizacion-entregas-automaticas</guid>
+      <description><![CDATA[FFmpeg es la navaja suiza del audiovisual y el candidato perfecto para un primer servidor MCP. Cómo envolverlo en herramientas seguras: generación de proxies, normalización con parámetros fijos, lectura de metadatos y modos de prueba que evitan desastres.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[DaVinci Resolve y MCP: controlar proyectos y líneas de tiempo con la API de scripting]]></title>
+      <link>https://freddydev.net/blog/davinci-resolve-mcp-api-scripting-timeline</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/davinci-resolve-mcp-api-scripting-timeline</guid>
+      <description><![CDATA[DaVinci Resolve incluye una API de scripting en Python y Lua que permite abrir proyectos, importar medios, crear líneas de tiempo y lanzar renders. Envuelta en un servidor MCP, se convierte en la puerta para que un asistente prepare material con supervisión humana.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Subtítulos automatizados con MCP: del reconocimiento de voz al SRT revisado en tres pasos]]></title>
+      <link>https://freddydev.net/blog/subtitulos-automatizados-mcp-whisper-srt-revision</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/subtitulos-automatizados-mcp-whisper-srt-revision</guid>
+      <description><![CDATA[Los subtítulos son el caso de uso más maduro de la IA en postproducción: transcripción automática, corrección asistida y exportación a SRT. Cómo montarlo con MCP manteniendo la revisión humana como etapa obligatoria y no como formalidad.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Metraje bajo control: MCP para catálogos, verificación de copias y NAS del estudio]]></title>
+      <link>https://freddydev.net/blog/mcp-metraje-nas-backups-catalogos-hash</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/mcp-metraje-nas-backups-catalogos-hash</guid>
+      <description><![CDATA[El metraje es el activo más caro de un estudio y el peor documentado. Un servidor MCP de solo lectura que expone catálogos, hashes y estados de copia convierte al asistente en un guardián del archivo: responde qué hay, dónde está y si la copia es fiel.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Plantillas de prompts: la primitiva de MCP que convierte tu manual de estilo en botones]]></title>
+      <link>https://freddydev.net/blog/plantillas-prompts-mcp-estandarizar-tareas-edicion</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/plantillas-prompts-mcp-estandarizar-tareas-edicion</guid>
+      <description><![CDATA[La primitiva prompts de MCP permite empaquetar instrucciones recurrentes como plantillas con parámetros: propuestas de corte, descripciones de YouTube, informes de entrega. Cómo escribirlas para que el estudio suene igual todos los días, sin importar quién opera.]]></description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Los nueve gobernadores rechazan el 1% de coparticipación y exigen un porcentaje mayor]]></title>
+      <link>https://freddydev.net/noticias/gobernadores-rechazan-1-por-ciento-coparticipacion</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/gobernadores-rechazan-1-por-ciento-coparticipacion</guid>
+      <description><![CDATA[Las autoridades departamentales dejaron de lado sus diferencias y acordaron una propuesta conjunta para reabrir la negociación con el Gobierno. El Ejecutivo había oficializado la asignación del 1% de las recaudaciones tributarias, estimada en más de Bs 500 millones.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El magisterio urbano marcha este viernes y prepara un paro de 48 horas para el 9 y 10 de noviembre]]></title>
+      <link>https://freddydev.net/noticias/magisterio-urbano-marcha-nacional-6-noviembre-paro-48-horas</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/magisterio-urbano-marcha-nacional-6-noviembre-paro-48-horas</guid>
+      <description><![CDATA[La Federación de Maestros Urbanos mantiene su calendario de protestas tras no alcanzar un acuerdo con el Gobierno. El sector rechaza que se transfieran responsabilidades educativas a gobernaciones y alcaldías sin garantizar los recursos para los ítems docentes.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El papa León XIV inicia un viaje de 12 días por Uruguay, Argentina y Perú un mes después de su operación]]></title>
+      <link>https://freddydev.net/noticias/papa-leon-xiv-viaje-uruguay-argentina-peru</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/papa-leon-xiv-viaje-uruguay-argentina-peru</guid>
+      <description><![CDATA[El pontífice, de 71 años, tomará 14 vuelos y pronunciará unos 40 discursos menos de un mes después de que le extirparan parte de un pulmón por un cáncer. El Vaticano aseguró que no se tomaron medidas médicas adicionales y que afronta el viaje con “buena salud”.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La Policía de Oruro activa patrullaje aéreo con drones antes del primer convite del Carnaval]]></title>
+      <link>https://freddydev.net/noticias/policia-oruro-patrullaje-aereo-drones-carnaval</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/policia-oruro-patrullaje-aereo-drones-carnaval</guid>
+      <description><![CDATA[El comandante departamental, coronel Miguel Ángel Zambrana, presentó el plan de seguridad ciudadana y activó operativos del Grupo de Reacción Inmediata. La estrategia combina tecnología aérea no tripulada con unidades tácticas especializadas.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La Cinemateca Boliviana cumple 50 años: qué significa preservar un archivo audiovisual en la era digital]]></title>
+      <link>https://freddydev.net/blog/cinemateca-boliviana-50-anos-preservacion-digital</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/cinemateca-boliviana-50-anos-preservacion-digital</guid>
+      <description><![CDATA[Fundada en 1976, la Cinemateca Boliviana llega a sus 50 años conservando la Bolivia que quedó filmada. La digitalización no basta: un archivo vive si tiene metadatos, verificaciones, copias y un plan de migración. Esto es lo que enseña medio siglo de memoria audiovisual.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Del guion al timeline: cómo planificar un documental de 20 minutos sin ahogarte en material]]></title>
+      <link>https://freddydev.net/blog/documental-20-minutos-del-guion-al-timeline</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/documental-20-minutos-del-guion-al-timeline</guid>
+      <description><![CDATA[Un documental de 20 minutos no es un documental largo recortado. Exige una pregunta central, un tratamiento breve, secuencias con función narrativa y un paper edit antes de tocar el timeline. Este es un método de trabajo para llegar al corte con criterio.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[IA en postproducción: las cuatro tareas donde ya ahorra horas y los tres límites que siguen firmes]]></title>
+      <link>https://freddydev.net/blog/ia-en-postproduccion-limites-reales-2026</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/ia-en-postproduccion-limites-reales-2026</guid>
+      <description><![CDATA[La IA dejó de ser una promesa en postproducción: roscopia, escalado, reparación de audio y traducción ya ahorran tiempo real. Pero la consistencia temporal, los derechos y la verificación siguen siendo tareas humanas. Un mapa honesto de lo que funciona y lo que no.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Respaldo 3-2-1 en rodajes: el protocolo que evita perder el documental en una tarjeta]]></title>
+      <link>https://freddydev.net/blog/backup-3-2-1-rodajes</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/backup-3-2-1-rodajes</guid>
+      <description><![CDATA[Tres copias, dos soportes y una fuera del set. La regla 3-2-1 sigue siendo la base de cualquier respaldo serio, pero en rodaje hay que sumarle verificación de hashes, control de tarjetas y una prueba de restauración. Esta es la rutina completa.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Teleprompter casero: cómo leer a cámara sin sonar robot]]></title>
+      <link>https://freddydev.net/blog/teleprompter-casero-leer-a-camara</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/teleprompter-casero-leer-a-camara</guid>
+      <description><![CDATA[Un soporte, una tablet y un cristal bastan para montar un teleprompter funcional. Lo difícil no es el hardware: es escribir un guion que se pueda leer en voz alta y encontrar un ritmo que parezca conversación. Esta es la guía completa.]]></description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[Facturación electrónica en Bolivia 2026: qué cambió el 30 de septiembre y cómo cumple tu NIT]]></title>
       <link>https://freddydev.net/guias/facturacion-electronica-bolivia-2026-siat-que-cambio</link>
       <guid isPermaLink="true">https://freddydev.net/guias/facturacion-electronica-bolivia-2026-siat-que-cambio</guid>
       <description><![CDATA[El SIN dejó sin efecto el plazo del 1 de octubre para los grupos 9 al 12 y ahora asignará la facturación en línea de forma periódica. Las tres modalidades siguen vigentes: electrónica, computarizada y portal web. Para un negocio pequeño, el Portal Web en Línea es gratuito y cumple la norma.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[La inflación acumulada en Bolivia llega al 6,03% y octubre cierra con un alza mensual de 2,07%]]></title>
+      <link>https://freddydev.net/noticias/inflacion-bolivia-603-por-ciento-octubre-2026</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/inflacion-bolivia-603-por-ciento-octubre-2026</guid>
+      <description><![CDATA[El INE reportó que los precios acumulan un alza de 6,03% entre enero y octubre. Solo en octubre el IPC subió 2,07%, impulsado por el transporte público (+14,55%) y alimentos como la cebolla (+21,61%) y la papa (+16,12%). La inflación a doce meses llegó a 7,08%.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Manaco ratifica el cierre irrevocable de su planta y se compromete a pagar los beneficios de 550 trabajadores]]></title>
+      <link>https://freddydev.net/noticias/manaco-cierre-irrevocable-550-trabajadores</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/manaco-cierre-irrevocable-550-trabajadores</guid>
+      <description><![CDATA[La empresa cochabambina informó que cuenta con los recursos para cumplir con sus 550 trabajadores, entre operarios, administrativos y ejecutivos. El directorio atribuyó la decisión a pérdidas acumuladas de Bs 150 millones y abrió la puerta a dialogar con el sindicato sobre las condiciones de salida.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Rodrigo Paz en la Cumbre Iberoamericana: “No necesitamos pensar igual, sino actuar juntos”]]></title>
+      <link>https://freddydev.net/noticias/rodrigo-paz-cumbre-iberoamericana-actuar-juntos</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/rodrigo-paz-cumbre-iberoamericana-actuar-juntos</guid>
+      <description><![CDATA[En la sesión plenaria de la XXX Cumbre Iberoamericana, celebrada en Madrid, el presidente boliviano llamó a superar las distancias entre Europa y América Latina. Puso la tecnología en el centro del nuevo encuentro y advirtió que la comunidad no puede quedarse en una palabra.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Santiago Peña renuncia a la presidencia de Paraguay en medio del escándalo de Ueno Bank]]></title>
+      <link>https://freddydev.net/noticias/santiago-pena-renuncia-paraguay-juicio-politico-ueno-bank</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/santiago-pena-renuncia-paraguay-juicio-politico-ueno-bank</guid>
+      <description><![CDATA[El mandatario presentó su renuncia este jueves, horas antes de que la Cámara de Diputados aprobara someterlo a juicio político. La crisis estalló tras la intervención del Ueno Bank, con 2,9 millones de clientes, cuyos ahorros quedaron congelados.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Caso maletas: Laura Rojas señala a Romer Saucedo como dueño del equipaje que ingresó de forma irregular]]></title>
+      <link>https://freddydev.net/noticias/caso-maletas-laura-rojas-senala-romer-saucedo</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/caso-maletas-laura-rojas-senala-romer-saucedo</guid>
+      <description><![CDATA[La exdiputada declaró ante la Fiscalía y aseguró que las maletas no eran suyas. El caso investiga el ingreso irregular de unas 32 maletas procedentes de Estados Unidos a través de un vuelo chárter que llegó a Viru Viru en noviembre de 2025.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[El Nasdaq cae 5,5% y entra en corrección: el comercio de la IA sufre su peor día desde abril de 2025]]></title>
+      <link>https://freddydev.net/noticias/nasdaq-cae-55-por-ciento-correccion-acciones-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/noticias/nasdaq-cae-55-por-ciento-correccion-acciones-ia</guid>
+      <description><![CDATA[El índice tecnológico cerró más de 11% por debajo de su récord de octubre. El S&P 500 perdió 4,4% y el Dow Jones cayó 1.833 puntos (3,4%). Los inversionistas temen que el impulso de los centros de datos se enfríe tras las elecciones legislativas.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Cómo verificar un video hecho con IA antes de publicarlo: Content Credentials, C2PA y cadena de custodia]]></title>
+      <link>https://freddydev.net/blog/verificar-video-ia-content-credentials-c2pa</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/verificar-video-ia-content-credentials-c2pa</guid>
+      <description><![CDATA[Las credenciales de contenido firmadas ayudan a saber quién produjo un archivo y qué ediciones recibió, pero no prueban que lo que muestra sea verdad. Esta guía explica qué aporta el estándar C2PA, dónde falla y cómo montar un protocolo de verificación en una redacción pequeña.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Iluminar una entrevista con una sola luz: posición, tamaño y fondo]]></title>
+      <link>https://freddydev.net/blog/iluminar-entrevista-con-una-sola-luz</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/iluminar-entrevista-con-una-sola-luz</guid>
+      <description><![CDATA[Una fuente bien colocada puede resolver más que un kit completo mal usado. Esta guía práctica explica cómo ubicar la luz principal, qué tamaño de modificador elegir, cómo separar al sujeto del fondo y qué errores arruinan una entrevista aunque la cámara sea buena.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Audio profesional con el celular: micrófonos, niveles y ruido]]></title>
+      <link>https://freddydev.net/blog/audio-profesional-con-celular-microfonos-niveles</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/audio-profesional-con-celular-microfonos-niveles</guid>
+      <description><![CDATA[El celular puede grabar audio de entrevista si se elige bien el micrófono y se controla la ganancia. Esta guía cubre lavalier y corbatero, distancia, ajustes de grabación, tratamiento acústico básico y sincronización con la cámara.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[YouTube Shorts en 2026: medidas, zonas seguras y un flujo vertical que no arruine el encuadre]]></title>
+      <link>https://freddydev.net/blog/youtube-shorts-medidas-zonas-seguras-2026</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/youtube-shorts-medidas-zonas-seguras-2026</guid>
+      <description><![CDATA[El lienzo vertical estándar es 1080 × 1920 y la interfaz se come buena parte del cuadro. Esta guía ordena las medidas, las márgenes seguras que usan las herramientas de terceros y un método para rodar una vez y exportar en horizontal y vertical.]]></description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Editar 4K sin morir en el intento: cuánta RAM, qué GPU y por qué el disco importa más de lo que crees]]></title>
+      <link>https://freddydev.net/blog/editar-4k-ram-gpu-discos-proxies</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/editar-4k-ram-gpu-discos-proxies</guid>
+      <description><![CDATA[La guía de Adobe recomienda 32 GB de RAM para flujos 4K y advierte que 16 GB se queda corto. Pero la memoria no lo es todo: la GPU acelera efectos, el disco sostiene la reproducción y los proxies salvan proyectos que ninguna máquina mueve en crudo.]]></description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>

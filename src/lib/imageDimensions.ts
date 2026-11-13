@@ -1,9 +1,169 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-11-10/rusia-ucrania-abu-dabi-conversaciones.jpg": {
+    "width": 1800,
+    "height": 1350
+  },
+  "/images/news/2026-11-10/novaya-gazeta-cierra.jpg": {
+    "width": 1280,
+    "height": 1280
+  },
+  "/images/news/2026-11-10/oms-together-for-science-and-health.jpg": {
+    "width": 1200,
+    "height": 380
+  },
+  "/images/blog/2026-11/mcp-seguridad-candado.jpg": {
+    "width": 1800,
+    "height": 1800
+  },
+  "/images/blog/2026-11/mcp-servidor-placa.jpg": {
+    "width": 1800,
+    "height": 1200
+  },
+  "/images/blog/2026-11/mcp-pipeline-edicion.jpg": {
+    "width": 1500,
+    "height": 1500
+  },
+  "/images/news/2026-11-10/intervencion-policial-pedro-domingo-murillo.jpg": {
+    "width": 896,
+    "height": 598
+  },
+  "/images/news/2026-11-10/potosi-lidera-exportaciones-4011-millones.jpg": {
+    "width": 1200,
+    "height": 620
+  },
+  "/images/news/2026-11-10/caso-mariaca-caja-fuerte-375000-aparicio.jpg": {
+    "width": 745,
+    "height": 380
+  },
+  "/images/news/2026-11-10/waskiri-sat-nanosatelite-ucb-abe.jpg": {
+    "width": 768,
+    "height": 480
+  },
+  "/images/news/2026-11-10/usd-mint-moneda-digital-propuesta-ley.jpg": {
+    "width": 1200,
+    "height": 800
+  },
+  "/images/news/2026-11-10/nvidia-investigacion-junta-huang.jpg": {
+    "width": 1024,
+    "height": 576
+  },
+  "/images/news/2026-11-10/hegseth-camara-bloquea-juicio-politico.jpg": {
+    "width": 800,
+    "height": 450
+  },
+  "/images/blog/tutoriales-ia-2026/higgsfield-seedance-kling-veo-generacion-video.jpg": {
+    "width": 1800,
+    "height": 1016
+  },
+  "/images/blog/2026-11/mcp-arquitectura-diagrama.jpg": {
+    "width": 1500,
+    "height": 1700
+  },
+  "/images/blog/2026-11/mcp-video-edicion-timeline.jpg": {
+    "width": 1800,
+    "height": 1350
+  },
+  "/images/blog/tutoriales-ia-2026/filmcraft-editor-video-clon-premiere-gratis.jpg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/images/blog/2026-11/mcp-subtitulos-srt.jpg": {
+    "width": 900,
+    "height": 900
+  },
+  "/images/blog/2026-11/mcp-nas-archivos.jpg": {
+    "width": 1800,
+    "height": 1931
+  },
+  "/images/blog/tutoriales-ia-2026/artcraft-estudio-ia-guia-completa.jpg": {
+    "width": 1800,
+    "height": 886
+  },
+  "/images/news/2026-11-06/gobernadores-rechazan-1-por-ciento-coparticipacion.jpg": {
+    "width": 400,
+    "height": 225
+  },
+  "/images/news/2026-11-06/magisterio-urbano-marcha-nacional-6-noviembre.jpg": {
+    "width": 1200,
+    "height": 785
+  },
+  "/images/news/2026-11-06/papa-leon-xiv-viaje-latinoamerica.jpg": {
+    "width": 500,
+    "height": 350
+  },
+  "/images/news/2026-11-06/policia-oruro-patrullaje-aereo.jpg": {
+    "width": 512,
+    "height": 384
+  },
+  "/images/blog/2026-11/cinemateca-boliviana.jpg": {
+    "width": 1800,
+    "height": 1012
+  },
+  "/images/behind-scenes/DSC_0739.webp": {
+    "width": 1620,
+    "height": 1080
+  },
+  "/images/blog/tutoriales-ia-2026/higgsfield-cinema-studio-dop-camara-lente-movimiento.jpg": {
+    "width": 1800,
+    "height": 1012
+  },
+  "/images/blog/2026-11/backup-discos-rodaje.jpg": {
+    "width": 1800,
+    "height": 895
+  },
+  "/images/behind-scenes/DSC_2994.webp": {
+    "width": 6000,
+    "height": 4000
+  },
   "/images/guia/facturacion-electronica-siat-2026.jpg": {
     "width": 900,
     "height": 599
+  },
+  "/images/news/2026-11-05/inflacion-bolivia-603-octubre-2026.jpg": {
+    "width": 1600,
+    "height": 1149
+  },
+  "/images/news/2026-11-05/manaco-cierre-irrevocable-550-trabajadores.jpg": {
+    "width": 1200,
+    "height": 800
+  },
+  "/images/news/2026-11-05/rodrigo-paz-cumbre-iberoamericana.jpg": {
+    "width": 1200,
+    "height": 650
+  },
+  "/images/news/2026-11-05/santiago-pena-renuncia-paraguay.jpg": {
+    "width": 1200,
+    "height": 650
+  },
+  "/images/news/2026-11-05/caso-maletas-laura-rojas.jpg": {
+    "width": 1200,
+    "height": 650
+  },
+  "/images/news/2026-11-05/nasdaq-correccion-acciones-ia.jpg": {
+    "width": 1800,
+    "height": 1200
+  },
+  "/images/blog/marca-agua-claude/portada-watermark.jpg": {
+    "width": 1200,
+    "height": 765
+  },
+  "/images/blog/2026-11/iluminacion-entrevista-una-luz.jpg": {
+    "width": 1800,
+    "height": 2268
+  },
+  "/images/blog/2026-11/audio-celular-microfonos.jpg": {
+    "width": 1800,
+    "height": 1440
+  },
+  "/images/blog/2026-11/youtube-shorts-vertical.jpg": {
+    "width": 1400,
+    "height": 1800
+  },
+  "/images/blog/nvidia/04-vera-rubin-nvl72.png": {
+    "width": 1280,
+    "height": 720
   },
   "/images/news/2026-11-04/eeuu-democratas-camara-senado-midterms-2026.jpg": {
     "width": 1800,
@@ -33,19 +193,11 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1800,
     "height": 1200
   },
-  "/images/blog/tutoriales-ia-2026/artcraft-estudio-ia-guia-completa.jpg": {
-    "width": 1800,
-    "height": 886
-  },
   "/images/blog/tutoriales-ia-2026/instalar-artcraft-launcher-apps-clon-adobe-windows.jpg": {
     "width": 1800,
     "height": 1012
   },
   "/images/blog/tutoriales-ia-2026/photocraft-vs-photoshop-editar-imagenes-ia.jpg": {
-    "width": 1600,
-    "height": 1000
-  },
-  "/images/blog/tutoriales-ia-2026/filmcraft-editor-video-clon-premiere-gratis.jpg": {
     "width": 1600,
     "height": 1000
   },
@@ -64,14 +216,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/blog/tutoriales-ia-2026/higgsfield-soul-cinema-soul-id-personajes-consistentes.jpg": {
     "width": 1800,
     "height": 1012
-  },
-  "/images/blog/tutoriales-ia-2026/higgsfield-cinema-studio-dop-camara-lente-movimiento.jpg": {
-    "width": 1800,
-    "height": 1012
-  },
-  "/images/blog/tutoriales-ia-2026/higgsfield-seedance-kling-veo-generacion-video.jpg": {
-    "width": 1800,
-    "height": 1016
   },
   "/images/news/2026-11-03/trump-eeuu-fin-aid-israel-4000-millones-2027.jpg": {
     "width": 1800,
@@ -1121,10 +1265,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1280,
     "height": 960
   },
-  "/images/blog/marca-agua-claude/portada-watermark.jpg": {
-    "width": 1200,
-    "height": 765
-  },
   "/images/news/2026-08-20-iran-uae.jpg": {
     "width": 960,
     "height": 540
@@ -1756,10 +1896,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/blog/sistema-gestion-prensa/app-full.webp": {
     "width": 1440,
     "height": 900
-  },
-  "/images/blog/nvidia/04-vera-rubin-nvl72.png": {
-    "width": 1280,
-    "height": 720
   },
   "/images/blog/nvidia/08-spectrum-6-cover.jpg": {
     "width": 1920,
