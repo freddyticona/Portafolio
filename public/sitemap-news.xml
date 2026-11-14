@@ -2,123 +2,243 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://freddydev.net/noticias/rusia-ucrania-conversaciones-abu-dabi-primer-dia</loc>
+    <loc>https://freddydev.net/noticias/huelga-hambre-maestros-12-dias-la-paz</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T08:00:00-04:00</news:publication_date>
-      <news:title>Rusia y Ucrania sostienen en Abu Dabi sus primeras conversaciones mediadas por EE.UU. en nueve meses</news:title>
-      <news:keywords>Política Internacional</news:keywords>
+      <news:publication_date>2026-11-14T14:41:00-04:00</news:publication_date>
+      <news:title>Maestros de La Paz cumplen 12 días de huelga de hambre en tres piquetes contra el traspaso de institutos</news:title>
+      <news:keywords>Nacional</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/novaya-gazeta-cierra-tras-mas-de-30-anos</loc>
+    <loc>https://freddydev.net/noticias/rodrigo-paz-erdogan-estambul-reformas-inversion</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T07:00:00-04:00</news:publication_date>
-      <news:title>Novaya Gazeta cierra tras más de 30 años: las luces se apagan en el último gran periódico independiente de Rusia</news:title>
-      <news:keywords>Mundo</news:keywords>
+      <news:publication_date>2026-11-14T16:05:00-04:00</news:publication_date>
+      <news:title>Rodrigo Paz se reúne con Erdogan en Estambul y anuncia reformas de inversión, minería e hidrocarburos para este año</news:title>
+      <news:keywords>Política</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/oms-lanza-movimiento-juntos-ciencia-y-salud</loc>
+    <loc>https://freddydev.net/noticias/cop31-rodrigo-paz-fondos-verdes-tfff</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T09:00:00-04:00</news:publication_date>
-      <news:title>La OMS lanza &quot;Juntos por la Ciencia y la Salud&quot;, un movimiento global con más de 240 organizaciones contra la desinformación</news:title>
-      <news:keywords>Salud</news:keywords>
+      <news:publication_date>2026-11-14T18:31:00-04:00</news:publication_date>
+      <news:title>COP31: Rodrigo Paz pide fondos verdes y tecnología, y anuncia el interés boliviano en el fondo de bosques TFFF</news:title>
+      <news:keywords>Medio Ambiente</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/seguridad-mcp-prompt-injection-permisos-minimos</loc>
+    <loc>https://freddydev.net/noticias/sismo-magnitud-50-tarija-aniceto-arce</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T06:00:00-04:00</news:publication_date>
-      <news:title>Seguridad con MCP: inyección de prompts, permisos mínimos y el arte de no dar tu NAS al asistente</news:title>
+      <news:publication_date>2026-11-14T15:55:00-04:00</news:publication_date>
+      <news:title>Sismo de magnitud 5,0 y 583 kilómetros de profundidad sacude la provincia Aniceto Arce de Tarija</news:title>
+      <news:keywords>Ciencia</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/incendios-chiquitania-549-focos-calor-taperas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-14T17:45:00-04:00</news:publication_date>
+      <news:title>Santa Cruz registra 549 focos de calor y combate un incendio de 8.000 hectáreas en la Chiquitanía</news:title>
+      <news:keywords>Medio Ambiente</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/openai-chatgpt-wallet-agentes-compras</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-14T12:00:00-04:00</news:publication_date>
+      <news:title>OpenAI estrena ChatGPT Wallet: los agentes de IA ya completan compras con autorización biométrica del usuario</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/j-cut-l-cut-sonido-cruza-corte</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-14T07:30:00-04:00</news:publication_date>
+      <news:title>J-cut y L-cut: la técnica de sonido que hace que tus cortes fluyan sin que nadie sepa por qué</news:title>
       <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/construir-primer-servidor-mcp-video-tarde</loc>
+    <loc>https://freddydev.net/blog/keyframes-easing-animacion-curvas-video</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T08:00:00-04:00</news:publication_date>
-      <news:title>Construye tu primer servidor MCP de video en una tarde: SDK, Inspector y una tool que lee metadatos</news:title>
+      <news:publication_date>2026-11-14T09:00:00-04:00</news:publication_date>
+      <news:title>Keyframes y easing: por qué tus animaciones se ven robóticas y cómo arreglarlo con las curvas</news:title>
       <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/blog/pipeline-completo-mcp-metraje-master-auditable</loc>
+    <loc>https://freddydev.net/blog/speed-ramping-slow-motion-interpolacion-frames</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T10:00:00-04:00</news:publication_date>
-      <news:title>El pipeline completo: del metraje al master con MCP, sin perder el control</news:title>
+      <news:publication_date>2026-11-14T11:30:00-04:00</news:publication_date>
+      <news:title>Speed ramping y cámara lenta: cómo cambiar la velocidad de un plano sin que se vea barato</news:title>
       <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/intervencion-policial-arrestos-instituto-pedro-domingo-murillo</loc>
+    <loc>https://freddydev.net/blog/organizacion-proyecto-video-proxies-backup-321</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-10T21:00:00-04:00</news:publication_date>
-      <news:title>La Policía arresta a más de 30 maestros y estudiantes de un instituto técnico en La Paz durante las protestas del magisterio</news:title>
-      <news:keywords>Seguridad</news:keywords>
+      <news:publication_date>2026-11-14T13:00:00-04:00</news:publication_date>
+      <news:title>Organiza el proyecto antes de cortar: estructura de carpetas, proxies y la regla 3-2-1 que salva entregas</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/potosi-lidera-exportaciones-bolivia-4011-millones-2026</loc>
+    <loc>https://freddydev.net/blog/titulos-motion-graphics-tipografia-en-movimiento</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-10T19:00:00-04:00</news:publication_date>
-      <news:title>Potosí lidera las exportaciones de Bolivia con $us 4.011 millones y un crecimiento del 65,5%</news:title>
+      <news:publication_date>2026-11-14T15:30:00-04:00</news:publication_date>
+      <news:title>Títulos y motion graphics: tipografía en movimiento que informa, no que decora</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/exportacion-codecs-bitrate-entrega-plataformas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-14T17:00:00-04:00</news:publication_date>
+      <news:title>Exportar bien: codecs, bitrate y recetas de entrega para que lo que editaste sea lo que se ve</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/bcb-levanta-restricciones-dolares-transferencias-exterior</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T18:55:00-04:00</news:publication_date>
+      <news:title>El Banco Central levanta las restricciones a las operaciones en dólares entre bancos y las transferencias al exterior</news:title>
       <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/caso-mariaca-secuestran-375000-dolares-inmueble-mayor-aparicio</loc>
+    <loc>https://freddydev.net/noticias/certificacion-reservas-gas-23-tcf</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-10T20:00:00-04:00</news:publication_date>
-      <news:title>Caso Mariaca: la Fiscalía secuestra $us 375.000 y una caja fuerte en un inmueble del mayor Aparicio</news:title>
-      <news:keywords>Seguridad</news:keywords>
+      <news:publication_date>2026-11-13T10:30:00-04:00</news:publication_date>
+      <news:title>Bolivia certifica reservas de gas de 2,3 TCF y 57 millones de barriles de crudo: la antesala de una crisis energética</news:title>
+      <news:keywords>Economía</news:keywords>
     </news:news>
   </url>
   <url>
-    <loc>https://freddydev.net/noticias/waskiri-sat-primer-nanosatelite-boliviano-ucb-abe</loc>
+    <loc>https://freddydev.net/noticias/magisterio-urbano-rompe-mesa-dialogo-descentralizacion</loc>
     <news:news>
       <news:publication>
         <news:name>FreddyDev Noticias</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-11-10T18:00:00-04:00</news:publication_date>
-      <news:title>Waskiri-Sat: Bolivia presenta su primer nanosatélite universitario, con lanzamiento previsto para 2028</news:title>
-      <news:keywords>Ciencia</news:keywords>
+      <news:publication_date>2026-11-13T19:41:00-04:00</news:publication_date>
+      <news:title>El magisterio urbano rompe la mesa de diálogo y el ministro de Educación insiste en negociar la descentralización</news:title>
+      <news:keywords>Nacional</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/noticias/gemini-4-hydrogen-google-search-gratis</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T09:00:00-04:00</news:publication_date>
+      <news:title>Google lanza Gemini 4 Hydrogen: el modelo rápido llega gratis a Search, la API y AI Studio a 1,50 dólares por millón de tokens</news:title>
+      <news:keywords>Tecnología</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/corte-ritmo-video-tecnica-narrativa</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T06:00:00-04:00</news:publication_date>
+      <news:title>El corte como decisión narrativa: cómo controlar el ritmo de tu edición sin reloj</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/montaje-continuo-eje-accion-180-grados</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T08:30:00-04:00</news:publication_date>
+      <news:title>El eje de acción y los 180 grados: la regla de continuidad que tu espectador siente pero no ve</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/color-gradacion-scopes-luts-orden</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T11:00:00-04:00</news:publication_date>
+      <news:title>Del balance de blancos al look: el orden correcto de la cadena de color que casi todos editan al revés</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://freddydev.net/blog/audio-mezcla-eq-compresion-loudness-video</loc>
+    <news:news>
+      <news:publication>
+        <news:name>FreddyDev Noticias</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T15:00:00-04:00</news:publication_date>
+      <news:title>La mitad invisible: EQ, compresión y loudness para que tu video suene profesional en cualquier dispositivo</news:title>
+      <news:keywords>Tecnología y Creación</news:keywords>
     </news:news>
   </url>
 </urlset>

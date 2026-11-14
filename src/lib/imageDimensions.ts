@@ -1,6 +1,86 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/news/2026-11-13/huelga-hambre-maestros-12-dias-la-paz.jpg": {
+    "width": 585,
+    "height": 329
+  },
+  "/images/news/2026-11-13/rodrigo-paz-erdogan-estambul-reformas-inversion.jpg": {
+    "width": 660,
+    "height": 487
+  },
+  "/images/news/2026-11-13/cop31-rodrigo-paz-fondos-verdes-tfff.jpg": {
+    "width": 1280,
+    "height": 991
+  },
+  "/images/news/2026-11-13/sismo-magnitud-50-tarija-aniceto-arce.jpg": {
+    "width": 995,
+    "height": 560
+  },
+  "/images/news/2026-11-13/incendios-chiquitania-549-focos-calor-taperas.jpg": {
+    "width": 1166,
+    "height": 656
+  },
+  "/images/news/2026-11-13/openai-chatgpt-wallet-agentes-compras.jpg": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/2026-11/edicion/j-cut-l-cut-sonido-cruza-corte.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/keyframes-easing-animacion-curvas.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/speed-ramping-slow-motion-interpolacion.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/organizacion-proyecto-proxies-backup-321.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/titulos-motion-graphics-tipografia-pantalla.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/exportacion-codecs-bitrate-entrega-plataformas.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/news/2026-11-13/bcb-levanta-restricciones-dolares-transferencias-exterior.jpg": {
+    "width": 600,
+    "height": 338
+  },
+  "/images/news/2026-11-13/certificacion-reservas-gas-23-tcf.jpg": {
+    "width": 400,
+    "height": 267
+  },
+  "/images/news/2026-11-13/magisterio-urbano-rompe-mesa-dialogo-descentralizacion.jpg": {
+    "width": 840,
+    "height": 473
+  },
+  "/images/news/2026-11-13/gemini-4-hydrogen-google-search-gratis.jpg": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/2026-11/edicion/tecnicas-corte-ritmo.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/montaje-continuo-eje-accion-180.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/color-gradacion-scopes-luts.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/audio-mezcla-eq-compresion-loudness.jpg": {
+    "width": 1600,
+    "height": 900
+  },
   "/images/news/2026-11-10/rusia-ucrania-abu-dabi-conversaciones.jpg": {
     "width": 1800,
     "height": 1350
