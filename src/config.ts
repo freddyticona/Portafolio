@@ -557,8 +557,8 @@ export const SERVICE_CONTACT = {
   emailSubjectEn: 'Audiovisual Service Quote',
 
   // Horario de atención
-  hoursEs: 'Lun - Sáb: 8:00 AM - 7:00 PM (GMT-4)',
-  hoursEn: 'Mon - Sat: 8:00 AM - 7:00 PM (GMT-4)',
+  hoursEs: 'Lun - Vie: 9:00 AM - 7:00 PM · Sáb: 9:00 AM - 2:00 PM (GMT-4)',
+  hoursEn: 'Mon - Fri: 9:00 AM - 7:00 PM · Sat: 9:00 AM - 2:00 PM (GMT-4)',
 
   // Tiempo de respuesta
   responseTimeEs: 'Respuesta en menos de 24 horas',

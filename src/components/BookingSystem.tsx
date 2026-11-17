@@ -135,6 +135,20 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
     return dates;
   }, []);
 
+  // Sábado cierra a las 14:00: la última sesión empieza a las 12:00
+  const isSaturday = selectedDate
+    ? new Date(`${selectedDate}T12:00:00`).getDay() === 6
+    : false;
+  const availableTimeSlots = isSaturday
+    ? TIME_SLOTS.filter((time) => time <= '13:00')
+    : TIME_SLOTS;
+
+  React.useEffect(() => {
+    if (isSaturday && selectedTime && selectedTime > '13:00') {
+      setSelectedTime('');
+    }
+  }, [isSaturday, selectedTime]);
+
   // Format date for display
   const formatDate = (date: Date) => {
     const options: Intl.DateTimeFormatOptions = {
@@ -463,7 +477,7 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                     {bt.selectTime}
                   </label>
                   <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
-                    {TIME_SLOTS.map((time) => {
+                    {availableTimeSlots.map((time) => {
                       const isSelected = selectedTime === time;
 
                       return (

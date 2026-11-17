@@ -71,7 +71,7 @@ const KNOWLEDGE_BASE = {
     // Availability
     availability: {
       keywords: ['disponible', 'disponibilidad', 'cuando', 'cuándo', 'agenda', 'horario', 'libre'],
-      response: 'Tengo disponibilidad de lunes a sábado, de 9:00 AM a 7:00 PM.\n\n📍 Ubicación: La Paz, Bolivia\n📱 También disponible para viajes nacionales.\n\n¿Qué fecha tienes en mente?',
+      response: 'Tengo disponibilidad de lunes a viernes, de 9:00 AM a 7:00 PM, y sábados de 9:00 AM a 2:00 PM.\n\n📍 Ubicación: La Paz, Bolivia\n📱 También disponible para viajes nacionales.\n\n¿Qué fecha tienes en mente?',
       action: { label: '📅 Ver Disponibilidad', action: 'booking' }
     },
 
@@ -138,7 +138,7 @@ const KNOWLEDGE_BASE = {
 
     availability: {
       keywords: ['available', 'availability', 'when', 'schedule', 'hours', 'free'],
-      response: 'I am available Monday to Saturday, 9:00 AM to 7:00 PM.\n\n📍 Location: La Paz, Bolivia\n📱 Also available for national travel.\n\nWhat date do you have in mind?',
+      response: 'I am available Monday to Friday, 9:00 AM to 7:00 PM, and Saturdays 9:00 AM to 2:00 PM.\n\n📍 Location: La Paz, Bolivia\n📱 Also available for national travel.\n\nWhat date do you have in mind?',
       action: { label: '📅 Check Availability', action: 'booking' }
     },
 
