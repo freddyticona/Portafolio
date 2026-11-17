@@ -522,9 +522,21 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           </div>
           <figcaption className="text-xs font-mono text-stone-500 text-right flex items-center justify-end gap-1.5">
             <Camera className="w-3 h-3 text-stone-600" />
-            {post.imageCaption
-              ? (lang === 'es' ? `Crédito: ${post.imageCaption}` : `Credit: ${post.imageCaption}`)
-              : (lang === 'es' ? 'Foto: Cortesía' : 'Photo: Courtesy')}
+            {post.imageCaption ? (
+              post.imageCreditUrl ? (
+                <a
+                  href={post.imageCreditUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-stone-700 underline-offset-2 hover:text-gold transition-colors"
+                  title={lang === 'es' ? 'Ver la imagen en su fuente original' : 'View the image at its original source'}
+                >
+                  {lang === 'es' ? `Crédito: ${post.imageCaption}` : `Credit: ${post.imageCaption}`}
+                </a>
+              ) : (
+                lang === 'es' ? `Crédito: ${post.imageCaption}` : `Credit: ${post.imageCaption}`
+              )
+            ) : (lang === 'es' ? 'Foto: Cortesía' : 'Photo: Courtesy')}
           </figcaption>
         </figure>
       </header>

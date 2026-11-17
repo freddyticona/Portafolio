@@ -88,6 +88,7 @@ export interface BlogPost {
   readTimeEn: string;
   imageUrl: string;
   imageCaption?: string; // Fuente o pie de la fotografía
+  imageCreditUrl?: string; // Enlace a la página original del crédito de la imagen (si el autor lo exige)
   images?: string[]; // Galería de imágenes adicional
   categoryEs: string;
   categoryEn: string;
