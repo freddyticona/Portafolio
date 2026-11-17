@@ -47,10 +47,10 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import CommentSystem from './CommentSystem';
-import { injectStructuredData, generateNewsArticleStructuredData } from '../lib/structuredData';
-import { IMAGE_DIMENSIONS } from '../lib/imageDimensions';
-import TrustIndicators from './TrustIndicators';
+import { injectStructuredData, generateArticleStructuredData } from '../lib/structuredData';
 import { formatPostDate } from '../lib/date';
+import { CONTACT_INFO } from '../config';
+import { PortfolioEvents } from '../lib/analytics';
 import { loadBlogContent } from '../data/loader';
 
 interface BlogDetailProps {
@@ -259,25 +259,20 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     const category = lang === 'es' ? post.categoryEs : post.categoryEn;
     const shareUrl = window.location.href;
 
-    // Inyectar NewsArticle JSON-LD con publisher NewsMediaOrganization
-    // (identidad propia de la sección de noticias, no el schema Person del portafolio)
-    const dims = post.imageUrl ? IMAGE_DIMENSIONS[post.imageUrl] : undefined;
+    // Inyectar JSON-LD del artículo como BlogPosting / TechArticle con autoría
+    // de Freddy (Person) y publisher del portafolio.
     injectStructuredData(
-      generateNewsArticleStructuredData({
+      generateArticleStructuredData({
         title,
         description: lang === 'es' ? post.excerptEs : post.excerptEn,
         publishDate: post.date,
-        publishedAt: post.publishedAt,
         modifiedDate: post.dateModified,
+        author: 'Freddy Ticona Guzmán',
         image: post.imageUrl,
-        imageCaption: post.imageCaption,
-        imageWidth: dims?.width,
-        imageHeight: dims?.height,
         url: shareUrl,
         category,
-        keywords: [category, post.source].filter(Boolean) as string[],
-        dateline: post.location || 'La Paz, Bolivia',
-        slug: post.slug,
+        keywords: [category].filter(Boolean) as string[],
+        type: post.categoryEs === 'Guías y Trámites' ? 'TechArticle' : 'BlogPosting',
       })
     );
 
@@ -579,9 +574,6 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
       )}
 
-      {/* Trust Project Indicators mejorados */}
-      <TrustIndicators post={post} lang={lang} t={t} />
-
       {/* Article Content */}
       {!contentReady ? (
         <div className="space-y-4 animate-pulse" role="status" aria-label={lang === 'es' ? 'Cargando artículo...' : 'Loading article...'}>
@@ -677,40 +669,6 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           />
         </div>
       )}
-
-      {/* Author Card */}
-      <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5 md:p-6 flex flex-col sm:flex-row items-start gap-4">
-        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gold/20 flex items-center justify-center shrink-0 overflow-hidden border-2 border-gold/30">
-          <User className="w-7 h-7 md:w-8 md:h-8 text-gold" />
-        </div>
-        <div className="space-y-2">
-          <div>
-            <h2 className="text-sm font-bold text-white font-display">Freddy Ticona Guzmán</h2>
-            <p className="text-[10px] font-mono font-bold uppercase tracking-widest text-gold">
-              {lang === 'es' ? 'Realizador Audiovisual' : 'Audiovisual Producer'}
-            </p>
-          </div>
-          <p className="text-xs text-stone-400 leading-relaxed max-w-xl">
-            {lang === 'es'
-              ? 'Camarógrafo y realizador audiovisual boliviano. Premio Nacional Eduardo Abaroa 2017. +15 años de experiencia en documentales, televisión y cobertura periodística.'
-              : 'Bolivian cameraman and audiovisual producer. National Eduardo Abaroa Award 2017. +15 years experience in documentaries, television and news coverage.'}
-          </p>
-          <div className="flex items-center gap-3 pt-1">
-            <a href="https://freddydev.net/contacto" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-widest text-gold hover:text-gold/80 transition-colors">
-              <Mail className="w-3 h-3" />
-              {lang === 'es' ? 'Contactar' : 'Contact'}
-            </a>
-            <span className="text-stone-600">·</span>
-            <span className="text-[10px] font-mono text-stone-500">
-              {lang === 'es' ? 'Actualizado: ' : 'Updated: '}
-              {formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {
-                year: 'numeric', month: 'long', day: 'numeric'
-              })}
-            </span>
-          </div>
-        </div>
-      </div>
 
       {/* Comments Section */}
       {post.enableComments !== false && (
@@ -821,6 +779,97 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
       )}
 
+      {/* Autor */}
+      <div className="flex flex-col sm:flex-row items-start gap-4 bg-white/[0.02] border border-white/5 rounded-sm p-5">
+        <img
+          src="/images/freddy_profile.webp"
+          alt="Freddy Ticona Guzmán"
+          width={64}
+          height={64}
+          loading="lazy"
+          className="w-16 h-16 rounded-full object-cover border border-gold/30"
+        />
+        <div className="space-y-1.5">
+          <p className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-gold">
+            {lang === 'es' ? 'Sobre el autor' : 'About the author'}
+          </p>
+          <p className="text-sm font-bold text-white font-display">Freddy Ticona Guzmán</p>
+          <p className="text-xs text-stone-400 leading-relaxed max-w-xl">
+            {lang === 'es'
+              ? 'Camarógrafo y realizador audiovisual en La Paz, Bolivia. Más de 15 años en televisión, documentales y cobertura periodística. Premio Nacional Eduardo Abaroa 2017.'
+              : 'Cameraman and filmmaker based in La Paz, Bolivia. More than 15 years in television, documentaries and press coverage. 2017 Eduardo Abaroa National Award.'}
+          </p>
+          <div className="flex flex-wrap items-center gap-3 pt-1">
+            <a href="/sobre-mi" className="text-[11px] font-mono uppercase tracking-widest text-stone-300 hover:text-gold transition-colors">
+              {lang === 'es' ? 'Trayectoria' : 'Background'}
+            </a>
+            <a href="/portafolio" className="text-[11px] font-mono uppercase tracking-widest text-stone-300 hover:text-gold transition-colors">
+              {lang === 'es' ? 'Portafolio' : 'Portfolio'}
+            </a>
+            <a href="/servicios" className="text-[11px] font-mono uppercase tracking-widest text-stone-300 hover:text-gold transition-colors">
+              {lang === 'es' ? 'Servicios' : 'Services'}
+            </a>
+            <a href="/contacto" className="inline-flex items-center gap-1.5 text-[11px] font-mono uppercase tracking-widest text-gold hover:text-gold-hover transition-colors">
+              <Mail className="w-3 h-3" />
+              {lang === 'es' ? 'Contactar' : 'Contact'}
+            </a>
+            <span className="text-[10px] font-mono text-stone-500">
+              {lang === 'es' ? 'Actualizado: ' : 'Updated: '}
+              {formatPostDate(post.date, lang === 'es' ? 'es-BO' : 'en-US', {
+                year: 'numeric', month: 'long', day: 'numeric'
+              })}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA de conversión */}
+      <div className="bg-[#0a0a0a] border border-gold/25 rounded-sm p-6 md:p-8 space-y-5">
+        <div className="space-y-2">
+          <span className="text-gold font-mono text-[10px] font-bold uppercase tracking-[0.2em]">
+            {lang === 'es' ? 'Producción audiovisual' : 'Video production'}
+          </span>
+          <h3 className="text-lg md:text-xl font-bold text-white font-display leading-snug">
+            {lang === 'es'
+              ? '¿Necesitas algo así para tu proyecto?'
+              : 'Need something like this for your project?'}
+          </h3>
+          <p className="text-sm text-stone-400 leading-relaxed max-w-2xl">
+            {lang === 'es'
+              ? 'Grabación multicámara, edición, corrección de color y entrega final. Más de 15 años produciendo en La Paz, El Alto y todo Bolivia.'
+              : 'Multi-camera filming, editing, color grading and final delivery. More than 15 years producing in La Paz, El Alto and all of Bolivia.'}
+          </p>
+        </div>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <a
+            href={`https://wa.me/${CONTACT_INFO.phoneNumber.replace(/\D/g, '')}?text=${encodeURIComponent(
+              lang === 'es'
+                ? `Hola Freddy, leí tu artículo sobre "${post.titleEs}" y quiero cotizar un proyecto audiovisual.`
+                : `Hi Freddy, I read your article "${post.titleEn}" and I would like a quote for an audiovisual project.`
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => PortfolioEvents.whatsappClick()}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] hover:bg-[#1ebe5b] text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300"
+          >
+            <MessageSquare className="w-4 h-4" />
+            {lang === 'es' ? 'Cotizar por WhatsApp' : 'Get a quote on WhatsApp'}
+          </a>
+          <button
+            onClick={() => { window.location.href = '/servicios'; }}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer"
+          >
+            {lang === 'es' ? 'Ver servicios y precios' : 'See services and prices'}
+          </button>
+          <button
+            onClick={() => { window.location.href = '/reservas'; }}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/5 border border-white/10 hover:border-gold/50 text-stone-300 hover:text-white rounded-sm text-xs font-bold uppercase tracking-widest transition-all duration-300 cursor-pointer"
+          >
+            {lang === 'es' ? 'Reservar fecha' : 'Book a date'}
+          </button>
+        </div>
+      </div>
+
       {/* Newsletter Subscription */}
       <div className="bg-gradient-to-br from-gold/[0.04] to-transparent border border-gold/10 rounded-sm p-6 md:p-8 space-y-4">
         <div className="space-y-2">
@@ -830,8 +879,8 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           </h3>
           <p className="text-xs text-stone-400 leading-relaxed">
             {lang === 'es'
-              ? 'Recibí notificaciones cuando publique nuevos artículos sobre producción audiovisual, documentales y noticias de Bolivia.'
-              : 'Get notified when I publish new articles about audiovisual production, documentaries and news from Bolivia.'}
+              ? 'Recibí notificaciones cuando publique nuevos artículos sobre producción audiovisual, documentales y técnicas de rodaje.'
+              : 'Get notified when I publish new articles about audiovisual production, documentaries and filming techniques.'}
           </p>
         </div>
         <form

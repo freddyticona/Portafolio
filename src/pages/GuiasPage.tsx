@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useState, useMemo } from 'react';
 import { BlogPost, PageId } from '../types';
 import { TranslationT } from '../types.translation';
-import { BookOpen, FileText, Search } from 'lucide-react';
+import { BookOpen, FileText, Search, ArrowRight } from 'lucide-react';
 
 const BlogCard = lazy(() => import('../components/BlogCard'));
 const BlogDetail = lazy(() => import('../components/BlogDetail'));
@@ -116,6 +116,13 @@ export default function GuiasPage({
                 ? `Trámites explicados paso a paso: requisitos, costos actualizados y enlaces oficiales. ${totalGuides} guías disponibles.`
                 : `Step-by-step procedures: requirements, updated costs and official links. ${totalGuides} guides available.`}
             </p>
+            <a
+              href="/blog"
+              className="inline-flex items-center gap-2 mt-2 px-5 py-2.5 border border-gold/30 hover:border-gold hover:bg-gold/10 text-gold text-[11px] font-mono font-bold uppercase tracking-widest rounded-sm transition-all duration-300"
+            >
+              {lang === 'es' ? 'Ver artículos del blog' : 'Read blog articles'}
+              <ArrowRight className="w-3.5 h-3.5" />
+            </a>
           </div>
 
           {/* Contador + buscador */}

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { BlogPost } from '../types';
-import { Search, Calendar, ArrowRight, Tag, Mail, Send, TrendingUp } from 'lucide-react';
+import { Search, Calendar, ArrowRight, Tag, Mail, Send, TrendingUp, BookOpen } from 'lucide-react';
 import BlogCard from './BlogCard';
 import { formatPostDate, postDateTimestamp } from '../lib/date';
 
@@ -76,6 +76,30 @@ export default function BlogLayout({ posts, lang, t, onArticleClick, title, subt
         <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">{label}</span>
         <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight font-display">{title}</h1>
         <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">{subtitle}</p>
+        <a
+          href="/servicios"
+          className="inline-flex items-center gap-2 mt-2 px-5 py-2.5 border border-gold/30 hover:border-gold hover:bg-gold/10 text-gold text-[11px] font-mono font-bold uppercase tracking-widest rounded-sm transition-all duration-300"
+        >
+          {lang === 'es' ? 'Ver servicios y precios' : 'See services and prices'}
+          <ArrowRight className="w-3.5 h-3.5" />
+        </a>
+        <a
+          href="/guias"
+          className="group mt-4 flex flex-col sm:flex-row items-start sm:items-center gap-3 text-left sm:text-center bg-white/[0.02] border border-white/5 hover:border-gold/30 rounded-sm px-5 py-4 transition-colors duration-300"
+        >
+          <BookOpen className="w-5 h-5 text-gold shrink-0" />
+          <span className="space-y-1">
+            <span className="block text-xs font-bold text-white group-hover:text-gold transition-colors font-display">
+              {lang === 'es' ? 'Guías de trámites en Bolivia' : 'Bolivia procedure guides'}
+            </span>
+            <span className="block text-[11px] text-stone-400">
+              {lang === 'es'
+                ? 'Requisitos, costos actualizados y enlaces oficiales de trámites.'
+                : 'Requirements, updated costs and official links.'}
+            </span>
+          </span>
+          <ArrowRight className="w-4 h-4 text-stone-500 group-hover:text-gold group-hover:translate-x-1 transition-all duration-300 shrink-0" />
+        </a>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">

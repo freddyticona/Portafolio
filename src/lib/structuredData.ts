@@ -234,7 +234,7 @@ export function generateArticleStructuredData(article: {
   author?: string;
   image?: string;
   url?: string;
-  type?: 'Article' | 'NewsArticle';
+  type?: 'Article' | 'NewsArticle' | 'BlogPosting' | 'TechArticle';
   category?: string;
   keywords?: string[];
 }): object {
@@ -258,6 +258,8 @@ export function generateArticleStructuredData(article: {
     },
     datePublished: article.publishDate,
     dateModified: article.modifiedDate || article.publishDate,
+    articleSection: article.category,
+    keywords: article.keywords?.join(', ') || article.category,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': article.url || `${BASE_URL}/#blog`
@@ -267,8 +269,6 @@ export function generateArticleStructuredData(article: {
   if (article.type === 'NewsArticle') {
     return {
       ...base,
-      articleSection: article.category,
-      keywords: article.keywords?.join(', ') || article.category,
       dateline: 'La Paz, Bolivia',
     };
   }
