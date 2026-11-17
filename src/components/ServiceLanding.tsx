@@ -40,6 +40,14 @@ interface ServiceLandingProps {
 }
 
 export default function ServiceLanding({ lang, t, onContact, onBooking }: ServiceLandingProps) {
+  const waNumber = CONTACT_INFO.phoneNumber.replace(/\D/g, '');
+  const quoteLink = (serviceName: string, price: number) =>
+    `https://wa.me/${waNumber}?text=${encodeURIComponent(
+      lang === 'es'
+        ? `Hola Freddy, me interesa "${serviceName}" (Bs. ${price}). ¿Podemos coordinar?`
+        : `Hi Freddy, I'm interested in "${serviceName}" (Bs. ${price}). Can we talk?`
+    )}`;
+
   // Iconos para los tipos de servicio
   const serviceIcons: Record<string, React.ElementType> = {
     'Camera': Camera,
@@ -251,13 +259,22 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                     ))}
                   </ul>
 
-                  <div className="pt-4 border-t border-stone-800">
+                  <div className="pt-4 border-t border-stone-800 space-y-2">
+                    <a
+                      href={quoteLink(isEs ? service.nameEs : service.nameEn, service.basePrice)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => PortfolioEvents.whatsappClick()}
+                      className="w-full px-6 py-3 bg-[#25D366] hover:bg-[#1FB855] text-black font-bold rounded-sm transition-all flex items-center justify-center gap-2"
+                    >
+                      <MessageCircle className="w-5 h-5" />
+                      {isEs ? 'Cotizar por WhatsApp' : 'Quote on WhatsApp'}
+                    </a>
                     <button
                       onClick={onContact}
-                      className="w-full px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm transition-all flex items-center justify-center gap-2"
+                      className="w-full px-6 py-2 text-stone-400 hover:text-gold text-xs font-mono font-bold uppercase tracking-widest transition-colors cursor-pointer"
                     >
-                      <Mail className="w-5 h-5" />
-                      {isEs ? 'Solicitar Cotización' : 'Request Quote'}
+                      {isEs ? 'Solicitar cotización formal' : 'Request a formal quote'}
                     </button>
                   </div>
                 </div>

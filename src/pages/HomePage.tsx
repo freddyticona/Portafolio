@@ -6,8 +6,9 @@
 import React, { useEffect } from 'react';
 import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
-import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon } from 'lucide-react';
-import { YOUTUBE_VIDEOS } from '../config';
+import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon, MessageCircle, CheckCircle2 } from 'lucide-react';
+import { YOUTUBE_VIDEOS, SERVICES_PRICING, CONTACT_INFO } from '../config';
+import { PortfolioEvents } from '../lib/analytics';
 import CinematicHero from '../components/CinematicHero';
 import BlogCard from '../components/BlogCard';
 
@@ -36,6 +37,26 @@ export default function HomePage({
   reelMuted,
   setReelMuted,
 }: HomePageProps) {
+  const waNumber = CONTACT_INFO.phoneNumber.replace(/\D/g, '');
+
+  const waLink = (message: string) =>
+    `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
+
+  const quoteMessage = (serviceName?: string) =>
+    lang === 'es'
+      ? serviceName
+        ? `Hola Freddy, me interesa el servicio "${serviceName}". ¿Podemos coordinar?`
+        : 'Hola Freddy, vi tu portafolio y quiero cotizar un proyecto audiovisual.'
+      : serviceName
+        ? `Hi Freddy, I'm interested in "${serviceName}". Can we talk?`
+        : 'Hi Freddy, I saw your portfolio and I would like a quote for an audiovisual project.';
+
+  // Escalera de precios: entrada, intermedio y premium
+  const homePackageIds = ['reel-vertical', 'cobertura-evento', 'reportaje-impacto'];
+  const homePackages = SERVICES_PRICING
+    .filter((service) => homePackageIds.includes(service.id))
+    .sort((a, b) => a.basePrice - b.basePrice);
+
   // Intersection Observer for reveal animations
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -66,6 +87,10 @@ export default function HomePage({
         <CinematicHero
           onPortfolioClick={() => handleNavToTab('portafolio')}
           onCvClick={() => handleNavToTab('cv')}
+          onWhatsAppClick={() => {
+            PortfolioEvents.whatsappClick();
+            window.open(waLink(quoteMessage()), '_blank', 'noopener,noreferrer');
+          }}
           lang={lang}
           t={t}
         />
@@ -188,6 +213,72 @@ export default function HomePage({
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statAwards}</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* PRECIOS DESTACADOS */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 space-y-10 gsap-fade">
+        <div className="text-center space-y-3">
+          <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
+            {lang === 'es' ? 'Precios claros' : 'Clear pricing'}
+          </span>
+          <h2 className="text-2xl md:text-4xl font-extrabold text-white tracking-tight font-display">
+            {lang === 'es' ? 'Paquetes para empezar hoy' : 'Packages you can book today'}
+          </h2>
+          <p className="text-stone-400 text-sm max-w-2xl mx-auto leading-relaxed">
+            {lang === 'es'
+              ? 'Precio cerrado por producto entregado: grabación, edición, corrección de color y entrega final incluidos. Sin sorpresas.'
+              : 'Fixed price per delivered product: shooting, editing, color correction and final delivery included. No surprises.'}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {homePackages.map((service) => {
+            const name = lang === 'es' ? service.nameEs : service.nameEn;
+            const features = (lang === 'es' ? service.featuresEs : service.featuresEn).slice(0, 2);
+            return (
+              <div
+                key={service.id}
+                className="relative bg-[#020202] border border-white/10 hover:border-gold/40 rounded-lg p-7 flex flex-col gap-5 transition-colors duration-300"
+              >
+                <div className="space-y-2">
+                  <h3 className="text-lg font-bold text-white">{name}</h3>
+                  <p className="text-xs text-stone-500 font-mono">{service.duration}</p>
+                </div>
+                <div className="text-3xl font-black text-gold font-display">
+                  Bs. {service.basePrice.toLocaleString('es-BO')}
+                </div>
+                <ul className="space-y-2 flex-1">
+                  {features.map((feature, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-sm text-stone-300">
+                      <CheckCircle2 className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={waLink(quoteMessage(name))}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => PortfolioEvents.whatsappClick()}
+                  className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-[#25D366] hover:bg-[#1FB855] text-black text-xs font-mono font-bold uppercase tracking-widest rounded-sm transition-all duration-300"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  {lang === 'es' ? 'Reservar por WhatsApp' : 'Book on WhatsApp'}
+                </a>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="text-center">
+          <button
+            onClick={() => handleNavToTab('servicios')}
+            className="inline-flex items-center gap-1 text-xs font-mono font-bold text-gold hover:text-gold-hover hover:translate-x-1 transition-all duration-300 cursor-pointer"
+          >
+            {lang === 'es' ? 'Ver los 10 servicios y precios' : 'See all 10 services and prices'}
+            <ChevronRight className="w-4 h-4" />
+          </button>
         </div>
       </section>
 

@@ -4,16 +4,17 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Award, Play, ChevronDown, Sparkles } from 'lucide-react';
+import { Award, Play, ChevronDown, Sparkles, MessageCircle } from 'lucide-react';
 
 interface CinematicHeroProps {
   onPortfolioClick: () => void;
   onCvClick: () => void;
+  onWhatsAppClick?: () => void;
   lang?: 'es' | 'en';
   t?: any;
 }
 
-export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es', t }: CinematicHeroProps) {
+export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppClick, lang = 'es', t }: CinematicHeroProps) {
   const [scrollY, setScrollY] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const heroRef = useRef<HTMLDivElement>(null);
@@ -53,6 +54,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
       experience: '+15 años de experiencia',
       slogan: 'Capturando la esencia de Bolivia a través del lente. Documentales, televisión y contenido visual con impacto humano.',
       ctaPortfolio: 'Ver Portafolio',
+      ctaWhatsApp: 'Cotizar por WhatsApp',
       ctaCv: 'Mi Trayectoria',
       explore: 'Explorar'
     },
@@ -63,6 +65,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
       experience: '+15 years experience',
       slogan: 'Capturing the essence of Bolivia through the lens. Documentaries, television and visual content with human impact.',
       ctaPortfolio: 'View Portfolio',
+      ctaWhatsApp: 'Get a quote on WhatsApp',
       ctaCv: 'My Journey',
       explore: 'Explore'
     }
@@ -201,6 +204,16 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, lang = 'es'
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shine" />
           </button>
+
+          {onWhatsAppClick && (
+            <button
+              onClick={onWhatsAppClick}
+              className="flex items-center gap-2 px-8 py-4 bg-[#25D366] hover:bg-[#1FB855] text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(37,211,102,0.6)]"
+            >
+              <MessageCircle className="w-4 h-4" />
+              {content.ctaWhatsApp}
+            </button>
+          )}
 
           <button
             onClick={onCvClick}
