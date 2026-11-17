@@ -276,7 +276,7 @@ export default function HomePage({
             onClick={() => handleNavToTab('servicios')}
             className="inline-flex items-center gap-1 text-xs font-mono font-bold text-gold hover:text-gold-hover hover:translate-x-1 transition-all duration-300 cursor-pointer"
           >
-            {lang === 'es' ? 'Ver los 10 servicios y precios' : 'See all 10 services and prices'}
+            {lang === 'es' ? 'Ver todos los servicios y precios' : 'See all services and prices'}
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>
