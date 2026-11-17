@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
+import { PortfolioEvents } from '../lib/analytics';
 import {
   Camera,
   Video,
@@ -300,6 +301,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                 href={`https://wa.me/${CONTACT_INFO.phoneNumber.replace(/\s+/g, '').replace('+', '')}?text=${encodeURIComponent(lang === 'es' ? 'Hola Freddy, me interesa cotizar un servicio audiovisual.' : 'Hi Freddy, I\'m interested in getting a quote for an audiovisual service.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => PortfolioEvents.whatsappClick()}
                 className="group flex flex-col items-center gap-3 p-6 bg-[#25D366]/5 hover:bg-[#25D366]/15 border border-[#25D366]/20 hover:border-[#25D366]/50 rounded-lg transition-all duration-300 hover:scale-105 cursor-pointer"
               >
                 <div className="w-12 h-12 bg-[#25D366]/10 rounded-full flex items-center justify-center group-hover:bg-[#25D366]/20 transition-colors">
@@ -319,6 +321,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
               {/* Email */}
               <a
                 href={`mailto:${CONTACT_INFO.email}?subject=${encodeURIComponent(lang === 'es' ? 'Cotización de Servicio Audiovisual' : 'Audiovisual Service Quote')}`}
+                onClick={() => PortfolioEvents.emailClick()}
                 className="group flex flex-col items-center gap-3 p-6 bg-gold/5 hover:bg-gold/10 border border-gold/20 hover:border-gold/50 rounded-lg transition-all duration-300 hover:scale-105 cursor-pointer"
               >
                 <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center group-hover:bg-gold/20 transition-colors">
@@ -336,6 +339,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
               {/* Phone */}
               <a
                 href={`tel:${CONTACT_INFO.phoneNumber.replace(/\s+/g, '')}`}
+                onClick={() => PortfolioEvents.phoneClick()}
                 className="group flex flex-col items-center gap-3 p-6 bg-white/[0.02] hover:bg-white/[0.05] border border-white/10 hover:border-white/30 rounded-lg transition-all duration-300 hover:scale-105 cursor-pointer"
               >
                 <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center group-hover:bg-white/10 transition-colors">

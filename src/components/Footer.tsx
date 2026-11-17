@@ -7,6 +7,7 @@ import React from 'react';
 import { PageId } from '../types';
 import { Linkedin, Mail, Phone, MapPin, Film, ArrowUp, X, ShieldCheck, FileText } from 'lucide-react';
 import { CONTACT_INFO, SOCIAL_LINKS } from '../config';
+import { PortfolioEvents } from '../lib/analytics';
 
 interface FooterProps {
   handleNavToTab: (page: PageId) => void;
@@ -127,13 +128,13 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
               </li>
               <li className="flex items-start gap-2.5">
                 <Phone className="w-4.5 h-4.5 text-gold shrink-0 mt-0.5" />
-                <a href={`https://wa.me/${CONTACT_INFO.phoneNumber.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a href={`https://wa.me/${CONTACT_INFO.phoneNumber.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer" onClick={() => PortfolioEvents.whatsappClick()} className="hover:text-white transition-colors">
                   {CONTACT_INFO.phoneNumber}
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
                 <Mail className="w-4.5 h-4.5 text-gold shrink-0 mt-0.5" />
-                <a href={`mailto:${CONTACT_INFO.email}`} className="hover:text-white transition-colors break-all">
+                <a href={`mailto:${CONTACT_INFO.email}`} onClick={() => PortfolioEvents.emailClick()} className="hover:text-white transition-colors break-all">
                   {CONTACT_INFO.email}
                 </a>
               </li>

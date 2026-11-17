@@ -37,6 +37,10 @@ export const initGA = () => {
     };
 
     (window as any).gtag('js', new Date());
+    // Nota: NO añadir `send_page_view: false`. El sitio navega con pushState
+    // (App.tsx) y GA4 ya cuenta esos cambios con Enhanced Measurement →
+    // "Page changes based on browser history events". Desactivarlo aquí
+    // dejaría las vistas internas sin medir.
     (window as any).gtag('config', GA_MEASUREMENT_ID, {
       page_location: window.location.href,
       page_path: window.location.pathname || '/',
@@ -99,6 +103,16 @@ export const PortfolioEvents = {
 
   whatsappClick: () => trackEvent('contact', {
     method: 'whatsapp',
+    category: 'Contact'
+  }),
+
+  emailClick: () => trackEvent('contact', {
+    method: 'email',
+    category: 'Contact'
+  }),
+
+  phoneClick: () => trackEvent('contact', {
+    method: 'phone',
     category: 'Contact'
   }),
 

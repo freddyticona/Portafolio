@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Minimize2 } from 'lucide-react';
+import { PortfolioEvents } from '../lib/analytics';
 
 interface WhatsAppButtonProps {
   phoneNumber?: string;
@@ -28,6 +29,7 @@ export default function WhatsAppButton({
   const handleClick = () => {
     const encodedMessage = encodeURIComponent(message || defaultMessage);
     const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMessage}`;
+    PortfolioEvents.whatsappClick();
     window.open(whatsappUrl, '_blank');
     setIsOpen(false);
   };

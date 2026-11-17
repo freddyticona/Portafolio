@@ -6,6 +6,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle, Youtube, Linkedin, MessageSquare, Compass, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO, CONTACT_FORM } from '../config';
+import { PortfolioEvents } from '../lib/analytics';
 
 interface ContactFormProps {
   lang: 'es' | 'en';
@@ -63,6 +64,8 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
       const result = await response.json();
       if (result.success) {
         setFormState('success');
+        // Conversión GA4: lead real desde el formulario de contacto
+        PortfolioEvents.contactFormSubmit();
         setFormData({ name: '', email: '', message: '', subject: 'Contacto Portafolio Profesional', botcheck: '' });
       } else {
         setErrorMsg(result.message || (lang === 'es' ? 'Error al enviar. Intenta de nuevo.' : 'Failed to send. Please try again.'));
@@ -235,7 +238,7 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
               </div>
               <div>
                 <h4 className="text-[10px] font-mono font-bold text-gold uppercase tracking-widest">{t.contactPhone}</h4>
-                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-gold mt-0.5 block transition-colors">
+                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => PortfolioEvents.whatsappClick()} className="text-sm font-semibold text-white hover:text-gold mt-0.5 block transition-colors">
                   {CONTACT_INFO.phoneNumber}
                 </a>
                 <a 
@@ -243,6 +246,7 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
                   target="_blank" 
                   rel="noopener noreferrer"
                   id="whatsapp-chat-button"
+                  onClick={() => PortfolioEvents.whatsappClick()}
                   className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500 hover:text-stone-950 text-emerald-400 rounded-sm text-[10px] font-mono tracking-widest font-bold uppercase transition-all duration-300"
                 >
                   <MessageSquare className="w-3.5 h-3.5" />

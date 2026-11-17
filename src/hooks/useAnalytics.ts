@@ -8,6 +8,12 @@ import { trackPageView, PortfolioEvents } from '../lib/analytics';
 
 /**
  * Hook para rastrear vistas de página automáticamente
+ *
+ * IMPORTANTE: no está en uso (verificado: ningún componente lo importa).
+ * GA4 ya envía un page_view en la carga inicial y otro en cada cambio de
+ * historial (Enhanced Measurement → "Page changes based on browser history
+ * events"), que es justo lo que hacen los pushState de App.tsx.
+ * Si se llegara a usar este hook, cada navegación contaría DOS veces.
  */
 export function usePageTracking(path: string, title: string) {
   useEffect(() => {
@@ -23,6 +29,8 @@ export function usePortfolioEvents() {
     // Contacto
     onContactSubmit: () => PortfolioEvents.contactFormSubmit(),
     onWhatsAppClick: () => PortfolioEvents.whatsappClick(),
+    onEmailClick: () => PortfolioEvents.emailClick(),
+    onPhoneClick: () => PortfolioEvents.phoneClick(),
 
     // Portafolio
     onProjectView: (title: string) => PortfolioEvents.portfolioView(title),
