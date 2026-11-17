@@ -47,7 +47,7 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
       <div className="bg-[#0a0a0f] text-white py-12 px-6">
         <div className="max-w-4xl mx-auto">
           <button onClick={onBackToNews} className="text-sm text-white/60 hover:text-white mb-6 flex items-center gap-2">
-            ← {L('Volver a Noticias', 'Back to News')}
+            ← {L('Volver al blog', 'Back to blog')}
           </button>
           <div className="text-xs tracking-widest text-amber-400 mb-3">REPORTAJE ESPECIAL — CAPÍTULO 1 / 3</div>
           <p className="text-[11px] font-mono text-amber-500/80 tracking-widest uppercase mb-3">{L('Análisis · Geopolítica, defensa y tecnología', 'Analysis · Geopolitics, defense and technology')}</p>
@@ -400,7 +400,7 @@ export default function IranReportPage({ lang, onBackToNews, onNavigate }: IranR
 
       <div className="max-w-3xl mx-auto px-6 py-8 text-center">
         <button onClick={onBackToNews} className="px-6 py-3 bg-[#0a0a0f] text-white rounded hover:bg-black font-sans text-sm font-medium transition-colors">
-          {L('Volver a Noticias', 'Back to News')}
+          {L('Volver al blog', 'Back to blog')}
         </button>
         <div className="flex gap-3 justify-center mt-4">
           <button onClick={() => onNavigate('reportaje-gaza-desarme')} className="px-4 py-2 border border-stone-300 rounded hover:bg-stone-100 text-sm">{L('Siguiente: Gaza →', 'Next: Gaza →')}</button>

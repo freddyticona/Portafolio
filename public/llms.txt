@@ -39,7 +39,6 @@ Los precios son de referencia por producto entregado e incluyen preproducción, 
 - [Contacto](https://freddydev.net/contacto): formulario, WhatsApp y datos directos.
 - [Blog](https://freddydev.net/blog): técnicas de filmación, edición y producción audiovisual.
 - [Guías](https://freddydev.net/guias): guías paso a paso de trámites en Bolivia (SEGIP, SOAT, RUAT, pasaporte, NIT).
-- [Noticias](https://freddydev.net/noticias): cobertura periodística y análisis.
 - [Galería](https://freddydev.net/galeria): fotografías de coberturas y producciones.
 
 ## Especialidades

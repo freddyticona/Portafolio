@@ -17,7 +17,6 @@ const escapeAttr = (s) => String(s)
 
 function primaryPage(article) {
   if (article.categoryEs === 'Guías y Trámites') return 'guias';
-  if (article.source) return 'noticias';
   return 'blog';
 }
 
@@ -54,11 +53,6 @@ const pages = {
     title: 'Blog de Producción Audiovisual y Cinematografía Bolivia | Tips de Filmación',
     desc: 'Blog profesional de Freddy Ticona sobre técnicas de filmación 4K, edición de video, documentales y la evolución de la televisión en Bolivia.',
     path: '/blog'
-  },
-  'noticias': {
-    title: 'Noticias Audiovisuales Bolivia | Cobertura Periodística y Análisis',
-    desc: 'Cobertura periodística del acontecer nacional e historias del mundo audiovisual en Bolivia. Crónicas, reportajes y análisis desde la mirada de un camarógrafo con 15 años de experiencia.',
-    path: '/noticias'
   },
   'guias': {
     title: 'Guías de Trámites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y más',

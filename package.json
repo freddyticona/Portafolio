@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "npm run generate-icons && npm run generate-rss && npm run generate-sitemap && npm run generate-news-sitemap && npm run generate-image-dimensions && vite build && npm run generate-pages && npm run prerender",
+    "build": "npm run generate-icons && npm run generate-rss && npm run generate-sitemap && npm run generate-image-dimensions && vite build && npm run generate-pages && npm run prerender",
     "prerender": "node scripts/prerender.mjs",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-pages": "node scripts/generate-pages.js",

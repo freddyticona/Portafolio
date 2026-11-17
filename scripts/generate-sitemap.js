@@ -33,7 +33,6 @@ const sections = [
   { path: 'portafolio', priority: '0.9', changefreq: 'weekly' },
   { path: 'cv', priority: '0.8', changefreq: 'monthly' },
   { path: 'blog', priority: '0.8', changefreq: 'weekly' },
-  { path: 'noticias', priority: '0.9', changefreq: 'daily' },
   { path: 'guias', priority: '0.8', changefreq: 'weekly' },
   { path: 'galeria', priority: '0.7', changefreq: 'monthly' },
   { path: 'eclipse-2026', priority: '0.9', changefreq: 'weekly' },
@@ -51,7 +50,6 @@ const SITE_MAX_DATE = articles.filter(a => /^\d{4}-\d{2}-\d{2}$/.test(a.date))
 
 function primaryPage(article) {
   if (article.categoryEs === 'Guías y Trámites') return 'guias';
-  if (article.source) return 'noticias';
   return 'blog';
 }
 

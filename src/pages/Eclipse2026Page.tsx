@@ -256,7 +256,7 @@ export default function Eclipse2026Page({ lang, t, blogPosts, handleArticleClick
 
   const gotoArticle = (id: number | string) => {
     const post = postsById(String(id));
-    if (post) handleArticleClick(post, 'noticias');
+    if (post) handleArticleClick(post, 'blog');
   };
 
   const featured = postsById(948);
@@ -276,7 +276,7 @@ export default function Eclipse2026Page({ lang, t, blogPosts, handleArticleClick
           className="inline-flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-stone-400 hover:text-gold transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
-          {lang === 'es' ? 'Volver a Noticias' : 'Back to News'}
+          {lang === 'es' ? 'Volver al blog' : 'Back to blog'}
         </button>
       )}
 

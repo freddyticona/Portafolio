@@ -610,7 +610,6 @@ export function updatePageStructuredData(pageId: string, additionalData?: any): 
       structuredData = generatePortfolioStructuredData(additionalData?.projects);
       break;
     case 'blog':
-    case 'noticias':
     case 'guias':
       if (additionalData?.article) {
         structuredData = generateArticleStructuredData({

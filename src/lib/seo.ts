@@ -131,18 +131,6 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
       keywords: ['cameraman services', 'event filming Bolivia', 'professional video editing', 'documentary production', 'audiovisual consulting'],
     }
   },
-  noticias: {
-    es: {
-      title: 'Noticias de Actualidad | Cine, Tecnología, Cultura y más | Freddy Ticona',
-      description: 'Portal de noticias sobre cine, tecnología, cultura, deportes y actualidad boliviana e internacional. Artículos de análisis, críticas de cine, y cobertura de eventos.',
-      keywords: ['noticias Bolivia', 'actualidad cine', 'tecnología', 'cultura Bolivia', 'críticas de cine', 'noticias tecnología', 'deportes Bolivia'],
-    },
-    en: {
-      title: 'News Portal | Film, Tech, Culture and more | Freddy Ticona',
-      description: 'News portal covering film, technology, culture, sports and current events from Bolivia and around the world. Analysis, film reviews and event coverage.',
-      keywords: ['Bolivia news', 'film news', 'technology', 'culture Bolivia', 'film reviews', 'tech news', 'sports Bolivia'],
-    }
-  },
   guias: {
     es: {
       title: 'Guías de Trámites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y más',
@@ -244,7 +232,6 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
  */
 function primaryRoute(post: { source?: string; categoryEs?: string }): string {
   if (post.categoryEs === 'Guías y Trámites') return 'guias';
-  if (post.source) return 'noticias';
   return 'blog';
 }
 
@@ -273,7 +260,7 @@ export function updateArticleMetaTags(
   updateOrCreateMetaTag('property', 'og:image', ogImage);
   updateOrCreateMetaTag('property', 'og:image:alt', post.imageCaption || title);
   updateOrCreateMetaTag('property', 'og:locale', lang === 'es' ? 'es_BO' : 'en_US');
-  const siteName = route === 'noticias' ? 'FreddyDev - Noticias' : SITE_CONFIG.name;
+  const siteName = SITE_CONFIG.name;
   updateOrCreateMetaTag('property', 'og:site_name', siteName);
   updateOrCreateMetaTag('name', 'twitter:card', 'summary_large_image');
   updateOrCreateMetaTag('name', 'twitter:title', title);

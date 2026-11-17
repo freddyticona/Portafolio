@@ -21,7 +21,7 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
       <div className="bg-[#0a0a0f] text-white py-12 px-6">
         <div className="max-w-4xl mx-auto">
           <button onClick={onBackToNews} className="text-sm text-white/60 hover:text-white mb-6 flex items-center gap-2">
-            ← {L('Volver a Noticias', 'Back to News')}
+            ← {L('Volver al blog', 'Back to blog')}
           </button>
           <div className="text-xs tracking-widest text-emerald-400 mb-3">REPORTAJE ESPECIAL — CAPÍTULO 2 / 3</div>
           <p className="text-[11px] font-mono text-emerald-500/80 tracking-widest uppercase mb-3">{L('Análisis · Geopolítica y conflicto en Oriente Medio', 'Analysis · Geopolitics and conflict in the Middle East')}</p>
@@ -302,7 +302,7 @@ export default function GazaReportPage({ lang, onBackToNews, onNavigate }: GazaR
 
       <div className="max-w-3xl mx-auto px-6 py-8 text-center">
         <button onClick={onBackToNews} className="px-6 py-3 bg-[#0a0a0f] text-white rounded hover:bg-black">
-          {L('Volver a Noticias', 'Back to News')}
+          {L('Volver al blog', 'Back to blog')}
         </button>
         <div className="flex gap-3 justify-center mt-4">
           <button onClick={() => onNavigate('reportaje-iran-furia-epica')} className="px-4 py-2 border border-stone-300 rounded hover:bg-stone-100 text-sm">{L('← Irán', '← Iran')}</button>

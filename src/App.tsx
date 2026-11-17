@@ -13,7 +13,7 @@
  *  - src/pages/AboutPage.tsx     → /sobre-mi
  *  - src/pages/PortfolioPage.tsx → /portafolio
  *  - src/pages/CVPage.tsx        → /cv
- *  - src/pages/BlogPages.tsx     → /blog, /noticias
+ *  - src/pages/BlogPages.tsx     → /blog
  *  - src/pages/OtherPages.tsx    → /contacto, /reservas, /servicios, /admin
  */
 
@@ -46,7 +46,6 @@ const AboutPage = lazy(() => import('./pages/AboutPage'));
 const PortfolioPage = lazy(() => import('./pages/PortfolioPage'));
 const CVPage = lazy(() => import('./pages/CVPage'));
 const BlogPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.BlogPage })));
-const NoticiasPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.NoticiasPage })));
 const GuiasPage = lazy(() => import('./pages/GuiasPage'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const ShowreelPage = lazy(() => import('./pages/ShowreelPage'));
@@ -185,7 +184,7 @@ export default function App() {
     const handlePopState = () => {
       const parts = window.location.pathname.split('/').filter(Boolean);
 
-      if (parts.length === 2 && (parts[0] === 'blog' || parts[0] === 'noticias' || parts[0] === 'guias')) {
+      if (parts.length === 2 && (parts[0] === 'blog' || parts[0] === 'guias')) {
         const post = blogPostsRef.current.find(p => p.slug === parts[1]);
         if (post) {
           setActivePage(parts[0] as PageId);
@@ -197,7 +196,7 @@ export default function App() {
 
       const pageStr = parts[0] || 'inicio';
       const validPages: PageId[] = [
-        'inicio', 'sobre-mi', 'portafolio', 'cv', 'noticias',
+        'inicio', 'sobre-mi', 'portafolio', 'cv',
         'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
         'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento', 'reportaje-malvinas-historia',
       ];
@@ -266,7 +265,6 @@ export default function App() {
 
   const primaryRoute = (post: BlogPost): PageId => {
     if (post.categoryEs === 'Guías y Trámites') return 'guias';
-    if (post.source) return 'noticias';
     return 'blog';
   };
 
@@ -324,19 +322,6 @@ export default function App() {
               handleArticleClick={handleArticleClick}
             />
           );
-        case 'noticias':
-          return (
-            <NoticiasPage
-              lang={lang}
-              t={t}
-              blogPosts={blogPosts}
-              activeBlogPostId={activeBlogPostId}
-              setActiveBlogPostId={setActiveBlogPostId}
-              handleArticleClick={handleArticleClick}
-              onInicioSpecial={() => handleNavToTab('eclipse-2026')}
-              onSpecialNavigate={(p) => handleNavToTab(p)}
-            />
-          );
         case 'guias':
           return (
             <GuiasPage
@@ -357,14 +342,14 @@ export default function App() {
               t={t}
               blogPosts={blogPosts}
               handleArticleClick={handleArticleClick}
-              onBackToNews={() => handleNavToTab('noticias')}
+              onBackToNews={() => handleNavToTab('blog')}
             />
           );
         case 'reportaje-iran-furia-epica':
           return (
             <IranReportPage
               lang={lang}
-              onBackToNews={() => handleNavToTab('noticias')}
+              onBackToNews={() => handleNavToTab('blog')}
               onNavigate={(p) => handleNavToTab(p)}
             />
           );
@@ -372,7 +357,7 @@ export default function App() {
           return (
             <GazaReportPage
               lang={lang}
-              onBackToNews={() => handleNavToTab('noticias')}
+              onBackToNews={() => handleNavToTab('blog')}
               onNavigate={(p) => handleNavToTab(p)}
             />
           );
@@ -380,7 +365,7 @@ export default function App() {
           return (
             <UkraineReportPage
               lang={lang}
-              onBackToNews={() => handleNavToTab('noticias')}
+              onBackToNews={() => handleNavToTab('blog')}
               onNavigate={(p) => handleNavToTab(p)}
             />
           );
@@ -388,7 +373,7 @@ export default function App() {
           return (
             <MalvinasReportPage
               lang={lang}
-              onBackToNews={() => handleNavToTab('noticias')}
+              onBackToNews={() => handleNavToTab('blog')}
               onNavigate={(p) => handleNavToTab(p)}
             />
           );
@@ -421,7 +406,7 @@ export default function App() {
     );
   };
 
-  const pageSkeleton = activePage === 'portafolio' ? 'portfolio' : (activePage === 'blog' || activePage === 'noticias' || activePage === 'guias' ? 'blog' : 'default');
+  const pageSkeleton = activePage === 'portafolio' ? 'portfolio' : (activePage === 'blog' || activePage === 'guias' ? 'blog' : 'default');
 
   return (
     <div className={`min-h-screen bg-[#050505] font-sans text-stone-300 selection:bg-gold selection:text-black flex flex-col justify-between transition-all duration-500 ${dimmed ? 'cinema-dim' : ''}`}>
@@ -443,7 +428,7 @@ export default function App() {
       {/* Main Page Area */}
       <main id="main-content" className="flex-grow" tabIndex={-1}>
         <Suspense fallback={<PageSkeleton variant={pageSkeleton} />}>
-          {!postsReady && (activePage === 'blog' || activePage === 'noticias' || activePage === 'guias')
+          {!postsReady && (activePage === 'blog' || activePage === 'guias')
             ? <PageSkeleton variant="blog" />
             : renderPage()}
         </Suspense>

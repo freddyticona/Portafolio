@@ -77,7 +77,7 @@ export default function HomePage({
   // Ordenar por fecha descendente (más reciente primero) y filtrar
   const sorted = [...blogPosts].sort((a, b) => b.date.localeCompare(a.date));
   const personalPosts = sorted.filter(p => !p.source);
-  const newsPosts = sorted.filter(p => p.source);
+  const blogPreview = personalPosts.filter(p => p.categoryEs !== 'Guías y Trámites');
 
   return (
     <div className="space-y-16 md:space-y-24 animate-fadeIn">
@@ -438,27 +438,29 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* 7. NEWS PREVIEW */}
+      {/* 7. BLOG PREVIEW */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 gsap-fade">
         <div className="text-center space-y-3 animate-fade-in-up">
           <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
-            {lang === 'es' ? 'Cobertura Periodística' : 'Press Coverage'}
+            {lang === 'es' ? 'Apuntes de Rodaje' : 'Filming Diaries'}
           </span>
           <h2 className="text-2xl md:text-4xl font-extrabold text-white tracking-tight font-display">
-            {t.newsHomeTitle}
+            {lang === 'es' ? 'Lo que aprendo grabando' : 'What I learn while shooting'}
           </h2>
           <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
-            {t.newsHomeSubtitle}
+            {lang === 'es'
+              ? 'Técnica, equipo, edición y decisiones de rodaje explicadas con casos reales de producción en Bolivia.'
+              : 'Technique, gear, editing and on-set decisions explained through real production cases in Bolivia.'}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {newsPosts.slice(0, 4).map((post) => (
+          {blogPreview.slice(0, 4).map((post) => (
             <div
               key={post.id}
-              onClick={() => handleNavToTab('noticias')}
+              onClick={() => handleArticleClick(post)}
               role="button"
               tabIndex={0}
-              onKeyDown={(e) => { if (e.key === 'Enter') handleNavToTab('noticias'); }}
+              onKeyDown={(e) => { if (e.key === 'Enter') handleArticleClick(post); }}
               className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 tilt-card"
             >
               <div className="aspect-[16/10] overflow-hidden bg-[#0a0a0a] relative">
@@ -469,11 +471,6 @@ export default function HomePage({
                   decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                {post.breaking && (
-                  <span className="absolute top-2 left-2 bg-red-600 text-white text-[11px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm">
-                    {t.newsBreaking}
-                  </span>
-                )}
               </div>
               <div className="p-4 space-y-2">
                 <div className="flex items-center gap-2 text-[11px] font-mono text-stone-500">
@@ -492,10 +489,10 @@ export default function HomePage({
         </div>
         <div className="text-center pt-2">
           <button
-            onClick={() => handleNavToTab('noticias')}
+            onClick={() => handleNavToTab('blog')}
             className="px-6 py-3.5 border border-white/5 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
           >
-            {lang === 'es' ? 'Ver todas las noticias' : 'View All News'}
+            {lang === 'es' ? 'Ver todos los artículos' : 'Read all articles'}
           </button>
         </div>
       </section>

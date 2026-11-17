@@ -31,10 +31,9 @@ Sitemap: https://freddydev.net/sitemap-news.xml
 User-agent: Googlebot
 Allow: /
 
-# Google News: rastreador específico de noticias (no bloqueado en /noticias/)
+# Google News: sección de noticias retirada del sitio
 User-agent: Googlebot-News
-Allow: /
-Allow: /noticias/
+Disallow: /
 
 User-agent: Bingbot
 Allow: /

@@ -58,7 +58,6 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
   ];
 
   const contentItems: { id: PageId; label: string }[] = [
-    { id: 'noticias', label: t.navNews },
     { id: 'blog', label: t.navBlog },
     { id: 'guias', label: t.navGuides },
   ];
@@ -139,7 +138,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
               );
             })}
 
-            {/* Desplegable: Noticias / Blog / Guías */}
+            {/* Desplegable: Blog / Guías */}
             <div className="relative" ref={contentRef}>
               <button
                 id="nav-content-toggle"
@@ -147,7 +146,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
                 aria-haspopup="menu"
                 aria-expanded={contentOpen}
                 aria-controls="nav-content-menu"
-                aria-label={lang === 'es' ? 'Contenido: noticias, blog y guías' : 'Content: news, blog and guides'}
+                aria-label={lang === 'es' ? 'Contenido: blog y guías' : 'Content: blog and guides'}
                 className={`${desktopItemClass(contentActive || contentOpen)} inline-flex items-center gap-1`}
               >
                 {lang === 'es' ? 'Contenido' : 'Content'}
@@ -282,7 +281,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
               const isContentItem = contentItems.some((c) => c.id === item.id);
               return (
                 <React.Fragment key={item.id}>
-                  {isContentItem && item.id === 'noticias' && (
+                  {isContentItem && item.id === 'blog' && (
                     <p className="px-4 pt-3 pb-1 text-[11px] font-mono font-bold uppercase tracking-[0.2em] text-stone-500">
                       {lang === 'es' ? 'Contenido' : 'Content'}
                     </p>
