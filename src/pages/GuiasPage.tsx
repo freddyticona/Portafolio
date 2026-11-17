@@ -1,7 +1,8 @@
-import React, { Suspense, lazy, useState, useMemo } from 'react';
+import React, { Suspense, lazy, useState, useMemo, useEffect } from 'react';
 import { BlogPost, PageId } from '../types';
 import { TranslationT } from '../types.translation';
 import { BookOpen, FileText, Search, ArrowRight } from 'lucide-react';
+import { updateArticleMetaTags, updateMetaTags } from '../lib/seo';
 
 const BlogCard = lazy(() => import('../components/BlogCard'));
 const BlogDetail = lazy(() => import('../components/BlogDetail'));
@@ -38,6 +39,15 @@ export default function GuiasPage({
   const activePost = activeBlogPostId
     ? blogPosts.find(p => p.id === activeBlogPostId) ?? null
     : null;
+
+  // Meta tags: la guía abierta debe tener su propio título, descripción y canonical
+  useEffect(() => {
+    if (activePost) {
+      updateArticleMetaTags(activePost, lang, 'guias');
+    } else {
+      updateMetaTags('guias', lang);
+    }
+  }, [activePost?.id, lang]);
 
   // Agrupar por entidad/institución para que se vea la variedad de guías
   const groups = useMemo(() => {
