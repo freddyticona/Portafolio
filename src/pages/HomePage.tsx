@@ -201,7 +201,7 @@ export default function HomePage({
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statYears}</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">7+</div>
+              <div className="text-3xl md:text-5xl font-black text-gold font-display tracking-tight gsap-counter">5+</div>
               <div className="text-xs md:text-sm font-mono font-bold text-stone-400 uppercase tracking-widest">{t.statChannels}</div>
             </div>
             <div className="space-y-1">

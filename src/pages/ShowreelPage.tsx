@@ -57,7 +57,7 @@ export default function ShowreelPage({ lang = 'es', t, handleNavToTab }: Showree
         {[
           { icon: Film, label: '15+', sub: isEs ? 'Años de Experiencia' : 'Years of Experience' },
           { icon: Play, label: '30+', sub: isEs ? 'Documentales Producidos' : 'Documentaries Produced' },
-          { icon: Users, label: '7+', sub: isEs ? 'Canales de TV' : 'TV Networks' },
+          { icon: Users, label: '5+', sub: isEs ? 'Canales de TV' : 'TV Networks' },
         ].map(({ icon: Icon, label, sub }, i) => (
           <div key={i} className="bento-card p-6 text-center space-y-2">
             <Icon className="w-6 h-6 text-gold mx-auto" />
