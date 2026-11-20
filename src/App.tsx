@@ -291,6 +291,19 @@ export default function App() {
     setActiveBlogPostId(null);
   };
 
+  const handleCatalogo = () => {
+    if (activePage !== 'inicio') {
+      setActivePage('inicio');
+      window.history.pushState(null, '', '/');
+    }
+    setActiveCaseStudyId(null);
+    setActiveBlogPostId(null);
+    setTimeout(() => {
+      const el = document.getElementById('catalogo');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 120);
+  };
+
   const primaryRoute = (post: BlogPost): PageId => {
     if (post.categoryEs === 'Guías y Trámites') return 'guias';
     return 'blog';
@@ -450,6 +463,7 @@ export default function App() {
         <Navbar
           activePage={activePage}
           handleNavToTab={handleNavToTab}
+          onCatalogo={handleCatalogo}
         lang={lang}
         setLang={handleSetLang}
         t={t}

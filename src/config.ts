@@ -66,9 +66,6 @@ export const CONTACT_FORM = {
  * TODO: Reemplaza estos IDs con los videos reales de tu showreel y proyectos
  */
 export const YOUTUBE_VIDEOS = {
-  // Showreel principal (video de demostración)
-  showreel: 'MK4au-qQcsw',
-
   // Videos reales del portafolio
   videos: [
     {

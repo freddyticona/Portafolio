@@ -36,7 +36,6 @@ const sections = [
   { path: 'guias', priority: '0.8', changefreq: 'weekly' },
   { path: 'galeria', priority: '0.7', changefreq: 'monthly' },
   { path: 'eclipse-2026', priority: '0.9', changefreq: 'weekly' },
-  { path: 'showreel', priority: '0.9', changefreq: 'monthly' },
   { path: 'servicios', priority: '0.9', changefreq: 'monthly' },
   { path: 'reservas', priority: '0.7', changefreq: 'monthly' },
   { path: 'contacto', priority: '0.7', changefreq: 'monthly' },
