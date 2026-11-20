@@ -18,40 +18,49 @@
 ## Build Pipeline
 `npm run build` ejecuta en orden:
 1. `generate-icons` — genera favicons y PWA icons
-2. `generate-rss` — genera public/rss.xml (89 artículos)
-3. `generate-sitemap` — genera public/sitemap.xml (197 URLs)
-4. `generate-news-sitemap` — genera public/sitemap-news.xml
+2. `generate-rss` — genera public/rss.xml (104 artículos)
+3. `generate-sitemap` — genera public/sitemap.xml (116 URLs)
+4. `generate-image-dimensions` — genera src/lib/imageDimensions.ts
 5. `vite build` — compila el bundle
-6. `generate-pages` — pre-renderiza páginas HTML estáticas en dist/
+6. `generate-pages` — pre-renderiza páginas HTML estáticas en dist/ (121 rutas)
+7. `prerender` — renderiza con Puppeteer (se salta en CI: `process.env.CI`)
 
-> **Nota:** El número de URLs/artículos se calcula dinámicamente desde `src/translations.ts`
+> **Nota:** El número de URLs/artículos se calcula dinámicamente desde `src/data/blogPosts.ts`
 > (ver scripts `generate-rss.js`, `generate-sitemap.js`, `generate-pages.js`). No hardcodear conteos.
+> Ya no existe `generate-news-sitemap` (la sección de noticias fue retirada).
 
 ## Project Structure
 ```
 src/
-  components/     — UI components (PortfolioGrid, BlogDetail, Chatbot, NewsPortal, etc.)
-  lib/            — Firebase, analytics, seo, structuredData
-  pages/          — Páginas modulares (HomePage, AboutPage, PortfolioPage, CVPage, BlogPages, OtherPages)
-  translations.ts — TODOS los datos: portfolioItems, caseStudies, blogPosts, servicios, etc.
+  components/     — UI components (PortfolioGrid, BlogDetail, BlogLayout, Chatbot, etc.)
+  data/
+    blogPosts.ts  — Metadatos de los 104 artículos (fuente única)
+    blogContent/  — Cuerpos HTML troceados por grupos (carga diferida)
+    loader.ts     — Carga asíncrona: metadatos + grupo del artículo abierto
+    servicesPricing.json — Catálogo de servicios y precios reales (fuente única)
+  hooks/          — useScrollTracking, useGsapAnimations, useServiceWorker, etc.
+  lib/            — Firebase, analytics, seo, structuredData, summary
+  pages/          — Páginas modulares (HomePage, AboutPage, PortfolioPage, CVPage, BlogPages, GuiasPage, OtherPages)
+  translations.ts — Textos de UI (es/en) y datos del portafolio
   types.ts        — TypeScript interfaces
   types.translation.ts — Tipo inferido para traducciones
-  App.tsx         — Router/shell modular (~307 líneas, lazy loading por ruta)
+  App.tsx         — Router/shell modular (lazy loading por ruta)
   index.css       — Tailwind v4 + animaciones CSS custom
 public/
   images/
     portfolio/    — Fotos reales organizadas por proyecto
     blog/         — Imágenes de artículos
     behind-scenes/
-  sitemap.xml     — 197 URLs
-  rss.xml         — 89 artículos
+  404.html        — 404 estático con rutas útiles (WhatsApp + horario)
+  sitemap.xml     — 116 URLs
+  rss.xml         — 104 artículos
 fotos comprimidas/ — Fotos originales (no commiteadas a git)
 scripts/
-  generate-pages.js   — Pre-renderizado estático
+  generate-pages.js   — Pre-renderizado estático (+ schema de servicios/FAQ)
   generate-sitemap.js — Generación de sitemap
   generate-rss.js     — Generación de RSS
-  generate-news-sitemap.js — Sitemap de noticias
   generate-icons.js   — Favicons/PWA icons
+  prerender.mjs       — Puppeteer (se salta en CI)
 ```
 
 ## Portfolio — 8 Items Reales
@@ -77,19 +86,14 @@ scripts/
 - Sin videos (todos los videoUrl eliminados)
 - Filtros por categoría + búsqueda
 
-## Blog & Noticias — 89 Artículos
-- ids 1-2: Blog posts (detrás de cámaras, evolución TV)
-- ids 3-22: Noticias reales de medios bolivianos (La Razón, Los Tiempos, Opinión, El Deber, Unitel, ATB)
-- ids 23-27: Noticias virales (ATB Digital, Unitel)
-- ids 28+: Artículos de tecnología (NVIDIA, El Confidencial, AMD), deportes (ESPN), salud (OPS), guías trámites bolivianos (ids 79-88) y blog post técnico (id 89: Sistema de Gestión de Prensa)
-- Cada artículo tiene `source` + `sourceUrl` → link clickeable
-- Algunos artículos usan HTML puro (`contentHtml`) en vez de Markdown según formato SEO
-- BlogPosts ordenados por fecha descendente
-- Categorías dinámicas extraídas de los posts
-
-### Fuentes de noticias:
-- La Razón, Los Tiempos, Opinión, La Octava, El Deber, Unitel, ATB Digital, PRODU, VivePotosí, EntreCruzar, Revista Nómadas
-- Abya Yala TV (cobertura propia FENAVID), reflexión personal
+## Blog & Guías — 104 Artículos (sin noticias)
+- **73 artículos de blog** (reflexiones, tutoriales, análisis técnico, detrás de cámaras) + **31 guías de trámites** en Bolivia
+- La sección de noticias fue **retirada** (commit `719b0fe`): `/noticias` y `/noticias/*` devuelven 308 a `/blog`
+- Metadatos en `src/data/blogPosts.ts`; cuerpos HTML en `src/data/blogContent/group-XX.ts` (carga diferida por grupo)
+- Rutas: `/blog` (listado), `/blog/<slug>` (artículo), `/guias`, `/guias/<slug>`
+- Guías de trámites: categoría `Guías y Trámites` → schema `TechArticle`; el resto, `BlogPosting`
+- Body de todos los artículos es HTML (no Markdown); `src/lib/summary.ts` extrae los "3 puntos" del HTML
+- Artículos con `source` + `sourceUrl` conservan la atribución original visible en el cuerpo
 
 ## Certificaciones — 18 credenciales
 - 5 primarias (grado académico, competencias, cinematografía, fullstack, ciberseguridad) — siempre visibles en CV
@@ -104,16 +108,35 @@ scripts/
 ## Key Decisions & Pitfalls
 1. **lucide-react@0.546.0** — v1.25.0+ elimina iconos de marca (Linkedin, Facebook, Twitter, Youtube)
 2. **typescript@5.8.3** — TS 7.0.2 rompe build de Vite/Rolldown (`Cannot read properties of undefined (reading 'readFile')`)
-3. **Sin SSR** — El pre-renderizado en build genera HTML estático por ruta (64 páginas)
+3. **Sin SSR** — El pre-renderizado en build genera HTML estático por ruta (121 rutas); el texto completo de los artículos lo añade `prerender.mjs` (Puppeteer), que **no corre en CI/Vercel**
 4. **Portfolio con datos reales** — Todos los items y fotos son reales del trabajo de Freddy
 5. **No hay videos** — Ningún portfolio item tiene videoUrl; se muestran fotos en su lugar
 6. **aggregateRating eliminado** del schema LocalBusiness (Google lo marcaba error crítico)
-7. **Firebase merge por slug** — No sobreescribe artículos locales definidos en translations.ts
-8. **NewsPortal sin categorías hardcodeadas** — Las categorías se extraen dinámicamente de los posts reales (12 categorías)
-9. **Contenido HTML en artículos virales** — ids 23-27 usan HTML puro (h1, p em, h2, blockquote, ul) en vez de Markdown
-10. **Documentación sensible local-only** — Contextos IA, handoffs y resúmenes viven en `.opencode/archive/` (gitignored). Solo `CLAUDE.md` y `README.md` están en git.
+7. **Precios en una sola fuente** — `src/data/servicesPricing.json` → `src/config.ts` (`SERVICES_PRICING`) → schema JSON-LD (`src/lib/structuredData.ts`) y schema estático (`scripts/generate-pages.js`). Cambiar un precio ahí lo actualiza en web, JSON-LD y HTML
+8. **GA4: `send_page_view: false` + page_view manual** — `src/lib/seo.ts` emite el `page_view` cuando el `<title>` ya es correcto; si se midiera en el click o en `initGA`, todas las vistas de la SPA quedarían con el título de la sección anterior (134 vistas de home con 4 usuarios). Deduplicado por `path|título` en `src/lib/analytics.ts`
+9. **El shell no pisa el meta del artículo** — `App.tsx` hace `if (isArticlePath()) return;` en el efecto de SEO; el detalle (`BlogPages`/`GuiasPage`/`BlogDetail`) pone su `<title>`, canonical y JSON-LD
+10. **Un solo JSON-LD en el DOM** — `injectStructuredData()` borra todos los `ld+json` previos (el del HTML prerenderizado y el de la página anterior) para no dejar grafos contradictorios
+11. **Newsletter real** — `NewsletterSignup` envía a Web3Forms (misma key que el formulario de contacto) y dispara `generate_lead`; antes era un `alert()` sin persistencia
+12. **Documentación sensible local-only** — Contextos IA, handoffs y resúmenes viven en `.opencode/archive/` (gitignored). Solo `CLAUDE.md` y `README.md` están en git.
+13. **Pruebas locales no cuentan en GA4** — `initGA` desactiva GA en `localhost`/`127.0.0.1` para no contaminar el informe
+14. **No commitear** — `hoja de vida/`, `fotos comprimidas/`, scripts temporales `_*`, `*.err`, `*.xlsx`, `build*.log`
+
+## Medición GA4 (eventos disponibles)
+- `page_view` (manual, con path y título correctos)
+- `contact` (method: whatsapp|email|phone) y `generate_lead` (form_name: Contact Form|Newsletter)
+- `select_service` (item_name, value, currency), `view_services`, `scroll_depth` (25/50/75/100), `share`, `view_item`, `file_download`, `language_change`
+- Los eventos clave se marcan con ⭐ en la interfaz de GA4 (la plataforma no permite desmarcar `purchase`)
 
 ## Work Log (Resumen)
+### Sesión retención + conversión + medición GA4 (noviembre 2026):
+- **Blog**: carga progresiva (18 por página + "Cargar más"), sección "Empieza aquí" con 3 rutas de aprendizaje, guías destacadas, chips de categorías con contador; artículo con bloque "En 3 puntos" (extracción automática del HTML, `src/lib/summary.ts`), TOC visible por defecto y comentarios en `lazy()` con `showComments=false`
+- **Conversión**: CTA de WhatsApp precargado con el título del artículo en cada artículo, caja de autor (E-E-A-T), newsletter real vía Web3Forms (antes `alert()`), CTA de servicio con evento `select_service`
+- **Medición**: `page_view` manual desde `src/lib/seo.ts` (un view por navegación, con el título correcto), `scroll_depth` 25/50/75/100, `view_services`; GA4 deshabilitado en localhost
+- **Bug corregido**: el efecto de SEO del shell pisaba el `<title>` del artículo con el de la sección (y el JSON-LD de la home quedaba en el DOM de `/servicios`, con un `Article` inexistente)
+- **SEO**: schema de servicios con los 16 servicios y precios reales + `FAQPage` (6 preguntas), horario corregido (Lun–Vie 09:00–19:00, Sáb 09:00–14:00), 404 estático con rutas útiles
+- **Verificado en producción**: 1 page_view por ruta con título correcto, `contact`/`select_service`/`view_services`/`scroll_depth` en el dataLayer, schema ItemList:16 + FAQPage:6, e2e + accesibilidad 10/10
+- **Commit**: `f319dc7`
+
 ### Sesión artículo técnico SmartSub (julio 2026):
 - Agregado artículo técnico (id 160, contentType analysis) sobre **SmartSub** (buxuku/SmartSub, MIT, 4k+ stars): pipeline completa de subtítulos con IA (descarga de video → transcripción → traducción → corrección → doblaje con clonación de voz → quemado de subtítulos)
 - Contenido: origen del proyecto, 7 motores ASR, 20 servicios de traducción, instalación paso a paso (Windows/macOS/Homebrew/Linux), flujo 100% gratuito, privacidad, GPU y casos de uso para creadores/medios — con imágenes del repo descargadas localmente en `public/images/blog/smartsub/`
