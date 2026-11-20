@@ -140,6 +140,10 @@ export function extractArticles() {
       // Si ticksInLine === 2 en la misma línea (template inline), no saltamos: cae al extractor normal.
     }
 
+    // `id` puede ser string ("10") o numero; extractField cubre ambos casos.
+    const id = extractField(line, 'id');
+    if (id !== null) pending.id = id;
+
     const slug = extractField(line, 'slug');
     if (slug !== null) pending.slug = slug;
 
@@ -184,6 +188,7 @@ export function extractArticles() {
     // Cierre de objeto: `},` o `}` (último item). Soporta indentación 0 o más.
     if (/^\s*\},?\s*$/.test(line) && pending.slug) {
       articles.push({
+        id: pending.id || '',
         slug: pending.slug,
         titleEs: pending.titleEs || pending.slug,
         titleEn: pending.titleEn || pending.titleEs || pending.slug,

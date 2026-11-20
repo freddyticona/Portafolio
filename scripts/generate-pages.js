@@ -9,6 +9,73 @@ const __dirname = path.dirname(__filename);
 const SITE = 'https://freddydev.net';
 const TODAY = new Date().toISOString().slice(0, 10);
 
+/**
+ * Extrae el cuerpo HTML (idioma español) de un artículo a partir de su id.
+ *
+ * Los cuerpos viven en src/data/blogContent/group-XX.ts, donde XX = id % 39
+ * (grupos 00..38). El formato es un objeto JSON-like con claves string (id) y
+ * valores { "es": "HTML...", "en": "HTML..." }. Se captura el campo "es" con
+ * una regex que respeta escapes (\\", \\\\, \\n, \\uXXXX).
+ *
+ * Devuelve null si no se encuentra el id o el archivo no existe, de modo que
+ * el build nunca se rompe por un artículo sin cuerpo.
+ *
+ * @param {string|number} id
+ * @returns {string|null}
+ */
+function loadArticleBody(id) {
+  const num = parseInt(id, 10);
+  if (!Number.isFinite(num)) return null;
+  const group = num % 39;
+  const groupFile = path.join(__dirname, '..', 'src', 'data', 'blogContent', 'group-' + String(group).padStart(2, '0') + '.ts');
+  if (!fs.existsSync(groupFile)) return null;
+  const src = fs.readFileSync(groupFile, 'utf-8');
+  const keyIdx = src.indexOf('"' + id + '"');
+  if (keyIdx === -1) return null;
+  const esIdx = src.indexOf('"es"', keyIdx);
+  if (esIdx === -1) return null;
+  // find the colon after "es"
+  const colonIdx = src.indexOf(':', esIdx);
+  if (colonIdx === -1) return null;
+  // find the opening quote of the value
+  let i = colonIdx + 1;
+  while (i < src.length && (src[i] === ' ' || src[i] === '\t' || src[i] === '\n' || src[i] === '\r')) i++;
+  if (src[i] !== '"') return null;
+  i++; // skip opening quote
+  // scan the string, handling escapes
+  let result = '';
+  while (i < src.length) {
+    const c = src[i];
+    if (c === '"') {
+      // end of string
+      break;
+    }
+    if (c === '\\') {
+      const next = src[i + 1];
+      if (next === 'n') { result += '\n'; i += 2; continue; }
+      if (next === 't') { result += '\t'; i += 2; continue; }
+      if (next === 'r') { result += '\r'; i += 2; continue; }
+      if (next === '"') { result += '"'; i += 2; continue; }
+      if (next === '\\') { result += '\\'; i += 2; continue; }
+      if (next === 'u') {
+        const hex = src.slice(i + 2, i + 6);
+        if (/^[0-9a-fA-F]{4}$/.test(hex)) {
+          result += String.fromCharCode(parseInt(hex, 16));
+          i += 6;
+          continue;
+        }
+      }
+      // unknown escape: keep backslash and char
+      result += c;
+      i++;
+      continue;
+    }
+    result += c;
+    i++;
+  }
+  return result;
+}
+
 const escapeAttr = (s) => String(s)
   .replace(/&/g, '&amp;')
   .replace(/"/g, '&quot;')
@@ -121,6 +188,7 @@ const pages = {
 // Artículos del blog y noticias — extraídos dinámicamente de src/data/blogPosts.ts
 const _rawArticles = extractArticles();
 const articles = _rawArticles.map(a => ({
+  id: a.id || '',
   slug: a.slug,
   title: a.titleEs,
   titleEn: a.titleEn || '',
@@ -475,7 +543,12 @@ for (const article of articles) {
   html = html.replace('</head>', `    <link rel="alternate" hreflang="es" href="${esUrl}" />
     <link rel="alternate" hreflang="x-default" href="${esUrl}" />
   </head>`);
-  // Incluir contenido visible para Googlebot pre-renderizado
+  // Incluir contenido visible para Googlebot pre-renderizado.
+  // Además del resumen (H1 + descripción), se inyecta el cuerpo completo del
+  // artículo extraído de src/data/blogContent/group-XX.ts, para que crawlers
+  // que no ejecutan JS (Googlebot en modo sin render, crawlers de IA, etc.)
+  // vean el texto real y no solo el teaser.
+  const articleBodyHtml = (typeof loadArticleBody === 'function') ? loadArticleBody(article.id) : null;
   const bodyContent = `
   <div id="seo-content" style="display:none">
     <h1>${article.title}</h1>
@@ -483,6 +556,7 @@ for (const article of articles) {
     <p>Fecha: ${article.date}</p>
     <p>Categoría: ${article.categoryEs}</p>
     ${article.source ? `<p>Fuente: ${escapeXml(article.source)}${article.sourceUrl ? ` — ${escapeXml(article.sourceUrl)}` : ''}</p>` : ''}
+    ${articleBodyHtml ? `<article>${articleBodyHtml}</article>` : ''}
   </div>`.trim();
   html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');

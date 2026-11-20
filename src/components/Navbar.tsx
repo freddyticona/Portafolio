@@ -54,12 +54,14 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
     { id: 'inicio', label: t.navHome },
     { id: 'sobre-mi', label: t.navAbout },
     { id: 'portafolio', label: t.navPortfolio },
+    { id: 'showreel', label: 'Showreel' },
     { id: 'cv', label: t.navCv },
   ];
 
   const contentItems: { id: PageId; label: string }[] = [
     { id: 'blog', label: t.navBlog },
     { id: 'guias', label: t.navGuides },
+    { id: 'galeria', label: lang === 'es' ? 'Galería' : 'Gallery' },
   ];
 
   const secondaryItems: { id: PageId; label: string }[] = [

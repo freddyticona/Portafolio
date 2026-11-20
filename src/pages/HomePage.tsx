@@ -371,12 +371,24 @@ export default function HomePage({
             </div>
           ))}
         </div>
-        <div className="text-center pt-2">
+        <div className="text-center pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
           <button
             onClick={() => handleNavToTab('portafolio')}
             className="px-6 py-3.5 border border-white/5 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
           >
             {lang === 'es' ? 'Ver Portafolio Completo' : 'View Full Portfolio'}
+          </button>
+          <button
+            onClick={() => handleNavToTab('showreel')}
+            className="px-6 py-3.5 border border-gold/30 hover:border-gold bg-gold/5 hover:bg-gold text-gold hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
+          >
+            {lang === 'es' ? 'Ver Showreel' : 'View Showreel'}
+          </button>
+          <button
+            onClick={() => handleNavToTab('galeria')}
+            className="px-6 py-3.5 border border-white/5 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
+          >
+            {lang === 'es' ? 'Ver Galería' : 'View Gallery'}
           </button>
         </div>
       </section>
