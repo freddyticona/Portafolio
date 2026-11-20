@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'guias' | 'galeria' | 'showreel' | 'contacto' | 'reservas' | 'servicios' | 'admin' | 'eclipse-2026' | 'reportaje-iran-furia-epica' | 'reportaje-gaza-desarme' | 'reportaje-ucrania-estancamiento' | 'reportaje-malvinas-historia';
+export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'guias' | 'galeria' | 'contacto' | 'reservas' | 'servicios' | 'admin' | 'eclipse-2026' | 'reportaje-iran-furia-epica' | 'reportaje-gaza-desarme' | 'reportaje-ucrania-estancamiento' | 'reportaje-malvinas-historia';
 
 /**
  * Servicio preseleccionado que viaja de /servicios al formulario de

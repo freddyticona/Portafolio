@@ -54,7 +54,6 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
     { id: 'inicio', label: t.navHome },
     { id: 'sobre-mi', label: t.navAbout },
     { id: 'portafolio', label: t.navPortfolio },
-    { id: 'showreel', label: 'Showreel' },
     { id: 'cv', label: t.navCv },
   ];
 

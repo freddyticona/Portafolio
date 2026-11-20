@@ -6,8 +6,8 @@
 import React, { useEffect } from 'react';
 import { BlogPost, PortfolioItem, PageId } from '../types';
 import { TranslationT } from '../types.translation';
-import { Film, ChevronRight, Calendar, Play, Volume2, VolumeX, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon, MessageCircle, CheckCircle2 } from 'lucide-react';
-import { YOUTUBE_VIDEOS, SERVICES_PRICING, CONTACT_INFO } from '../config';
+import { ChevronRight, Calendar, Image as ImageIcon, Newspaper, MapPin, Camera as CameraIcon, MessageCircle, CheckCircle2 } from 'lucide-react';
+import { SERVICES_PRICING, CONTACT_INFO } from '../config';
 import { PortfolioEvents } from '../lib/analytics';
 import CinematicHero from '../components/CinematicHero';
 import BlogCard from '../components/BlogCard';
@@ -19,10 +19,6 @@ interface HomePageProps {
   portfolioItems: PortfolioItem[];
   handleNavToTab: (pageId: PageId) => void;
   handleArticleClick: (post: BlogPost, page?: PageId) => void;
-  reelPlaying: boolean;
-  setReelPlaying: (v: boolean) => void;
-  reelMuted: boolean;
-  setReelMuted: (v: boolean) => void;
 }
 
 export default function HomePage({
@@ -32,10 +28,6 @@ export default function HomePage({
   portfolioItems,
   handleNavToTab,
   handleArticleClick,
-  reelPlaying,
-  setReelPlaying,
-  reelMuted,
-  setReelMuted,
 }: HomePageProps) {
   const waNumber = CONTACT_INFO.phoneNumber.replace(/\D/g, '');
 
@@ -101,7 +93,7 @@ export default function HomePage({
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-6">
           
           {/* Main Content - Left (2 cols) */}
-          <div className="lg:col-span-2 bento-card p-8 md:p-12 flex flex-col justify-center reveal reveal-left">
+          <div className="lg:col-span-4 bento-card p-8 md:p-12 flex flex-col justify-center reveal reveal-left">
             <div className="space-y-6">
               <div className="space-y-2">
                 <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest block">
@@ -126,71 +118,8 @@ export default function HomePage({
             </div>
           </div>
 
-          {/* Showreel - Right (2 cols) */}
-          <div className="lg:col-span-2 bento-card p-4 md:p-6 reveal reveal-right">
-            <div className="flex items-center justify-between text-[11px] font-mono text-stone-500 mb-3 px-2">
-              <span className="flex items-center gap-1.5 uppercase font-bold text-gold/90 tracking-widest">
-                <Film className="w-3.5 h-3.5" />
-                <span>{t.heroShowreelTitle}</span>
-              </span>
-              <span>4K UHD / 2026</span>
-            </div>
-            <div className="aspect-video w-full rounded-lg overflow-hidden bg-black border border-white/5 relative group shadow-2xl">
-              {reelPlaying ? (
-                <div className="w-full h-full relative">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${YOUTUBE_VIDEOS.showreel}?autoplay=1&mute=${reelMuted ? '1' : '0'}`}
-                    title="Freddy Ticona Showreel"
-                    className="w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                  />
-                  <button
-                    onClick={() => setReelMuted(!reelMuted)}
-                    aria-label={reelMuted ? (lang === 'es' ? 'Activar sonido' : 'Unmute') : (lang === 'es' ? 'Silenciar' : 'Mute')}
-                    className="absolute bottom-4 right-4 z-20 p-2 rounded-full bg-black/80 border border-white/10 text-gold hover:text-white transition-colors cursor-pointer"
-                  >
-                    {reelMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-                  </button>
-                </div>
-              ) : (
-                <div
-                  className="w-full h-full relative cursor-pointer"
-                  onClick={() => setReelPlaying(true)}
-                  role="button"
-                  tabIndex={0}
-                  aria-label={lang === 'es' ? 'Reproducir showreel' : 'Play showreel'}
-                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setReelPlaying(true); }}
-                >
-                  <img
-                    src="/images/freddy_studio.webp"
-                    alt="Showreel Thumbnail"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 brightness-50"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-full bg-gold text-black flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
-                      <Play className="w-6 h-6 fill-black ml-1" />
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-            <div className="flex items-center justify-between mt-3 px-2">
-              <span className="text-[11px] font-mono text-stone-500 uppercase tracking-widest">
-                {lang === 'es' ? 'Página dedicada con el video completo' : 'Dedicated page with the full video'}
-              </span>
-              <button
-                onClick={() => handleNavToTab('showreel')}
-                aria-label={lang === 'es' ? 'Ver showreel completo' : 'View full showreel'}
-                className="inline-flex items-center gap-1 text-xs font-mono font-bold text-gold hover:text-gold-hover hover:translate-x-1 transition-all duration-300 cursor-pointer"
-              >
-                {lang === 'es' ? 'Ver Showreel' : 'View Showreel'}
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
       {/* 3. QUICK HIGHLIGHTS / STATS COUNTERS */}
       <section className="bg-white/[0.01] border-y border-white/5 py-12 gsap-fade">
@@ -378,13 +307,7 @@ export default function HomePage({
           >
             {lang === 'es' ? 'Ver Portafolio Completo' : 'View Full Portfolio'}
           </button>
-          <button
-            onClick={() => handleNavToTab('showreel')}
-            className="px-6 py-3.5 border border-gold/30 hover:border-gold bg-gold/5 hover:bg-gold text-gold hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
-          >
-            {lang === 'es' ? 'Ver Showreel' : 'View Showreel'}
-          </button>
-          <button
+<button
             onClick={() => handleNavToTab('galeria')}
             className="px-6 py-3.5 border border-white/5 hover:border-gold bg-white/[0.02] hover:bg-gold text-stone-300 hover:text-black rounded-sm text-xs font-mono font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer"
           >

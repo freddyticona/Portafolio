@@ -396,39 +396,6 @@ export function generateNewsArticleStructuredData(article: {
 }
 
 /**
- * Genera structured data (VideoObject) para la página de Showreel.
- * Solo se emite en la página dedicada /showreel donde el video se muestra visible.
- */
-export function generateShowreelStructuredData(video: {
-  title: string;
-  description: string;
-  videoId: string;
-  thumbnailUrl?: string;
-  uploadDate?: string;
-  duration?: string;
-}): object {
-  const embedUrl = `https://www.youtube.com/embed/${video.videoId}`;
-  const contentUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'VideoObject',
-    name: video.title,
-    description: video.description,
-    thumbnailUrl: video.thumbnailUrl || `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`,
-    uploadDate: video.uploadDate || '2026-07-01T12:00:00-04:00',
-    duration: video.duration || 'PT1M',
-    embedUrl,
-    contentUrl,
-    author: PERSON_DATA,
-    publisher: {
-      '@type': 'Organization',
-      name: 'Freddy Ticona - Servicios Audiovisuales',
-      logo: { '@type': 'ImageObject', url: `${BASE_URL}/favicon.ico` }
-    }
-  };
-}
-
-/**
  * Genera structured data para la página de Servicios
  *
  * Usa el catálogo real de `src/data/servicesPricing.json` (la misma tabla que
@@ -635,9 +602,6 @@ export function updatePageStructuredData(pageId: string, additionalData?: any): 
         generateServicesStructuredData(),
         generateFAQStructuredData()
       ];
-      break;
-    case 'showreel':
-      structuredData = generateShowreelStructuredData(additionalData?.video || {});
       break;
     case 'contacto':
       structuredData = [

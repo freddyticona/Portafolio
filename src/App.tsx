@@ -25,7 +25,7 @@ import type { FilterState } from './components/PortfolioFilters';
 
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
+import { CONTACT_INFO } from './config';
 import { updateMetaTags } from './lib/seo';
 import { PortfolioEvents } from './lib/analytics';
 import { useGsapAnimations } from './hooks/useGsapAnimations';
@@ -50,7 +50,7 @@ const CVPage = lazy(() => import('./pages/CVPage'));
 const BlogPage = lazy(() => import('./pages/BlogPages').then(m => ({ default: m.BlogPage })));
 const GuiasPage = lazy(() => import('./pages/GuiasPage'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
-const ShowreelPage = lazy(() => import('./pages/ShowreelPage'));
+
 const Eclipse2026Page = lazy(() => import('./pages/Eclipse2026Page'));
 const IranReportPage = lazy(() => import('./pages/IranReportPage'));
 const GazaReportPage = lazy(() => import('./pages/GazaReportPage'));
@@ -72,7 +72,7 @@ const Chatbot = lazy(() => import('./components/Chatbot'));
 // o a /servicios) y para validar el popstate.
 const VALID_PAGES: PageId[] = [
   'inicio', 'sobre-mi', 'portafolio', 'cv',
-  'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
+  'blog', 'guias', 'galeria', 'contacto', 'reservas', 'servicios', 'admin',
   'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento', 'reportaje-malvinas-historia',
 ];
 
@@ -163,8 +163,6 @@ export default function App() {
   const [activeBlogPostId, setActiveBlogPostId] = useState<string | null>(null);
 
   // Estado del showreel (se mantiene en App para preservarlo entre navegaciones)
-  const [reelPlaying, setReelPlaying] = useState(false);
-  const [reelMuted, setReelMuted] = useState(true);
 
   // Servicio preseleccionado que se traslada al formulario de cotización
   const [quoteRequest, setQuoteRequest] = useState<QuoteRequestContext | null>(null);
@@ -270,19 +268,7 @@ export default function App() {
     // sección y GA4 registraría la vista con el título incorrecto.
     if (isArticlePath()) return;
 
-    const additionalData =
-      activePage === 'showreel'
-        ? {
-            video: {
-              title: 'Freddy Ticona Guzmán - Showreel Audiovisual 2026',
-              description:
-                'Showreel profesional de Freddy Ticona Guzmán. Documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación y edición.',
-              videoId: YOUTUBE_VIDEOS.showreel,
-              uploadDate: '2026-07-01T12:00:00-04:00',
-            },
-          }
-        : undefined;
-    updateMetaTags(activePage, lang, additionalData);
+    updateMetaTags(activePage, lang);
   }, [activePage, lang]);
 
   // ─── Medición: profundidad de lectura + visita a servicios ────────────────
@@ -332,10 +318,6 @@ export default function App() {
               portfolioItems={portfolioItems}
               handleNavToTab={handleNavToTab}
               handleArticleClick={handleArticleClick}
-              reelPlaying={reelPlaying}
-              setReelPlaying={setReelPlaying}
-              reelMuted={reelMuted}
-              setReelMuted={setReelMuted}
             />
           );
         case 'sobre-mi':
@@ -419,8 +401,6 @@ export default function App() {
               onNavigate={(p) => handleNavToTab(p)}
             />
           );
-        case 'showreel':
-          return <ShowreelPage lang={lang} t={t} handleNavToTab={handleNavToTab} />;
         case 'contacto':
           return (
             <ContactPage

@@ -161,13 +161,6 @@ const pages = {
     ogTitle: 'Malvinas: 192 Años de Disputa | Reportaje Especial',
     path: '/reportaje-malvinas-historia'
   },
-  'showreel': {
-    title: 'Showreel Audiovisual | Freddy Ticona Camarógrafo Bolivia | Filmación 4K',
-    desc: 'Showreel profesional de Freddy Ticona Guzmán: documentales, cobertura periodística en primera línea, producciones televisivas y proyectos internacionales. Más de 15 años de experiencia en filmación 4K.',
-    ogTitle: 'Showreel Audiovisual de Freddy Ticona | Camarógrafo Bolivia',
-    path: '/showreel',
-    video: true
-  },
   'servicios': {
     title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
     desc: 'Contrata servicios profesionales de filmación 4K, edición de video, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cotiza tu proyecto.',
