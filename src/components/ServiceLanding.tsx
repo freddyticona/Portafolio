@@ -264,7 +264,13 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                       href={quoteLink(isEs ? service.nameEs : service.nameEn, service.basePrice)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      onClick={() => PortfolioEvents.whatsappClick()}
+                      onClick={() => {
+                        PortfolioEvents.whatsappClick();
+                        PortfolioEvents.selectService(
+                          isEs ? service.nameEs : service.nameEn,
+                          service.basePrice
+                        );
+                      }}
                       className="w-full px-6 py-3 bg-[#25D366] hover:bg-[#1FB855] text-black font-bold rounded-sm transition-all flex items-center justify-center gap-2"
                     >
                       <MessageCircle className="w-5 h-5" />

@@ -27,7 +27,9 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { CONTACT_INFO, YOUTUBE_VIDEOS } from './config';
 import { updateMetaTags } from './lib/seo';
+import { PortfolioEvents } from './lib/analytics';
 import { useGsapAnimations } from './hooks/useGsapAnimations';
+import { useScrollTracking } from './hooks/useScrollTracking';
 import CustomCursor from './components/CustomCursor';
 import ScrollProgressBtn from './components/ScrollProgressBtn';
 
@@ -63,6 +65,33 @@ const AdminPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: 
 // Componentes flotantes globales — lazy loaded
 const WhatsAppButton = lazy(() => import('./components/WhatsAppButton'));
 const Chatbot = lazy(() => import('./components/Chatbot'));
+
+// ─── Rutas ───────────────────────────────────────────────────────────────
+// Lista de secciones que la SPA reconoce. Se usa para resolver la ruta al
+// montar (evita el "flash" de la home cuando se entra directo a un artículo
+// o a /servicios) y para validar el popstate.
+const VALID_PAGES: PageId[] = [
+  'inicio', 'sobre-mi', 'portafolio', 'cv',
+  'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
+  'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento', 'reportaje-malvinas-historia',
+];
+
+/** Resuelve la sección de la SPA a partir del pathname actual. */
+function pageFromPath(pathname: string): PageId {
+  const parts = pathname.split('/').filter(Boolean);
+  const pageStr = parts[0] || 'inicio';
+  return VALID_PAGES.includes(pageStr as PageId) ? (pageStr as PageId) : 'inicio';
+}
+
+/**
+ * ¿La ruta actual es el detalle de un artículo (/blog/slug, /guias/slug)?
+ * En ese caso el detalle actualiza su propio <title>, canonical y JSON-LD:
+ * si el shell lo hiciera, pondría el título de la sección y pisaría el del
+ * artículo (y mediría una vista con el título equivocado).
+ */
+function isArticlePath(pathname: string = window.location.pathname): boolean {
+  return /^\/(blog|guias)\/[^/]+\/?$/.test(pathname);
+}
 
 // ─── Skeleton loaders por tipo de página ─────────────────────────────────
 function PageSkeleton({ variant = 'default' }: { variant?: 'default' | 'blog' | 'portfolio' }) {
@@ -119,7 +148,9 @@ function PageSkeleton({ variant = 'default' }: { variant?: 'default' | 'blog' | 
 
 export default function App() {
   // ─── Estado global de la aplicación ─────────────────────────────────────
-  const [activePage, setActivePage] = useState<PageId>('inicio');
+  const [activePage, setActivePage] = useState<PageId>(() =>
+    typeof window !== 'undefined' ? pageFromPath(window.location.pathname) : 'inicio'
+  );
   const [lang, setLang] = useState<'es' | 'en'>(() => {
     const saved = typeof window !== 'undefined' ? localStorage.getItem('lang') : null;
     return (saved === 'es' || saved === 'en') ? saved : 'es';
@@ -195,12 +226,7 @@ export default function App() {
       }
 
       const pageStr = parts[0] || 'inicio';
-      const validPages: PageId[] = [
-        'inicio', 'sobre-mi', 'portafolio', 'cv',
-        'blog', 'guias', 'galeria', 'showreel', 'contacto', 'reservas', 'servicios', 'admin',
-        'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento', 'reportaje-malvinas-historia',
-      ];
-      if (validPages.includes(pageStr as PageId)) {
+      if (VALID_PAGES.includes(pageStr as PageId)) {
         setActivePage(pageStr as PageId);
         setActiveCaseStudyId(null);
         setActiveBlogPostId(null);
@@ -234,6 +260,12 @@ export default function App() {
 
   // ─── SEO: actualizar meta tags en cada cambio de página/idioma ───────────
   useEffect(() => {
+    // En el detalle de un artículo manda el componente de la página: él pone
+    // el <title> del artículo, su canonical y su JSON-LD. Si el shell lo
+    // actualizara aquí, sobreescribiría el título del artículo con el de la
+    // sección y GA4 registraría la vista con el título incorrecto.
+    if (isArticlePath()) return;
+
     const additionalData =
       activePage === 'showreel'
         ? {
@@ -248,6 +280,12 @@ export default function App() {
         : undefined;
     updateMetaTags(activePage, lang, additionalData);
   }, [activePage, lang]);
+
+  // ─── Medición: profundidad de lectura + visita a servicios ────────────────
+  useScrollTracking(window.location.pathname || '/');
+  useEffect(() => {
+    if (activePage === 'servicios') PortfolioEvents.viewServices();
+  }, [activePage]);
 
   // ─── GSAP Animations (scroll reveal, counters, etc.) ────────────────────
   useGsapAnimations();

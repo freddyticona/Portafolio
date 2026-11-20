@@ -74,6 +74,7 @@ export function BlogPage({
         <Suspense fallback={<LoadingFallback />}>
           <BlogLayout
             posts={personalPosts}
+            guides={blogPosts.filter(p => p.categoryEs === 'Guías y Trámites')}
             lang={lang}
             t={t}
             onArticleClick={(post) => handleArticleClick(post)}

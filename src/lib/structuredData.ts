@@ -10,6 +10,8 @@
  * para mejorar el SEO y la aparición en resultados enriquecidos de Google.
  */
 
+import { SERVICES_PRICING } from '../config';
+
 export interface StructuredDataConfig {
   type: 'Person' | 'LocalBusiness' | 'Article' | 'VideoObject' | 'BreadcrumbList' | 'Service' | 'Offer';
   data: Record<string, any>;
@@ -125,12 +127,20 @@ const BUSINESS_DATA = {
     latitude: '-16.5',
     longitude: '-68.15'
   },
-  openingHoursSpecification: [{
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    opens: '09:00',
-    closes: '19:00'
-  }],
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '19:00'
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Saturday'],
+      opens: '09:00',
+      closes: '14:00'
+    }
+  ],
   priceRange: '$$',
   areaServed: [
     { '@type': 'City', name: 'La Paz' },
@@ -420,8 +430,33 @@ export function generateShowreelStructuredData(video: {
 
 /**
  * Genera structured data para la página de Servicios
+ *
+ * Usa el catálogo real de `src/data/servicesPricing.json` (la misma tabla que
+ * renderiza la página), de modo que el JSON-LD y el contenido visible nunca
+ * se contradicen: mismos servicios, mismos precios base, misma moneda.
  */
 export function generateServicesStructuredData(): object {
+  const services = SERVICES_PRICING.map((service, index) => ({
+    '@type': 'Service',
+    position: index + 1,
+    name: service.nameEs,
+    description: service.descriptionEs,
+    serviceType: service.type,
+    provider: { '@id': `${BASE_URL}/#business` },
+    areaServed: [
+      { '@type': 'City', name: 'La Paz' },
+      { '@type': 'City', name: 'El Alto' },
+      { '@type': 'Country', name: 'Bolivia' }
+    ],
+    offers: {
+      '@type': 'Offer',
+      price: String(service.basePrice),
+      priceCurrency: service.currency,
+      availability: 'https://schema.org/InStock',
+      url: `${BASE_URL}/servicios`
+    }
+  }));
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -429,52 +464,8 @@ export function generateServicesStructuredData(): object {
       {
         '@type': 'ItemList',
         name: 'Servicios Audiovisuales',
-        description: 'Lista de servicios audiovisuales profesionales',
-        itemListElement: [
-          {
-            '@type': 'Service',
-            position: 1,
-            name: 'Filmación de Eventos',
-            description: 'Cobertura profesional de eventos con tecnología Full HD',
-            provider: PERSON_DATA,
-            areaServed: { '@type': 'City', name: 'La Paz' },
-            hasOfferCatalog: {
-              '@type': 'OfferCatalog',
-              name: 'Filmación de Eventos',
-              itemListElement: [{
-                '@type': 'Offer',
-                itemOffered: {
-                  '@type': 'Service',
-                  name: 'Filmación Básica',
-                  description: '2 horas de cobertura',
-                  price: '500',
-                  priceCurrency: 'BOB'
-                }
-              }]
-            }
-          },
-          {
-            '@type': 'Service',
-            position: 2,
-            name: 'Edición de Video',
-            description: 'Post-producción profesional con color grading',
-            provider: PERSON_DATA
-          },
-          {
-            '@type': 'Service',
-            position: 3,
-            name: 'Producción de Documentales',
-            description: 'Documentales de televisión y cine con enfoque cultural',
-            provider: PERSON_DATA
-          },
-          {
-            '@type': 'Service',
-            position: 4,
-            name: 'Consultoría Audiovisual',
-            description: 'Asesoría para proyectos de producción y estrategia',
-            provider: PERSON_DATA
-          }
-        ]
+        description: 'Servicios de filmación, edición, fotografía y animación con precios base en La Paz, Bolivia',
+        itemListElement: services
       }
     ]
   };
@@ -532,10 +523,34 @@ export function generateFAQStructuredData(): object {
     mainEntity: [
       {
         '@type': 'Question',
+        name: '¿Cuánto tiempo toma la entrega?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'El material finalizado se entrega en un plazo de 3 a 5 días hábiles posteriores a la conclusión de la grabación o recepción del material.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: '¿Viajas a otras ciudades?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Sí, estoy disponible para todo Bolivia con costo adicional de viáticos.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: '¿Qué incluye el precio?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Cada tarifa incluye preproducción, grabación multicámara Full HD (2 cámaras Nikon D5100), audio profesional inalámbrico con micrófono Rode Wireless GO 3, edición, corrección de color y entrega final en MP4 (H.264).'
+        }
+      },
+      {
+        '@type': 'Question',
         name: '¿Qué servicios ofrece Freddy Ticona?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Ofrezco servicios de filmación profesional de eventos, edición de video con color grading, producción de documentales y consultoría audiovisual en La Paz, Bolivia.'
+          text: 'Trabajo en video, fotografía y animación: historias de vida, coberturas de eventos, cápsulas noticiosas, noticiarios corporativos, reportajes de impacto, edición de material preexistente, cobertura fotográfica, fotoreportaje, reels verticales, packs mensuales de reels, animaciones con IA y planes institucionales que combinan varios de estos servicios.'
         }
       },
       {
@@ -543,7 +558,7 @@ export function generateFAQStructuredData(): object {
         name: '¿En qué zonas de Bolivia trabaja?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Trabajo principalmente en La Paz y El Alto, pero también estoy disponible para viajar a cualquier departamento de Bolivia para proyectos especiales.'
+          text: 'Trabajo principalmente en La Paz y El Alto, y viajo a cualquier departamento de Bolivia para proyectos especiales, con viáticos aparte.'
         }
       },
       {
@@ -551,23 +566,7 @@ export function generateFAQStructuredData(): object {
         name: '¿Cómo puedo contratar sus servicios?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Puede contactarme por WhatsApp al +59162408420, por email a freddyticona62@gmail.com, o usar el formulario de contacto en este sitio web.'
-        }
-      },
-      {
-        '@type': 'Question',
-        name: '¿Tiene experiencia en televisión?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Sí, tengo más de 15 años de experiencia en televisión boliviana, incluyendo trabajos en Bolivia TV, Red Uno y RTP. Ganador del Premio Nacional Eduardo Abaroa 2017.'
-        }
-      },
-      {
-        '@type': 'Question',
-        name: '¿Qué equipos utiliza para filmación?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Utilizo cámaras profesionales Full HD (Nikon D5100 y cámara secundaria), equipos de iluminación LED y sistemas de audio inalámbricos Rode Wireless GO 3, dependiendo de las necesidades del proyecto.'
+          text: 'Por WhatsApp al +591 62408420, por email a freddyticona62@gmail.com, o con el formulario de contacto del sitio. Atiendo de lunes a viernes de 09:00 a 19:00 y los sábados de 09:00 a 14:00.'
         }
       }
     ]
@@ -576,13 +575,17 @@ export function generateFAQStructuredData(): object {
 
 /**
  * Inyecta el JSON-LD en el head del documento
+ *
+ * Antes de insertar, elimina TODOS los scripts ld+json presentes: el que
+ * bring el HTML prerenderizado de la ruta anterior y el dinámico de la página
+ * anterior. Sin esta limpieza, al navegar de la home a /servicios se quedaba
+ * en el DOM el schema de la home (con un "Article" inexistente) junto al de
+ * servicios, y Google recibía dos grafos contradictorios.
  */
 export function injectStructuredData(data: object): void {
-  // Eliminar JSON-LD anterior si existe
-  const existingScript = document.getElementById('dynamic-structured-data');
-  if (existingScript) {
-    existingScript.remove();
-  }
+  document.querySelectorAll('script[type="application/ld+json"]').forEach(script => {
+    script.remove();
+  });
 
   // Crear nuevo script
   const script = document.createElement('script');

@@ -13,6 +13,7 @@
  */
 
 import { updatePageStructuredData } from './structuredData';
+import { trackPageView } from './analytics';
 
 export interface SEOMetadata {
   title: string;
@@ -225,6 +226,12 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
 
   // Actualizar structured data (JSON-LD)
   updatePageStructuredData(pageId, additionalData);
+
+  // Medición: una sola vista de página por ruta+título. Se emite aquí, y no
+  // en el click del enlace, porque aquí el <title> ya es el definitivo: en una
+  // SPA React actualiza el título DESPUÉS del pushState, así que medir en el
+  // click registraba todas las vistas con el título de la sección anterior.
+  trackPageView(window.location.pathname || '/', document.title);
 }
 
 /**
@@ -275,6 +282,11 @@ export function updateArticleMetaTags(
   canonicalLink.href = canonicalUrl;
 
   updateOrCreateMetaTag('property', 'og:url', canonicalUrl);
+
+  // Medición: la vista del artículo se cuenta con su título real (ver nota en
+  // updateMetaTags). La ruta sale del propio artículo para no depender del
+  // pushState, que en una SPA puede venir desfasado.
+  trackPageView(`/${route}/${post.slug}`, document.title);
 }
 
 /**

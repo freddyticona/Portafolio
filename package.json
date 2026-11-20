@@ -14,7 +14,6 @@
     "lint": "tsc --noEmit",
     "generate-icons": "node scripts/generate-icons.js",
     "generate-rss": "node scripts/generate-rss.js",
-    "generate-news-sitemap": "node scripts/generate-news-sitemap.js",
     "generate-image-dimensions": "node scripts/generate-image-dimensions.mjs",
     "chunk-content": "node scripts/chunk-content.mjs",
     "split-content": "node scripts/split-content.mjs && node scripts/chunk-content.mjs",

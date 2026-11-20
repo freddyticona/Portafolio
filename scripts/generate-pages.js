@@ -136,6 +136,12 @@ const articles = _rawArticles.map(a => ({
 }));
 const distDir = path.join(__dirname, '..', 'dist');
 
+// Catálogo real de servicios y precios — misma fuente que la app y el
+// JSON-LD de cliente (src/data/servicesPricing.json → src/config.ts).
+const SERVICES_PRICING = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'servicesPricing.json'), 'utf-8')
+);
+
 if (!fs.existsSync(distDir)) {
   console.error('❌ dist/ no encontrado. Ejecuta "npm run build" primero.');
   process.exit(1);
@@ -288,6 +294,75 @@ for (const [key, meta] of Object.entries(pages)) {
       }
     }`;
     html = html.replace('</head>', `    <script type="application/ld+json">${videoSchema}</script>\n  </head>`);
+  }
+
+  // Services + FAQ JSON-LD para la página /servicios.
+  // Usa el catálogo real (src/data/servicesPricing.json) para que el schema
+  // estático y el contenido visible muestren los mismos servicios y precios.
+  if (key === 'servicios') {
+    const servicesSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Servicios Audiovisuales',
+      description: 'Servicios de filmación, edición, fotografía y animación con precios base en La Paz, Bolivia',
+      itemListElement: SERVICES_PRICING.map((service, index) => ({
+        '@type': 'Service',
+        position: index + 1,
+        name: service.nameEs,
+        description: service.descriptionEs,
+        serviceType: service.type,
+        provider: { '@id': `${SITE}/#business` },
+        areaServed: [
+          { '@type': 'City', name: 'La Paz' },
+          { '@type': 'City', name: 'El Alto' },
+          { '@type': 'Country', name: 'Bolivia' }
+        ],
+        offers: {
+          '@type': 'Offer',
+          price: String(service.basePrice),
+          priceCurrency: service.currency,
+          availability: 'https://schema.org/InStock',
+          url: `${SITE}/servicios`
+        }
+      }))
+    };
+
+    const faqSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: '¿Cuánto tiempo toma la entrega?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'El material finalizado se entrega en un plazo de 3 a 5 días hábiles posteriores a la conclusión de la grabación o recepción del material.'
+          }
+        },
+        {
+          '@type': 'Question',
+          name: '¿Viajas a otras ciudades?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Sí, estoy disponible para todo Bolivia con costo adicional de viáticos.'
+          }
+        },
+        {
+          '@type': 'Question',
+          name: '¿Qué incluye el precio?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Cada tarifa incluye preproducción, grabación multicámara Full HD (2 cámaras Nikon D5100), audio profesional inalámbrico con micrófono Rode Wireless GO 3, edición, corrección de color y entrega final en MP4 (H.264).'
+          }
+        }
+      ]
+    };
+
+    html = html.replace(
+      '</head>',
+      `    <script type="application/ld+json">${JSON.stringify(servicesSchema)}</script>\n` +
+      `    <script type="application/ld+json">${JSON.stringify(faqSchema)}</script>\n  </head>`
+    );
   }
 
   // Write the file

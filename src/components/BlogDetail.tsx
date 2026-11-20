@@ -12,7 +12,7 @@
  * - Animaciones de entrada suaves
  */
 
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect, useRef, lazy, Suspense } from 'react';
 import { marked } from 'marked';
 import { BlogPost } from '../types';
 import {
@@ -44,11 +44,16 @@ import {
   Flame,
   Bookmark,
   Globe,
-  ShieldCheck
+  ShieldCheck,
+  CheckCircle2
 } from 'lucide-react';
-import CommentSystem from './CommentSystem';
+import NewsletterSignup from './NewsletterSignup';
+// Los comentarios se cargan bajo demanda: su chunk (motion/react + UI) no debe
+// competir con el contenido del artículo en la carga inicial.
+const CommentSystem = lazy(() => import('./CommentSystem'));
 import { injectStructuredData, generateArticleStructuredData } from '../lib/structuredData';
 import { formatPostDate } from '../lib/date';
+import { extractKeyPoints } from '../lib/summary';
 import { CONTACT_INFO } from '../config';
 import { PortfolioEvents } from '../lib/analytics';
 import { loadBlogContent } from '../data/loader';
@@ -75,9 +80,9 @@ function calculateReadTime(content: string): string {
 }
 
 export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts }: BlogDetailProps) {
-  const [showComments, setShowComments] = useState(true);
+  const [showComments, setShowComments] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
-  const [showToc, setShowToc] = useState(false);
+  const [showToc, setShowToc] = useState(true);
   const [copied, setCopied] = useState(false);
   const tocRefs = useRef<Record<string, HTMLElement>>({});
   const [activeGalleryImage, setActiveGalleryImage] = useState<string | null>(null);
@@ -290,8 +295,11 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
 
     // Restaurar al desmontar
     return () => {
-      const newsScript = document.querySelector('script[type="application/ld+json"]');
-      if (newsScript) newsScript.remove();
+      // Solo el script que inyectó este artículo: el querySelector genérico
+      // podía borrar el schema de otra página ya renderizada.
+      const articleSchema = document.getElementById('dynamic-structured-data');
+      if (articleSchema) articleSchema.remove();
+
       ['article:published_time', 'article:modified_time', 'article:section', 'article:tag'].forEach(p => {
         const el = document.querySelector(`meta[property="${p}"]`);
         if (el) el.remove();
@@ -304,6 +312,9 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
     () => (rawContent ? calculateReadTime(rawContent) : (lang === 'es' ? post.readTimeEs : post.readTimeEn)),
     [rawContent, lang, post.readTimeEs, post.readTimeEn]
   );
+
+  // ─── Resumen "en 3 puntos" (mejora la retención) ─────────────────────
+  const keyPoints = useMemo(() => extractKeyPoints(rawContent, 3), [rawContent]);
 
   // ─── Tabla de Contenidos con scrollspy ─────────────────────────────────
   const tocItems = useMemo(() => {
@@ -536,6 +547,40 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </figure>
       </header>
 
+      {/* Resumen en 3 puntos + puente a servicios */}
+      {keyPoints.length > 0 && (
+        <div className="bg-gold/[0.04] border border-gold/20 rounded-sm p-5 md:p-6 space-y-4">
+          <div className="flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-gold" />
+            <span className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-gold">
+              {lang === 'es' ? 'En 3 puntos' : 'In 3 points'}
+            </span>
+          </div>
+          <ul className="space-y-2.5">
+            {keyPoints.map((point, i) => (
+              <li key={i} className="flex items-start gap-2.5 text-sm text-stone-300 leading-relaxed">
+                <span className="font-mono text-gold/70 text-xs mt-0.5 shrink-0">0{i + 1}</span>
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
+          <div className="pt-3 border-t border-gold/15 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <a
+              href="/servicios"
+              className="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-gold hover:text-gold-hover transition-colors"
+            >
+              <Camera className="w-3.5 h-3.5" />
+              {lang === 'es' ? 'Aplícalo a tu marca' : 'Apply it to your brand'}
+            </a>
+            <span className="text-[11px] text-stone-500">
+              {lang === 'es'
+                ? 'Desde Bs. 300 (reel) · Bs. 450 (cobertura fotográfica) · Bs. 650 (cápsula)'
+                : 'From Bs. 300 (reel) · Bs. 450 (photo coverage) · Bs. 650 (capsule)'}
+            </span>
+          </div>
+        </div>
+      )}
+
       {/* Tabla de Contenidos mejorada */}
       {tocItems.length >= 2 && (
         <div className="bg-white/[0.02] border border-white/5 rounded-sm p-5">
@@ -688,7 +733,9 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           </div>
 
           {showComments && (
-            <CommentSystem postId={post.id} lang={lang} t={t} />
+            <Suspense fallback={<div className="h-24 skeleton rounded-sm" aria-busy="true" />}>
+              <CommentSystem postId={post.id} lang={lang} t={t} />
+            </Suspense>
           )}
         </div>
       )}
@@ -883,28 +930,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
               : 'Get notified when I publish new articles about audiovisual production, documentaries and filming techniques.'}
           </p>
         </div>
-        <form
-          onSubmit={(e) => { e.preventDefault(); const d = new FormData(e.target as HTMLFormElement); alert(lang === 'es' ? '¡Gracias por suscribirte!' : 'Thanks for subscribing!'); (e.target as HTMLFormElement).reset(); }}
-          className="flex flex-col sm:flex-row gap-3"
-        >
-          <input
-            type="email"
-            name="email"
-            required
-            placeholder={lang === 'es' ? 'tu@email.com' : 'your@email.com'}
-            className="flex-1 min-w-0 px-4 py-3 bg-[#020202] border border-white/10 focus:border-gold rounded-sm text-sm text-white placeholder-stone-500 focus:outline-none focus:ring-1 focus:ring-gold transition-all"
-          />
-          <button
-            type="submit"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-gold/20 cursor-pointer"
-          >
-            <Send className="w-3.5 h-3.5" />
-            {lang === 'es' ? 'Suscribirme' : 'Subscribe'}
-          </button>
-        </form>
-        <p className="text-[9px] font-mono text-stone-600">
-          {lang === 'es' ? 'Sin spam. Podés darte de baja en cualquier momento.' : 'No spam. Unsubscribe anytime.'}
-        </p>
+        <NewsletterSignup lang={lang} source={`articulo:${post.slug}`} />
       </div>
 
       {/* Bottom Back Button */}
