@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0e"/><stop offset="60%" stop-color="#101014"/><stop offset="100%" stop-color="#181512"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#D4AF37"/>
+  <text x="60" y="96" font-family="ui-monospace,Menlo,monospace" font-size="20" font-weight="700" fill="#D4AF37" letter-spacing="5">BLACK FRIDAY 2026</text>
+  <text x="60" y="132" font-family="ui-monospace,Menlo,monospace" font-size="17" fill="#a8a29e" letter-spacing="2">LINEA DE TIEMPO DE LA CAMPANA · 6 DE OCTUBRE A 2 DE DICIEMBRE</text>
+  <line x1="60" y1="330" x2="1090" y2="330" stroke="#D4AF37" stroke-opacity=".45" stroke-width="3"/>
+  
+    <line x1="60" y1="330" x2="60" y2="308" stroke="#6b7280" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="60" cy="330" r="9" fill="#6b7280"/>
+    <circle cx="60" cy="330" r="16" fill="none" stroke="#6b7280" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="-2" y="122" width="124" height="88" rx="10" fill="#111114" stroke="#6b7280" stroke-opacity=".55" stroke-width="2"/>
+      <text x="60" y="146" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#6b7280" letter-spacing="1">6-7 OCT</text>
+      <text x="60" y="170" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f5f5f4">Prime Big Deal Days</text>
+      <text x="60" y="192" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">Amazon (concluido)</text>
+    </g>
+    <line x1="195" y1="330" x2="195" y2="352" stroke="#D4AF37" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="195" cy="330" r="9" fill="#D4AF37"/>
+    <circle cx="195" cy="330" r="16" fill="none" stroke="#D4AF37" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="133" y="358" width="124" height="88" rx="10" fill="#111114" stroke="#D4AF37" stroke-opacity=".55" stroke-width="2"/>
+      <text x="195" y="382" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#D4AF37" letter-spacing="1">12 NOV</text>
+      <text x="195" y="406" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">Reolink</text>
+      <text x="195" y="428" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">inicio de ofertas</text>
+    </g>
+    <line x1="330" y1="330" x2="330" y2="308" stroke="#D4AF37" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="330" cy="330" r="9" fill="#D4AF37"/>
+    <circle cx="330" cy="330" r="16" fill="none" stroke="#D4AF37" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="268" y="122" width="124" height="88" rx="10" fill="#111114" stroke="#D4AF37" stroke-opacity=".55" stroke-width="2"/>
+      <text x="330" y="146" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#D4AF37" letter-spacing="1">19 NOV</text>
+      <text x="330" y="170" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">DJI + SmallRig</text>
+      <text x="330" y="192" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">inicio de campana</text>
+    </g>
+    <line x1="465" y1="330" x2="465" y2="352" stroke="#4a9eda" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="465" cy="330" r="9" fill="#4a9eda"/>
+    <circle cx="465" cy="330" r="16" fill="none" stroke="#4a9eda" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="403" y="358" width="124" height="88" rx="10" fill="#111114" stroke="#4a9eda" stroke-opacity=".55" stroke-width="2"/>
+      <text x="465" y="382" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#4a9eda" letter-spacing="1">20 NOV</text>
+      <text x="465" y="406" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">Resolve Studio</text>
+      <text x="465" y="428" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">cierre -20%</text>
+    </g>
+    <line x1="600" y1="330" x2="600" y2="308" stroke="#4a9eda" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="600" cy="330" r="9" fill="#4a9eda"/>
+    <circle cx="600" cy="330" r="16" fill="none" stroke="#4a9eda" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="538" y="122" width="124" height="88" rx="10" fill="#111114" stroke="#4a9eda" stroke-opacity=".55" stroke-width="2"/>
+      <text x="600" y="146" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#4a9eda" letter-spacing="1">24-26 NOV</text>
+      <text x="600" y="170" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">Tiendas locales</text>
+      <text x="600" y="192" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">Tienda Amiga</text>
+    </g>
+    <line x1="735" y1="330" x2="735" y2="352" stroke="#e05c5c" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="735" cy="330" r="9" fill="#e05c5c"/>
+    <circle cx="735" cy="330" r="16" fill="none" stroke="#e05c5c" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="673" y="358" width="124" height="88" rx="10" fill="#111114" stroke="#e05c5c" stroke-opacity=".55" stroke-width="2"/>
+      <text x="735" y="382" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#e05c5c" letter-spacing="1">27 NOV</text>
+      <text x="735" y="406" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">BLACK FRIDAY</text>
+      <text x="735" y="428" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">viernes</text>
+    </g>
+    <line x1="870" y1="330" x2="870" y2="308" stroke="#e05c5c" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="870" cy="330" r="9" fill="#e05c5c"/>
+    <circle cx="870" cy="330" r="16" fill="none" stroke="#e05c5c" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="808" y="122" width="124" height="88" rx="10" fill="#111114" stroke="#e05c5c" stroke-opacity=".55" stroke-width="2"/>
+      <text x="870" y="146" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#e05c5c" letter-spacing="1">30 NOV</text>
+      <text x="870" y="170" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">CYBER MONDAY</text>
+      <text x="870" y="192" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">lunes</text>
+    </g>
+    <line x1="1005" y1="330" x2="1005" y2="352" stroke="#6b7280" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="1005" cy="330" r="9" fill="#6b7280"/>
+    <circle cx="1005" cy="330" r="16" fill="none" stroke="#6b7280" stroke-opacity=".45" stroke-width="2"/>
+    <g>
+      <rect x="943" y="358" width="124" height="88" rx="10" fill="#111114" stroke="#6b7280" stroke-opacity=".55" stroke-width="2"/>
+      <text x="1005" y="382" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="700" fill="#6b7280" letter-spacing="1">2 DIC</text>
+      <text x="1005" y="406" text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f5f4">Cierre extendido</text>
+      <text x="1005" y="428" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#a8a29e">Reolink -50%</text>
+    </g>
+  <text x="60" y="566" font-family="ui-monospace,Menlo,monospace" font-size="17" fill="#a8a29e" letter-spacing="1">freddydev.net · Freddy Ticona Guzman · La Paz, Bolivia</text>
+</svg>

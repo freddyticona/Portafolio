@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0e"/>
+      <stop offset="60%" stop-color="#101014"/>
+      <stop offset="100%" stop-color="#181512"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#D4AF37"/>
+  <g opacity=".5">
+    <g transform="translate(770 160)">
+      <rect x="0" y="40" width="300" height="190" rx="20" fill="#111114" stroke="#D4AF37" stroke-opacity=".5" stroke-width="2"/>
+      <rect x="90" y="8" width="120" height="44" rx="10" fill="#111114" stroke="#D4AF37" stroke-opacity=".35" stroke-width="2"/>
+      <circle cx="150" cy="135" r="72" fill="#0b0b0e" stroke="#D4AF37" stroke-width="3"/>
+      <circle cx="150" cy="135" r="44" fill="#D4AF37" fill-opacity=".2" stroke="#D4AF37" stroke-opacity=".6" stroke-width="2"/>
+      <circle cx="150" cy="135" r="14" fill="#D4AF37"/>
+      <rect x="28" y="66" width="44" height="10" rx="5" fill="#D4AF37" fill-opacity=".35"/>
+    </g></g>
+  <text x="72" y="96" font-family="ui-monospace,Menlo,monospace" font-size="20" font-weight="700" fill="#D4AF37" letter-spacing="5">BLACK FRIDAY 2026</text>
+  <text x="72" y="132" font-family="ui-monospace,Menlo,monospace" font-size="17" fill="#a8a29e" letter-spacing="2">27 DE NOVIEMBRE · CYBER MONDAY 30</text>
+  <line x1="72" y1="156" x2="600" y2="156" stroke="#D4AF37" stroke-opacity=".5" stroke-width="2"/>
+  <text x="72" y="196" font-family="ui-monospace,Menlo,monospace" font-size="17" fill="#D4AF37" letter-spacing="3">CÁMARAS Y LENTES</text>
+  <text x="72" y="250.0" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="70" font-weight="800" fill="#f5f5f4">Cámaras y lentes: qué</text><text x="72" y="322.8" font-family="ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif" font-size="70" font-weight="800" fill="#f5f5f4">oferta vale</text>
+  <text x="72" y="566" font-family="ui-monospace,Menlo,monospace" font-size="17" fill="#a8a29e" letter-spacing="1">freddydev.net · Freddy Ticona Guzmán · La Paz, Bolivia</text>
+</svg>

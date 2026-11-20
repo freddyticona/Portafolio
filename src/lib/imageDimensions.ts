@@ -1,6 +1,46 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/blog/black-friday-2026/01-fechas-estrategia.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/02-camaras.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/03-drones.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/04-audio.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/05-software.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/06-almacenamiento.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/07-accesorios.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/08-bolivia.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/09-equipo-o-servicio.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/black-friday-2026/10-calendario.webp": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/blog/2026-11/edicion/j-cut-l-cut-sonido-cruza-corte.jpg": {
     "width": 1600,
     "height": 900
