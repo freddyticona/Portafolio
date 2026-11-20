@@ -5,6 +5,17 @@
 
 export type PageId = 'inicio' | 'sobre-mi' | 'portafolio' | 'cv' | 'blog' | 'guias' | 'galeria' | 'showreel' | 'contacto' | 'reservas' | 'servicios' | 'admin' | 'eclipse-2026' | 'reportaje-iran-furia-epica' | 'reportaje-gaza-desarme' | 'reportaje-ucrania-estancamiento' | 'reportaje-malvinas-historia';
 
+/**
+ * Servicio preseleccionado que viaja de /servicios al formulario de
+ * cotización, para que el cliente no tenga que volver a explicar qué
+ * necesita y el lead llegue completo al correo.
+ */
+export interface QuoteRequestContext {
+  serviceId: string;
+  serviceName: string;
+  price: number;
+}
+
 export interface PortfolioItem {
   id: string;
   title: string;

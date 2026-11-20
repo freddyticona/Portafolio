@@ -18,8 +18,13 @@ import {
   CheckCircle,
   ChevronRight,
   X,
-  MapPin
+  MapPin,
+  MessageCircle,
+  AlertTriangle
 } from 'lucide-react';
+
+import { CONTACT_FORM, CONTACT_INFO, SERVICES_PRICING } from '../config';
+import { PortfolioEvents } from '../lib/analytics';
 
 // ==========================================
 // TYPES
@@ -51,39 +56,60 @@ interface BookingSystemProps {
 // SERVICES AVAILABLE
 // ==========================================
 
+/**
+ * Servicios que se pueden reservar desde el sitio.
+ *
+ * `catalogId` apunta al servicio real del catálogo (src/data/servicesPricing.json,
+ * expuesto como SERVICES_PRICING): el precio que ve el cliente sale de ahí y
+ * no se escribe a mano, para que nunca se desincronice con /servicios, el
+ * JSON-LD ni el HTML prerenderizado.
+ *
+ * No se pide anticipo: el pago se coordina con el cliente al confirmar la cita.
+ */
 const SERVICES = {
   filming: {
     id: 'filming',
     icon: Camera,
-    duration: '2-8 horas',
-    deposit: 50,
+    duration: { es: '2-8 horas', en: '2-8 hours' },
+    catalogId: 'cobertura-evento',
     es: { name: 'Filmación de Evento', desc: 'Cobertura completa con cámara profesional' },
     en: { name: 'Event Filming', desc: 'Full coverage with professional camera' }
   },
   editing: {
     id: 'editing',
     icon: Video,
-    duration: 'Entrega en 3-5 días',
-    deposit: 30,
+    duration: { es: 'Entrega en 3-5 días', en: 'Delivery in 3-5 days' },
+    catalogId: 'edicion-preexistente',
     es: { name: 'Edición de Video', desc: 'Post-producción profesional' },
     en: { name: 'Video Editing', desc: 'Professional post-production' }
   },
   documentary: {
     id: 'documentary',
     icon: Clapperboard,
-    duration: 'Proyecto completo',
-    deposit: 40,
+    duration: { es: 'Proyecto completo', en: 'Full project' },
+    catalogId: 'reportaje-impacto',
     es: { name: 'Documental/Reportaje', desc: 'Producción de contenido largo' },
     en: { name: 'Documentary', desc: 'Long-form production' }
   },
   consultation: {
     id: 'consultation',
     icon: FileText,
-    duration: '1 hora',
-    deposit: 0,
+    duration: { es: '1 hora', en: '1 hour' },
+    catalogId: null,
     es: { name: 'Consultoría', desc: 'Asesoría en proyectos audiovisuales' },
     en: { name: 'Consultation', desc: 'Advice on audiovisual projects' }
   }
+};
+
+/** Formatea un precio del catálogo con el separador de miles según el idioma. */
+const formatPrice = (amount: number, lang: 'es' | 'en') =>
+  `Bs ${amount.toLocaleString(lang === 'es' ? 'es-BO' : 'en-US')}`;
+
+/** Precio real (catálogo) del servicio de reserva, o null si no tiene precio fijo. */
+const catalogPrice = (catalogId: string | null) => {
+  if (!catalogId) return null;
+  const service = SERVICES_PRICING.find((s) => s.id === catalogId);
+  return service ? service.basePrice : null;
 };
 
 // ==========================================
@@ -116,6 +142,9 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState('');
+  // Copia de la reserva enviada: alimenta el botón de WhatsApp tras confirmar.
+  const [sentBooking, setSentBooking] = useState<BookingFormData | null>(null);
 
   // Generate available dates (next 30 days)
   const availableDates = React.useMemo(() => {
@@ -159,54 +188,185 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
     return date.toLocaleDateString(lang === 'es' ? 'es-BO' : 'en-US', options);
   };
 
-  // Format date for input
+  /**
+   * Formatea una fecha como 'YYYY-MM-DD' usando la fecha LOCAL.
+   * `toISOString()` convierte a UTC y desplaza el día para zonas horarias
+   * positivas (p. ej. un visitante en España vería "mar, 24 nov" como "lun, 23 nov").
+   */
   const formatDateForInput = (date: Date) => {
-    return date.toISOString().split('T')[0];
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  };
+
+  // ─── Datos derivados de la reserva ─────────────────────────────────────
+  const serviceLabel = (serviceId: string) => {
+    const service = SERVICES[serviceId as keyof typeof SERVICES];
+    if (!service) return serviceId;
+    return lang === 'es' ? service.es.name : service.en.name;
+  };
+
+  const servicePriceLabel = (serviceId: string) => {
+    const service = SERVICES[serviceId as keyof typeof SERVICES];
+    const price = catalogPrice(service?.catalogId ?? null);
+    if (price === null) return '';
+    return lang === 'es'
+      ? `Desde ${formatPrice(price, lang)}`
+      : `From ${formatPrice(price, lang)}`;
+  };
+
+  /**
+   * Parsea una fecha 'YYYY-MM-DD' como fecha LOCAL (no UTC).
+   * `new Date('2026-11-25')` se interpreta como medianoche UTC y en Bolivia
+   * (UTC-4) mostraría el día anterior.
+   */
+  const parseLocalDate = (dateString: string) => {
+    const [y, m, d] = dateString.split('-').map(Number);
+    if (!y || !m || !d) return new Date(dateString);
+    return new Date(y, m - 1, d);
+  };
+
+  /** Resumen legible de la reserva: se usa en el correo y en el mensaje de WhatsApp. */
+  const buildSummaryLines = (booking: BookingFormData): string[] => {
+    const dateText = booking.date ? formatDate(parseLocalDate(booking.date)) : '';
+    const price = servicePriceLabel(booking.service);
+    return lang === 'es'
+      ? [
+          `Servicio: ${serviceLabel(booking.service)}`,
+          price ? `Referencia de precio: ${price}` : '',
+          `Fecha: ${dateText}`,
+          `Hora: ${booking.time}`,
+          `Nombre: ${booking.name}`,
+          `Correo: ${booking.email}`,
+          `Teléfono / WhatsApp: ${booking.phone}`,
+          booking.notes ? `Detalles: ${booking.notes}` : ''
+        ].filter(Boolean)
+      : [
+          `Service: ${serviceLabel(booking.service)}`,
+          price ? `Price reference: ${price}` : '',
+          `Date: ${dateText}`,
+          `Time: ${booking.time}`,
+          `Name: ${booking.name}`,
+          `Email: ${booking.email}`,
+          `Phone / WhatsApp: ${booking.phone}`,
+          booking.notes ? `Details: ${booking.notes}` : ''
+        ].filter(Boolean);
+  };
+
+  /** Enlace de WhatsApp con la reserva ya escrita: el cliente solo pulsa enviar. */
+  const whatsappBookingUrl = (booking: BookingFormData) => {
+    const number = CONTACT_INFO.phoneNumber.replace(/\D/g, '');
+    const text = lang === 'es'
+      ? `Hola Freddy, acabo de reservar una sesión en freddydev.net:\n\n${buildSummaryLines(booking).join('\n')}`
+      : `Hi Freddy, I just booked a session on freddydev.net:\n\n${buildSummaryLines(booking).join('\n')}`;
+    return `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
   };
 
   // Handle form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    setSubmitError('');
 
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    const name = formData.name.trim();
+    const email = formData.email.trim();
+    const phone = formData.phone.trim();
 
-    // Save to localStorage
-    const bookings = JSON.parse(localStorage.getItem('bookings') || '[]');
-    const newBooking = {
-      ...formData,
-      id: Date.now(),
-      status: 'pending',
-      createdAt: new Date().toISOString()
-    };
-    bookings.push(newBooking);
-    localStorage.setItem('bookings', JSON.stringify(bookings));
-
-    setIsSubmitting(false);
-    setSubmitted(true);
-
-    if (onSuccess) {
-      onSuccess(newBooking);
+    if (!name || !email || !phone) {
+      setSubmitError(lang === 'es'
+        ? 'Completa nombre, correo y teléfono para confirmar la reserva.'
+        : 'Fill in your name, email and phone to confirm the booking.');
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+      setSubmitError(lang === 'es' ? 'Escribe un correo válido.' : 'Enter a valid email address.');
+      return;
     }
 
-    // Reset after 5 seconds
-    setTimeout(() => {
-      setSubmitted(false);
-      setStep(1);
-      setSelectedService('');
-      setSelectedDate('');
-      setSelectedTime('');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
-        date: '',
-        time: '',
-        notes: ''
+    setIsSubmitting(true);
+
+    const booking: BookingFormData = {
+      ...formData,
+      name,
+      email,
+      phone,
+      service: formData.service || selectedService,
+      date: formData.date || selectedDate,
+      time: formData.time || selectedTime
+    };
+    const summary = buildSummaryLines(booking).join('\n');
+
+    try {
+      // Entrega real del lead: Web3Forms envía el aviso al correo del estudio.
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          access_key: CONTACT_FORM.accessKey,
+          name: booking.name,
+          email: booking.email,
+          subject: lang === 'es'
+            ? `Nueva reserva: ${serviceLabel(booking.service)} (${booking.date} ${booking.time})`
+            : `New booking: ${serviceLabel(booking.service)} (${booking.date} ${booking.time})`,
+          message: lang === 'es'
+            ? `Reserva enviada desde freddydev.net/reservas\n\n${summary}\n\nCoordinar por WhatsApp o correo.`
+            : `Booking sent from freddydev.net/reservas\n\n${summary}\n\nCoordinate via WhatsApp or email.`,
+          from_name: CONTACT_FORM.fromName,
+          botcheck: ''
+        })
       });
-    }, 5000);
+
+      const result = await response.json();
+      if (!result.success) {
+        throw new Error(result.message || 'send_error');
+      }
+
+      // Copia local de respaldo (si el navegador permite localStorage).
+      try {
+        const bookings = JSON.parse(localStorage.getItem('bookings') || '[]');
+        bookings.push({ ...booking, id: Date.now(), status: 'pending', createdAt: new Date().toISOString() });
+        localStorage.setItem('bookings', JSON.stringify(bookings));
+      } catch {
+        /* localStorage bloqueado: no es crítico, el correo ya salió */
+      }
+
+      setSentBooking(booking);
+      setSubmitted(true);
+      PortfolioEvents.bookingComplete(serviceLabel(booking.service), booking.date, booking.time);
+
+      if (onSuccess) {
+        onSuccess(booking);
+      }
+    } catch {
+      // Fallo de envío: no se dice "reserva confirmada". El cliente conserva
+      // el canal de WhatsApp, que es donde se cierra la reserva.
+      setSentBooking(booking);
+      setSubmitError(lang === 'es'
+        ? 'No pudimos registrar la reserva automáticamente. Envíala por WhatsApp y la confirmamos al instante.'
+        : 'We could not register the booking automatically. Send it via WhatsApp and we will confirm it right away.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  /** Reinicia el wizard para hacer otra reserva. */
+  const resetBooking = () => {
+    setSubmitted(false);
+    setSentBooking(null);
+    setSubmitError('');
+    setStep(1);
+    setSelectedService('');
+    setSelectedDate('');
+    setSelectedTime('');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      service: '',
+      date: '',
+      time: '',
+      notes: ''
+    });
   };
 
   // Translations for this component
@@ -248,14 +408,31 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
     changeBtn: lang === 'es' ? 'Cambiar' : 'Change',
 
     // Success
-    successTitle: lang === 'es' ? '¡Reserva Confirmada!' : 'Booking Confirmed!',
+    successTitle: lang === 'es' ? '¡Reserva Enviada!' : 'Booking Sent!',
     successMessage: lang === 'es'
-      ? 'Te contactaremos pronto para confirmar los detalles finales.'
-      : 'We will contact you soon to confirm final details.',
+      ? 'Recibo tu solicitud al instante. Envíame el resumen por WhatsApp para que confirmemos la cita hoy mismo.'
+      : 'I receive your request instantly. Send me the summary via WhatsApp so we can confirm the appointment today.',
+    whatsappCta: lang === 'es' ? 'Continuar por WhatsApp' : 'Continue on WhatsApp',
+    newBooking: lang === 'es' ? 'Hacer otra reserva' : 'Make another booking',
+    sendErrorTitle: lang === 'es' ? 'Reserva no registrada' : 'Booking not registered',
+
+    // Expectativas
+    expectNoDeposit: lang === 'es' ? 'Sin depósito online' : 'No online deposit',
+    expectNoDepositDesc: lang === 'es'
+      ? 'La reserva es sin compromiso y sin anticipo. Coordinamos el pago cuando esté confirmado el alcance del trabajo.'
+      : 'The booking has no commitment and no upfront payment. We coordinate payment once the scope of work is confirmed.',
+    expectConfirm: lang === 'es' ? 'Confirmación el mismo día' : 'Same-day confirmation',
+    expectConfirmDesc: lang === 'es'
+      ? 'Te escribo por WhatsApp para confirmar fecha, hora y alcance antes de agendar el trabajo.'
+      : 'I contact you on WhatsApp to confirm date, time and scope before scheduling the work.',
+    expectHours: lang === 'es' ? 'Horario de atención' : 'Office hours',
+    expectHoursDesc: lang === 'es'
+      ? 'Lunes a viernes de 9:00 a 19:00 y sábados de 9:00 a 14:00. Domingos cerrado.'
+      : 'Monday to Friday 9:00-19:00 and Saturday 9:00-14:00. Closed on Sundays.',
 
     // Labels
     duration: lang === 'es' ? 'Duración' : 'Duration',
-    deposit: lang === 'es' ? 'Depósito' : 'Deposit',
+    price: lang === 'es' ? 'Precio' : 'Price',
     selectService: lang === 'es' ? 'Seleccionar' : 'Select',
     selectDate: lang === 'es' ? 'Seleccionar fecha' : 'Select date',
     selectTime: lang === 'es' ? 'Seleccionar hora' : 'Select time',
@@ -265,7 +442,7 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
   return (
     <div className="max-w-4xl mx-auto">
       {/* Header */}
-      <div className="text-center space-y-3 mb-12">
+      <div className="text-center space-y-3 mb-8">
         <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
           <Calendar className="w-4 h-4 inline mr-1" />
           {lang === 'es' ? 'Sistema de Reservas' : 'Booking System'}
@@ -276,6 +453,35 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
         <p className="text-sm text-stone-400 leading-relaxed font-light">
           {bt.subtitle}
         </p>
+      </div>
+
+      {/* Expectativas: qué pasa al reservar, sin depósito y con horario real */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-10">
+        {[
+          {
+            icon: CheckCircle,
+            title: bt.expectNoDeposit,
+            desc: bt.expectNoDepositDesc
+          },
+          {
+            icon: MessageCircle,
+            title: bt.expectConfirm,
+            desc: bt.expectConfirmDesc
+          },
+          {
+            icon: Clock,
+            title: bt.expectHours,
+            desc: bt.expectHoursDesc
+          }
+        ].map((item) => (
+          <div key={item.title} className="bg-white/[0.02] border border-white/10 rounded-sm p-4 flex gap-3">
+            <item.icon className="w-5 h-5 text-gold shrink-0 mt-0.5" />
+            <div>
+              <h3 className="text-sm font-bold text-white">{item.title}</h3>
+              <p className="text-xs text-stone-400 leading-relaxed mt-1">{item.desc}</p>
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Progress Steps */}
@@ -305,11 +511,41 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
-            className="bg-gradient-to-br from-gold/20 to-gold/5 border border-gold/30 rounded-lg p-8 text-center"
+            className="bg-gradient-to-br from-gold/20 to-gold/5 border border-gold/30 rounded-lg p-8 text-center space-y-5"
           >
-            <CheckCircle className="w-16 h-16 text-gold mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">{bt.successTitle}</h3>
-            <p className="text-stone-300">{bt.successMessage}</p>
+            <CheckCircle className="w-16 h-16 text-gold mx-auto" />
+            <h3 className="text-2xl font-bold text-white">{bt.successTitle}</h3>
+            <p className="text-stone-300 max-w-xl mx-auto">{bt.successMessage}</p>
+
+            {sentBooking && (
+              <div className="bg-black/30 border border-white/10 rounded-lg p-4 text-left text-sm space-y-1 max-w-xl mx-auto">
+                {buildSummaryLines(sentBooking).map((line, i) => (
+                  <p key={i} className="text-stone-300 font-mono text-xs">{line}</p>
+                ))}
+              </div>
+            )}
+
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              {sentBooking && (
+                <a
+                  href={whatsappBookingUrl(sentBooking)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => PortfolioEvents.bookingWhatsapp(serviceLabel(sentBooking.service))}
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] hover:bg-[#1eb855] text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  {bt.whatsappCta}
+                </a>
+              )}
+              <button
+                type="button"
+                onClick={resetBooking}
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-white/15 hover:border-gold/50 text-stone-300 hover:text-white rounded-sm text-xs uppercase tracking-widest font-mono transition-all duration-300"
+              >
+                {bt.newBooking}
+              </button>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -341,7 +577,10 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                       key={service.id}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={() => setSelectedService(service.id)}
+                      onClick={() => {
+                        setSelectedService(service.id);
+                        PortfolioEvents.bookingStart(lang === 'es' ? service.es.name : service.en.name);
+                      }}
                       className={`
                         p-6 rounded-lg border text-left transition-all duration-300
                         ${isSelected
@@ -360,13 +599,13 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                         <div className="flex-1">
                           <h3 className="font-bold text-white mb-1">{serviceLang.name}</h3>
                           <p className="text-sm text-stone-400 mb-2">{serviceLang.desc}</p>
-                          <div className="flex items-center gap-4 text-xs font-mono text-gold">
+                          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs font-mono text-gold">
                             <span className="flex items-center gap-1">
                               <Clock className="w-3 h-3" />
-                              {service.duration}
+                              {lang === 'es' ? service.duration.es : service.duration.en}
                             </span>
-                            {service.deposit > 0 && (
-                              <span>{bt.deposit}: {service.deposit}%</span>
+                            {catalogPrice(service.catalogId) !== null && (
+                              <span>{bt.price}: {servicePriceLabel(service.id)}</span>
                             )}
                           </div>
                         </div>
@@ -558,7 +797,7 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                 <div className="flex items-center justify-between">
                   <span className="text-stone-400">{lang === 'es' ? 'Fecha' : 'Date'}</span>
                   <span className="font-bold text-white">
-                    {selectedDate && formatDate(new Date(selectedDate))}
+                    {selectedDate && formatDate(parseLocalDate(selectedDate))}
                   </span>
                 </div>
                 <div className="flex items-center justify-between">
@@ -633,6 +872,28 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                 </div>
               </div>
 
+              {/* Error de envío: nunca se muestra "reserva confirmada" si no se registró */}
+              {submitError && (
+                <div className="flex items-start gap-3 p-4 bg-amber-500/10 border border-amber-500/30 rounded-sm">
+                  <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+                  <div className="space-y-3">
+                    <p className="text-sm text-amber-200 leading-relaxed">{submitError}</p>
+                    {sentBooking && (
+                      <a
+                        href={whatsappBookingUrl(sentBooking)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => PortfolioEvents.bookingWhatsapp(serviceLabel(sentBooking.service))}
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-[#25D366] hover:bg-[#1eb855] text-black font-bold rounded-sm text-xs uppercase tracking-widest transition-all duration-300"
+                      >
+                        <MessageCircle className="w-3.5 h-3.5" />
+                        {bt.whatsappCta}
+                      </a>
+                    )}
+                  </div>
+                </div>
+              )}
+
               <div className="flex justify-between pt-4">
                 <button
                   type="button"
@@ -665,6 +926,25 @@ export default function BookingSystem({ lang, t, onSuccess }: BookingSystemProps
                   )}
                 </button>
               </div>
+
+              {/* Escape: si el formulario falla, WhatsApp siempre funciona */}
+              <p className="text-center text-xs text-stone-500 pt-2">
+                {lang === 'es' ? '¿Problemas con el formulario? ' : 'Trouble with the form? '}
+                <a
+                  href={whatsappBookingUrl({
+                    ...formData,
+                    service: formData.service || selectedService,
+                    date: formData.date || selectedDate,
+                    time: formData.time || selectedTime
+                  })}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => PortfolioEvents.bookingWhatsapp(serviceLabel(formData.service || selectedService))}
+                  className="text-gold hover:text-gold-hover underline underline-offset-2 font-bold"
+                >
+                  {lang === 'es' ? 'Escríbeme por WhatsApp' : 'Message me on WhatsApp'}
+                </a>
+              </p>
             </form>
           )}
         </motion.div>

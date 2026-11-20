@@ -185,6 +185,25 @@ export const PortfolioEvents = {
     category: 'Services'
   }),
 
+  // Reservas (wizard de /reservas)
+  bookingStart: (serviceName: string) => trackEvent('booking_start', {
+    item_name: serviceName,
+    category: 'Booking'
+  }),
+
+  bookingComplete: (serviceName: string, date: string, time: string) => trackEvent('booking_complete', {
+    item_name: serviceName,
+    booking_date: date,
+    booking_time: time,
+    category: 'Booking'
+  }),
+
+  bookingWhatsapp: (serviceName: string) => trackEvent('contact', {
+    method: 'whatsapp',
+    category: 'Booking',
+    label: serviceName
+  }),
+
   // Depth of scroll on the current page (engagement signal)
   scrollDepth: (percent: number, pagePath: string) => trackEvent('scroll_depth', {
     percent,

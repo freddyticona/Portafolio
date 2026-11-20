@@ -21,6 +21,7 @@ import {
   Award,
   Clock
 } from 'lucide-react';
+import { SERVICES_PRICING } from '../config';
 
 // ==========================================
 // TYPES
@@ -47,6 +48,51 @@ interface ChatbotProps {
 // KNOWLEDGE BASE / RESPONSES
 // ==========================================
 
+/**
+ * Precios del chatbot tomados del catálogo oficial
+ * (src/data/servicesPricing.json -> SERVICES_PRICING), para que nunca se
+ * desincronicen con /servicios, el JSON-LD ni el HTML prerenderizado.
+ */
+const priceFrom = (id: string) => {
+  const service = SERVICES_PRICING.find((s) => s.id === id);
+  return service ? service.basePrice : null;
+};
+
+const money = (amount: number, lang: 'es' | 'en') =>
+  lang === 'es'
+    ? `Bs ${amount.toLocaleString('es-BO')}`
+    : `Bs ${amount.toLocaleString('en-US')}`;
+
+const buildPricingResponse = (lang: 'es' | 'en') => {
+  const entries: Array<[string, string | null]> = lang === 'es'
+    ? [
+        ['Filmación de eventos', 'cobertura-evento'],
+        ['Edición de video', 'edicion-preexistente'],
+        ['Reportaje audiovisual', 'reportaje-impacto'],
+        ['Reel vertical', 'reel-vertical'],
+        ['Paquetes institucionales', 'plan-capsulas-difusion']
+      ]
+    : [
+        ['Event filming', 'cobertura-evento'],
+        ['Video editing', 'edicion-preexistente'],
+        ['Impact audiovisual report', 'reportaje-impacto'],
+        ['Vertical reel', 'reel-vertical'],
+        ['Institutional packages', 'plan-capsulas-difusion']
+      ];
+
+  const lines = entries
+    .map(([label, id]) => {
+      const amount = priceFrom(id);
+      return amount === null ? null : `• ${label}: desde ${money(amount, lang)}`;
+    })
+    .filter(Boolean)
+    .join('\n');
+
+  return lang === 'es'
+    ? `Los precios varían según el servicio (catálogo oficial):\n\n${lines}\n\n¿Te gustaría recibir una cotización personalizada?`
+    : `Prices vary by service (official price list):\n\n${lines}\n\nWould you like a personalized quote?`;
+};
+
 const KNOWLEDGE_BASE = {
   es: {
     greeting: [
@@ -64,7 +110,7 @@ const KNOWLEDGE_BASE = {
     // Pricing
     pricing: {
       keywords: ['precio', 'costo', 'cuanto', 'cuánto', 'tarifa', 'cobras', 'vale'],
-      response: 'Los precios varían según el tipo y duración del proyecto:\n\n• Filmación de eventos: desde $50/hora\n• Edición de video: desde $30/hora\n• Documentales: según proyecto\n• Consultoría: $40/hora\n\n¿Te gustaría recibir un cotización personalized?',
+      response: buildPricingResponse('es'),
       action: { label: '💬 Solicitar Cotización', action: 'contact' }
     },
 
@@ -85,7 +131,7 @@ const KNOWLEDGE_BASE = {
     // Equipment
     equipment: {
       keywords: ['equipo', 'cámara', 'camara', 'equipo', 'tecnología', 'material'],
-      response: 'Trabajo con equipo profesional:\n\n📹 2 cámaras Nikon D5100 Full HD\n🎙️ Audio de alta calidad\n🖥️ Suite de edición completa\n\n¿Necesitas cobertura para algún evento?',
+      response: 'Trabajo con equipo profesional:\n\n📹 2 cámaras Nikon D5100 Full HD 1080p\n🎙️ Micrófono inalámbrico Rode Wireless GO 3\n🖥️ Suite de edición completa\n\n¿Necesitas cobertura para algún evento?',
       action: { label: '📹 Filmación', action: 'booking' }
     },
 
@@ -132,7 +178,7 @@ const KNOWLEDGE_BASE = {
 
     pricing: {
       keywords: ['price', 'cost', 'how much', 'rate', 'charge', 'fee'],
-      response: 'Prices vary based on project type and duration:\n\n• Event filming: from $50/hour\n• Video editing: from $30/hour\n• Documentaries: project-based\n• Consultation: $40/hour\n\nWould you like a personalized quote?',
+      response: buildPricingResponse('en'),
       action: { label: '💬 Request Quote', action: 'contact' }
     },
 
@@ -150,7 +196,7 @@ const KNOWLEDGE_BASE = {
 
     equipment: {
       keywords: ['equipment', 'camera', 'gear', 'technology', 'kit'],
-      response: 'I work with professional equipment:\n\n📹 Full HD Cameras (Sony, Canon)\n💡 Professional lighting\n🎙️ High-quality audio\n🖥️ Full editing suite\n\nDo you need coverage for an event?',
+      response: 'I work with professional equipment:\n\n📹 2 Nikon D5100 cameras, Full HD 1080p\n🎙️ Rode Wireless GO 3 wireless microphone\n🖥️ Full editing suite\n\nDo you need coverage for an event?',
       action: { label: '📹 Filming', action: 'booking' }
     },
 
@@ -281,7 +327,7 @@ export default function Chatbot({ lang, t, onNavigate }: ChatbotProps) {
 
   const handleActionClick = (action: string) => {
     const pageMap: Record<string, PageId> = {
-      booking: 'contacto',
+      booking: 'reservas',
       contact: 'contacto',
       portfolio: 'portafolio',
       cv: 'cv',

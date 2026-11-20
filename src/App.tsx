@@ -17,8 +17,8 @@
  *  - src/pages/OtherPages.tsx    → /contacto, /reservas, /servicios, /admin
  */
 
-import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
-import { PageId, BlogPost, PortfolioItem } from './types';
+import React, { useState, useEffect, useRef, useCallback, lazy, Suspense } from 'react';
+import { PageId, BlogPost, PortfolioItem, QuoteRequestContext } from './types';
 import { portfolioItems, translations } from './translations';
 import { loadBlogPosts } from './data/loader';
 import type { FilterState } from './components/PortfolioFilters';
@@ -165,6 +165,10 @@ export default function App() {
   // Estado del showreel (se mantiene en App para preservarlo entre navegaciones)
   const [reelPlaying, setReelPlaying] = useState(false);
   const [reelMuted, setReelMuted] = useState(true);
+
+  // Servicio preseleccionado que se traslada al formulario de cotización
+  const [quoteRequest, setQuoteRequest] = useState<QuoteRequestContext | null>(null);
+  const clearQuoteRequest = useCallback(() => setQuoteRequest(null), []);
 
   // Posts del blog — se cargan en un chunk aparte para no bloquear el primer render
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
@@ -418,7 +422,14 @@ export default function App() {
         case 'showreel':
           return <ShowreelPage lang={lang} t={t} handleNavToTab={handleNavToTab} />;
         case 'contacto':
-          return <ContactPage lang={lang} t={t} />;
+          return (
+            <ContactPage
+              lang={lang}
+              t={t}
+              quoteRequest={quoteRequest}
+              onQuoteConsumed={clearQuoteRequest}
+            />
+          );
         case 'reservas':
           return <BookingPage lang={lang} t={t} />;
         case 'servicios':
@@ -426,7 +437,10 @@ export default function App() {
             <ServicesPage
               lang={lang}
               t={t}
-              onContact={() => handleNavToTab('contacto')}
+              onContact={(context?: QuoteRequestContext) => {
+                setQuoteRequest(context ?? null);
+                handleNavToTab('contacto');
+              }}
               onBooking={() => handleNavToTab('reservas')}
             />
           );

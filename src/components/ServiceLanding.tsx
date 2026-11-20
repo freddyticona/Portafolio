@@ -31,11 +31,14 @@ import {
   Newspaper
 } from 'lucide-react';
 import { SERVICES_PRICING, CONTACT_INFO } from '../config';
+import { QuoteRequestContext } from '../types';
 
 interface ServiceLandingProps {
   lang: 'es' | 'en';
   t: any;
-  onContact: () => void;
+  /** Navega al formulario de cotización. Si se pasa un contexto, el
+   *  servicio y su precio viajan prellenados al formulario. */
+  onContact: (context?: QuoteRequestContext) => void;
   onBooking: () => void;
 }
 
@@ -277,7 +280,17 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                       {isEs ? 'Cotizar por WhatsApp' : 'Quote on WhatsApp'}
                     </a>
                     <button
-                      onClick={onContact}
+                      onClick={() => {
+                        PortfolioEvents.selectService(
+                          isEs ? service.nameEs : service.nameEn,
+                          service.basePrice
+                        );
+                        onContact({
+                          serviceId: service.id,
+                          serviceName: isEs ? service.nameEs : service.nameEn,
+                          price: service.basePrice
+                        });
+                      }}
                       className="w-full px-6 py-2 text-stone-400 hover:text-gold text-xs font-mono font-bold uppercase tracking-widest transition-colors cursor-pointer"
                     >
                       {isEs ? 'Solicitar cotización formal' : 'Request a formal quote'}
@@ -452,6 +465,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
           </button>
           <a
             href="tel:+59162408420"
+            onClick={() => PortfolioEvents.phoneClick()}
             className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 text-white rounded-sm text-sm font-mono tracking-widest uppercase transition-all duration-300 cursor-pointer flex items-center gap-2"
           >
             <Phone className="w-4 h-4" />

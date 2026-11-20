@@ -3,17 +3,22 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle, Youtube, Linkedin, MessageSquare, Compass, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO, CONTACT_FORM } from '../config';
 import { PortfolioEvents } from '../lib/analytics';
+import { QuoteRequestContext } from '../types';
 
 interface ContactFormProps {
   lang: 'es' | 'en';
   t: any;
+  /** Servicio preseleccionado desde /servicios (opcional). */
+  quoteRequest?: QuoteRequestContext | null;
+  /** Se invoca una vez aplicado el prellenado, para consumir el contexto. */
+  onQuoteConsumed?: () => void;
 }
 
-export default function ContactForm({ lang, t }: ContactFormProps) {
+export default function ContactForm({ lang, t, quoteRequest, onQuoteConsumed }: ContactFormProps) {
   const [formState, setFormState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
   const [formData, setFormData] = useState({
@@ -23,6 +28,31 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
     subject: CONTACT_FORM.subject,
     botcheck: ''
   });
+
+  /**
+   * Prellena el mensaje y el asunto cuando el cliente llega desde el botón
+   * "Solicitar cotización formal" de un servicio concreto: el lead llega
+   * completo al correo, sin que el cliente tenga que describir el servicio
+   * desde cero.
+   */
+  useEffect(() => {
+    if (!quoteRequest) return;
+
+    const priceText = `Bs ${quoteRequest.price.toLocaleString(lang === 'es' ? 'es-BO' : 'en-US')}`;
+    setFormData((prev) => ({
+      ...prev,
+      subject: lang === 'es'
+        ? `Cotización: ${quoteRequest.serviceName}`
+        : `Quote request: ${quoteRequest.serviceName}`,
+      message: lang === 'es'
+        ? `Hola Freddy, me interesa el servicio "${quoteRequest.serviceName}" (${priceText}). Cuéntame los detalles del proyecto:`
+        : `Hi Freddy, I'm interested in the "${quoteRequest.serviceName}" service (${priceText}). Here are the project details:`
+    }));
+
+    // El contexto se consume una sola vez: si el cliente vuelve a /contacto
+    // desde el menú, el formulario arranca vacío.
+    if (onQuoteConsumed) onQuoteConsumed();
+  }, [quoteRequest, lang, onQuoteConsumed]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -225,7 +255,11 @@ export default function ContactForm({ lang, t }: ContactFormProps) {
               </div>
               <div>
                 <h4 className="text-[10px] font-mono font-bold text-gold uppercase tracking-widest">{t.contactEmail}</h4>
-                <a href={`mailto:${CONTACT_INFO.email}`} className="text-sm font-semibold text-white hover:text-gold mt-0.5 block break-all transition-colors">
+                <a
+                  href={`mailto:${CONTACT_INFO.email}`}
+                  onClick={() => PortfolioEvents.emailClick()}
+                  className="text-sm font-semibold text-white hover:text-gold mt-0.5 block break-all transition-colors"
+                >
                   {CONTACT_INFO.email}
                 </a>
               </div>

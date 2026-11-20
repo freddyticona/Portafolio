@@ -4,7 +4,7 @@
  */
 
 import React, { Suspense, lazy } from 'react';
-import { PageId } from '../types';
+import { PageId, QuoteRequestContext } from '../types';
 import { TranslationT } from '../types.translation';
 
 const ContactForm = lazy(() => import('../components/ContactForm'));
@@ -23,9 +23,13 @@ function LoadingFallback() {
 interface ContactPageProps {
   lang: 'es' | 'en';
   t: TranslationT;
+  /** Servicio preseleccionado desde /servicios (opcional). */
+  quoteRequest?: QuoteRequestContext | null;
+  /** Se invoca una vez aplicado el prellenado, para consumir el contexto. */
+  onQuoteConsumed?: () => void;
 }
 
-export function ContactPage({ lang, t }: ContactPageProps) {
+export function ContactPage({ lang, t, quoteRequest, onQuoteConsumed }: ContactPageProps) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 animate-fadeIn">
       <div className="text-center space-y-3">
@@ -42,7 +46,12 @@ export function ContactPage({ lang, t }: ContactPageProps) {
 
       <div className="flex justify-center">
         <Suspense fallback={<LoadingFallback />}>
-          <ContactForm lang={lang} t={t} />
+          <ContactForm
+            lang={lang}
+            t={t}
+            quoteRequest={quoteRequest}
+            onQuoteConsumed={onQuoteConsumed}
+          />
         </Suspense>
       </div>
 
@@ -76,7 +85,7 @@ export function BookingPage({ lang, t }: BookingPageProps) {
 interface ServicesPageProps {
   lang: 'es' | 'en';
   t: TranslationT;
-  onContact: () => void;
+  onContact: (context?: QuoteRequestContext) => void;
   onBooking: () => void;
 }
 
