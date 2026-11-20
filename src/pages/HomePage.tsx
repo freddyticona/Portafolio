@@ -11,7 +11,6 @@ import { SERVICES_PRICING, CONTACT_INFO } from '../config';
 import { PortfolioEvents } from '../lib/analytics';
 import CinematicHero from '../components/CinematicHero';
 import BlogCard from '../components/BlogCard';
-import PortfolioShowcase from '../components/PortfolioShowcase';
 
 interface HomePageProps {
   lang: 'es' | 'en';
@@ -432,8 +431,6 @@ export default function HomePage({
           </button>
         </div>
       </section>
-
-      <PortfolioShowcase />
 
       <div className="pb-16" />
     </div>

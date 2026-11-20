@@ -292,16 +292,27 @@ export default function App() {
   };
 
   const handleCatalogo = () => {
-    if (activePage !== 'inicio') {
-      setActivePage('inicio');
-      window.history.pushState(null, '', '/');
+    const irAlCatalogo = () => {
+      // La página de portafolio es lazy: reintentamos hasta que el nodo exista
+      let intentos = 0;
+      const intentar = () => {
+        const el = document.getElementById('catalogo');
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else if (intentos++ < 20) {
+          window.setTimeout(intentar, 100);
+        }
+      };
+      intentar();
+    };
+
+    if (activePage !== 'portafolio') {
+      setActivePage('portafolio');
+      window.history.pushState(null, '', '/portafolio');
     }
     setActiveCaseStudyId(null);
     setActiveBlogPostId(null);
-    setTimeout(() => {
-      const el = document.getElementById('catalogo');
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 120);
+    irAlCatalogo();
   };
 
   const primaryRoute = (post: BlogPost): PageId => {

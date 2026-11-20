@@ -8,6 +8,7 @@ import { PageId } from '../types';
 import { TranslationT } from '../types.translation';
 import { portfolioItems, caseStudies } from '../translations';
 import PortfolioFilters, { FilterState } from '../components/PortfolioFilters';
+import PortfolioShowcase from '../components/PortfolioShowcase';
 
 const PortfolioGrid = lazy(() => import('../components/PortfolioGrid'));
 const CaseStudyDetail = lazy(() => import('../components/CaseStudyDetail'));
@@ -55,36 +56,40 @@ export default function PortfolioPage({
           />
         </Suspense>
       ) : (
-        <div className="space-y-12">
-          <div className="text-center space-y-3">
-            <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
-              {lang === 'es' ? 'Archivo Seleccionado' : 'Selected Archive'}
-            </span>
-            <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight font-display">
-              {t.portfolioTitle}
-            </h1>
-            <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
-              {t.portfolioSubtitle}
-            </p>
+        <>
+          <div className="space-y-12">
+            <div className="text-center space-y-3">
+              <span className="text-gold font-mono text-xs font-bold uppercase tracking-widest">
+                {lang === 'es' ? 'Archivo Seleccionado' : 'Selected Archive'}
+              </span>
+              <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight font-display">
+                {t.portfolioTitle}
+              </h1>
+              <p className="max-w-2xl mx-auto text-sm text-stone-400 leading-relaxed font-light">
+                {t.portfolioSubtitle}
+              </p>
+            </div>
+
+            <PortfolioFilters
+              lang={lang}
+              onFilterChange={(filters) => setPortfolioFilters(filters)}
+            />
+
+            <Suspense fallback={<LoadingFallback />}>
+              <PortfolioGrid
+                items={portfolioItems}
+                lang={lang}
+                t={t}
+                onViewCaseStudy={(id) => {
+                  setActiveCaseStudyId(id);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+              />
+            </Suspense>
           </div>
 
-          <PortfolioFilters
-            lang={lang}
-            onFilterChange={(filters) => setPortfolioFilters(filters)}
-          />
-
-          <Suspense fallback={<LoadingFallback />}>
-            <PortfolioGrid
-              items={portfolioItems}
-              lang={lang}
-              t={t}
-              onViewCaseStudy={(id) => {
-                setActiveCaseStudyId(id);
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
-            />
-          </Suspense>
-        </div>
+          <PortfolioShowcase />
+        </>
       )}
 
       <div className="pb-8" />
