@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight, ZoomIn, Download, Play } from 'lucide-react';
 import { proyectos as projectsData } from '../data/proyectos';
 
@@ -173,7 +174,9 @@ export default function PortfolioShowcase() {
         ))}
       </div>
 
-      {open && (
+      {/* Portal al body: evita que los transforms de .page-transition / .animate-fadeIn
+          conviertan al modal en fixed relativo a la página en vez del viewport. */}
+      {open && createPortal(
         <div
           className="fixed inset-0 z-[100] bg-black/85 backdrop-blur-sm flex items-start justify-center p-4 md:p-8 overflow-y-auto"
           onClick={closeModal}
@@ -312,7 +315,8 @@ export default function PortfolioShowcase() {
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </section>
   );
