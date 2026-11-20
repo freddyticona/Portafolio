@@ -124,7 +124,7 @@ const KNOWLEDGE_BASE = {
     // Experience
     experience: {
       keywords: ['experiencia', 'años', 'trayectoria', 'tiempo', 'antiguedad'],
-      response: 'Tengo más de **15 años de experiencia** en el ámbito audiovisual:\n\n🏆 Premio Nacional Eduardo Abaroa 2017\n📺 Trabajé en Bolivia TV, Red Uno, RTP\n🎬 30+ documentales producidos\n\n¿Sobre qué aspecto te gustaría saber más?',
+      response: 'Tengo más de **15 años de experiencia** en el ámbito audiovisual:\n\n🏆 Premio Nacional Eduardo Abaroa 2017\n📺 Trabajé en Bolivia TV, Red Uno, RTP\n🎬 4 documentales producidos\n\n¿Sobre qué aspecto te gustaría saber más?',
       action: { label: '📄 Ver Portafolio', action: 'portfolio' }
     },
 
@@ -190,7 +190,7 @@ const KNOWLEDGE_BASE = {
 
     experience: {
       keywords: ['experience', 'years', 'career', 'time', 'background'],
-      response: 'I have **15+ years of experience** in audiovisual production:\n\n🏆 National Eduardo Abaroa Award 2017\n📺 Worked at Bolivia TV, Red Uno, RTP\n🎬 30+ documentaries produced\n\nWhat aspect would you like to know more about?',
+      response: 'I have **15+ years of experience** in audiovisual production:\n\n🏆 National Eduardo Abaroa Award 2017\n📺 Worked at Bolivia TV, Red Uno, RTP\n🎬 4 documentaries produced\n\nWhat aspect would you like to know more about?',
       action: { label: '📄 View Portfolio', action: 'portfolio' }
     },
 
