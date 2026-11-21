@@ -169,32 +169,6 @@ export const proyectos: Array<{
     "pdf_descargable": null
   },
   {
-    "id": "kronos-audio",
-    "titulo": "KRONOS AUDIO — Pieza maestra 3D",
-    "subtitulo": "Arte editorial 1080×1350 con render 3D de lata y retícula geométrica",
-    "categoria": "Diseño Gráfico",
-    "anio": 2026,
-    "herramientas": [
-      "Blender",
-      "VectorCraft",
-      "PhotoCraft",
-      "Python / Pillow + NumPy"
-    ],
-    "paleta_colores": [
-      "#EFECE6",
-      "#111111",
-      "#FF4D00",
-      "#FFFFFF"
-    ],
-    "resumen_proyecto": "Composición editorial de bloques geométricos con borde negro, círculo focal naranja y lata 3D renderizada en Blender integrada sobre la retícula. Pieza maestra de 1080×1350 para feed, con versión editable en .blend, .vectorcraft y .pcraft.",
-    "portada_webp": "/portfolio/kronos-audio/01-feed-hero-1080x1350.webp",
-    "galeria_webp": [
-      "/portfolio/kronos-audio/01-feed-hero-1080x1350.webp"
-    ],
-    "video_mp4": null,
-    "pdf_descargable": null
-  },
-  {
     "id": "vertice-cafe",
     "titulo": "VÉRTICE CAFÉ — El ritual del origen",
     "subtitulo": "Reel vertical de 15 s con cinco planos y gradación cinematográfica",
