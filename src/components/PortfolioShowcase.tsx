@@ -20,14 +20,9 @@ type Project = {
 
 const PROJECTS = projectsData as Project[];
 
-const FILTERS = ['all', 'Identidad Visual', 'Diseño Gráfico', 'Redes Sociales', 'Audiovisual'];
-const FILTER_LABELS: Record<string, string> = {
-  all: 'Todo',
-  'Identidad Visual': 'Identidad Visual',
-  'Diseño Gráfico': 'Diseño Gráfico',
-  'Redes Sociales': 'Redes Sociales',
-  Audiovisual: 'Audiovisual',
-};
+// Los filtros se derivan de los datos: al añadir un proyecto con nueva categoría aparece solo.
+const FILTERS = ['all', ...Array.from(new Set(PROJECTS.map((p) => p.categoria)))];
+const FILTER_LABELS: Record<string, string> = { all: 'Todo' };
 
 export default function PortfolioShowcase() {
   const [filter, setFilter] = useState('all');
@@ -122,7 +117,7 @@ export default function PortfolioShowcase() {
                 : 'bg-white/[0.02] text-stone-400 border-white/10 hover:border-gold/50 hover:text-gold'
             }`}
           >
-            {FILTER_LABELS[f]}
+            {FILTER_LABELS[f] ?? f}
           </button>
         ))}
       </div>
@@ -314,7 +309,7 @@ export default function PortfolioShowcase() {
                     className="inline-flex items-center gap-2 px-5 py-3 bg-gold text-black font-bold rounded text-xs font-mono uppercase tracking-widest hover:bg-gold-hover transition-colors"
                   >
                     <Download className="w-4 h-4" />
-                    Descargar Brand Book (PDF)
+                    Ver / Descargar Manual PDF
                   </a>
                 )}
                 {open.video_mp4 && (
