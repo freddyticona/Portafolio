@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useLayoutEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight, ZoomIn, Download, Play } from 'lucide-react';
 import { proyectos as projectsData } from '../data/proyectos';
@@ -34,6 +34,8 @@ export default function PortfolioShowcase() {
   const [open, setOpen] = useState<Project | null>(null);
   const [idx, setIdx] = useState(0);
   const [zoomed, setZoomed] = useState(false);
+  const overlayRef = useRef<HTMLDivElement>(null);
+  const scrollGuardado = useRef<number | null>(null);
 
   const filtered = filter === 'all' ? PROJECTS : PROJECTS.filter((p) => p.categoria === filter);
 
@@ -56,11 +58,21 @@ export default function PortfolioShowcase() {
       let n = i;
       if (n < 0) n = g.length - 1;
       if (n >= g.length) n = 0;
+      // Guardamos el scroll interno del modal antes de cambiar de slide
+      scrollGuardado.current = overlayRef.current?.scrollTop ?? 0;
       setIdx(n);
       setZoomed(false);
     },
     [open]
   );
+
+  // Restauramos el scroll en el mismo frame en que cambia la imagen
+  useLayoutEffect(() => {
+    if (scrollGuardado.current !== null && overlayRef.current) {
+      overlayRef.current.scrollTop = scrollGuardado.current;
+      scrollGuardado.current = null;
+    }
+  }, [idx]);
 
   useEffect(() => {
     if (!open) return;
@@ -178,6 +190,7 @@ export default function PortfolioShowcase() {
           conviertan al modal en fixed relativo a la página en vez del viewport. */}
       {open && createPortal(
         <div
+          ref={overlayRef}
           className="fixed inset-0 z-[100] bg-black/85 backdrop-blur-sm flex items-start justify-center p-4 md:p-8 overflow-y-auto"
           onClick={closeModal}
           role="dialog"
@@ -241,7 +254,7 @@ export default function PortfolioShowcase() {
                 </div>
               </div>
 
-              <div className="relative bg-black rounded-lg overflow-hidden min-h-[240px] flex items-center justify-center">
+              <div className="relative bg-black rounded-lg overflow-hidden h-[60vh] min-h-[260px] flex items-center justify-center">
                 <button
                   onClick={() => showSlide(idx - 1)}
                   aria-label="Anterior"
@@ -253,7 +266,7 @@ export default function PortfolioShowcase() {
                   <video
                     key={open.galeria_webp[idx]}
                     src={open.galeria_webp[idx]}
-                    className="max-w-full max-h-[70vh] object-contain cursor-zoom-in"
+                    className="max-w-full max-h-full object-contain cursor-zoom-in"
                     style={{ transform: zoomed ? 'scale(2)' : 'scale(1)', transition: 'transform 0.3s' }}
                     muted
                     loop
@@ -266,7 +279,7 @@ export default function PortfolioShowcase() {
                     key={open.galeria_webp[idx]}
                     src={open.galeria_webp[idx]}
                     alt={`${open.titulo} — ${idx + 1}`}
-                    className="max-w-full max-h-[70vh] object-contain cursor-zoom-in"
+                    className="max-w-full max-h-full object-contain cursor-zoom-in"
                     style={{ transform: zoomed ? 'scale(2)' : 'scale(1)', transition: 'transform 0.3s' }}
                     onClick={() => setZoomed((z) => !z)}
                   />
