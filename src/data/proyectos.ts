@@ -35,6 +35,34 @@ export const proyectos: Array<{
     "pdf_descargable": "/media/aura-botanica/aura-botanica-brand-book-completo.pdf"
   },
   {
+    "id": "apex-night-run",
+    "titulo": "APEX NIGHT RUN — Key Visual de Lanzamiento",
+    "subtitulo": "Key visual publicitario multiformato con render real recortado",
+    "categoria": "Diseño Gráfico",
+    "anio": 2026,
+    "herramientas": [
+      "Unsplash",
+      "VectorCraft",
+      "DesignCraft",
+      "Python (rembg, PIL, numpy)"
+    ],
+    "paleta_colores": [
+      "#090A0D",
+      "#FFFFFF",
+      "#CCFF00",
+      "#1B2027",
+      "#2A3038"
+    ],
+    "resumen_proyecto": "Key visual de alto impacto para el lanzamiento de la colección deportiva nocturna APEX NIGHT RUN. Dos formatos: pieza principal vertical 1080×1350 y banner web 1920×1080. La zapatilla protagonista es un render fotográfico real con canal alfa, integrado con gradación de alto contraste y reflejos neón lima sobre la base 'LA NOCHE'.",
+    "portada_webp": "/media/apex-night-run/apex-night-run-keyvisual-1080x1350.webp",
+    "galeria_webp": [
+      "/media/apex-night-run/apex-night-run-keyvisual-1080x1350.webp",
+      "/media/apex-night-run/apex-night-run-banner-1920x1080.webp"
+    ],
+    "video_mp4": null,
+    "pdf_descargable": null
+  },
+  {
     "id": "bienal-arquitectura",
     "titulo": "BIENAL DE ARQUITECTURA CONTEMPORÁNEA 2026 — Forma y Vacío",
     "subtitulo": "Afiche editorial contemporáneo con fotografía brutalista",
@@ -58,30 +86,6 @@ export const proyectos: Array<{
     ],
     "video_mp4": null,
     "pdf_descargable": "/media/bienal-arquitectura/afiche-01-bienal-arquitectura.pdf"
-  },
-  {
-    "id": "vertice-cafe",
-    "titulo": "VÉRTICE CAFÉ — El ritual del origen",
-    "subtitulo": "Reel vertical cinematográfico de 15 segundos",
-    "categoria": "Audiovisual",
-    "anio": 2026,
-    "herramientas": [
-      "Unsplash",
-      "VectorCraft",
-      "FilmCraft"
-    ],
-    "paleta_colores": [
-      "#1A100B",
-      "#F5EDE0",
-      "#C98A4B"
-    ],
-    "resumen_proyecto": "Reel vertical de 15 segundos para VÉRTICE CAFÉ con acabado cinematográfico y editorial. Cinco planos reales de fotografía de café con movimiento de cámara suave (zoom-in y paneos), gradación cálida de alto contraste, viñeta oscura, tipografía motion y firmas técnicas de origen, tueste y extracción.",
-    "portada_webp": "/media/vertice-cafe/reel-01-vertice-cafe-cover.webp",
-    "galeria_webp": [
-      "/media/vertice-cafe/reel-01-vertice-cafe-cover.webp"
-    ],
-    "video_mp4": "/media/vertice-cafe/reel-01-vertice-cafe.mp4",
-    "pdf_descargable": null
   },
   {
     "id": "kova-studio",
@@ -108,6 +112,30 @@ export const proyectos: Array<{
       "/media/kova-studio/slide-04.webp"
     ],
     "video_mp4": null,
+    "pdf_descargable": null
+  },
+  {
+    "id": "vertice-cafe",
+    "titulo": "VÉRTICE CAFÉ — El ritual del origen",
+    "subtitulo": "Reel vertical cinematográfico de 15 segundos",
+    "categoria": "Audiovisual",
+    "anio": 2026,
+    "herramientas": [
+      "Unsplash",
+      "VectorCraft",
+      "FilmCraft"
+    ],
+    "paleta_colores": [
+      "#1A100B",
+      "#F5EDE0",
+      "#C98A4B"
+    ],
+    "resumen_proyecto": "Reel vertical de 15 segundos para VÉRTICE CAFÉ con acabado cinematográfico y editorial. Cinco planos reales de fotografía de café con movimiento de cámara suave (zoom-in y paneos), gradación cálida de alto contraste, viñeta oscura, tipografía motion y firmas técnicas de origen, tueste y extracción.",
+    "portada_webp": "/media/vertice-cafe/reel-01-vertice-cafe-cover.webp",
+    "galeria_webp": [
+      "/media/vertice-cafe/reel-01-vertice-cafe-cover.webp"
+    ],
+    "video_mp4": "/media/vertice-cafe/reel-01-vertice-cafe.mp4",
     "pdf_descargable": null
   }
 ];

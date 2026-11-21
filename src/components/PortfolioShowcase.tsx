@@ -139,16 +139,19 @@ export default function PortfolioShowcase() {
             style={{ animationDelay: `${i * 60}ms` }}
             className="group cursor-pointer bg-white/[0.02] border border-white/5 rounded-lg overflow-hidden hover:border-gold/30 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"
           >
-            <div className="aspect-[4/5] overflow-hidden bg-[#0a0a0a] relative">
+            <div
+              className="aspect-[4/5] overflow-hidden relative"
+              style={{ backgroundColor: p.paleta_colores[0] || '#0a0a0a' }}
+            >
               <img
                 src={p.portada_webp}
                 alt={p.titulo}
                 loading="lazy"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
               />
               {p.video_mp4 && (
                 <video
-                  className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  className="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                   src={p.video_mp4}
                   muted
                   loop

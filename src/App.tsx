@@ -292,27 +292,12 @@ export default function App() {
   };
 
   const handleCatalogo = () => {
-    const irAlCatalogo = () => {
-      // La página de portafolio es lazy: reintentamos hasta que el nodo exista
-      let intentos = 0;
-      const intentar = () => {
-        const el = document.getElementById('catalogo');
-        if (el) {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (intentos++ < 20) {
-          window.setTimeout(intentar, 100);
-        }
-      };
-      intentar();
-    };
-
-    if (activePage !== 'portafolio') {
-      setActivePage('portafolio');
-      window.history.pushState(null, '', '/portafolio');
-    }
+    window.history.pushState(null, '', '/portafolio?seccion=diseno');
+    window.dispatchEvent(new CustomEvent('portafolio:seccion', { detail: 'diseno' }));
+    setActivePage('portafolio');
     setActiveCaseStudyId(null);
     setActiveBlogPostId(null);
-    irAlCatalogo();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const primaryRoute = (post: BlogPost): PageId => {
