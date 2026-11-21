@@ -291,15 +291,6 @@ export default function App() {
     setActiveBlogPostId(null);
   };
 
-  const handleCatalogo = () => {
-    window.history.pushState(null, '', '/portafolio?seccion=diseno');
-    window.dispatchEvent(new CustomEvent('portafolio:seccion', { detail: 'diseno' }));
-    setActivePage('portafolio');
-    setActiveCaseStudyId(null);
-    setActiveBlogPostId(null);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   const primaryRoute = (post: BlogPost): PageId => {
     if (post.categoryEs === 'Guías y Trámites') return 'guias';
     return 'blog';
@@ -459,13 +450,12 @@ export default function App() {
         <Navbar
           activePage={activePage}
           handleNavToTab={handleNavToTab}
-          onCatalogo={handleCatalogo}
-        lang={lang}
-        setLang={handleSetLang}
-        t={t}
-        dimmed={dimmed}
-        setDimmed={setDimmed}
-      />
+          lang={lang}
+          setLang={handleSetLang}
+          t={t}
+          dimmed={dimmed}
+          setDimmed={setDimmed}
+        />
 
       {/* Main Page Area */}
       <main id="main-content" className="flex-grow" tabIndex={-1}>

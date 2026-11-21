@@ -48,22 +48,11 @@ export default function PortfolioPage({
   const activeCaseStudy = activeCaseStudyId ? caseStudies[activeCaseStudyId] : null;
   const [seccion, setSeccion] = useState<Seccion>(seccionDesdeUrl);
 
-  // Sincroniza la pestaña con el URL (?seccion=diseno) y con el enlace del navbar
+  // Sincroniza la pestaña con el URL (?seccion=diseno) al navegar con back/forward
   useEffect(() => {
-    const sincronizar = (e?: Event) => {
-      const detail = e instanceof CustomEvent ? e.detail : undefined;
-      if (detail === 'diseno' || detail === 'audiovisual') {
-        setSeccion(detail);
-      } else {
-        setSeccion(seccionDesdeUrl());
-      }
-    };
-    window.addEventListener('portafolio:seccion', sincronizar as EventListener);
+    const sincronizar = () => setSeccion(seccionDesdeUrl());
     window.addEventListener('popstate', sincronizar);
-    return () => {
-      window.removeEventListener('portafolio:seccion', sincronizar as EventListener);
-      window.removeEventListener('popstate', sincronizar);
-    };
+    return () => window.removeEventListener('popstate', sincronizar);
   }, []);
 
   const seleccionarSeccion = (siguiente: Seccion) => {

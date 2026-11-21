@@ -13,12 +13,11 @@ interface NavbarProps {
   lang: 'es' | 'en';
   setLang: (lang: 'es' | 'en') => void;
   t: Record<string, string>;
-  onCatalogo?: () => void;
   dimmed?: boolean;
   setDimmed?: (v: boolean) => void;
 }
 
-export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, onCatalogo, dimmed, setDimmed }: NavbarProps) {
+export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, dimmed, setDimmed }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [contentOpen, setContentOpen] = useState(false);
@@ -187,16 +186,6 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, o
               )}
             </div>
 
-             {onCatalogo && (
-               <button
-                 onClick={() => { onCatalogo(); setMobileMenuOpen(false); }}
-                 aria-label={lang === 'es' ? 'Ver catálogo de diseño' : 'View design catalog'}
-                 className={desktopItemClass(false)}
-               >
-                 {lang === 'es' ? 'Proyectos' : 'Projects'}
-               </button>
-             )}
-
             {secondaryItems.map((item) => {
               const isActive = activePage === item.id;
               return (
@@ -315,15 +304,6 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, o
                 </React.Fragment>
               );
             })}
-            {onCatalogo && (
-              <button
-                onClick={() => { onCatalogo(); setMobileMenuOpen(false); }}
-                role="menuitem"
-                className="w-full text-left px-4 py-3 rounded-sm text-sm uppercase tracking-widest font-semibold transition-colors flex items-center justify-between text-stone-300 hover:text-gold hover:bg-white/5"
-              >
-                <span>{lang === 'es' ? 'Proyectos' : 'Projects'}</span>
-              </button>
-            )}
           </div>
         </div>
       )}
