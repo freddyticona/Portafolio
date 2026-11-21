@@ -9,7 +9,77 @@
     <atom:link href="https://freddydev.net/rss.xml" rel="self" type="application/rss+xml" />
     <description><![CDATA[Camerógrafo y Realizador Audiovisual - Blog de reflexiones y técnicas audiovisuales]]></description>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Nov 2026 02:54:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 14:16:22 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Motion graphics con agentes de IA: por dónde empezar]]></title>
+      <link>https://freddydev.net/blog/motion-graphics-con-agentes-ia-guia-inicio</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/motion-graphics-con-agentes-ia-guia-inicio</guid>
+      <description><![CDATA[Un agente de IA no anima por arte de magia: traduce una intención en capas, keyframes y una exportación. Esta guía explica qué puede hacer hoy, qué…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Del brief al guion: cómo instruir a un agente de IA para animar]]></title>
+      <link>https://freddydev.net/blog/brief-guion-motion-graphics-agente-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/brief-guion-motion-graphics-agente-ia</guid>
+      <description><![CDATA[La calidad de un motion graphics se decide antes de animar: en el brief. Este tutorial convierte una idea suelta en una especificación de siete campos que…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Storyboard automático con IA: de 12 viñetas a una escena animada]]></title>
+      <link>https://freddydev.net/blog/storyboard-automatico-agente-ia-anicraft</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/storyboard-automatico-agente-ia-anicraft</guid>
+      <description><![CDATA[Un storyboard es un contrato entre dirección y ejecución. En este tutorial pedimos a un agente de IA doce viñetas, las ordenamos por intención narrativa y…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Keyframes y easing con agentes de IA: curvas que se sienten humanas]]></title>
+      <link>https://freddydev.net/blog/keyframes-easing-agentes-ia-anicraft</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/keyframes-easing-agentes-ia-anicraft</guid>
+      <description><![CDATA[Casi toda animación casera se mueve como un ascensor: arranca a velocidad máxima y frena en seco. Un agente de IA puede insertar keyframes por ti, pero…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Títulos animados con IA: tipografía que respira, sin plantillas]]></title>
+      <link>https://freddydev.net/blog/titulos-motion-graphics-inteligencia-artificial</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/titulos-motion-graphics-inteligencia-artificial</guid>
+      <description><![CDATA[El título es lo que el espectador recuerda de un motion graphics de ocho segundos. Este tutorial muestra cómo pedirle a un agente de IA una jerarquía…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[VFX y composición con agentes de IA: capas, máscaras y limpieza]]></title>
+      <link>https://freddydev.net/blog/vfx-composicion-agente-ia-effectcraft</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/vfx-composicion-agente-ia-effectcraft</guid>
+      <description><![CDATA[Los modelos de IA generan elementos espectaculares, pero la composición es la que decide si parecen parte de la escena. Este tutorial explica cómo pedirle a…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ensamblar la secuencia con un agente de IA en FilmCraft]]></title>
+      <link>https://freddydev.net/blog/secuencia-video-agente-ia-filmcraft</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/secuencia-video-agente-ia-filmcraft</guid>
+      <description><![CDATA[Animar cada plano por separado es solo la mitad del trabajo. Este tutorial muestra cómo pedirle a un agente de IA que monte la secuencia en FilmCraft,…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Audio y ritmo en motion graphics: sincronizar con IA sin perder el beat]]></title>
+      <link>https://freddydev.net/blog/audio-ritmo-motion-graphics-ia</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/audio-ritmo-motion-graphics-ia</guid>
+      <description><![CDATA[Un motion graphics se siente bien cuando respira con el audio. Este tutorial explica cómo pedirle a un agente de IA que detecte los golpes de la pista, ancle…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Video generativo para motion: Higgsfield, Seedance, Kling o Veo]]></title>
+      <link>https://freddydev.net/blog/video-generativo-motion-higgsfield-seedance-veo</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/video-generativo-motion-higgsfield-seedance-veo</guid>
+      <description><![CDATA[Los modelos de video ya producen planos completos a partir de una frase. Pero elegir el modelo equivocado, o pedir un plano de ocho segundos sin control de…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Exportar y revisar motion graphics con IA: formatos, QA y publicación]]></title>
+      <link>https://freddydev.net/blog/exportar-qa-motion-graphics-ia-plataformas</link>
+      <guid isPermaLink="true">https://freddydev.net/blog/exportar-qa-motion-graphics-ia-plataformas</guid>
+      <description><![CDATA[El motion puede ser excelente y aún así llegar al cliente con bandas, audio desincronizado o un GIF de 40 MB. Este último tutorial de la serie cierra el…]]></description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[Black Friday 2026: las fechas y el orden de compra]]></title>
       <link>https://freddydev.net/blog/black-friday-2026-fechas-estrategia-compra-filmmakers</link>

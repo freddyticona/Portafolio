@@ -1,6 +1,46 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/blog/tutoriales-ia-2026/artcraft-estudio-ia-guia-completa.jpg": {
+    "width": 1800,
+    "height": 886
+  },
+  "/images/blog/tutoriales-ia-2026/vectorcraft-designcraft-storyboards-graficos-ia.jpg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/images/blog/tutoriales-ia-2026/artcraft-canvas-2d-editor-3d-componer-escenas.jpg": {
+    "width": 1800,
+    "height": 1012
+  },
+  "/images/blog/2026-11/edicion/keyframes-easing-animacion-curvas.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/2026-11/edicion/titulos-motion-graphics-tipografia-pantalla.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/tutoriales-ia-2026/effectcraft-motion-graphics-vfx-clon-after-effects.jpg": {
+    "width": 1600,
+    "height": 972
+  },
+  "/images/blog/tutoriales-ia-2026/filmcraft-editor-video-clon-premiere-gratis.jpg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/images/blog/2026-11/edicion/audio-mezcla-eq-compresion-loudness.jpg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/blog/tutoriales-ia-2026/higgsfield-seedance-kling-veo-generacion-video.jpg": {
+    "width": 1800,
+    "height": 1016
+  },
+  "/images/blog/2026-11/edicion/exportacion-codecs-bitrate-entrega-plataformas.jpg": {
+    "width": 1600,
+    "height": 900
+  },
   "/images/blog/black-friday-2026/01-fechas-estrategia.webp": {
     "width": 1200,
     "height": 630
@@ -45,23 +85,11 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1600,
     "height": 900
   },
-  "/images/blog/2026-11/edicion/keyframes-easing-animacion-curvas.jpg": {
-    "width": 1600,
-    "height": 900
-  },
   "/images/blog/2026-11/edicion/speed-ramping-slow-motion-interpolacion.jpg": {
     "width": 1600,
     "height": 900
   },
   "/images/blog/2026-11/edicion/organizacion-proyecto-proxies-backup-321.jpg": {
-    "width": 1600,
-    "height": 900
-  },
-  "/images/blog/2026-11/edicion/titulos-motion-graphics-tipografia-pantalla.jpg": {
-    "width": 1600,
-    "height": 900
-  },
-  "/images/blog/2026-11/edicion/exportacion-codecs-bitrate-entrega-plataformas.jpg": {
     "width": 1600,
     "height": 900
   },
@@ -77,10 +105,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1600,
     "height": 900
   },
-  "/images/blog/2026-11/edicion/audio-mezcla-eq-compresion-loudness.jpg": {
-    "width": 1600,
-    "height": 900
-  },
   "/images/blog/2026-11/mcp-seguridad-candado.jpg": {
     "width": 1800,
     "height": 1800
@@ -93,10 +117,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1500,
     "height": 1500
   },
-  "/images/blog/tutoriales-ia-2026/higgsfield-seedance-kling-veo-generacion-video.jpg": {
-    "width": 1800,
-    "height": 1016
-  },
   "/images/blog/2026-11/mcp-arquitectura-diagrama.jpg": {
     "width": 1500,
     "height": 1700
@@ -105,10 +125,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1800,
     "height": 1350
   },
-  "/images/blog/tutoriales-ia-2026/filmcraft-editor-video-clon-premiere-gratis.jpg": {
-    "width": 1600,
-    "height": 1000
-  },
   "/images/blog/2026-11/mcp-subtitulos-srt.jpg": {
     "width": 900,
     "height": 900
@@ -116,10 +132,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/blog/2026-11/mcp-nas-archivos.jpg": {
     "width": 1800,
     "height": 1931
-  },
-  "/images/blog/tutoriales-ia-2026/artcraft-estudio-ia-guia-completa.jpg": {
-    "width": 1800,
-    "height": 886
   },
   "/images/blog/2026-11/cinemateca-boliviana.jpg": {
     "width": 1800,
@@ -172,18 +184,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/blog/tutoriales-ia-2026/photocraft-vs-photoshop-editar-imagenes-ia.jpg": {
     "width": 1600,
     "height": 1000
-  },
-  "/images/blog/tutoriales-ia-2026/effectcraft-motion-graphics-vfx-clon-after-effects.jpg": {
-    "width": 1600,
-    "height": 972
-  },
-  "/images/blog/tutoriales-ia-2026/vectorcraft-designcraft-storyboards-graficos-ia.jpg": {
-    "width": 1600,
-    "height": 1000
-  },
-  "/images/blog/tutoriales-ia-2026/artcraft-canvas-2d-editor-3d-componer-escenas.jpg": {
-    "width": 1800,
-    "height": 1012
   },
   "/images/blog/tutoriales-ia-2026/higgsfield-soul-cinema-soul-id-personajes-consistentes.jpg": {
     "width": 1800,
