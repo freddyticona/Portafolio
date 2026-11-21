@@ -31,34 +31,6 @@
     "pdf_descargable": "/media/aura-botanica/aura-botanica-brand-book-completo.pdf"
   },
   {
-    "id": "apex-night-run",
-    "titulo": "APEX NIGHT RUN — Key Visual de Lanzamiento",
-    "subtitulo": "Key visual publicitario multiformato con render real recortado",
-    "categoria": "Diseño Gráfico",
-    "anio": 2026,
-    "herramientas": [
-      "Unsplash",
-      "VectorCraft",
-      "DesignCraft",
-      "Python (rembg, PIL, numpy)"
-    ],
-    "paleta_colores": [
-      "#090A0D",
-      "#FFFFFF",
-      "#CCFF00",
-      "#1B2027",
-      "#2A3038"
-    ],
-    "resumen_proyecto": "Key visual de alto impacto para el lanzamiento de la colección deportiva nocturna APEX NIGHT RUN. Dos formatos: pieza principal vertical 1080×1350 y banner web 1920×1080. La zapatilla protagonista es un render fotográfico real con canal alfa, integrado con gradación de alto contraste y reflejos neón lima sobre la base 'LA NOCHE'.",
-    "portada_webp": "/media/apex-night-run/apex-night-run-keyvisual-1080x1350.webp",
-    "galeria_webp": [
-      "/media/apex-night-run/apex-night-run-keyvisual-1080x1350.webp",
-      "/media/apex-night-run/apex-night-run-banner-1920x1080.webp"
-    ],
-    "video_mp4": null,
-    "pdf_descargable": null
-  },
-  {
     "id": "bienal-arquitectura",
     "titulo": "BIENAL DE ARQUITECTURA CONTEMPORÁNEA 2026 — Forma y Vacío",
     "subtitulo": "Afiche editorial contemporáneo con fotografía brutalista",
