@@ -167,30 +167,5 @@ export const proyectos: Array<{
     ],
     "video_mp4": null,
     "pdf_descargable": null
-  },
-  {
-    "id": "vertice-cafe",
-    "titulo": "VÉRTICE CAFÉ — El ritual del origen",
-    "subtitulo": "Reel vertical de 15 s con cinco planos y gradación cinematográfica",
-    "categoria": "Audiovisual",
-    "anio": 2026,
-    "herramientas": [
-      "FilmCraft",
-      "VectorCraft",
-      "Unsplash"
-    ],
-    "paleta_colores": [
-      "#1A100B",
-      "#F5EDE0",
-      "#C98A4B"
-    ],
-    "resumen_proyecto": "Cinco planos reales de 3 segundos con zoom-in y paneos animados por keyframes. Capa de ajuste con Lumetri cálido-contraste y viñeta oscura, tipografía motion en franja segura y cierre con logotipo vectorial. Formato 1080×1920, 30 fps, 15 segundos.",
-    "portada_webp": "/portfolio/vertice-cafe/reel-01-vertice-cafe-cover.webp",
-    "galeria_webp": [
-      "/portfolio/vertice-cafe/reel-01-vertice-cafe-cover.webp",
-      "/media/vertice-cafe/reel-01-vertice-cafe.mp4"
-    ],
-    "video_mp4": "/media/vertice-cafe/reel-01-vertice-cafe.mp4",
-    "pdf_descargable": null
   }
 ];
