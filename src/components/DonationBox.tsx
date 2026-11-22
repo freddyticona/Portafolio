@@ -4,6 +4,7 @@
  */
 
 import { Heart, Smartphone, Info } from 'lucide-react';
+import SizedImg from './SizedImg';
 
 interface DonationBoxProps {
   lang?: 'es' | 'en';
@@ -35,7 +36,7 @@ export function DonationBox({ lang = 'es' }: DonationBoxProps) {
       {/* QR Code */}
       <div className="flex flex-col items-center space-y-3">
         <div className="bg-white p-3 rounded-lg shadow-lg">
-          <img
+          <SizedImg
             src="/images/qr-mercantil.jpg"
             alt={isEs ? 'Código QR para donaciones' : 'QR Code for donations'}
             className="w-40 h-40 object-contain"

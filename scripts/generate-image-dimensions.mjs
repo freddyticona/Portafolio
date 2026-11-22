@@ -36,7 +36,30 @@ const EXTRA_IMAGES = [
   '/images/store/LUTS_CINEMATOGRAFICOS.webp',
   '/images/store/COMPENDIO_GUIAS_BOLIVIA.webp',
 ];
-const imagePaths = [...new Set([...articles.map((a) => a.imageUrl).filter(Boolean), ...EXTRA_IMAGES])];
+// Todas las imágenes públicas referenciadas por la UI (portadas, portafolio,
+// blog, tienda, OG...). Así cualquier <img src> dinámico puede resolver sus
+// dimensiones reales y reservar espacio (CLS = 0).
+function walk(dir) {
+  let out = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) out = out.concat(walk(full));
+    else if (/\.(webp|avif|png|jpe?g)$/i.test(entry.name)) {
+      out.push('/' + path.relative(PUBLIC_DIR, full).split(path.sep).join('/'));
+    }
+  }
+  return out;
+}
+const publicImages = ['images', 'portfolio', 'media'].flatMap((d) => {
+  const abs = path.join(PUBLIC_DIR, d);
+  return fs.existsSync(abs) ? walk(abs) : [];
+});
+
+const imagePaths = [...new Set([
+  ...articles.map((a) => a.imageUrl).filter(Boolean),
+  ...EXTRA_IMAGES,
+  ...publicImages,
+])];
 
 const map = {};
 

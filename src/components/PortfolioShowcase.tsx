@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef, useLayoutEffect } from 'react';
+import SizedImg from './SizedImg';
 import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight, ZoomIn, Download, Play } from 'lucide-react';
 import { proyectos as projectsData } from '../data/proyectos';
@@ -138,7 +139,7 @@ export default function PortfolioShowcase() {
               className="aspect-[4/5] overflow-hidden relative"
               style={{ backgroundColor: p.paleta_colores[0] || '#0a0a0a' }}
             >
-              <img
+              <SizedImg
                 src={p.portada_webp}
                 alt={p.titulo}
                 loading="lazy"
@@ -273,7 +274,7 @@ export default function PortfolioShowcase() {
                     onClick={() => setZoomed((z) => !z)}
                   />
                 ) : (
-                  <img
+                  <SizedImg
                     key={open.galeria_webp[idx]}
                     src={open.galeria_webp[idx]}
                     alt={`${open.titulo} — ${idx + 1}`}

@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import SizedImg from './SizedImg';
 import { BlogPost } from '../types';
 import { Search, Calendar, ArrowRight, Tag, Mail, TrendingUp, BookOpen } from 'lucide-react';
 import BlogCard from './BlogCard';
@@ -327,7 +328,7 @@ export default function BlogLayout({ posts, guides = [], lang, t, onArticleClick
                       className="group flex items-start gap-3 text-left w-full cursor-pointer"
                     >
                       <div className="w-14 h-14 shrink-0 rounded-sm overflow-hidden bg-[#0a0a0a] border border-white/5">
-                        <img
+                        <SizedImg
                           src={post.imageUrl}
                           alt={pTitle}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

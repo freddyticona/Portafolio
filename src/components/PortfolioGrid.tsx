@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useMemo } from 'react';
+import SizedImg from './SizedImg';
 import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase, Play } from 'lucide-react';
 import LazyImage from './LazyImage';
@@ -373,7 +374,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
           >
             <X className="w-6 h-6" />
           </button>
-          <img
+          <SizedImg
             src={activeGalleryImage}
             alt={lang === 'es' ? 'Galería de imágenes' : 'Image gallery'}
             className="max-w-full max-h-[90vh] object-contain rounded-sm"

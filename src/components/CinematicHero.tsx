@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import SizedImg from './SizedImg';
 import { Award, Play, ChevronDown, Sparkles, MessageCircle } from 'lucide-react';
 
 interface CinematicHeroProps {
@@ -88,7 +89,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
           transform: `translateY(${scrollY * 0.5}px) scale3d(${1 + scrollY * 0.0001}, ${1 + scrollY * 0.0001}, 1) translate(${mousePosition.x * -10}px, ${mousePosition.y * -10}px)`
         }}
       >
-        <img
+        <SizedImg
           src="/images/behind-scenes/DSC_2994-medium.webp"
           srcSet={`/images/behind-scenes/DSC_2994-small.webp 640w,
                    /images/behind-scenes/DSC_2994-medium.webp 960w,
@@ -166,10 +167,10 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
           }}
         >
           <span className="text-[11px] font-mono tracking-widest text-stone-500 uppercase">{lang === 'es' ? 'Certificado por' : 'Certified by'}</span>
-          <img src="/images/cisco-logo.svg" alt="Cisco" className="h-6 brightness-0 invert" />
-          <img src="/images/alura-logo.svg" alt="Alura Latam" className="h-5" />
-          <img src="/images/google-activate-logo.svg" alt="Google Actívate" className="h-5 brightness-0 invert" />
-          <img src="/images/coursera-logo.svg" alt="Coursera" className="h-5 brightness-0 invert" />
+          <SizedImg src="/images/cisco-logo.svg" alt="Cisco" className="h-6 brightness-0 invert" />
+          <SizedImg src="/images/alura-logo.svg" alt="Alura Latam" className="h-5" />
+          <SizedImg src="/images/google-activate-logo.svg" alt="Google Actívate" className="h-5 brightness-0 invert" />
+          <SizedImg src="/images/coursera-logo.svg" alt="Coursera" className="h-5 brightness-0 invert" />
         </div>
       </div>
 

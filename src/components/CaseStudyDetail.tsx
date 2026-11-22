@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import SizedImg from './SizedImg';
 import { CaseStudy } from '../types';
 import { ArrowLeft, Award, Cpu, Heart, CheckCircle2, ShieldAlert, Compass, Image, MonitorPlay } from 'lucide-react';
 
@@ -181,7 +182,7 @@ export default function CaseStudyDetail({ caseStudy, lang, t, onBack }: CaseStud
             {caseStudy.btsImages.map((img, idx) => (
               <figure key={idx} className="bg-white/[0.02] border border-white/5 p-3 rounded-sm overflow-hidden space-y-3">
                 <div className="aspect-video bg-[#050505] rounded-sm overflow-hidden border border-white/5">
-                  <img
+                  <SizedImg
                     src={img.url}
                     alt={lang === 'es' ? img.captionEs : img.captionEn}
                     referrerPolicy="no-referrer"

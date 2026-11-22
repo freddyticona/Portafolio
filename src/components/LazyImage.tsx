@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useRef, useEffect } from 'react';
+import SizedImg from './SizedImg';
 import { getCdnUrl, getLqipPlaceholder, getSrcset, defaultSizes, type ResizeOptions } from '../lib/image-cdn';
 
 interface LazyImageProps {
@@ -70,7 +71,7 @@ export default function LazyImage({
 
   return (
     <div ref={imgRef} className={`relative overflow-hidden aspect-video ${className}`}>
-      <img
+      <SizedImg
         src={placeholder}
         alt=""
         aria-hidden="true"
@@ -79,7 +80,7 @@ export default function LazyImage({
         }`}
       />
       {isInView && (
-        <img
+        <SizedImg
           src={fallbackSrc}
           srcSet={srcset}
           sizes={sizes}

@@ -4,5 +4,4 @@
 
 import type { BlogContentEntry } from '../blogContentTypes';
 
-export const blogContentGroup: Record<string, BlogContentEntry> = {
-};
+export const blogContentGroup: Record<string, BlogContentEntry> = {};

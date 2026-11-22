@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useRef, useEffect } from 'react';
+import SizedImg from './SizedImg';
 import { Camera, Video, Aperture, Film, Clapperboard, Sparkles } from 'lucide-react';
 
 interface BehindScenesImage {
@@ -262,7 +263,7 @@ export default function BehindScenesGallery({ lang = 'es', t }: BehindScenesGall
               }}
             >
               {/* Imagen */}
-              <img
+              <SizedImg
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

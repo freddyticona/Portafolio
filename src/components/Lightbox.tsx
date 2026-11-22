@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import SizedImg from './SizedImg';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Maximize2, Minimize2 } from 'lucide-react';
 
@@ -262,7 +263,7 @@ export default function Lightbox({ images, initialIndex = 0, isOpen, onClose }: 
                   className={`w-12 h-12 rounded overflow-hidden border-2 transition-all duration-200 shrink-0 ${
                     i === currentIndex ? 'border-gold scale-110 shadow-lg shadow-gold/20' : 'border-white/20 hover:border-white/50 opacity-60 hover:opacity-100'
                   }`}>
-                  <img src={image.src} alt="" className="w-full h-full object-cover" draggable={false} />
+                  <SizedImg src={image.src} alt="" className="w-full h-full object-cover" draggable={false} />
                 </button>
               ))}
             </motion.div>

@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import SizedImg from './SizedImg';
 import {
   Save, Trash2, Plus, Edit2, Eye, X, FileText, FolderOpen, Calendar,
   Image as ImageIcon, Tag, Clock, CheckCircle, AlertCircle
@@ -472,7 +473,7 @@ export default function CMSPanel({ lang = 'es', onSave }: CMSPanelProps) {
                 {/* Thumbnail */}
                 {item.thumbnail ? (
                   <div className="w-20 h-14 bg-white/5 rounded-sm overflow-hidden flex-shrink-0">
-                    <img
+                    <SizedImg
                       src={item.thumbnail}
                       alt={item.title}
                       className="w-full h-full object-cover"

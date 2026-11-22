@@ -13,6 +13,7 @@
  */
 
 import React, { useState, useMemo, useEffect, useRef, lazy, Suspense } from 'react';
+import SizedImg from './SizedImg';
 import { marked } from 'marked';
 import { BlogPost } from '../types';
 import {
@@ -369,6 +370,23 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
       .slice(0, 3);
   }, [allPosts, post]);
 
+  // ─── Guías relacionadas (enlazado interno entre trámites) ──────────────
+  const relatedGuides = useMemo(() => {
+    if (!allPosts || post.categoryEs !== 'Guías y Trámites') return [];
+    const stop = new Set(['como','sacar','bolivia','guia','guias','2026','certificado','requisitos','costos','paso','para','del','la','el','los','las','en','de','un','una','todo','sobre']);
+    const words = new Set(((post.titleEs + ' ' + post.titleEn).toLowerCase().match(/[a-záéíóúñ]{4,}/g) || []).filter(w => !stop.has(w)));
+    return allPosts
+      .filter(p => p.id !== post.id && p.categoryEs === 'Guías y Trámites')
+      .map(p => ({
+        post: p,
+        score: ((p.titleEs + ' ' + p.titleEn).toLowerCase().match(/[a-záéíóúñ]{4,}/g) || [])
+          .filter(w => words.has(w) && !stop.has(w)).length
+      }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 4)
+      .map(x => x.post);
+  }, [allPosts, post]);
+
   // ─── Trending Posts ─────────────────────────────────────────────────
   const trendingPosts = useMemo(() => {
     if (!allPosts) return [];
@@ -522,7 +540,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         {/* Featured Image */}
         <figure className="space-y-3">
           <div className="aspect-video rounded-sm overflow-hidden border border-white/5 relative bg-[#111]">
-            <img
+            <SizedImg
               src={post.imageUrl}
               alt={lang === 'es' ? post.titleEs : post.titleEn}
               className="absolute inset-0 w-full h-full object-cover object-center"
@@ -673,7 +691,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                 aria-label={`${lang === 'es' ? post.titleEs : post.titleEn} - ${idx + 1}`}
                 className="aspect-video rounded-sm overflow-hidden bg-[#050505] border border-white/5 hover:border-gold/40 transition-all duration-300 cursor-pointer group"
               >
-                <img
+                <SizedImg
                   src={img}
                   alt={`${lang === 'es' ? post.titleEs : post.titleEn} - ${idx + 1}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -792,6 +810,40 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         </div>
       )}
 
+      {/* Guías relacionadas — distribuye autoridad interna entre trámites */}
+      {relatedGuides.length > 0 && (
+        <div className="border-t border-white/5 pt-8 space-y-5">
+          <div className="flex items-center gap-2">
+            <BookOpen className="w-5 h-5 text-gold" />
+            <h3 className="text-lg font-bold text-white font-display">
+              {lang === 'es' ? 'Guías relacionadas' : 'Related guides'}
+            </h3>
+          </div>
+          <p className="text-xs text-stone-400">
+            {lang === 'es'
+              ? 'Otros trámites que podrían interesarte, explicados paso a paso.'
+              : 'Other procedures you may need, explained step by step.'}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {relatedGuides.map(g => (
+              <a
+                key={g.id}
+                href={`/guias/${g.slug}`}
+                onClick={(e) => { e.preventDefault(); onNavigate?.(g); }}
+                className="group block text-left bg-white/[0.02] border border-white/10 hover:border-gold/40 rounded-sm p-4 transition-all duration-200 cursor-pointer"
+              >
+                <span className="block text-sm font-semibold text-white leading-snug group-hover:text-gold transition-colors font-display">
+                  {lang === 'es' ? g.titleEs : g.titleEn}
+                </span>
+                <span className="mt-2 block text-[10px] font-mono uppercase tracking-widest text-stone-500 group-hover:text-gold transition-colors">
+                  {lang === 'es' ? 'Leer guía →' : 'Read guide →'}
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Artículos Relacionados mejorados */}
       {relatedPosts.length > 0 && (
         <div className="border-t border-white/5 pt-8 space-y-6">
@@ -810,7 +862,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                   className="group text-left bg-white/[0.02] border border-white/5 hover:border-gold/30 rounded-sm overflow-hidden transition-all duration-200 cursor-pointer"
                 >
                   <div className="aspect-video bg-[#111] relative overflow-hidden">
-                    <img
+                    <SizedImg
                       src={rp.imageUrl}
                       alt={rpTitle}
                       className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
@@ -843,7 +895,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
 
       {/* Autor */}
       <div className="flex flex-col sm:flex-row items-start gap-4 bg-white/[0.02] border border-white/5 rounded-sm p-5">
-        <img
+        <SizedImg
           src="/images/freddy_profile.webp"
           alt="Freddy Ticona Guzmán"
           width={64}
@@ -998,7 +1050,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
                   <ChevronLeft className="w-6 h-6" />
                 </button>
               )}
-              <img
+              <SizedImg
                 src={activeGalleryImage}
                 alt={lang === 'es' ? 'Galería de imágenes' : 'Image gallery'}
                 className="max-w-full max-h-[90vh] object-contain rounded-sm"

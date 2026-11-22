@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import SizedImg from './SizedImg';
 import { BlogPost, Comment, User } from '../types';
 import { auth, db } from '../lib/firebase';
 import { signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
@@ -488,7 +489,7 @@ export default function AdminPanel({ lang, onBack }: AdminPanelProps) {
                 {posts.map((post) => (
                   <div key={post.id} className="bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/20 transition-all duration-300">
                     <div className="aspect-video bg-[#020202] relative">
-                      <img src={post.imageUrl} alt={lang === 'es' ? post.titleEs : post.titleEn} className="w-full h-full object-cover" />
+                      <SizedImg src={post.imageUrl} alt={lang === 'es' ? post.titleEs : post.titleEn} className="w-full h-full object-cover" />
                       <div className="absolute top-3 left-3 flex gap-2">
                         <span className="bg-gold text-black text-[10px] font-mono font-bold uppercase px-2 py-1 rounded-sm">
                           {lang === 'es' ? post.categoryEs : post.categoryEn}
@@ -1031,7 +1032,7 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
             </div>
             {editedPost.imageUrl && (
               <div className="mt-2 w-full h-32 relative rounded-sm overflow-hidden border border-white/10">
-                <img src={editedPost.imageUrl} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
+                <SizedImg src={editedPost.imageUrl} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
               </div>
             )}
           </div>
@@ -1141,7 +1142,7 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
                   <div className="grid grid-cols-4 gap-3">
                     {editedPost.images.map((img, idx) => (
                       <div key={idx} className="relative group">
-                        <img src={img} alt={`Gallery ${idx + 1}`} className="w-full aspect-square object-cover rounded-sm border border-white/10" />
+                        <SizedImg src={img} alt={`Gallery ${idx + 1}`} className="w-full aspect-square object-cover rounded-sm border border-white/10" />
                         <button
                           onClick={() => handleRemoveImage(idx)}
                           className="absolute top-1 right-1 w-6 h-6 bg-rose-500 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
@@ -1231,7 +1232,7 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
             </div>
             {editedPost.imageUrl && (
               <div className="mt-2 w-full h-32 relative rounded-sm overflow-hidden border border-white/10">
-                <img src={editedPost.imageUrl} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
+                <SizedImg src={editedPost.imageUrl} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
               </div>
             )}
           </div>

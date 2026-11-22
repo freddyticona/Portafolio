@@ -701,6 +701,18 @@ for (const article of articles) {
     <p>Categoría: ${article.categoryEs}</p>
     ${article.source ? `<p>Fuente: ${escapeXml(article.source)}${article.sourceUrl ? ` — ${escapeXml(article.sourceUrl)}` : ''}</p>` : ''}
     ${articleBodyHtml ? `<article>${articleBodyHtml}</article>` : ''}
+    ${route === 'guias' ? (() => {
+      const stop = new Set(['como','sacar','bolivia','guia','guias','2026','certificado','requisitos','costos','paso','para','del','la','el','los','las','en','de','un','una','todo','sobre']);
+      const words = new Set((article.title.toLowerCase().match(/[a-záéíóúñ]{4,}/g) || []).filter(w => !stop.has(w)));
+      const related = articles
+        .filter(a => a.slug !== article.slug && a.categoryEs === 'Guías y Trámites')
+        .map(a => ({ a, score: (a.title.toLowerCase().match(/[a-záéíóúñ]{4,}/g) || []).filter(w => words.has(w) && !stop.has(w)).length }))
+        .sort((x, y) => y.score - x.score)
+        .slice(0, 4)
+        .map(x => x.a);
+      if (!related.length) return '';
+      return `<section><h2>Guías relacionadas</h2><ul>${related.map(a => `<li><a href="/guias/${a.slug}">${escapeXml(a.title)}</a></li>`).join('')}</ul></section>`;
+    })() : ''}
   </div>`.trim();
   html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
