@@ -61,6 +61,26 @@ No se encontró PDF de aranceles en la sección de trámites del SEGIP (solo un 
 
 La guía ya mencionaba a la APS; se reforzó con la resolución de habilitación y se añadió enlace cruzado a la guía [1042] de multas de tránsito.
 
+## Guía [177] Apostilla — 2026-11-22
+
+| Guía | Dato | Valor anterior | Valor oficial | Fuente (URL + HTTP) | Estado |
+|---|---|---|---|---|---|
+| [177] Apostilla | Costo de la apostilla (Cancillería) | Bs 70 «certificados» a Bs 300 «posgrado» (mezclado con valorado) | **Bs 70 por apostilla** | https://apostilla.rree.gob.bo/api/costo (200) | ✅ VERIFICADO (separa conceptos) |
+| [177] Apostilla | Valorado (entidad emisora) | No se distinguía | Bs 150–690 según documento (15 fichas consultadas) | https://www.gob.bo/tramites/diploma-de-bachiller-apostilla (200) y otras fichas | ✅ AÑADIDO |
+| [177] Apostilla | Apostillar traducción | No se distinguía | Bs 100–340 según ficha (Bs 200 en la mayoría) | https://www.gob.bo/tramites/cert-de-notas-apostilla (200) y otras fichas | ✅ AÑADIDO |
+| [177] Apostilla | Traducción propiamente dicha | No se indicaba | No publicada en fuentes oficiales | — | ⚠️ PENDIENTE |
+| [177] Apostilla | Valorado para documentos no listados | — | No publicado | — | ⚠️ PENDIENTE |
+
+Distinción aplicada en el HTML: sección «Costos 2026: valorado, apostilla y traducción» con tres subsecciones numeradas y tabla de 15 documentos. La tabla anterior quedó marcada como «versión anterior (reemplazada)».
+
+## Ajuste [80] SOAT — precio particular — 2026-11-22
+
+| Guía | Dato | Valor anterior | Valor corregido | Fuente | Estado |
+|---|---|---|---|---|---|
+| [80] SOAT | Automóvil particular | Bs 90 (valor único) | **Desde Bs 90** | https://www.univida.bo/soat/precios (200) | ⚠️ PENDIENTE matiz |
+
+No se encontró tabla oficial con rangos por cilindraje o subcategoría dentro de «particular». El texto advierte que el monto exacto depende de la categoría del vehículo y debe confirmarse con la placa. Reintentar el 2026-12-22.
+
 ## Segunda pasada a PENDIENTES de [79] y [81] — 2026-11-22
 
 | Guía | Dato | URLs intentadas | HTTP | Resultado | Reintentar el |
@@ -87,6 +107,12 @@ Todos estos datos tienen su aviso visible `alerta-verificacion` en el HTML de la
 - `assets/fuentes-oficiales/soat/APS_RA_1432_2026_SOAT_2027.pdf`
 - `assets/fuentes-oficiales/soat/UNIVIDA_PRECIOS_SOAT_2026-11-22.html`
 - `assets/fuentes-oficiales/soat/UNIVIDA_TABLA_PRECIOS_SOAT_2026.png`
+- `assets/fuentes-oficiales/apostilla/APOSTILLA_API_COSTO_2026-11-22.json`
+- `assets/fuentes-oficiales/apostilla/GOB_APOSTILLA_FICHA_GENERAL_2026-11-22.html`
+- `assets/fuentes-oficiales/apostilla/GOB_VALORADO_DIPLOMA_BACHILLER_2026-11-22.html`
+- `assets/fuentes-oficiales/apostilla/GOB_VALORADO_CERT_NOTAS_2026-11-22.html`
+- `assets/fuentes-oficiales/apostilla/GOB_VALORADO_PROGRAMAS_ANALITICOS_2026-11-22.html`
+- `assets/fuentes-oficiales/apostilla/GOB_VALORADO_TITULO_PROVISION_NACIONAL_2026-11-22.html`
 
 No se encontró PDF oficial específico para este trámite en el sitio del SEGIP; se archivó el HTML oficial íntegro como constancia.
 
