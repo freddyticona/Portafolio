@@ -56,6 +56,7 @@ import { injectStructuredData, generateArticleStructuredData, generateGuideFAQSt
 import { formatPostDate } from '../lib/date';
 import { extractKeyPoints } from '../lib/summary';
 import NativeConversionCard from './NativeConversionCard';
+import AdSlot from './AdSlot';
 import { CONTACT_INFO } from '../config';
 import { PortfolioEvents } from '../lib/analytics';
 import { loadBlogContent } from '../data/loader';
@@ -712,6 +713,9 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
           isGuide={post.categoryEs === 'Guías y Trámites'}
         />
       )}
+
+      {/* Publicidad: solo /blog y /guias, solo si VITE_ENABLE_ADS=true (dormido por defecto) */}
+      <AdSlot slot="after-article" />
 
       {/* Tags */}
       <div className="flex flex-wrap items-center gap-2 pt-4 border-t border-white/5">
