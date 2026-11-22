@@ -574,6 +574,22 @@ blockquote.twitter-tweet a:hover {
   text-decoration: underline;
 }
 
+/* Aviso visible de dato pendiente de verificación oficial */
+.alerta-verificacion {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-left: 4px solid #D4AF37;
+  border-radius: 8px;
+  background: rgba(212, 175, 55, 0.08);
+}
+.alerta-verificacion p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #f0dcae;
+  line-height: 1.55;
+}
+
 /* Tarjeta de cita de experto */
 .expert-quote {
   max-width: 640px;
