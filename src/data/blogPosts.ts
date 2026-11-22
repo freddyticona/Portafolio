@@ -2847,5 +2847,26 @@ export const blogPosts: BlogPost[] = [
     views: 1,
     location: "La Paz, Bolivia",
     region: "Bolivia"
+  },
+  {
+    id: "1450",
+    contentType: "analysis",
+    slug: "ciudadania-digital-bolivia-2026-registro-usos",
+    titleEs: "Ciudadanía Digital Bolivia 2026: registro y usos",
+    titleEn: "Digital Citizenship Bolivia 2026: registration and uses",
+    excerptEs: "Cómo registrarte en Ciudadanía Digital Bolivia 2026: pre-registro en línea, finalización virtual o presencial, costo, requisitos y trámites disponibles.",
+    excerptEn: "How to register for Digital Citizenship Bolivia 2026: online pre-registration, virtual or in-person completion, cost, requirements and services.",
+    date: "2026-11-22",
+    readTimeEs: "10 min de lectura",
+    readTimeEn: "10 min read",
+    imageUrl: "/images/portadas/CIUDADANIA_DIGITAL_BOLIVIA_2026.WEBP",
+    imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites",
+    categoryEn: "Guides & Procedures",
+    enableComments: true,
+    featured: false,
+    views: 1,
+    location: "La Paz, Bolivia",
+    region: "Bolivia"
   }
 ];

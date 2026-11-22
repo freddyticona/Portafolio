@@ -122,6 +122,14 @@ No se encontró PDF oficial específico para este trámite en el sitio del SEGIP
 2. Vigencia exacta de la cédula de identidad (el portal solo indica que la reposición conserva la fecha original).
 3. Cualquier dato de SERECÍ, Gestora Pública y ADSIB mientras sus portales permanezcan inaccesibles.
 
+## Nuevas guías de digitalización y simplificación (2026)
+
+| ID | Tema | Fuentes consultadas (URL + HTTP) | Datos verificados | PENDIENTE | Estado |
+|---|---|---|---|---|---|
+| 1450 | Ciudadanía Digital: registro y usos | https://www.gob.bo/tramites/registro-en-ciudadania-digital (200, actualizada 18/11/2026) · https://ciudadaniadigital.bo/home (200) · https://www.gob.bo/tramites/declaracion-jurada-de-bienes-y-rentas (200) | Gratuidad en ambas modalidades; Ley N° 1080; 2 horas de atención presencial; pasos de pre-registro y finalización virtual/presencial; notificaciones judiciales y DJBR virtual | Integración específica con la Gestora Pública | ✅ PUBLICADA (con aviso PENDIENTE) |
+
+Nota: la entrada es `ciudadaniadigital.bo` (no `yasta.bo`, que no resuelve DNS). Se verificó el pre-registro en línea y la opción de finalización presencial en la ficha oficial de AGETIC. Portada vectorial propia: `public/images/portadas/CIUDADANIA_DIGITAL_BOLIVIA_2026.WEBP`.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
