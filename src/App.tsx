@@ -26,6 +26,7 @@ import type { FilterState } from './components/PortfolioFilters';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { CONTACT_INFO, SERVICES_PRICING } from './config';
+import { STORE_PRODUCTS } from './data/storeProducts';
 import { updateMetaTags } from './lib/seo';
 import { PortfolioEvents } from './lib/analytics';
 import { useGsapAnimations } from './hooks/useGsapAnimations';
@@ -62,6 +63,8 @@ const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default
 const ServicesPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ServicesPage })));
 const AdminPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.AdminPage })));
 const ServiceDetailPage = lazy(() => import('./pages/ServiceDetailPage'));
+const StorePage = lazy(() => import('./pages/StorePages').then(m => ({ default: m.StorePage })));
+const StoreProductPage = lazy(() => import('./pages/StorePages').then(m => ({ default: m.StoreProductPage })));
 
 // Componentes flotantes globales — lazy loaded
 const WhatsAppButton = lazy(() => import('./components/WhatsAppButton'));
@@ -73,7 +76,7 @@ const Chatbot = lazy(() => import('./components/Chatbot'));
 // o a /servicios) y para validar el popstate.
 const VALID_PAGES: PageId[] = [
   'inicio', 'sobre-mi', 'portafolio', 'cv',
-  'blog', 'guias', 'galeria', 'contacto', 'reservas', 'servicios', 'admin',
+  'blog', 'guias', 'galeria', 'contacto', 'reservas', 'servicios', 'tienda', 'admin',
   'eclipse-2026', 'reportaje-iran-furia-epica', 'reportaje-gaza-desarme', 'reportaje-ucrania-estancamiento', 'reportaje-malvinas-historia',
 ];
 
@@ -97,6 +100,11 @@ function isArticlePath(pathname: string = window.location.pathname): boolean {
 /** El detalle de servicio pone su propio <title>, canonical y JSON-LD. */
 function isServicePath(pathname: string = window.location.pathname): boolean {
   return /^\/servicios\/[^/]+\/?$/.test(pathname);
+}
+
+/** El detalle de producto gestiona su propio <title>, canonical y JSON-LD Product. */
+function isStorePath(pathname: string = window.location.pathname): boolean {
+  return /^\/tienda\/[^/]+\/?$/.test(pathname);
 }
 
 // ─── Skeleton loaders por tipo de página ─────────────────────────────────
@@ -168,6 +176,7 @@ export default function App() {
   const [activeCaseStudyId, setActiveCaseStudyId] = useState<string | null>(null);
   const [activeBlogPostId, setActiveBlogPostId] = useState<string | null>(null);
   const [activeServiceId, setActiveServiceId] = useState<string | null>(null);
+  const [activeProductId, setActiveProductId] = useState<string | null>(null);
 
   // Estado del showreel (se mantiene en App para preservarlo entre navegaciones)
 
@@ -224,6 +233,15 @@ export default function App() {
     const handlePopState = () => {
       const parts = window.location.pathname.split('/').filter(Boolean);
 
+      if (parts.length === 2 && parts[0] === 'tienda' && STORE_PRODUCTS.some(p => p.slug === parts[1])) {
+        setActivePage('tienda');
+        setActiveProductId(parts[1]);
+        setActiveBlogPostId(null);
+        setActiveServiceId(null);
+        setActiveCaseStudyId(null);
+        return;
+      }
+
       if (parts.length === 2 && parts[0] === 'servicios' && SERVICES_PRICING.some(s => s.id === parts[1])) {
         setActivePage('servicios');
         setActiveServiceId(parts[1]);
@@ -248,6 +266,7 @@ export default function App() {
         setActiveCaseStudyId(null);
         setActiveBlogPostId(null);
         setActiveServiceId(null);
+        setActiveProductId(null);
       }
     };
 
@@ -282,7 +301,7 @@ export default function App() {
     // el <title> del artículo, su canonical y su JSON-LD. Si el shell lo
     // actualizara aquí, sobreescribiría el título del artículo con el de la
     // sección y GA4 registraría la vista con el título incorrecto.
-    if (isArticlePath() || isServicePath()) return;
+    if (isArticlePath() || isServicePath() || isStorePath()) return;
 
     updateMetaTags(activePage, lang);
   }, [activePage, lang]);
@@ -306,6 +325,7 @@ export default function App() {
     setActiveCaseStudyId(null);
     setActiveBlogPostId(null);
     setActiveServiceId(null);
+    setActiveProductId(null);
   };
 
   const primaryRoute = (post: BlogPost): PageId => {
@@ -321,6 +341,7 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveCaseStudyId(null);
     setActiveServiceId(null);
+    setActiveProductId(null);
   };
 
   // ─── Renderizar página activa con transiciones ────────────────────────────
@@ -463,6 +484,21 @@ export default function App() {
               onBooking={() => handleNavToTab('reservas')}
             />
           );
+        }
+        case 'tienda': {
+          const activeProduct = activeProductId
+            ? STORE_PRODUCTS.find(p => p.slug === activeProductId)
+            : undefined;
+          if (activeProduct) {
+            return (
+              <StoreProductPage
+                product={activeProduct}
+                lang={lang}
+                onBack={() => handleNavToTab('tienda')}
+              />
+            );
+          }
+          return <StorePage lang={lang} />;
         }
         case 'admin':
           return <AdminPage lang={lang} onBack={() => handleNavToTab('inicio')} />;

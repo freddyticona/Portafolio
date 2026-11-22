@@ -97,11 +97,28 @@ for (const service of servicesCatalog) {
   </url>\n`;
 }
 
+xml += `\n  <!-- Tienda digital -->\n`;
+xml += `  <url>
+    <loc>${SITE}/tienda</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>\n`;
+const storeProducts = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'storeProducts.json'), 'utf-8'));
+for (const product of storeProducts) {
+  xml += `  <url>
+    <loc>${SITE}/tienda/${product.slug}</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>\n`;
+}
+
 xml += `</urlset>\n`;
 
 const outputPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
 fs.writeFileSync(outputPath, xml, 'utf-8');
 
-const total = sections.length + articles.length + servicesCatalog.length;
+const total = sections.length + articles.length + servicesCatalog.length + storeProducts.length + 1;
 console.log(`✅ Sitemap generado: ${outputPath}`);
-console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos + ${servicesCatalog.length} servicios)`);
+console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos + ${servicesCatalog.length} servicios + ${storeProducts.length + 1} tienda)`);

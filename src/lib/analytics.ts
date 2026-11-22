@@ -220,6 +220,19 @@ export const PortfolioEvents = {
     category: 'Services'
   }),
 
+  // Tienda digital
+  viewItem: (itemName: string, value?: number) => trackEvent('view_item', {
+    item_name: itemName,
+    ...(value ? { value, currency: 'BOB' } : {}),
+    category: 'Store'
+  }),
+
+  beginCheckout: (itemName: string, value?: number) => trackEvent('begin_checkout', {
+    item_name: itemName,
+    ...(value ? { value, currency: 'BOB' } : {}),
+    category: 'Store'
+  }),
+
   // Descargas
   cvDownload: () => trackEvent('file_download', {
     file_name: 'CV_Freddy_Ticona',

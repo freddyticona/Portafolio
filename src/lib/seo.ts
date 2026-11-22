@@ -29,7 +29,7 @@ const SITE_CONFIG = {
   name: 'Freddy Ticona Guzmán',
   url: 'https://freddydev.net',
   locale: 'es_BO',
-  ogImageDefault: 'https://freddydev.net/og-image.jpg',
+  ogImageDefault: 'https://freddydev.net/images/OG/OG_HOME.webp',
 };
 
 /**
@@ -183,7 +183,28 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
       keywords: ['Bolivia procedures guide', 'SEGIP ID card', 'SOAT Bolivia 2026', 'Bolivia driver license', 'Bolivia passport', 'NIT Bolivia', 'Bolivia visa', 'police records Bolivia', 'birth certificate Bolivia'],
     }
   },
+  tienda: {
+    es: {
+      title: 'Tienda Digital | Recursos para Creadores',
+      description: 'Compra guiones para Reels, LUTs cinematográficos y el compendio de guías de Bolivia 2026. Descarga inmediata y pago local por WhatsApp.',
+      keywords: ['tienda digital Bolivia', 'guiones reels', 'LUTs cinematográficos', 'guías trámites Bolivia PDF', 'recursos para creadores'],
+    },
+    en: {
+      title: 'Digital Store | Creator Resources',
+      description: 'Buy Reels scripts, cinematic LUTs and the Bolivia 2026 procedures compendium. Instant download and local WhatsApp payment.',
+      keywords: ['digital store Bolivia', 'reels scripts', 'cinematic LUTs', 'Bolivia procedures PDF', 'creator resources'],
+    }
+  },
 
+};
+
+/** Open Graph diferenciado por sección (1200x630 WebP, nombres en mayúsculas). */
+const OG_BY_PAGE: Record<string, string> = {
+  inicio: 'https://freddydev.net/images/OG/OG_HOME.webp',
+  servicios: 'https://freddydev.net/images/OG/OG_SERVICIOS.webp',
+  blog: 'https://freddydev.net/images/OG/OG_BLOG.webp',
+  guias: 'https://freddydev.net/images/OG/OG_GUIAS.webp',
+  tienda: 'https://freddydev.net/images/OG/OG_TIENDA.webp',
 };
 
 /**
@@ -194,6 +215,7 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
   // Límites estrictos: título <= 60, descripción 140-155 con gancho comercial.
   const title = fitTitle(metadata.title);
   const description = fitDescription(metadata.description);
+  const ogImage = OG_BY_PAGE[pageId] || metadata.ogImage || SITE_CONFIG.ogImageDefault;
 
   // Actualizar título
   document.title = title;
@@ -208,7 +230,7 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
   updateOrCreateMetaTag('property', 'og:title', title);
   updateOrCreateMetaTag('property', 'og:description', description);
   updateOrCreateMetaTag('property', 'og:type', metadata.ogType || 'website');
-  updateOrCreateMetaTag('property', 'og:image', metadata.ogImage || SITE_CONFIG.ogImageDefault);
+  updateOrCreateMetaTag('property', 'og:image', ogImage);
   updateOrCreateMetaTag('property', 'og:locale', lang === 'es' ? 'es_BO' : 'en_US');
   updateOrCreateMetaTag('property', 'og:site_name', SITE_CONFIG.name);
 
@@ -216,7 +238,7 @@ export function updateMetaTags(pageId: string, lang: 'es' | 'en', additionalData
   updateOrCreateMetaTag('name', 'twitter:card', 'summary_large_image');
   updateOrCreateMetaTag('name', 'twitter:title', title);
   updateOrCreateMetaTag('name', 'twitter:description', description);
-  updateOrCreateMetaTag('name', 'twitter:image', metadata.ogImage || SITE_CONFIG.ogImageDefault);
+  updateOrCreateMetaTag('name', 'twitter:image', ogImage);
 
   // Actualizar canonical y Open Graph URL
   const pagePath = pageId === 'inicio' ? '/' : `/${pageId}`;

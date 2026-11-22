@@ -257,6 +257,11 @@ const pages = {
     desc: 'Filmación 4K, edición, documentales y reels en La Paz desde Bs. 300. Precios reales, entregas en 3 a 5 días y cotización directa por WhatsApp.',
     path: '/servicios'
   },
+  'tienda': {
+    title: 'Tienda Digital | Recursos para Creadores',
+    desc: 'Compra guiones para Reels, LUTs cinematográficos y el compendio de guías de Bolivia 2026. Descarga inmediata y pago local por WhatsApp.',
+    path: '/tienda'
+  },
   'reservas': {
     title: 'Reserva tu Filmación en La Paz | Freddy Ticona',
     desc: 'Agenda tu sesión de video, edición o consultoría audiovisual en La Paz. Elige fecha, recibe confirmación inmediata y cotiza tu proyecto sin compromiso.',
@@ -293,6 +298,21 @@ const distDir = path.join(__dirname, '..', 'dist');
 const SERVICES_PRICING = JSON.parse(
   fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'servicesPricing.json'), 'utf-8')
 );
+
+// Catálogo de la tienda (misma fuente JSON que la app).
+const STORE_PRODUCTS = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'storeProducts.json'), 'utf-8')
+);
+
+// OG por ruta: imágenes 1200x630 WebP con nombres en mayúsculas.
+const OG_BY_ROUTE = {
+  '': `${SITE}/images/OG/OG_HOME.webp`,
+  inicio: `${SITE}/images/OG/OG_HOME.webp`,
+  servicios: `${SITE}/images/OG/OG_SERVICIOS.webp`,
+  blog: `${SITE}/images/OG/OG_BLOG.webp`,
+  guias: `${SITE}/images/OG/OG_GUIAS.webp`,
+  tienda: `${SITE}/images/OG/OG_TIENDA.webp`,
+};
 
 if (!fs.existsSync(distDir)) {
   console.error('❌ dist/ no encontrado. Ejecuta "npm run build" primero.');
@@ -374,10 +394,15 @@ for (const [key, meta] of Object.entries(pages)) {
     `<meta property="og:description" content="${pageDesc}"`
   );
 
-  // Replace OG url
+  // Replace OG url + OG image diferenciada por ruta (1200x630 WebP)
   html = html.replace(
     /<meta property="og:url" content=".*?"/,
     `<meta property="og:url" content="${SITE}${meta.path}"`
+  );
+  const pageOg = OG_BY_ROUTE[key] || `${SITE}/images/OG/OG_HOME.webp`;
+  html = html.replace(
+    /<meta property="og:image" content=".*?"/,
+    `<meta property="og:image" content="${pageOg}"`
   );
 
   // Replace Twitter title
@@ -390,6 +415,11 @@ for (const [key, meta] of Object.entries(pages)) {
   html = html.replace(
     /<meta name="twitter:description" content=".*?"/,
     `<meta name="twitter:description" content="${pageDesc}"`
+  );
+
+  html = html.replace(
+    /<meta name="twitter:image" content=".*?"/,
+    `<meta name="twitter:image" content="${pageOg}"`
   );
 
   // Replace Twitter URL
@@ -764,7 +794,84 @@ for (const service of servicesCatalog) {
   console.log(`✅ /servicios/${service.id}`);
 }
 
-const total = Object.keys(pages).length + articles.length + servicesCatalog.length;
+// Tienda digital: portada y fichas de producto con schema Product + Offer.
+{
+  const dir = path.join(distDir, 'tienda');
+  fs.mkdirSync(dir, { recursive: true });
+  let html = cleanIndexHtml;
+  const title = fitTitle(pages.tienda.title);
+  const desc = fitDescription(pages.tienda.desc);
+  html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
+  html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${title}"`);
+  html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${OG_BY_ROUTE.tienda}"`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${title}"`);
+  html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${OG_BY_ROUTE.tienda}"`);
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${SITE}/tienda"`);
+  html = html.replace('</head>',
+    `    <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Tienda Digital', url: `${SITE}/tienda`, description: desc })}</script>\n  </head>`);
+  const cards = STORE_PRODUCTS.map(p => `<article><h2><a href="/tienda/${p.slug}">${escapeXml(p.nameEs)}</a></h2><p>${escapeXml(p.descriptionEs)}</p><p>Bs. ${p.priceBob} / USD ${p.priceUsd}</p></article>`).join('');
+  html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    <div class="max-w-5xl mx-auto px-4 py-16"><h1>Tienda Digital</h1>${cards}</div>`);
+  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
+  console.log('✅ /tienda');
+}
+
+for (const product of STORE_PRODUCTS) {
+  const dir = path.join(distDir, 'tienda', product.slug);
+  fs.mkdirSync(dir, { recursive: true });
+  let html = cleanIndexHtml;
+  const url = `${SITE}/tienda/${product.slug}`;
+  const title = fitTitle(`${product.nameEs} | Tienda Digital`);
+  const desc = fitDescription(`${product.nameEs} por Bs. ${product.priceBob}. ${product.descriptionEs} Descarga inmediata.`);
+  html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
+  html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${title}"`);
+  html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${SITE}${product.ogImage}"`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${title}"`);
+  html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${SITE}${product.ogImage}"`);
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${url}"`);
+  html = html.replace('</head>',
+    `    <link rel="alternate" hreflang="es" href="${url}" />\n` +
+    `    <link rel="alternate" hreflang="en" href="${url}" />\n` +
+    `    <link rel="alternate" hreflang="x-default" href="${url}" />\n  </head>`);
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Product', '@id': `${url}#product`, name: product.nameEs,
+        description: product.descriptionEs, image: `${SITE}${product.preview}`,
+        sku: product.id, brand: { '@type': 'Brand', name: 'Freddy Ticona' },
+        offers: { '@type': 'Offer', price: String(product.priceUsd), priceCurrency: 'USD', availability: 'https://schema.org/InStock', url },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE },
+          { '@type': 'ListItem', position: 2, name: 'Tienda', item: `${SITE}/tienda` },
+          { '@type': 'ListItem', position: 3, name: product.nameEs, item: url },
+        ],
+      },
+    ],
+  };
+  html = html.replace('</head>', `    <script type="application/ld+json">${JSON.stringify(productSchema)}</script>\n  </head>`);
+  const body = `<div class="max-w-4xl mx-auto px-4 py-16 space-y-6">
+    <h1>${escapeXml(product.nameEs)}</h1>
+    <p>${escapeXml(product.descriptionEs)}</p>
+    <p>Precio: Bs. ${product.priceBob} / USD ${product.priceUsd}</p>
+    <h2>Qué incluye</h2>
+    <ul>${product.deliverablesEs.map(f => `<li>${escapeXml(f)}</li>`).join('')}</ul>
+    <p><a href="${escapeAttr(product.checkoutPlaceholder)}">Comprar online</a> · <a href="https://wa.me/59162408420">Comprar por WhatsApp</a></p>
+  </div>`.trim();
+  html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${body}`);
+  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
+  console.log(`✅ /tienda/${product.slug}`);
+}
+
+const total = Object.keys(pages).length + articles.length + servicesCatalog.length + STORE_PRODUCTS.length + 1;
 console.log(`\n🎉 ${total} páginas pre-renderizadas en dist/`);
 console.log(`📄 ${articles.length} artículos extraídos dinámicamente de blogPosts.ts`);
 console.log(`💼 ${servicesCatalog.length} fichas de servicio con schema Service + FAQ`);

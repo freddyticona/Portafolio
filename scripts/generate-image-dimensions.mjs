@@ -23,7 +23,20 @@ const PUBLIC_DIR = path.join(__dirname, '..', 'public');
 
 // Imágenes referenciadas por los artículos (imageUrl) — rutas tipo '/images/blog/...'
 const articles = extractArticles();
-const imagePaths = [...new Set(articles.map((a) => a.imageUrl).filter(Boolean))];
+const EXTRA_IMAGES = [
+  '/images/OG/OG_HOME.webp',
+  '/images/OG/OG_SERVICIOS.webp',
+  '/images/OG/OG_TIENDA.webp',
+  '/images/OG/OG_GUIAS.webp',
+  '/images/OG/OG_BLOG.webp',
+  '/images/store/OG_PRODUCTO_GUIONES.webp',
+  '/images/store/OG_PRODUCTO_LUTS.webp',
+  '/images/store/OG_PRODUCTO_GUIAS.webp',
+  '/images/store/GUIONES_HOOKS_REELS.webp',
+  '/images/store/LUTS_CINEMATOGRAFICOS.webp',
+  '/images/store/COMPENDIO_GUIAS_BOLIVIA.webp',
+];
+const imagePaths = [...new Set([...articles.map((a) => a.imageUrl).filter(Boolean), ...EXTRA_IMAGES])];
 
 const map = {};
 

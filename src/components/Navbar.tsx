@@ -65,6 +65,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
 
   const secondaryItems: { id: PageId; label: string }[] = [
     { id: 'servicios', label: lang === 'es' ? 'Servicios' : 'Services' },
+    { id: 'tienda', label: lang === 'es' ? 'Tienda' : 'Store' },
     { id: 'reservas', label: lang === 'es' ? 'Reservas' : 'Booking' },
     { id: 'contacto', label: t.navContact },
   ];

@@ -316,5 +316,49 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/freddy_profile.webp": {
     "width": 1920,
     "height": 1280
+  },
+  "/images/OG/OG_HOME.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/OG/OG_SERVICIOS.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/OG/OG_TIENDA.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/OG/OG_GUIAS.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/OG/OG_BLOG.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/store/OG_PRODUCTO_GUIONES.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/store/OG_PRODUCTO_LUTS.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/store/OG_PRODUCTO_GUIAS.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/store/GUIONES_HOOKS_REELS.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/store/LUTS_CINEMATOGRAFICOS.webp": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/store/COMPENDIO_GUIAS_BOLIVIA.webp": {
+    "width": 1200,
+    "height": 630
   }
 };
