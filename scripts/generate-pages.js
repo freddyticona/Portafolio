@@ -512,9 +512,26 @@ for (const [key, meta] of Object.entries(pages)) {
       ]
     };
 
+    const professionalServiceSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'ProfessionalService',
+      '@id': `${SITE}/#professional-service`,
+      name: 'Freddy Ticona - Servicios Audiovisuales Profesionales',
+      description: 'Servicio profesional de filmación, edición, fotografía y producción audiovisual en La Paz, Bolivia, con más de 15 años de experiencia.',
+      url: `${SITE}/servicios`,
+      provider: { '@id': `${SITE}/#business` },
+      areaServed: [
+        { '@type': 'City', name: 'La Paz' },
+        { '@type': 'City', name: 'El Alto' },
+        { '@type': 'Country', name: 'Bolivia' }
+      ],
+      priceRange: '$$'
+    };
+
     html = html.replace(
       '</head>',
       `    <script type="application/ld+json">${JSON.stringify(servicesSchema)}</script>\n` +
+      `    <script type="application/ld+json">${JSON.stringify(professionalServiceSchema)}</script>\n` +
       `    <script type="application/ld+json">${JSON.stringify(faqSchema)}</script>\n  </head>`
     );
   }
@@ -709,7 +726,23 @@ for (const service of servicesCatalog) {
       { '@type': 'Question', name: '¿En qué ciudades ofreces este servicio?', acceptedAnswer: { '@type': 'Answer', text: 'Trabajo en La Paz y El Alto, y viajo a cualquier departamento de Bolivia para proyectos especiales con viáticos aparte.' } },
     ],
   };
-  html = html.replace('</head>', `    <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': [serviceSchema, breadcrumb, faq] })}</script>\n  </head>`);
+  const professionalService = {
+    '@type': 'ProfessionalService', '@id': `${SITE}/#professional-service`,
+    name: 'Freddy Ticona - Servicios Audiovisuales Profesionales',
+    description: 'Filmación, edición y producción audiovisual profesional en La Paz, Bolivia.',
+    url: `${SITE}/servicios`, provider: { '@id': `${SITE}/#business` },
+    areaServed: [
+      { '@type': 'City', name: 'La Paz' },
+      { '@type': 'City', name: 'El Alto' },
+      { '@type': 'Country', name: 'Bolivia' }
+    ]
+  };
+  html = html.replace('</head>', `    <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': [serviceSchema, professionalService, breadcrumb, faq] })}</script>\n  </head>`);
+  // hreflang en la ficha (la SPA también lo emite; aquí lo ve Googlebot sin JS)
+  html = html.replace('</head>',
+    `    <link rel="alternate" hreflang="es" href="${url}" />\n` +
+    `    <link rel="alternate" hreflang="en" href="${url}" />\n` +
+    `    <link rel="alternate" hreflang="x-default" href="${url}" />\n  </head>`);
 
   const bodyContent = `<div class="max-w-4xl mx-auto px-4 py-16 space-y-6">
     <h1>${escapeXml(service.nameEs)} en La Paz, Bolivia</h1>
@@ -719,7 +752,12 @@ for (const service of servicesCatalog) {
     <ul>${service.featuresEs.map(f => `<li>${escapeXml(f)}</li>`).join('')}</ul>
     <h2>Preguntas frecuentes</h2>
     ${faq.mainEntity.map(q => `<h3>${escapeXml(q.name)}</h3><p>${escapeXml(q.acceptedAnswer.text)}</p>`).join('')}
-    <p><a href="/servicios">Ver todos los servicios</a> · <a href="/contacto">Solicitar cotización</a></p>
+    <section class="cotizacion-rapida">
+      <h2>Solicita una cotización rápida</h2>
+      <p>Cuéntame brevemente tu proyecto y te respondo por email o WhatsApp en menos de 24 horas hábiles.</p>
+      <p><a href="https://wa.me/59162408420">Cotizar por WhatsApp</a> · <a href="/contacto">Formulario completo</a></p>
+    </section>
+    <p><a href="/servicios">Ver todos los servicios</a></p>
   </div>`.trim();
   html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');

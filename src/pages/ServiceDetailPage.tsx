@@ -13,6 +13,7 @@ import { SERVICES_PRICING } from '../config';
 import { injectStructuredData, generateServiceDetailStructuredData } from '../lib/structuredData';
 import { fitTitle, fitDescription } from '../lib/seo';
 import { PortfolioEvents } from '../lib/analytics';
+import QuickQuoteForm from '../components/QuickQuoteForm';
 
 type Service = (typeof SERVICES_PRICING)[number];
 
@@ -63,6 +64,19 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
       document.head.appendChild(canonical);
     }
     canonical.href = url;
+
+    // hreflang: el contenido se sirve en es/en en la misma URL (toggle),
+    // sin rutas /en. Igual criterio que el resto del sitio.
+    [['es', url], ['en', url], ['x-default', url]].forEach(([code, href]) => {
+      let link = document.querySelector(`link[rel="alternate"][hreflang="${code}"]`) as HTMLLinkElement | null;
+      if (!link) {
+        link = document.createElement('link');
+        link.rel = 'alternate';
+        link.setAttribute('hreflang', code);
+        document.head.appendChild(link);
+      }
+      link.href = href;
+    });
 
     injectStructuredData(generateServiceDetailStructuredData(service, url, lang));
 
@@ -154,18 +168,19 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
         ))}
       </section>
 
-      <div className="pt-4 border-t border-stone-800 flex flex-wrap gap-4">
+      <section className="pt-4 border-t border-stone-800 space-y-4">
+        <QuickQuoteForm lang={lang} serviceName={name} priceLabel={priceLabel} />
         <button
           onClick={() => {
             PortfolioEvents.selectService(name, service.basePrice);
             onContact({ serviceId: service.id, serviceName: name, price: service.basePrice });
           }}
-          className="inline-flex items-center gap-2 px-5 py-2.5 border border-gold/30 hover:border-gold hover:bg-gold/10 text-gold text-[11px] font-mono font-bold uppercase tracking-widest rounded-sm transition-colors"
+          className="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-stone-400 hover:text-gold transition-colors"
         >
           <FileText className="w-4 h-4" />
-          {isEs ? 'Solicitar cotización formal' : 'Request a formal quote'}
+          {isEs ? '¿Prefieres el formulario completo?' : 'Prefer the full form?'}
         </button>
-      </div>
+      </section>
 
       <section className="space-y-3">
         <h2 className="text-lg font-bold text-white font-display">

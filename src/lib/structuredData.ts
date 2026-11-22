@@ -424,10 +424,26 @@ export function generateServicesStructuredData(): object {
     }
   }));
 
+  const professionalService = {
+    '@type': 'ProfessionalService',
+    '@id': `${BASE_URL}/#professional-service`,
+    name: 'Freddy Ticona - Servicios Audiovisuales Profesionales',
+    description: 'Servicio profesional de filmación, edición, fotografía y producción audiovisual en La Paz, Bolivia, con más de 15 años de experiencia.',
+    url: `${BASE_URL}/servicios`,
+    provider: { '@id': `${BASE_URL}/#business` },
+    areaServed: [
+      { '@type': 'City', name: 'La Paz' },
+      { '@type': 'City', name: 'El Alto' },
+      { '@type': 'Country', name: 'Bolivia' }
+    ],
+    priceRange: '$$'
+  };
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
       BUSINESS_DATA,
+      professionalService,
       {
         '@type': 'ItemList',
         name: 'Servicios Audiovisuales',
@@ -696,7 +712,22 @@ export function generateServiceDetailStructuredData(service: {
       },
     ],
   };
-  return { '@context': 'https://schema.org', '@graph': [serviceSchema, breadcrumb, faq] };
+  const professionalService = {
+    '@type': 'ProfessionalService',
+    '@id': `${BASE_URL}/#professional-service`,
+    name: isEs ? 'Freddy Ticona - Servicios Audiovisuales Profesionales' : 'Freddy Ticona - Professional Audiovisual Services',
+    description: isEs
+      ? 'Filmación, edición y producción audiovisual profesional en La Paz, Bolivia.'
+      : 'Professional filming, editing and audiovisual production in La Paz, Bolivia.',
+    url: `${BASE_URL}/servicios`,
+    provider: { '@id': `${BASE_URL}/#business` },
+    areaServed: [
+      { '@type': 'City', name: 'La Paz' },
+      { '@type': 'City', name: 'El Alto' },
+      { '@type': 'Country', name: 'Bolivia' }
+    ]
+  };
+  return { '@context': 'https://schema.org', '@graph': [serviceSchema, professionalService, breadcrumb, faq] };
 }
 
 /**

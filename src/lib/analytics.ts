@@ -115,8 +115,12 @@ export const trackEvent = (
     return;
   }
 
+  // GA4 se desactiva en localhost (ver initGA): en ese caso window.gtag no
+  // existe y llamarlo lanzaba "gtag is not a function" en la consola.
+  if (typeof window === 'undefined' || typeof window.gtag !== 'function') return;
+
   try {
-    (window as any).gtag('event', eventName, parameters);
+    window.gtag('event', eventName, parameters);
   } catch (error) {
     console.error('[GA] Error tracking event:', error);
   }

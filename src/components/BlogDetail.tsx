@@ -54,6 +54,7 @@ const CommentSystem = lazy(() => import('./CommentSystem'));
 import { injectStructuredData, generateArticleStructuredData, generateGuideFAQStructuredData } from '../lib/structuredData';
 import { formatPostDate } from '../lib/date';
 import { extractKeyPoints } from '../lib/summary';
+import NativeConversionCard from './NativeConversionCard';
 import { CONTACT_INFO } from '../config';
 import { PortfolioEvents } from '../lib/analytics';
 import { loadBlogContent } from '../data/loader';
@@ -682,6 +683,16 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
             ))}
           </div>
         </div>
+      )}
+
+      {/* Tarjeta nativa de conversión — sin publicidad externa */}
+      {contentReady && (
+        <NativeConversionCard
+          lang={lang}
+          title={lang === 'es' ? post.titleEs : post.titleEn}
+          category={lang === 'es' ? post.categoryEs : post.categoryEn}
+          isGuide={post.categoryEs === 'Guías y Trámites'}
+        />
       )}
 
       {/* Tags */}
