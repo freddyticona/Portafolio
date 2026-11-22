@@ -1,4 +1,44 @@
 {
+  "/images/portadas/GUIA_CERTIFICADO_DOMICILIO_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_RENOVACION_LICENCIA_CONDUCIR_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_DUPLICADO_CEDULA_IDENTIDAD_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_CERTIFICADO_SOLTERIA_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_PODER_NOTARIAL_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_LEGALIZACION_DOCUMENTOS_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_INSCRIPCION_NACIMIENTO_TARDIO_SERECI_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_PENSION_VIUDEZ_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_PENSION_INVALIDEZ_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_PASAPORTE_MENOR_EDAD_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/blog/tutoriales-ia-2026/artcraft-estudio-ia-guia-completa.jpg": {
     "width": 1800,
     "height": 886
@@ -151,9 +191,9 @@
     "width": 6000,
     "height": 4000
   },
-  "/images/guia/facturacion-electronica-siat-2026.webp": {
-    "width": 900,
-    "height": 599
+  "/images/portadas/FACTURACION_ELECTRONICA_BOLIVIA_2026_SIAT_QUE_CAMBIO.WEBP": {
+    "width": 1200,
+    "height": 630
   },
   "/images/blog/marca-agua-claude/portada-watermark.jpg": {
     "width": 1200,
@@ -187,125 +227,129 @@
     "width": 1800,
     "height": 1012
   },
-  "/images/guia/firma-digital-adsib-2026.webp": {
-    "width": 1400,
-    "height": 420
-  },
-  "/images/guia/subsidio-prenatal-2026.webp": {
-    "width": 719,
-    "height": 569
-  },
-  "/images/guia/bono-juancito-pinto-2026.webp": {
-    "width": 1024,
-    "height": 815
-  },
-  "/images/guia/bono-juana-azurduy-2026.webp": {
-    "width": 720,
-    "height": 540
-  },
-  "/images/guia/matrimonio-civil-2026.webp": {
+  "/images/portadas/FIRMA_DIGITAL_ADSIB_2026_TOKEN_245_SOFTWARE_70.WEBP": {
     "width": 1200,
-    "height": 900
+    "height": 630
   },
-  "/images/guia/correccion-acta-nacimiento-2026.webp": {
-    "width": 1400,
-    "height": 788
-  },
-  "/images/guia/carnet-discapacidad-2026.webp": {
-    "width": 720,
-    "height": 461
-  },
-  "/images/guia/certificado-aportes-gestora-2026.webp": {
-    "width": 1280,
-    "height": 720
-  },
-  "/images/guia/re-iva-2026.webp": {
-    "width": 1400,
-    "height": 767
-  },
-  "/images/guia/soat-trafico-lapaz.webp": {
-    "width": 1400,
-    "height": 1050
-  },
-  "/images/guia/matrimonio-anillos.webp": {
+  "/images/portadas/SUBSIDIO_UNIVERSAL_PRENATAL_2026_PAQUETES_REQUISITOS.WEBP": {
     "width": 1200,
-    "height": 900
+    "height": 630
   },
-  "/images/guia/cementerio-general-lapaz.webp": {
-    "width": 1050,
-    "height": 1400
+  "/images/portadas/BONO_JUANCITO_PINTO_2026_MONTO_300_CRONOGRAMA_COBRO.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/negocios-totora-cochabamba.webp": {
-    "width": 1400,
-    "height": 933
+  "/images/portadas/BONO_JUANA_AZURDUY_2026_MONTO_1820_REQUISITOS_CONTROLES.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/padron-elecciones.webp": {
-    "width": 1400,
-    "height": 933
+  "/images/portadas/MATRIMONIO_CIVIL_BOLIVIA_2026_REQUISITOS_TESTIGOS_COSTO.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/apostilla-sello.webp": {
-    "width": 960,
-    "height": 972
+  "/images/portadas/CORRECCION_ACTA_NACIMIENTO_SERECI_2026_REQUISITOS_COSTO.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/senapi-marca.webp": {
-    "width": 1400,
-    "height": 933
+  "/images/portadas/CARNET_DISCAPACIDAD_BOLIVIA_2026_REQUISITOS_CALIFICACION_RENOVACION.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/alcaldia-cochabamba.webp": {
-    "width": 1400,
-    "height": 1050
+  "/images/portadas/CERTIFICADO_APORTES_GESTORA_PUBLICA_2026_ESTADO_AHORRO.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/vacunas-covid.webp": {
-    "width": 1400,
-    "height": 582
+  "/images/portadas/RE_IVA_2026_RENOVACION_DEVOLUCION_5_POR_CIENTO_COMPRAS.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/jubilacion-adulto-mayor.webp": {
-    "width": 1050,
-    "height": 1400
+  "/images/portadas/GUIA_MULTAS_TRANSITO_CONSULTA_PLACA_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/derechos-reales-casa-lapaz.webp": {
-    "width": 1400,
-    "height": 1281
+  "/images/portadas/GUIA_CERTIFICADO_MATRIMONIO_SEGIP_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_CERTIFICADO_DEFUNCION_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_REGISTRO_EMPRESA_SEPREC_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_PADRON_ELECTORAL_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_APOSTILLA_DOCUMENTOS_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_REGISTRO_MARCA_SENAPI_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_LICENCIA_FUNCIONAMIENTO_MUNICIPAL_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_CARNET_VACUNACION_COVID_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_JUBILACION_PENSION_VEJEZ_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_REGISTRO_PROPIEDAD_DERECHOS_REALES_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
   "/images/blog/smartsub/home-en.png": {
     "width": 1920,
     "height": 1350
   },
-  "/images/guia/cedula-identidad-segip.webp": {
-    "width": 1400,
+  "/images/portadas/GUIA_CEDULA_IDENTIDAD_SEGIP_BOLIVIA_2026.WEBP": {
+    "width": 1200,
     "height": 630
   },
-  "/images/guia/licencia-coche-lapaz.webp": {
-    "width": 960,
-    "height": 725
+  "/images/portadas/GUIA_SOAT_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/pasaporte-boliviano.webp": {
-    "width": 602,
-    "height": 860
+  "/images/portadas/GUIA_LICENCIA_CONDUCIR_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/nit-bus-transporte.webp": {
-    "width": 1400,
-    "height": 933
+  "/images/portadas/GUIA_PASAPORTE_BOLIVIANO_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/ruat-coche-lapaz.webp": {
-    "width": 1400,
-    "height": 1050
+  "/images/portadas/GUIA_NIT_SIN_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/nacimiento-bebe.webp": {
-    "width": 1400,
-    "height": 953
+  "/images/portadas/GUIA_RUAT_TRANSFERENCIA_VEHICULAR_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/policia-boliviana.webp": {
-    "width": 500,
-    "height": 752
+  "/images/portadas/GUIA_CERTIFICADO_NACIMIENTO_ONLINE_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/tribunal-supremo-sucre.webp": {
-    "width": 1400,
-    "height": 1041
+  "/images/portadas/GUIA_ANTECEDENTES_POLICIALES_REAP_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
-  "/images/guia/sello-entrada-bolivia.webp": {
-    "width": 1400,
-    "height": 839
+  "/images/portadas/GUIA_ANTECEDENTES_PENALES_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/GUIA_VISA_BOLIVIA_EXTRANJEROS_2026.WEBP": {
+    "width": 1200,
+    "height": 630
   },
   "/images/freddy_studio.webp": {
     "width": 1920,
@@ -2298,6 +2342,126 @@
   "/images/graduacion/_DSC0199.webp": {
     "width": 1600,
     "height": 1059
+  },
+  "/images/guia/alcaldia-cochabamba.webp": {
+    "width": 1400,
+    "height": 1050
+  },
+  "/images/guia/apostilla-sello.webp": {
+    "width": 960,
+    "height": 972
+  },
+  "/images/guia/bono-juana-azurduy-2026.webp": {
+    "width": 720,
+    "height": 540
+  },
+  "/images/guia/bono-juancito-pinto-2026.webp": {
+    "width": 1024,
+    "height": 815
+  },
+  "/images/guia/carnet-discapacidad-2026.webp": {
+    "width": 720,
+    "height": 461
+  },
+  "/images/guia/cedula-identidad-segip.webp": {
+    "width": 1400,
+    "height": 630
+  },
+  "/images/guia/cementerio-general-lapaz.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/guia/certificado-aportes-gestora-2026.webp": {
+    "width": 1280,
+    "height": 720
+  },
+  "/images/guia/correccion-acta-nacimiento-2026.webp": {
+    "width": 1400,
+    "height": 788
+  },
+  "/images/guia/derechos-reales-casa-lapaz.webp": {
+    "width": 1400,
+    "height": 1281
+  },
+  "/images/guia/facturacion-electronica-siat-2026.webp": {
+    "width": 900,
+    "height": 599
+  },
+  "/images/guia/firma-digital-adsib-2026.webp": {
+    "width": 1400,
+    "height": 420
+  },
+  "/images/guia/jubilacion-adulto-mayor.webp": {
+    "width": 1050,
+    "height": 1400
+  },
+  "/images/guia/licencia-coche-lapaz.webp": {
+    "width": 960,
+    "height": 725
+  },
+  "/images/guia/matrimonio-anillos.webp": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/guia/matrimonio-civil-2026.webp": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/guia/nacimiento-bebe.webp": {
+    "width": 1400,
+    "height": 953
+  },
+  "/images/guia/negocios-totora-cochabamba.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "/images/guia/nit-bus-transporte.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "/images/guia/padron-elecciones.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "/images/guia/pasaporte-boliviano.webp": {
+    "width": 602,
+    "height": 860
+  },
+  "/images/guia/policia-boliviana.webp": {
+    "width": 500,
+    "height": 752
+  },
+  "/images/guia/re-iva-2026.webp": {
+    "width": 1400,
+    "height": 767
+  },
+  "/images/guia/ruat-coche-lapaz.webp": {
+    "width": 1400,
+    "height": 1050
+  },
+  "/images/guia/sello-entrada-bolivia.webp": {
+    "width": 1400,
+    "height": 839
+  },
+  "/images/guia/senapi-marca.webp": {
+    "width": 1400,
+    "height": 933
+  },
+  "/images/guia/soat-trafico-lapaz.webp": {
+    "width": 1400,
+    "height": 1050
+  },
+  "/images/guia/subsidio-prenatal-2026.webp": {
+    "width": 719,
+    "height": 569
+  },
+  "/images/guia/tribunal-supremo-sucre.webp": {
+    "width": 1400,
+    "height": 1041
+  },
+  "/images/guia/vacunas-covid.webp": {
+    "width": 1400,
+    "height": 582
   },
   "/images/la_estrella_documentary_1784468976770.webp": {
     "width": 1376,
