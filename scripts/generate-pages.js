@@ -140,19 +140,31 @@ function buildGuideFaq(title, body) {
     if (a.length > 600) a = a.slice(0, 597).trimEnd() + '…';
     qa.push({ name: /[?¿]$/.test(q) ? q : `¿${q}?`, text: a });
   };
-  const lines = (body || '').split(/\r?\n/);
-  for (let i = 0; i < lines.length && qa.length < 5; i++) {
-    const heading = lines[i].match(/^#{2,4}\s+(.+)$/);
-    if (!heading) continue;
-    let answer = '';
-    for (let j = i + 1; j < lines.length; j++) {
-      const line = lines[j].trim();
-      if (/^#{1,4}\s/.test(line)) break;
-      if (!line || /^[-|:]+$/.test(line) || line.startsWith('|') || line.startsWith('---')) continue;
-      answer = line;
-      if (plain(line).length >= 40) break;
+  // Prioriza una sección FAQ explícita: H3 con pregunta + párrafo de respuesta.
+  const faqSection = (body || '').match(/<h2[^>]*>\s*(?:Preguntas frecuentes|Frequently asked questions)\s*<\/h2>([\s\S]*?)(?=<h2[^>]*>|$)/i);
+  if (faqSection) {
+    const qaRe = /<h3[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3[^>]*>|$)/gi;
+    let qm;
+    while ((qm = qaRe.exec(faqSection[1])) !== null && qa.length < 5) {
+      const p = qm[2].match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+      push(qm[1], p ? p[1] : '');
     }
-    push(heading[1], answer);
+  }
+  const lines = (body || '').split(/\r?\n/);
+  if (qa.length === 0) {
+    for (let i = 0; i < lines.length && qa.length < 5; i++) {
+      const heading = lines[i].match(/^#{2,4}\s+(.+)$/);
+      if (!heading) continue;
+      let answer = '';
+      for (let j = i + 1; j < lines.length; j++) {
+        const line = lines[j].trim();
+        if (/^#{1,4}\s/.test(line)) break;
+        if (!line || /^[-|:]+$/.test(line) || line.startsWith('|') || line.startsWith('---')) continue;
+        answer = line;
+        if (plain(line).length >= 40) break;
+      }
+      push(heading[1], answer);
+    }
   }
   if (qa.length === 0) {
     const re = /<h[23][^>]*>([\s\S]*?)<\/h[23]>([\s\S]*?)(?=<h[23][^>]*>|$)/gi;
