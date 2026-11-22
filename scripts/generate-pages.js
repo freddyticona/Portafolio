@@ -864,7 +864,8 @@ for (const product of STORE_PRODUCTS) {
     <p>Precio: Bs. ${product.priceBob} / USD ${product.priceUsd}</p>
     <h2>Qué incluye</h2>
     <ul>${product.deliverablesEs.map(f => `<li>${escapeXml(f)}</li>`).join('')}</ul>
-    <p><a href="${escapeAttr(product.checkoutPlaceholder)}">Comprar online</a> · <a href="https://wa.me/59162408420">Comprar por WhatsApp</a></p>
+    <p><a href="https://wa.me/59162408420">Comprar por WhatsApp / QR (Bolivia)</a></p>
+    <p>Pago con tarjeta próximamente.</p>
   </div>`.trim();
   html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${body}`);
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');

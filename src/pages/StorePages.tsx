@@ -7,7 +7,7 @@
  */
 import React, { useEffect } from 'react';
 import { ArrowLeft, CheckCircle2, Download, ExternalLink, MessageCircle, ShoppingBag } from 'lucide-react';
-import { STORE_PRODUCTS, StoreProduct, checkoutUrl, whatsappUrl } from '../data/storeProducts';
+import { STORE_PRODUCTS, StoreProduct, checkoutConfigured, checkoutUrl, whatsappUrl } from '../data/storeProducts';
 import { injectStructuredData, generateBreadcrumbList } from '../lib/structuredData';
 import { fitTitle, fitDescription } from '../lib/seo';
 import { PortfolioEvents } from '../lib/analytics';
@@ -205,6 +205,7 @@ export function StoreProductPage({ product, lang, onBack }: DetailProps) {
     return () => { document.getElementById('dynamic-structured-data')?.remove(); };
   }, [product, lang, name, url, es, price]);
 
+  const checkoutReady = checkoutConfigured(product);
   const checkout = checkoutUrl(product);
   const local = whatsappUrl(product, lang);
 
@@ -232,16 +233,7 @@ export function StoreProductPage({ product, lang, onBack }: DetailProps) {
           </div>
 
           <div className="space-y-3 pt-2">
-            <a
-              href={checkout}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => PortfolioEvents.beginCheckout(name, price)}
-              className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm transition-colors"
-            >
-              <ExternalLink className="w-4 h-4" />
-              {es ? 'Comprar online (internacional)' : 'Buy online (international)'}
-            </a>
+            {/* CTA primario: pago local, siempre activo */}
             <a
               href={local}
               target="_blank"
@@ -253,13 +245,36 @@ export function StoreProductPage({ product, lang, onBack }: DetailProps) {
               className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] hover:bg-[#1FB855] text-black font-bold rounded-sm transition-colors"
             >
               <MessageCircle className="w-4 h-4" />
-              {es ? 'Comprar por WhatsApp (Bolivia)' : 'Buy on WhatsApp (Bolivia)'}
+              {es ? 'Comprar por WhatsApp / QR (Bolivia)' : 'Buy on WhatsApp / QR (Bolivia)'}
             </a>
+            {/* CTA secundario: solo si hay URL de checkout real configurada */}
+            {checkoutReady ? (
+              <a
+                href={checkout}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => PortfolioEvents.beginCheckout(name, price)}
+                className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm transition-colors"
+              >
+                <ExternalLink className="w-4 h-4" />
+                {es ? 'Pagar con tarjeta (internacional)' : 'Pay by card (international)'}
+              </a>
+            ) : (
+              <button
+                type="button"
+                disabled
+                aria-disabled="true"
+                className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 border border-white/10 text-stone-500 text-sm font-bold rounded-sm cursor-not-allowed"
+              >
+                <ExternalLink className="w-4 h-4" />
+                {es ? 'Pago con tarjeta próximamente' : 'Card payment coming soon'}
+              </button>
+            )}
           </div>
           <p className="text-[11px] text-stone-500 leading-relaxed">
             {es
-              ? 'El enlace internacional usa checkout seguro (Lemon Squeezy / Gumroad / Stripe). Para pagos en Bolivia, escribe por WhatsApp y recibirás QR o datos de transferencia.'
-              : 'International checkout runs on Lemon Squeezy / Gumroad / Stripe. For payments in Bolivia, message us on WhatsApp to receive a QR or bank details.'}
+              ? 'Paga ya por WhatsApp y recibe el archivo de inmediato por transferencia o QR. El pago con tarjeta internacional se activará cuando se configure el checkout.'
+              : 'Pay now on WhatsApp and get the file instantly via transfer or QR. International card checkout will be enabled once configured.'}
           </p>
         </div>
       </header>

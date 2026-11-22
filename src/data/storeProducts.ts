@@ -27,10 +27,19 @@ export interface StoreProduct {
 
 export const STORE_PRODUCTS: StoreProduct[] = rawProducts as StoreProduct[];
 
+/**
+ * true solo cuando hay una URL real configurada (no vacía ni placeholder).
+ * Evita enlaces rotos en producción mientras se configuran los cobros.
+ */
+export function checkoutConfigured(product: StoreProduct): boolean {
+  const value = (import.meta.env as unknown as Record<string, string | undefined>)[product.checkoutEnv]?.trim();
+  return Boolean(value && !value.includes('REPLACE_WITH_PRODUCT_ID'));
+}
+
 /** Devuelve el enlace de checkout configurado o el placeholder documentado. */
 export function checkoutUrl(product: StoreProduct): string {
-  const configured = (import.meta.env as unknown as Record<string, string | undefined>)[product.checkoutEnv];
-  return configured && configured.trim() ? configured.trim() : product.checkoutPlaceholder;
+  const value = (import.meta.env as unknown as Record<string, string | undefined>)[product.checkoutEnv]?.trim();
+  return value && !value.includes('REPLACE_WITH_PRODUCT_ID') ? value : product.checkoutPlaceholder;
 }
 
 export function whatsappUrl(product: StoreProduct, lang: 'es' | 'en'): string {
