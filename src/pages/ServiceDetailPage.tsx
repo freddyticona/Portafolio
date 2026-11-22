@@ -11,6 +11,7 @@ import React, { useEffect } from 'react';
 import { ArrowLeft, CheckCircle2, MessageCircle, FileText } from 'lucide-react';
 import { SERVICES_PRICING } from '../config';
 import { injectStructuredData, generateServiceDetailStructuredData } from '../lib/structuredData';
+import { fitTitle, fitDescription } from '../lib/seo';
 import { PortfolioEvents } from '../lib/analytics';
 
 type Service = (typeof SERVICES_PRICING)[number];
@@ -42,18 +43,18 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
   const description = isEs ? service.descriptionEs : service.descriptionEn;
 
   useEffect(() => {
-    const title = isEs
-      ? `${service.nameEs} en La Paz 2026 | Desde ${priceLabel} | Freddy Ticona`
-      : `${service.nameEn} in La Paz 2026 | From ${priceLabel} | Freddy Ticona`;
-    const desc = isEs
-      ? `${service.nameEs} en La Paz, Bolivia desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`
-      : `${service.nameEn} in La Paz, Bolivia from ${priceLabel}. ${service.descriptionEn} Quote on WhatsApp.`;
+    const title = fitTitle(isEs
+      ? `${service.nameEs} en La Paz 2026 | Desde ${priceLabel}`
+      : `${service.nameEn} in La Paz 2026 | From ${priceLabel}`);
+    const desc = fitDescription(isEs
+      ? `${service.nameEs} en La Paz desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`
+      : `${service.nameEn} in La Paz from ${priceLabel}. ${service.descriptionEn} Quote on WhatsApp.`);
     document.title = title;
     setMeta('name', 'description', desc);
-    setMeta('property', 'og:title', name);
+    setMeta('property', 'og:title', title);
     setMeta('property', 'og:description', desc);
     setMeta('property', 'og:url', url);
-    setMeta('name', 'twitter:title', name);
+    setMeta('name', 'twitter:title', title);
     setMeta('name', 'twitter:description', desc);
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (!canonical) {

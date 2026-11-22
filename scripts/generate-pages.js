@@ -82,6 +82,38 @@ const escapeAttr = (s) => String(s)
   .replace(/</g, '&lt;')
   .replace(/>/g, '&gt;');
 
+/** Título <= 60 caracteres, recortado en límite de palabra. */
+function fitTitle(value, max = 60) {
+  const clean = String(value || '').replace(/\s+/g, ' ').trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max - 1);
+  const p = cut.lastIndexOf(' ');
+  return (p > 12 ? cut.slice(0, p) : cut).replace(/[\s,;:.–—-]+$/, '') + '…';
+}
+
+/** Descripción 140-155 caracteres con gancho comercial. */
+function fitDescription(value, hook = ' Cotiza tus servicios audiovisuales en La Paz por WhatsApp.') {
+  const min = 140;
+  const max = 155;
+  let s = String(value || '').replace(/\s+/g, ' ').trim();
+  if (s.length >= min && s.length <= max) return s;
+  if (s.length > max) {
+    const cut = s.slice(0, max - 1);
+    const p = cut.lastIndexOf(' ');
+    return (p >= min - 1 ? cut.slice(0, p) : cut).replace(/[\s,;:.]+$/, '') + '…';
+  }
+  for (const extra of [hook, ' Precios claros y entrega rápida.', ' Atención personalizada en Bolivia.']) {
+    if (s.length >= min) break;
+    s = (s + extra).replace(/\s+/g, ' ').trim();
+  }
+  if (s.length > max) {
+    const cut = s.slice(0, max - 1);
+    const p = cut.lastIndexOf(' ');
+    s = (p >= min - 1 ? cut.slice(0, p) : cut).replace(/[\s,;:.]+$/, '') + '…';
+  }
+  return s;
+}
+
 /** FAQPage real de una guía, a partir de sus H2/H3 y el primer párrafo posterior. */
 function buildGuideFaq(title, body) {
   const clean = (s) => String(s)
@@ -148,91 +180,91 @@ function primaryPage(article) {
 
 const pages = {
   '': {
-    title: 'Freddy Ticona Guzmán | Camarógrafo Profesional en La Paz, Bolivia',
-    desc: 'Camarógrafo profesional en La Paz, Bolivia. Freddy Ticona Guzmán, realizador audiovisual con 15+ años en televisión, documentales y cobertura periodística. Premio Nacional Eduardo Abaroa 2017.',
+    title: 'Freddy Ticona | Camarógrafo en La Paz, Bolivia',
+    desc: 'Camarógrafo y realizador en La Paz con 15+ años en TV y documentales. Filmación 4K, edición y cobertura con precios claros. Cotiza por WhatsApp.',
     ogTitle: 'Freddy Ticona Guzmán | Camarógrafo y Realizador Audiovisual',
     path: '/'
   },
   'inicio': {
-    title: 'Freddy Ticona Guzmán | Camarógrafo Profesional La Paz Bolivia | Filmación 4K y Documentales',
-    desc: 'Portafolio de Freddy Ticona, camarógrafo experto en La Paz, Bolivia. Más de 15 años filmando documentales, cobertura periodística y televisión 4K. Premio Eduardo Abaroa 2017.',
+    title: 'Freddy Ticona | Camarógrafo en La Paz, Bolivia',
+    desc: 'Camarógrafo y realizador en La Paz con 15+ años en TV y documentales. Filmación 4K, edición y cobertura con precios claros. Cotiza por WhatsApp.',
     path: '/inicio',
     canonical: 'https://freddydev.net/',
     noindex: true
   },
   'sobre-mi': {
-    title: 'Sobre Mí - Freddy Ticona | Camarógrafo Profesional en Bolivia',
-    desc: 'Conoce la trayectoria de Freddy Ticona Guzmán: 15 años en televisión boliviana, camarógrafo en Bolivia TV, Red Uno y RTP. Especialista en cinematografía y producción documental.',
+    title: 'Sobre Mí | Freddy Ticona, Camarógrafo en Bolivia',
+    desc: '15 años en televisión boliviana, premio Eduardo Abaroa 2017 y experiencia en Bolivia TV, RTP y Red Uno. Conoce mi trayectoria y contrátame hoy.',
     path: '/sobre-mi'
   },
   'portafolio': {
-    title: 'Portafolio de Proyectos Audiovisuales | Documentales y Cobertura Televisiva',
-    desc: 'Galería de proyectos de Freddy Ticona: documentales culturales, cobertura periodística nacional e internacional, y producción de video corporativo 4K en Bolivia.',
+    title: 'Portafolio Audiovisual | Freddy Ticona',
+    desc: 'Documentales, coberturas y televisión en Bolivia TV, RTP y Red Uno. 8 proyectos reales con fotos y resultados. Cotiza una producción similar.',
     path: '/portafolio'
   },
   'cv': {
-    title: 'Currículum Camarógrafo Bolivia | Freddy Ticona Guzmán',
-    desc: 'Currículum profesional de Freddy Ticona. Licenciado en Comunicación Social, Técnico en Cinematografía. Certificaciones en producción audiovisual y ciberseguridad.',
+    title: 'CV de Camarógrafo en Bolivia | Freddy Ticona',
+    desc: 'Formación en comunicación social y cinematografía, certificaciones técnicas y 15 años en TV boliviana. Descarga mi trayectoria y cotiza proyectos.',
     path: '/cv'
   },
   'blog': {
-    title: 'Blog de Producción Audiovisual y Cinematografía Bolivia | Tips de Filmación',
-    desc: 'Blog profesional de Freddy Ticona sobre técnicas de filmación 4K, edición de video, documentales y la evolución de la televisión en Bolivia.',
+    title: 'Blog de Filmación y Edición | Freddy Ticona',
+    desc: 'Tutoriales de cámara, edición y motion graphics con IA, además de guías prácticas para creadores en Bolivia. Aprende y cotiza tus proyectos.',
     path: '/blog'
   },
   'guias': {
-    title: 'Guías de Trámites Bolivia | SEGIP, SOAT, Licencias, Pasaportes y más',
-    desc: 'Guías actualizadas para realizar trámites en Bolivia: cédula de identidad SEGIP, SOAT, licencia de conducir, pasaporte, NIT, RUAT, certificados y visas. Paso a paso, costos y requisitos oficiales.',
+    title: 'Guías de Trámites Bolivia 2026 | Freddy Ticona',
+    desc: '31 guías paso a paso para trámites en Bolivia: SEGIP, licencia, SOAT, pasaporte y NIT. Requisitos, costos 2026 y enlaces oficiales. Empieza aquí.',
     path: '/guias'
   },
   'galeria': {
     title: 'Galería de Coberturas | Freddy Ticona',
-    desc: 'Galería de fotos de coberturas periodísticas, documentales y producciones televisivas de Freddy Ticona en toda Bolivia.',
+    desc: 'Fotos reales de documentales, coberturas periodísticas y televisión en Bolivia. 8 proyectos con galerías completas y resultados. Cotiza tu cobertura.',
     path: '/galeria'
   },
   'eclipse-2026': {
-    title: 'Eclipse Solar Total 12 de Agosto 2026 | Especial Noticias y Fotos',
-    desc: 'Especial del eclipse solar total del 12 de agosto de 2026: 10 noticias por país, galería de fotos, trayectoria y horarios de la totalidad desde Siberia hasta la península ibérica.',
+    title: 'Eclipse Solar 2026 | Especial y Galería',
+    desc: 'Especial del eclipse solar total del 12 de agosto de 2026: noticias por país, fotos, trayectoria y horarios. Sigue la cobertura completa ahora.',
     ogTitle: 'Especial Eclipse Solar Total 2026 | 10 Noticias y Galería',
     path: '/eclipse-2026'
   },
   'reportaje-iran-furia-epica': {
-    title: 'Reportaje Especial: Operación Furia Épica | Irán 2026',
-    desc: 'Reportaje especial sobre la Operación Furia Épica (Irán): cronología, actores y consecuencias del conflicto que reconfiguró Oriente Medio.',
+    title: 'Irán 2026 | Operación Furia Épica',
+    desc: 'Reportaje especial sobre la Operación Furia Épica: cronología, actores y consecuencias del conflicto que reconfiguró Oriente Medio. Léelo ahora.',
     ogTitle: 'Operación Furia Épica | Reportaje Especial Irán',
     path: '/reportaje-iran-furia-epica'
   },
   'reportaje-gaza-desarme': {
-    title: 'Reportaje Especial: Gaza, alto el fuego frágil y desarme en disputa',
-    desc: 'Reportaje especial sobre el estancamiento de la segunda fase de la tregua en Gaza: desarme de Hamás, retirada israelí y el Consejo de Paz.',
+    title: 'Gaza | Desarme en Disputa',
+    desc: 'Reportaje especial sobre la tregua en Gaza: desarme de Hamás, retirada israelí y el Consejo de Paz. Análisis y cronología actualizada. Léelo ahora.',
     ogTitle: 'Gaza: Desarme en Disputa | Reportaje Especial',
     path: '/reportaje-gaza-desarme'
   },
   'reportaje-ucrania-estancamiento': {
-    title: 'Reportaje Especial: Ucrania, negociaciones estancadas y escalada militar',
-    desc: 'Reportaje especial sobre el estancamiento de las negociaciones Rusia-Ucrania y la escalada militar del verano 2026.',
+    title: 'Ucrania | Negociaciones Estancadas',
+    desc: 'Reportaje especial sobre el estancamiento de las negociaciones Rusia-Ucrania y la escalada militar de 2026. Cronología y análisis. Léelo ahora.',
     ogTitle: 'Ucrania: Negociaciones Estancadas | Reportaje Especial',
     path: '/reportaje-ucrania-estancamiento'
   },
   'reportaje-malvinas-historia': {
-    title: 'Reportaje Especial: Malvinas, 192 años de disputa por la soberanía',
-    desc: 'Reportaje especial sobre la historia de la disputa por las Islas Malvinas: de la ocupación británica de 1833 a la base naval anunciada por Milei en 2026.',
+    title: 'Malvinas | 192 Años de Disputa',
+    desc: 'Reportaje especial sobre la disputa por las Islas Malvinas: de la ocupación británica de 1833 a la base naval de 2026. Historia y análisis completo.',
     ogTitle: 'Malvinas: 192 Años de Disputa | Reportaje Especial',
     path: '/reportaje-malvinas-historia'
   },
   'servicios': {
-    title: 'Servicios Audiovisuales La Paz Bolivia | Filmación 4K, Edición y Documentales',
-    desc: 'Contrata servicios profesionales de filmación 4K, edición de video, producción de documentales y consultoría audiovisual en La Paz, Bolivia. Cotiza tu proyecto.',
+    title: 'Servicios Audiovisuales en La Paz | Freddy Ticona',
+    desc: 'Filmación 4K, edición, documentales y reels en La Paz desde Bs. 300. Precios reales, entregas en 3 a 5 días y cotización directa por WhatsApp.',
     path: '/servicios'
   },
   'reservas': {
-    title: 'Reservar Camarógrafo La Paz Bolivia | Agendar Filmación y Edición Online',
-    desc: 'Sistema de reservas online para agendar sesiones de filmación 4K, edición de video y producción audiovisual con Freddy Ticona en La Paz, Bolivia.',
+    title: 'Reserva tu Filmación en La Paz | Freddy Ticona',
+    desc: 'Agenda tu sesión de video, edición o consultoría audiovisual en La Paz. Elige fecha, recibe confirmación inmediata y cotiza tu proyecto sin compromiso.',
     path: '/reservas'
   },
   'contacto': {
-    title: 'Contacto - Contrata Camarógrafo en La Paz Bolivia | Filmación y Edición de Video',
-    desc: 'Contacta a Freddy Ticona, camarógrafo profesional en La Paz, Bolivia. Solicita cotizaciones para filmación 4K, edición de video, documentales y cobertura periodística.',
+    title: 'Contacto | Camarógrafo en La Paz, Bolivia',
+    desc: 'Hablemos de tu proyecto: filmación, edición o documental en La Paz. Respuesta rápida por WhatsApp o formulario con presupuesto personalizado.',
     path: '/contacto'
   }
 };
@@ -315,29 +347,31 @@ const cleanIndexHtml = indexHtml.replace(/<script type="application\/ld\+json">[
 
 for (const [key, meta] of Object.entries(pages)) {
   let html = indexHtml;
+  const pageTitle = fitTitle(meta.title);
+  const pageDesc = fitDescription(meta.desc);
 
   // Replace title
   html = html.replace(
     /<title>.*?<\/title>/,
-    `<title>${meta.title}</title>`
+    `<title>${pageTitle}</title>`
   );
 
   // Replace meta description
   html = html.replace(
     /<meta name="description" content=".*?"/,
-    `<meta name="description" content="${meta.desc}"`
+    `<meta name="description" content="${pageDesc}"`
   );
 
   // Replace OG title
   html = html.replace(
     /<meta property="og:title" content=".*?"/,
-    `<meta property="og:title" content="${meta.ogTitle || meta.title}"`
+    `<meta property="og:title" content="${fitTitle(meta.ogTitle || meta.title)}"`
   );
 
   // Replace OG description
   html = html.replace(
     /<meta property="og:description" content=".*?"/,
-    `<meta property="og:description" content="${meta.desc}"`
+    `<meta property="og:description" content="${pageDesc}"`
   );
 
   // Replace OG url
@@ -349,13 +383,13 @@ for (const [key, meta] of Object.entries(pages)) {
   // Replace Twitter title
   html = html.replace(
     /<meta name="twitter:title" content=".*?"/,
-    `<meta name="twitter:title" content="${meta.ogTitle || meta.title}"`
+    `<meta name="twitter:title" content="${fitTitle(meta.ogTitle || meta.title)}"`
   );
 
   // Replace Twitter description
   html = html.replace(
     /<meta name="twitter:description" content=".*?"/,
-    `<meta name="twitter:description" content="${meta.desc}"`
+    `<meta name="twitter:description" content="${pageDesc}"`
   );
 
   // Replace Twitter URL
@@ -509,15 +543,17 @@ for (const article of articles) {
   const articleUrl = `${SITE}/${route}/${article.slug}`;
   const imgUrl = article.imageUrl ? (article.imageUrl.startsWith('http') ? article.imageUrl : `${SITE}${article.imageUrl}`) : 'https://freddydev.net/og-image.jpg';
   const articleType = route === 'guias' ? 'TechArticle' : route === 'blog' ? 'BlogPosting' : 'NewsArticle';
-  html = html.replace(/<title>.*?<\/title>/, `<title>${article.title} | Freddy Ticona</title>`);
-  html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${article.desc}"`);
-  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${article.title}"`);
-  html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${article.desc}"`);
+  const articleTitle = fitTitle(`${article.title} | Freddy Ticona`);
+  const articleDesc = fitDescription(article.desc);
+  html = html.replace(/<title>.*?<\/title>/, `<title>${articleTitle}</title>`);
+  html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${articleDesc}"`);
+  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${articleTitle}"`);
+  html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${articleDesc}"`);
   html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${articleUrl}"`);
   html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${imgUrl}"`);
   html = html.replace(/<meta property="og:type" content=".*?"/, `<meta property="og:type" content="article"`);
-  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${article.title}"`);
-  html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${article.desc}"`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${articleTitle}"`);
+  html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${articleDesc}"`);
   html = html.replace(/<meta name="twitter:url" content=".*?"/, `<meta name="twitter:url" content="${articleUrl}"`);
   html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${imgUrl}"`);
   html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${articleUrl}"`);
@@ -634,14 +670,14 @@ for (const service of servicesCatalog) {
   let html = cleanIndexHtml;
   const url = `${SITE}/servicios/${service.id}`;
   const priceLabel = service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
-  const title = `${service.nameEs} en La Paz 2026 | Desde ${priceLabel} | Freddy Ticona`;
-  const desc = `${service.nameEs} en La Paz, Bolivia desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp con Freddy Ticona.`;
+  const title = fitTitle(`${service.nameEs} en La Paz 2026 | Desde ${priceLabel}`);
+  const desc = fitDescription(`${service.nameEs} en La Paz desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`);
   html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
   html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${escapeAttr(desc)}"`);
-  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${escapeAttr(service.nameEs)}"`);
+  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${escapeAttr(title)}"`);
   html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${escapeAttr(desc)}"`);
   html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${url}"`);
-  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${escapeAttr(service.nameEs)}"`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${escapeAttr(title)}"`);
   html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${escapeAttr(desc)}"`);
   html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${url}"`);
 
