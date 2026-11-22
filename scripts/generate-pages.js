@@ -82,6 +82,65 @@ const escapeAttr = (s) => String(s)
   .replace(/</g, '&lt;')
   .replace(/>/g, '&gt;');
 
+/** FAQPage real de una guía, a partir de sus H2/H3 y el primer párrafo posterior. */
+function buildGuideFaq(title, body) {
+  const clean = (s) => String(s)
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const plain = (s) => clean(s)
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/(^|\s)\*([^*]+)\*/g, '$1$2')
+    .replace(/^[\s>*+\-]+/, '')
+    .replace(/^\d+[.)]\s+/, '');
+  const qa = [];
+  const push = (rawQ, rawA) => {
+    const q = plain(rawQ).replace(/[:：]\s*$/, '');
+    let a = plain(rawA);
+    if (q.length < 10 || q.length > 160 || a.length < 40) return;
+    if (a.length > 600) a = a.slice(0, 597).trimEnd() + '…';
+    qa.push({ name: /[?¿]$/.test(q) ? q : `¿${q}?`, text: a });
+  };
+  const lines = (body || '').split(/\r?\n/);
+  for (let i = 0; i < lines.length && qa.length < 5; i++) {
+    const heading = lines[i].match(/^#{2,4}\s+(.+)$/);
+    if (!heading) continue;
+    let answer = '';
+    for (let j = i + 1; j < lines.length; j++) {
+      const line = lines[j].trim();
+      if (/^#{1,4}\s/.test(line)) break;
+      if (!line || /^[-|:]+$/.test(line) || line.startsWith('|') || line.startsWith('---')) continue;
+      answer = line;
+      if (plain(line).length >= 40) break;
+    }
+    push(heading[1], answer);
+  }
+  if (qa.length === 0) {
+    const re = /<h[23][^>]*>([\s\S]*?)<\/h[23]>([\s\S]*?)(?=<h[23][^>]*>|$)/gi;
+    let m;
+    while ((m = re.exec(body || '')) !== null && qa.length < 5) {
+      const p = m[2].match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+      push(m[1], p ? p[1] : '');
+    }
+  }
+  if (qa.length === 0) {
+    const t = String(title).replace(/\s*\|\s*.*$/, '').trim();
+    qa.push({ name: `¿Cómo se hace ${t}?`, text: `Esta guía explica paso a paso ${t.toLowerCase()}, con requisitos, costos actualizados y enlaces oficiales.` });
+  }
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: qa.map(q => ({ '@type': 'Question', name: q.name, acceptedAnswer: { '@type': 'Answer', text: q.text } })),
+  };
+}
+
 function primaryPage(article) {
   if (article.categoryEs === 'Guías y Trámites') return 'guias';
   return 'blog';
@@ -524,6 +583,15 @@ for (const article of articles) {
 
   const articleSchema = JSON.stringify(schemaObj);
   html = html.replace('</head>', `    <script type="application/ld+json">${articleSchema}</script>\n  </head>`);
+  // Las guías de trámites añaden un FAQPage con preguntas reales del cuerpo
+  // (H2/H3 + primer párrafo), también en el HTML estático que lee Googlebot.
+  if (route === 'guias') {
+    const body = loadArticleBody(article.id);
+    if (body) {
+      const faq = JSON.stringify(buildGuideFaq(article.title, body));
+      html = html.replace('</head>', `    <script type="application/ld+json">${faq}</script>\n  </head>`);
+    }
+  }
   // Meta tags de artículo (Google News, Facebook, X leen HTML estático)
   const articleMeta = `
     <meta property="article:published_time" content="${published}" />
@@ -556,6 +624,73 @@ for (const article of articles) {
   console.log(`✅ /${route}/${article.slug}`);
 }
 
-const total = Object.keys(pages).length + articles.length;
+// Fichas individuales de servicios: URL propia, precio visible y schema
+// Service + Offer + BreadcrumbList + FAQPage para búsquedas con intención
+// ("cuánto cuesta X en La Paz 2026").
+const servicesCatalog = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'servicesPricing.json'), 'utf-8'));
+for (const service of servicesCatalog) {
+  const dir = path.join(distDir, 'servicios', service.id);
+  fs.mkdirSync(dir, { recursive: true });
+  let html = cleanIndexHtml;
+  const url = `${SITE}/servicios/${service.id}`;
+  const priceLabel = service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
+  const title = `${service.nameEs} en La Paz 2026 | Desde ${priceLabel} | Freddy Ticona`;
+  const desc = `${service.nameEs} en La Paz, Bolivia desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp con Freddy Ticona.`;
+  html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
+  html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${escapeAttr(service.nameEs)}"`);
+  html = html.replace(/<meta property="og:description" content=".*?"/, `<meta property="og:description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<meta property="og:url" content=".*?"/, `<meta property="og:url" content="${url}"`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"/, `<meta name="twitter:title" content="${escapeAttr(service.nameEs)}"`);
+  html = html.replace(/<meta name="twitter:description" content=".*?"/, `<meta name="twitter:description" content="${escapeAttr(desc)}"`);
+  html = html.replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${url}"`);
+
+  const serviceSchema = {
+    '@type': 'Service', '@id': `${url}#service`,
+    name: service.nameEs, description: service.descriptionEs,
+    serviceType: service.id, provider: { '@id': `${SITE}/#business` },
+    areaServed: [
+      { '@type': 'City', name: 'La Paz' },
+      { '@type': 'City', name: 'El Alto' },
+      { '@type': 'Country', name: 'Bolivia' },
+    ],
+    url,
+    offers: { '@type': 'Offer', price: String(service.basePrice), priceCurrency: service.currency, availability: 'https://schema.org/InStock', url },
+  };
+  const breadcrumb = {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE },
+      { '@type': 'ListItem', position: 2, name: 'Servicios', item: `${SITE}/servicios` },
+      { '@type': 'ListItem', position: 3, name: service.nameEs, item: url },
+    ],
+  };
+  const faq = {
+    '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: `¿Cuánto cuesta ${service.nameEs}?`, acceptedAnswer: { '@type': 'Answer', text: `El precio base es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.` } },
+      { '@type': 'Question', name: `¿Qué incluye ${service.nameEs}?`, acceptedAnswer: { '@type': 'Answer', text: service.featuresEs.join('. ') + '.' } },
+      { '@type': 'Question', name: '¿En qué ciudades ofreces este servicio?', acceptedAnswer: { '@type': 'Answer', text: 'Trabajo en La Paz y El Alto, y viajo a cualquier departamento de Bolivia para proyectos especiales con viáticos aparte.' } },
+    ],
+  };
+  html = html.replace('</head>', `    <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': [serviceSchema, breadcrumb, faq] })}</script>\n  </head>`);
+
+  const bodyContent = `<div class="max-w-4xl mx-auto px-4 py-16 space-y-6">
+    <h1>${escapeXml(service.nameEs)} en La Paz, Bolivia</h1>
+    <p>${escapeXml(service.descriptionEs)}</p>
+    <p>Precio base: <strong>${priceLabel}</strong> · ${escapeXml(service.duration)}</p>
+    <h2>¿Qué incluye?</h2>
+    <ul>${service.featuresEs.map(f => `<li>${escapeXml(f)}</li>`).join('')}</ul>
+    <h2>Preguntas frecuentes</h2>
+    ${faq.mainEntity.map(q => `<h3>${escapeXml(q.name)}</h3><p>${escapeXml(q.acceptedAnswer.text)}</p>`).join('')}
+    <p><a href="/servicios">Ver todos los servicios</a> · <a href="/contacto">Solicitar cotización</a></p>
+  </div>`.trim();
+  html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);
+  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
+  console.log(`✅ /servicios/${service.id}`);
+}
+
+const total = Object.keys(pages).length + articles.length + servicesCatalog.length;
 console.log(`\n🎉 ${total} páginas pre-renderizadas en dist/`);
 console.log(`📄 ${articles.length} artículos extraídos dinámicamente de blogPosts.ts`);
+console.log(`💼 ${servicesCatalog.length} fichas de servicio con schema Service + FAQ`);

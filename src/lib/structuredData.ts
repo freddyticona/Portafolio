@@ -541,6 +541,165 @@ export function generateFAQStructuredData(): object {
 }
 
 /**
+ * FAQ real de una guía: se construye con los H2/H3 del propio artículo y el
+ * primer párrafo que los sigue, así el markup refleja exactamente el contenido
+ * visible (requisito de Google para FAQPage). Nunca inventa preguntas.
+ */
+export function generateGuideFAQStructuredData(title: string, html: string, lang: 'es' | 'en' = 'es'): object {
+  const clean = (s: string): string => s
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const plain = (s: string): string => clean(s)
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/(^|\s)\*([^*]+)\*/g, '$1$2')
+    .replace(/^[\s>*+\-]+/, '')
+    .replace(/^\d+[.)]\s+/, '');
+
+  const qa: Array<{ name: string; text: string }> = [];
+  const push = (questionRaw: string, answerRaw: string) => {
+    const question = plain(questionRaw).replace(/[:：]\s*$/, '');
+    let answer = plain(answerRaw);
+    if (question.length < 10 || question.length > 160 || answer.length < 40) return;
+    if (answer.length > 600) answer = answer.slice(0, 597).trimEnd() + '…';
+    qa.push({
+      name: /[?¿]$/.test(question) ? question : (lang === 'es' ? `¿${question}?` : `${question}?`),
+      text: answer,
+    });
+  };
+
+  // La mayoría de las guías están en Markdown (###, ####).
+  const lines = html.split(/\r?\n/);
+  for (let i = 0; i < lines.length && qa.length < 5; i++) {
+    const heading = lines[i].match(/^#{2,4}\s+(.+)$/);
+    if (!heading) continue;
+    let answer = '';
+    for (let j = i + 1; j < lines.length; j++) {
+      const line = lines[j].trim();
+      if (/^#{1,4}\s/.test(line)) break;
+      if (!line || /^[-|:]+$/.test(line) || line.startsWith('|') || line.startsWith('---')) continue;
+      answer = line;
+      if (plain(line).length >= 40) break;
+    }
+    push(heading[1], answer);
+  }
+
+  // Artículos en HTML (los tutoriales nuevos): H2/H3 + primer párrafo.
+  if (qa.length === 0) {
+    const re = /<h[23][^>]*>([\s\S]*?)<\/h[23]>([\s\S]*?)(?=<h[23][^>]*>|$)/gi;
+    let match: RegExpExecArray | null;
+    while ((match = re.exec(html)) !== null && qa.length < 5) {
+      const paragraph = match[2].match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+      push(match[1], paragraph ? paragraph[1] : '');
+    }
+  }
+
+  if (qa.length === 0) {
+    const t = title.replace(/\s*\|\s*.*$/, '').trim();
+    qa.push(lang === 'es'
+      ? { name: `¿Cómo se hace ${t}?`, text: `Esta guía explica paso a paso ${t.toLowerCase()}, con requisitos, costos actualizados y enlaces oficiales.` }
+      : { name: `How do you do ${t}?`, text: `This guide explains ${t.toLowerCase()} step by step, with requirements, updated costs and official links.` });
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: qa.map(q => ({
+      '@type': 'Question',
+      name: q.name,
+      acceptedAnswer: { '@type': 'Answer', text: q.text },
+    })),
+  };
+}
+
+/** Structured data de una ficha de servicio individual (/servicios/<id>). */
+export function generateServiceDetailStructuredData(service: {
+  id: string;
+  nameEs: string;
+  nameEn: string;
+  descriptionEs: string;
+  descriptionEn: string;
+  basePrice: number;
+  currency: string;
+  duration: string;
+  featuresEs: string[];
+  featuresEn: string[];
+}, url: string, lang: 'es' | 'en' = 'es'): object {
+  const isEs = lang === 'es';
+  const priceLabel = service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
+  const serviceSchema = {
+    '@type': 'Service',
+    '@id': `${url}#service`,
+    name: isEs ? service.nameEs : service.nameEn,
+    description: isEs ? service.descriptionEs : service.descriptionEn,
+    serviceType: service.id,
+    provider: { '@id': `${BASE_URL}/#business` },
+    areaServed: [
+      { '@type': 'City', name: 'La Paz' },
+      { '@type': 'City', name: 'El Alto' },
+      { '@type': 'Country', name: 'Bolivia' },
+    ],
+    url,
+    offers: {
+      '@type': 'Offer',
+      price: String(service.basePrice),
+      priceCurrency: service.currency,
+      availability: 'https://schema.org/InStock',
+      url,
+    },
+  };
+  const breadcrumb = generateBreadcrumbList([
+    { name: 'Inicio', url: BASE_URL },
+    { name: 'Servicios', url: `${BASE_URL}/servicios` },
+    { name: isEs ? service.nameEs : service.nameEn, url },
+  ]);
+  const faq = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: isEs ? `¿Cuánto cuesta ${service.nameEs}?` : `How much does ${service.nameEn} cost?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isEs
+            ? `El precio base de ${service.nameEs} es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.`
+            : `The base price for ${service.nameEn} is ${priceLabel} (${service.duration}). The final cost depends on the project scope.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isEs ? `¿Qué incluye ${service.nameEs}?` : `What is included in ${service.nameEn}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: (isEs ? service.featuresEs : service.featuresEn).join('. ') + '.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isEs ? '¿En qué ciudades ofreces este servicio?' : 'Where is this service available?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isEs
+            ? 'Trabajo en La Paz y El Alto, y viajo a cualquier departamento de Bolivia para proyectos especiales con viáticos aparte.'
+            : 'I work in La Paz and El Alto, and travel anywhere in Bolivia for special projects with travel expenses apart.',
+        },
+      },
+    ],
+  };
+  return { '@context': 'https://schema.org', '@graph': [serviceSchema, breadcrumb, faq] };
+}
+
+/**
  * Inyecta el JSON-LD en el head del documento
  *
  * Antes de insertar, elimina TODOS los scripts ld+json presentes: el que
@@ -549,7 +708,7 @@ export function generateFAQStructuredData(): object {
  * en el DOM el schema de la home (con un "Article" inexistente) junto al de
  * servicios, y Google recibía dos grafos contradictorios.
  */
-export function injectStructuredData(data: object): void {
+export function injectStructuredData(data: object | object[]): void {
   document.querySelectorAll('script[type="application/ld+json"]').forEach(script => {
     script.remove();
   });

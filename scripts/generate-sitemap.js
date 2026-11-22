@@ -85,11 +85,23 @@ for (const article of articles) {
   </url>\n`;
 }
 
+xml += `\n  <!-- Fichas de servicio -->\n`;
+
+const servicesCatalog = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'servicesPricing.json'), 'utf-8'));
+for (const service of servicesCatalog) {
+  xml += `  <url>
+    <loc>${SITE}/servicios/${service.id}</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>\n`;
+}
+
 xml += `</urlset>\n`;
 
 const outputPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
 fs.writeFileSync(outputPath, xml, 'utf-8');
 
-const total = sections.length + articles.length;
+const total = sections.length + articles.length + servicesCatalog.length;
 console.log(`✅ Sitemap generado: ${outputPath}`);
-console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos en ruta única)`);
+console.log(`🗺  ${total} URLs incluidas (${sections.length} secciones + ${articles.length} artículos + ${servicesCatalog.length} servicios)`);

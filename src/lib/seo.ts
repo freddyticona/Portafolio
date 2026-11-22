@@ -38,7 +38,7 @@ const SITE_CONFIG = {
 export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }> = {
   inicio: {
     es: {
-      title: 'Freddy Ticona Guzmán | Camarógrafo Profesional La Paz Bolivia | Filmación y Documentales',
+      title: 'Freddy Ticona Guzmán | Camarógrafo Profesional en La Paz, Bolivia',
       description: 'Portafolio profesional de Freddy Ticona Guzmán, camarógrafo experto en La Paz, Bolivia con más de 15 años de experiencia en televisión, documentales y cobertura periodística. Servicios de filmación profesional, edición de video y producción audiovisual. Ganador del Premio Nacional Eduardo Abaroa 2017.',
       keywords: ['camarógrafo La Paz', 'camarógrafo Bolivia', 'filmación profesional La Paz', 'realizador audiovisual Bolivia', 'edición de video profesional', 'documentales Bolivia', 'cobertura periodística', 'productor de video'],
     },

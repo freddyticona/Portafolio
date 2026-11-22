@@ -25,7 +25,7 @@ import type { FilterState } from './components/PortfolioFilters';
 
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import { CONTACT_INFO } from './config';
+import { CONTACT_INFO, SERVICES_PRICING } from './config';
 import { updateMetaTags } from './lib/seo';
 import { PortfolioEvents } from './lib/analytics';
 import { useGsapAnimations } from './hooks/useGsapAnimations';
@@ -61,6 +61,7 @@ const ContactPage = lazy(() => import('./pages/OtherPages').then(m => ({ default
 const BookingPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.BookingPage })));
 const ServicesPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.ServicesPage })));
 const AdminPage = lazy(() => import('./pages/OtherPages').then(m => ({ default: m.AdminPage })));
+const ServiceDetailPage = lazy(() => import('./pages/ServiceDetailPage'));
 
 // Componentes flotantes globales — lazy loaded
 const WhatsAppButton = lazy(() => import('./components/WhatsAppButton'));
@@ -91,6 +92,11 @@ function pageFromPath(pathname: string): PageId {
  */
 function isArticlePath(pathname: string = window.location.pathname): boolean {
   return /^\/(blog|guias)\/[^/]+\/?$/.test(pathname);
+}
+
+/** El detalle de servicio pone su propio <title>, canonical y JSON-LD. */
+function isServicePath(pathname: string = window.location.pathname): boolean {
+  return /^\/servicios\/[^/]+\/?$/.test(pathname);
 }
 
 // ─── Skeleton loaders por tipo de página ─────────────────────────────────
@@ -161,6 +167,7 @@ export default function App() {
   // Sub-navegación dentro de páginas
   const [activeCaseStudyId, setActiveCaseStudyId] = useState<string | null>(null);
   const [activeBlogPostId, setActiveBlogPostId] = useState<string | null>(null);
+  const [activeServiceId, setActiveServiceId] = useState<string | null>(null);
 
   // Estado del showreel (se mantiene en App para preservarlo entre navegaciones)
 
@@ -217,6 +224,14 @@ export default function App() {
     const handlePopState = () => {
       const parts = window.location.pathname.split('/').filter(Boolean);
 
+      if (parts.length === 2 && parts[0] === 'servicios' && SERVICES_PRICING.some(s => s.id === parts[1])) {
+        setActivePage('servicios');
+        setActiveServiceId(parts[1]);
+        setActiveBlogPostId(null);
+        setActiveCaseStudyId(null);
+        return;
+      }
+
       if (parts.length === 2 && (parts[0] === 'blog' || parts[0] === 'guias')) {
         const post = blogPostsRef.current.find(p => p.slug === parts[1]);
         if (post) {
@@ -232,6 +247,7 @@ export default function App() {
         setActivePage(pageStr as PageId);
         setActiveCaseStudyId(null);
         setActiveBlogPostId(null);
+        setActiveServiceId(null);
       }
     };
 
@@ -266,7 +282,7 @@ export default function App() {
     // el <title> del artículo, su canonical y su JSON-LD. Si el shell lo
     // actualizara aquí, sobreescribiría el título del artículo con el de la
     // sección y GA4 registraría la vista con el título incorrecto.
-    if (isArticlePath()) return;
+    if (isArticlePath() || isServicePath()) return;
 
     updateMetaTags(activePage, lang);
   }, [activePage, lang]);
@@ -289,6 +305,7 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveCaseStudyId(null);
     setActiveBlogPostId(null);
+    setActiveServiceId(null);
   };
 
   const primaryRoute = (post: BlogPost): PageId => {
@@ -303,6 +320,7 @@ export default function App() {
     window.history.pushState(null, '', `/${route}/${post.slug}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveCaseStudyId(null);
+    setActiveServiceId(null);
   };
 
   // ─── Renderizar página activa con transiciones ────────────────────────────
@@ -412,7 +430,28 @@ export default function App() {
           );
         case 'reservas':
           return <BookingPage lang={lang} t={t} />;
-        case 'servicios':
+        case 'servicios': {
+          const activeService = activeServiceId
+            ? SERVICES_PRICING.find(s => s.id === activeServiceId)
+            : undefined;
+          if (activeService) {
+            return (
+              <ServiceDetailPage
+                service={activeService}
+                services={SERVICES_PRICING}
+                lang={lang}
+                onBack={() => handleNavToTab('servicios')}
+                onContact={(context) => {
+                  setQuoteRequest({
+                    serviceId: context.serviceId,
+                    serviceName: context.serviceName,
+                    price: context.price,
+                  });
+                  handleNavToTab('contacto');
+                }}
+              />
+            );
+          }
           return (
             <ServicesPage
               lang={lang}
@@ -424,6 +463,7 @@ export default function App() {
               onBooking={() => handleNavToTab('reservas')}
             />
           );
+        }
         case 'admin':
           return <AdminPage lang={lang} onBack={() => handleNavToTab('inicio')} />;
         default:

@@ -264,6 +264,12 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
 
                   <div className="pt-4 border-t border-stone-800 space-y-2">
                     <a
+                      href={`/servicios/${service.id}`}
+                      className="inline-flex items-center gap-1.5 text-xs font-mono font-bold uppercase tracking-widest text-gold hover:text-gold-hover transition-colors"
+                    >
+                      {isEs ? 'Ver detalles y precios' : 'View details and pricing'} →
+                    </a>
+                    <a
                       href={quoteLink(isEs ? service.nameEs : service.nameEn, service.basePrice)}
                       target="_blank"
                       rel="noopener noreferrer"

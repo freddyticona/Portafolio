@@ -51,7 +51,7 @@ import NewsletterSignup from './NewsletterSignup';
 // Los comentarios se cargan bajo demanda: su chunk (motion/react + UI) no debe
 // competir con el contenido del artículo en la carga inicial.
 const CommentSystem = lazy(() => import('./CommentSystem'));
-import { injectStructuredData, generateArticleStructuredData } from '../lib/structuredData';
+import { injectStructuredData, generateArticleStructuredData, generateGuideFAQStructuredData } from '../lib/structuredData';
 import { formatPostDate } from '../lib/date';
 import { extractKeyPoints } from '../lib/summary';
 import { CONTACT_INFO } from '../config';
@@ -266,20 +266,24 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
 
     // Inyectar JSON-LD del artículo como BlogPosting / TechArticle con autoría
     // de Freddy (Person) y publisher del portafolio.
-    injectStructuredData(
-      generateArticleStructuredData({
-        title,
-        description: lang === 'es' ? post.excerptEs : post.excerptEn,
-        publishDate: post.date,
-        modifiedDate: post.dateModified,
-        author: 'Freddy Ticona Guzmán',
-        image: post.imageUrl,
-        url: shareUrl,
-        category,
-        keywords: [category].filter(Boolean) as string[],
-        type: post.categoryEs === 'Guías y Trámites' ? 'TechArticle' : 'BlogPosting',
-      })
-    );
+    const isGuide = post.categoryEs === 'Guías y Trámites';
+    const articleSchema = generateArticleStructuredData({
+      title,
+      description: lang === 'es' ? post.excerptEs : post.excerptEn,
+      publishDate: post.date,
+      modifiedDate: post.dateModified,
+      author: 'Freddy Ticona Guzmán',
+      image: post.imageUrl,
+      url: shareUrl,
+      category,
+      keywords: [category].filter(Boolean) as string[],
+      type: isGuide ? 'TechArticle' : 'BlogPosting',
+    });
+    // Las guías llevan además un FAQPage construido con sus propios H2/H3,
+    // para obtener rich results en búsquedas de trámites de Bolivia.
+    injectStructuredData(isGuide && rawContent
+      ? [articleSchema, generateGuideFAQStructuredData(title, rawContent, lang)]
+      : articleSchema);
 
     // Meta tags OG para artículo
     const setMeta = (prop: string, val: string) => {
@@ -305,7 +309,7 @@ export default function BlogDetail({ post, lang, t, onBack, onNavigate, allPosts
         if (el) el.remove();
       });
     };
-  }, [post, lang]);
+  }, [post, lang, rawContent]);
 
   // ─── Tiempo de lectura dinámico ─────────────────────────────────────
   const dynamicReadTime = useMemo(
