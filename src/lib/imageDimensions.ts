@@ -153,7 +153,7 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 6000,
     "height": 4000
   },
-  "/images/guia/facturacion-electronica-siat-2026.jpg": {
+  "/images/guia/facturacion-electronica-siat-2026.webp": {
     "width": 900,
     "height": 599
   },
@@ -189,125 +189,125 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1800,
     "height": 1012
   },
-  "/images/guia/firma-digital-adsib-2026.jpg": {
-    "width": 1600,
-    "height": 480
+  "/images/guia/firma-digital-adsib-2026.webp": {
+    "width": 1400,
+    "height": 420
   },
-  "/images/guia/subsidio-prenatal-2026.jpg": {
+  "/images/guia/subsidio-prenatal-2026.webp": {
     "width": 719,
     "height": 569
   },
-  "/images/guia/bono-juancito-pinto-2026.jpg": {
+  "/images/guia/bono-juancito-pinto-2026.webp": {
     "width": 1024,
     "height": 815
   },
-  "/images/guia/bono-juana-azurduy-2026.jpg": {
+  "/images/guia/bono-juana-azurduy-2026.webp": {
     "width": 720,
     "height": 540
   },
-  "/images/guia/matrimonio-civil-2026.jpg": {
+  "/images/guia/matrimonio-civil-2026.webp": {
     "width": 1200,
     "height": 900
   },
-  "/images/guia/correccion-acta-nacimiento-2026.jpg": {
-    "width": 1600,
-    "height": 900
+  "/images/guia/correccion-acta-nacimiento-2026.webp": {
+    "width": 1400,
+    "height": 788
   },
-  "/images/guia/carnet-discapacidad-2026.jpg": {
+  "/images/guia/carnet-discapacidad-2026.webp": {
     "width": 720,
     "height": 461
   },
-  "/images/guia/certificado-aportes-gestora-2026.jpg": {
+  "/images/guia/certificado-aportes-gestora-2026.webp": {
     "width": 1280,
     "height": 720
   },
-  "/images/guia/re-iva-2026.jpg": {
-    "width": 1521,
-    "height": 833
+  "/images/guia/re-iva-2026.webp": {
+    "width": 1400,
+    "height": 767
   },
-  "/images/guia/soat-trafico-lapaz.jpg": {
-    "width": 3648,
-    "height": 2736
+  "/images/guia/soat-trafico-lapaz.webp": {
+    "width": 1400,
+    "height": 1050
   },
-  "/images/guia/matrimonio-anillos.jpg": {
+  "/images/guia/matrimonio-anillos.webp": {
     "width": 1200,
     "height": 900
   },
-  "/images/guia/cementerio-general-lapaz.jpg": {
-    "width": 1920,
-    "height": 2560
+  "/images/guia/cementerio-general-lapaz.webp": {
+    "width": 1050,
+    "height": 1400
   },
-  "/images/guia/negocios-totora-cochabamba.jpg": {
-    "width": 1920,
-    "height": 1280
+  "/images/guia/negocios-totora-cochabamba.webp": {
+    "width": 1400,
+    "height": 933
   },
-  "/images/guia/padron-elecciones.jpg": {
-    "width": 1920,
-    "height": 1279
+  "/images/guia/padron-elecciones.webp": {
+    "width": 1400,
+    "height": 933
   },
-  "/images/guia/apostilla-sello.jpg": {
+  "/images/guia/apostilla-sello.webp": {
     "width": 960,
     "height": 972
   },
-  "/images/guia/senapi-marca.jpg": {
-    "width": 6000,
-    "height": 4000
+  "/images/guia/senapi-marca.webp": {
+    "width": 1400,
+    "height": 933
   },
-  "/images/guia/alcaldia-cochabamba.jpg": {
-    "width": 1920,
-    "height": 1440
+  "/images/guia/alcaldia-cochabamba.webp": {
+    "width": 1400,
+    "height": 1050
   },
-  "/images/guia/vacunas-covid.jpg": {
-    "width": 3736,
-    "height": 1552
+  "/images/guia/vacunas-covid.webp": {
+    "width": 1400,
+    "height": 582
   },
-  "/images/guia/jubilacion-adulto-mayor.jpg": {
-    "width": 3024,
-    "height": 4032
+  "/images/guia/jubilacion-adulto-mayor.webp": {
+    "width": 1050,
+    "height": 1400
   },
-  "/images/guia/derechos-reales-casa-lapaz.jpg": {
-    "width": 1600,
-    "height": 1464
+  "/images/guia/derechos-reales-casa-lapaz.webp": {
+    "width": 1400,
+    "height": 1281
   },
   "/images/blog/smartsub/home-en.png": {
     "width": 1920,
     "height": 1350
   },
-  "/images/guia/cedula-identidad-segip.jpg": {
-    "width": 4000,
-    "height": 1800
+  "/images/guia/cedula-identidad-segip.webp": {
+    "width": 1400,
+    "height": 630
   },
-  "/images/guia/licencia-coche-lapaz.jpg": {
+  "/images/guia/licencia-coche-lapaz.webp": {
     "width": 960,
     "height": 725
   },
-  "/images/guia/pasaporte-boliviano.jpg": {
+  "/images/guia/pasaporte-boliviano.webp": {
     "width": 602,
     "height": 860
   },
-  "/images/guia/nit-bus-transporte.jpg": {
-    "width": 6000,
-    "height": 4000
+  "/images/guia/nit-bus-transporte.webp": {
+    "width": 1400,
+    "height": 933
   },
-  "/images/guia/ruat-coche-lapaz.jpg": {
-    "width": 3648,
-    "height": 2736
+  "/images/guia/ruat-coche-lapaz.webp": {
+    "width": 1400,
+    "height": 1050
   },
-  "/images/guia/nacimiento-bebe.jpg": {
-    "width": 1485,
-    "height": 1011
+  "/images/guia/nacimiento-bebe.webp": {
+    "width": 1400,
+    "height": 953
   },
-  "/images/guia/policia-boliviana.jpg": {
+  "/images/guia/policia-boliviana.webp": {
     "width": 500,
     "height": 752
   },
-  "/images/guia/tribunal-supremo-sucre.jpg": {
-    "width": 1920,
-    "height": 1427
+  "/images/guia/tribunal-supremo-sucre.webp": {
+    "width": 1400,
+    "height": 1041
   },
-  "/images/guia/sello-entrada-bolivia.jpg": {
-    "width": 1920,
-    "height": 1151
+  "/images/guia/sello-entrada-bolivia.webp": {
+    "width": 1400,
+    "height": 839
   },
   "/images/freddy_studio.webp": {
     "width": 1920,
