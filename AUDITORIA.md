@@ -44,6 +44,36 @@ Cuando una fuente no esté disponible, el dato se marca **PENDIENTE** y se susti
 
 No se encontró PDF de aranceles en la sección de trámites del SEGIP (solo un PDF de Tranca Cero sin relación con costos). Se archivó el HTML oficial completo.
 
+## Guía [80] SOAT 2026 — 2026-11-22
+
+| Guía | Dato | Valor anterior | Valor oficial | Fuente (URL + HTTP) | Estado |
+|---|---|---|---|---|---|
+| [80] SOAT | Precio automóvil particular | Bs 750–900 | **Bs 90** | https://www.univida.bo/soat/precios (200) | ❌ INCORRECTO → CORREGIDO |
+| [80] SOAT | Precio motocicleta | Bs 250–450 | **Bs 200** particular / Bs 155 público | https://www.univida.bo/soat/precios (200) | ❌ INCORRECTO → CORREGIDO |
+| [80] SOAT | Precio por departamento | No se indicaba | El uso público varía por departamento; el particular es nacional | https://www.univida.bo/soat/precios (200) | ✅ AÑADIDO |
+| [80] SOAT | Cobertura médica | Bs 20.000 | **Bs 24.000** | https://www.aps.gob.bo/faq/seguro-obligatorio-de-transito-soat/ (200) | ❌ INCORRECTO → CORREGIDO |
+| [80] SOAT | Muerte / incapacidad | Bs 20.000 | **Bs 22.000** | https://www.aps.gob.bo/faq/seguro-obligatorio-de-transito-soat/ (200) | ❌ INCORRECTO → CORREGIDO |
+| [80] SOAT | Gastos funerarios | Bs 4.000 | No publicado por APS para 2026 | — | ⚠️ PENDIENTE |
+| [80] SOAT | Vigencia | 1 año | Desde 00:00 del día siguiente de la compra hasta el 31/12/2026 | https://www.univida.bo/soat/precios (200) | ❌ INCORRECTO → CORREGIDO |
+| [80] SOAT | Aseguradoras | Unión, BISA, Alianza, etc. | UNIVIDA habilitada para 2026 (RA 1148 y 1168/2025) | https://sireci.aps.gob.bo/api/cartas_resoluciones/descarga/36426 (200) | ⚠️ PARCIAL (otras PENDIENTE) |
+| [80] SOAT | Plazo de indemnización | No indicado | 15 días hábiles (Art. 36 DS 27295) | https://www.aps.gob.bo/faq/seguro-obligatorio-de-transito-soat/ (200) | ✅ AÑADIDO |
+| [80] SOAT | Entidad reguladora | APS | APS + UNIVIDA como administradora 2026 | https://www.aps.gob.bo/ (200) | ✅ VERIFICADO |
+
+La guía ya mencionaba a la APS; se reforzó con la resolución de habilitación y se añadió enlace cruzado a la guía [1042] de multas de tránsito.
+
+## Segunda pasada a PENDIENTES de [79] y [81] — 2026-11-22
+
+| Guía | Dato | URLs intentadas | HTTP | Resultado | Reintentar el |
+|---|---|---|---|---|---|
+| [79] Cédula | Plazo de entrega | https://www.segip.gob.bo/cedula-de-identidad/ ; https://web.archive.org/cdx/search/cdx?url=segip.gob.bo/licencia-para-conducir*&from=2024&to=2026 ; https://www.gacetaoficialdebolivia.gob.bo/normas/busquedag1?q=SEGIP | 200 / 200 (vacío) / 200 | Sin plazo publicado; Wayback sin capturas de la página de licencias; Gaceta sin resolución de aranceles | 2026-12-22 |
+| [79] Cédula | Vigencia «indefinida» | https://www.segip.gob.bo/cedula-de-identidad/ ; https://www.segip.gob.bo/tramites-cedula-de-identidad/ | 200 / 200 | Solo consta que la reposición conserva la fecha original | 2026-12-22 |
+| [81] Licencia | Plazo de entrega | https://www.segip.gob.bo/licencia-para-conducir/ ; https://web.archive.org/cdx/search/cdx?url=www.segip.gob.bo/licencia-para-conducir/&from=2024&to=2026 ; https://www.gacetaoficialdebolivia.gob.bo/normas/busquedag1?q=SEGIP | 200 / 200 (vacío) / 200 | Sin plazo único publicado; sin FAQ específica de plazos en el portal | 2026-12-22 |
+| [81] Licencia | Examen escrito/psicológico en primera vez | https://www.segip.gob.bo/licencia-para-conducir/ | 200 | El portal exige evaluación médica, habilidades de conducción y antecedentes de tránsito; no confirma examen escrito ni psicológico para primera vez | 2026-12-22 |
+| [80] SOAT | Gastos funerarios Bs 4.000 | https://www.aps.gob.bo/faq/seguro-obligatorio-de-transito-soat/ | 200 | No aparece en la cobertura 2026 publicada | 2026-12-22 |
+| [80] SOAT | Otras aseguradoras 2026 | https://sireci.aps.gob.bo/api/cartas_resoluciones/descarga/36426 | 200 | Solo se verificó UNIVIDA (RA 1168/2025) | 2026-12-22 |
+
+Todos estos datos tienen su aviso visible `alerta-verificacion` en el HTML de la guía (además de esta tabla).
+
 ## Documentos archivados
 
 - `assets/fuentes-oficiales/cedula-identidad/SEGIP_CEDULA_IDENTIDAD_2026-11-22.html`
@@ -51,6 +81,12 @@ No se encontró PDF de aranceles en la sección de trámites del SEGIP (solo un 
 - `assets/fuentes-oficiales/cedula-identidad/SEGIP_CIE_2026-11-22.html`
 - `assets/fuentes-oficiales/licencia-conducir/SEGIP_LICENCIA_CONDUCIR_2026-11-22.html`
 - `assets/fuentes-oficiales/licencia-conducir/SEGIP_FORMAS_PAGO_2026-11-22.html`
+- `assets/fuentes-oficiales/soat/APS_FAQ_SOAT_2026-11-22.html`
+- `assets/fuentes-oficiales/soat/APS_RA_1148_2025_SOAT_2026.pdf`
+- `assets/fuentes-oficiales/soat/APS_RA_1168_2025_UNIVIDA_SOAT_2026.pdf`
+- `assets/fuentes-oficiales/soat/APS_RA_1432_2026_SOAT_2027.pdf`
+- `assets/fuentes-oficiales/soat/UNIVIDA_PRECIOS_SOAT_2026-11-22.html`
+- `assets/fuentes-oficiales/soat/UNIVIDA_TABLA_PRECIOS_SOAT_2026.png`
 
 No se encontró PDF oficial específico para este trámite en el sitio del SEGIP; se archivó el HTML oficial íntegro como constancia.
 
