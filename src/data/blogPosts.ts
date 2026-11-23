@@ -2889,5 +2889,26 @@ export const blogPosts: BlogPost[] = [
     views: 1,
     location: "La Paz, Bolivia",
     region: "Bolivia"
+  },
+  {
+    id: "1452",
+    contentType: "analysis",
+    slug: "tranca-cero-bolivia-2026-sin-fotocopias",
+    titleEs: "Tranca Cero Bolivia 2026: qué ya no piden",
+    titleEn: "Tranca Cero Bolivia 2026: no more ID photocopies",
+    excerptEs: "Tranca Cero en Bolivia 2026: el DS 5595 prohíbe la fotocopia de cédula y el certificado de nacimiento salvo filiación. Cómo reportar una tranca.",
+    excerptEn: "Tranca Cero in Bolivia 2026: Supreme Decree 5595 bans ID photocopies and birth certificates except for parentage. How to report a bureaucratic barrier.",
+    date: "2026-11-22",
+    readTimeEs: "10 min de lectura",
+    readTimeEn: "10 min read",
+    imageUrl: "/images/portadas/TRANCA_CERO_BOLIVIA_2026.WEBP",
+    imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites",
+    categoryEn: "Guides & Procedures",
+    enableComments: true,
+    featured: false,
+    views: 1,
+    location: "La Paz, Bolivia",
+    region: "Bolivia"
   }
 ];
