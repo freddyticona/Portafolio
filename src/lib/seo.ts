@@ -14,6 +14,9 @@
 
 import { updatePageStructuredData } from './structuredData';
 import { trackPageView } from './analytics';
+import { blogPosts } from '../data/blogPosts';
+
+const GUIDE_COUNT = blogPosts.filter(p => p.categoryEs === 'Guías y Trámites').length;
 
 export interface SEOMetadata {
   title: string;
@@ -174,12 +177,12 @@ export const PAGE_METADATA: Record<string, { es: SEOMetadata; en: SEOMetadata }>
   guias: {
     es: {
       title: 'Guías de Trámites Bolivia 2026 | Freddy Ticona',
-      description: '31 guías paso a paso para trámites en Bolivia: SEGIP, licencia, SOAT, pasaporte y NIT. Requisitos, costos 2026 y enlaces oficiales. Empieza aquí.',
+      description: `${GUIDE_COUNT} guías paso a paso para trámites en Bolivia: SEGIP, licencia, SOAT, pasaporte y NIT. Requisitos, costos 2026 y enlaces oficiales. Empieza aquí.`,
       keywords: ['guías trámites Bolivia', 'SEGIP cédula identidad', 'SOAT Bolivia 2026', 'licencia conducir Bolivia', 'pasaporte boliviano', 'NIT Bolivia', 'RUAT transferencia vehicular', 'certificado nacimiento Bolivia', 'antecedentes policiales REAP', 'visa Bolivia'],
     },
     en: {
       title: 'Bolivia Procedures Guides 2026 | Freddy Ticona',
-      description: '31 step-by-step guides for procedures in Bolivia: SEGIP, license, SOAT, passport and NIT. Requirements, 2026 costs and official links. Start now.',
+      description: `${GUIDE_COUNT} step-by-step guides for procedures in Bolivia: SEGIP, license, SOAT, passport and NIT. Requirements, 2026 costs and official links. Start now.`,
       keywords: ['Bolivia procedures guide', 'SEGIP ID card', 'SOAT Bolivia 2026', 'Bolivia driver license', 'Bolivia passport', 'NIT Bolivia', 'Bolivia visa', 'police records Bolivia', 'birth certificate Bolivia'],
     }
   },

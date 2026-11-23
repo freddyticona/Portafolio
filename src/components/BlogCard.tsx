@@ -19,6 +19,16 @@ interface BlogCardProps {
 
 export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
   const isNew = isRecentPostDate(post.date, 48);
+  const route = post.categoryEs === 'Guías y Trámites' ? 'guias' : 'blog';
+  const href = `/${route}/${post.slug}`;
+
+  const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    // Clic normal: navega el router SPA. Modificadores y clic central
+    // conservan el comportamiento nativo del navegador (pestaña nueva, etc.).
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    onClick();
+  };
 
   const contentTypeLabels: Record<ContentType, { es: string; en: string }> = {
     news: { es: 'NOTICIA', en: 'NEWS' },
@@ -40,12 +50,10 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
   };
 
   return (
-    <div
+    <a
+      href={href}
       className="card-3d-light group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 transition-all duration-300 hover:shadow-xl hover:shadow-gold/2 flex flex-col justify-between animate-fade-in-up"
-      onClick={onClick}
-      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } }}
-      role="button"
-      tabIndex={0}
+      onClick={handleClick}
       aria-label={lang === 'es' ? post.titleEs : post.titleEn}
       id={`blog-post-card-${post.id}`}
     >
@@ -105,6 +113,6 @@ export default function BlogCard({ post, lang, t, onClick }: BlogCardProps) {
           <ArrowRight className="w-3.5 h-3.5" />
         </div>
       </div>
-    </div>
+    </a>
   );
 }

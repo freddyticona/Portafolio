@@ -139,6 +139,21 @@ Nota metodológica [1452]: el texto original del DS 5595 en la Gaceta **no dice 
 
 Nota metodológica [1453]: se verificó que **PTC no es un portal de trámites para ciudadanos**: su portada indicó «No hay trámites disponibles» y está orientada a entidades certificadoras; exige Ciudadanía Digital para iniciar sesión. La ficha de gob.bo sí incluye «Persona Natural» y el trámite se ejecuta en `solicitud.firmadigital.bo`. Por tanto se reemplazó el tema original por una guía ciudadana sobre el nuevo régimen de firma digital AGETIC (DS 5519), explicando los tres roles: gob.bo consulta, PTC entidades certificadoras, firmadigital.bo ejecución. Archivos en `assets/fuentes-oficiales/firma-digital-agetic/`. Portada: `public/images/portadas/FIRMA_DIGITAL_AGETIC_BOLIVIA_2026.WEBP`.
 
+## Auditoría técnica de `/guias` — 2026-11-22
+
+| Hallazgo | Antes | Después | Archivo |
+|---|---|---|---|
+| HTML de `/guias` sin cuerpo | 0 `<h1>`, 0 `<p>`, 0 `<a>`, solo meta | `<h1>` + 11 secciones + 45 enlaces `<a href="/guias/slug">` | `scripts/generate-pages.js` |
+| Tarjetas no enlazables | `<div role="button">` sin `href` | `<a href>` con `preventDefault()`; respeta Ctrl/Cmd/clic central | `src/components/BlogCard.tsx` |
+| JSON-LD del índice | Herdaba Person/LocalBusiness/OfferCatalog/Service | `CollectionPage` + `ItemList` (45 ítems) + `BreadcrumbList` | `scripts/generate-pages.js` |
+| Conteo de guías | «31» hardcodeado | Derivado del array real (45) en build y cliente | `scripts/generate-pages.js`, `src/lib/seo.ts` |
+| Metadatos de sección | Keywords de portafolio, og:site_name de portafolio, og:image:alt de camarógrafo, etiquetas geo/ICBM/revisit/distribution/rating | Keywords de trámites, `Guías de Trámites Bolivia`, alt acorde, etiquetas sin efecto eliminadas | `scripts/generate-pages.js` |
+| Imagen social | WebP | Se genera `OG_GUIAS.jpg` 1200×630 y se usa en og:image/twitter:image; el WebP sigue en el sitio | `public/images/OG/OG_GUIAS.jpg` |
+| Duplicado de contenido | Bloque prerenderizado hermano de `#root` sin ocultar | `main.tsx` añade `.js` al `<html>`; CSS oculta `#prerender-guias` al montar | `src/main.tsx`, `src/index.css` |
+| Prerender local | `setTimeout(2000)` fijo | Espera explícita a tarjetas (`[id^="blog-post-card-"]`) o `#main-content`; se documenta el salto en CI | `scripts/prerender.mjs` |
+
+Decisión: se mantuvieron solo `hreflang="es"` y `x-default` porque el toggle de idioma no crea una URL `/en` propia.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

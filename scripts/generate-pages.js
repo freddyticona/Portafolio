@@ -190,6 +190,9 @@ function primaryPage(article) {
   return 'blog';
 }
 
+// Conteo real de guías — se deriva de la misma fuente que los artículos.
+const GUIDE_COUNT = extractArticles().filter(a => (a.categoryEs || '') === 'Guías y Trámites').length;
+
 const pages = {
   '': {
     title: 'Freddy Ticona | Camarógrafo en La Paz, Bolivia',
@@ -226,8 +229,12 @@ const pages = {
   },
   'guias': {
     title: 'Guías de Trámites Bolivia 2026 | Freddy Ticona',
-    desc: '31 guías paso a paso para trámites en Bolivia: SEGIP, licencia, SOAT, pasaporte y NIT. Requisitos, costos 2026 y enlaces oficiales. Empieza aquí.',
-    path: '/guias'
+    desc: `${GUIDE_COUNT} guías paso a paso para trámites en Bolivia: SEGIP, licencia, SOAT, pasaporte y NIT. Requisitos, costos 2026 y enlaces oficiales. Empieza aquí.`,
+    path: '/guias',
+    ogImage: '/images/OG/OG_GUIAS.jpg',
+    ogImageAlt: 'Guías de trámites en Bolivia 2026',
+    ogSiteName: 'Guías de Trámites Bolivia',
+    keywords: 'guías de trámites Bolivia 2026, SEGIP, SERECÍ, SIN, Gestora Pública, apostilla, licencia de conducir, SOAT, NIT'
   },
   'galeria': {
     title: 'Galería de Coberturas | Freddy Ticona',
@@ -378,7 +385,8 @@ function toFullIsoDateTime(date, slug) {
 const cleanIndexHtml = indexHtml.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, '');
 
 for (const [key, meta] of Object.entries(pages)) {
-  let html = indexHtml;
+  // /guias usa el HTML limpio: no debe heredar Person/LocalBusiness/OfferCatalog/Service.
+  let html = key === 'guias' ? cleanIndexHtml : indexHtml;
   const pageTitle = fitTitle(meta.title);
   const pageDesc = fitDescription(meta.desc);
 
@@ -411,7 +419,9 @@ for (const [key, meta] of Object.entries(pages)) {
     /<meta property="og:url" content=".*?"/,
     `<meta property="og:url" content="${SITE}${meta.path}"`
   );
-  const pageOg = OG_BY_ROUTE[key] || `${SITE}/images/OG/OG_HOME.webp`;
+  const pageOg = meta.ogImage
+    ? `${SITE}${meta.ogImage}`
+    : (OG_BY_ROUTE[key] || `${SITE}/images/OG/OG_HOME.webp`);
   html = html.replace(
     /<meta property="og:image" content=".*?"/,
     `<meta property="og:image" content="${pageOg}"`
@@ -463,6 +473,93 @@ for (const [key, meta] of Object.entries(pages)) {
     <link rel="alternate" hreflang="x-default" href="${esUrl}" />
   </head>`
   );
+
+  // /guias: metadatos propios, JSON-LD del índice y cuerpo estático legible
+  // sin JavaScript. El bloque se oculta en cuanto la app monta (clase .js).
+  if (key === 'guias') {
+    html = html.replace(/<meta name="keywords" content="[^"]*"/,
+      `<meta name="keywords" content="${escapeAttr(meta.keywords)}"`);
+    html = html.replace(/<meta property="og:site_name" content="[^"]*"/,
+      `<meta property="og:site_name" content="${escapeAttr(meta.ogSiteName)}"`);
+    html = html.replace(/<meta property="og:image:alt" content="[^"]*"/,
+      `<meta property="og:image:alt" content="${escapeAttr(meta.ogImageAlt)}"`);
+    // Etiquetas heredadas del portafolio sin efecto en esta ruta.
+    html = html.replace(/\s*<meta name="(?:geo\.region|ICBM|revisit-after|distribution|rating)"[^>]*\/>/gi, '');
+
+    const guiaArticles = articles
+      .filter(a => a.categoryEs === 'Guías y Trámites')
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    const guiaGroupTitle = (post) => {
+      const lower = `${post.title} ${post.titleEn || ''}`.toLowerCase();
+      const has = (...terms) => terms.some(term => lower.includes(term));
+      const hasWord = (word) => new RegExp(`\\b${word}\\b`).test(lower);
+      if (has('bono', 'bonus', 'subsidio', 'subsidy', 'prenatal', 'azurduy', 'juancito')) return 'Bonos y Subsidios';
+      if (has('segip', 'cédula', 'cedula', 'identity card', 'id card')) return 'SEGIP · Identidad';
+      if (has('soat', 'ruat', 'licencia de conducir', 'vehicular', 'tránsito', 'transito', 'multa', 'placa', 'driver', 'traffic', 'vehicle', 'license plate')) return 'Vehículos y Tránsito';
+      if (has('pasaporte', 'visa', 'apostilla', 'extranjero', 'passport', 'apostille', 'foreign')) return 'Migración y Documentos Internacionales';
+      if (has('antecedente', 'penal', 'policial', 'background check', 'criminal record', 'police record')) return 'Antecedentes y Seguridad';
+      if (has('matrimonio', 'defunción', 'defuncion', 'nacimiento', 'marriage', 'birth', 'death certificate', 'civil registry')) return 'Registro Civil (SERECÍ)';
+      if (has('gestora', 'aporte', 'pensión', 'pension', 'jubilación', 'jubilacion', 'contribution', 'retirement')) return 'Pensiones y Aportes';
+      if (has('discapacidad', 'salud', 'disability', 'health')) return 'Salud y Discapacidad';
+      if (has('empresa', 'marca', 'senapi', 'funcionamiento', 'sep-re', 're-iva', 'impuesto', 'company', 'trademark', 'business license', 'tax') || hasWord('nit')) return 'Negocios y Tributación';
+      if (has('firma digital', 'facturación electrónica', 'facturacion electronica', 'adsib', 'digital signature', 'electronic invoic')) return 'Trámites Digitales';
+      return 'Otros trámites';
+    };
+
+    const guiaGroups = [];
+    for (const post of guiaArticles) {
+      const name = guiaGroupTitle(post);
+      const group = guiaGroups.find(g => g.name === name);
+      if (group) group.posts.push(post);
+      else guiaGroups.push({ name, posts: [post] });
+    }
+
+    const guiaSections = guiaGroups.map(group =>
+      `<section><h2>${escapeXml(group.name)}</h2><ul>` +
+      group.posts.map(p => `<li><a href="/guias/${p.slug}">${escapeXml(p.title)}</a></li>`).join('') +
+      `</ul></section>`).join('\n');
+
+    const guiaBody = `<div id="prerender-guias" class="max-w-7xl mx-auto px-4 py-16">
+    <h1>Guías de Trámites Bolivia</h1>
+    <p>Trámites explicados paso a paso: requisitos, costos actualizados y enlaces oficiales. ${guiaArticles.length} guías disponibles.</p>
+    ${guiaSections}
+  </div>`;
+    html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${guiaBody}`);
+
+    const guiaSchema = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'CollectionPage',
+          '@id': `${SITE}/guias#page`,
+          name: 'Guías de Trámites Bolivia 2026',
+          url: `${SITE}/guias`,
+          mainEntity: { '@id': `${SITE}/guias#itemlist` }
+        },
+        {
+          '@type': 'ItemList',
+          '@id': `${SITE}/guias#itemlist`,
+          numberOfItems: guiaArticles.length,
+          itemListElement: guiaArticles.map((post, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: post.title,
+            url: `${SITE}/guias/${post.slug}`
+          }))
+        },
+        {
+          '@type': 'BreadcrumbList',
+          '@id': `${SITE}/guias#breadcrumb`,
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE },
+            { '@type': 'ListItem', position: 2, name: 'Guías', item: `${SITE}/guias` }
+          ]
+        }
+      ]
+    };
+    html = html.replace('</head>', `    <script type="application/ld+json">${JSON.stringify(guiaSchema)}</script>\n  </head>`);
+  }
 
   // VideoObject JSON-LD para la página dedicada del showreel
   if (meta.video) {

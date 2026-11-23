@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Contenido estático de /guias para crawlers sin JS. Se oculta en cuanto
+   la app React monta (main.tsx añade .js al <html>) para evitar duplicados. */
+.js #prerender-guias { display: none; }
+#prerender-guias h1 { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 1rem; }
+#prerender-guias h2 { font-size: 1.25rem; font-weight: 700; color: #D4AF37; margin: 2rem 0 0.75rem; }
+#prerender-guias p { color: #a8a29e; line-height: 1.6; }
+#prerender-guias li { margin: 0.35rem 0; }
+#prerender-guias a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", Georgia, Cambria, serif;

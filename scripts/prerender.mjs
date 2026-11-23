@@ -40,6 +40,10 @@ function startPreview() {
 async function prerender() {
   if (!existsSync(distDir)) { console.log('⚠ dist/ no encontrado, saltando.'); return; }
 
+  // Vercel define CI=true y no instala Puppeteer. En producción el HTML canónico
+  // lo genera scripts/generate-pages.js (sin navegador): inyecta meta y, para
+  // /guias, el cuerpo estático completo. Este script es solo una red de
+  // seguridad local para revisar el DOM hidratado antes de publicar.
   if (process.env.CI) { console.log('⏭ CI detectado, saltando prerender (Puppeteer no disponible).'); return; }
 
   let puppeteer;
@@ -71,7 +75,12 @@ async function prerender() {
     for (const route of ROUTES) {
       try {
         await page.goto(`${BASE}${route}`, { waitUntil: 'domcontentloaded', timeout: 15000 });
-        await new Promise(r => setTimeout(r, 2000));
+        // Espera explícita al contenido real en lugar de un sleep fijo.
+        if (route === '/guias' || route === '/blog') {
+          await page.waitForSelector('[id^="blog-post-card-"]', { timeout: 12000 }).catch(() => {});
+        } else {
+          await page.waitForSelector('#main-content', { timeout: 5000 }).catch(() => {});
+        }
         // page.content() serializa el DOM vivo: Vite inyecta <link rel="modulepreload">
         // absolutos con el host del preview (localhost:4173). En producción esas
         // URLs rompen y ensucian la consola, así que las dejamos relativas.
