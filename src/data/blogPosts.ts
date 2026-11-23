@@ -2868,5 +2868,26 @@ export const blogPosts: BlogPost[] = [
     views: 1,
     location: "La Paz, Bolivia",
     region: "Bolivia"
+  },
+  {
+    id: "1451",
+    contentType: "analysis",
+    slug: "segip-digital-cajero-ventanilla-bolivia-2026",
+    titleEs: "Cédula digital y reposición física SEGIP Bolivia 2026",
+    titleEn: "SEGIP digital ID and physical replacement Bolivia 2026",
+    excerptEs: "Dos servicios distintos: cédula digital en la app (Bs 20, 2 años) y reposición física (Bs 17 en ventanilla, Bs 50 en cajero, app con monto pendiente).",
+    excerptEn: "Two different services: digital ID in the app (Bs 20, 2 years) and physical replacement (Bs 17 at the counter, Bs 50 at the kiosk, app amount pending).",
+    date: "2026-11-22",
+    readTimeEs: "10 min de lectura",
+    readTimeEn: "10 min read",
+    imageUrl: "/images/portadas/SEGIP_DIGITAL_CAJERO_VENTANILLA_2026.WEBP",
+    imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites",
+    categoryEn: "Guides & Procedures",
+    enableComments: true,
+    featured: false,
+    views: 1,
+    location: "La Paz, Bolivia",
+    region: "Bolivia"
   }
 ];
