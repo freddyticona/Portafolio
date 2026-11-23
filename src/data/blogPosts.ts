@@ -2910,5 +2910,26 @@ export const blogPosts: BlogPost[] = [
     views: 1,
     location: "La Paz, Bolivia",
     region: "Bolivia"
+  },
+  {
+    id: "1453",
+    contentType: "analysis",
+    slug: "firma-digital-bolivia-2026-certificado-agetic-token",
+    titleEs: "Firma digital Bolivia 2026: certificado AGETIC y token",
+    titleEn: "Digital signature Bolivia 2026: AGETIC certificate and token",
+    excerptEs: "Desde enero 2026 la firma digital la emite AGETIC, no ADSIB. Certificado Bs 70 al año, token Bs 175: requisitos, pasos y cómo verificarlo en Bolivia.",
+    excerptEn: "Since January 2026 digital signatures are issued by AGETIC, not ADSIB. Certificate Bs 70 per year, token Bs 175: requirements, steps and verification.",
+    date: "2026-11-22",
+    readTimeEs: "10 min de lectura",
+    readTimeEn: "10 min read",
+    imageUrl: "/images/portadas/FIRMA_DIGITAL_AGETIC_BOLIVIA_2026.WEBP",
+    imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites",
+    categoryEn: "Guides & Procedures",
+    enableComments: true,
+    featured: false,
+    views: 1,
+    location: "La Paz, Bolivia",
+    region: "Bolivia"
   }
 ];
