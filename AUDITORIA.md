@@ -162,7 +162,7 @@ Decisión: se mantuvieron solo `hreflang="es"` y `x-default` porque el toggle de
 | — | Portadas WebP 1280×720 y OG 1200×630 extraídas de los propios videos con FFmpeg | `F:\TIPNIS_documental` | ✅ GENERADAS |
 | — | `iframe` con `loading="lazy"`, `referrerPolicy` y `title` accesible | `src/components/PortfolioGrid.tsx` | ✅ |
 
-Nota: se conservó la ficha original `documental-tipnis` como resumen de la serie con galería fotográfica; las tres fichas nuevas son los documentales individuales. El tercer capítulo se describe como el componente de políticas y organización del programa "Mi Salud", con declaraciones de médicos, OPS, OMS y autoridades de la época, según aclaración del autor.
+Nota: se conservó la ficha original `documental-tipnis` como resumen de la serie con galería fotográfica; las tres fichas nuevas son los documentales individuales. El autor aclaró que los documentales se realizaron en **2018**, año corregido en las cuatro fichas y en las descripciones de YouTube. El tercer capítulo se describe como el componente de políticas y organización del programa "Mi Salud", con declaraciones de médicos, OPS, OMS y autoridades de la época, según aclaración del autor.
 
 ## Plan de ataque
 
