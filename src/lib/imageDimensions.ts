@@ -2533,6 +2533,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 600,
     "height": 60
   },
+  "/images/OG/OG_GUIAS.jpg": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/portfolio/aniversario-potosi/Canon PowerShot SX40 HS1598.webp": {
     "width": 1280,
     "height": 719
@@ -2768,6 +2772,30 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
   "/images/portfolio/documental-tipnis/DSC_3001.webp": {
     "width": 1280,
     "height": 853
+  },
+  "/images/portfolio/documental-tipnis/GUIA_TIPNIS_ARTE_SALVAR_VIDAS.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
+  "/images/portfolio/documental-tipnis/GUIA_TIPNIS_ARTE_SALVAR_VIDAS_OG.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portfolio/documental-tipnis/GUIA_TIPNIS_EL_PLACER_DE_SERVIR.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
+  "/images/portfolio/documental-tipnis/GUIA_TIPNIS_EL_PLACER_DE_SERVIR_OG.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portfolio/documental-tipnis/GUIA_TIPNIS_RECONOCIMIENTO_SACRIFICIO.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
+  "/images/portfolio/documental-tipnis/GUIA_TIPNIS_RECONOCIMIENTO_SACRIFICIO_OG.WEBP": {
+    "width": 1200,
+    "height": 630
   },
   "/images/portfolio/documental-tipnis/IMG_20100101_084106.webp": {
     "width": 1280,

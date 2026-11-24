@@ -154,6 +154,16 @@ Nota metodológica [1453]: se verificó que **PTC no es un portal de trámites p
 
 Decisión: se mantuvieron solo `hreflang="es"` y `x-default` porque el toggle de idioma no crea una URL `/en` propia.
 
+## Documentales TIPNIS en el portafolio — 2026-11-23
+
+| Guía | Acción | Fuente | Estado |
+|---|---|---|---|
+| — | Tres nuevas fichas `documental` con embed `youtube-nocookie.com` (IDs cXAhMb1f1W8, xXP-gGndbmo, cSn7tSMop9o) | YouTube (videos propios del usuario) + ficha `documental-tipnis` de `src/translations.ts` | ✅ INTEGRADAS |
+| — | Portadas WebP 1280×720 y OG 1200×630 extraídas de los propios videos con FFmpeg | `F:\TIPNIS_documental` | ✅ GENERADAS |
+| — | `iframe` con `loading="lazy"`, `referrerPolicy` y `title` accesible | `src/components/PortfolioGrid.tsx` | ✅ |
+
+Nota: se conservó la ficha original `documental-tipnis` como resumen de la serie con galería fotográfica; las tres fichas nuevas son los documentales individuales. El tercer capítulo se describe como el componente de políticas y organización del programa "Mi Salud", con declaraciones de médicos, OPS, OMS y autoridades de la época, según aclaración del autor.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

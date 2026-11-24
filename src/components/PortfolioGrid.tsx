@@ -236,6 +236,8 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                           src={activeItem.videoUrl}
                           title={lang === 'es' ? activeItem.title : activeItem.titleEn}
                           className="absolute inset-0 w-full h-full"
+                          loading="lazy"
+                          referrerPolicy="no-referrer-when-downgrade"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                         />
