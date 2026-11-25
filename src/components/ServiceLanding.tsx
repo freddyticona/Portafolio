@@ -321,7 +321,9 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
         </div>
 
         {serviceGroups.map(group => {
-          const items = SERVICES_PRICING.filter(service => group.types.includes(service.type));
+          const items = SERVICES_PRICING
+            .filter(service => group.types.includes(service.type))
+            .sort((a, b) => a.basePrice - b.basePrice);
           if (!items.length) return null;
           return (
             <div key={group.id} id={`servicios-${group.id}`} className="space-y-5 scroll-mt-24">

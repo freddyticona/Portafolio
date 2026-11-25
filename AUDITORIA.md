@@ -221,6 +221,7 @@ Decisión: no ampliar el catálogo (ya tiene 17 servicios). Mejorar la presentac
 | Propuesta de valor en el hero | «Documentales, coberturas y videos para instituciones en La Paz. Precio cerrado, sin sorpresas.» / versión EN equivalente | ✅ |
 | Casos reales antes de los precios | 3 tarjetas con imágenes propias ya existentes en `/images/portfolio/`: Médicos en el Tipnis (Abya Yala TV, 2018), World Atomic Week (Bolivia TV, 2024) y Gran Poder (RTP, 2015–2019). Cada una con cliente, año y resultado verificable, y enlace real a `/portafolio` | ✅ |
 | Catálogo agrupado | Anclas por tipo: Vídeo, Edición, Fotografía, Redes sociales, Herramientas con IA y Planes institucionales. Misma fuente `servicesPricing.json`, sin duplicar precios | ✅ |
+| Orden dentro de cada grupo | Ascendente por `basePrice` (decisión del autor). Verificado: Vídeo 650 → 850 → 1.100 → 1.200 → 2.200; IA Gratis → 500 → 1.500 | ✅ |
 | Doble CTA al cierre | Tarjeta final con WhatsApp, email, teléfono y botón «Solicitar cotización por formulario» | ✅ |
 | Rendimiento | `SizedImg` con dimensiones registradas para las 3 imágenes; `loading="lazy"`; sin scripts externos ni afiliados en ruta comercial | ✅ |
 
