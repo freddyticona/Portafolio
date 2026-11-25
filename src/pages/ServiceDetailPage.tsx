@@ -7,13 +7,14 @@
  * Service + Offer + BreadcrumbList + FAQPage (el mismo contenido en el HTML
  * prerenderizado y en la SPA).
  */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowLeft, CheckCircle2, MessageCircle, FileText } from 'lucide-react';
 import { SERVICES_PRICING } from '../config';
 import { injectStructuredData, generateServiceDetailStructuredData } from '../lib/structuredData';
 import { fitTitle, fitDescription } from '../lib/seo';
 import { PortfolioEvents } from '../lib/analytics';
 import QuickQuoteForm from '../components/QuickQuoteForm';
+import NewsletterSignup from '../components/NewsletterSignup';
 import { LocalAITrust } from '../components/LocalAIDemo';
 
 type Service = (typeof SERVICES_PRICING)[number];
@@ -38,19 +39,27 @@ function setMeta(attr: 'name' | 'property', key: string, value: string) {
 
 export default function ServiceDetailPage({ service, services, lang, onBack, onContact }: Props) {
   const isEs = lang === 'es';
-  const priceLabel = service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
+  const isFree = service.basePrice === 0;
+  const priceLabel = isFree
+    ? (isEs ? 'Gratis' : 'Free')
+    : service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
   const url = `https://freddydev.net/servicios/${service.id}`;
+  const [unlocked, setUnlocked] = useState(false);
   const name = isEs ? service.nameEs : service.nameEn;
   const features = isEs ? service.featuresEs : service.featuresEn;
   const description = isEs ? service.descriptionEs : service.descriptionEn;
 
   useEffect(() => {
     const title = fitTitle(isEs
-      ? `${service.nameEs} en La Paz 2026 | Desde ${priceLabel}`
-      : `${service.nameEn} in La Paz 2026 | From ${priceLabel}`);
+      ? `${service.nameEs} en La Paz 2026 | ${isFree ? 'Gratis' : `Desde ${priceLabel}`}`
+      : `${service.nameEn} in La Paz 2026 | ${isFree ? 'Free' : `From ${priceLabel}`}`);
     const desc = fitDescription(isEs
-      ? `${service.nameEs} en La Paz desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`
-      : `${service.nameEn} in La Paz from ${priceLabel}. ${service.descriptionEn} Quote on WhatsApp.`);
+      ? isFree
+        ? `${service.nameEs} en La Paz: gratis con registro. ${service.descriptionEs}`
+        : `${service.nameEs} en La Paz desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`
+      : isFree
+        ? `${service.nameEn} in La Paz: free with registration. ${service.descriptionEn}`
+        : `${service.nameEn} in La Paz from ${priceLabel}. ${service.descriptionEn} Quote on WhatsApp.`);
     document.title = title;
     setMeta('name', 'description', desc);
     setMeta('property', 'og:title', title);
@@ -89,9 +98,13 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
   const faq = [
     {
       q: isEs ? `¿Cuánto cuesta ${name}?` : `How much does ${name} cost?`,
-      a: isEs
-        ? `El precio base de ${name} es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.`
-        : `The base price for ${name} is ${priceLabel} (${service.duration}). The final cost depends on the project scope.`,
+      a: isFree
+        ? (isEs
+            ? `No cuesta nada. Solo deja tu correo para avisarte de nuevas publicaciones; con eso se habilita la herramienta.`
+            : `It costs nothing. Just leave your email so I can notify you of new publications; that unlocks the tool.`)
+        : isEs
+          ? `El precio base de ${name} es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.`
+          : `The base price for ${name} is ${priceLabel} (${service.duration}). The final cost depends on the project scope.`,
     },
     {
       q: isEs ? `¿Qué incluye ${name}?` : `What is included in ${name}?`,
@@ -130,7 +143,9 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
       </header>
 
       <a
-        href={`https://wa.me/59162408420?text=${encodeURIComponent(isEs ? `Hola Freddy, me interesa ${name} (desde ${priceLabel}).` : `Hi Freddy, I'm interested in ${name} (from ${priceLabel}).`)}`}
+        href={`https://wa.me/59162408420?text=${encodeURIComponent(isFree
+          ? (isEs ? `Hola Freddy, quiero usar ${name} de forma gratuita.` : `Hi Freddy, I'd like to use ${name} for free.`)
+          : (isEs ? `Hola Freddy, me interesa ${name} (desde ${priceLabel}).` : `Hi Freddy, I'm interested in ${name} (from ${priceLabel}).`))}`}
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => {
@@ -140,7 +155,9 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
         className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] hover:bg-[#1FB855] text-black font-bold rounded-sm transition-colors"
       >
         <MessageCircle className="w-5 h-5" />
-        {isEs ? 'Cotizar por WhatsApp' : 'Quote on WhatsApp'}
+        {isFree
+          ? (isEs ? 'Solicitar acceso gratis' : 'Request free access')
+          : (isEs ? 'Cotizar por WhatsApp' : 'Quote on WhatsApp')}
       </a>
 
       <section className="space-y-4">
@@ -169,23 +186,49 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
         ))}
       </section>
 
-      {['edicion-preexistente', 'reportaje-impacto', 'video-historia-de-vida', 'cobertura-fotografica'].includes(service.id) && (
-        <LocalAITrust lang={lang} compact />
+      {isFree ? (
+        <section className="pt-4 border-t border-stone-800 space-y-4" aria-labelledby="free-access-title">
+          <h2 id="free-access-title" className="text-xl font-bold text-white font-display">
+            {isEs ? 'Acceso gratuito' : 'Free access'}
+          </h2>
+          <p className="text-sm text-stone-300 leading-relaxed">
+            {isEs
+              ? 'Deja tu correo y te aviso cuando publique nuevas guías y artículos. El registro habilita la herramienta de lectura local.'
+              : 'Leave your email and I will let you know when I publish new guides and articles. Registering unlocks the local reading tool.'}
+          </p>
+          {!unlocked ? (
+            <NewsletterSignup
+              lang={lang}
+              source={`servicio:${service.id}`}
+              onSuccess={() => setUnlocked(true)}
+            />
+          ) : (
+            <div className="space-y-4">
+              <p className="flex items-center gap-2 text-xs text-emerald-400">
+                <CheckCircle2 className="w-4 h-4" />
+                {isEs
+                  ? 'Registro confirmado. Ya puedes usar la herramienta.'
+                  : 'Registration confirmed. You can use the tool now.'}
+              </p>
+              <LocalAITrust lang={lang} />
+            </div>
+          )}
+        </section>
+      ) : (
+        <section className="pt-4 border-t border-stone-800 space-y-4">
+          <QuickQuoteForm lang={lang} serviceName={name} priceLabel={priceLabel} />
+          <button
+            onClick={() => {
+              PortfolioEvents.selectService(name, service.basePrice);
+              onContact({ serviceId: service.id, serviceName: name, price: service.basePrice });
+            }}
+            className="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-stone-400 hover:text-gold transition-colors"
+          >
+            <FileText className="w-4 h-4" />
+            {isEs ? '¿Prefieres el formulario completo?' : 'Prefer the full form?'}
+          </button>
+        </section>
       )}
-
-      <section className="pt-4 border-t border-stone-800 space-y-4">
-        <QuickQuoteForm lang={lang} serviceName={name} priceLabel={priceLabel} />
-        <button
-          onClick={() => {
-            PortfolioEvents.selectService(name, service.basePrice);
-            onContact({ serviceId: service.id, serviceName: name, price: service.basePrice });
-          }}
-          className="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-stone-400 hover:text-gold transition-colors"
-        >
-          <FileText className="w-4 h-4" />
-          {isEs ? '¿Prefieres el formulario completo?' : 'Prefer the full form?'}
-        </button>
-      </section>
 
       <section className="space-y-3">
         <h2 className="text-lg font-bold text-white font-display">

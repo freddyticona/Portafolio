@@ -837,9 +837,12 @@ for (const service of servicesCatalog) {
   fs.mkdirSync(dir, { recursive: true });
   let html = cleanIndexHtml;
   const url = `${SITE}/servicios/${service.id}`;
-  const priceLabel = service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
-  const title = fitTitle(`${service.nameEs} en La Paz 2026 | Desde ${priceLabel}`);
-  const desc = fitDescription(`${service.nameEs} en La Paz desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`);
+  const isFree = service.basePrice === 0;
+  const priceLabel = isFree ? 'Gratis' : service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
+  const title = fitTitle(`${service.nameEs} en La Paz 2026 | ${isFree ? 'Gratis' : `Desde ${priceLabel}`}`);
+  const desc = fitDescription(isFree
+    ? `${service.nameEs} en La Paz: gratis con registro. ${service.descriptionEs}`
+    : `${service.nameEs} en La Paz desde ${priceLabel}. ${service.descriptionEs} Cotiza por WhatsApp.`);
   html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
   html = html.replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${escapeAttr(desc)}"`);
   html = html.replace(/<meta property="og:title" content=".*?"/, `<meta property="og:title" content="${escapeAttr(title)}"`);
@@ -872,7 +875,7 @@ for (const service of servicesCatalog) {
   const faq = {
     '@type': 'FAQPage',
     mainEntity: [
-      { '@type': 'Question', name: `¿Cuánto cuesta ${service.nameEs}?`, acceptedAnswer: { '@type': 'Answer', text: `El precio base es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.` } },
+      { '@type': 'Question', name: `¿Cuánto cuesta ${service.nameEs}?`, acceptedAnswer: { '@type': 'Answer', text: isFree ? 'No cuesta nada. Solo deja tu correo para avisarte de nuevas publicaciones; con eso se habilita la herramienta.' : `El precio base es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.` } },
       { '@type': 'Question', name: `¿Qué incluye ${service.nameEs}?`, acceptedAnswer: { '@type': 'Answer', text: service.featuresEs.join('. ') + '.' } },
       { '@type': 'Question', name: '¿En qué ciudades ofreces este servicio?', acceptedAnswer: { '@type': 'Answer', text: 'Trabajo en La Paz y El Alto, y viajo a cualquier departamento de Bolivia para proyectos especiales con viáticos aparte.' } },
     ],
@@ -898,16 +901,20 @@ for (const service of servicesCatalog) {
   const bodyContent = `<div class="max-w-4xl mx-auto px-4 py-16 space-y-6">
     <h1>${escapeXml(service.nameEs)} en La Paz, Bolivia</h1>
     <p>${escapeXml(service.descriptionEs)}</p>
-    <p>Precio base: <strong>${priceLabel}</strong> · ${escapeXml(service.duration)}</p>
+    <p>${isFree ? 'Costo' : 'Precio base'}: <strong>${priceLabel}</strong>${isFree ? '' : ` · ${escapeXml(service.duration)}`}</p>
     <h2>¿Qué incluye?</h2>
     <ul>${service.featuresEs.map(f => `<li>${escapeXml(f)}</li>`).join('')}</ul>
     <h2>Preguntas frecuentes</h2>
     ${faq.mainEntity.map(q => `<h3>${escapeXml(q.name)}</h3><p>${escapeXml(q.acceptedAnswer.text)}</p>`).join('')}
-    <section class="cotizacion-rapida">
+    ${isFree ? `<section class="cotizacion-rapida">
+      <h2>Acceso gratuito</h2>
+      <p>Deja tu correo para recibir nuevas publicaciones; con el registro se habilita la herramienta de lectura local.</p>
+      <p><a href="https://wa.me/59162408420">Solicitar acceso gratis</a></p>
+    </section>` : `<section class="cotizacion-rapida">
       <h2>Solicita una cotización rápida</h2>
       <p>Cuéntame brevemente tu proyecto y te respondo por email o WhatsApp en menos de 24 horas hábiles.</p>
       <p><a href="https://wa.me/59162408420">Cotizar por WhatsApp</a> · <a href="/contacto">Formulario completo</a></p>
-    </section>
+    </section>`}
     <p><a href="/servicios">Ver todos los servicios</a></p>
   </div>`.trim();
   html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${bodyContent}`);

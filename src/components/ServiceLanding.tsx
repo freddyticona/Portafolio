@@ -6,7 +6,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { PortfolioEvents } from '../lib/analytics';
-import { LocalAITrust } from './LocalAIDemo';
 import {
   Camera,
   Video,
@@ -29,7 +28,8 @@ import {
   Wrench,
   Film,
   Send,
-  Newspaper
+  Newspaper,
+  FileText
 } from 'lucide-react';
 import { SERVICES_PRICING, CONTACT_INFO } from '../config';
 import { QuoteRequestContext } from '../types';
@@ -47,9 +47,13 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
   const waNumber = CONTACT_INFO.phoneNumber.replace(/\D/g, '');
   const quoteLink = (serviceName: string, price: number) =>
     `https://wa.me/${waNumber}?text=${encodeURIComponent(
-      lang === 'es'
-        ? `Hola Freddy, me interesa "${serviceName}" (Bs. ${price}). ¿Podemos coordinar?`
-        : `Hi Freddy, I'm interested in "${serviceName}" (Bs. ${price}). Can we talk?`
+      price === 0
+        ? (lang === 'es'
+            ? `Hola Freddy, quiero usar "${serviceName}" de forma gratuita.`
+            : `Hi Freddy, I'd like to use "${serviceName}" for free.`)
+        : (lang === 'es'
+            ? `Hola Freddy, me interesa "${serviceName}" (Bs. ${price}). ¿Podemos coordinar?`
+            : `Hi Freddy, I'm interested in "${serviceName}" (Bs. ${price}). Can we talk?`)
     )}`;
 
   // Iconos para los tipos de servicio
@@ -64,7 +68,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
     'Radio': Radio,
     'Briefcase': Briefcase,
     'Heart': Heart,
-    'Newspaper': Newspaper
+    'Newspaper': Newspaper,
+    'FileText': FileText
   };
 
   const st = {
@@ -200,12 +205,6 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
         </div>
       </section>
 
-      {/* Prueba de confianza: va antes del catálogo de precios y después de
-          los CTA del hero, para no robar protagonismo a Agendar/Consultar. */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <LocalAITrust lang={lang} />
-      </div>
-
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         <div className="text-center space-y-4">
@@ -245,7 +244,9 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                     </div>
                     <div className="text-right">
                       <div className="text-2xl font-black text-gold">
-                        {service.currency === 'BOB' ? 'Bs.' : '$'}{service.basePrice}
+                        {service.basePrice === 0
+                          ? (isEs ? 'Gratis' : 'Free')
+                          : `${service.currency === 'BOB' ? 'Bs.' : '$'}${service.basePrice}`}
                       </div>
                       <p className="text-xs text-stone-500 mt-1">/ {service.duration}</p>
                     </div>
@@ -290,9 +291,11 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                       className="w-full px-6 py-3 bg-[#25D366] hover:bg-[#1FB855] text-black font-bold rounded-sm transition-all flex items-center justify-center gap-2"
                     >
                       <MessageCircle className="w-5 h-5" />
-                      {isEs ? 'Cotizar por WhatsApp' : 'Quote on WhatsApp'}
+                      {service.basePrice === 0
+                        ? (isEs ? 'Acceso gratis por WhatsApp' : 'Free access on WhatsApp')
+                        : (isEs ? 'Cotizar por WhatsApp' : 'Quote on WhatsApp')}
                     </a>
-                    <button
+                    {service.basePrice > 0 && <button
                       onClick={() => {
                         PortfolioEvents.selectService(
                           isEs ? service.nameEs : service.nameEn,
@@ -307,7 +310,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                       className="w-full px-6 py-2 text-stone-400 hover:text-gold text-xs font-mono font-bold uppercase tracking-widest transition-colors cursor-pointer"
                     >
                       {isEs ? 'Solicitar cotización formal' : 'Request a formal quote'}
-                    </button>
+                    </button>}
                   </div>
                 </div>
               </motion.div>

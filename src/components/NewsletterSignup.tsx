@@ -19,9 +19,12 @@ interface NewsletterSignupProps {
   lang: 'es' | 'en';
   source: string;
   compact?: boolean;
+  /** Se dispara tras un envío confirmado: permite desbloquear una demo o
+   *  servicio gratuito sin duplicar la lógica de formulario. */
+  onSuccess?: () => void;
 }
 
-export default function NewsletterSignup({ lang, source, compact = false }: NewsletterSignupProps) {
+export default function NewsletterSignup({ lang, source, compact = false, onSuccess }: NewsletterSignupProps) {
   const [state, setState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [email, setEmail] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
@@ -61,6 +64,7 @@ export default function NewsletterSignup({ lang, source, compact = false }: News
         setState('success');
         setEmail('');
         PortfolioEvents.newsletterSubscribe(source);
+        onSuccess?.();
       } else {
         setErrorMsg(result.message || (lang === 'es' ? 'No se pudo completar. Intenta de nuevo.' : 'Could not subscribe. Please try again.'));
         setState('error');

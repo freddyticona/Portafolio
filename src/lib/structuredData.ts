@@ -651,7 +651,10 @@ export function generateServiceDetailStructuredData(service: {
   featuresEn: string[];
 }, url: string, lang: 'es' | 'en' = 'es'): object {
   const isEs = lang === 'es';
-  const priceLabel = service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
+  const isFree = service.basePrice === 0;
+  const priceLabel = isFree
+    ? (isEs ? 'Gratis' : 'Free')
+    : service.currency === 'BOB' ? `Bs. ${service.basePrice}` : `${service.currency} ${service.basePrice}`;
   const serviceSchema = {
     '@type': 'Service',
     '@id': `${url}#service`,
@@ -687,9 +690,13 @@ export function generateServiceDetailStructuredData(service: {
         name: isEs ? `¿Cuánto cuesta ${service.nameEs}?` : `How much does ${service.nameEn} cost?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: isEs
-            ? `El precio base de ${service.nameEs} es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.`
-            : `The base price for ${service.nameEn} is ${priceLabel} (${service.duration}). The final cost depends on the project scope.`,
+          text: isFree
+            ? (isEs
+                ? 'No cuesta nada. Solo deja tu correo para avisarte de nuevas publicaciones; con eso se habilita la herramienta.'
+                : 'It costs nothing. Just leave your email so I can notify you of new publications; that unlocks the tool.')
+            : isEs
+              ? `El precio base de ${service.nameEs} es ${priceLabel} (${service.duration}). El costo final se confirma según el alcance del proyecto.`
+              : `The base price for ${service.nameEn} is ${priceLabel} (${service.duration}). The final cost depends on the project scope.`,
         },
       },
       {

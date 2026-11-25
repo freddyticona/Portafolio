@@ -11,7 +11,6 @@
  */
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import {
-  ShieldCheck,
   ScanText,
   X,
   Loader2,
@@ -40,8 +39,6 @@ type CoreModule = { isWebGPUAvailable: () => Promise<boolean> };
 
 interface Props {
   lang: 'es' | 'en';
-  /** Versión corta para las fichas de servicio. */
-  compact?: boolean;
 }
 
 type Phase = 'idle' | 'loading' | 'recognizing' | 'done' | 'error';
@@ -63,7 +60,7 @@ const TEXT = {
     body: 'Uso modelos de IA que corren en tu navegador con runonweb (MIT, creado por midudev). La primera vez se descargan los modelos desde Hugging Face; tus imágenes y entrevistas nunca se suben a un servidor.',
     chips: ['OCR para documentos', 'STT para entrevistas', 'Recorte de fondos'],
     button: 'Probar OCR local',
-    footnote: 'Demo real · sin registro ni APIs',
+    footnote: 'Tu archivo se procesa en tu dispositivo',
     modalTitle: 'OCR en tu navegador',
     intro: 'Sube una captura o un documento. El texto se extrae aquí, en tu dispositivo.',
     note: 'Primera vez: descarga de modelos (~6 MB) desde Hugging Face. Tu archivo no se envía a ningún servidor.',
@@ -93,7 +90,7 @@ const TEXT = {
     body: 'I use AI models that run in your browser with runonweb (MIT, by midudev). Models are downloaded from Hugging Face the first time; your images and interviews are never uploaded to a server.',
     chips: ['OCR for documents', 'STT for interviews', 'Background removal'],
     button: 'Try local OCR',
-    footnote: 'Real demo · no signup, no APIs',
+    footnote: 'Your file is processed on your device',
     modalTitle: 'OCR in your browser',
     intro: 'Upload a screenshot or a document. Text is extracted right here, on your device.',
     note: 'First time: models are downloaded (~6 MB) from Hugging Face. Your file is never sent to a server.',
@@ -119,9 +116,8 @@ const TEXT = {
   }
 } as const;
 
-export function LocalAITrust({ lang, compact = false }: Props) {
+export function LocalAITrust({ lang }: Props) {
   const c = TEXT[lang];
-  const titleId = compact ? 'local-ai-title-compact' : 'local-ai-title';
   const waNumber = CONTACT_INFO.phoneNumber.replace(/\D/g, '');
 
   const [open, setOpen] = useState(false);
@@ -225,46 +221,18 @@ export function LocalAITrust({ lang, compact = false }: Props) {
 
   return (
     <>
-      <section
-        className={`relative overflow-hidden bg-[#020202] border border-gold/20 rounded-lg ${compact ? 'p-5' : 'p-7 md:p-9'}`}
-        aria-labelledby={titleId}
-      >
-        <div className="absolute inset-y-0 left-0 w-1 bg-gold/70" aria-hidden="true" />
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div className="space-y-3 max-w-2xl">
-            <p className="flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-[0.2em] text-gold">
-              <ShieldCheck className="w-4 h-4" />
-              {c.eyebrow}
-            </p>
-            <h2
-              id={titleId}
-              className={`font-extrabold text-white font-display ${compact ? 'text-lg' : 'text-2xl md:text-3xl'}`}
-            >
-              {c.title}
-            </h2>
-            <p className="text-sm text-stone-400 leading-relaxed">{c.body}</p>
-            <ul className="flex flex-wrap gap-2" aria-label={lang === 'es' ? 'Módulos que uso' : 'Modules I use'}>
-              {c.chips.map(chip => (
-                <li key={chip} className="px-2.5 py-1 text-[11px] font-mono text-stone-300 border border-white/10 rounded-sm">
-                  {chip}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="flex flex-col items-start md:items-end gap-3 shrink-0">
-            <button
-              type="button"
-              onClick={() => void openDemo()}
-              className="inline-flex items-center gap-2 px-5 py-3 bg-gold/10 hover:bg-gold/20 border border-gold/50 text-gold font-bold rounded-sm text-xs font-mono uppercase tracking-widest transition-colors cursor-pointer"
-            >
-              <ScanText className="w-4 h-4" />
-              {c.button}
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
-            <p className="text-[11px] font-mono text-stone-500">{c.footnote}</p>
-          </div>
-        </div>
-      </section>
+      <div className="flex flex-wrap items-center gap-4">
+        <button
+          type="button"
+          onClick={() => void openDemo()}
+          className="inline-flex items-center gap-2 px-5 py-3 bg-gold/10 hover:bg-gold/20 border border-gold/50 text-gold font-bold rounded-sm text-xs font-mono uppercase tracking-widest transition-colors cursor-pointer"
+        >
+          <ScanText className="w-4 h-4" />
+          {c.button}
+          <ArrowUpRight className="w-4 h-4" />
+        </button>
+        <p className="text-[11px] font-mono text-stone-500">{c.footnote}</p>
+      </div>
 
       {open && (
         <div

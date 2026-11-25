@@ -167,18 +167,21 @@ Decisión: se mantuvieron solo `hreflang="es"` y `x-default` porque el toggle de
 
 Nota: la ficha original de fotos se reorganizó como **`medicos-tipnis-galeria` / «Médicos en el Tipnis — Galería de campo»**, etiqueta `Serie · Fotografía`, sin video y con enlaces cruzados a los tres documentales; las tres fichas nuevas son los documentales individuales con etiqueta `Documental`. Así se evita que la galería compita con los videos. El autor aclaró que los documentales se realizaron en **2018**, año corregido en las cuatro fichas y en las descripciones de YouTube. El tercer capítulo se describe como el componente de políticas y organización del programa "Mi Salud", con declaraciones de médicos, OPS, OMS y autoridades de la época, según aclaración del autor.
 
-## Demo de IA local en /servicios — 2026-11-25
+## Servicio gratuito de IA local — 2026-11-25 (revisado)
+
+Decisión del autor: el bloque de «privacidad demostrable» en el índice de servicios **no aportaba valor** al visitante que compara precios. Se retira de `/servicios` y de las 4 fichas donde estaba. Se convierte en un servicio real del catálogo.
 
 | Elemento | Decisión | Ubicación | Estado |
 |---|---|---|---|
-| Bloque «Tus archivos no salen de tu dispositivo» | Texto visible en `/servicios` y en 4 fichas (`edicion-preexistente`, `reportaje-impacto`, `video-historia-de-vida`, `cobertura-fotografica`) | `src/components/LocalAIDemo.tsx`, `ServiceLanding.tsx`, `ServiceDetailPage.tsx` | ✅ |
-| Demo de OCR | `runonweb@0.1.0` (MIT, midudev), módulo `ocr` tamaño `tiny`; pesos desde Hugging Face la primera vez; archivo procesado en el dispositivo | Carga desde `https://esm.sh/runonweb@0.1.0/ocr` **solo al pulsar**, con `import(/* @vite-ignore */ url)` | ✅ PROBADA en navegador |
-| Rendimiento | Sin dependencia npm ni chunk de ~500 KB en el bundle inicial; se descartó la instalación local porque el helper de modulepreload de Vite acababa dentro del chunk de IA y se descargaba en cada visita | `package.json`, `vite.config.ts` sin cambios | ✅ |
-| Monetización | Sin anuncios, sin afiliados y sin checkout: bloque de confianza, no de monetización. El CTA sigue siendo WhatsApp/Agendar | Regla `monetizacion-hibrida` | ✅ |
-| Analítica | `local_ai_demo_open`, `local_ai_demo_run` (solo `webgpu`/`wasm`) y `contact` con `label: ocr_local`. Nunca se envía contenido del archivo | `src/lib/analytics.ts` | ✅ |
-| Verificación | `tsc --noEmit` 0 errores, build CI correcto, OCR de prueba devolvió «FREDDYDEV NET OCR LOCAL 2026» | Prueba en navegador con imagen generada | ✅ |
+| Servicio nuevo | `transcripcion-ia-local-gratis` — «Lectura y transcripción con IA local», `basePrice: 0`, moneda BOB, icono `FileText` | `src/data/servicesPricing.json` (fuente única) | ✅ |
+| Registro obligatorio | El acceso se habilita solo tras enviar el correo; se usa `NewsletterSignup` con `source=servicio:<id>` y callback `onSuccess`. Sirve para avisar de nuevas publicaciones | `src/components/NewsletterSignup.tsx`, `ServiceDetailPage.tsx` | ✅ |
+| Demo de OCR | `runonweb` (MIT, midudev), módulo `ocr` `tiny`, cargado desde `https://esm.sh/runonweb@0.1.0/ocr` **solo al pulsar**; archivo procesado en el dispositivo | `src/components/LocalAIDemo.tsx` | ✅ PROBADA: devolvió «FREDDYDEV NET OCR LOCAL 2026» |
+| Precio cero | Etiqueta «Gratis»/«Free» en tarjeta, ficha, metadatos, FAQ y JSON-LD; sin formulario de cotización en esa ficha. `Offer.price` sigue siendo `"0"` para schema.org | `ServiceLanding.tsx`, `ServiceDetailPage.tsx`, `structuredData.ts`, `generate-pages.js` | ✅ |
+| Rendimiento | Sin dependencia npm ni chunk de ~500 KB en el bundle inicial: la instalación local hacía que el helper de modulepreload de Vite se descargara en cada visita | `package.json` y `vite.config.ts` sin cambios | ✅ |
+| Monetización | Sin anuncios, sin afiliados y sin checkout. CTA principal: WhatsApp / registro por correo | Regla `monetizacion-hibrida` | ✅ |
+| Analítica | `newsletterSubscribe('servicio:…')`, `local_ai_demo_open`, `local_ai_demo_run` (solo `webgpu`/`wasm`) y `contact` con `label: ocr_local`. Nunca se envía contenido del archivo | `src/lib/analytics.ts` | ✅ |
 
-Nota honesta: el CDN entrega **código**, no datos del visitante; el navegador necesita red para cargar el módulo y descargar los modelos. Si falla, el modal muestra un error con opción de reintento y enlace a WhatsApp. No se mete `SoftwareApplication` en el JSON-LD de servicio para no duplicar el grafo `Service + Offer + FAQPage`.
+Nota honesta: el CDN entrega **código**, no datos del visitante; el navegador necesita red para cargar el módulo y los modelos la primera vez. Si falla, el modal muestra error con reintento y enlace a WhatsApp. No se añade `SoftwareApplication` al JSON-LD para no duplicar el grafo `Service + Offer + FAQPage`.
 
 ## Plan de ataque
 

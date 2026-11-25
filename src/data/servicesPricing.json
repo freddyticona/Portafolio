@@ -408,5 +408,31 @@
       "Real savings of Bs. 500"
     ],
     "icon": "Clapperboard"
+  },
+  {
+    "id": "transcripcion-ia-local-gratis",
+    "type": "ia",
+    "nameEs": "Lectura y transcripción con IA local",
+    "nameEn": "Local AI reading & transcription",
+    "descriptionEs": "Extraigo texto de documentos, actas y capturas y transcribo entrevistas con modelos que corren en el navegador: tu material no se sube a servidores externos. Gratis con registro.",
+    "descriptionEn": "I extract text from documents, records and screenshots and transcribe interviews with models that run in the browser: your material is never uploaded. Free with registration.",
+    "basePrice": 0,
+    "currency": "BOB",
+    "duration": "hasta 10 min o 10 páginas",
+    "featuresEs": [
+      "Lectura OCR de documentos, capturas y actas",
+      "Transcripción de entrevistas con IA local",
+      "Subtítulos SRT editables",
+      "Revisión manual antes de la entrega",
+      "Gratis: solo deja tu correo para recibir nuevas publicaciones"
+    ],
+    "featuresEn": [
+      "OCR reading of documents, screenshots and records",
+      "Interview transcription with local AI",
+      "Editable SRT subtitles",
+      "Manual review before delivery",
+      "Free: just leave your email to hear about new publications"
+    ],
+    "icon": "FileText"
   }
 ]
