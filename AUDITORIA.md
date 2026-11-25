@@ -284,6 +284,8 @@ El autor aclaró que el destacado debe ser el trabajo **con video**: `world-atom
 | Marco legal | No detallado | CP art. 24; Ley 018 art. 71.3; DS 24247 arts. 38–45; DS 27419 art. 2 | ✅ AÑADIDO |
 | Oficina La Paz | No indicada | SERECÍ La Paz, zona Central, Av. 16 de Julio N° 23 | ✅ AÑADIDO |
 
+Nota de seguridad (2026-11-25): la copia HTML del OEP contenía la clave de Google Maps **del propio sitio del OEP**, no de freddydev.net. GitHub Secret Scanning la detectó; se sustituyó por `REDACTED` en el commit `2f57185`. No hay coincidencias en el árbol de trabajo.
+
 Fuentes: https://www.gob.bo/tramites/duplicado-de-certificado-de-matrimonio-src-dcm-13 (HTTP 200, JSON oficial con costos y requisitos) y https://web.oep.org.bo/registro-civico/servicios-registro-civil/ (HTTP 200), verificadas el 25/11/2026 y archivadas en `assets/fuentes-oficiales/matrimonio/`. Cuerpo ES/EN y metadatos reescritos; título 57 caracteres, descripciones 148/149; aviso PENDIENTE visible. `tsc --noEmit` 0 errores, build CI correcto.
 
 ## Guía [79] Cédula de Identidad — enriquecimiento 2026-11-25
