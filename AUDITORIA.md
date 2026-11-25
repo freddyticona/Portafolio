@@ -167,6 +167,19 @@ Decisión: se mantuvieron solo `hreflang="es"` y `x-default` porque el toggle de
 
 Nota: la ficha original de fotos se reorganizó como **`medicos-tipnis-galeria` / «Médicos en el Tipnis — Galería de campo»**, etiqueta `Serie · Fotografía`, sin video y con enlaces cruzados a los tres documentales; las tres fichas nuevas son los documentales individuales con etiqueta `Documental`. Así se evita que la galería compita con los videos. El autor aclaró que los documentales se realizaron en **2018**, año corregido en las cuatro fichas y en las descripciones de YouTube. El tercer capítulo se describe como el componente de políticas y organización del programa "Mi Salud", con declaraciones de médicos, OPS, OMS y autoridades de la época, según aclaración del autor.
 
+## Demo de IA local en /servicios — 2026-11-25
+
+| Elemento | Decisión | Ubicación | Estado |
+|---|---|---|---|
+| Bloque «Tus archivos no salen de tu dispositivo» | Texto visible en `/servicios` y en 4 fichas (`edicion-preexistente`, `reportaje-impacto`, `video-historia-de-vida`, `cobertura-fotografica`) | `src/components/LocalAIDemo.tsx`, `ServiceLanding.tsx`, `ServiceDetailPage.tsx` | ✅ |
+| Demo de OCR | `runonweb@0.1.0` (MIT, midudev), módulo `ocr` tamaño `tiny`; pesos desde Hugging Face la primera vez; archivo procesado en el dispositivo | Carga desde `https://esm.sh/runonweb@0.1.0/ocr` **solo al pulsar**, con `import(/* @vite-ignore */ url)` | ✅ PROBADA en navegador |
+| Rendimiento | Sin dependencia npm ni chunk de ~500 KB en el bundle inicial; se descartó la instalación local porque el helper de modulepreload de Vite acababa dentro del chunk de IA y se descargaba en cada visita | `package.json`, `vite.config.ts` sin cambios | ✅ |
+| Monetización | Sin anuncios, sin afiliados y sin checkout: bloque de confianza, no de monetización. El CTA sigue siendo WhatsApp/Agendar | Regla `monetizacion-hibrida` | ✅ |
+| Analítica | `local_ai_demo_open`, `local_ai_demo_run` (solo `webgpu`/`wasm`) y `contact` con `label: ocr_local`. Nunca se envía contenido del archivo | `src/lib/analytics.ts` | ✅ |
+| Verificación | `tsc --noEmit` 0 errores, build CI correcto, OCR de prueba devolvió «FREDDYDEV NET OCR LOCAL 2026» | Prueba en navegador con imagen generada | ✅ |
+
+Nota honesta: el CDN entrega **código**, no datos del visitante; el navegador necesita red para cargar el módulo y descargar los modelos. Si falla, el modal muestra un error con opción de reintento y enlace a WhatsApp. No se mete `SoftwareApplication` en el JSON-LD de servicio para no duplicar el grafo `Service + Offer + FAQPage`.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

@@ -208,6 +208,22 @@ export const PortfolioEvents = {
     label: serviceName
   }),
 
+  // Demo de IA local (runonweb): solo interacción, nunca contenido de archivos
+  localAIDemoOpen: () => trackEvent('local_ai_demo_open', {
+    category: 'AI Demo'
+  }),
+
+  localAIDemoRun: (device: string) => trackEvent('local_ai_demo_run', {
+    device,
+    category: 'AI Demo'
+  }),
+
+  localAIDemoContact: () => trackEvent('contact', {
+    method: 'whatsapp',
+    category: 'AI Demo',
+    label: 'ocr_local'
+  }),
+
   // Depth of scroll on the current page (engagement signal)
   scrollDepth: (percent: number, pagePath: string) => trackEvent('scroll_depth', {
     percent,

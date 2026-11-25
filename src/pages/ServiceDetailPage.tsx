@@ -14,6 +14,7 @@ import { injectStructuredData, generateServiceDetailStructuredData } from '../li
 import { fitTitle, fitDescription } from '../lib/seo';
 import { PortfolioEvents } from '../lib/analytics';
 import QuickQuoteForm from '../components/QuickQuoteForm';
+import { LocalAITrust } from '../components/LocalAIDemo';
 
 type Service = (typeof SERVICES_PRICING)[number];
 
@@ -167,6 +168,10 @@ export default function ServiceDetailPage({ service, services, lang, onBack, onC
           </div>
         ))}
       </section>
+
+      {['edicion-preexistente', 'reportaje-impacto', 'video-historia-de-vida', 'cobertura-fotografica'].includes(service.id) && (
+        <LocalAITrust lang={lang} compact />
+      )}
 
       <section className="pt-4 border-t border-stone-800 space-y-4">
         <QuickQuoteForm lang={lang} serviceName={name} priceLabel={priceLabel} />

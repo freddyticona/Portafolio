@@ -6,6 +6,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { PortfolioEvents } from '../lib/analytics';
+import { LocalAITrust } from './LocalAIDemo';
 import {
   Camera,
   Video,
@@ -198,6 +199,12 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
           })}
         </div>
       </section>
+
+      {/* Prueba de confianza: va antes del catálogo de precios y después de
+          los CTA del hero, para no robar protagonismo a Agendar/Consultar. */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <LocalAITrust lang={lang} />
+      </div>
 
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
