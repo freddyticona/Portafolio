@@ -2931,5 +2931,15 @@ export const blogPosts: BlogPost[] = [
     views: 1,
     location: "La Paz, Bolivia",
     region: "Bolivia"
+  },
+  {
+    id: "1454", contentType: "analysis", slug: "reporta-tu-tranca-bolivia-2026",
+    titleEs: "Reporta Tu Tranca Bolivia 2026: cómo denunciar trabas", titleEn: "Reporta Tu Tranca Bolivia 2026: how to report red tape",
+    excerptEs: "Cómo usar Reporta Tu Tranca, el canal oficial del DS 5595, para denunciar fotocopias y requisitos innecesarios: pasos, protección y dictamen vinculante.", excerptEn: "How to use Reporta Tu Tranca, the official DS 5595 channel, to report ID photocopies and unnecessary requirements: steps, protection and binding ruling.",
+    date: "2026-11-25", readTimeEs: "9 min de lectura", readTimeEn: "9 min read",
+    imageUrl: "/images/portadas/REPORTA_TU_TRANCA_BOLIVIA_2026.WEBP", imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites", categoryEn: "Guides & Procedures",
+    enableComments: true, featured: false, views: 1,
+    location: "La Paz, Bolivia", region: "Bolivia"
   }
 ];
