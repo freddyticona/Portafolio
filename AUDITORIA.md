@@ -183,6 +183,20 @@ Decisión del autor: el bloque de «privacidad demostrable» en el índice de se
 
 Nota honesta: el CDN entrega **código**, no datos del visitante; el navegador necesita red para cargar el módulo y los modelos la primera vez. Si falla, el modal muestra error con reintento y enlace a WhatsApp. No se añade `SoftwareApplication` al JSON-LD para no duplicar el grafo `Service + Offer + FAQPage`.
 
+## Guía [81] Licencia de Conducir — enriquecimiento 2026-11-25
+
+| Dato | Antes | Valor oficial verificado | Estado |
+|---|---|---|---|
+| Examen escrito y psicológico para primera vez | Figuraban como requisitos obligatorios | La ficha vigente del SEGIP **no los enumera**: pide cédula, certificado médico, habilidades de conducción de autoescuela y antecedentes de tránsito | ❌ INCORRECTO → CORREGIDO |
+| Categorías | A, B, C, D, E, F | P, M, A, T, B, C + provisionales JP/JM/DP/DA | ✅ CORREGIDO |
+| Costos | Bs 150–600 | Bs 225 (P/A/B/C), Bs 80 (M/T), duplicado Bs 160/Bs 80, médico Bs 50, PIC Bs 212 | ✅ VERIFICADO |
+| Edades | A 16, B 18, C 21, D 23, E 21 | P/M 18, A/T 21, provisional 16, ascenso gradual B 26 y C 31, ascenso directo A→B 24 con 3 años | ✅ CORREGIDO |
+| Renovación tardía | No se indicaba | Si pasan 5 años y un día, certificado de habilidades de conducción | ✅ AÑADIDO |
+| Registro de certificados médicos | No se indicaba | Los centros los registran al final del día; acudir al SEGIP recién al día siguiente | ✅ AÑADIDO |
+| Plazo de entrega y portal de turnos | «10–30 días hábiles», turnos.segip.gob.bo | Sin plazo único publicado; el portal de turnos no respondió (HTTP fallido) | ⚠️ PENDIENTE con aviso visible |
+
+Fuente: https://www.segip.gob.bo/licencia-para-conducir/ (HTTP 200) y https://www.segip.gob.bo/formas-de-pago/ (HTTP 200), verificadas el 25/11/2026. Se reescribieron cuerpo ES/EN y metadatos: el título bajó a 54 caracteres y las descripciones a 146/151, sin las categorías A–F obsoletas.
+
 ## Redirects 308 de URLs con impresiones — 2026-11-25
 
 Informe de Search Console (últimos 3 meses, 2.979 impresiones): parte del tráfico de las guías más buscadas caía en URLs retiradas que redirigían al índice `/blog` en lugar de la guía. Se añaden 6 redirecciones 308 **antes** del wildcard `/noticias/:path* → /blog`, sin reintroducir la sección `/noticias`.
