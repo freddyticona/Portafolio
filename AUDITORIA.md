@@ -183,6 +183,21 @@ Decisión del autor: el bloque de «privacidad demostrable» en el índice de se
 
 Nota honesta: el CDN entrega **código**, no datos del visitante; el navegador necesita red para cargar el módulo y los modelos la primera vez. Si falla, el modal muestra error con reintento y enlace a WhatsApp. No se añade `SoftwareApplication` al JSON-LD para no duplicar el grafo `Service + Offer + FAQPage`.
 
+## Redirects 308 de URLs con impresiones — 2026-11-25
+
+Informe de Search Console (últimos 3 meses, 2.979 impresiones): parte del tráfico de las guías más buscadas caía en URLs retiradas que redirigían al índice `/blog` en lugar de la guía. Se añaden 6 redirecciones 308 **antes** del wildcard `/noticias/:path* → /blog`, sin reintroducir la sección `/noticias`.
+
+| URL de origen | Impresiones | Destino corregido |
+|---|---:|---|
+| `/noticias/guia-licencia-conducir-bolivia-2026` | 658 | `/guias/guia-licencia-conducir-bolivia-2026` |
+| `/noticias/guia-cedula-identidad-segip-bolivia-2026` | 216 | `/guias/guia-cedula-identidad-segip-bolivia-2026` |
+| `/noticias/guia-soat-bolivia-2026` | 54 | `/guias/guia-soat-bolivia-2026` |
+| `/noticias/guia-nit-sin-bolivia-2026` | 13 | `/guias/guia-nit-sin-bolivia-2026` |
+| `/blog/guia-cedula-identidad-segip-bolivia-2026` | 4 | `/guias/guia-cedula-identidad-segip-bolivia-2026` |
+| `/blog/guia-antecedentes-penales-bolivia-2026` | 7 | `/guias/guia-antecedentes-penales-bolivia-2026` |
+
+Los 5 slugs de destino existen en `src/data/blogPosts.ts`. `vercel.json` validado: 12 redirects, wildcard conservado al final. Estado: ✅ APLICADO (pendiente de verificación en producción tras el deploy).
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

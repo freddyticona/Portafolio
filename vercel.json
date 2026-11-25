@@ -31,6 +31,36 @@
       "permanent": true
     },
     {
+      "source": "/noticias/guia-licencia-conducir-bolivia-2026",
+      "destination": "/guias/guia-licencia-conducir-bolivia-2026",
+      "permanent": true
+    },
+    {
+      "source": "/noticias/guia-cedula-identidad-segip-bolivia-2026",
+      "destination": "/guias/guia-cedula-identidad-segip-bolivia-2026",
+      "permanent": true
+    },
+    {
+      "source": "/noticias/guia-soat-bolivia-2026",
+      "destination": "/guias/guia-soat-bolivia-2026",
+      "permanent": true
+    },
+    {
+      "source": "/noticias/guia-nit-sin-bolivia-2026",
+      "destination": "/guias/guia-nit-sin-bolivia-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guia-cedula-identidad-segip-bolivia-2026",
+      "destination": "/guias/guia-cedula-identidad-segip-bolivia-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guia-antecedentes-penales-bolivia-2026",
+      "destination": "/guias/guia-antecedentes-penales-bolivia-2026",
+      "permanent": true
+    },
+    {
       "source": "/noticias/:path*",
       "destination": "/blog",
       "permanent": true
