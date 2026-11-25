@@ -307,6 +307,12 @@ Las siete guías nuevas (1450–1456) usaban IDs que ya pertenecían a artículo
 
 Segunda causa encontrada: los metadatos de tres guías (1525–1527) tenían varios campos en una sola línea, y `scripts/extract-articles.js` solo lee un campo por línea, por lo que no se prerenderizaban y daban 404. Se expandieron a un campo por línea. Verificado: 141 artículos y **48 guías** extraídos, 0 IDs duplicados y **0 enlaces internos rotos** en los cuerpos. Las cuatro rutas revisadas muestran su título y cuerpo correctos, sin contenido de J-cut.
 
+## SpotlightCard de React Bits — 2026-11-25
+
+Se incorporó `SpotlightCard` de React Bits 2.0 (licencia MIT + Commons Clause, uso comercial permitido, código copiado al repo sin dependencias npm) en `src/components/SpotlightCard.tsx`. Adaptaciones propias: superficie y borde configurables, sin padding/radius fijos, desactivado en punteros gruesos (móvil) y respeta `prefers-reduced-motion`.
+
+Aplicado en tarjetas de `/servicios` (intensidad 0.13, color `#D4AF37`) y `/portafolio` (0.22). Verificado en navegador: el degradado aparece al acercar el cursor y no desplaza contenido. No se usan componentes de texto animado ni backgrounds, para no afectar el prerender de `/guias` ni Core Web Vitals.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

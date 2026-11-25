@@ -8,6 +8,7 @@ import SizedImg from './SizedImg';
 import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase, Play } from 'lucide-react';
 import LazyImage from './LazyImage';
+import SpotlightCard from './SpotlightCard';
 
 interface PortfolioGridProps {
   items: PortfolioItem[];
@@ -108,14 +109,23 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
       {filteredItems.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 {filteredItems.map((item, index) => (
-              <div
+              <SpotlightCard
                 key={item.id}
                 onClick={() => handleOpenLightbox(item)}
                 onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleOpenLightbox(item); } }}
                 role="button"
                 tabIndex={0}
                 aria-label={lang === 'es' ? item.title : item.titleEn}
-                className="card-3d tilt-card group cursor-pointer bg-white/[0.02] border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2 animate-fade-in-up"
+                surface="rgba(255,255,255,0.02)"
+                borderColor="transparent"
+                spotlightColor="#D4AF37"
+                intensity={0.22}
+                shape="beam"
+                borderGlow={0.3}
+                proximity={45}
+                flare={false}
+                grain={0}
+                className="card-3d tilt-card group cursor-pointer border border-white/5 rounded-sm overflow-hidden hover:border-gold/30 hover:shadow-xl hover:shadow-gold/2 animate-fade-in-up"
                 style={{
                   animationDelay: `${index * 80}ms`,
                 }}
@@ -187,7 +197,7 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
                     )}
                   </div>
                 </div>
-              </div>
+              </SpotlightCard>
             ))}
         </div>
       ) : (

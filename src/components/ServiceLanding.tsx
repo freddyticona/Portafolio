@@ -7,6 +7,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { PortfolioEvents } from '../lib/analytics';
 import SizedImg from './SizedImg';
+import SpotlightCard from './SpotlightCard';
 import {
   Camera,
   Video,
@@ -345,8 +346,20 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.05 }}
-                className={`bg-[#020202] border ${(service as any).popular ? 'border-gold/50 ring-1 ring-gold/20' : 'border-white/10'} rounded-lg overflow-hidden hover:border-gold/30 transition-all duration-300 group relative`}
+                className="h-full"
               >
+                <SpotlightCard
+                  surface="#020202"
+                  borderColor="transparent"
+                  spotlightColor="#D4AF37"
+                  intensity={0.13}
+                  shape="beam"
+                  borderGlow={0.22}
+                  proximity={45}
+                  flare={false}
+                  grain={0}
+                  className={`h-full border ${(service as any).popular ? 'border-gold/50 ring-1 ring-gold/20' : 'border-white/10'} rounded-lg overflow-hidden hover:border-gold/30 transition-all duration-300 group relative`}
+                >
                 {(service as any).popular && (
                   <div className="absolute top-4 right-4 z-10">
                     <span className="px-3 py-1 bg-gold text-black text-xs font-bold uppercase rounded-sm">
@@ -430,6 +443,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                     </button>}
                   </div>
                 </div>
+                </SpotlightCard>
               </motion.div>
                 );
                 })}
