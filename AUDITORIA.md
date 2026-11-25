@@ -255,6 +255,19 @@ Verificado en navegador: el iframe del portafolio carga el título correcto y no
 
 Verificado en navegador: el iframe carga el título correcto y no muestra error. `tsc --noEmit` 0 errores, build CI correcto.
 
+## Video institucional La Paz 2030 — 2026-11-25
+
+| Elemento | Dato | Estado |
+|---|---|---|
+| Video | `https://youtu.be/uJsygS2ZwFg` — oEmbed HTTP 200 y miniaturas 200, sin restricción de visibilidad | ✅ REPRODUCIBLE |
+| Título y autor (oEmbed) | «La Paz 2030: una ciudad que respira \\| Video institucional» — Freddy Ticona Guzman | ✅ VERIFICADO |
+| Año | `publishDate`/`uploadDate`: 2026-11-25 | ✅ VERIFICADO |
+| Contenido | Cinco pilares (gestión ambiental, áreas verdes, adaptación climática, energía sostenible, biodiversidad urbana); metas 2030: 1.000.000 de árboles, 1.000 parques/plazas y 200 edificios públicos y escuelas con energías limpias. Tomado de la descripción oficial del video y de la narración revisada en el archivo local | ✅ VERIFICADO |
+| Portada | WebP 1280×720 desde `maxresdefault.jpg` (HTTP 200), registrada en `imageDimensions` | ✅ |
+| Ficha | `la-paz-2030-ciudad-que-respira`, categoría `documental`, embed `youtube-nocookie.com` con `loading="lazy"` | ✅ |
+
+Verificado en navegador: el iframe carga el título correcto sin error de reproductor. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

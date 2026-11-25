@@ -478,6 +478,27 @@ export const portfolioItems: PortfolioItem[] = [
     techDetailsEn: ['Audiovisual production and post-production', 'Institutional script and voice-over', 'Shooting at the landfill and facilities', 'Editing and color grading']
   },
   {
+    id: 'la-paz-2030-ciudad-que-respira',
+    title: "La Paz 2030: una ciudad que respira | Video institucional",
+    titleEn: "La Paz 2030: A City That Breathes | Institutional Video",
+    category: 'documental',
+    categoryLabelEs: "Documental institucional",
+    categoryLabelEn: "Institutional documentary",
+    roleEs: "Realización y postproducción audiovisual",
+    roleEn: "Audiovisual production and post-production",
+    year: '2026',
+    clientEs: "Gobierno Autónomo Municipal de La Paz",
+    clientEn: "La Paz Municipal Government",
+    descriptionEs: "Video institucional de la Dirección de Gestión Ambiental, Cambio Climático y Biodiversidad Urbana del Gobierno Autónomo Municipal de La Paz. La estrategia integrada trabajada bajo cinco pilares —gestión ambiental, áreas verdes, adaptación climática, energía sostenible y biodiversidad urbana— incluye especies nativas, corredores ecológicos, monitoreo de reservas de agua y protección de áreas protegidas y fauna silvestre. Proyección al 2030: un millón de árboles, mil nuevos parques y plazas, 200 edificios públicos y escuelas con energías limpias y soluciones ecosistémicas en quebradas. Capítulos: 00:00 El desafío ambiental; 00:31 Respuesta integrada; 01:19 Cinco pilares; 01:30 El cambio ya comenzó; 02:01 La Paz al 2030; 03:11 Cuidar la vida es cuidarte.",
+    descriptionEn: "Institutional video for the Directorate of Environmental Management, Climate Change and Urban Biodiversity of the La Paz Municipal Government. An integrated strategy built on five pillars —environmental management, green areas, climate adaptation, sustainable energy and urban biodiversity— including native species, ecological corridors, water reserve monitoring and protection of protected areas and wildlife. 2030 outlook: one million trees, one thousand new parks and squares, 200 public buildings and schools using clean energy, and ecosystem-based solutions for ravines. Chapters: 00:00 The environmental challenge; 00:31 Integrated response; 01:19 Five pillars; 01:30 Change has begun; 02:01 La Paz by 2030; 03:11 Caring for life.",
+    imageUrl: "/images/portfolio/la-paz-2030/PORTADA_LA_PAZ_2030_CIUDAD_RESPIRA.WEBP",
+    images: ["/images/portfolio/la-paz-2030/PORTADA_LA_PAZ_2030_CIUDAD_RESPIRA.WEBP"],
+    videoUrl: "https://www.youtube-nocookie.com/embed/uJsygS2ZwFg?rel=0&modestbranding=1",
+    isCaseStudy: false,
+    techDetailsEs: ["Realización y postproducción audiovisual", "Guion y voz en off institucionales", "Grabación urbana y de áreas verdes", "Edición y corrección de color"],
+    techDetailsEn: ["Audiovisual production and post-production", "Institutional script and voice-over", "Urban and green area shooting", "Editing and color grading"]
+  },
+  {
     id: 'hampaturi-yungas-origen-agua',
     title: 'Hampaturi y los Yungas: El Origen del Agua',
     titleEn: 'Hampaturi and the Yungas: The Origin of Water',

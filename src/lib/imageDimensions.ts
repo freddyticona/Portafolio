@@ -2905,6 +2905,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1280,
     "height": 2276
   },
+  "/images/portfolio/la-paz-2030/PORTADA_LA_PAZ_2030_CIUDAD_RESPIRA.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
   "/images/portfolio/plantas-energia/GT-I91902764.webp": {
     "width": 1280,
     "height": 2276
