@@ -457,6 +457,27 @@ export const portfolioItems: PortfolioItem[] = [
     techDetailsEn: ['Sony FS7 Camera', 'Sigma Cine Prime Lenses', 'Audio Recorder and Ambient Microphones', 'Field production in indigenous territory']
   },
   {
+    id: 'hampaturi-yungas-origen-agua',
+    title: 'Hampaturi y los Yungas: El Origen del Agua',
+    titleEn: 'Hampaturi and the Yungas: The Origin of Water',
+    category: 'documental',
+    categoryLabelEs: 'Documental institucional',
+    categoryLabelEn: 'Institutional documentary',
+    roleEs: 'Producción audiovisual integral: guion, grabación y edición',
+    roleEn: 'Full audiovisual production: script, shooting and editing',
+    year: '2026',
+    clientEs: 'Gobierno Autónomo Municipal de La Paz',
+    clientEn: 'La Paz Municipal Government',
+    descriptionEs: 'Recorrido audiovisual por los ecosistemas que sostienen la vida y el agua en el municipio de La Paz. Desde los bosques nublados de los Yungas (Cotapata) hasta la Cordillera Real y las cascadas de Hampaturi: biodiversidad, nevados, bofedales y comunidades que trabajan juntos para garantizar la seguridad hídrica de cientos de miles de familias. Capítulos: 0:00 Los Yungas: biodiversidad y funciones ecológicas; 0:40 La Cordillera Real y la seguridad hídrica; 1:25 Un territorio habitado. Voz en off y guion basados en el trabajo de conservación del macrodistrito de Zongo y Hampaturi. Imágenes de Cotapata, bofedales, nevados, represas y el Camino del Choro.',
+    descriptionEn: 'An audiovisual journey through the ecosystems that sustain life and water in the municipality of La Paz. From the cloud forests of the Yungas (Cotapata) to the Cordillera Real and the waterfalls of Hampaturi: biodiversity, snow peaks, bofedales wetlands and communities working together to secure water for hundreds of thousands of families. Chapters: 0:00 The Yungas: biodiversity and ecological functions; 0:40 The Cordillera Real and water security; 1:25 An inhabited territory. Voice-over and script based on conservation work in the Zongo and Hampaturi macrodistrict. Footage from Cotapata, bofedales, snow peaks, reservoirs and the Choro Trail.',
+    imageUrl: '/images/portfolio/hampaturi-yungas/PORTADA_HAMPATURI_YUNGAS_ORIGEN_AGUA.WEBP',
+    images: ['/images/portfolio/hampaturi-yungas/PORTADA_HAMPATURI_YUNGAS_ORIGEN_AGUA.WEBP'],
+    videoUrl: 'https://www.youtube-nocookie.com/embed/p9GJepfH128?rel=0&modestbranding=1',
+    isCaseStudy: false,
+    techDetailsEs: ['Guion y voz en off propios', 'Cámara y grabación de campo', 'Edición y corrección de color', 'Material de Cotapata, Zongo, Hampaturi y Camino del Choro'],
+    techDetailsEn: ['Own script and voice-over', 'Field camera and shooting', 'Editing and color grading', 'Footage from Cotapata, Zongo, Hampaturi and the Choro Trail']
+  },
+  {
     id: 'brasil-la-poderosa',
     title: 'La Poderosa: Derechos Humanos en Brasil',
     titleEn: 'La Poderosa: Human Rights in Brazil',

@@ -2857,6 +2857,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1280,
     "height": 853
   },
+  "/images/portfolio/hampaturi-yungas/PORTADA_HAMPATURI_YUNGAS_ORIGEN_AGUA.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
   "/images/portfolio/la-estrella/20170419_085818.webp": {
     "width": 1280,
     "height": 960

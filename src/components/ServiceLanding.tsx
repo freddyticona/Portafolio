@@ -163,13 +163,13 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
       resultEn: 'Special envoy: coverage of the forum and a visit to the world’s first nuclear power plant.'
     },
     {
-      image: '/images/portfolio/gran-poder/DSC_1848.webp',
-      titleEs: 'Gran Poder, La Paz',
-      titleEn: 'Gran Poder, La Paz',
-      metaEs: 'Transmisión en vivo · RTP · 2015–2019',
-      metaEn: 'Live broadcast · RTP · 2015–2019',
-      resultEs: 'Cinco ediciones cubiertas en vivo como camarógrafo de transmisión.',
-      resultEn: 'Five editions covered live as broadcast cameraman.'
+      image: '/images/portfolio/hampaturi-yungas/PORTADA_HAMPATURI_YUNGAS_ORIGEN_AGUA.WEBP',
+      titleEs: 'Hampaturi y los Yungas: El Origen del Agua',
+      titleEn: 'Hampaturi and the Yungas: The Origin of Water',
+      metaEs: 'Documental institucional · Gobierno Autónomo Municipal de La Paz · 2026',
+      metaEn: 'Institutional documentary · La Paz Municipal Government · 2026',
+      resultEs: 'Guion y voz en off propios sobre biodiversidad, nevados y seguridad hídrica, en tres capítulos.',
+      resultEn: 'Own script and voice-over on biodiversity, snow peaks and water security, in three chapters.'
     }
   ];
 

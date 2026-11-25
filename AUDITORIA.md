@@ -226,6 +226,20 @@ Decisión: no ampliar el catálogo (ya tiene 17 servicios). Mejorar la presentac
 
 Verificado en navegador (bloque de casos, anclas y CTA final presentes), `tsc --noEmit` 0 errores y build CI correcto.
 
+## Video institucional Hampaturi/Yungas — 2026-11-25
+
+| Elemento | Dato | Estado |
+|---|---|---|
+| Video | `https://youtu.be/p9GJepfH128` — Estado original: **privado** (YouTube devolvía 403 en oEmbed y «Este video es privado»). El autor lo cambió a **no listado**; verificado oEmbed HTTP 200 | ✅ REPRODUCIBLE |
+| Título y autor (oEmbed) | «Hampaturi y los Yungas: El Origen del Agua – La Paz, Bolivia» — Freddy Ticona Guzman | ✅ VERIFICADO |
+| Año | `publishDate`/`uploadDate` del video: 2026-11-25 | ✅ VERIFICADO |
+| Cliente | Gobierno Autónomo Municipal de La Paz (declarado por el autor) | ✅ |
+| Portada | WebP 1280×720 extraída del thumbnail oficial `maxresdefault.jpg` (HTTP 200), guardada en `public/images/portfolio/hampaturi-yungas/` y registrada en `imageDimensions` | ✅ |
+| Portafolio | Ficha nueva `hampaturi-yungas-origen-agua`, categoría `documental`, embed `youtube-nocookie.com` con `loading="lazy"`; descripción con los capítulos 0:00 / 0:40 / 1:25 y escenarios Cotapata, Zongo, Hampaturi y Camino del Choro, según el texto del autor | ✅ |
+| /servicios | La tarjeta de casos «Gran Poder, La Paz» se reemplaza por este video. Gran Poder **permanece** en `/portafolio` (trabajo real para RTP, cliente distinto) | ✅ |
+
+Verificado en navegador: el iframe del portafolio carga el título correcto y no muestra error de reproductor. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
