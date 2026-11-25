@@ -212,6 +212,20 @@ Informe de Search Console (últimos 3 meses, 2.979 impresiones): parte del tráf
 
 Los 5 slugs de destino existen en `src/data/blogPosts.ts`. `vercel.json` validado: 12 redirects, wildcard conservado al final. Estado: ✅ APLICADO (pendiente de verificación en producción tras el deploy).
 
+## Profesionalización de /servicios — 2026-11-25
+
+Decisión: no ampliar el catálogo (ya tiene 17 servicios). Mejorar la presentación de la oferta para aumentar las solicitudes que ya están llegando.
+
+| Cambio | Contenido | Estado |
+|---|---|---|
+| Propuesta de valor en el hero | «Documentales, coberturas y videos para instituciones en La Paz. Precio cerrado, sin sorpresas.» / versión EN equivalente | ✅ |
+| Casos reales antes de los precios | 3 tarjetas con imágenes propias ya existentes en `/images/portfolio/`: Médicos en el Tipnis (Abya Yala TV, 2018), World Atomic Week (Bolivia TV, 2024) y Gran Poder (RTP, 2015–2019). Cada una con cliente, año y resultado verificable, y enlace real a `/portafolio` | ✅ |
+| Catálogo agrupado | Anclas por tipo: Vídeo, Edición, Fotografía, Redes sociales, Herramientas con IA y Planes institucionales. Misma fuente `servicesPricing.json`, sin duplicar precios | ✅ |
+| Doble CTA al cierre | Tarjeta final con WhatsApp, email, teléfono y botón «Solicitar cotización por formulario» | ✅ |
+| Rendimiento | `SizedImg` con dimensiones registradas para las 3 imágenes; `loading="lazy"`; sin scripts externos ni afiliados en ruta comercial | ✅ |
+
+Verificado en navegador (bloque de casos, anclas y CTA final presentes), `tsc --noEmit` 0 errores y build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

@@ -6,6 +6,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { PortfolioEvents } from '../lib/analytics';
+import SizedImg from './SizedImg';
 import {
   Camera,
   Video,
@@ -75,8 +76,8 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
   const st = {
     title: lang === 'es' ? 'Servicios Profesionales' : 'Professional Services',
     subtitle: lang === 'es'
-      ? 'Soluciones audiovisuales completas en La Paz, Bolivia'
-      : 'Complete audiovisual solutions in La Paz, Bolivia',
+      ? 'Documentales, coberturas y videos para instituciones en La Paz. Precio cerrado, sin sorpresas.'
+      : 'Documentaries, coverage and videos for institutions in La Paz. Fixed price, no surprises.',
     whyChooseUs: lang === 'es' ? 'Por qué elegir mis servicios' : 'Why choose my services',
     reasons: [
       {
@@ -139,6 +140,47 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
       ]
     }
   };
+
+  // Casos reales del portafolio: la sección de pruebas va antes de los precios.
+  // Solo se usan títulos, años e imágenes que ya existen en src/translations.ts.
+  const cases = [
+    {
+      image: '/images/portfolio/documental-tipnis/GUIA_TIPNIS_EL_PLACER_DE_SERVIR.WEBP',
+      titleEs: 'Médicos en el Tipnis',
+      titleEn: 'Doctors in the TIPNIS',
+      metaEs: 'Documental · Abya Yala Televisión · 2018',
+      metaEn: 'Documentary · Abya Yala Television · 2018',
+      resultEs: 'Serie de 3 documentales + galería de campo, con caminatas de 5 a 7 horas con equipo de cine.',
+      resultEn: 'Three documentaries plus a field gallery, with 5 to 7-hour hikes carrying film gear.'
+    },
+    {
+      image: '/images/portfolio/world-atomic-week/_DSC0014.webp',
+      titleEs: 'World Atomic Week',
+      titleEn: 'World Atomic Week',
+      metaEs: 'Cobertura internacional · Bolivia TV · 2024',
+      metaEn: 'International coverage · Bolivia TV · 2024',
+      resultEs: 'Enviado especial: cobertura del foro y visita a la primera planta nuclear del mundo.',
+      resultEn: 'Special envoy: coverage of the forum and a visit to the world’s first nuclear power plant.'
+    },
+    {
+      image: '/images/portfolio/gran-poder/DSC_1848.webp',
+      titleEs: 'Gran Poder, La Paz',
+      titleEn: 'Gran Poder, La Paz',
+      metaEs: 'Transmisión en vivo · RTP · 2015–2019',
+      metaEn: 'Live broadcast · RTP · 2015–2019',
+      resultEs: 'Cinco ediciones cubiertas en vivo como camarógrafo de transmisión.',
+      resultEn: 'Five editions covered live as broadcast cameraman.'
+    }
+  ];
+
+  const serviceGroups: Array<{ id: string; labelEs: string; labelEn: string; types: string[] }> = [
+    { id: 'video', labelEs: 'Vídeo', labelEn: 'Video', types: ['video'] },
+    { id: 'edicion', labelEs: 'Edición', labelEn: 'Editing', types: ['edicion'] },
+    { id: 'fotografia', labelEs: 'Fotografía', labelEn: 'Photography', types: ['fotografia'] },
+    { id: 'redes', labelEs: 'Redes sociales', labelEn: 'Social media', types: ['redes'] },
+    { id: 'ia', labelEs: 'Herramientas con IA', labelEn: 'AI tools', types: ['ia'] },
+    { id: 'planes', labelEs: 'Planes institucionales', labelEn: 'Institutional packages', types: ['plan'] }
+  ];
 
   return (
     <div className="space-y-24 animate-fadeIn">
@@ -205,6 +247,55 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
         </div>
       </section>
 
+      {/* Casos reales: prueba antes de los precios */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        <div className="text-center space-y-3">
+          <p className="text-[11px] font-mono font-bold uppercase tracking-[0.2em] text-gold">
+            {lang === 'es' ? 'Trabajo real' : 'Real work'}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-white font-display">
+            {lang === 'es' ? 'Casos que respaldan el servicio' : 'Work that backs the service'}
+          </h2>
+          <p className="text-stone-400 max-w-2xl mx-auto text-sm">
+            {lang === 'es'
+              ? 'Proyectos propios con fecha, cliente y resultado verificables. Sin imágenes de stock.'
+              : 'Own projects with a date, client and verifiable result. No stock images.'}
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {cases.map((item) => (
+            <a
+              key={item.image}
+              href="/portafolio"
+              className="group bg-white/[0.02] border border-white/10 hover:border-gold/40 rounded-lg overflow-hidden transition-all duration-300 flex flex-col"
+            >
+              <div className="aspect-[16/10] overflow-hidden bg-[#0b0b0b]">
+                <SizedImg
+                  src={item.image}
+                  alt={lang === 'es' ? item.titleEs : item.titleEn}
+                  loading="lazy"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-5 space-y-2 flex-1 flex flex-col">
+                <p className="text-[10px] font-mono uppercase tracking-widest text-gold">
+                  {lang === 'es' ? item.metaEs : item.metaEn}
+                </p>
+                <h3 className="text-base font-bold text-white font-display">
+                  {lang === 'es' ? item.titleEs : item.titleEn}
+                </h3>
+                <p className="text-xs text-stone-400 leading-relaxed flex-1">
+                  {lang === 'es' ? item.resultEs : item.resultEn}
+                </p>
+                <span className="text-[11px] font-mono font-bold uppercase tracking-widest text-stone-400 group-hover:text-gold transition-colors">
+                  {lang === 'es' ? 'Ver en portafolio' : 'View in portfolio'} →
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         <div className="text-center space-y-4">
@@ -213,13 +304,35 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
           </h2>
           <p className="text-stone-400 max-w-2xl mx-auto">
             {lang === 'es'
-              ? 'Precio cerrado por producto entregado. Cada tarifa incluye preproducción, grabación multicámara en Full HD (2 cámaras Nikon D5100), audio profesional, edición, corrección de color y entrega final. Contáctame para una cotización personalizada.'
-              : 'Fixed price per delivered product. Each rate includes pre-production, multi-camera Full HD shooting (2 Nikon D5100 cameras), professional audio, editing, color correction and final delivery. Contact me for a personalized quote.'}
+              ? 'Precio cerrado por producto entregado. Elige el tipo de trabajo y compara tarifas sin sorpresas.'
+              : 'Fixed price per delivered product. Pick the type of work and compare rates with no surprises.'}
           </p>
+          <nav aria-label={lang === 'es' ? 'Tipos de servicio' : 'Service types'} className="flex flex-wrap justify-center gap-2 pt-2">
+            {serviceGroups.map(group => (
+              <a
+                key={group.id}
+                href={`#servicios-${group.id}`}
+                className="px-3 py-1.5 text-[11px] font-mono uppercase tracking-widest text-stone-400 hover:text-gold border border-white/10 hover:border-gold/40 rounded-sm transition-colors"
+              >
+                {lang === 'es' ? group.labelEs : group.labelEn}
+              </a>
+            ))}
+          </nav>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {SERVICES_PRICING.map((service, idx) => {
+        {serviceGroups.map(group => {
+          const items = SERVICES_PRICING.filter(service => group.types.includes(service.type));
+          if (!items.length) return null;
+          return (
+            <div key={group.id} id={`servicios-${group.id}`} className="space-y-5 scroll-mt-24">
+              <div className="flex items-center gap-3 border-b border-white/10 pb-3">
+                <h3 className="text-lg font-bold text-white font-display">
+                  {lang === 'es' ? group.labelEs : group.labelEn}
+                </h3>
+                <span className="text-[11px] font-mono text-stone-500">{items.length}</span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {items.map((service, idx) => {
             const Icon = serviceIcons[service.icon] || Camera;
             const isEs = lang === 'es';
             return (
@@ -314,9 +427,12 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                   </div>
                 </div>
               </motion.div>
-            );
-          })}
-        </div>
+                );
+                })}
+              </div>
+            </div>
+          );
+        })}
 
         {/* Service Contact Card */}
         <div className="mt-12">
@@ -405,6 +521,17 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
                   {lang === 'es' ? 'Llamar ahora →' : 'Call now →'}
                 </span>
               </a>
+            </div>
+
+            <div className="relative z-10 flex justify-center">
+              <button
+                type="button"
+                onClick={() => onContact()}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gold hover:bg-gold-hover text-black font-bold rounded-sm text-xs font-mono uppercase tracking-widest transition-colors cursor-pointer"
+              >
+                <Mail className="w-4 h-4" />
+                {lang === 'es' ? 'Solicitar cotización por formulario' : 'Request a quote by form'}
+              </button>
             </div>
 
             {/* Bottom note */}
