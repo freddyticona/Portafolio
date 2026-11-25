@@ -87,7 +87,7 @@ export default function LazyImage({
           alt={alt}
           onLoad={handleLoad}
           decoding="async"
-          fetchpriority={eager ? 'high' : 'auto'}
+          fetchPriority={eager ? 'high' : 'auto'}
           loading={eager ? 'eager' : 'lazy'}
           className={`absolute inset-0 w-full h-full ${objectFit === 'contain' ? 'object-contain' : 'object-cover'} transition-opacity duration-500 ${
             isLoaded ? 'opacity-100' : 'opacity-0'
