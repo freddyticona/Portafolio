@@ -2541,6 +2541,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1200,
     "height": 630
   },
+  "/images/portadas/DECLARACION_JURADA_BIENES_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/portadas/REPORTA_TU_TRANCA_BOLIVIA_2026.WEBP": {
     "width": 1200,
     "height": 630

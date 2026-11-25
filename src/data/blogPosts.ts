@@ -2951,5 +2951,15 @@ export const blogPosts: BlogPost[] = [
     categoryEs: "Guías y Trámites", categoryEn: "Guides & Procedures",
     enableComments: true, featured: false, views: 1,
     location: "La Paz, Bolivia", region: "Bolivia"
+  },
+  {
+    id: "1456", contentType: "analysis", slug: "declaracion-jurada-bienes-rentas-online-bolivia-2026",
+    titleEs: "Declaración Jurada de Bienes en línea Bolivia 2026", titleEn: "Online asset declaration Bolivia 2026: DJBR guide",
+    excerptEs: "Quiénes deben presentar la DJBR, cada cuánto hacerlo y cómo enviarla en línea con Ciudadanía Digital: requisitos, plazos y fuentes oficiales.", excerptEn: "Who must file Bolivia's asset declaration, how often and how to submit it online with Digital Citizenship: requirements, deadlines and sources.",
+    date: "2026-11-25", readTimeEs: "10 min de lectura", readTimeEn: "10 min read",
+    imageUrl: "/images/portadas/DECLARACION_JURADA_BIENES_BOLIVIA_2026.WEBP", imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites", categoryEn: "Guides & Procedures",
+    enableComments: true, featured: false, views: 1,
+    location: "La Paz, Bolivia", region: "Bolivia"
   }
 ];
