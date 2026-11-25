@@ -219,7 +219,7 @@ Decisión: no ampliar el catálogo (ya tiene 17 servicios). Mejorar la presentac
 | Cambio | Contenido | Estado |
 |---|---|---|
 | Propuesta de valor en el hero | «Documentales, coberturas y videos para instituciones en La Paz. Precio cerrado, sin sorpresas.» / versión EN equivalente | ✅ |
-| Casos reales antes de los precios | 3 tarjetas con imágenes propias ya existentes en `/images/portfolio/`. **Destacados fijos por decisión del autor (2026-11-25):** dos documentales de «Médicos en el Tipnis» (Abya Yala TV, 2018) y World Atomic Week / Rusia (Bolivia TV). Cada una con cliente, año y resultado verificable, y enlace real a `/portafolio` | ✅ |
+| Casos reales antes de los precios | 3 tarjetas con imágenes propias ya existentes en `/images/portfolio/`. **Destacados fijos por decisión del autor (2026-11-25):** dos documentales de «Médicos en el Tipnis» (Abya Yala TV, 2018) y **World Atomic Week 2025 — Foro Internacional de la Industria Nuclear (Moscú)** (Bolivia TV), que es la versión con video publicado; la ficha de 2024 es solo fotografías y no se destaca. Cada una con cliente, año y resultado verificable, y enlace real a `/portafolio` | ✅ |
 | Catálogo agrupado | Anclas por tipo: Vídeo, Edición, Fotografía, Redes sociales, Herramientas con IA y Planes institucionales. Misma fuente `servicesPricing.json`, sin duplicar precios | ✅ |
 | Orden dentro de cada grupo | Ascendente por `basePrice` (decisión del autor). Verificado: Vídeo 650 → 850 → 1.100 → 1.200 → 2.200; IA Gratis → 500 → 1.500 | ✅ |
 | Doble CTA al cierre | Tarjeta final con WhatsApp, email, teléfono y botón «Solicitar cotización por formulario» | ✅ |
@@ -267,6 +267,10 @@ Verificado en navegador: el iframe carga el título correcto y no muestra error.
 | Ficha | `la-paz-2030-ciudad-que-respira`, categoría `documental`, embed `youtube-nocookie.com` con `loading="lazy"` | ✅ |
 
 Verificado en navegador: el iframe carga el título correcto sin error de reproductor. `tsc --noEmit` 0 errores, build CI correcto.
+
+## Ajuste del caso de Rusia — 2026-11-25
+
+El autor aclaró que el destacado debe ser el trabajo **con video**: `world-atomic-week-2025` (ID de YouTube `6CL4rVpVOYU`, oEmbed HTTP 200, título «REPORTAJE WORLD ATOMIC WEEK, MOSCÚ RUSIA»), no la ficha de 2024 que solo tiene fotos. Se creó portada WebP local desde su thumbnail oficial, se registró en `imageDimensions`, se cambió el embed a `youtube-nocookie.com` y se actualizó la tarjeta de `/servicios` con el título completo y el año 2025.
 
 ## Plan de ataque
 

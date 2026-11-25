@@ -2989,6 +2989,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1280,
     "height": 848
   },
+  "/images/portfolio/world-atomic-week-2025/PORTADA_WORLD_ATOMIC_WEEK_2025.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
   "/images/qr-freddy-ticona.jpg": {
     "width": 300,
     "height": 300

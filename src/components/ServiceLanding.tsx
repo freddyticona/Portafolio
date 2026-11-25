@@ -156,13 +156,13 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
       resultEn: 'First film in the series: one week following Dr. Elvis Corini Luna through Isiboro Sécure communities.'
     },
     {
-      image: '/images/portfolio/world-atomic-week/_DSC0014.webp',
-      titleEs: 'World Atomic Week',
-      titleEn: 'World Atomic Week',
-      metaEs: 'Cobertura internacional · Bolivia TV · 2024',
-      metaEn: 'International coverage · Bolivia TV · 2024',
-      resultEs: 'Enviado especial: cobertura del foro y visita a la primera planta nuclear del mundo.',
-      resultEn: 'Special envoy: coverage of the forum and a visit to the world’s first nuclear power plant.'
+      image: '/images/portfolio/world-atomic-week-2025/PORTADA_WORLD_ATOMIC_WEEK_2025.WEBP',
+      titleEs: 'World Atomic Week 2025 — Foro Internacional de la Industria Nuclear (Moscú)',
+      titleEn: 'World Atomic Week 2025 — International Nuclear Industry Forum (Moscow)',
+      metaEs: 'Cobertura internacional · Bolivia TV · 2025',
+      metaEn: 'International coverage · Bolivia TV · 2025',
+      resultEs: 'Enviado especial en Moscú: cobertura del foro nuclear con reportaje publicado en video.',
+      resultEn: 'Special envoy in Moscow: coverage of the nuclear forum with a published video report.'
     },
     {
       image: '/images/portfolio/documental-tipnis/GUIA_TIPNIS_ARTE_SALVAR_VIDAS.WEBP',

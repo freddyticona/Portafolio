@@ -356,11 +356,11 @@ export const portfolioItems: PortfolioItem[] = [
     clientEn: 'Empresa Estatal de Televisión Bolivia TV — International Coverage Moscow, Russia',
     descriptionEs: 'Cobertura del foro internacional World Atomic Week 2025, el mayor evento dedicado a la industria nuclear y afines, celebrado en Moscú en el VDNKh. El foro conmemoró el 80.º aniversario de la industria nuclear rusa y contó con la presencia de representantes de los líderes de los países que desarrollan programas nucleares, destacados expertos mundiales y directivos de grandes empresas. Del 25 al 28 de septiembre de 2025.',
     descriptionEn: 'Coverage of the World Atomic Week 2025 international forum, the largest event dedicated to the nuclear industry and related fields, held in Moscow at VDNKh. The forum commemorated the 80th anniversary of the Russian nuclear industry and featured representatives from leading countries developing nuclear programs, top global experts, and senior executives from major corporations. September 25-28, 2025.',
-    imageUrl: 'https://img.youtube.com/vi/6CL4rVpVOYU/hqdefault.jpg',
+    imageUrl: '/images/portfolio/world-atomic-week-2025/PORTADA_WORLD_ATOMIC_WEEK_2025.WEBP',
     images: [
-      'https://img.youtube.com/vi/6CL4rVpVOYU/hqdefault.jpg'
+      '/images/portfolio/world-atomic-week-2025/PORTADA_WORLD_ATOMIC_WEEK_2025.WEBP'
     ],
-    videoUrl: 'https://www.youtube.com/embed/6CL4rVpVOYU',
+    videoUrl: 'https://www.youtube-nocookie.com/embed/6CL4rVpVOYU?rel=0&modestbranding=1',
     techDetailsEs: ['Cámara Sony FX9', 'Lentes Prime', 'Micrófonos de Ambiente y Lavalier', 'Producción de Campo Internacional'],
     techDetailsEn: ['Sony FX9 Camera', 'Prime Lenses', 'Ambient and Lavalier Microphones', 'International Field Production']
   },
