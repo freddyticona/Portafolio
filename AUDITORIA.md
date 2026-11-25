@@ -219,7 +219,7 @@ Decisión: no ampliar el catálogo (ya tiene 17 servicios). Mejorar la presentac
 | Cambio | Contenido | Estado |
 |---|---|---|
 | Propuesta de valor en el hero | «Documentales, coberturas y videos para instituciones en La Paz. Precio cerrado, sin sorpresas.» / versión EN equivalente | ✅ |
-| Casos reales antes de los precios | 3 tarjetas con imágenes propias ya existentes en `/images/portfolio/`: Médicos en el Tipnis (Abya Yala TV, 2018), World Atomic Week (Bolivia TV, 2024) y Gran Poder (RTP, 2015–2019). Cada una con cliente, año y resultado verificable, y enlace real a `/portafolio` | ✅ |
+| Casos reales antes de los precios | 3 tarjetas con imágenes propias ya existentes en `/images/portfolio/`. **Destacados fijos por decisión del autor (2026-11-25):** dos documentales de «Médicos en el Tipnis» (Abya Yala TV, 2018) y World Atomic Week / Rusia (Bolivia TV). Cada una con cliente, año y resultado verificable, y enlace real a `/portafolio` | ✅ |
 | Catálogo agrupado | Anclas por tipo: Vídeo, Edición, Fotografía, Redes sociales, Herramientas con IA y Planes institucionales. Misma fuente `servicesPricing.json`, sin duplicar precios | ✅ |
 | Orden dentro de cada grupo | Ascendente por `basePrice` (decisión del autor). Verificado: Vídeo 650 → 850 → 1.100 → 1.200 → 2.200; IA Gratis → 500 → 1.500 | ✅ |
 | Doble CTA al cierre | Tarjeta final con WhatsApp, email, teléfono y botón «Solicitar cotización por formulario» | ✅ |
@@ -237,7 +237,7 @@ Verificado en navegador (bloque de casos, anclas y CTA final presentes), `tsc --
 | Cliente | Gobierno Autónomo Municipal de La Paz (declarado por el autor) | ✅ |
 | Portada | WebP 1280×720 extraída del thumbnail oficial `maxresdefault.jpg` (HTTP 200), guardada en `public/images/portfolio/hampaturi-yungas/` y registrada en `imageDimensions` | ✅ |
 | Portafolio | Ficha nueva `hampaturi-yungas-origen-agua`, categoría `documental`, embed `youtube-nocookie.com` con `loading="lazy"`; descripción con los capítulos 0:00 / 0:40 / 1:25 y escenarios Cotapata, Zongo, Hampaturi y Camino del Choro, según el texto del autor | ✅ |
-| /servicios | La tarjeta de casos «Gran Poder, La Paz» se reemplaza por este video. Gran Poder **permanece** en `/portafolio` (trabajo real para RTP, cliente distinto) | ✅ |
+| /servicios | Decisión posterior del autor: los destacados quedan **fijos** como documentales «Médicos en el Tipnis» + cobertura en Rusia. Este video permanece solo en `/portafolio` | ✅ |
 
 Verificado en navegador: el iframe del portafolio carga el título correcto y no muestra error de reproductor. `tsc --noEmit` 0 errores, build CI correcto.
 

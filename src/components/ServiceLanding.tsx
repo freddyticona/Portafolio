@@ -142,16 +142,18 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
   };
 
   // Casos reales del portafolio: la sección de pruebas va antes de los precios.
-  // Solo se usan títulos, años e imágenes que ya existen en src/translations.ts.
+  // Destacados fijos por decisión del autor: documentales "Médicos en el Tipnis"
+  // y la cobertura internacional en Rusia. Los videos institucionales de la
+  // Alcaldía viven en /portafolio pero NO se destacan aquí.
   const cases = [
     {
       image: '/images/portfolio/documental-tipnis/GUIA_TIPNIS_EL_PLACER_DE_SERVIR.WEBP',
-      titleEs: 'Médicos en el Tipnis',
-      titleEn: 'Doctors in the TIPNIS',
+      titleEs: 'El placer de servir | Médicos en el Tipnis',
+      titleEn: 'The Pleasure of Serving | Doctors in the TIPNIS',
       metaEs: 'Documental · Abya Yala Televisión · 2018',
       metaEn: 'Documentary · Abya Yala Television · 2018',
-      resultEs: 'Serie de 3 documentales + galería de campo, con caminatas de 5 a 7 horas con equipo de cine.',
-      resultEn: 'Three documentaries plus a field gallery, with 5 to 7-hour hikes carrying film gear.'
+      resultEs: 'Primer documental de la serie: una semana siguiendo al médico Elvis Corini Luna por comunidades del Isiboro Sécure.',
+      resultEn: 'First film in the series: one week following Dr. Elvis Corini Luna through Isiboro Sécure communities.'
     },
     {
       image: '/images/portfolio/world-atomic-week/_DSC0014.webp',
@@ -163,13 +165,13 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
       resultEn: 'Special envoy: coverage of the forum and a visit to the world’s first nuclear power plant.'
     },
     {
-      image: '/images/portfolio/hampaturi-yungas/PORTADA_HAMPATURI_YUNGAS_ORIGEN_AGUA.WEBP',
-      titleEs: 'Hampaturi y los Yungas: El Origen del Agua',
-      titleEn: 'Hampaturi and the Yungas: The Origin of Water',
-      metaEs: 'Documental institucional · Gobierno Autónomo Municipal de La Paz · 2026',
-      metaEn: 'Institutional documentary · La Paz Municipal Government · 2026',
-      resultEs: 'Guion y voz en off propios sobre biodiversidad, nevados y seguridad hídrica, en tres capítulos.',
-      resultEn: 'Own script and voice-over on biodiversity, snow peaks and water security, in three chapters.'
+      image: '/images/portfolio/documental-tipnis/GUIA_TIPNIS_ARTE_SALVAR_VIDAS.WEBP',
+      titleEs: 'El arte de salvar vidas | Médicos en el Tipnis',
+      titleEn: 'The Art of Saving Lives | Doctors in the TIPNIS',
+      metaEs: 'Documental · Abya Yala Televisión · 2018',
+      metaEn: 'Documentary · Abya Yala Television · 2018',
+      resultEs: 'Segundo documental de la serie: una semana con el médico Max Choque entre selva, fauna y jornadas de atención.',
+      resultEn: 'Second film in the series: one week with Dr. Max Choque among jungle, wildlife and days of medical care.'
     }
   ];
 
