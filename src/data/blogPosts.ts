@@ -2941,5 +2941,15 @@ export const blogPosts: BlogPost[] = [
     categoryEs: "Guías y Trámites", categoryEn: "Guides & Procedures",
     enableComments: true, featured: false, views: 1,
     location: "La Paz, Bolivia", region: "Bolivia"
+  },
+  {
+    id: "1455", contentType: "analysis", slug: "certificaciones-sin-online-bolivia-2026",
+    titleEs: "Certificaciones del SIN en línea Bolivia 2026: RNC y NIT", titleEn: "SIN online certificates Bolivia 2026: RNC and NIT",
+    excerptEs: "Cómo obtener en línea la Certificación de Registro en el RNC y la de No Tenencia de NIT: gratis, con código QR y envío al correo, sin filas.", excerptEn: "How to get the RNC Registration Certificate and the No-NIT Certificate online in Bolivia: free, with a QR code and email delivery, no queues.",
+    date: "2026-11-25", readTimeEs: "9 min de lectura", readTimeEn: "9 min read",
+    imageUrl: "/images/portadas/CERTIFICACIONES_SIN_BOLIVIA_2026.WEBP", imageCaption: "Portada original de la guía: freddydev.net",
+    categoryEs: "Guías y Trámites", categoryEn: "Guides & Procedures",
+    enableComments: true, featured: false, views: 1,
+    location: "La Paz, Bolivia", region: "Bolivia"
   }
 ];
