@@ -286,6 +286,19 @@ El autor aclaró que el destacado debe ser el trabajo **con video**: `world-atom
 
 Fuentes: https://www.gob.bo/tramites/duplicado-de-certificado-de-matrimonio-src-dcm-13 (HTTP 200, JSON oficial con costos y requisitos) y https://web.oep.org.bo/registro-civico/servicios-registro-civil/ (HTTP 200), verificadas el 25/11/2026 y archivadas en `assets/fuentes-oficiales/matrimonio/`. Cuerpo ES/EN y metadatos reescritos; título 57 caracteres, descripciones 148/149; aviso PENDIENTE visible. `tsc --noEmit` 0 errores, build CI correcto.
 
+## Guía [79] Cédula de Identidad — enriquecimiento 2026-11-25
+
+| Dato | Antes | Valor oficial verificado | Estado |
+|---|---|---|---|
+| Costo | Bs 17 para cada trámite y «CIE Bs 100 aproximado» | **Bs 17 costo único** para la cédula física; certificados Bs 10; CIE regular Bs 600, estudiantes/discapacidad Bs 300, duplicado Bs 200, certificación Bs 20, licencia de cortesía Bs 50, refugiados sin costo | ✅ VERIFICADO / ❌ CORREGIDO |
+| Renovación y reposición | Listas de documentos, fotos y certificado de domicilio | El SEGIP indica **acudir y pagar, sin presentar documentos**; solo se llevan originales si se actualiza estado civil o profesión | ❌ INCORRECTO → CORREGIDO |
+| Reposición | «vigencia indefinida» | Conserva datos, fotografía y **fecha de vigencia original** | ✅ CORREGIDO |
+| Primera vez | Partida de nacimiento «del SEGIP o Registro Civil», fotos y domicilio | Certificado de Nacimiento original del **SERECÍ**, Resolución Administrativa original o copia legalizada y, cuando corresponda, Certificación de Partida Única | ❌ INCORRECTO → CORREGIDO |
+| CIE | Bs 100 aproximado y multa sin detalle | Bs 600 / Bs 300; **25 días hábiles** desde notificación de DIGEMIG y multa de **Bs 10 por día** | ❌ INCORRECTO → CORREGIDO |
+| Plazo, vigencia «indefinida», cédula digital, horarios y turnos | Afirmados como vigentes | Sin publicación en las fichas consultadas | ⚠️ PENDIENTE con aviso visible |
+
+Fuentes: https://www.segip.gob.bo/cedula-de-identidad/, https://www.segip.gob.bo/tramites-cedula-de-identidad/ y https://www.segip.gob.bo/cedulas-de-identidad-de-extranjeros/ (HTTP 200), verificadas el 25/11/2026 y archivadas en `assets/fuentes-oficiales/cedula-identidad/`. Cuerpo ES/EN reescrito; título 52 caracteres y descripciones 140/145. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
