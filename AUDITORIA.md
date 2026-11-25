@@ -136,11 +136,11 @@ No se encontró PDF oficial específico para este trámite en el sitio del SEGIP
 
 Nota: la entrada es `ciudadaniadigital.bo` (no `yasta.bo`, que no resuelve DNS). Se verificó el pre-registro en línea y la opción de finalización presencial en la ficha oficial de AGETIC. Portada vectorial propia: `public/images/portadas/CIUDADANIA_DIGITAL_BOLIVIA_2026.WEBP`.
 
-Nota metodológica [1451]: se corrigió el planteamiento inicial de «tres canales para el mismo servicio». La guía distingue **Servicio A** (cédula digital en app) y **Servicio B** (reposición/duplicado físico). La nota oficial de SEGIP está fechada **16/09/2026**, no 15/09/2026. Portada: `public/images/portadas/SEGIP_DIGITAL_CAJERO_VENTANILLA_2026.WEBP`.
+Nota metodológica [1522]: se corrigió el planteamiento inicial de «tres canales para el mismo servicio». La guía distingue **Servicio A** (cédula digital en app) y **Servicio B** (reposición/duplicado físico). La nota oficial de SEGIP está fechada **16/09/2026**, no 15/09/2026. Portada: `public/images/portadas/SEGIP_DIGITAL_CAJERO_VENTANILLA_2026.WEBP`.
 
-Nota metodológica [1452]: el texto original del DS 5595 en la Gaceta **no dice «1 de junio»**; establece que entra en vigor tras la reglamentación (RM 079/26 de 28/04/2026) y da 30 días hábiles para ajustes. La fecha del 1 de junio de 2026 proviene del portal oficial del Ministerio de la Presidencia, que es la fuente citada en la guía. Documentos archivados en `assets/fuentes-oficiales/tranca-cero/`: DS 5595 (Gaceta y portal), DS 5779, reglamentación RM 079/26 y snapshot del portal. Portada: `public/images/portadas/TRANCA_CERO_BOLIVIA_2026.WEBP`.
+Nota metodológica [1523]: el texto original del DS 5595 en la Gaceta **no dice «1 de junio»**; establece que entra en vigor tras la reglamentación (RM 079/26 de 28/04/2026) y da 30 días hábiles para ajustes. La fecha del 1 de junio de 2026 proviene del portal oficial del Ministerio de la Presidencia, que es la fuente citada en la guía. Documentos archivados en `assets/fuentes-oficiales/tranca-cero/`: DS 5595 (Gaceta y portal), DS 5779, reglamentación RM 079/26 y snapshot del portal. Portada: `public/images/portadas/TRANCA_CERO_BOLIVIA_2026.WEBP`.
 
-Nota metodológica [1453]: se verificó que **PTC no es un portal de trámites para ciudadanos**: su portada indicó «No hay trámites disponibles» y está orientada a entidades certificadoras; exige Ciudadanía Digital para iniciar sesión. La ficha de gob.bo sí incluye «Persona Natural» y el trámite se ejecuta en `solicitud.firmadigital.bo`. Por tanto se reemplazó el tema original por una guía ciudadana sobre el nuevo régimen de firma digital AGETIC (DS 5519), explicando los tres roles: gob.bo consulta, PTC entidades certificadoras, firmadigital.bo ejecución. Archivos en `assets/fuentes-oficiales/firma-digital-agetic/`. Portada: `public/images/portadas/FIRMA_DIGITAL_AGETIC_BOLIVIA_2026.WEBP`.
+Nota metodológica [1524]: se verificó que **PTC no es un portal de trámites para ciudadanos**: su portada indicó «No hay trámites disponibles» y está orientada a entidades certificadoras; exige Ciudadanía Digital para iniciar sesión. La ficha de gob.bo sí incluye «Persona Natural» y el trámite se ejecuta en `solicitud.firmadigital.bo`. Por tanto se reemplazó el tema original por una guía ciudadana sobre el nuevo régimen de firma digital AGETIC (DS 5519), explicando los tres roles: gob.bo consulta, PTC entidades certificadoras, firmadigital.bo ejecución. Archivos en `assets/fuentes-oficiales/firma-digital-agetic/`. Portada: `public/images/portadas/FIRMA_DIGITAL_AGETIC_BOLIVIA_2026.WEBP`.
 
 ## Auditoría técnica de `/guias` — 2026-11-22
 
@@ -300,6 +300,12 @@ Fuentes: https://www.gob.bo/tramites/duplicado-de-certificado-de-matrimonio-src-
 | Plazo, vigencia «indefinida», cédula digital, horarios y turnos | Afirmados como vigentes | Sin publicación en las fichas consultadas | ⚠️ PENDIENTE con aviso visible |
 
 Fuentes: https://www.segip.gob.bo/cedula-de-identidad/, https://www.segip.gob.bo/tramites-cedula-de-identidad/ y https://www.segip.gob.bo/cedulas-de-identidad-de-extranjeros/ (HTTP 200), verificadas el 25/11/2026 y archivadas en `assets/fuentes-oficiales/cedula-identidad/`. Cuerpo ES/EN reescrito; título 52 caracteres y descripciones 140/145. `tsc --noEmit` 0 errores, build CI correcto.
+
+## Corrección de IDs duplicados — 2026-11-25
+
+Las siete guías nuevas (1450–1456) usaban IDs que ya pertenecían a artículos de blog, por lo que la SPA resolvía el artículo equivocado al abrir la guía (por ejemplo, `/guias/reporta-tu-tranca-bolivia-2026` mostraba el blog de J-cut). Se reasignaron a IDs libres 1521–1527 y se movieron los cuerpos a su grupo `id % 39`. Los slugs y las URLs no cambian. Además se corrigió el enlace roto `/guias/nit-sin-bolivia-2026` → `/guias/guia-nit-sin-bolivia-2026` (4 apariciones).
+
+Segunda causa encontrada: los metadatos de tres guías (1525–1527) tenían varios campos en una sola línea, y `scripts/extract-articles.js` solo lee un campo por línea, por lo que no se prerenderizaban y daban 404. Se expandieron a un campo por línea. Verificado: 141 artículos y **48 guías** extraídos, 0 IDs duplicados y **0 enlaces internos rotos** en los cuerpos. Las cuatro rutas revisadas muestran su título y cuerpo correctos, sin contenido de J-cut.
 
 ## Plan de ataque
 

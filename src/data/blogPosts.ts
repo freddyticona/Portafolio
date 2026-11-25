@@ -2849,7 +2849,7 @@ export const blogPosts: BlogPost[] = [
     region: "Bolivia"
   },
   {
-    id: "1450",
+    id: "1521",
     contentType: "analysis",
     slug: "ciudadania-digital-bolivia-2026-registro-usos",
     titleEs: "Ciudadanía Digital Bolivia 2026: registro y usos",
@@ -2870,7 +2870,7 @@ export const blogPosts: BlogPost[] = [
     region: "Bolivia"
   },
   {
-    id: "1451",
+    id: "1522",
     contentType: "analysis",
     slug: "segip-digital-cajero-ventanilla-bolivia-2026",
     titleEs: "Cédula digital y reposición física SEGIP Bolivia 2026",
@@ -2891,7 +2891,7 @@ export const blogPosts: BlogPost[] = [
     region: "Bolivia"
   },
   {
-    id: "1452",
+    id: "1523",
     contentType: "analysis",
     slug: "tranca-cero-bolivia-2026-sin-fotocopias",
     titleEs: "Tranca Cero Bolivia 2026: qué ya no piden",
@@ -2912,7 +2912,7 @@ export const blogPosts: BlogPost[] = [
     region: "Bolivia"
   },
   {
-    id: "1453",
+    id: "1524",
     contentType: "analysis",
     slug: "firma-digital-bolivia-2026-certificado-agetic-token",
     titleEs: "Firma digital Bolivia 2026: certificado AGETIC y token",
@@ -2933,7 +2933,9 @@ export const blogPosts: BlogPost[] = [
     region: "Bolivia"
   },
   {
-    id: "1454", contentType: "analysis", slug: "reporta-tu-tranca-bolivia-2026",
+    id: "1525",
+    contentType: "analysis",
+    slug: "reporta-tu-tranca-bolivia-2026",
     titleEs: "Reporta Tu Tranca Bolivia 2026: cómo denunciar trabas", titleEn: "Reporta Tu Tranca Bolivia 2026: how to report red tape",
     excerptEs: "Cómo usar Reporta Tu Tranca, el canal oficial del DS 5595, para denunciar fotocopias y requisitos innecesarios: pasos, protección y dictamen vinculante.", excerptEn: "How to use Reporta Tu Tranca, the official DS 5595 channel, to report ID photocopies and unnecessary requirements: steps, protection and binding ruling.",
     date: "2026-11-25", readTimeEs: "9 min de lectura", readTimeEn: "9 min read",
@@ -2943,7 +2945,9 @@ export const blogPosts: BlogPost[] = [
     location: "La Paz, Bolivia", region: "Bolivia"
   },
   {
-    id: "1455", contentType: "analysis", slug: "certificaciones-sin-online-bolivia-2026",
+    id: "1526",
+    contentType: "analysis",
+    slug: "certificaciones-sin-online-bolivia-2026",
     titleEs: "Certificaciones del SIN en línea Bolivia 2026: RNC y NIT", titleEn: "SIN online certificates Bolivia 2026: RNC and NIT",
     excerptEs: "Cómo obtener en línea la Certificación de Registro en el RNC y la de No Tenencia de NIT: gratis, con código QR y envío al correo, sin filas.", excerptEn: "How to get the RNC Registration Certificate and the No-NIT Certificate online in Bolivia: free, with a QR code and email delivery, no queues.",
     date: "2026-11-25", readTimeEs: "9 min de lectura", readTimeEn: "9 min read",
@@ -2953,7 +2957,9 @@ export const blogPosts: BlogPost[] = [
     location: "La Paz, Bolivia", region: "Bolivia"
   },
   {
-    id: "1456", contentType: "analysis", slug: "declaracion-jurada-bienes-rentas-online-bolivia-2026",
+    id: "1527",
+    contentType: "analysis",
+    slug: "declaracion-jurada-bienes-rentas-online-bolivia-2026",
     titleEs: "Declaración Jurada de Bienes en línea Bolivia 2026", titleEn: "Online asset declaration Bolivia 2026: DJBR guide",
     excerptEs: "Quiénes deben presentar la DJBR, cada cuánto hacerlo y cómo enviarla en línea con Ciudadanía Digital: requisitos, plazos y fuentes oficiales.", excerptEn: "Who must file Bolivia's asset declaration, how often and how to submit it online with Digital Citizenship: requirements, deadlines and sources.",
     date: "2026-11-25", readTimeEs: "10 min de lectura", readTimeEn: "10 min read",
