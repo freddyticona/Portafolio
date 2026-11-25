@@ -272,6 +272,20 @@ Verificado en navegador: el iframe carga el título correcto sin error de reprod
 
 El autor aclaró que el destacado debe ser el trabajo **con video**: `world-atomic-week-2025` (ID de YouTube `6CL4rVpVOYU`, oEmbed HTTP 200, título «REPORTAJE WORLD ATOMIC WEEK, MOSCÚ RUSIA»), no la ficha de 2024 que solo tiene fotos. Se creó portada WebP local desde su thumbnail oficial, se registró en `imageDimensions`, se cambió el embed a `youtube-nocookie.com` y se actualizó la tarjeta de `/servicios` con el título completo y el año 2025.
 
+## Guía [171] Certificado de Matrimonio — enriquecimiento 2026-11-25
+
+| Dato | Antes | Valor oficial verificado | Estado |
+|---|---|---|---|
+| Costo del duplicado | Bs 51 | **Bs 34** (concepto «VALORADA»), pago en efectivo en ventanilla | ❌ INCORRECTO → CORREGIDO |
+| Certificado simple | Bs 34 afirmado como vigente | Sin publicación en la ficha consultada | ⚠️ PENDIENTE (retirado como dato) |
+| Plazo | «mismo día a 72 horas» | La ficha indica **5 minutos** de duración del trámite; 72 horas no confirmadas | ❌ INCORRECTO → CORREGIDO |
+| Modalidad | Trámite en línea | Solo **presencial** (`esVirtual: false`) | ❌ INCORRECTO → CORREGIDO |
+| Requisitos y solicitantes | Generales sin fuente | Cédula / cédula de extranjero / pasaporte; titulares, hijos dentro del matrimonio o apoderado; extranjeros con certificado de nacimiento apostillado | ✅ AÑADIDO |
+| Marco legal | No detallado | CP art. 24; Ley 018 art. 71.3; DS 24247 arts. 38–45; DS 27419 art. 2 | ✅ AÑADIDO |
+| Oficina La Paz | No indicada | SERECÍ La Paz, zona Central, Av. 16 de Julio N° 23 | ✅ AÑADIDO |
+
+Fuentes: https://www.gob.bo/tramites/duplicado-de-certificado-de-matrimonio-src-dcm-13 (HTTP 200, JSON oficial con costos y requisitos) y https://web.oep.org.bo/registro-civico/servicios-registro-civil/ (HTTP 200), verificadas el 25/11/2026 y archivadas en `assets/fuentes-oficiales/matrimonio/`. Cuerpo ES/EN y metadatos reescritos; título 57 caracteres, descripciones 148/149; aviso PENDIENTE visible. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
