@@ -2817,6 +2817,10 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 1280,
     "height": 2276
   },
+  "/images/portfolio/gestion-residuos-la-paz/PORTADA_GESTION_RESIDUOS_LA_PAZ.WEBP": {
+    "width": 1280,
+    "height": 720
+  },
   "/images/portfolio/gran-poder/DSC_1848.webp": {
     "width": 1280,
     "height": 853

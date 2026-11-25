@@ -457,6 +457,27 @@ export const portfolioItems: PortfolioItem[] = [
     techDetailsEn: ['Sony FS7 Camera', 'Sigma Cine Prime Lenses', 'Audio Recorder and Ambient Microphones', 'Field production in indigenous territory']
   },
   {
+    id: 'gestion-residuos-la-paz',
+    title: 'Gestión de residuos sólidos y economía circular en La Paz',
+    titleEn: 'Solid waste management and circular economy in La Paz',
+    category: 'documental',
+    categoryLabelEs: 'Documental institucional',
+    categoryLabelEn: 'Institutional documentary',
+    roleEs: 'Realización y postproducción audiovisual',
+    roleEn: 'Audiovisual production and post-production',
+    year: '2026',
+    clientEs: 'Gobierno Autónomo Municipal de La Paz',
+    clientEn: 'La Paz Municipal Government',
+    descriptionEs: 'Video institucional sobre la gestión de residuos sólidos en La Paz, donde se generan entre 550 y 650 toneladas diarias: el recorrido de los desechos hasta el relleno sanitario de Sak\'a Churu, el tratamiento de lixiviados y las acciones municipales hacia la economía circular. Incluye el Proyecto VIDA de recolección y recuperación de reciclables, la Plataforma de Economía Circular, la separación de residuos desde casa y la futura Planta de Tratamiento Mecánico Biológico (PTMB). Capítulos: 00:05 El problema de los residuos; 00:35 Sak\'a Churu y los lixiviados; 01:54 Proyecto VIDA y Economía Circular; 03:05 Educación ambiental y PTMB; 03:55 Cierre. Realización y postproducción audiovisual: Freddy Ticona Guzman.',
+    descriptionEn: 'Institutional video on solid waste management in La Paz, where 550 to 650 tons are generated daily: the route of waste to the Sak\'a Churu landfill, leachate treatment and municipal actions toward a circular economy. It covers the VIDA Project for collection and recovery of recyclables, the Circular Economy Platform, household waste separation and the future Mechanical Biological Treatment Plant (PTMB). Chapters: 00:05 The waste problem; 00:35 Sak\'a Churu and leachates; 01:54 VIDA Project and Circular Economy; 03:05 Environmental education and PTMB; 03:55 Closing. Production and post-production: Freddy Ticona Guzman.',
+    imageUrl: '/images/portfolio/gestion-residuos-la-paz/PORTADA_GESTION_RESIDUOS_LA_PAZ.WEBP',
+    images: ['/images/portfolio/gestion-residuos-la-paz/PORTADA_GESTION_RESIDUOS_LA_PAZ.WEBP'],
+    videoUrl: 'https://www.youtube-nocookie.com/embed/Q4Si1EQoHe4?rel=0&modestbranding=1',
+    isCaseStudy: false,
+    techDetailsEs: ['Realización y postproducción audiovisual', 'Guion y voz en off institucionales', 'Grabación en relleno sanitario y plantas', 'Edición y corrección de color'],
+    techDetailsEn: ['Audiovisual production and post-production', 'Institutional script and voice-over', 'Shooting at the landfill and facilities', 'Editing and color grading']
+  },
+  {
     id: 'hampaturi-yungas-origen-agua',
     title: 'Hampaturi y los Yungas: El Origen del Agua',
     titleEn: 'Hampaturi and the Yungas: The Origin of Water',

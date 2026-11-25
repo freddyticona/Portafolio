@@ -241,6 +241,20 @@ Verificado en navegador (bloque de casos, anclas y CTA final presentes), `tsc --
 
 Verificado en navegador: el iframe del portafolio carga el título correcto y no muestra error de reproductor. `tsc --noEmit` 0 errores, build CI correcto.
 
+## Video institucional de residuos sólidos — 2026-11-25
+
+| Elemento | Dato | Estado |
+|---|---|---|
+| Video | `https://youtu.be/Q4Si1EQoHe4` — oEmbed HTTP 200, sin restricción de visibilidad | ✅ REPRODUCIBLE |
+| Título y autor (oEmbed) | «Gestión de residuos sólidos y economía circular en La Paz \\| Video institucional» — Freddy Ticona Guzman | ✅ VERIFICADO |
+| Año | `publishDate`/`uploadDate`: 2026-11-25 | ✅ VERIFICADO |
+| Cliente y rol | Gobierno Autónomo Municipal de La Paz; el propio video firma «Realización y postproducción audiovisual: Freddy Ticona Guzman» | ✅ VERIFICADO |
+| Cifras y capítulos | 550–650 t/día, relleno Sak'a Churu, lixiviados, Proyecto VIDA, Plataforma de Economía Circular, PTMB y capítulos 00:05 / 00:35 / 01:54 / 03:05 / 03:55 — tomados de la descripción oficial del video, no inventados | ✅ |
+| Portada | WebP 1280×720 desde `maxresdefault.jpg` (HTTP 200), registrada en `imageDimensions` | ✅ |
+| Ficha | `gestion-residuos-la-paz`, categoría `documental`, embed `youtube-nocookie.com` con `loading="lazy"` | ✅ |
+
+Verificado en navegador: el iframe carga el título correcto y no muestra error. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
