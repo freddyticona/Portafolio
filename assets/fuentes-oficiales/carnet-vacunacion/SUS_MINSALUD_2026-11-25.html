@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SUS - Sistema Único de Salud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="fvsRiTgB1uiGc2lhuFWrHY82yv3ehGKCEdbkYCgt">
+    <meta name="description" content="SUS - Sistema Único de Salud">
+    <meta name="author" content="Lic. Jose Luis Villazante Q.">
+    <link rel="icon" href="ico/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="assets/css/matter-icon.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/text-rotator.css">
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="mblue" href="assets/css/presets/mblue.css">
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="blue" href="assets/css/presets/blue.css">
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="green" href="assets/css/presets/green.css">
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="red" href="assets/css/presets/red.css">
+</head>
+
+<body id="matter-top" data-spy="scroll" data-offset="20" data-target="#navbar">
+    <style>
+  @media (max-width: 768px) {
+    #myModalLarge .modal-dialog {
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      max-height: 90vh;
+      margin: 5vh auto;
+    }
+  }
+</style>
+<div class="modal fade" id="myModalLarge" data-keyboard="false" data-backdrop="static">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="form-modalLarge" id="form-modalLarge"></div>
+    </div>
+  </div>
+</div>
+
+    <header class="logo-menu" id="home">
+        <!-- Nav Menu Section -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">
+                            Toggle navigation
+                        </span>
+                        <span class="icon-bar">
+                        </span>
+                        <span class="icon-bar">
+                        </span>
+                        <span class="icon-bar">
+                        </span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <!--
+              <img src="assets/img/logo oficial.png" alt="">
+              -->
+                    </a>
+                </div>
+
+                <div class="navbar-collapse collapse" id="navbar">
+                    <div class="visible-lg">
+                        <span class="to-top pull-right">
+                            <a href="#matter-top">
+                                <i class="fa fa-angle-up fa-2x">
+                                </i>
+                            </a>
+                        </span>
+                        <span class="to-bottom pull-right">
+                            <a href="#services">
+                                <i class="fa fa-angle-down fa-2x floating">
+                                </i>
+                            </a>
+                        </span>
+                    </div>
+                    <ul class="nav navbar-nav animated-nav navbar-right matter-main-nav" id="nav">
+                        <li class="active">
+                            <a href="#home">
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#pricing">
+                                Consulta tu Adscripción
+                            </a>
+                        </li>
+
+                                                <li>
+                            <a href="https://sus.minsalud.gob.bo/login">
+                                Iniciar Sesi&oacute;n
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Nav Menu Section End -->
+    </header>
+    <section id="slider">
+        <!-- Main Slider Section -->
+        <div id="carousel-area">
+            <div id="carousel-slider" class="carousel slide" data-interval="5000">
+                <div class="carousel-inner">
+
+                    <div class="item active" style="background-image: url(assets/img/fondo_1.jpeg);background-size: 100% 100%;">
+
+                        <div class="carousel-caption">
+
+                            <h1 class="animated-late fadeInDown">
+                                <div class="login-logo">
+                                    <a href="#">
+                                        <img class="img-thumbnail" alt="logo" width="200" src="https://sus.minsalud.gob.bo/img/logo.jpg">
+                                    </a>
+                                </div>
+                            </h1>
+                            <h2 class="animated-late fadeInUpQuick delay-1">
+                                ¿Qu&eacute; es el SUS? <br>
+                                Es la manera que el Estado garantiza el acceso universal, equitativo, oportuno y
+                                gratuito a la
+                                atenci&oacute;n integral en salud de la poblaci&oacute;n boliviana.<br>
+                                Ver.1.0.0
+                            </h2>
+                                                        <a class="btn btn-border btn-large animated fadeInUpQuick delay-1-8" href="https://sus.minsalud.gob.bo/login">
+                                <i class="fa fa-coffee">
+                                </i>
+                                Iniciar Sesi&oacute;n
+                            </a>
+                                                    </div>
+                    </div>
+                </div>
+                <a class="left carousel-control fadeInLeft" href="#carousel" data-slide="prev">
+                    <img src="assets/img/slider/btn-prev.png" alt="previuos button">
+                </a>
+                <a class="right carousel-control fadeInRight" href="#carousel" data-slide="next">
+                    <img src="assets/img/slider/btn-next.png" alt="next button">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Main Slider Section End-->
+
+    <!-- Pricing Table Section -->
+
+    <section id="pricing">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-title">
+                    Consulta tu Adscripci&oacute;n
+                </h1>
+                
+                <div class="pricing row">
+                    <div class="col-md-8 col-md-offset-2">
+  <div class="panel panel-default">
+    <div class="panel-heading"><strong>Datos a buscar</strong></div>
+    <div class="panel-body">
+
+      <div class="alert alert-info" style="margin-bottom: 15px;">
+        <strong>Atención!</strong> Los campos marcados con <span class="text-danger">(*)</span> son obligatorios.
+        Al menos <strong>un apellido</strong> es requerido.
+      </div>
+
+      <form action="#" onsubmit="fn_buscar_adscrito_pagina(); return false;" method="post"
+            id="fn_buscar_adscrito_pagina" accept-charset="UTF-8"
+            style="margin: 0;">
+
+        
+        <div style="display:flex; gap:12px; margin-bottom:12px;">
+          <div style="flex:1;">
+            <label for="priapellido" style="margin-bottom:4px;">
+              Primer apellido <small class="text-muted">(al menos uno)</small>
+            </label>
+            <input type="text" class="form-control" id="priapellido" name="priapellido"
+                   autocomplete="off" placeholder="Ej. PEREZ"
+                   onpaste="return false" oninput="this.value = this.value.toUpperCase();">
+          </div>
+          <div style="flex:1;">
+            <label for="segapellido" style="margin-bottom:4px;">
+              Segundo apellido <small class="text-muted">(al menos uno)</small>
+            </label>
+            <input type="text" class="form-control" id="segapellido" name="segapellido"
+                   autocomplete="off" placeholder="Ej. GUTIERREZ"
+                   onpaste="return false" oninput="this.value = this.value.toUpperCase();">
+          </div>
+          <div style="flex:1;">
+            <label for="nombres" style="margin-bottom:4px;">
+              Nombre(s) <span class="text-danger">(*)</span>
+            </label>
+            <input type="text" class="form-control" id="nombres" name="nombres"
+                   autocomplete="off" placeholder="Ej. JUAN JOSE"
+                   onpaste="return false" oninput="this.value = this.value.toUpperCase();" required>
+          </div>
+        </div>
+
+        
+        <div style="display:flex; gap:12px; margin-bottom:12px;">
+          <div style="flex:1;">
+            <label for="nrodocumento" style="margin-bottom:4px;">
+              Documento de identidad <span class="text-danger">(*)</span>
+            </label>
+            <input type="text" class="form-control" id="nrodocumento" name="nrodocumento"
+                   autocomplete="off" placeholder="Ej. 1234567 o 1234567-1H"
+                   onpaste="return false" oninput="this.value = this.value.toUpperCase();" required>
+          </div>
+          <div style="flex:1;">
+            <label for="fechanacimiento" style="margin-bottom:4px;">
+              Fecha de nacimiento <span class="text-danger">(*)</span>
+            </label>
+            <input type="date" class="form-control" id="fechanacimiento" name="fechanacimiento" required>
+          </div>
+        </div>
+
+        
+        <div style="text-align:center; margin-bottom:12px;">
+          <label for="captcha" style="display:block; margin-bottom:6px;">
+            Ingrese el texto del captcha <span class="text-danger">(*)</span>
+          </label>
+          <img id="captcha-img" src="https://sus.minsalud.gob.bo/captcha" alt="captcha"
+               style="border:1px solid #ccc; border-radius:4px; cursor:pointer; display:inline-block;"
+               title="Clic para refrescar el captcha">
+          <div style="margin-top:4px;">
+            <small class="text-muted">
+              <i class="glyphicon glyphicon-refresh"></i>
+              ¿No puede leerlo? <a href="#" id="refresh-captcha">Generar nuevo</a>
+            </small>
+          </div>
+          <div style="max-width:200px; margin:8px auto 0;">
+            <input type="text" id="captcha" name="captcha" class="form-control"
+                   style="text-align:center; letter-spacing:6px; text-transform:uppercase;"
+                   maxlength="5" autocomplete="off" required placeholder="_ _ _ _ _">
+          </div>
+        </div>
+
+        
+        <button type="submit" id="boton_submit" class="btn btn-primary btn-block">
+          <i class="glyphicon glyphicon-search"></i> Buscar
+        </button>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    function refreshCaptcha() {
+      var img = document.getElementById('captcha-img');
+      img.src = 'https://sus.minsalud.gob.bo/captcha?' + new Date().getTime();
+      var input = document.getElementById('captcha');
+      input.value = '';
+      input.focus();
+    }
+    document.getElementById('refresh-captcha').addEventListener('click', function (e) {
+      e.preventDefault();
+      refreshCaptcha();
+    });
+    document.getElementById('captcha-img').addEventListener('click', function () {
+      refreshCaptcha();
+    });
+  })();
+</script>                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Table Section End -->
+
+    <!-- Conatct Section -->
+    <section id="contact">
+
+    </section>
+    <!-- Conatct Section End-->
+
+    <!-- Footer Section -->
+    <footer id="matter-footer">
+
+        <!-- Copyright Section-->
+        <div class="copyright">
+            <div class="container">
+                <p>
+                    <br>
+                    Programa Nacional del Sistema Unico de Informaci&oacute;n en Salud - PNSUIS<br>
+                    Calle Fernando Guachalla. No. 342, entre Avenidas 6 de Agosto y 20 de Octubre. Edificio Victor piso
+                    3. Zona
+                    Sopocachi<br>
+                    <!-- Tel&eacute;fono: (591 - 2) 2 - 440590 Fax: (591 - 2) 2 - 440336 - -->
+                    <a class="link" href="http://snis.minsalud.gob.bo" target="_blank">http://snis.minsalud.gob.bo</a>
+                    <br>
+                    © SUS - 2024
+                </p>
+            </div>
+        </div>
+        <!-- Copyright Section End-->
+    </footer>
+    <!-- footer Section End -->
+
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/text-rotator.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/smooth-on-scroll.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/style.changer.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        // Función para validar la entrada de CI
+        function valida_ci_pagina(e) {
+            var tecla = e.key;
+            if (tecla === "Backspace" || tecla === "Tab" || tecla === "-") {
+                return true;
+            }
+            var patron = /[A-Z0-9-]/;
+            return patron.test(tecla);
+        }
+
+        // Función genérica para manejar errores AJAX
+        function handleAjaxError(jqXHR) {
+            var errorsHtml = "<span style='font-size:14px; text-align: left;'>Ha ocurrido un error al validar el formulario<br><ul>";
+            if (jqXHR.responseJSON && jqXHR.responseJSON.errors) {
+                $.each(jqXHR.responseJSON.errors, function(i, item) {
+                    errorsHtml += ('<li type="disc" >' + item + '</li>');
+                });
+            }
+            errorsHtml += '</ul></span>';
+            Swal.fire({
+                title: 'Error!',
+                html: errorsHtml,
+                type: 'error',
+                confirmButtonText: 'Aceptar',
+                padding: '3em',
+                background: '#fff',
+                backdrop: `rgba(0, 0, 0, 0.6) center left no-repeat`
+            });
+        }
+
+        // Función genérica para realizar una búsqueda AJAX
+        function performAjaxSearch(url, formData, resultContainer, submitButton) {
+            var button = $(submitButton);
+            button.prop("disabled", true).text("BUSCANDO...").removeClass('btn-primary').addClass('btn-warning');
+            $.ajax({
+                url: url,
+                data: formData ? formData.serialize() : null,
+                type: 'GET',
+                success: function(data) {
+                    $(resultContainer).html(data);
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    handleAjaxError(jqXHR);
+                },
+                complete: function() {
+                    button.prop("disabled", false).text("BUSCAR").removeClass('btn-warning').addClass('btn-primary');
+                    // Refrescar captcha automáticamente tras cada búsqueda (exitosa o fallida)
+                    var captchaImg = document.getElementById('captcha-img');
+                    if (captchaImg) {
+                        captchaImg.src = '/captcha?' + new Date().getTime();
+                    }
+                    var captchaInput = document.getElementById('captcha');
+                    if (captchaInput) {
+                        captchaInput.value = '';
+                    }
+                }
+            });
+        }
+
+        // Función para buscar adscrito o vacuna
+        function performSearch(formId, resultContainer, url, submitButton) {
+            var formData = $("#" + formId);
+            performAjaxSearch(url, formData, resultContainer, submitButton);
+        }
+
+        // Función para cargar formulario de búsqueda de adscrito o vacuna
+        function loadSearchForm(resultContainer, url, submitButton) {
+            performAjaxSearch(url, null, resultContainer, submitButton);
+        }
+
+        // Función específica para buscar adscrito
+        function fn_buscar_adscrito_pagina() {
+            // Validación cliente: al menos un apellido
+            var paterno = $.trim($('#priapellido').val());
+            var materno = $.trim($('#segapellido').val());
+            if (!paterno && !materno) {
+                Swal.fire({
+                    title: 'Dato requerido',
+                    text: 'Debe ingresar al menos el primer o segundo apellido.',
+                    icon: 'warning',
+                    confirmButtonText: 'Aceptar'
+                });
+                return;
+            }
+            performSearch("fn_buscar_adscrito_pagina", ".pricing", 'buscar_adscrito_pagina', "#boton_submit");
+        }
+
+        // Función para cargar formulario de búsqueda de adscrito
+        function fn_frm_buscar_adscrito_pagina() {
+            loadSearchForm(".pricing", 'frm_buscar_adscrito_pagina', "#boton_volver");
+        }
+
+        // Función para cargar formulario de búsqueda de vacuna
+        function fn_frm_buscar_vacuna_pagina() {
+            loadSearchForm(".frm_vacuna", 'frm_buscar_vacuna_pagina', "#boton_volver");
+        }
+    </script>
+</body>
+
+</html>

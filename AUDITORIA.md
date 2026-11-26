@@ -313,6 +313,18 @@ Se incorporó `SpotlightCard` de React Bits 2.0 (licencia MIT + Commons Clause, 
 
 Aplicado en tarjetas de `/servicios` (intensidad 0.13, color `#D4AF37`) y `/portafolio` (0.22). Verificado en navegador: el degradado aparece al acercar el cursor y no desplaza contenido. No se usan componentes de texto animado ni backgrounds, para no afectar el prerender de `/guias` ni Core Web Vitals.
 
+## Guía [182] Carnet de Vacunación COVID — enriquecimiento 2026-11-25
+
+| Dato anterior | Resultado de la verificación | Estado |
+|---|---|---|
+| Descarga gratuita desde sus.minsalud.gob.bo | El sitio responde 200 pero es el Sistema Único de Salud (SUS); no publica carnet COVID ni descarga | ⚠️ PENDIENTE (retirado como dato) |
+| App «Unidos Contra el Covid» y registro RNVe | Sin ficha oficial en gob.bo que lo confirme | ⚠️ PENDIENTE (retirado como dato) |
+| Requisitos (cédula y fecha de nacimiento) | No verificados en fuente oficial | ⚠️ PENDIENTE (retirado como dato) |
+| Plazo inmediato y vigencia indefinida | Sin publicación oficial | ⚠️ PENDIENTE (retirado como dato) |
+| Costo | No se encontró arancel oficial en gob.bo | ⚠️ PENDIENTE (aviso visible) |
+
+No existe ficha de trámite de «carnet de vacunación COVID-19» en gob.bo, por lo que la guía se reescribió en ES/EN dejando todas las cifras y pasos como PENDIENTE, con recomendaciones generales (guardar el PDF, acudir al centro de vacunación, verificar requisitos de viaje). Fuentes consultadas y archivadas en `assets/fuentes-oficiales/carnet-vacunacion/` (HTTP 200). Título 54 caracteres, descripciones 153/145. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
