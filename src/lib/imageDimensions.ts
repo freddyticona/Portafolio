@@ -1,6 +1,18 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/portadas/REPORTA_TU_TRANCA_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/CERTIFICACIONES_SIN_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/portadas/DECLARACION_JURADA_BIENES_BOLIVIA_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/portadas/GUIA_CERTIFICADO_DOMICILIO_BOLIVIA_2026.WEBP": {
     "width": 1200,
     "height": 630
@@ -2534,18 +2546,6 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "height": 60
   },
   "/images/OG/OG_GUIAS.jpg": {
-    "width": 1200,
-    "height": 630
-  },
-  "/images/portadas/CERTIFICACIONES_SIN_BOLIVIA_2026.WEBP": {
-    "width": 1200,
-    "height": 630
-  },
-  "/images/portadas/DECLARACION_JURADA_BIENES_BOLIVIA_2026.WEBP": {
-    "width": 1200,
-    "height": 630
-  },
-  "/images/portadas/REPORTA_TU_TRANCA_BOLIVIA_2026.WEBP": {
     "width": 1200,
     "height": 630
   },
