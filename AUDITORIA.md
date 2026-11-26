@@ -325,6 +325,19 @@ Aplicado en tarjetas de `/servicios` (intensidad 0.13, color `#D4AF37`) y `/port
 
 No existe ficha de trámite de «carnet de vacunación COVID-19» en gob.bo, por lo que la guía se reescribió en ES/EN dejando todas las cifras y pasos como PENDIENTE, con recomendaciones generales (guardar el PDF, acudir al centro de vacunación, verificar requisitos de viaje). Fuentes consultadas y archivadas en `assets/fuentes-oficiales/carnet-vacunacion/` (HTTP 200). Título 54 caracteres, descripciones 153/145. `tsc --noEmit` 0 errores, build CI correcto.
 
+## Guía [181] Licencia de Funcionamiento — enriquecimiento 2026-11-25
+
+| Dato anterior | Resultado de la verificación | Estado |
+|---|---|---|
+| Licencia gratuita en La Paz por iGob 24/7 | igob.lapaz.bo no responde; GAMLP no publica ficha de costo | ⚠️ PENDIENTE (retirado como dato) |
+| Plazo de 24 a 48 horas | Sin publicación oficial en la ficha consultada | ⚠️ PENDIENTE (retirado como dato) |
+| Patente anual desde Bs 100 | Sin fuente oficial verificada | ⚠️ PENDIENTE (retirado como dato) |
+| Requisitos por actividad y oficinas de La Paz | No verificables | ⚠️ PENDIENTE (retirados como dato) |
+| Trámite de El Alto | Ficha gob.bo con entidad, oficina (Av. Costanera N° 5022), horario 08:30–16:30, seis requisitos, procedimiento, sin arancel publicado y marco legal DRPT/006/2022 | ✅ AÑADIDO (HTTP 200) |
+| Duplicado | Requisitos y procedimiento publicados; resultado Constancia | ✅ AÑADIDO (HTTP 200) |
+
+La guía se reescribió en ES/EN con el único dato verificable (El Alto) y todo lo demás como PENDIENTE con aviso visible. Título 51 caracteres, descripciones 152/150. Fuentes archivadas en `assets/fuentes-oficiales/licencia-funcionamiento/`. `tsc --noEmit` 0 errores, build CI correcto. Con esta guía se cierra el bloque de enriquecimiento de Search Console (5 de 5).
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
