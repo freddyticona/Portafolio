@@ -292,10 +292,10 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
 
                   {/* Project Attributes Metadata */}
                   <div className="bg-[#020202] border border-white/5 p-5 rounded-sm space-y-4 font-mono text-xs">
-                    <h4 className="text-xs font-bold uppercase tracking-widest text-gold flex items-center gap-1.5 pb-2 border-b border-white/5">
+                    <h3 className="text-xs font-bold uppercase tracking-widest text-gold flex items-center gap-1.5 pb-2 border-b border-white/5">
                       <Cpu className="w-3.5 h-3.5" />
                       <span>{t.technicalDetails}</span>
-                    </h4>
+                    </h3>
                     
                     <div className="space-y-3.5">
                       <div className="flex items-start gap-2 text-stone-400">
@@ -343,9 +343,9 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               {/* Photo Gallery — full width below */}
               {activeItem.images && activeItem.images.length > 1 && (
                 <div className="mt-8">
-                  <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-gold mb-4 flex items-center gap-2">
+                  <h3 className="text-xs font-mono font-bold uppercase tracking-widest text-gold mb-4 flex items-center gap-2">
                     <span>{lang === 'es' ? `Galería (${activeItem.images.length} fotos)` : `Gallery (${activeItem.images.length} photos)`}</span>
-                  </h4>
+                  </h3>
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {activeItem.images.map((img, idx) => (
                       <div

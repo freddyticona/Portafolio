@@ -575,7 +575,7 @@ export default function ServiceLanding({ lang, t, onContact, onBooking }: Servic
               <div className="w-12 h-12 bg-gold text-black rounded-full flex items-center justify-center font-black text-xl mx-auto">
                 {step.step}
               </div>
-              <h4 className="font-bold text-white">{lang === 'es' ? step.titleEs : step.titleEn}</h4>
+              <h3 className="font-bold text-white">{lang === 'es' ? step.titleEs : step.titleEn}</h3>
               <p className="text-sm text-stone-400">{lang === 'es' ? step.descEs : step.descEn}</p>
             </div>
           ))}

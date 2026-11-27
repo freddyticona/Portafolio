@@ -338,6 +338,12 @@ No existe ficha de trámite de «carnet de vacunación COVID-19» en gob.bo, por
 
 La guía se reescribió en ES/EN con el único dato verificable (El Alto) y todo lo demás como PENDIENTE con aviso visible. Título 51 caracteres, descripciones 152/150. Fuentes archivadas en `assets/fuentes-oficiales/licencia-funcionamiento/`. `tsc --noEmit` 0 errores, build CI correcto. Con esta guía se cierra el bloque de enriquecimiento de Search Console (5 de 5).
 
+## Auditoría de rendimiento y accesibilidad — 2026-11-27
+
+Lighthouse sobre `https://freddydev.net/servicios` y `/portafolio`: SEO 1,00 y Best Practices 1,00 en ambas; accesibilidad 0,98 y 0,99. Traza de 8 s con 120 eventos de cursor: `longTasks` 1 (126 ms, causado por el bucle de prueba), `FireAnimationFrame` 0,69 ms en 11 frames. **SpotlightCard no produce coste apreciable por frame**; no hace falta un gestor compartido.
+
+Fallos corregidos a raíz de la auditoría: saltos de jerarquía de encabezados (`h4` sin `h3` previo en pasos de servicios y en el modal del portafolio) y nombres accesibles que no coincidían con el texto visible (logo y selector de idioma).
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

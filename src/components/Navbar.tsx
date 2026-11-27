@@ -99,7 +99,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
             onClick={() => handleNavClick('inicio')}
             role="button"
             tabIndex={0}
-            aria-label={lang === 'es' ? 'Ir a inicio' : 'Go to home'}
+            aria-label={lang === 'es' ? 'FREDDY TICONA — Ir a inicio' : 'FREDDY TICONA — Go to home'}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 handleNavClick('inicio');
@@ -224,7 +224,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
             <button
               onClick={toggleLanguage}
               id="language-toggle-desktop"
-              aria-label={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
+              aria-label={lang === 'es' ? 'EN — Cambiar a inglés' : 'ES — Switch to Spanish'}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-sm border border-white/10 text-stone-300 hover:text-gold hover:bg-white/5 transition-all duration-200 text-xs font-mono font-semibold"
             >
               <Globe className="w-3.5 h-3.5 text-gold" aria-hidden="true" />
@@ -249,7 +249,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
             <button
               onClick={toggleLanguage}
               id="language-toggle-mobile"
-              aria-label={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
+              aria-label={lang === 'es' ? 'EN — Cambiar a inglés' : 'ES — Switch to Spanish'}
               className="flex items-center gap-1 px-2 py-1.5 rounded-sm border border-white/10 text-stone-300 text-xs font-mono font-semibold"
             >
               <Globe className="w-3.5 h-3.5 text-gold" aria-hidden="true" />
