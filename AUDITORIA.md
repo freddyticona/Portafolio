@@ -384,6 +384,10 @@ Lighthouse en producción (`/servicios`, `/portafolio`, `/`, `/guias/...`) dio 0
 
 Se publicaron 3 artículos en el blog con ejemplos reales, enlaces a fabricantes y tiendas oficiales, y una sección de fuentes. No se inventaron precios: las cifras son rangos orientativos y se marcan como tales. Cuerpos ES/EN reescritos, títulos y descripciones dentro de los límites, 0 enlaces rotos.
 
+## Artículos Black Friday gaming — ampliación — 2026-11-28
+
+Los tres artículos se reescribieron con ejemplos reales (modelos concretos y enlaces a fabricantes), tablas de verificación, sección «Dónde verificar ofertas en Bolivia», guías relacionadas y una sección de fuentes con tiendas oficiales. Las portadas son diseño original del sitio y las fotos de producto se consultan en los enlaces oficiales. `tsc --noEmit` 0 errores, build CI correcto, 0 enlaces rotos.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
