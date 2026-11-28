@@ -19,7 +19,30 @@ interface CinematicHeroProps {
 export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppClick, lang = 'es', t }: CinematicHeroProps) {
   const [scrollY, setScrollY] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [activePhoto, setActivePhoto] = useState(0);
   const heroRef = useRef<HTMLDivElement>(null);
+
+  const heroPhotos = [
+    {
+      src: '/images/behind-scenes/DSC_2994-medium.webp',
+      srcSet: `/images/behind-scenes/DSC_2994-small.webp 640w,
+               /images/behind-scenes/DSC_2994-medium.webp 960w,
+               /images/behind-scenes/DSC_2994-large.webp 1920w`,
+      alt: lang === 'es' ? 'Freddy Ticona operando una cámara en estudio' : 'Freddy Ticona operating a studio camera'
+    },
+    {
+      src: '/images/behind-scenes/HERO_JIB_BOLIVIA_TV.WEBP',
+      alt: lang === 'es' ? 'Cámara en brazo durante una cobertura de Bolivia TV' : 'Camera on a jib during a Bolivia TV coverage'
+    },
+    {
+      src: '/images/behind-scenes/HERO_EDICION.WEBP',
+      alt: lang === 'es' ? 'Sala de edición y corrección de color' : 'Editing and color grading suite'
+    },
+    {
+      src: '/images/behind-scenes/HERO_CAMPO.WEBP',
+      alt: lang === 'es' ? 'Rodaje en campo con paisaje boliviano' : 'Field shooting with a Bolivian landscape'
+    }
+  ];
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -41,6 +64,17 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
+
+  // Carrusel de fondo. Se detiene con prefers-reduced-motion y al salir de pantalla.
+  useEffect(() => {
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return undefined;
+    const interval = window.setInterval(() => {
+      if (document.visibilityState === 'visible') {
+        setActivePhoto(index => (index + 1) % heroPhotos.length);
+      }
+    }, 4500);
+    return () => window.clearInterval(interval);
+  }, [heroPhotos.length]);
 
   // Ocultar placeholder HTML estático (LCP instantáneo) cuando React monta
   useEffect(() => {
@@ -92,25 +126,25 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
       <div
         className="absolute inset-0 z-0"
         style={{
-          transform: `translateY(${scrollY * 0.5}px) scale3d(${1 + scrollY * 0.0001}, ${1 + scrollY * 0.0001}, 1) translate(${mousePosition.x * -10}px, ${mousePosition.y * -10}px)`
+          transform: `translateY(${scrollY * 0.5}px) scale3d(${1 + scrollY * 0.0001}, ${1 + scrollY * 0.0001}, 1) translate(${mousePosition.x * -10}px, ${mousePosition.y * -10}px)`,
+          filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001})`
         }}
       >
-        <SizedImg
-          src="/images/behind-scenes/DSC_2994-medium.webp"
-          srcSet={`/images/behind-scenes/DSC_2994-small.webp 640w,
-                   /images/behind-scenes/DSC_2994-medium.webp 960w,
-                   /images/behind-scenes/DSC_2994-large.webp 1920w`}
-          sizes="100vw"
-          alt="Freddy Ticona trabajando en el set"
-          className="absolute inset-0 w-full h-full object-cover object-center"
-          style={{
-            filter: `brightness(${0.3 - scrollY * 0.001}) saturate(${1 - scrollY * 0.001})`,
-          }}
-          fetchPriority="high"
-          width={1920}
-          height={1080}
-          decoding="async"
-        />
+        {heroPhotos.map((photo, index) => (
+          <SizedImg
+            key={photo.src}
+            src={photo.src}
+            {...(photo.srcSet ? { srcSet: photo.srcSet, sizes: '100vw' } : {})}
+            alt={photo.alt}
+            className="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-1000 ease-in-out"
+            style={{ opacity: index === activePhoto ? 1 : 0 }}
+            fetchPriority={index === 0 ? 'high' : undefined}
+            loading={index === 0 ? undefined : 'lazy'}
+            width={1920}
+            height={1080}
+            decoding="async"
+          />
+        ))}
 
 
         {/* Gradientes superpuestos */}

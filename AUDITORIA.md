@@ -348,6 +348,10 @@ Fallos corregidos a raíz de la auditoría: saltos de jerarquía de encabezados 
 
 El hero de la home solo mostraba presentación personal. Se añadió una franja «Servicios» justo debajo de los logos de certificación con tres tarifas reales tomadas de `servicesPricing.json` (Reel Bs 300, Cobertura de Evento Bs 850, Reportaje Bs 2.200), cada una enlazada a su ficha. Verificado en navegador: la franja aparece en el primer viewport, sin tapar el título ni los CTA. No se añadieron imágenes ni scripts nuevos.
 
+## Carrusel de fotos en el hero — 2026-11-27
+
+El fondo del hero pasó de una sola foto a cuatro escenas propias: cámara en estudio (LCP, con `srcSet` original), brazo en cobertura de Bolivia TV, sala de edición y rodaje en campo. Se crearon tres WebP optimizados (131/80/415 KB) en `public/images/behind-scenes/` y se registraron en `imageDimensions`. Rotación cada 4,5 s con transición de 1 s; se detiene con `prefers-reduced-motion` y cuando la pestaña no está visible. Verificado en navegador: el fondo cambia entre escenas sin desplazar el contenido ni afectar los CTA.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
