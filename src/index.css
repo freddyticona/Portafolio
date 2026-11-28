@@ -118,6 +118,14 @@
 html {
   scroll-behavior: smooth;
   background-color: #050505;
+  /* Fondo con dos brillos dorados muy tenues, una rejilla de puntos y un
+     degradado vertical. Solo CSS: sin imágenes ni animación, coste cero. */
+  background-image:
+    radial-gradient(ellipse 60% 45% at 12% 0%, rgba(212, 175, 55, 0.10), transparent 70%),
+    radial-gradient(ellipse 45% 35% at 88% 40%, rgba(212, 175, 55, 0.055), transparent 70%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.04) 1px, transparent 1.5px),
+    linear-gradient(180deg, #070707 0%, #050505 55%, #030303 100%);
+  background-size: auto, auto, 46px 46px, auto;
   color: #d4d4d4; /* Mejorado de #e0e0e0 para mejor contraste WCAG AA (4.5:1) */
   /* Evita scroll horizontal por elementos que sobresalen (menú, decoraciones) */
   overflow-x: clip;

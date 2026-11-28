@@ -352,6 +352,10 @@ El hero de la home solo mostraba presentación personal. Se añadió una franja 
 
 El fondo del hero pasó de una sola foto a un carrusel. El autor eligió las cinco imágenes definitivas: `PSX_20191229_110351` (consola de audio), `DSC_0668` (banderas), `1428941046862` (tanques), `DSC07510` (campo industrial) y `DSC07353` (embarcación). Las cinco son horizontales. Se generaron WebP optimizados (78/100/55/448/217 KB) en `public/images/behind-scenes/`, se registraron en `imageDimensions` y se retiraron los tres archivos temporales anteriores. La primera imagen tiene `fetchPriority="high"` para no retrasar el LCP. Rotación cada 4,5 s con transición de 1 s; se detiene con `prefers-reduced-motion` y cuando la pestaña no está visible. Verificado en navegador: el fondo cambia entre las cinco escenas sin desplazar el contenido ni afectar los CTA.
 
+## Fondo global con efecto — 2026-11-28
+
+El fondo pasó de negro plano a una composición solo CSS en `html`: dos brillos dorados muy tenues, una rejilla de puntos de 46 px y un degradado vertical. Sin imágenes, sin JS y sin animación, coste cero y contraste intacto. Verificado en navegador en `/servicios`.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
