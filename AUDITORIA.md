@@ -372,6 +372,10 @@ Verificación: `tsc --noEmit` 0 errores, `npm run build` OK en CI, auditoría de
 
 El endpoint `/api/upload-image` aceptaba subidas públicas (solo rate limit por IP) y dependía de `@vercel/blob` con una cadena vulnerable. Se añadió autenticación por token: el servidor exige `x-admin-token` igual a `ADMIN_UPLOAD_TOKEN` y el `AdminPanel` lo pide una vez por sesión (`sessionStorage`). Si el token es inválido, se limpia y se vuelve a pedir. El endpoint falla cerrado si la variable no está definida.
 
+## hasCredential en JSON-LD — 2026-11-28
+
+Se añadieron 10 credenciales reales al esquema `Person` de `index.html` y `src/lib/structuredData.ts`: las 5 titulaciones primarias (UDABOL, Ministerio de Educación, Escuela Andina Ukamau, UAGRM/Crece) y 5 certificaciones con URL de verificación pública (Replit, Alura/Oracle, Google Actívate, Coursera, Certiprof). Se corrigió una coma final inválida en JSON. Verificado: `hasCredential: 10` y JSON válido. `tsc --noEmit` 0 errores, build CI correcto.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
