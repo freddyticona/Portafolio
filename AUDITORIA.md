@@ -376,6 +376,10 @@ El endpoint `/api/upload-image` aceptaba subidas públicas (solo rate limit por 
 
 Se añadieron 10 credenciales reales al esquema `Person` de `index.html` y `src/lib/structuredData.ts`: las 5 titulaciones primarias (UDABOL, Ministerio de Educación, Escuela Andina Ukamau, UAGRM/Crece) y 5 certificaciones con URL de verificación pública (Replit, Alura/Oracle, Google Actívate, Coursera, Certiprof). Se corrigió una coma final inválida en JSON. Verificado: `hasCredential: 10` y JSON válido. `tsc --noEmit` 0 errores, build CI correcto.
 
+## Accesibilidad Lighthouse — 2026-11-28
+
+Lighthouse en producción (`/servicios`, `/portafolio`, `/`, `/guias/...`) dio 0,97–0,99 por dos fallos: jerarquía de encabezados y nombres accesibles que no coincidían con el texto visible. Se corrigieron todos los `h4` restantes en pasos de servicio y en el modal del portafolio (ahora `h3`), y los `aria-label` del logo y del selector de idioma ahora incluyen el texto visible. El `link-name` de un doc-card se revisó: el HTML estático y el renderizado tienen texto válido; el fallo puede ser un falso positivo del elemento vacío del bloque prerenderizado, pero no bloquea la publicación.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

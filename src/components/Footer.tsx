@@ -32,7 +32,7 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
           
           {/* Column 1: Brand & Description */}
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNavClick('inicio')} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleNavClick('inicio'); } }} role="button" tabIndex={0} aria-label={lang === 'es' ? 'FT GUZMÁN — Ir a inicio' : 'FT GUZMÁN — Go to home'}>
+            <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNavClick('inicio')} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleNavClick('inicio'); } }} role="button" tabIndex={0} aria-label="Guzmán">
               <div className="w-8 h-8 bg-gold rounded-sm flex items-center justify-center font-bold text-black text-sm">
                 FT
               </div>
@@ -79,9 +79,9 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
 
           {/* Column 2: Quick Links */}
           <div className="space-y-4">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-gold">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-gold">
               {lang === 'es' ? 'Navegación' : 'Navigation'}
-            </h4>
+            </h3>
             <ul className="space-y-2.5 text-sm font-medium">
               <li>
                 <button onClick={() => handleNavClick('inicio')} className="hover:text-gold transition-colors duration-200 text-left cursor-pointer">
