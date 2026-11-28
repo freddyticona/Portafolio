@@ -1,0 +1,14 @@
+FUENTE OFICIAL — EXTRACTO DE TEXTO SANITIZADO
+Sitio: Valve, Steam Deck OLED
+URL: https://www.steamdeck.com/en/oled
+Fecha de consulta: 2026-11-28
+
+PRECIO: la página mostró "Steam Deck OLED starts at Unknown" en la consulta; el precio no se renderizó en el texto estático. NO se cita precio en los artículos.
+
+ESPECIFICACIONES (citadas en el artículo 1530):
+Comparativa "512GB OLED":
+"512GB NVMe SSD / 1280 x 800 HDR OLED display / 7.4\" diagonal display size / Up to 90Hz refresh rate / 6 nm APU / Wi-Fi 6E / 50Whr battery; 3-12 hrs of gameplay (content dependent) / 45W power supply with 2.5m cable"
+Comparativa "1TB OLED": mismas características más "Premium anti-glare etched glass", "Carrying case with removable liner".
+Cambios respecto al modelo LCD:
+"Updated peak brightness to 1000 nits", "Increased active area to 7.4\" (from 7.0\")", "Updated refresh rate to 90Hz (from 60Hz)", "Improved battery capacity from 40Wh to 50Wh", "Reduced total system weight to ~640g, or ~5% less than Steam Deck".
+Disponibilidad declarada: "Steam Deck is now shipping to the United States, Canada, European Union, and the United Kingdom. More regions to come—stay tuned for more info."

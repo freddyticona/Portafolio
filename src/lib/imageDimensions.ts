@@ -1,6 +1,18 @@
 // Generado automáticamente por scripts/generate-image-dimensions.mjs
 // NO editar a mano. Dimensiones reales de las imágenes de los artículos.
 export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/images/blog/2026-11/gaming/BLACK_FRIDAY_GAMING_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/2026-11/gaming/PERIFERICOS_GAMER_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/blog/2026-11/gaming/CONSOLAS_PC_GAMING_2026.WEBP": {
+    "width": 1200,
+    "height": 630
+  },
   "/images/portadas/REPORTA_TU_TRANCA_BOLIVIA_2026.WEBP": {
     "width": 1200,
     "height": 630

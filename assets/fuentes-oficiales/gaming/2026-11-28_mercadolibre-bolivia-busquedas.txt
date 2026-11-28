@@ -1,0 +1,10 @@
+FUENTE — EXTRACTO DE TEXTO SANITIZADO
+Sitio: Mercado Libre Bolivia (páginas de búsqueda)
+Fecha de consulta: 2026-11-28
+
+URLs verificadas en la fecha (responden con la página de búsqueda; el listado de productos se carga con JavaScript y no se extrajeron precios):
+- https://listado.mercadolibre.com.bo/gaming (artículo 1528)
+- https://listado.mercadolibre.com.bo/perifericos-gamer (artículo 1529)
+- https://listado.mercadolibre.com.bo/consolas-gaming (artículo 1530)
+
+Nota: no se cita ningún precio de estas páginas. Se usan únicamente como enlaces de búsqueda por categoría.

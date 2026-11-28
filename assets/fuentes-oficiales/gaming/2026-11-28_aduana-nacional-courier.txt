@@ -1,0 +1,18 @@
+FUENTE OFICIAL — EXTRACTO DE TEXTO SANITIZADO
+Sitio: Aduana Nacional de Bolivia
+URL: https://portal.aduana.gob.bo/aduana7/content/empresas-de-servicio-expreso
+URL complementaria: https://portal.aduana.gob.bo/aduana7/content/paquetes-postales-y-de-correspondencia
+Fecha de consulta: 2026-11-28
+
+DATOS (citados en los artículos 1528 y 1530):
+"El Despacho de Servicio Expreso (Courier) se aplica a: Envios urgentes con un valor FOB menor o igual a un mil 00/100 dólares estadounidenses (US$ 1000.-) y un peso igual o menor a cuarenta (40) Kilogramos."
+"Las mercancías que superen estos límites, deberán acogerse al régimen de importación para el consumo con intervención de Despachante de Aduana."
+"El despacho aduanero de envíos urgentes se efectuará a través de una declaración de mercancías para importación a consumo de menor cuantía con el pago inmediato de los tributos aduaneros"
+
+FRANQUICIA POSTAL (complemento):
+"Tener un valor que no exceda de USD. 100 (Cien 00/100 Dólares Estadounidenses)"
+"No exceder un peso de 2 kilogramos en el caso de paquetes postales y de 20 kilogramos para envíos urgentes"
+"No debe ser remitida por empresas comerciales"
+"Si la mercancía no cumple alguno de los requisitos antes señalados puede importar la mercancía a través de un despacho de menor cuantía, siempre y cuando el valor no supera los $us1.000 ni pese más de 40 kilogramos"
+
+Conclusión verificada: la franquicia postal de US$ 100 no cubre compras enviadas por empresas comerciales (tiendas en línea); esos envíos se tramitan como courier con pago de tributos.

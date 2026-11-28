@@ -1,0 +1,14 @@
+FUENTE OFICIAL — EXTRACTO DE TEXTO SANITIZADO
+Sitio: SteelSeries Support
+URL: https://support.steelseries.com/hc/en-us/articles/8602492144269-How-does-the-headset-Nova-7X-Nova-7X-Gen-2-connect-to-the-Xbox
+URL complementaria: https://support.steelseries.com/hc/en-us/articles/29671903726477-What-is-the-difference-between-Nova-7-7P-and-7X
+Fecha de consulta: 2026-11-28
+
+DATO (citado en el artículo 1529):
+"The Nova 7X and Nova 7X Gen 2 headset connects wirelessly through the included 2.4 GHz dongle."
+"Plug the dongle into any USB port on your Xbox using the included USB-A cable. Make sure the dongle switch is set to 'Xbox' mode. The same dongle can be switched from 'Xbox' to 'USB', allowing you to use your headset on: PC, PlayStation, Nintendo Switch, Android devices, Meta Quest."
+
+Tabla comparativa de la segunda fuente:
+"Xbox Compatible | Nova 7: ❌ | Nova 7P: ❌ | Nova 7X: ✅"
+
+Conclusión verificada: para conexión inalámbrica con Xbox se requiere la variante 7X (o 7X Gen 2); Nova 7 y Nova 7P no son compatibles con Xbox de forma inalámbrica.
