@@ -2967,5 +2967,41 @@ export const blogPosts: BlogPost[] = [
     categoryEs: "Guías y Trámites", categoryEn: "Guides & Procedures",
     enableComments: true, featured: false, views: 1,
     location: "La Paz, Bolivia", region: "Bolivia"
-  }
+  },
+  {
+    id: "1528",
+    contentType: "blog",
+    slug: "black-friday-gaming-2026-como-aprovechar-descuentos",
+    titleEs: "Black Friday gaming 2026: detecta descuentos reales", titleEn: "Black Friday gaming 2026: spot real discounts",
+    excerptEs: "Cómo distinguir un descuento real de una rebaja inflada en Black Friday gamer: historial de precios, bundles, garantías y señales de estafa.", excerptEn: "How to tell a real Black Friday gaming discount from an inflated markdown: price history, bundles, warranties and scam signals before you pay.",
+    date: "2026-11-28", readTimeEs: "8 min de lectura", readTimeEn: "8 min read",
+    imageUrl: "/images/blog/2026-11/gaming/BLACK_FRIDAY_GAMING_2026.WEBP", imageCaption: "Portada original del artículo: freddydev.net",
+    categoryEs: "Tecnología y Creación", categoryEn: "Technology & Creation",
+    enableComments: true, featured: false, views: 1,
+    location: "La Paz, Bolivia", region: "Bolivia"
+  },
+  {
+    id: "1529",
+    contentType: "blog",
+    slug: "perifericos-gamer-black-friday-2026-teclado-mouse-headset",
+    titleEs: "Periféricos gamer en Black Friday 2026: guía rápida", titleEn: "Gamer peripherals on Black Friday 2026: quick guide",
+    excerptEs: "Qué revisar antes de comprar teclado, mouse y headset gamer en Black Friday: switches, latencia, ergonomía, inalámbrico y política de devolución.", excerptEn: "What to check before buying a keyboard, mouse or headset on Black Friday: switches, latency, ergonomics, wireless and return policy for gamers.",
+    date: "2026-11-28", readTimeEs: "8 min de lectura", readTimeEn: "8 min read",
+    imageUrl: "/images/blog/2026-11/gaming/PERIFERICOS_GAMER_2026.WEBP", imageCaption: "Portada original del artículo: freddydev.net",
+    categoryEs: "Tecnología y Creación", categoryEn: "Technology & Creation",
+    enableComments: true, featured: false, views: 1,
+    location: "La Paz, Bolivia", region: "Bolivia"
+  },
+  {
+    id: "1530",
+    contentType: "blog",
+    slug: "consolas-pc-gaming-black-friday-2026-donde-comprar",
+    titleEs: "Consolas y PC gaming en Black Friday 2026", titleEn: "Consoles and PC gaming on Black Friday 2026",
+    excerptEs: "Consolas y PC gaming en Black Friday 2026: cuándo conviene comprar, bundles, garantía, impuestos y tiendas seguras para Bolivia y cómo evitar estafas.", excerptEn: "Consoles and PC gaming on Black Friday 2026: when to buy, bundles, warranty, shipping, taxes, safe stores and scam prevention for gamers in 2026.",
+    date: "2026-11-28", readTimeEs: "8 min de lectura", readTimeEn: "8 min read",
+    imageUrl: "/images/blog/2026-11/gaming/CONSOLAS_PC_GAMING_2026.WEBP", imageCaption: "Portada original del artículo: freddydev.net",
+    categoryEs: "Tecnología y Creación", categoryEn: "Technology & Creation",
+    enableComments: true, featured: false, views: 1,
+    location: "La Paz, Bolivia", region: "Bolivia"
+  },
 ];
