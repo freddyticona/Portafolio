@@ -21,11 +21,13 @@ type MockResponse = {
   json: (data: any) => void;
 };
 
-function createMockReq(body: any, ip?: string) {
+process.env.ADMIN_UPLOAD_TOKEN = 'test-admin-token';
+
+function createMockReq(body: any, ip?: string, token?: string) {
   return {
     method: 'POST',
     body,
-    headers: { 'x-forwarded-for': ip || '127.0.0.1' },
+    headers: { 'x-forwarded-for': ip || '127.0.0.1', 'x-admin-token': token ?? 'test-admin-token' },
     socket: { remoteAddress: '127.0.0.1' },
   };
 }
@@ -43,6 +45,14 @@ function createMockRes(): MockResponse {
 }
 
 describe('POST /api/upload-image validation', () => {
+  it('rejects requests without a valid admin token with 401', async () => {
+    const { default: handler } = await import('../upload-image');
+    const req = createMockReq({ filename: 'test/img.jpg', contentType: 'image/jpeg', content: 'dGVzdA==' }, '127.0.0.1', 'wrong-token');
+    const res = createMockRes();
+    await handler(req as any, res as any);
+    expect(res._status).toBe(401);
+  });
+
   it('rejects missing fields with 400', async () => {
     const { default: handler } = await import('../upload-image');
     const req = createMockReq({});
