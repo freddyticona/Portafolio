@@ -609,16 +609,24 @@ export const IMAGE_DIMENSIONS: Record<string, { width: number; height: number }>
     "width": 6000,
     "height": 4000
   },
-  "/images/behind-scenes/HERO_CAMPO.WEBP": {
+  "/images/behind-scenes/HERO_AUDIO.WEBP": {
     "width": 1920,
     "height": 1080
   },
-  "/images/behind-scenes/HERO_EDICION.WEBP": {
+  "/images/behind-scenes/HERO_BANDERAS.WEBP": {
     "width": 1920,
     "height": 1080
   },
-  "/images/behind-scenes/HERO_JIB_BOLIVIA_TV.WEBP": {
+  "/images/behind-scenes/HERO_CAMPO_INDUSTRIAL.WEBP": {
     "width": 1920,
+    "height": 1080
+  },
+  "/images/behind-scenes/HERO_EMBARCACION.WEBP": {
+    "width": 1920,
+    "height": 1080
+  },
+  "/images/behind-scenes/HERO_TANQUES.WEBP": {
+    "width": 1280,
     "height": 1080
   },
   "/images/behind-scenes/horizontal/55717476_1192210687627033_8583848958349017088_n.jpg": {

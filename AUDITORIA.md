@@ -350,7 +350,7 @@ El hero de la home solo mostraba presentación personal. Se añadió una franja 
 
 ## Carrusel de fotos en el hero — 2026-11-27
 
-El fondo del hero pasó de una sola foto a cuatro escenas propias: cámara en estudio (LCP, con `srcSet` original), brazo en cobertura de Bolivia TV, sala de edición y rodaje en campo. Se crearon tres WebP optimizados (131/80/415 KB) en `public/images/behind-scenes/` y se registraron en `imageDimensions`. Rotación cada 4,5 s con transición de 1 s; se detiene con `prefers-reduced-motion` y cuando la pestaña no está visible. Verificado en navegador: el fondo cambia entre escenas sin desplazar el contenido ni afectar los CTA.
+El fondo del hero pasó de una sola foto a un carrusel. El autor eligió las cinco imágenes definitivas: `PSX_20191229_110351` (consola de audio), `DSC_0668` (banderas), `1428941046862` (tanques), `DSC07510` (campo industrial) y `DSC07353` (embarcación). Las cinco son horizontales. Se generaron WebP optimizados (78/100/55/448/217 KB) en `public/images/behind-scenes/`, se registraron en `imageDimensions` y se retiraron los tres archivos temporales anteriores. La primera imagen tiene `fetchPriority="high"` para no retrasar el LCP. Rotación cada 4,5 s con transición de 1 s; se detiene con `prefers-reduced-motion` y cuando la pestaña no está visible. Verificado en navegador: el fondo cambia entre las cinco escenas sin desplazar el contenido ni afectar los CTA.
 
 ## Plan de ataque
 

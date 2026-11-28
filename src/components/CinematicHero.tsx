@@ -24,23 +24,24 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
 
   const heroPhotos = [
     {
-      src: '/images/behind-scenes/DSC_2994-medium.webp',
-      srcSet: `/images/behind-scenes/DSC_2994-small.webp 640w,
-               /images/behind-scenes/DSC_2994-medium.webp 960w,
-               /images/behind-scenes/DSC_2994-large.webp 1920w`,
-      alt: lang === 'es' ? 'Freddy Ticona operando una cámara en estudio' : 'Freddy Ticona operating a studio camera'
+      src: '/images/behind-scenes/HERO_AUDIO.WEBP',
+      alt: lang === 'es' ? 'Freddy Ticona en la consola de audio durante una transmisión' : 'Freddy Ticona at the audio console during a broadcast'
     },
     {
-      src: '/images/behind-scenes/HERO_JIB_BOLIVIA_TV.WEBP',
-      alt: lang === 'es' ? 'Cámara en brazo durante una cobertura de Bolivia TV' : 'Camera on a jib during a Bolivia TV coverage'
+      src: '/images/behind-scenes/HERO_BANDERAS.WEBP',
+      alt: lang === 'es' ? 'Freddy Ticona junto a un colega frente a banderas de Bolivia' : 'Freddy Ticona with a colleague in front of Bolivian flags'
     },
     {
-      src: '/images/behind-scenes/HERO_EDICION.WEBP',
-      alt: lang === 'es' ? 'Sala de edición y corrección de color' : 'Editing and color grading suite'
+      src: '/images/behind-scenes/HERO_TANQUES.WEBP',
+      alt: lang === 'es' ? 'Cámara en campo frente a tanques de gas' : 'Field camera in front of gas tanks'
     },
     {
-      src: '/images/behind-scenes/HERO_CAMPO.WEBP',
-      alt: lang === 'es' ? 'Rodaje en campo con paisaje boliviano' : 'Field shooting with a Bolivian landscape'
+      src: '/images/behind-scenes/HERO_CAMPO_INDUSTRIAL.WEBP',
+      alt: lang === 'es' ? 'Freddy Ticona en una cobertura en campo' : 'Freddy Ticona on a field coverage'
+    },
+    {
+      src: '/images/behind-scenes/HERO_EMBARCACION.WEBP',
+      alt: lang === 'es' ? 'Freddy Ticona con su cámara a bordo de una embarcación' : 'Freddy Ticona with his camera on board a boat'
     }
   ];
 
@@ -134,7 +135,6 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
           <SizedImg
             key={photo.src}
             src={photo.src}
-            {...(photo.srcSet ? { srcSet: photo.srcSet, sizes: '100vw' } : {})}
             alt={photo.alt}
             className="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-1000 ease-in-out"
             style={{ opacity: index === activePhoto ? 1 : 0 }}
