@@ -352,6 +352,10 @@ El hero de la home solo mostraba presentación personal. Se añadió una franja 
 
 El fondo del hero pasó de una sola foto a cuatro escenas propias: cámara en estudio (LCP, con `srcSet` original), brazo en cobertura de Bolivia TV, sala de edición y rodaje en campo. Se crearon tres WebP optimizados (131/80/415 KB) en `public/images/behind-scenes/` y se registraron en `imageDimensions`. Rotación cada 4,5 s con transición de 1 s; se detiene con `prefers-reduced-motion` y cuando la pestaña no está visible. Verificado en navegador: el fondo cambia entre escenas sin desplazar el contenido ni afectar los CTA.
 
+## Galerías: solo fotos horizontales — 2026-11-28
+
+A solicitud del autor, el visor de galerías del portafolio filtra las imágenes con `IMAGE_DIMENSIONS[src].height > width`. Las fotos verticales siguen en los datos y en el repositorio, pero no se muestran ni se pueden abrir al compartir una ficha. Verificado en *Médicos en el Tipnis — Galería de campo*: pasó de 7 imágenes a 6, sin la vertical `71280215_...`. El filtro no toca portadas ni tarjetas.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

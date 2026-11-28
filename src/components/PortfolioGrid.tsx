@@ -9,6 +9,7 @@ import { PortfolioItem } from '../types';
 import { Filter, Search, Film, Eye, X, Award, ExternalLink, Cpu, Tag, Calendar, User, Briefcase, Play } from 'lucide-react';
 import LazyImage from './LazyImage';
 import SpotlightCard from './SpotlightCard';
+import { IMAGE_DIMENSIONS } from '../lib/imageDimensions';
 
 interface PortfolioGridProps {
   items: PortfolioItem[];
@@ -22,6 +23,16 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [activeItem, setActiveItem] = useState<PortfolioItem | null>(null);
   const [activeGalleryImage, setActiveGalleryImage] = useState<string | null>(null);
+
+  // Solo se muestran en la galería las fotos horizontales. Las verticales se
+  // conservan en los datos pero no se comparten en el visor.
+  const galleryImages = useMemo(
+    () => (activeItem?.images ?? []).filter(src => {
+      const dims = IMAGE_DIMENSIONS[src];
+      return !dims || dims.width >= dims.height;
+    }),
+    [activeItem]
+  );
 
   const categories = useMemo(() => {
     return [
@@ -341,13 +352,13 @@ export default function PortfolioGrid({ items, lang, t, onViewCaseStudy }: Portf
               </div>
 
               {/* Photo Gallery — full width below */}
-              {activeItem.images && activeItem.images.length > 1 && (
+              {galleryImages.length > 1 && (
                 <div className="mt-8">
                   <h3 className="text-xs font-mono font-bold uppercase tracking-widest text-gold mb-4 flex items-center gap-2">
-                    <span>{lang === 'es' ? `Galería (${activeItem.images.length} fotos)` : `Gallery (${activeItem.images.length} photos)`}</span>
+                    <span>{lang === 'es' ? `Galería (${galleryImages.length} fotos)` : `Gallery (${galleryImages.length} photos)`}</span>
                   </h3>
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                    {activeItem.images.map((img, idx) => (
+                    {galleryImages.map((img, idx) => (
                       <div
                         key={idx}
                         onClick={() => setActiveGalleryImage(img)}
