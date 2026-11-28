@@ -380,6 +380,10 @@ Se añadieron 10 credenciales reales al esquema `Person` de `index.html` y `src/
 
 Lighthouse en producción (`/servicios`, `/portafolio`, `/`, `/guias/...`) dio 0,97–0,99 por dos fallos: jerarquía de encabezados y nombres accesibles que no coincidían con el texto visible. Se corrigieron todos los `h4` restantes en pasos de servicio y en el modal del portafolio (ahora `h3`), y los `aria-label` del logo y del selector de idioma ahora incluyen el texto visible. El `link-name` de un doc-card se revisó: el HTML estático y el renderizado tienen texto válido; el fallo puede ser un falso positivo del elemento vacío del bloque prerenderizado, pero no bloquea la publicación.
 
+## Artículos Black Friday gaming — 2026-11-28
+
+Se publicaron 3 artículos en el blog con ejemplos reales, enlaces a fabricantes y tiendas oficiales, y una sección de fuentes. No se inventaron precios: las cifras son rangos orientativos y se marcan como tales. Cuerpos ES/EN reescritos, títulos y descripciones dentro de los límites, 0 enlaces rotos.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
