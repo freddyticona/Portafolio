@@ -368,6 +368,10 @@ Diagnóstico priorizado y plan de alto impacto aprobado. Cambios aplicados en es
 
 Verificación: `tsc --noEmit` 0 errores, `npm run build` OK en CI, auditoría de enlaces internos 0 rotos. Lighthouse (producción, antes del deploy): SEO 1.00, Best Practices 1.00, accesibilidad 0.97–0.99. Pendiente de verificar post-deploy: CSP sin bloqueos en consola y Lighthouse tras el deploy.
 
+## Seguridad de upload-image — 2026-11-28
+
+El endpoint `/api/upload-image` aceptaba subidas públicas (solo rate limit por IP) y dependía de `@vercel/blob` con una cadena vulnerable. Se añadió autenticación por token: el servidor exige `x-admin-token` igual a `ADMIN_UPLOAD_TOKEN` y el `AdminPanel` lo pide una vez por sesión (`sessionStorage`). Si el token es inválido, se limpia y se vuelve a pedir. El endpoint falla cerrado si la variable no está definida.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

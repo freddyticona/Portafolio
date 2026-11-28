@@ -898,10 +898,20 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
         const ext = file.name.split('.').pop() || 'jpg';
         const uniqueFilename = `blog/${timestamp}-${file.name.replace(/\.[^/.]+$/, '')}.${ext}`;
 
+        const adminToken = sessionStorage.getItem('adminUploadToken')
+          || window.prompt(lang === 'es' ? 'Token de administrador para subir imágenes:' : 'Admin token to upload images:') || '';
+        if (!adminToken) {
+          alert(lang === 'es' ? 'Se necesita el token de administrador.' : 'Admin token is required.');
+          setIsUploading(false);
+          return;
+        }
+        sessionStorage.setItem('adminUploadToken', adminToken);
+
         const response = await fetch('/api/upload-image', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            'x-admin-token': adminToken,
           },
           body: JSON.stringify({
             filename: uniqueFilename,
@@ -911,6 +921,7 @@ function PostEditor({ post, isCreating, lang, onSave, onCancel }: PostEditorProp
         });
 
         if (!response.ok) {
+          if (response.status === 401) sessionStorage.removeItem('adminUploadToken');
           const errorData = await response.json();
           throw new Error(errorData.error || 'Failed to upload to Vercel Blob Storage');
         }

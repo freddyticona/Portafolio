@@ -48,6 +48,11 @@ export default async function handler(
     return res.status(429).json({ error: 'Too many uploads. Try again in a minute.' });
   }
 
+  const adminToken = process.env.ADMIN_UPLOAD_TOKEN;
+  if (!adminToken || req.headers['x-admin-token'] !== adminToken) {
+    return res.status(401).json({ error: 'Unauthorized. Missing or invalid admin token.' });
+  }
+
   try {
     const { filename, contentType, content } = req.body;
 
