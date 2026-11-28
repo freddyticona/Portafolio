@@ -99,7 +99,7 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
             onClick={() => handleNavClick('inicio')}
             role="button"
             tabIndex={0}
-            aria-label={lang === 'es' ? 'FREDDY TICONA REALIZADOR AUDIOVISUAL' : 'FREDDY TICONA FILMMAKER AND CINEMATOGRAPHER'}
+            aria-label={lang === 'es' ? 'Freddy Ticona Realizador Audiovisual' : 'Freddy Ticona Filmmaker and Cinematographer'}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 handleNavClick('inicio');
