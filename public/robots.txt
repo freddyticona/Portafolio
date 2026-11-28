@@ -14,7 +14,9 @@ Disallow: /scripts/
 
 # Permitir recursos estáticos
 Allow: /images/
-Allow: /public/
+Allow: /public
+
+Sitemap: https://freddydev.net/sitemap.xml/
 Allow: /assets/
 Allow: /*.css
 Allow: /*.js

@@ -356,6 +356,18 @@ El fondo del hero pasó de una sola foto a un carrusel. El autor eligió las cin
 
 El fondo pasó de negro plano a una composición solo CSS en `html`: dos brillos dorados muy tenues, una rejilla de puntos de 46 px y un degradado vertical. Sin imágenes, sin JS y sin animación, coste cero y contraste intacto. Verificado en navegador en `/servicios`.
 
+## Auditoría técnica SEO/Performance/Seguridad — 2026-11-28
+
+Diagnóstico priorizado y plan de alto impacto aprobado. Cambios aplicados en este commit:
+
+| Área | Cambio | Archivos | Estado |
+|---|---|---|---|
+| Rendimiento | Eliminado `public/videos/showreel.mp4` (57 MB, sin referencias) y optimizadas imágenes >300 KB con Sharp (resize a 1920 px y WebP/JPEG/PNG q82). `public` bajó de 216 MB a ~180 MB | `scripts/_optimize_images.mjs` (temporal), `scripts/image-dimensions.*`, `src/lib/imageDimensions.ts` | ✅ |
+| SEO | H1 estático inyectado en la home para crawlers sin JS; `Sitemap:` añadido a `robots.txt`; OG de servicios estandarizado a `OG_SERVICIOS.webp` | `scripts/generate-pages.js`, `src/index.css`, `public/robots.txt` | ✅ |
+| Seguridad | Content-Security-Policy añadida a `/(.*)` en `vercel.json`, con `frame-src` para YouTube, `connect-src` para GA4/Web3Forms y `worker-src` para el service worker | `vercel.json` | ✅ |
+
+Verificación: `tsc --noEmit` 0 errores, `npm run build` OK en CI, auditoría de enlaces internos 0 rotos. Lighthouse (producción, antes del deploy): SEO 1.00, Best Practices 1.00, accesibilidad 0.97–0.99. Pendiente de verificar post-deploy: CSP sin bloqueos en consola y Lighthouse tras el deploy.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.

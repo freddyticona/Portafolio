@@ -474,6 +474,12 @@ for (const [key, meta] of Object.entries(pages)) {
   </head>`
   );
 
+  // Home: H1 estático para crawlers que no ejecutan JS (el hero se monta después).
+  if (key === '') {
+    const homeBody = `<div id="seo-content" style="display:none"><h1>${escapeXml(pages[''].title)}</h1><p>${escapeXml(pages[''].desc)}</p></div>`;
+    html = html.replace('<div id="root"></div>', `<div id="root"></div>\n    ${homeBody}`);
+  }
+
   // /guias: metadatos propios, JSON-LD del índice y cuerpo estático legible
   // sin JavaScript. El bloque se oculta en cuanto la app monta (clase .js).
   if (key === 'guias') {
@@ -891,6 +897,8 @@ for (const service of servicesCatalog) {
       { '@type': 'Country', name: 'Bolivia' }
     ]
   };
+   html = html.replace(/<meta property="og:image" content=".*?"/, `<meta property="og:image" content="${SITE}/images/OG/OG_SERVICIOS.webp"`);
+   html = html.replace(/<meta name="twitter:image" content=".*?"/, `<meta name="twitter:image" content="${SITE}/images/OG/OG_SERVICIOS.webp"`);
   html = html.replace('</head>', `    <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': [serviceSchema, professionalService, breadcrumb, faq] })}</script>\n  </head>`);
   // hreflang en la ficha (la SPA también lo emite; aquí lo ve Googlebot sin JS)
   html = html.replace('</head>',
