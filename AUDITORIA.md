@@ -388,6 +388,10 @@ Se publicaron 3 artículos en el blog con ejemplos reales, enlaces a fabricantes
 
 Los tres artículos se reescribieron con ejemplos reales (modelos concretos y enlaces a fabricantes), tablas de verificación, sección «Dónde verificar ofertas en Bolivia», guías relacionadas y una sección de fuentes con tiendas oficiales. Las portadas son diseño original del sitio y las fotos de producto se consultan en los enlaces oficiales. `tsc --noEmit` 0 errores, build CI correcto, 0 enlaces rotos.
 
+## Artículos Black Friday gaming — reescritura editorial — 2026-11-28
+
+Se reescribieron los tres artículos con datos comprobados en fichas oficiales el 28/11/2026: Razer DeathAdder V3 US$ 44,99 desde US$ 69,99 (35 %), 59 g, sensor Focus Pro 30K, 26 niveles de lift-off, hasta 8000 Hz; Razer BlackWidow V4 US$ 129,99 desde US$ 169,99 (23 %), switches verde/amarillo, 6 teclas macro, aluminio 5052; SteelSeries Arctis Nova 7 con 38 h de batería y dongle 2,4 GHz para varias plataformas; Steam Deck OLED con pantalla de 7,4" a 90 Hz, 1000 nits, batería de 50 Wh (3–12 h según contenido). También se registró lo observado al abrir las tiendas bolivianas: la sección "gaming" de Multicenter mostraba refrigeradores y salas, la portada de Tienda Amiga mostraba notebooks y muebles, y `/teclados-gamer` de MercadoLibre devuelve 404. No se inventaron precios en bolivianos ni datos de consolas. `tsc --noEmit` 0 errores, build CI correcto, 0 enlaces rotos.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
