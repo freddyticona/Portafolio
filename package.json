@@ -36,7 +36,7 @@
     "@tailwindcss/vite": "^4.1.14",
     "@types/vanilla-tilt": "^1.4.1",
     "@vercel/analytics": "^2.0.1",
-    "@vercel/blob": "^2.6.1",
+    "@vercel/blob": "^2.9.0",
     "@vercel/speed-insights": "^2.0.0",
     "@vitejs/plugin-react": "^6.0.3",
     "dotenv": "^17.2.3",
@@ -64,11 +64,11 @@
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.28.1",
     "puppeteer": "^25.4.0",
-    "sharp": "^0.35.3",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "5.8.3",
-    "vite": "^8.1.5",
+    "vite": "^8.4.0",
     "vitest": "^4.1.10"
   }
 }
