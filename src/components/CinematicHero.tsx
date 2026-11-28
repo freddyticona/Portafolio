@@ -6,6 +6,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SizedImg from './SizedImg';
 import { Award, Play, ChevronDown, Sparkles, MessageCircle } from 'lucide-react';
+import { SERVICES_PRICING } from '../config';
 
 interface CinematicHeroProps {
   onPortfolioClick: () => void;
@@ -73,6 +74,11 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
   };
 
   const content = heroContent[lang];
+
+  const heroServices = ['reel-vertical', 'cobertura-evento', 'reportaje-impacto']
+    .map(id => SERVICES_PRICING.find(service => service.id === id))
+    .filter((service): service is (typeof SERVICES_PRICING)[number] => Boolean(service))
+    .sort((a, b) => a.basePrice - b.basePrice);
 
   return (
     <div
@@ -174,6 +180,34 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
         </div>
       </div>
 
+        {/* Servicios visibles desde el primer pantallazo */}
+        <div
+          className="flex flex-wrap items-center justify-center gap-2"
+          style={{
+            animation: 'fadeIn 1s ease-out forwards',
+            opacity: 0,
+            animationDelay: '1.1s'
+          }}
+        >
+          <span className="text-[10px] font-mono uppercase tracking-widest text-stone-500 mr-1">
+            {lang === 'es' ? 'Servicios' : 'Services'}
+          </span>
+          {heroServices.map(service => (
+            <a
+              key={service.id}
+              href={`/servicios/${service.id}`}
+              className="flex items-center gap-2 px-2.5 py-1.5 rounded-sm bg-black/40 border border-white/10 backdrop-blur-sm hover:border-gold/40 transition-colors"
+            >
+              <span className="text-[10px] sm:text-[11px] text-stone-200">
+                {lang === 'es' ? service.nameEs : service.nameEn}
+              </span>
+              <span className="text-[10px] sm:text-[11px] font-mono font-bold text-gold">
+                {service.currency === 'BOB' ? `Bs ${service.basePrice}` : `${service.currency} ${service.basePrice}`}
+              </span>
+            </a>
+          ))}
+        </div>
+
         {/* Slogan narrativo */}
         <p
           className="max-w-2xl mx-auto text-stone-300 text-sm sm:text-base md:text-lg leading-relaxed font-light font-sans"
@@ -227,7 +261,7 @@ export default function CinematicHero({ onPortfolioClick, onCvClick, onWhatsAppC
 
       {/* Scroll indicator animado */}
       <div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
+        className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
         style={{
           animation: 'fadeIn 1.5s ease-out forwards',
           opacity: 0,

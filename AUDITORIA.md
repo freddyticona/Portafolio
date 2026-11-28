@@ -344,6 +344,10 @@ Lighthouse sobre `https://freddydev.net/servicios` y `/portafolio`: SEO 1,00 y B
 
 Fallos corregidos a raíz de la auditoría: saltos de jerarquía de encabezados (`h4` sin `h3` previo en pasos de servicios y en el modal del portafolio) y nombres accesibles que no coincidían con el texto visible (logo y selector de idioma).
 
+## Servicios en el primer pantallazo — 2026-11-27
+
+El hero de la home solo mostraba presentación personal. Se añadió una franja «Servicios» justo debajo de los logos de certificación con tres tarifas reales tomadas de `servicesPricing.json` (Reel Bs 300, Cobertura de Evento Bs 850, Reportaje Bs 2.200), cada una enlazada a su ficha. Verificado en navegador: la franja aparece en el primer viewport, sin tapar el título ni los CTA. No se añadieron imágenes ni scripts nuevos.
+
 ## Plan de ataque
 
 1. **Prioridad 0** (señaladas por el usuario): licencia tipo P, duplicado de cédula, SOAT 2026, apostilla.
