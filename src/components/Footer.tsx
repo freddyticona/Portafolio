@@ -32,7 +32,7 @@ export default function Footer({ handleNavToTab, lang, t, onOpenPrivacy }: Foote
           
           {/* Column 1: Brand & Description */}
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNavClick('inicio')} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleNavClick('inicio'); } }} role="button" tabIndex={0} aria-label={lang === 'es' ? 'FT Guzmán' : 'FT Guzmán'}>
+            <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNavClick('inicio')} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleNavClick('inicio'); } }} role="button" tabIndex={0}>
               <div className="w-8 h-8 bg-gold rounded-sm flex items-center justify-center font-bold text-black text-sm">
                 FT
               </div>

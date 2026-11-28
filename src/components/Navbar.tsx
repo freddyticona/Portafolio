@@ -99,14 +99,13 @@ export default function Navbar({ activePage, handleNavToTab, lang, setLang, t, d
             onClick={() => handleNavClick('inicio')}
             role="button"
             tabIndex={0}
-            aria-label={lang === 'es' ? 'FT Freddy Ticona Realizador Audiovisual' : 'FT Freddy Ticona Filmmaker and Cinematographer'}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 handleNavClick('inicio');
               }
             }}
           >
-            <div className={`bg-gold rounded-sm flex items-center justify-center font-black text-[#050505] tracking-tighter transition-all duration-300 ${scrolled ? 'w-7 h-7 text-sm' : 'w-10 h-10 text-lg'}`} aria-hidden="true">
+            <div className={`bg-gold rounded-sm flex items-center justify-center font-black text-[#050505] tracking-tighter transition-all duration-300 ${scrolled ? 'w-7 h-7 text-sm' : 'w-10 h-10 text-lg'}`}>
               FT
             </div>
             <div className="leading-none">
